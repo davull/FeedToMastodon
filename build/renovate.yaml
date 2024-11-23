@@ -79,6 +79,6 @@ steps:
         npx renovate
     env:
       RENOVATE_CONFIG_FILE: renovate-config.js
-      RENOVATE_TOKEN: $(System.AccessToken)
+      RENOVATE_TOKEN: $(githubtoken)
       GITHUB_COM_TOKEN: $(githubtoken)
       LOG_LEVEL: ${{ parameters.RenovateLogLevel }}
