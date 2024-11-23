@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
+    "raw": "Interfaces Describe What - Implementations Describe How",
+    "sanitized": "Interfaces Describe What - Implementations Describe How"
+  },
+  {
+    "itemId": "https://ardalis.com/you-should-blog/",
+    "raw": "You Should Blog",
+    "sanitized": "You Should Blog"
+  },
+  {
+    "itemId": "https://ardalis.com/from-microservices-to-modular-monoliths/",
+    "raw": "From Microservices to Modular Monoliths",
+    "sanitized": "From Microservices to Modular Monoliths"
+  },
+  {
+    "itemId": "https://ardalis.com/navigation-properties-between-aggregates-modules/",
+    "raw": "Modeling Navigation Properties Between Aggregates or Modules",
+    "sanitized": "Modeling Navigation Properties Between Aggregates or Modules"
+  },
+  {
+    "itemId": "https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/",
+    "raw": "Comparing Unit Testable Code with Maintainable Code",
+    "sanitized": "Comparing Unit Testable Code with Maintainable Code"
+  },
+  {
+    "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
+    "raw": "Effectively Sharing Resources Between Modules in a Modular Monolith",
+    "sanitized": "Effectively Sharing Resources Between Modules in a Modular Monolith"
+  },
+  {
+    "itemId": "https://ardalis.com/clean-architecture-sucks/",
+    "raw": "Clean Architecture Sucks",
+    "sanitized": "Clean Architecture Sucks"
+  },
+  {
+    "itemId": "https://ardalis.com/technology-edges-bleeding-leading-rusting/",
+    "raw": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting",
+    "sanitized": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting"
+  },
+  {
+    "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
+    "raw": "Stop Debugging and Start Running in Visual Studio",
+    "sanitized": "Stop Debugging and Start Running in Visual Studio"
+  },
+  {
+    "itemId": "https://ardalis.com/5-rules-dtos/",
+    "raw": "5 Rules for DTOs",
+    "sanitized": "5 Rules for DTOs"
+  }
+]

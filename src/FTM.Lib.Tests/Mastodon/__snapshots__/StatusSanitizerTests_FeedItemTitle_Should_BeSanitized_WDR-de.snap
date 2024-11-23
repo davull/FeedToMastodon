@@ -1,0 +1,322 @@
+﻿[
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/wahlleiterin-sucht-wahlhelfer-bundestagswahl-100.html",
+    "raw": "Wahlhelfer bei der Bundestagswahl - was für mich?",
+    "sanitized": "Wahlhelfer bei der Bundestagswahl - was für mich?"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/mocro-mafia-zwei-festnahmen-in-koeln-100.html",
+    "raw": "\"Mocro-Mafia\": Polizei nimmt Verdächtige in Köln fest",
+    "sanitized": "\"Mocro-Mafia\": Polizei nimmt Verdächtige in Köln fest"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/bahn-baustellen-unfall-sicherheit-100.html",
+    "raw": "Sicherheitsrisiko Bahn-Baustelle? Wenn es auf den Gleisen anders läuft",
+    "sanitized": "Sicherheitsrisiko Bahn-Baustelle? Wenn es auf den Gleisen anders läuft"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/inland/merkel-interview-122.html",
+    "raw": "Merkel über das Ampel-Aus: Merkel über das Ampel-Aus: \"Männer!\"",
+    "sanitized": "Merkel über das Ampel-Aus: Merkel über das Ampel-Aus: \"Männer!\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/nah-dran-trumps-truppe100.html",
+    "raw": "Trumps Team - wohin steuern die USA?",
+    "sanitized": "Trumps Team - wohin steuern die USA?"
+  },
+  {
+    "itemId": "https://reportage.wdr.de/wie-moore-unser-klima-schuetzen",
+    "raw": "Wie Moore unser Klima schützen",
+    "sanitized": "Wie Moore unser Klima schützen"
+  },
+  {
+    "itemId": "https://reportage.wdr.de/wie-wird-das-klima-in-nrw-2050",
+    "raw": "Klimawandel in NRW: So wird sich unser Leben bis 2050 verändern",
+    "sanitized": "Klimawandel in NRW: So wird sich unser Leben bis 2050 verändern"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/proteste-afd-buergerdialog-aachen-100.html",
+    "raw": "Tausende protestieren gegen AfD-Bürgerdialog in Aachen",
+    "sanitized": "Tausende protestieren gegen AfD-Bürgerdialog in Aachen"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/wetter-schnee-nrw-174.html",
+    "raw": "Wetter in NRW: Nach Schnee und Glätte bis zu 17 Grad",
+    "sanitized": "Wetter in NRW: Nach Schnee und Glätte bis zu 17 Grad"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/kleiner-panda-aus-dortmunder-zoo-ausgebrochen-100.html",
+    "raw": "Ausgebüxter Kleiner Panda aus Dortmunder Zoo wieder da",
+    "sanitized": "Ausgebüxter Kleiner Panda aus Dortmunder Zoo wieder da"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/loehne-defekte-gasleitung-100.html",
+    "raw": "Gasunfall in Löhne: Kein Gas mindestens bis zum Abend",
+    "sanitized": "Gasunfall in Löhne: Kein Gas mindestens bis zum Abend"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/himmelsleiter-muenster-zurueck-100.html",
+    "raw": "Himmelsleiter leuchtet wieder vom Lamberti-Kirchturm",
+    "sanitized": "Himmelsleiter leuchtet wieder vom Lamberti-Kirchturm"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/polizei-einsatz-berufskolleg-remscheid-hundertschaft-alarm-100.html",
+    "raw": "Remscheid: Polizeieinsatz nach Fehlalarm an Berufskolleg",
+    "sanitized": "Remscheid: Polizeieinsatz nach Fehlalarm an Berufskolleg"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/streit-wald-tagebau-hambach-100.html",
+    "raw": "Kerpen: Wieder Streit um Wald am Tagebau Hambach",
+    "sanitized": "Kerpen: Wieder Streit um Wald am Tagebau Hambach"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/ford-stellenstreichung-koeln-geschaeftsfuehrung-wirtschaftsausschuss-102.html",
+    "raw": "2000 Ford-Mitarbeiter in Köln legen Arbeit nieder",
+    "sanitized": "2000 Ford-Mitarbeiter in Köln legen Arbeit nieder"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/setex-weberei-spinnerei-rheine-100.html",
+    "raw": "Christo-Stoff-Hersteller Setex schließt Werk in Rheine",
+    "sanitized": "Christo-Stoff-Hersteller Setex schließt Werk in Rheine"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/ausland/europa/krieg-ukraine-neue-raketen-rutte-nato-100.html",
+    "raw": "Einsatz gegen die Ukraine: Putin kündigt Serienproduktion von neuer \"Oreschnik\"-Rakete an",
+    "sanitized": "Einsatz gegen die Ukraine: Putin kündigt Serienproduktion von neuer \"Oreschnik\"-Rakete an"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/ausland/europa/ukraine-storm-shadow-102.html",
+    "raw": "Britischer Marschflugkörper: Ukraine bestätigt Angriff mit \"Storm Shadow\"",
+    "sanitized": "Britischer Marschflugkörper: Ukraine bestätigt Angriff mit \"Storm Shadow\""
+  },
+  {
+    "itemId": "https://www.tagesschau.de/ausland/europa/krieg-ukraine-neue-raketen-rutte-beruft-nato-ein-100.html",
+    "raw": "Einsatz gegen die Ukraine: NATO befasst sich mit russischer Rakete",
+    "sanitized": "Einsatz gegen die Ukraine: NATO befasst sich mit russischer Rakete"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/spd-scholz-kanzlerkandidat-102.html",
+    "raw": "Scholz und die K-Frage: K-Frage in der SPD geklärt: Scholz setzt nun auf Wahlkampf",
+    "sanitized": "Scholz und die K-Frage: K-Frage in der SPD geklärt: Scholz setzt nun auf Wahlkampf"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/inland/schuldenbremse-112.html",
+    "raw": "Diskussion über Schuldenbremse: Lockern oder so lassen? Die Schuldenbremse wird zum Wahlkampfthema",
+    "sanitized": "Diskussion über Schuldenbremse: Lockern oder so lassen? Die Schuldenbremse wird zum Wahlkampfthema"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/newsticker/liveblog-ukraine-freitag-456.html",
+    "raw": "Krieg gegen die Ukraine: Ukraine-Liveblog: ++ Ukraine entwickelt wohl neue Flugabwehrsysteme ++",
+    "sanitized": "Krieg gegen die Ukraine: Ukraine-Liveblog: ++ Ukraine entwickelt wohl neue Flugabwehrsysteme ++"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/uebersicht-ukraine-104.html",
+    "raw": "Ausführliche Beiträge zum Krieg in der Ukraine",
+    "sanitized": "Ausführliche Beiträge zum Krieg in der Ukraine"
+  },
+  {
+    "itemId": "https://www.tagesschau.de/newsticker/liveblog-nahost-freitag-206.html",
+    "raw": "Krieg in Nahost: Nahost-Liveblog: ++ Israelische Angriffe auf Vororte Beiruts gemeldet ++",
+    "sanitized": "Krieg in Nahost: Nahost-Liveblog: ++ Israelische Angriffe auf Vororte Beiruts gemeldet ++"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/grossangriff-israel-hamas-gaza-100.html",
+    "raw": "Ausführliche Beiträge zum Krieg in Nahost",
+    "sanitized": "Ausführliche Beiträge zum Krieg in Nahost"
+  },
+  {
+    "itemId": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-2-bundesliga/spiele-und-ergebnisse",
+    "raw": "Live hören und im Ticker: Münster - Köln und Paderborn - Nürnberg",
+    "sanitized": "Live hören und im Ticker: Münster - Köln und Paderborn - Nürnberg"
+  },
+  {
+    "itemId": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-3-liga/ma10379330/viktoria-koeln_energie-cottbus/liveticker",
+    "raw": "3. Liga live: Viktoria Köln gegen Aufsteiger Cottbus",
+    "sanitized": "3. Liga live: Viktoria Köln gegen Aufsteiger Cottbus"
+  },
+  {
+    "itemId": "https://www1.wdr.de/sport/fussball/erste-bundesliga/victor-boniface-108.html",
+    "raw": "Boniface fehlt Leverkusen \"einige Spiele\"",
+    "sanitized": "Boniface fehlt Leverkusen \"einige Spiele\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/update-wdr-aktuell-app-wuensche-weiterentwicklung-100.html",
+    "raw": "Die neue WDR aktuell App: Eure Wünsche im nächsten Update",
+    "sanitized": "Die neue WDR aktuell App: Eure Wünsche im nächsten Update"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/bitcoin-rekordhoch-wo-bezahlen-nrw-100.html",
+    "raw": "Bitcoin-Rekordhoch: Wo in NRW mit Kryptowährung bezahlt werden kann",
+    "sanitized": "Bitcoin-Rekordhoch: Wo in NRW mit Kryptowährung bezahlt werden kann"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-morgenecho-interview/black-friday-fake-shops-leider-sehr-gut-gemacht-100.html",
+    "raw": "Black Friday: \"Fake Shops leider sehr gut gemacht\"",
+    "sanitized": "Black Friday: \"Fake Shops leider sehr gut gemacht\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/island-vulkanausbruch-100.html",
+    "raw": "Vulkanausbruch in Island: Lava läuft zur Blauen Lagune",
+    "sanitized": "Vulkanausbruch in Island: Lava läuft zur Blauen Lagune"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/dubai-schokolade-pistazien-trend-100.html",
+    "raw": "Was hinter dem Hype um die Dubai-Schokolade steckt",
+    "sanitized": "Was hinter dem Hype um die Dubai-Schokolade steckt"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/mordorte/junge-10-vom-nachbarn-ermordet-moerder-legt-kinderleiche-in-tiefkuehltruhe-ab-102.html",
+    "raw": "Mörder legt Kinderleiche in Tiefkühltruhe ab (Lokalzeit MordOrte)",
+    "sanitized": "Mörder legt Kinderleiche in Tiefkühltruhe ab (Lokalzeit MordOrte)"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/echt/pflaster-gegen-alles-echt-clip-100.html",
+    "raw": "Abzocke Heilversprechen - ein Pflaster gegen alles",
+    "sanitized": "Abzocke Heilversprechen - ein Pflaster gegen alles"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/lokalzeit-landschafft/so-denkt-ein-1000-hektar-landwirt-102.html",
+    "raw": "So denkt ein 1000-Hektar-Landwirt",
+    "sanitized": "So denkt ein 1000-Hektar-Landwirt"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/heimatflimmern/als-die-polizei-noch-im-kaefer-kam-blaulichtgeschichten-aus-nrw-102.html",
+    "raw": "Als die Polizei noch im Käfer kam: Blaulichtgeschichten aus NRW",
+    "sanitized": "Als die Polizei noch im Käfer kam: Blaulichtgeschichten aus NRW"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/die-carolin-kebekus-show/schwangerschaftsabbruch-ist-kein-verbrechen-clip-schwangerschaftsabbruch-ist-kein-verbrechen-100.html",
+    "raw": "Schwangerschaftsabbruch ist kein Verbrechen",
+    "sanitized": "Schwangerschaftsabbruch ist kein Verbrechen"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/heimatflimmern/drei-schloesser-ein-traum-clip-drei-schloesser-ein-traum-100.html",
+    "raw": "Heimatflimmern: Drei Schlösser, ein Traum - die schönsten Bauten im Rhein-Erft-Kreis",
+    "sanitized": "Heimatflimmern: Drei Schlösser, ein Traum - die schönsten Bauten im Rhein-Erft-Kreis"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/bundesvibe/wdr-mediathek-sendungen-bundesvibe-clip-wohnung-dringend-gesucht-leben-in-der-wohnkrise--100.html",
+    "raw": "Bundesvibe: Wohnung dringend gesucht: Leben in der Wohnkrise",
+    "sanitized": "Bundesvibe: Wohnung dringend gesucht: Leben in der Wohnkrise"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/menschen-hautnah/menschen-hautnah-raus-aus-dem-kinderheim-rein-ins-leben-clip-raus-aus-dem-kinderheim--rein-ins-leben-100.html",
+    "raw": "Menschen hautnah: Raus aus dem Kinderheim – rein ins Leben",
+    "sanitized": "Menschen hautnah: Raus aus dem Kinderheim – rein ins Leben"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/duesseldorf-oper-neubau-kontrolle-100.html",
+    "raw": "Opern-Neubau in Düsseldorf: Grüne wollen mehr Kontrolle",
+    "sanitized": "Opern-Neubau in Düsseldorf: Grüne wollen mehr Kontrolle"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/zeitzeichen-orthografiekonferenz-beschluss-rechtschreibreform-100.html",
+    "raw": "22.11.1994: Wiener Orthographiekonferenz beschließt Rechtschreibreform",
+    "sanitized": "22.11.1994: Wiener Orthographiekonferenz beschließt Rechtschreibreform"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5394.html",
+    "raw": "Global Pop News: Applaus-Awards für herausragende Veranstaltungsorte verliehen",
+    "sanitized": "Global Pop News: Applaus-Awards für herausragende Veranstaltungsorte verliehen"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5392.html",
+    "raw": "Global Pop News: Doku über Anti-Nazi Festival \"Jamel rockt den Förster\"",
+    "sanitized": "Global Pop News: Doku über Anti-Nazi Festival \"Jamel rockt den Förster\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/audio/cosmo/danke-gut/audio-die-mental-health-krise-in-den-usa-100.html",
+    "raw": "Die Mental-Health-Krise in den USA",
+    "sanitized": "Die Mental-Health-Krise in den USA"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/podcast/machiavelli/machiavelli-sessions-und-stories-100.html",
+    "raw": "Trettmann, Domiziana, Soho Bani und Apsilon bei \"Machiavelli Sessions & Stories\"",
+    "sanitized": "Trettmann, Domiziana, Soho Bani und Apsilon bei \"Machiavelli Sessions & Stories\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/lokalzeit-tauscht-weihnachtswunder-104.html",
+    "raw": "Lokalzeit tauscht: Von Tasse bis WDR 2 Weihnachtswunder",
+    "sanitized": "Lokalzeit tauscht: Von Tasse bis WDR 2 Weihnachtswunder"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/wdr2/veranstaltungen/veranstaltungstermine/wdr2zugabe-pur-Jahresrueckblick-gagfriday100.html",
+    "raw": "WDR 2 Lachen Live präsentiert: Gag Friday - Der Zugabe Pur Jahresrückblick",
+    "sanitized": "WDR 2 Lachen Live präsentiert: Gag Friday - Der Zugabe Pur Jahresrückblick"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/wdr4/dab-umstellung-100.html",
+    "raw": "DAB+: WDR 4 und WDR 2 stellen um – Sendersuchlauf erforderlich",
+    "sanitized": "DAB+: WDR 4 und WDR 2 stellen um – Sendersuchlauf erforderlich"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/auszeichnung-fuer-lokalzeit-100.html",
+    "raw": "Bremer Fernseh- und Digitalpreis 2024 für den WDR",
+    "sanitized": "Bremer Fernseh- und Digitalpreis 2024 für den WDR"
+  },
+  {
+    "itemId": "https://www1.wdr.de/unternehmen/der-wdr/profil/chronik/auszeichnungen/kinderrechtepreis/kinderrechtepreis-102.html",
+    "raw": "Der WDR zeichnet Kinder und Erwachsene aus, die sich für die Rechte von Kindern einsetzen.",
+    "sanitized": "Der WDR zeichnet Kinder und Erwachsene aus, die sich für die Rechte von Kindern einsetzen."
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/deutscher-radiopreis-verleihung-wdr-100.html",
+    "raw": "Deutscher Radiopreis: WDR gewinnt in zwei Kategorien",
+    "sanitized": "Deutscher Radiopreis: WDR gewinnt in zwei Kategorien"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/junge-formate/nice-to-know-newsroom-tiktok-100.html",
+    "raw": "nicetoknow - News auf TikTok",
+    "sanitized": "nicetoknow - News auf TikTok"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/dr-katrin-vernau-als-neue-wdr-intendantin-gewaehlt-100.html",
+    "raw": "Dr. Katrin Vernau zur neuen WDR-Intendantin gewählt",
+    "sanitized": "Dr. Katrin Vernau zur neuen WDR-Intendantin gewählt"
+  },
+  {
+    "itemId": "https://www1.wdr.de/orchester-und-chor/funkhausorchester/orchester/chefdirigent/brophy-100.html",
+    "raw": "David Brophy - Chefdirigent des WDR Funkhausorchesters",
+    "sanitized": "David Brophy - Chefdirigent des WDR Funkhausorchesters"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/wdr-aktuell-app-stores-100.html",
+    "raw": "Die App WDR aktuell begleitet euch durch den Tag",
+    "sanitized": "Die App WDR aktuell begleitet euch durch den Tag"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/der-westen-haelt-zusammen-ehrenamt-helfer-100.html",
+    "raw": "Das war der WDR-Aktionstag: \"Der Westen hält zusammen. Gemeinsam helfen in NRW\"",
+    "sanitized": "Das war der WDR-Aktionstag: \"Der Westen hält zusammen. Gemeinsam helfen in NRW\""
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/wdr-aktuell-whatsapp-kanal-100.html",
+    "raw": "WDR aktuell Whatsapp-Kanal abonnieren - so geht's",
+    "sanitized": "WDR aktuell Whatsapp-Kanal abonnieren - so geht's"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/wdr-intendant-buhrow-100.html",
+    "raw": "Tom Buhrow hört vorzeitig als WDR-Intendant auf",
+    "sanitized": "Tom Buhrow hört vorzeitig als WDR-Intendant auf"
+  },
+  {
+    "itemId": "https://www1.wdr.de/lokalzeit/lokalzeithomestartseite100.html",
+    "raw": "Die Lokalzeit im Netz: Geschichten aus deiner Region",
+    "sanitized": "Die Lokalzeit im Netz: Geschichten aus deiner Region"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/audio/wdr/nah-dran/nah-dran-104.html",
+    "raw": "nah dran – die Geschichte hinter der Nachricht",
+    "sanitized": "nah dran – die Geschichte hinter der Nachricht"
+  },
+  {
+    "itemId": "https://www1.wdr.de/kugelzwei/kugelzweistartseite100.html",
+    "raw": "Übersicht: kugelzwei - Ideen für heute und übermorgen",
+    "sanitized": "Übersicht: kugelzwei - Ideen für heute und übermorgen"
+  },
+  {
+    "itemId": "https://www1.wdr.de/hilfe/leichte-sprache/uebersicht-leichte-sprache-100.html",
+    "raw": "Texte in Leichter Sprache",
+    "sanitized": "Texte in Leichter Sprache"
+  }
+]

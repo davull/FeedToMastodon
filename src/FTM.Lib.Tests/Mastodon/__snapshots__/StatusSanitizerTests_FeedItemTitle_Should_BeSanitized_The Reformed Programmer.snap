@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2938",
+    "raw": "How to update a NuGet library once the author isn’t available",
+    "sanitized": "How to update a NuGet library once the author isn’t available"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2917",
+    "raw": "The (long) journey to a better sharding multi-tenant application",
+    "sanitized": "The (long) journey to a better sharding multi-tenant application"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2891",
+    "raw": "Using custom databases with the AuthP library – Part1: normal apps",
+    "sanitized": "Using custom databases with the AuthP library – Part1: normal apps"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2878",
+    "raw": "A pattern / library for methods that return a status, including localization",
+    "sanitized": "A pattern / library for methods that return a status, including localization"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2857",
+    "raw": "Applying an improved multiple languages library to .NET applications",
+    "sanitized": "Applying an improved multiple languages library to .NET applications"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2835",
+    "raw": "Improving the support of multiple languages in .NET applications",
+    "sanitized": "Improving the support of multiple languages in .NET applications"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2794",
+    "raw": "ASP.NET Core: Three(+1) ways to refresh the claims of a logged-in user",
+    "sanitized": "ASP.NET Core: Three(+1) ways to refresh the claims of a logged-in user"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2769",
+    "raw": "How to take an ASP.NET Core web site “Down for maintenance”",
+    "sanitized": "How to take an ASP.NET Core web site “Down for maintenance”"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2752",
+    "raw": "How to turn an ASP.NET Core appsettings.json file into a fast-read database",
+    "sanitized": "How to turn an ASP.NET Core appsettings.json file into a fast-read database"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2735",
+    "raw": "A .NET distributed cache with a ~25 nanosecond read time!",
+    "sanitized": "A .NET distributed cache with a ~25 nanosecond read time!"
+  }
+]

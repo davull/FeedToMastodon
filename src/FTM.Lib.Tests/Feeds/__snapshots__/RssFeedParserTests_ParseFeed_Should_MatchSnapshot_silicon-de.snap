@@ -1,0 +1,510 @@
+﻿{
+  "Id": "https://www.silicon.de/feed",
+  "Website": "https://www.silicon.de/",
+  "Title": "silicon.de",
+  "LastUpdatedTime": "2024-11-22T15:58:29+00:00",
+  "Description": "TECHNOLOGY POWERING BUSINESS",
+  "Language": "de-DE",
+  "Items": [
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716988",
+      "Title": "Mehr Datenschutz in der Montage",
+      "PublishDate": "2024-11-22T15:56:00+00:00",
+      "Summary": "Assistenzsysteme unterstützen Monteure bei der Arbeit. Zu oft zahlt man jedoch mit den eigenen Daten dafür. Ein Forschungsprojekt will dies ändern.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716988/mehr-datenschutz-in-der-montage"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716985",
+      "Title": "Cyber Resilience Act: Countdown läuft",
+      "PublishDate": "2024-11-22T15:10:24+00:00",
+      "Summary": "Hersteller werden stärker in die Pflicht genommen, den gesamten Lebenszyklus ihrer Produkte in den Blick zu nehmen.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716985/cyber-resilience-act-countdown-laeuft"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716940",
+      "Title": "KI auf dem Prüfstand",
+      "PublishDate": "2024-11-21T15:38:13+00:00",
+      "Summary": "LLMs besitzen einerseits innovative neue Fähigkeiten, stellen Unternehmen allerdings auch vor diverse Herausforderungen: ob EU AI Act, Metriken oder Benchmarks zur Evaluierung von Modellen und Prompts. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716940/ki-auf-dem-pruefstand"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716935",
+      "Title": "Rechenzentren: Deutschland verliert Anschluss",
+      "PublishDate": "2024-11-21T11:05:21+00:00",
+      "Summary": "Server-Ausbau in den USA und China macht große Fortschritte, deutscher Weltmarktanteil sinkt. Lichtblicke in Frankfurt und Berlin.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716935/rechenzentren-deutschland-verliert-anschluss"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716930",
+      "Title": "KI steigert Nachfrage nach hybriden Workplace-Umgebungen",
+      "PublishDate": "2024-11-21T10:11:10+00:00",
+      "Summary": "Der Markt für Workplace Services gerät in Bewegung. Das bestmögliche digitale Nutzererlebnis gilt als Schlüssel für weiteres Wachstum.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716930/ki-steigert-nachfrage-nach-hybriden-workplace-umgebungen"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716902",
+      "Title": "Hagebau erreicht E-Mail-Sicherheit mit der NoSpamProxy Cloud",
+      "PublishDate": "2024-11-20T13:49:45+00:00",
+      "Summary": "Schutz für 10.000 Postfächer über rund 200 Domains: Private-Stack-Variante kombiniert Vorteile einer Cloud-Lösung mit Sicherheit einer dediziert eigenständigen Instanz. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716902/hagebau-erreicht-e-mail-sicherheit-mit-der-nospamproxy-cloud"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716895",
+      "Title": "Rechenzentrumsnetzwerke als Schlüssel für Desaster Recovery",
+      "PublishDate": "2024-11-20T13:27:19+00:00",
+      "Summary": "Huawei Connect Paris: Innovationen rund um Data Center, Storage und IT-Sicherheit.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716895/rechenzentrumsnetzwerke-als-schluessel-fuer-desaster-recovery"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716866",
+      "Title": "Cybersecurity mit KI: Strategischer Vorteil oder Sicherheitsrisiko?",
+      "PublishDate": "2024-11-20T10:30:17+00:00",
+      "Summary": "Mit KI optimieren Hacker ihre Angriffsversuche. Ist CIAM eine Lösung, mit der sich Unternehmen vor Angriffen schützen können? Ein Interview mit Stephan Schweizer von Nevis.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716866/cybersecurity-mit-ki-strategischer-vorteil-oder-sicherheitsrisiko"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716869",
+      "Title": "Datenexplosion durch KI technisch bewältigen",
+      "PublishDate": "2024-11-19T13:06:49+00:00",
+      "Summary": "“Amplify Digital and Green Transformation” hieß die zentrale Botschaft des europäischen Flagship-Events „Huawei Connect“ in Paris.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716869/datenexplosion-durch-ki-technisch-bewaeltigen"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716862",
+      "Title": "Alnatura steigert Kundenerlebnis mit Blue Yonder",
+      "PublishDate": "2024-11-19T11:44:26+00:00",
+      "Summary": "Deutscher Bio-Lebensmittel-Einzelhändler schließt die Migration von Blue Yonder Category Management-Lösungen in die Cloud ab.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716862/alnatura-steigert-kundenerlebnis-mit-blue-yonder"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716846",
+      "Title": "So revolutioniert KI & Automatisierung die Lead-Gewinnung durch Content Produktion",
+      "PublishDate": "2024-11-19T07:00:42+00:00",
+      "Summary": "Die meisten Markenbotschaften bleiben ungehört. Wie schaffen es Unternehmen wie Siemens, SAP oder Deutsche Telekom, immer sichtbar zu sein?",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716846/so-revolutioniert-kuenstliche-intelligenz-automatisierung-die-lead-gewinnung-durch-content-produktion"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716831",
+      "Title": "IT 2025: IT-Führungskräfte erwarten massiven KI-Ruck",
+      "PublishDate": "2024-11-15T10:27:19+00:00",
+      "Summary": "Einsatz von KI-Lösungen wirbelt auch in deutschen Unternehmen die Liste der Top-Technologieanbieter durcheinander.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716831/it-2025-it-fuehrungskraefte-erwarten-massiven-ki-ruck"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716805",
+      "Title": "Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte",
+      "PublishDate": "2024-11-15T07:10:51+00:00",
+      "Summary": "Echtzeitüberweisungen erfüllen die Erwartungen der Nutzer an Geschwindigkeit, sind jedoch anfällig für spezifische Sicherheits- und Datenschutzrisiken.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716805/sofortzahlungen-im-wandel-sicherheit-und-ki-als-treibende-kraefte"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716786",
+      "Title": "Blockaden und Risiken bei APM-Projekten vermeiden",
+      "PublishDate": "2024-11-13T12:39:01+00:00",
+      "Summary": "Application Portfolio Management (APM) verspricht Transparenz, mehr IT-Leistung und Effizienz – theoretisch. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716786/blockaden-und-risiken-bei-apm-projekten-vermeiden"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716768",
+      "Title": "BSI-Bericht: Sicherheitslage im Cyberraum bleibt angespannt",
+      "PublishDate": "2024-11-12T16:44:08+00:00",
+      "Summary": "Im Berichtszeitraum Mitte 2023 bis Mitte 2024 wurden täglich durchschnittlich 309.000 neue Schadprogramm-Varianten bekannt. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716768/bsi-bericht-sicherheitslage-im-cyberraum-bleibt-angespannt"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716753",
+      "Title": "KI-Hype in der Cybersicherheit – oder besser doch nicht?",
+      "PublishDate": "2024-11-12T09:09:23+00:00",
+      "Summary": "KI kommt in der Cybersicherheit zum Einsatz, etwa um Abweichungen im Netzwerkverkehr zu identifizieren. Ist der KI-Einsatz sinnvoll, fragt Sebastian Schmerl von Arctic Wolf.   ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716753/ki-hype-in-der-cybersicherheit-oder-besser-doch-nicht"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716735",
+      "Title": "Netzwerksegementierung schützt vor Angriffen über die OT",
+      "PublishDate": "2024-11-11T14:00:52+00:00",
+      "Summary": "Ungepatchte und veraltetete Maschinen-Software ist ein beliebtes Einfallstor für Hacker, warnt Nils Ullmann von Zscaler im Interview.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716735/netzwerksegementierung-schuetzt-vor-angriffen-ueber-die-ot"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716722",
+      "Title": "KI-Bluff bei AIOps erkennen",
+      "PublishDate": "2024-11-11T09:12:39+00:00",
+      "Summary": "Die Auswahl einer Lösung sollte anhand von echten Leistungsindikatoren erfolgen, um echte KI von Behauptungen zu unterscheiden, sagt Dieter Badmann von Juniper Networks.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716722/ki-bluff-bei-aiops-erkennen"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716719",
+      "Title": "Klinikum Frankfurt an der Oder treibt Digitalisierung voran",
+      "PublishDate": "2024-11-10T10:02:53+00:00",
+      "Summary": "Interdisziplinäres Lenkungsgremium mit Experten aus den Bereichen IT, Medizin, Pflege und Verwaltung sorgt für die digitale Transformation des Klinikums.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716719/klinikum-frankfurt-an-der-oder-treibt-digitalisierung-voran"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716705",
+      "Title": "Pentesting: Vom Luxus zum Standard",
+      "PublishDate": "2024-11-08T09:50:00+00:00",
+      "Summary": "Automatisierung macht Pentesting auch für kleinere Unternehmen erschwinglich, sagt Mareen Dose von indevis.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716705/pentesting-vom-luxus-zum-standard"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716687",
+      "Title": "Must-haves einer Sicherheitsstrategie: Deep Observability und Zero Trust",
+      "PublishDate": "2024-11-07T13:22:07+00:00",
+      "Summary": "Die Sicherheitslandschaft ist alles andere als robust. Unter anderem weil die Sichtbarkeit noch immer kritische Lücken aufweist, meint Tiho Saric von Gigamon.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716687/must-haves-einer-sicherheitsstrategie-deep-observability-und-zero-trust"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716681",
+      "Title": "Open Source: Der gläserne Code als Schutzschild?",
+      "PublishDate": "2024-11-07T08:30:27+00:00",
+      "Summary": "Auch der Einsatz von Open Source Software bringt Herausforderungen mit sich, insbesondere in der IT-Sicherheit, sagt Zac Warren von Tanium.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716681/open-source-der-glaeserne-code-als-schutzschild"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716672",
+      "Title": "Zukunftssichere Datensicherung als Treiber der intelligenten Wirtschaft ",
+      "PublishDate": "2024-11-06T10:19:25+00:00",
+      "Summary": "Studie von Huawei und Roland Berger beleuchtet Schlüsseltrends und neue Anforderungen an Datenspeicherlösungen im KI-Zeitalter.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716672/zukunftssichere-datensicherung-als-treiber-der-intelligenten-wirtschaft"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716669",
+      "Title": "Den Milliarden-Dollar-Bug vermeiden",
+      "PublishDate": "2024-11-06T09:55:34+00:00",
+      "Summary": "Der Ausfall bei CrowdStrike ist nur ein Symptom eines größeren Problems, wenn Unternehmen es versäumen, aus der Vergangenheit zu lernen, sagt Rob Mason von Applause.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716669/den-milliarden-dollar-bug-vermeiden"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716667",
+      "Title": "Nachhaltigeres Wirtschaftswachstum durch Daten und KI?",
+      "PublishDate": "2024-11-06T09:43:13+00:00",
+      "Summary": "PwC-Studie zeigt: KI hilft vielen Unternehmen dabei, die Effizienz zu steigern, Kosten zu senken und gleichzeitig Emissionen zu reduzieren.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716667/nachhaltigeres-wirtschaftswachstum-durch-daten-und-ki"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716645",
+      "Title": "Alle Prozesse im Blick: IT-Service Management bei der Haspa",
+      "PublishDate": "2024-11-05T09:01:25+00:00",
+      "Summary": "Wo es früher auf Buchhalter, Schreiber und Boten ankam, geht es heute vor allem um Workflows und optimierte Prozesse. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716645/alle-prozesse-im-blick-it-service-management-bei-der-haspa"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716642",
+      "Title": "Wie generative KI das Geschäft rund um den Black Friday verändert",
+      "PublishDate": "2024-11-05T08:38:35+00:00",
+      "Summary": "Mit KI-Technologien lässt sich das Einkaufserlebnis personalisieren und der Service optimieren, sagt Gastautor Gabriel Frasconi von Freshworks.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716642/wie-generative-ki-das-geschaeft-rund-um-den-black-friday-veraendert"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716630",
+      "Title": "Banken und Versicherer sind KI-Großabnehmer",
+      "PublishDate": "2024-11-04T11:39:32+00:00",
+      "Summary": "Ein Großteil der weltweiten KI-Gelder fließt in den Finanzsektor. 2023 wurden in der Branche 87 Milliarden US-Dollar in KI investiert.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716630/banken-und-versicherer-sind-ki-grossabnehmer"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716626",
+      "Title": "Siemens legt 10 Milliarden Dollar für Software-Spezialisten auf den Tisch",
+      "PublishDate": "2024-11-04T10:48:33+00:00",
+      "Summary": "Die Übernahme des US-amerikanischen Anbieters Altair Engineering soll die Position im Markt für Computational Science stärken.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716626/siemens-legt-10-milliarden-dollar-fuer-software-spezialisten-auf-den-tisch"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716621",
+      "Title": "Standortübergreifender KI-Einsatz im OP-Saal",
+      "PublishDate": "2024-11-04T09:54:38+00:00",
+      "Summary": "Ein deutsch-französisches Projekt hat hybride Operationssäle entwickelt, die durch 5G-Netz und KI neue Anwendungen ermöglichen.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716621/standortuebergreifender-ki-einsatz-im-op-saal"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716603",
+      "Title": "OT-Security braucht zunächst Asset-Transparenz",
+      "PublishDate": "2024-11-01T10:56:58+00:00",
+      "Summary": "Unternehmen wissen oft nicht, welche Geräte in der Produktion eine IP-Adresse haben, warnt Peter Machat von ARMIS im Interview.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716603/ot-security-braucht-zunaechst-asset-transparenz"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716584",
+      "Title": "Künstliche Intelligenz erreicht die Cloud",
+      "PublishDate": "2024-10-31T13:54:40+00:00",
+      "Summary": "KPMG-Studie: 97 Prozent der Cloud-nutzenden Unternehmen verwenden KI-Dienste von Cloud-Anbietern.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716584/kuenstliche-intelligenz-erreicht-die-cloud"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716579",
+      "Title": "AI Act: Durchblick im Regulierungsdickicht",
+      "PublishDate": "2024-10-31T12:23:17+00:00",
+      "Summary": "Bitkom veröffentlicht Online-Tool und Leitfaden zum KI-Einsatz in Unternehmen. Beide Angebote sind kostenlos.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716579/ai-act-durchblick-im-regulierungsdickicht"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716562",
+      "Title": "Coveo beschleunigt europäisches Wachstum durch Expansion in der DACH-Region",
+      "PublishDate": "2024-10-30T09:52:41+00:00",
+      "Summary": "Neue Kunden sind unter anderem SAP, Conforama Schweiz, 11teamsports, Phillip Morris International, Baywa und Thalia.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716562/coveo-beschleunigt-europaeisches-wachstum-durch-expansion-in-der-dach-region"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716558",
+      "Title": "Britische Behörden setzen auf Oracle Cloud",
+      "PublishDate": "2024-10-30T09:41:31+00:00",
+      "Summary": "Oracle schafft einheitliche Plattform für vier Ministerien und über 250.000 Beamte mit der Oracle Applications Suite und Oracle Cloud Infrastructure.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716558/britische-behoerden-setzten-auf-oracle-cloud"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716555",
+      "Title": "Windows 10: Wer haftet für Datenschutz nach Support-Ende?",
+      "PublishDate": "2024-10-30T09:27:19+00:00",
+      "Summary": "Der Grund: Geräte, die mit veralteter Software arbeiten, sind anfällig für Cyberangriffe und Datenlecks. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716555/windows-10-wer-haftet-fuer-datenschutz-nach-support-ende"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716535",
+      "Title": "AC Mailand setzt auf Pure Storage-Plattform für KI-Projekte",
+      "PublishDate": "2024-10-29T13:24:43+00:00",
+      "Summary": "Pure Storage hat die IT-Infrastruktur des traditionsreichen, italienischen Fußballvereins modernisiert.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716535/ac-mailand-setzt-auf-pure-storage-plattform-fuer-ki-projekte"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716531",
+      "Title": "Fragmentierter Markt für Cloud-IT-Services verschärft Wettbewerbsdruck",
+      "PublishDate": "2024-10-29T13:01:01+00:00",
+      "Summary": "Um langfristig erfolgreich zu sein, müssen Anbieter in spezialisierte Fähigkeiten investieren, empfiehl René Büst von Gartner.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716531/fragmentierter-markt-fuer-cloud-it-services-verschaerft-wettbewerbsdruck"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716527",
+      "Title": "Bringt Stackit SAP-Anwendern die erhoffte Datensouveränität?",
+      "PublishDate": "2024-10-29T12:35:32+00:00",
+      "Summary": "Schwarz Digits, die IT-Sparte der Schwarz-Gruppe, will ERP-Nutzern den Gang in die Cloud erleichtern. Die DSAG nimmt dazu Stellung.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716527/bringt-stackit-sap-anwendern-die-erhoffte-datensouveraenitaet"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716524",
+      "Title": "Massenphänomen „Bring your own AI“",
+      "PublishDate": "2024-10-29T11:56:35+00:00",
+      "Summary": "54 Prozent der deutschen Wissensarbeiter nutzen eine Schatten-KI. Fast ebenso viele würden Verbote umgehen.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716524/massenphaenomen-bring-your-own-ai"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716521",
+      "Title": "Mehr als 200 bösartige Apps im Google Play Store mit über 8 Millionen Downloads",
+      "PublishDate": "2024-10-29T10:07:08+00:00",
+      "Summary": "Mobilgeräte bleiben weiterhin ein großer Bedrohungsvektor mit 111 Prozent Wachstum an Spyware und 29 Prozent an Banking-Malware.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716521/mehr-als-200-boesartige-apps-im-google-play-store-mit-ueber-8-millionen-downloads"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716516",
+      "Title": "Vier KI-Tools, die jedes Unternehmen nutzen sollte",
+      "PublishDate": "2024-10-29T09:20:27+00:00",
+      "Summary": "Um in der schnelllebigen digitalen Welt von heute wettbewerbsfähig zu bleiben, ist es unerlässlich, die richtigen Tools zu nutzen. Unternehmen in vielen Branchen setzen auf künstliche Intelligenz (KI), um die Effizienz zu steigern, Abläufe zu optimieren und das Wachstum anzukurbeln, ähnlich wie Plattformen wie Casino online modernste Technologien nutzen, um das Kundenerlebnis zu verbessern. KI-Tools ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716516/vier-ki-tools-die-jedes-unternehmen-nutzen-sollte"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716413",
+      "Title": "Vier technische Geräte, die Ihre Produktivität steigern",
+      "PublishDate": "2024-10-28T15:09:35+00:00",
+      "Summary": "In der heutigen schnelllebigen Welt ist es unerlässlich, produktiv zu bleiben, egal ob Sie ein Unternehmen leiten, im Homeoffice arbeiten oder einfach nur Online-Spiele spielen. Nehmen wir zum Beispiel Casino online, das das Spielerlebnis durch den Einsatz von Technologie verbessert hat, um ein nahtloses, effektives und kontinuierliches Gameplay zu gewährleisten. In ähnlicher Weise kann der ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716413/vier-technische-geraete-die-ihre-produktivitaet-steigern"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716486",
+      "Title": "Edge Computing als Treiber für dezentrale Infrastrukturen",
+      "PublishDate": "2024-10-28T10:26:44+00:00",
+      "Summary": "Wie lassen sich riesige Datenmengen verarbeiten, ohne gegen die strengen Vorgaben der DSGVO zu verstoßen?",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716486/edge-computing-als-treiber-fuer-dezentrale-infrastrukturen"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716493",
+      "Title": "KI in der Medizin: Neuer Ansatz für effizientere Diagnostik",
+      "PublishDate": "2024-10-28T09:51:25+00:00",
+      "Summary": "Forschende von LMU, TU Berlin und Charité haben ein KI-Tool entwickelt, das anhand von Bildgebungsdaten seltene Krankheiten im Magen-Darm-Trakt erkennt.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716493/ki-in-der-medizin-neuer-ansatz-fuer-effizientere-diagnostik"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716728",
+      "Title": "Wissen digital verkaufen – Strategien, Herausforderungen und Trends",
+      "PublishDate": "2024-10-28T09:27:50+00:00",
+      "Summary": "Der Markt für Online-Kurse wächst rasant, da immer mehr Menschen flexible Lernmethoden bevorzugen. Digitale Produkte bieten Unternehmern die Chance, ihr Wissen skalierbar und gewinnbringend zu vermarkten.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716728/wissen-digital-verkaufen-strategien-herausforderungen-und-trends"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716488",
+      "Title": "Einsatz von Generativer KI in Personalabteilungen",
+      "PublishDate": "2024-10-28T08:41:34+00:00",
+      "Summary": "Effizienz und Zufriedenheit steigen, aber fehlende Strategien und Infrastruktur bremsen das Potenzial.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716488/einsatz-von-genki-in-personalabteilungen"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716481",
+      "Title": "Malware-Ranking September: Formbook marodiert durch deutsche Windows-Geräte",
+      "PublishDate": "2024-10-26T10:08:15+00:00",
+      "Summary": "Infostealer löst in Deutschland CloudEye von der Spitze der aktivsten Malware ab und machte 21 Prozent aller Infektionen aus. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716481/malware-september-formbook-marodiert-durch-deutsche-windows-geraete"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716477",
+      "Title": "ISACA European Conferences: KI-Ausbildung und -Regulierung dringend erforderlich",
+      "PublishDate": "2024-10-26T09:12:58+00:00",
+      "Summary": "Der Erfolg von KI in Unternehmen hängt von der Qualität der Daten ab, die ihnen zur Verfügung stehen.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716477/isaca-european-conferences-ki-ausbildung-und-regulierung-dringend-erforderlich"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41716465",
+      "Title": "DB und Schwarz Digits gründen Datenplattform für KI-Entwickler",
+      "PublishDate": "2024-10-25T16:01:11+00:00",
+      "Summary": "Das Angebot hört auf den Namen DataHub Europe. Industrie, Wissenschaft und Medien sollen auf der Plattform zusammenarbeiten.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41716465/db-und-schwarz-digits-gruenden-datenplattform-fuer-ki-entwickler"
+    }
+  ]
+}

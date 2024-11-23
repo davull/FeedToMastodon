@@ -1,0 +1,102 @@
+﻿[
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure",
+    "raw": "Functional Classes in Clojure",
+    "sanitized": "Functional Classes in Clojure"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes",
+    "raw": "Functional Classes",
+    "sanitized": "Functional Classes"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar",
+    "raw": "Space War",
+    "sanitized": "Space War"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication",
+    "raw": "Functional Duplications",
+    "sanitized": "Functional Duplications"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/09/25/roots",
+    "raw": "Roots",
+    "sanitized": "Roots"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes",
+    "raw": "More On Types",
+    "sanitized": "More On Types"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes",
+    "raw": "On Types",
+    "sanitized": "On Types"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch",
+    "raw": "if-else-switch",
+    "sanitized": "if-else-switch"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing",
+    "raw": "Pairing Guidelines",
+    "sanitized": "Pairing Guidelines"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance",
+    "raw": "Solid Relevance",
+    "sanitized": "Solid Relevance"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/09/30/loopy",
+    "raw": "Loopy",
+    "sanitized": "Loopy"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct",
+    "raw": "Conference Conduct",
+    "sanitized": "Conference Conduct"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation",
+    "raw": "The Disinvitation",
+    "sanitized": "The Disinvitation"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign",
+    "raw": "REPL Driven Design",
+    "sanitized": "REPL Driven Design"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure",
+    "raw": "A Little More Clojure",
+    "sanitized": "A Little More Clojure"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure",
+    "raw": "A Little Clojure",
+    "sanitized": "A Little Clojure"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope",
+    "raw": "A New Hope",
+    "sanitized": "A New Hope"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation",
+    "raw": "Open Letter to the Linux Foundation",
+    "sanitized": "Open Letter to the Linux Foundation"
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs",
+    "raw": "What They Thought of Programmers.",
+    "sanitized": "What They Thought of Programmers."
+  },
+  {
+    "itemId": "http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory",
+    "raw": "Circulatory",
+    "sanitized": "Circulatory"
+  }
+]

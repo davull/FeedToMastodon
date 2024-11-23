@@ -1,0 +1,17 @@
+﻿Functional Classes in Clojure
+
+My previous blog seemed only to continue the confusion regarding classes in Functional Programming.  Indeed, many people got quite irate.  So perhaps a bit of code will help.
+
+Trigger Warning:
+
+
+  Object Oriented Terminology.
+  Dynamically Typed Language.
+  Mixed Metaphors.
+  Distracting Animations.
+
+
+
+  To all the adherents of the Statically Typed Functional Programming religion:  I know that you believe that Static Typing is an ...
+---
+http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html

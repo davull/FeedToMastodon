@@ -1,0 +1,72 @@
+﻿[
+  {
+    "itemId": "https://www.production-ready.de/2024/05/10/integration-testing-with-docker",
+    "raw": "Integrationstest mit Docker Compose und Azure Service-Containers",
+    "sanitized": "Integrationstest mit Docker Compose und Azure Service-Containers"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2024/04/27/integration-testing-with-testcontainers",
+    "raw": "Integrationstest in .NET mit Testcontainern",
+    "sanitized": "Integrationstest in .NET mit Testcontainern"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/12/28/lightweight-architecture-documentation-adr",
+    "raw": "Leichtgewichtige Architekturdokumentation mit ADRs",
+    "sanitized": "Leichtgewichtige Architekturdokumentation mit ADRs"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/12/10/architecture-refactoring-with-archunitnet",
+    "raw": "Architektur-Refactoring mit ArchUnitNET",
+    "sanitized": "Architektur-Refactoring mit ArchUnitNET"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/11/11/kuma-azure-web-app-containers",
+    "raw": "Uptime Kuma in Azure Web App for Containers",
+    "sanitized": "Uptime Kuma in Azure Web App for Containers"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/09/28/refactor-to-purity",
+    "raw": "Refactor to Purity",
+    "sanitized": "Refactor to Purity"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/09/14/test-setup-with-dummy-factories",
+    "raw": "Einfaches Test-Setup mit Dummy-Factories",
+    "sanitized": "Einfaches Test-Setup mit Dummy-Factories"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/08/20/docker-scale-to-zero-with-traefik-sablier",
+    "raw": "Docker Scale-to-Zero mit Traefik und Sablier",
+    "sanitized": "Docker Scale-to-Zero mit Traefik und Sablier"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/07/02/dnscontrol",
+    "raw": "DNS-Automatisierung mit DNSControl",
+    "sanitized": "DNS-Automatisierung mit DNSControl"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/06/10/property-based-testing-in-csharp",
+    "raw": "Property-based testing in C# mit FsCheck",
+    "sanitized": "Property-based testing in C# mit FsCheck"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/05/06/devcontainer-with-vscode",
+    "raw": "Devcontainer mit Visual Studio Code",
+    "sanitized": "Devcontainer mit Visual Studio Code"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/04/29/analyse-terraform-files-with-tfsec",
+    "raw": "Statische Code-Analyse für Terraform",
+    "sanitized": "Statische Code-Analyse für Terraform"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/04/20/aks-kubernetes-update",
+    "raw": "AKS Kubernetes Update",
+    "sanitized": "AKS Kubernetes Update"
+  },
+  {
+    "itemId": "https://www.production-ready.de/2023/04/15/mailgraph-docker-container",
+    "raw": "Mailgraph Docker Container",
+    "sanitized": "Mailgraph Docker Container"
+  }
+]

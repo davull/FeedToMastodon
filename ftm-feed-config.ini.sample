@@ -1,0 +1,10 @@
+[heise.de]
+feed_url = https://www.heise.de/rss/heise-atom.xml
+summary_separator = [...]
+mastodon_server = https://mastodon.social/
+mastodon_access_token = 1234567890
+
+[golem.de]
+feed_url = http://rss.golem.de/rss.php?feed=RSS2.0
+mastodon_server = https://mastodon.social/
+mastodon_access_token = 1234567890

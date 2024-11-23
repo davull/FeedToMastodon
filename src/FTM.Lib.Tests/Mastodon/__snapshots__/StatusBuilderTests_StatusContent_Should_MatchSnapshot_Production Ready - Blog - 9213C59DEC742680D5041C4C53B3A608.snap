@@ -1,0 +1,5 @@
+﻿Uptime Kuma in Azure Web App for Containers
+
+Uptime Kuma ist ein self-hosted Monitoring System, das es erlaubt, die Verfügbarkeit von unterschiedlichen Services zu überwachen. Es bietet eine Vielzahl von Monitoring-Typen an, darunter für verschiedene Arten von HTTP-Endpunkte wie Websites oder REST-APIs. Da es auch als fertiges Docker Image zur Verfügung steht, kann man es einfach als Azure App Service deployen. Für ein Ausrollen mittels Terraform genügt eine ei...
+---
+https://www.production-ready.de/2023/11/11/kuma-azure-web-app-containers.html

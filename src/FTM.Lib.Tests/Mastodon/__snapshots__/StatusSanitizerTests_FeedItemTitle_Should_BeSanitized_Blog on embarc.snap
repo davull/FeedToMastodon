@@ -1,0 +1,732 @@
+﻿[
+  {
+    "itemId": "https://www.embarc.de/interview-matthias-naab-plattformen/",
+    "raw": "Im Gespräch mit Matthias Naab zu Plattformen",
+    "sanitized": "Im Gespräch mit Matthias Naab zu Plattformen"
+  },
+  {
+    "itemId": "https://www.embarc.de/mit-unfix-in-eine-dynamische-zukunft/",
+    "raw": "Success-Story: Mit unFIX in eine dynamische Zukunft",
+    "sanitized": "Success-Story: Mit unFIX in eine dynamische Zukunft"
+  },
+  {
+    "itemId": "https://www.embarc.de/entwicklungsteams-enablen/",
+    "raw": "Entwicklungsteams enablen: Drei Wege aus der Anforderungsmisere",
+    "sanitized": "Entwicklungsteams enablen: Drei Wege aus der Anforderungsmisere"
+  },
+  {
+    "itemId": "https://www.embarc.de/ist-dieses-arc42-eigentlich-alternativlos/",
+    "raw": "arc42 vs. ... -- Ist dieses arc42 eigentlich alternativlos?",
+    "sanitized": "arc42 vs. ... -- Ist dieses arc42 eigentlich alternativlos?"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-lambda/",
+    "raw": "Architektur-Porträt: Der Compute-Service AWS Lambda",
+    "sanitized": "Architektur-Porträt: Der Compute-Service AWS Lambda"
+  },
+  {
+    "itemId": "https://www.embarc.de/prinzipien-umsetzung-querschnittlicher-bounded-contexts/",
+    "raw": "Prinzipien für die Umsetzung querschnittlicher Bounded Contexts",
+    "sanitized": "Prinzipien für die Umsetzung querschnittlicher Bounded Contexts"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-prometheus/",
+    "raw": "Architektur-Porträt: Die Monitoring-Lösung Prometheus",
+    "sanitized": "Architektur-Porträt: Die Monitoring-Lösung Prometheus"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-maven/",
+    "raw": "Architektur-Porträt: Das Build-Management-Tool Maven",
+    "sanitized": "Architektur-Porträt: Das Build-Management-Tool Maven"
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-sven-grasser-plattformen/",
+    "raw": "Im Gespräch mit Sven Grasser zu Plattformen",
+    "sanitized": "Im Gespräch mit Sven Grasser zu Plattformen"
+  },
+  {
+    "itemId": "https://www.embarc.de/kriterien-einfuehrung-querschnittliche-bounded-contexts/",
+    "raw": "Kriterien für die Einführung von querschnittlichen Bounded Contexts",
+    "sanitized": "Kriterien für die Einführung von querschnittlichen Bounded Contexts"
+  },
+  {
+    "itemId": "https://www.embarc.de/was-ist-plattform-engineering/",
+    "raw": "Was ist Plattform-Engineering?",
+    "sanitized": "Was ist Plattform-Engineering?"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarking-embarc/",
+    "raw": "Embarking embarc",
+    "sanitized": "Embarking embarc"
+  },
+  {
+    "itemId": "https://www.embarc.de/consumer-driven-contracts/",
+    "raw": "Ausblick auf die Punsch Session zu Consumer-Driven Contract Testing",
+    "sanitized": "Ausblick auf die Punsch Session zu Consumer-Driven Contract Testing"
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2023-vorschau/",
+    "raw": "Ausblick auf unseren Architektur-Punsch",
+    "sanitized": "Ausblick auf unseren Architektur-Punsch"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-threema/",
+    "raw": "Architektur-Porträt: Der mobile Instant-Messenger Threema",
+    "sanitized": "Architektur-Porträt: Der mobile Instant-Messenger Threema"
+  },
+  {
+    "itemId": "https://www.embarc.de/isaqb-advanced-aufgaben-loesen-intro/",
+    "raw": "iSAQB Advanced Prüfung entschlüsselt - Einleitung",
+    "sanitized": "iSAQB Advanced Prüfung entschlüsselt - Einleitung"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-anwendung/",
+    "raw": "Well Architected Cloud: Die Architektur-Frameworks effektiv und effizient einsetzen",
+    "sanitized": "Well Architected Cloud: Die Architektur-Frameworks effektiv und effizient einsetzen"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-cost-optimization-sustainability/",
+    "raw": "Well Architected Cloud: die Pillars \"Cost Optimization\" und Sustainability",
+    "sanitized": "Well Architected Cloud: die Pillars \"Cost Optimization\" und Sustainability"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-hugo/",
+    "raw": "Architektur-Porträt: Der statische Website-Generator Hugo",
+    "sanitized": "Architektur-Porträt: Der statische Website-Generator Hugo"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-performance-efficiency/",
+    "raw": "Well Architected Cloud: die \"Performance Efficiency\"-Pillar",
+    "sanitized": "Well Architected Cloud: die \"Performance Efficiency\"-Pillar"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-reliability/",
+    "raw": "Well Architected Cloud: die Reliability-Pillar",
+    "sanitized": "Well Architected Cloud: die Reliability-Pillar"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-security/",
+    "raw": "Well Architected Cloud: die Security-Pillar",
+    "sanitized": "Well Architected Cloud: die Security-Pillar"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-neo4j/",
+    "raw": "Architektur-Porträt: Die Graphdatenbank Neo4j",
+    "sanitized": "Architektur-Porträt: Die Graphdatenbank Neo4j"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-operational-excellence/",
+    "raw": "Well Architected Cloud: die \"Operational Excellence\"-Pillar",
+    "sanitized": "Well Architected Cloud: die \"Operational Excellence\"-Pillar"
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-ueberblick/",
+    "raw": "Well Architected Cloud: ein Überblick über drei Architektur-Ratgeber",
+    "sanitized": "Well Architected Cloud: ein Überblick über drei Architektur-Ratgeber"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-golang/",
+    "raw": "Architektur-Porträt: Die Programmiersprache Go",
+    "sanitized": "Architektur-Porträt: Die Programmiersprache Go"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-corona-warn-app/",
+    "raw": "Architektur-Porträt: Corona-Warn-App",
+    "sanitized": "Architektur-Porträt: Corona-Warn-App"
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-larysa-visengeriyeva-datamesh/",
+    "raw": "Im Gespräch mit Dr. Larysa Visengeriyeva zu \"Data Mesh\"",
+    "sanitized": "Im Gespräch mit Dr. Larysa Visengeriyeva zu \"Data Mesh\""
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-ina-einemann-productowner/",
+    "raw": "Im Gespräch mit Ina Einemann zu ihrem Vortrag \"Product Ownership meistern - Produkte erfolgreich entwickeln\"",
+    "sanitized": "Im Gespräch mit Ina Einemann zu ihrem Vortrag \"Product Ownership meistern - Produkte erfolgreich entwickeln\""
+  },
+  {
+    "itemId": "https://www.embarc.de/was-sind-architektur-katas/",
+    "raw": "Was sind Architektur-Katas?",
+    "sanitized": "Was sind Architektur-Katas?"
+  },
+  {
+    "itemId": "https://www.embarc.de/ausblick-isaqb-advanced-pruefung/",
+    "raw": "Ausblick auf die Punsch Session zur iSAQB Advanced Prüfung",
+    "sanitized": "Ausblick auf die Punsch Session zur iSAQB Advanced Prüfung"
+  },
+  {
+    "itemId": "https://www.embarc.de/fragen-an-peter-gafert/",
+    "raw": "Im Gespräch mit Peter Gafert zu ArchUnit und seinem Vortrag \"Gemeinsam gegen den Ball-of-Mud\"",
+    "sanitized": "Im Gespräch mit Peter Gafert zu ArchUnit und seinem Vortrag \"Gemeinsam gegen den Ball-of-Mud\""
+  },
+  {
+    "itemId": "https://www.embarc.de/fragen-an-tobias-ahlers/",
+    "raw": "Im Gespräch mit Tobias Ahlers zu Diagrams-as-Code",
+    "sanitized": "Im Gespräch mit Tobias Ahlers zu Diagrams-as-Code"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-spring-framework/",
+    "raw": "Architektur-Porträt: Das Spring Framework",
+    "sanitized": "Architektur-Porträt: Das Spring Framework"
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2022-vorschau/",
+    "raw": "Ausblick auf unseren Architektur-Punsch",
+    "sanitized": "Ausblick auf unseren Architektur-Punsch"
+  },
+  {
+    "itemId": "https://www.embarc.de/aufbrechen-mit-embarc/",
+    "raw": "Aufbrechen mit embarc",
+    "sanitized": "Aufbrechen mit embarc"
+  },
+  {
+    "itemId": "https://www.embarc.de/doctoolchain/",
+    "raw": "Eine Einführung in docToolchain",
+    "sanitized": "Eine Einführung in docToolchain"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-visual-studio-code/",
+    "raw": "Architektur-Porträt: Visual Studio Code",
+    "sanitized": "Architektur-Porträt: Visual Studio Code"
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2021-rueckblick/",
+    "raw": "Rückblick auf unseren Architektur-Punsch",
+    "sanitized": "Rückblick auf unseren Architektur-Punsch"
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturdoku-buch-dritte-auflage/",
+    "raw": "Softwarchitekturen dokumentieren und kommunzieren.",
+    "sanitized": "Softwarchitekturen dokumentieren und kommunzieren."
+  },
+  {
+    "itemId": "https://www.embarc.de/was-ist-docs-as-code/",
+    "raw": "Was ist eigentlich Docs-as-Code?",
+    "sanitized": "Was ist eigentlich Docs-as-Code?"
+  },
+  {
+    "itemId": "https://www.embarc.de/was-geht-ab-in-meinem-cluster-fragen-an-matthias-haeussler/",
+    "raw": "Was geht ab in meinem Cluster? Im Gespräch mit Matthias Haeussler",
+    "sanitized": "Was geht ab in meinem Cluster? Im Gespräch mit Matthias Haeussler"
+  },
+  {
+    "itemId": "https://www.embarc.de/roewekamp-ki-ethik/",
+    "raw": "Künstliche Intelligenz – alter Wein in neuen Schläuchen oder neuer, heißer Sch* bei geselligem Punsch?",
+    "sanitized": "Künstliche Intelligenz – alter Wein in neuen Schläuchen oder neuer, heißer Sch* bei geselligem Punsch?"
+  },
+  {
+    "itemId": "https://www.embarc.de/kopf-voller-softwarearchitektur-begriffsbild/",
+    "raw": "Den Kopf voller Softwarearchitektur",
+    "sanitized": "Den Kopf voller Softwarearchitektur"
+  },
+  {
+    "itemId": "https://www.embarc.de/softwaredokumentation-liebe-auf-den-zweiten-blick-fragen-an-stephan-pirnbaum/",
+    "raw": "Softwaredokumentation - Liebe auf den zweiten Blick. Im Gespräch mit Stephan Pirnbaum",
+    "sanitized": "Softwaredokumentation - Liebe auf den zweiten Blick. Im Gespräch mit Stephan Pirnbaum"
+  },
+  {
+    "itemId": "https://www.embarc.de/deutsch-techies-fragen-an-melanie-andrisek/",
+    "raw": "Deutsch für Techies. Im Gespräch mit Melanie Andrisek",
+    "sanitized": "Deutsch für Techies. Im Gespräch mit Melanie Andrisek"
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2021-vorschau/",
+    "raw": "Ausblick auf unseren Architektur-Punsch",
+    "sanitized": "Ausblick auf unseren Architektur-Punsch"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/transformer-zoo/",
+    "raw": "Der Transformer Zoo",
+    "sanitized": "Der Transformer Zoo"
+  },
+  {
+    "itemId": "https://www.embarc.de/midsommar-2021-rueckblick/",
+    "raw": "Rückblick auf unseren Architektur-Midsommar",
+    "sanitized": "Rückblick auf unseren Architektur-Midsommar"
+  },
+  {
+    "itemId": "https://www.embarc.de/midsommar-gather-town/",
+    "raw": "Midsommar, Mittsommer oder Sommersonnenwende?",
+    "sanitized": "Midsommar, Mittsommer oder Sommersonnenwende?"
+  },
+  {
+    "itemId": "https://www.embarc.de/socreatory-trainings-embarc-innoq/",
+    "raw": "Zusammen, um Wissen zu teilen",
+    "sanitized": "Zusammen, um Wissen zu teilen"
+  },
+  {
+    "itemId": "https://www.embarc.de/new-work-entscheidungen/",
+    "raw": "Das Team entscheidet! Aber wie?",
+    "sanitized": "Das Team entscheidet! Aber wie?"
+  },
+  {
+    "itemId": "https://www.embarc.de/cwa-unter-der-lupe/",
+    "raw": "Corona-Warn-App unter der Lupe",
+    "sanitized": "Corona-Warn-App unter der Lupe"
+  },
+  {
+    "itemId": "https://www.embarc.de/softwarearchitektur-fuer-ml/",
+    "raw": "Softwarearchitektur für Machine Learning",
+    "sanitized": "Softwarearchitektur für Machine Learning"
+  },
+  {
+    "itemId": "https://www.embarc.de/eventual-consistency-fragen-an-susanne-braun/",
+    "raw": "Eventual Consistency. Sieben Fragen an Susanne Braun",
+    "sanitized": "Eventual Consistency. Sieben Fragen an Susanne Braun"
+  },
+  {
+    "itemId": "https://www.embarc.de/remote-weiterbildung/",
+    "raw": "Virtuelles Weiterbilden: Remote statt Präsenz",
+    "sanitized": "Virtuelles Weiterbilden: Remote statt Präsenz"
+  },
+  {
+    "itemId": "https://www.embarc.de/softwareentwicklungsraute/",
+    "raw": "Die Software-Raute - Aspekte im Kontext",
+    "sanitized": "Die Software-Raute - Aspekte im Kontext"
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturprinzipien-pruefsteine/",
+    "raw": "Prüfsteine. Architekturprinzipien am Beispiel von Tracing-Apps",
+    "sanitized": "Prüfsteine. Architekturprinzipien am Beispiel von Tracing-Apps"
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-ohne-tellerrand-saa2021/",
+    "raw": "Architektur ohne Tellerrand - die SAA Konferenz",
+    "sanitized": "Architektur ohne Tellerrand - die SAA Konferenz"
+  },
+  {
+    "itemId": "https://www.embarc.de/ml-buch-v2/",
+    "raw": "Machine Learning – kurz & gut",
+    "sanitized": "Machine Learning – kurz & gut"
+  },
+  {
+    "itemId": "https://www.embarc.de/softwarearchitektur-briefmarken/",
+    "raw": "Ein Softwarearchitektur Who’s Who in Briefmarken",
+    "sanitized": "Ein Softwarearchitektur Who’s Who in Briefmarken"
+  },
+  {
+    "itemId": "https://www.embarc.de/wunschzettel-spicker/",
+    "raw": "Euer Wunschzettel für unsere Architekturspicker",
+    "sanitized": "Euer Wunschzettel für unsere Architekturspicker"
+  },
+  {
+    "itemId": "https://www.embarc.de/arcpunsch-rueckblick/",
+    "raw": "Rückblick auf unseren Architektur-Punsch",
+    "sanitized": "Rückblick auf unseren Architektur-Punsch"
+  },
+  {
+    "itemId": "https://www.embarc.de/scientist-fitness-function/",
+    "raw": "Scientist: Refactoring in Produktion",
+    "sanitized": "Scientist: Refactoring in Produktion"
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturspicker-vertont/",
+    "raw": "Architekturspicker Backstage - Vertonter Beitrag zu Nr.4 Architektur-Reviews",
+    "sanitized": "Architekturspicker Backstage - Vertonter Beitrag zu Nr.4 Architektur-Reviews"
+  },
+  {
+    "itemId": "https://www.embarc.de/cwa-oop-preview/",
+    "raw": "Vorschau: OOP-Vortrag zu Architektur-Reviews",
+    "sanitized": "Vorschau: OOP-Vortrag zu Architektur-Reviews"
+  },
+  {
+    "itemId": "https://www.embarc.de/sieben-tipps-affinity-photo/",
+    "raw": "7 Tricks und Tipps mit Affinity Photo",
+    "sanitized": "7 Tricks und Tipps mit Affinity Photo"
+  },
+  {
+    "itemId": "https://www.embarc.de/gute-vorsaetze-2021/",
+    "raw": "Gute Vorsätze für 2021",
+    "sanitized": "Gute Vorsätze für 2021"
+  },
+  {
+    "itemId": "https://www.embarc.de/golang-jugsaxony-video/",
+    "raw": "Video zur Programmiersprache Go vom JUG Saxony Day 2020",
+    "sanitized": "Video zur Programmiersprache Go vom JUG Saxony Day 2020"
+  },
+  {
+    "itemId": "https://www.embarc.de/sieben-monate-embarc/",
+    "raw": "7 Monate embarc – ein Rückblick",
+    "sanitized": "7 Monate embarc – ein Rückblick"
+  },
+  {
+    "itemId": "https://www.embarc.de/testcontainers/",
+    "raw": "Leichtere Integrationstests mit Testcontainers",
+    "sanitized": "Leichtere Integrationstests mit Testcontainers"
+  },
+  {
+    "itemId": "https://www.embarc.de/brettspiele-weihnachten/",
+    "raw": "Neue Brettspiele für Weihnachten",
+    "sanitized": "Neue Brettspiele für Weihnachten"
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturueberblicke-anfertigen/",
+    "raw": "Von der Kunst Architekturüberblicke anzufertigen",
+    "sanitized": "Von der Kunst Architekturüberblicke anzufertigen"
+  },
+  {
+    "itemId": "https://www.embarc.de/organisationsentwicklung-und-hygge/",
+    "raw": "Was hat „hygge“ mit Organisationsentwicklung zu tun?",
+    "sanitized": "Was hat „hygge“ mit Organisationsentwicklung zu tun?"
+  },
+  {
+    "itemId": "https://www.embarc.de/java-15-16/",
+    "raw": "Java 15 und 16 - auf dem Weg zur nächsten LTS-Version",
+    "sanitized": "Java 15 und 16 - auf dem Weg zur nächsten LTS-Version"
+  },
+  {
+    "itemId": "https://www.embarc.de/frontend-architektur/",
+    "raw": "Frontend-Architektur für Unternehmensanwendungen / Spicker #9",
+    "sanitized": "Frontend-Architektur für Unternehmensanwendungen / Spicker #9"
+  },
+  {
+    "itemId": "https://www.embarc.de/pragmatische-fitness-functions/",
+    "raw": "Pragmatische Fitness Functions (Basta!)",
+    "sanitized": "Pragmatische Fitness Functions (Basta!)"
+  },
+  {
+    "itemId": "https://www.embarc.de/mikado-methode/",
+    "raw": "Mikado Methode",
+    "sanitized": "Mikado Methode"
+  },
+  {
+    "itemId": "https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/",
+    "raw": "Nikolaus, Stiefel raus!",
+    "sanitized": "Nikolaus, Stiefel raus!"
+  },
+  {
+    "itemId": "https://www.embarc.de/tag-des-krampus/",
+    "raw": "Der Schatten vom Nikolaus - Gruss vom Krampus",
+    "sanitized": "Der Schatten vom Nikolaus - Gruss vom Krampus"
+  },
+  {
+    "itemId": "https://www.embarc.de/adventsgrillen/",
+    "raw": "Mit brennendem Heu - Elemente der analogen Küche",
+    "sanitized": "Mit brennendem Heu - Elemente der analogen Küche"
+  },
+  {
+    "itemId": "https://www.embarc.de/ades-framework-download/",
+    "raw": "ADES als Kompass und Taktgeber",
+    "sanitized": "ADES als Kompass und Taktgeber"
+  },
+  {
+    "itemId": "https://www.embarc.de/wissen-teilen/",
+    "raw": "Wissen teilen - Vom Lernen zum Lehren",
+    "sanitized": "Wissen teilen - Vom Lernen zum Lehren"
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturstile-software-echt/",
+    "raw": "Architekturstile in Software und in echt. Und ein Buchtipp",
+    "sanitized": "Architekturstile in Software und in echt. Und ein Buchtipp"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/warum-ml-zu-agile-passt/",
+    "raw": "Machine Learning (ML) meets Agile",
+    "sanitized": "Machine Learning (ML) meets Agile"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-september-2020/",
+    "raw": "embarc echo - September 2020",
+    "sanitized": "embarc echo - September 2020"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/machine-learning-anwendungen/",
+    "raw": "Anwendungen für Machine Learning finden",
+    "sanitized": "Anwendungen für Machine Learning finden"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/was-tun-gegen-die-videokonferenz-m%C3%BCdigkeit/",
+    "raw": "Was tun gegen die Videokonferenz-Müdigkeit?",
+    "sanitized": "Was tun gegen die Videokonferenz-Müdigkeit?"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/was-k%C3%B6nnen-wir-durch-die-corona-krise-%C3%BCber-organisationen-lernen/",
+    "raw": "Was können wir durch die Corona-Krise über Organisationen lernen?",
+    "sanitized": "Was können wir durch die Corona-Krise über Organisationen lernen?"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/machine-learning-anwendungen-text/",
+    "raw": "Anwendungen für Machine Learning: Text",
+    "sanitized": "Anwendungen für Machine Learning: Text"
+  },
+  {
+    "itemId": "https://www.embarc.de/online-meetings-warum-sind-die-so-anstrengend/",
+    "raw": "Online-Meetings - warum sind die so anstrengend?",
+    "sanitized": "Online-Meetings - warum sind die so anstrengend?"
+  },
+  {
+    "itemId": "https://www.embarc.de/agila-in-den-zeiten-der-corona/",
+    "raw": "AGILA in den Zeiten der Corona",
+    "sanitized": "AGILA in den Zeiten der Corona"
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/meta-learning-was-ich-beim-elearning-remote-moderation-%C3%BCbers-lehren-gelernt-habe/",
+    "raw": "Meta-learning: Was ich beim eLearning „Remote Moderation“ übers Lehren gelernt habe",
+    "sanitized": "Meta-learning: Was ich beim eLearning „Remote Moderation“ übers Lehren gelernt habe"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-september-2019/",
+    "raw": "embarc echo - September 2019",
+    "sanitized": "embarc echo - September 2019"
+  },
+  {
+    "itemId": "https://www.embarc.de/einheitlicher-ui-rahmen-php-ssi-micro-moves-bauteil-8/",
+    "raw": "Einheitlicher UI-Rahmen mit PHP und Server Side Includes",
+    "sanitized": "Einheitlicher UI-Rahmen mit PHP und Server Side Includes"
+  },
+  {
+    "itemId": "https://www.embarc.de/security-services-jwt-micro-moves-bauteil-7/",
+    "raw": "Security: Spieler für alle Services anmelden mit JWT",
+    "sanitized": "Security: Spieler für alle Services anmelden mit JWT"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-februar-2019/",
+    "raw": "embarc echo - Februar 2019",
+    "sanitized": "embarc echo - Februar 2019"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2018/",
+    "raw": "embarc echo - Juli 2018",
+    "sanitized": "embarc echo - Juli 2018"
+  },
+  {
+    "itemId": "https://www.embarc.de/computergegner-asynchron-anbinden-rabbitmq-micro-moves-bauteil-6/",
+    "raw": "Einen Computergegner asynchron anbinden mit RabbitMQ",
+    "sanitized": "Einen Computergegner asynchron anbinden mit RabbitMQ"
+  },
+  {
+    "itemId": "https://www.embarc.de/spielregeln-schach-robuste-aufrufe-hystrix-micro-moves-bauteil-5/",
+    "raw": "Spielregeln für Schach und für robuste Aufrufe mit Hystrix",
+    "sanitized": "Spielregeln für Schach und für robuste Aufrufe mit Hystrix"
+  },
+  {
+    "itemId": "https://www.embarc.de/services-verbinden-nginx-reverse-proxy-docker-micro-moves-bauteil-4/",
+    "raw": "Services bündeln mit nginx als Reverse Proxy und Docker",
+    "sanitized": "Services bündeln mit nginx als Reverse Proxy und Docker"
+  },
+  {
+    "itemId": "https://www.embarc.de/single-page-application-vue-js-micro-moves-bauteil-3/",
+    "raw": "Figuren ziehen mit Single Page Application in Vue.js",
+    "sanitized": "Figuren ziehen mit Single Page Application in Vue.js"
+  },
+  {
+    "itemId": "https://www.embarc.de/service-schach-diagramme-python-flask-micro-moves-bauteil-2/",
+    "raw": "Service für Schach-Diagramme mit Python und Flask",
+    "sanitized": "Service für Schach-Diagramme mit Python und Flask"
+  },
+  {
+    "itemId": "https://www.embarc.de/erster-service-mit-java-und-spring-boot-micro-moves-bauteil-1/",
+    "raw": "Ein erster Service mit Java und Spring Boot",
+    "sanitized": "Ein erster Service mit Java und Spring Boot"
+  },
+  {
+    "itemId": "https://www.embarc.de/micro-moves-zeitgenoessische-softwarearchitektur-als-bausatz-intro/",
+    "raw": "Zeitgenössische Softwarearchitektur als Bausatz",
+    "sanitized": "Zeitgenössische Softwarearchitektur als Bausatz"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-maerz-2018/",
+    "raw": "embarc echo - März 2018",
+    "sanitized": "embarc echo - März 2018"
+  },
+  {
+    "itemId": "https://www.embarc.de/fen-forsyth-edwards-notation/",
+    "raw": "Spielsituation als Zeichenkette ... FEN (Forsyth-Edwards-Notation)",
+    "sanitized": "Spielsituation als Zeichenkette ... FEN (Forsyth-Edwards-Notation)"
+  },
+  {
+    "itemId": "https://www.embarc.de/schachbegriffe-auf-englisch/",
+    "raw": "Lady hits farmer ... Schachbegriffe auf Englisch",
+    "sanitized": "Lady hits farmer ... Schachbegriffe auf Englisch"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-2017-2/",
+    "raw": "embarc echo - II 2017",
+    "sanitized": "embarc echo - II 2017"
+  },
+  {
+    "itemId": "https://www.embarc.de/echo-2017/",
+    "raw": "embarc echo - I 2017",
+    "sanitized": "embarc echo - I 2017"
+  },
+  {
+    "itemId": "https://www.embarc.de/drei-dinge-architekturdiagramme-plantuml-nerven/",
+    "raw": "Drei Dinge, die mich bei Architekturdiagrammen mit plantUML nerv(t)en",
+    "sanitized": "Drei Dinge, die mich bei Architekturdiagrammen mit plantUML nerv(t)en"
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-3-von-3/",
+    "raw": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (3/3)",
+    "sanitized": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (3/3)"
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-2-von-3/",
+    "raw": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (2/3)",
+    "sanitized": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (2/3)"
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-1-von-3/",
+    "raw": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (1/3)",
+    "sanitized": "Die sieben Regeln für gute Dokumentation in Stein gemeißelt? (1/3)"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2016/",
+    "raw": "embarc echo - Juli 2016",
+    "sanitized": "embarc echo - Juli 2016"
+  },
+  {
+    "itemId": "https://www.embarc.de/isaqb-cpsa-advanced-pruefungsaufgaben/",
+    "raw": "Wie sehen iSAQB CPSA-Advanced Prüfungsaufgaben eigentlich aus?",
+    "sanitized": "Wie sehen iSAQB CPSA-Advanced Prüfungsaufgaben eigentlich aus?"
+  },
+  {
+    "itemId": "https://www.embarc.de/abheften-mit-arc42-fuer-fortgeschrittene-konzept-oder-entscheidung/",
+    "raw": "Konzept oder Entscheidung in arc42?",
+    "sanitized": "Konzept oder Entscheidung in arc42?"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-januar-2016/",
+    "raw": "embarc echo - Januar 2016",
+    "sanitized": "embarc echo - Januar 2016"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-die-schnipsel-zusammensetzen/",
+    "raw": "arc42-Starschnitt: Gradle. Die Schnipsel zusammensetzen",
+    "sanitized": "arc42-Starschnitt: Gradle. Die Schnipsel zusammensetzen"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2015/",
+    "raw": "embarc echo - Juli 2015",
+    "sanitized": "embarc echo - Juli 2015"
+  },
+  {
+    "itemId": "https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/",
+    "raw": "Top-Tools für Architekturdokumentation",
+    "sanitized": "Top-Tools für Architekturdokumentation"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-januar-2015/",
+    "raw": "embarc echo - Januar 2015",
+    "sanitized": "embarc echo - Januar 2015"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-10-loesungsstrategie/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 10: Lösungsstrategie",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 10: Lösungsstrategie"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-9-konzepte/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 9: Übergreifende Konzepte",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 9: Übergreifende Konzepte"
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-auf-das-1-halbjahr-2014/",
+    "raw": "embarc echo auf das 1. Halbjahr 2014",
+    "sanitized": "embarc echo auf das 1. Halbjahr 2014"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-8-randbedingungen/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 8: Randbedingungen",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 8: Randbedingungen"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-7-qualitaetsszenarien/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 7: Qualitätsszenarien",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 7: Qualitätsszenarien"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-6-grafisches-glossar/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 6: Grafisches Glossar",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 6: Grafisches Glossar"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-5-architekturentscheidungen/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 5: Architekturentscheidungen",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 5: Architekturentscheidungen"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-4-bausteinsicht/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 4: Bausteinsicht",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 4: Bausteinsicht"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-3-qualitaetsziele/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 3: Qualitätsziele",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 3: Qualitätsziele"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-2-systemkontext/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 2: Systemkontext",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 2: Systemkontext"
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-1-produktkarton/",
+    "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 1: Produktkarton",
+    "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 1: Produktkarton"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-12-big-picture-mit-entscheidern-kommunizieren/",
+    "raw": "The Big Picture. Oder: Wovon träumen Computerwoche-Leser nachts?",
+    "sanitized": "The Big Picture. Oder: Wovon träumen Computerwoche-Leser nachts?"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-11-tartan-architektur-muster-dokumentieren/",
+    "raw": "Tartan-Architektur – Muster dokumentieren",
+    "sanitized": "Tartan-Architektur – Muster dokumentieren"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-10-out-of-the-box-produktkartons/",
+    "raw": "Out of the Box – Produktkartons",
+    "sanitized": "Out of the Box – Produktkartons"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-9-big-brother/",
+    "raw": "Big Brother -- Dokumentieren im Container",
+    "sanitized": "Big Brother -- Dokumentieren im Container"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-8-fuer-die-ewigkeit-die-tonne-oder-etwas-dazwischen/",
+    "raw": "Für die Ewigkeit? Die Tonne? Oder etwas dazwischen?",
+    "sanitized": "Für die Ewigkeit? Die Tonne? Oder etwas dazwischen?"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-7-historisch-gewachsen-entscheidungen-festhalten/",
+    "raw": "Historisch gewachsen? - Entscheidungen festhalten",
+    "sanitized": "Historisch gewachsen? - Entscheidungen festhalten"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-6-von-software-messies-und-jar-file-schlampen/",
+    "raw": "Von Software-Messies und Jar-File-Schlampen",
+    "sanitized": "Von Software-Messies und Jar-File-Schlampen"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-5-laufzeitsicht-der-juengste-spieler-faengt/",
+    "raw": "Laufzeitsicht: Der jüngste Spieler fängt an!",
+    "sanitized": "Laufzeitsicht: Der jüngste Spieler fängt an!"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-4-was-ist-was-band-127-unser-softwaresystem/",
+    "raw": "Was ist was? Band 127: Unser Softwaresystem",
+    "sanitized": "Was ist was? Band 127: Unser Softwaresystem"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-3-hat-mozart-modelliert/",
+    "raw": "Hat Mozart modelliert?",
+    "sanitized": "Hat Mozart modelliert?"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-2-systemkontext/",
+    "raw": "Kombiniere -- der Systemkontext",
+    "sanitized": "Kombiniere -- der Systemkontext"
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-1-voll-unagil/",
+    "raw": "Architekturen dokumentieren: Voll unagil?",
+    "sanitized": "Architekturen dokumentieren: Voll unagil?"
+  }
+]

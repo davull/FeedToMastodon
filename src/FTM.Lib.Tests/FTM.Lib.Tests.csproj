@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions"/>
+        <PackageReference Include="FluentAssertions.Analyzers">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="NUnit.Analyzers">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="NUnit3TestAdapter"/>
+        <PackageReference Include="Snapshooter.NUnit"/>
+        <PackageReference Include="SonarAnalyzer.CSharp">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="System.Private.Uri"/>
+        <PackageReference Include="WireMock.Net"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Data\TestDatabases\"/>
+        <Folder Include="Feeds\TestFeeds\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\FTM.Lib\FTM.Lib.csproj"/>
+    </ItemGroup>
+
+</Project>

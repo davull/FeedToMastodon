@@ -1,0 +1,8 @@
+﻿Legacy Security Manager in Haskell
+
+A translation of the kata, and my first attempt at it.
+    
+    
+        In early 2013 Richard Dalton published an article about legacy code katas. The idea is to present a piece of 'legacy code' that you have to somehow refactor or improve. Of course, in order to make the exercise manageable, it's necessary to reduce it to some essence of what we might regard as legacy code. It'll only be one aspect of true legacy code. For ...
+---
+https://blog.ploeh.dk/2024/10/21/legacy-security-manager-in-haskell/

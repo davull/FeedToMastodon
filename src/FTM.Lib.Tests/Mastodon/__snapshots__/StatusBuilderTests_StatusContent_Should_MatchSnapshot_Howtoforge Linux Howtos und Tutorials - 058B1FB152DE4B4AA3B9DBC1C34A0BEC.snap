@@ -1,0 +1,5 @@
+﻿Install WireGuard VPN on Debian 12
+
+Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine.
+---
+https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/

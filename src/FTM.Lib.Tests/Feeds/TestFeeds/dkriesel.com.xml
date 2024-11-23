@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://www.dkriesel.com/lib/exe/css.php?s=feed" type="text/css"?>
+<rss version="2.0">
+    <channel xmlns:g="http://base.google.com/ns/1.0">
+        <title>D. Kriesel</title>
+        <description></description>
+        <link>https://www.dkriesel.com/</link>
+        <lastBuildDate>Fri, 22 Nov 2024 20:36:56 +0000</lastBuildDate>
+        <generator>FeedCreator 1.8</generator>
+        <image>
+            <url>https://www.dkriesel.com/ttps://www.dkriesel.com/lib/tpl/writr/images/favicon.ico</url>
+            <title>D. Kriesel</title>
+            <link>https://www.dkriesel.com/</link>
+        </image>
+        <item>
+            <title>science:neuronalenetze-en-zeta2-2col-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta2-2col-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:48:02 +0000</pubDate>
+        </item>
+        <item>
+            <title>science:neuronalenetze-en-zeta2-1col-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta2-1col-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:48:01 +0000</pubDate>
+        </item>
+        <item>
+            <title>science:neuronalenetze-de-zeta2-2col-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta2-2col-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:48:01 +0000</pubDate>
+        </item>
+        <item>
+            <title>science:neuronalenetze-de-zeta2-1col-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta2-1col-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:48:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>science:neuronalenetze-en-zeta-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:47:32 +0000</pubDate>
+        </item>
+        <item>
+            <title>science:neuronalenetze-de-zeta-dkrieselcom.pdf</title>
+            <link>https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta-dkrieselcom.pdf&amp;ns=science&amp;do=media</link>
+            <description></description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>science</category>
+            <pubDate>Tue, 22 Mar 2022 14:47:22 +0000</pubDate>
+        </item>
+        <item>
+            <title>blog:2021:landkreise-todeszahl28d-impfquote.png</title>
+            <link>https://www.dkriesel.com/?image=blog%3A2021%3Alandkreise-todeszahl28d-impfquote.png&amp;ns=blog%3A2021&amp;do=media</link>
+            <description>&lt;img src=&quot;https://www.dkriesel.com/_media/blog/2021/landkreise-todeszahl28d-impfquote.png?w=500&amp;h=396&amp;t=1638626713&amp;amp;tok=709da2&quot; alt=&quot;blog:2021:landkreise-todeszahl28d-impfquote.png&quot; /&gt;</description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>blog:2021</category>
+            <pubDate>Sat, 04 Dec 2021 15:05:13 +0000</pubDate>
+        </item>
+        <item>
+            <title>blog:2021:landkreise-fallzahl7d-impfquote.png</title>
+            <link>https://www.dkriesel.com/?image=blog%3A2021%3Alandkreise-fallzahl7d-impfquote.png&amp;ns=blog%3A2021&amp;do=media</link>
+            <description>&lt;img src=&quot;https://www.dkriesel.com/_media/blog/2021/landkreise-fallzahl7d-impfquote.png?w=500&amp;h=398&amp;t=1638626713&amp;amp;tok=c55de2&quot; alt=&quot;blog:2021:landkreise-fallzahl7d-impfquote.png&quot; /&gt;</description>
+            <author>david@undisclosed.example.com (david)</author>
+        <category>blog:2021</category>
+            <pubDate>Sat, 04 Dec 2021 15:05:13 +0000</pubDate>
+        </item>
+    </channel>
+</rss>

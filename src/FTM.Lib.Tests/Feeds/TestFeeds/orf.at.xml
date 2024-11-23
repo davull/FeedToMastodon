@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:orfon="http://rss.orf.at/1.0/"
+  xmlns="http://purl.org/rss/1.0/"
+>
+<channel rdf:about="https://orf.at/">
+   <title>news.ORF.at</title>
+   <link>https://orf.at/</link>
+   <dc:date>2024-11-22T20:32:56+01:00</dc:date>
+      <description>Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.</description>
+   <dc:publisher>ORF Österreichischer Rundfunk, Wien</dc:publisher>
+   <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
+   <dc:language>de</dc:language>
+   <dc:rights>Copyright &#169; 2024 ORF Online und Teletext GmbH &amp; Co KG</dc:rights>
+   <sy:updatePeriod>hourly</sy:updatePeriod>
+   <sy:updateFrequency>2</sy:updateFrequency>
+   <sy:updateBase>2000-01-01T00:00:00Z</sy:updateBase>
+   <orfon:site>news.ORF.at</orfon:site>
+
+
+
+   <items>
+      <rdf:Seq>
+         <rdf:li rdf:resource="https://orf.at/stories/3376757/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376820/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376818/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376769/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376812/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376807/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376806/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376801/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376802/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376754/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376797/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376796/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376795/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376788/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376787/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376784/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376783/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376782/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376741/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376779/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376777/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376776/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376774/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376772/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376768/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3376767/" />
+
+
+      </rdf:Seq>
+   </items>
+</channel>
+<item rdf:about="https://orf.at/stories/3376757/">
+   <title>Haftbefehl schlägt weiter Wellen</title>
+   <description>Der vom Internationalen Strafgerichtshof (IStGH) in Den Haag erlassene Haftbefehl gegen Israels Ministerpräsidenten Benjamin Netanjahu sorgt weiter für Wirbel. Insbesondere die Reaktion aus Ungarn stach hervor: Am Freitag lud Premier Viktor Orban Netanjahu ein und kündigte an, ihn nicht zu verhaften. Der israelische Politiker dankte, ließ aber offen, ob er die Einladung auch annimmt.</description>
+   <link>https://orf.at/stories/3376757/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T20:32:56+01:00</dc:date>
+
+   <orfon:usid>news:3376757</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376820/">
+   <title>Militärexperte Gustav Gressel zu Gast</title>
+   
+   <link>https://orf.at/stories/3376820/</link>
+   <dc:subject>Medien</dc:subject>
+   <dc:date>2024-11-22T19:45:52+01:00</dc:date>
+
+   <orfon:usid>news:3376820</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:MedienUndWerbung/Medien" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376818/">
+   <title>Hamas-Ministerium: „Dringende Warnung“ zu Spitälern in Gaza</title>
+   
+   <link>https://orf.at/stories/3376818/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T18:20:02+01:00</dc:date>
+
+   <orfon:usid>news:3376818</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376769/">
+   <title>Einlenken der reichen Staaten erhofft</title>
+   <description>Bei der UNO-Klimakonferenz COP29 in Aserbaidschan ist unter den Delegierten Ernüchterung eingetreten. Der Freitag sollte der letzte Tag der Zusammenkunft sein, doch ein Abkommen ist nicht in Sicht. Nun dürfte sich der Gipfel über das Wochenende ziehen. Von Anfang an ging es ums Geld: Reiche Länder sollen für Klimaschutz zahlen, um Schäden und Verluste zu decken und die Anpassung an die Erderhitzung zu schultern. Doch die Vorstellungen über die Höhe der Mittel gehen nach wie vor weit auseinander.</description>
+   <link>https://orf.at/stories/3376769/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2024-11-22T18:15:56+01:00</dc:date>
+
+   <orfon:usid>news:3376769</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376812/">
+   <title>Hamas-Anführer und weitere Menschen in Gaza getötet</title>
+   
+   <link>https://orf.at/stories/3376812/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T17:23:36+01:00</dc:date>
+
+   <orfon:usid>news:3376812</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376807/">
+   <title>Trump-Schweigegeldprozess: Strafmaßverkündung verschoben</title>
+   
+   <link>https://orf.at/stories/3376807/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T17:01:17+01:00</dc:date>
+
+   <orfon:usid>news:3376807</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376806/">
+   <title>Königin Camilla muss wegen Infektion weiter aussetzen</title>
+   
+   <link>https://orf.at/stories/3376806/</link>
+   <dc:subject>Leute</dc:subject>
+   <dc:date>2024-11-22T17:00:02+01:00</dc:date>
+
+   <orfon:usid>news:3376806</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/GesellschaftUndLeute" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376801/">
+   <title>Merkel: Trump „Herausforderung für die Welt“</title>
+   
+   <link>https://orf.at/stories/3376801/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T16:37:53+01:00</dc:date>
+
+   <orfon:usid>news:3376801</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376802/">
+   <title>Polen will sich Widerstand Mercosur-Abkommen anschließen</title>
+   
+   <link>https://orf.at/stories/3376802/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T16:24:25+01:00</dc:date>
+
+   <orfon:usid>news:3376802</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376754/">
+   <title>Gestrandeter Pinguin genießt wieder Freiheit</title>
+   <description>Ein in Australien gestrandeter Kaiserpinguin aus der Antarktis ist wieder in Freiheit. Der Gus genannte Vogel sei von einem Boot aus in den Ozean entlassen worden, so das zuständige Ministerium am Freitag. Gus hatte sich 3.400 Kilometer weit in den Norden verirrt und war plötzlich auf einen Strand im Westen Australiens gewatschelt. Fachleuten zufolge war ein Exemplar dieser Spezies nie zuvor so weit von seiner Heimat entfernt gesichtet worden.</description>
+   <link>https://orf.at/stories/3376754/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2024-11-22T16:21:38+01:00</dc:date>
+
+   <orfon:usid>news:3376754</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376797/">
+   <title>Kreml: Russland braucht mehr Migration</title>
+   
+   <link>https://orf.at/stories/3376797/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T16:19:08+01:00</dc:date>
+
+   <orfon:usid>news:3376797</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376796/">
+   <title>Manchester-Anschlag: Klage gegen Geheimdienst gescheitert</title>
+   
+   <link>https://orf.at/stories/3376796/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2024-11-22T16:17:03+01:00</dc:date>
+
+   <orfon:usid>news:3376796</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376795/">
+   <title>Fahrverbote in Delhi wegen Smogs</title>
+   
+   <link>https://orf.at/stories/3376795/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2024-11-22T16:12:41+01:00</dc:date>
+
+   <orfon:usid>news:3376795</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376788/">
+   <title>Pennsylvania: Demokrat Casey gibt Senatskandidatur auf</title>
+   
+   <link>https://orf.at/stories/3376788/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T16:12:34+01:00</dc:date>
+
+   <orfon:usid>news:3376788</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376787/">
+   <title>„WSJ“: Trump erwägt Warsh als Finanzminister</title>
+   
+   <link>https://orf.at/stories/3376787/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T15:50:03+01:00</dc:date>
+
+   <orfon:usid>news:3376787</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376784/">
+   <title>IG-Metall-Tarifkommission stimmt für Warnstreiks bei VW</title>
+   
+   <link>https://orf.at/stories/3376784/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2024-11-22T15:26:27+01:00</dc:date>
+
+   <orfon:usid>news:3376784</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Unternehmensberichterstattung" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376783/">
+   <title>Versteigerung wertvoller Kafka-Manuskripte in Hamburg</title>
+   
+   <link>https://orf.at/stories/3376783/</link>
+   <dc:subject>Kultur</dc:subject>
+   <dc:date>2024-11-22T15:14:59+01:00</dc:date>
+
+   <orfon:usid>news:3376783</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit/KulturUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376782/">
+   <title>COP29 wird wegen Streits um Billionen verlängert</title>
+   
+   <link>https://orf.at/stories/3376782/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2024-11-22T15:09:12+01:00</dc:date>
+
+   <orfon:usid>news:3376782</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376741/">
+   <title>Alle Seiten geben sich unnachgiebig</title>
+   <description>Im Ukraine-Krieg stehen derzeit alle Zeichen auf Eskalation. Insbesondere der jüngste neuartige Einsatz von Raketen – sowohl durch die Ukraine als auch durch Russland – ist ein klares Signal dafür. Dazu kommen als Drohung bzw. Abschreckung gemeinte Aussagen. Am Freitag gab es zahlreiche Appelle zur Zurückhaltung – und Warnungen vor einer Ausweitung des Konflikts.</description>
+   <link>https://orf.at/stories/3376741/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T14:56:24+01:00</dc:date>
+
+   <orfon:usid>news:3376741</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376779/">
+   <title>Bogner-Strauß kandidiert wieder für ÖVP-Frauenvorsitz</title>
+   
+   <link>https://orf.at/stories/3376779/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2024-11-22T14:47:46+01:00</dc:date>
+
+   <orfon:usid>news:3376779</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376777/">
+   <title>Autozulieferer Bosch baut weltweit weitere 3.500 Stellen ab</title>
+   
+   <link>https://orf.at/stories/3376777/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2024-11-22T14:42:45+01:00</dc:date>
+
+   <orfon:usid>news:3376777</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Unternehmensberichterstattung" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376776/">
+   <title>Kogler bietet Tanner Hilfe bei Fluglotsenproblem an</title>
+   
+   <link>https://orf.at/stories/3376776/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2024-11-22T14:41:03+01:00</dc:date>
+
+   <orfon:usid>news:3376776</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376774/">
+   <title>Schengen: Weichen für Rumänien und Bulgarien gestellt</title>
+   
+   <link>https://orf.at/stories/3376774/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T14:19:44+01:00</dc:date>
+
+   <orfon:usid>news:3376774</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376772/">
+   <title>Kreise: Weiter Gesprächsbedarf zu Waffenruhe im Libanon</title>
+   
+   <link>https://orf.at/stories/3376772/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2024-11-22T13:48:14+01:00</dc:date>
+
+   <orfon:usid>news:3376772</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376768/">
+   <title>Tschechien startet Umweltprüfung für Kleinreaktor in Temelin</title>
+   
+   <link>https://orf.at/stories/3376768/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2024-11-22T13:21:35+01:00</dc:date>
+
+   <orfon:usid>news:3376768</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3376767/">
+   <title>COP29: Beitrag der Industriestaaten von 250 Mrd. vorgeschlagen</title>
+   
+   <link>https://orf.at/stories/3376767/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2024-11-22T13:15:16+01:00</dc:date>
+
+   <orfon:usid>news:3376767</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+
+</rdf:RDF>
+
+

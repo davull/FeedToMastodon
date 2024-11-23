@@ -1,0 +1,502 @@
+﻿[
+  {
+    "itemId": "https://khalidabuhakmeh.com/dynamic-htmx-islands-with-aspnet-core",
+    "raw": "Dynamic Htmx Islands with ASP.NET Core",
+    "sanitized": "Dynamic Htmx Islands with ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/update-html-elements-with-htmx-triggers-and-aspnet-core",
+    "raw": "Update HTML Elements with Htmx Triggers and ASP.NET Core",
+    "sanitized": "Update HTML Elements with Htmx Triggers and ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/add-ef-core-migrations-to-dotnet-aspire-solutions",
+    "raw": "Add EF Core Migrations to .NET Aspire Solutions",
+    "sanitized": "Add EF Core Migrations to .NET Aspire Solutions"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/htmx-and-playwright-tests-in-csharp",
+    "raw": "Htmx and Playwright Tests in C#",
+    "sanitized": "Htmx and Playwright Tests in C#"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/intersperse-values-for-enumerable-collections",
+    "raw": "Intersperse Values for Enumerable Collections",
+    "sanitized": "Intersperse Values for Enumerable Collections"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/checked-and-unchecked-arithmetic-operations-in-dotnet",
+    "raw": "Checked and Unchecked Arithmetic Operations in .NET",
+    "sanitized": "Checked and Unchecked Arithmetic Operations in .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/confirmation-dialogs-with-htmx-and-sweetalert",
+    "raw": "Confirmation Dialogs with Htmx and SweetAlert",
+    "sanitized": "Confirmation Dialogs with Htmx and SweetAlert"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-pick-the-right-constructor-when-using-activatorutilities-in-dotnet",
+    "raw": "How To Pick The Right Constructor When Using ActivatorUtilities In .NET",
+    "sanitized": "How To Pick The Right Constructor When Using ActivatorUtilities In .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/add-a-property-to-the-top-level-statements-program-class",
+    "raw": "Add a Property to the Top-level Statements Program class",
+    "sanitized": "Add a Property to the Top-level Statements Program class"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/fix-dotnet-maui-missingentitlement-and-provisioning-profiles-issues",
+    "raw": "Fix .NET MAUI MissingEntitlement and Provisioning Profiles Issues",
+    "sanitized": "Fix .NET MAUI MissingEntitlement and Provisioning Profiles Issues"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/health-checks-for-aspnet-core-and-entity-framework-core",
+    "raw": "Health Checks for ASP.NET Core and Entity Framework Core",
+    "sanitized": "Health Checks for ASP.NET Core and Entity Framework Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-fix-dotnet-nullability-warnings-for-guarded-members",
+    "raw": "How To Fix .NET Nullability Warnings For Guarded Members",
+    "sanitized": "How To Fix .NET Nullability Warnings For Guarded Members"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/html-datalist-for-aspnet-core-inputs",
+    "raw": "HTML Datalist for ASP.NET Core Inputs",
+    "sanitized": "HTML Datalist for ASP.NET Core Inputs"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/html-range-inputs-with-aspnet-core-taghelpers",
+    "raw": "HTML Range Inputs with ASP.NET Core TagHelpers",
+    "sanitized": "HTML Range Inputs with ASP.NET Core TagHelpers"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/html5-validation-for-aspnet-core-models-and-razor-views",
+    "raw": "HTML5 Validation for ASP.NET Core Models and Razor Views",
+    "sanitized": "HTML5 Validation for ASP.NET Core Models and Razor Views"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/what-is-hsts-and-why-is-it-in-my-aspnet-core-app",
+    "raw": "What is HSTS and why is it in my ASP.NET Core app?",
+    "sanitized": "What is HSTS and why is it in my ASP.NET Core app?"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-encrypt-aspnet-core-route-parameters",
+    "raw": "How To Encrypt ASP.NET Core Route Parameters",
+    "sanitized": "How To Encrypt ASP.NET Core Route Parameters"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/state-machines-light-switches-and-space-travel-with-stateless-and-dotnet-8",
+    "raw": "State Machines, Light Switches, and Space Travel with Stateless and .NET 8",
+    "sanitized": "State Machines, Light Switches, and Space Travel with Stateless and .NET 8"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/blazor-html-forms-submitting-and-antiforgery-tokens",
+    "raw": "Blazor HTML Forms, Submitting, and Antiforgery Tokens",
+    "sanitized": "Blazor HTML Forms, Submitting, and Antiforgery Tokens"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/fix-missing-openapi-elements-from-aspnet-core-minimal-api-apps",
+    "raw": "Fix Missing OpenAPI Elements From ASP.NET Core Minimal API Apps",
+    "sanitized": "Fix Missing OpenAPI Elements From ASP.NET Core Minimal API Apps"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/aspnet-core-ssr-web-components-and-enhance-wasm",
+    "raw": "ASP.NET Core, SSR Web Components, and Enhance Wasm",
+    "sanitized": "ASP.NET Core, SSR Web Components, and Enhance Wasm"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-add-http-headers-to-blazor-components-with-razorcomponentresult",
+    "raw": "How to add HTTP headers to Blazor Components with RazorComponentResult",
+    "sanitized": "How to add HTTP headers to Blazor Components with RazorComponentResult"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/working-with-rust-libraries-from-csharp-dotnet-applications",
+    "raw": "Working with Rust Libraries from C# .NET Applications",
+    "sanitized": "Working with Rust Libraries from C# .NET Applications"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/fix-unable-to-resolve-dbcontextoptions-for-ef-core",
+    "raw": "Fix Unable To Resolve DbContextOptions For EF Core",
+    "sanitized": "Fix Unable To Resolve DbContextOptions For EF Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/event-queues-and-buffering-functions-with-javascript",
+    "raw": "Event Queues and Buffering Functions with JavaScript",
+    "sanitized": "Event Queues and Buffering Functions with JavaScript"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/output-csv-results-to-console-table-in-rust",
+    "raw": "Output CSV Results to Console Table in Rust",
+    "sanitized": "Output CSV Results to Console Table in Rust"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/responsive-images-crash-course-for-aspnet-core-developers",
+    "raw": "Responsive Images Crash Course for ASP.NET Core Developers",
+    "sanitized": "Responsive Images Crash Course for ASP.NET Core Developers"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-ssr-web-components-in-aspnet-core-using-taghelpers",
+    "raw": "How To SSR Web Components In ASP.NET Core using TagHelpers",
+    "sanitized": "How To SSR Web Components In ASP.NET Core using TagHelpers"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/blazors-css-isolation-deep-issue-and-solution",
+    "raw": "Blazor's CSS isolation ::deep issue and solution",
+    "sanitized": "Blazor's CSS isolation ::deep issue and solution"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-no-class-frameworks-to-move-fast-in-style",
+    "raw": "How to use No-Class Frameworks to Move Fast in Style",
+    "sanitized": "How to use No-Class Frameworks to Move Fast in Style"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-integrate-htmx-and-shoelace-web-components",
+    "raw": "How to Integrate HTMX and Shoelace Web Components",
+    "sanitized": "How to Integrate HTMX and Shoelace Web Components"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/shoelace-web-components-with-aspnet-core",
+    "raw": "Shoelace Web Components with ASP.NET Core",
+    "sanitized": "Shoelace Web Components with ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-map-sql-results-to-any-object-using-entity-framework-core-8",
+    "raw": "How to Map SQL Results To Any Object Using Entity Framework Core 8",
+    "sanitized": "How to Map SQL Results To Any Object Using Entity Framework Core 8"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/increase-performance-with-complex-types-in-entity-framework-core-8",
+    "raw": "Increase Performance with Complex Types in Entity Framework Core 8",
+    "sanitized": "Increase Performance with Complex Types in Entity Framework Core 8"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/html-web-components-with-vanilla-javascript-and-aspnet-core",
+    "raw": "HTML Web Components with Vanilla JavaScript and ASP.NET Core",
+    "sanitized": "HTML Web Components with Vanilla JavaScript and ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dotnet-tasks-lists-foreach-and-problems",
+    "raw": ".NET Tasks, List's ForEach, and Problems",
+    "sanitized": ".NET Tasks, List's ForEach, and Problems"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-blazor-server-rendered-components-with-htmx",
+    "raw": "How To Use Blazor Server-Rendered Components with HTMX",
+    "sanitized": "How To Use Blazor Server-Rendered Components with HTMX"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-iasyncenumerable-with-blazor-stream-rendering",
+    "raw": "How to use IAsyncEnumerable with Blazor Stream Rendering",
+    "sanitized": "How to use IAsyncEnumerable with Blazor Stream Rendering"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/view-transitions-api-with-aspnet-core-and-htmx",
+    "raw": "View Transitions API with ASP.NET Core and HTMX",
+    "sanitized": "View Transitions API with ASP.NET Core and HTMX"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-write-a-dotnet-markdig-extension-for-markdown-processing",
+    "raw": "How to Write a .NET Markdig Extension for Markdown Processing",
+    "sanitized": "How to Write a .NET Markdig Extension for Markdown Processing"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/faster-dotnet-database-integration-tests-with-respawn-and-xunit",
+    "raw": "Faster .NET Database Integration Tests with Respawn and xUnit",
+    "sanitized": "Faster .NET Database Integration Tests with Respawn and xUnit"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/memoizr-declarative-structured-concurrency-for-csharp",
+    "raw": "MemoizR - Declarative Structured Concurrency for C#",
+    "sanitized": "MemoizR - Declarative Structured Concurrency for C#"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/testing-typesense-search-with-testcontainers-and-dotnet",
+    "raw": "Testing Typesense search with Testcontainers and .NET",
+    "sanitized": "Testing Typesense search with Testcontainers and .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-regular-expressions-and-match-evaluators-in-dotnet",
+    "raw": "How to use Regular Expressions and Match Evaluators in .NET",
+    "sanitized": "How to use Regular Expressions and Match Evaluators in .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/scriban-for-text-and-liquid-templating-in-dotnet",
+    "raw": "Scriban for Text and Liquid Templating in .NET",
+    "sanitized": "Scriban for Text and Liquid Templating in .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/aspnet-core-pdf-previews-and-downloads",
+    "raw": "ASP.NET Core PDF Previews and Downloads",
+    "sanitized": "ASP.NET Core PDF Previews and Downloads"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/vestpocket-file-based-data-storage-for-aot-dotnet-applications",
+    "raw": "VestPocket: File-based Data Storage for AOT .NET Applications",
+    "sanitized": "VestPocket: File-based Data Storage for AOT .NET Applications"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/moonsharp-running-lua-scripts-in-dotnet",
+    "raw": "MoonSharp - Running Lua Scripts in .NET",
+    "sanitized": "MoonSharp - Running Lua Scripts in .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/what-should-i-dispose-with-dotnet-database-connections",
+    "raw": "What Should I Dispose with .NET Database Connections?",
+    "sanitized": "What Should I Dispose with .NET Database Connections?"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/global-endpoint-filters-with-aspnet-core-minimal-apis",
+    "raw": "Global Endpoint Filters with ASP.NET Core Minimal APIs",
+    "sanitized": "Global Endpoint Filters with ASP.NET Core Minimal APIs"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/razorslices-razor-views-with-aspnet-core-minimal-apis",
+    "raw": "RazorSlices - Razor Views with ASP.NET Core Minimal APIs",
+    "sanitized": "RazorSlices - Razor Views with ASP.NET Core Minimal APIs"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-embedded-resources-in-dotnet",
+    "raw": "How To Use Embedded Resources in .NET",
+    "sanitized": "How To Use Embedded Resources in .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-display-dotnet-collections-with-the-oxford-comma",
+    "raw": "How To Display .NET Collections with the Oxford Comma",
+    "sanitized": "How To Display .NET Collections with the Oxford Comma"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-fix-feature-folders-view-errors-with-jetbrains-annotations-rider-and-resharper",
+    "raw": "How To Fix Feature Folders View Errors with JetBrains Annotations (Rider and ReSharper)",
+    "sanitized": "How To Fix Feature Folders View Errors with JetBrains Annotations (Rider and ReSharper)"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/systemtextjson-jsonconverter-test-helpers",
+    "raw": "System.Text.Json JsonConverter Test Helpers",
+    "sanitized": "System.Text.Json JsonConverter Test Helpers"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dumb-developer-tricks-fizz-buzz-with-csharp-12-and-polly",
+    "raw": "Dumb Developer Tricks - Fizz Buzz with C# 12 and Polly",
+    "sanitized": "Dumb Developer Tricks - Fizz Buzz with C# 12 and Polly"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/multi-tenancy-with-aspnet-core-and-finbuckle-multitenant",
+    "raw": "Multi-tenancy with ASP.NET Core and FinBuckle.Multitenant",
+    "sanitized": "Multi-tenancy with ASP.NET Core and FinBuckle.Multitenant"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/measuring-unicode-string-lengths-with-csharp",
+    "raw": "Measuring Unicode String Lengths with C#",
+    "sanitized": "Measuring Unicode String Lengths with C#"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/miniword-microsoft-office-word-templating",
+    "raw": "MiniWord - Microsoft Office Word Templating",
+    "sanitized": "MiniWord - Microsoft Office Word Templating"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/sisk-an-alternative-dotnet-http-server",
+    "raw": "Sisk - An Alternative .NET HTTP Server",
+    "sanitized": "Sisk - An Alternative .NET HTTP Server"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dotnet-8-interceptors",
+    "raw": ".NET 8 Interceptors",
+    "sanitized": ".NET 8 Interceptors"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/generate-sitemaps-for-all-of-aspnet-core",
+    "raw": "Generate Sitemaps for All of ASP.NET Core",
+    "sanitized": "Generate Sitemaps for All of ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dotnet-8-timeprovider-and-unit-tests",
+    "raw": ".NET 8 TimeProvider and Unit Tests",
+    "sanitized": ".NET 8 TimeProvider and Unit Tests"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/csharp-records-the-with-keyword-and-reference-types",
+    "raw": "C# Records, the With Keyword, and Reference Types",
+    "sanitized": "C# Records, the With Keyword, and Reference Types"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/htmx-aspnet-core-and-bootstrap-modals",
+    "raw": "HTMX, ASP.NET Core, and Bootstrap Modals",
+    "sanitized": "HTMX, ASP.NET Core, and Bootstrap Modals"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/adding-a-readme-to-nuget-package-landing-pages",
+    "raw": "Adding a Readme to NuGet Package Landing Pages",
+    "sanitized": "Adding a Readme to NuGet Package Landing Pages"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/htmx-boosts-and-aspnet-core-anti-forgery-tokens",
+    "raw": "HTMX Boosts and ASP.NET Core Anti-Forgery Tokens",
+    "sanitized": "HTMX Boosts and ASP.NET Core Anti-Forgery Tokens"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/using-stringbuilder-to-replace-values",
+    "raw": "Using StringBuilder To Replace Values",
+    "sanitized": "Using StringBuilder To Replace Values"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/the-privilege-of-dotnet-tooling-choices",
+    "raw": "The Privilege of .NET Tooling Choices",
+    "sanitized": "The Privilege of .NET Tooling Choices"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/entity-framework-core-7-filtering-on-json-arrays",
+    "raw": "Entity Framework Core 7: Filtering on JSON Arrays",
+    "sanitized": "Entity Framework Core 7: Filtering on JSON Arrays"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/javascript-import-maps-for-aspnet-core-developers",
+    "raw": "JavaScript Import Maps For ASP.NET Core Developers",
+    "sanitized": "JavaScript Import Maps For ASP.NET Core Developers"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/xunit-tests-jetbrains-rider-and-counting-until-failure",
+    "raw": "XUnit Tests, JetBrains Rider, and Counting Until Failure",
+    "sanitized": "XUnit Tests, JetBrains Rider, and Counting Until Failure"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/override-razor-pages-routes-from-razor-class-libraries",
+    "raw": "Override Razor Pages Routes From Razor Class Libraries",
+    "sanitized": "Override Razor Pages Routes From Razor Class Libraries"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/manage-vite-assets-like-a-pro",
+    "raw": "Manage Vite Assets Like A Pro",
+    "sanitized": "Manage Vite Assets Like A Pro"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/running-vite-with-aspnet-core-web-applications",
+    "raw": "Running Vite with ASP.NET Core Web Applications",
+    "sanitized": "Running Vite with ASP.NET Core Web Applications"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/unit-test-11ty-pages-with-vitest-and-typescript",
+    "raw": "Unit Test 11ty Pages With Vitest and Typescript",
+    "sanitized": "Unit Test 11ty Pages With Vitest and Typescript"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/writing-a-cross-platform-clock-app-with-avalonia-ui-and-nxui",
+    "raw": "Writing a Cross-Platform Clock App With Avalonia UI and NXUI",
+    "sanitized": "Writing a Cross-Platform Clock App With Avalonia UI and NXUI"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dependency-injection-with-avalonia-ui-apps",
+    "raw": "Dependency Injection with Avalonia UI Apps",
+    "sanitized": "Dependency Injection with Avalonia UI Apps"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/load-youtube-embed-videos-with-javascript",
+    "raw": "Load YouTube Embed Videos When Needed With JavaScript",
+    "sanitized": "Load YouTube Embed Videos When Needed With JavaScript"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dotnet-maui-app-stopped-working-help",
+    "raw": ".NET MAUI App Stopped Working -- HELP!",
+    "sanitized": ".NET MAUI App Stopped Working -- HELP!"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/dotnet-maui-development-environment-set-up-walkthrough",
+    "raw": ".NET MAUI Development Environment Set Up Walkthrough",
+    "sanitized": ".NET MAUI Development Environment Set Up Walkthrough"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/solving-dotnet-json-deserialization-issues",
+    "raw": "Solving .NET JSON Deserialization Issues",
+    "sanitized": "Solving .NET JSON Deserialization Issues"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/validating-connection-strings-on-dotnet-startup",
+    "raw": "Validating Connection Strings on .NET Startup",
+    "sanitized": "Validating Connection Strings on .NET Startup"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/speed-up-aspnet-core-json-apis-with-source-generators",
+    "raw": "Speed Up ASP.NET Core JSON APIs with Source Generators",
+    "sanitized": "Speed Up ASP.NET Core JSON APIs with Source Generators"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/combining-11ty-static-site-generator-with-aspnet-core",
+    "raw": "Combining 11ty Static Site Generator with ASP.NET Core",
+    "sanitized": "Combining 11ty Static Site Generator with ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/generating-bogus-http-endpoints-with-aspnet-core-minimal-apis",
+    "raw": "Generating Bogus HTTP Endpoints with ASP.NET Core Minimal APIs",
+    "sanitized": "Generating Bogus HTTP Endpoints with ASP.NET Core Minimal APIs"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-to-use-entity-framework-core-in-aspnet-core",
+    "raw": "How to use Entity Framework Core in ASP.NET Core",
+    "sanitized": "How to use Entity Framework Core in ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/register-maui-views-and-viewmodels-with-scrutor",
+    "raw": "Register MAUI Views and ViewModels with Scrutor",
+    "sanitized": "Register MAUI Views and ViewModels with Scrutor"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/programming-svgs-with-csharp-dotnet",
+    "raw": "Programming SVGs with C#",
+    "sanitized": "Programming SVGs with C#"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core",
+    "raw": "Multiple File Drag and Drop Upload with ASP.NET Core",
+    "sanitized": "Multiple File Drag and Drop Upload with ASP.NET Core"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/deserialize-mastodon-user-xml-rss-feed",
+    "raw": "Deserialize Mastodon User XML RSS feeds with .NET",
+    "sanitized": "Deserialize Mastodon User XML RSS feeds with .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints",
+    "raw": "Testing ASP.NET Core FastEndpoints",
+    "sanitized": "Testing ASP.NET Core FastEndpoints"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/generate-youtube-timestamp-links-with-csharp-11",
+    "raw": "Generate YouTube Timestamp Links with C# 11",
+    "sanitized": "Generate YouTube Timestamp Links with C# 11"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/aspnet-core-display-description-tag-helper",
+    "raw": "ASP.NET Core Display Description Tag Helper",
+    "sanitized": "ASP.NET Core Display Description Tag Helper"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/entity-framework-core-conversions-for-logical-domain-types",
+    "raw": "Entity Framework Core Conversions for Logical Domain Types",
+    "sanitized": "Entity Framework Core Conversions for Logical Domain Types"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/consuming-dotnet-webassembly-from-javascript-in-the-browser",
+    "raw": "Consuming .NET WebAssembly From JavaScript in the Browser",
+    "sanitized": "Consuming .NET WebAssembly From JavaScript in the Browser"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/fibonacci-sequences-with-kotlin-csharp-and-fsharp",
+    "raw": "Fibonacci Sequences with Kotlin, C#, and F#",
+    "sanitized": "Fibonacci Sequences with Kotlin, C#, and F#"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/how-many-threads-does-my-dotnet-app-have",
+    "raw": "How Many Threads Does My .NET App Have?",
+    "sanitized": "How Many Threads Does My .NET App Have?"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/aspnet-core-placeholder-images-with-imagesharp",
+    "raw": "ASP.NET Core Placeholder Images with ImageSharp",
+    "sanitized": "ASP.NET Core Placeholder Images with ImageSharp"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/stop-entity-framework-core-performance-issues-with-interceptors",
+    "raw": "Stop Entity Framework Core Performance Issues With Interceptors",
+    "sanitized": "Stop Entity Framework Core Performance Issues With Interceptors"
+  }
+]

@@ -1,0 +1,510 @@
+﻿{
+  "Id": "https://www.wired.com/feed/rss",
+  "Website": "https://www.wired.com",
+  "Title": "WIRED",
+  "LastUpdatedTime": "2024-11-22T19:24:55+00:00",
+  "Description": "The latest from www.wired.com",
+  "Language": "en-US",
+  "Items": [
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "67405e877fb433f65a3c813e",
+      "Title": "Elizabeth Warren Calls for Crackdown on Internet ‘Monopoly’ You’ve Never Heard Of",
+      "PublishDate": "2024-11-22T18:00:00+00:00",
+      "Summary": "US senator Elizabeth Warren and congressman Jerry Nadler have demanded the government investigate whether VeriSign, steward of the .com domain, is ripping off customers and violating antitrust laws.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/elizabeth-warren-calls-for-crackdown-verisign/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "5af4622ff2b84f222a2e5fc8",
+      "Title": "14 Best Tablets (2024), Tested and Reviewed",
+      "PublishDate": "2024-11-22T17:53:57+00:00",
+      "Summary": "We’ve tested all the top slates, from Apple’s iPads to Android and Windows devices, and rounded up our favorites.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/the-best-tablets/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "65382ba574b5757f9c944315",
+      "Title": "The Best Gifts for Book Lovers (2024)",
+      "PublishDate": "2024-11-22T17:08:24+00:00",
+      "Summary": "These gift ideas for book lovers will make your favorite bookworm very happy, from e-readers to cozy accessories.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/gifts-for-book-lovers/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "662b81aae6bf26f4a7313ad0",
+      "Title": "12 Best Computer Speakers (2024): Affordable, Soundbar, Surround Sound, Gaming",
+      "PublishDate": "2024-11-22T16:03:00+00:00",
+      "Summary": "These WIRED-tested computer speakers, from stereo speakers to surround sound, will suit any budget.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-computer-speakers/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "66db752b667dbf063f229510",
+      "Title": "Best Natural Sleep Aids (2024), Tested and Reviewed",
+      "PublishDate": "2024-11-22T15:35:00+00:00",
+      "Summary": "I tested an array of alternative sleep aids, from CBD capsules to mushroom chocolate to bath bombs, to see if they would help my chronic insomnia.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/the-best-natural-sleep-aids/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673e73611c85729f5c6cb9f8",
+      "Title": "Bluesky Says It Won’t Screw Things Up",
+      "PublishDate": "2024-11-22T15:00:00+00:00",
+      "Summary": "The not-a-Twitter-clone is exploding, and its CEO promises to not repeat old social-media mistakes. Her strategy? Massively empower users to decide how the service works.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/plaintext-bluesky-says-it-wont-screw-things-up/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "663369f7f554f4ca4bded921",
+      "Title": "The Best Star Wars Gifts for Everyone From Padawans to Jedi Masters",
+      "PublishDate": "2024-11-22T14:09:00+00:00",
+      "Summary": "These are the best Star Wars gifts for everyone from Padawan fans to Jedi masters.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-star-wars-gifts/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6734c30d235a13bc809be307",
+      "Title": "Why Is It So Tricky to Show the Sun, Earth, and Moon in a Diagram?",
+      "PublishDate": "2024-11-22T14:00:00+00:00",
+      "Summary": "In a nutshell, you can get the distances or the sizes right, but not both. Space is hard!",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/why-is-it-so-tricky-to-show-the-sun-earth-and-moon-in-a-diagram/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "67373752919eaf138e4ecdfb",
+      "Title": "Carv 2 Digital Ski Coach Review: Cheaper, Easier, Better",
+      "PublishDate": "2024-11-22T13:30:00+00:00",
+      "Summary": "This tech-led, ski-school outfit thought they'd make their virtual snow instructor hardware better by taking out a key component. Amazingly, it's worked.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/review/review-carv-2-digital-ski-coach/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "604697e118dc939ad9553992",
+      "Title": "17 Best Hair Straighteners We Tested (2024) | WIRED",
+      "PublishDate": "2024-11-22T13:02:00+00:00",
+      "Summary": "Curls and waves are beautiful. But when you want to smooth them out, these hot tools—irons, brushes, and combs—work wonders.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-hair-straighteners/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673ba9b5f6930ddfb4e8d262",
+      "Title": "Russian Spies Jumped From One Network to Another Via Wi-Fi in an Unprecedented Hack",
+      "PublishDate": "2024-11-22T13:00:00+00:00",
+      "Summary": "In a first, Russia's APT28 hacking group appears to have remotely breached the Wi-Fi of an espionage target by hijacking a laptop in another building across the street.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/russia-gru-apt28-wifi-daisy-chain-breach/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "65ef5d037a88afbad3a3763c",
+      "Title": "9 Best Sleeping Bags (2024): Ultralight, for Car Campers, Warm Weather, for Kids",
+      "PublishDate": "2024-11-22T12:30:00+00:00",
+      "Summary": "Whether you’re climbing peaks or taking the family to the local park, we’ve found the best sleeping bags for every temperature, budget, and camping expedition.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/the-best-sleeping-bags-for-every-adventure/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6733443766077db70680e5ff",
+      "Title": "The World’s Biggest EV Maker Has the Industry’s Worst Human Rights Appraisal",
+      "PublishDate": "2024-11-22T12:30:00+00:00",
+      "Summary": "Amnesty International has issued a report charting the supply chains and human rights due diligence policies of 13 major EV manufacturers. The results are a world away from the clean, safe future that electric vehicles promise.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/the-worlds-biggest-maker-of-evs-has-the-worst-appraisal-of-human-rights/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673f7ce1531e7dedf8a58773",
+      "Title": "This Website of Old YouTube Clips Feels Like a Gut Punch",
+      "PublishDate": "2024-11-22T12:00:00+00:00",
+      "Summary": "Bluesky will never be Twitter. YouTube is no longer about funny videos made with your friends. The old internet is gone, but it can be remade. The website IMG_0001 proves it.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/the-website-of-old-youtube-clips-that-feels-like-a-gut-punch/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673f7f754c15848710088106",
+      "Title": "The EV Buyer’s Guide to an Uncertain Future",
+      "PublishDate": "2024-11-22T11:30:00+00:00",
+      "Summary": "The Trump administration is likely to make big changes to US federal electric vehicle incentive programs. Buy or lease now, probably.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/the-ev-buyers-guide-to-an-uncertain-future/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "66ec4f7706f903e6b4a52383",
+      "Title": "$10 OFF Walmart Promo Codes - November 2024",
+      "PublishDate": "2024-11-22T08:00:00+00:00",
+      "Summary": "Score $10 off your first three pickup or delivery orders with our Walmart coupon or choose from 1,000s of flash deals this holiday season, up to 65% off today.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/top-walmart-promo-codes/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "67169290595ba403cbe0483f",
+      "Title": "Exclusive Nectar Coupon Code: 40% Off November 2024",
+      "PublishDate": "2024-11-22T08:00:00+00:00",
+      "Summary": "Get 40% off mattresses, pillows, bed frames, and more with our WIRED exclusive Nectar promo code for November 2024.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/nectar-coupon-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "672d41fcd6406683ec9bfd2e",
+      "Title": "eBay Coupon Code: 10% Off Select Items in November 2024",
+      "PublishDate": "2024-11-22T08:00:00+00:00",
+      "Summary": "Get 10% off select products and enjoy other great deals at eBay this November.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/ebay-coupon-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6733e6ef4a869747c4b30321",
+      "Title": "OnePlus Promo Code: 20% Off in November 2024",
+      "PublishDate": "2024-11-22T07:45:00+00:00",
+      "Summary": "Save 20% with a OnePlus coupon this November, plus save up to 10% on earbuds, phones, and more.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/oneplus-promo-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6733e8b213c3c97440c1a112",
+      "Title": "10% Off Sephora Promo Codes & Coupons | November 2024",
+      "PublishDate": "2024-11-22T07:40:00+00:00",
+      "Summary": "Get a 10% discount on trending makeup, skincare, perfumes, and other beauty products when you sign up for text updates at Sephora.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/sephora-promo-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "671aae969d2d2bafd3d3cba6",
+      "Title": "$50 Off Target Promo Code | November 2024",
+      "PublishDate": "2024-11-22T07:00:00+00:00",
+      "Summary": "Enjoy $50 off your next order with this Target coupon code and save with the latest deals and coupons this November.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/target-promo-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "66e8704eec595f4f2617f9f8",
+      "Title": "Exclusive $50 OFF VistaPrint Coupon | November 2024",
+      "PublishDate": "2024-11-22T07:00:00+00:00",
+      "Summary": "Whether you’re looking to get your holiday shopping done all in one place or you’re looking for personalized gifts for your small biz, you can save up to $50 off with our exclusive VistaPrint promo code.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/vistaprint-coupon-code/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "5c66c7af9fb3532c62b8b759",
+      "Title": "16 Best Mattresses—I’ve Tested Dozens for a Week Each (2024)",
+      "PublishDate": "2024-11-21T21:53:40+00:00",
+      "Summary": "I’ve spent years testing dozens of bed-in-a-box hybrid, foam, and certified organic mattresses.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-mattresses/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673e4ef6cc5b077b703ce363",
+      "Title": "Lego and Formula 1 Roll Out Full Sets of Teams and Drivers",
+      "PublishDate": "2024-11-21T21:30:00+00:00",
+      "Summary": "In 2025, you will be able to recreate full Formula 1 Grands Prix in your living room, complete with Lego cars, drivers, and garages.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/lego-and-formula-1-sets/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673cf1325faacbe8443697da",
+      "Title": "Airweave Advanced Mattress Review: A Firm Feel With Extraordinary Airflow",
+      "PublishDate": "2024-11-21T21:28:16+00:00",
+      "Summary": "Woven polyethylene looks like tangled fishing line but delivers superior airflow for a firm mattress.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/review/airweave-advanced-mattress/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673f80fda9946d51b1fad787",
+      "Title": "How Best to Use ChatGPT, Gemini, and Other AI Tools? Our AI Expert Answers Your Questions",
+      "PublishDate": "2024-11-21T21:08:14+00:00",
+      "Summary": "If you missed our live, subscriber-only Q&A with WIRED’s AI columnist Reece Rogers, you can watch this replay of the livestream.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/subscriber-only-livestream-with-reece-rogers-ai-unlocked/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "632c69b7eecde8c117e7f5b9",
+      "Title": "The 65 Best Movies on Disney+ Right Now (November 2024)",
+      "PublishDate": "2024-11-21T20:00:00+00:00",
+      "Summary": "Deadpool & Wolverine, Alien: Romulus, and Inside Out 2 are just a few of the movies you should be watching on Disney+ this month.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/best-movies-disney-plus/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673bb7aa4f1eb3f7febae6fe",
+      "Title": "You Too Can Hire an ‘Etsy Witch’ to Curse Elon Musk",
+      "PublishDate": "2024-11-21T19:56:55+00:00",
+      "Summary": "Riley Wenckus used TikTok to tell Elon Musk she paid “an Etsy witch” $7.99 to make his life “a living hell.” A new market has opened up for others looking to follow her lead.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/viral-tiktok-etsy-witch-elon-musk/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673f4dd23fd52c35be5d1322",
+      "Title": "New York Times Says OpenAI Erased Potential Lawsuit Evidence",
+      "PublishDate": "2024-11-21T19:55:21+00:00",
+      "Summary": "As part of an ongoing copyright lawsuit, The New York Times says it spent 150 hours sifting through OpenAI’s training data looking for potential evidence—only for OpenAI to delete all of its work.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/new-york-times-openai-erased-potential-lawsuit-evidence/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673b809aee8623e72021a5c3",
+      "Title": "What Happens to X With No More Libs to Troll?",
+      "PublishDate": "2024-11-21T18:47:57+00:00",
+      "Summary": "There has been a mass migration from X to BlueSky. What does it mean for our already-fragmented social media ecosystem?",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/politics-lab-what-happens-to-x/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673e0e5c810a9ac6f4bb78aa",
+      "Title": "Meta Finally Breaks Its Silence on Pig Butchering",
+      "PublishDate": "2024-11-21T18:00:00+00:00",
+      "Summary": "The company gave details for the first time on its approach to combating organized criminal networks behind the devastating scams.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/meta-pig-butchering-report-2024/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673cb73880621de201782a0b",
+      "Title": "The Red Elephant in the Room at AfroTech",
+      "PublishDate": "2024-11-21T17:34:11+00:00",
+      "Summary": "At the annual tech conference for Black professionals, all eyes were on AI—but many also braced for the impact of a Trump administration that has promised to kill DEI.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/afrotech-2024-red-elephant-in-the-room/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "672bc868bb6339b5ede5831b",
+      "Title": "Belkin Auto-Tracking Stand Pro With DockKit Review: Hands-Free Fun",
+      "PublishDate": "2024-11-21T15:00:00+00:00",
+      "Summary": "This MagSafe wireless charging stand rotates to track your movements and is great for shooting video and FaceTime.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/review/belkin-auto-tracking-stand-pro-with-dockkit/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6735297ffb2745f5dce052ba",
+      "Title": "WalkingPad C2 Mini Foldable Treadmill Review: Stable Underfoot",
+      "PublishDate": "2024-11-21T14:02:00+00:00",
+      "Summary": "You can reach your step goals—even when working from home—when you have a walking pad.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/review/walkingpad-c2/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673f1697d74f692ee4f064b9",
+      "Title": "Daniel Craig’s Secret Omega Seamaster Diver Has Dropped",
+      "PublishDate": "2024-11-21T13:37:58+00:00",
+      "Summary": "After “leaking” the new model on the wrist of the former James Bond actor at Paris 2024, the watch brand finally released this much-anticipated diver.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/daniel-craigs-secret-omega-seamaster-diver-has-dropped/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673782e74b4825be542a4b11",
+      "Title": "Border Militias Prepare to Assist With Donald Trump’s Mass Deportation Plans",
+      "PublishDate": "2024-11-21T13:30:06+00:00",
+      "Summary": "Militias that patrol the US border with Mexico are thrilled that Donald Trump has been elected—and plan to be a “valuable resource” to the incoming administration, whether or not they’re asked.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/border-militias-immigrants-trump/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6630fc9e13db0b700401a0a4",
+      "Title": "9 Best Cooling Mattresses (2024): Hybrid, Soft, Foam",
+      "PublishDate": "2024-11-21T13:04:00+00:00",
+      "Summary": "Nothing ruins a great night of sleep faster than getting too hot. We slept on multiple cooling mattresses to find which ones drew the heat away best.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-cooling-mattresses/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673b775a783e9ed5d5a640d1",
+      "Title": "Is Silicon Valley Actually Libertarian?",
+      "PublishDate": "2024-11-21T13:00:00+00:00",
+      "Summary": "WIRED takes a look at one of Silicon Valley’s most influential ideologies.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/uncanny-valley-podcast-4-is-silicon-valley-libertarian/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "65aad1f08a5f533c69920348",
+      "Title": "The 18 Best Pillows We Found After Months of Nighttime Testing (2024)",
+      "PublishDate": "2024-11-21T12:39:00+00:00",
+      "Summary": "We spent months sleeping on various pillows to find the right support for your noggin whether you snooze on your side, back, or in a tangle of blankets.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-pillows/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673d14279f88b452a2f8597e",
+      "Title": "News Influencers Have Eclipsed Traditional Media",
+      "PublishDate": "2024-11-21T12:00:00+00:00",
+      "Summary": "More and more Americans are getting their news from influencers on the internet.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/news-influencers-traditional-media/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6737b5c3f4539df66dd2598b",
+      "Title": "China’s Surveillance State Is Selling Citizen Data as a Side Hustle",
+      "PublishDate": "2024-11-21T11:30:00+00:00",
+      "Summary": "Chinese black market operators are openly recruiting government agency insiders, paying them for access to surveillance data and then reselling it online—no questions asked.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/chineses-surveillance-state-is-selling-citizens-data-as-a-side-hustle/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "6732480e570f4abf4c8c32aa",
+      "Title": "Microsoft at 50: An AI Giant. A Kinder Culture. And Still Hellbent on Domination",
+      "PublishDate": "2024-11-21T11:00:00+00:00",
+      "Summary": "When Satya Nadella took over as CEO, the company was lumbering and uncool. He cleaned up a toxic culture, crafted the deal of the decade, and put Microsoft back on top.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/at-age-50-microsoft-is-an-ai-giant-an-open-source-lover-and-bad-as-it-ever-was/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "67326bef1f7fd8a01c55ddd3",
+      "Title": "The AI Reporter That Took My Old Job Just Got Fired",
+      "PublishDate": "2024-11-21T10:00:00+00:00",
+      "Summary": "A local newspaper in Hawaii experimented with AI-generated presenters to engage and boost its readership. After two months, the bots have been shelved.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/the-ai-reporter-who-took-my-old-job-just-got-fired/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673ceaa0180c1d3e26aff218",
+      "Title": "Google Selling Chrome Won’t Be Enough to End Its Search Monopoly",
+      "PublishDate": "2024-11-21T04:18:57+00:00",
+      "Summary": "Despite shared concerns about Google’s power, critics of the company and former executives express little agreement on what, if anything, can really be done to increase competition.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/doj-google-chrome-antitrust/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673ce6a44adb07cb42056913",
+      "Title": "Nvidia Says Its Blackwell Chip Is Fine, Nothing to See Here",
+      "PublishDate": "2024-11-21T00:15:14+00:00",
+      "Summary": "Chip production delays and a rumored overheating issue haven’t slowed down Nvidia, which reported another quarter of blockbuster earnings and said Blackwells are now in the hands of Microsoft and OpenAI.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/nvidia-earnings-blackwell-chips-overheating/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673b531f42969d84c27ccc96",
+      "Title": "Trump FCC Pick Brendan Carr Wants to Be the Speech Police. That’s Not His Job",
+      "PublishDate": "2024-11-20T19:39:09+00:00",
+      "Summary": "Brendan Carr wrote the Project 2025 chapter on the Federal Communications Commission. Now Donald Trump has tapped him to run the agency.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/brendan-carr-fcc-trump-speech-social-media-moderation/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673e0652a6f9763dbf2a2236",
+      "Title": "Amazon Just Dropped the Biggest Echo Show Ever",
+      "PublishDate": "2024-11-20T19:06:39+00:00",
+      "Summary": "The Echo Show 21 is the largest yet, plus the Echo Show 15 gets a second generation.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/amazon-echo-show-21-announced/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673ba40a9ec8af538cf0ebca",
+      "Title": "Join Us for the WIRED Big Interview Event",
+      "PublishDate": "2024-11-20T17:28:03+00:00",
+      "Summary": "On December 3, WIRED will be sitting down with some of the biggest names in technology, business, science, and beyond for a full day packed with in-depth conversations.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/thebiginterview-2024-conference/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "673b4f07bc15c9854052e972",
+      "Title": "The Man Behind Amazon’s Robot Army Wants Everyone to Have an AI-Powered Helper",
+      "PublishDate": "2024-11-20T17:00:00+00:00",
+      "Summary": "Brad Porter helped Amazon deploy an army of warehouse robots. His new creation—Proxie—could help other companies embrace more automation.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/story/robot-army-proxie-humanoid/"
+    },
+    {
+      "FeedId": "https://www.wired.com/feed/rss",
+      "ItemId": "5ef4c400be64fa7887c4328e",
+      "Title": "12 Best Turntables (2024), Tested and Reviewed",
+      "PublishDate": "2024-11-20T14:30:00+00:00",
+      "Summary": "Streaming music giving you the blues? These record players will help you rock on to analog audio at home.",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.wired.com/gallery/best-turntables/"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿Adding more extensions to Result: Working with the result pattern - Part 3
+
+In this post I show how to extend your LINQ-based result pattern code to handle more scenarios, such as Task> and collections of Result
+---
+https://andrewlock.net/working-with-the-result-pattern-part-3-adding-more-extensions/

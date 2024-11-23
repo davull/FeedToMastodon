@@ -1,0 +1,110 @@
+﻿{
+  "Id": "https://www.howtoforge.com/feed.rss",
+  "Website": "https://www.howtoforge.com",
+  "Title": "Howtoforge Linux Howtos und Tutorials",
+  "LastUpdatedTime": "2024-11-22T18:38:12+00:00",
+  "Description": "Howtoforge Tutorials",
+  "Language": null,
+  "Items": [
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/",
+      "Title": "Install WireGuard VPN on Debian 12",
+      "PublishDate": "2024-11-22T18:38:12+00:00",
+      "Summary": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/",
+      "Title": "How to Install Mattermost with Nginx proxy and free Let's Encrypt SSL on Ubuntu 24.04",
+      "PublishDate": "2024-11-22T18:14:05+00:00",
+      "Summary": "Mattermost is an open-source alternative to Slack and Microsoft Teams. It allows you to self-host online chat with multiple features such as file sharing, search, automation, and multiple third-party integrations. In this tutorial, you'll learn how to install Mattermost on Ubuntu 24.04 server.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-graylog-on-ubuntu-24-04/",
+      "Title": "How to Install Graylog on Ubuntu 24.04",
+      "PublishDate": "2024-11-15T10:58:35+00:00",
+      "Summary": "Graylog is a free and open-source log-management platform for capturing, storing, and enabling real-time analysis of your data and logs. It's written in Java and built on top of other open-source software like MongoDB and Elasticsearch.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-graylog-on-ubuntu-24-04/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-zabbix-on-ubuntu-24-04/",
+      "Title": "How to Install Zabbix on Ubuntu 24.04",
+      "PublishDate": "2024-11-15T10:08:00+00:00",
+      "Summary": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-zabbix-on-ubuntu-24-04/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/",
+      "Title": "How to Install and Use Vuls Vulnerability Scanner on Debian 12",
+      "PublishDate": "2024-11-11T13:42:01+00:00",
+      "Summary": "Vuls is an agentless, free, and open-source vulnerability scanner for Linux and FreeBSD. In this guide, you'll learn how to install Vuls Vulnerability Scanner on the Debian 12 server. You'll install Vuls, set up CVE databases, and then scan the local system and remote machine Vuls.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/",
+      "Title": "How to Use Rsnapshot for Backup and Restore on Linux Servers",
+      "PublishDate": "2024-11-11T12:55:32+00:00",
+      "Summary": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/",
+      "Title": "How to Monitor MySQL or MariaDB with Prometheus and Grafana",
+      "PublishDate": "2024-11-07T19:52:35+00:00",
+      "Summary": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
+      "Title": "How to Install Mattermost on Rocky Linux 9",
+      "PublishDate": "2024-11-07T19:48:07+00:00",
+      "Summary": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/",
+      "Title": "How to Install and Use Vuls Vulnerability Scanner on Ubuntu 24.04",
+      "PublishDate": "2024-11-07T19:43:24+00:00",
+      "Summary": "In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/",
+      "Title": "How to Install Seafile Self-Hosted Cloud Storage on Debian 12",
+      "PublishDate": "2024-10-29T09:51:25+00:00",
+      "Summary": "Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/"
+    }
+  ]
+}

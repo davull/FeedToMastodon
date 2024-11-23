@@ -1,0 +1,13 @@
+﻿SchemaVersions
+  SchemaVersionID
+  ScriptName
+  Applied
+sqlite_sequence
+  name
+  seq
+ProcessedPosts
+  FeedId
+  ItemId
+  Timestamp
+  StatusId
+  FeedTitle

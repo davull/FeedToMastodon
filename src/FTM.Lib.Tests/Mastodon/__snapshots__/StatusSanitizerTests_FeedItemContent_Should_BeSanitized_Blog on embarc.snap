@@ -1,0 +1,732 @@
+﻿[
+  {
+    "itemId": "https://www.embarc.de/interview-matthias-naab-plattformen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/mit-unfix-in-eine-dynamische-zukunft/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/entwicklungsteams-enablen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/ist-dieses-arc42-eigentlich-alternativlos/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-lambda/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/prinzipien-umsetzung-querschnittlicher-bounded-contexts/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-prometheus/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-maven/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-sven-grasser-plattformen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kriterien-einfuehrung-querschnittliche-bounded-contexts/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/was-ist-plattform-engineering/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarking-embarc/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/consumer-driven-contracts/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2023-vorschau/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-threema/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/isaqb-advanced-aufgaben-loesen-intro/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-anwendung/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-cost-optimization-sustainability/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-hugo/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-performance-efficiency/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-reliability/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-security/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-neo4j/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-operational-excellence/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/well-architected-cloud-ueberblick/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-golang/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-corona-warn-app/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-larysa-visengeriyeva-datamesh/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-ina-einemann-productowner/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/was-sind-architektur-katas/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/ausblick-isaqb-advanced-pruefung/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/fragen-an-peter-gafert/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/fragen-an-tobias-ahlers/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-spring-framework/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2022-vorschau/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/aufbrechen-mit-embarc/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/doctoolchain/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-portraet-visual-studio-code/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2021-rueckblick/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturdoku-buch-dritte-auflage/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/was-ist-docs-as-code/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/was-geht-ab-in-meinem-cluster-fragen-an-matthias-haeussler/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/roewekamp-ki-ethik/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kopf-voller-softwarearchitektur-begriffsbild/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/softwaredokumentation-liebe-auf-den-zweiten-blick-fragen-an-stephan-pirnbaum/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/deutsch-techies-fragen-an-melanie-andrisek/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/punsch-2021-vorschau/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/transformer-zoo/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/midsommar-2021-rueckblick/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/midsommar-gather-town/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/socreatory-trainings-embarc-innoq/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/new-work-entscheidungen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/cwa-unter-der-lupe/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/softwarearchitektur-fuer-ml/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/eventual-consistency-fragen-an-susanne-braun/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/remote-weiterbildung/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/softwareentwicklungsraute/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturprinzipien-pruefsteine/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architektur-ohne-tellerrand-saa2021/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/ml-buch-v2/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/softwarearchitektur-briefmarken/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/wunschzettel-spicker/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arcpunsch-rueckblick/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/scientist-fitness-function/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturspicker-vertont/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/cwa-oop-preview/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/sieben-tipps-affinity-photo/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/gute-vorsaetze-2021/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/golang-jugsaxony-video/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/sieben-monate-embarc/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/testcontainers/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/brettspiele-weihnachten/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturueberblicke-anfertigen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/organisationsentwicklung-und-hygge/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/java-15-16/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/frontend-architektur/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/pragmatische-fitness-functions/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/mikado-methode/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/tag-des-krampus/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/adventsgrillen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/ades-framework-download/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/wissen-teilen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/architekturstile-software-echt/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/warum-ml-zu-agile-passt/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-september-2020/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/machine-learning-anwendungen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/was-tun-gegen-die-videokonferenz-m%C3%BCdigkeit/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/was-k%C3%B6nnen-wir-durch-die-corona-krise-%C3%BCber-organisationen-lernen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/machine-learning-anwendungen-text/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/online-meetings-warum-sind-die-so-anstrengend/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/agila-in-den-zeiten-der-corona/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/blog/meta-learning-was-ich-beim-elearning-remote-moderation-%C3%BCbers-lehren-gelernt-habe/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-september-2019/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/einheitlicher-ui-rahmen-php-ssi-micro-moves-bauteil-8/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/security-services-jwt-micro-moves-bauteil-7/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-februar-2019/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2018/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/computergegner-asynchron-anbinden-rabbitmq-micro-moves-bauteil-6/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/spielregeln-schach-robuste-aufrufe-hystrix-micro-moves-bauteil-5/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/services-verbinden-nginx-reverse-proxy-docker-micro-moves-bauteil-4/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/single-page-application-vue-js-micro-moves-bauteil-3/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/service-schach-diagramme-python-flask-micro-moves-bauteil-2/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/erster-service-mit-java-und-spring-boot-micro-moves-bauteil-1/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/micro-moves-zeitgenoessische-softwarearchitektur-als-bausatz-intro/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-maerz-2018/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/fen-forsyth-edwards-notation/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/schachbegriffe-auf-englisch/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-2017-2/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/echo-2017/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/drei-dinge-architekturdiagramme-plantuml-nerven/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-3-von-3/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-2-von-3/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/die-sieben-regeln-fuer-gute-dokumentation-in-stein-gemeisselt-tafel-1-von-3/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2016/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/isaqb-cpsa-advanced-pruefungsaufgaben/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/abheften-mit-arc42-fuer-fortgeschrittene-konzept-oder-entscheidung/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-januar-2016/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-die-schnipsel-zusammensetzen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-juli-2015/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-januar-2015/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-10-loesungsstrategie/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-9-konzepte/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/embarc-echo-auf-das-1-halbjahr-2014/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-8-randbedingungen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-7-qualitaetsszenarien/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-6-grafisches-glossar/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-5-architekturentscheidungen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-4-bausteinsicht/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-3-qualitaetsziele/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-2-systemkontext/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-1-produktkarton/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-12-big-picture-mit-entscheidern-kommunizieren/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-11-tartan-architektur-muster-dokumentieren/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-10-out-of-the-box-produktkartons/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-9-big-brother/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-8-fuer-die-ewigkeit-die-tonne-oder-etwas-dazwischen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-7-historisch-gewachsen-entscheidungen-festhalten/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-6-von-software-messies-und-jar-file-schlampen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-5-laufzeitsicht-der-juengste-spieler-faengt/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-4-was-ist-was-band-127-unser-softwaresystem/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-3-hat-mozart-modelliert/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-2-systemkontext/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-1-voll-unagil/",
+    "raw": null,
+    "sanitized": null
+  }
+]

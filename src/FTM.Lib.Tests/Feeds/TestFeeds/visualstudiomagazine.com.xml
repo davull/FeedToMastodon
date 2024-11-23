@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>News</title>
+    <description />
+    <link>https://visualstudiomagazine.com/RSS-Feeds/News.aspx</link>
+    <item>
+      <title>GitHub Research Claims Copilot Code Quality Gains in Addition to Productivity</title>
+      <description>GitHub says new research proves its Copilot AI tool can improve code quality, following earlier reports that said it boosts developer productivity -- and has a retort for contrarian studies.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx</link>
+      <pubDate>Fri, 22 Nov 2024 17:25:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio Devs Demand Claude 3.5 Sonnet AI: 'Why Is VSC Always Preferred?'</title>
+      <description>The brand-new Visual Studio 2022 v17.12 lets devs specify the AI model they want to use with the baked-in GitHub Copilot, but some are clamoring for more options, such as the latest/greatest Claude 3.5 Sonnet model from Anthropic that is available in VS Code.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/20/Visual-Studio-Devs-Demand-Claude-3-5-Sonnet-AI-Why-Is-VSC-Always-Preferred.aspx</link>
+      <pubDate>Wed, 20 Nov 2024 21:21:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/20/Visual-Studio-Devs-Demand-Claude-3-5-Sonnet-AI-Why-Is-VSC-Always-Preferred.aspx</guid>
+    </item>
+    <item>
+      <title>SQL Database in Microsoft Fabric in Preview for Faster AI Apps</title>
+      <description>Microsoft's early embrace of advanced AI in its dev tooling continues apace with the new public preview of SQL database in Microsoft Fabric, the company's analytics/data platform.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/19/SQL-Database-in-Microsoft-Fabric-in-Preview-for-Faster-AI-Apps.aspx</link>
+      <pubDate>Tue, 19 Nov 2024 20:48:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/19/SQL-Database-in-Microsoft-Fabric-in-Preview-for-Faster-AI-Apps.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Seeks to Sort &amp; Simplify its Agentic AI Dev Story</title>
+      <description>The company will infuse multi-agent runtime tech developed in its AutoGen research project into its production-ready Semantic Kernel SDK, both open source.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/18/Microsoft-Seeks-to-Sort-and-Simplify-its-Agentic-AI-Dev-Story.aspx</link>
+      <pubDate>Mon, 18 Nov 2024 19:44:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/18/Microsoft-Seeks-to-Sort-and-Simplify-its-Agentic-AI-Dev-Story.aspx</guid>
+    </item>
+    <item>
+      <title>Uno Platform Unveils 'Hot Design' Tool for Cross-Platform .NET Apps</title>
+      <description>Uno Platform provided a new take on visual designers for .NET app development, claiming a breakthrough that changes code at runtime rather than the design stage.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/15/Uno-Platform-Unveils-Hot-Design-Tool-for-Cross-Platform-NET-Apps.aspx</link>
+      <pubDate>Fri, 15 Nov 2024 21:41:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/15/Uno-Platform-Unveils-Hot-Design-Tool-for-Cross-Platform-NET-Apps.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio 2022 v17.12 Ships with AI Enhancements and Streamlined Dev Tools</title>
+      <description>Microsoft just shipped Visual Studio 2022 v17.12, focusing on enhancing developer experiences specifically for .NET 9 projects and introducing new AI productivity features. This update incorporates numerous developer-requested enhancements aimed at simplifying workflows and improving overall productivity.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/13/Visual-Studio-2022-v17-12-AI-Enhancements-and-Streamlined-Dev-Tools.aspx</link>
+      <pubDate>Wed, 13 Nov 2024 19:35:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/13/Visual-Studio-2022-v17-12-AI-Enhancements-and-Streamlined-Dev-Tools.aspx</guid>
+    </item>
+    <item>
+      <title>In .NET 9 Debut, Microsoft Focuses on .NET Aspire, AI</title>
+      <description>Microsoft shipped .NET 9 today with the dev team highlighting .NET Aspire and AI in a keynote and follow-on sessions of the livestreamed launch event.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/12/In-,-d-,NET-9-Debut-Microsoft-Focuses-on-NET-Aspire-AI.aspx</link>
+      <pubDate>Tue, 12 Nov 2024 20:47:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/12/In-,-d-,NET-9-Debut-Microsoft-Focuses-on-NET-Aspire-AI.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Intros 'Guided Chat Experience' for GitHub Copilot in Visual Studio</title>
+      <description>Microsoft introduced a new guided chat experience within GitHub Copilot, aiming to make developer interactions with AI more natural and effective.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Intros-Guided-Chat-Experience-for-GitHub-Copilot-in-Visual-Studio.aspx</link>
+      <pubDate>Thu, 07 Nov 2024 22:59:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Intros-Guided-Chat-Experience-for-GitHub-Copilot-in-Visual-Studio.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft's Open-Source Semantic Kernel AI Toolkit Extends to AWS Cloud</title>
+      <description>Microsoft announced its open-source Semantic Kernel toolkit for integrating advanced AI models into applications is now available on the Amazon Bedrock managed service.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/07/Semantic-Kernel-AI-Toolkit-Extends-to-AWS-Cloud.aspx</link>
+      <pubDate>Thu, 07 Nov 2024 22:10:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/07/Semantic-Kernel-AI-Toolkit-Extends-to-AWS-Cloud.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Previews Copilot AI in SQL Server Management Studio</title>
+      <description>In announcing SSMS 21 Preview 1 this week, Microsoft revealed Copilot AI for the tool is also being previewed, privately.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Previews-Copilot-in-SQL-Server-Management-Studio.aspx</link>
+      <pubDate>Thu, 07 Nov 2024 20:05:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Previews-Copilot-in-SQL-Server-Management-Studio.aspx</guid>
+    </item>
+    <item>
+      <title>Blitz of New VS Code AI Improvements Include 'Copilot Edits'</title>
+      <description>Microsoft's October 2024 release of Visual Studio Code (v1.95) focuses on enhancing the AI-driven development experience through GitHub Copilot. AI-related updates affect large code edits, multi-account support, and a more accessible Copilot Chat.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/11/06/Blitz-of-New-VS-Code-AI-Improvements-Include-Copilot-Edits.aspx</link>
+      <pubDate>Wed, 06 Nov 2024 16:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/11/06/Blitz-of-New-VS-Code-AI-Improvements-Include-Copilot-Edits.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Previews Mads Kristensen Keynote at Orlando Dev Conference</title>
+      <description>Microsoft today previewed a keynote presentation by Visual Studio guru Mads Kristensen at an upcoming developer/IT pro event where he will be joined by other company dev luminaries such as Jon Galloway, Rachel Kang, and James Montemagno.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/23/Microsoft-Previews-Mads-Kristensen-Keynote-at-Orlando-Dev-Conference.aspx</link>
+      <pubDate>Wed, 23 Oct 2024 17:23:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/23/Microsoft-Previews-Mads-Kristensen-Keynote-at-Orlando-Dev-Conference.aspx</guid>
+    </item>
+    <item>
+      <title>Syncfusion Open Sources 14 Controls for .NET MAUI</title>
+      <description>Third-party .NET-centric dev UI tooling specialist Syncfusion this week announced the open sourcing of 14 controls for .NET MAUI, the evolution of Xamarin.Forms that adds support for building desktop apps.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/23/Syncfusion-Open-Sources-14-Controls-for-NET-MAUI.aspx</link>
+      <pubDate>Wed, 23 Oct 2024 17:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/23/Syncfusion-Open-Sources-14-Controls-for-NET-MAUI.aspx</guid>
+    </item>
+    <item>
+      <title>New Combit Reporting Tool Release Supports .NET 9</title>
+      <description>The List &amp; Label reporting tool by combit helps devs integrate advanced reporting, printing and exporting capabilities into their apps for web, cloud and desktop environments with minimal code.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/18/New-Combit-Reporting-Tool-Release-Supports-,-d-,NET-9.aspx</link>
+      <pubDate>Fri, 18 Oct 2024 20:35:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/18/New-Combit-Reporting-Tool-Release-Supports-,-d-,NET-9.aspx</guid>
+    </item>
+    <item>
+      <title>Copilot AI Enhanced in Flurry of Visual Studio v17.12 Previews</title>
+      <description>Since announcing Visual Studio 2022 v17.11 in August, Microsoft's dev team has been busy shipping a series of AI-heavy previews for the next edition.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/17/Copilot-AI-Enhanced-in-Flurry-of-Visual-Studio-17-12-Previews.aspx</link>
+      <pubDate>Thu, 17 Oct 2024 21:16:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/17/Copilot-AI-Enhanced-in-Flurry-of-Visual-Studio-17-12-Previews.aspx</guid>
+    </item>
+    <item>
+      <title>How Visual Studio IntelliCode Helped Shape GitHub Copilot and Modern AI</title>
+      <description>Microsoft has baked advanced GitHub Copilot tech into the latest edition of Visual Studio, but the aging IntelliCode feature of the IDE actually helped shape the modern experience.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/16/How-Visual-Studio-IntelliCode-UX-Helped-Shape-GitHub-Copilot-and-Modern-AI.aspx</link>
+      <pubDate>Wed, 16 Oct 2024 22:30:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/16/How-Visual-Studio-IntelliCode-UX-Helped-Shape-GitHub-Copilot-and-Modern-AI.aspx</guid>
+    </item>
+    <item>
+      <title>VS Code Is Latest Microsoft Dev Tooling Weaponized by Threat Actors</title>
+      <description>Cybersecurity threat actors keep leveraging Microsoft development tooling as attack vectors, with the new one coming via malware phishing.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/14/VS-Code-Is-Latest-Microsoft-Dev-Tooling-Weaponized-by-Threat-Actors.aspx</link>
+      <pubDate>Mon, 14 Oct 2024 21:47:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/14/VS-Code-Is-Latest-Microsoft-Dev-Tooling-Weaponized-by-Threat-Actors.aspx</guid>
+    </item>
+    <item>
+      <title>AI Explains Expressions in Update to Java on VS Code</title>
+      <description>"The Spring Tools now show code lenses above these expressions that allow you to quickly let GitHub Copilot explain those statements for you."</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/10/AI-Explains-Expressions-in-Update-to-Java-on-VS-Code.aspx</link>
+      <pubDate>Thu, 10 Oct 2024 19:46:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/10/AI-Explains-Expressions-in-Update-to-Java-on-VS-Code.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Eases Integration with Semantic Kernel AI SDK</title>
+      <description>The basic idea is to provide unified API abstractions, especially for idiomatic C# code, to help platform developers and others work with any provider with standard implementations for caching, telemetry, tool calling and other common tasks.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/09/Microsoft-Eases-Integration-with-Semantic-Kernel-AI-SDK.aspx</link>
+      <pubDate>Wed, 09 Oct 2024 21:26:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/09/Microsoft-Eases-Integration-with-Semantic-Kernel-AI-SDK.aspx</guid>
+    </item>
+    <item>
+      <title>Final .NET 9 Preview Ships with Go-Live License</title>
+      <description>Visual Studio developers can now download the SDK for .NET 9 Release Candidate 2 with a go-live license, meaning devs get Microsoft support for production applications even before the framework reaches general availability next month.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/09/Final-NET-9-Preview-Ships-with-Go-Live-License.aspx</link>
+      <pubDate>Wed, 09 Oct 2024 20:13:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/09/Final-NET-9-Preview-Ships-with-Go-Live-License.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio's Future: Live Help to 'AI-ify Your App'</title>
+      <description>Visual Studio guru Mads Kristensen provided a peek into the IDE's AI future, explaining how while in live-coding it will identify opportunities for your own app to use AI to your advantage.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/08/Visual-Studios-Future-Live-Help-to-AI-ify-Your-App.aspx</link>
+      <pubDate>Tue, 08 Oct 2024 17:46:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/08/Visual-Studios-Future-Live-Help-to-AI-ify-Your-App.aspx</guid>
+    </item>
+    <item>
+      <title>Python AI Updates Highlight New VS Code Release</title>
+      <description>Millions of Python developers using VS Code find updated data science functionality in the new release of version 1.94, the September 2024 edition of Microsoft's open-source-based editor.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/07/Python-AI-Updates-Highlight-New-VS-Code-Release.aspx</link>
+      <pubDate>Mon, 07 Oct 2024 18:52:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/07/Python-AI-Updates-Highlight-New-VS-Code-Release.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Ships Stable Versions of OpenAI Libraries for .NET and Azure</title>
+      <description>Further leveraging the relationship that vaulted Microsoft and OpenAI into leadership positions in the AI era, Microsoft this week announced stable versions of two new OpenAI libraries.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Ships-Stable-Versions-of-OpenAI-Libraries-for-,-d-,NET-and-Azure.aspx</link>
+      <pubDate>Fri, 04 Oct 2024 22:27:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Ships-Stable-Versions-of-OpenAI-Libraries-for-,-d-,NET-and-Azure.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Further Embraces OpenAPI Spec (formerly Swagger)</title>
+      <description>Microsoft has long embraced the OpenAPI Specification (formerly known as Swagger) for describing APIs, and it's now taking that support to the next level with a new online resource.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Further-Embraces-OpenAPI-Spec-formerly-Swagger.aspx</link>
+      <pubDate>Fri, 04 Oct 2024 20:14:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Further-Embraces-OpenAPI-Spec-formerly-Swagger.aspx</guid>
+    </item>
+    <item>
+      <title>What's New for Java Tooling in VS Code, Azure Cloud</title>
+      <description>Java on Visual Studio Code gets a new tool to its extension pack, while Java on Azure upgraded the Azure Toolkit for IntelliJ and more in new regular updates for both properties.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/25/Whats-New-for-Java-Tooling-in-VS-Code-Azure-Cloud.aspx</link>
+      <pubDate>Wed, 25 Sep 2024 13:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/25/Whats-New-for-Java-Tooling-in-VS-Code-Azure-Cloud.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Highlights Third-Party Open-Source '.NET Smart Components'</title>
+      <description>Microsoft has long acknowledged third-party vendor contributions to dev tooling ecosystems like Blazor and is now doing the same for its newly open-sourced .NET Smart Components.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/20/Microsoft-Highlights-Third-Party-Open-Source-NET-Smart-Components.aspx</link>
+      <pubDate>Fri, 20 Sep 2024 17:26:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/20/Microsoft-Highlights-Third-Party-Open-Source-NET-Smart-Components.aspx</guid>
+    </item>
+    <item>
+      <title>Data Science Pack for VS Code Bundles Python, Data and Copilot Tools</title>
+      <description>New extension pack bundles wildly popular tools for Python development, assisted by the AI-powered GitHub Copilot and a data wrangler.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/19/Data-Science-Pack-for-VS-Code-Bundles-Python-Data-and-Copilot-Tools.aspx</link>
+      <pubDate>Thu, 19 Sep 2024 17:32:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/19/Data-Science-Pack-for-VS-Code-Bundles-Python-Data-and-Copilot-Tools.aspx</guid>
+    </item>
+    <item>
+      <title>30th Annual Visual Studio Magazine Reader's Choice Awards Announced</title>
+      <description>For the 30th year in a row, Visual Studio Magazine readers have chosen the best tools and services for developers. The 2024 winners are honored in 43 categories, from component suites to testing tools to AI helpers.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/18/30th-Annual-Visual-Studio-Magazine-Readers-Choice-Awards-Announced.aspx</link>
+      <pubDate>Wed, 18 Sep 2024 15:25:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/18/30th-Annual-Visual-Studio-Magazine-Readers-Choice-Awards-Announced.aspx</guid>
+    </item>
+    <item>
+      <title>Another Report Weighs In on GitHub Copilot Dev Productivity: 👎</title>
+      <description>Several reports have answered "yes" to the question of whether GitHub Copilot improves developer productivity. A new one says "no."</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/17/Another-Report-Weighs-In-on-GitHub-Copilot-Dev-Productivity.aspx</link>
+      <pubDate>Tue, 17 Sep 2024 23:44:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/17/Another-Report-Weighs-In-on-GitHub-Copilot-Dev-Productivity.aspx</guid>
+    </item>
+    <item>
+      <title>Dev Asks, and 7 Years Later Python in VS Code Delivers Django Unit Test Support</title>
+      <description>"We are excited to announce support for one of our most requested features: you can now discover and run Django unit tests through the Test Explorer!"</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/13/Dev-Asks-and-7-Years-Later-Python-in-VS-Code-Delivers-Django-Unit-Test-Support.aspx</link>
+      <pubDate>Fri, 13 Sep 2024 19:40:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/13/Dev-Asks-and-7-Years-Later-Python-in-VS-Code-Delivers-Django-Unit-Test-Support.aspx</guid>
+    </item>
+    <item>
+      <title>OData Finally Ditches Old .NET Framework</title>
+      <description>"The most disruptive change we are making in this release is dropping support for .NET Framework."</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/12/OData-Finally-Ditches-Old-NET-Framework.aspx</link>
+      <pubDate>Thu, 12 Sep 2024 20:47:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/12/OData-Finally-Ditches-Old-NET-Framework.aspx</guid>
+    </item>
+    <item>
+      <title>.NET MAUI, ASP.NET Core Polished in First Release Candidate for .NET 9</title>
+      <description>Microsoft shipped the first release candidate for .NET 9, which is nearing feature completeness and production readiness in advance of its November debut.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/11/NET-MAUI-ASP-NET-Core-Polished-in-First-Release-Candidate-for-NET-9.aspx</link>
+      <pubDate>Wed, 11 Sep 2024 20:11:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/11/NET-MAUI-ASP-NET-Core-Polished-in-First-Release-Candidate-for-NET-9.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft's Stalled UWP Project Supports .NET 9 to Help WinUI 3 Migration</title>
+      <description>The company urges devs to switch to Windows App SDK and WinUI 3 because UWP is no longer under active development.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/11/Microsofts-Stalled-UWP-Project-Supports-NET-9-as-WinUI-3-Migration-Urged.aspx</link>
+      <pubDate>Wed, 11 Sep 2024 19:08:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/11/Microsofts-Stalled-UWP-Project-Supports-NET-9-as-WinUI-3-Migration-Urged.aspx</guid>
+    </item>
+    <item>
+      <title>VS Code Experiments Boost AI Copilot Functionality</title>
+      <description>Devs can now customize code generation, enjoy enhanced Chat experiences and much more.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/09/09/VS-Code-Experiments-Boost-AI-Copilot-Functionality.aspx</link>
+      <pubDate>Mon, 09 Sep 2024 20:37:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/09/09/VS-Code-Experiments-Boost-AI-Copilot-Functionality.aspx</guid>
+    </item>
+    <item>
+      <title>Windows Community Toolkit Update Improves Controls</title>
+      <description>The Windows Community Toolkit advanced to version 8.1, adding new features, improving existing controls and making dependency changes.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/27/Windows-Community-Toolkit-Update-Improves-Controls.aspx</link>
+      <pubDate>Tue, 27 Aug 2024 16:30:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/27/Windows-Community-Toolkit-Update-Improves-Controls.aspx</guid>
+    </item>
+    <item>
+      <title>ASP.NET Core, .NET MAUI Updated as .NET 9 Nears</title>
+      <description>The web-dev ASP.NET Core framework and Xamarin.Forms' successor .NET MAUI received the lion's share of dev attention in the seventh preview of .NET 9 as Microsoft preps for a November launch at .NET Conf 2024.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/27/ASPNET-Core-NET-MAUI-Updated-as-NET-9-Nears.aspx</link>
+      <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/27/ASPNET-Core-NET-MAUI-Updated-as-NET-9-Nears.aspx</guid>
+    </item>
+    <item>
+      <title>.NET Community Toolkit Gets Native AOT and .NET 8 Support</title>
+      <description>The .NET Community Toolkit is Microsoft's latest dev tooling to get native ahead-of-time compilation, continuing a years-long push for that capability across the board.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/27/NET-Community-Toolkit-Gets-Native-AOT-NET-8-Support.aspx</link>
+      <pubDate>Tue, 27 Aug 2024 16:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/27/NET-Community-Toolkit-Gets-Native-AOT-NET-8-Support.aspx</guid>
+    </item>
+    <item>
+      <title>GitHub Copilot Tops Research Report on AI Code Assistants</title>
+      <description>GitHub topped research firm's Gartner's inaugural Magic Quadrant report on AI code assistants, with Copilot leading in both completeness of vision and ability to execute.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/26/GitHub-Copilot-Tops-Research-Report-on-AI-Code-Assistants.aspx</link>
+      <pubDate>Mon, 26 Aug 2024 21:50:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/26/GitHub-Copilot-Tops-Research-Report-on-AI-Code-Assistants.aspx</guid>
+    </item>
+    <item>
+      <title>VS Code Tool for Azure Machine Learning Ships After 7-Year Preview</title>
+      <description>"You can use your favorite VS Code setup, either desktop or web, to build, train, deploy, debug, and manage machine learning models with Azure Machine Learning from within VS Code."</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/23/VS-Code-Tool-for-Azure-Machine-Learning-Ships-After-7-Year-Preview.aspx</link>
+      <pubDate>Fri, 23 Aug 2024 20:43:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/23/VS-Code-Tool-for-Azure-Machine-Learning-Ships-After-7-Year-Preview.aspx</guid>
+    </item>
+    <item>
+      <title>Newly Open-Sourced '.NET Smart Components' Demoed at AI Event</title>
+      <description>Yesterday's .NET Conf Focus on AI online event highlighted Microsoft's latest/greatest AI dev tooling, including the newly open-sourced .NET Smart Components.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/21/Newly-Open-Sourced-NET-Smart-Components-Demoed-at-AI-Event.aspx</link>
+      <pubDate>Wed, 21 Aug 2024 19:28:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/21/Newly-Open-Sourced-NET-Smart-Components-Demoed-at-AI-Event.aspx</guid>
+    </item>
+    <item>
+      <title>Content Exclusion Is Latest of Many New Visual Studio Copilot Features</title>
+      <description>The ability for admins to configure Copilot to ignore specific files in repositories or organizations joins a raft of other enhancements that affect everything from commit histories to pull requests to targeted slash commands and more.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/19/Content-Exclusion-Is-Latest-of-Many-New-Visual-Studio-Copilot-Features.aspx</link>
+      <pubDate>Mon, 19 Aug 2024 22:26:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/19/Content-Exclusion-Is-Latest-of-Many-New-Visual-Studio-Copilot-Features.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Spotlights .NET 9, Cloud in First Visual Studio 2022 v17.12 Preview</title>
+      <description> With Visual Studio 2022 v17.11 shipping this week, the first preview of the next edition sees Microsoft emphasizing support for the coming .NET 9 and cloud development with Aspire.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/16/Microsoft-Spotlights-NET-9-Cloud-in-First-Visual-Studio-2022-v17-12-Preview.aspx</link>
+      <pubDate>Fri, 16 Aug 2024 19:48:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/16/Microsoft-Spotlights-NET-9-Cloud-in-First-Visual-Studio-2022-v17-12-Preview.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio 2022 v17.11 Ships 'Shaped by Your Feedback' (and AI)</title>
+      <description>Microsoft's Mads Kristensen heavily emphasized the community contributions that helped the dev team ship the brand-new Visual Studio 2022 version 17.11, which includes new features, improvements and fixes across the board spawned from the ideas of users. </description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/14/Visual-Studio-2022-v17-11-Ships-Shaped-by-Your-Feedback.aspx</link>
+      <pubDate>Wed, 14 Aug 2024 17:45:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/14/Visual-Studio-2022-v17-11-Ships-Shaped-by-Your-Feedback.aspx</guid>
+    </item>
+    <item>
+      <title>VSLive! Dev Conference Tip Leads to New IDE Extension: Sql Formatter</title>
+      <description>"During the VS Live conference last week, it was brought to my attention that Visual Studio has no support for formatting SQL files."</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/13/VSLive-Dev-Conference-Tip-Leads-to-New-IDE-Extension-Sql-Formatter.aspx</link>
+      <pubDate>Tue, 13 Aug 2024 23:17:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/13/VSLive-Dev-Conference-Tip-Leads-to-New-IDE-Extension-Sql-Formatter.aspx</guid>
+    </item>
+    <item>
+      <title>Copilot Rolled Out to Your Org? Better Check User Activity</title>
+      <description>Many organizations jumped on the Gen AI bandwagon in a big way, but now that it has fallen into the "trough of disillusionment," it might be time to check copilot usage to control costs, check for inappropriate or risky behavior and so on.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/12/Copilot-Rolled-Out-to-Your-Org-Better-Check-User-Activity.aspx</link>
+      <pubDate>Mon, 12 Aug 2024 21:04:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/12/Copilot-Rolled-Out-to-Your-Org-Better-Check-User-Activity.aspx</guid>
+    </item>
+    <item>
+      <title>VS Code v1.92: Pick Your Browser, Use OpenAI's GPT-4o AI Model</title>
+      <description>A highlight of the latest release of Microsoft's Visual Studio Code open-source-based code editor is the ability to pick your default browser for opening links, along with access to new advanced AI model.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/09/VS-Code-v1-92-Pick-Your-Browser-Use-OpenAI-GPT-4o-Model.aspx</link>
+      <pubDate>Fri, 09 Aug 2024 22:51:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/09/VS-Code-v1-92-Pick-Your-Browser-Use-OpenAI-GPT-4o-Model.aspx</guid>
+    </item>
+    <item>
+      <title>ABP Ships Community Edition of Open Source .NET Dev Framework</title>
+      <description>Flying under the radar below Visual Studio, VS Code, JetBrains Rider and other big names in the .NET-centric IDE space is the open-source ABP, which just shipped a new community edition.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/07/ABP-Ships-Community-Edition-of-Open-Source-,-d-,NET-Dev-Framework.aspx</link>
+      <pubDate>Wed, 07 Aug 2024 18:04:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/07/ABP-Ships-Community-Edition-of-Open-Source-,-d-,NET-Dev-Framework.aspx</guid>
+    </item>
+    <item>
+      <title>With .NET 6 Support Ending, Security Vulnerabilities Loom</title>
+      <description>While many Visual Studio developers are awaiting the debut of .NET 9 in November, they might want to pay attention to a looming security issue with .NET 6, which will reach end of support at the same time, perhaps leaving apps open to cybersecurity attacks.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/05/With-NET-6-Support-Ending-Security-Vulnerabilities-Loom.aspx</link>
+      <pubDate>Mon, 05 Aug 2024 17:15:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/05/With-NET-6-Support-Ending-Security-Vulnerabilities-Loom.aspx</guid>
+    </item>
+    <item>
+      <title>Semantic Kernel AI SDK Gets Autonomous Agents (Experimental)</title>
+      <description>As AI matures, agents are one of the most significant areas of development, and Microsoft's Semantic Kernel AI dev tooling is getting them, as an experiment for now.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/02/Semantic-Kernel-AI-SDK-Gets-Agents-Experimental.aspx</link>
+      <pubDate>Fri, 02 Aug 2024 19:17:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/02/Semantic-Kernel-AI-SDK-Gets-Agents-Experimental.aspx</guid>
+    </item>
+    <item>
+      <title>'GitHub Models' AI Playground Debuts with Llama 3.1, GPT-4o and More</title>
+      <description>GitHub Models is unveiled as a limited public beta to help platform's 100-million-plus developers try out the latest/greatest AI models from a range of providers.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/01/github-models.aspx</link>
+      <pubDate>Thu, 01 Aug 2024 19:23:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/01/github-models.aspx</guid>
+    </item>
+    <item>
+      <title>Java, Python Tooling Advances in VS Code</title>
+      <description>Microsoft's Visual Studio Code dev teams for Java and Python announced Gradle enhancements for the former and improved Python discovery for the latter.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/08/01/vs-code-java-python.aspx</link>
+      <pubDate>Thu, 01 Aug 2024 18:19:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/08/01/vs-code-java-python.aspx</guid>
+    </item>
+    <item>
+      <title>Copilot in Visual Studio Will Get Access to Org Knowledge Bases</title>
+      <description>Visual Studio devs who have become dependent upon GitHub Copilot AI assistance will have to wait a while for a hot new feature already available in VS Code.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx</link>
+      <pubDate>Wed, 31 Jul 2024 20:50:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Going Small in Semantic Kernel AI Dev Tooling</title>
+      <description>In revealing future plans for its Semantic Kernel AI dev tooling, Microsoft said it's going small -- at lease in terms of AI model size.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx</link>
+      <pubDate>Wed, 31 Jul 2024 19:39:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx</guid>
+    </item>
+    <item>
+      <title>Microsoft Previews AI Prompt Playground for VS Code: Prompty</title>
+      <description>Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx</link>
+      <pubDate>Tue, 30 Jul 2024 19:17:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx</guid>
+    </item>
+    <item>
+      <title>Google Extends Free Use of VS Code AI Assistant Until Nov. 8</title>
+      <description>Developers who use Google's Gemini Code Assist tool in Microsoft's Visual Studio Code editor were this month informed the tool would be free to use until Nov. 8, 2024, an extension of a previous July 11 deadline.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx</link>
+      <pubDate>Mon, 29 Jul 2024 18:17:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx</guid>
+    </item>
+    <item>
+      <title>Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine</title>
+      <description>In this year's big Stack Overflow developer survey things are much the same for Microsoft-centric data points: VS Code and Visual Studio still rule the IDE roost, while .NET maintains its No. 1 position among non-web frameworks.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx</link>
+      <pubDate>Fri, 26 Jul 2024 19:34:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx</guid>
+    </item>
+    <item>
+      <title>Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python</title>
+      <description>Microsoft's first significant update to .NET Aspire for cloud-native app development addresses the building of container images and the orchestration of Python code among a bevy of new features and enhancements.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx</link>
+      <pubDate>Thu, 25 Jul 2024 17:54:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx</guid>
+    </item>
+    <item>
+      <title>Uno Platform 5.3 Enhances Hot Reload UI</title>
+      <description>Uno Platform 5.3 shipped with enhanced Hot Reload UI functionality, full support for the Rider IDE from JetBrains and more.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx</link>
+      <pubDate>Wed, 24 Jul 2024 19:25:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio Uses RUBICON to Improve AI Conversations</title>
+      <description>AI assistants have improved coding productivity, but how do you know if they're getting better?</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx</link>
+      <pubDate>Mon, 22 Jul 2024 20:21:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx</guid>
+    </item>
+    <item>
+      <title>Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts</title>
+      <description>Microsoft announced new learning benefits to subscribers of its flagship Visual Studio IDE, including discounts for Visual Studio Live! developer conferences and other educational opportunities.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx</link>
+      <pubDate>Thu, 18 Jul 2024 17:15:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx</guid>
+    </item>
+  </channel>
+</rss>

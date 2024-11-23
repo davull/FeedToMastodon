@@ -1,0 +1,5 @@
+﻿How to Install and Use Vuls Vulnerability Scanner on Debian 12
+
+Vuls is an agentless, free, and open-source vulnerability scanner for Linux and FreeBSD. In this guide, you'll learn how to install Vuls Vulnerability Scanner on the Debian 12 server. You'll install Vuls, set up CVE databases, and then scan the local system and remote machine Vuls.
+---
+https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/

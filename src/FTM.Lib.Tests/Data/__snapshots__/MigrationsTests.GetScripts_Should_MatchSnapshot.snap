@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Name": "01-create-table-ProcessedPosts.sql",
+    "Contents": "CREATE TABLE IF NOT EXISTS ProcessedPosts (\n    FeedId TEXT NOT NULL,\n    ItemId TEXT NOT NULL,\n    Timestamp INTEGER NOT NULL,\n    StatusId TEXT NULL,\n    PRIMARY KEY (FeedId, ItemId)\n);\n"
+  },
+  {
+    "Name": "02-add-column-FeedTitle.sql",
+    "Contents": "ALTER TABLE ProcessedPosts\n    ADD FeedTitle TEXT null;\n"
+  }
+]

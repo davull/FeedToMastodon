@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://www.kernel-error.de/?p=2702",
+    "raw": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. 😉 Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings [&#8230;]",
+    "sanitized": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. 😉 Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2688",
+    "raw": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen [&#8230;]",
+    "sanitized": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2649",
+    "raw": "Eigentlich sollte die Überschrift heißen: Ärgere ich mich gerade über mich selbst oder über AVM? Zuhause arbeitete eine FRITZ!Box 7590 KA, die zu Beginn mit einem Frixtender erweitert wurde. Nach knapp zwei Jahren habe ich bemerkt, dass die FRITZ!Box angefangen hat zu fiepen. Eine Funktionseinschränkung konnte ich jedoch nicht feststellen. Da es aber knapp vor [&#8230;]",
+    "sanitized": "Eigentlich sollte die Überschrift heißen: Ärgere ich mich gerade über mich selbst oder über AVM? Zuhause arbeitete eine FRITZ!Box 7590 KA, die zu Beginn mit einem Frixtender erweitert wurde. Nach knapp zwei Jahren habe ich bemerkt, dass die FRITZ!Box angefangen hat zu fiepen. Eine Funktionseinschränkung konnte ich jedoch nicht feststellen. Da es aber knapp vor […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2620",
+    "raw": "Bei meinen letzten Einkaufstouren auf Aliexpress ist mir immer mal wieder ein FNIRSI GC-01 Nuclear Radiation Detector, sprich Geigerzähler vorgeschlagen worden. Was soll ich sagen, japp hat funktioniert, irgendwann habe ich das Teil tatsächlich einfach für knapp 30€ mit im Einkaufswagen gehabt. Nach ein paar Spielerreien ging mir aber schnell die Batterielebensdauer auf die Nerven, [&#8230;]",
+    "sanitized": "Bei meinen letzten Einkaufstouren auf Aliexpress ist mir immer mal wieder ein FNIRSI GC-01 Nuclear Radiation Detector, sprich Geigerzähler vorgeschlagen worden. Was soll ich sagen, japp hat funktioniert, irgendwann habe ich das Teil tatsächlich einfach für knapp 30€ mit im Einkaufswagen gehabt. Nach ein paar Spielerreien ging mir aber schnell die Batterielebensdauer auf die Nerven, […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2609",
+    "raw": "Wer den Chrome-Browser unter Linux für Videocalls oder sogar für Microsoft Teams nutzt, kann meinen Schmerz in Bezug auf die hohe CPU-Auslastung sicherlich nachvollziehen. Wenn ich dann noch meinen Hintergrund im Video unscharf stellen möchte, fühlt es sich an, als wäre mein System mindestens 15 Jahre alt. Dabei spielt es bei mir keine Rolle, ob [&#8230;]",
+    "sanitized": "Wer den Chrome-Browser unter Linux für Videocalls oder sogar für Microsoft Teams nutzt, kann meinen Schmerz in Bezug auf die hohe CPU-Auslastung sicherlich nachvollziehen. Wenn ich dann noch meinen Hintergrund im Video unscharf stellen möchte, fühlt es sich an, als wäre mein System mindestens 15 Jahre alt. Dabei spielt es bei mir keine Rolle, ob […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2594",
+    "raw": "Dass man eigentlich keinen reinen Kennwort-Login für seine Anmeldung an einem SSH-Server haben möchte, ist sicherlich bei fast allen angekommen. Kennwörter lassen sich einfacher mittels eines Brute-Force-Angriffes herausfinden. Ebenso gehen diese auch mal verloren. SSH-Keys werden die meisten ebenfalls bereits aufseiten des Clients mit einem zweiten Faktor geschützt haben. Dies kann ein MFA-Token sein oder [&#8230;]",
+    "sanitized": "Dass man eigentlich keinen reinen Kennwort-Login für seine Anmeldung an einem SSH-Server haben möchte, ist sicherlich bei fast allen angekommen. Kennwörter lassen sich einfacher mittels eines Brute-Force-Angriffes herausfinden. Ebenso gehen diese auch mal verloren. SSH-Keys werden die meisten ebenfalls bereits aufseiten des Clients mit einem zweiten Faktor geschützt haben. Dies kann ein MFA-Token sein oder […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2589",
+    "raw": "Heute habe ich versucht, mich von meiner neuen Linux Mint Installation aus mit einem meiner SSH-Server zu verbinden. Mein SSH-Client hat mich direkt mit der Frage begrüßt, ob ich dem neuen Hostkey vertrauen möchte oder nicht. Für viele mag diese Meldung bekannt und vollkommen normal erscheinen. In der Regel antwortet man initial mit &#8222;yes&#8220; und [&#8230;]",
+    "sanitized": "Heute habe ich versucht, mich von meiner neuen Linux Mint Installation aus mit einem meiner SSH-Server zu verbinden. Mein SSH-Client hat mich direkt mit der Frage begrüßt, ob ich dem neuen Hostkey vertrauen möchte oder nicht. Für viele mag diese Meldung bekannt und vollkommen normal erscheinen. In der Regel antwortet man initial mit „yes“ und […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2572",
+    "raw": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name &#8222;Turbo Tape&#8220; ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen [&#8230;]",
+    "sanitized": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name „Turbo Tape“ ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2529",
+    "raw": "Ich möchte ein paar Worte über meinen 3D Drucker verlieren. Seit knapp 2 Jahre werkelt bei mir der i-mates von QIDI Tech. Ich habe damals ein paar Testberichte durchgeschaut und bin auf diesen gekommen. Wichtig war mir, ein geringer Preis, beheizbares Druckbett, kompaktes Design, die Möglichkeit eines geschlossenen Druckraumes sowie, dass sich das Druckbett nur [&#8230;]",
+    "sanitized": "Ich möchte ein paar Worte über meinen 3D Drucker verlieren. Seit knapp 2 Jahre werkelt bei mir der i-mates von QIDI Tech. Ich habe damals ein paar Testberichte durchgeschaut und bin auf diesen gekommen. Wichtig war mir, ein geringer Preis, beheizbares Druckbett, kompaktes Design, die Möglichkeit eines geschlossenen Druckraumes sowie, dass sich das Druckbett nur […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2498",
+    "raw": "Es gibt aktuell einen EEEECCCHHHTTTT guten Deal um günstig an bis zu 10 YubiKeys 5 NFC und/oder 5C NFC zu kommen. Man benötigt dafür einen Cloudflare Account, der ist ja schnell geklickt. Dann klickt man ein paar Links und wartet auf eine E-Mail mit seinem Discount Code. Da die Keys in der Regel etwas um [&#8230;]",
+    "sanitized": "Es gibt aktuell einen EEEECCCHHHTTTT guten Deal um günstig an bis zu 10 YubiKeys 5 NFC und/oder 5C NFC zu kommen. Man benötigt dafür einen Cloudflare Account, der ist ja schnell geklickt. Dann klickt man ein paar Links und wartet auf eine E-Mail mit seinem Discount Code. Da die Keys in der Regel etwas um […]"
+  }
+]

@@ -1,0 +1,3492 @@
+﻿[
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20840",
+    "raw": "Unser Schulungsraum erhält ein Upgrade für unsere Powerkurse",
+    "sanitized": "Unser Schulungsraum erhält ein Upgrade für unsere Powerkurse"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20829",
+    "raw": "Azure Stack HCI Stretched Cluster Series Videoserie",
+    "sanitized": "Azure Stack HCI Stretched Cluster Series Videoserie"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20807",
+    "raw": "Azure Virtual Desktop on Azure Stack HCI Videoserie",
+    "sanitized": "Azure Virtual Desktop on Azure Stack HCI Videoserie"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20778",
+    "raw": "Azure Stack HCI Installation – Videoserie",
+    "sanitized": "Azure Stack HCI Installation – Videoserie"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20520",
+    "raw": "Mit MSLab Azure Stack HCI 2.0 evaluieren",
+    "sanitized": "Mit MSLab Azure Stack HCI 2.0 evaluieren"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=20676",
+    "raw": "Don’t miss the Azure Stack HCI Days 2021 on the 22nd and 23rd of September",
+    "sanitized": "Don’t miss the Azure Stack HCI Days 2021 on the 22nd and 23rd of September"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19660",
+    "raw": "Veeam News (VASP 2020, VeeamVanguard, Whitepaper)",
+    "sanitized": "Veeam News (VASP 2020, VeeamVanguard, Whitepaper)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19636",
+    "raw": "Am 26. März gibt’s um 10 Uhr einen WBSC#Talk und um 14 Uhr mein Webinar „Azure Stack HCI Streched“",
+    "sanitized": "Am 26. März gibt’s um 10 Uhr einen WBSC#Talk und um 14 Uhr mein Webinar „Azure Stack HCI Streched“"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19586",
+    "raw": "ON-PREM Show „News von der Microsoft Ignite“ mit Carsten Rachfahl und Manfred Helber 19. März 14 Uhr",
+    "sanitized": "ON-PREM Show „News von der Microsoft Ignite“ mit Carsten Rachfahl und Manfred Helber 19. März 14 Uhr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19196",
+    "raw": "ON-PREM Show „Warum on-Prem noch lange wichtig ist“ mit Carsten Rachfahl und Manfred Helber 12. Februar 14 Uhr",
+    "sanitized": "ON-PREM Show „Warum on-Prem noch lange wichtig ist“ mit Carsten Rachfahl und Manfred Helber 12. Februar 14 Uhr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19153",
+    "raw": "Vorsicht mit  den Januar 01-21 MS Patch und Storage Spaces Direct",
+    "sanitized": "Vorsicht mit  den Januar 01-21 MS Patch und Storage Spaces Direct"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19144",
+    "raw": "ON-PREM Show „Hyper-V Future“ mit Carsten Rachfahl und Manfred Helber 29. Januar 14 Uhr",
+    "sanitized": "ON-PREM Show „Hyper-V Future“ mit Carsten Rachfahl und Manfred Helber 29. Januar 14 Uhr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19081",
+    "raw": "Webinar Azure Stack HCI 20H2 Demo Extravaganza (in Deutsch) am 18 Januar 11 Uhr MEZ",
+    "sanitized": "Webinar Azure Stack HCI 20H2 Demo Extravaganza (in Deutsch) am 18 Januar 11 Uhr MEZ"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=19041",
+    "raw": "Azure Stack HCI Day 2020 am/at 18.11.2020",
+    "sanitized": "Azure Stack HCI Day 2020 am/at 18.11.2020"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18974",
+    "raw": "Live Migration Error, bei Hosts mit gleicher CPU",
+    "sanitized": "Live Migration Error, bei Hosts mit gleicher CPU"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18878",
+    "raw": "Webinar Azure Kubernetes Services with Azure Stack HCI 20H2 mit/with Ben Armstrong and Cosmos Darwin (in Englisch) 8 Oktober 8 CEST",
+    "sanitized": "Webinar Azure Kubernetes Services with Azure Stack HCI 20H2 mit/with Ben Armstrong and Cosmos Darwin (in Englisch) 8 Oktober 8 CEST"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18806",
+    "raw": "Webinar Azure Stack HCI 20H2 mit/with Cosmos Darvin (in Englisch) 21 August 8 CEST",
+    "sanitized": "Webinar Azure Stack HCI 20H2 mit/with Cosmos Darvin (in Englisch) 21 August 8 CEST"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18762",
+    "raw": "Webinar Azure Virtual WAN for everyone (in Englisch) 3. August 14 Uhr",
+    "sanitized": "Webinar Azure Virtual WAN for everyone (in Englisch) 3. August 14 Uhr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18545",
+    "raw": "Hyper-V Livemigration Error ID 21502",
+    "sanitized": "Hyper-V Livemigration Error ID 21502"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18708",
+    "raw": "Webinar Windows Virtual Desktop in Azure am 3. Juli um 15 Uhr (in Deutsch)",
+    "sanitized": "Webinar Windows Virtual Desktop in Azure am 3. Juli um 15 Uhr (in Deutsch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18621",
+    "raw": "VeeamON 2020 am 17. und 18. Juni 2020 virtuell, live und kostenlos",
+    "sanitized": "VeeamON 2020 am 17. und 18. Juni 2020 virtuell, live und kostenlos"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18641",
+    "raw": "Webinar “Create great test and demo Environments with WSLAB (in Englisch)” am 15. Juni um 11 Uhr (in Englisch)",
+    "sanitized": "Webinar “Create great test and demo Environments with WSLAB (in Englisch)” am 15. Juni um 11 Uhr (in Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18602",
+    "raw": "ExpertsLive Cafe AT – virtuell am 9. Juni 2020",
+    "sanitized": "ExpertsLive Cafe AT – virtuell am 9. Juni 2020"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18553",
+    "raw": "Webinar Sicherheit von Hyper-V VMs erhöhen am 29. Mai um 14 Uhr (in Deutsch)",
+    "sanitized": "Webinar Sicherheit von Hyper-V VMs erhöhen am 29. Mai um 14 Uhr (in Deutsch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18532",
+    "raw": "Live migration of Hyper-V VMs with a vTPM Chip #HyperV #TPM",
+    "sanitized": "Live migration of Hyper-V VMs with a vTPM Chip #HyperV #TPM"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18490",
+    "raw": "Livemigrieren von Hyper-V VMs die einen vTPM Chip haben #HyperV #TPM",
+    "sanitized": "Livemigrieren von Hyper-V VMs die einen vTPM Chip haben #HyperV #TPM"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18466",
+    "raw": "Performance Probleme: Hyper-V Cluster mit SAN Storage und CSVs mit ReFS formatiert",
+    "sanitized": "Performance Probleme: Hyper-V Cluster mit SAN Storage und CSVs mit ReFS formatiert"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18439",
+    "raw": "Webinar Windows Admin Center und Azure Stack HCI  am 3. April um 11 Uhr (in Deutsch)",
+    "sanitized": "Webinar Windows Admin Center und Azure Stack HCI  am 3. April um 11 Uhr (in Deutsch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18269",
+    "raw": "Monitoring eines S2D Clusters mit Grafana, InfluxDB und PowerShell (Teil 2)",
+    "sanitized": "Monitoring eines S2D Clusters mit Grafana, InfluxDB und PowerShell (Teil 2)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18153",
+    "raw": "How to: Firmwareupdate von NVMe’s oder SSDs mit  PowerShell",
+    "sanitized": "How to: Firmwareupdate von NVMe’s oder SSDs mit  PowerShell"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18098",
+    "raw": "Neues gemeinsames Treffen der Hyper-V und Hybrid Cloud Community am 27. Januar 2020 in Berlin",
+    "sanitized": "Neues gemeinsames Treffen der Hyper-V und Hybrid Cloud Community am 27. Januar 2020 in Berlin"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18080",
+    "raw": "Neue Hyper-V Amigos Showcasts über die Sicherung von Azure Stack HCI mit Veeam Backup & Replication",
+    "sanitized": "Neue Hyper-V Amigos Showcasts über die Sicherung von Azure Stack HCI mit Veeam Backup & Replication"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=18027",
+    "raw": "Webinar Ignite 2019 Azure Stack HCI  News Part 2 am 20. Dezember um 11 Uhr (in Deutsch) and 4:30 pm (in Englisch)",
+    "sanitized": "Webinar Ignite 2019 Azure Stack HCI  News Part 2 am 20. Dezember um 11 Uhr (in Deutsch) and 4:30 pm (in Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17930",
+    "raw": "Langsame Performance nach Festplatten Erweiterung beim S2D Cluster",
+    "sanitized": "Langsame Performance nach Festplatten Erweiterung beim S2D Cluster"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17947",
+    "raw": "Aufzeichnung Webinar „Synthetic Networking in Azure Stack HCI“ mit Dan Cuomo (in English)",
+    "sanitized": "Aufzeichnung Webinar „Synthetic Networking in Azure Stack HCI“ mit Dan Cuomo (in English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17919",
+    "raw": "Webinar Synthetic Networking in Azure Stack HCI am 10. Oktober um 17 Uhr (in English)",
+    "sanitized": "Webinar Synthetic Networking in Azure Stack HCI am 10. Oktober um 17 Uhr (in English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17900",
+    "raw": "Hyper-V Amigos Showcast Episode 19 – Windows Server 2019 as Veeam Backup Target",
+    "sanitized": "Hyper-V Amigos Showcast Episode 19 – Windows Server 2019 as Veeam Backup Target"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17875",
+    "raw": "Cosmos Darwin’s CDC-Germany 2019 Storage Spaces Direct Sessions",
+    "sanitized": "Cosmos Darwin’s CDC-Germany 2019 Storage Spaces Direct Sessions"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17829",
+    "raw": "Webinar Storage Spaces Direct – Update & Tipps 15. August um 11 Uhr (in Deutsch) and 5 pm (in English)",
+    "sanitized": "Webinar Storage Spaces Direct – Update & Tipps 15. August um 11 Uhr (in Deutsch) and 5 pm (in English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17818",
+    "raw": "Veeam Backup & Replication 9.5 Update 4b steht zum Download bereit",
+    "sanitized": "Veeam Backup & Replication 9.5 Update 4b steht zum Download bereit"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17490",
+    "raw": "How to: Backup und Restore eines S2D Nodes mit Veeam Agent for Windows",
+    "sanitized": "How to: Backup und Restore eines S2D Nodes mit Veeam Agent for Windows"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17705",
+    "raw": "Hyper-V Server 2019 ist endlich verfügbar und es funktioniert sogar FOD",
+    "sanitized": "Hyper-V Server 2019 ist endlich verfügbar und es funktioniert sogar FOD"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17642",
+    "raw": "Webinar Azure IaaS – Hybrid cloud für/for IT-Pros am 14. Juni um 11 Uhr (in Deutsch) und 5 pm (in English)",
+    "sanitized": "Webinar Azure IaaS – Hybrid cloud für/for IT-Pros am 14. Juni um 11 Uhr (in Deutsch) und 5 pm (in English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17622",
+    "raw": "Hyper-V Amigos Showcast Episode 18 – Hyper-V 2019 and Persistent Memory",
+    "sanitized": "Hyper-V Amigos Showcast Episode 18 – Hyper-V 2019 and Persistent Memory"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17585",
+    "raw": "VMs booten nach Umzug auf Windows Server 2019 nicht mehr",
+    "sanitized": "VMs booten nach Umzug auf Windows Server 2019 nicht mehr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17163",
+    "raw": "Storage Spaces Direct Quicky: sind die Storage Repair Jobs fertig?",
+    "sanitized": "Storage Spaces Direct Quicky: sind die Storage Repair Jobs fertig?"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17456",
+    "raw": "Aus der Praxis: Austausch einer defekten NVMe in einem S2D Cluster",
+    "sanitized": "Aus der Praxis: Austausch einer defekten NVMe in einem S2D Cluster"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17440",
+    "raw": "Monitoring eines S2D Clusters mit Grafana, InfluxDB und PowerShell (Teil 1)",
+    "sanitized": "Monitoring eines S2D Clusters mit Grafana, InfluxDB und PowerShell (Teil 1)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17496",
+    "raw": "Webinar What’s new in Hyper-V 2019 am 29. März um 11 Uhr (Deutsch) and 5 pm (Englisch)",
+    "sanitized": "Webinar What’s new in Hyper-V 2019 am 29. März um 11 Uhr (Deutsch) and 5 pm (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17396",
+    "raw": "Webinar Window Server 2019 – ReFS + DeDup am 8. März um 11 Uhr (Deutsch) and 5 pm (Englisch)",
+    "sanitized": "Webinar Window Server 2019 – ReFS + DeDup am 8. März um 11 Uhr (Deutsch) and 5 pm (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17349",
+    "raw": "Webinar Window Server 2019 SMB Direct Best Practices am 25. Februar um 16 Uhr (Englisch)",
+    "sanitized": "Webinar Window Server 2019 SMB Direct Best Practices am 25. Februar um 16 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17337",
+    "raw": "S2D Bechmarking, Azure Stack in Hyper-V und Hyper-V Amigos Showcast",
+    "sanitized": "S2D Bechmarking, Azure Stack in Hyper-V und Hyper-V Amigos Showcast"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17312",
+    "raw": "CDC-Germany 2019 Early Bird und pre-Day Community Information",
+    "sanitized": "CDC-Germany 2019 Early Bird und pre-Day Community Information"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17264",
+    "raw": "Webinar Demo New Features in Storage Spaces Direct 2019 am 11. Januar um 15 Uhr (Deutsch) und 17 Uhr (Englisch)",
+    "sanitized": "Webinar Demo New Features in Storage Spaces Direct 2019 am 11. Januar um 15 Uhr (Deutsch) und 17 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17205",
+    "raw": "Set-StoragePool -IsReadOnly $false leads to access denied error",
+    "sanitized": "Set-StoragePool -IsReadOnly $false leads to access denied error"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17190",
+    "raw": "Perfmon /sys – a little gem in Perfmon",
+    "sanitized": "Perfmon /sys – a little gem in Perfmon"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15951",
+    "raw": "Teil 5 – SMB 3 und SMB Direct",
+    "sanitized": "Teil 5 – SMB 3 und SMB Direct"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17130",
+    "raw": "Hybrid Cloud Community Treffen am 11. Dezember bei der interxion in Frankfurt",
+    "sanitized": "Hybrid Cloud Community Treffen am 11. Dezember bei der interxion in Frankfurt"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17109",
+    "raw": "Performance Probleme bei Intel NVMe’s mit aktuellem Intel Treiber 4.0",
+    "sanitized": "Performance Probleme bei Intel NVMe’s mit aktuellem Intel Treiber 4.0"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=17084",
+    "raw": "Windows Server 2019 ist wieder verfügbar",
+    "sanitized": "Windows Server 2019 ist wieder verfügbar"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16738",
+    "raw": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 5",
+    "sanitized": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16984",
+    "raw": "Webinar What is new in Microsoft Storage Spaces Direct 2019 am 7. November 17 Uhr (Englisch)",
+    "sanitized": "Webinar What is new in Microsoft Storage Spaces Direct 2019 am 7. November 17 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16952",
+    "raw": "Wichtiges Update für bestehende Storage Spaces Direct 2016 Installationen",
+    "sanitized": "Wichtiges Update für bestehende Storage Spaces Direct 2016 Installationen"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16909",
+    "raw": "Hyper-V Community am 8 November in Stuttgart",
+    "sanitized": "Hyper-V Community am 8 November in Stuttgart"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16884",
+    "raw": "Super Early Bird Tickets der CDC-Germany 2019 sind Online",
+    "sanitized": "Super Early Bird Tickets der CDC-Germany 2019 sind Online"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16851",
+    "raw": "Storage Spaces Direct in Windows Server 2019",
+    "sanitized": "Storage Spaces Direct in Windows Server 2019"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16833",
+    "raw": "Die Experts Live Europe 2018",
+    "sanitized": "Die Experts Live Europe 2018"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16813",
+    "raw": "4778 Tage, die 200 und ein großes Danke!",
+    "sanitized": "4778 Tage, die 200 und ein großes Danke!"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16775",
+    "raw": "P2V Migration von einem Server mit UEFI Firmware",
+    "sanitized": "P2V Migration von einem Server mit UEFI Firmware"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16705",
+    "raw": "Webinar Failover Cluster 2016 – Best Practices Part 2 am 7. September um 11 Uhr (Deutsch) und 17 Uhr (Englisch)",
+    "sanitized": "Webinar Failover Cluster 2016 – Best Practices Part 2 am 7. September um 11 Uhr (Deutsch) und 17 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16715",
+    "raw": "Hyper-V VMs starten nicht mehr nach CU 2018-08 Installation",
+    "sanitized": "Hyper-V VMs starten nicht mehr nach CU 2018-08 Installation"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16476",
+    "raw": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 4",
+    "sanitized": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 4"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16386",
+    "raw": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 3",
+    "sanitized": "Software Defined Networking (SDN) mit Windows Server 2016 und System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 3"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16044",
+    "raw": "Software Defined Networking (SDN) mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 2",
+    "sanitized": "Software Defined Networking (SDN) mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 2"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=16012",
+    "raw": "Software Defined Networking (SDN) mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 1",
+    "sanitized": "Software Defined Networking (SDN) mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016) – Teil 1"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15999",
+    "raw": "Webinar Failover Cluster 2016 – Best Practices am 3. August um 11 Uhr (Deutsch) und 17 Uhr (Englisch)",
+    "sanitized": "Webinar Failover Cluster 2016 – Best Practices am 3. August um 11 Uhr (Deutsch) und 17 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15984",
+    "raw": "Whitepaper: Software Defined Networking (SDN)  mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016)",
+    "sanitized": "Whitepaper: Software Defined Networking (SDN)  mit Windows Server 2016 und  System Center Virtual Machine Manager 2016 (SCVMM 2016)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15962",
+    "raw": "Nach Storage Spaces Direct VMFleet Tests ist der CsvBalancer ausgeschaltet",
+    "sanitized": "Nach Storage Spaces Direct VMFleet Tests ist der CsvBalancer ausgeschaltet"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15899",
+    "raw": "Webinar Storage Spaces Direct – Best Practices am 6. Juli um 11 Uhr (Deutsch) und 17 Uhr (Englisch)",
+    "sanitized": "Webinar Storage Spaces Direct – Best Practices am 6. Juli um 11 Uhr (Deutsch) und 17 Uhr (Englisch)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15471",
+    "raw": "Teil 4 – Netzwerkdesign bei Storage Spaces Direct",
+    "sanitized": "Teil 4 – Netzwerkdesign bei Storage Spaces Direct"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15782",
+    "raw": "Update Azure Stack Development Kit in Nested Hyper-V",
+    "sanitized": "Update Azure Stack Development Kit in Nested Hyper-V"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15764",
+    "raw": "Webinare Azure Stack Deep Dive – PaaS am 11. Juni um 11 Uhr",
+    "sanitized": "Webinare Azure Stack Deep Dive – PaaS am 11. Juni um 11 Uhr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15583",
+    "raw": "Teil 3 – SSD und NVMe, DWPD, TBW und PBW berechnen und verstehen",
+    "sanitized": "Teil 3 – SSD und NVMe, DWPD, TBW und PBW berechnen und verstehen"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15460",
+    "raw": "Teil 2 – Grundlegende Anforderungen für Storage Spaces Direct",
+    "sanitized": "Teil 2 – Grundlegende Anforderungen für Storage Spaces Direct"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15417",
+    "raw": "Teil 1  – Was ist Storage Spaces Direct?",
+    "sanitized": "Teil 1  – Was ist Storage Spaces Direct?"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15657",
+    "raw": "Hyper-V Amigos ShowCast Episode 16 – Hyper-V Backups",
+    "sanitized": "Hyper-V Amigos ShowCast Episode 16 – Hyper-V Backups"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15650",
+    "raw": "Single-Sign-On für Windows Admin Center (Project Honolulu) einrichten",
+    "sanitized": "Single-Sign-On für Windows Admin Center (Project Honolulu) einrichten"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15626",
+    "raw": "Bechtle-Workshop – MVP-Day Meet the Experts  – Carsten spricht zum Thema S2D",
+    "sanitized": "Bechtle-Workshop – MVP-Day Meet the Experts  – Carsten spricht zum Thema S2D"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15532",
+    "raw": "Windows Admin Center, Storage Spaces Direct und Windows Server 2016 RS1",
+    "sanitized": "Windows Admin Center, Storage Spaces Direct und Windows Server 2016 RS1"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15479",
+    "raw": "3 Tage purer Know-how Transfer – CDC-Germany 2018 und Community pre-Day",
+    "sanitized": "3 Tage purer Know-how Transfer – CDC-Germany 2018 und Community pre-Day"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15397",
+    "raw": "Aus “Projekt Honolulu” wird das “Windows Admin Center”",
+    "sanitized": "Aus “Projekt Honolulu” wird das “Windows Admin Center”"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15388",
+    "raw": "VeeamON Forum 2018 in Hanau",
+    "sanitized": "VeeamON Forum 2018 in Hanau"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15335",
+    "raw": "Project Honolulu Technical Preview 1803 ist verfügbar",
+    "sanitized": "Project Honolulu Technical Preview 1803 ist verfügbar"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15258",
+    "raw": "Installation und erste Einblicke in Project Honolulu",
+    "sanitized": "Installation und erste Einblicke in Project Honolulu"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15248",
+    "raw": "Hybrid Cloud Community am 22. März bei Dell in Frankfurt",
+    "sanitized": "Hybrid Cloud Community am 22. März bei Dell in Frankfurt"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15233",
+    "raw": "Session Video Mitschnitte der CDC-Germany 2017 jetzt kostenlos verfügbar",
+    "sanitized": "Session Video Mitschnitte der CDC-Germany 2017 jetzt kostenlos verfügbar"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15069",
+    "raw": "Webinar Storage Spaces Direct Deep Dive – Benchmarking (English)",
+    "sanitized": "Webinar Storage Spaces Direct Deep Dive – Benchmarking (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15058",
+    "raw": "Webinar Failover Cluster Deep Dive – Cluster Verhaltensänderungen in Windows Server 2016",
+    "sanitized": "Webinar Failover Cluster Deep Dive – Cluster Verhaltensänderungen in Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=15037",
+    "raw": "Spar €100 und komm zur CDC-Germany 2018",
+    "sanitized": "Spar €100 und komm zur CDC-Germany 2018"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14951",
+    "raw": "Hyper-V Community Treffen am 18. Januar bei Microsoft in Hamburg",
+    "sanitized": "Hyper-V Community Treffen am 18. Januar bei Microsoft in Hamburg"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14921",
+    "raw": "Webinar Managing Windows Server with Project Honolulu (English)",
+    "sanitized": "Webinar Managing Windows Server with Project Honolulu (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14912",
+    "raw": "Webinar Storage Spaces Direct Deep Dive – Benchmarking",
+    "sanitized": "Webinar Storage Spaces Direct Deep Dive – Benchmarking"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14903",
+    "raw": "Video interview with MVP Helmut Otto about S2D for Small and Medium Customers",
+    "sanitized": "Video interview with MVP Helmut Otto about S2D for Small and Medium Customers"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14882",
+    "raw": "Hyper-V Amigos Showcast 15 – VMFleet explained",
+    "sanitized": "Hyper-V Amigos Showcast 15 – VMFleet explained"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14755",
+    "raw": "SCVMM 2016 – Probleme beim Erstellen eines Switch Embedded Teams",
+    "sanitized": "SCVMM 2016 – Probleme beim Erstellen eines Switch Embedded Teams"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14827",
+    "raw": "Massive Probleme mit Broadcom (LSI) 9300-8e SAS HBA beim Aufbau eines Scale-Out File Server",
+    "sanitized": "Massive Probleme mit Broadcom (LSI) 9300-8e SAS HBA beim Aufbau eines Scale-Out File Server"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14819",
+    "raw": "DPC Watchdog Violation und Windows Bluescreen beim LSI SAS Adapter Firmware Upgrade",
+    "sanitized": "DPC Watchdog Violation und Windows Bluescreen beim LSI SAS Adapter Firmware Upgrade"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14753",
+    "raw": "Shared Storage Spaces mit Windows Server 2016: Datenträger können nicht aus dem Storage Pool entfernt werden",
+    "sanitized": "Shared Storage Spaces mit Windows Server 2016: Datenträger können nicht aus dem Storage Pool entfernt werden"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14700",
+    "raw": "Webinar Hyper-V Deep Dive – Networking (English)",
+    "sanitized": "Webinar Hyper-V Deep Dive – Networking (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14684",
+    "raw": "Webinar Managing Windows Server 2016 mit Projekt Honolulu",
+    "sanitized": "Webinar Managing Windows Server 2016 mit Projekt Honolulu"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14674",
+    "raw": "Video interview with Aidan Finn about Azure IaaS News from Microsoft Ignite 2017",
+    "sanitized": "Video interview with Aidan Finn about Azure IaaS News from Microsoft Ignite 2017"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14665",
+    "raw": "Failover Cluster Validation Test deaktiviert lokale Storage Spaces temporär",
+    "sanitized": "Failover Cluster Validation Test deaktiviert lokale Storage Spaces temporär"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14359",
+    "raw": "Installing Azure Stack Development Kit in a Hyper-V Nested VM",
+    "sanitized": "Installing Azure Stack Development Kit in a Hyper-V Nested VM"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14537",
+    "raw": "Webinar Storage Spaces Direct Deep Dive – S2D in Windows Server Preview",
+    "sanitized": "Webinar Storage Spaces Direct Deep Dive – S2D in Windows Server Preview"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14344",
+    "raw": "Vorsicht beim Oktober Patch 2017 KB4041691",
+    "sanitized": "Vorsicht beim Oktober Patch 2017 KB4041691"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14071",
+    "raw": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 5",
+    "sanitized": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14296",
+    "raw": "Webinar IaaS News from Microsoft Ignite 2017 (English)",
+    "sanitized": "Webinar IaaS News from Microsoft Ignite 2017 (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14276",
+    "raw": "Webinar Hyper-V Deep Dive – IaaS Highlights von der Microsoft Ignite",
+    "sanitized": "Webinar Hyper-V Deep Dive – IaaS Highlights von der Microsoft Ignite"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14264",
+    "raw": "Video Interview with Ben Armstrong about Microsoft Containers",
+    "sanitized": "Video Interview with Ben Armstrong about Microsoft Containers"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14059",
+    "raw": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 4",
+    "sanitized": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 4"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14257",
+    "raw": "Vorsicht bei Storage Spaces Direct (S2D) und KB4038782 (September CU)",
+    "sanitized": "Vorsicht bei Storage Spaces Direct (S2D) und KB4038782 (September CU)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14020",
+    "raw": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 3",
+    "sanitized": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 3"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13854",
+    "raw": "Umzug eines bestehenden Storage Spaces Direct Clusters mit Daten in eine neue Domain",
+    "sanitized": "Umzug eines bestehenden Storage Spaces Direct Clusters mit Daten in eine neue Domain"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14177",
+    "raw": "Webinar Hyper-V Deep Dive – RemoteFX and DDA (English)",
+    "sanitized": "Webinar Hyper-V Deep Dive – RemoteFX and DDA (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14165",
+    "raw": "Webinar Hyper-V Deep Dive – Netzwerk",
+    "sanitized": "Webinar Hyper-V Deep Dive – Netzwerk"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14017",
+    "raw": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 2",
+    "sanitized": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 2"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13964",
+    "raw": "Notes from the field – S2D Performancebremse durch falsch konfigurierte NVMe Device",
+    "sanitized": "Notes from the field – S2D Performancebremse durch falsch konfigurierte NVMe Device"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14006",
+    "raw": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 1",
+    "sanitized": "Installation und Konfiguration von einem Hyper-V Failover Cluster mit Windows Server 2016 – Teil 1"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=14002",
+    "raw": "Hyper-V Backup Checkpoints entfernen",
+    "sanitized": "Hyper-V Backup Checkpoints entfernen"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13973",
+    "raw": "Webinar Hyper-V Deep Dive – RemoteFX und DDA",
+    "sanitized": "Webinar Hyper-V Deep Dive – RemoteFX und DDA"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13896",
+    "raw": "Webinar Hyper-V Deep Dive – Livemigration",
+    "sanitized": "Webinar Hyper-V Deep Dive – Livemigration"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13902",
+    "raw": "Webinar Hyper-V Deep Dive – Nested Virtualization (English)",
+    "sanitized": "Webinar Hyper-V Deep Dive – Nested Virtualization (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13891",
+    "raw": "Zwei weitere Microsoft MVP Auszeichnungen",
+    "sanitized": "Zwei weitere Microsoft MVP Auszeichnungen"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13842",
+    "raw": "Aufzeichnung von der CDC zu Desired State Configuration und ein Whitepaper dazu",
+    "sanitized": "Aufzeichnung von der CDC zu Desired State Configuration und ein Whitepaper dazu"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13847",
+    "raw": "Microsoft Hyper-V – Das Handbuch für Administratoren",
+    "sanitized": "Microsoft Hyper-V – Das Handbuch für Administratoren"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13802",
+    "raw": "CDC-Germany 2017 Session sind Online",
+    "sanitized": "CDC-Germany 2017 Session sind Online"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13528",
+    "raw": "Webinar Storage Deep Dive – Storage QoS and Storage Replica (English)",
+    "sanitized": "Webinar Storage Deep Dive – Storage QoS and Storage Replica (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13520",
+    "raw": "Webinar Hyper-V Deep Dive – Nested Virtualization",
+    "sanitized": "Webinar Hyper-V Deep Dive – Nested Virtualization"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13221",
+    "raw": "Kerberos Delegierung zur Hyper-V Livemigration mit Windows Server 2016",
+    "sanitized": "Kerberos Delegierung zur Hyper-V Livemigration mit Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13189",
+    "raw": "Interesse an OpenStack mit Hyper-V – dann kommt zum OpenStack Community Day in Frankfurt",
+    "sanitized": "Interesse an OpenStack mit Hyper-V – dann kommt zum OpenStack Community Day in Frankfurt"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13156",
+    "raw": "Microsoft Storage Spaces Tiering Statikstiken unter Windows Server 2012 R2 und Windows Server 2016",
+    "sanitized": "Microsoft Storage Spaces Tiering Statikstiken unter Windows Server 2012 R2 und Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13144",
+    "raw": "Hyper-V Storage Migration schlägt fehl – One or more arguments are invalid (0x80070057)",
+    "sanitized": "Hyper-V Storage Migration schlägt fehl – One or more arguments are invalid (0x80070057)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13130",
+    "raw": "Zugriffsfehler bei einem Scale-Out File Server Cluster – Error 0x80090322",
+    "sanitized": "Zugriffsfehler bei einem Scale-Out File Server Cluster – Error 0x80090322"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13117",
+    "raw": "Webinar Storage Spaces Direct Part 3 – Deep Dive 2 (English)",
+    "sanitized": "Webinar Storage Spaces Direct Part 3 – Deep Dive 2 (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13066",
+    "raw": "SCOM 2016 – Management Pack für Storage Spaces Direct",
+    "sanitized": "SCOM 2016 – Management Pack für Storage Spaces Direct"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13046",
+    "raw": "Live Migration – Error 21502",
+    "sanitized": "Live Migration – Error 21502"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=13037",
+    "raw": "Webinar Storage Deep Dive – Storage QoS und Storage Replica",
+    "sanitized": "Webinar Storage Deep Dive – Storage QoS und Storage Replica"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12762",
+    "raw": "In 3 Wochen ist die Cloud & Datacenter Conference Germany in München",
+    "sanitized": "In 3 Wochen ist die Cloud & Datacenter Conference Germany in München"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12781",
+    "raw": "Webinar Storage Spaces Direct Part 2 – Deep Dive 1 (English)",
+    "sanitized": "Webinar Storage Spaces Direct Part 2 – Deep Dive 1 (English)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12769",
+    "raw": "Webinar Storage Spaces Direct Deep Dive – Teil 2",
+    "sanitized": "Webinar Storage Spaces Direct Deep Dive – Teil 2"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12655",
+    "raw": "Videointerview mit Vijay Tewari über Azure Stack",
+    "sanitized": "Videointerview mit Vijay Tewari über Azure Stack"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12531",
+    "raw": "Microsoft Storage Spaces Direct (S2D) mit 25 und 100 Gb/s RDMA Netzwerk",
+    "sanitized": "Microsoft Storage Spaces Direct (S2D) mit 25 und 100 Gb/s RDMA Netzwerk"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12633",
+    "raw": "Microsoft Virtualisierung Podcast  Folge 55 – Windows Server 2016 Hyper-V Cookbook",
+    "sanitized": "Microsoft Virtualisierung Podcast  Folge 55 – Windows Server 2016 Hyper-V Cookbook"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12554",
+    "raw": "Webinar Storage Spaces Direct Deep Dive am 20. März 2017",
+    "sanitized": "Webinar Storage Spaces Direct Deep Dive am 20. März 2017"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12354",
+    "raw": "Videointerview mit Ben Armstrong über Hyper-V in Windows Server 2016",
+    "sanitized": "Videointerview mit Ben Armstrong über Hyper-V in Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12482",
+    "raw": "Hyper-V Amigos Showcast Episode 14 – RemoteFX und DDA",
+    "sanitized": "Hyper-V Amigos Showcast Episode 14 – RemoteFX und DDA"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12414",
+    "raw": "Videointerview mit Marc van Eijk über Azure Resource Manager",
+    "sanitized": "Videointerview mit Marc van Eijk über Azure Resource Manager"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12362",
+    "raw": "Veeam Webinar zu ReFS in Server 2016",
+    "sanitized": "Veeam Webinar zu ReFS in Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12342",
+    "raw": "Webinar Azure Stack Überblick",
+    "sanitized": "Webinar Azure Stack Überblick"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12184",
+    "raw": "Die Cloud & Datacenter Conference 2017 nimmt so langsam Gestalt an",
+    "sanitized": "Die Cloud & Datacenter Conference 2017 nimmt so langsam Gestalt an"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12285",
+    "raw": "Microsoft Virtualisierung Podcast  Folge 54 – OpenStack mit Hyper-V",
+    "sanitized": "Microsoft Virtualisierung Podcast  Folge 54 – OpenStack mit Hyper-V"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=12053",
+    "raw": "Videointerview mit Jeffrey Snover über Nano Server, Container, Azure und Azure Stack",
+    "sanitized": "Videointerview mit Jeffrey Snover über Nano Server, Container, Azure und Azure Stack"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11818",
+    "raw": "Webinar Failover Clustering in Windows Server 2016 am 16. Januar 2017",
+    "sanitized": "Webinar Failover Clustering in Windows Server 2016 am 16. Januar 2017"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11748",
+    "raw": "Hyper-V Amigos Showcast Episode 13 – Azure Stack",
+    "sanitized": "Hyper-V Amigos Showcast Episode 13 – Azure Stack"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11532",
+    "raw": "Umstellung des Hyper-V-Blogs",
+    "sanitized": "Umstellung des Hyper-V-Blogs"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11488",
+    "raw": "Update-ClusterFunctionalLevel schlägt fehl",
+    "sanitized": "Update-ClusterFunctionalLevel schlägt fehl"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11472",
+    "raw": "Hyper-V Livemigration – Fehler 21502",
+    "sanitized": "Hyper-V Livemigration – Fehler 21502"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11441",
+    "raw": "Hyper-V Sicherung mittels Powershell Skript für Windows Server 2016 (Update 2)",
+    "sanitized": "Hyper-V Sicherung mittels Powershell Skript für Windows Server 2016 (Update 2)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11415",
+    "raw": "Microsoft Virtualisierung Podcast  Folge 53 Failover Clustering",
+    "sanitized": "Microsoft Virtualisierung Podcast  Folge 53 Failover Clustering"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11324",
+    "raw": "Webinar „Storage Spaces Direct“ am 19. Dezember 2016",
+    "sanitized": "Webinar „Storage Spaces Direct“ am 19. Dezember 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11287",
+    "raw": "Hyper-V Amigos Showcast Epsode 12 – ReFS and Backup",
+    "sanitized": "Hyper-V Amigos Showcast Epsode 12 – ReFS and Backup"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10831",
+    "raw": "Desired State Configuration (DSC) und Windows Server 2016 – Teil 1: Ein Einstieg",
+    "sanitized": "Desired State Configuration (DSC) und Windows Server 2016 – Teil 1: Ein Einstieg"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11230",
+    "raw": "How to: Installieren eines Storage Spaces Direct Clusters mit dem System Center Virtual Machine Manager 2016 UR1",
+    "sanitized": "How to: Installieren eines Storage Spaces Direct Clusters mit dem System Center Virtual Machine Manager 2016 UR1"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11135",
+    "raw": "Videointerview mit Dan Lovinger über Microsofts „Projekt Kepler-47“",
+    "sanitized": "Videointerview mit Dan Lovinger über Microsofts „Projekt Kepler-47“"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11107",
+    "raw": "Erste News zur Cloud & Datacenter Conference Germany (CDC Germany) 2017",
+    "sanitized": "Erste News zur Cloud & Datacenter Conference Germany (CDC Germany) 2017"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11094",
+    "raw": "Microsoft Virtualisiserungs Podcast Folge 52 Remote Graphics Verbesserungen in Windows Server 2016",
+    "sanitized": "Microsoft Virtualisiserungs Podcast Folge 52 Remote Graphics Verbesserungen in Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11057",
+    "raw": "Neuer Hyper-V Amigo Showcast: Folge 11 „Storage Spaces Direct“",
+    "sanitized": "Neuer Hyper-V Amigo Showcast: Folge 11 „Storage Spaces Direct“"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11053",
+    "raw": "Es ist soweit wir starten eine Webinar-Reihe zu Microsoft 2016 Technologien",
+    "sanitized": "Es ist soweit wir starten eine Webinar-Reihe zu Microsoft 2016 Technologien"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10790",
+    "raw": "Neu in Windows Server 2016: Switch Embedded Teaming (SET)",
+    "sanitized": "Neu in Windows Server 2016: Switch Embedded Teaming (SET)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11028",
+    "raw": "Microsoft Virtualisierungs-Podcast Folge 51: „Backup und ReFS“",
+    "sanitized": "Microsoft Virtualisierungs-Podcast Folge 51: „Backup und ReFS“"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=11019",
+    "raw": "MVP Chalk Talk von der Microsoft Ignite 2016",
+    "sanitized": "MVP Chalk Talk von der Microsoft Ignite 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10924",
+    "raw": "Die Vorteile bei der Nutzung von Hyper-V unter Windows Server 2016 und ReFS als Dateisystem",
+    "sanitized": "Die Vorteile bei der Nutzung von Hyper-V unter Windows Server 2016 und ReFS als Dateisystem"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10940",
+    "raw": "Veranstaltungshinweise: CDC Nachlese und Hyper-V Community",
+    "sanitized": "Veranstaltungshinweise: CDC Nachlese und Hyper-V Community"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10921",
+    "raw": "Hyper-V 2016 und Windows Defender",
+    "sanitized": "Hyper-V 2016 und Windows Defender"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10909",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 50: Azure Backup mit Aidan Finn",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 50: Azure Backup mit Aidan Finn"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10901",
+    "raw": "Hyper-V unter Windows Server 2016: Maximalwerte sind raus",
+    "sanitized": "Hyper-V unter Windows Server 2016: Maximalwerte sind raus"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10898",
+    "raw": "Knallerangebot zur VMWorld 2016 Microsoft kündigt VMWare zu Hyper-V Migrationsangebot an",
+    "sanitized": "Knallerangebot zur VMWorld 2016 Microsoft kündigt VMWare zu Hyper-V Migrationsangebot an"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10892",
+    "raw": "Videointerview mit Ned Pyle über Storage Replica in TP5 und RTM",
+    "sanitized": "Videointerview mit Ned Pyle über Storage Replica in TP5 und RTM"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10867",
+    "raw": "Linksammlung der notwendigen Patche und Hotfixe für eine Hyper-V und Failover Cluster Umgebung",
+    "sanitized": "Linksammlung der notwendigen Patche und Hotfixe für eine Hyper-V und Failover Cluster Umgebung"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10773",
+    "raw": "Die Erstellung eines Nano Servers mit Windows Server 2016",
+    "sanitized": "Die Erstellung eines Nano Servers mit Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10767",
+    "raw": "Unser erster HYPER-V POWERKURS V4 in englisch — Ein voller Erfolg!",
+    "sanitized": "Unser erster HYPER-V POWERKURS V4 in englisch — Ein voller Erfolg!"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10771",
+    "raw": "Videointerview mit Elden Christensen über die Neuigkeiten in Clustering 2016 in TP4 und TP5",
+    "sanitized": "Videointerview mit Elden Christensen über die Neuigkeiten in Clustering 2016 in TP4 und TP5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10758",
+    "raw": "Microsoft veröffentlicht Release-Termin für Windows Server 2016",
+    "sanitized": "Microsoft veröffentlicht Release-Termin für Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10742",
+    "raw": "Microsoft Regional Director, Veeam Vanguard, Cisco Champion und Microsoft MVP",
+    "sanitized": "Microsoft Regional Director, Veeam Vanguard, Cisco Champion und Microsoft MVP"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10709",
+    "raw": "Videointerview mit Claus Joergensen über die Neuigkeiten in Storage Spaces Direct in TP5",
+    "sanitized": "Videointerview mit Claus Joergensen über die Neuigkeiten in Storage Spaces Direct in TP5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10644",
+    "raw": "CDC-Germany Nachlese — Channel9 Videos",
+    "sanitized": "CDC-Germany Nachlese — Channel9 Videos"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10395",
+    "raw": "Rolling Cluster Upgrade zur Migration eines Failover Cluster von Windows Server 2012 R2 zu Windows Server 2016",
+    "sanitized": "Rolling Cluster Upgrade zur Migration eines Failover Cluster von Windows Server 2012 R2 zu Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10551",
+    "raw": "How to: Systemcenter VMM 2016 TP5 Installation",
+    "sanitized": "How to: Systemcenter VMM 2016 TP5 Installation"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10370",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 49 — Technical Preview 5",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 49 — Technical Preview 5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10247",
+    "raw": "5nine Manager zur Administration von Hyper-V",
+    "sanitized": "5nine Manager zur Administration von Hyper-V"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10227",
+    "raw": "Verhalten eines Scale-Out File Servers beim Ausfall eines Datenträgers",
+    "sanitized": "Verhalten eines Scale-Out File Servers beim Ausfall eines Datenträgers"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10111",
+    "raw": "Juni: Plätze in Windows Server 2016 IT Camps",
+    "sanitized": "Juni: Plätze in Windows Server 2016 IT Camps"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10101",
+    "raw": "Videointerview mit Jan Kappen zum Thema HYPER-V-POWERKURS V4 (Windows Server 2016)",
+    "sanitized": "Videointerview mit Jan Kappen zum Thema HYPER-V-POWERKURS V4 (Windows Server 2016)"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10036",
+    "raw": "Update: NAT-Switch für Hyper-V im Windows Server 2016 TP5",
+    "sanitized": "Update: NAT-Switch für Hyper-V im Windows Server 2016 TP5"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10076",
+    "raw": "Hyper-V Community Treffen 13.05.2016 in Köln",
+    "sanitized": "Hyper-V Community Treffen 13.05.2016 in Köln"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10067",
+    "raw": "Die Sprecher der CDC Germany 2016: Markus Klein, Michael Seidl, Matt McSpirit, Nils Kaczenski, Tudor Damian",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Markus Klein, Michael Seidl, Matt McSpirit, Nils Kaczenski, Tudor Damian"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10046",
+    "raw": "Die Sprecher der CDC Germany 2016: Aidan Finn, Maarten Goet, Raphael Köllner, Lars Iwer",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Aidan Finn, Maarten Goet, Raphael Köllner, Lars Iwer"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10028",
+    "raw": "Die Sprecher der CDC Germany 2016: Dr. Bernhard Tritsch, Benedict Berger, Ben Gelens, Ben Armstrong",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Dr. Bernhard Tritsch, Benedict Berger, Ben Gelens, Ben Armstrong"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10015",
+    "raw": "Installation von Hyper-V Integrationsdienste unter Windows Server 2008 schlägt fehl – Interner Fehler",
+    "sanitized": "Installation von Hyper-V Integrationsdienste unter Windows Server 2008 schlägt fehl – Interner Fehler"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=10003",
+    "raw": "Die Sprecher der CDC Germany 2016: Jan Kappen, Thomas Maurer, Michael Rüefli, Marcel Zehner",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Jan Kappen, Thomas Maurer, Michael Rüefli, Marcel Zehner"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9986",
+    "raw": "Die Sprecher der CDC Germany 2016: Bernhard Frank, Didier van Hoye, Damian Flynn und Frank Carius",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Bernhard Frank, Didier van Hoye, Damian Flynn und Frank Carius"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9984",
+    "raw": "Am 13. Mai findet die Hyper-V Community in Köln mit Top Sprechern aus Redmond stadt",
+    "sanitized": "Am 13. Mai findet die Hyper-V Community in Köln mit Top Sprechern aus Redmond stadt"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9957",
+    "raw": "Wie verbinde ich den System Center Virtual Machine Manager mit dem System Center Operation Manager",
+    "sanitized": "Wie verbinde ich den System Center Virtual Machine Manager mit dem System Center Operation Manager"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9959",
+    "raw": "Die Sprecher der CDC Germany 2016: Daniel Neumann",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Daniel Neumann"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9917",
+    "raw": "Die Sprecher der CDC Germany 2016: Carsten Rachfahl",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Carsten Rachfahl"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9914",
+    "raw": "Die Sprecher der CDC Germany 2016: Mark Scholman",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Mark Scholman"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9910",
+    "raw": "Die Sprecher der CDC Germany 2016: Ralf Wigand",
+    "sanitized": "Die Sprecher der CDC Germany 2016: Ralf Wigand"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9895",
+    "raw": "Unser erster Powerkurs mit Windows Server 2016",
+    "sanitized": "Unser erster Powerkurs mit Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9887",
+    "raw": "Hyper-V Amigos Showcast Episode 10 Failover Cluster Verbesserungen in 2016",
+    "sanitized": "Hyper-V Amigos Showcast Episode 10 Failover Cluster Verbesserungen in 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9878",
+    "raw": "Windows Server 2016: Gerätebenennung der Netzwerkkarten",
+    "sanitized": "Windows Server 2016: Gerätebenennung der Netzwerkkarten"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9748",
+    "raw": "Die Nutzung von Veeam Backup & Replication zur Sicherung einer sehr großen Hyper-V Umgebung",
+    "sanitized": "Die Nutzung von Veeam Backup & Replication zur Sicherung einer sehr großen Hyper-V Umgebung"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9862",
+    "raw": "Jetzt schnell sein – Early Bird Karten für unsere Cloud & Datacenter Conference Germany nur noch bis Sonntag",
+    "sanitized": "Jetzt schnell sein – Early Bird Karten für unsere Cloud & Datacenter Conference Germany nur noch bis Sonntag"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9851",
+    "raw": "Sprecher Liste der Cloud & Datacenter Conference Germany jetzt vollständig",
+    "sanitized": "Sprecher Liste der Cloud & Datacenter Conference Germany jetzt vollständig"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9845",
+    "raw": "Videointerview mit Jeffrey Snover über PowerShell und vieles mehr",
+    "sanitized": "Videointerview mit Jeffrey Snover über PowerShell und vieles mehr"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9839",
+    "raw": "Erstes Virtualisierungs-IT-Camp; und es sind Plätze frei!",
+    "sanitized": "Erstes Virtualisierungs-IT-Camp; und es sind Plätze frei!"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9751",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 48 – Cloud & Datacenter Conference Germany",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 48 – Cloud & Datacenter Conference Germany"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9759",
+    "raw": "Windows Server 2016 und Windows 10: NAT-Switch für Hyper-V",
+    "sanitized": "Windows Server 2016 und Windows 10: NAT-Switch für Hyper-V"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9787",
+    "raw": "Unsere Cloud & Datacenter Conference Germany am 12. Mai in Düsseldorf",
+    "sanitized": "Unsere Cloud & Datacenter Conference Germany am 12. Mai in Düsseldorf"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9757",
+    "raw": "Videointerview mit Rob Hindman über Rolling Cluster Upgrade in Windows Server 2016",
+    "sanitized": "Videointerview mit Rob Hindman über Rolling Cluster Upgrade in Windows Server 2016"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9742",
+    "raw": "Videointerview mit Marc van Eijk über Microsoft Azure Stack",
+    "sanitized": "Videointerview mit Marc van Eijk über Microsoft Azure Stack"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9722",
+    "raw": "SCOM 2012 R2 Konsole lässt sich nicht mehr starten",
+    "sanitized": "SCOM 2012 R2 Konsole lässt sich nicht mehr starten"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9711",
+    "raw": "Hyper-V Amigos Podcast Episode 2 – Didier Van Hoye",
+    "sanitized": "Hyper-V Amigos Podcast Episode 2 – Didier Van Hoye"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9707",
+    "raw": "Dienstag, den 19. Januar 2016: Event der Building Clouds und Hyper-V Community",
+    "sanitized": "Dienstag, den 19. Januar 2016: Event der Building Clouds und Hyper-V Community"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9698",
+    "raw": "Neues Video – Hyper-V Amigos Chat am Grand Canyon",
+    "sanitized": "Neues Video – Hyper-V Amigos Chat am Grand Canyon"
+  },
+  {
+    "itemId": "https://www.hyper-v-server.de/?p=9667",
+    "raw": "SSD Firmware online updaten – bei einem Scale Out File Server 2012 R2 Storage Pool",
+    "sanitized": "SSD Firmware online updaten – bei einem Scale Out File Server 2012 R2 Storage Pool"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9563",
+    "raw": "HyperV_Mon in neuer Version erschienen",
+    "sanitized": "HyperV_Mon in neuer Version erschienen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9551",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 47 – Technical Preview 4",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 47 – Technical Preview 4"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9542",
+    "raw": "Nikolaus-Special für unseren Hyper-V Powerkurs im Dezember",
+    "sanitized": "Nikolaus-Special für unseren Hyper-V Powerkurs im Dezember"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9535",
+    "raw": "Videointerview mit Don Stanwyck über Netzwerk Neuerungen in Server 2016",
+    "sanitized": "Videointerview mit Don Stanwyck über Netzwerk Neuerungen in Server 2016"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9032",
+    "raw": "Rebalancing von Verbindungen in einem Scale-Out File Server",
+    "sanitized": "Rebalancing von Verbindungen in einem Scale-Out File Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9230",
+    "raw": "Scale-Out File Server zum SCVMM 2012 R2 hinzufügen",
+    "sanitized": "Scale-Out File Server zum SCVMM 2012 R2 hinzufügen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9198",
+    "raw": "Neuer englischsprachiger PodCast gelaunscht: Hyper-V Amigos Podcast",
+    "sanitized": "Neuer englischsprachiger PodCast gelaunscht: Hyper-V Amigos Podcast"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9177",
+    "raw": "Videointerview mit Sarah Cooley über PowerShell Direct",
+    "sanitized": "Videointerview mit Sarah Cooley über PowerShell Direct"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9174",
+    "raw": "Eine weitere Schulung von uns: Der HYPER-V Powerkurs REFRESHER",
+    "sanitized": "Eine weitere Schulung von uns: Der HYPER-V Powerkurs REFRESHER"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9161",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 46: \"Storage Spaces Direct\"",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 46: \"Storage Spaces Direct\""
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9086",
+    "raw": "Live Migration schlägt mit Event ID: 21502 fehl",
+    "sanitized": "Live Migration schlägt mit Event ID: 21502 fehl"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9073",
+    "raw": "Den Pfad zu einer Parent Disk anpassen",
+    "sanitized": "Den Pfad zu einer Parent Disk anpassen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9013",
+    "raw": "Unser Hyper-V Powerkurs in neuem Design.",
+    "sanitized": "Unser Hyper-V Powerkurs in neuem Design."
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9052",
+    "raw": "Videointerview mit Ben Armstrong über Hyper-V in Windows Server 2016 TP2",
+    "sanitized": "Videointerview mit Ben Armstrong über Hyper-V in Windows Server 2016 TP2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9045",
+    "raw": "Verlosung System Center Universe Europe Karten",
+    "sanitized": "Verlosung System Center Universe Europe Karten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9028",
+    "raw": "VM unter Windows Server 2012 R2 besitzt einen Snapshot, der nicht gelöscht werden kann",
+    "sanitized": "VM unter Windows Server 2012 R2 besitzt einen Snapshot, der nicht gelöscht werden kann"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9024",
+    "raw": "Veeam Endpoint Protection zur Sicherung von Windows 10",
+    "sanitized": "Veeam Endpoint Protection zur Sicherung von Windows 10"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=9006",
+    "raw": "Zwei Awards und ‘ne Konferenz",
+    "sanitized": "Zwei Awards und ‘ne Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8995",
+    "raw": "Videointerview mit Jose Barreto und Senthil Rajaram über Storage QoS in Windows Server 2016",
+    "sanitized": "Videointerview mit Jose Barreto und Senthil Rajaram über Storage QoS in Windows Server 2016"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8987",
+    "raw": "Videointerview mit Matt McSpirit über seine drei Feature Favoriten von der Microsoft Ignite Konferenz",
+    "sanitized": "Videointerview mit Matt McSpirit über seine drei Feature Favoriten von der Microsoft Ignite Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8954",
+    "raw": "Videointerview mit Symon Perriman über 5nine Lösungen für die Microsoft Private Cloud",
+    "sanitized": "Videointerview mit Symon Perriman über 5nine Lösungen für die Microsoft Private Cloud"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8905",
+    "raw": "Erzeugen einer Übersicht der Hyper-V Umgebung per PowerShell",
+    "sanitized": "Erzeugen einer Übersicht der Hyper-V Umgebung per PowerShell"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8883",
+    "raw": "Probleme bei der Nutzung von Teaming unter Windows Server 2012 R2",
+    "sanitized": "Probleme bei der Nutzung von Teaming unter Windows Server 2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8893",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 45–Ignite Konferenz",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 45–Ignite Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8878",
+    "raw": "Konfiguration der Repair-Einstellungen im Scale-Out File Server",
+    "sanitized": "Konfiguration der Repair-Einstellungen im Scale-Out File Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8872",
+    "raw": "Die nächsten Events stehen vor der Tür (IT-Camps & Hyper-V Community)",
+    "sanitized": "Die nächsten Events stehen vor der Tür (IT-Camps & Hyper-V Community)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8862",
+    "raw": "Videointerview mit Matt Garson über Storage Spaces",
+    "sanitized": "Videointerview mit Matt Garson über Storage Spaces"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8834",
+    "raw": "Schnell noch anmelden zum SCU Satellite Event Germany",
+    "sanitized": "Schnell noch anmelden zum SCU Satellite Event Germany"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8760",
+    "raw": "Videointerview mit Claus Joergensen über Storage Spaces Direct in Windows Server 2016",
+    "sanitized": "Videointerview mit Claus Joergensen über Storage Spaces Direct in Windows Server 2016"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8737",
+    "raw": "Unser kostenloses SCU Europe Satellite Event am 17. Juni in Eschborn",
+    "sanitized": "Unser kostenloses SCU Europe Satellite Event am 17. Juni in Eschborn"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8720",
+    "raw": "Hyper-V Amigos Chat – Microsoft Ignite 2015 Konferenz",
+    "sanitized": "Hyper-V Amigos Chat – Microsoft Ignite 2015 Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8714",
+    "raw": "Hyper-V Amigos Showcast Episode 9–RDMA, RoCE, PFC, ETS",
+    "sanitized": "Hyper-V Amigos Showcast Episode 9–RDMA, RoCE, PFC, ETS"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8699",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 44 – drei MVPs und SCU Ambassador",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 44 – drei MVPs und SCU Ambassador"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8604",
+    "raw": "Veeam Endpoint Backup zur Sicherung von Endgeräten",
+    "sanitized": "Veeam Endpoint Backup zur Sicherung von Endgeräten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8654",
+    "raw": "Videointerview mit Bradley Bartz über das Windows Azure Pack",
+    "sanitized": "Videointerview mit Bradley Bartz über das Windows Azure Pack"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8649",
+    "raw": "IT Camp Infrastruktur-Modernisierung Dateien",
+    "sanitized": "IT Camp Infrastruktur-Modernisierung Dateien"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8602",
+    "raw": "PowerShell-Skript zur Konfiguration der Kerberos-Delegierung",
+    "sanitized": "PowerShell-Skript zur Konfiguration der Kerberos-Delegierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8476",
+    "raw": "Cisco UCS Blade Profile Settings für Hyper-V",
+    "sanitized": "Cisco UCS Blade Profile Settings für Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8444",
+    "raw": "5nine CloudSecurity for Hyper-V",
+    "sanitized": "5nine CloudSecurity for Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8460",
+    "raw": "Ein neuer MVP – Meine Nominierung als MVP für „File System Storage“",
+    "sanitized": "Ein neuer MVP – Meine Nominierung als MVP für „File System Storage“"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8456",
+    "raw": "Videointerview mit Ned Pyle über Storage Replica in vNext",
+    "sanitized": "Videointerview mit Ned Pyle über Storage Replica in vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8432",
+    "raw": "Weitere Best-Practises beim Aufbau und Betrieb der Microsoft Storage Spaces im Failover Cluster (Scale-Out File Server) (Update 1)",
+    "sanitized": "Weitere Best-Practises beim Aufbau und Betrieb der Microsoft Storage Spaces im Failover Cluster (Scale-Out File Server) (Update 1)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8419",
+    "raw": "Das Microsoft IT Camps 2003 EoS und die Aufzeichnung des IT Camps CloudOS",
+    "sanitized": "Das Microsoft IT Camps 2003 EoS und die Aufzeichnung des IT Camps CloudOS"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8387",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 43: IT Camp Cloud OS Videos",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 43: IT Camp Cloud OS Videos"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8403",
+    "raw": "Hyper-V Amigo Showcast Folge 8: Storage Replica in vNext",
+    "sanitized": "Hyper-V Amigo Showcast Folge 8: Storage Replica in vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8380",
+    "raw": "Videointerview mit Didier Van Hoye über Rolling Cluster Upgrade in vNext",
+    "sanitized": "Videointerview mit Didier Van Hoye über Rolling Cluster Upgrade in vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8374",
+    "raw": "Videointerview mit Mr. Azure Pack Marc van Eijk",
+    "sanitized": "Videointerview mit Mr. Azure Pack Marc van Eijk"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8367",
+    "raw": "Test: Violin 6000 All Flash Array",
+    "sanitized": "Test: Violin 6000 All Flash Array"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8337",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 42: Hybrid Cloud mit Azure",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 42: Hybrid Cloud mit Azure"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8332",
+    "raw": "Videointerview mit Hyper-V MVP Charbel Nemnon über coole Features in Hyper-V vNext",
+    "sanitized": "Videointerview mit Hyper-V MVP Charbel Nemnon über coole Features in Hyper-V vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8319",
+    "raw": "Interview mit Hyper-V MVP Aidan Finn über seine Favoriten in vNext",
+    "sanitized": "Interview mit Hyper-V MVP Aidan Finn über seine Favoriten in vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8316",
+    "raw": "Hyper-V Amigos Showcast Episode 7–The Year 2014 in Review ist raus",
+    "sanitized": "Hyper-V Amigos Showcast Episode 7–The Year 2014 in Review ist raus"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8313",
+    "raw": "erstes Hyper-V Community Treffen in 2015 findet in Bad Homburg statt",
+    "sanitized": "erstes Hyper-V Community Treffen in 2015 findet in Bad Homburg statt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8311",
+    "raw": "Videointerview mit Mr. SMB3 Jose Barreto über VNext und Storage",
+    "sanitized": "Videointerview mit Mr. SMB3 Jose Barreto über VNext und Storage"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8306",
+    "raw": "Videointerview mit Elden Christensen über vNext und Cluster",
+    "sanitized": "Videointerview mit Elden Christensen über vNext und Cluster"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8253",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 41: vNext Technical Preview",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 41: vNext Technical Preview"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8287",
+    "raw": "Interview mit Mark Minasi über PowerShell, Public Cloud und Security",
+    "sanitized": "Interview mit Mark Minasi über PowerShell, Public Cloud und Security"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8283",
+    "raw": "Windows Server 2012 R2 Update 2 lässt Hyper-V Failover Cluster abstürzen",
+    "sanitized": "Windows Server 2012 R2 Update 2 lässt Hyper-V Failover Cluster abstürzen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8257",
+    "raw": "Videointerview mit Mr. Hyper-V Ben Armstrong zu den Neuigkeiten in vNext",
+    "sanitized": "Videointerview mit Mr. Hyper-V Ben Armstrong zu den Neuigkeiten in vNext"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8249",
+    "raw": "Backup-Jobs schlagen nach November Update Rollup fehl",
+    "sanitized": "Backup-Jobs schlagen nach November Update Rollup fehl"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8247",
+    "raw": "Viertes Treffen der Hyper-V Community 2014 in Bad Homburg",
+    "sanitized": "Viertes Treffen der Hyper-V Community 2014 in Bad Homburg"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8241",
+    "raw": "Der Anfang von der SCU Europe in Basel",
+    "sanitized": "Der Anfang von der SCU Europe in Basel"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8235",
+    "raw": "Artikel im IT-Administrator–Test eines Violin 6000 All Flash Array",
+    "sanitized": "Artikel im IT-Administrator–Test eines Violin 6000 All Flash Array"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8230",
+    "raw": "Überprüfung und Überwachung eines Scale-Out File Server mit dem Test-StorageHealth Skript",
+    "sanitized": "Überprüfung und Überwachung eines Scale-Out File Server mit dem Test-StorageHealth Skript"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8208",
+    "raw": "Unser Powerkurs 2014 – letzte Plätze frei!",
+    "sanitized": "Unser Powerkurs 2014 – letzte Plätze frei!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8183",
+    "raw": "Episode 6 des Hyper-V Amigo Showcast–Storage Spaces ist online",
+    "sanitized": "Episode 6 des Hyper-V Amigo Showcast–Storage Spaces ist online"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8179",
+    "raw": "Videointerview mit Mike Resseler",
+    "sanitized": "Videointerview mit Mike Resseler"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8168",
+    "raw": "Videointerview mit Benedict Berger und Carsten",
+    "sanitized": "Videointerview mit Benedict Berger und Carsten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8165",
+    "raw": "Microsoft Virtual Machine Converter 3.0 ist erschienen",
+    "sanitized": "Microsoft Virtual Machine Converter 3.0 ist erschienen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8154",
+    "raw": "Videointerview mit Jakob G. Svendsen MVP für SCCDM",
+    "sanitized": "Videointerview mit Jakob G. Svendsen MVP für SCCDM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8146",
+    "raw": "Hyper-V in der neuen Version",
+    "sanitized": "Hyper-V in der neuen Version"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8140",
+    "raw": "Videointerview mit Daniel Neumann MVP für SCCDM",
+    "sanitized": "Videointerview mit Daniel Neumann MVP für SCCDM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8131",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 40: Storage Spaces extended",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 40: Storage Spaces extended"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8123",
+    "raw": "Microsoft Technical Summit 2014 in Berlin",
+    "sanitized": "Microsoft Technical Summit 2014 in Berlin"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8109",
+    "raw": "Exklusive Chance an den neuen Microsoft IT Camps teilzunehmen",
+    "sanitized": "Exklusive Chance an den neuen Microsoft IT Camps teilzunehmen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8105",
+    "raw": "MVA-Kurs zum Thema “VMware to Hyper-V Migration”",
+    "sanitized": "MVA-Kurs zum Thema “VMware to Hyper-V Migration”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8093",
+    "raw": "Hyper-V Amigos Episode 5 Generation 2 VM",
+    "sanitized": "Hyper-V Amigos Episode 5 Generation 2 VM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8065",
+    "raw": "Update der Firmware von Seagate SSDs in einem Scale-Out File Server",
+    "sanitized": "Update der Firmware von Seagate SSDs in einem Scale-Out File Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=8079",
+    "raw": "Monitoring eines Domain Controllers mit Operations Manager 2012R2",
+    "sanitized": "Monitoring eines Domain Controllers mit Operations Manager 2012R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7820",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 39: MVP again",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 39: MVP again"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6955",
+    "raw": "Die Erstellung und Nutzung von Sure Backup in Veeam Backup & Replication",
+    "sanitized": "Die Erstellung und Nutzung von Sure Backup in Veeam Backup & Replication"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7715",
+    "raw": "Windows Azure Pack: Konfigurieren und Bereitstellen eines einfachen IaaS Cloud- Dienstes",
+    "sanitized": "Windows Azure Pack: Konfigurieren und Bereitstellen eines einfachen IaaS Cloud- Dienstes"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7634",
+    "raw": "Wie erhält man die Microsoft Storage Spaces Autotiering Statistiken?",
+    "sanitized": "Wie erhält man die Microsoft Storage Spaces Autotiering Statistiken?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7570",
+    "raw": "Migration von VMware nach Azure mittels MVMC 2.0",
+    "sanitized": "Migration von VMware nach Azure mittels MVMC 2.0"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7587",
+    "raw": "Wiedervereinigung der ORIGINAL Hyper-V Amigos in Episode 4 des Showcasts",
+    "sanitized": "Wiedervereinigung der ORIGINAL Hyper-V Amigos in Episode 4 des Showcasts"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7544",
+    "raw": "Microsoft Virtualisierung Podcast Folge 38: TechEd 2014 NA",
+    "sanitized": "Microsoft Virtualisierung Podcast Folge 38: TechEd 2014 NA"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7541",
+    "raw": "Umstieg von VMware nach HyperV mittels MVMC (die 2.)",
+    "sanitized": "Umstieg von VMware nach HyperV mittels MVMC (die 2.)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6671",
+    "raw": "Windows Azure Pack: Konfigurieren der “Fabric” im System Center Virtual Machine Manager (SCVMM)",
+    "sanitized": "Windows Azure Pack: Konfigurieren der “Fabric” im System Center Virtual Machine Manager (SCVMM)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7505",
+    "raw": "Livemigration und Storage Migration funktioniert nicht – “Operation not allowed because the replication state is not initialized”",
+    "sanitized": "Livemigration und Storage Migration funktioniert nicht – “Operation not allowed because the replication state is not initialized”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7229",
+    "raw": "5nine CloudSecurity for Hyper-V – Teil 2",
+    "sanitized": "5nine CloudSecurity for Hyper-V – Teil 2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6858",
+    "raw": "Unsere Best Practise-Erfahrungen – Teil 2 – Die Installation und Einrichtung eines Scale-Out Fileserver unter Windows Server 2012 R2",
+    "sanitized": "Unsere Best Practise-Erfahrungen – Teil 2 – Die Installation und Einrichtung eines Scale-Out Fileserver unter Windows Server 2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6770",
+    "raw": "Windows Azure Pack: Aufbau einer IaaS-Demoumgebung mit dem Powershell Deployment Toolkit (PDT)",
+    "sanitized": "Windows Azure Pack: Aufbau einer IaaS-Demoumgebung mit dem Powershell Deployment Toolkit (PDT)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7252",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 37: MVA Kurs",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 37: MVA Kurs"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7165",
+    "raw": "5nine CloudSecurity for Hyper-V – Teil 1",
+    "sanitized": "5nine CloudSecurity for Hyper-V – Teil 1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7236",
+    "raw": "Hyper-V Amigos Episode 3–Livemigration",
+    "sanitized": "Hyper-V Amigos Episode 3–Livemigration"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7215",
+    "raw": "Beim Microsoft ITCamp CloudOS sind noch ein paar Plätze frei",
+    "sanitized": "Beim Microsoft ITCamp CloudOS sind noch ein paar Plätze frei"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=7053",
+    "raw": "Umbenennung einer Active Directory inkl. Hyper-V Failover Cluster und einem Scale-Out File Server",
+    "sanitized": "Umbenennung einer Active Directory inkl. Hyper-V Failover Cluster und einem Scale-Out File Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6905",
+    "raw": "Unsere Best Practice-Erfahrungen – Teil 1 – Die Installation eines Hyper-V Failover Cluster unter Windows Server 2012 R2",
+    "sanitized": "Unsere Best Practice-Erfahrungen – Teil 1 – Die Installation eines Hyper-V Failover Cluster unter Windows Server 2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6986",
+    "raw": "Einen bestehenden Scale-Out Fileserver um SSDs erweitern",
+    "sanitized": "Einen bestehenden Scale-Out Fileserver um SSDs erweitern"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6919",
+    "raw": "Ankündigung einer neuen Artikel-Serie: Unsere Best-Practise Erfahrungen",
+    "sanitized": "Ankündigung einer neuen Artikel-Serie: Unsere Best-Practise Erfahrungen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6923",
+    "raw": "The Hyper-V Amigos Showcast Episode 2: Unmap",
+    "sanitized": "The Hyper-V Amigos Showcast Episode 2: Unmap"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6833",
+    "raw": "BareMetal Deployment mit SystemCenter Virtual Machine Manager 2012 R2",
+    "sanitized": "BareMetal Deployment mit SystemCenter Virtual Machine Manager 2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6815",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 36: Windows Azure Pack",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 36: Windows Azure Pack"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6808",
+    "raw": "Windows-Update im Scale-Out Fileserver erzeugt Probleme bei der Arbeit mit Datenträgern im Failover Cluster (Update 2)",
+    "sanitized": "Windows-Update im Scale-Out Fileserver erzeugt Probleme bei der Arbeit mit Datenträgern im Failover Cluster (Update 2)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6791",
+    "raw": "Microsoft Hyper-V und System Center: Das Handbuch für Administratoren – Die zweite Auflage",
+    "sanitized": "Microsoft Hyper-V und System Center: Das Handbuch für Administratoren – Die zweite Auflage"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6787",
+    "raw": "CeBIT vom 10.03.-14.03.2014 in Hannover",
+    "sanitized": "CeBIT vom 10.03.-14.03.2014 in Hannover"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6766",
+    "raw": "“The Hyper-V Amigos” Episode 1: Who we are",
+    "sanitized": "“The Hyper-V Amigos” Episode 1: Who we are"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6757",
+    "raw": "Mein erstes Dell Storage Space Projekt (auf zertifizierte Hardware)",
+    "sanitized": "Mein erstes Dell Storage Space Projekt (auf zertifizierte Hardware)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6697",
+    "raw": "KB2913766 bringt neue PowerShell CmdLets für Storage Enclosure",
+    "sanitized": "KB2913766 bringt neue PowerShell CmdLets für Storage Enclosure"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6597",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 35: ODX, RDMA und CSV",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 35: ODX, RDMA und CSV"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6589",
+    "raw": "Unser Gewinnspiel ist beendet",
+    "sanitized": "Unser Gewinnspiel ist beendet"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6567",
+    "raw": "Austausch von Scale Out Fileserver-Knoten im Betrieb",
+    "sanitized": "Austausch von Scale Out Fileserver-Knoten im Betrieb"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6563",
+    "raw": "Videointerview mit Taylor Brown über seine drei Favoriten in WS2012 R2 Hyper-V",
+    "sanitized": "Videointerview mit Taylor Brown über seine drei Favoriten in WS2012 R2 Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6558",
+    "raw": "Gewinnspiel: Microsoft Hyper-V und System Center–Das Handbuch für Administratoren",
+    "sanitized": "Gewinnspiel: Microsoft Hyper-V und System Center–Das Handbuch für Administratoren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6546",
+    "raw": "Videointerview with 10 MVPs in a Ferris wheel",
+    "sanitized": "Videointerview with 10 MVPs in a Ferris wheel"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6534",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 34: Veranstaltungen",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 34: Veranstaltungen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6519",
+    "raw": "Microsoft Microsoft ITCamp CloudOS",
+    "sanitized": "Microsoft Microsoft ITCamp CloudOS"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6522",
+    "raw": "An die besten Blogleser der Welt: b.org aus Berlin",
+    "sanitized": "An die besten Blogleser der Welt: b.org aus Berlin"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6517",
+    "raw": "MSMQ Eventlog Fehler im Failover Cluster",
+    "sanitized": "MSMQ Eventlog Fehler im Failover Cluster"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6510",
+    "raw": "Meine Vorträge von der TechNet Conference 2013 in Berlin",
+    "sanitized": "Meine Vorträge von der TechNet Conference 2013 in Berlin"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6506",
+    "raw": "Videointerview mit VirtualPCGuy über seine drei top WS2012 Hyper-V R2 Feature",
+    "sanitized": "Videointerview mit VirtualPCGuy über seine drei top WS2012 Hyper-V R2 Feature"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6499",
+    "raw": "IT Camp: Windows Server 2012 R2 & System Center 2012 R2 … Plätze frei!",
+    "sanitized": "IT Camp: Windows Server 2012 R2 & System Center 2012 R2 … Plätze frei!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6495",
+    "raw": "Hyper-V-Hosts mit VMware VSphere Client verwalten",
+    "sanitized": "Hyper-V-Hosts mit VMware VSphere Client verwalten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6482",
+    "raw": "Migration von ESX nach Hyper-V mittels 5nine EasyConverter",
+    "sanitized": "Migration von ESX nach Hyper-V mittels 5nine EasyConverter"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6458",
+    "raw": "Windows Server 2012 R2 als Storage für VMware ESXi",
+    "sanitized": "Windows Server 2012 R2 als Storage für VMware ESXi"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6310",
+    "raw": "Installation der Hyper-V-Replikatbroker-Rolle schlägt fehl",
+    "sanitized": "Installation der Hyper-V-Replikatbroker-Rolle schlägt fehl"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6425",
+    "raw": "Videocast zum Microsoft PowerShell Deployment Toolkit",
+    "sanitized": "Videocast zum Microsoft PowerShell Deployment Toolkit"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6392",
+    "raw": "Umstieg von VMware ESX auf Hyper-V-Server",
+    "sanitized": "Umstieg von VMware ESX auf Hyper-V-Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6375",
+    "raw": "Backup unseres Hyper-V Failover Cluster unter Windows Server 2012 R2 mit Altaro Hyper-V Backup",
+    "sanitized": "Backup unseres Hyper-V Failover Cluster unter Windows Server 2012 R2 mit Altaro Hyper-V Backup"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6290",
+    "raw": "Failover Cluster unter Windows Server 2012 R2 meldet Fehler 1196–DNS-Vorgang wurde abgelehnt",
+    "sanitized": "Failover Cluster unter Windows Server 2012 R2 meldet Fehler 1196–DNS-Vorgang wurde abgelehnt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6258",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 33: neue deutsche MVP Kollegen",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 33: neue deutsche MVP Kollegen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6255",
+    "raw": "Umzug der Veeam Backup & Replication Datenbank",
+    "sanitized": "Umzug der Veeam Backup & Replication Datenbank"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6245",
+    "raw": "Nach Update von Windows Server 2012 R2 Preview auf Windows Server 2012 R2 RTM gibt es Probleme mit der Livemigration und der Replikation",
+    "sanitized": "Nach Update von Windows Server 2012 R2 Preview auf Windows Server 2012 R2 RTM gibt es Probleme mit der Livemigration und der Replikation"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6240",
+    "raw": "Erweiterung eines Storage Pool mit Platten aus einem anderen Storage Pool",
+    "sanitized": "Erweiterung eines Storage Pool mit Platten aus einem anderen Storage Pool"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6220",
+    "raw": "Unser 2012 Hyper-V IT CAMP zum selbst ausprobieren",
+    "sanitized": "Unser 2012 Hyper-V IT CAMP zum selbst ausprobieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6193",
+    "raw": "Offenes Hyper-V Community Treffen am 2. Oktober in Frankfurt",
+    "sanitized": "Offenes Hyper-V Community Treffen am 2. Oktober in Frankfurt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6163",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 32: TechNet Conference 2013",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 32: TechNet Conference 2013"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6159",
+    "raw": "Änderung von VM-Konfigurationen per PowerShell – Teil 2",
+    "sanitized": "Änderung von VM-Konfigurationen per PowerShell – Teil 2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6133",
+    "raw": "Kurzfristig aufgesetztes IT Camp am 24. August auf der ICE 2013 in Lingen",
+    "sanitized": "Kurzfristig aufgesetztes IT Camp am 24. August auf der ICE 2013 in Lingen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6126",
+    "raw": "Hyper-V PowerKurs V3 – was ist neu?",
+    "sanitized": "Hyper-V PowerKurs V3 – was ist neu?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6111",
+    "raw": "Die Einrichtung und Nutzung des Clusterfähigen Aktualisieren (CAU) (1. Update)",
+    "sanitized": "Die Einrichtung und Nutzung des Clusterfähigen Aktualisieren (CAU) (1. Update)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6060",
+    "raw": "Einigen hilfreiche CmdLets zum Umgang mit Storage Spaces",
+    "sanitized": "Einigen hilfreiche CmdLets zum Umgang mit Storage Spaces"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6033",
+    "raw": "Umstellung unseres Failover Cluster auf 10 Gbit/s Converged Network",
+    "sanitized": "Umstellung unseres Failover Cluster auf 10 Gbit/s Converged Network"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6019",
+    "raw": "Die Migration von Maschinen per “Shared Nothing Live Migration” oder “Storage Migration” per PowerShell",
+    "sanitized": "Die Migration von Maschinen per “Shared Nothing Live Migration” oder “Storage Migration” per PowerShell"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6040",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 31 – LiveMigration in WS2012 R2",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 31 – LiveMigration in WS2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6020",
+    "raw": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 4 – Die Livemigration",
+    "sanitized": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 4 – Die Livemigration"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6013",
+    "raw": "Interview mit Jan Kappen zum “Microsoft Hyper-V und System Center” Buch",
+    "sanitized": "Interview mit Jan Kappen zum “Microsoft Hyper-V und System Center” Buch"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=6003",
+    "raw": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 3 – Automatische Aktivierung, VHDX Resize und der Online-Export",
+    "sanitized": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 3 – Automatische Aktivierung, VHDX Resize und der Online-Export"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5994",
+    "raw": "Videointerview mit Mike Resseler über Hyper-V Replica und einen Bären",
+    "sanitized": "Videointerview mit Mike Resseler über Hyper-V Replica und einen Bären"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5988",
+    "raw": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 2  Die VM der Generation 2",
+    "sanitized": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 2  Die VM der Generation 2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5981",
+    "raw": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 1 – Die Installation und Grundeinrichtung",
+    "sanitized": "Hyper-V unter Windows Server 2012 R2 Preview – Teil 1 – Die Installation und Grundeinrichtung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5979",
+    "raw": "System Center Universe DACH ein Interview mit Marcel Zehner & Thomas Maurer",
+    "sanitized": "System Center Universe DACH ein Interview mit Marcel Zehner & Thomas Maurer"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5863",
+    "raw": "Änderung von VM-Konfigurationen per PowerShell – Teil 1",
+    "sanitized": "Änderung von VM-Konfigurationen per PowerShell – Teil 1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5932",
+    "raw": "Unser Hyper-V FastTrack Juli 2013–Hochverfügbarkeit mit Hyper-V unter Windows Server 2012",
+    "sanitized": "Unser Hyper-V FastTrack Juli 2013–Hochverfügbarkeit mit Hyper-V unter Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5957",
+    "raw": "Mein dritter MVP Award – und man gewöhnt sich nie daran",
+    "sanitized": "Mein dritter MVP Award – und man gewöhnt sich nie daran"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5935",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 30: Windows Server 2012 R2 Hyper-V",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 30: Windows Server 2012 R2 Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5920",
+    "raw": "Videointerview mit Jose Barreto über die SMB Neuerungen im Windows Server 2012 R2",
+    "sanitized": "Videointerview mit Jose Barreto über die SMB Neuerungen im Windows Server 2012 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5904",
+    "raw": "Am 13. Juni ist die Hyper-V Community in Berlin und es sind noch Plätze frei",
+    "sanitized": "Am 13. Juni ist die Hyper-V Community in Berlin und es sind noch Plätze frei"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5883",
+    "raw": "Meine TechEd 2013 Session Favoriten",
+    "sanitized": "Meine TechEd 2013 Session Favoriten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5878",
+    "raw": "Videointerview mit Aidan Finn über das Windows Server 2012 Hyper-V Installation and Configuration Guide Buch",
+    "sanitized": "Videointerview mit Aidan Finn über das Windows Server 2012 Hyper-V Installation and Configuration Guide Buch"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5832",
+    "raw": "Aktuelle Updates für Hyper-V und Failover Cluster – Stand Mai 2013",
+    "sanitized": "Aktuelle Updates für Hyper-V und Failover Cluster – Stand Mai 2013"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5867",
+    "raw": "Videointerview mit Mark Minasi über “Why should Admins learn PowerShell”",
+    "sanitized": "Videointerview mit Mark Minasi über “Why should Admins learn PowerShell”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5827",
+    "raw": "Videocast Serie über den Scale-Out Fileserver",
+    "sanitized": "Videocast Serie über den Scale-Out Fileserver"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5815",
+    "raw": "Videointerview mit Jose Barreto über SMB 3.0",
+    "sanitized": "Videointerview mit Jose Barreto über SMB 3.0"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5769",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 29: IT-Camp recorded",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 29: IT-Camp recorded"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5799",
+    "raw": "Scale-Out Fileserver erklärt – Teil 4 – Scale-Out Filerserver in Aktion und Ausschalten eines Nodes",
+    "sanitized": "Scale-Out Fileserver erklärt – Teil 4 – Scale-Out Filerserver in Aktion und Ausschalten eines Nodes"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5796",
+    "raw": "Videocast Scale-Out Fileserver erklärt – Teil 3 – Einrichtung der Scale-Out Fileserver Rolle",
+    "sanitized": "Videocast Scale-Out Fileserver erklärt – Teil 3 – Einrichtung der Scale-Out Fileserver Rolle"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5792",
+    "raw": "Videocast Scale-Out Filerserver erklärt – Teil 2 – Storage einrichten",
+    "sanitized": "Videocast Scale-Out Filerserver erklärt – Teil 2 – Storage einrichten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5784",
+    "raw": "Videocast Scale-Out Fileserver erklärt – Teil 1 – Einrichten des Clusters",
+    "sanitized": "Videocast Scale-Out Fileserver erklärt – Teil 1 – Einrichten des Clusters"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5756",
+    "raw": "Weitere Termine für unsere Schulungen außerhalb von Hallenberg",
+    "sanitized": "Weitere Termine für unsere Schulungen außerhalb von Hallenberg"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5760",
+    "raw": "Interview mit Didier van Hoye über seinen Storage, Netzwerk und mehr",
+    "sanitized": "Interview mit Didier van Hoye über seinen Storage, Netzwerk und mehr"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5742",
+    "raw": "Hyper-V Livemigration – Der Unterschied zwischen CredSSP und Kerberos",
+    "sanitized": "Hyper-V Livemigration – Der Unterschied zwischen CredSSP und Kerberos"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5717",
+    "raw": "Microsoft Hyper-V und System Center: Das Handbuch für Administratoren",
+    "sanitized": "Microsoft Hyper-V und System Center: Das Handbuch für Administratoren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5710",
+    "raw": "Interview mit Alessandro Cardoso über sein Buch: System Center Virtual Machine Manager 2012 Cookbook",
+    "sanitized": "Interview mit Alessandro Cardoso über sein Buch: System Center Virtual Machine Manager 2012 Cookbook"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5657",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 28: SMB 3.0 Teil 3",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 28: SMB 3.0 Teil 3"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5677",
+    "raw": "CeBIT 2013 – eine kleine Nachlese (Video)",
+    "sanitized": "CeBIT 2013 – eine kleine Nachlese (Video)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5653",
+    "raw": "Microsoft Synopsis 2013 (Drei auf einen Streich)",
+    "sanitized": "Microsoft Synopsis 2013 (Drei auf einen Streich)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5649",
+    "raw": "Videointerview mit Leandro Carvalho über sein Hyper-V Buch",
+    "sanitized": "Videointerview mit Leandro Carvalho über sein Hyper-V Buch"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5627",
+    "raw": "Hyper-V Sicherung mittels Powershell Skript für Windows Server 2012 [Update 1 auf v0.2]",
+    "sanitized": "Hyper-V Sicherung mittels Powershell Skript für Windows Server 2012 [Update 1 auf v0.2]"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5595",
+    "raw": "Hinzufügen von VHD oder VHDX-Datei funktioniert nicht – Fehler bei Übernehmen von Festplatte Änderungen",
+    "sanitized": "Hinzufügen von VHD oder VHDX-Datei funktioniert nicht – Fehler bei Übernehmen von Festplatte Änderungen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5604",
+    "raw": "Hyper-V Features erklärt: Shared Nothing Live Migration",
+    "sanitized": "Hyper-V Features erklärt: Shared Nothing Live Migration"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5584",
+    "raw": "Videointerview mit Ben Armstrong über Hyper-V",
+    "sanitized": "Videointerview mit Ben Armstrong über Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5575",
+    "raw": "Linux Kernel 3.7.9 unter Debian Squeeze kompilieren",
+    "sanitized": "Linux Kernel 3.7.9 unter Debian Squeeze kompilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5558",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 27: SMB 3.0 Teil 2",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 27: SMB 3.0 Teil 2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5550",
+    "raw": "Videocast WS2012 Failovercluster mit SMB Storage",
+    "sanitized": "Videocast WS2012 Failovercluster mit SMB Storage"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5544",
+    "raw": "Videocast rund um Hyper-V auf SMB",
+    "sanitized": "Videocast rund um Hyper-V auf SMB"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5524",
+    "raw": "Videointerview mit Oliver Sommer zu Hyper-V im SMB",
+    "sanitized": "Videointerview mit Oliver Sommer zu Hyper-V im SMB"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5532",
+    "raw": "Die Installation eines funktionierenden Failovercluster unter Windows Server 2012 mit nur einer physischen Netzwerkkarte",
+    "sanitized": "Die Installation eines funktionierenden Failovercluster unter Windows Server 2012 mit nur einer physischen Netzwerkkarte"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5467",
+    "raw": "Mein Hyper-V Einsteiger Videotraining bei video2brain",
+    "sanitized": "Mein Hyper-V Einsteiger Videotraining bei video2brain"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5463",
+    "raw": "Videointerview mit Stefan Köll (MVP CDM) zu System Center 2012",
+    "sanitized": "Videointerview mit Stefan Köll (MVP CDM) zu System Center 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5459",
+    "raw": "Zwei MVP Community Events im deutschen Sprachraum",
+    "sanitized": "Zwei MVP Community Events im deutschen Sprachraum"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5448",
+    "raw": "Videocast Hyper-V Features erklärt – SMB Multichannel",
+    "sanitized": "Videocast Hyper-V Features erklärt – SMB Multichannel"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5437",
+    "raw": "Video Hyper-V Talk mit 4 MVPs Virtual Maschine",
+    "sanitized": "Video Hyper-V Talk mit 4 MVPs Virtual Maschine"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5409",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 26: SMB 3.0 Teil 1",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 26: SMB 3.0 Teil 1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5407",
+    "raw": "Hyper-V Community Treffen am 10. Januar in Frankfurt",
+    "sanitized": "Hyper-V Community Treffen am 10. Januar in Frankfurt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5404",
+    "raw": "Zusatz IT-Camps für Windows 8 und Windows Server 2012",
+    "sanitized": "Zusatz IT-Camps für Windows 8 und Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5390",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 25: PowerShell 3.0",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 25: PowerShell 3.0"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5385",
+    "raw": "Videointerview mit Didier Van Hoye (MVP Virtual Machine) über Storage Verbesserungen in Windows Server 2012",
+    "sanitized": "Videointerview mit Didier Van Hoye (MVP Virtual Machine) über Storage Verbesserungen in Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5376",
+    "raw": "Videointerview mit Hans Vredevoort über Netzwerk Teaming und Converged Networking in Windows Server 2012",
+    "sanitized": "Videointerview mit Hans Vredevoort über Netzwerk Teaming und Converged Networking in Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5370",
+    "raw": "Videointerview mit Aidan Finn über Windows Server 2012 Livemigration und Hyper-V Replica",
+    "sanitized": "Videointerview mit Aidan Finn über Windows Server 2012 Livemigration und Hyper-V Replica"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5363",
+    "raw": "Hyper-V PowerKurs V2 auf Windows Server 2012 läuft",
+    "sanitized": "Hyper-V PowerKurs V2 auf Windows Server 2012 läuft"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5244",
+    "raw": "Erweiterung unseres Failovercluster unter Windows Server 2012 um einen weiteren Knoten",
+    "sanitized": "Erweiterung unseres Failovercluster unter Windows Server 2012 um einen weiteren Knoten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5199",
+    "raw": "Aufbau und Einrichtung eines Failovercluster unter Windows Server 2012",
+    "sanitized": "Aufbau und Einrichtung eines Failovercluster unter Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5250",
+    "raw": "Der “Great Big Hyper-V Survey 2012” braucht noch ein paar Teilnehmer",
+    "sanitized": "Der “Great Big Hyper-V Survey 2012” braucht noch ein paar Teilnehmer"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5139",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 24: Interview mit einem Private Cloud Evangelisten und einem MVP Virtual Machine",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 24: Interview mit einem Private Cloud Evangelisten und einem MVP Virtual Machine"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5134",
+    "raw": "Windows Server 2012: Core, Minimal Server Schnittstelle oder volle GUI?",
+    "sanitized": "Windows Server 2012: Core, Minimal Server Schnittstelle oder volle GUI?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5117",
+    "raw": "SystemCenter 2012 SP1 Beta ist da",
+    "sanitized": "SystemCenter 2012 SP1 Beta ist da"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5111",
+    "raw": "Hyper-V unter Windows 8 Enterprise",
+    "sanitized": "Hyper-V unter Windows 8 Enterprise"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5086",
+    "raw": "Microsoft Windows Server 2012 Launch Event in Offenbach",
+    "sanitized": "Microsoft Windows Server 2012 Launch Event in Offenbach"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5068",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 23: Hyper-V Server 2012",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 23: Hyper-V Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5030",
+    "raw": "Videocast zu Veeam Backup und Replication 6.1 auf Hyper-V",
+    "sanitized": "Videocast zu Veeam Backup und Replication 6.1 auf Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5023",
+    "raw": "Videointerview mit Michel Lüscher und Michael Epprecht",
+    "sanitized": "Videointerview mit Michel Lüscher und Michael Epprecht"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5016",
+    "raw": "Linux Kernel 3.4.6 unter Debian Squeeze kompilieren",
+    "sanitized": "Linux Kernel 3.4.6 unter Debian Squeeze kompilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=5002",
+    "raw": "Videointerview mit Thomas Maurer zu Hyper-V 2012",
+    "sanitized": "Videointerview mit Thomas Maurer zu Hyper-V 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4962",
+    "raw": "Hyper-V Server 2012 – die kostenlose Microsoft Virtualisierungs-Wunderwaffe",
+    "sanitized": "Hyper-V Server 2012 – die kostenlose Microsoft Virtualisierungs-Wunderwaffe"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4930",
+    "raw": "TechEd Sessions zu Windows Server 2012 und Hyper-V",
+    "sanitized": "TechEd Sessions zu Windows Server 2012 und Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4948",
+    "raw": "Livemigration in einem Windows Failover-Cluster schlägt fehl, wenn das Management-Interface nicht verfügbar ist",
+    "sanitized": "Livemigration in einem Windows Failover-Cluster schlägt fehl, wenn das Management-Interface nicht verfügbar ist"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4902",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 22: Windows Azure Spring Release",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 22: Windows Azure Spring Release"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4896",
+    "raw": "Videointerview zu den RDS im Windows Server 2012 mit Benny Tritsch",
+    "sanitized": "Videointerview zu den RDS im Windows Server 2012 mit Benny Tritsch"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4888",
+    "raw": "Hyper-V Community Treffen am 10. Juli in Düsseldorf",
+    "sanitized": "Hyper-V Community Treffen am 10. Juli in Düsseldorf"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4886",
+    "raw": "Microsoft MVP Award again!",
+    "sanitized": "Microsoft MVP Award again!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4877",
+    "raw": "(Fast) Ausfallfreier Umzug unserer Webserver in ein anderes Rechenzentrum mit Hyper-V unter Windows Server 2012",
+    "sanitized": "(Fast) Ausfallfreier Umzug unserer Webserver in ein anderes Rechenzentrum mit Hyper-V unter Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4868",
+    "raw": "Videointerview zum Windows Azure Spring Release mit Heike Ritter",
+    "sanitized": "Videointerview zum Windows Azure Spring Release mit Heike Ritter"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4863",
+    "raw": "Videos vom \"TechDay Best of Microsoft 2012” sind online",
+    "sanitized": "Videos vom \"TechDay Best of Microsoft 2012” sind online"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4775",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 21: Zwischenspiel",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 21: Zwischenspiel"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4834",
+    "raw": "Endlich! Die Azure Persistent VM Rolle ist da!",
+    "sanitized": "Endlich! Die Azure Persistent VM Rolle ist da!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4803",
+    "raw": "Vieles Neues auf der TechDay Roadshow Best of 2012",
+    "sanitized": "Vieles Neues auf der TechDay Roadshow Best of 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4796",
+    "raw": "Windows Server 2012 RC – seit heute zum Download bereit",
+    "sanitized": "Windows Server 2012 RC – seit heute zum Download bereit"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4750",
+    "raw": "Unser Hyper-V Schulungs-System in der aktuellen Version",
+    "sanitized": "Unser Hyper-V Schulungs-System in der aktuellen Version"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4754",
+    "raw": "TechDay Private Cloud Szenarien Videos",
+    "sanitized": "TechDay Private Cloud Szenarien Videos"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4747",
+    "raw": "neue Termine für den Hyper-V PowerKurs",
+    "sanitized": "neue Termine für den Hyper-V PowerKurs"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4719",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 20: MMS2012",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 20: MMS2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4676",
+    "raw": "MMS2012 Virtualization Sessions",
+    "sanitized": "MMS2012 Virtualization Sessions"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4644",
+    "raw": "Hyper-V mit AMD FX CPU",
+    "sanitized": "Hyper-V mit AMD FX CPU"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4667",
+    "raw": "Was macht Hyper-V, wenn man die Prozessorkompatibilität einschaltet?",
+    "sanitized": "Was macht Hyper-V, wenn man die Prozessorkompatibilität einschaltet?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4656",
+    "raw": "Videocast: Hyper-V Replica in Windows Server 2012 Beta",
+    "sanitized": "Videocast: Hyper-V Replica in Windows Server 2012 Beta"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4650",
+    "raw": "Die Namen sind jetzt fix: Windows 8 und Windows Server 2012",
+    "sanitized": "Die Namen sind jetzt fix: Windows 8 und Windows Server 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4620",
+    "raw": "Wer will mal Hand an Windows Server “8” legen?",
+    "sanitized": "Wer will mal Hand an Windows Server “8” legen?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4614",
+    "raw": "Linux Kernel 3.4 RC1 unter Debian Squeeze kompilieren",
+    "sanitized": "Linux Kernel 3.4 RC1 unter Debian Squeeze kompilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4588",
+    "raw": "Linux Kernel 3.3 final unter Debian Squeeze kompilieren",
+    "sanitized": "Linux Kernel 3.3 final unter Debian Squeeze kompilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4554",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 19: Windows Server 8 Beta und MVPSummit 2012",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 19: Windows Server 8 Beta und MVPSummit 2012"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4548",
+    "raw": "Meine CeBIT und TechDay Hyper-V Vorträge",
+    "sanitized": "Meine CeBIT und TechDay Hyper-V Vorträge"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4526",
+    "raw": "MVPSummit 2012, man was war das Klasse",
+    "sanitized": "MVPSummit 2012, man was war das Klasse"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4512",
+    "raw": "Windows Server 8: Sicherung von VMs mit der Windows Sicherung",
+    "sanitized": "Windows Server 8: Sicherung von VMs mit der Windows Sicherung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4484",
+    "raw": "Langzeit-Performanceanalyse von Hyper-V Hosts und grafische Auswertung mit PAL",
+    "sanitized": "Langzeit-Performanceanalyse von Hyper-V Hosts und grafische Auswertung mit PAL"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4438",
+    "raw": "Videocast: Wie messe ich die Performance meines Hyper-V Hosts?",
+    "sanitized": "Videocast: Wie messe ich die Performance meines Hyper-V Hosts?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4431",
+    "raw": "Nach Windows 2008 R2 SP1 Hyper-V und Cluster Patche",
+    "sanitized": "Nach Windows 2008 R2 SP1 Hyper-V und Cluster Patche"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4419",
+    "raw": "Erstellung einer Clusters mit Server 2008 R2 und eine HP P2000 G3 schlägt fehl",
+    "sanitized": "Erstellung einer Clusters mit Server 2008 R2 und eine HP P2000 G3 schlägt fehl"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4391",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 18: Microsoft IT-Camps",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 18: Microsoft IT-Camps"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4378",
+    "raw": "neue Termine für unseren Hyper-V PowerKurs",
+    "sanitized": "neue Termine für unseren Hyper-V PowerKurs"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4240",
+    "raw": "Hyper-V Server 2008 R2 Netzwerk- und Cluster-Konfiguration",
+    "sanitized": "Hyper-V Server 2008 R2 Netzwerk- und Cluster-Konfiguration"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4201",
+    "raw": "Hyper-V im Failover-Cluster, Cluster Shared Volumes, das Backup und der Redirected Mode",
+    "sanitized": "Hyper-V im Failover-Cluster, Cluster Shared Volumes, das Backup und der Redirected Mode"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3803",
+    "raw": "Live-Migration eines Volume einer NetApp FAS6040 von einem Aggregat auf ein anderes",
+    "sanitized": "Live-Migration eines Volume einer NetApp FAS6040 von einem Aggregat auf ein anderes"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/hyper-v-community-event-und-hyper-v-nu-event-videos/",
+    "raw": "Hyper-V Community Event und Hyper-V.nu Event Videos",
+    "sanitized": "Hyper-V Community Event und Hyper-V.nu Event Videos"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/management/die-nutzung-von-differenzierenden-vhds-mit-hyper-v/",
+    "raw": "Die Nutzung von Differenzierenden VHDs mit Hyper-V",
+    "sanitized": "Die Nutzung von Differenzierenden VHDs mit Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4177",
+    "raw": "Virtualisierung mit dem Small Business Server 2011",
+    "sanitized": "Virtualisierung mit dem Small Business Server 2011"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisor/linux-kernel-3-3-unter-debian-squeeze-kompilieren/",
+    "raw": "Linux Kernel 3.3 unter Debian Squeeze kompilieren",
+    "sanitized": "Linux Kernel 3.3 unter Debian Squeeze kompilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4141",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 17: das Jahr der Microsoft Private Cloud",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 17: das Jahr der Microsoft Private Cloud"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/video-installation-der-linux-integration-services-3-2-unter-centos/",
+    "raw": "Video: Installation der Linux Integration Services 3.2 unter CentOS",
+    "sanitized": "Video: Installation der Linux Integration Services 3.2 unter CentOS"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-what-is-your-favorite-hyper-v-feature-in-windows-8/",
+    "raw": "Videointerview: What is your favorite Hyper-V feature in Windows 8",
+    "sanitized": "Videointerview: What is your favorite Hyper-V feature in Windows 8"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/meine-techday-private-cloud-2011-vortrge/",
+    "raw": "Meine TechDay Private Cloud 2011 Vorträge",
+    "sanitized": "Meine TechDay Private Cloud 2011 Vorträge"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4114",
+    "raw": "Videointerview about Powershell with Jeff Wouters",
+    "sanitized": "Videointerview about Powershell with Jeff Wouters"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4101",
+    "raw": "Hinzufügen des vierten Cluster-Knotens funktioniert nicht, Fehler beim Abrufen der VPD-Deskriptoren des SCSI-Geräts",
+    "sanitized": "Hinzufügen des vierten Cluster-Knotens funktioniert nicht, Fehler beim Abrufen der VPD-Deskriptoren des SCSI-Geräts"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4082",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 16 – Buchgeflüster",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 16 – Buchgeflüster"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-mit-meinem-mvp-lead-jan-philipp-rombolotto/",
+    "raw": "Videointerview mit meinem MVP Lead Jan-Philipp Rombolotto",
+    "sanitized": "Videointerview mit meinem MVP Lead Jan-Philipp Rombolotto"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/der-erste-hyper-v-powerkurs-findet-vom-9-1-bis-zum-13-1-2012-statt/",
+    "raw": "Der erste Hyper-V Powerkurs findet vom 9.1. bis zum 13.1.2012 statt",
+    "sanitized": "Der erste Hyper-V Powerkurs findet vom 9.1. bis zum 13.1.2012 statt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-with-ronnie-isherwood-virtual-machine-manager-2012/",
+    "raw": "Videointerview about Virtual Machine Manager 2012 with Ronnie Isherwood",
+    "sanitized": "Videointerview about Virtual Machine Manager 2012 with Ronnie Isherwood"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3767",
+    "raw": "Citrix XenDesktop 5 Training – Überblick",
+    "sanitized": "Citrix XenDesktop 5 Training – Überblick"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-mit-dietmar-meng-windows-server-lizenzierung-in-der-virtualisierung/",
+    "raw": "Interview zur Windows Server Lizenzierung in der Virtualisierung",
+    "sanitized": "Interview zur Windows Server Lizenzierung in der Virtualisierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisor/kompilierung-eines-eigenen-debian-squeeze-kernels-3-1-4-mit-hyper-v-client-treiber-integrationsdienste/",
+    "raw": "Kompilierung eines eigenen Debian Squeeze-Kernels 3.1.4 mit Hyper-V Client Treiber / Integrationsdienste",
+    "sanitized": "Kompilierung eines eigenen Debian Squeeze-Kernels 3.1.4 mit Hyper-V Client Treiber / Integrationsdienste"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-zum-microsoft-it-camp-und-der-microsoft-virtual-academy/",
+    "raw": "Videointerview über neue Microsoft Angebote wie die MVA und die IT-Camps",
+    "sanitized": "Videointerview über neue Microsoft Angebote wie die MVA und die IT-Camps"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-with-didier-van-hoye-about-csv-and-storage-design/",
+    "raw": "Videointerview about CSV and Storage Design with Didier Van Hoye",
+    "sanitized": "Videointerview about CSV and Storage Design with Didier Van Hoye"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4012",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 15 – Bauen einer Private Cloud",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 15 – Bauen einer Private Cloud"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4018",
+    "raw": "Videointerview mit Ansgar Heinen zur System Center 2012 Familie",
+    "sanitized": "Videointerview mit Ansgar Heinen zur System Center 2012 Familie"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/management/meine-demo-hyper-v-infrastruktur-vom-techday-private-cloud/",
+    "raw": "Meine Demo Hyper-V Infrastruktur vom TechDay Private Cloud",
+    "sanitized": "Meine Demo Hyper-V Infrastruktur vom TechDay Private Cloud"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=4000",
+    "raw": "Videointerview with Aidan Finn about Designing Hyper-V CSV and Backup",
+    "sanitized": "Videointerview with Aidan Finn about Designing Hyper-V CSV and Backup"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/techday-private-cloud-deutschland-tour-und-die-e2e-konferenz-in-london/",
+    "raw": "TechDay Private Cloud Deutschland Tour und die E2E Konferenz in London",
+    "sanitized": "TechDay Private Cloud Deutschland Tour und die E2E Konferenz in London"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3952",
+    "raw": "Der Hyper-V-Server.de FastTrack November 2011 – Hochverfügbarkeit mit Hyper-V muss nicht teuer sein",
+    "sanitized": "Der Hyper-V-Server.de FastTrack November 2011 – Hochverfügbarkeit mit Hyper-V muss nicht teuer sein"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3920",
+    "raw": "Snapshot Zusammenführung steckt in einer Endlosschleife",
+    "sanitized": "Snapshot Zusammenführung steckt in einer Endlosschleife"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3896",
+    "raw": "Videointerview with Hans Vredevoort about Hyper-V V3 and Storage",
+    "sanitized": "Videointerview with Hans Vredevoort about Hyper-V V3 and Storage"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/die-veam-v-index-virtualisierungs-quartalsumfrage/",
+    "raw": "Die Veam V-index Virtualisierungs Quartalsumfrage",
+    "sanitized": "Die Veam V-index Virtualisierungs Quartalsumfrage"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3870",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 14: Termine! Termine!",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 14: Termine! Termine!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3863",
+    "raw": "Videointerview mit Didier Van Hoye zu Hyper-V und 10GBit",
+    "sanitized": "Videointerview mit Didier Van Hoye zu Hyper-V und 10GBit"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/rckblick-auf-the-experts-conferenz-in-frankfurt/",
+    "raw": "Rückblick auf The Experts Conference in Frankfurt",
+    "sanitized": "Rückblick auf The Experts Conference in Frankfurt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/privat-cloud-community-treffen-mit-satya-nadella/",
+    "raw": "Privat Cloud Community Treffen mit Satya Nadella",
+    "sanitized": "Privat Cloud Community Treffen mit Satya Nadella"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/hyper-v-community-hyper-v-r3-bersicht-ber-die-highlights/",
+    "raw": "Vortrag zu Hyper-V R3 vom zweiten Hyper-V-Community",
+    "sanitized": "Vortrag zu Hyper-V R3 vom zweiten Hyper-V-Community"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3816",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 13: //build/ Konferenz",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 13: //build/ Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3535",
+    "raw": "Überblick: System Center Configuration Manager Training",
+    "sanitized": "Überblick: System Center Configuration Manager Training"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3549",
+    "raw": "Wiederherstellen einer nicht exportierten VM",
+    "sanitized": "Wiederherstellen einer nicht exportierten VM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/scvmm-2012-rc-installation-2/",
+    "raw": "Installation des System Center Virtual Machine Managers 2012 Release Candidate",
+    "sanitized": "Installation des System Center Virtual Machine Managers 2012 Release Candidate"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3731",
+    "raw": "Installation des System Center Data Protection Manager 2012 Beta",
+    "sanitized": "Installation des System Center Data Protection Manager 2012 Beta"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3563",
+    "raw": "Videocast: VHD Multiboot einrichten mit Windows Server 8 DP und Windows Server 2008 R2 SP1",
+    "sanitized": "Videocast: VHD Multiboot einrichten mit Windows Server 8 DP und Windows Server 2008 R2 SP1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/private-cloud-sessions-von-der-microsoft-build-konferenz/",
+    "raw": "Private Cloud Sessions von der Microsoft build Konferenz",
+    "sanitized": "Private Cloud Sessions von der Microsoft build Konferenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3509",
+    "raw": "Videocast: Wie man iSCSI und MPIO für Hyper-V konfiguriert",
+    "sanitized": "Videocast: Wie man iSCSI und MPIO für Hyper-V konfiguriert"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/cool-windows-8-client-enthlt-hyper-v/",
+    "raw": "Cool! Windows 8 Client enthält Hyper-V",
+    "sanitized": "Cool! Windows 8 Client enthält Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/benchmark-intel-510-120gb-ssd-vs-western-digital-velociraptor-300gb-10000rpm/",
+    "raw": "Benchmark: Intel 510 120GB SSD vs. Western Digital Velociraptor 300GB 10000rpm",
+    "sanitized": "Benchmark: Intel 510 120GB SSD vs. Western Digital Velociraptor 300GB 10000rpm"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3495",
+    "raw": "Empfehlung: Unser Hyper-V Schulungs-System",
+    "sanitized": "Empfehlung: Unser Hyper-V Schulungs-System"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3478",
+    "raw": "SystemCenter 2012 Testdrives und Microsoft Virtual Academy",
+    "sanitized": "SystemCenter 2012 Testdrives und Microsoft Virtual Academy"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3458",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 12: Hyper-V Survey",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 12: Hyper-V Survey"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3398",
+    "raw": "NetApp Migration von einem Filer auf einen anderen",
+    "sanitized": "NetApp Migration von einem Filer auf einen anderen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3362",
+    "raw": "BackupChain Review – VM Backup – Ein Überblick",
+    "sanitized": "BackupChain Review – VM Backup – Ein Überblick"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3400",
+    "raw": "Videointerview mit Michel Lüscher – ChalkTalk zu Hyper-V, SystemCenter 2012 und ein bisschen Windows Server “8”",
+    "sanitized": "Videointerview mit Michel Lüscher – ChalkTalk zu Hyper-V, SystemCenter 2012 und ein bisschen Windows Server “8”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/was-ist-die-vda-lizenzpatrick-rose-video-erklhrt-es/",
+    "raw": "Was ist die VDA Lizenz – Patrick Rouse Video erklärt es",
+    "sanitized": "Was ist die VDA Lizenz – Patrick Rouse Video erklärt es"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3372",
+    "raw": "The Experts Conference Europe 2011 (TECConf)",
+    "sanitized": "The Experts Conference Europe 2011 (TECConf)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3290",
+    "raw": "Überblick: System Center Data Protection Manager 2010 Training",
+    "sanitized": "Überblick: System Center Data Protection Manager 2010 Training"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3272",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 11: Linux und Hyper-V",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 11: Linux und Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3141",
+    "raw": "Netzwerkkonfiguration im Hyper-V Cluster",
+    "sanitized": "Netzwerkkonfiguration im Hyper-V Cluster"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3155",
+    "raw": "Videocast über das Importieren von VMs auf einem Hyper-V Cluster",
+    "sanitized": "Videocast über das Importieren von VMs auf einem Hyper-V Cluster"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3016",
+    "raw": "Die HP LeftHand P4000 Virtual SAN Appliance Software im Test",
+    "sanitized": "Die HP LeftHand P4000 Virtual SAN Appliance Software im Test"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=3086",
+    "raw": "Videocast VMM2012 Bare Metal Deployment",
+    "sanitized": "Videocast VMM2012 Bare Metal Deployment"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/management/update-unseres-powershell-sicherungsscripts-auf-version-1-0/",
+    "raw": "Update unseres Powershell Sicherungsscripts auf Version 1.0",
+    "sanitized": "Update unseres Powershell Sicherungsscripts auf Version 1.0"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/management/administration-eines-hyper-v-server-2008-r2-sp1-mit-windows-7-sp1-und-den-rsat-tools-ohne-domne/",
+    "raw": "Administration eines Hyper-V Server 2008 R2 SP1 mit Windows 7 SP1 und den RSAT-Tools ohne Domäne",
+    "sanitized": "Administration eines Hyper-V Server 2008 R2 SP1 mit Windows 7 SP1 und den RSAT-Tools ohne Domäne"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2867",
+    "raw": "Hyper-V Community VMM2012: Vortrag Carsten Rachfahl",
+    "sanitized": "Hyper-V Community VMM2012: Vortrag Carsten Rachfahl"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2849",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 10 – MVP Virtual Machine",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 10 – MVP Virtual Machine"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2803",
+    "raw": "Altaro Hyper-V VM Backup",
+    "sanitized": "Altaro Hyper-V VM Backup"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/mvp-virtual-machine-man-was-bin-ich-stolz/",
+    "raw": "MVP Virtual Machine – man was bin ich stolz",
+    "sanitized": "MVP Virtual Machine – man was bin ich stolz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/update-microsoft-technet-virtualisierungs-starter-kit/",
+    "raw": "Update: Microsoft TechNet Virtualisierungs-Starter Kit",
+    "sanitized": "Update: Microsoft TechNet Virtualisierungs-Starter Kit"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/treffen-der-hyper-v-community-am-30-juni-2011/",
+    "raw": "erstes Treffen der Hyper-V Community am 30 Juni 2011",
+    "sanitized": "erstes Treffen der Hyper-V Community am 30 Juni 2011"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2757",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 9: System Center 2012 CEP",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 9: System Center 2012 CEP"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2704",
+    "raw": "Microsoft TechNet Virtualisierungs-Starter Kit",
+    "sanitized": "Microsoft TechNet Virtualisierungs-Starter Kit"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2714",
+    "raw": "Videointerview zu NetApp und Microsoft mit Udo Lorenz",
+    "sanitized": "Videointerview zu NetApp und Microsoft mit Udo Lorenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/security-bulletin-ms11-047-fr-windows-server-2008-r2-hyper-v-und-windows-server-2008-hyper-v/",
+    "raw": "Security Bulletin MS11-047 für Windows Server 2008 R2 Hyper-V und Windows Server 2008 Hyper-V",
+    "sanitized": "Security Bulletin MS11-047 für Windows Server 2008 R2 Hyper-V und Windows Server 2008 Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/netzwerkkonnektivitt-verabschiedet-sich-bei-virtuellen-maschinen-mit-hoher-netzwerklast/",
+    "raw": "Netzwerkkonnektivität verabschiedet sich bei virtuellen Maschinen mit hoher Netzwerklast",
+    "sanitized": "Netzwerkkonnektivität verabschiedet sich bei virtuellen Maschinen mit hoher Netzwerklast"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2655",
+    "raw": "5nine Manager for Hyper-V – Management für den Hyper-V Server 2008 R2",
+    "sanitized": "5nine Manager for Hyper-V – Management für den Hyper-V Server 2008 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2675",
+    "raw": "Hyper-V Cluster und Netzwerkkarten Bindungen",
+    "sanitized": "Hyper-V Cluster und Netzwerkkarten Bindungen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2661",
+    "raw": "Hyper-V und Hyper-Threading?",
+    "sanitized": "Hyper-V und Hyper-Threading?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/webinar-zu-windows-server-2008-r2-wiederholung/",
+    "raw": "Webinar zu Windows Server 2008 R2 – Wiederholung",
+    "sanitized": "Webinar zu Windows Server 2008 R2 – Wiederholung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2644",
+    "raw": "Hyper-V Plattenperformance mit SSDs",
+    "sanitized": "Hyper-V Plattenperformance mit SSDs"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2568",
+    "raw": "Servervirtualisierungssessions der TechED 2011 North America",
+    "sanitized": "Servervirtualisierungssessions der TechED 2011 North America"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2577",
+    "raw": "Microsoft Virtualisierugs Podcast Folge 8: Die Hyper-V Community",
+    "sanitized": "Microsoft Virtualisierugs Podcast Folge 8: Die Hyper-V Community"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2538",
+    "raw": "Webinar zu Windows Server 2008 R2 – Virtualisierung und Systemmanagement",
+    "sanitized": "Webinar zu Windows Server 2008 R2 – Virtualisierung und Systemmanagement"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/virtualisierungssessions-auf-der-teched-2011-north-america/",
+    "raw": "Virtualisierungssessions auf der TechED 2011 North America",
+    "sanitized": "Virtualisierungssessions auf der TechED 2011 North America"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2550",
+    "raw": "Hyper-V Community gegründet",
+    "sanitized": "Hyper-V Community gegründet"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2540",
+    "raw": "Was ist Virtualisierung?",
+    "sanitized": "Was ist Virtualisierung?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/microsoft-techday-online-internet-explorer-9-firestarter/",
+    "raw": "Microsoft Techday Online Internet Explorer 9 Firestarter",
+    "sanitized": "Microsoft Techday Online Internet Explorer 9 Firestarter"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-mit-michael-korp-zur-private-cloud-systemmanagement-summit-2011/",
+    "raw": "Videointerview zur Private Cloud mit Michael Korp",
+    "sanitized": "Videointerview zur Private Cloud mit Michael Korp"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2523",
+    "raw": "Windows Server 2008 R2, Virtualisierung und Systemmanagement by Microsoft – komprimierte Zusammenfassung des aktuellen Stands der Technik",
+    "sanitized": "Windows Server 2008 R2, Virtualisierung und Systemmanagement by Microsoft – komprimierte Zusammenfassung des aktuellen Stands der Technik"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2511",
+    "raw": "Videointerview mit Hans Vredevoort zu Hyper-V und vieles Mehr",
+    "sanitized": "Videointerview mit Hans Vredevoort zu Hyper-V und vieles Mehr"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/fragen-zu-microsoft-server-virtualisierung/",
+    "raw": "Fragen zu Microsoft Server Virtualisierung?",
+    "sanitized": "Fragen zu Microsoft Server Virtualisierung?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/webinar-windows-server-2008-r2-virtualisierung-und-systemmanagement-komprimierte-zusammenfassung-des-aktuellen-stands-der-technik/",
+    "raw": "Webinar: Windows Server 2008 R2, Virtualisierung und Systemmanagement – komprimierte Zusammenfassung des aktuellen Stands der Technik",
+    "sanitized": "Webinar: Windows Server 2008 R2, Virtualisierung und Systemmanagement – komprimierte Zusammenfassung des aktuellen Stands der Technik"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2474",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 7: SCVMM 2012 Beta",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 7: SCVMM 2012 Beta"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-holger-sirtl-azure-vm-rolle-techsummit-cloud-2011/",
+    "raw": "Videointerview mit Holger Sirtl zur Azure VM Rolle",
+    "sanitized": "Videointerview mit Holger Sirtl zur Azure VM Rolle"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2452",
+    "raw": "Webinar zur Virtualisierung und Systemmanagement by Microsoft",
+    "sanitized": "Webinar zur Virtualisierung und Systemmanagement by Microsoft"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/hyper-v-server-2008-r2-sp1-ist-da/",
+    "raw": "Hyper-V Server 2008 R2 SP1 ist da",
+    "sanitized": "Hyper-V Server 2008 R2 SP1 ist da"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-mit-daniel-neumann-zum-thema-microsoft-virtualisierung/",
+    "raw": "Videointerview mit Daniel Neumann zum Thema Microsoft Virtualisierung",
+    "sanitized": "Videointerview mit Daniel Neumann zum Thema Microsoft Virtualisierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/lizenzierung-in-der-microsoft-virtualisierung/",
+    "raw": "Lizenzierung in der Microsoft Virtualisierung",
+    "sanitized": "Lizenzierung in der Microsoft Virtualisierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2409",
+    "raw": "Installation des System Center Virtual Maschine Manager 2012 Beta",
+    "sanitized": "Installation des System Center Virtual Maschine Manager 2012 Beta"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/export-einer-vm-unter-windows-server-2008-r2-sp1-und-import-unter-windows-server-2008-r2-ohne-sp1/",
+    "raw": "Export einer VM unter Windows Server 2008 R2 SP1 und Import unter Windows Server 2008 R2 ohne SP1",
+    "sanitized": "Export einer VM unter Windows Server 2008 R2 SP1 und Import unter Windows Server 2008 R2 ohne SP1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2295",
+    "raw": "Mehrere Schulungsteilnehmer mit einer eigenen Testumgebung ausstatten – Mit Hyper-V kein Problem!",
+    "sanitized": "Mehrere Schulungsteilnehmer mit einer eigenen Testumgebung ausstatten – Mit Hyper-V kein Problem!"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hp-dl380-g5-mit-aktivierter-hyper-v-rolle-bekommt-bluescreen-beim-start-start-nur-mit-einer-cpu-mglich/",
+    "raw": "HP DL380 G5 mit aktivierter Hyper-V-Rolle bekommt Bluescreen beim Start – Start nur mit einer CPU möglich",
+    "sanitized": "HP DL380 G5 mit aktivierter Hyper-V-Rolle bekommt Bluescreen beim Start – Start nur mit einer CPU möglich"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2328",
+    "raw": "Kompilierung eines eigenen Debian Squeeze-Kernels 2.6.38 mit Hyper-V Client Treiber / Integrationsdienste",
+    "sanitized": "Kompilierung eines eigenen Debian Squeeze-Kernels 2.6.38 mit Hyper-V Client Treiber / Integrationsdienste"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2296",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 6: CeBit Nachlese und das Buch Mastering Hyper-V Deployment",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 6: CeBit Nachlese und das Buch Mastering Hyper-V Deployment"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-zur-microsoft-private-cloud/",
+    "raw": "Videointerview zur Microsoft Private Cloud mit Hyper-V und System Center",
+    "sanitized": "Videointerview zur Microsoft Private Cloud mit Hyper-V und System Center"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/techsummit-cloudauch-private-cloud-ist-cloud/",
+    "raw": "TechSummit Cloud–auch Private Cloud ist Cloud",
+    "sanitized": "TechSummit Cloud–auch Private Cloud ist Cloud"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/videointerview-datacore-und-hyper-v-von-der-cebit-2011/",
+    "raw": "Videointerview von der CeBit zu DataCore und Hyper-V",
+    "sanitized": "Videointerview von der CeBit zu DataCore und Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/neue-intergrations-komponenten-bei-sp1/",
+    "raw": "neue Integrations Komponenten bei Hyper-V R2 SP1",
+    "sanitized": "neue Integrations Komponenten bei Hyper-V R2 SP1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2237",
+    "raw": "Tauchen Sie ein in die faszinierende Welt der Virtualisierung",
+    "sanitized": "Tauchen Sie ein in die faszinierende Welt der Virtualisierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2194",
+    "raw": "P2V-Migration von Windows XP zum Betrieb im Windows 7-“XP-Mode”",
+    "sanitized": "P2V-Migration von Windows XP zum Betrieb im Windows 7-“XP-Mode”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2199",
+    "raw": "Update von Windows Server 2008 R2 SP1 RC auf SP1 RTM",
+    "sanitized": "Update von Windows Server 2008 R2 SP1 RC auf SP1 RTM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/anlegen-einer-virtuellen-maschine-funktioniert-nicht-fr-die-angegebene-datei-wurde-kein-anbieter-zur-untersttzung-von-virtuellen-datentrgern-gefunden/",
+    "raw": "Anlegen einer virtuellen Maschine funktioniert nicht – Für die angegebene Datei wurde kein Anbieter zur Unterstützung von virtuellen Datenträgern gefunden",
+    "sanitized": "Anlegen einer virtuellen Maschine funktioniert nicht – Für die angegebene Datei wurde kein Anbieter zur Unterstützung von virtuellen Datenträgern gefunden"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2134",
+    "raw": "Neues Networking Feature mit Hyper-V V2 SP1 – ARP Spoofing Prevention",
+    "sanitized": "Neues Networking Feature mit Hyper-V V2 SP1 – ARP Spoofing Prevention"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2099",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 5: Server Lizenzierung",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 5: Server Lizenzierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2033",
+    "raw": "Hyper-V und USB",
+    "sanitized": "Hyper-V und USB"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=2004",
+    "raw": "TechDay Online zum Thema Virtualisierung",
+    "sanitized": "TechDay Online zum Thema Virtualisierung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1955",
+    "raw": "Was machen wenn man von einer VM nur noch die VHD und AVHD Dateien hat?",
+    "sanitized": "Was machen wenn man von einer VM nur noch die VHD und AVHD Dateien hat?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1932",
+    "raw": "Ruhezustand vs. Hyper-V",
+    "sanitized": "Ruhezustand vs. Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1907",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 4: Backup und Recovery",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 4: Backup und Recovery"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1880",
+    "raw": "Deutsche Technet Webcast zu RemoteFX und Dynamic Memory",
+    "sanitized": "Deutsche Technet Webcast zu RemoteFX und Dynamic Memory"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1859",
+    "raw": "statische MAC-Adressen in Hyper-V",
+    "sanitized": "statische MAC-Adressen in Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1857",
+    "raw": "Servervirtualisierungssessions der TechED 2010 Europe",
+    "sanitized": "Servervirtualisierungssessions der TechED 2010 Europe"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hp-p2000g3-fciscsi-als-iscsi-san-im-failover-cluster-review/",
+    "raw": "HP P2000G3 FC/iSCSI als iSCSI-SAN im Failover-Cluster (Review)",
+    "sanitized": "HP P2000G3 FC/iSCSI als iSCSI-SAN im Failover-Cluster (Review)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1800",
+    "raw": "Sicherung von virtuellen Windows Server 2008 R2 Systemen per Symantec Backup Exec auf einem Hyper-V-System",
+    "sanitized": "Sicherung von virtuellen Windows Server 2008 R2 Systemen per Symantec Backup Exec auf einem Hyper-V-System"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1804",
+    "raw": "Verlosung eines “XenApp6 Hyper-V Provisioning” Workshop Platzes",
+    "sanitized": "Verlosung eines “XenApp6 Hyper-V Provisioning” Workshop Platzes"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1734",
+    "raw": "W-LAN für virtuelle Maschinen einrichten",
+    "sanitized": "W-LAN für virtuelle Maschinen einrichten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1699",
+    "raw": "Verwaltungs-Lösung eines Servers in einem externen Rechenzentrum",
+    "sanitized": "Verwaltungs-Lösung eines Servers in einem externen Rechenzentrum"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1700",
+    "raw": "Absicherung eines System Center Data Protection Manager 2010-Servers",
+    "sanitized": "Absicherung eines System Center Data Protection Manager 2010-Servers"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/endlich-geschafft-wir-sind-der-erste-deutsche-microsoft-partner-mit-der-gold-virtualization-kompetenz/",
+    "raw": "Endlich geschafft – Wir sind der erste deutsche Microsoft Partner mit der Gold Virtualization Kompetenz",
+    "sanitized": "Endlich geschafft – Wir sind der erste deutsche Microsoft Partner mit der Gold Virtualization Kompetenz"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1694",
+    "raw": "GreenBytes GB-1000 als iSCSI-SAN im Failover-Cluster (Review)",
+    "sanitized": "GreenBytes GB-1000 als iSCSI-SAN im Failover-Cluster (Review)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1616",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 3: Azure und Hyper-V",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 3: Azure und Hyper-V"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/linux-im-hyper-v-umbuntu-und-debian-mit-neuen-integrations-komponenten/",
+    "raw": "Linux im Hyper-V – Ubuntu und Debian mit neuen Integrations Komponenten",
+    "sanitized": "Linux im Hyper-V – Ubuntu und Debian mit neuen Integrations Komponenten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1593",
+    "raw": "Windows 2008 R2 SP1 Release Candidate ist raus und auch schon getestet",
+    "sanitized": "Windows 2008 R2 SP1 Release Candidate ist raus und auch schon getestet"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1572",
+    "raw": "Ein guter Server zum Virtualisieren",
+    "sanitized": "Ein guter Server zum Virtualisieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1539",
+    "raw": "“System Center Operations Manager 2007 Training” – Ein Überblick",
+    "sanitized": "“System Center Operations Manager 2007 Training” – Ein Überblick"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1499",
+    "raw": "Microsoft Virtualisierungs Podcast Folge 2: Die perfekte Hyper-V Installation",
+    "sanitized": "Microsoft Virtualisierungs Podcast Folge 2: Die perfekte Hyper-V Installation"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/hotfixes-fr-virtual-machine-manager-2008-r2/",
+    "raw": "Hotfixes für Virtual Machine Manager 2008 R2",
+    "sanitized": "Hotfixes für Virtual Machine Manager 2008 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1481",
+    "raw": "Live-Migration mit Hyper-V Server Teil.6",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil.6"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1461",
+    "raw": "P2V-Migration eines Windows Server 2003 mit Acronis Server inkl. Universal Restore",
+    "sanitized": "P2V-Migration eines Windows Server 2003 mit Acronis Server inkl. Universal Restore"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1395",
+    "raw": "Hyper-V Update für Windows Server 2008 R2",
+    "sanitized": "Hyper-V Update für Windows Server 2008 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/das-hyper-v-poster-einmal-in-98-x-60-cm-zu-verlosen/",
+    "raw": "Das Hyper-V Poster einmal in 98 x 60 cm zu verlosen",
+    "sanitized": "Das Hyper-V Poster einmal in 98 x 60 cm zu verlosen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1380",
+    "raw": "Live-Migration mit Hyper-V Server Teil.5",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil.5"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hyper-v-und-storage-einen-kontinuierliche-verbesserung/",
+    "raw": "Hyper-V und Storage eine kontinuierliche Verbesserung",
+    "sanitized": "Hyper-V und Storage eine kontinuierliche Verbesserung"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/podcast/podcast-folge-1-hyper-v-und-service-pack-1-beta/",
+    "raw": "Podcast Folge 1: Hyper-V und Service Pack 1 Beta",
+    "sanitized": "Podcast Folge 1: Hyper-V und Service Pack 1 Beta"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1280",
+    "raw": "Live-Migration mit Hyper-V Server Teil.4",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil.4"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/videos-zur-microsoft-virtualisierung-von-der-teched-2010/",
+    "raw": "Videos zur Microsoft Virtualisierung von der TechED 2010",
+    "sanitized": "Videos zur Microsoft Virtualisierung von der TechED 2010"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/tools/directaccess-und-hyper-v-manager/",
+    "raw": "DirectAccess und Hyper-V Manager",
+    "sanitized": "DirectAccess und Hyper-V Manager"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1248",
+    "raw": "Live-Migration mit Hyper-V Server Teil.3",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil.3"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/tools/boot-vhd-vergrssern/",
+    "raw": "Boot VHD erweitern / vergrößern",
+    "sanitized": "Boot VHD erweitern / vergrößern"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/debian-linux-kernel-mit-hyper-v-additions-compilieren/",
+    "raw": "Debian Linux Kernel mit Hyper-V Additions compilieren",
+    "sanitized": "Debian Linux Kernel mit Hyper-V Additions compilieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/live-migration-mit-hyper-v-server-teil-2/",
+    "raw": "Live-Migration mit Hyper-V Server Teil.2",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil.2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1197",
+    "raw": "Live-Migration mit Hyper-V Server Teil. 1",
+    "sanitized": "Live-Migration mit Hyper-V Server Teil. 1"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/tools/hyper-v-sicherung-mittels-powershell-script/",
+    "raw": "Hyper-V Sicherung mittels Powershell Script",
+    "sanitized": "Hyper-V Sicherung mittels Powershell Script"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/videos/video-dynamic-memory-in-hyper-v-von-der-teched-2010/",
+    "raw": "Video Dynamic Memory in Hyper-V von der TechED 2010",
+    "sanitized": "Video Dynamic Memory in Hyper-V von der TechED 2010"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/cooles-hyper-v-architektur-poster-vom-microsoft-dokumentationsteam/",
+    "raw": "Cooles Hyper-V Architektur Poster vom Microsoft Dokumentationsteam",
+    "sanitized": "Cooles Hyper-V Architektur Poster vom Microsoft Dokumentationsteam"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hyper-v-auf-apple-imac-und-macbook-pro-mit-core-i7/",
+    "raw": "Hyper-V auf Apple iMac und MacBook Pro mit Core i7",
+    "sanitized": "Hyper-V auf Apple iMac und MacBook Pro mit Core i7"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1158",
+    "raw": "Hyper-V Best Practice Analyzer",
+    "sanitized": "Hyper-V Best Practice Analyzer"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1110",
+    "raw": "Kleine Helfer, die keine Spuren hinterlassen",
+    "sanitized": "Kleine Helfer, die keine Spuren hinterlassen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1109",
+    "raw": "Fünf Microsoft zertifizierte Hyper-V Spezialisten",
+    "sanitized": "Fünf Microsoft zertifizierte Hyper-V Spezialisten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1063",
+    "raw": "Hyper-V Gadget für Windows Sidebar",
+    "sanitized": "Hyper-V Gadget für Windows Sidebar"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1067",
+    "raw": "No-Execute-Memory-Protection –> Bluescreen (STOP: 0x7E)",
+    "sanitized": "No-Execute-Memory-Protection –> Bluescreen (STOP: 0x7E)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/die-desktop-virtualization-hour/",
+    "raw": "Die “Desktop Virtualization Hour”",
+    "sanitized": "Die “Desktop Virtualization Hour”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1031",
+    "raw": "Einsatz des Core Configurator 2.0 Tools mit Hyper-V Server 2008 R2",
+    "sanitized": "Einsatz des Core Configurator 2.0 Tools mit Hyper-V Server 2008 R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/hyper-v-news-februar-2010/",
+    "raw": "Hyper-V News Februar 2010",
+    "sanitized": "Hyper-V News Februar 2010"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=1005",
+    "raw": "Whitepaper: Die perfekte Hyper-V Installation",
+    "sanitized": "Whitepaper: Die perfekte Hyper-V Installation"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/unser-hyper-v-forum-ist-online/",
+    "raw": "Unser Hyper-V Forum ist Online",
+    "sanitized": "Unser Hyper-V Forum ist Online"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hyper-v-r2-und-cpu-core-parking/",
+    "raw": "Hyper-V R2 und CPU Core Parking",
+    "sanitized": "Hyper-V R2 und CPU Core Parking"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/news/hyper-v-news-fr-januar-2010/",
+    "raw": "Hyper-V News für Januar 2010",
+    "sanitized": "Hyper-V News für Januar 2010"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hyper-v-server-r2-als-basis-um-windows7-aus-vhd-booten/",
+    "raw": "Hyper-V Server 2008 R2 als Basis um Windows7 aus VHD zu booten",
+    "sanitized": "Hyper-V Server 2008 R2 als Basis um Windows7 aus VHD zu booten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/hilfreiche-tools-fr-hyper-v-und-den-system-center-virtual-machine-manager/",
+    "raw": "Hilfreiche Tools für Hyper-V und den System Center Virtual Machine Manager",
+    "sanitized": "Hilfreiche Tools für Hyper-V und den System Center Virtual Machine Manager"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=967",
+    "raw": "Hyper-V News von KW45 bis KW52",
+    "sanitized": "Hyper-V News von KW45 bis KW52"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/iscsi-initiator-auf-dem-hyper-v-server-r2/",
+    "raw": "iSCSI-Initiator auf dem Hyper-V Server R2",
+    "sanitized": "iSCSI-Initiator auf dem Hyper-V Server R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=938",
+    "raw": "Review Hyper-V Videokurs “Hyper-V Training von Trainsignal”",
+    "sanitized": "Review Hyper-V Videokurs “Hyper-V Training von Trainsignal”"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/hypervisior/grafische-datentrgerverwaltung-eines-hyper-v-server-r2/",
+    "raw": "Grafische Datenträgerverwaltung eines Hyper-V Server R2",
+    "sanitized": "Grafische Datenträgerverwaltung eines Hyper-V Server R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=935",
+    "raw": "Hyper-V News aus der KW42",
+    "sanitized": "Hyper-V News aus der KW42"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=923",
+    "raw": "Hyper-V News aus der KW39-KW41",
+    "sanitized": "Hyper-V News aus der KW39-KW41"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=905",
+    "raw": "Hyper-V Fehlermeldung „Fehler bei Hinzufügen des Geräts Microsoft Synthetic Ethernet Port“",
+    "sanitized": "Hyper-V Fehlermeldung „Fehler bei Hinzufügen des Geräts Microsoft Synthetic Ethernet Port“"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=895",
+    "raw": "Hyper-V News aus der KW35 bis KW38",
+    "sanitized": "Hyper-V News aus der KW35 bis KW38"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=891",
+    "raw": "System Center Virtual Machine Manager 2008 R2 ist RTM",
+    "sanitized": "System Center Virtual Machine Manager 2008 R2 ist RTM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=872",
+    "raw": "Hyper-V News aus der KW34",
+    "sanitized": "Hyper-V News aus der KW34"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=832",
+    "raw": "Video über die Einrichtung eines Hyper-V Server 2008 R2 Clusters",
+    "sanitized": "Video über die Einrichtung eines Hyper-V Server 2008 R2 Clusters"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=836",
+    "raw": "Remoteserver-Verwaltungstools für Windows 7",
+    "sanitized": "Remoteserver-Verwaltungstools für Windows 7"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=798",
+    "raw": "Hyper-V News aus der KW32 und KW33",
+    "sanitized": "Hyper-V News aus der KW32 und KW33"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=809",
+    "raw": "Dynamisch erweiterbare Festplatten unter Hyper-V komprimieren, konvertieren oder erweitern",
+    "sanitized": "Dynamisch erweiterbare Festplatten unter Hyper-V komprimieren, konvertieren oder erweitern"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=759",
+    "raw": "Windows Server 2008 R2 und Hyper-V R2 RTM",
+    "sanitized": "Windows Server 2008 R2 und Hyper-V R2 RTM"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=738",
+    "raw": "Alte Virtual Server-Netzwerkkarte nach Migration entfernen",
+    "sanitized": "Alte Virtual Server-Netzwerkkarte nach Migration entfernen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=742",
+    "raw": "Hyper-V Linux Geräte Treiber der Linux Kernel Community bereitgestellt",
+    "sanitized": "Hyper-V Linux Geräte Treiber der Linux Kernel Community bereitgestellt"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=711",
+    "raw": "Hyper-V, ADS-Controller und angewendete Snapshots [Update]",
+    "sanitized": "Hyper-V, ADS-Controller und angewendete Snapshots [Update]"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=725",
+    "raw": "HP Server und Windows 2008 R2 RC",
+    "sanitized": "HP Server und Windows 2008 R2 RC"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=484",
+    "raw": "Videoreihe zu den Neuerungen in Hyper-V R2",
+    "sanitized": "Videoreihe zu den Neuerungen in Hyper-V R2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=480",
+    "raw": "Hyper-V: Integrationsdienste und Vista SP2",
+    "sanitized": "Hyper-V: Integrationsdienste und Vista SP2"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=310",
+    "raw": "Video über die Neuerungen in Hyper-V im W2K8 R2 Server",
+    "sanitized": "Video über die Neuerungen in Hyper-V im W2K8 R2 Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=230",
+    "raw": "Hyper-V findet virtuelle Maschinen Konfiguration nicht",
+    "sanitized": "Hyper-V findet virtuelle Maschinen Konfiguration nicht"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=203",
+    "raw": "Hyper-V: Von der Server-Installation bis zum ersten Gast",
+    "sanitized": "Hyper-V: Von der Server-Installation bis zum ersten Gast"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=176",
+    "raw": "Hyper-V: Löschen von virtuellen Maschinen dauert lange",
+    "sanitized": "Hyper-V: Löschen von virtuellen Maschinen dauert lange"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=188",
+    "raw": "Hyper-V: Administration mit einem Windows 7 RC",
+    "sanitized": "Hyper-V: Administration mit einem Windows 7 RC"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=177",
+    "raw": "Hyper-V: Was sind Snapshots?",
+    "sanitized": "Hyper-V: Was sind Snapshots?"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=168",
+    "raw": "Liste aller verfügbaren Hyper-V Updates",
+    "sanitized": "Liste aller verfügbaren Hyper-V Updates"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=162",
+    "raw": "Hyper-V: Virtuelle Server starten nicht (mit Netzwerk) (Update)",
+    "sanitized": "Hyper-V: Virtuelle Server starten nicht (mit Netzwerk) (Update)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=148",
+    "raw": "Windows Vista zur Hyper-V-Administration",
+    "sanitized": "Windows Vista zur Hyper-V-Administration"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=145",
+    "raw": "Citrix XenServer kostenlos",
+    "sanitized": "Citrix XenServer kostenlos"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=143",
+    "raw": "Manuelle Installation eines Data Protection 2007 Agenten",
+    "sanitized": "Manuelle Installation eines Data Protection 2007 Agenten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=137",
+    "raw": "Import von exportierten virtuellen Computern schlägt fehl (0x80070057)",
+    "sanitized": "Import von exportierten virtuellen Computern schlägt fehl (0x80070057)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=131",
+    "raw": "Virtuelles Windows 2K mehrkernfähig machen",
+    "sanitized": "Virtuelles Windows 2K mehrkernfähig machen"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=122",
+    "raw": "System Center Virtual Machine Manager – Unknown error (0x80041001)",
+    "sanitized": "System Center Virtual Machine Manager – Unknown error (0x80041001)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=108",
+    "raw": "Virenschutz für Hyperv-Server (Trend Micro Client Server Security)",
+    "sanitized": "Virenschutz für Hyperv-Server (Trend Micro Client Server Security)"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=98",
+    "raw": "Hyper-V Server: Festplatte partitionieren",
+    "sanitized": "Hyper-V Server: Festplatte partitionieren"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=73",
+    "raw": "SCVMM zeigt alle Hosts mit „Eingreifen erforderlich“ an",
+    "sanitized": "SCVMM zeigt alle Hosts mit „Eingreifen erforderlich“ an"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=68",
+    "raw": "Virtuelle Maschine per Script herunterfahren und starten",
+    "sanitized": "Virtuelle Maschine per Script herunterfahren und starten"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=47",
+    "raw": "Hinzufügen von Hosts im SCVMM 2008",
+    "sanitized": "Hinzufügen von Hosts im SCVMM 2008"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=42",
+    "raw": "Walkthrough – Installation des System Center Virtual Machine Manager 2008",
+    "sanitized": "Walkthrough – Installation des System Center Virtual Machine Manager 2008"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/featured/debian-system-von-virtual-server-2005-r2-nach-hyper-v-konvertieren/",
+    "raw": "Debian-System von Virtual Server 2005 R2 nach Hyper-V konvertieren",
+    "sanitized": "Debian-System von Virtual Server 2005 R2 nach Hyper-V konvertieren"
+  },
+  {
+    "itemId": "http://192.168.211.95/hyper-v-server/?p=12",
+    "raw": "Walkthrough – Installation eines Hyper-V-Server",
+    "sanitized": "Walkthrough – Installation eines Hyper-V-Server"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=31",
+    "raw": "Office2007-Videocast.de",
+    "sanitized": "Office2007-Videocast.de"
+  },
+  {
+    "itemId": "http://www.hyper-v-server.de/?p=29",
+    "raw": "Technikblog.rachfahl.de",
+    "sanitized": "Technikblog.rachfahl.de"
+  }
+]

@@ -1,0 +1,252 @@
+trigger:
+  branches:
+    include:
+      - main
+
+parameters:
+  - name: ForcePushDockerImage
+    displayName: Force build and push docker image
+    type: boolean
+    values:
+      - true
+      - false
+    default: false
+
+variables:
+  - name: BuildContainerImage
+    value: davidullrich/azurepipelineagent:node-22
+  - name: Projects
+    value: "src/*/*.csproj"
+  - name: TestProjects
+    value: "src/*/*.Tests.csproj"
+  - name: AppProject
+    value: "src/FTM.App/FTM.App.csproj"
+  - name: IsMainBranch
+    value: ${{ eq(variables['Build.SourceBranch'], 'refs/heads/main') }}
+  - name: DockerRepository
+    value: davidullrich/feed-to-mastodon
+  - name: PushDockerImage
+    value: ${{ 
+        or( 
+          eq(variables.IsMainBranch, 'true'),
+          parameters.ForcePushDockerImage
+        )
+      }}
+
+# https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted
+pool:
+  name: Self-hosted
+
+container:
+  image: $(BuildContainerImage)
+
+steps:
+  # Checkout repository
+  # https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/steps-checkout
+  - checkout: self
+    displayName: Checkout repository
+    clean: "true"
+
+  # Install Docker CLI
+  - task: DockerInstaller@0
+    displayName: Install Docker CLI
+    inputs:
+      dockerVersion: "27.2.0"
+
+  # Install buildx
+  - task: CmdLine@2
+    displayName: Install buildx
+    inputs:
+      script: |
+        mkdir -p $HOME/.docker/cli-plugins
+        cd $HOME/.docker/cli-plugins
+        wget -q https://github.com/docker/buildx/releases/download/v0.16.2/buildx-v0.16.2.linux-$(dpkg --print-architecture) -O docker-buildx
+        chmod +x ~/.docker/cli-plugins/docker-buildx
+
+  # Print environment variables
+  - task: CmdLine@2
+    displayName: Print environment variables
+    inputs:
+      script: |
+        echo "Agent.JobName                         $(Agent.JobName)"
+        echo "Agent.OS                              $(Agent.OS)"
+        echo "Pipeline.Workspace                    $(Pipeline.Workspace)"
+        echo "-----------------------------------------------------------------------------"
+        echo "Build.ArtifactStagingDirectory        $(Build.ArtifactStagingDirectory)"
+        echo "Build.BinariesDirectory               $(Build.BinariesDirectory)"
+        echo "Build.SourcesDirectory                $(Build.SourcesDirectory)"
+        echo "Build.BuildId                         $(Build.BuildId)"
+        echo "Build.BuildNumber                     $(Build.BuildNumber)"
+        echo "Build.Reason                          $(Build.Reason)"
+        echo "Build.SourceBranch                    $(Build.SourceBranch)"
+        echo "Build.SourceBranchName                $(Build.SourceBranchName)"
+        echo "Build.Repository.ID                   $(Build.Repository.ID)"
+        echo "Build.Repository.Name                 $(Build.Repository.Name)"
+        echo "Build.Repository.LocalPath            $(Build.Repository.LocalPath)"
+        echo "Build.Repository.Uri                  $(Build.Repository.Uri)"
+        echo "-----------------------------------------------------------------------------"
+        echo "System.JobName                        $(System.JobName)"
+        echo "System.DefaultWorkingDirectory        $(System.DefaultWorkingDirectory)"
+        echo "System.CollectionId                   $(System.CollectionId)"
+        echo "System.CollectionUri                  $(System.CollectionUri)"
+        echo "System.TeamProject                    $(System.TeamProject)"
+        echo "System.TeamProjectId                  $(System.TeamProjectId)"
+        echo "System.PullRequest.IsFork             $(System.PullRequest.IsFork)"
+        echo "-----------------------------------------------------------------------------"
+        echo "parameters.ForcePushDockerImage       ${{ parameters.ForcePushDockerImage }}"
+        echo "variables.DockerRepository            $(DockerRepository)"
+        echo "variables.IsMainBranch                $(IsMainBranch)"
+        echo "variables.PushDockerImage             $(PushDockerImage)"
+        echo "-----------------------------------------------------------------------------"
+        echo "docker -v                             $(docker -v)"
+        echo "docker buildx version                 $(docker buildx version)"
+        echo "git -v                                $(git -v)"
+        echo "node -v                               $(node -v)"
+        echo "npm -v                                $(npm -v)"
+
+  # Use dotnet
+  - task: UseDotNet@2
+    displayName: Use dotnet 9.x
+    inputs:
+      version: 9.x
+
+  # Restore dotnet tools
+  - task: DotNetCoreCLI@2
+    displayName: Restore dotnet tools
+    inputs:
+      command: custom
+      custom: tool
+      arguments: restore
+
+  # Restore dependencies
+  - task: DotNetCoreCLI@2
+    displayName: Restore dependencies
+    inputs:
+      command: restore
+      projects: $(Projects)
+      arguments: "--locked-mode"
+
+  # Build
+  - task: DotNetCoreCLI@2
+    displayName: Build
+    inputs:
+      command: build
+      projects: $(Projects)
+      arguments: "--no-restore"
+
+  # Test
+  - task: DotNetCoreCLI@2
+    displayName: Test
+    inputs:
+      command: test
+      projects: $(TestProjects)
+      arguments: --no-restore --no-build --collect "Code Coverage" --settings "src/coverage.runsettings"
+    env:
+      TZ: Europe/Berlin
+
+  # Publish
+  - task: DotNetCoreCLI@2
+    displayName: Publish
+    inputs:
+      command: publish
+      projects: $(AppProject)
+      publishWebProjects: false
+      arguments: "--no-restore -o $(Build.ArtifactStagingDirectory)/out/app"
+      configuration: Release
+      zipAfterPublish: false
+      modifyOutputPath: false
+
+  # Create sbom
+  - task: CmdLine@2
+    displayName: Create sbom
+    inputs:
+      script: |
+        mkdir $(Build.ArtifactStagingDirectory)/.sbom
+        
+        dotnet tool run sbom-tool generate \
+          -b $(Build.ArtifactStagingDirectory)/out/app \
+          -bc $(Build.SourcesDirectory)/src \
+          -m $(Build.ArtifactStagingDirectory)/.sbom \
+          -pn $(Build.Repository.Name) \
+          -pv $(Build.BuildNumber) \
+          -ps "David Ullrich" \
+          -nsb "https://ullrich-software.de/Development" \
+          -li
+
+  # Publish app artifacts
+  - task: PublishBuildArtifacts@1
+    displayName: Publish app artifacts
+    inputs:
+      PathtoPublish: $(Build.ArtifactStagingDirectory)/out/app
+      ArtifactName: FTM.App
+      publishLocation: Container
+
+  # Publish sbom
+  - task: PublishBuildArtifacts@1
+    displayName: Publish sbom
+    inputs:
+      PathtoPublish: $(Build.ArtifactStagingDirectory)/.sbom/_manifest/spdx_2.2
+      ArtifactName: sbom
+      publishLocation: Container
+
+  # Create buildx environment
+  - task: CmdLine@2
+    displayName: Create buildx environment
+    inputs:
+      script: |
+        docker buildx create --use --driver-opt network=host
+        docker buildx inspect --bootstrap
+
+  - ${{ if eq(variables.PushDockerImage, 'false') }}:
+    # Build Docker Image
+    - task: CmdLine@2
+      displayName: Build Docker Image
+      inputs:
+        script: |
+          docker buildx build \
+              -f dockerfile \
+              --platform linux/amd64,linux/arm64 \
+              --no-cache \
+              -t $(DockerRepository):$(Build.BuildNumber) \
+              -t $(DockerRepository):latest .
+        workingDirectory: $(Build.SourcesDirectory)
+
+  - ${{ if eq(variables.PushDockerImage, 'true') }}:
+    # Login to Docker Hub
+    - task: CmdLine@2
+      displayName: Login to Docker Hub
+      inputs:
+        script: echo $(DOCKER_PASSWORD) | docker login --username $(DOCKER_USERNAME) --password-stdin
+      env:
+        DOCKER_USERNAME: $(DOCKER_USERNAME)
+        DOCKER_PASSWORD: $(DOCKER_PASSWORD)
+
+    # Build and Push Docker Image
+    - task: CmdLine@2
+      displayName: Build and Push Docker Image
+      inputs:
+        script: |
+          docker buildx build \
+              -f dockerfile \
+              --platform linux/amd64,linux/arm64 \
+              --no-cache \
+              -t $(DockerRepository):$(Build.BuildNumber) \
+              -t $(DockerRepository):latest \
+              --output=type=registry .
+        workingDirectory: $(Build.SourcesDirectory)
+
+    # Logout from Docker Hub
+    - task: CmdLine@2
+      condition: always()
+      displayName: Logout from Docker Hub
+      inputs:
+        script: docker logout
+
+  # Cleanup docker environment
+  - task: CmdLine@2
+    condition: always()
+    displayName: Cleanup docker environment
+    inputs:
+      script: |
+        docker buildx stop
+        docker buildx rm --all-inactive --force

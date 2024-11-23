@@ -1,0 +1,84 @@
+schedules:
+  - cron: "0 3 * * SAT"
+    displayName: "Every Saturday at 3am"
+    branches:
+      include:
+        - main
+    always: true
+
+trigger: none
+
+parameters:
+  - name: RenovateLogLevel
+    displayName: "Renovate log level"
+    type: string
+    default: "info"
+    values:
+      - "trace"
+      - "debug"
+      - "info"
+      - "warn"
+      - "error"
+      - "fatal"
+
+variables:
+  - name: BuildContainerImage
+    value: davidullrich/azurepipelineagent:node-22
+
+pool:
+  name: Self-hosted
+
+container:
+  image: $(BuildContainerImage)
+
+steps:
+  - checkout: self
+    displayName: Checkout repository
+    clean: "true"
+
+  - task: CmdLine@2
+    displayName: Print environment variables
+    inputs:
+      script: |
+        echo "Agent.JobName                         $(Agent.JobName)"
+        echo "Agent.OS                              $(Agent.OS)"
+        echo "Pipeline.Workspace                    $(Pipeline.Workspace)"
+        echo "-----------------------------------------------------------------------------"
+        echo "Build.ArtifactStagingDirectory        $(Build.ArtifactStagingDirectory)"
+        echo "Build.BinariesDirectory               $(Build.BinariesDirectory)"
+        echo "Build.SourcesDirectory                $(Build.SourcesDirectory)"
+        echo "Build.BuildId                         $(Build.BuildId)"
+        echo "Build.BuildNumber                     $(Build.BuildNumber)"
+        echo "Build.Reason                          $(Build.Reason)"
+        echo "Build.SourceBranch                    $(Build.SourceBranch)"
+        echo "Build.SourceBranchName                $(Build.SourceBranchName)"
+        echo "Build.Repository.ID                   $(Build.Repository.ID)"
+        echo "Build.Repository.Name                 $(Build.Repository.Name)"
+        echo "Build.Repository.LocalPath            $(Build.Repository.LocalPath)"
+        echo "Build.Repository.Uri                  $(Build.Repository.Uri)"
+        echo "-----------------------------------------------------------------------------"
+        echo "System.JobName                        $(System.JobName)"
+        echo "System.DefaultWorkingDirectory        $(System.DefaultWorkingDirectory)"
+        echo "System.CollectionId                   $(System.CollectionId)"
+        echo "System.CollectionUri                  $(System.CollectionUri)"
+        echo "System.TeamProject                    $(System.TeamProject)"
+        echo "System.TeamProjectId                  $(System.TeamProjectId)"
+        echo "System.PullRequest.IsFork             $(System.PullRequest.IsFork)"
+
+  - task: UseDotNet@2
+    displayName: Use dotnet 9.x
+    inputs:
+      version: 9.x
+
+  - task: CmdLine@2
+    displayName: "Run Renovate"
+    inputs:
+      script: |
+        git config --global user.email 'bot@renovateapp.com'
+        git config --global user.name 'Renovate Bot'
+        npx renovate
+    env:
+      RENOVATE_CONFIG_FILE: renovate-config.js
+      RENOVATE_TOKEN: $(System.AccessToken)
+      GITHUB_COM_TOKEN: $(githubtoken)
+      LOG_LEVEL: ${{ parameters.RenovateLogLevel }}

@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Title": "feed1",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparator": "",
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890"
+  },
+  {
+    "Title": "feed2",
+    "FeedUri": "http://example.com/feed2?format=rss#tag=test",
+    "SummarySeparator": "[...]",
+    "MastodonServer": "https://test.social",
+    "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz"
+  },
+  {
+    "Title": "feed3",
+    "FeedUri": "http://example.com/feed3",
+    "SummarySeparator": "\nZum Beitrag",
+    "MastodonServer": "https://test.social",
+    "MastodonAccessToken": "12345"
+  }
+]

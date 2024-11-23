@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2938",
+    "raw": "I’m writing this article because I have an illness called dementia, which over time degrades a &#8230; <a href=\"https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">How to update a NuGet library once the author isn’t available</span></a>",
+    "sanitized": "I’m writing this article because I have an illness called dementia, which over time degrades a … Continue reading How to update a NuGet library once the author isn’t available"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2917",
+    "raw": "This article focuses on the sharding approach of building a .NET multi-tenant application using the AuthPermissions.AspNetCore &#8230; <a href=\"https://www.thereformedprogrammer.net/the-long-journey-to-a-better-sharding-multi-tenant-application/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">The (long) journey to a better sharding multi-tenant application</span></a>",
+    "sanitized": "This article focuses on the sharding approach of building a .NET multi-tenant application using the AuthPermissions.AspNetCore … Continue reading The (long) journey to a better sharding multi-tenant application"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2891",
+    "raw": "The AuthPermissions.AspNetCore library, referred to as AuthP library, provides enhanced Roles authentication and multi-tenant services to &#8230; <a href=\"https://www.thereformedprogrammer.net/using-custom-databases-with-the-authp-library-part1-normal-apps/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">Using custom databases with the AuthP library – Part1: normal apps</span></a>",
+    "sanitized": "The AuthPermissions.AspNetCore library, referred to as AuthP library, provides enhanced Roles authentication and multi-tenant services to … Continue reading Using custom databases with the AuthP library – Part1: normal apps"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2878",
+    "raw": "This article is about a pattern / library that allows you to create methods that can &#8230; <a href=\"https://www.thereformedprogrammer.net/a-pattern-library-for-methods-that-return-a-status-including-localization/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">A pattern / library for methods that return a status, including localization</span></a>",
+    "sanitized": "This article is about a pattern / library that allows you to create methods that can … Continue reading A pattern / library for methods that return a status, including localization"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2857",
+    "raw": "The last article covered why I added extra features to the .NET support of multiple languages &#8230; <a href=\"https://www.thereformedprogrammer.net/applying-an-improved-multiple-languages-library-to-net-applications/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">Applying an improved multiple languages library to .NET applications</span></a>",
+    "sanitized": "The last article covered why I added extra features to the .NET support of multiple languages … Continue reading Applying an improved multiple languages library to .NET applications"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2835",
+    "raw": "One of users of my AuthPermissions.AspNetCore library (shortened to AuthP in this article) asked for support &#8230; <a href=\"https://www.thereformedprogrammer.net/improving-the-support-of-multiple-languages-in-net-applications/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">Improving the support of multiple languages in .NET applications</span></a>",
+    "sanitized": "One of users of my AuthPermissions.AspNetCore library (shortened to AuthP in this article) asked for support … Continue reading Improving the support of multiple languages in .NET applications"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2794",
+    "raw": "An ASP.NET Core application uses claims to hold the logged-in user’s authentication and authorization data. These &#8230; <a href=\"https://www.thereformedprogrammer.net/asp-net-core-three-ways-to-refresh-the-claims-of-a-logged-in-user/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">ASP.NET Core: Three(+1) ways to refresh the claims of a logged-in user</span></a>",
+    "sanitized": "An ASP.NET Core application uses claims to hold the logged-in user’s authentication and authorization data. These … Continue reading ASP.NET Core: Three(+1) ways to refresh the claims of a logged-in user"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2769",
+    "raw": "If you have an e-commerce or business web app used by lots of users, then you &#8230; <a href=\"https://www.thereformedprogrammer.net/how-to-take-an-asp-net-core-web-site-down-for-maintenance/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">How to take an ASP.NET Core web site “Down for maintenance”</span></a>",
+    "sanitized": "If you have an e-commerce or business web app used by lots of users, then you … Continue reading How to take an ASP.NET Core web site “Down for maintenance”"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2752",
+    "raw": "This article describes a way to create a database using ASP.NET Core appsettings.json configuration feature. The &#8230; <a href=\"https://www.thereformedprogrammer.net/how-to-turn-an-asp-net-core-appsettings-json-file-into-a-fast-read-database/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">How to turn an ASP.NET Core appsettings.json file into a fast-read database</span></a>",
+    "sanitized": "This article describes a way to create a database using ASP.NET Core appsettings.json configuration feature. The … Continue reading How to turn an ASP.NET Core appsettings.json file into a fast-read database"
+  },
+  {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2735",
+    "raw": "This article described a .NET distributed cache library called Net.DistributedFileStoreCache (referred to as FileStore cache in &#8230; <a href=\"https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">A .NET distributed cache with a ~25 nanosecond read time!</span></a>",
+    "sanitized": "This article described a .NET distributed cache library called Net.DistributedFileStoreCache (referred to as FileStore cache in … Continue reading A .NET distributed cache with a ~25 nanosecond read time!"
+  }
+]

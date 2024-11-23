@@ -1,0 +1,77 @@
+﻿[
+  {
+    "itemId": "http://heise.de/-10019714",
+    "raw": "In eigener Sache: Wir denken die Apps unserer Magazin-Marken neu",
+    "sanitized": "In eigener Sache: Wir denken die Apps unserer Magazin-Marken neu"
+  },
+  {
+    "itemId": "http://heise.de/-9975854",
+    "raw": "CSS is awesome: 30 Jahre schönes Web",
+    "sanitized": "CSS is awesome: 30 Jahre schönes Web"
+  },
+  {
+    "itemId": "http://heise.de/-9677415",
+    "raw": "Wie eine Zeile CSS den Cumulative Layout Shift bei 3700 URLs verbessert",
+    "sanitized": "Wie eine Zeile CSS den Cumulative Layout Shift bei 3700 URLs verbessert"
+  },
+  {
+    "itemId": "http://heise.de/-9337038",
+    "raw": "Mastodon: Wie Heise einen föderierten Social-Media-Dienst integriert",
+    "sanitized": "Mastodon: Wie Heise einen föderierten Social-Media-Dienst integriert"
+  },
+  {
+    "itemId": "http://heise.de/-7476614",
+    "raw": "ChatGPT und Copilot: AI-Code-Assistenten in der Webentwicklung",
+    "sanitized": "ChatGPT und Copilot: AI-Code-Assistenten in der Webentwicklung"
+  },
+  {
+    "itemId": "http://heise.de/-7142196",
+    "raw": "Variable Fonts und wie man sie (nicht) einsetzen sollte",
+    "sanitized": "Variable Fonts und wie man sie (nicht) einsetzen sollte"
+  },
+  {
+    "itemId": "http://heise.de/-6544800",
+    "raw": "Eine neue Architektur für heise online: Janus – Teil 2",
+    "sanitized": "Eine neue Architektur für heise online: Janus – Teil 2"
+  },
+  {
+    "itemId": "http://heise.de/-6442004",
+    "raw": "Eine neue Architektur für heise online: Janus – Teil 1",
+    "sanitized": "Eine neue Architektur für heise online: Janus – Teil 1"
+  },
+  {
+    "itemId": "http://heise.de/-6134113",
+    "raw": "Performance: Largest Contentful Paint für Web Vitals optimieren",
+    "sanitized": "Performance: Largest Contentful Paint für Web Vitals optimieren"
+  },
+  {
+    "itemId": "http://heise.de/-5070139",
+    "raw": "Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung",
+    "sanitized": "Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung"
+  },
+  {
+    "itemId": "http://heise.de/-4973753",
+    "raw": "heise online: Die Technik hinter den Kulissen",
+    "sanitized": "heise online: Die Technik hinter den Kulissen"
+  },
+  {
+    "itemId": "http://heise.de/-4871860",
+    "raw": "Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren",
+    "sanitized": "Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren"
+  },
+  {
+    "itemId": "http://heise.de/-4719737",
+    "raw": "Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert",
+    "sanitized": "Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert"
+  },
+  {
+    "itemId": "http://heise.de/-4676787",
+    "raw": "akwa – unser hausinternes Frontend-Framework",
+    "sanitized": "akwa – unser hausinternes Frontend-Framework"
+  },
+  {
+    "itemId": "http://heise.de/-4614509",
+    "raw": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3",
+    "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3"
+  }
+]

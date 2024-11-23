@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/",
+    "raw": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine.",
+    "sanitized": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/",
+    "raw": "Mattermost is an open-source alternative to Slack and Microsoft Teams. It allows you to self-host online chat with multiple features such as file sharing, search, automation, and multiple third-party integrations. In this tutorial, you'll learn how to install Mattermost on Ubuntu 24.04 server.",
+    "sanitized": "Mattermost is an open-source alternative to Slack and Microsoft Teams. It allows you to self-host online chat with multiple features such as file sharing, search, automation, and multiple third-party integrations. In this tutorial, you'll learn how to install Mattermost on Ubuntu 24.04 server."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-graylog-on-ubuntu-24-04/",
+    "raw": "Graylog is a free and open-source log-management platform for capturing, storing, and enabling real-time analysis of your data and logs. It's written in Java and built on top of other open-source software like MongoDB and Elasticsearch.",
+    "sanitized": "Graylog is a free and open-source log-management platform for capturing, storing, and enabling real-time analysis of your data and logs. It's written in Java and built on top of other open-source software like MongoDB and Elasticsearch."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-zabbix-on-ubuntu-24-04/",
+    "raw": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+    "sanitized": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/",
+    "raw": "Vuls is an agentless, free, and open-source vulnerability scanner for Linux and FreeBSD. In this guide, you'll learn how to install Vuls Vulnerability Scanner on the Debian 12 server. You'll install Vuls, set up CVE databases, and then scan the local system and remote machine Vuls.",
+    "sanitized": "Vuls is an agentless, free, and open-source vulnerability scanner for Linux and FreeBSD. In this guide, you'll learn how to install Vuls Vulnerability Scanner on the Debian 12 server. You'll install Vuls, set up CVE databases, and then scan the local system and remote machine Vuls."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/",
+    "raw": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron.",
+    "sanitized": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/",
+    "raw": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana.",
+    "sanitized": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
+    "raw": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.",
+    "sanitized": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/",
+    "raw": "In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans.",
+    "sanitized": "In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/",
+    "raw": "Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile.",
+    "sanitized": "Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile."
+  }
+]

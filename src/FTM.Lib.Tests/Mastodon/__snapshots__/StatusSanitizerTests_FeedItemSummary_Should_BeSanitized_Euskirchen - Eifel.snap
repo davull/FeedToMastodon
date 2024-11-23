@@ -1,0 +1,592 @@
+﻿[
+  {
+    "itemId": "https://www.ksta.de/898339",
+    "raw": "Im Kreis Euskirchen und der Eifel gibt es viele Angebote für Tannenbäume, ob bei Weihnachtsmarktaktionen oder am klassischen Verkaufsstand.",
+    "sanitized": "Im Kreis Euskirchen und der Eifel gibt es viele Angebote für Tannenbäume, ob bei Weihnachtsmarktaktionen oder am klassischen Verkaufsstand."
+  },
+  {
+    "itemId": "https://www.ksta.de/904388",
+    "raw": "Der TV Palmersheim zieht erwartungsgemäß ins Viertelfinale des Kreispokals ein. Der VfB Schleiden hofft für Sonntag auf eine Überraschung.",
+    "sanitized": "Der TV Palmersheim zieht erwartungsgemäß ins Viertelfinale des Kreispokals ein. Der VfB Schleiden hofft für Sonntag auf eine Überraschung."
+  },
+  {
+    "itemId": "https://www.ksta.de/904367",
+    "raw": "Der SV Nierfeld muss sich auch in diesem Jahr mit dem Abstiegskampf der Bezirksliga befassen. Doch zuerst steht der Kreispokal an.",
+    "sanitized": "Der SV Nierfeld muss sich auch in diesem Jahr mit dem Abstiegskampf der Bezirksliga befassen. Doch zuerst steht der Kreispokal an."
+  },
+  {
+    "itemId": "https://www.ksta.de/904098",
+    "raw": "Der 250 Kilogramm schwere Sprengkörper aus dem Zweiten Weltkrieg, der nicht entschärft werden konnte, ist kontrolliert gesprengt worden.",
+    "sanitized": "Der 250 Kilogramm schwere Sprengkörper aus dem Zweiten Weltkrieg, der nicht entschärft werden konnte, ist kontrolliert gesprengt worden."
+  },
+  {
+    "itemId": "https://www.ksta.de/903509",
+    "raw": "Witzig kontern die Chefs der Schleidener Firma die Sorge, das Papier sei für eine rasche Wahl zu knapp. Doch es ist ihnen auch sehr ernst.",
+    "sanitized": "Witzig kontern die Chefs der Schleidener Firma die Sorge, das Papier sei für eine rasche Wahl zu knapp. Doch es ist ihnen auch sehr ernst."
+  },
+  {
+    "itemId": "https://www.ksta.de/903464",
+    "raw": "In der neuen Sonderausstellung „Visionen der Macht“ sind auf der Empore des Besucherzentrums von Vogelsang IP alte Fotos vom Bau der Anlage zu sehen.",
+    "sanitized": "In der neuen Sonderausstellung „Visionen der Macht“ sind auf der Empore des Besucherzentrums von Vogelsang IP alte Fotos vom Bau der Anlage zu sehen."
+  },
+  {
+    "itemId": "https://www.ksta.de/903337",
+    "raw": "Der Weihnachtsmarkt in Bad Münstereifel hat seine Türen geöffnet. Neben Musik und Handwerkskunst wird auch für den guten Zweck gesammelt.",
+    "sanitized": "Der Weihnachtsmarkt in Bad Münstereifel hat seine Türen geöffnet. Neben Musik und Handwerkskunst wird auch für den guten Zweck gesammelt."
+  },
+  {
+    "itemId": "https://www.ksta.de/903532",
+    "raw": "Die Bürgermeisterinnen und Bürgermeister im Kreis Euskirchen sind sauer und Landrat Markus Ramers zeigt Verständnis dafür.",
+    "sanitized": "Die Bürgermeisterinnen und Bürgermeister im Kreis Euskirchen sind sauer und Landrat Markus Ramers zeigt Verständnis dafür."
+  },
+  {
+    "itemId": "https://www.ksta.de/903317",
+    "raw": "In der Ideenfabrik in der Alten Tuchfabrik zwischen Euskirchen und Euenheim wird auf unterschiedliche Art an der Eifel 2030 gearbeitet.",
+    "sanitized": "In der Ideenfabrik in der Alten Tuchfabrik zwischen Euskirchen und Euenheim wird auf unterschiedliche Art an der Eifel 2030 gearbeitet."
+  },
+  {
+    "itemId": "https://www.ksta.de/903286",
+    "raw": "Bei Mechernich-Kommern ist ein Blindgänger aus dem Zweiten Weltkrieg entdeckt worden. Derzeit werden einige Optionen geprüft.",
+    "sanitized": "Bei Mechernich-Kommern ist ein Blindgänger aus dem Zweiten Weltkrieg entdeckt worden. Derzeit werden einige Optionen geprüft."
+  },
+  {
+    "itemId": "https://www.ksta.de/903309",
+    "raw": "Mit einem Jahr Verspätung feiert der Cäcilien-Kirchenchor sein stattliches Jubiläum. 1898 zuerst er als reiner Männerchor gegründet.",
+    "sanitized": "Mit einem Jahr Verspätung feiert der Cäcilien-Kirchenchor sein stattliches Jubiläum. 1898 zuerst er als reiner Männerchor gegründet."
+  },
+  {
+    "itemId": "https://www.ksta.de/903090",
+    "raw": "Auch drei Firmen aus dem Kreis Euskirchen wurden für die besondere Umsetzung der Digitalisierung in ihren Betrieben ausgezeichnet.",
+    "sanitized": "Auch drei Firmen aus dem Kreis Euskirchen wurden für die besondere Umsetzung der Digitalisierung in ihren Betrieben ausgezeichnet."
+  },
+  {
+    "itemId": "https://www.ksta.de/899295",
+    "raw": "Nordrhein-Westfalens Wintersportgebiete laden trotz kurzem Kältefenster zum Schlittenfahren und Winterwandern ein. Skifahren ist nur sehr begrenzt möglich.",
+    "sanitized": "Nordrhein-Westfalens Wintersportgebiete laden trotz kurzem Kältefenster zum Schlittenfahren und Winterwandern ein. Skifahren ist nur sehr begrenzt möglich."
+  },
+  {
+    "itemId": "https://www.ksta.de/902570",
+    "raw": "Die NLS-Saison 2024 ist vorbei. Erfolgreichster Fahrer aus dem Kreis Euskirchen war Tobias Müller. Zwei Brüder teilten sich ein Fahrzeug.",
+    "sanitized": "Die NLS-Saison 2024 ist vorbei. Erfolgreichster Fahrer aus dem Kreis Euskirchen war Tobias Müller. Zwei Brüder teilten sich ein Fahrzeug."
+  },
+  {
+    "itemId": "https://www.ksta.de/902562",
+    "raw": "Trotz positiver Bilanz gab es einige Schreckminuten im Bürgerhaus von Blankenheimersdorf. Der DRK-Vorsitzende wurde zeitweise ohnmächtig.",
+    "sanitized": "Trotz positiver Bilanz gab es einige Schreckminuten im Bürgerhaus von Blankenheimersdorf. Der DRK-Vorsitzende wurde zeitweise ohnmächtig."
+  },
+  {
+    "itemId": "https://www.ksta.de/902594",
+    "raw": "In der Landesliga gleicht Füssenich-Geich zweimal unmittelbar aus. Rettungswagen beim Spiel zwischen Wesseling und Kommern.",
+    "sanitized": "In der Landesliga gleicht Füssenich-Geich zweimal unmittelbar aus. Rettungswagen beim Spiel zwischen Wesseling und Kommern."
+  },
+  {
+    "itemId": "https://www.ksta.de/902580",
+    "raw": "1600 Euro sind in Nettersheim für das Projekt eines Inklusionswagens mit barrierefreier Toilette für Festumzüge zusammen gekommen.",
+    "sanitized": "1600 Euro sind in Nettersheim für das Projekt eines Inklusionswagens mit barrierefreier Toilette für Festumzüge zusammen gekommen."
+  },
+  {
+    "itemId": "https://www.ksta.de/902628",
+    "raw": "Die Pläne für 15 Windräder zwischen Hollerath und der Oleftalsperre nehmen Gestalt an. Die Gemeinde hadert mit geringen Einnahmen.",
+    "sanitized": "Die Pläne für 15 Windräder zwischen Hollerath und der Oleftalsperre nehmen Gestalt an. Die Gemeinde hadert mit geringen Einnahmen."
+  },
+  {
+    "itemId": "https://www.ksta.de/902632",
+    "raw": "Die Explosion der Kreisumlage sorgt für Wirbel in Rathäusern und unter den Parteien. Ex-Landratskandidat Johannes Winckler schaltet sich ein.",
+    "sanitized": "Die Explosion der Kreisumlage sorgt für Wirbel in Rathäusern und unter den Parteien. Ex-Landratskandidat Johannes Winckler schaltet sich ein."
+  },
+  {
+    "itemId": "https://www.ksta.de/902549",
+    "raw": "Für das bei der Flut zerstörte Archiv hat die Gemeinde Kall jetzt neue Räume bezogen. Die erste Palette mit wiederaufbereitetem Archivgut wird jetzt geliefert.",
+    "sanitized": "Für das bei der Flut zerstörte Archiv hat die Gemeinde Kall jetzt neue Räume bezogen. Die erste Palette mit wiederaufbereitetem Archivgut wird jetzt geliefert."
+  },
+  {
+    "itemId": "https://www.ksta.de/902548",
+    "raw": "Nach dem Ende der Niederlagenserie gelang es der B-Jugend der JSG Erft 01 nicht, eine Siegesserie zu starten. Zülpicher Mädchen verlieren.",
+    "sanitized": "Nach dem Ende der Niederlagenserie gelang es der B-Jugend der JSG Erft 01 nicht, eine Siegesserie zu starten. Zülpicher Mädchen verlieren."
+  },
+  {
+    "itemId": "https://www.ksta.de/901985",
+    "raw": "Dass er 2025 nicht mehr als Bürgermeister antritt, hat Dr. Hans-Peter Schick bereits angekündigt. Doch das muss kein vollständiger Rückzug sein.",
+    "sanitized": "Dass er 2025 nicht mehr als Bürgermeister antritt, hat Dr. Hans-Peter Schick bereits angekündigt. Doch das muss kein vollständiger Rückzug sein."
+  },
+  {
+    "itemId": "https://www.ksta.de/901573",
+    "raw": "Schülerinnen und Schüler aus Bad Münstereifel konnten bei einem Praxistag ins Handwerk der Metallbauer schnuppern.",
+    "sanitized": "Schülerinnen und Schüler aus Bad Münstereifel konnten bei einem Praxistag ins Handwerk der Metallbauer schnuppern."
+  },
+  {
+    "itemId": "https://www.ksta.de/901574",
+    "raw": "Im Stadtmuseum Euskirchen schilderten Karl-Heinz Decker, Hans Helmut Wiskirchen und Maria Wildenburg ihre Erinnerungen ans Kriegsende 1945.",
+    "sanitized": "Im Stadtmuseum Euskirchen schilderten Karl-Heinz Decker, Hans Helmut Wiskirchen und Maria Wildenburg ihre Erinnerungen ans Kriegsende 1945."
+  },
+  {
+    "itemId": "https://www.ksta.de/901855",
+    "raw": "Der Winter kommt mit schnellen Schritten. Erste Fotos und Videos zeigen dichten Schneefall im Rheinland.",
+    "sanitized": "Der Winter kommt mit schnellen Schritten. Erste Fotos und Videos zeigen dichten Schneefall im Rheinland."
+  },
+  {
+    "itemId": "https://www.ksta.de/901436",
+    "raw": "In Bad Münstereifel sollen zu den Freiflächen-Photovoltaik-Anlagen, die die Politik beschlossen hat, vorerst keine weiteren dazukommen.",
+    "sanitized": "In Bad Münstereifel sollen zu den Freiflächen-Photovoltaik-Anlagen, die die Politik beschlossen hat, vorerst keine weiteren dazukommen."
+  },
+  {
+    "itemId": "https://www.ksta.de/901566",
+    "raw": "Auf dem Birkenhof zwischen Kuchenheim und Euskirchen werden acht Förderschüler in naturnahem Umfeld unterrichtet. Stall wurde umgebaut.",
+    "sanitized": "Auf dem Birkenhof zwischen Kuchenheim und Euskirchen werden acht Förderschüler in naturnahem Umfeld unterrichtet. Stall wurde umgebaut."
+  },
+  {
+    "itemId": "https://www.ksta.de/901584",
+    "raw": "Der Kaller Bürgermeister Hermann-Josef Esser tritt bei der Wahl nicht mehr an. Wenn es nach dem CDU-Vorstand geht, soll Michael Kehren ihn beerben.",
+    "sanitized": "Der Kaller Bürgermeister Hermann-Josef Esser tritt bei der Wahl nicht mehr an. Wenn es nach dem CDU-Vorstand geht, soll Michael Kehren ihn beerben."
+  },
+  {
+    "itemId": "https://www.ksta.de/901418",
+    "raw": "Die Fachstelle ermutigt dazu, nicht wegzuschauen, sondern zu handeln, wenn jemand im Umfeld von häuslicher Gewalt betroffen ist.",
+    "sanitized": "Die Fachstelle ermutigt dazu, nicht wegzuschauen, sondern zu handeln, wenn jemand im Umfeld von häuslicher Gewalt betroffen ist."
+  },
+  {
+    "itemId": "https://www.ksta.de/900994",
+    "raw": "Das Euskirchener THW hat in Mechernich mit all seinen Einheiten den Ernstfall geprobt. Ein Mitarbeiter musste aus vier Metern Höhe gerettet werden.",
+    "sanitized": "Das Euskirchener THW hat in Mechernich mit all seinen Einheiten den Ernstfall geprobt. Ein Mitarbeiter musste aus vier Metern Höhe gerettet werden."
+  },
+  {
+    "itemId": "https://www.ksta.de/901560",
+    "raw": "SPD-Wahlkreiskandidatin Andrea Kanonenberg und Markus Ramers geben kein Bekenntnis zum Kanzler ab. CDU-Chef nennt seinen Lieblingsgegner.",
+    "sanitized": "SPD-Wahlkreiskandidatin Andrea Kanonenberg und Markus Ramers geben kein Bekenntnis zum Kanzler ab. CDU-Chef nennt seinen Lieblingsgegner."
+  },
+  {
+    "itemId": "https://www.ksta.de/900877",
+    "raw": "Prinzessin Petra (Weber), Bauer Ulrike (Schmitz) und Jungfrau Claudia (Lüth) wurden in der Vlattener Jugendhalle proklamiert.",
+    "sanitized": "Prinzessin Petra (Weber), Bauer Ulrike (Schmitz) und Jungfrau Claudia (Lüth) wurden in der Vlattener Jugendhalle proklamiert."
+  },
+  {
+    "itemId": "https://www.ksta.de/900971",
+    "raw": "Das Motto von Miriam Krüge lautet „aus Liebe zur Heimat und zum Verein“. An ihrer Seite ist Lina I. (Zilles) die neue Kinderprinzessin.",
+    "sanitized": "Das Motto von Miriam Krüge lautet „aus Liebe zur Heimat und zum Verein“. An ihrer Seite ist Lina I. (Zilles) die neue Kinderprinzessin."
+  },
+  {
+    "itemId": "https://www.ksta.de/901244",
+    "raw": "Die untersten beiden Kreisligen sind seit Sonntag in der Winterpause. Bis zum Rückrundenstart Mitte März finden noch Nachholspiele statt.",
+    "sanitized": "Die untersten beiden Kreisligen sind seit Sonntag in der Winterpause. Bis zum Rückrundenstart Mitte März finden noch Nachholspiele statt."
+  },
+  {
+    "itemId": "https://www.ksta.de/900868",
+    "raw": "Der Sötenicher Karnevalsverein bietet gleich vier weibliche Tollitäten auf. Proklamation erstmals in der Sistiger Bürgerhalle gefeiert.",
+    "sanitized": "Der Sötenicher Karnevalsverein bietet gleich vier weibliche Tollitäten auf. Proklamation erstmals in der Sistiger Bürgerhalle gefeiert."
+  },
+  {
+    "itemId": "https://www.ksta.de/900912",
+    "raw": "Im 125. Jahr ihres Bestehens hat die Vernicher Karnevalsgesellschaft nach längerer Zeit wieder eigene Tollitäten proklamiert.",
+    "sanitized": "Im 125. Jahr ihres Bestehens hat die Vernicher Karnevalsgesellschaft nach längerer Zeit wieder eigene Tollitäten proklamiert."
+  },
+  {
+    "itemId": "https://www.ksta.de/900844",
+    "raw": "Der siebenjährige Leo aus Mechernich ist zum zweiten Mal an Leukämie erkrankt. Die Hilfsgruppe Eifel ruft zur Unterstützung auf.",
+    "sanitized": "Der siebenjährige Leo aus Mechernich ist zum zweiten Mal an Leukämie erkrankt. Die Hilfsgruppe Eifel ruft zur Unterstützung auf."
+  },
+  {
+    "itemId": "https://www.ksta.de/900984",
+    "raw": "31 Millionen Euro sollen die Kommunen mehr als in diesem Jahr an den Kreis Euskirchen zahlen. Es drohen höhere Steuern für die Bürger.",
+    "sanitized": "31 Millionen Euro sollen die Kommunen mehr als in diesem Jahr an den Kreis Euskirchen zahlen. Es drohen höhere Steuern für die Bürger."
+  },
+  {
+    "itemId": "https://www.ksta.de/900915",
+    "raw": "Bis zu 30 Schüler nutzen Busverbindung zwischen Müggenhausen und Euskirchen. Der Kreis prüft, ob die Linie 806 gestrichen werden kann.",
+    "sanitized": "Bis zu 30 Schüler nutzen Busverbindung zwischen Müggenhausen und Euskirchen. Der Kreis prüft, ob die Linie 806 gestrichen werden kann."
+  },
+  {
+    "itemId": "https://www.ksta.de/900944",
+    "raw": "Der Schleidener FDP-Abgeordnete Markus Herbrand wird 2025 wieder für den Bundestag kandidieren. Seit acht Jahren ist er im Bundestag.",
+    "sanitized": "Der Schleidener FDP-Abgeordnete Markus Herbrand wird 2025 wieder für den Bundestag kandidieren. Seit acht Jahren ist er im Bundestag."
+  },
+  {
+    "itemId": "https://www.ksta.de/900329",
+    "raw": "Der SSV Lommersum hatte dem Offensivdruck des Spitzenreiters JSG Erft 01 Euskirchen im Kreisliga-A-Topspiel nichts entgegenzusetzen.",
+    "sanitized": "Der SSV Lommersum hatte dem Offensivdruck des Spitzenreiters JSG Erft 01 Euskirchen im Kreisliga-A-Topspiel nichts entgegenzusetzen."
+  },
+  {
+    "itemId": "https://www.ksta.de/900750",
+    "raw": "Auch ohne Tollitäten war der Kursaal in Gemünd gut besucht. Der Ehrenpräsident Frank Michalski präsentierte ein besonderes, altes Kostüm.",
+    "sanitized": "Auch ohne Tollitäten war der Kursaal in Gemünd gut besucht. Der Ehrenpräsident Frank Michalski präsentierte ein besonderes, altes Kostüm."
+  },
+  {
+    "itemId": "https://www.ksta.de/900262",
+    "raw": "Im 99. Jahr der KG Löstige Rut- on Bleibächer aus Mülheim-Wichterich regiert ein jeckes Dreigestirn im Karneval.",
+    "sanitized": "Im 99. Jahr der KG Löstige Rut- on Bleibächer aus Mülheim-Wichterich regiert ein jeckes Dreigestirn im Karneval."
+  },
+  {
+    "itemId": "https://www.ksta.de/900229",
+    "raw": "Prinzessin Leah I., Bauer Miri (Miriam Mertens) und Jungfrau Elena (Dederichs) wollen schon lange an der Spitze der Sieberather Jecke stehen.",
+    "sanitized": "Prinzessin Leah I., Bauer Miri (Miriam Mertens) und Jungfrau Elena (Dederichs) wollen schon lange an der Spitze der Sieberather Jecke stehen."
+  },
+  {
+    "itemId": "https://www.ksta.de/900337",
+    "raw": "In der Fußball-Bezirksliga zeigt der SC Wißkirchen beim 0:6 gegen den SC Fliesteden in der Schlussphase Auflösungserscheinungen.",
+    "sanitized": "In der Fußball-Bezirksliga zeigt der SC Wißkirchen beim 0:6 gegen den SC Fliesteden in der Schlussphase Auflösungserscheinungen."
+  },
+  {
+    "itemId": "https://www.ksta.de/899312",
+    "raw": "Der Kindertagesstätte „Pusteblume“ in Keldenich muss nach massiven Wasserschäden saniert werden. Die Kinder ziehen in Container um.",
+    "sanitized": "Der Kindertagesstätte „Pusteblume“ in Keldenich muss nach massiven Wasserschäden saniert werden. Die Kinder ziehen in Container um."
+  },
+  {
+    "itemId": "https://www.ksta.de/882494",
+    "raw": "Der Fachkräftemangel macht auch vor dem Musikschulzweckverband nicht halt, deshalb sollen die Lehrkräfte nun höhere Löhne bekommen. Das wirkt sich auf den Haushalt der beteiligten Kommunen aus.",
+    "sanitized": "Der Fachkräftemangel macht auch vor dem Musikschulzweckverband nicht halt, deshalb sollen die Lehrkräfte nun höhere Löhne bekommen. Das wirkt sich auf den Haushalt der beteiligten Kommunen aus."
+  },
+  {
+    "itemId": "https://www.ksta.de/900181",
+    "raw": "In Euskirchen wird über die Weihnachtsbeleuchtung diskutiert. In Schleiden wird es - wie in Euskirchen - Eisstockschießen geben.",
+    "sanitized": "In Euskirchen wird über die Weihnachtsbeleuchtung diskutiert. In Schleiden wird es - wie in Euskirchen - Eisstockschießen geben."
+  },
+  {
+    "itemId": "https://www.ksta.de/899458",
+    "raw": "Der Kreis Euskirchen versucht, Pflegefachkräfte aus Indien zu gewinnen. Aber es werden zu wenige Sprachtests angeboten und Wohnungen fehlen.",
+    "sanitized": "Der Kreis Euskirchen versucht, Pflegefachkräfte aus Indien zu gewinnen. Aber es werden zu wenige Sprachtests angeboten und Wohnungen fehlen."
+  },
+  {
+    "itemId": "https://www.ksta.de/900332",
+    "raw": "Die Euskirchener Männer gewinnen. Oberligist TV Palmersheim musste kurz vor dem Spiel eine weitere Hiobsbotschaft hinnehmen.",
+    "sanitized": "Die Euskirchener Männer gewinnen. Oberligist TV Palmersheim musste kurz vor dem Spiel eine weitere Hiobsbotschaft hinnehmen."
+  },
+  {
+    "itemId": "https://www.ksta.de/900333",
+    "raw": "In der Nachspielzeit der Landesliga-Partie Helpenstein gegen Zülpich flog das Trainergespann David Sasse und Frank Müller vom Platz.",
+    "sanitized": "In der Nachspielzeit der Landesliga-Partie Helpenstein gegen Zülpich flog das Trainergespann David Sasse und Frank Müller vom Platz."
+  },
+  {
+    "itemId": "https://www.ksta.de/900249",
+    "raw": "Unter anderem wurden in Euskirchen, Kall und Heimbach Kränze für die Opfer von Kriegen niedergelegt. Aktuelle Themen wurden angesprochen.",
+    "sanitized": "Unter anderem wurden in Euskirchen, Kall und Heimbach Kränze für die Opfer von Kriegen niedergelegt. Aktuelle Themen wurden angesprochen."
+  },
+  {
+    "itemId": "https://www.ksta.de/900176",
+    "raw": "Prinz Joachim I. (Vossel), Bauer Werner (Echtner) und Jungfrau Johanna (Johann Klöcker) regieren nun die Mechernicher Jecke.",
+    "sanitized": "Prinz Joachim I. (Vossel), Bauer Werner (Echtner) und Jungfrau Johanna (Johann Klöcker) regieren nun die Mechernicher Jecke."
+  },
+  {
+    "itemId": "https://www.ksta.de/900165",
+    "raw": "Die Sessionseröffnung in Euskirchen auf dem Alten Markt war ein voller Erfolg – inklusive einer jecken Premiere. Die jungen Jecke werden von Finn I. regiert.",
+    "sanitized": "Die Sessionseröffnung in Euskirchen auf dem Alten Markt war ein voller Erfolg – inklusive einer jecken Premiere. Die jungen Jecke werden von Finn I. regiert."
+  },
+  {
+    "itemId": "https://www.ksta.de/899271",
+    "raw": "Sollen Wohn- und Gewerbegebäude unterschiedlich besteuert werden? Auch Experten können den Politikern im Kreis Euskirchen kaum helfen.",
+    "sanitized": "Sollen Wohn- und Gewerbegebäude unterschiedlich besteuert werden? Auch Experten können den Politikern im Kreis Euskirchen kaum helfen."
+  },
+  {
+    "itemId": "https://www.ksta.de/899101",
+    "raw": "Unabhängig von der politischen Gesinnung soll diskutiert werden, wie Weilerswist nachhaltig und zukunftsorientiert gestaltet werden kann.",
+    "sanitized": "Unabhängig von der politischen Gesinnung soll diskutiert werden, wie Weilerswist nachhaltig und zukunftsorientiert gestaltet werden kann."
+  },
+  {
+    "itemId": "https://www.ksta.de/897972",
+    "raw": "Bei der Firma Holtec in Blumenthal werden modernste Anlagen für die Holzindustrie konzipiert und gebaut.",
+    "sanitized": "Bei der Firma Holtec in Blumenthal werden modernste Anlagen für die Holzindustrie konzipiert und gebaut."
+  },
+  {
+    "itemId": "https://www.ksta.de/899424",
+    "raw": "Weil die zehn Tiny Houses in Kall immer noch von Flutopfern belegt sind, soll der Nutzungszeitraum bis Ende September 2025 verlängert werden.",
+    "sanitized": "Weil die zehn Tiny Houses in Kall immer noch von Flutopfern belegt sind, soll der Nutzungszeitraum bis Ende September 2025 verlängert werden."
+  },
+  {
+    "itemId": "https://www.ksta.de/898691",
+    "raw": "Die KG „Mer gon vör“ Vernich begegnet Krisen aller Art mit Frohsinn. In der Jubiläumssession proklamiert der Verein ein Prinzenpaar.",
+    "sanitized": "Die KG „Mer gon vör“ Vernich begegnet Krisen aller Art mit Frohsinn. In der Jubiläumssession proklamiert der Verein ein Prinzenpaar."
+  },
+  {
+    "itemId": "https://www.ksta.de/898747",
+    "raw": "Mit dem Lehrgang hat Vielfalt in allen Facetten im DRK-Betreuungsdienst einen festen Platz erhalten.",
+    "sanitized": "Mit dem Lehrgang hat Vielfalt in allen Facetten im DRK-Betreuungsdienst einen festen Platz erhalten."
+  },
+  {
+    "itemId": "https://www.ksta.de/899456",
+    "raw": "Das Spiel Zweiter gegen Erster, SSV Lommersum gegen JSG Erft Euskirchen, ragt aus dem Spielplan der Kreisliga A am Sonntag heraus.",
+    "sanitized": "Das Spiel Zweiter gegen Erster, SSV Lommersum gegen JSG Erft Euskirchen, ragt aus dem Spielplan der Kreisliga A am Sonntag heraus."
+  },
+  {
+    "itemId": "https://www.ksta.de/898733",
+    "raw": "Die Feuerwehr in Nettersheim überzeugt mit ihrer Leistungsfähigkeit. Laut Brandschutzbedarfsplan sind neue Gebäude und Fahrzeuge nötig.",
+    "sanitized": "Die Feuerwehr in Nettersheim überzeugt mit ihrer Leistungsfähigkeit. Laut Brandschutzbedarfsplan sind neue Gebäude und Fahrzeuge nötig."
+  },
+  {
+    "itemId": "https://www.ksta.de/838242",
+    "raw": "„Der Bus hält hier nur für meine Schwester“, sagt ein Junge während der zufälligen Begegnung an der Bushaltestelle der SVE.",
+    "sanitized": "„Der Bus hält hier nur für meine Schwester“, sagt ein Junge während der zufälligen Begegnung an der Bushaltestelle der SVE."
+  },
+  {
+    "itemId": "https://www.ksta.de/898070",
+    "raw": "Der Nationalpark Eifel wartet mit einer neuen Attraktion auf, einer Baumelbank. Es handelt sich um ein Geburtstagsgeschenk.",
+    "sanitized": "Der Nationalpark Eifel wartet mit einer neuen Attraktion auf, einer Baumelbank. Es handelt sich um ein Geburtstagsgeschenk."
+  },
+  {
+    "itemId": "https://www.ksta.de/896503",
+    "raw": "Ans Pik-As in Euskirchen erinnert heute nichts mehr. Die, die dort in den 70er Jahren gefeiert haben, denken gerne an die Kultdisco zurück.",
+    "sanitized": "Ans Pik-As in Euskirchen erinnert heute nichts mehr. Die, die dort in den 70er Jahren gefeiert haben, denken gerne an die Kultdisco zurück."
+  },
+  {
+    "itemId": "https://www.ksta.de/899305",
+    "raw": "Mitglieder einer Genossenschaft sollen die Genuss-Schule und den Musikclub im Kurhaus Bad Münstereifel nutzen. Auch Wohnungen sind geplant.",
+    "sanitized": "Mitglieder einer Genossenschaft sollen die Genuss-Schule und den Musikclub im Kurhaus Bad Münstereifel nutzen. Auch Wohnungen sind geplant."
+  },
+  {
+    "itemId": "https://www.ksta.de/898417",
+    "raw": "Ein 21-jähriger Autofahrer stand in Euskirchen vor Gericht. Der Vorwurf: Teilnahme an einem verbotenen Kraftfahrzeugrennen.",
+    "sanitized": "Ein 21-jähriger Autofahrer stand in Euskirchen vor Gericht. Der Vorwurf: Teilnahme an einem verbotenen Kraftfahrzeugrennen."
+  },
+  {
+    "itemId": "https://www.ksta.de/899516",
+    "raw": "Etliche Autorinnen und Autoren lesen im Naturzentrum aus ihren Werken. Schon zum elften Mal wird der Eifeler Jugendliteraturpreis vergeben.",
+    "sanitized": "Etliche Autorinnen und Autoren lesen im Naturzentrum aus ihren Werken. Schon zum elften Mal wird der Eifeler Jugendliteraturpreis vergeben."
+  },
+  {
+    "itemId": "https://www.ksta.de/899483",
+    "raw": "Die Kreisumlage steigt auf gut 31 Millionen Euro. Damit dürfte auch das eine oder andere Projekt von Blankenheim bis Zülpich gefährdet sein.",
+    "sanitized": "Die Kreisumlage steigt auf gut 31 Millionen Euro. Damit dürfte auch das eine oder andere Projekt von Blankenheim bis Zülpich gefährdet sein."
+  },
+  {
+    "itemId": "https://www.ksta.de/897188",
+    "raw": "Zülpichs designierter Prinz vergleicht sich mit einem Rennpferd und kann ebenfalls auf die Unterstützung der jecken Töchter der Römerstadt bauen.",
+    "sanitized": "Zülpichs designierter Prinz vergleicht sich mit einem Rennpferd und kann ebenfalls auf die Unterstützung der jecken Töchter der Römerstadt bauen."
+  },
+  {
+    "itemId": "https://www.ksta.de/899248",
+    "raw": "Pierre Kluge, der das Amt erst im Sommer angetreten hatte, musste aus beruflichen Gründen aufhören. Spieler Fabian Horst übernimmt zunächst.",
+    "sanitized": "Pierre Kluge, der das Amt erst im Sommer angetreten hatte, musste aus beruflichen Gründen aufhören. Spieler Fabian Horst übernimmt zunächst."
+  },
+  {
+    "itemId": "https://www.ksta.de/898545",
+    "raw": "Der Kreis Euskirchen will Gäste in der Region künftig zukunftsorientiert empfangen. Zudem sind Erlebniskinos in fünf Kommunen geplant.",
+    "sanitized": "Der Kreis Euskirchen will Gäste in der Region künftig zukunftsorientiert empfangen. Zudem sind Erlebniskinos in fünf Kommunen geplant."
+  },
+  {
+    "itemId": "https://www.ksta.de/898638",
+    "raw": "Die Gemeindeprüfungsanstalt NRW hat die Stadt Zülpich für ihre Friedhöfe ausgezeichnet. Gärtner Markus Schleiermacher kann das nicht nachvollziehen.",
+    "sanitized": "Die Gemeindeprüfungsanstalt NRW hat die Stadt Zülpich für ihre Friedhöfe ausgezeichnet. Gärtner Markus Schleiermacher kann das nicht nachvollziehen."
+  },
+  {
+    "itemId": "https://www.ksta.de/898780",
+    "raw": "Die zwei Ladenlokale am Parkplatzrand zum Sittardweg hin will Aldi an das City-Outlet Bad Münstereifel vermieten. 33 Stellplätze fallen weg.",
+    "sanitized": "Die zwei Ladenlokale am Parkplatzrand zum Sittardweg hin will Aldi an das City-Outlet Bad Münstereifel vermieten. 33 Stellplätze fallen weg."
+  },
+  {
+    "itemId": "https://www.ksta.de/898769",
+    "raw": "Gerade weil die Probleme bei der Integration im Kreis Euskirchen so deutlich angesprochen wurden, war für Rassisten nichts zu holen.",
+    "sanitized": "Gerade weil die Probleme bei der Integration im Kreis Euskirchen so deutlich angesprochen wurden, war für Rassisten nichts zu holen."
+  },
+  {
+    "itemId": "https://www.ksta.de/898746",
+    "raw": "Beim Faktencheck Integration im Kreis Euskirchen wurden Erfolgsstorys erzählt, aber auch die Probleme und Fehler deutlich benannt.",
+    "sanitized": "Beim Faktencheck Integration im Kreis Euskirchen wurden Erfolgsstorys erzählt, aber auch die Probleme und Fehler deutlich benannt."
+  },
+  {
+    "itemId": "https://www.ksta.de/897913",
+    "raw": "Am 15. November 1974 eröffnete die Stadt Euskirchen ihre Fußgängerzone. Die Neugestaltung war eine zentrale Maßnahme der Stadtkernsanierung.",
+    "sanitized": "Am 15. November 1974 eröffnete die Stadt Euskirchen ihre Fußgängerzone. Die Neugestaltung war eine zentrale Maßnahme der Stadtkernsanierung."
+  },
+  {
+    "itemId": "https://www.ksta.de/898597",
+    "raw": "Mit dem Einbau von Fertigbetonteilen ist die neue Brücke am Markt in Schleiden einen Schritt weiter. Im Frühjahr soll die Brücke fertig sein.",
+    "sanitized": "Mit dem Einbau von Fertigbetonteilen ist die neue Brücke am Markt in Schleiden einen Schritt weiter. Im Frühjahr soll die Brücke fertig sein."
+  },
+  {
+    "itemId": "https://www.ksta.de/898576",
+    "raw": "Für die Frauenfußball-Teams Füssenich-Geich, Erfthöhen, Zülpich und Kommern läuft die Saison bisher sehr zufriedenstellend.",
+    "sanitized": "Für die Frauenfußball-Teams Füssenich-Geich, Erfthöhen, Zülpich und Kommern läuft die Saison bisher sehr zufriedenstellend."
+  },
+  {
+    "itemId": "https://www.ksta.de/898617",
+    "raw": "Die A-Jugend der JSG Erft 01 Euskirchen gewinnt dank einer sehr guten Vorstellung in der zweiten Halbzeit mit 3:0 beim FC Hürth.",
+    "sanitized": "Die A-Jugend der JSG Erft 01 Euskirchen gewinnt dank einer sehr guten Vorstellung in der zweiten Halbzeit mit 3:0 beim FC Hürth."
+  },
+  {
+    "itemId": "https://www.ksta.de/897365",
+    "raw": "Laut Bürgermeister Ulf Hürtgen sei „viel Mut, Engagement und persönlicher Einsatz“ nötig, um das ehrenamtliche Amt auszuüben.",
+    "sanitized": "Laut Bürgermeister Ulf Hürtgen sei „viel Mut, Engagement und persönlicher Einsatz“ nötig, um das ehrenamtliche Amt auszuüben."
+  },
+  {
+    "itemId": "https://www.ksta.de/897997",
+    "raw": "Mit dem siebten Saisonlauf endet die Nürburgring-Langstrecken-Serie. Für Frank Stippler aus Iversheim stehen beim Finale Reifentests im Fokus.",
+    "sanitized": "Mit dem siebten Saisonlauf endet die Nürburgring-Langstrecken-Serie. Für Frank Stippler aus Iversheim stehen beim Finale Reifentests im Fokus."
+  },
+  {
+    "itemId": "https://www.ksta.de/897976",
+    "raw": "Am Freitag sollten in Köln wichtige Entscheidungen über Windkraftflächen im Kreis Euskirchen fallen. Die Beratung wurde kurzfristig vertagt.",
+    "sanitized": "Am Freitag sollten in Köln wichtige Entscheidungen über Windkraftflächen im Kreis Euskirchen fallen. Die Beratung wurde kurzfristig vertagt."
+  },
+  {
+    "itemId": "https://www.ksta.de/897771",
+    "raw": "Geehrt wurden die „Maler der Eifel“, die Heinzelmännchen aus Schöneseiffen und Karl-Heinz Domalewski.",
+    "sanitized": "Geehrt wurden die „Maler der Eifel“, die Heinzelmännchen aus Schöneseiffen und Karl-Heinz Domalewski."
+  },
+  {
+    "itemId": "https://www.ksta.de/897731",
+    "raw": "Die Jahrgangsstufe 7 des Franken-Gymnasiums soll neu ausgestattet werden. Die Beschaffung der Laptops für 660 Euro ist Sache der Eltern. Das gefällt nicht allen.",
+    "sanitized": "Die Jahrgangsstufe 7 des Franken-Gymnasiums soll neu ausgestattet werden. Die Beschaffung der Laptops für 660 Euro ist Sache der Eltern. Das gefällt nicht allen."
+  },
+  {
+    "itemId": "https://www.ksta.de/898146",
+    "raw": "Nachdem sich die ursprünglichen Pläne zerschlagen haben, geht die Stadt Mechernich neue Ideen für die Sportplätze an.",
+    "sanitized": "Nachdem sich die ursprünglichen Pläne zerschlagen haben, geht die Stadt Mechernich neue Ideen für die Sportplätze an."
+  },
+  {
+    "itemId": "https://www.ksta.de/897043",
+    "raw": "Ihr Haus war trocken geblieben, trotzdem beantragte eine Frau aus Euskirchen Fluthilfe. Die Behörden zahlten ihr 28.580 Euro aus.",
+    "sanitized": "Ihr Haus war trocken geblieben, trotzdem beantragte eine Frau aus Euskirchen Fluthilfe. Die Behörden zahlten ihr 28.580 Euro aus."
+  },
+  {
+    "itemId": "https://www.ksta.de/897352",
+    "raw": "Eine Veranstaltungsreihe soll die Jugendpartizipation in der Region verbessern. Die Jugendsprechstunde in Nettersheim war eine Maßnahme.",
+    "sanitized": "Eine Veranstaltungsreihe soll die Jugendpartizipation in der Region verbessern. Die Jugendsprechstunde in Nettersheim war eine Maßnahme."
+  },
+  {
+    "itemId": "https://www.ksta.de/897179",
+    "raw": "Die jährliche Vorführung des Tanzstudios CO-LEG im Stadttheater Euskirchen unter dem Titel „Bouquet de Danse“ war ein Fest für Augen und Ohren.",
+    "sanitized": "Die jährliche Vorführung des Tanzstudios CO-LEG im Stadttheater Euskirchen unter dem Titel „Bouquet de Danse“ war ein Fest für Augen und Ohren."
+  },
+  {
+    "itemId": "https://www.ksta.de/897778",
+    "raw": "Von Platz eins grüßen die Erftbaskets in der Landesliga. Zülpich ist eher durchschnittlich gestartet.",
+    "sanitized": "Von Platz eins grüßen die Erftbaskets in der Landesliga. Zülpich ist eher durchschnittlich gestartet."
+  },
+  {
+    "itemId": "https://www.ksta.de/897707",
+    "raw": "Dass ihr Auto gestohlen wurde, meldete eine Frau aus Zülpich der Polizei. Eine Überraschung war, wer es gestohlen hatte.",
+    "sanitized": "Dass ihr Auto gestohlen wurde, meldete eine Frau aus Zülpich der Polizei. Eine Überraschung war, wer es gestohlen hatte."
+  },
+  {
+    "itemId": "https://www.ksta.de/897233",
+    "raw": "Peter Schildgen aus Scheven und einige Nachbarn haben seit Jahren Probleme bei Starkregen. Niemand weiß, wann sich daran etwas ändern wird.",
+    "sanitized": "Peter Schildgen aus Scheven und einige Nachbarn haben seit Jahren Probleme bei Starkregen. Niemand weiß, wann sich daran etwas ändern wird."
+  },
+  {
+    "itemId": "https://www.ksta.de/897281",
+    "raw": "Chor, Solisten und Orchester führten Mozarts letztes Werk auf, in dem die Todesahnung des Komponisten mitschwingt. Manfred Sistig dirigierte.",
+    "sanitized": "Chor, Solisten und Orchester führten Mozarts letztes Werk auf, in dem die Todesahnung des Komponisten mitschwingt. Manfred Sistig dirigierte."
+  },
+  {
+    "itemId": "https://www.ksta.de/897209",
+    "raw": "Seit Oktober sind die Sinzenicher Springmäuse wieder zurück in der Heimat. Bei der Einweihung der neuen Kita liefen auch ein paar Tränen.",
+    "sanitized": "Seit Oktober sind die Sinzenicher Springmäuse wieder zurück in der Heimat. Bei der Einweihung der neuen Kita liefen auch ein paar Tränen."
+  },
+  {
+    "itemId": "https://www.ksta.de/897381",
+    "raw": "Das Einkommensgefälle im Kreis Euskirchen ist beachtlich. Es geht im Vergleich unter den Kommunen um mehrere 1000 Euro im Schnitt.",
+    "sanitized": "Das Einkommensgefälle im Kreis Euskirchen ist beachtlich. Es geht im Vergleich unter den Kommunen um mehrere 1000 Euro im Schnitt."
+  },
+  {
+    "itemId": "https://www.ksta.de/897353",
+    "raw": "Hubert Schilles aus Mechernich-Floisdorf hat nach der Flutkatastrophe 2021 den Grundablass der Steinbachtalsperre freigebaggert.",
+    "sanitized": "Hubert Schilles aus Mechernich-Floisdorf hat nach der Flutkatastrophe 2021 den Grundablass der Steinbachtalsperre freigebaggert."
+  },
+  {
+    "itemId": "https://www.ksta.de/896569",
+    "raw": "Vom roten Sofa aus sorgte Daphne de Luxe für einen gelungenen Abend im Euskirchener Stadttheater. Ihre lockere Art kam sehr gut an.",
+    "sanitized": "Vom roten Sofa aus sorgte Daphne de Luxe für einen gelungenen Abend im Euskirchener Stadttheater. Ihre lockere Art kam sehr gut an."
+  },
+  {
+    "itemId": "https://www.ksta.de/897246",
+    "raw": "25.000 Menschen aus aller Welt haben ihre liebsten Ziele und Attraktionen in Deutschland gewählt. Die Region liegt stabil auf den vorderen Plätzen.",
+    "sanitized": "25.000 Menschen aus aller Welt haben ihre liebsten Ziele und Attraktionen in Deutschland gewählt. Die Region liegt stabil auf den vorderen Plätzen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896500",
+    "raw": "Die Bilder und Installationen des Künstlers aus Weilerswist sind bis Anfang Januar im FzKKE in der Kölner Straße in Euskirchen zu sehen.",
+    "sanitized": "Die Bilder und Installationen des Künstlers aus Weilerswist sind bis Anfang Januar im FzKKE in der Kölner Straße in Euskirchen zu sehen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896992",
+    "raw": "Fußballspiele im Polizeibericht, Fußballplätze in der Politik und Schützenfeste in Metternich – es ist viel passiert in den Kreisligen.",
+    "sanitized": "Fußballspiele im Polizeibericht, Fußballplätze in der Politik und Schützenfeste in Metternich – es ist viel passiert in den Kreisligen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896612",
+    "raw": "Im Bereich QuBi, Qualifizierung und Bildung, sollen Teilnehmerinnen und Teilnehmer für den ersten Arbeitsmarkt fit gemacht werden.",
+    "sanitized": "Im Bereich QuBi, Qualifizierung und Bildung, sollen Teilnehmerinnen und Teilnehmer für den ersten Arbeitsmarkt fit gemacht werden."
+  },
+  {
+    "itemId": "https://www.ksta.de/896446",
+    "raw": "Der größte Pflegedienst Deutschlands sind die Familien, in denen erkrankte Menschen von Angehörigen gepflegt werden. Oftmals geht dies jedoch weit über deren eigene Kräfte hinaus.",
+    "sanitized": "Der größte Pflegedienst Deutschlands sind die Familien, in denen erkrankte Menschen von Angehörigen gepflegt werden. Oftmals geht dies jedoch weit über deren eigene Kräfte hinaus."
+  },
+  {
+    "itemId": "https://www.ksta.de/896544",
+    "raw": "Die Stadtverwaltung Schleiden baut die Möglichkeiten für Online-Terminvereinbarungen aus, um das Rathaus digitaler zu machen.",
+    "sanitized": "Die Stadtverwaltung Schleiden baut die Möglichkeiten für Online-Terminvereinbarungen aus, um das Rathaus digitaler zu machen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896666",
+    "raw": "Das Motto für die neue Session von Jeck gegen Rechts lautet Motto „Bunt macht gesund!“. Sie werben für mehr Respekt im Umgang miteinander.",
+    "sanitized": "Das Motto für die neue Session von Jeck gegen Rechts lautet Motto „Bunt macht gesund!“. Sie werben für mehr Respekt im Umgang miteinander."
+  },
+  {
+    "itemId": "https://www.ksta.de/896284",
+    "raw": "Myriam Kemp, Co-Chefin der Grünen im Kreis Euskirchen, über den neuen Direktkandidaten, die Kanzler-Kandidatur Habecks und das Aus der Ampel.",
+    "sanitized": "Myriam Kemp, Co-Chefin der Grünen im Kreis Euskirchen, über den neuen Direktkandidaten, die Kanzler-Kandidatur Habecks und das Aus der Ampel."
+  },
+  {
+    "itemId": "https://www.ksta.de/896283",
+    "raw": "Eine zu eng gewordene Uniformjacke des KV Vussem führte dazu, dass Carsten Vogel jetzt als Prinz in die Session geht.",
+    "sanitized": "Eine zu eng gewordene Uniformjacke des KV Vussem führte dazu, dass Carsten Vogel jetzt als Prinz in die Session geht."
+  },
+  {
+    "itemId": "https://www.ksta.de/896262",
+    "raw": "Eigentlich hatte sich bei der KG Hardtburg ein weibliches Dreigestirn formiert. Doch es kam anders als geplant. ",
+    "sanitized": "Eigentlich hatte sich bei der KG Hardtburg ein weibliches Dreigestirn formiert. Doch es kam anders als geplant."
+  },
+  {
+    "itemId": "https://www.ksta.de/896046",
+    "raw": "Die Eifeler belohnen sich gegen das Spitzenteam aus Horrem nicht mit einem Punkt. In der Halbzeit fliegt ein Ex-Profi durch den Strafraum.",
+    "sanitized": "Die Eifeler belohnen sich gegen das Spitzenteam aus Horrem nicht mit einem Punkt. In der Halbzeit fliegt ein Ex-Profi durch den Strafraum."
+  },
+  {
+    "itemId": "https://www.ksta.de/896042",
+    "raw": "Nach dem Nachbarschaftsduell zwischen den Sportfreunden D-H-O und dem SSV Lommersum gab es abseits des Platzes unnötige Scharmützel.",
+    "sanitized": "Nach dem Nachbarschaftsduell zwischen den Sportfreunden D-H-O und dem SSV Lommersum gab es abseits des Platzes unnötige Scharmützel."
+  },
+  {
+    "itemId": "https://www.ksta.de/896036",
+    "raw": "Der auch für drei Kommunen im Kreis Euskirchen zuständige Landtagsabgeordnete Dr. Ralf Nolten ist der Favorit des Kreisvorstands.",
+    "sanitized": "Der auch für drei Kommunen im Kreis Euskirchen zuständige Landtagsabgeordnete Dr. Ralf Nolten ist der Favorit des Kreisvorstands."
+  },
+  {
+    "itemId": "https://www.ksta.de/895838",
+    "raw": "Die Euskirchener Baugesellschaft hat im neugebauten Wohnhaus an der Veybachstraße ein modernes Glaskunstwerk von Martina Kepka enthüllt.",
+    "sanitized": "Die Euskirchener Baugesellschaft hat im neugebauten Wohnhaus an der Veybachstraße ein modernes Glaskunstwerk von Martina Kepka enthüllt."
+  },
+  {
+    "itemId": "https://www.ksta.de/895945",
+    "raw": "Weil die Straßen rund um den Saal Hilger in Schleiden-Dreiborn zugeparkt waren, schaffte es das Trifolium nicht rechtzeitig zum Einmarsch da zu sein.",
+    "sanitized": "Weil die Straßen rund um den Saal Hilger in Schleiden-Dreiborn zugeparkt waren, schaffte es das Trifolium nicht rechtzeitig zum Einmarsch da zu sein."
+  },
+  {
+    "itemId": "https://www.ksta.de/895962",
+    "raw": "Die Dom-Escher Jecken sind dieses Mal diesmal in den eigenen Reihen fündig geworden. Sowohl das Damen-Dreigestirn als auch das Kinderprinzenpaar kommen aus dem Dorf.",
+    "sanitized": "Die Dom-Escher Jecken sind dieses Mal diesmal in den eigenen Reihen fündig geworden. Sowohl das Damen-Dreigestirn als auch das Kinderprinzenpaar kommen aus dem Dorf."
+  },
+  {
+    "itemId": "https://www.ksta.de/895077",
+    "raw": "Bad Münstereifel stellte viele Fehler in den bereitgestellten Daten fest – Kommunen rechnen mit Bürgerbeschwerden im Frühjahr 2025",
+    "sanitized": "Bad Münstereifel stellte viele Fehler in den bereitgestellten Daten fest – Kommunen rechnen mit Bürgerbeschwerden im Frühjahr 2025"
+  },
+  {
+    "itemId": "https://www.ksta.de/895811",
+    "raw": "Die Datengewinnung dient in erste Linie dazu, mit sinnvollen Maßnahmen zur Entlastung der Mitarbeitenden des Euskirchener Krankenhauses beizutragen.",
+    "sanitized": "Die Datengewinnung dient in erste Linie dazu, mit sinnvollen Maßnahmen zur Entlastung der Mitarbeitenden des Euskirchener Krankenhauses beizutragen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896038",
+    "raw": "Gegen Kurdistan Düren lässt der Landesliga-Aufsteiger Zülpich wenig zu, hat dann aber das alte Problem: Er vergibt zu viele Chancen.",
+    "sanitized": "Gegen Kurdistan Düren lässt der Landesliga-Aufsteiger Zülpich wenig zu, hat dann aber das alte Problem: Er vergibt zu viele Chancen."
+  },
+  {
+    "itemId": "https://www.ksta.de/896044",
+    "raw": "Der TV Palmersheim gewinnt gegen den HC Weiden II – und überrascht in der Halbzeitpause mit einem ungewöhnlichen Positionswechsel.",
+    "sanitized": "Der TV Palmersheim gewinnt gegen den HC Weiden II – und überrascht in der Halbzeitpause mit einem ungewöhnlichen Positionswechsel."
+  },
+  {
+    "itemId": "https://www.ksta.de/895984",
+    "raw": "Viele Schülerinnen und Schüler au dem Kreis Euskirchen beteiligten sich an den Programmen der Gedenkveranstaltungen.",
+    "sanitized": "Viele Schülerinnen und Schüler au dem Kreis Euskirchen beteiligten sich an den Programmen der Gedenkveranstaltungen."
+  }
+]

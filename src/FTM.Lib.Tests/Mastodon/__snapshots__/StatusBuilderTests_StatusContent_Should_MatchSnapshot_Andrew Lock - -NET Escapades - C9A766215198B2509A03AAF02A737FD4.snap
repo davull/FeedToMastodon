@@ -1,0 +1,5 @@
+﻿Safety and simplicity with LINQ: Working with the result pattern - Part 2
+
+In this post I show how to clean up unreadable Switch()-based result pattern code using LINQ query syntax, giving both readability and safety
+---
+https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/

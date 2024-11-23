@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="FTM.Lib.Tests"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper"/>
+        <PackageReference Include="dbup-sqlite"/>
+        <PackageReference Include="HtmlAgilityPack"/>
+        <PackageReference Include="ini-parser-netstandard"/>
+        <PackageReference Include="Microsoft.Data.Sqlite"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions"/>
+        <PackageReference Include="SonarAnalyzer.CSharp">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="System.Net.Http"/>
+        <PackageReference Include="System.Private.Uri"/>
+        <PackageReference Include="System.Text.RegularExpressions"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Data\Scripts\*.sql"/>
+    </ItemGroup>
+</Project>

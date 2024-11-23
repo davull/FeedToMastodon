@@ -1,0 +1,37 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "enabledManagers": [
+        "nuget"
+    ],
+    "packageRules": [
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "automerge": true,
+            "autoApprove": true,
+            "groupName": "all non-major dependencies",
+            "groupSlug": "all-minor-patch"
+        },
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "automerge": true,
+            "autoApprove": false
+        }
+    ],
+    "labels": [
+        "Renovate"
+    ],
+    "prHourlyLimit": 0
+}

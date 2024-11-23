@@ -1,0 +1,302 @@
+﻿[
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx",
+    "raw": "GitHub Research Claims Copilot Code Quality Gains in Addition to Productivity",
+    "sanitized": "GitHub Research Claims Copilot Code Quality Gains in Addition to Productivity"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/20/Visual-Studio-Devs-Demand-Claude-3-5-Sonnet-AI-Why-Is-VSC-Always-Preferred.aspx",
+    "raw": "Visual Studio Devs Demand Claude 3.5 Sonnet AI: 'Why Is VSC Always Preferred?'",
+    "sanitized": "Visual Studio Devs Demand Claude 3.5 Sonnet AI: 'Why Is VSC Always Preferred?'"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/19/SQL-Database-in-Microsoft-Fabric-in-Preview-for-Faster-AI-Apps.aspx",
+    "raw": "SQL Database in Microsoft Fabric in Preview for Faster AI Apps",
+    "sanitized": "SQL Database in Microsoft Fabric in Preview for Faster AI Apps"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/18/Microsoft-Seeks-to-Sort-and-Simplify-its-Agentic-AI-Dev-Story.aspx",
+    "raw": "Microsoft Seeks to Sort & Simplify its Agentic AI Dev Story",
+    "sanitized": "Microsoft Seeks to Sort & Simplify its Agentic AI Dev Story"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/15/Uno-Platform-Unveils-Hot-Design-Tool-for-Cross-Platform-NET-Apps.aspx",
+    "raw": "Uno Platform Unveils 'Hot Design' Tool for Cross-Platform .NET Apps",
+    "sanitized": "Uno Platform Unveils 'Hot Design' Tool for Cross-Platform .NET Apps"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/13/Visual-Studio-2022-v17-12-AI-Enhancements-and-Streamlined-Dev-Tools.aspx",
+    "raw": "Visual Studio 2022 v17.12 Ships with AI Enhancements and Streamlined Dev Tools",
+    "sanitized": "Visual Studio 2022 v17.12 Ships with AI Enhancements and Streamlined Dev Tools"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/12/In-,-d-,NET-9-Debut-Microsoft-Focuses-on-NET-Aspire-AI.aspx",
+    "raw": "In .NET 9 Debut, Microsoft Focuses on .NET Aspire, AI",
+    "sanitized": "In .NET 9 Debut, Microsoft Focuses on .NET Aspire, AI"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Intros-Guided-Chat-Experience-for-GitHub-Copilot-in-Visual-Studio.aspx",
+    "raw": "Microsoft Intros 'Guided Chat Experience' for GitHub Copilot in Visual Studio",
+    "sanitized": "Microsoft Intros 'Guided Chat Experience' for GitHub Copilot in Visual Studio"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/07/Semantic-Kernel-AI-Toolkit-Extends-to-AWS-Cloud.aspx",
+    "raw": "Microsoft's Open-Source Semantic Kernel AI Toolkit Extends to AWS Cloud",
+    "sanitized": "Microsoft's Open-Source Semantic Kernel AI Toolkit Extends to AWS Cloud"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/07/Microsoft-Previews-Copilot-in-SQL-Server-Management-Studio.aspx",
+    "raw": "Microsoft Previews Copilot AI in SQL Server Management Studio",
+    "sanitized": "Microsoft Previews Copilot AI in SQL Server Management Studio"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/06/Blitz-of-New-VS-Code-AI-Improvements-Include-Copilot-Edits.aspx",
+    "raw": "Blitz of New VS Code AI Improvements Include 'Copilot Edits'",
+    "sanitized": "Blitz of New VS Code AI Improvements Include 'Copilot Edits'"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/23/Microsoft-Previews-Mads-Kristensen-Keynote-at-Orlando-Dev-Conference.aspx",
+    "raw": "Microsoft Previews Mads Kristensen Keynote at Orlando Dev Conference",
+    "sanitized": "Microsoft Previews Mads Kristensen Keynote at Orlando Dev Conference"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/23/Syncfusion-Open-Sources-14-Controls-for-NET-MAUI.aspx",
+    "raw": "Syncfusion Open Sources 14 Controls for .NET MAUI",
+    "sanitized": "Syncfusion Open Sources 14 Controls for .NET MAUI"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/18/New-Combit-Reporting-Tool-Release-Supports-,-d-,NET-9.aspx",
+    "raw": "New Combit Reporting Tool Release Supports .NET 9",
+    "sanitized": "New Combit Reporting Tool Release Supports .NET 9"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/17/Copilot-AI-Enhanced-in-Flurry-of-Visual-Studio-17-12-Previews.aspx",
+    "raw": "Copilot AI Enhanced in Flurry of Visual Studio v17.12 Previews",
+    "sanitized": "Copilot AI Enhanced in Flurry of Visual Studio v17.12 Previews"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/16/How-Visual-Studio-IntelliCode-UX-Helped-Shape-GitHub-Copilot-and-Modern-AI.aspx",
+    "raw": "How Visual Studio IntelliCode Helped Shape GitHub Copilot and Modern AI",
+    "sanitized": "How Visual Studio IntelliCode Helped Shape GitHub Copilot and Modern AI"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/14/VS-Code-Is-Latest-Microsoft-Dev-Tooling-Weaponized-by-Threat-Actors.aspx",
+    "raw": "VS Code Is Latest Microsoft Dev Tooling Weaponized by Threat Actors",
+    "sanitized": "VS Code Is Latest Microsoft Dev Tooling Weaponized by Threat Actors"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/10/AI-Explains-Expressions-in-Update-to-Java-on-VS-Code.aspx",
+    "raw": "AI Explains Expressions in Update to Java on VS Code",
+    "sanitized": "AI Explains Expressions in Update to Java on VS Code"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/09/Microsoft-Eases-Integration-with-Semantic-Kernel-AI-SDK.aspx",
+    "raw": "Microsoft Eases Integration with Semantic Kernel AI SDK",
+    "sanitized": "Microsoft Eases Integration with Semantic Kernel AI SDK"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/09/Final-NET-9-Preview-Ships-with-Go-Live-License.aspx",
+    "raw": "Final .NET 9 Preview Ships with Go-Live License",
+    "sanitized": "Final .NET 9 Preview Ships with Go-Live License"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/08/Visual-Studios-Future-Live-Help-to-AI-ify-Your-App.aspx",
+    "raw": "Visual Studio's Future: Live Help to 'AI-ify Your App'",
+    "sanitized": "Visual Studio's Future: Live Help to 'AI-ify Your App'"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/07/Python-AI-Updates-Highlight-New-VS-Code-Release.aspx",
+    "raw": "Python AI Updates Highlight New VS Code Release",
+    "sanitized": "Python AI Updates Highlight New VS Code Release"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Ships-Stable-Versions-of-OpenAI-Libraries-for-,-d-,NET-and-Azure.aspx",
+    "raw": "Microsoft Ships Stable Versions of OpenAI Libraries for .NET and Azure",
+    "sanitized": "Microsoft Ships Stable Versions of OpenAI Libraries for .NET and Azure"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Further-Embraces-OpenAPI-Spec-formerly-Swagger.aspx",
+    "raw": "Microsoft Further Embraces OpenAPI Spec (formerly Swagger)",
+    "sanitized": "Microsoft Further Embraces OpenAPI Spec (formerly Swagger)"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/25/Whats-New-for-Java-Tooling-in-VS-Code-Azure-Cloud.aspx",
+    "raw": "What's New for Java Tooling in VS Code, Azure Cloud",
+    "sanitized": "What's New for Java Tooling in VS Code, Azure Cloud"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/20/Microsoft-Highlights-Third-Party-Open-Source-NET-Smart-Components.aspx",
+    "raw": "Microsoft Highlights Third-Party Open-Source '.NET Smart Components'",
+    "sanitized": "Microsoft Highlights Third-Party Open-Source '.NET Smart Components'"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/19/Data-Science-Pack-for-VS-Code-Bundles-Python-Data-and-Copilot-Tools.aspx",
+    "raw": "Data Science Pack for VS Code Bundles Python, Data and Copilot Tools",
+    "sanitized": "Data Science Pack for VS Code Bundles Python, Data and Copilot Tools"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/18/30th-Annual-Visual-Studio-Magazine-Readers-Choice-Awards-Announced.aspx",
+    "raw": "30th Annual Visual Studio Magazine Reader's Choice Awards Announced",
+    "sanitized": "30th Annual Visual Studio Magazine Reader's Choice Awards Announced"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/17/Another-Report-Weighs-In-on-GitHub-Copilot-Dev-Productivity.aspx",
+    "raw": "Another Report Weighs In on GitHub Copilot Dev Productivity: 👎",
+    "sanitized": "Another Report Weighs In on GitHub Copilot Dev Productivity: 👎"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/13/Dev-Asks-and-7-Years-Later-Python-in-VS-Code-Delivers-Django-Unit-Test-Support.aspx",
+    "raw": "Dev Asks, and 7 Years Later Python in VS Code Delivers Django Unit Test Support",
+    "sanitized": "Dev Asks, and 7 Years Later Python in VS Code Delivers Django Unit Test Support"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/12/OData-Finally-Ditches-Old-NET-Framework.aspx",
+    "raw": "OData Finally Ditches Old .NET Framework",
+    "sanitized": "OData Finally Ditches Old .NET Framework"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/NET-MAUI-ASP-NET-Core-Polished-in-First-Release-Candidate-for-NET-9.aspx",
+    "raw": ".NET MAUI, ASP.NET Core Polished in First Release Candidate for .NET 9",
+    "sanitized": ".NET MAUI, ASP.NET Core Polished in First Release Candidate for .NET 9"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/Microsofts-Stalled-UWP-Project-Supports-NET-9-as-WinUI-3-Migration-Urged.aspx",
+    "raw": "Microsoft's Stalled UWP Project Supports .NET 9 to Help WinUI 3 Migration",
+    "sanitized": "Microsoft's Stalled UWP Project Supports .NET 9 to Help WinUI 3 Migration"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/09/VS-Code-Experiments-Boost-AI-Copilot-Functionality.aspx",
+    "raw": "VS Code Experiments Boost AI Copilot Functionality",
+    "sanitized": "VS Code Experiments Boost AI Copilot Functionality"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/Windows-Community-Toolkit-Update-Improves-Controls.aspx",
+    "raw": "Windows Community Toolkit Update Improves Controls",
+    "sanitized": "Windows Community Toolkit Update Improves Controls"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/ASPNET-Core-NET-MAUI-Updated-as-NET-9-Nears.aspx",
+    "raw": "ASP.NET Core, .NET MAUI Updated as .NET 9 Nears",
+    "sanitized": "ASP.NET Core, .NET MAUI Updated as .NET 9 Nears"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/NET-Community-Toolkit-Gets-Native-AOT-NET-8-Support.aspx",
+    "raw": ".NET Community Toolkit Gets Native AOT and .NET 8 Support",
+    "sanitized": ".NET Community Toolkit Gets Native AOT and .NET 8 Support"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/26/GitHub-Copilot-Tops-Research-Report-on-AI-Code-Assistants.aspx",
+    "raw": "GitHub Copilot Tops Research Report on AI Code Assistants",
+    "sanitized": "GitHub Copilot Tops Research Report on AI Code Assistants"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/23/VS-Code-Tool-for-Azure-Machine-Learning-Ships-After-7-Year-Preview.aspx",
+    "raw": "VS Code Tool for Azure Machine Learning Ships After 7-Year Preview",
+    "sanitized": "VS Code Tool for Azure Machine Learning Ships After 7-Year Preview"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/21/Newly-Open-Sourced-NET-Smart-Components-Demoed-at-AI-Event.aspx",
+    "raw": "Newly Open-Sourced '.NET Smart Components' Demoed at AI Event",
+    "sanitized": "Newly Open-Sourced '.NET Smart Components' Demoed at AI Event"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/19/Content-Exclusion-Is-Latest-of-Many-New-Visual-Studio-Copilot-Features.aspx",
+    "raw": "Content Exclusion Is Latest of Many New Visual Studio Copilot Features",
+    "sanitized": "Content Exclusion Is Latest of Many New Visual Studio Copilot Features"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/16/Microsoft-Spotlights-NET-9-Cloud-in-First-Visual-Studio-2022-v17-12-Preview.aspx",
+    "raw": "Microsoft Spotlights .NET 9, Cloud in First Visual Studio 2022 v17.12 Preview",
+    "sanitized": "Microsoft Spotlights .NET 9, Cloud in First Visual Studio 2022 v17.12 Preview"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/14/Visual-Studio-2022-v17-11-Ships-Shaped-by-Your-Feedback.aspx",
+    "raw": "Visual Studio 2022 v17.11 Ships 'Shaped by Your Feedback' (and AI)",
+    "sanitized": "Visual Studio 2022 v17.11 Ships 'Shaped by Your Feedback' (and AI)"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/13/VSLive-Dev-Conference-Tip-Leads-to-New-IDE-Extension-Sql-Formatter.aspx",
+    "raw": "VSLive! Dev Conference Tip Leads to New IDE Extension: Sql Formatter",
+    "sanitized": "VSLive! Dev Conference Tip Leads to New IDE Extension: Sql Formatter"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/12/Copilot-Rolled-Out-to-Your-Org-Better-Check-User-Activity.aspx",
+    "raw": "Copilot Rolled Out to Your Org? Better Check User Activity",
+    "sanitized": "Copilot Rolled Out to Your Org? Better Check User Activity"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/09/VS-Code-v1-92-Pick-Your-Browser-Use-OpenAI-GPT-4o-Model.aspx",
+    "raw": "VS Code v1.92: Pick Your Browser, Use OpenAI's GPT-4o AI Model",
+    "sanitized": "VS Code v1.92: Pick Your Browser, Use OpenAI's GPT-4o AI Model"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/07/ABP-Ships-Community-Edition-of-Open-Source-,-d-,NET-Dev-Framework.aspx",
+    "raw": "ABP Ships Community Edition of Open Source .NET Dev Framework",
+    "sanitized": "ABP Ships Community Edition of Open Source .NET Dev Framework"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/05/With-NET-6-Support-Ending-Security-Vulnerabilities-Loom.aspx",
+    "raw": "With .NET 6 Support Ending, Security Vulnerabilities Loom",
+    "sanitized": "With .NET 6 Support Ending, Security Vulnerabilities Loom"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/02/Semantic-Kernel-AI-SDK-Gets-Agents-Experimental.aspx",
+    "raw": "Semantic Kernel AI SDK Gets Autonomous Agents (Experimental)",
+    "sanitized": "Semantic Kernel AI SDK Gets Autonomous Agents (Experimental)"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/github-models.aspx",
+    "raw": "'GitHub Models' AI Playground Debuts with Llama 3.1, GPT-4o and More",
+    "sanitized": "'GitHub Models' AI Playground Debuts with Llama 3.1, GPT-4o and More"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/vs-code-java-python.aspx",
+    "raw": "Java, Python Tooling Advances in VS Code",
+    "sanitized": "Java, Python Tooling Advances in VS Code"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx",
+    "raw": "Copilot in Visual Studio Will Get Access to Org Knowledge Bases",
+    "sanitized": "Copilot in Visual Studio Will Get Access to Org Knowledge Bases"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx",
+    "raw": "Microsoft Going Small in Semantic Kernel AI Dev Tooling",
+    "sanitized": "Microsoft Going Small in Semantic Kernel AI Dev Tooling"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
+    "raw": "Microsoft Previews AI Prompt Playground for VS Code: Prompty",
+    "sanitized": "Microsoft Previews AI Prompt Playground for VS Code: Prompty"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx",
+    "raw": "Google Extends Free Use of VS Code AI Assistant Until Nov. 8",
+    "sanitized": "Google Extends Free Use of VS Code AI Assistant Until Nov. 8"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx",
+    "raw": "Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine",
+    "sanitized": "Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
+    "raw": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python",
+    "sanitized": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx",
+    "raw": "Uno Platform 5.3 Enhances Hot Reload UI",
+    "sanitized": "Uno Platform 5.3 Enhances Hot Reload UI"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx",
+    "raw": "Visual Studio Uses RUBICON to Improve AI Conversations",
+    "sanitized": "Visual Studio Uses RUBICON to Improve AI Conversations"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx",
+    "raw": "Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts",
+    "sanitized": "Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts"
+  }
+]

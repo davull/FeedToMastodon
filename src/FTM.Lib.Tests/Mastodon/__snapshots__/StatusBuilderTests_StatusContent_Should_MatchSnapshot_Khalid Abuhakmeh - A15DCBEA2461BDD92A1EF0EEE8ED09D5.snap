@@ -1,0 +1,5 @@
+﻿Dynamic Htmx Islands with ASP.NET Core
+
+I’m a big fan of static site renderers, and they are still one of the missing elements that would make ASP.NET Core more compelling for users across the vast ecosystem divide. In the meantime, developers must rely on tools like Astro, Jekyll, and 11ty to build static site experiences. Recently, I read about Astro 5.0 and its server island implementation. Server islands allow for mostly static pages to carve out portions o...
+---
+https://khalidabuhakmeh.com/dynamic-htmx-islands-with-aspnet-core

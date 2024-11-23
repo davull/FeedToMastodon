@@ -1,0 +1,127 @@
+﻿[
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3693878604342508492",
+    "raw": "ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly",
+    "sanitized": "ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-6028191154407920725",
+    "raw": "Azure Functions Extensibility - Extensions and Isolated Worker Model",
+    "sanitized": "Azure Functions Extensibility - Extensions and Isolated Worker Model"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-5557502819831846633",
+    "raw": "Azure Functions Extensibility - Runtime Scaling",
+    "sanitized": "Azure Functions Extensibility - Runtime Scaling"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-5098970047446691928",
+    "raw": "Experimenting With .NET & WebAssembly - Running .NET Based Slight Application On WASM/WASI Node Pool in AKS",
+    "sanitized": "Experimenting With .NET & WebAssembly - Running .NET Based Slight Application On WASM/WASI Node Pool in AKS"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-6340462120240203656",
+    "raw": "Azure Functions Integration Testing With Testcontainers",
+    "sanitized": "Azure Functions Integration Testing With Testcontainers"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-5075869972314954380",
+    "raw": "Revisiting Various Change Feeds Consumption in .NET",
+    "sanitized": "Revisiting Various Change Feeds Consumption in .NET"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-4717310053772857696",
+    "raw": "Deploying a Dapr Sidecar to Azure Container Instances",
+    "sanitized": "Deploying a Dapr Sidecar to Azure Container Instances"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-1458654489071666460",
+    "raw": "DevOps Practices for Azure Infrastructure - Continuous Operations & Continuous Monitoring",
+    "sanitized": "DevOps Practices for Azure Infrastructure - Continuous Operations & Continuous Monitoring"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-5903928949952130037",
+    "raw": "DevOps Practices for Azure Infrastructure - Continuous Testing",
+    "sanitized": "DevOps Practices for Azure Infrastructure - Continuous Testing"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-7011756510786474279",
+    "raw": "DevOps Practices for Azure Infrastructure - Continuous Delivery & Continuous Deployment",
+    "sanitized": "DevOps Practices for Azure Infrastructure - Continuous Delivery & Continuous Deployment"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-634270584827131338",
+    "raw": "DevOps Practices for Azure Infrastructure  - Continuous Integration",
+    "sanitized": "DevOps Practices for Azure Infrastructure  - Continuous Integration"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-7194716743767456138",
+    "raw": "Server Timing API Meets Isolated Worker Process Azure Functions - Custom Middleware and Dependency Injection",
+    "sanitized": "Server Timing API Meets Isolated Worker Process Azure Functions - Custom Middleware and Dependency Injection"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-7005159588109239934",
+    "raw": "Experimenting With .NET & WebAssembly - Running .NET Based Spin Application On WASI Node Pool in AKS",
+    "sanitized": "Experimenting With .NET & WebAssembly - Running .NET Based Spin Application On WASI Node Pool in AKS"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-390007151575047369",
+    "raw": "Micro Frontends in Action With ASP.NET Core - Universal Rendering With Blazor WebAssembly Based Web Components",
+    "sanitized": "Micro Frontends in Action With ASP.NET Core - Universal Rendering With Blazor WebAssembly Based Web Components"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-2336112181316150606",
+    "raw": "Commits Promotion Between GitHub and Azure Databricks",
+    "sanitized": "Commits Promotion Between GitHub and Azure Databricks"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3822728770880711347",
+    "raw": "Micro Frontends in Action With ASP.NET Core - Communication Patterns for Blazor WebAssembly Based Web Components",
+    "sanitized": "Micro Frontends in Action With ASP.NET Core - Communication Patterns for Blazor WebAssembly Based Web Components"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-4412698974992852521",
+    "raw": "Micro Frontends in Action With ASP.NET Core - Composition via Blazor WebAssembly Based Web Components",
+    "sanitized": "Micro Frontends in Action With ASP.NET Core - Composition via Blazor WebAssembly Based Web Components"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-5699190681247385026",
+    "raw": "Exploring Communication of Rate Limits in ASP.NET Core With Rate Limit Headers",
+    "sanitized": "Exploring Communication of Rate Limits in ASP.NET Core With Rate Limit Headers"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-310692594729019759",
+    "raw": "Micro Frontends in Action With ASP.NET Core - Composition via YARP Transforms and Server-Side Includes (SSI)",
+    "sanitized": "Micro Frontends in Action With ASP.NET Core - Composition via YARP Transforms and Server-Side Includes (SSI)"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-8133906837345607575",
+    "raw": "Micro Frontends in Action With ASP.NET Core - Server-Side Routing via YARP in Azure Container Apps",
+    "sanitized": "Micro Frontends in Action With ASP.NET Core - Server-Side Routing via YARP in Azure Container Apps"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3077980356761970106",
+    "raw": "ASP.NET Core 6 and IAsyncEnumerable - Receiving Async Streamed JSON in Blazor WebAssembly",
+    "sanitized": "ASP.NET Core 6 and IAsyncEnumerable - Receiving Async Streamed JSON in Blazor WebAssembly"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-2338776660855107578",
+    "raw": "Leveraging Azure Cosmos DB Partial Document Update With JSON Patch in an ASP.NET Core Web API",
+    "sanitized": "Leveraging Azure Cosmos DB Partial Document Update With JSON Patch in an ASP.NET Core Web API"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-4981240213044006715",
+    "raw": "Server-Sent Events and ASP.NET Core - Disconnecting a Client",
+    "sanitized": "Server-Sent Events and ASP.NET Core - Disconnecting a Client"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-2710431481309098636",
+    "raw": "Handling Transient Errors in Durable Functions",
+    "sanitized": "Handling Transient Errors in Durable Functions"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3508716695365104414",
+    "raw": "WebSocket per-message compression in ASP.NET Core 6",
+    "sanitized": "WebSocket per-message compression in ASP.NET Core 6"
+  }
+]

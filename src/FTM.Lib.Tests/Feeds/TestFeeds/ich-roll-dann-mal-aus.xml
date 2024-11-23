@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+    <title>&quot;Ich roll' dann mal aus&quot;</title>
+    <link>https://www.heise.de/developer/</link>
+    <description>Das Team hinter heise online erzählt</description>
+    <lastBuildDate>Tue, 19 Nov 2024 14:43:00 +0100</lastBuildDate>
+    <language>de</language>
+
+
+    <item>
+            <title>In eigener Sache: Wir denken die Apps unserer Magazin-Marken neu</title>
+            <link>https://www.heise.de/blog/In-eigener-Sache-Wir-denken-die-Apps-unserer-Magazin-Marken-neu-10019714.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-10019714</guid>
+        <pubDate>Tue, 19 Nov 2024 14:43:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/In-eigener-Sache-Wir-denken-die-Apps-unserer-Magazin-Marken-neu-10019714.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/4/7/0/8/8/9/5/ct_apps-2bfbf2d6911ed555.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>CSS is awesome: 30 Jahre schönes Web</title>
+            <link>https://www.heise.de/blog/CSS-is-awesome-30-Jahre-schoenes-Web-9975854.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-9975854</guid>
+        <pubDate>Thu, 10 Oct 2024 10:38:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/CSS-is-awesome-30-Jahre-schoenes-Web-9975854.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/4/6/8/6/3/6/6/dreissig-cf2db72a762e1ed6.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Wie eine Zeile CSS den Cumulative Layout Shift bei 3700 URLs verbessert</title>
+            <link>https://www.heise.de/blog/Wie-eine-Zeile-CSS-den-Cumulative-Layout-Shift-bei-3700-URLs-verbessert-9677415.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-9677415</guid>
+        <pubDate>Thu, 11 Apr 2024 08:05:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/Wie-eine-Zeile-CSS-den-Cumulative-Layout-Shift-bei-3700-URLs-verbessert-9677415.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/4/5/6/8/5/8/6/shutterstock_1026108619-eee31c52c1fdba6c.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Mastodon: Wie Heise einen föderierten Social-Media-Dienst integriert</title>
+            <link>https://www.heise.de/blog/Mastodon-Integration-eines-foederierten-Social-Media-Dienstes-9337038.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-9337038</guid>
+        <pubDate>Thu, 19 Oct 2023 08:40:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/Mastodon-Integration-eines-foederierten-Social-Media-Dienstes-9337038.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/4/3/1/9/8/7/5/shutterstock_2217118437-3952e0310a8260e8.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>ChatGPT und Copilot: AI-Code-Assistenten in der Webentwicklung</title>
+            <link>https://www.heise.de/blog/ChatGPT-und-Copilot-AI-Code-Assistenten-in-der-Webentwicklung-7476614.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-7476614</guid>
+        <pubDate>Wed, 01 Feb 2023 08:03:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/ChatGPT-und-Copilot-AI-Code-Assistenten-in-der-Webentwicklung-7476614.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/3/6/8/8/8/7/9/shutterstock_1428208070-3607755083737b7e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Variable Fonts und wie man sie (nicht) einsetzen sollte</title>
+            <link>https://www.heise.de/blog/Variable-Fonts-und-wie-man-sie-nicht-einsetzen-sollte-7142196.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-7142196</guid>
+        <pubDate>Thu, 16 Jun 2022 10:11:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p><a href="https://www.heise.de/blog/Variable-Fonts-und-wie-man-sie-nicht-einsetzen-sollte-7142196.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/3/5/6/0/4/7/0/shutterstock_140369725.jpg-c6dc8bd05508c0e9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Eine neue Architektur für heise online: Janus – Teil 2</title>
+            <link>https://www.heise.de/blog/Eine-neue-Architektur-fuer-heise-online-Janus-Teil-2-6544800.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-6544800</guid>
+        <pubDate>Fri, 18 Mar 2022 09:47:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Eine neue Architektur für heise online: Janus – Teil 1</title>
+            <link>https://www.heise.de/blog/Eine-neue-Architektur-fuer-heise-online-Janus-Teil-1-6442004.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-6442004</guid>
+        <pubDate>Fri, 11 Feb 2022 12:41:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Performance: Largest Contentful Paint für Web Vitals optimieren</title>
+            <link>https://www.heise.de/blog/Performance-Largest-Contentful-Paint-fuer-Web-Vitals-optimieren-6134113.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-6134113</guid>
+        <pubDate>Tue, 13 Jul 2021 09:48:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p>Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung</title>
+            <link>https://www.heise.de/blog/Debugging-Monitoring-und-Code-Qualitaet-Tools-in-der-Web-Entwicklung-5070139.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-5070139</guid>
+        <pubDate>Wed, 03 Mar 2021 10:42:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>heise online: Die Technik hinter den Kulissen</title>
+            <link>https://www.heise.de/blog/heise-online-Die-Technik-hinter-den-Kulissen-4973753.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-4973753</guid>
+        <pubDate>Mon, 30 Nov 2020 16:05:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren</title>
+            <link>https://www.heise.de/blog/Performance-Cumulative-Layout-Shift-CLS-fuer-Web-Vitals-optimieren-4871860.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-4871860</guid>
+        <pubDate>Mon, 17 Aug 2020 10:17:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p>Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert</title>
+            <link>https://www.heise.de/blog/Web-Entwicklung-allein-zu-Haus-wie-die-Corona-Krise-unsere-Arbeit-veraendert-4719737.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-4719737</guid>
+        <pubDate>Wed, 13 May 2020 09:38:00 +0200</pubDate>
+        
+            <content:encoded><![CDATA[<p>Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>akwa – unser hausinternes Frontend-Framework</title>
+            <link>https://www.heise.de/blog/Akwa-Unser-hausinternes-Frontend-Framework-4676787.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen.]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-4676787</guid>
+        <pubDate>Thu, 05 Mar 2020 14:49:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen.</p>]]></content:encoded>
+        
+    </item>
+    <item>
+            <title>Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3</title>
+            <link>https://www.heise.de/blog/Die-Einfuehrung-agiler-Softwareentwicklung-und-von-Scrum-bei-Heise-Teil-3-4614509.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag</link>
+            <description><![CDATA[Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind. ]]></description>
+        
+            <guid isPermaLink="true">http://heise.de/-4614509</guid>
+        <pubDate>Tue, 24 Dec 2019 09:30:00 +0100</pubDate>
+        
+            <content:encoded><![CDATA[<p>Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind. </p>]]></content:encoded>
+        
+    </item>
+</channel>
+</rss>

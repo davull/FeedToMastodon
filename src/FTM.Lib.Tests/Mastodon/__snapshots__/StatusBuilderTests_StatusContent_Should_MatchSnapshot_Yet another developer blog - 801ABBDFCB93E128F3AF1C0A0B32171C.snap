@@ -1,0 +1,10 @@
+﻿Azure Functions Extensibility - Extensions and Isolated Worker Model
+
+I've been exploring the subject of Azure Functions extensibility on this blog for quite some time. I've touched on subjects directly related to creating extensions and their anatomy, but also some peripheral ones.
+
+Azure Functions Extensibility - Overview
+Azure Functions Extensibility - Triggers
+Azure Functions Extensibility - Runtime Scaling
+Azure Functions Extensibility - Extending Extensio...
+---
+http://www.tpeczek.com/2024/03/azure-functions-extensibility.html

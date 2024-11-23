@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.rulers": [
+        100
+    ]
+}

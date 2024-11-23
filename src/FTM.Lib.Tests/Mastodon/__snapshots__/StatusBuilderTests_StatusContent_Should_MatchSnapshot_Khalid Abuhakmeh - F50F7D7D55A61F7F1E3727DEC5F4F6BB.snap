@@ -1,0 +1,7 @@
+﻿Add EF Core Migrations to .NET Aspire Solutions
+
+Folks working with EF Core are likely very fond of the library’s migration features, one of the most vital selling points for adopting an ORM. If you’re building a .NET solution, your database schema will evolve, and adding, removing, and updating are everyday actions you must perform.
+
+.NET Aspire can ease the development of distributed solutions, but you still need to bridge the gap between development time act...
+---
+https://khalidabuhakmeh.com/add-ef-core-migrations-to-dotnet-aspire-solutions

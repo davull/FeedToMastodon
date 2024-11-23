@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "5798 at http://www.windowspro.de",
+    "raw": "Microsoft erhöht Preise für Teams Phone und Power BI, vereinheitlicht Aufschlag für monatliche Zahlungsweise",
+    "sanitized": "Microsoft erhöht Preise für Teams Phone und Power BI, vereinheitlicht Aufschlag für monatliche Zahlungsweise"
+  },
+  {
+    "itemId": "4956 at http://www.windowspro.de",
+    "raw": "Webinar: PowerShell mit der Automationsplattform von ScriptRunner effizient einsetzen",
+    "sanitized": "Webinar: PowerShell mit der Automationsplattform von ScriptRunner effizient einsetzen"
+  },
+  {
+    "itemId": "5796 at http://www.windowspro.de",
+    "raw": "Windows Server 2025 Essentials: Einschränkungen bei Hardware, RDS und Lizenzierung",
+    "sanitized": "Windows Server 2025 Essentials: Einschränkungen bei Hardware, RDS und Lizenzierung"
+  },
+  {
+    "itemId": "5070 at http://www.windowspro.de",
+    "raw": "Grundlagen des Load Balancing: Scheduling, Persistenz, Timeout",
+    "sanitized": "Grundlagen des Load Balancing: Scheduling, Persistenz, Timeout"
+  },
+  {
+    "itemId": "5795 at http://www.windowspro.de",
+    "raw": "Broadcom positioniert VMware gegen Public Clouds, kündigt Advanced Services für VCF an",
+    "sanitized": "Broadcom positioniert VMware gegen Public Clouds, kündigt Advanced Services für VCF an"
+  },
+  {
+    "itemId": "5793 at http://www.windowspro.de",
+    "raw": "Microsoft Teams in virtuellen Desktops nativ nutzen",
+    "sanitized": "Microsoft Teams in virtuellen Desktops nativ nutzen"
+  },
+  {
+    "itemId": "5794 at http://www.windowspro.de",
+    "raw": "Microsoft veröffentlicht kostenloses eBook zu Windows Server 2025 Security",
+    "sanitized": "Microsoft veröffentlicht kostenloses eBook zu Windows Server 2025 Security"
+  },
+  {
+    "itemId": "5685 at http://www.windowspro.de",
+    "raw": "Whitepaper: Mit NDR, SIEM und EPP gegen Ransomware vorbeugen und Angriffe frühzeitig erkennen",
+    "sanitized": "Whitepaper: Mit NDR, SIEM und EPP gegen Ransomware vorbeugen und Angriffe frühzeitig erkennen"
+  },
+  {
+    "itemId": "5789 at http://www.windowspro.de",
+    "raw": "Anleitung: Free LoadMaster als Reverse Proxy konfigurieren",
+    "sanitized": "Anleitung: Free LoadMaster als Reverse Proxy konfigurieren"
+  },
+  {
+    "itemId": "5792 at http://www.windowspro.de",
+    "raw": "Microsoft gibt Windows Server 2025 frei: Essentials Edition bleibt, Pay-as-you-go kommt neu hinzu, Preise ziehen an",
+    "sanitized": "Microsoft gibt Windows Server 2025 frei: Essentials Edition bleibt, Pay-as-you-go kommt neu hinzu, Preise ziehen an"
+  }
+]

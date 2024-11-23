@@ -1,0 +1,5 @@
+﻿How to Install Mattermost with Nginx proxy and free Let's Encrypt SSL on Ubuntu 24.04
+
+Mattermost is an open-source alternative to Slack and Microsoft Teams. It allows you to self-host online chat with multiple features such as file sharing, search, automation, and multiple third-party integrations. In this tutorial, you'll learn how to install Mattermost on Ubuntu 24.04 server.
+---
+https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/

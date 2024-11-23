@@ -1,0 +1,1000 @@
+﻿{
+  "Id": "http://technikblog.ch/feed/",
+  "Website": "https://technikblog.ch/",
+  "Title": "Technikblog",
+  "LastUpdatedTime": "2024-11-04T14:01:31+00:00",
+  "Description": "",
+  "Language": "de-CH",
+  "Items": [
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37052",
+      "Title": "Bidirektionales Laden bei Volkswagen ID-Reihe mit erstem Anbieter in der Schweiz möglich",
+      "PublishDate": "2024-11-01T09:07:22+00:00",
+      "Summary": "<p>Mehrfach habe ich hier über bidirektionales Laden berichtet, auch über die damalige Öffnung bei VW in der Software. Seither ist wenig passiert und nun präsentiert sun2wheel ihre neueste bidirektionale 22kW Wallbox die mit VW kompatibel ist, erstmals an der Messe Auto Zürich vom 7. bis 10. November 2024. Damit stellt dies die erste serienmässig verfügbare [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/11/bidirektionales-laden-bei-volkswagen-id-reihe-mit-erstem-anbieter-in-der-schweiz-moeglich/\">Bidirektionales Laden bei Volkswagen ID-Reihe mit erstem Anbieter in der Schweiz möglich</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/11/bidirektionales-laden-bei-volkswagen-id-reihe-mit-erstem-anbieter-in-der-schweiz-moeglich/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37041",
+      "Title": "Borobotics: Bohrroboter statt klassische Bohrung für Erdsonden",
+      "PublishDate": "2024-10-17T17:39:03+00:00",
+      "Summary": "<p>Da in meinem Keller eine rund 21-jährige Luft-Wasser-Wärmepumpe von Stiebel Eltron werkelt, befasse ich mich schon langsam mit dem möglichen Ersatz. Da die Maschine innenaufgestellt ist, fasse ich einen 1:1 Ersatz ins Auge, sprich wieder eine Luft-Wasser-Wärmepumpe. Die spannende Alternative wäre eine Erdsonen-WP, welche dann auch mit deutlich besserem Wirkungsgrad (COP) punkten würde. Da bin [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/10/borobotics-bohrroboter-statt-klassische-bohrung-fuer-erdsonden/\">Borobotics: Bohrroboter statt klassische Bohrung für Erdsonden</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/10/borobotics-bohrroboter-statt-klassische-bohrung-fuer-erdsonden/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36990",
+      "Title": "Einblick in mein umfangreiches Energie Management mit Solar Manager",
+      "PublishDate": "2024-07-30T16:52:10+00:00",
+      "Summary": "<p>Ich blogge hier mittlerweile seit 2017 über meine PV-Anlage und Energie-Optimierungsthemen. Auf Grund zahlreichen Nachfragen bei älteren Artikeln, gebe ich hier gerne eine umfangreiche Übersicht über meine Installation und dessen Optimierung mittels Solar Manager. Mittlerweile habe ich zahlreiche Komponenten eingebunden und optimiert, eine Übersicht und Betrachtung aller Komponenten, habe ich hier versucht zusammen zu stellen. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/07/einblick-in-mein-umfangreiches-energie-management-mit-solar-manager/\">Einblick in mein umfangreiches Energie Management mit Solar Manager</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/07/einblick-in-mein-umfangreiches-energie-management-mit-solar-manager/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36970",
+      "Title": "wobie Box: Die Spotify Streaming-Box für Kinder im Test",
+      "PublishDate": "2024-07-05T07:26:40+00:00",
+      "Summary": "<p>Die wobie box ist eine bildschirmfreie Musikbox für Kinder ab 4 Jahren, die eigenständig Musik entdecken möchten. Diese Alternative zur weit bekannten Tonie-Box wollte ich explizit einmal ausprobieren und mir ist vor allem die direkte Verlinkung zu Streaming-Inhalten und Nutzung einer internen SD-Karte wichtig. Zudem ist das Design etwas neutraler und kommt bei etwas älteren [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/07/wobie-box-die-spotify-streaming-box-fuer-kinder-im-test/\">wobie Box: Die Spotify Streaming-Box für Kinder im Test</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/07/wobie-box-die-spotify-streaming-box-fuer-kinder-im-test/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36952",
+      "Title": "Rückblick auf ein Jahr mit Wärmepumpen-Boiler (BWWP) – Fakten und Daten",
+      "PublishDate": "2024-06-02T06:36:21+00:00",
+      "Summary": "<p>Im Mai letzten Jahres habe ich bei mir einen Phnix Wärmepumpen-Boiler einbauen lassen. Das heisst ich habe jetzt ein Jahr Daten sammeln können und dank meinen Berichten zu Jahreszahlen der PV-Anlage, habe ich auch immer die grössten Verbraucher im Haus analysiert. Das heisst ich habe zahlreiche Vergleichswerte und kann nach einem Jahr Betrieb ein Fazit ziehen, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/06/rueckblick-auf-ein-jahr-mit-waermepumpen-boiler-bwwp-fakten-und-daten/\">Rückblick auf ein Jahr mit Wärmepumpen-Boiler (BWWP) &#8211; Fakten und Daten</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/06/rueckblick-auf-ein-jahr-mit-waermepumpen-boiler-bwwp-fakten-und-daten/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36746",
+      "Title": "PV-Anlage mit 6 Modulen und Hoymiles Micro-Wechselrichtern auf den Carport gebaut",
+      "PublishDate": "2024-04-07T06:00:00+00:00",
+      "Summary": "<p>Im April 2022 hatte ich unsere PV-Anlage auf knappe 22kWp erweitert, da wurde unser EFH zum Plusenergiehaus. Seither hat sich nichts mehr getan, bis zur nächsten Idee Anfang 2024. Denn auf der Ostseite des Carports hatte ich schon 2020 PV-Module angebracht, warum nicht auch auf der Westseite? Durch die Verschattung des Wohnhauses, hatte ich damals [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/04/pv-anlage-mit-6-modulen-und-hoymiles-micro-wechselrichtern-auf-den-carport-gebaut/\">PV-Anlage mit 6 Modulen und Hoymiles Micro-Wechselrichtern auf den Carport gebaut</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/04/pv-anlage-mit-6-modulen-und-hoymiles-micro-wechselrichtern-auf-den-carport-gebaut/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36864",
+      "Title": "Inklay im Test: Praktisches E-Paper Display für deinen Solar Manager",
+      "PublishDate": "2024-03-28T12:57:53+00:00",
+      "Summary": "<p>Während dem Corona Lockdown kam mein alter Schulkollege Lukas auf die Idee, ein einfaches und schönes E-Paper Display mit passender App zu entwickeln &#8211; Inklay. Bald vier Jahr später hat er sein Side-Project soweit, das man es auch kommerziell erwerben kann. Ich durfte in den letzten Wochen Beta-Tester sein und diverse Feedbacks und Inputs liefern, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/inklay-im-test-praktisches-e-paper-display-fuer-deinen-solar-manager/\">Inklay im Test: Praktisches E-Paper Display für deinen Solar Manager</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/inklay-im-test-praktisches-e-paper-display-fuer-deinen-solar-manager/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36664",
+      "Title": "Hoymiles Mikro-Wechselrichter: Überblick über die Geräteserien HMS und Co.",
+      "PublishDate": "2024-03-26T07:00:00+00:00",
+      "Summary": "<p>Für mein &#171;neustes PV-Projekt, die Erweiterung meiner bisherigen Carport PV-Anlage um die Westseite, habe ich mich in die Thematik der Mikro-Wechselrichter eingelesen. Die Idee 6 weitere PV-Module auf das Dach zu bringen und diese Module mit Mikro-Wechselrichtern zu erschliessen, fand ich ganz spannend. Nach viel Recherche habe ich mich für Hoymiles Produkte entschieden, weil ich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/hoymiles-mikro-wechselrichter-ueberblick-ueber-die-geraeteserien-hms-und-co/\">Hoymiles Mikro-Wechselrichter: Überblick über die Geräteserien HMS und Co.</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/hoymiles-mikro-wechselrichter-ueberblick-ueber-die-geraeteserien-hms-und-co/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36737",
+      "Title": "Wie ich mein eigenes Balkonkraftwerk in Holzoptik montiere und nun meinen eigenen Solarstrom produziere",
+      "PublishDate": "2024-03-20T07:00:00+00:00",
+      "Summary": "<p>Das ist ein Gastbeitrag von Sandro aus dem Berner Oberland Vor 67 Jahren hat sich mein Grossvater seinen Traum vom Eigenheim und Autogarage mit Werkstatt in einem kleinen Dorf im Berner Oberland erfüllt. 2022 durfte ich das Grundstück mitsamt allem, was draufsteht von meinem Vater erwerben. Da sich der Stromendverbrauch gemäss Zahlen der&#160;Energie-Experten.ch&#160;von 1960 – [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/wie-ich-mein-eigenes-balkonkraftwerk-in-holzoptik-montiere-und-nun-meinen-eigenen-solarstrom-produziere/\">Wie ich mein eigenes Balkonkraftwerk in Holzoptik montiere und nun meinen eigenen Solarstrom produziere</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/wie-ich-mein-eigenes-balkonkraftwerk-in-holzoptik-montiere-und-nun-meinen-eigenen-solarstrom-produziere/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36545",
+      "Title": "VW ID. 7 im Test – Das beste Elektroauto von Volkswagen derzeit",
+      "PublishDate": "2024-03-18T07:00:00+00:00",
+      "Summary": "<p>Nach einer für meine Verhältnisse längerer Zeit ohne Elektroauto-Test, ging es Anfang 2024 wieder los mit einem Fahrtest des VW ID. 7. Mit weit über 1000km, meist in winterlichen Verhältnissen, konnte ich den neusten Wurf der MEB-Reihe genauer unter die Lupe nehmen. Im Bereich Software und Hardware gibt es dabei zwei grössere Verbesserungen, gegenüber den [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/vw-id-7-im-test-das-beste-elektroauto-von-volkswagen-derzeit/\">VW ID. 7 im Test &#8211; Das beste Elektroauto von Volkswagen derzeit</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/vw-id-7-im-test-das-beste-elektroauto-von-volkswagen-derzeit/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36722",
+      "Title": "Husqvarna Automower: Batterie-Upgrade nach 9 Jahren statt Neukauf",
+      "PublishDate": "2024-03-08T07:00:00+00:00",
+      "Summary": "<p>Ich habe bei mir seit 2015 einen Husqvarna Automower 305 im Einsatz. Nach kurzer Zeit habe ich diesen mit einem WLAN Modul ausgerüstet. Mittlerweile seit 9 Jahren mäht er friedlich vor sich hin. Es waren bisher kaum Wartungsarbeiten nötig, jetzt hatte er aber schon letztes Jahr etwas an Effizienz eingebüsst. Der Tech-Nerd checkt dann natürlich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/husqvarna-automower-batterie-upgrade-nach-9-jahren-statt-neukauf/\">Husqvarna Automower: Batterie-Upgrade nach 9 Jahren statt Neukauf</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/husqvarna-automower-batterie-upgrade-nach-9-jahren-statt-neukauf/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36555",
+      "Title": "Balkonkraftwerk in der Schweiz: Das musst du wissen!",
+      "PublishDate": "2024-03-03T07:00:00+00:00",
+      "Summary": "<p>Balkonkraftwerk, Balkon-Solaranlage oder \"Mini-PV\" werden die kleinen Photovoltaik-Anlagen genannt, welche ohne grösseren Hürden selbst installiert werden dürfen. In diesem Artikel erkläre ich die Technik, Bewilligung, Vergütung, Normen und spannende Ideen und Erweiterungen zur kleinen PV Anlagen am Balkon.</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/03/balkonkraftwerk-in-der-schweiz-das-musst-du-wissen/\">Balkonkraftwerk in der Schweiz: Das musst du wissen!</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/03/balkonkraftwerk-in-der-schweiz-das-musst-du-wissen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36627",
+      "Title": "Wärmepumpe an die PV-Anlage gekoppelt: Resultate und Fakten nach einem Jahr Betrieb",
+      "PublishDate": "2024-02-22T18:00:00+00:00",
+      "Summary": "<p>Vor etwas mehr als einem Jahr, habe ich hier veröffentlicht, wie ich meine alte Wärmepumpe in mein Home Energy Management System von Solar Manager eingebunden habe. Da diese Optimierung bei mir nun länger als ein Jahr in Betrieb ist, kann ich endlich auch eine Auswertung auf Grund von jährlichen Werten präsentieren. Welchen Einfluss hat die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/02/waermepumpe-an-die-pv-anlage-gekoppelt-resultate-und-fakten-nach-einem-jahr-betrieb/\">Wärmepumpe an die PV-Anlage gekoppelt: Resultate und Fakten nach einem Jahr Betrieb</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/02/waermepumpe-an-die-pv-anlage-gekoppelt-resultate-und-fakten-nach-einem-jahr-betrieb/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36245",
+      "Title": "Tollbird Mautbox im Test: Was taugt die Mautbox im Urlaub?",
+      "PublishDate": "2024-02-21T08:25:37+00:00",
+      "Summary": "<p>Ich hatte hier schon zweimal über unsere Langstrecken-Reisen mit dem Elektroauto nach Italien berichtet, vor wenigen Monaten waren wir das letzte Mal in die Richtung unterwegs. Italien ist dabei nicht nur für seine Kultur und köstliche Küche bekannt, sondern auch für das Mautsystem auf den Autobahnen. Die Erhebung von Mautgebühren auf diesen Strassen ist notwendig, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/02/tollbird-mautbox-im-test-was-taugt-die-mautbox-im-urlaub/\">Tollbird Mautbox im Test: Was taugt die Mautbox im Urlaub?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/02/tollbird-mautbox-im-test-was-taugt-die-mautbox-im-urlaub/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36588",
+      "Title": "Volkswagen ID.7 Tourer – Weltpremiere für den vollelektrischen «Passat»",
+      "PublishDate": "2024-02-19T19:40:45+00:00",
+      "Summary": "<p>Volkswagen erweitert die ID. Familie um den langersehnten Kombi, den ID.7 Tourer. Gerade im Kombi-Land Schweiz, dürfte der vollelektrische ID.7 Tourer mit der neuen 86 kWh Batterie punkten. Damit auch die übliche Langstrecke in die Ferie angenehm verlaufen, steht eine Ladeleistung bis zu 200kW bereit. Das Ladevolumen mit 605 Litern lässt sich auch sehen, wenn [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/02/volkswagen-id-7-tourer-weltpremiere-fuer-den-vollelektrischen-passat/\">Volkswagen ID.7 Tourer &#8211; Weltpremiere für den vollelektrischen &#171;Passat&#187;</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/02/volkswagen-id-7-tourer-weltpremiere-fuer-den-vollelektrischen-passat/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35925",
+      "Title": "Schluss mit Kabelsalat im Kofferraum: Lapp Helix Typ 2 Ladekabel im Test",
+      "PublishDate": "2024-01-21T19:00:00+00:00",
+      "Summary": "<p>Vor über einem Jahr habe ich über Tipps zum richtige Ladekabel für dein Elektroauto gebloggt. Da kam viel Feedback zurück, was ich jeweils sehr schätze. Ein Input kam zu einem Ladekabel, dass ich damals nicht kannte und gerade die Lösung bieten soll, um den üblichen &#171;Kabelsalat&#187; im Kofferraum zu vermeiden. Das Ladekabel Lapp Helix soll [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/01/schluss-mit-kabelsalat-im-kofferraum-lapp-helix-typ-2-ladekabel-im-test/\">Schluss mit Kabelsalat im Kofferraum: Lapp Helix Typ 2 Ladekabel im Test</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/01/schluss-mit-kabelsalat-im-kofferraum-lapp-helix-typ-2-ladekabel-im-test/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36351",
+      "Title": "VW und bidirektionales Laden: Eine Analyse der Möglichkeiten und Limitationen",
+      "PublishDate": "2024-01-08T07:00:00+00:00",
+      "Summary": "<p>Mittlerweile ist es mehr als 2 Jahre her, als Volkswagen das bidirektionale Laden für hauseigenen Elektrofahrzeuge angekündigt hat. Seither wurde viel gemunkelt und diskutiert, ich habe dann mal Anfang 2022 alle aktuelle Fakten auf den Tisch gelegt und niedergeschrieben. Aber wie sieht es heute aus, welche Möglichkeiten habe ich? Welche Limitationen seitens Fahrzeughersteller kommen auf [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/01/vw-und-bidirektionales-laden-eine-analyse-der-moeglichkeiten-und-limitationen/\">VW und bidirektionales Laden: Eine Analyse der Möglichkeiten und Limitationen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/01/vw-und-bidirektionales-laden-eine-analyse-der-moeglichkeiten-und-limitationen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36466",
+      "Title": "Photovoltaik-Anlage auf EFH mit Speicher und zwei Elektroautos: Rückblick 2023",
+      "PublishDate": "2024-01-02T07:00:00+00:00",
+      "Summary": "<p>Wie in den letzten Jahren üblich, mache ich Anfang des Jahres jeweils einen kurzen Rückblick auf unsere Energiebilanz im letzten Jahr. Im Jahr 2017 haben wir unsere PV-Anlage installiert und 2022 auf ein Plusenergiehaus erweitert. Jetzt haben wir etwas mehr als ein Jahr zwei Elektroautos, was die Auswertung vom 2023 gegenüber 2022 besonders spannend macht. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/01/photovoltaik-anlage-auf-efh-mit-speicher-und-zwei-elektroautos-rueckblick-2023/\">Photovoltaik-Anlage auf EFH mit Speicher und zwei Elektroautos: Rückblick 2023</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/01/photovoltaik-anlage-auf-efh-mit-speicher-und-zwei-elektroautos-rueckblick-2023/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36357",
+      "Title": "Modual Hexagon: Second Life Batterien als Heimspeicher installiert",
+      "PublishDate": "2023-12-30T07:00:00+00:00",
+      "Summary": "<p>Beim Thema Energiespeicher für zu Hause wird oft um das Thema Nachhaltigkeit diskutiert. Eine für mich enorm spannende Thematik ist hierbei der 2nd Life Speicher. Genau so ein Projekt habe ich bei mir vor einigen Wochen mit dem Hexagon System der Schweizer Firma Modual umgesetzt. Der Name &#171;Twice Energy&#187; dürfte etwas geläufiger sein, die Firma [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/modual-hexagon-second-life-batterien-als-heimspeicher-installiert/\">Modual Hexagon: Second Life Batterien als Heimspeicher installiert</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/modual-hexagon-second-life-batterien-als-heimspeicher-installiert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36416",
+      "Title": "Praktischer Button mit E-Paper Display für die PV-Anlage",
+      "PublishDate": "2023-12-27T19:57:47+00:00",
+      "Summary": "<p>Seit einigen Wochen habe ich bei mir den myStrom WiFi Button in der Max Solar Manager Edition im Einsatz. Der Button ist eine &#171;Spezialversion&#187; der myStrom-Variante und kann einfach in die Solar Manager Plattform integriert werden. Das stromsparende E-Paper Display zeigt Stromflüsse und Statistiken an, kann aber auch für einfache Steuerungen genutzt werden. Inbetriebnahme Die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/praktischer-button-mit-e-paper-display-fuer-die-pv-anlage/\">Praktischer Button mit E-Paper Display für die PV-Anlage</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/praktischer-button-mit-e-paper-display-fuer-die-pv-anlage/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36422",
+      "Title": "Vollelektrisches Pistenfahrzeug: In Flumserberg werden Skipisten jetzt auch vollelektrisch präpariert",
+      "PublishDate": "2023-12-21T11:59:30+00:00",
+      "Summary": "<p>Im Ostschweizer Wintersportgebiet Flumserberg wurde diese Woche das erste vollelektrische Pistenfahrzeug der Schweiz ausgeliefert. Als grosser Fan von vollelektrischen Fahrzeugen und mit vielen Tests von Elektroautos auf dem Buckel, freut es mich extrem, dass nun die Emobilität auch im Bereich der Pistenpräparierung Einzug erhalten hat. Vollelektrisches Pistenfahrzeug Das vollelektrische Pistenfahrzeug kommt vom italienischen Hersteller Prinoth [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/vollelektrisches-pistenfahrzeug-in-flumserberg-werden-skipisten-jetzt-auch-vollelektrisch-prapariert/\">Vollelektrisches Pistenfahrzeug: In Flumserberg werden Skipisten jetzt auch vollelektrisch präpariert</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/vollelektrisches-pistenfahrzeug-in-flumserberg-werden-skipisten-jetzt-auch-vollelektrisch-prapariert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36333",
+      "Title": "Shelly Plus PM Mini im Test – praktischer kleiner Helfer",
+      "PublishDate": "2023-12-18T07:05:13+00:00",
+      "Summary": "<p>Die neuen Shelly Plus Mini Geräte sind mittlerweile da und gerade das Shelly Plus PM Mini ist für mich sehr spannend. So habe ich mir davon 4 Stück zugelegt, und berichte hier gerne wie ich den &#171;kleinsten&#187; Shelly bei mir im Energie Management einsetze. Shelly nennt ihn selbst den &#171;kleinsten Leistungsmesser der Welt für präzise [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/shelly-plus-pm-mini-im-test-praktischer-kleiner-helfer/\">Shelly Plus PM Mini im Test &#8211; praktischer kleiner Helfer</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/shelly-plus-pm-mini-im-test-praktischer-kleiner-helfer/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36339",
+      "Title": "Dynamische Stromtarife kommen in die Schweiz: So funktioniert das Modell",
+      "PublishDate": "2023-12-14T06:00:00+00:00",
+      "Summary": "<p>In anderen Ländern sind dynamische Stromtarife gang und gäbe. In der Schweiz kennt man aber üblicherweise meistens nur den Doppeltarif, umgangssprachlich auch Hoch- und Niedertarif genannt, und in einigen Regionen den Einheitstarif. Sprich entweder hat man zwei Tarifzonen oder nur eine. In Deutschland und nordischen Ländern gibt es aber eben dynamische Stromtarife &#8211; in der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/dynamische-stromtarife-kommen-in-die-schweiz-so-funktioniert-das-modell/\">Dynamische Stromtarife kommen in die Schweiz: So funktioniert das Modell</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/dynamische-stromtarife-kommen-in-die-schweiz-so-funktioniert-das-modell/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36247",
+      "Title": "Langstrecke mit dem Elektroauto: Ein Erfahrungsbericht mit Familie",
+      "PublishDate": "2023-12-10T09:57:42+00:00",
+      "Summary": "<p>Ja, das wird noch ein Langstrecken-Fahrbericht mit einem Elektroauto. So lange mich vor meinen Ferien, nach den Ferien und sogar während den Ferien noch Leute fragen, wie man mit dem Elektroauto und Familie nach Italien reisen kann, braucht es solche Erfahrungsberichte. Wir waren im Herbst für 2 Wochen in Italien, die komplette vierköpfige Familie, mit [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/langstrecke-mit-dem-elektroauto-ein-erfahrungsbericht-mit-familie/\">Langstrecke mit dem Elektroauto: Ein Erfahrungsbericht mit Familie</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/langstrecke-mit-dem-elektroauto-ein-erfahrungsbericht-mit-familie/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36261",
+      "Title": "Elektroautos gezielt nach Ladestand (SoC) laden mit Solar Manager",
+      "PublishDate": "2023-12-08T16:17:34+00:00",
+      "Summary": "<p>Das Energie Management in unserem Haus wird durch den Solar Manager orchestriert und verwaltet. Er hat einerseits die Wärmepumpe im Griff, den WP-Boiler und zahlreiche Smart Plugs, anderseits aber auch die Ladestationen für die zwei Elektroautos. Nun gab es ein erfreuliches Update, dass genau beim letzten Punkt für deutlich mehr Komfort sorgt. Der Ladestand der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/elektroautos-gezielt-nach-ladestand-soc-laden-mit-solar-manager/\">Elektroautos gezielt nach Ladestand (SoC) laden mit Solar Manager</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/elektroautos-gezielt-nach-ladestand-soc-laden-mit-solar-manager/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=36242",
+      "Title": "Helion kauft Solarstrom von Privaten: Fixpreise und Börsenmodell verfügbar",
+      "PublishDate": "2023-12-06T08:29:54+00:00",
+      "Summary": "<p>Ich habe hier öfter über die Vermarktung von eigenem Solarstrom geschrieben, wie zum Beispiel das Referenzmarktmodell, welches CKW letztes Jahr stark publik machte. Heute lanciert Helion, welche mittlerweile zur AMAG gehören, zwei neue Tarifangebote für Besitzerinnen und -besitzern: Einem Fixtarif analog der Festhypothek oder einem Börsentarif analog einer Saron-Hypothek für den eingespeisten Solarstrom «Fixtarif» für [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/12/helion-kauft-solarstrom-von-privaten-fixpreise-und-borsenmodell-verfugbar/\">Helion kauft Solarstrom von Privaten: Fixpreise und Börsenmodell verfügbar</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/12/helion-kauft-solarstrom-von-privaten-fixpreise-und-borsenmodell-verfugbar/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35948",
+      "Title": "Zone 2 Training mit der Apple Watch und Watch OS 10",
+      "PublishDate": "2023-09-27T06:00:00+00:00",
+      "Summary": "<p>Mit Watch OS 10 hat Apple den neusten Wurf seines Betriebssystems für die Apple Watch vor einer Woche released. Wie immer sind die grossen Updates bei Apple mit einigen Veränderungen und Verbesserungen vollgepackt. Besonders interessant finde ich die Verbesserungen in der Trainings-App, vor allem wenn man gezielter trainieren will. Hier zeige ich wie man beispielsweise [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/09/zone-2-training-mit-der-apple-watch-und-watch-os-10/\">Zone 2 Training mit der Apple Watch und Watch OS 10</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/09/zone-2-training-mit-der-apple-watch-und-watch-os-10/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35929",
+      "Title": "Apple zeigt iPhone 15 (Pro), Apple Watch Series 9 und Ultra 2 – Hallo USB-C und Teleobjektiv",
+      "PublishDate": "2023-09-12T18:57:04+00:00",
+      "Summary": "<p>Heute Dienstagabend hat Apple das iPhone 15 und neue Apple Watches präsentiert. Die Produkte-Show vom Apple-Hauptsitz in Cupertino wurd live im Internet übertragen und kann natürlich auch noch auf dem Youtube-Kanal von Apple nachgeschaut werden. Wer es lieber kürzer mag, für den gib es die Zusammenfassung hier: Apple iPhone 15 Pro Die Gerüchteküche wurde bestätigt, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/09/apple-zeigt-iphone-15-und-apple-watch-series-9-und-ultra-2/\">Apple zeigt iPhone 15 (Pro), Apple Watch Series 9 und Ultra 2 &#8211; Hallo USB-C und Teleobjektiv</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/09/apple-zeigt-iphone-15-und-apple-watch-series-9-und-ultra-2/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35904",
+      "Title": "Warum der Strompreis für Schweizer für 2024 weiter steigen wird…",
+      "PublishDate": "2023-08-24T06:40:43+00:00",
+      "Summary": "<p>Die letzten Wochen bemerkte ich in vielen Diskussionen, dass man davon ausgeht, dass die erhöhten Strompreise von 2023 eine Ausnahme waren. So gehen viele Leute davon aus, dass wir für das 2024 sinkende Preise erwarten dürfen. Ich tendiere in die andere Richtung, warum und was der Zusammenhang mit dem Referenzmarktpreis für PV-Anlagen zu tun, versuche [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/08/warum-der-strompreis-fuer-schweizer-fuer-2024-weiter-steigen/\">Warum der Strompreis für Schweizer für 2024 weiter steigen wird&#8230;</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/08/warum-der-strompreis-fuer-schweizer-fuer-2024-weiter-steigen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35893",
+      "Title": "Sind Ladetarife die neue «Reichweitenangst» der Elektromobilität?",
+      "PublishDate": "2023-07-17T07:09:19+00:00",
+      "Summary": "<p>Seit 2017 bin ich rein elektrisch unterwegs und die Thematik &#171;Reichweitenangst&#187; hat mich seit jeher begleitet. Dies vor allem von Leuten, die noch nicht elektrisch unterwegs sind. Was mir derzeit aber immer wieder öfter begegnet, ist das Thema Ladetarife. Dieses Thema aber auch von Elektroautofahrern und meistens stark umstritten auch in sozialen Medien. Was darf [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/07/sind-ladetarife-die-neue-reichweitenangst-der-elektromobilitaet/\">Sind Ladetarife die neue &#171;Reichweitenangst&#187; der Elektromobilität?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/07/sind-ladetarife-die-neue-reichweitenangst-der-elektromobilitaet/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35857",
+      "Title": "Warmwasser-Boiler durch eine Wärmepumpe (BWWP) ersetzt – Fazit nach einem Monat",
+      "PublishDate": "2023-07-06T04:56:47+00:00",
+      "Summary": "<p>In meinen Berichten zu Jahreszahlen der PV-Anlage, habe ich auch immer die grössten Verbraucher im Haus analysiert. Mittlerweile wohnen wir jetzt schon über ein Jahr in einem Plusenergiehaus und produzieren über das Jahr hinweg mehr Energie, als wir brauchen. In allen Analysen kam ich immer zum Schluss, dass die nächste grosse Massnahme bei uns der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/07/warmwasser-boiler-durch-eine-waermepumpe-bwwp-ersetzt-fazit-nach-einem-monat/\">Warmwasser-Boiler durch eine Wärmepumpe (BWWP) ersetzt &#8211; Fazit nach einem Monat</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/07/warmwasser-boiler-durch-eine-waermepumpe-bwwp-ersetzt-fazit-nach-einem-monat/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35842",
+      "Title": "Rückblick auf ein Jahr Plusenergiehaus mit PV-Anlage und zwei Elektroautos",
+      "PublishDate": "2023-06-12T13:34:26+00:00",
+      "Summary": "<p>Im April 2022 hatte ich unsere PV-Anlage auf knappe 22kWp erweitert. Damit wurde unser EFH zu einem Plusenergiehaus. Per Definition hat ein ein Plusenergiehaus eine jährliche Energiebilanz mit einem positiven Wert. Sprich das Gebäude produziert jährlich mehr Energie, als es gesamthaft verbraucht &#8211; inklusive Wärmegewinnung und Mobilität. Hier gebe ich gerne ein paar Zahlen zur Anlage nach [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/06/rueckblick-auf-ein-jahr-plusenergiehaus-mit-pv-anlage-und-zwei-elektroautos/\">Rückblick auf ein Jahr Plusenergiehaus mit PV-Anlage und zwei Elektroautos</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/06/rueckblick-auf-ein-jahr-plusenergiehaus-mit-pv-anlage-und-zwei-elektroautos/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35820",
+      "Title": "VW ID.3 Pro S (Facelift 2023) im kurzen Fahrtest mit zahlreiche Verbesserungen",
+      "PublishDate": "2023-06-01T05:00:00+00:00",
+      "Summary": "<p>Mittlerweile ist es schon bald 3 Jahre her, als ich den VW ID.3 in Empfang nahm und damit unterwegs war, bis wir auf den VW ID. 4 umgestiegen sind. Das Modell war das erste Elektroauto aus dem Volkswagen Konzern, das als reines Elektroauto entwickelt wurde auf der Plattform MEB. Volkswagen hat nun die ersten Modelle [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/06/vw-id-3-pro-s-facelift-2023-im-kurzen-fahrtest-mit-zahlreiche-verbesserungen/\">VW ID.3 Pro S (Facelift 2023) im kurzen Fahrtest mit zahlreiche Verbesserungen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/06/vw-id-3-pro-s-facelift-2023-im-kurzen-fahrtest-mit-zahlreiche-verbesserungen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35552",
+      "Title": "Testbericht: Shelly Pro 3EM – das einfache Energiemessgerät noch besser",
+      "PublishDate": "2023-05-15T11:33:59+00:00",
+      "Summary": "<p>Das neue Shelly Pro 3EM ist quasi die &#171;bessere&#187; Version des sehr beliebten Shelly 3EM, über das ich hier schon berichtet habe. Rund eineinhalb Jahre später bringt Allterco also ein Pro-Gerät für eine dreiphasige Energiemessung heraus. Das muss ich natürlich ausprobieren und hatte gerade ein passendes Projekt zur Hand. Unterschied Shelly Pro 3EM zu Shelly [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/05/testbericht-shelly-pro-3em-das-einfache-energiemessgeraet-noch-besser/\">Testbericht: Shelly Pro 3EM – das einfache Energiemessgerät noch besser</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/05/testbericht-shelly-pro-3em-das-einfache-energiemessgeraet-noch-besser/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35706",
+      "Title": "Fahrbericht: Smart #1 im Test – der auffällige Unauffällige",
+      "PublishDate": "2023-05-03T06:00:00+00:00",
+      "Summary": "<p>Eines aus meiner Sicht spannendsten Elektroautos im Jahr 2023 ist der Smart #1. Er definiert die Marke smart komplett neu und tritt mit dem #1 in eine neue Fahrzeugsparte. Im #1 werden zum ersten Mal die Kräfte von Mercedes und der chinesischen Geely-Gruppe gebündelt und die Eckdaten des &#171;Hashtag One&#187;, wie man den Modellnamen korrekt [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/05/fahrbericht-smart-1-im-test-der-auffaellige-unauffaellige/\">Fahrbericht: Smart #1 im Test &#8211; der auffällige Unauffällige</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/05/fahrbericht-smart-1-im-test-der-auffaellige-unauffaellige/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35790",
+      "Title": "VW bringt Plug & Charge für Bestandsfahrzeuge mit 3.2 Update",
+      "PublishDate": "2023-04-28T08:00:08+00:00",
+      "Summary": "<p>Seit einigen Tagen hat mein ID. 4 1ST als einer der ersten das MEB Update 3.2 aufgespielt bekommen. Das heisst es kamen einige nette Features dazu, besonders habe ich mich aber auf Plug &#38; Charge gefreut. Hier erkläre ich, was Plug &#38; Charge genau ist, wie man es aktiviert und wie es dann in der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/04/vw-bringt-plug-charge-fuer-bestandsfahrzeuge-mit-3-2-update/\">VW bringt Plug &#038; Charge für Bestandsfahrzeuge mit 3.2 Update</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/04/vw-bringt-plug-charge-fuer-bestandsfahrzeuge-mit-3-2-update/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35775",
+      "Title": "Rückliefervergütung nach Referenzmarktpreis für Solarstrom in der Schweiz – was ist passiert?",
+      "PublishDate": "2023-04-20T08:25:03+00:00",
+      "Summary": "<p>Ich hatte letztes Jahr hier im Technikblog genau erklärt, was es mit der Vergütung von PV-Strom nach Referenzmarktpreis auf sich hat. Ein grosser Hype rund um den Verkauf von Solarstrom ist im letzten Herbst/Winter entfacht und nun nach den Quartalszahlen im Q1 2023 ist Ernüchterung eingekehrt. Was ist passiert? In welchem Modell bin ich als [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/04/ruecklieferverguetung-nach-referenzmarktpreis-fuer-solarstrom-in-der-schweiz-was-ist-passiert/\">Rückliefervergütung nach Referenzmarktpreis für Solarstrom in der Schweiz &#8211; was ist passiert?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/04/ruecklieferverguetung-nach-referenzmarktpreis-fuer-solarstrom-in-der-schweiz-was-ist-passiert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35739",
+      "Title": "Testbericht: Elektroauto-Batterien mit dem Aviloo Batterietest auf Kapazität prüfen",
+      "PublishDate": "2023-04-19T18:42:18+00:00",
+      "Summary": "<p>Jetzt teste ich über ein halbes Jahrzehnt Elektroautos und wir fahren in der Familie schon einige Zeit nur noch elektrisch. Mit neuen Fahrzeugen ist die Thematik weniger aktuell, aber gerade gebrauchte Elektroautos ziehen immer wieder Diskussionen rund um den Akkuzustand mit sich. Genau in dem Bereich will sich Aviloo mit einem einfachen Test zur Messung [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/04/testbericht-elektroauto-batterien-mit-dem-aviloo-batterietest-auf-kapazitaet-pruefen/\">Testbericht: Elektroauto-Batterien mit dem Aviloo Batterietest auf Kapazität prüfen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/04/testbericht-elektroauto-batterien-mit-dem-aviloo-batterietest-auf-kapazitaet-pruefen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35693",
+      "Title": "Solarproduktion und Energie-Haushalt einfach visualisieren (LaMetric & Tidbyt)",
+      "PublishDate": "2023-04-05T06:00:00+00:00",
+      "Summary": "<p>Als absolut angefressener Besitzer einer PV-Anlage nutze ich mein Smartphone mehrmals täglich um meine Solaranlage und das Energie Management zu prüfen. Allenfalls mache ich noch Einstellungen oder schaue was ich noch verbessern kann. Dazu braucht es aber immer den Griff zum Smartphone und deswegen habe ich zu Hause einige Dinge umgesetzt, um auch für die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/04/solarproduktion-und-energie-haushalt-einfach-visualisieren-lametric-tidbyt/\">Solarproduktion und Energie-Haushalt einfach visualisieren (LaMetric &#038; Tidbyt)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/04/solarproduktion-und-energie-haushalt-einfach-visualisieren-lametric-tidbyt/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35698",
+      "Title": "Tesla öffnet Supercharger Netzwerk nun grossflächig für Fremdmarken",
+      "PublishDate": "2023-03-26T17:14:25+00:00",
+      "Summary": "<p>Ich hatte Ende 2022 berichtet, das Tesla erste Supercharger auch in der Schweiz für Fremdmarken geöffnet hatte. Das Projekt lief mit einigen Standorten die letzten Monate weiter und nun sind praktisch alle Standorte in der Schweiz geöffnet. Damit vergrössert sich das Angebot an Schnellladern (HPCs) in der Schweiz und Europa massiv. Ladung in Pratteln ausprobiert [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/03/tesla-oeffnet-supercharger-netzwerk-nun-grossflaechig-fuer-fremdmarken/\">Tesla öffnet Supercharger Netzwerk nun grossflächig für Fremdmarken</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/03/tesla-oeffnet-supercharger-netzwerk-nun-grossflaechig-fuer-fremdmarken/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35676",
+      "Title": "Volkswagen stellt den neuen ID.3 vor: frisches Design & hochwertigere Materialien",
+      "PublishDate": "2023-03-06T07:00:00+00:00",
+      "Summary": "<p>Als einer der ersten in der Schweiz war ich mehr als ein halbes Jahr mit einem VW ID. 3 unterwegs. Nach wie vor eine tolle Erinnerung für mich, waren die zweite Tage auf der Grand Tour über einige Pässe mit dem ID. 3. Nun hat Volkswagen den ID.3 Facelift vorgestellt, eine überarbeite Version des ID. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/03/volkswagen-stellt-den-neuen-id-3-vor-frisches-design-hochwertigere-materialien/\">Volkswagen stellt den neuen ID.3 vor: frisches Design &#038; hochwertigere Materialien</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/03/volkswagen-stellt-den-neuen-id-3-vor-frisches-design-hochwertigere-materialien/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35629",
+      "Title": "Wireless Carplay einfach nachrüsten – Praxisbeispiel am VW e-Golf",
+      "PublishDate": "2023-02-28T07:00:00+00:00",
+      "Summary": "<p>Wer diesen Blog öfter liest, kennt meine Vorliebe für Apple CarPlay. Was mir aber ein Dorn im Auge ist, sind die Integrationen in Fahrzeuge über kabelgebundene Lösungen. Das muss einfach und bequem über &#171;wireless CarPlay&#187; möglich sein und genau auf das Problem bin ich wieder beim Kauf eines gebrauchten VW e-Golf gestossen. Da musste ich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/02/wireless-carplay-einfach-nachruesten-praxisbeispiel-am-vw-e-golf/\">Wireless Carplay einfach nachrüsten &#8211; Praxisbeispiel am VW e-Golf</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/02/wireless-carplay-einfach-nachruesten-praxisbeispiel-am-vw-e-golf/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35659",
+      "Title": "Top 5 Gründe für E-Mobilität: Nachhaltigkeit, Effizienz, Kosten und unsere Zukunft",
+      "PublishDate": "2023-02-26T18:20:56+00:00",
+      "Summary": "<p>E-Mobilität ist das Modell der Zukunft im Strassenverkehr. Die Umwelt schreit geradezu nach einer Alternative zum CO₂-Ausstoss &#8211; dem lästigen Relikt nach jeder Tour mit dem Verbrenner. Auch der penetrante Geruch im Innenraum nach dem Tanken ist nicht gerade angenehm und zudem nicht gerade gesund. Deshalb ist die E-Mobilität in der Tat ein geniales Konzept, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/02/top-5-gruende-fuer-e-mobilitaet-nachhaltigkeit-effizienz-kosten-und-unsere-zukunft/\">Top 5 Gründe für E-Mobilität: Nachhaltigkeit, Effizienz, Kosten und unsere Zukunft</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/02/top-5-gruende-fuer-e-mobilitaet-nachhaltigkeit-effizienz-kosten-und-unsere-zukunft/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35513",
+      "Title": "Wie ich meine alte Wärmepumpe an die PV-Anlage gekoppelt habe",
+      "PublishDate": "2023-02-12T20:11:16+00:00",
+      "Summary": "<p>Meine Stiebel Eltron Wärmepumpe ist mittlerweile 20 Jahre alt. Vor mittlerweile 7 Jahren hatte ich mit Hilfe ein Tado Thermostat nachrüsten lassen. Nun will ich komplett von Tado weg und die Wärmepumpe über das sowieso vorhandene Loxone System steuern. Zusätzlich kommt die Anforderung dazu, die WP auch gezielt mit Strom von der PV-Anlage zu betreiben. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/02/wie-ich-meine-alte-waermepumpe-an-die-pv-anlage-gekoppelt-habe/\">Wie ich meine alte Wärmepumpe an die PV-Anlage gekoppelt habe</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/02/wie-ich-meine-alte-waermepumpe-an-die-pv-anlage-gekoppelt-habe/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35471",
+      "Title": "Renault Megane E-Tech im Test: Dieser Stromer bietet viel fürs Geld",
+      "PublishDate": "2023-02-02T07:00:00+00:00",
+      "Summary": "<p>Kurz vor dem Jahresende wollte ich noch ich mir noch eines der spannendsten Elektroautos von 2022 genauer anschauen. Der Renault Megane E-Tech bietet sehr viel Technik, kombiniert mit interessanter Reichweite und Platzangebot bei vergleichsweise tiefem Preis. Ist da ein Haken oder hat der französische Hersteller hier ein ganz spannendes Fahrzeug auf den Markt gebracht? Testfahrzeug: [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/02/renault-megane-e-tech-im-test-dieser-stromer-bietet-viel-fuers-geld/\">Renault Megane E-Tech im Test: Dieser Stromer bietet viel fürs Geld</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/02/renault-megane-e-tech-im-test-dieser-stromer-bietet-viel-fuers-geld/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35615",
+      "Title": "AMAG: Transformation eines Automobilunternehmens",
+      "PublishDate": "2023-01-23T07:00:00+00:00",
+      "Summary": "<p>Ich durfte letzte Woche an der Jahrespressekonferenz der AMAG teilnehmen und war besonders gespannt auf die beiden Themen «Elektromobilität und Energie-gewinnung» der neuen Business Unit &#171;AMAG Energy &#38; Mobility&#187;, sowie «Synthetische Treibstoffe – Stand und Bedeutung für die Zukunft» von Synhelion. Ich habe diese PR-Konferenz zum Anlass genommen etwas zum Automarkt Schweiz 2022 und der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/01/amag-transformation-eines-automobilunternehmens/\">AMAG: Transformation eines Automobilunternehmens</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/01/amag-transformation-eines-automobilunternehmens/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35603",
+      "Title": "Tronity im Test: Tiefe Analyse meiner Fahrzeugdaten und -kosten",
+      "PublishDate": "2023-01-19T20:00:00+00:00",
+      "Summary": "<p>Seit Ende 2022 hat auch mein VW ID. 4 das langersehnte 3.0 Update erhalten und ist damit endlich auch voll kompatibel mit Tronity. Ich nutze Tronity seit bald 3 Jahren und erfasse damit alle relevanten Fahrzeugdaten. Dank dem Update sind nun beide unsere Elektroautos in der Lage, relevante Informationen über eine Schnittstelle mit Tronity zu [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/01/tronity-im-test-tiefe-analyse-meiner-fahrzeugdaten-und-kosten/\">Tronity im Test: Tiefe Analyse meiner Fahrzeugdaten und -kosten</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/01/tronity-im-test-tiefe-analyse-meiner-fahrzeugdaten-und-kosten/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35575",
+      "Title": "Sono Motors Sion: Hands-On und Probefahrt mit Serienvalidierungsfahrzeug Gen III",
+      "PublishDate": "2023-01-16T06:55:15+00:00",
+      "Summary": "<p>Dieser Blogpost wurde von meinem Kollegen Florin Jäger verfasst (er hatte bereits vor einiger Zeit schon einen&#160;Gastbeitrag&#160;verfasst). Florin packte die Chance und besuchte Sono Motors bei deren RoadShow um das Solar-Elektroauto &#171;Sion&#187; aus der Nähe zu betrachten und auch zu fahren. Vorab: Dieser Artikel wiederspiegelt die Eindrücke von Florin und ist keine Investitionsempfehlung. Das Solar [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/01/sono-motors-sion-hands-on-und-probefahrt-mit-serienvalidierungsfahrzeug-gen-iii/\">Sono Motors Sion: Hands-On und Probefahrt mit Serienvalidierungsfahrzeug Gen III</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/01/sono-motors-sion-hands-on-und-probefahrt-mit-serienvalidierungsfahrzeug-gen-iii/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35525",
+      "Title": "Mit dem VW ID. Buzz in die Skiferien: Verbrauch, Reichweite und Ladeverhalten",
+      "PublishDate": "2023-01-10T06:39:54+00:00",
+      "Summary": "<p>Über den Jahreswechsel hatte ich die Möglichkeit den VW ID. Buzz länger zu testen. Die Idee mit dem Buzz als Familie in die Skiferien zu fahren haben wir durchgezogen, auch wenn der Buzz selbst kaum mit Schnee in Berührung kam. Nichts desto Trotz, war es ein spannender Trip der als Ergänzung zum ersten Test mit [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/01/mit-dem-vw-id-buzz-in-die-skiferien-verbrauch-reichweite-und-ladeverhalten/\">Mit dem VW ID. Buzz in die Skiferien: Verbrauch, Reichweite und Ladeverhalten</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/01/mit-dem-vw-id-buzz-in-die-skiferien-verbrauch-reichweite-und-ladeverhalten/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35502",
+      "Title": "Jahresrückblick 2022: PV-Anlage auf EFH mit Speicher und  Elektroauto",
+      "PublishDate": "2023-01-03T20:03:48+00:00",
+      "Summary": "<p>Im April hatte ich von meiner Erweiterung der PV-Anlage auf 21.88kWp berichtet. Mit dieser Erweiterung wurde das Einfamilienhaus zum &#171;Plusenergiehaus&#187; und produziert jährlich mehr Energie als wir benötigen. Dabei eingerechnet sind auch die Wärmepumpe und mittlerweile zwei Elektroautos, sprich keine fossilen Energieträger sind noch benötigt. Zum Jahresbeginn ziehe ich jeweils kurz Bilanz, wie sich die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2023/01/jahresrueckblick-pv-anlage-mit-speicher-und-elektroauto/\">Jahresrückblick 2022: PV-Anlage auf EFH mit Speicher und  Elektroauto</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2023/01/jahresrueckblick-pv-anlage-mit-speicher-und-elektroauto/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35422",
+      "Title": "Juice Booster 3 Air im Test: Das kann der Nachfolger des Klassikers",
+      "PublishDate": "2022-12-14T11:03:42+00:00",
+      "Summary": "<p>Der Juice Booster 2 dürfte so ziemlich jedem Emobilisten ein Begriff sein, so hat er die letzten Jahre Elektromobilität mit geprägt. Er war schon quasi das Synonym für den Begriff &#171;mobile Ladestation&#187; und mittlerweile hat sich der Markt an Ladelösungen stark weiterentwickelt. Im Herbst hat Juice Technology mit Sitz in der Schweiz, nun die neuste [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/12/juice-booster-3-air-im-test-das-kann-der-nachfolger-des-klassikers/\">Juice Booster 3 Air im Test: Das kann der Nachfolger des Klassikers</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/12/juice-booster-3-air-im-test-das-kann-der-nachfolger-des-klassikers/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35409",
+      "Title": "Mit Apple CarPlay das Garagentor steuern (über Shelly)",
+      "PublishDate": "2022-11-25T08:29:54+00:00",
+      "Summary": "<p>In meinem VW ID.4 ist Carplay ein essentieller Begleiter in meinem täglichen Leben, ich habe quasi meine Smartphone-Umgebung auch direkt im Auto verfügbar. Nun wäre es doch praktisch, gleich auch das Garagentor über das Auto zu steuern. Sprich wenn ich nach Hause fahre, will ich direkt im Auto das Garagentor öffnen und genau das habe [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/mit-apple-carplay-das-garagentor-steuern-ueber-shelly/\">Mit Apple CarPlay das Garagentor steuern (über Shelly)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/mit-apple-carplay-das-garagentor-steuern-ueber-shelly/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35297",
+      "Title": "Testbericht: Nuki Smart Lock 3.0 ausprobiert",
+      "PublishDate": "2022-11-21T07:00:00+00:00",
+      "Summary": "<p>Ich hatte vor langer Zeit einen Vorgänger des Nuki Smart Lock 3.0 im Einsatz und für mich war es nun an der Zeit, das Smart Lock 3.0 zu testen. Ich habe bei mir so einiges an Smart Home verbaut und optimiert, wobei Smart Home bei mir von Loxone gesteuert wird und Energieoptimierung mit Solar Manager. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/testbericht-nuki-smart-lock-3-0-ausprobiert/\">Testbericht: Nuki Smart Lock 3.0 ausprobiert</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/testbericht-nuki-smart-lock-3-0-ausprobiert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35343",
+      "Title": "NRGkick im Test: Die mobile Wallbox mit WLAN und grossem Funktionsumfang",
+      "PublishDate": "2022-11-17T07:00:00+00:00",
+      "Summary": "<p>Seit bald drei Monaten habe ich den NRGkick als mobile Ladestation immer im Kofferraum meines Elektroautos dabei. Er war während meiner Reise nach Italien als Ladelösung dabei und ich habe ihn schon an öffentlichen Ladesäulen oder daheim genutzt. Warum und was die flexible Art zu laden mit der smarten Ladestation von NRGkick mit WLAN und [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/nrgkick-im-test-die-mobile-wallbox-mit-wlan-und-grossem-funktionsumfang/\">NRGkick im Test: Die mobile Wallbox mit WLAN und grossem Funktionsumfang</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/nrgkick-im-test-die-mobile-wallbox-mit-wlan-und-grossem-funktionsumfang/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35323",
+      "Title": "Audi eröffnet charging hub in Zürich",
+      "PublishDate": "2022-11-08T19:49:11+00:00",
+      "Summary": "<p>Gestern wurde in Zürich, als zweite Destination weltweit, ein eigener Audi charging hub eröffnet. Die vier Ladepunkte an der Einfahrt zum Parkhaus der Messe Zürich leisten bis zu 320 kW pro Ladepunkt. Besonders dabei, der Hub stellt mehr Ladeleistung zur Verfügung, als der Anschluss eigentlich leisten würde. Das durch die nutzung von Second-Life-Batterien. Schnellladen in der Stadt [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/audi-eroeffnet-charging-hub-in-zuerich/\">Audi eröffnet charging hub in Zürich</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/audi-eroeffnet-charging-hub-in-zuerich/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35303",
+      "Title": "Solarstrom zum Referenzmarktpreis verkaufen in der Schweiz: Das musst Du wissen",
+      "PublishDate": "2022-11-06T08:55:42+00:00",
+      "Summary": "<p>Die meisten Besitzer von Photovoltaik-Anlagen in der Schweiz kannten bisher meistens nur die Möglichkeit, den überschüssigen Solarstrom dem lokalen Elektrizitätswerk abzutreten. Spätestens seit CKW damit Werbung macht, dass sie Solarstrom aus der ganzen Schweiz einkaufen, macht das Thema die Runde. Ich möchte hier gerne einige Grundlagen dazu erläutern und vor allem auch aufklären, was man [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/solarstrom-zum-referenzmarktpreis-verkaufen-in-der-schweiz-das-musst-du-wissen/\">Solarstrom zum Referenzmarktpreis verkaufen in der Schweiz: Das musst Du wissen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/solarstrom-zum-referenzmarktpreis-verkaufen-in-der-schweiz-das-musst-du-wissen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35275",
+      "Title": "IKEA OBEGRÄNSAD Plattenspieler im Test – Limitierte Auflage￼",
+      "PublishDate": "2022-11-02T06:59:00+00:00",
+      "Summary": "<p>Neu wurde die Kollektion OBEGRÄNSAD in Kooperation mit den Künstlern elektronischer Musik von Swedish House Mafia gestaltet und sei gedacht für alle, die zu Hause Musik schaffen möchten. Hier der Testbericht zum OBEGRÄNSAD.</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/11/ikea-obegransad/\">IKEA OBEGRÄNSAD Plattenspieler im Test – Limitierte Auflage￼</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/11/ikea-obegransad/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35235",
+      "Title": "Fahrbericht: Cupra Born e-Boost – der stylische Kleinwagen mit grosser Batterie",
+      "PublishDate": "2022-10-24T06:00:00+00:00",
+      "Summary": "<p>Ich fuhr selbst über ein halbes Jahr einen VW ID.3 mit der 58kWh Batterie, umso erfreuter war ich nun den Konzernbruder auszuprobieren: Der Cupra Born e-Bost mit der grossen 77kWh verspricht einiges und besonders optisch ein absoluter Hingucker. So habe ich mir den Born genauer angeschaut und während einer Woche auf Herz und Nieren getestet. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/10/fahrbericht-cupra-born-e-boost-der-stylische-kleinwagen-mit-grosser-batterie/\">Fahrbericht: Cupra Born e-Boost &#8211; der stylische Kleinwagen mit grosser Batterie</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/10/fahrbericht-cupra-born-e-boost-der-stylische-kleinwagen-mit-grosser-batterie/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35212",
+      "Title": "Langstrecken-Erfahrung mit VW ID.4, Dachbox und Pump App",
+      "PublishDate": "2022-10-18T19:28:36+00:00",
+      "Summary": "<p>Ich hatte schon mehrfach über Langstrecken-Erfahrungen mit Elektroautos berichtet. Diesmal möchte ich die Gelegenheit wieder nutzen und zeigen, das auch mit viel Gepäck alles möglich ist. Letzten Sommer waren wir schon mit Dachbox von Thule und Veloträger unterwegs, diesmal wieder aber eine längere Strecke: Vom sonnigen Aargau auf die noch sonnigere Insel Elba in Italien, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/10/langstrecken-erfahrung-mit-vw-id-4-dachbox-und-pump-app/\">Langstrecken-Erfahrung mit VW ID.4, Dachbox und Pump App</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/10/langstrecken-erfahrung-mit-vw-id-4-dachbox-und-pump-app/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35072",
+      "Title": "Fahrbericht: Aiways U5 – Chinesisches Elektroauto ausprobiert",
+      "PublishDate": "2022-09-23T06:00:00+00:00",
+      "Summary": "<p>Schon länger habe ich den Aiways U5 auf dem Radar, ein preisgünstiges Elektro-SUV aus China. Den Aiways U5 gibt es bereits neu für unter 40&#8217;000.- CHF und damit ein preislich attraktiver Crossover-SUV für Familien. Klingt spannend, aber ob da wirklich was dran ist? Das wollte ich genauer wissen. Eckdaten zum Aiways U5 Fünftüriger, fünfsitziger Crossover [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/09/fahrbericht-aiways-u5-chinesisches-elektroauto-ausprobiert/\">Fahrbericht: Aiways U5 &#8211; Chinesisches Elektroauto ausprobiert</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/09/fahrbericht-aiways-u5-chinesisches-elektroauto-ausprobiert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35112",
+      "Title": "Klappern mit Stil – die Logitech MX Mechanical Tastatur im Test",
+      "PublishDate": "2022-09-12T06:00:00+00:00",
+      "Summary": "<p>In den letzten Jahren haben mechanische Tastaturen das Herz der Nerds zurückerobert. Nachdem der Trend eine Nische war, wurden Firmen wie Logitech hellhörig und bringen das Revival der mechanischen Tastaturen nun auch für die Massen: die MX Mechanical im Test.</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/09/logitech-mx-mechanical-tastatur-im-test/\">Klappern mit Stil – die Logitech MX Mechanical Tastatur im Test</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/09/logitech-mx-mechanical-tastatur-im-test/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=35028",
+      "Title": "VW ID. Buzz im ersten Test: Der Elektro-Bulli überzeugt von Beginn weg",
+      "PublishDate": "2022-09-07T05:02:12+00:00",
+      "Summary": "<p>Ende August hatte ich das Vergnügen, den brandneuen VW ID. Buzz bereits frühzeitig testen zu können. Der ID.&#160;Buzz&#160;und der ID.&#160;Buzz&#160;Cargo werden Ende Jahr in der Schweiz eintreffen. Ich darf hier bereits die ersten Fahrerfahrungen und Erkenntnisse des neusten Mitglieds der ID-Familie zeigen. Vorab gleich das Video-Review, dass ich zusammen mit Pascal von iNeedContent erstellt habe: [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/09/vw-id-buzz-im-ersten-test-der-elektro-bulli-ueberzeugt-von-beginn-weg/\">VW ID. Buzz im ersten Test: Der Elektro-Bulli überzeugt von Beginn weg</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/09/vw-id-buzz-im-ersten-test-der-elektro-bulli-ueberzeugt-von-beginn-weg/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34915",
+      "Title": "Ratgeber: Das richtige Ladekabel für dein Elektroauto finden (aus der Praxis)",
+      "PublishDate": "2022-08-19T06:00:00+00:00",
+      "Summary": "<p>Wer ein Typ 2 Ladekabel für sein Elektroauto sucht, wird oft in der Masse der Angebote nicht fündig. In diesem Artikel kläre ich die wichtigsten Punkte bei der Auwahl des richtigen Ladekabels für dein Elektroauto und gebe auch ein paar Tipps. Hier gibt es auch etwas technische Grundlagen, wer einfach wissen möchte was er kaufen [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/08/ratgeber-das-richtige-ladekabel-fuer-dein-elektroauto-finden-aus-der-praxis/\">Ratgeber: Das richtige Ladekabel für dein Elektroauto finden (aus der Praxis)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/08/ratgeber-das-richtige-ladekabel-fuer-dein-elektroauto-finden-aus-der-praxis/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34942",
+      "Title": "Genesis GV60 im Test: Geniales Elektroauto das niemand auf dem Radar hatte",
+      "PublishDate": "2022-08-09T06:00:00+00:00",
+      "Summary": "<p>Bis vor rund einem Jahr kannte ich auch Genesis auch kaum selbst, aber mit dem Auftritt an der Auto Zürich war mir der Brand dann ein Begriff. Damals kamen Sie nur mit Verbrennern an die Messe und dieses Jahr bietet Genesis, welche zur koreanischen Hyundai Motor Group gehört, den ersten vollektrischen Wagen an. Der Genesis [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/08/genesis-gv60-im-test-geniales-elektroauto-das-niemand-auf-dem-radar-hatte/\">Genesis GV60 im Test: Geniales Elektroauto das niemand auf dem Radar hatte</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/08/genesis-gv60-im-test-geniales-elektroauto-das-niemand-auf-dem-radar-hatte/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34947",
+      "Title": "Elektroauto lädt Elektroauto – geht das? Ja – das geht.",
+      "PublishDate": "2022-08-04T19:07:37+00:00",
+      "Summary": "<p>Aktuell teste ich den&#160;Genesis GV60 ausführlich. Da hat es mich gereizt, die V2L Funktion der E-GMP Plattform genauer anzuschauen und auszureizen. Ich hatte etwas ähnliches schonmal beim Ioniq 5 probiert, aber hier nochmals ausführlicher mit einigen Bildern und Infos: Kann ich ein Elektroauto mit einem Elektroauto laden? JA &#8211; es geht und hier zeige ich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/08/elektroauto-laedt-elektroauto-geht-das-ja-das-geht/\">Elektroauto lädt Elektroauto &#8211; geht das? Ja &#8211; das geht.</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/08/elektroauto-laedt-elektroauto-geht-das-ja-das-geht/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34893",
+      "Title": "Die Shelly Pro Serie kurz vorgestellt: Shelly Pro 1(PM) und 2(PM)",
+      "PublishDate": "2022-07-18T06:00:00+00:00",
+      "Summary": "<p>Ich habe bei mir einige Shelly Geräte im Einsatz, seit jeher sehr gute Dienste leistet die Messung der Wärmepumpe mit dem Shelly 3EM. Mittlerweile hat Shelly eine &#171;Pro-Serie&#187; auf den Markt gebracht, das erste Gerät davon habe ich auch seit längerem erfolgreich im Einsatz um Steckdosen zu schalten und messen mit dem Shelly Pro 4PM. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/07/shelly-pro-serie/\">Die Shelly Pro Serie kurz vorgestellt: Shelly Pro 1(PM) und 2(PM)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/07/shelly-pro-serie/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34813",
+      "Title": "Das Elektroauto und E-Bike an die PV-Anlage gekoppelt: Nino Schurter optimiert auch Energie",
+      "PublishDate": "2022-06-24T06:00:00+00:00",
+      "Summary": "<p>Nino Schurter ist ein Perfektionist &#8211; muss er schliesslich auch, nicht umsonst ist er der beste Cross-Country Mountainbiker der Welt. Olympiasieger, mehrfacher Weltmeister, siebenfacher Gesamtweltcup-Sieger und Rekordhalter mit den meisten Weltcup-Siegen um nur seine wichtigsten Erfolge aufzuzählen. Aber auch daheim legt er den Fokus auf Perfektion und Nachhaltigkeit. Bereits seit 2015 haben die Schurters zur [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/06/das-elektroauto-und-e-bike-an-die-pv-anlage-gekoppelt-nino-schurter-optimiert-auch-energie/\">Das Elektroauto und E-Bike an die PV-Anlage gekoppelt: Nino Schurter optimiert auch Energie</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/06/das-elektroauto-und-e-bike-an-die-pv-anlage-gekoppelt-nino-schurter-optimiert-auch-energie/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34849",
+      "Title": "Testbericht: Tesla öffnet Supercharger Netzwerk weiter – Ladung mit ID.4 erfolgreich getestet",
+      "PublishDate": "2022-06-16T19:50:46+00:00",
+      "Summary": "<p>Was für News heute, Tesla macht ernst mit der Öffnung des hauseigenen Supercharger Netzwerks. Nachdem bereits in einigen wenigen Ländern das Laden von Fremdmarken bereits möglich war, wurde das Pilotprogramm heute erweitert. Unter anderem kamen die Länder Deutschland und Schweiz dazu, was mich natürlich sofort dazu bewegte das zu testen. Wie kann ich am Supercharger [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/06/testbericht-tesla-oeffnet-supercharger-netzwerk-weiter-ladung-mit-id-4-erfolgreich-getestet/\">Testbericht: Tesla öffnet Supercharger Netzwerk weiter &#8211; Ladung mit ID.4 erfolgreich getestet</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/06/testbericht-tesla-oeffnet-supercharger-netzwerk-weiter-ladung-mit-id-4-erfolgreich-getestet/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34829",
+      "Title": "Testbericht: Polestar 2 Single Motor Variante ausprobiert",
+      "PublishDate": "2022-06-16T05:46:39+00:00",
+      "Summary": "<p>Ende 2020 hatte ich den Polestar 2 in der Launch Edition getestet und hier einen Bericht publiziert. Mittlerweile hat sich der Polestar 2 hier im Markt stark etabliert und es gibt mittlerweile drei Modellvarianten davon. Einerseits die schon von mir getestete Dual-Motor Variante mit dem grossen Akku (Long Range). Andererseits gibt es nun aber auch [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/06/testbericht-polestar-2-single-motor-variante-ausprobiert/\">Testbericht: Polestar 2 Single Motor Variante ausprobiert</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/06/testbericht-polestar-2-single-motor-variante-ausprobiert/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34796",
+      "Title": "Audi A6 e-tron concept: Audis neue Elektroauto Plattform PPE angeschaut",
+      "PublishDate": "2022-05-31T19:41:22+00:00",
+      "Summary": "<p>Ich hatte die Möglichkeit an der Enthüllung des Audi A6 e-tron concept teilzunehmen. Das weltweit einzigartige Konzeptfahrzeug mit Stufenheck steht diese Tage gerade in der Schweiz und präsentiert die neue Technologie-Architektur: die Premium Platform Electric, kurz PPE. Einige für mich relevante Punkte gebe ich hier gerne weiter. Insbesondere ist auch zu vermerken, dass Fahrzeug kommt [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/05/audi-a6-e-tron-concept-audis-neue-elektroauto-plattform-ppe-angeschaut/\">Audi A6 e-tron concept: Audis neue Elektroauto Plattform PPE angeschaut</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/05/audi-a6-e-tron-concept-audis-neue-elektroauto-plattform-ppe-angeschaut/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34734",
+      "Title": "Velux Dachfenster in Loxone mit KLF200 und Shelly (DIY)",
+      "PublishDate": "2022-05-10T06:32:37+00:00",
+      "Summary": "<p>Ich hatte über Jahre hinweg eigentlich nur immer Probleme und Ärger damit, die Velux Dachfenster in Loxone zu integrieren. Die direkte Anbindung mit dem Velux KLF200 klappt nie ganz sauber und wurde durch Updates des KLF irgendwann sowieso untauglich. Die Integration mittels Velux Active in Loxone ist nicht möglich, dafür in Apple HomeKit. Schlussendlich habe [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/05/velux-dachfenster-in-loxone-mit-klf200-und-shelly-diy/\">Velux Dachfenster in Loxone mit KLF200 und Shelly (DIY)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/05/velux-dachfenster-in-loxone-mit-klf200-und-shelly-diy/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34763",
+      "Title": "PV-Anlage auf 21.88kWp Leistung erhöht und damit zum Plusenergiehaus geworden",
+      "PublishDate": "2022-05-04T19:43:11+00:00",
+      "Summary": "<p>In diesem Jahr wird meine PV-Anlage 5 Jahre alt und ich habe mit der Erweiterung im April 2022 mein grosses Ziel erreicht. Ich konnte die Anlage auf total 21.88kWp Leistung auf dem Dach erhöhen, damit wird unser EFH zu einem Plusenergiehaus. Ein&#160;Plusenergiehaus&#160;hat eine jährliche&#160;Energiebilanz mit einem positiven Wert. Sprich das Gebäude produziert jährlich mehr Energie, [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/05/pv-anlage-auf-21-88kwp-leistung-erhoeht-und-damit-zum-plusenergiehaus-geworden/\">PV-Anlage auf 21.88kWp Leistung erhöht und damit zum Plusenergiehaus geworden</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/05/pv-anlage-auf-21-88kwp-leistung-erhoeht-und-damit-zum-plusenergiehaus-geworden/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34745",
+      "Title": "Parklio Parkbügel im Test: Keine Pizza mehr für Falschparker",
+      "PublishDate": "2022-05-02T06:00:00+00:00",
+      "Summary": "<p>Meine Garage hat einen Parkplatz davor. Der gehört mir, sonst käme mein Auto ja nicht in die Garage. Oder wieder raus. Dummerweise interessiert das die Gäste der Pizzeria nebendran kein bisschen. Und da ich es leid bin mich aufzuregen, in das Lokal zu gehen und die Autonummer des entsprechenden Bösewichts (es sind immer Männer) zu [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/05/parklio-parkbuegel-im-test-keine-pizza-mehr-fuer-falschparker/\">Parklio Parkbügel im Test: Keine Pizza mehr für Falschparker</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/05/parklio-parkbuegel-im-test-keine-pizza-mehr-fuer-falschparker/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34731",
+      "Title": "Huawei MatePad 11 im Test",
+      "PublishDate": "2022-04-25T06:00:00+00:00",
+      "Summary": "<p>Seit Jahren setze ich bei Tablets auf ein Modell und nun wollte ich mal wieder den Blick über den Tellerrand wagen: Ich habe mir das Huawei MatePad 11 mehrere Wochen genauer angeschaut und auhc zusammen mit dem hauseigenen M-Pencil genutzt. Matepad 11 Features Qualcomm Snapdragon 865 Octa-Core-Prozessor (bis 2.84 GHz) 6 GB RAM, 128 GB [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/04/huawei-matepad-11-im-test/\">Huawei MatePad 11 im Test</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/04/huawei-matepad-11-im-test/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34693",
+      "Title": "Bidirektionales Laden des Elektroautos: Das muss man wissen",
+      "PublishDate": "2022-03-28T18:59:30+00:00",
+      "Summary": "<p>Das bidirektionale Laden von Elektroautos beherrscht die letzten Wochen wieder viele Medien und Social Media Kanäle. Einerseits natürlich wegen der Ankündigung von Volkswagen und andererseits auch weil das Interesse für erneuerbare Energie stetig wächst. Leider gibt es aber auch sehr viel Falschinformation, einerseits was kompatible Fahrzeuge betrifft und andererseits die unterschiedlichen Anwendungsfälle. Dieser Artikel soll [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/bidirektionales-laden-des-elektroautos-das-muss-man-wissen/\">Bidirektionales Laden des Elektroautos: Das muss man wissen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/bidirektionales-laden-des-elektroautos-das-muss-man-wissen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34699",
+      "Title": "Grüezi Apple HomePod mini: Ab heute in der Schweiz erhältlich",
+      "PublishDate": "2022-03-25T09:25:36+00:00",
+      "Summary": "<p>Grüezi, Salut &#38; Ciao: Apple hat angekündigt, dass HomePod mini ab heute in der Schweiz für 99.- CHF offiziell bei Apple erhältlich ist. Nicht nur das, Sir versteht auch Schweizerdeutsch und deckt damit die Landessprachen der Schweiz ab. Mit einer Höhe von gerade einmal 8,4 cm ist HomePod mini vollgepackt mit Innovationen, um einen unerwartet [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/grueezi-apple-homepod-mini-ab-heute-in-der-schweiz-erhaeltlich/\">Grüezi Apple HomePod mini: Ab heute in der Schweiz erhältlich</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/grueezi-apple-homepod-mini-ab-heute-in-der-schweiz-erhaeltlich/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34684",
+      "Title": "VW ID. Modelle erhalten Software 3.0: Das ist neu",
+      "PublishDate": "2022-03-21T19:34:52+00:00",
+      "Summary": "<p>Neu produzierte Fahrzeuge von der MEB-Plattform bei Volkswagen, erhalten ab sofort die Betriebssystem Version 3.0. Das gilt für alle ID.3, ID.4, die ID.4 GTX Variante und die brandneuen ID.5 (GTX) natürlich auch. Für Bestandeskunden soll das Update im zweiten Quartal per Over-the-Air-Update auch verfügbar sein. Was Kunden wie mich mit dem ID.4 1ST erwartet, ist [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/vw-id-modelle-erhalten-software-3-0-das-ist-neu/\">VW ID. Modelle erhalten Software 3.0: Das ist neu</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/vw-id-modelle-erhalten-software-3-0-das-ist-neu/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34668",
+      "Title": "VW ID.Buzz vorgestellt: Hier sind alle Daten im Überblick",
+      "PublishDate": "2022-03-09T18:42:08+00:00",
+      "Summary": "<p>Darauf habe ich und zahlreiche andere Fans des VW Bus lange gewartet: Die offizielle Vorstellung des ID. Buzz. Vor 4 Jahren sass ich in der Design-Studie am Autosalon in Genf, jetzt kommt der Buzz diesen Herbst auf den Markt. Der vollelektrische Bulli rollt zeitgleich als ID.&#160;Buzz&#160;(Fünfsitzer) und ID.&#160;Buzz&#160;Cargo (Transporter) vom Band. Das wichtigste hier in [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/vw-id-buzz-vorgestellt-hier-sind-alle-daten-im-ueberblick/\">VW ID.Buzz vorgestellt: Hier sind alle Daten im Überblick</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/vw-id-buzz-vorgestellt-hier-sind-alle-daten-im-ueberblick/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34653",
+      "Title": "Langstreckentauglichkeit des ID.4 für ein Wintertraining getestet",
+      "PublishDate": "2022-03-04T07:00:00+00:00",
+      "Summary": "<p>Im Februar habe ich die Möglichkeit erhalten, die Allrad-Variante meines ID.4 in einem Wintertraining zu testen. Die sogenannte Winter Driving Experience von Volkswagen mit den neuen ID.4 GTX fand dabei im &#171;verschneiten&#187; Faistenau bei Salzburg statt. Das gab gleich zwei spannende Tests: Einerseits wie gut schlägt sicher der ID.4 um schnell mehr als 1000km in [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/langstreckentauglichkeit-des-id-4-fuer-ein-wintertraining-getestet/\">Langstreckentauglichkeit des ID.4 für ein Wintertraining getestet</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/langstreckentauglichkeit-des-id-4-fuer-ein-wintertraining-getestet/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34625",
+      "Title": "Privates Carsharing im Vergleich: Vermieten über 2em oder Gomore?",
+      "PublishDate": "2022-03-02T07:00:00+00:00",
+      "Summary": "<p>Ich vermiete mein Fahrzeug seit fast drei Jahren an andere Leute. Zuerst über Sharoo, danach über 2em und jetzt auch zusätzlich über Gomore. Wer hat welche Stärken und Schwächen? Was schaut am Ende dabei heraus und welchen Aufwand hat man als Vermieter oder Vermieterin? Hier mein Vergleich: Registrierung als Vermieter. Die Registrierung bei den beiden [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/03/privates-carsharing-im-vergleich-vermieten-ueber-2em-oder-gomore/\">Privates Carsharing im Vergleich: Vermieten über 2em oder Gomore?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/03/privates-carsharing-im-vergleich-vermieten-ueber-2em-oder-gomore/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=32844",
+      "Title": "kW und kWh: Die Einheiten sollten Elektroauto-Fahrer kennen",
+      "PublishDate": "2022-01-20T07:00:00+00:00",
+      "Summary": "<p>Öfter wenn ich mit anderen Leuten bezüglich Elektromobilität oder Photovoltaik diskutiere, stehen mir die Haare zu Berge. Dabei geht es immer um die verwendeten Einheiten kW, kWh oder auch kWh/100km, die in irgendeiner Form angewendet werden. Daher möchte ich hier ein kleines 1:1 geben, welche Einheiten in welchem Zusammenhang korrekt sind – es ist nämlich einfacher als [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/01/kw-und-kwh-die-einheiten-sollten-elektroauto-fahrer-kennen/\">kW und kWh: Die Einheiten sollten Elektroauto-Fahrer kennen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/01/kw-und-kwh-die-einheiten-sollten-elektroauto-fahrer-kennen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34543",
+      "Title": "Dachbox fürs Elektroauto im Test: Thule Motion XT L",
+      "PublishDate": "2022-01-14T07:00:00+00:00",
+      "Summary": "<p>Für Ferien mit der ganzen Familie im Elektroauto, braucht es bei uns auch immer eine Dachbox. Damit ist nicht für zusätzliches Gepäck im Sommer Platz, sondern auch ideal für die Winterferien um Snowboards und Skis zu verstauen. Warum ist das jetzt speziell beim Elektroauto und was ist anders als bei einem Verbrenner? Warum habe ich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/01/dachbox-fuers-elektroauto-im-test-thule-motion-xt-l/\">Dachbox fürs Elektroauto im Test: Thule Motion XT L</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/01/dachbox-fuers-elektroauto-im-test-thule-motion-xt-l/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34534",
+      "Title": "Photovoltaik-Anlage mit Speicher  in einem EFH: Rückblick 2021",
+      "PublishDate": "2022-01-04T20:36:34+00:00",
+      "Summary": "<p>Letztes Jahr habe ich einen Rückblick über meine PV-Anlage und das Produktionsjahr 2020 geschrieben. Das kam gut an und werde ich versuchen weiter hier anzubieten. Seit September 2017 ist meine Anlage in Betrieb, ich habe sie bis letztes Jahr zweimal etwas erweitert und auch einen Speicher angeschafft. Im Sommer 2021 konnte ich auf dem Westdach [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/01/photovoltaik-anlage-mit-speicher-in-einem-efh-rueckblick-2021/\">Photovoltaik-Anlage mit Speicher  in einem EFH: Rückblick 2021</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/01/photovoltaik-anlage-mit-speicher-in-einem-efh-rueckblick-2021/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34529",
+      "Title": "Elektromobilität in der Schweiz 2021: Zulassungszahlen zeigen den Trend",
+      "PublishDate": "2022-01-02T20:06:58+00:00",
+      "Summary": "<p>Der Jahresanfang 2022 ist auch ein Abschluss des alten Jahres und damit ein idealer Zeitpunkt um eine Standortbestimmung der Elektromobilität in der Schweiz 2021 zu machen. Es war ein Rekordjahr und das freut mich enorm, erstmals hat es übrigens auch ein Elektroauto geschafft die Neuzulassungszahlen über alle Fahrzeuge zu dominieren. Spannend ist der Vergleich auch [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2022/01/elektromobilitaet-in-der-schweiz-2021-zulassungszahlen-zeigen-den-trend/\">Elektromobilität in der Schweiz 2021: Zulassungszahlen zeigen den Trend</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2022/01/elektromobilitaet-in-der-schweiz-2021-zulassungszahlen-zeigen-den-trend/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34517",
+      "Title": "Volkswagen bietet 2022 bidirektionales Laden und Plug & Charge an",
+      "PublishDate": "2021-12-15T19:55:52+00:00",
+      "Summary": "<p>Heute hat Volkswagen in einer Presserunde einige spannende Informationen bezüglich des Ökosystems rund um das Laden von Elektroautos gegeben. So wird 2022 über ein Update Plug &#38; Charge eingeführt und damit wohl die Ladekarte bald überflüssig machen. Die ID. Modelle werden dank bidirektionalem Laden zu Energiespeichern für das eigene Haus und einiges mehr. Nachfolgend die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/12/volkswagen-bietet-2022-bidirektionales-laden-und-plug-charge-an/\">Volkswagen bietet 2022 bidirektionales Laden und Plug &#038; Charge an</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/12/volkswagen-bietet-2022-bidirektionales-laden-und-plug-charge-an/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34514",
+      "Title": "Apple TV und HomePod Mini versteht nun auch Schweizer…",
+      "PublishDate": "2021-12-14T19:50:16+00:00",
+      "Summary": "<p>Darauf hat man lange gewartet und mancher hat gar nicht mehr daran geglaubt, Siri kommt in die Schweiz. Mit tvOS 15.2 (das Apple-TV-Betriebssystem) ergänzt Apple den Umfang der Sprachunterstützung für die Landessprachen der Schweiz (Deutsch, Französisch und Italienisch) und dasselbe gilt auch für das neuste Update des HomePod. Auf dem Homepod und Homepod Mini wird die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/12/apple-tv-und-homepod-mini-versteht-nun-auch-schweizer/\">Apple TV und HomePod Mini versteht nun auch Schweizer&#8230;</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/12/apple-tv-und-homepod-mini-versteht-nun-auch-schweizer/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34476",
+      "Title": "Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad",
+      "PublishDate": "2021-12-09T07:00:00+00:00",
+      "Summary": "<p>Ich hatte bei der Lancierung des Škoda Enyaq iV in der Schweiz die Möglichkeit einen Kurztest mit dem Auto zu absolvieren. Mittlerweile sind einige Monate vergangen und die Allrad-Varianten sind auch erhältlich. So habe ich mir die letzten beiden Wochen bei winterlichen Bedingungen den Enyaq iV80x Sportsline genauer angeschaut: Testauto: Škoda Enyaq iV80x SportLine Das [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/12/skoda-enyaq-iv80x-im-test-das-elektro-familienauto-mit-allrad/\">Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/12/skoda-enyaq-iv80x-im-test-das-elektro-familienauto-mit-allrad/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34430",
+      "Title": "Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?",
+      "PublishDate": "2021-11-19T07:00:00+00:00",
+      "Summary": "<p>Wer Ford Mustang hört oder liest, der denkt in erster Linie sicher nicht an ein Elektroauto und auch kaum an einen Familienwagen. Genau das ist der Mustang Mach-E aber, ein reines Elektroauto das den Charme des Mustangs versucht zu erhalten und auch noch Familien tauglich ist. Das wollte ich selbst natürlich auch probieren und hatte [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/ford-mustang-mach-e-im-test-vom-muscle-car-zum-allrounder/\">Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/11/ford-mustang-mach-e-im-test-vom-muscle-car-zum-allrounder/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34326",
+      "Title": "Hyundai IONIQ 5 im Test: Wie mag das «Ladewunder» im Alltag zu überzeugen?",
+      "PublishDate": "2021-11-04T06:30:00+00:00",
+      "Summary": "<p>Ein Fahrzeugtest auf den ich mich schon lange gefreut hatte, der Ioniq 5 von Hyundai. Einerseits weil ich grosse Freude bereits am Hyundai Kona hatte und weil der Kona und der Ioniq richtig sparsame Elektrofahrzeuge sind. Entsprechend gespannt war ich auf das erste Auto von Hyundai, das auf einer eigenen Elektroauto-Plattform aufbaut und auch gleich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/hyundai-ioniq-5-im-test-wie-mag-das-ladewunder-im-alltag-zu-ueberzeugen/\">Hyundai IONIQ 5 im Test: Wie mag das &#171;Ladewunder&#187; im Alltag zu überzeugen?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/11/hyundai-ioniq-5-im-test-wie-mag-das-ladewunder-im-alltag-zu-ueberzeugen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34414",
+      "Title": "Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest",
+      "PublishDate": "2021-11-02T06:42:58+00:00",
+      "Summary": "<p>Tesla hat nun wie angekündigt damit begonnen, das hauseigene Supercharger Netzwerk für Fremdmarken zu öffnen. Man beginnt mit einem Pilotprojekt über 10 Supercharger-Standorte in den Niederlanden. Tes Supercharger für Nicht-Tesla-Fahrer Nicht-Tesla-Fahrer mit Wohnsitz in den Niederlanden können derzeit an 10 Supercharger-Standorten im ganzen Land aufladen: Sassenheim Apeldoorn Oost Meerkerk Hengelo Tilburg Duiven Breukelen Naarden Eemnes [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/tesla-gibt-10-supercharger-frei-fuer-fremdmarken-als-feldtest/\">Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/11/tesla-gibt-10-supercharger-frei-fuer-fremdmarken-als-feldtest/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34369",
+      "Title": "Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes",
+      "PublishDate": "2021-10-29T06:00:00+00:00",
+      "Summary": "<p>Einige Projekte schiebe ich immer etwas vor mir her, eines davon war es die Steckdosen in der Garage zu automatisieren. Das heisst es soll einige geben, die dediziert vom Überschuss der PV-Anlage über den Solar Manager angesteuert werden. Bisher habe ich das mit zusätzlichen myStrom Smart Plugs realisiert, neu erledigt diese Arbeit das brandneue Shelly [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/projekt-shelly-pro-4pm-fuer-gesteuerte-steckdosen-fuer-e-bikes/\">Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/10/projekt-shelly-pro-4pm-fuer-gesteuerte-steckdosen-fuer-e-bikes/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34327",
+      "Title": "Testbericht: iPhone 13 – muss es immer das Pro sein?",
+      "PublishDate": "2021-10-25T06:00:00+00:00",
+      "Summary": "<p>Die letzten Smartphones waren bei mir immer Pro-Modelle von Apple und absichtlich &#171;die kleine Variante&#187;. Sprich, ich hatte bis anhing das iPhone 12 Pro und mit dem Wechsel auf die neuen iPhone 13 Modelle gibt es dieses Jahr den Versuch: &#171;muss es immer das Pro sein?&#187; Um dieser Frage nachzugehen und wie ich mit dem [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/testbericht-iphone-13-muss-es-immer-das-pro-sein/\">Testbericht: iPhone 13 &#8211; muss es immer das Pro sein?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/10/testbericht-iphone-13-muss-es-immer-das-pro-sein/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34338",
+      "Title": "Apple MacBook Pro 14″ und 16″ mit M1 Pro und Max Prozessor vorgestellt",
+      "PublishDate": "2021-10-18T19:09:19+00:00",
+      "Summary": "<p>Da sind sie endlich, die neuen MacBook Pro Geräte. Ich war auch einer der auf die Linie sehr gehofft hat, wie viele habe ich einen M2 erwartet und wurde aber von einem starken M1 Pro und Max überrascht. Neu aufgelegt wurde das 16&#8243; MacBook Pro und ganz neu kommt ein 14&#8243; Pro Gerät daher. Die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/apple-macbook-pro-14-und-16-mit-m1-pro-und-max-prozessor-vorgestellt/\">Apple MacBook Pro 14&#8243; und 16&#8243; mit M1 Pro und Max Prozessor vorgestellt</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/10/apple-macbook-pro-14-und-16-mit-m1-pro-und-max-prozessor-vorgestellt/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34332",
+      "Title": "Apple zeigt neue AirPods der dritten Generation",
+      "PublishDate": "2021-10-18T18:39:14+00:00",
+      "Summary": "<p>Am heutigen Oktober-Event hat Apple die neuste Generation AirPods vorgestellt. Die Apple AirPods der 3. Generation kommen mit einigen neuen Features daher und sind für 199.- CHF ab dem 26. Oktober 2021 erhältlich. AirPods 3.Gen Die neuen AirPods bleiben weiterhin dem Aufbau der AirPods treu und verzichten weiterhin auf die Silikon-Einlagen für die Ohren, welche [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/apple-zeigt-neue-airpods-der-dritten-generation/\">Apple zeigt neue AirPods der dritten Generation</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/10/apple-zeigt-neue-airpods-der-dritten-generation/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34291",
+      "Title": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling",
+      "PublishDate": "2021-10-11T06:55:21+00:00",
+      "Summary": "<p>Mit Sigi habe ich mich mehrmals darüber unterhalten, wie es wohl wäre wenn ich ihm mal ein Elektroauto hinstelle und er sich damit eine 10 Tage rumschlägt. Wichtig dabei: Sigi hat keine Elektroauto-Erfahrung und uns beiden ging es darum: Wie fühlt sich ein Neueinsteiger in der Elektromobilität zu Recht? Hans Nachdem mir der Schlüssel übergeben [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/mercedes-eqa-250-im-alltagstest-von-einem-elektroauto-neuling/\">Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/10/mercedes-eqa-250-im-alltagstest-von-einem-elektroauto-neuling/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34242",
+      "Title": "Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse",
+      "PublishDate": "2021-09-28T06:00:00+00:00",
+      "Summary": "<p>Das Tesla Model Y war mit der Lancierung in der Schweiz hier schon die letzten Wochen ein grosses Thema. Dann habe ich dazu das Thema mit der begrenzten Zuladung thematisiert, wobei der Ursprung diesbezüglich noch nicht klar ist und mir auch Tesla nicht weiterhelfen konnte. Mein Kollege Christian hat dann von seinem Model Y etwas [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/\">Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34177",
+      "Title": "Videokonferenz-Setup aufgerüstet mit Logitech Brio & Zone 900",
+      "PublishDate": "2021-09-17T06:00:00+00:00",
+      "Summary": "<p>Während den letzten 1.5 Jahren haben wir wohl alle gelernt, wieviele Tools für Videokonferenzen es gibt. Bei mir hat sich dabei herauskristallisiert, das fast immer Microsoft Teams genutzt wird. Dazu war mein Home Office Setup das ich hier vorstellte eigentlich anfangs sehr gut, bis man dann länger damit arbeitet. Einerseits war nämlich die Bildqualität der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/\">Videokonferenz-Setup aufgerüstet mit Logitech Brio &#038; Zone 900</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34224",
+      "Title": "Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor",
+      "PublishDate": "2021-09-14T18:50:42+00:00",
+      "Summary": "<p>Apple hat ein reines Feuerwerk an neuen Produkten am Apple Event am 14. September 2021 vorgestellt. Anstatt lange Blogbeiträge zur Zusammenfassung zu schreiben, probiere ich es mal rekordverdächtig kompakt: iPhone 13 Pro Preise in der Schweiz: iPhone 13 Pro 128 GB für 1129.- CHF 256 GB für 1249.- // 512 GB für 1493.- und 1 [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/\">Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "http://tchor/?p=34203",
+      "Title": "Fahrbericht: Meine ersten 1500km mit dem Model Y",
+      "PublishDate": "2021-09-10T06:00:00+00:00",
+      "Summary": "<p>Seit ich vor über 11 Jahren eine Probefahrt mit einem Tesla Roadster machen durfte war ich von Tesla begeistert. Die Probefahrt war kurz, der Roadster war das anstrengendste Auto welches ich jemals gefahren bin und alles daran war improvisiert. Aber die Beschleunigung zu spüren, wie das Fahrzeug am &#171;Gas-&#187; oder eben Strompedal hing war eine [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/\">Fahrbericht: Meine ersten 1500km mit dem Model Y</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/"
+    }
+  ]
+}

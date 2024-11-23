@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://blog.ploeh.dk/2024/11/18/collecting-and-handling-result-values",
+    "raw": "Collecting and handling result values",
+    "sanitized": "Collecting and handling result values"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/11/11/traversals",
+    "raw": "Traversals",
+    "sanitized": "Traversals"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/11/04/pendulum-swing-no-haskell-type-annotation-by-default",
+    "raw": "Pendulum swing: no Haskell type annotation by default",
+    "sanitized": "Pendulum swing: no Haskell type annotation by default"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/10/28/functor-compositions",
+    "raw": "Functor compositions",
+    "sanitized": "Functor compositions"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/10/21/legacy-security-manager-in-haskell",
+    "raw": "Legacy Security Manager in Haskell",
+    "sanitized": "Legacy Security Manager in Haskell"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/10/14/functor-sums",
+    "raw": "Functor sums",
+    "sanitized": "Functor sums"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/10/07/the-const-functor",
+    "raw": "The Const functor",
+    "sanitized": "The Const functor"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/10/03/das-verflixte-hunde-spiel",
+    "raw": "Das verflixte Hunde-Spiel",
+    "sanitized": "Das verflixte Hunde-Spiel"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/09/23/fszipper-in-c",
+    "raw": "FSZipper in C#",
+    "sanitized": "FSZipper in C#"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/09/16/functor-products",
+    "raw": "Functor products",
+    "sanitized": "Functor products"
+  }
+]

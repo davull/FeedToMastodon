@@ -1,0 +1,77 @@
+﻿[
+  {
+    "itemId": "http://heise.de/-10061864",
+    "raw": "Das erste große Update für iOS und iPadOS 18 bringt mehr als Apple Intelligence: Tipps zu nützlichen Funktionen und wie Sie AirPods Pro als Hörhilfe einsetzen.",
+    "sanitized": "Das erste große Update für iOS und iPadOS 18 bringt mehr als Apple Intelligence: Tipps zu nützlichen Funktionen und wie Sie AirPods Pro als Hörhilfe einsetzen."
+  },
+  {
+    "itemId": "http://heise.de/-9996972",
+    "raw": "Der Start des Flight Simulator 2024 war holprig. Doch wie spielt er sich, wenn erst mal alles läuft? Wir haben uns an den Steuerknüppel gesetzt und es getestet.",
+    "sanitized": "Der Start des Flight Simulator 2024 war holprig. Doch wie spielt er sich, wenn erst mal alles läuft? Wir haben uns an den Steuerknüppel gesetzt und es getestet."
+  },
+  {
+    "itemId": "http://heise.de/-10107342",
+    "raw": "Im wöchentlichen Newsletter von heise+ eine Eisheizung mit Wärmepumpe, Rust, Gedanken strukturieren mit Obsidian, mobile Spielkonsolen, Proteine falten",
+    "sanitized": "Im wöchentlichen Newsletter von heise+ eine Eisheizung mit Wärmepumpe, Rust, Gedanken strukturieren mit Obsidian, mobile Spielkonsolen, Proteine falten"
+  },
+  {
+    "itemId": "http://heise.de/-10077425",
+    "raw": "Daten wie private Schlüssel und API-Keys haben in einem öffentlichen Coderepository nichts verloren. Sie gehören in einen Passworttresor mit API-Zugriff.",
+    "sanitized": "Daten wie private Schlüssel und API-Keys haben in einem öffentlichen Coderepository nichts verloren. Sie gehören in einen Passworttresor mit API-Zugriff."
+  },
+  {
+    "itemId": "http://heise.de/-10081335",
+    "raw": "Im Vergleich zum Vorgänger Thunderbolt 4 und dem Pendant USB4 bringt Thunderbolt 5 mehr als eine Verdopplung der Datentransferrate. Erste Geräte sind jetzt da.",
+    "sanitized": "Im Vergleich zum Vorgänger Thunderbolt 4 und dem Pendant USB4 bringt Thunderbolt 5 mehr als eine Verdopplung der Datentransferrate. Erste Geräte sind jetzt da."
+  },
+  {
+    "itemId": "http://heise.de/-10075431",
+    "raw": "AM5-Mainboards mit X870- und X870E-Chipsatz sollen mit USB 4, Wi-Fi 7 und PCI Express 5.0 der ideale Unterbau für AMDs neue Ryzen-9000-CPUs sein.",
+    "sanitized": "AM5-Mainboards mit X870- und X870E-Chipsatz sollen mit USB 4, Wi-Fi 7 und PCI Express 5.0 der ideale Unterbau für AMDs neue Ryzen-9000-CPUs sein."
+  },
+  {
+    "itemId": "http://heise.de/-10001905",
+    "raw": "Nach der Arbeit Informatik studieren und die Karrierechancen verbessern: Dafür eignet sich das Fernstudium. Wir zeigen die Vorteile und Nachteile. \n",
+    "sanitized": "Nach der Arbeit Informatik studieren und die Karrierechancen verbessern: Dafür eignet sich das Fernstudium. Wir zeigen die Vorteile und Nachteile."
+  },
+  {
+    "itemId": "http://heise.de/-10059590",
+    "raw": "Das Entmischen von Songs in ihre Bestandteile wird immer populärer. Der britische Hersteller HitnMix baut eine komplette DAW um diese Funktion herum.",
+    "sanitized": "Das Entmischen von Songs in ihre Bestandteile wird immer populärer. Der britische Hersteller HitnMix baut eine komplette DAW um diese Funktion herum."
+  },
+  {
+    "itemId": "http://heise.de/-10057881",
+    "raw": "Über Windows 10 und 11 auf dem Raspberry Pi haben wir schon ein paar Mal berichtet – auf den 3er- und 4er-Raspis war es lahm, ist es mit einem Raspi 5 besser?",
+    "sanitized": "Über Windows 10 und 11 auf dem Raspberry Pi haben wir schon ein paar Mal berichtet – auf den 3er- und 4er-Raspis war es lahm, ist es mit einem Raspi 5 besser?"
+  },
+  {
+    "itemId": "http://heise.de/-10046050",
+    "raw": "In diesem Artikel erklären wir, wie Schmuckstücke mit ESP-Modulen sich bei Nähe lebhaft erkennen, um Träger auf Events zusammenzuführen.",
+    "sanitized": "In diesem Artikel erklären wir, wie Schmuckstücke mit ESP-Modulen sich bei Nähe lebhaft erkennen, um Träger auf Events zusammenzuführen."
+  },
+  {
+    "itemId": "http://heise.de/-10013908",
+    "raw": "Die Luxusgüterbranche gilt als robust, litt zuletzt aber unter ihrer großen China-Abhängigkeit. Wer antizyklisch investieren möchte, könnte davon profitieren.",
+    "sanitized": "Die Luxusgüterbranche gilt als robust, litt zuletzt aber unter ihrer großen China-Abhängigkeit. Wer antizyklisch investieren möchte, könnte davon profitieren."
+  },
+  {
+    "itemId": "http://heise.de/-9996053",
+    "raw": "Googles KI Gemini lässt sich per API nutzen. So kann man etwa selbst geschriebene Python-Programme mit KI-Funktionen erweitern – mit sieben Codezeilen.",
+    "sanitized": "Googles KI Gemini lässt sich per API nutzen. So kann man etwa selbst geschriebene Python-Programme mit KI-Funktionen erweitern – mit sieben Codezeilen."
+  },
+  {
+    "itemId": "http://heise.de/-10049005",
+    "raw": "Wer eine günstige Kameraausrüstung sucht, kauft oft im Gebrauchtmarkt. Dieser ist ein Kreislaufsystem. Wir haben uns angesehen, wie das funktioniert.\n",
+    "sanitized": "Wer eine günstige Kameraausrüstung sucht, kauft oft im Gebrauchtmarkt. Dieser ist ein Kreislaufsystem. Wir haben uns angesehen, wie das funktioniert."
+  },
+  {
+    "itemId": "http://heise.de/-10042474",
+    "raw": "USB-SSDs und große USB-Sticks sind für Backups und zum Datentransport heute unverzichtbar. Sie sind robuster als Mobilfestplatten und vor allem viel schneller. ",
+    "sanitized": "USB-SSDs und große USB-Sticks sind für Backups und zum Datentransport heute unverzichtbar. Sie sind robuster als Mobilfestplatten und vor allem viel schneller."
+  },
+  {
+    "itemId": "http://heise.de/-10045844",
+    "raw": "KI kopiert nicht nur Kunst, sondern verwendet Teile vieler Werke, um daraus etwas Neues zu generieren. Nun melden sich Verwertungsgesellschaften zu Wort.",
+    "sanitized": "KI kopiert nicht nur Kunst, sondern verwendet Teile vieler Werke, um daraus etwas Neues zu generieren. Nun melden sich Verwertungsgesellschaften zu Wort."
+  }
+]

@@ -1,0 +1,42 @@
+﻿[
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta2-2col-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-en-zeta2-2col-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-en-zeta2-2col-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta2-1col-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-en-zeta2-1col-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-en-zeta2-1col-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta2-2col-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-de-zeta2-2col-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-de-zeta2-2col-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta2-1col-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-de-zeta2-1col-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-de-zeta2-1col-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-en-zeta-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-en-zeta-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-en-zeta-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=science%3Aneuronalenetze-de-zeta-dkrieselcom.pdf&ns=science&do=media",
+    "raw": "science:neuronalenetze-de-zeta-dkrieselcom.pdf",
+    "sanitized": "science:neuronalenetze-de-zeta-dkrieselcom.pdf"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=blog%3A2021%3Alandkreise-todeszahl28d-impfquote.png&ns=blog%3A2021&do=media",
+    "raw": "blog:2021:landkreise-todeszahl28d-impfquote.png",
+    "sanitized": "blog:2021:landkreise-todeszahl28d-impfquote.png"
+  },
+  {
+    "itemId": "https://www.dkriesel.com/?image=blog%3A2021%3Alandkreise-fallzahl7d-impfquote.png&ns=blog%3A2021&do=media",
+    "raw": "blog:2021:landkreise-fallzahl7d-impfquote.png",
+    "sanitized": "blog:2021:landkreise-fallzahl7d-impfquote.png"
+  }
+]

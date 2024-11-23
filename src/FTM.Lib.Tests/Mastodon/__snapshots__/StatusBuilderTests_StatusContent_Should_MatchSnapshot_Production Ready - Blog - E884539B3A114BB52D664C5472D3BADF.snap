@@ -1,0 +1,5 @@
+﻿Integrationstest mit Docker Compose und Azure Service-Containers
+
+In einem vorherigen Blog-Post habe ich gezeigt, wie man mit Hilfe von Testcontainers Integrationstests in einer .NET-Anwendung umsetzen kann. Möchte man die Docker-Container nicht innerhalb des Test-Codes verwalten, bietet es sich an, die Container unabhängig von der Test-Ausführung zu starten und zu stoppen. Docker Compose und das Azure DevOps-Feature Service-Containers bieten sich hier als Alte...
+---
+https://www.production-ready.de/2024/05/10/integration-testing-with-docker.html

@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
+    "raw": "When working with software development, especially in object-oriented or component-based systems, understanding the distinction between…",
+    "sanitized": "When working with software development, especially in object-oriented or component-based systems, understanding the distinction between…"
+  },
+  {
+    "itemId": "https://ardalis.com/you-should-blog/",
+    "raw": "As a software developer, you might spend most of your time immersed in code, solving problems, and building innovative solutions. But have…",
+    "sanitized": "As a software developer, you might spend most of your time immersed in code, solving problems, and building innovative solutions. But have…"
+  },
+  {
+    "itemId": "https://ardalis.com/from-microservices-to-modular-monoliths/",
+    "raw": "What do you do when you find yourself in microservice hell? How do you keep the gains you (hopefully) made in breaking up your legacy ball…",
+    "sanitized": "What do you do when you find yourself in microservice hell? How do you keep the gains you (hopefully) made in breaking up your legacy ball…"
+  },
+  {
+    "itemId": "https://ardalis.com/navigation-properties-between-aggregates-modules/",
+    "raw": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…",
+    "sanitized": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…"
+  },
+  {
+    "itemId": "https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/",
+    "raw": "Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…",
+    "sanitized": "Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…"
+  },
+  {
+    "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
+    "raw": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…",
+    "sanitized": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…"
+  },
+  {
+    "itemId": "https://ardalis.com/clean-architecture-sucks/",
+    "raw": "The other day I was participating in a conversation online in an architecture forum. One of the participants was complaining about the mess…",
+    "sanitized": "The other day I was participating in a conversation online in an architecture forum. One of the participants was complaining about the mess…"
+  },
+  {
+    "itemId": "https://ardalis.com/technology-edges-bleeding-leading-rusting/",
+    "raw": "In the fast-evolving world of software development, keeping pace with technology trends is both a necessity and a challenge. Companies and…",
+    "sanitized": "In the fast-evolving world of software development, keeping pace with technology trends is both a necessity and a challenge. Companies and…"
+  },
+  {
+    "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
+    "raw": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…",
+    "sanitized": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…"
+  },
+  {
+    "itemId": "https://ardalis.com/5-rules-dtos/",
+    "raw": "If you don't like reading, here's my YouTube video with samples that covers why these 5 rules will help you write better DTOs: What's a DTO…",
+    "sanitized": "If you don't like reading, here's my YouTube video with samples that covers why these 5 rules will help you write better DTOs: What's a DTO…"
+  }
+]

@@ -1,0 +1,52 @@
+﻿[
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251478",
+    "raw": "Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024",
+    "sanitized": "Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251450",
+    "raw": "Making you more productive with Visual Studio v17.12",
+    "sanitized": "Making you more productive with Visual Studio v17.12"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251424",
+    "raw": "Copy files across instances of Visual Studio",
+    "sanitized": "Copy files across instances of Visual Studio"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251397",
+    "raw": "VisualStudio.Extensibility 17.12: CodeLens support is here!",
+    "sanitized": "VisualStudio.Extensibility 17.12: CodeLens support is here!"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251381",
+    "raw": "Git tooling updates in Visual Studio 17.12",
+    "sanitized": "Git tooling updates in Visual Studio 17.12"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251336",
+    "raw": "Join Us at Microsoft Ignite: Unlock GitHub Copilot’s New Potential in Visual Studio",
+    "sanitized": "Join Us at Microsoft Ignite: Unlock GitHub Copilot’s New Potential in Visual Studio"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251319",
+    "raw": "Fix Code with GitHub Copilot",
+    "sanitized": "Fix Code with GitHub Copilot"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251307",
+    "raw": "First preview of Visual Studio 2022 v17.13  ",
+    "sanitized": "First preview of Visual Studio 2022 v17.13"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251184",
+    "raw": "Visual Studio 2022 v17.12 with .NET 9",
+    "sanitized": "Visual Studio 2022 v17.12 with .NET 9"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251281",
+    "raw": "Better GitHub Copilot Completions for C#",
+    "sanitized": "Better GitHub Copilot Completions for C#"
+  }
+]

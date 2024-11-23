@@ -1,0 +1,132 @@
+﻿[
+  {
+    "itemId": "https://stevetalkscode.co.uk/regex-source-generator",
+    "raw": "Source Generated RegEx in .NET 7",
+    "sanitized": "Source Generated RegEx in .NET 7"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/speccyimageloader",
+    "raw": "Creating a ZX Spectrum Image Load Video",
+    "sanitized": "Creating a ZX Spectrum Image Load Video"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/sourcegeneratorattacks",
+    "raw": "Could .NET Source Generator Attacks Be A Danger To Your Code?",
+    "sanitized": "Could .NET Source Generator Attacks Be A Danger To Your Code?"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/debug-source-generators-with-vs2019-1610",
+    "raw": "Debugging C# Source Generators with Visual Studio 2019 16.10",
+    "sanitized": "Debugging C# Source Generators with Visual Studio 2019 16.10"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/jetbrains-di-webinar",
+    "raw": "JetBrains Dependency Injection Webinar",
+    "sanitized": "JetBrains Dependency Injection Webinar"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/openapireference-commands",
+    "raw": "Using OpenApiReference To Generate Open API Client Code",
+    "sanitized": "Using OpenApiReference To Generate Open API Client Code"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/middleware-styles",
+    "raw": "Styles of Writing ASP.NET Core Middleware",
+    "sanitized": "Styles of Writing ASP.NET Core Middleware"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/stronglytypedheaders-part1",
+    "raw": "Introducing Strongly Typed HTTP Request Headers for ASP.NET Core",
+    "sanitized": "Introducing Strongly Typed HTTP Request Headers for ASP.NET Core"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/null-injection",
+    "raw": "Should I be Checking Injected Dependencies for Null?",
+    "sanitized": "Should I be Checking Injected Dependencies for Null?"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/disposables-in-di-part-3",
+    "raw": "Understanding Disposables In .NET Dependency Injection - Part 3",
+    "sanitized": "Understanding Disposables In .NET Dependency Injection - Part 3"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/disposables-in-di-part-2",
+    "raw": "Understanding Disposables In .NET Dependency Injection - Part 2",
+    "sanitized": "Understanding Disposables In .NET Dependency Injection - Part 2"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/disposables-in-di-part-1",
+    "raw": "Understanding Disposables In .NET Dependency Injection - Part 1",
+    "sanitized": "Understanding Disposables In .NET Dependency Injection - Part 1"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/c-sharp-9-record-factories",
+    "raw": "C# 9 Record Factories",
+    "sanitized": "C# 9 Record Factories"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/merge-to-monorepo-2",
+    "raw": "Merging Multiple Git Repositories Into A Mono-Repo with PowerShell (Part 2)",
+    "sanitized": "Merging Multiple Git Repositories Into A Mono-Repo with PowerShell (Part 2)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/merge-to-monorepo-1",
+    "raw": "Merging Multiple Git Repositories Into A Mono-Repo with PowerShell (Part 1)",
+    "sanitized": "Merging Multiple Git Repositories Into A Mono-Repo with PowerShell (Part 1)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/install-octopus-with-domain-account",
+    "raw": "A Couple of Problems When Installing Octopus Deploy with a Domain Account",
+    "sanitized": "A Couple of Problems When Installing Octopus Deploy with a Domain Account"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/simplifying-di-with-functions",
+    "raw": "Simplifying Dependency Injection with Functions over Interfaces",
+    "sanitized": "Simplifying Dependency Injection with Functions over Interfaces"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/named-dependencies-part-2",
+    "raw": "Getting Dependencies by Name or Key using the .NET Core Container (Part 2)",
+    "sanitized": "Getting Dependencies by Name or Key using the .NET Core Container (Part 2)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/named-dependencies-part-1",
+    "raw": "Getting Dependencies by Name or Key using the .NET Core Container (Part 1)",
+    "sanitized": "Getting Dependencies by Name or Key using the .NET Core Container (Part 1)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/separating-aspnetcore-startup",
+    "raw": "Clean Architecture - Should I Move the Startup Class to Another Assembly?",
+    "sanitized": "Clean Architecture - Should I Move the Startup Class to Another Assembly?"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/using-iconfigureoptions",
+    "raw": "Using IConfigureOptions <TOptions> To Apply Changes to a Configuration",
+    "sanitized": "Using IConfigureOptions  To Apply Changes to a Configuration"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/istartup-gotcha",
+    "raw": "An IStartup Gotcha - The Curious Incident of the Missing Log Provider",
+    "sanitized": "An IStartup Gotcha - The Curious Incident of the Missing Log Provider"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/configuration-bridging-part-4",
+    "raw": "Hiding Secrets in appsettings.json - Using a Bridge in your ASP.Net Core Configuration (Part 4)",
+    "sanitized": "Hiding Secrets in appsettings.json - Using a Bridge in your ASP.Net Core Configuration (Part 4)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/configuration-bridging-part-3",
+    "raw": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 3)",
+    "sanitized": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 3)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/configuration-bridging-part-2",
+    "raw": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 2)",
+    "sanitized": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 2)"
+  },
+  {
+    "itemId": "https://stevetalkscode.co.uk/configuration-bridging-part-1",
+    "raw": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 1)",
+    "sanitized": "Creating a Bridge to your ASP.Net Core Configuration from your Controller or Razor Page (Part 1)"
+  }
+]

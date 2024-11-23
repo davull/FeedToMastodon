@@ -1,0 +1,127 @@
+﻿[
+  {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-1-cross-origin-opener-policy-preventing-attacks-from-popups/",
+    "raw": "Cross-Origin-Opener-Policy: preventing attacks from popups: Understanding cross-origin security headers - Part 1",
+    "sanitized": "Cross-Origin-Opener-Policy: preventing attacks from popups: Understanding cross-origin security headers - Part 1"
+  },
+  {
+    "itemId": "https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/",
+    "raw": "Recent updates for NetEscapades.EnumGenerators: interceptors!",
+    "sanitized": "Recent updates for NetEscapades.EnumGenerators: interceptors!"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-4-is-the-result-pattern-worth-it/",
+    "raw": "Is the result pattern worth it?: Working with the result pattern - Part 4",
+    "sanitized": "Is the result pattern worth it?: Working with the result pattern - Part 4"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-3-adding-more-extensions/",
+    "raw": "Adding more extensions to Result<T>: Working with the result pattern - Part 3",
+    "sanitized": "Adding more extensions to Result: Working with the result pattern - Part 3"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/",
+    "raw": "Safety and simplicity with LINQ: Working with the result pattern - Part 2",
+    "sanitized": "Safety and simplicity with LINQ: Working with the result pattern - Part 2"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/",
+    "raw": "Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1",
+    "sanitized": "Replacing Exceptions-as-flow-control with the result pattern: Working with the result pattern - Part 1"
+  },
+  {
+    "itemId": "https://andrewlock.net/major-updates-to-netescapades-aspnetcore-security-headers/",
+    "raw": "Major updates to NetEscapades.​AspNetCore.​SecurityHeaders",
+    "sanitized": "Major updates to NetEscapades.​AspNetCore.​SecurityHeaders"
+  },
+  {
+    "itemId": "https://andrewlock.net/fixing-max_path-issues-in-gitlab/",
+    "raw": "Fixing MAX_PATH issues in GitLab",
+    "sanitized": "Fixing MAX_PATH issues in GitLab"
+  },
+  {
+    "itemId": "https://andrewlock.net/preventing-breaking-changes-in-public-apis-with-publicapigenerator/",
+    "raw": "Preventing breaking changes in public APIs with PublicApiGenerator",
+    "sanitized": "Preventing breaking changes in public APIs with PublicApiGenerator"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-tar-files-in-dotnet/",
+    "raw": "Working with tar files in .NET 8",
+    "sanitized": "Working with tar files in .NET 8"
+  },
+  {
+    "itemId": "https://andrewlock.net/using-azure-storage-queues-with-azure-functions-and-queuetrigger/",
+    "raw": "Using Azure Storage Queue messages with Azure Functions and [QueueTrigger]",
+    "sanitized": "Using Azure Storage Queue messages with Azure Functions and [QueueTrigger]"
+  },
+  {
+    "itemId": "https://andrewlock.net/avoiding-cdn-supply-chain-attacks-with-subresource-integrity/",
+    "raw": "Avoiding CDN supply-chain attacks with Subresource Integrity (SRI)",
+    "sanitized": "Avoiding CDN supply-chain attacks with Subresource Integrity (SRI)"
+  },
+  {
+    "itemId": "https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/",
+    "raw": "Combining multiple docker images into a multi-arch image",
+    "sanitized": "Combining multiple docker images into a multi-arch image"
+  },
+  {
+    "itemId": "https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/",
+    "raw": "Simplifying [Theory] test data with Xunit.Combinatorial",
+    "sanitized": "Simplifying [Theory] test data with Xunit.Combinatorial"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-source-only-nuget-packages/",
+    "raw": "Creating source-only NuGet packages",
+    "sanitized": "Creating source-only NuGet packages"
+  },
+  {
+    "itemId": "https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/",
+    "raw": "Disambiguating types with the same name with extern alias",
+    "sanitized": "Disambiguating types with the same name with extern alias"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-5-adding-support-for-collection-expressions-to-your-own-types/",
+    "raw": "Adding support for collection expressions to your own types: Behind the scenes of collection expressions - Part 5",
+    "sanitized": "Adding support for collection expressions to your own types: Behind the scenes of collection expressions - Part 5"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-4-the-spread-element/",
+    "raw": "Exploring the generated code: the spread element: Behind the scenes of collection expressions - Part 4",
+    "sanitized": "Exploring the generated code: the spread element: Behind the scenes of collection expressions - Part 4"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/",
+    "raw": "Exploring the generated code: T[], Span<T>, and Immutable collections: Behind the scenes of collection expressions - Part 3",
+    "sanitized": "Exploring the generated code: T[], Span, and Immutable collections: Behind the scenes of collection expressions - Part 3"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/",
+    "raw": "Exploring the generated code: List<T> and fallback cases: Behind the scenes of collection expressions - Part 2",
+    "sanitized": "Exploring the generated code: List and fallback cases: Behind the scenes of collection expressions - Part 2"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-1-introducing-collection-expressions-in-csharp12/",
+    "raw": "Introducing collection expressions in C#12: Behind the scenes of collection expressions - Part 1",
+    "sanitized": "Introducing collection expressions in C#12: Behind the scenes of collection expressions - Part 1"
+  },
+  {
+    "itemId": "https://andrewlock.net/conditionally-skipping-a-trigger-job-in-gitlab-based-on-a-previous-job/",
+    "raw": "Conditionally skipping a trigger job in GitLab based on a previous job",
+    "sanitized": "Conditionally skipping a trigger job in GitLab based on a previous job"
+  },
+  {
+    "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
+    "raw": "Blocking primary constructor member capture using a Roslyn Analyzer",
+    "sanitized": "Blocking primary constructor member capture using a Roslyn Analyzer"
+  },
+  {
+    "itemId": "https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/",
+    "raw": "Thoughts about primary constructors: 3 pros and 5 cons",
+    "sanitized": "Thoughts about primary constructors: 3 pros and 5 cons"
+  },
+  {
+    "itemId": "https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/",
+    "raw": "An introduction to primary constructors in C#12",
+    "sanitized": "An introduction to primary constructors in C#12"
+  }
+]

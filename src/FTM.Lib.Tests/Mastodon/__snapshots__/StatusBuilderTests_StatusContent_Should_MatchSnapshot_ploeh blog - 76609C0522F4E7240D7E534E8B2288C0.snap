@@ -1,0 +1,11 @@
+﻿Traversals
+
+How to convert a list of tasks into an asynchronous list, and similar problems.
+	
+	
+		This article is part of a series of articles about functor relationships. In a previous article you learned about natural transformations, and then how functors compose. You can skip several of them if you like, but you might find the one about functor compositions relevant. Still, this article can be read independently of the rest of the series.
+	
+	
+		You can go a...
+---
+https://blog.ploeh.dk/2024/11/11/traversals/

@@ -1,0 +1,127 @@
+﻿[
+  {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-1-cross-origin-opener-policy-preventing-attacks-from-popups/",
+    "raw": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy",
+    "sanitized": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy"
+  },
+  {
+    "itemId": "https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/",
+    "raw": "In this post I describe the experimental interceptor support in NetEscapades.EnumGenerators that replaces ToString() calls with ToStringFast() automatically",
+    "sanitized": "In this post I describe the experimental interceptor support in NetEscapades.EnumGenerators that replaces ToString() calls with ToStringFast() automatically"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-4-is-the-result-pattern-worth-it/",
+    "raw": "In this post I discuss some of the pros and cons around using the result pattern in .NET, and describe some of the arguments I've heard on either side",
+    "sanitized": "In this post I discuss some of the pros and cons around using the result pattern in .NET, and describe some of the arguments I've heard on either side"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-3-adding-more-extensions/",
+    "raw": "In this post I show how to extend your LINQ-based result pattern code to handle more scenarios, such as Task<Result<T>> and collections of Result<T>",
+    "sanitized": "In this post I show how to extend your LINQ-based result pattern code to handle more scenarios, such as Task> and collections of Result"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/",
+    "raw": "In this post I show how to clean up unreadable Switch()-based result pattern code using LINQ query syntax, giving both readability and safety",
+    "sanitized": "In this post I show how to clean up unreadable Switch()-based result pattern code using LINQ query syntax, giving both readability and safety"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/",
+    "raw": "In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution",
+    "sanitized": "In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution"
+  },
+  {
+    "itemId": "https://andrewlock.net/major-updates-to-netescapades-aspnetcore-security-headers/",
+    "raw": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps.",
+    "sanitized": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps."
+  },
+  {
+    "itemId": "https://andrewlock.net/fixing-max_path-issues-in-gitlab/",
+    "raw": "In this post I show how you can enable Git's long-path support in a GitLab job to override Window's MAX_PATH limitations which can cause git clone failures",
+    "sanitized": "In this post I show how you can enable Git's long-path support in a GitLab job to override Window's MAX_PATH limitations which can cause git clone failures"
+  },
+  {
+    "itemId": "https://andrewlock.net/preventing-breaking-changes-in-public-apis-with-publicapigenerator/",
+    "raw": "In this post I show how you can use the PublicApiGenerator project to document your public API and build a snapshot unit test to prevent breaking changes",
+    "sanitized": "In this post I show how you can use the PublicApiGenerator project to document your public API and build a snapshot unit test to prevent breaking changes"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-tar-files-in-dotnet/",
+    "raw": "In this post I show how to create, extract, and list tar files using the built-in tar support introduced in .NET 7, and discuss some of the limitations",
+    "sanitized": "In this post I show how to create, extract, and list tar files using the built-in tar support introduced in .NET 7, and discuss some of the limitations"
+  },
+  {
+    "itemId": "https://andrewlock.net/using-azure-storage-queues-with-azure-functions-and-queuetrigger/",
+    "raw": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app",
+    "sanitized": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app"
+  },
+  {
+    "itemId": "https://andrewlock.net/avoiding-cdn-supply-chain-attacks-with-subresource-integrity/",
+    "raw": "In this post I discus the recent pollyfill.io supply-chain attack and describe how to protect against similar attacks using Subresource Integrity (SRI)",
+    "sanitized": "In this post I discus the recent pollyfill.io supply-chain attack and describe how to protect against similar attacks using Subresource Integrity (SRI)"
+  },
+  {
+    "itemId": "https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/",
+    "raw": "In this post I show two ways to combine multiple docker images into a single multi-arch image, discuss manifests and manifest lists, and why they matter",
+    "sanitized": "In this post I show two ways to combine multiple docker images into a single multi-arch image, discuss manifests and manifest lists, and why they matter"
+  },
+  {
+    "itemId": "https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/",
+    "raw": "In this post I show how you can simplify your xUnit [Theory] tests using the Xunit.Combinatorial package to auto-generate your test parameters",
+    "sanitized": "In this post I show how you can simplify your xUnit [Theory] tests using the Xunit.Combinatorial package to auto-generate your test parameters"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-source-only-nuget-packages/",
+    "raw": "In this post I show how you can create a NuGet package that contains source code (instead of dlls) which is then compiled into  the target project",
+    "sanitized": "In this post I show how you can create a NuGet package that contains source code (instead of dlls) which is then compiled into  the target project"
+  },
+  {
+    "itemId": "https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/",
+    "raw": "In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages",
+    "sanitized": "In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-5-adding-support-for-collection-expressions-to-your-own-types/",
+    "raw": "In this final post of the series I show how to add support for collection expressions to your own types that don't support them automatically",
+    "sanitized": "In this final post of the series I show how to add support for collection expressions to your own types that don't support them automatically"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-4-the-spread-element/",
+    "raw": "In this post I show what the compiler generates when you use collection expressions with the spread element and how it depends on the collections used",
+    "sanitized": "In this post I show what the compiler generates when you use collection expressions with the spread element and how it depends on the collections used"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/",
+    "raw": "In this post I look at the code generated when you use collection expressions with T[], ReadOnlySpan<T>, Span<T>, and immutable collections",
+    "sanitized": "In this post I look at the code generated when you use collection expressions with T[], ReadOnlySpan, Span, and immutable collections"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/",
+    "raw": "In this post I look at the code generated when you use collection expressions with List<T> or with types that can be used with collection initializers",
+    "sanitized": "In this post I look at the code generated when you use collection expressions with List or with types that can be used with collection initializers"
+  },
+  {
+    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-1-introducing-collection-expressions-in-csharp12/",
+    "raw": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element",
+    "sanitized": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element"
+  },
+  {
+    "itemId": "https://andrewlock.net/conditionally-skipping-a-trigger-job-in-gitlab-based-on-a-previous-job/",
+    "raw": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines",
+    "sanitized": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines"
+  },
+  {
+    "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
+    "raw": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields",
+    "sanitized": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields"
+  },
+  {
+    "itemId": "https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/",
+    "raw": "In this post I describe some of the ways I like to use primary constructors and some of the things I don't like about them",
+    "sanitized": "In this post I describe some of the ways I like to use primary constructors and some of the things I don't like about them"
+  },
+  {
+    "itemId": "https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/",
+    "raw": "In this post I introduce C#12 primary constructors, describe the various ways to use them and how they work behind the scenes.",
+    "sanitized": "In this post I introduce C#12 primary constructors, describe the various ways to use them and how they work behind the scenes."
+  }
+]

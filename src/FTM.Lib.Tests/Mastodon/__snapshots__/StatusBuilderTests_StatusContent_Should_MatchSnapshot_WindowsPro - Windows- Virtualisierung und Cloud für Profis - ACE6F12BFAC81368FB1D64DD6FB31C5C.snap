@@ -1,0 +1,5 @@
+﻿Grundlagen des Load Balancing: Scheduling, Persistenz, Timeout
+
+Der Lastausgleich ist ein wesentlicher Bestandteil bei jeder Bereit­stellung von Anwendungen. Damit erreicht man hohe Verfüg­barkeit, Per­formance und Sicher­heit. Dieser Beitrag erklärt, welche Rolle dabei die Algorith­men für das Scheduling spielen und wie Persistenz und Timeouts eine gleich­mäßige Auslastung beein­flussen.
+---
+http://www.windowspro.de/progress-software/grundlagen-des-load-balancing-scheduling-persistenz-timeout?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed

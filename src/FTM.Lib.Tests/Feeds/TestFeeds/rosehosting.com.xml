@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>RoseHosting</title>
+	<atom:link href="https://www.rosehosting.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.rosehosting.com/blog/</link>
+	<description>Premium Linux Tutorials Since 2001</description>
+	<lastBuildDate>Mon, 28 Oct 2024 13:37:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+
+<image>
+	<url>https://www.rosehosting.com/blog/wp-content/uploads/2022/03/cropped-favicon-1-32x32.png</url>
+	<title>RoseHosting</title>
+	<link>https://www.rosehosting.com/blog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Domain vs Hosting: Understanding the Key Differences</title>
+		<link>https://www.rosehosting.com/blog/domain-vs-hosting/</link>
+					<comments>https://www.rosehosting.com/blog/domain-vs-hosting/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 30 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Managed Hosting]]></category>
+		<category><![CDATA[Networking and Domains]]></category>
+		<category><![CDATA[domain]]></category>
+		<category><![CDATA[domains]]></category>
+		<category><![CDATA[hosting]]></category>
+		<category><![CDATA[Servers]]></category>
+		<category><![CDATA[vps]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49329</guid>
+
+					<description><![CDATA[<p>Whether you’re establishing a personal blog or promoting a business, it’s helpful to understand the fundamental aspects of a website. ... </p>
+<p class="read-more-container"><a title="Domain vs Hosting: Understanding the Key Differences" class="read-more button" href="https://www.rosehosting.com/blog/domain-vs-hosting/#more-49329" aria-label="Read more about Domain vs Hosting: Understanding the Key Differences">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/domain-vs-hosting/">Domain vs Hosting: Understanding the Key Differences</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/domain-vs-hosting/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is Virtual Desktop Infrastructure &#038; How Does It Enhance Remote Operations and Security?</title>
+		<link>https://www.rosehosting.com/blog/virtual-desktop-infrastructure/</link>
+					<comments>https://www.rosehosting.com/blog/virtual-desktop-infrastructure/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 28 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Web Servers]]></category>
+		<category><![CDATA[remote operations]]></category>
+		<category><![CDATA[remote work]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[vdi]]></category>
+		<category><![CDATA[virtual desktop]]></category>
+		<category><![CDATA[virtual desktop infrastructure]]></category>
+		<category><![CDATA[vps]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49293</guid>
+
+					<description><![CDATA[<p>There’s no getting around it – remote work is here to stay. To make this new way of working successful, ... </p>
+<p class="read-more-container"><a title="What is Virtual Desktop Infrastructure &#38; How Does It Enhance Remote Operations and Security?" class="read-more button" href="https://www.rosehosting.com/blog/virtual-desktop-infrastructure/#more-49293" aria-label="Read more about What is Virtual Desktop Infrastructure &#38; How Does It Enhance Remote Operations and Security?">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/virtual-desktop-infrastructure/">What is Virtual Desktop Infrastructure &amp; How Does It Enhance Remote Operations and Security?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/virtual-desktop-infrastructure/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Best Open Source Hosting Control Panels for 2024</title>
+		<link>https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/</link>
+					<comments>https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 23 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Control Panels]]></category>
+		<category><![CDATA[Open-source]]></category>
+		<category><![CDATA[aaPanel]]></category>
+		<category><![CDATA[ajenti]]></category>
+		<category><![CDATA[control panel]]></category>
+		<category><![CDATA[CyberPanel]]></category>
+		<category><![CDATA[hestia]]></category>
+		<category><![CDATA[ispconfig]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[webmin]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49246</guid>
+
+					<description><![CDATA[<p>What are the best open-source hosting control panels in 2024? With a slew of options to choose from, we&#8217;ll cover ... </p>
+<p class="read-more-container"><a title="Best Open Source Hosting Control Panels for 2024" class="read-more button" href="https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/#more-49246" aria-label="Read more about Best Open Source Hosting Control Panels for 2024">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/">Best Open Source Hosting Control Panels for 2024</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fstab options: What are they, and when should you use them?</title>
+		<link>https://www.rosehosting.com/blog/fstab-options/</link>
+					<comments>https://www.rosehosting.com/blog/fstab-options/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 21 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Commands]]></category>
+		<category><![CDATA[fstab]]></category>
+		<category><![CDATA[fstab options]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49222</guid>
+
+					<description><![CDATA[<p>What is fstab in Lunix? What are fstab options, and when should you use them? Our latest tutorial covers all ... </p>
+<p class="read-more-container"><a title="Fstab options: What are they, and when should you use them?" class="read-more button" href="https://www.rosehosting.com/blog/fstab-options/#more-49222" aria-label="Read more about Fstab options: What are they, and when should you use them?">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/fstab-options/">Fstab options: What are they, and when should you use them?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/fstab-options/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other</title>
+		<link>https://www.rosehosting.com/blog/root-access/</link>
+					<comments>https://www.rosehosting.com/blog/root-access/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 16 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Control Panels]]></category>
+		<category><![CDATA[Managed Hosting]]></category>
+		<category><![CDATA[RoseHosting Platform]]></category>
+		<category><![CDATA[agency]]></category>
+		<category><![CDATA[agency hosting]]></category>
+		<category><![CDATA[control panel]]></category>
+		<category><![CDATA[fully managed]]></category>
+		<category><![CDATA[Fully Managed Hosting]]></category>
+		<category><![CDATA[no control panel]]></category>
+		<category><![CDATA[root access]]></category>
+		<category><![CDATA[rosehosting]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49231</guid>
+
+					<description><![CDATA[<p>Good, fast, cheap. Pick two! This popular phrase is often used throughout agencies when client expectations unrealistically want all three. ... </p>
+<p class="read-more-container"><a title="Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other" class="read-more button" href="https://www.rosehosting.com/blog/root-access/#more-49231" aria-label="Read more about Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/root-access/">Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/root-access/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Redirect URLs Using Nginx</title>
+		<link>https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 14 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Guides]]></category>
+		<category><![CDATA[Web Servers]]></category>
+		<category><![CDATA[how to]]></category>
+		<category><![CDATA[how to guide]]></category>
+		<category><![CDATA[nginx]]></category>
+		<category><![CDATA[redirect]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[url redirect]]></category>
+		<category><![CDATA[webserver]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49124</guid>
+
+					<description><![CDATA[<p>URL redirection, also called URL forwarding, allows multiple URL addresses to be associated with a single page. This can include ... </p>
+<p class="read-more-container"><a title="How to Redirect URLs Using Nginx" class="read-more button" href="https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/#more-49124" aria-label="Read more about How to Redirect URLs Using Nginx">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/">How to Redirect URLs Using Nginx</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What is Systemctl and How Should You Use It?</title>
+		<link>https://www.rosehosting.com/blog/what-is-systemctl/</link>
+					<comments>https://www.rosehosting.com/blog/what-is-systemctl/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 09 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Commands]]></category>
+		<category><![CDATA[Linux Commands]]></category>
+		<category><![CDATA[systemctl]]></category>
+		<category><![CDATA[systemd]]></category>
+		<category><![CDATA[what is]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49127</guid>
+
+					<description><![CDATA[<p>Systemd is a popular init system that serves as a management tool for various systems within the Linux operating environment. ... </p>
+<p class="read-more-container"><a title="What is Systemctl and How Should You Use It?" class="read-more button" href="https://www.rosehosting.com/blog/what-is-systemctl/#more-49127" aria-label="Read more about What is Systemctl and How Should You Use It?">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/what-is-systemctl/">What is Systemctl and How Should You Use It?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/what-is-systemctl/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Linux Commands Cheat Sheet: Your Complete Reference</title>
+		<link>https://www.rosehosting.com/blog/linux-commands-cheat-sheet/</link>
+					<comments>https://www.rosehosting.com/blog/linux-commands-cheat-sheet/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 07 Oct 2024 17:30:00 +0000</pubDate>
+				<category><![CDATA[Guides]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[cheat sheet]]></category>
+		<category><![CDATA[Commands]]></category>
+		<category><![CDATA[Linux Commands]]></category>
+		<category><![CDATA[reference]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49074</guid>
+
+					<description><![CDATA[<p>The Linux command line interface offers complete control over your Linux system. Although many Linux commands may seem scary or ... </p>
+<p class="read-more-container"><a title="Linux Commands Cheat Sheet: Your Complete Reference" class="read-more button" href="https://www.rosehosting.com/blog/linux-commands-cheat-sheet/#more-49074" aria-label="Read more about Linux Commands Cheat Sheet: Your Complete Reference">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/linux-commands-cheat-sheet/">Linux Commands Cheat Sheet: Your Complete Reference</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/linux-commands-cheat-sheet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
