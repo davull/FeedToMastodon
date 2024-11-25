@@ -4,11 +4,13 @@
 It supports RSS, Atom and RDF feeds. You can configure multiple feeds, each with its own target
 Mastodon account.
 
+For more informations, see this [Blog post](https://production-ready.de/2024/11/24/feed-to-mastodon-en.html)
+([German version](https://production-ready.de/2024/11/24/feed-to-mastodon.html)).
+
 You can see `Feed to Mastodon` working at [https://feedmirror.social](https://feedmirror.social/public/local)
 with some feeds mirrored to the fediverse.
 
 ![Mastodon Post Example](assets/screenshots/mastodon-wired-post.png)
-
 
 ## Configuration
 
