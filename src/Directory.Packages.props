@@ -29,6 +29,6 @@
     <PackageVersion Include="System.Net.Http" Version="4.3.4" />
     <PackageVersion Include="System.Private.Uri" Version="4.3.2" />
     <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
-    <PackageVersion Include="WireMock.Net" Version="1.6.7" />
+    <PackageVersion Include="WireMock.Net" Version="1.6.8" />
   </ItemGroup>
 </Project>
