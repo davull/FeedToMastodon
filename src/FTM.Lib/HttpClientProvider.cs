@@ -9,14 +9,15 @@ public static class HttpClientProvider
     {
         delay ??= TimeSpan.FromSeconds(4);
 
+        var options = new HttpRetryStrategyOptions
+        {
+            BackoffType = DelayBackoffType.Exponential,
+            Delay = delay.Value,
+            MaxRetryAttempts = 3,
+            UseJitter = true
+        };
         var retryPipeline = new ResiliencePipelineBuilder<HttpResponseMessage>()
-            .AddRetry(new HttpRetryStrategyOptions
-            {
-                BackoffType = DelayBackoffType.Exponential,
-                Delay = delay.Value,
-                MaxRetryAttempts = 3,
-                UseJitter = true
-            })
+            .AddRetry(options)
             .Build();
 
 #pragma warning disable EXTEXP0001
