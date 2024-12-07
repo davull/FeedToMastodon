@@ -5,6 +5,8 @@ namespace FTM.Lib.Tests;
 
 public class ConfigTests
 {
+    private readonly Random _random = new(123);
+
     [TestCase("ftm.sqlite")]
     [TestCase("../ftm.sqlite")]
     [TestCase("../../ftm.sqlite")]
@@ -39,5 +41,33 @@ public class ConfigTests
         Environment.SetEnvironmentVariable(Config.UseMastodonTestClientKey, env);
 
         Config.UseMastodonTestClient.Should().Be(expected);
+    }
+
+    [Test]
+    public void WorkerStartDelay_ShouldReturn_BetweenZeroAndHalfLoopDelay()
+    {
+        for (var i = 0; i < 10_000; i++)
+        {
+            var loopDelay = TimeSpan.FromMinutes(_random.Next(1, 10));
+
+            var actual = Config.WorkerStartDelay(loopDelay, _random);
+
+            actual.Should()
+                .BeGreaterOrEqualTo(TimeSpan.Zero)
+                .And.BeLessThanOrEqualTo(loopDelay / 2);
+        }
+    }
+
+    [Test]
+    public void WorkerStartDelay_ShouldReturn_DifferentValues()
+    {
+        var loopDelay = TimeSpan.FromMinutes(10);
+
+        var delays = Enumerable.Range(0, 100)
+            .Select(_ => Config.WorkerStartDelay(loopDelay, _random))
+            .Select(d => d.TotalMilliseconds)
+            .ToList();
+
+        delays.Should().OnlyHaveUniqueItems();
     }
 }

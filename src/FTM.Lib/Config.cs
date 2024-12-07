@@ -14,6 +14,13 @@ public static class Config
 
     public static TimeSpan WorkerLoopDelay => TimeSpan.FromMinutes(1);
 
+    public static TimeSpan WorkerStartDelay(TimeSpan loopDelay, Random? random = null)
+    {
+        random ??= Random.Shared;
+        var delay = random.Next(0, (int)loopDelay.TotalMilliseconds) / 2;
+        return TimeSpan.FromMilliseconds(delay);
+    }
+
     public static TimeSpan MastodonRateLimitExceptionDelay => TimeSpan.FromMinutes(15);
 
     public static TimeSpan HttpRequestExceptionDelay => TimeSpan.FromMinutes(10);
