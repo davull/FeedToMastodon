@@ -57,7 +57,7 @@ public static class FeedItemPoster
             context.Logger.LogError(ex,
                 "Rate limit exceeded; limit {Limit}, remaining {Remaining}, reset {Reset}",
                 ex.Limit, ex.Remaining, ex.Reset);
-            context.SetDelay(TimeSpan.FromMinutes(15));
+            context.SetDelay(Config.RateLimitExceptionDelay);
         }
         catch (Exception ex) when (ex is not OperationCanceledException)
         {

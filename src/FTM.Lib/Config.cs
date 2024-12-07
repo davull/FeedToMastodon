@@ -12,6 +12,14 @@ public static class Config
 
     public static bool UseMastodonTestClient => GetBoolValue(UseMastodonTestClientKey);
 
+    public static TimeSpan WorkerLoopDelay => TimeSpan.FromMinutes(1);
+
+    public static TimeSpan RateLimitExceptionDelay => TimeSpan.FromMinutes(15);
+
+    public static TimeSpan HttpRequestExceptionDelay => TimeSpan.FromMinutes(10);
+
+    public static TimeSpan HttpClientRetryDelay => TimeSpan.FromSeconds(4);
+
     private static string GetFilePath(string key)
     {
         var path = GetStringValue(key);

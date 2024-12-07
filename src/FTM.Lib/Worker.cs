@@ -30,7 +30,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                 {
                     Logger.LogError("Error while processing feed {FeedUri}: Network error, status code {StatusCode}",
                         Configuration.FeedUri, ex.StatusCode);
-                    context.SetDelay(TimeSpan.FromMinutes(10));
+                    context.SetDelay(Config.HttpRequestExceptionDelay);
                 }
                 catch (Exception ex) when (ex is not OperationCanceledException)
                 {
