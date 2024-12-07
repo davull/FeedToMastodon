@@ -8,6 +8,8 @@ schedules:
 
 trigger: none
 
+pr: none
+
 parameters:
   - name: RenovateLogLevel
     displayName: "Renovate log level"
