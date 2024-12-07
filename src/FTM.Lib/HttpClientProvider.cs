@@ -14,7 +14,8 @@ public static class HttpClientProvider
             {
                 BackoffType = DelayBackoffType.Exponential,
                 Delay = delay.Value,
-                MaxRetryAttempts = 3
+                MaxRetryAttempts = 3,
+                UseJitter = true
             })
             .Build();
 
