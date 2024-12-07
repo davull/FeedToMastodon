@@ -7,7 +7,7 @@ public static class HttpClientProvider
 {
     public static HttpClient CreateHttpClient(TimeSpan? delay = null)
     {
-        delay ??= TimeSpan.FromSeconds(4);
+        delay ??= Config.HttpClientRetryDelay;
 
         var options = new HttpRetryStrategyOptions
         {

@@ -19,18 +19,21 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
         try
         {
+            // Delay worker for to spread http calls
+            await Task.Delay(Config.WorkerStartDelay(context.LoopWaitDelay), cancellationToken);
+
             while (!cancellationToken.IsCancellationRequested)
             {
                 try
                 {
                     await Loop(cancellationToken);
-                    context.ResetDelay();
+                    context.ResetLoopDelay();
                 }
                 catch (HttpRequestException ex)
                 {
                     Logger.LogError("Error while processing feed {FeedUri}: Network error, status code {StatusCode}",
                         Configuration.FeedUri, ex.StatusCode);
-                    context.SetDelay(TimeSpan.FromMinutes(10));
+                    context.SetLoopDelay(Config.HttpRequestExceptionDelay);
                 }
                 catch (Exception ex) when (ex is not OperationCanceledException)
                 {
@@ -38,7 +41,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                         Configuration.FeedUri, ex.Message);
                 }
 
-                await Task.Delay(context.WaitDelay, cancellationToken);
+                await Task.Delay(context.LoopWaitDelay, cancellationToken);
             }
         }
         catch (OperationCanceledException)

@@ -10,9 +10,9 @@ public class WorkerContext
 
     public required HttpClient HttpClient { get; init; } = null!;
 
-    public TimeSpan WaitDelay { get; private set; } = TimeSpan.FromMinutes(1);
+    public TimeSpan LoopWaitDelay { get; private set; } = Config.WorkerLoopDelay;
 
-    public void ResetDelay() => WaitDelay = TimeSpan.FromMinutes(1);
+    public void ResetLoopDelay() => LoopWaitDelay = Config.WorkerLoopDelay;
 
-    public void SetDelay(TimeSpan delay) => WaitDelay = delay;
+    public void SetLoopDelay(TimeSpan delay) => LoopWaitDelay = delay;
 }
