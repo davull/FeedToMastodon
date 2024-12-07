@@ -24,55 +24,17 @@ public class HttpClientProviderTests : TestBase
         _server.Dispose();
     }
 
-    [Test]
-    public async Task WithStatusCodeOK_Should_ReturnSuccess()
+    [TestCase(0)]
+    [TestCase(1)]
+    [TestCase(2)]
+    [TestCase(3)]
+    public async Task WithUpToThreeFailingRequests_Should_RetryAndReturnSuccess(int failures)
     {
-        SetupServer(200);
+        // 429 TooManyRequests
+        var failureCodes = Enumerable.Range(0, failures).Select(_ => 429);
+        int[] status = [..failureCodes, 200];
 
-        var client = HttpClientProvider.CreateHttpClient();
-        var uri = new Uri($"{_server.Url}/route");
-
-        var response = await client.GetAsync(uri);
-        var content = await response.Content.ReadAsStringAsync();
-
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
-        content.Should().NotBeNullOrWhiteSpace();
-    }
-
-    [Test]
-    public async Task WithOneFailingRequest_Should_RetryAndReturnSuccess()
-    {
-        SetupServer(429); // TooManyRequests
-
-        var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
-        var uri = new Uri($"{_server.Url}/route");
-
-        var response = await client.GetAsync(uri);
-        var content = await response.Content.ReadAsStringAsync();
-
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
-        content.Should().NotBeNullOrWhiteSpace();
-    }
-
-    [Test]
-    public async Task WithTwoFailingRequest_Should_RetryAndReturnSuccess()
-    {
-        SetupServer(429, 429); // TooManyRequests
-
-        var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
-        var uri = new Uri($"{_server.Url}/route");
-
-        var response = await client.GetAsync(uri);
-        var content = await response.Content.ReadAsStringAsync();
-
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
-        content.Should().NotBeNullOrWhiteSpace();
-    }
-
-    [Test]
-    public async Task WithThreeFailingRequest_Should_RetryAndReturnSuccess()
-    {
-        SetupServer(429, 429, 429); // TooManyRequests
+        SetupServer(status);
 
         var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
         var uri = new Uri($"{_server.Url}/route");
@@ -97,24 +59,27 @@ public class HttpClientProviderTests : TestBase
         response.StatusCode.Should().Be(HttpStatusCode.TooManyRequests);
     }
 
-    private void SetupServer(
-        int statusCode0,
-        int statusCode1 = 200,
-        int statusCode2 = 200,
-        int statusCode3 = 200)
+    private void SetupServer(params int[] status)
     {
         const string scenario = "my-scenario";
         const string body = "lorem ipsum";
         const string path = "/route";
 
         var states = new[] { 0, 1, 2, 3 };
-        var status = new[] { statusCode0, statusCode1, statusCode2, statusCode3 };
+
+        if (status.Length < 4)
+        {
+            var missing = Enumerable.Range(0, 4 - status.Length).Select(_ => 200);
+            status = [..status, ..missing];
+        }
+
+        var request = Request.Create()
+            .WithPath(path)
+            .UsingGet();
 
         // First call
         _server
-            .Given(Request.Create()
-                .WithPath(path)
-                .UsingGet())
+            .Given(request)
             .InScenario(scenario)
             .WillSetStateTo(states[0])
             .RespondWith(Response.Create()
@@ -125,9 +90,7 @@ public class HttpClientProviderTests : TestBase
         for (var i = 1; i < 4; i++)
         {
             _server
-                .Given(Request.Create()
-                    .WithPath(path)
-                    .UsingGet())
+                .Given(request)
                 .InScenario(scenario)
                 .WhenStateIs(states[i - 1])
                 .WillSetStateTo(states[i])
