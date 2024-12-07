@@ -14,7 +14,7 @@ public static class Config
 
     public static TimeSpan WorkerLoopDelay => TimeSpan.FromMinutes(1);
 
-    public static TimeSpan RateLimitExceptionDelay => TimeSpan.FromMinutes(15);
+    public static TimeSpan MastodonRateLimitExceptionDelay => TimeSpan.FromMinutes(15);
 
     public static TimeSpan HttpRequestExceptionDelay => TimeSpan.FromMinutes(10);
 
