@@ -2,10 +2,8 @@
 using FTM.Lib;
 using FTM.Lib.Data;
 using FTM.Lib.Mastodon;
-using Microsoft.Extensions.Http.Resilience;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
-using Polly;
 
 namespace FTM.App;
 
@@ -72,34 +70,11 @@ public class Application(
             {
                 Configuration = config,
                 Logger = loggerFactory.CreateLogger(config.Title),
-                HttpClient = CreateHttpClient()
+                HttpClient = HttpClientProvider.CreateHttpClient()
             };
         }
 
         Worker CreateWorker(WorkerContext context) => new(context, mastodonClient);
-
-        HttpClient CreateHttpClient()
-        {
-            var retryPipeline = new ResiliencePipelineBuilder<HttpResponseMessage>()
-                .AddRetry(new HttpRetryStrategyOptions
-                {
-                    BackoffType = DelayBackoffType.Exponential,
-                    Delay = TimeSpan.FromSeconds(4),
-                    MaxRetryAttempts = 3
-                })
-                .Build();
-
-#pragma warning disable EXTEXP0001
-            var resilienceHandler = new ResilienceHandler(retryPipeline)
-#pragma warning restore EXTEXP0001
-            {
-                InnerHandler = new SocketsHttpHandler
-                {
-                    PooledConnectionLifetime = TimeSpan.FromMinutes(2)
-                }
-            };
-            return new HttpClient(resilienceHandler);
-        }
     }
 
     private Task InitializeStatisticsWorker(CancellationToken cancellationToken)
