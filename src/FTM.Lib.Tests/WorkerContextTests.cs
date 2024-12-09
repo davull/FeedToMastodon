@@ -12,12 +12,12 @@ public class WorkerContextTests
 
         var someDelay = TimeSpan.FromSeconds(99);
 
-        sut.LoopWaitDelay.Should().NotBe(someDelay);
+        sut.LoopDelay.Should().NotBe(someDelay);
 
         // Act
         sut.SetLoopDelay(someDelay);
 
-        sut.LoopWaitDelay.Should().Be(someDelay);
+        sut.LoopDelay.Should().Be(someDelay);
     }
 
     [Test]
@@ -28,14 +28,14 @@ public class WorkerContextTests
 
         var sut = Dummies.WorkerContext(Dummies.FeedConfiguration(), initialDelay);
 
-        sut.LoopWaitDelay.Should().Be(initialDelay);
-        sut.LoopWaitDelay.Should().NotBe(someDelay);
+        sut.LoopDelay.Should().Be(initialDelay);
+        sut.LoopDelay.Should().NotBe(someDelay);
         sut.SetLoopDelay(someDelay);
-        sut.LoopWaitDelay.Should().Be(someDelay);
+        sut.LoopDelay.Should().Be(someDelay);
 
         // Act
         sut.ResetLoopDelay();
 
-        sut.LoopWaitDelay.Should().Be(initialDelay);
+        sut.LoopDelay.Should().Be(initialDelay);
     }
 }

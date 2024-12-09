@@ -2,9 +2,9 @@
 
 namespace FTM.Lib;
 
-public class WorkerContext(TimeSpan defaultLoopWaitDelay)
+public class WorkerContext(TimeSpan defaultLoopDelay)
 {
-    private readonly TimeSpan _defaultLoopWaitDelay = defaultLoopWaitDelay;
+    private readonly TimeSpan _defaultLoopDelay = defaultLoopDelay;
 
     public required FeedConfiguration Configuration { get; init; } = null!;
 
@@ -12,9 +12,9 @@ public class WorkerContext(TimeSpan defaultLoopWaitDelay)
 
     public required HttpClient HttpClient { get; init; } = null!;
 
-    public TimeSpan LoopWaitDelay { get; private set; } = defaultLoopWaitDelay;
+    public TimeSpan LoopDelay { get; private set; } = defaultLoopDelay;
 
-    public void ResetLoopDelay() => LoopWaitDelay = _defaultLoopWaitDelay;
+    public void ResetLoopDelay() => LoopDelay = _defaultLoopDelay;
 
-    public void SetLoopDelay(TimeSpan delay) => LoopWaitDelay = delay;
+    public void SetLoopDelay(TimeSpan delay) => LoopDelay = delay;
 }
