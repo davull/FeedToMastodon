@@ -19,8 +19,8 @@ public class Application(
     {
         var feedConfigurations = FeedConfigurationReader.ReadConfiguration(Config.ConfigFileName);
         var appConfiguration = GetAppConfiguration();
-        var appOptions = appConfiguration.Get<ApplicationOptions>() ??
-                         throw new NullReferenceException("Can't read ApplicationOptions from appsettings.json");
+        var appOptions = GetAppOptions();
+
         var mastodonClient = CreateMastodonClient();
         var loggerFactory = CreateLoggerFactory();
 
@@ -46,6 +46,27 @@ public class Application(
             return Config.UseMastodonTestClient
                 ? new MastodonTestClient()
                 : new MastodonClient();
+        }
+
+        IConfiguration GetAppConfiguration()
+        {
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: true)
+                .AddJsonFile("appsettings.local.json", optional: true)
+                .Build();
+            return configuration;
+        }
+
+        ApplicationOptions GetAppOptions()
+        {
+            try
+            {
+                return appConfiguration.Get<ApplicationOptions>()!;
+            }
+            catch
+            {
+                return ApplicationOptions.Default;
+            }
         }
     }
 
@@ -87,14 +108,5 @@ public class Application(
         var logger = loggerFactory.CreateLogger("Statistics");
         var worker = new StatisticsWorker(logger);
         return worker.Start(cancellationToken);
-    }
-
-    private static IConfiguration GetAppConfiguration()
-    {
-        var configuration = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json", optional: true)
-            .AddJsonFile("appsettings.local.json", optional: true)
-            .Build();
-        return configuration;
     }
 }
