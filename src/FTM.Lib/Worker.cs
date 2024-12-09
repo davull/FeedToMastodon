@@ -14,14 +14,15 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
     public async Task Start(CancellationToken cancellationToken = default)
     {
-        Logger.LogInformation("Worker started, feed: {FeedUri}",
+        Logger.LogInformation("Worker started, loop delay: {LoopDelay}, feed: {FeedUri}",
+            context.LoopDelay,
             Configuration.FeedUri);
 
         try
         {
-            var delay = Config.WorkerStartDelay(context.LoopWaitDelay);
-            Logger.LogDebug("Delay worker start for {Delay}", delay.ToString(@"hh\:mm\:ss"));
-            await Task.Delay(delay, cancellationToken);
+            var startDelay = Config.WorkerStartDelay(context.LoopDelay);
+            Logger.LogDebug("Delay worker start for {StartDelay}", startDelay.ToString(@"hh\:mm\:ss"));
+            await Task.Delay(startDelay, cancellationToken);
 
             while (!cancellationToken.IsCancellationRequested)
             {
@@ -42,7 +43,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                         Configuration.FeedUri, ex.Message);
                 }
 
-                await Task.Delay(context.LoopWaitDelay, cancellationToken);
+                await Task.Delay(context.LoopDelay, cancellationToken);
             }
         }
         catch (OperationCanceledException)
