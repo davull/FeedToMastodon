@@ -92,7 +92,8 @@ public class Application(
 
         WorkerContext CreateWorkerContext(FeedConfiguration config)
         {
-            return new WorkerContext(applicationOptions.DefaultWorkerLoopDelay)
+            var workerLoopDelay = config.WorkerLoopDelay ?? applicationOptions.DefaultWorkerLoopDelay;
+            return new WorkerContext(workerLoopDelay)
             {
                 Configuration = config,
                 Logger = loggerFactory.CreateLogger(config.Title),
