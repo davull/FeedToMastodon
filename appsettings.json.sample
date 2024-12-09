@@ -1,0 +1,8 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information"
+    }
+  },
+  "DefaultWorkerLoopDelay": "00:01:00"
+}

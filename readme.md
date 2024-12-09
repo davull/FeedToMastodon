@@ -14,6 +14,31 @@ with some feeds mirrored to the fediverse.
 
 ## Configuration
 
+### Application configuration
+
+Some settings are set for the whole application. This is done via an JSON file `appsettings.json`.
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information"
+    }
+  },
+  "DefaultWorkerLoopDelay": "00:01:00"
+}
+```
+
+| Parameter                | Description                           | Values                          | Optional | Default       |
+|--------------------------|---------------------------------------|---------------------------------|----------|---------------|
+| Logging:LogLevel:Default | The log level of the application      | `Debug`, `Information`, `Error` | yes      | `Information` |
+| DefaultWorkerLoopDelay   | The default delay between feed checks | format `hh:mm:ss`               | yes      | `00:01:00`    |
+
+The file or the docker mount point must be located in the application directory.
+This file is optional, if not present the default values are used.
+
+### Feed configuration
+
 The configuration of the individual feeds is done in a INI configuration file.
 
 ```ini
@@ -120,6 +145,7 @@ feed_url = https://www.heise.de/rss/heise-atom.xml
 summary_separator = [...]
 mastodon_server = https://mastodon.social/
 mastodon_access_token = AWWHkaIB_...
+worker_loop_delay = 00:10:00
 
 [wired.com]
 feed_url = https://www.wired.com/feed/rss
@@ -139,6 +165,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./data:/app/data
+      - ./data/appsettings.json:/app/appsettings.json
     environment:
       - FTM_DATABASE_NAME=/app/data/ftm.sqlite
       - FTM_CONFIG_FILE_NAME=/app/data/ftm.ini
