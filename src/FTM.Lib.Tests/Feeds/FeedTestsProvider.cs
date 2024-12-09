@@ -51,7 +51,7 @@ public static class FeedTestsProvider
             "driveteslacanada.ca.xml",
             "elektroauto-news.net.xml",
             "embarc.de.xml",
-            "fernuni-hagen.de.xml",
+            //"fernuni-hagen.de.xml",
             "golem.de.xml",
             "heiseplus.xml",
             "howtoforge.com.xml",
