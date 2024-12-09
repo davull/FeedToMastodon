@@ -2,6 +2,7 @@
 using FTM.Lib;
 using FTM.Lib.Data;
 using FTM.Lib.Mastodon;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 
@@ -16,6 +17,7 @@ public class Application(
     public static Application Create()
     {
         var feedConfigurations = FeedConfigurationReader.ReadConfiguration(Config.ConfigFileName);
+        var appConfiguration = GetAppConfiguration();
         var mastodonClient = CreateMastodonClient();
         var loggerFactory = CreateLoggerFactory();
 
@@ -30,9 +32,9 @@ public class Application(
                     {
                         options.SingleLine = true;
                         options.ColorBehavior = LoggerColorBehavior.Enabled;
-                        options.TimestampFormat = "HH:mm:ss ";
+                        options.TimestampFormat = "yyyy-MM-dd HH:mm:ss ";
                     })
-                    .SetMinimumLevel(LogLevel.Information);
+                    .AddConfiguration(appConfiguration.GetSection("Logging"));
             });
         }
 
@@ -82,5 +84,14 @@ public class Application(
         var logger = loggerFactory.CreateLogger("Statistics");
         var worker = new StatisticsWorker(logger);
         return worker.Start(cancellationToken);
+    }
+
+    private static IConfiguration GetAppConfiguration()
+    {
+        var configuration = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json", optional: true)
+            .AddJsonFile("appsettings.local.json", optional: true)
+            .Build();
+        return configuration;
     }
 }

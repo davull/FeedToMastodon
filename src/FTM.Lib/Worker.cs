@@ -19,8 +19,9 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
         try
         {
-            // Delay worker for to spread http calls
-            await Task.Delay(Config.WorkerStartDelay(context.LoopWaitDelay), cancellationToken);
+            var delay = Config.WorkerStartDelay(context.LoopWaitDelay);
+            Logger.LogDebug("Delay worker start for {Delay}", delay.ToString(@"hh\:mm\:ss"));
+            await Task.Delay(delay, cancellationToken);
 
             while (!cancellationToken.IsCancellationRequested)
             {
