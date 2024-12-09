@@ -6,7 +6,18 @@
     <description>Recent content in Blog on embarc</description>
     <generator>Hugo -- gohugo.io</generator>
     
-    <lastBuildDate>Mon, 18 Nov 2024 10:00:00 +0000</lastBuildDate><atom:link href="https://www.embarc.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.embarc.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Im Gespräch mit Anja Kammer zu Datensicherheit in der Produktentwicklung</title>
+      <link>https://www.embarc.de/interview-anja-kammer-datensicherheit/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/interview-anja-kammer-datensicherheit/</guid>
+      <description>&amp;nbsp;  (Stefan Zörner) &amp;ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&amp;quot;
+Anja Kammer: Ich bin Senior Consultant bei INNOQ. Während meiner täglichen Projektarbeit arbeite ich trotzdem Hands-on am Code und auch an Infrastrukturarchitektur und Softwarearchitektur, meistens in der Cloud. Aber ich bin auch beratend tätig. Ich unterstütze Unternehmen, die in die Cloud wollen oder bestimmte Fallstricke vorhersehen möchten.
+Und ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektur-Themen.</description>
+    </item>
+    
     <item>
       <title>Im Gespräch mit Matthias Naab zu Plattformen</title>
       <link>https://www.embarc.de/interview-matthias-naab-plattformen/</link>

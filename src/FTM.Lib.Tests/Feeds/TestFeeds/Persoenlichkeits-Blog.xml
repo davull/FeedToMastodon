@@ -1,15 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
 
 <channel>
 	<title>DER Persönlichkeits-Blog</title>
-	<atom:link href="https://www.persoenlichkeits-blog.de/feed" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.persoenlichkeits-blog.de/feed" rel="self" type="application/rss+xml"/>
 	<link>https://www.persoenlichkeits-blog.de/</link>
 	<description>Mit über 1.000 Artikeln und 400 Podcasts  aus 18 Jahren.   -- --  Von Roland Kopp-Wichmann. Aber Vorsicht: Lesen kann Ihr Herz berühren, Ihre Augen öffnen und Ihr Leben beeinflussen.</description>
 	<lastBuildDate>Sun, 14 Apr 2024 15:46:00 +0000</lastBuildDate>
@@ -27,12 +20,12 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
+	<itunes:explicit>no</itunes:explicit><copyright>Alle Rechte bei Roland Kopp-Wichmann</copyright><itunes:keywords>karriere,job,beruf,stress,management,zeitmanagement,selbstmanagement,emotionale,intelligenz,seminar,coaching,training,weiterbildung,beziehungen</itunes:keywords><itunes:summary>Warum ist es so schwer, seine Persönlichkeit zu verändern, wo doch viele Bücher das Gegenteil versprechen? Wie es doch gehen kann, erfahren Sie in meinen Podcasts.</itunes:summary><itunes:subtitle>Warum ist es so schwer, seine Persönlichkeit zu verändern, wo doch viele Bücher das Gegenteil versprechen? Wie es doch gehen kann, erfahren Sie in meinen Podcasts.</itunes:subtitle><itunes:category text="Business"><itunes:category text="Careers"/></itunes:category><itunes:category text="Education"><itunes:category text="Training"/></itunes:category><itunes:category text="Health"><itunes:category text="Self-Help"/></itunes:category><itunes:author>Dipl.Psych. Roland Kopp-Wichmann</itunes:author><itunes:owner><itunes:email>rkwichmann@web.de</itunes:email><itunes:name>Dipl.Psych. Roland Kopp-Wichmann</itunes:name></itunes:owner><item>
 		<title>Wie wirkt das ungelebte Leben der Eltern auf uns?</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120731/das-ungelebte-leben?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=das-ungelebte-leben</link>
+		<link>https://www.persoenlichkeits-blog.de/article/120731/das-ungelebte-leben?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=das-ungelebte-leben</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120731/das-ungelebte-leben#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Sun, 14 Apr 2024 15:46:00 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120731</guid>
@@ -45,13 +38,13 @@
 			<slash:comments>3</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
-		<title>&#8222;Das Katastrophendenken habe ich von meinem Vater&#8220;, sagte der Mann im Coaching.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120608/katastrophendenken?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=katastrophendenken</link>
+		<title>„Das Katastrophendenken habe ich von meinem Vater“, sagte der Mann im Coaching.</title>
+		<link>https://www.persoenlichkeits-blog.de/article/120608/katastrophendenken?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=katastrophendenken</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120608/katastrophendenken#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Wed, 21 Feb 2024 12:26:51 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120608</guid>
@@ -64,13 +57,13 @@
 			<slash:comments>1</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
-		<title>Warum das Symptom oft die Lösung ist. &#8211; Ein Interview</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120699/warum-symptome-loesungen-sind?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=warum-symptome-loesungen-sind</link>
+		<title>Warum das Symptom oft die Lösung ist. – Ein Interview</title>
+		<link>https://www.persoenlichkeits-blog.de/article/120699/warum-symptome-loesungen-sind?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=warum-symptome-loesungen-sind</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120699/warum-symptome-loesungen-sind#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Wed, 24 Jan 2024 17:47:28 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120699</guid>
@@ -83,13 +76,13 @@
 			<slash:comments>1</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
-		<title>&#8222;Eine bessere Führungskraft wurde ich durch deine Schlüsselsätze&#8220;, sagte der Mann im Coaching.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120671/bessere-fuehrungskraft?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bessere-fuehrungskraft</link>
+		<title>„Eine bessere Führungskraft wurde ich durch deine Schlüsselsätze“, sagte der Mann im Coaching.</title>
+		<link>https://www.persoenlichkeits-blog.de/article/120671/bessere-fuehrungskraft?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=bessere-fuehrungskraft</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120671/bessere-fuehrungskraft#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Sat, 30 Dec 2023 16:37:49 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120671</guid>
@@ -102,13 +95,13 @@
 			<slash:comments>4</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
 		<title>Warum brauchen Menschen eigentlich Glaubenssysteme?</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120652/%f0%9d%90%96%f0%9d%90%9a%f0%9d%90%ab%f0%9d%90%ae%f0%9d%90%a6-%f0%9d%90%9b%f0%9d%90%ab%f0%9d%90%9a%f0%9d%90%ae%f0%9d%90%9c%f0%9d%90%a1%f0%9d%90%9e%f0%9d%90%a7-%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%a7schen?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=%25f0%259d%2590%2596%25f0%259d%2590%259a%25f0%259d%2590%25ab%25f0%259d%2590%25ae%25f0%259d%2590%25a6-%25f0%259d%2590%259b%25f0%259d%2590%25ab%25f0%259d%2590%259a%25f0%259d%2590%25ae%25f0%259d%2590%259c%25f0%259d%2590%25a1%25f0%259d%2590%259e%25f0%259d%2590%25a7-%25f0%259d%2590%258c%25f0%259d%2590%259e%25f0%259d%2590%25a7schen</link>
+		<link>https://www.persoenlichkeits-blog.de/article/120652/%f0%9d%90%96%f0%9d%90%9a%f0%9d%90%ab%f0%9d%90%ae%f0%9d%90%a6-%f0%9d%90%9b%f0%9d%90%ab%f0%9d%90%9a%f0%9d%90%ae%f0%9d%90%9c%f0%9d%90%a1%f0%9d%90%9e%f0%9d%90%a7-%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%a7schen?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25f0%259d%2590%2596%25f0%259d%2590%259a%25f0%259d%2590%25ab%25f0%259d%2590%25ae%25f0%259d%2590%25a6-%25f0%259d%2590%259b%25f0%259d%2590%25ab%25f0%259d%2590%259a%25f0%259d%2590%25ae%25f0%259d%2590%259c%25f0%259d%2590%25a1%25f0%259d%2590%259e%25f0%259d%2590%25a7-%25f0%259d%2590%258c%25f0%259d%2590%259e%25f0%259d%2590%25a7schen</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120652/%f0%9d%90%96%f0%9d%90%9a%f0%9d%90%ab%f0%9d%90%ae%f0%9d%90%a6-%f0%9d%90%9b%f0%9d%90%ab%f0%9d%90%9a%f0%9d%90%ae%f0%9d%90%9c%f0%9d%90%a1%f0%9d%90%9e%f0%9d%90%a7-%f0%9d%90%8c%f0%9d%90%9e%f0%9d%90%a7schen#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Tue, 26 Dec 2023 16:54:00 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120652</guid>
@@ -121,13 +114,13 @@
 			<slash:comments>1</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
 		<title>Ein Coaching zur Entdeckung des Lebenssinns?</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120637/ein-coaching-zur-entdeckung-des-lebenssinns?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ein-coaching-zur-entdeckung-des-lebenssinns</link>
+		<link>https://www.persoenlichkeits-blog.de/article/120637/ein-coaching-zur-entdeckung-des-lebenssinns?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ein-coaching-zur-entdeckung-des-lebenssinns</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120637/ein-coaching-zur-entdeckung-des-lebenssinns#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Wed, 06 Dec 2023 23:15:14 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120637</guid>
@@ -140,13 +133,13 @@
 			<slash:comments>2</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
 		<title>Warum ich als Coach auch manchmal einen Coach brauche.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120659/warum-ich-als-coach-auch-manchmal-einen-coach-brauche?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=warum-ich-als-coach-auch-manchmal-einen-coach-brauche</link>
+		<link>https://www.persoenlichkeits-blog.de/article/120659/warum-ich-als-coach-auch-manchmal-einen-coach-brauche?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=warum-ich-als-coach-auch-manchmal-einen-coach-brauche</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120659/warum-ich-als-coach-auch-manchmal-einen-coach-brauche#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Sun, 03 Dec 2023 17:07:27 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120659</guid>
@@ -159,13 +152,13 @@
 			<slash:comments>1</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
 		<title>Warum ich im Coaching oft meiner Intuition traue.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120656/warum-ich-im-coaching-oft-meiner-intuition-traue?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=warum-ich-im-coaching-oft-meiner-intuition-traue</link>
+		<link>https://www.persoenlichkeits-blog.de/article/120656/warum-ich-im-coaching-oft-meiner-intuition-traue?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=warum-ich-im-coaching-oft-meiner-intuition-traue</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120656/warum-ich-im-coaching-oft-meiner-intuition-traue#respond</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Sun, 26 Nov 2023 17:04:22 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120656</guid>
@@ -178,13 +171,13 @@
 			<slash:comments>0</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
-		<title>&#8222;Ich hab alles erreicht!&#8220; schimpfte der Millionär im Coaching.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/110601/unzufriedenheit?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=unzufriedenheit</link>
+		<title>„Ich hab alles erreicht!“ schimpfte der Millionär im Coaching.</title>
+		<link>https://www.persoenlichkeits-blog.de/article/110601/unzufriedenheit?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=unzufriedenheit</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/110601/unzufriedenheit#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Wed, 08 Nov 2023 14:48:34 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=110601</guid>
@@ -197,13 +190,13 @@
 			<slash:comments>25</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 		<item>
-		<title>&#8222;Bevor ich sterbe, wollte ich immer meinen Eltern verzeihen&#8220;, sagte der Mann im Coaching.</title>
-		<link>https://www.persoenlichkeits-blog.de/article/120568/bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching</link>
+		<title>„Bevor ich sterbe, wollte ich immer meinen Eltern verzeihen“, sagte der Mann im Coaching.</title>
+		<link>https://www.persoenlichkeits-blog.de/article/120568/bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching</link>
 					<comments>https://www.persoenlichkeits-blog.de/article/120568/bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching#comments</comments>
 		
-		<dc:creator><![CDATA[Roland Kopp-Wichmann]]></dc:creator>
+		
 		<pubDate>Sun, 10 Sep 2023 14:23:40 +0000</pubDate>
 				<category><![CDATA[Allgemein]]></category>
 		<guid isPermaLink="false">https://www.persoenlichkeits-blog.de/?p=120568</guid>
@@ -216,6 +209,6 @@
 			<slash:comments>5</slash:comments>
 		
 		
-			</item>
+			<dc:creator>rkwichmann@web.de (Dipl.Psych. Roland Kopp-Wichmann)</dc:creator></item>
 	</channel>
 </rss>

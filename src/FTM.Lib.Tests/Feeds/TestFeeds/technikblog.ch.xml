@@ -5,13 +5,13 @@
 	<atom:link href="http://technikblog.ch/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://technikblog.ch/</link>
 	<description></description>
-	<lastBuildDate>Mon, 04 Nov 2024 14:01:31 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 07 Dec 2024 16:17:33 +0000</lastBuildDate>
 	<language>de-CH</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://technikblog.ch/wp-content/uploads/2023/10/TECHNIKBLOG.jpg</url>
@@ -21,6 +21,95 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">28194102</site>	<item>
+		<title>Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu</title>
+		<link>https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/</link>
+					<comments>https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/#comments</comments>
+		
+		<dc:creator><![CDATA[Hans]]></dc:creator>
+		<pubDate>Sat, 07 Dec 2024 16:17:31 +0000</pubDate>
+				<category><![CDATA[Photovoltaik]]></category>
+		<category><![CDATA[Projekt]]></category>
+		<category><![CDATA[Energie]]></category>
+		<category><![CDATA[Energiewende]]></category>
+		<guid isPermaLink="false">https://technikblog.ch/?p=37156</guid>
+
+					<description><![CDATA[<p>In den letzten Tagen hat unsere PV-Anlage eine Gesamtproduktion von 100 MWh erneuerbarer Energie erreicht, beziehungsweise überschritten. Das ist definitiv ein Beitrag Wert, ein Projekt das im 2017 gestartet hatte mit dem Bau einer PV-Anlage auf dem Hausdach mit 9.28 kWp Leistung. Das war der Anfang von einem Projekt, das unerwartet Ausmasse annahm und mit [&#8230;]</p>
+<p>Der Beitrag <a href="https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/">Meine PV-Anlage hat über 100 MWh Energie produziert &#8211; ein paar Gedanken dazu</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">37156</post-id>	</item>
+		<item>
+		<title>Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation</title>
+		<link>https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/</link>
+					<comments>https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/#comments</comments>
+		
+		<dc:creator><![CDATA[Hans]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2024 10:26:36 +0000</pubDate>
+				<category><![CDATA[Pressemitteilung]]></category>
+		<category><![CDATA[Connect]]></category>
+		<category><![CDATA[Energie Management]]></category>
+		<category><![CDATA[HEMS]]></category>
+		<category><![CDATA[Solar Manager]]></category>
+		<guid isPermaLink="false">https://technikblog.ch/?p=37088</guid>
+
+					<description><![CDATA[<p>Heute hat Solar Manager, führender Anbieter für herstellerunabhängige Energiemanagementlösungen, mit dem Solar Manager Connect 2 die neueste Hardware-Generation vorgestellt. Die neue Hutschienen-Version wurde in enger Zusammenarbeit mit Installateuren entwickelt. Sie vereinfacht Installationsprozesse weiter und reduziert den Bedarf an zusätzlicher Hardware erheblich. Sie wurde speziell für die Anforderungen heutiger Energieinfrastruktur konzipiert und überzeugt durch ihre Vielseitigkeit [&#8230;]</p>
+<p>Der Beitrag <a href="https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/">Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">37088</post-id>	</item>
+		<item>
+		<title>Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI</title>
+		<link>https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/</link>
+					<comments>https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/#comments</comments>
+		
+		<dc:creator><![CDATA[Hans]]></dc:creator>
+		<pubDate>Fri, 29 Nov 2024 20:01:46 +0000</pubDate>
+				<category><![CDATA[Sport]]></category>
+		<category><![CDATA[Testberichte]]></category>
+		<category><![CDATA[Amflow]]></category>
+		<category><![CDATA[Avinox]]></category>
+		<category><![CDATA[DJI]]></category>
+		<category><![CDATA[E-Bike]]></category>
+		<guid isPermaLink="false">https://technikblog.ch/?p=37135</guid>
+
+					<description><![CDATA[<p>In diesem Blog habe ich schon mehrfach über DJI Produkte berichtet, das waren bisher immer Drohnen oder Gimbals &#8211; in diesem neuen Kurztest geht es aber um ein E-Mountainbike. DJI als welktmarktführender Hersteller von Drohnen, hat diesen Juli an der Eurobike nämlich sein erstes E-Bike-Antriebssystem vorgestellt. Das sogenannte «Avinox Drive System» ist eine Folgerung des [&#8230;]</p>
+<p>Der Beitrag <a href="https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/">Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">37135</post-id>	</item>
+		<item>
+		<title>Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)</title>
+		<link>https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/</link>
+					<comments>https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/#comments</comments>
+		
+		<dc:creator><![CDATA[Hans]]></dc:creator>
+		<pubDate>Mon, 25 Nov 2024 20:34:52 +0000</pubDate>
+				<category><![CDATA[Netzwerk]]></category>
+		<category><![CDATA[Testberichte]]></category>
+		<guid isPermaLink="false">https://technikblog.ch/?p=37070</guid>
+
+					<description><![CDATA[<p>Seit 2021 werkelte bei mir im Technikraum eine Ubiquiti Dream Machine Pro im Technikraum. Damals hatte ich mich für diese professionelle Lösung entschieden, mittlerweile gibt es effizientere und günstigere Lösungen für meine Bedürfnisse. So habe ich nun auf den UniFi Cloud Gateway Ultra gewechselt. Das hat vor allem zwei Gründe: Einerseits genügt mir das günstigere [&#8230;]</p>
+<p>Der Beitrag <a href="https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/">Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">37070</post-id>	</item>
+		<item>
 		<title>Bidirektionales Laden bei Volkswagen ID-Reihe mit erstem Anbieter in der Schweiz möglich</title>
 		<link>https://technikblog.ch/2024/11/bidirektionales-laden-bei-volkswagen-id-reihe-mit-erstem-anbieter-in-der-schweiz-moeglich/</link>
 					<comments>https://technikblog.ch/2024/11/bidirektionales-laden-bei-volkswagen-id-reihe-mit-erstem-anbieter-in-der-schweiz-moeglich/#comments</comments>
@@ -40,7 +129,7 @@
 ]]></description>
 		
 					<wfw:commentRss>https://technikblog.ch/2024/11/bidirektionales-laden-bei-volkswagen-id-reihe-mit-erstem-anbieter-in-der-schweiz-moeglich/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">37052</post-id>	</item>
@@ -138,7 +227,7 @@
 ]]></description>
 		
 					<wfw:commentRss>https://technikblog.ch/2024/06/rueckblick-auf-ein-jahr-mit-waermepumpen-boiler-bwwp-fakten-und-daten/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">36952</post-id>	</item>
@@ -162,7 +251,7 @@
 ]]></description>
 		
 					<wfw:commentRss>https://technikblog.ch/2024/04/pv-anlage-mit-6-modulen-und-hoymiles-micro-wechselrichtern-auf-den-carport-gebaut/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">36746</post-id>	</item>
@@ -182,7 +271,7 @@
 ]]></description>
 		
 					<wfw:commentRss>https://technikblog.ch/2024/03/inklay-im-test-praktisches-e-paper-display-fuer-deinen-solar-manager/feed/</wfw:commentRss>
-			<slash:comments>22</slash:comments>
+			<slash:comments>21</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">36864</post-id>	</item>
@@ -206,7 +295,7 @@
 ]]></description>
 		
 					<wfw:commentRss>https://technikblog.ch/2024/03/hoymiles-mikro-wechselrichter-ueberblick-ueber-die-geraeteserien-hms-und-co/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">36664</post-id>	</item>
@@ -2236,94 +2325,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">34291</post-id>	</item>
-		<item>
-		<title>Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse</title>
-		<link>https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/</link>
-					<comments>https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/#comments</comments>
-		
-		<dc:creator><![CDATA[Hans]]></dc:creator>
-		<pubDate>Tue, 28 Sep 2021 06:00:00 +0000</pubDate>
-				<category><![CDATA[E-Mobility]]></category>
-		<category><![CDATA[Testberichte]]></category>
-		<category><![CDATA[Elektroauto]]></category>
-		<category><![CDATA[Model Y]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[Tesla Model Y]]></category>
-		<category><![CDATA[Testbericht]]></category>
-		<guid isPermaLink="false">http://tchor/?p=34242</guid>
-
-					<description><![CDATA[<p>Das Tesla Model Y war mit der Lancierung in der Schweiz hier schon die letzten Wochen ein grosses Thema. Dann habe ich dazu das Thema mit der begrenzten Zuladung thematisiert, wobei der Ursprung diesbezüglich noch nicht klar ist und mir auch Tesla nicht weiterhelfen konnte. Mein Kollege Christian hat dann von seinem Model Y etwas [&#8230;]</p>
-<p>Der Beitrag <a href="https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/">Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">34242</post-id>	</item>
-		<item>
-		<title>Videokonferenz-Setup aufgerüstet mit Logitech Brio &amp; Zone 900</title>
-		<link>https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/</link>
-					<comments>https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/#comments</comments>
-		
-		<dc:creator><![CDATA[Hans]]></dc:creator>
-		<pubDate>Fri, 17 Sep 2021 06:00:00 +0000</pubDate>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Headset]]></category>
-		<category><![CDATA[Videokonferenz]]></category>
-		<guid isPermaLink="false">http://tchor/?p=34177</guid>
-
-					<description><![CDATA[<p>Während den letzten 1.5 Jahren haben wir wohl alle gelernt, wieviele Tools für Videokonferenzen es gibt. Bei mir hat sich dabei herauskristallisiert, das fast immer Microsoft Teams genutzt wird. Dazu war mein Home Office Setup das ich hier vorstellte eigentlich anfangs sehr gut, bis man dann länger damit arbeitet. Einerseits war nämlich die Bildqualität der [&#8230;]</p>
-<p>Der Beitrag <a href="https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/">Videokonferenz-Setup aufgerüstet mit Logitech Brio &#038; Zone 900</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">34177</post-id>	</item>
-		<item>
-		<title>Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor</title>
-		<link>https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/</link>
-					<comments>https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/#comments</comments>
-		
-		<dc:creator><![CDATA[Hans]]></dc:creator>
-		<pubDate>Tue, 14 Sep 2021 18:50:42 +0000</pubDate>
-				<category><![CDATA[Apple]]></category>
-		<guid isPermaLink="false">http://tchor/?p=34224</guid>
-
-					<description><![CDATA[<p>Apple hat ein reines Feuerwerk an neuen Produkten am Apple Event am 14. September 2021 vorgestellt. Anstatt lange Blogbeiträge zur Zusammenfassung zu schreiben, probiere ich es mal rekordverdächtig kompakt: iPhone 13 Pro Preise in der Schweiz: iPhone 13 Pro 128 GB für 1129.- CHF 256 GB für 1249.- // 512 GB für 1493.- und 1 [&#8230;]</p>
-<p>Der Beitrag <a href="https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/">Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">34224</post-id>	</item>
-		<item>
-		<title>Fahrbericht: Meine ersten 1500km mit dem Model Y</title>
-		<link>https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/</link>
-					<comments>https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/#comments</comments>
-		
-		<dc:creator><![CDATA[Christian Leu]]></dc:creator>
-		<pubDate>Fri, 10 Sep 2021 06:00:00 +0000</pubDate>
-				<category><![CDATA[E-Mobility]]></category>
-		<category><![CDATA[Testberichte]]></category>
-		<category><![CDATA[Elektroauto]]></category>
-		<category><![CDATA[Elektromobilität]]></category>
-		<category><![CDATA[Model Y]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<guid isPermaLink="false">http://tchor/?p=34203</guid>
-
-					<description><![CDATA[<p>Seit ich vor über 11 Jahren eine Probefahrt mit einem Tesla Roadster machen durfte war ich von Tesla begeistert. Die Probefahrt war kurz, der Roadster war das anstrengendste Auto welches ich jemals gefahren bin und alles daran war improvisiert. Aber die Beschleunigung zu spüren, wie das Fahrzeug am &#171;Gas-&#187; oder eben Strompedal hing war eine [&#8230;]</p>
-<p>Der Beitrag <a href="https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/">Fahrbericht: Meine ersten 1500km mit dem Model Y</a> erschien zuerst auf <a href="https://technikblog.ch">Technikblog</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">34203</post-id>	</item>
 	</channel>
 </rss>

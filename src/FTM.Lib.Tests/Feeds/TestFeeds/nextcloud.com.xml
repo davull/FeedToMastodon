@@ -12,7 +12,7 @@
 	<atom:link href="https://nextcloud.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nextcloud.com/</link>
 	<description>Regain control over your data</description>
-	<lastBuildDate>Thu, 21 Nov 2024 19:43:11 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Dec 2024 04:39:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,995 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>December maintenance updates for Nextcloud Hub 7, 8 and 9</title>
+		<link>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/</link>
+					<comments>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/#respond</comments>
+		
+		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
+		<pubDate>Mon, 09 Dec 2024 04:39:58 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Release]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://nextcloud.com/?p=273491</guid>
+
+					<description><![CDATA[<p>Maintenance updates 28.0.12 and 30.0.2 for Nextcloud Hub 7 and 9 respectively are here! Read an update summary and access full changelog on the website.</p>
+<p>The post <a href="https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/">December maintenance updates for Nextcloud Hub 7, 8 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<section class="nc-note-section" id="">
+	<div class="">
+		<div class="row">
+							<div class="col-lg-12">
+							<div class="text-block">
+					<p><strong>Update:</strong></p>
+<p>Due to a regression in creating multiple share links we had to pull NC 28.0.13 and 30.0.3. We will follow up with a hot fix release asap.</p>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</div>
+</section>
+
+<section class="nc-note-section" id="">
+	<div class="">
+		<div class="row">
+							<div class="col-lg-12">
+							<div class="text-block">
+					<p><strong>Please update to a new version to keep your data safe!</strong></p>
+<p>If you are using Nextcloud Hub 7, 8 or 9, we strongly recommend you to update to version 28.0.13, 29.0.10 or 30.0.3 respectively. Maintenance updates include important bug fixes, stability and security upgrades. It is a quick and safe process, as always!</p>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</div>
+</section>
+
+
+<h2 class="wp-block-heading">About the updates</h2>
+
+
+
+<p>The updates include a number of important bug fixes and performance optimization, as well as other improvements in all supported Nextcloud Hub versions. You can find the full changelog on our website.</p>
+
+
+
+<p>Updates are available for:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Nextcloud Hub 7 (version 28.0.13)</li>
+
+
+
+<li>Nextcloud Hub 8 (version 29.0.10)</li>
+
+
+
+<li>Nextcloud Hub 9 (version 30.0.2)</li>
+</ul>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/changelog/" target="_blank" rel="noreferrer noopener">Full changelog</a></div>
+</div>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Nextcloud Hub 9 is our latest and greatest! <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Introducing Nextcloud Hub 9 - the world&#039;s leading open source collaboration platform!" width="500" height="281" src="https://www.youtube.com/embed/EnT_OVfE4nw?start=2&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><br>Nextcloud Hub 9 lets you stay connected like never before: federated calls, auto-magic with Nextcloud Flow, collaboration through a new medium with Nextloud Whiteboard, a big design redo and much more!</p>
+
+
+
+<p> What&#8217;s new in Nextcloud Hub 9:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Federation: Edit documents and have video calls with users from other Nextcloud servers!</li>
+
+
+
+<li>Automate and digitalize enterprise processes</li>
+
+
+
+<li>Brand new design improvements</li>
+
+
+
+<li>New Whiteboard app</li>
+
+
+
+<li>AI reminders &amp; summaries in Mail</li>
+
+
+
+<li>PDF templates and form API</li>
+
+
+
+<li>Chat UI for Nextcloud Assistant</li>
+</ul>
+
+
+<section class="promo-section has_custom_bg_image " id="" style="">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+					<div class="icon"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/06/download-solid-white.svg" alt="Nextcloud - Get Nextcloud Hub 9"/></div><h2>Get Nextcloud Hub 9</h2><p>Download and install Nextcloud Hub 9 here!</p>
+<a class="c-btn btn-white" href="https://nextcloud.com/install/" target="_blank">Get Hub 9</a>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<h2 class="wp-block-heading">Always keep your server up to date!</h2>
+
+
+
+<p>Nextcloud’s minor releases primarily focus on addressing security vulnerabilities and functionality bugs, avoiding major system overhauls that could jeopardize user data. Keeping your server up to date is vital, and our approach to testing and validation ensures that upgrading to minor releases is generally smooth and reliable.</p>
+
+
+
+<p>For mission-critical Nextcloud systems in enterprise settings, consider switching to&nbsp;<a href="https://nextcloud.com/enterprises/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise</a>. The tier provides you with ultimate deployment confidence: direct access to the Nextcloud engineering team, full assistance throughout deployment and integration, and peace of mind for system administrators. If you’re responsible for maintaining Nextcloud in your setting, this option may be the ideal solution for you.</p>
+<p>The post <a href="https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/">December maintenance updates for Nextcloud Hub 7, 8 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The open source answer to Microsoft Teams</title>
+		<link>https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/</link>
+		
+		<dc:creator><![CDATA[Kim Pohlmann]]></dc:creator>
+		<pubDate>Tue, 03 Dec 2024 08:59:24 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Release]]></category>
+		<category><![CDATA[Talk]]></category>
+		<guid isPermaLink="false">https://nextcloud.com/?p=271629</guid>
+
+					<description><![CDATA[<p>Organisations, small and large, need a way to ensure the resiliency and digital sovereignty of their operations – an open-source, privacy-respecting alternative to Teams. And today, we present that solution - Nextcloud Talk.</p>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/">The open source answer to Microsoft Teams</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p style="font-size:22px">When cables are cut, sanctions are put in place or privacy legislation prohibits the use of the service your entire organization depends on, what can you do?</p>
+
+
+
+<p>Amidst geo-political changes, organizations face dependencies on large, centralized communication platforms. A major example of this is the SaaS-only communication platform Microsoft Teams. It is the only solution on the market which deeply integrates video calls, team chat and large group call features with real-time document collaboration and file sharing, and has become critical to the functioning of many organizations. Which, in turn, has allowed Microsoft to hike prices by 20 to 40% and not face an exodus of customers – as they and their data are fully locked in.</p>
+
+
+
+<p>Organisations, small and large, need a way to ensure the resiliency and digital sovereignty of their operations – an open source, privacy respecting alternative to Teams. And today, we present that solution.</p>
+
+
+
+<figure class="wp-block-embed is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe title="Introducing the Open Source answer to Microsoft Teams" src="https://player.vimeo.com/video/1035504262?h=776fa1186e&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<p>In this short webinar, Jos walks you through how Nextcloud Talk takes on Microsoft Teams!</p>
+
+
+
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top" style="grid-template-columns:auto 22%"><div class="wp-block-media-text__content">
+<h2 class="wp-block-heading">Welcome to Nextcloud Talk</h2>
+
+
+
+<p>Today, live from our Enterprise day in Paris, we launch Nextcloud Talk „Paris“. It is the <a href="https://nextcloud.com/talk/#compare">only open-source solution that integrates all key features</a> – from chats and video conferencing to webinars, complete with file sharing and office document editing – into a single platform while avoiding vendor lock-in.</p>
+
+
+
+<p>Our platform meets the highest standards of compliance with privacy legislations like GDPR or HIPAA and offers strict data security, ensuring full data control. Thanks to its open architecture, Talk can be seamlessly integrated into existing systems and tailored to individual needs.</p>
+
+
+
+<p>Nextcloud Talk is designed to address three key use cases. Let’s go quickly over them!</p>
+</div><figure class="wp-block-media-text__media"><img decoding="async" width="160" height="160" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Talk-1.svg" alt="" class="wp-image-273429 size-full"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">Efficient team chat</h3>
+
+
+
+<p>The integrated chat in Nextcloud Talk is designed to help teams stay connected throughout the workday. With multiple chat rooms and the ability to edit files directly within the chat, Talk streamlines hybrid team collaboration and boosts efficiency. End-to-end encryption ensures that calls remain private and secure, while integrated real-time notifications keep everyone in the loop. All data stays under your control, meeting the highest privacy and security standards.</p>
+
+
+
+<p>It features deep integration with a wide variety of content. Users can add documents &#8211; and edit them right there, inline, without having to open tabs or download the file. Locations, tasks, calendars and notes can all be inserted, viewed and edited without leaving Talk.</p>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="simple-slider-section " id="">
+	<div class="">
+                    <div class="owl-carousel simple_slider_slideshow" id="">
+                                    <div class="gallery_item" id="271779">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Talk-Rich-Widgets-edit-documents-in-line-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="271769">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Hub-9-Talk-all-smart-picker-items-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="271764">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Talk-ai-summary-unread-messages-mockup-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="271748">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary.png" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary.png" class="attachment-full size-full" alt="Nextcloud Talk AI summary" srcset="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary.png 1920w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                            </ul>
+        	</div>
+</section>
+<script type="rocketlazyloadscript">
+    jQuery(document).ready(function ($) {
+        var owl_simple_slider = $('.simple_slider_slideshow');
+        owl_simple_slider.owlCarousel({
+            loop:true,
+            stagePadding: 50,
+            autoplay: true,
+            margin:10,
+            dots: false,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            },
+            onDragged: owl_stop_autoplay,
+            autoplayHoverPause:true
+        });
+
+        owl_simple_slider.on('click', function(e) {
+            owl_stop_autoplay();
+        });
+        function owl_stop_autoplay() {
+            //console.log('autoplay stopped.');
+            owl_simple_slider.trigger('stop.owl.autoplay');
+        }
+
+    });
+</script>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Video calls for seamless collaboration</h3>
+
+
+
+<p>Nextcloud Talk makes virtual meetings easy and accessible across devices. Whether it’s a quick check-in or a larger team meeting, our platform ensures powerful collaboration for hybrid working teams. Features like integrated whiteboards, screen sharing, and joint document editing make real-time collaboration easier than ever. Scheduling and joining calls is effortless, directly from the Nextcloud interface, integrated with the calendar app for easy scheduling of meetings.</p>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="simple-slider-section " id="">
+	<div class="">
+                    <div class="owl-carousel simple_slider_slideshow" id="">
+                                    <div class="gallery_item" id="273042">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1.png" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="6400" height="3600" src="https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1.png" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1.png 6400w, https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1-300x169.png 300w, https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1-768x432.png 768w, https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1-1536x864.png 1536w, https://nextcloud.com/c/uploads/2024/12/Talk-screenshot-call-grid-view-1-2048x1152.png 2048w" sizes="(max-width: 6400px) 100vw, 6400px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="207898">
+                        <a href="https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup.jpg" class="attachment-full size-full" alt="Nextcloud Talk Screensharing bubble camera and poll popup" srcset="https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup.jpg 1920w, https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/04/Nextcloud-Talk-Screensharing-bubble-camera-and-poll-popup-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="257451">
+                        <a href="https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web.jpg" class="attachment-full size-full" alt="Nextcloud Hub 9 - Talk video conferencing" srcset="https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web.jpg 1920w, https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/09/Hub-9-Talking-time-on-participants-in-call-with-avatars-and-reactions-web-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="252936">
+                        <a href="https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02.png" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02.png" class="attachment-full size-full" alt="Nextcloud Hub 9 Whiteboard basic actions" srcset="https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02.png 1920w, https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02-300x169.png 300w, https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02-768x432.png 768w, https://nextcloud.com/c/uploads/2024/09/Nextcloud-Hub-9-Whiteboard-screenshots-basic-actions_02-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                            </ul>
+        	</div>
+</section>
+<script type="rocketlazyloadscript">
+    jQuery(document).ready(function ($) {
+        var owl_simple_slider = $('.simple_slider_slideshow');
+        owl_simple_slider.owlCarousel({
+            loop:true,
+            stagePadding: 50,
+            autoplay: true,
+            margin:10,
+            dots: false,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            },
+            onDragged: owl_stop_autoplay,
+            autoplayHoverPause:true
+        });
+
+        owl_simple_slider.on('click', function(e) {
+            owl_stop_autoplay();
+        });
+        function owl_stop_autoplay() {
+            //console.log('autoplay stopped.');
+            owl_simple_slider.trigger('stop.owl.autoplay');
+        }
+
+    });
+</script>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Interactive webinars, education and training sessions</h3>
+
+
+
+<p>Talk enables you to host engaging webinars – bringing audiences like teams, students, or customers together. The platform supports live streaming, Q&amp;A sessions and screensharing and comes with moderation features. Functions like the integrated chat, animated reactions, polls and breakout rooms make the learning experience more interactive and fun. All this, and more, is available wherever you are. Not only in the browser, but also with apps on iOS and Android! When your colleague calls you while you’re out, your phone will ring and you’ll be able to share your screen to show them a quick presentation you’re working on.</p>
+
+
+<section class="simple-slider-section " id="">
+	<div class="">
+                    <div class="owl-carousel simple_slider_slideshow" id="">
+                                    <div class="gallery_item" id="271774">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Talk-webinar-in-action-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="271754">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Talk-call-presenting-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="271759">
+                        <a href="https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy.jpg 1920w, https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/11/Talk-room-moderation-settings-copy-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                            </ul>
+        	</div>
+</section>
+<script type="rocketlazyloadscript">
+    jQuery(document).ready(function ($) {
+        var owl_simple_slider = $('.simple_slider_slideshow');
+        owl_simple_slider.owlCarousel({
+            loop:true,
+            stagePadding: 50,
+            autoplay: true,
+            margin:10,
+            dots: false,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            },
+            onDragged: owl_stop_autoplay,
+            autoplayHoverPause:true
+        });
+
+        owl_simple_slider.on('click', function(e) {
+            owl_stop_autoplay();
+        });
+        function owl_stop_autoplay() {
+            //console.log('autoplay stopped.');
+            owl_simple_slider.trigger('stop.owl.autoplay');
+        }
+
+    });
+</script>
+
+
+
+<p>You can give participants a phone number to dial in to, and even pull them in by dialing out right from Talk. Need to add hundreds, even thousands of participants? Simply import a spreadsheet. After the call, you export the participant list and see who did and did not show up!</p>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Add user by email in Nextcloud Talk" src="https://player.vimeo.com/video/1035699520?h=3d9db32f5a&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Break up big groups in breakout rooms, enabling everyone to be productive in a smaller team before coming back together to the big group. In your breakout room you can do a call, chat, work on a whiteboard, share documents and more!</p>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Power your team meeting using breakout rooms!" src="https://player.vimeo.com/video/1035528263?dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Numerous new features for better collaboration</h2>
+
+
+
+<h3 class="wp-block-heading">New desktop app</h3>
+
+
+
+<p>No more searching through browser tabs! The new app offers desktop integration and notifications, allowing users to communicate and join calls effortlessly.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="720" height="576" src="https://nextcloud.com/c/uploads/2024/12/Laptop_07-720x576.png" alt="" class="wp-image-272981" srcset="https://nextcloud.com/c/uploads/2024/12/Laptop_07-720x576.png 720w, https://nextcloud.com/c/uploads/2024/12/Laptop_07-300x240.png 300w, https://nextcloud.com/c/uploads/2024/12/Laptop_07-768x614.png 768w, https://nextcloud.com/c/uploads/2024/12/Laptop_07-1536x1229.png 1536w, https://nextcloud.com/c/uploads/2024/12/Laptop_07-2048x1638.png 2048w" sizes="(max-width: 720px) 100vw, 720px" /></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">New AI features</h3>
+
+
+
+<p>Tired of taking notes in long meetings? Enjoy our automatically generated summaries of video meetings! Dreading those 173 unread messages in the morning? The Nextcloud Assistant summarizes them for you. Less work, less stress!</p>
+
+
+
+<figure class="wp-block-image size-full imageRoundShadow"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary.png" alt="Nextcloud Talk AI summary" class="wp-image-271748" srcset="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary.png 1920w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Talk-AI-summary-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Visual collaboration</h3>
+
+
+
+<p>The interactive whiteboard enables teams to brainstorm and develop ideas in real-time – ideal for workshops and project planning.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Collaborative real-time sketching with Nextcloud Whiteboard" width="500" height="281" src="https://www.youtube.com/embed/xfzu98kPdh0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Plan your polls</h3>
+
+
+
+<p>You can now save a poll as a draft, for quick publishing when the class has started. Need to use the same poll in a different class? Simply export it as a file and import it in the new room. At the end, export the poll as image or spreadsheet. Easy as pie!</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Creating a conversation summary in Nextcloud Talk using Desktop Client" src="https://player.vimeo.com/video/1034529231?h=101e8c7083&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading">Simplified teamwork</h3>
+
+
+
+<p>Documents can be collaboratively edited directly within chats or video calls. No need to switch to another window or tab! You can easily find chat messages with the search, leave and join open chat rooms or archive the ones you no longer follow, so you stay as connected as you need to be.</p>
+
+
+
+<p>Let colleagues know what you think with reactions to chat messages, or animated reactions during calls. And if you need to make a point, you can use <strong>bold</strong>, <em>italics</em>, headers and even tables in your messages.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="How you don&#039;t need to leave your chat with Talk" src="https://player.vimeo.com/video/1034532206?h=a5e24cce23&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Mindfulness features</h3>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large is-resized"><img decoding="async" width="507" height="576" src="https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop-507x576.png" alt="" class="wp-image-272811" style="width:224px;height:auto" srcset="https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop-507x576.png 507w, https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop-264x300.png 264w, https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop-768x873.png 768w, https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop-1352x1536.png 1352w, https://nextcloud.com/c/uploads/2024/12/Talk-reminder-on-message-crop.png 1712w" sizes="(max-width: 507px) 100vw, 507px" /></figure></div>
+
+
+<p>To promote a healthy meeting culture, Nextcloud Talk has a series of small features that help you be mindful of yourself and others. You can send silent chat messages and even start silent calls which don&#8217;t send notifications to everyone. User status communicates to colleagues if you&#8217;re available or not &#8211; the status will automatically change when you are in a call or have an appointment in your calendar, and your time zone is visible for others.</p>
+
+
+
+<p>Need to deal with something &#8211; but not right now? You can mark a chat as unread, but also set a reminder on an individual message. You&#8217;ll get a notification at the time you set! You can also send a message to a special &#8216;Note to self&#8217; chat, or put notes there by hand. Keep things organized for yourself. Perhaps favorite your Note to self chat so it&#8217;s always on top with other important chats?</p>
+
+
+
+<p>You can also set your work hours and enable do-not-disturb outside those hours. Calls give a warning at the 1h mark and can now automatically end after a set time. And, during calls, you can see how much each participant talked so you can make sure even the quiet team members get to have their say.</p>
+
+
+
+<h3 class="wp-block-heading">High-security communication</h3>
+
+
+
+<p>Nextcloud Talk meets the highest security standards and can even be deployed in airgap environments, keeping all communication strictly away from the internet.</p>
+
+
+
+<details class="wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary>Discover more new features</summary>
+<p>Calls:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Summarize Call recordings automatically with AI</li>
+
+
+
+<li>Enforce a maximum call lenght</li>
+
+
+
+<li>Option to always disable devices by default</li>
+
+
+
+<li>Option to download a call participants list</li>
+
+
+
+<li>Option to blur background by default</li>
+</ul>
+
+
+
+<p>Chat:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Summary of chat histories when there are many unread messages</li>
+
+
+
+<li>Option to directly download attachments</li>
+
+
+
+<li>Highlight file and object shares with an icon in conversations list</li>
+</ul>
+
+
+
+<p>Guests:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Identify and recognize guests invited via mail address</li>
+
+
+
+<li>Allow inviting email guests when creating a conversation</li>
+</ul>
+
+
+
+<p>Conversations:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Option to archive conversations</li>
+
+
+
+<li>Automatically lock rooms after days of inactivity</li>
+</ul>
+
+
+
+<p>Voice Messages:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Auto play voice messages which are grouped together</li>
+</ul>
+
+
+
+<p>Polls:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Draft, import and export polls</li>
+</ul>
+</details>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">A glimpse into the future of collaboration</h2>
+
+
+
+<p>With Nextcloud Talk, we empower companies and public institutions to work securely and productively – regardless of their location or infrastructure. The platform is ideal for on-premises installations or hosting by local cloud providers, giving companies and organizations full control over their data.</p>
+
+
+
+<p>Finally, the open source community has a real answer to Microsoft Teams. </p>
+
+
+
+<p>Learn more at the <a href="https://nextcloud.com/talk">Talk webpage</a>, or <a href="https://nextcloud.com/blog/event/nextcloud-talk-paris-microsoft-teams-alternative/">join our upcoming webinar</a> to find out how Talk can replace Teams for your organization!</p>
+
+
+<section class="promo-section promo_webinar has_custom_bg_image  full-width " id="" style="">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-block ">
+					<h2>Get started with Nextcloud Talk</h2><p>Learn more about Nextcloud Talk and get started right away!</p>
+<a class="c-btn btn-white" href="https://nextcloud.com/talk/" target="_blank">Learn more</a>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/">The open source answer to Microsoft Teams</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How open-source AI models can help you take control of your privacy</title>
+		<link>https://nextcloud.com/blog/how-open-source-ai-models-can-help-you-take-control-of-your-privacy/</link>
+		
+		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
+		<pubDate>Thu, 28 Nov 2024 10:06:19 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://nextcloud.com/?p=269114</guid>
+
+					<description><![CDATA[<p>In this article, we find out how open-source AI gets you your privacy back and explore examples of reliable AI models that you can use in your ecosystem.</p>
+<p>The post <a href="https://nextcloud.com/blog/how-open-source-ai-models-can-help-you-take-control-of-your-privacy/">How open-source AI models can help you take control of your privacy</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy.png" alt="How open-source AI models help you take control of your privacy" class="wp-image-269501" srcset="https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy.png 1920w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+
+
+<div style="height:33px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>AI tools woven into the big tech ecosystems, some more “open” than others, some more quiet, often require a silent sacrifice in exchange for easy-to-access technology. An alternative is open-source AI models which, much like open-source software, have a potential to give you more transparency and control.</p>
+
+
+
+<p>You can study and even modify the model you are using, and if you don&#8217;t need that — at least understand how your data is processed, stored and shared. Sounds like something the viral AI photo editing apps can’t promise, yet millions keep giving them access to their private photos every day. </p>
+
+
+
+<p>Join us as we explore how open-source AI benefits users and, from the perspective of our Ethical AI rating, provide examples of AI models that can help you reclaim your privacy.</p>
+
+
+
+<h2 class="wp-block-heading">What are open-source AI models?</h2>
+
+
+
+<p>With more people becoming aware of how data economy works, earning user’s trust becomes more challenging to the AI providers. To appeal to more conscious users, many AI vendors label their technology open or open-source. But without consensus on what open-source AI is, such open-washing could raise many risks: surveillance, information bias, effects on the labor market and creative industries, and excessive energy usage — to name a few.</p>
+
+
+
+<p>In attempt to battle the potentially harmful trend, the Open Source Initiative released its official <a href="https://nextcloud.com/blog/open-source-ai-is-here/" target="_blank" rel="noreferrer noopener">Open Source Artificial Intelligence Definition (OSAID)</a>. According to the OSAID, an Open Source AI is an AI system made available under terms and in a way that grant the freedoms&nbsp;to:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Use&nbsp;the system for any purpose and without having to ask for permission.</li>
+
+
+
+<li>Study&nbsp;how the system works and inspect its components.</li>
+
+
+
+<li>Modify&nbsp;the system for any purpose, including to change its output.</li>
+
+
+
+<li>Share&nbsp;the system for others to use with or without modifications, for any purpose.</li>
+</ul>
+
+
+
+<p>Even though the work on this definition has been endorsed by many companies and individuals, there&#8217;s no consensus in the community on whether or not to accept it in its current state, or if the open-source AI is even ready to be defined. </p>
+
+
+
+<p>We too think there&#8217;s room for improvement. But with or without concrete definition for the OS AI, we can tell how four main freedoms of open-source &#8211; to use, to study, to modify, and to share &#8211; can impact life of the the AI users.</p>
+
+
+
+<h2 class="wp-block-heading">How do users benefit from open-source AI?</h2>
+
+
+
+<p>Open source promotes freedom and empowers users to control their software &#8211; in this case, the AI &#8211; they rely on. Here are several examples of opens-source AI systems could directly benefit you as a user:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Proprietary AI can include hidden features like data harvesting for advertising and user profiling, embedded biases, and using your private data to refine the products without your consent. Open-source lets you make sure there are no hidden features or data backdoors &#8211; because you (and thousands, or even millions of others) can inspect the source code and understand how the software operates.</li>
+
+
+
+<li>If your software is not anymore supported by a provider, you may lose valuable data like your AI’s memory of interactions. And even though normally you can export this data, there’s no guarantee it will be compatible with alternative models. With open-source, you don’t rely on a single vendor &#8211; the software will continue to exist, and you will retain full ownership. Moreover, you are not locked in the provider’s ecosystem of applications in order to fully benefit from their AI, no-one controls your costs, your updates and maintenance.</li>
+
+
+
+<li>You can host your AI yourself or with a provider you trust, which means you fully control your data, make own decisions for your privacy, and maintain your compliance instead of relying on third-party services.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Nextcloud Ethical AI rating</h2>
+
+
+
+<p>At Nextcloud, we employ and integrate AI tools ourselves and we realize the risks brought by the evolving computer intelligence. That’s why we created the <a href="https://nextcloud.com/blog/nextcloud-ethical-ai-rating/">Ethical AI Rating</a> that helps our users make the right decisions about what AI models to use in their work. It is more granular than the OSAID and more critical in areas like training data availability. For now, we will keep using it as it resonates with the unique needs of Nextcloud users.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:36% auto"><figure class="wp-block-media-text__media"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/03/nextcloud-ethical-AI-logo-1.svg" alt="Nextcloud Ethical AI" class="wp-image-108526 size-full"/></figure><div class="wp-block-media-text__content">
+<p>Nextcloud Ethical AI Rating is based on three principles:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Whether the training data is available and is free to use</li>
+
+
+
+<li>Whether the software (both for inferencing and training) is open-source</li>
+
+
+
+<li>Whether the trained model freely available for self-hosting</li>
+</ul>
+
+
+
+<p>Based on how many of the criteria are met, a model receives Red <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f534.png" alt="🔴" class="wp-smiley" style="height: 1em; max-height: 1em;" />, Orange <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e0.png" alt="🟠" class="wp-smiley" style="height: 1em; max-height: 1em;" />, Yellow <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e1.png" alt="🟡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> or Green <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /> rating.</p>
+</div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Looking for open-source AI models to try? Consider these!</h2>
+
+
+
+<p>Nextcloud is not primarily an AI developer or vendor, so we don&#8217;t promote any AI products. Instead, we want to help our users choose the right tools to protect their privacy, and where needed, help them start using those tools through Nextcloud Hub. From the perspective of our Ethical AI Rating, here are several AI models that help you take control of your privacy.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile imageRoundShadow" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="576" height="576" src="https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342-576x576.jpeg" alt="LocalAI logo" class="wp-image-269147 size-full" srcset="https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342-576x576.jpeg 576w, https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342-300x300.jpeg 300w, https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342-150x150.jpeg 150w, https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342-768x768.jpeg 768w, https://nextcloud.com/c/uploads/2024/11/233147843-88697415-6dbf-4368-a862-ab217f9f7342.jpeg 1024w" sizes="(max-width: 576px) 100vw, 576px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">Open-source LLMs via LocalAI <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>With LocalAI, you can use several open-source models like GPT-Neo or GPT-J, running them locally with ability to modify and interact with them on your server. In this case, the app also gets the Green rating in our Ethical AI rating, fully meeting the criteria.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile imageRoundShadow" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="460" height="460" src="https://nextcloud.com/c/uploads/2024/11/23035727-1.png" alt="OpenNMT logo" class="wp-image-269136 size-full" srcset="https://nextcloud.com/c/uploads/2024/11/23035727-1.png 460w, https://nextcloud.com/c/uploads/2024/11/23035727-1-300x300.png 300w, https://nextcloud.com/c/uploads/2024/11/23035727-1-150x150.png 150w" sizes="(max-width: 460px) 100vw, 460px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">OpenNMT <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>OpenNMT is a fully open-source AI translation framework available under MIT license. In Nextcloud, it can be used via LibreTranslate app that offers translation via your own server/API key.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="460" height="460" src="https://nextcloud.com/c/uploads/2024/11/Opus-Helsinki-NLP-logo.png" alt="Opus Helsinki NLP logo" class="wp-image-270181 size-full" srcset="https://nextcloud.com/c/uploads/2024/11/Opus-Helsinki-NLP-logo.png 460w, https://nextcloud.com/c/uploads/2024/11/Opus-Helsinki-NLP-logo-300x300.png 300w, https://nextcloud.com/c/uploads/2024/11/Opus-Helsinki-NLP-logo-150x150.png 150w" sizes="(max-width: 460px) 100vw, 460px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">Opus <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>Opus is a machine translation provider by University of Helsinki that runs locally on CPU and doesn&#8217;t let any private data leaves your servers. It meets all criteria of our rating.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="815" height="576" src="https://nextcloud.com/c/uploads/2024/11/nomic-logo-815x576.png" alt="Nomic AI logo" class="wp-image-271141 size-full" srcset="https://nextcloud.com/c/uploads/2024/11/nomic-logo-815x576.png 815w, https://nextcloud.com/c/uploads/2024/11/nomic-logo-300x212.png 300w, https://nextcloud.com/c/uploads/2024/11/nomic-logo-768x543.png 768w, https://nextcloud.com/c/uploads/2024/11/nomic-logo.png 1270w" sizes="(max-width: 815px) 100vw, 815px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">GPT4All Falcon by Nomic AI <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>GPT4All Falcon is an LLM that combines the Falcon language model with the GPT4All interface. It is available under Apache 2.0 license and runs locally on CPU.</p>
+</div></div>
+
+
+
+<p>There are models that do not match the criteria of the Green rating, but can be worth considering since they are self-hosted and have very permissive licenses, making them mostly safe to run locally:</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile imageRoundShadow" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="400" height="400" src="https://nextcloud.com/c/uploads/2024/11/65c2a8f9177a8acf60404f2b_stable-diffusion-icon.jpeg" alt="Stable Diffusion logo" class="wp-image-269142 size-full" srcset="https://nextcloud.com/c/uploads/2024/11/65c2a8f9177a8acf60404f2b_stable-diffusion-icon.jpeg 400w, https://nextcloud.com/c/uploads/2024/11/65c2a8f9177a8acf60404f2b_stable-diffusion-icon-300x300.jpeg 300w, https://nextcloud.com/c/uploads/2024/11/65c2a8f9177a8acf60404f2b_stable-diffusion-icon-150x150.jpeg 150w" sizes="(max-width: 400px) 100vw, 400px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">Self-hosted Stable Diffusion <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e1.png" alt="🟡" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>Stable Diffusion is open-source model licensed under CreativeML Open RAIL-M License. Users have full access to the model and its code, can modify and redistribute it, given that it’s an on-premises version. In Nextcloud, self-hosted Stable Diffusion can be used via LocalAI. We give it a Yellow rating, as the training data is not freely available in this case.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile imageRoundShadow" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/06/OpenAI_whisper_Logo.svg" alt="OpenAI_whisper_Logo" class="wp-image-122571 size-full"/></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">Whisper <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e1.png" alt="🟡" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>In Nextcloud, you can use Whisper to enable speech-to-text conversion features. Whisper is available under the MIT License and has a Yellow rating due to limited availability of the training data.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="1024" height="576" src="https://nextcloud.com/c/uploads/2024/09/Meta-logo-1024x576.png" alt="" class="wp-image-253828 size-full" srcset="https://nextcloud.com/c/uploads/2024/09/Meta-logo-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/09/Meta-logo-300x169.png 300w, https://nextcloud.com/c/uploads/2024/09/Meta-logo-768x432.png 768w, https://nextcloud.com/c/uploads/2024/09/Meta-logo-1536x864.png 1536w, https://nextcloud.com/c/uploads/2024/09/Meta-logo-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure><div class="wp-block-media-text__content">
+<h3 class="wp-block-heading">Llama 2 <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e1.png" alt="🟡" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>Llama 2 is a free LLM by Meta that can be run on-premises, and the software for training and inference of this model is open source. However, the training data is not freely available. It is offered under Llama 2 Community License.</p>
+</div></div>
+
+
+
+<p>We don’t limit our users’ choice of AI tools, and there are other models and apps that you can integrate in Nextcloud Hub and use with Nextcloud Assistant, including self-hosted models like NeuralBeagle14 7B, Smaug-72B and Meta&#8217;s Llama 3. Or famous AI like ChatGPT, DALL·E or Aleph Alpha &#8211; which are far from meeting all the criteria of our rating, but you still can easily integrate them in Nextcloud if you wish. </p>
+
+
+
+<h2 class="wp-block-heading">Build your own private AI platform – with Nextcloud Hub</h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Nextcloud AI Assistant 2.0 &#x2728; - sovereign, AI-powered workspace with Nextcloud Hub 8!" width="500" height="281" src="https://www.youtube.com/embed/kMl9OdP10EY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><a href="https://nextcloud.com/assistant/">Nextcloud Assistant</a> is the first local AI assistant built into collaboration platform. It is integrated everywhere across Nextcloud Hub, helping you with your daily tasks while taking care of your privacy. Among tools supported by Nextcloud Assistant are chat with AI, text and image generation, email summaries, translation, dictation, inquiring about your own data with Context Chat, automated document creation with Context Write, and much more.</p>
+
+
+
+<p>You can integrate AI models of your choice to enable those tools, creating a custom AI-powered environment according to your your privacy and security needs. And if needed, you can host your AI with one of the trusted SaaS providers in Europe, staying fully compliant with privacy regulations like GDPR and others.</p>
+
+
+
+<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="promo-section has_custom_bg_image  full-width " id="" style="">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+					<div class="icon"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/06/download-solid-white.svg" alt="Nextcloud - Get Nextcloud Hub"/></div><h2>Get Nextcloud Hub</h2><p>AI-powered open-source collaboration platform that puts you back in control over your data.</p>
+<a class="c-btn btn-white" href="https://nextcloud.com/install/" target="_blank">Get Nextcloud Hub</a>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<p>The post <a href="https://nextcloud.com/blog/how-open-source-ai-models-can-help-you-take-control-of-your-privacy/">How open-source AI models can help you take control of your privacy</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Nextcloud Enterprise Day lands in Paris: be part of the product launch event!</title>
 		<link>https://nextcloud.com/blog/nextcloud-enterprise-day-lands-in-paris-be-part-of-the-product-launch-event/</link>
 		
@@ -43,7 +1032,7 @@
 ]]></description>
 										<content:encoded><![CDATA[
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1920" height="1080" data-id="267932" src="https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template.png" alt="" class="wp-image-267932" srcset="https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template.png 1920w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-300x169.png 300w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-768x432.png 768w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" data-id="267932" src="https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template.png" alt="" class="wp-image-267932" srcset="https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template.png 1920w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-300x169.png 300w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-768x432.png 768w, https://nextcloud.com/c/uploads/2024/01/Enterprise-Day-Paris-Template-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
 </figure>
 
 
@@ -142,7 +1131,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">Register now</a></div>
 </div>
 
@@ -212,7 +1201,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">View the access map</a></div>
 </div>
 
@@ -336,7 +1325,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">Register now!</a></div>
 </div>
 <p>The post <a href="https://nextcloud.com/blog/nextcloud-enterprise-day-lands-in-paris-be-part-of-the-product-launch-event/">Nextcloud Enterprise Day lands in Paris: be part of the product launch event!</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
@@ -443,7 +1432,7 @@
 		
 			</item>
 		<item>
-		<title>November maintenance updates for Nextcloud Hub 7, 8 and 9</title>
+		<title>November maintenance updates for Nextcloud Hub 7 and 9</title>
 		<link>https://nextcloud.com/blog/november-maintenance-updates-for-nextcloud-hub-7-8-and-9/</link>
 		
 		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
@@ -451,19 +1440,34 @@
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Release]]></category>
 		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">https://nextcloud.com/?p=267113</guid>
 
-					<description><![CDATA[<p>Maintenance updates 28.0.12, 29.0.9 and 30.0.2 for Nextcloud Hub 7, 8 and 9 respectively are here! Read an update summary and access full changelog on the website.</p>
-<p>The post <a href="https://nextcloud.com/blog/november-maintenance-updates-for-nextcloud-hub-7-8-and-9/">November maintenance updates for Nextcloud Hub 7, 8 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+					<description><![CDATA[<p>Maintenance updates 28.0.12 and 30.0.2 for Nextcloud Hub 7 and 9 respectively are here! Read an update summary and access full changelog on the website.</p>
+<p>The post <a href="https://nextcloud.com/blog/november-maintenance-updates-for-nextcloud-hub-7-8-and-9/">November maintenance updates for Nextcloud Hub 7 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[<section class="nc-note-section" id="">
 	<div class="">
 		<div class="row">
 							<div class="col-lg-12">
 							<div class="text-block">
+					<p><strong>Update:</strong></p>
+<p>We had to pull version 29.0.9 due to issues with PDF display. It will be fixed in December maintenance release for Nextcloud 29.</p>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</div>
+</section>
+
+<section class="nc-note-section" id="">
+	<div class="">
+		<div class="row">
+							<div class="col-lg-12">
+							<div class="text-block">
 					<p><strong>Please update to a new version to keep your data safe!</strong></p>
-<p>If you are using Nextcloud Hub 7, 8 or 9, we strongly recommend you to update to version 28.0.12, 29.0.9 or 30.0.2 respectively. Maintenance updates include important bug fixes, stability and security upgrades. It is a quick and safe process, as always!</p>
+<p>If you are using Nextcloud Hub 7 or 9, we strongly recommend you to update to version 28.0.12 or 30.0.2 respectively. Maintenance updates include important bug fixes, stability and security upgrades. It is a quick and safe process, as always!</p>
 				</div>
 			</div>
 
@@ -491,10 +1495,6 @@
 
 
 
-<li>Nextcloud Hub 8 (version 29.0.9)</li>
-
-
-
 <li>Nextcloud Hub 9 (version 30.0.2)</li>
 </ul>
 
@@ -504,7 +1504,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/changelog/" target="_blank" rel="noreferrer noopener">Full changelog</a></div>
 </div>
 
@@ -570,7 +1570,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="text-block">
-					<div class="icon"><img decoding="async" src="122644" alt="Nextcloud - Get Nextcloud Hub 9"/></div><h2>Get Nextcloud Hub 9</h2><p>Download and install Nextcloud Hub 9 here!</p>
+					<div class="icon"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/06/download-solid-white.svg" alt="Nextcloud - Get Nextcloud Hub 9"/></div><h2>Get Nextcloud Hub 9</h2><p>Download and install Nextcloud Hub 9 here!</p>
 <a class="c-btn btn-white" href="https://nextcloud.com/install/" target="_blank">Get Hub 9</a>				</div>
 			</div>
 		</div>
@@ -588,7 +1588,7 @@
 
 
 <p>For mission-critical Nextcloud systems in enterprise settings, consider switching to&nbsp;<a href="https://nextcloud.com/enterprises/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise</a>. The tier provides you with ultimate deployment confidence: direct access to the Nextcloud engineering team, full assistance throughout deployment and integration, and peace of mind for system administrators. If you’re responsible for maintaining Nextcloud in your setting, this option may be the ideal solution for you.</p>
-<p>The post <a href="https://nextcloud.com/blog/november-maintenance-updates-for-nextcloud-hub-7-8-and-9/">November maintenance updates for Nextcloud Hub 7, 8 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+<p>The post <a href="https://nextcloud.com/blog/november-maintenance-updates-for-nextcloud-hub-7-8-and-9/">November maintenance updates for Nextcloud Hub 7 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></content:encoded>
 					
 		
@@ -642,7 +1642,7 @@
 <div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<section class="promo-section promo_webinar has_custom_bg_image " id="" style="background-image: url(244868);">
+<section class="promo-section promo_webinar has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -696,7 +1696,7 @@ Secure your seat today and don&#8217;t miss out!</p>
 <div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<section class="promo-section promo_webinar has_custom_bg_image " id="" style="background-image: url(244868);">
+<section class="promo-section promo_webinar has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -877,7 +1877,7 @@ Secure your seat today and don&#8217;t miss out!</p>
 <div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244868);">
+<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -934,7 +1934,7 @@ Secure your seat today and don&#8217;t miss out!</p>
 <div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244884);">
+<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/Lobby-Radisson-Blu-Frankfurt.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -989,7 +1989,7 @@ Secure your seat today and don&#8217;t miss out!</p>
 <div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244868);">
+<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -1034,7 +2034,7 @@ Secure your seat today and don&#8217;t miss out!</p>
 <p>The upcoming edition takes place at the spectacular Radisson Blu hotel in Frankfurt, Germany. Early Bird tickets are limited.</p>
 
 
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244884);">
+<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/Lobby-Radisson-Blu-Frankfurt.jpg);">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -1046,269 +2046,6 @@ Secure your seat today and don&#8217;t miss out!</p>
 	</div>
 </section>
 <p>The post <a href="https://nextcloud.com/blog/mariadb-becomes-a-sponsor-of-nextcloud-enterprise-day-2024-in-frankfurt/">MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein&#8217;s CIO</title>
-		<link>https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/</link>
-		
-		<dc:creator><![CDATA[Brent Gervais]]></dc:creator>
-		<pubDate>Wed, 23 Oct 2024 11:00:00 +0000</pubDate>
-				<category><![CDATA[podcast]]></category>
-		<guid isPermaLink="false"></guid>
-
-					<description><![CDATA[<p>In this episode, we explore how open source solutions are revolutionizing the way governments work, from collaboration and knowledge sharing to digital sovereignty and artificial intelligence.</p>
-<p>Sven shares the factors that influenced their decision to adopt open source solutions, their implementation strategies along the way, and lessons learned from the adoption of open source in Munich.</p>
-<p>The post <a href="https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/">Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein&#8217;s CIO</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-
-<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>In this episode, we explore how open source solutions are revolutionizing the way governments work, from collaboration and knowledge sharing to digital sovereignty and artificial intelligence.</p>
-
-
-
-<p>Join us as we learn about the world of open source in government with Sven Thomsen, CIO of Schleswig-Holstein in Germany. Sven shares the factors that influenced their decision to adopt open source solutions, their implementation strategies along the way, and lessons learned from the adoption of open source in Munich.</p>
-
-
-
-<p>We also discuss Schleswig-Holstein&#8217;s 10-year journey into open source, from desktop solutions to database systems, and how it has become a key part of their digital sovereignty strategy. Sven shares his insights on the current discussion in Germany about the importance of open standards, open source, and open interfaces in promoting the idea of European IT resiliency.</p>
-
-
-
-<p>We also hear about the political and technical challenges they faced, including the successful implementation of Nextcloud as a central hub for collaboration and knowledge sharing in their federal state. Sven will share his thoughts on the &#8220;hidden champions&#8221; of open source and how Nextcloud&#8217;s new data automation platform has helped them solve some of the most difficult challenges in implementing the Online Access Act (OZG).</p>
-
-
-
-<section class="squote_style3_section" id="">
-	<div class="container">
-		<div class="row align-items-center">
-
-			<div class="col-lg-8 order-lg-2">
-				<figure class="text-block">
-                    <blockquote>
-					<div class="quote-block"><p>With AI based tools in Nextcloud, we were able to close an automation gap that we weren&#8217;t able to close with rule-based automations. Implementing AI-based microservices into the ecosystem of Nextcloud, and following Nextcloud&#8217;s very good AI strategy, we were able to implement something that is perfect for an organization like Schleswig-Holstein.</p>
-</div><div class="rest"><cite><h6>Sven Thomsen</h6></cite><span>CIO of Schleswig-Holstein</span></div>                    </blockquote>
-				</figure>
-			</div>
-
-			<div class="order-lg-1 col-lg-4 ">
-				<div class="image-block">
-					<img decoding="async" width="400" height="400" src="https://nextcloud.com/c/uploads/2024/10/SvenThomsen.jpg" class="attachment-full size-full" alt="Sven Thomsen" srcset="https://nextcloud.com/c/uploads/2024/10/SvenThomsen.jpg 400w, https://nextcloud.com/c/uploads/2024/10/SvenThomsen-300x300.jpg 300w, https://nextcloud.com/c/uploads/2024/10/SvenThomsen-150x150.jpg 150w" sizes="(max-width: 400px) 100vw, 400px" />				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-
-
-<p>Tune in to hear Sven&#8217;s words of advice for public sector adoptions, including the importance of community support and giving back. This episode is a must-listen for anyone interested in open source solutions in government or curious about the future of technology in the public sector.</p>
-
-
-
-<h3 class="wp-block-heading">Episode Links</h3>
-
-
-
-<ul class="wp-block-list nc-list">
-<li><a href="https://www.schleswig-holstein.de/" target="_blank" rel="noreferrer noopener">Welcome to Schleswig-Holstein &#8211; schleswig-holstein.de</a></li>
-
-
-
-<li><a href="https://social.schleswig-holstein.de/@CIO" target="_blank" rel="noreferrer noopener">Sven Thomsen &#8211; Mastodon Schleswig-Holstein</a></li>
-
-
-
-<li><a href="https://www.youtube.com/watch?v=CX8aPmoJlGo&amp;feature=youtu.be" target="_blank" rel="noreferrer noopener">Nextcloud Flow: Automate your business processes</a></li>
-
-
-
-<li><a href="https://nextcloud.com/blog/nextcloud-hub9/" target="_blank" rel="noreferrer noopener">Introducing Nextcloud Hub 9 &#8211; Federation, Data Automation and more!</a></li>
-
-
-
-<li><a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day 2024 &#8211; November 6 in Frankfurt</a></li>
-
-
-
-<li><a href="https://nextcloud.com/blog/nextcloud-enterprise-day-frankfurt-2024-speaker-spotlight-felix-gebauer/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day speaker spotlight: Felix Gebauer from Schleswig-Holstein</a></li>
-
-
-
-<li><a href="https://www.youtube.com/watch?v=luaf9KHlWO4&amp;list=PL4eBKdNy6FCEp8POjyTIiZUFsrDWoZb2Z" target="_blank" rel="noreferrer noopener">Nextcloud Spotlight: German state Schleswig-Holstein&#8217;s 40k public administrators embrace Nextcloud</a></li>
-
-
-
-<li><a href="https://nextcloud.com/blog/german-state-nextcloud-build-digitally-sovereign-ai-for-public-sector/" target="_blank" rel="noreferrer noopener">German state &amp; Nextcloud build digitally sovereign AI for public sector</a></li>
-
-
-
-<li><a href="https://nextcloud.com/blog/event/schleswig-holstein-nextcloud-sovereign-workplace/" target="_blank" rel="noreferrer noopener">Webinar: Schleswig-Holstein and Nextcloud collaborate on a sovereign workplace</a></li>
-</ul>
-
-
-
-<p></p>
-<p>The post <a href="https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/">Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein&#8217;s CIO</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>SpaceNet joins as a sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</title>
-		<link>https://nextcloud.com/blog/spacenet-joins-as-a-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/</link>
-		
-		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
-		<pubDate>Tue, 22 Oct 2024 14:41:53 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Business]]></category>
-		<category><![CDATA[Events]]></category>
-		<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://nextcloud.com/?p=263936</guid>
-
-					<description><![CDATA[<p>We are excited to announce SpaceNet as a sponsor of the Nextcloud Enterprise Day taking place on November 6 in Frankfurt, Germany! Read this article for details.</p>
-<p>The post <a href="https://nextcloud.com/blog/spacenet-joins-as-a-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/">SpaceNet joins as a sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet.png" alt="Nextcloud Enterprise Day Frankfurt 2024 sponsor SpaceNet" class="wp-image-263931" srcset="https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet.png 1920w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet-768x432.png 768w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-Enterprise-Day-Frankfurt-2024-sponsor-SpaceNet-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-
-
-
-<p>We are excited to announce SpaceNet as a sponsor of the <a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day</a> taking place on November 6 in Frankfurt, Germany!</p>
-
-
-
-<p>With a track record extending over three decades, SpaceNet is now a leading provider of private, sovereign infrastructure solutions in Germany. As a Nextcloud Gold Partner, SpaceNet delivers a comprehensive range of Nextcloud hosting solutions. These services meet many business demands, from highly standardized cloud services ready for immediate use, to customized installations uniquely tailored to individual client requirements.</p>
-
-
-
-<p>Positioned in the heart of Munich, Germany, SpaceNet&#8217;s data centers are at the forefront of managed Nextcloud offerings. This strategic location not only aligns with the stringent European data protection standards but also reinforces the commitment to providing robust security, supreme efficiency, and complete control over your data.</p>
-
-
-
-<p>Register for the Nextcloud Enterprise Day today to secure your spot!</p>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244868);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Register for Nextcloud Enterprise Day today to secure your spot!</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading">About SpaceNet</h2>
-
-
-
-<p>SpaceNet is a Munich-based provider of managed services and data center solutions that prioritizes security and performance while strongly aligning with GDPR standards and principles.  In acknowledgment of the distinct challenges each business faces, SpaceNet offers customized solutions tailored to the unique needs of their clients.  SpaceNet has earned the trust of industry leaders such as MVV, Utopia.de, and Antenne Bayern, a testament to the commitment to excellence and innovation in IT solutions.</p>
-
-
-
-<p>Providing secure hosting in Germany, SpaceNet contributes to the initiative to build a digitally sovereign European IT. A Gold Partner of Nextcloud, SpaceNet expands its offering with powerful capabilities of Nextcloud. Nextcloud is also a part of Zamadama, the self-service collaboration platform by SpaceNet. Managed Nextcloud is offered both as an immediately available standardised cloud solution and as a customised installation to fit individual requirements.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading">About Nextcloud Enterprise Day</h2>
-
-
-
-<p><a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day</a> is our top event of the year for business leaders, decision-makers, and project managers to achieve their goals with Nextcloud.</p>
-
-
-
-<p>From customer presentations and success stories to networking opportunities and access to management, sales, marketing, and engineering teams, you’re bound to walk away with new information, techniques, and inspiration.</p>
-
-
-
-<p>The upcoming edition takes place at the spectacular Radisson Blu hotel in Frankfurt, Germany. Early Bird tickets are limited.</p>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(244884);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Early Bird tickets are limited. Secure your spot.</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<p>The post <a href="https://nextcloud.com/blog/spacenet-joins-as-a-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/">SpaceNet joins as a sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Nextcloud wins Platinum at the IT Awards 2024!</title>
-		<link>https://nextcloud.com/blog/nextcloud-wins-platinum-at-the-it-awards-2024/</link>
-		
-		<dc:creator><![CDATA[Kim Pohlmann]]></dc:creator>
-		<pubDate>Tue, 22 Oct 2024 09:27:41 +0000</pubDate>
-				<category><![CDATA[Award]]></category>
-		<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://nextcloud.com/?p=263850</guid>
-
-					<description><![CDATA[<p>Nextcloud has been awarded Platinum at the IT Awards 2024. Today, we celebrate this win together!</p>
-<p>The post <a href="https://nextcloud.com/blog/nextcloud-wins-platinum-at-the-it-awards-2024/">Nextcloud wins Platinum at the IT Awards 2024!</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024.png" alt="Nextcloud IT-Awards 2024" class="wp-image-263900" srcset="https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024.png 1920w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024-768x432.png 768w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-IT-Awards-2024-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>Nextcloud has been awarded Platinum at the IT Awards 2024! This proves once again that love and support of our community is everything. Today, we celebrate this win together!</p>
-
-
-
-<p>This recognition, decided by thousands of IT professionals, reflects the trust that our community places in us. It’s an incredible acknowledgment of our efforts to provide a secure, open-source, and flexible platform.</p>
-
-
-
-<p>The IT Awards, hosted by Vogel IT Media, celebrate outstanding IT solutions across various categories. Being recognized in this highly competitive contest is a testament to the hard work and dedication of our entire team.</p>
-
-
-
-<figure class="wp-block-image size-full imageRoundShadow"><img decoding="async" width="1600" height="1200" src="https://nextcloud.com/c/uploads/2024/10/WhatsApp-Image-2024-10-18-at-16.40.382.jpeg" alt="Nextcloud Team at AI-Awards 2024" class="wp-image-263858" srcset="https://nextcloud.com/c/uploads/2024/10/WhatsApp-Image-2024-10-18-at-16.40.382.jpeg 1600w, https://nextcloud.com/c/uploads/2024/10/WhatsApp-Image-2024-10-18-at-16.40.382-300x225.jpeg 300w, https://nextcloud.com/c/uploads/2024/10/WhatsApp-Image-2024-10-18-at-16.40.382-768x576.jpeg 768w, https://nextcloud.com/c/uploads/2024/10/WhatsApp-Image-2024-10-18-at-16.40.382-1536x1152.jpeg 1536w" sizes="(max-width: 1600px) 100vw, 1600px" /></figure>
-
-
-
-<p>At Nextcloud, our mission is to enable individuals and organizations to regain control of their data through solutions that prioritize data sovereignty and privacy. Winning the Platinum Award strengthens our commitment to this vision, showing that our approach resonates with users and professionals alike.</p>
-
-
-
-<p>We are deeply grateful to our community, partners, and customers for their continued support. Your trust drives us to keep innovating and delivering solutions that meet the evolving demands of modern digital collaboration. We look forward to continuing this journey together, building a more open and secure digital future.<br><br>You can read a full overview of <strong><a href="https://www.cloudcomputing-insider.de/it-awards-2024-gewinner-a-0eff7f083cda3aea4c1b8c23ef107b60/" target="_blank" rel="noreferrer noopener">the winners in this article (in German)</a></strong><a href="https://www.cloudcomputing-insider.de/das-sind-die-gewinner-der-it-awards-2021-a-1069004/">.</a></p>
-<p>The post <a href="https://nextcloud.com/blog/nextcloud-wins-platinum-at-the-it-awards-2024/">Nextcloud wins Platinum at the IT Awards 2024!</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></content:encoded>
 					
 		

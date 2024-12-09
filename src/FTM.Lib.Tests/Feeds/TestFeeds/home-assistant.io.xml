@@ -3,7 +3,7 @@
   <title><![CDATA[Home Assistant]]></title>
   <link href="https://www.home-assistant.io/atom.xml" rel="self"/>
   <link href="https://www.home-assistant.io/"/>
-  <updated>2024-11-22T18:37:01+00:00</updated>
+  <updated>2024-12-09T19:06:25+00:00</updated>
   <id>https://www.home-assistant.io/</id>
   <author>
     <name><![CDATA[Home Assistant]]></name>
@@ -11,6 +11,767 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2024.12: Scene you in 2025! 🎄]]></title>
+    <link href="https://www.home-assistant.io/blog/2024/12/04/release-202412/"/>
+    <updated>2024-12-04T00:00:00+00:00</updated>
+    <id>https://www.home-assistant.io/blog/2024/12/04/release-202412</id>
+    <content type="html"><![CDATA[<p><lite-youtube videoid="9Y9YY_YHNBY" videotitle="Home Assistant 2024.12 Release Party"></lite-youtube></p>
+<p>Home Assistant 2024.12! 🎄</p>
+<p>Holidays are coming, and it is time for the last release of the year! 🎉</p>
+<p><strong>2024</strong> has been a crazy year for Home Assistant. Not just in terms of features
+like <a href="/blog/2024/11/06/release-202411/#sections-dashboard-no-longer-experimental">drag-and-drop dashboards</a>, <a href="/blog/2024/04/03/release-20244/#three-new-ways-to-organize">organization capabilities</a> like labels, and
+the countless improvements to our voice efforts. But also the founding of
+<a href="https://www.openhomefoundation.org/">the Open Home Foundation</a>, and even more in the growth of our lovely community
+as we’ve risen up to become <a href="/blog/2024/11/18/event-wrapup-github-universe-24/#we-are-number-1">the #1 open source project on GitHub</a>! ❤️</p>
+<p>However, the year ain’t over yet! This month, we want to learn about all your
+<em>“What the heck?!”</em> moments with Home Assistant. Tell us about any little
+annoyances, bugs, ideas, or suggestions. You can read all about it in
+<a href="/blog/2024/11/30/the-month-of-what-the-heck/">the WTH announcement blog</a>, or join the conversation <a href="https://community.home-assistant.io/c/month-of-what-the-heck/61">on our WTH forums</a>!</p>
+<p>Honestly, <strong>the biggest announcement of the year has yet to come though</strong>… 🤫
+I’m pretty sure it is voice hardware related. 😉 So make sure you aren’t
+missing <a href="https://youtube.com/live/ZgoaoTpIhm8">the live stream on 19 December</a>! 📺 You will not be disappointed! 🎁</p>
+<p>Before you check out everything in this release, I just want to close this
+year with a big thank you to every single person in our community, which
+includes you!</p>
+<p><strong>Thank you for using Home Assistant!</strong> ❤️</p>
+<p>Happy holidays! And for the last time in 2024: Enjoy the release!</p>
+<p>../Frenck</p>
+<!--more-->
+<ul>
+<li><a href="#improved-scene-editor-experience">Improved scene editor experience</a></li>
+<li><a href="#voice">Voice</a>
+<ul>
+<li><a href="#let-your-voice-assistant-fall-back-to-an-llm-based-agent">Let your voice assistant fall back to an LLM-based agent</a></li>
+<li><a href="#language-leaders-are-accelerating-the-pace">Language leaders are accelerating the pace</a></li>
+<li><a href="#a-faster-voice-experience">A faster voice experience</a></li>
+</ul>
+</li>
+<li><a href="#revised-integration-quality-scale">Revised Integration Quality Scale</a></li>
+<li><a href="#integrations">Integrations</a>
+<ul>
+<li><a href="#new-integrations">New integrations</a></li>
+<li><a href="#noteworthy-improvements-to-existing-integrations">Noteworthy improvements to existing integrations</a></li>
+</ul>
+</li>
+<li><a href="#other-noteworthy-changes">Other noteworthy changes</a></li>
+<li><a href="#translations-for-units-of-measurement">Translations for units of measurement</a></li>
+<li><a href="#weve-upgraded-to-python-313">We’ve upgraded to Python 3.13</a></li>
+<li><a href="#patch-releases">Patch releases</a>
+<ul>
+<li><a href="#2024121---december-6">2024.12.1 - December 6</a></li>
+</ul>
+</li>
+<li><a href="#need-help-join-the-community">Need help? Join the community!</a></li>
+<li><a href="#backward-incompatible-changes">Backward-incompatible changes</a></li>
+<li><a href="#all-changes">All changes</a></li>
+</ul>
+<h2>Improved scene editor experience</h2>
+<p><span class='terminology'>Scenes<span class='terminology-tooltip'>Scenes capture the states you want certain entities to be. For example, a scene can specify that light A should be turned on and light B should be bright red.<a class='terminology-link' href='/integrations/scene/'> [Learn more]</a></span></span> are a great way to set the mood in your home. They allow you
+to capture the state of your devices at a specific moment and restore it
+later, using a button on your dashboard, an automation, or even a voice command.</p>
+<p>One of the common frustrations with editing scenes in Home Assistant is that it
+would immediately activate and apply the scene if you opened the scene editor.
+Not the best experience if you are doing some midnight tinkering and
+accidentally activate a scene that turns on all the lights in the house,
+waking up everyone. 😅</p>
+<p><a href="https://github.com/karwosts">@karwosts</a> &amp; <a href="https://github.com/marcinbauer85">@marcinbauer85</a> to the rescue! 🦸‍♂️ As of this release, the scene
+editor has two modes. A <strong>review mode</strong> and an <strong>edit mode</strong>.</p>
+<img class="no-shadow" alt="The improved scene editor now has a preview mode, which is shown in this screenshot." src="/images/blog/2024-12/scene-review-mode.png"/>
+<p>The “review mode” is how your scene will open, and it will show you the scene as
+it is currently set up, but it will not apply it. You can then switch to the
+“edit mode”; only then will the scene activate, allowing you to adjust the
+actual scenery and snapshot it again once you are happy with the changes.</p>
+<p>Additionally, if you prefer <span class='terminology'>YAML<span class='terminology-tooltip'>YAML is a human-readable data serialization language. It is used to store and transmit data in a structured format. In Home Assistant, YAML is used for configuration, for example in the <code>configuration.yaml</code> or <code>automations.yaml</code> files.<a class='terminology-link' href='/docs/configuration/yaml/'> [Learn more]</a></span></span>, you can edit scenes directly from
+the scene editor by selecting <strong>“Edit in YAML”</strong> from the three-dotted
+<iconify-icon inline icon='mdi:dots-vertical' title='Dots vertical'></iconify-icon> overflow menu in the top right corner.</p>
+<h2>Voice</h2>
+<p>It has almost been two years since <a href="/blog/2022/12/20/year-of-voice/">we started our journey</a> into building our
+very own open source voice assistants, with the goal of letting users control
+Home Assistant in their own language.</p>
+<p>Today, we are getting even closer to the finish line. Not just with the features
+that ship in this release, but you might have heard about our voice hardware
+that is coming soon…</p>
+<p>With some help from Santa 🎅 and his elves, we have prepared a product launch
+YouTube live stream on 19 December 2024, at 20:00 GMT / 12:00 PT / 21:00 CET!</p>
+<p><lite-youtube videoid="ZgoaoTpIhm8" videotitle="Product Launch 🗣️ Voice: Chapter 8"></lite-youtube></p>
+<p>Curious? Be sure to <a href="https://www.youtube.com/watch?v=ZgoaoTpIhm8">join the live stream</a>, hit like 👍, subscribe to our
+channel, and the little bell 🔔 to get notified when we go live! You really
+don’t want to miss this one!</p>
+<p>But before we get there, let’s dive into the features that ship in this release!</p>
+<h3>Let your voice assistant fall back to an LLM-based agent</h3>
+<p><a href="/blog/2024/06/05/release-20246/">Exactly 6 months ago</a>, we bridged the gap between our default conversation agent
+and the wonderful (and scary) world of <a href="https://en.wikipedia.org/wiki/Language_model">LLMs</a>. We allowed you to experiment and
+let an LLM-based conversation agent control your home instead of relying on our
+built-in sentences.</p>
+<p>This choice was an interesting first step. LLMs are generally much better at
+interpreting natural language and more knowledgeable about the world than our
+default agent. However, they are often slow and/or expensive. And let’s face it:
+Even if the demos are cool, 90% of the commands we say in our homes are simple:
+<em>“Turn this on”</em> or <em>“Turn that off”</em>.</p>
+<p>Today, we’re finally allowing users to <strong>mix</strong> these worlds. Starting from this
+release, you can set up a voice assistant that targets our fast,
+community-driven conversation agent first and only falls back to an LLM-based
+agent if no matches are found.</p>
+<img class="no-shadow" alt="Dialog showing the Assist pipeline configuration, showing the new option to prefer handling commands locally." src="/images/blog/2024-12/llm-fallback-configuration.png"/>
+<p>This allows you to mix the pros of both worlds with almost none of the cons.</p>
+<p>Specific known commands will be processed locally and extremely fast, and the
+power of an LLM will only be used for more complex queries that Home Assistant
+does not natively understand.</p>
+<p><lite-youtube videoid="vThoxRIxHyI" videotitle="Let your voice assistant fall back to an LLM-based agent" posterquality="maxresdefault"></lite-youtube></p>
+<h3>Language leaders are accelerating the pace</h3>
+<p>It is no secret: our voice hardware will be revealed on 19 December 2024.
+Language leaders have already got their hands on the device, and are working
+extremely hard to polish support for their language.</p>
+<p>The number of contributions to our <a href="https://github.com/home-assistant/intents?tab=readme-ov-file">intents repository</a> (where we store the
+supported sentences) skyrocketed during the last month, which we all truly
+appreciate. More and more languages are becoming usable or even complete!
+You can follow the progress <a href="https://home-assistant.github.io/intents/">here</a>.</p>
+<p>We won’t list them all, but rest assured, someone is likely working hard to
+ensure your native language works seamlessly, so you can use it comfortably
+at home.</p>
+<h3>A faster voice experience</h3>
+<p>Our default conversation agent was built from the ground up to match a sentence
+to its underlying intention extremely fast and on cheap hardware.</p>
+<p>Release after release, we added more use cases and sentences to Home Assistant,
+and our sentence-matching logic became slower and slower. In some languages,
+a non-matching sentence could take more than 15 seconds to process!</p>
+<p>This release adds a lot of love to this matching logic; we completely
+reengineered the way we match sentences. On top of that, language leaders spent
+some time reducing the complexity of their sentences. Some languages saw a 99%
+reduction in the number of possible combinations!</p>
+<p>The results speak for themselves:</p>
+<p><lite-youtube videoid="RH69Dh6coMM" videotitle="A faster voice experience with our default conversation agent" posterquality="maxresdefault"></lite-youtube></p>
+<h2>Revised Integration Quality Scale</h2>
+<p>The Integration Quality Scale (IQS) is a way we classify the “quality” of an
+integration. It gives users an idea of what to expect from an integration.
+You might have noticed our IQS indicator listed on
+<a href="/integrations/homewizard">each integration documentation page</a>.</p>
+<p>The scale was initially introduced in 2018 and aimed more at the technical
+side and code of an integration back then. Over the years, it didn’t
+really evolve with the rest of Home Assistant and the general expectations of
+our community. It was time for a change!</p>
+<p>Over the last few months, we have worked with the community to revise and
+improve the scale. Involving not just our community developers but also
+documentation writers, user experience designers, and anyone interested
+in the community.</p>
+<p>As a result, the new Integration Quality Scale is not just focused on the code
+but even more on the overall user experience. It is now a more holistic view
+of the integration, and we hope it will help everyone make better decisions
+about what to use in their homes.</p>
+<img class="no-shadow" alt="The integration quality scale is also shown in the Home Assistant UI now. The image shows the HomeWizard Energy integration scoring platinum on the new integration quality scale." src="/images/blog/2024-12/integration-quality-scale.png" />
+<p>We now have a total of 4 scaled tiers:</p>
+<ul>
+<li><strong>🥉 <a href="/docs/quality_scale/#-bronze">Bronze</a></strong>:
+The new minimum set of requirements we’ve set for new integrations.</li>
+<li><strong>🥈 <a href="/docs/quality_scale/#-silver">Silver</a></strong>:
+Ensuring reliability and robustness of integrations.</li>
+<li><strong>🥇 <a href="/docs/quality_scale/#-gold">Gold</a></strong>:
+Ensuring a gold standard user experience, including documentation.</li>
+<li><strong>🏆 <a href="/docs/quality_scale/#-platinum">Platinum</a></strong>:
+The epitome of quality, supreme code quality, and optimal performance.</li>
+</ul>
+<p>We also have four additional (non-scaled) special tiers:</p>
+<ul>
+<li><strong>❓ <a href="/docs/quality_scale/#-no-score">No score</a></strong>:
+For integrations that are not yet scored against the new scale.</li>
+<li><strong>🏠 <a href="/docs/quality_scale/#-internal">Internal</a></strong>
+For integrations Home Assistant itself uses, like the automation engine.</li>
+<li><strong>💾 <a href="/docs/quality_scale/#-legacy">Legacy</a></strong>
+For older integrations that can’t be set up through the UI.</li>
+<li><strong>📦 <a href="/docs/quality_scale/#-custom">Custom</a></strong>
+For custom integrations, as we can’t score those.</li>
+</ul>
+<p>You can read all about these tiers, what they have been designed for, and a
+summary of their characteristics on our dedicated
+<a href="/docs/quality_scale/">Integration Quality Scale page</a>.</p>
+<p>We sincerely hope this new scale will not just help our users, but also our
+community developers to understand what is expected by providing a clear path
+to improving their integrations. To help with that, we have now
+<a href="https://developers.home-assistant.io/docs/core/integration-quality-scale/#integration-quality-scale-rules">extensively documented every rule and requirement for each tier in our
+developer documentation</a>.</p>
+<h2>Integrations</h2>
+<p>Thanks to our community for keeping pace with the new <span class='terminology'>integrations<span class='terminology-tooltip'>Integrations connect and integrate Home Assistant with your devices, services, and more.<a class='terminology-link' href='/getting-started/concepts-terminology/#integrations'> [Learn more]</a></span></span>
+and improvements to existing ones! You’re all awesome. 🥰</p>
+<h3>New integrations</h3>
+<p>We welcome the following new integrations in this release:</p>
+<ul>
+<li><strong><a href="/integrations/acaia">Acaia</a></strong>, added by <a href="https://github.com/zweckj">@zweckj</a><br />
+Adds support for <a href="https://acaia.co/">Acaia coffee scales</a> to Home Assistant.</li>
+<li><strong><a href="/integrations/music_assistant">Music Assistant</a></strong>, added by <a href="https://github.com/jozefKruszynski">@jozefKruszynski</a><br />
+The integration for <a href="https://music-assistant.io/">Music Assistant</a> is making
+its way into Home Assistant! 🎉</li>
+<li><strong><a href="/integrations/nasweb">NASweb</a></strong>, added by <a href="https://github.com/nasWebio">@nasWebio</a><br />
+Brings in support for the NASweb automation system to Home Assistant.</li>
+<li><strong><a href="/integrations/nordpool">Nord Pool</a></strong>, added by <a href="https://github.com/gjohansson-ST">@gjohansson-ST</a><br />
+Pulls in latest energy prices from the Nord Pool energy market as sensors.</li>
+<li><strong><a href="/integrations/sky_remote">Sky Remote</a></strong>, added by <a href="https://github.com/dunnmj">@dunnmj</a><br />
+Control your <a href="https://www.sky.com/">Sky</a> box using automations or from your Home Assistant
+dashboards.</li>
+</ul>
+<h3>Noteworthy improvements to existing integrations</h3>
+<p>It is not just new <span class='terminology'>integrations<span class='terminology-tooltip'>Integrations connect and integrate Home Assistant with your devices, services, and more.<a class='terminology-link' href='/getting-started/concepts-terminology/#integrations'> [Learn more]</a></span></span> that have been added; existing
+integrations are also being constantly improved. Here are some of the noteworthy
+changes to existing integrations:</p>
+<ul>
+<li>The <a href="/integrations/unifiprotect">UniFi Protect integration</a> now has support for fingerprint and NFC
+events. You can even automate on the specific fingerprint or NFC scanned!
+Awesome, <a href="https://github.com/RaHehl">@RaHehl</a>!</li>
+<li>The <a href="/integrations/tplink">TP-Link integration</a> now supports the H200 hubs and adds more
+energy-monitoring sensors for Tapo devices. It also exposes new entities like
+a motion sensor switch, a child lock switch for thermostats, and the last
+water leak alert timestamp.
+Thanks to <a href="https://github.com/sdb9696">@sdb9696</a>, <a href="https://github.com/rytilahti">@rytilahti</a>, and <a href="https://github.com/ryenitcher">@ryenitcher</a>!</li>
+<li><a href="https://github.com/starKillerOG">@starKillerOG</a> added selector entities for bitrate, framerate, and vehicle
+tone to the <a href="/integrations/reolink">Reolink integration</a>. Additionally, a tilt position sensor for
+PTZ cameras has been added. Thanks!</li>
+<li><a href="https://github.com/fwestenberg">@fwestenberg</a> updated the <a href="/integrations/stookwijzer">Stookwijzer integration</a>, with some new sensors,
+right on time for the winter season. Nice!</li>
+<li>The <a href="/integrations/habitica">Habitica integration</a> now provides actions for quest handling, scoring
+habits, and rewards. It also adds calendars for your to-do and daily reminders.
+Nice, <a href="https://github.com/tr4nt0r">@tr4nt0r</a>!</li>
+<li>The <a href="/integrations/eq3btsmart">eQ-3 Bluetooth Smart integration</a> now provides several helpful switches
+and sensors (like away mode, boost, battery). Thanks, <a href="https://github.com/EuleMitKeule">@EuleMitKeule</a>!</li>
+<li><a href="https://github.com/YogevBokobza">@YogevBokobza</a> added Switcher Lights support to the <a href="/integrations/switcher_kis">Switcher integration</a>.
+Thanks!</li>
+</ul>
+<h2>Other noteworthy changes</h2>
+<p>There are many more improvements in this release; here are some of the other
+noteworthy changes this release:</p>
+<ul>
+<li><a href="https://github.com/jpbede">@jpbede</a> added a download snapshot button to the camera entity information
+dialog. Super nice! Thanks!</li>
+<li>The UI now displays durations using a timer format (like 03:26:00) in natural
+language (3h 26min). Thanks <a href="https://github.com/piitaya">@piitaya</a>!</li>
+<li>Support for new units of measurement has been added:
+<ul>
+<li>Units for area sizes (and conversions between metric and US).
+Thanks <a href="htttps://github.com/mikey0000">@mikey0000</a>!</li>
+<li><a href="https://githubc.com/jschlyter">@jschlyter</a> has added support for MW, GW, TW, GWh, and TWh. Nice!</li>
+<li>µV has been added as a unit of electric potential. Thanks <a href="https://github.com/tr4nt0r">@tr4nt0r</a>!</li>
+<li>Lastly, mL/s has been added as a unit of volume flow rate. Thanks <a href="https://github.com/zweckj">@zweckj</a>!</li>
+</ul>
+</li>
+<li>If you are editing an automation using YAML via our UI and you make a mistake…
+you will now actually see the parsing error message in the UI. This is really
+helpful! Thanks, <a href="https://github.com/karwosts">@karwosts</a>!</li>
+</ul>
+<h2>Translations for units of measurement</h2>
+<p>Over the last few years, we have been working hard to make every little
+bit of Home Assistant accessible for everyone by providing translations
+for every part of the system. 🌐</p>
+<p>However, we still have some edge cases, where we are not able to provide
+translations for everything. One of those edge cases is the units of
+measurement. 📏</p>
+<p>Although units do not need translation (like <code>°C</code> or <code>kWh</code>) in most cases, many
+sensors in a home might use specific and non-standardized units. For example,
+a sensor that measures the number of “people” in a home or one that tells you
+how many “movies” are in your collection.</p>
+<p>So, suppose you now have a sensor with a custom measurement unit, like the
+amount of “movies” in your collection. In that case, integrations can now
+provide translations for those units. 🎉</p>
+<p>Several integrations have already added translations for their units, including
+<a href="/integrations/jellyfin">Jellyfin</a>, <a href="/integrations/squeezebox">Lyrion Music Server</a>, <a href="/integrations/transmission">Transmission</a>, <a href="/integrations/pi_hole">Pi-hole</a>, <a href="/integrations/qbittorrent">QBitTorrent</a>,
+<a href="/integrations/nextdns">NextDNS</a>, <a href="/integrations/mastodon">Mastodon</a>, and <a href="/integrations/mealie">Mealie</a>!</p>
+<h2>We’ve upgraded to Python 3.13</h2>
+<center><img class="no-shadow" style="width: 65%" alt="The Python logo; Home Assistant now runs on top of Python latest 3.13 update" src="/images/blog/2024-12/python.png"/></center>
+<p>This release comes packaged with Python 3.13!  🐍</p>
+<p>Wondering what that means? Python is the programming language that powers Home
+Assistant behind the scenes.</p>
+<p>Why does it matter? Every new Python release brings improvements that we can
+tap into—better performance, fewer bugs, and a smoother developer experience
+for our contributors. Plus, Python 3.13 offers a speed boost to Home Assistant
+overall—what’s not to love? 🚀</p>
+<p>Running Home Assistant OS or using the Home Assistant Container? No sweat—we’ve
+got you covered. The upgrade to Python 3.13 is handled automatically. Just
+update Home Assistant as usual, and you’re good to go.</p>
+<p>Easy, right? 😎</p>
+<h2>Patch releases</h2>
+<p>We will also release patch releases for Home Assistant 2024.12 in December.
+These patch releases only contain bug fixes. Our goal is to release a patch
+release every Friday.</p>
+<h3>2024.12.1 - December 6</h3>
+<ul>
+<li>Bump elmax-api to 0.0.6.3 (<a href="https://github.com/albertogeniola">@albertogeniola</a> - <a href="https://github.com/home-assistant/core/pull/131876">#131876</a>)</li>
+<li>Fix deprecated call to mimetypes.guess_type in CachingStaticResource (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132299">#132299</a>)</li>
+<li>Bump tesla-fleet-api to 0.8.5 (<a href="https://github.com/Bre77">@Bre77</a> - <a href="https://github.com/home-assistant/core/pull/132339">#132339</a>)</li>
+<li>Add missing UnitOfPower to sensor (<a href="https://github.com/robinostlund">@robinostlund</a> - <a href="https://github.com/home-assistant/core/pull/132352">#132352</a>)</li>
+<li>Removes references to croniter from utility_meter (<a href="https://github.com/dgomes">@dgomes</a> - <a href="https://github.com/home-assistant/core/pull/132364">#132364</a>)</li>
+<li>Bump upb-lib to 0.5.9 (<a href="https://github.com/gwww">@gwww</a> - <a href="https://github.com/home-assistant/core/pull/132411">#132411</a>)</li>
+<li>Bump pydeako to 0.6.0 (<a href="https://github.com/Balake">@Balake</a> - <a href="https://github.com/home-assistant/core/pull/132432">#132432</a>)</li>
+<li>Bump aiohttp to 3.11.10 (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132441">#132441</a>)</li>
+<li>Bump aioesphomeapi to 28.0.0 (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132447">#132447</a>)</li>
+<li>Update exception handling for python3.13 for getpass.getuser() (<a href="https://github.com/allenporter">@allenporter</a> - <a href="https://github.com/home-assistant/core/pull/132449">#132449</a>)</li>
+<li>Bump hass-nabucasa from 0.85.0 to 0.86.0 (<a href="https://github.com/ludeeus">@ludeeus</a> - <a href="https://github.com/home-assistant/core/pull/132456">#132456</a>)</li>
+<li>Fix nordpool dont have previous or next price (<a href="https://github.com/gjohansson-ST">@gjohansson-ST</a> - <a href="https://github.com/home-assistant/core/pull/132457">#132457</a>)</li>
+<li>Bump deebot-client to 9.2.0 (<a href="https://github.com/edenhaus">@edenhaus</a> - <a href="https://github.com/home-assistant/core/pull/132467">#132467</a>)</li>
+<li>Point to the Ecovacs issue in the library for unspoorted devices (<a href="https://github.com/edenhaus">@edenhaus</a> - <a href="https://github.com/home-assistant/core/pull/132470">#132470</a>)</li>
+<li>Bump tplink python-kasa dependency to 0.8.1 (<a href="https://github.com/sdb9696">@sdb9696</a> - <a href="https://github.com/home-assistant/core/pull/132472">#132472</a>)</li>
+<li>Bump samsungtvws to 2.7.2 (<a href="https://github.com/epenet">@epenet</a> - <a href="https://github.com/home-assistant/core/pull/132474">#132474</a>)</li>
+<li>Update frontend to 20241127.5 (<a href="https://github.com/bramkragten">@bramkragten</a> - <a href="https://github.com/home-assistant/core/pull/132475">#132475</a>)</li>
+<li>Update frontend to 20241127.6 (<a href="https://github.com/bramkragten">@bramkragten</a> - <a href="https://github.com/home-assistant/core/pull/132494">#132494</a>)</li>
+<li>Fix google tasks due date timezone handling (<a href="https://github.com/allenporter">@allenporter</a> - <a href="https://github.com/home-assistant/core/pull/132498">#132498</a>)</li>
+</ul>
+<h2>Need help? Join the community!</h2>
+<p>Home Assistant has a great community of users who are all more than willing
+to help each other out. So, join us!</p>
+<p>Our very active <a href="/join-chat">Discord chat server</a> is an excellent place to be
+at, and don’t forget to join our amazing <a href="https://community.home-assistant.io/">forums</a>.</p>
+<p>Found a bug or issue? Please report it in our <a href="https://github.com/home-assistant/core/issues">issue tracker</a>,
+to get it fixed! Or, check <a href="/help">our help page</a> for guidance for more
+places you can go.</p>
+<p>Are you more into email? <a href="/newsletter">Sign-up for our Building the Open Home Newsletter</a>
+to get the latest news about features, things happening in our community and
+other news about building an Open Home; straight into your inbox.</p>
+<h2>Backward-incompatible changes</h2>
+<p>We do our best to avoid making changes to existing functionality that might
+unexpectedly impact your Home Assistant installation. Unfortunately, sometimes,
+it is inevitable.</p>
+<p>We always make sure to document these changes to make the transition as easy as
+possible for you. This release has the following backward-incompatible changes:</p>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Brother Printer</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_0">
+<p>The unit of measurement for pages changed from <code>p</code> to <code>pages</code>.</p>
+<p>This could potentially break use cases if it was used in templates where a state
+with a unit is used, such as <code>states('sensor.pages', with_unit=True)</code>.</p>
+<p>(<a href="https://github.com/bieniu">@bieniu</a> - <a href="https://github.com/home-assistant/core/pull/131275">#131275</a>) (<a href="/integrations/brother">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Ecovacs</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_1">
+<p>Ecovacs devices not recognized by the library will no longer use the fallback
+vacuum. Instead, the device will not be added to Home Assistant,
+and a warning log will created.</p>
+<p>(<a href="https://github.com/edenhaus">@edenhaus</a> - <a href="https://github.com/home-assistant/core/pull/131525">#131525</a>) (<a href="/integrations/ecovacs">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Glances</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_2">
+<p>The previously deprecated Glances v2 API has been removed. Upgrade to v3 or
+higher to continue using the integration.</p>
+<p>(<a href="https://github.com/gjohansson-ST">@gjohansson-ST</a> - <a href="https://github.com/home-assistant/core/pull/131427">#131427</a>) (<a href="/integrations/glances">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>History Stats</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_3">
+<p>After this change, <code>history_stats</code> in <code>time</code> or <code>ratio</code> mode will only count
+definitively known time-based recorded data.</p>
+<p>Prior to this change, if the start of the time window was earlier than the
+oldest datapoint in the recorder, <code>history_stats</code> would count time using the
+assumption that an entity was in the first state it found since the beginning
+of time. This could lead to wild overcalculations when a switch was turned on
+after a long period of inactivity, and <code>history_stats</code> would assume it had
+<em>always</em> been on and calculate a huge value based on that.</p>
+<p>(<a href="https://github.com/karwosts">@karwosts</a> - <a href="https://github.com/home-assistant/core/pull/126271">#126271</a>) (<a href="/integrations/history_stats">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Jewish Calendar</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_4">
+<p>To support Rosh Chodesh this creates a breaking change as the holiday sensor
+will return “Chanukah, Rosh Chodesh” when both of those days fall on the same
+date. If you have an automation expecting the “Chanukah” value, you must update
+it.</p>
+<p>(<a href="https://github.com/tsvi">@tsvi</a> - <a href="https://github.com/home-assistant/core/pull/130456">#130456</a>) (<a href="/integrations/jewish_calendar">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>QNAP</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_5">
+<p>The QNAP sensors will no longer have the following extra state attributes:</p>
+<ul>
+<li><code>memory_free</code></li>
+<li><code>memory_percent_used</code></li>
+<li><code>memory_size</code></li>
+<li><code>memory_used</code></li>
+<li><code>network_err</code></li>
+<li><code>network_link_status</code></li>
+<li><code>network_max_speed</code></li>
+<li><code>network_rx</code></li>
+<li><code>network_tx</code></li>
+<li><code>status</code></li>
+<li><code>system_temp</code></li>
+<li><code>uptime</code></li>
+<li><code>volume_percentage_used</code></li>
+<li><code>volume_size_free</code></li>
+<li><code>volume_size_total</code></li>
+<li><code>volume_size_used</code></li>
+</ul>
+<p>These extra state attributes were deprecated in Home Assistant 2024.6 and have
+now been removed. If you are using this in your automation or script, use
+the separate available sensors instead.</p>
+<p>(<a href="https://github.com/jbouwh">@jbouwh</a> - <a href="https://github.com/home-assistant/core/pull/130310">#130310</a>) (<a href="/integrations/qnap">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Spotify</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_6">
+<p>The Spotify audio feature sensors have been removed since Spotify
+removed access for them, starting 27 November.</p>
+<p>Additionally, featured and category playlists have been removed from
+the Spotify media browser since Spotify deprecated the API,
+starting on 27 November.</p>
+<p>(<a href="https://github.com/joostlek">@joostlek</a> - <a href="https://github.com/home-assistant/core/pull/131754">#131754</a> <a href="https://github.com/home-assistant/core/pull/131758">#131758</a>) (<a href="/integrations/spotify">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Statistics</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_7">
+<p>Previously the attributes of the entity states of the Statistics integration were only provided when they had a non <code>None</code> value.
+This has now changed so the attributes are always provided even with <code>None</code>
+values. You might need to modify your automations or scripts depending on
+whether these attributes are present or not.</p>
+<p>(<a href="https://github.com/gjohansson-ST">@gjohansson-ST</a> - <a href="https://github.com/home-assistant/core/pull/129353">#129353</a>) (<a href="/integrations/statistics">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Stookwijzer</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_8">
+<p>The Stookwijzer sensor has migrated to the new API provided by Atlas
+Leefomgeving. As a result, the reported states are slightly different.</p>
+<p>Old versus new:</p>
+<ul>
+<li>Blue (<code>blauw</code>) -&gt; Yellow (<code>code_yellow</code>)</li>
+<li>Orange (<code>oranje</code>) -&gt; Orange (<code>code_orange</code>)</li>
+<li>Red (<code>rood</code>) -&gt; Red (<code>code_red</code>)</li>
+</ul>
+<p>If you use the Stookwijzer sensor in your automations or scripts, you might
+need to adjust those for this change.</p>
+<p>(<a href="https://github.com/frenck">@frenck</a> - <a href="https://github.com/home-assistant/core/pull/131567">#131567</a>) (<a href="/integrations/stookwijzer">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Templates</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_9">
+<p>The <code>this</code> template variable which is available in some templatable helpers was
+previously based on the new state instead of the current state.</p>
+<p>The change affects the following integrations, if templates use the <code>this</code>
+variable. The user might have to update their templates to reflect the above
+change using the <code>value</code> variable instead, which holds the new value.</p>
+<ul>
+<li><code>command_line</code></li>
+<li><code>rest</code></li>
+<li><code>scrape</code></li>
+<li><code>snmp</code></li>
+<li><code>sql</code></li>
+</ul>
+<p>(<a href="https://github.com/gjohansson-ST">@gjohansson-ST</a> - <a href="https://github.com/home-assistant/core/pull/130135">#130135</a>)</p>
+</div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>Z-Wave</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_10">
+<p>With this release, you will need to update your zwave-js-server instance. You
+must use zwave-js-server 1.39.0 or greater (schema 39).</p>
+<ul>
+<li>If you use the Z-Wave JS add-on, you need at least version <code>0.9.0</code>.</li>
+<li>If you use the Z-Wave JS UI add-on, you need at least version <a href="https://github.com/hassio-addons/addon-zwave-js-ui/releases/tag/v3.17.0"><code>3.17.0</code></a>.</li>
+<li>If you use the Z-Wave JS UI Docker container, you need at least version <a href="https://github.com/zwave-js/zwave-js-ui/releases/tag/v9.26.0"><code>9.26.0</code></a>.</li>
+<li>If you run your own Docker container or some other installation method, you will need to update your zwave-js-server instance to at least <code>1.39.0</code>.</li>
+</ul>
+<p>(<a href="https://github.com/MindFreeze">@MindFreeze</a> - <a href="https://github.com/home-assistant/core/pull/129482">#129482</a>) (<a href="/integrations/zwave_js">documentation</a>)</p>
+</div>
+  </details>
+</div>
+<p>If you are a custom integration developer and want to learn about changes and
+new features available for your integration: Be sure to follow our
+<a href="https://developers.home-assistant.io/blog/">developer blog</a>. The following are the most notable for this release:</p>
+<ul>
+<li><a href="https://developers.home-assistant.io/blog/2024/11/26/camera-deprecations">Camera API changes</a></li>
+<li><a href="https://developers.home-assistant.io/blog/2024/11/20/integration-quality-scale">Integration quality scale</a></li>
+<li><a href="https://developers.home-assistant.io/blog/2024/11/12/options-flow/">New options flow properties</a></li>
+<li><a href="https://developers.home-assistant.io/blog/2024/11/21/unit-of-measurement-translations">Translating units of measurement</a></li>
+<li><a href="https://developers.home-assistant.io/blog/2024/11/28/dt-util-utc-to-timestamp-deprecation/">Utility function homeassistant.util.dt.utc_to_timestamp is deprecated</a></li>
+</ul>
+<h2>All changes</h2>
+<p>Of course, there is a lot more in this release. You can find a list of
+all changes made here: <a href="/changelogs/core-2024.12">Full changelog for Home Assistant Core 2024.12</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The month of 'What the Heck?!' 2024]]></title>
+    <link href="https://www.home-assistant.io/blog/2024/11/30/the-month-of-what-the-heck/"/>
+    <updated>2024-11-30T00:00:00+00:00</updated>
+    <id>https://www.home-assistant.io/blog/2024/11/30/the-month-of-what-the-heck</id>
+    <content type="html"><![CDATA[<p><a href='https://community.home-assistant.io/c/month-of-what-the-heck/61'><img src='/images/blog/2024-12-01-the-month-of-what-the-heck/social.jpg' style='border: 0;box-shadow: none;'></a></p>
+<p><strong>TL;DR</strong>: For all of December 🎄, we are opening up to share any issue, idea,
+suggestion, or annoyance you have with Home Assistant
+<a href="https://community.home-assistant.io/c/month-of-what-the-heck/61">on our community forums</a>!</p>
+<h2>Welcome to the month of “What the heck?!”: Third edition</h2>
+<p><strong>It’s back!</strong> 🎉 We are thrilled to announce the <strong>third</strong> edition of the month
+of “What the heck?!” (WTH for short). Every <a href="/blog/2020/08/18/the-month-of-what-the-heck/">two</a> <a href="/blog/2022/09/30/the-month-of-what-the-heck/">years</a>, we take the time to
+pause, listen, and dive deep into the little things that maybe you go
+<em>“What the heck?!”</em> about Home Assistant.</p>
+<p>We’ve been <a href="https://analytics.home-assistant.io/">growing really hard for years now</a> with over a million
+Home Assistant-powered smart homes out there, and, as of this year, we are also
+<a href="/blog/2024/11/18/event-wrapup-github-universe-24/#we-are-number-1">the #1 open source project on GitHub</a>!</p>
+<p>A lot has happened since <a href="/blog/2022/09/30/the-month-of-what-the-heck/">the last edition two years ago</a>. Lots of effort went
+into making a <a href="/blog/2022/12/20/year-of-voice/">voice-controlled Home Assistant</a> a reality. We have implemented
+<a href="/blog/2024/11/06/release-202411/#sections-dashboard-no-longer-experimental">new dashboards and cards</a> (with drag-and-drop!),
+<a href="/blog/2024/04/03/release-20244/#three-new-ways-to-organize">added organization capabilities</a> with labels and categories, and so <a href="/blog/2024/06/05/release-20246/#dipping-our-toes-in-the-world-of-ai-using-llms">much</a>
+<a href="/blog/2023/11/01/release-202311/#there-is-a-lot-to-do">more</a>! But did everything turn out the way it should? Did we miss things?
+Or, worse, did something start to annoy you?</p>
+<p>That is what this month is about! This year, we are kicking it off in the month
+of <strong>December</strong> as a nice closing activity for this year, and we can’t wait to
+hear from 👉 <strong>YOU</strong> 👈!</p>
+<h3>Lowering the barrier for sharing WTH?! moments</h3>
+<p>We realize reporting bugs on our <a href="https://github.com/home-assistant/core/issues/new/choose">GitHub</a> might be a steep hill and, for some,
+maybe even a bit scary. You need a GitHub account to report an issue following
+issue templates and forms, and the report itself needs to be written in a way
+that a developer can work with. Above all, we use our issue tracker to track
+actual issues and bugs, not small feature requests or annoyances.</p>
+<p>While this is a common and reasonable process to collect, track, and process
+bugs, our issue tracking-process might not be the ideal way to learn about your
+<em>“What the heck?!”</em> moments, small tweaks, and improvements that can make us
+all enjoy Home Assistant even more.</p>
+<p>Today, we have opened up a <a href="https://community.home-assistant.io/c/month-of-what-the-heck/61">Community Forum category</a> as a safe, lower-barrier
+place to talk about your Home Assistant “What the heck?!” moments.
+More importantly: discuss and vote on topics your fellow home automators have
+brought up.</p>
+<h2>What are we looking for?</h2>
+<p>Just as with previous editions, I sent out a related question on my socials
+earlier this week:</p>
+<blockquote>
+<p>🎅 𝘚𝘢𝘯𝘵𝘢 𝘮𝘪𝘨𝘩𝘵 𝘣𝘦 𝘭𝘪𝘴𝘵𝘦𝘯𝘪𝘯𝘨… If you could ask for one small Home Assistant
+improvement this holiday season, what would it be?</p>
+</blockquote>
+<p>The answers to this question pretty much capture the goal behind this month:
+Finding those nice quality-of-life features and little annoyances, highlighting
+inconsistencies, suggestions for things that could be streamlined more, and even
+big-ticket items. All of those things would make Home Assistant even more
+awesome for everyone.</p>
+<p>I’ve received many responses on these social media posts on <a href="https://x.com/Frenck/status/1861823068735181154">X</a>, <a href="https://fosstodon.org/@frenck/113556074335097996">Mastodon</a>,
+and <a href="https://bsky.app/profile/did:plc:ofidofdlypuxb2dlfdmbh3a3/post/3lbx2w2kh5a2p">Bluesky</a>. Most of the responses there are <strong>exactly</strong> what we are looking
+for this month. I’ve picked a few from these platforms to show you what I mean:</p>
+<ul>
+<li>“<em>Makes exposing entities to HomeKit the same as to Alexa &amp; Google</em>” (<a href="https://x.com/peterjvandoorn/status/1861898354038292579">Peter Hardy-vanDoorn</a>)</li>
+<li><em>“Polygon zones would be so very helpful instead of just the base circle”</em> (<a href="https://x.com/KrispKiwi/status/1861825026825265406">KrispKiwi</a>)</li>
+<li>“<em>Edit a scene without activating it. I can only edit my sleep scene after everyone goes to sleep or in YAML.”</em> (<a href="https://bsky.app/profile/codebuild21.bsky.social/post/3lbx72g4l6s2n">codebuild21</a>)</li>
+<li><em>“The possibility of catching errors in automations and being able to take actions when they occur 🙂”</em> (<a href="https://x.com/sermayoral/status/1862109088139583917">Sergio Mayoral</a>)</li>
+<li><em>“Not Fancy! Better backup management, especially pruning options!”</em> (<a href="https://bsky.app/profile/aaposutry.bsky.social/post/3lby3xqhzzk2w">Alex Alami</a>)</li>
+<li><em>“Persist my prefered dashboard across my different devices/browsers.”</em> (<a href="https://bsky.app/profile/chayotejarocho.space/post/3lbx7yorfms2c">Carlos Sánchez López</a>)</li>
+<li><em>“Home Assistant voice hardware!”</em> (<a href="https://bsky.app/profile/paulusschoutsen.nl/post/3lbx32dabes2s">Paulus Schoutsen</a>) 😆</li>
+</ul>
+<p>These are all great topics for the month of “What the heck?!”, I hope they inspire you for more topics to share 💖.</p>
+<h2>Roadmap</h2>
+<p>As you might be aware, we also create and publish a bigger, high level, roadmap
+for the greater direction of Home Assistant. A few weeks back, <a href="https://github.com/madelena">Madelena</a>
+and <a href="https://github.com/jlpouffier">JLo</a> shared the <a href="https://www.home-assistant.io/blog/2024/11/15/roadmap-2024h2/">2024 Year-end update of our roadmap</a>.</p>
+<p>This year’s month of “What the heck?!” is thus different in this regard, as in
+previous editions we didn’t have any roadmap in place. For this year’s WTH,
+the product team will also be watching for items that will help shape and
+prioritize our roadmap for the near future.</p>
+<p>As a matter of fact, many items on this year’s roadmap that we’ve worked on
+have their origins or have been shaped by topics from the previous WTH from
+2022. For example, the <a href="https://community.home-assistant.io/t/why-are-all-automations-in-one-big-list/467153?u=frenck">ability to organize automations</a> and the ability to
+<a href="https://community.home-assistant.io/t/wth-cant-we-drag-drop-in-the-dashboard/467205?u=frenck">drag-and-drop cards on your dashboards</a>.</p>
+<h2>Why December?</h2>
+<p>In the previous editions, we had this month in October; this year, we decided to
+move it to December. We figured, the holiday season is perfect for this event. 🎄</p>
+<p>Many of us have a bit more time on our hands during the holidays, whether that’s
+tinkering with automations, exploring our new dashboards, contributing to our
+project, or simply enjoying engaging our active and vibrant community.</p>
+<h2>Start sharing your WTH!</h2>
+<p>👆That title says it all really. Start sharing <strong>your</strong> “What the heck?!”
+moment, browse through all the WTH moments others brought up, and vote for the
+ones you feel the same about.</p>
+<p>We are excited about this month and looking forward to everything brought up!</p>
+<p><strong><a href="https://community.home-assistant.io/c/month-of-what-the-heck/61">Join us on the forums!</a></strong>, or read the <strong><a href="#faq">FAQ</a></strong> below.</p>
+<p class='img'>
+<img src='/images/blog/2020-08-18-the-month-of-what-the-heck/jackie-chan-what-the-heck.jpg' alt='Image of a person expressing a what the heck moment'></a>
+So, when does Home Assistant trigger this moment for you?
+</p>
+<h2>FAQ</h2>
+<ul>
+<li>
+<p><strong><em>“Great! I have multiple things! Should I put all my stuff in a single
+topic?!”</em></strong></p>
+<p><strong>No</strong>, please create <strong>multiple</strong>, <strong>smaller</strong> topics. There is no limitation
+on how many forum topics one can create for WTH. Each topic can be voted on,
+picked up, and maybe even resolved. Also, having multiple things stacked in
+a single forum topic makes resolving, discussing, and voting on them hard.</p>
+</li>
+</ul>
+<br />
+<ul>
+<li>
+<p><strong><em>“Is everything reported going to be fixed/addressed?”</em></strong></p>
+<p>Sorry, but the answer here is <strong>no</strong>; there is no guarantee that it will
+happen. The goal is to lower the barrier reporting things for one month.
+Code contributors will definitely join the effort and address a few of the
+listed things. Still, in the end, the number of submissions in WTH is,
+in general, simply too much to address. However, we have picked up a lot of
+items over the years (including bigger topics); it helps us shape our roadmap.</p>
+</li>
+</ul>
+<p><br /><a name='no-new-integrations'></a></p>
+<ul>
+<li>
+<p><strong><em>“I really want this new integration or add-on to be implemented, so I can
+use my devices. Is this the right place for it?”</em></strong></p>
+<p><strong>No</strong>, this event is <strong>not</strong> for requesting new add-ons or device/services
+integrations. Please use the “<a href="https://community.home-assistant.io/c/feature-requests/13">Feature Requests</a>” forum category instead.</p>
+</li>
+</ul>
+<br />
+<ul>
+<li>
+<p><strong><em>“My WTH topic is one of the top-voted ones, so it is going to be
+fixed/addressed, right?”</em></strong></p>
+<p>This is <strong>not</strong> a contest. Voting will help with visibility and give a sense
+of the suggestion’s impact. However, it might be difficult or too big to
+implement. A topic with lots of votes is more likely to be noticed by a
+contributor, but it is not guaranteed to be picked up.</p>
+<p>Topics with a lot of engagement, of course, help us shape our future roadmap.</p>
+</li>
+</ul>
+<br />
+<ul>
+<li>
+<p><strong><em>“I’ve found a bug and am comfortable with GitHub. Where should I report my
+issue now?”</em></strong></p>
+<p>If you are comfortable using GitHub, please, by all means,
+<a href="https://github.com/home-assistant/core/issues/new/choose">file an issue report on GitHub</a> instead.</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Home Assistant Yellow gets CM5 support in HAOS 14]]></title>
+    <link href="https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support/"/>
+    <updated>2024-11-27T00:00:00+00:00</updated>
+    <id>https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support</id>
+    <content type="html"><![CDATA[<img src='/images/blog/2024-11-cm5/art.jpg' alt="Home Assistant Yellow in all its glory">
+<p>We launched our <a href="/yellow/">Home Assistant Yellow</a> over two years ago, with the design philosophy that it would grow and extend its capabilities with its users’ needs. Need more storage, add an NVMe drive. Need Matter over Thread instead of Zigbee, change the firmware.</p>
+<p>Thanks to Raspberry Pi providing us with an early sample, we have been able to add <strong>Compute Module 5 (CM5) compatibility to the Home Assistant Yellow</strong>, which will be included in Home Assistant OS 14 (along with some <a href="#other-additions-to-haos-14">other hardware support</a>). This gives current and future users a great option to get more performance if they need it, but we must say that CM4 is still more than enough for most Home Assistant users’ needs.</p>
+<p>As part of the Open Home Foundation, we fight for privacy, choice, and sustainability in the smart home. The Yellow achieves all three, and this announcement only improves the choices available and long-term sustainability.</p>
+<!--more-->
+<h2>Using Compute Modules</h2>
+<p>When designing Yellow to give our users the ability to expand the capabilities of the device we chose Raspberry Pi’s Compute Module platform. It allows users to increase the RAM, add eMMC, built-in Bluetooth, or even get more speed 😉 - without having to replace the Yellow - all you need to do is get a new module. This is also great for the repairability of the product over its lifetime.</p>
+<p>Though it was designed for the Compute Module 4 (CM4), we always hoped it would be compatible with its future successors. Over the past couple of months, we’ve been updating firmware and testing early hardware, and it is indeed compatible. Due to changes on CM5, the installation method is slightly more complex than it was on CM4, which is detailed below.</p>
+<h2>What CM5 could bring</h2>
+<p>I must admit, it is fun to play with the latest and greatest hardware (while also finding new uses for the hardware it replaces - old Pi products make great <a href="https://github.com/rhasspy/wyoming-satellite">Wyoming satellites</a>). In most use cases, such as running automations or connecting an average home’s worth of devices, the majority of users will not notice any difference between a Green, CM4, or CM5.</p>
+<p>For certain power user needs CM5 might provide big improvements. Some Pi 5 users have seen nearly <a href="https://www.youtube.com/watch?v=kaVND-M9pkA&amp;t=415s">3x improvements</a> in ESPHome compilation times; saving a minute or two per device can really add up in big deployments. Another area where CM5 can excel over CM4 is running local speech-to-text processing if you’re using <a href="/voice_control/">Assist</a> fully locally.</p>
+<h2>Installing on CM5</h2>
+<p>For the Home Assistant Yellow, we have <a href="https://yellow.home-assistant.io/guides/reinstall-os/">two ways to install Home Assistant OS</a> onto the Compute Module. One is very easy and quick (using USB 2.0), while the other is more complex (using rpiboot). Unfortunately, due to firmware differences with CM5 it cannot boot off USB 2.0 devices (though the USB 2.0 ports work once the device is booted).</p>
+<p>If you already have a Yellow running Home Assistant OS, upgrading to CM5 can be a drop-in replacement, but in some circumstances it can be more complex,</p>
+<ul>
+<li>
+<p><strong>CM4 Lite (no eMMC) with NVMe storage</strong> - Update to the latest HAOS (version 14.0 or greater - as of writing 14.0 is still pre-release, we recommend you wait for the stable release, but if you want to get the pre-release today either <a href="https://www.home-assistant.io/common-tasks/os/#running-a-beta-version">join the beta channel</a> or <a href="https://www.home-assistant.io/common-tasks/os/#running-a-specific-version">explicitly install</a> <code>14.0.rc2</code>), power it down, swap the CM4 Lite for a CM5 Lite, and you’re good to go.</p>
+</li>
+<li>
+<p><strong>CM4 with eMMC (regardless if you are using NVMe or not)</strong> -  Download a backup of your Home Assistant, power down your system, and install Home Assistant OS on the CM5 using <a href="https://yellow.home-assistant.io/guides/reinstall-os/#:~:text=Option%202%3A%20Reinstall%20Home%20Assistant%20OS%20using%20rpiboot">rpiboot</a> (the more complex installation method). Once installed restore the backup.</p>
+</li>
+<li>
+<p><strong>New Yellow with CM5</strong>: You will need to install Home Assistant with <a href="https://yellow.home-assistant.io/guides/reinstall-os/#:~:text=Option%202%3A%20Reinstall%20Home%20Assistant%20OS%20using%20rpiboot">rpiboot</a> (the more complex installation method).</p>
+</li>
+</ul>
+<p>For full details on how to set up your Home Assistant Yellow <a href="https://yellow.home-assistant.io/">visit our documentation</a>.</p>
+<h2>CM4 is still great</h2>
+<p>If you have, or were looking at getting, a Home Assistant <a href="/green/">Green</a> or <a href="/yellow/">Yellow</a> with a CM4, both are more than capable. A third of all Home Assistant users are using Pi 4 class hardware.</p>
+<img src='/images/blog/2024-11-cm5/analytics.png' style='border: 0;box-shadow: none;' alt="In our analytics Pi 4 class hardware is the most used SBC">
+<p>In fact, according to our <a href="https://analytics.home-assistant.io/">opt-in analytics</a>, more people are using Pi 3 hardware than Pi 5 hardware (granted the Pi 5 has only had official support since <a href="/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/">February this year</a>). Home Assistant continues to get updates that improve its speed on all hardware, most recently <a href="/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/#faster-backups">faster backups</a> and <a href="/blog/2024/03/06/release-20243/#home-assistant-boots-twice-as-fast">reboots</a>. This allows people to keep hardware running longer, and in the end that is our goal 🌎.</p>
+<p>CM4 is not only powerful enough for most users, it also has a long life ahead of it. Raspberry Pi has even confirmed that they will <strong>fully support CM4 <a href="https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000#:~:text=Obsolescence%20Statement">until 2034</a>💪,</strong> and will continue to manufacture them.</p>
+<h2>Other additions to HAOS 14</h2>
+<p>On the topic of newly supported hardware, our release of Home Assistant OS 14 will bring support not only for CM5 but also for the Hailo-8 AI accelerator. This is the AI accelerator found in the <a href="https://www.raspberrypi.com/documentation/accessories/ai-kit.html">Raspberry Pi AI Kit</a> or the even more powerful Raspberry Pi AI HAT+ <a href="https://www.raspberrypi.com/news/raspberry-pi-ai-hat/">released</a> last month, which is exclusively for the Raspberry Pi 5. For those using a Pi 5 they can now offload AI processing, like object or person detection, to this efficient add-on.</p>
+<h2>Conclusion</h2>
+<p>We’re incredibly proud that, all this time later, the Home Assistant Yellow continues to be one of the best options for power users. We are excited to see how our users take advantage of CM5, and it’s great to see CM4 continue to be a great option with long-term support.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Event wrap-up - GitHub Universe '24]]></title>
@@ -813,24 +1574,32 @@ all changes made here: <a href="/changelogs/core-2024.11">Full changelog for Hom
     <updated>2024-10-02T00:01:01+00:00</updated>
     <id>https://www.home-assistant.io/blog/2024/10/02/connect-zbt1-issue-and-replacement</id>
     <content type="html"><![CDATA[<img src='/images/blog/2024-10-zbt1-issue/art.jpg' alt="Home Assistant Connect ZBT-1 issue and replacement">
-<p>We’ve found an issue in Home Assistant Connect ZBT-1 that has affected a small number of customers, which appears to be the result of a faulty part incorporated in the first production run of ZBT-1 devices. We want to make sure everyone can get a replacement ZBT-1 and ensure they are covered far into the future.</p>
-<p>Though Home Assistant SkyConnect is identical to the ZBT-1 under the hood, it is not affected. The design is not what’s at fault, but instead, a defective voltage regulator that was used in this specific production run that is causing the issue. When a ZBT-1 is inserted into certain USB-A ports, the voltage regulator can fail, fully bricking the device. We used high-quality manufacturing and quality control in this and previous production runs. We are undertaking an investigation to find out how this could happen and most importantly, to avoid a repeat of anything remotely similar in the future.</p>
+<div class="alert alert-note">
+  <p class="alert-title"><iconify-icon inline icon='mdi:information-outline'></iconify-icon> Note</p>
+  <p class="alert-content">
+<p>The replacement program is now operational, please contact the retailer where you purchased your device to request a replacement. The replacement program only covers ZBT-1 branded devices purchased prior to October 2024, and not SkyConnect-branded devices (identify which device you have <a href="#do-i-have-a-zbt-1">with this graphic</a>).</p>
+  </p>
+</div>
+<p>We’ve found an issue in Home Assistant Connect ZBT-1 that has affected a small number of customers, which appears to be the result of a faulty part incorporated in the first production run of ZBT-1 devices, causing the device to fail and become completely unresponsive. We want to make sure everyone can get a replacement ZBT-1 and ensure they are covered far into the future.</p>
+<p>Though Home Assistant SkyConnect is identical to the ZBT-1 under the hood, <strong>it is not affected</strong>. The design is not what’s at fault, but instead, a defective voltage regulator that was used in this specific production run that is causing the issue. When a ZBT-1 is inserted into certain USB-A ports, the voltage regulator can fail, fully bricking the device. We used high-quality manufacturing and quality control in this and previous production runs. We are undertaking an investigation to find out how this could happen and most importantly, to avoid a repeat of anything remotely similar in the future.</p>
 <p>We’re sorry for any inconvenience this may cause you. Below are details on our investigation, how devices are affected, and the replacement program.</p>
 <ul>
 <li><a href="#background">Background</a></li>
+<li><a href="#do-i-have-a-zbt-1">Do I have a ZBT-1?</a></li>
 <li><a href="#pausing-sales">Pausing sales</a></li>
 <li><a href="#replacement-program">Replacement Program</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 </ul>
 <!--more-->
 <h2>Background</h2>
-<p>Around a month ago, we were contacted about one of our latest (and <a href="/blog/2024/06/13/zbt1-annoucement/">recently rebranded</a>) Home Assistant Connect ZBT-1s not being detected and showing a small mark on the housing. A couple more similar issues were reported, and we began a dialogue with the small number of people who were affected, having them send us the devices to test.</p>
+<p>Around a month ago, we were contacted about one of our latest (and <a href="/blog/2024/06/13/zbt1-annoucement/">recently rebranded</a>) Home Assistant Connect ZBT-1s not being detected and showing a deformation on the housing. A couple more similar issues were reported, and we began a dialogue with the small number of people who were affected, having them send us the devices to test.</p>
 <p class='img'><img src='/images/blog/2024-10-zbt1-issue/zbt1-issue.jpg' style='border: 0;box-shadow: none;' alt="ZBT-1 case deformation and faulty voltage regulator">Circled in red the deformation on the case and the board showing the failed chip</p>
-<p>When we opened them, we found a dead voltage regulator. The mark in the outer casing is a sign that it overheated and failed. All of our devices are certified by CE and ROHS, and the plastic shell has been designed not to combust. This is a real-life demonstration of just how important this certification is and why we take that step.</p>
+<p>Indeed, the device no longer worked at all, not being detected by any device it was connected to. When we opened them, we found a dead voltage regulator. Though SkyConnect devices can also develop a small discoloration on the outside casing after long-term use, and this is not a sign of failure, the deeper deformation in the outer casing pictured above is a sign that the ZBT-1 has overheated and failed. All of our devices are certified by CE and ROHS, and the plastic shell has been designed not to combust. This is a real-life demonstration of just how important this certification is and why we take that step.</p>
 <p>We replaced the voltage regulator on the devices we tested, and the devices sprang back to life. We found our culprit, but why was it failing? As mentioned, the SkyConnect internal design and the manufacturing were effectively identical to the ZBT-1, and we received no reports of any such failures in the literally tens of thousands of them in the wild. In manufacturing runs there is always a little variance, and in this run, something went wrong with the voltage regulator that was sourced - again, we’re looking into this.</p>
+<p>It took us a couple of weeks to replicate the problem with our own units. We went down some wrong paths, but eventually found it was triggered only by certain devices, specifically certain desktop PCs (internally, we have only found one desktop that causes this failure). We have not observed the failure occur when the device has only been connected to a Home Assistant Green, Raspberry Pi, or even a Mac. If you have plugged your ZBT-1 into a different device, specifically a desktop PC, and it is not recognized by that system, inspect it for this deformation pictured above. Obviously, we want you to be able to use the device with any hardware, and even if only a small number of devices from this production run have reported issues, it is still unacceptable to us.</p>
+<h2>Do I have a ZBT-1?</h2>
 <img src='/images/blog/2024-10-zbt1-issue/skyconnect-zbt1.png' style='border: 0;box-shadow: none;' alt="SkyConnect (left) and ZBT-1 (right)">
 <p style="text-align: center; font-size: 0.9rem;">SkyConnect (left) and ZBT-1 (right) branded devices, SkyConnect are unaffected by this issue.</p>
-<p>It took us a couple of weeks to replicate the problem with our own units. We went down some wrong paths, but eventually found it was triggered only by certain devices, specifically certain desktop PCs (internally, we have only found one desktop that causes this failure). We have not observed the failure occur when the device has only been connected to a Home Assistant Green, Raspberry Pi, or even a Mac. If you have plugged your ZBT-1 into a different device, specifically a desktop PC, and it is not recognized by that system, inspect it for this deformation pictured above. Obviously, we want you to be able to use the device with any hardware, and even if only a small number of devices from this production run have reported issues, it is still unacceptable to us.</p>
 <h2>Pausing sales</h2>
 <p>We have asked our distributors to pause sales and return all stock. For the next month, you will see “Out of Stock” banners, and if you are attempting to get a replacement device for a failed unit, this will not be possible until production is resumed.</p>
 <p>We are working to have replacement ZBT-1s shipped by early November.</p>
@@ -840,7 +1609,7 @@ all changes made here: <a href="/changelogs/core-2024.11">Full changelog for Hom
 <div class="alert alert-note">
   <p class="alert-title"><iconify-icon inline icon='mdi:information-outline'></iconify-icon> Note</p>
   <p class="alert-content">
-<p>All ZBT-1 branded devices produced, as of October 2024, are believed to have this fault. You can tell if your device is a ZBT-1 by checking the white label on the back for “ZBT-1”. There is no need to test if your device is affected by this fault.</p>
+<p>All ZBT-1 branded devices produced, as of October 2024, are believed to have this fault. You can tell if your device is a ZBT-1 by checking the white label on the back for “ZBT-1” (identify which device you have <a href="#do-i-have-a-zbt-1">with this graphic</a>). There is no need to test if your device is affected by this fault.</p>
   </p>
 </div>
 <p>If it’s working, keep it plugged into the device it’s working with, and don’t worry about a replacement until you need it. If you need or want a replacement, please contact the seller where you purchased your device, and they will arrange the return process and replacement. Replacement devices are expected by early November, and we will be prioritizing people with non-functioning devices.</p>
@@ -917,7 +1686,7 @@ the height and have smaller, lighter text. So, if you have ever had a section
 that needs to be subdivided, slap a subtitle in there.</p>
 <p><img src="/images/blog/2024-10/headings.png" alt="Screenshot showing a dashboard using heading cards with titles and subtitles" /></p>
 <p>Titles and subtitles can be made clickable, displaying a chevron
-<iconify-icon inline icon='mdi:chevron-right'></iconify-icon> when you can interact with them. This can
+<iconify-icon inline icon='mdi:chevron-right' title='Chevron right'></iconify-icon> when you can interact with them. This can
 perform an action or navigate to a subpage, like having an energy section title
 navigate to the full energy dashboard.</p>
 <p>Best of all, if you’ve already added titles to your sections, they will be
@@ -2629,7 +3398,7 @@ shown in a table, it means you can now sort them by the date they were created
 or last modified; helping you find those recently added or modified items.</p>
 <img class="no-shadow" src="/images/blog/2024-08/data-tables-created-modified-columns-sorting.png" alt="Screenshot showing the new created and modified columns of the entities table, allowing one to sort on these new values.">
 <p>The created and modified columns are hidden by default, but you can make them
-visible by clicking the <iconify-icon inline icon='mdi:cog'></iconify-icon> icon at the top right of the
+visible by clicking the <iconify-icon inline icon='mdi:cog' title='Cog'></iconify-icon> icon at the top right of the
 table. Sorting is always available, regardless of the columns’ visibility.</p>
 <p>You might notice that most entities and devices do not have this created or
 modified data populated yet. Well this data has only started being recorded in
@@ -2858,7 +3627,7 @@ in the UI. This means that even if you set up an integration using YAML,
 you can now find it in the UI and view its provided entities.</p>
 <img class="no-shadow" src="/images/blog/2024-08/yaml-integration-listed.png" alt="Screenshot showing the demo integration, which is set up manually via YAML, showing up in the UI on the integrations dashboard.">
 <p>Integrations originating from manual YAML configuration can be recognized by the
-<iconify-icon inline icon='mdi:file-code-outline'></iconify-icon> icon showing on their cards.</p>
+<iconify-icon inline icon='mdi:file-code-outline' title='File code outline'></iconify-icon> icon showing on their cards.</p>
 <p>Similarly, we also have <a href="/integrations/#helper">many helpers</a> that can be set up
 using YAML configuration. These sometimes showed up in the UI, but often did not.
 We have adjusted this as well, and made sure that all helpers are now visible
@@ -3680,7 +4449,7 @@ our experimental <a href="/blog/2024/03/06/release-20243/#a-new-experimental-sec
 <p>It works with <a href="/dashboards/cards/">every card</a>, which gives users a lot of freedom. Most cards have
 been given a built-in minimum and maximum size, to make it easier to get your
 layouts just right. If you mess up the look of a card, luckily we have included
-a revert button <iconify-icon inline icon='mdi:restore'></iconify-icon> in the
+a revert button <iconify-icon inline icon='mdi:restore' title='Restore'></iconify-icon> in the
 top left corner 😉.</p>
 <h2>Data tables improvements</h2>
 <p>Like the <a href="/blog/2024/06/05/release-20246/#data-tables-improvements">last release</a> and <a href="/blog/2024/05/01/release-20245/#more-features-for-our-data-tables">release before that</a>, we keep improving our data
@@ -3689,11 +4458,11 @@ including our devices and automations pages.</p>
 <p>With this release, we add the final big piece of the puzzle: The ability to
 customize the columns shown! 😎</p>
 <img src='/images/blog/2024-07/data-tables-customize-columns.png' style='border: 0;box-shadow: none;' alt='Screenshot showing the dialog that allow customizing the order and visibility of data table columns available on the device page.'>
-<p>By selecting the cog <iconify-icon inline icon='mdi:cog'></iconify-icon> in
+<p>By selecting the cog <iconify-icon inline icon='mdi:cog' title='Cog'></iconify-icon> in
 the top right, you can not only customize the columns shown by toggling
-visibility <iconify-icon inline icon='mdi:eye'></iconify-icon>, but you
+visibility <iconify-icon inline icon='mdi:eye' title='Eye'></iconify-icon>, but you
 can also change the order of the columns by
-dragging <iconify-icon inline icon='mdi:drag'></iconify-icon> them around.
+dragging <iconify-icon inline icon='mdi:drag' title='Drag'></iconify-icon> them around.
 Making it even easier to show the data you want, in the order you want it.</p>
 <p>Your customized columns and view are stored in your browser, so you only have
 to set them up once. They will be remembered the next time you visit the page.</p>
@@ -3739,7 +4508,7 @@ your home?</p>
 <p>Well, now you can! 🎉</p>
 <img src='/images/blog/2024-07/blueprint-automation-take-control.png' style='border: 0;box-shadow: none;' alt='Screenshot showing a blueprint-based automation that can be taken of using the "Take control" option in the three-dotted menu.'>
 <p>You can now <a href="/docs/automation/using_blueprints/#editing-an-imported-blueprint">take full control over the automations created from a blueprint</a>.
-By taking control <iconify-icon inline icon='mdi:file-edit'></iconify-icon>,
+By taking control <iconify-icon inline icon='mdi:file-edit' title='File edit'></iconify-icon>,
 Home Assistant will convert the blueprint automation into a regular,
 stand-alone, automation. This allows you to make any tweak you want,
 without having to re-invent the wheel.</p>
@@ -4523,192 +5292,6 @@ new features available for your integration: Be sure to follow our
 <h2>All changes</h2>
 <p>Of course, there is a lot more in this release. You can find a list of
 all changes made here: <a href="/changelogs/core-2024.7">Full changelog for Home Assistant Core 2024.7</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Voice Chapter 7 - Supercharged wake words and timers]]></title>
-    <link href="https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7/"/>
-    <updated>2024-06-26T00:00:01+00:00</updated>
-    <id>https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7</id>
-    <content type="html"><![CDATA[<p>This chapter might be one of the most feature-packed yet, bringing the highly requested timer feature and major improvements to wake words, along with experimental technology that even outclasses big tech’s voice assistants.</p>
-<p><lite-youtube videoid="nLLO4u2Tbbo" videotitle="Voice - Chapter 7 live stream"></lite-youtube></p>
-<p>Welcome to Voice Chapter 7, on today’s menu:</p>
-<ul>
-<li><a href="#big-things-for-microwakeword">Big things for microWakeWord</a></li>
-<li><a href="#timers-are-here">Timers are here!</a></li>
-<li><a href="#timers-control-devices">Timers control devices</a></li>
-<li><a href="#ai-in-control">AI in control</a></li>
-<li><a href="#expand-an-llm-with-scripts">Expand an LLM with scripts</a></li>
-<li><a href="#enhanced-media-control">Enhanced Media Control</a></li>
-<li><a href="#easier-updates-for-your-voice-assistant">Easier updates for your voice assistant</a></li>
-</ul>
-<!--more-->
-<h2>Big things for microWakeWord</h2>
-<p>At the beginning of this year wake word detection could only run on Home Assistant itself. Voice devices would pass on all audio to Home Assistant, which would listen out for supported wake words like “Hey Jarvis” or “Okay Nabu”.  This had the downside that your device, let’s say a Raspberry Pi, could only support a handful of voice satellites, and there would always be a delay in responses. We knew the benefits of wake word detection running on-device, but there was a lack of good open source options.</p>
-<p><a href="https://github.com/kahrendt">Kevin Ahrendt</a>, a former mathematics professor, took up the task and created <a href="https://github.com/kahrendt/microWakeWord">microWakeWord</a> in his spare time. It is a wake word engine optimized to run fast and reliably on microcontrollers. It was made for ESPHome, but it is available standalone and under the Apache 2.0 open source license. No one will ever have to pay for wake words ever again.</p>
-<p>In our <a href="https://www.youtube.com/live/NQIv3nsu7dE?si=9RZy-LpcRLiMjGg3&amp;t=863">Chapter 6 Livestream</a> we did a deep dive into how this voice processing is possible on such lean hardware (we’re talking late-90s PC levels of RAM and CPU power). It was in this last chapter where we launched <a href="/blog/2024/02/21/voice-chapter-6/">v1 of microWakeWord</a>, which at the time could only run on ESP32-S3 chips. A lot has happened since then, and it’s all <em>awesome</em>.</p>
-<h3>microWakeWord and Kevin join the team <!-- omit in toc --></h3>
-<p>We are proud to announce that microWakeWord has become a collaboration partner of the <a href="https://www.openhomefoundation.org/">Open Home Foundation</a> (OHF). The foundation owns and supports Home Assistant, ESPHome, and our Text-to-Speech engine, Piper. The collaboration partner status recognizes microWakeWord as an important technology for the Open Home.</p>
-<p>Nabu Casa, the company behind Home Assistant Cloud, has no investors and its sole purpose is to serve the Open Home Foundation. The money it earns is used to hire developers to work on Home Assistant and other Open Home projects. They have been a driving force behind voice development and are building their own <a href="/blog/2024/06/12/roadmap-2024h1/#current-priority-2-make-assist-easier-to-start-with">ESPHome-based voice hardware</a>, to allow anyone to enjoy a privacy-focused voice assistant.</p>
-<p>Kevin’s contributions have already been incredibly valuable to our work with Voice. That’s why we’re super stoked to announce that Kevin has joined Nabu Casa, where he will initially focus on microWakeWord and voice handling in ESPHome.</p>
-<p>To support this work on Home Assistant, ESPHome, voice assistants, and more, consider subscribing to <a href="https://www.nabucasa.com/">Home Assistant Cloud</a>.</p>
-<h3>3x wake words and 2x accuracy <!-- omit in toc --></h3>
-<p>Kevin has been hard at work on improving microWakeWord, and we’re happy to announce version 2, which will be included in the next ESPHome release. It runs a lot faster and with improved accuracy.</p>
-<p class='img'><lite-youtube videoid="LbS3Udx36H8" videotitle="Multiple wake words on a single esp32 device"></lite-youtube>
-$13 Atom Echo running two wake words on-device!</p>
-<p>When we say the new model is faster, we mean a lot faster. Not only does it now run on the normal ESP32 chips, those chips can now run <strong>three wake words at the same time</strong>! We haven’t added this feature to Home Assistant yet, but expect to be able to trigger your Dutch and English voice assistants, each with their own wake words.</p>
-<p>The new performance doesn’t come at the cost of accuracy - it’s the opposite. <strong>The new model performs twice as well</strong> as microWakeWord v1, especially when you take advantage of its <a href="https://en.wikipedia.org/wiki/Voice_activity_detection">voice activity detection</a> feature. We would love to benchmark our models against commercial competitors, but “false acceptances per hour” are considered by most companies to be a trade secret and not published.</p>
-<img src='/images/blog/2024-06-voice-chapter-7/mWW-v1-vs-v2.png' style='border: 0;box-shadow: none;' alt="Picovoice benchmark microWakeWord v1 vs v2">
-<p>The graph above gives the results from the Picovoice benchmark, which uses hundreds of samples of the wake word from real speakers spread out over 24 hours with realistic background noise mixed in. Spoken English sentences that don’t contain the wake word are layered in to test false acceptances, ie. triggering when the wake word wasn’t actually said. We can increase the model’s confidence level, which makes it less likely to have a false trigger, but also less likely to accept a wake word. Across the board v2 outperforms v1, and in good circumstances it outperforms v1 by nearly double!</p>
-<p>Next for microWakeWord is to improve the accuracy for non-native English speakers. It will require us to collect recordings of people around the world saying the wake words. We’re working on a website to allow anyone to easily participate directly from their phone.</p>
-<h2>Timers are here!</h2>
-<p>Ask and you shall receive - in February this year <a href="https://community.home-assistant.io/t/poll-what-do-you-use-your-voice-assistant-for-what-do-you-expect-it-to-do-multiple-selections/693669">we asked our community</a> what features they want from a voice assistant, and next to controlling devices and responding to wake words, timers were the third most requested. This is just one example of how <a href="/blog/2024/06/12/roadmap-2024h1/">our roadmap</a> is helping us spot gaps and build solutions.</p>
-<p>First the important bits: <strong>yes, you can have multiple timers</strong>. These short-lived timers allow users to be reminded of something after a period of time. For example, if you’re boiling eggs, you can set a timer to remind you to take the eggs out. Each timer has a duration, and optionally a name.</p>
-<p>Users can use their voice to create, cancel, pause, resume, and change the duration of a timer:</p>
-<ul>
-<li>“Create a timer for 5 minutes”</li>
-<li>“Create a 15-minute timer for pizza”</li>
-<li>“Cancel my timer”</li>
-<li>“Add 2 minutes to my 5-minute timer”</li>
-<li>“Subtract 3 minutes from my pizza timer”</li>
-</ul>
-<p>When you give timers a name, it is easier to distinguish when you have multiple running as you can now reference it by name or duration (“cancel pizza timer” or “cancel 15-minute timer”).</p>
-<p class='img'><lite-youtube videoid="v3mNdTsX4J0" videotitle="Voice timers with countdown text and loading bar"></lite-youtube>Timers running on an S3 Box, with countdown text and a loading bar!</p>
-<p>Timers are available today on ESPHome and Wyoming voice satellites that are connected to the latest version of Home Assistant. If you use the firmware we provided for the Atom Echo Dev Kit or the ESP32-S3 Box 3, update to the latest version for timer support.</p>
-<h2>Timers control devices</h2>
-<p>While working on timers, we thought: why limit our users to just playing a beeping sound after the clock ticks down. What if any command could be executed with a timed delay?</p>
-<p class='img'><lite-youtube videoid="rgf5t3vn7TQ" videotitle="Using timers to control devices"></lite-youtube>A timer controlling a light</p>
-<p>That’s why in this release, users can now allow <strong>any voice command</strong> to be executed with a timed delay: “turn off the lights in 10 minutes”. When the time is up, the text of the voice command is processed by the same voice assistant that heard the delayed command. Just be careful, unlike regular voice timers, these delayed commands cannot be canceled or modified.</p>
-<ul>
-<li>Turn off the lights in 5 minutes</li>
-<li>Pause TV in 10 minutes</li>
-<li>Open the blinds in 5 minutes</li>
-</ul>
-<p>Large language models (LLMs) are also able to create delayed commands, for instance saying “I’m going to bed early tonight”, might lead the LLM to send itself a delayed command to start the bedtime routine sooner.</p>
-<h2>AI in control</h2>
-<p>Speaking of LLMs, our Home Assistant 2024.6 update allows <a href="/blog/2024/06/05/release-20246/#voice--assist">AI agents to control your devices</a>. This is part of our broader AI strategy we outlined <a href="/blog/2024/06/07/ai-agents-for-the-smart-home/">in a recent blog</a>. It will be an important part of the future smart home, and Home Assistant will be the best platform for AI because of its focus on privacy and choice. We know it is not for everyone, nor is it ready for mass adoption, but we are making it available to experiment with. Give it a try on your voice hardware today, with device control currently available on both <a href="/integrations/google_generative_ai_conversation/">Google AI</a> and <a href="/integrations/openai_conversation/">OpenAI</a>.</p>
-<h2>Expand an LLM with scripts</h2>
-<p>To make it easier to expand the things that LLMs can do, Home Assistant 2024.7 (coming next week), will allow LLMs to access approved scripts. This lets you precisely control what the LLM will do in specific situations while retaining flexibility and natural language processing AI’s are so good at.</p>
-<img src='/images/blog/2024-06-voice-chapter-7/voice-script.png' alt="Exposing voice scripts to Assist in Home Assistant Voice settings" class='no-shadow'>
-<p>For example, telling an LLM conversation agent that you’re leaving the house may result in some unexpected behavior, such as turning off devices you want to be left on. To fix this, create a “leaving home” script that does exactly what you want and expose it to Assist. You could also add fields into the script, which help further guide the LLM, like giving it different behaviors for short or long trips away from home. Now when you say something like “I’m heading out for a couple of minutes”, using the script it will lock the door, but not turn off the air conditioning.</p>
-<h2>Enhanced Media Control</h2>
-<p>Assist can now control media players with simple commands like “pause”, “resume”, “next”, and “set volume to 100%”. While simple on the surface, a lot of complexity is hidden underneath. Consider a living room with two media players: a smart speaker that is paused and a TV that is playing. If the user says “pause”, the TV will be paused since it is the only media player that is currently playing. However, if the user then says “resume”, Assist will only resume the TV because it was the last media player paused.</p>
-<p class='img'><lite-youtube videoid="pFmwY-k5IcU" videotitle="Demo of media player commands of Home Assistant Assist"></lite-youtube>Media control in action</p>
-<p>Media players can be targeted by name (“pause TV”) or by area (“resume music in the kitchen”). When not provided, the area and floor of the voice satellite are used to determine which media player(s) to target. So “pause” will look for media players that are playing in the current area, followed by the current floor.</p>
-<h2>Easier updates for your voice assistant</h2>
-<p>Our voice satellites are powered by ESPHome, our open source framework for making private, secure, and reliable smart home devices of all kinds. We are regularly improving our voice capabilities in updates and we want our users to have easy access to these new features.</p>
-<p>With the latest version of ESPHome we have introduced <a href="https://esphome.io/changelog/2024.6.0.html#ota-platforms">Over-the-Air updates</a>. Following our upcoming Home Assistant 2024.7 release, users building a <a href="https://esphome.io/projects/?type=voice">ready-made voice satellite projects</a> (such as the Atom Echo or S3 Box), will be able to update the device directly from Home Assistant without requiring the ESPHome add-on. These devices can download their firmware directly from the web, no building required.</p>
-<p><em>If you stuck around all the way to the end, don’t forget to check out the <a href="https://www.youtube.com/watch?v=nLLO4u2Tbbo">Chapter 7 live stream</a> for even more on voice!</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Home Assistant SkyConnect becomes Connect ZBT-1]]></title>
-    <link href="https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement/"/>
-    <updated>2024-06-13T00:00:01+00:00</updated>
-    <id>https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement</id>
-    <content type="html"><![CDATA[<p class="img no-shadow"><img src='/images/blog/2024-06-ZBT1/art.jpg' alt='Home Assistant Skyconnect becomes Connect ZBT-1'/></p>
-<p><a href="/connectzbt1">Home Assistant Connect ZBT-1</a> is the new name for Home Assistant SkyConnect. Though it’s a new name and look, they have the exact same hardware, capability, and support.</p>
-<p>We launched Home Assistant SkyConnect in late 2022, a device designed to be the easiest, most stable way to connect Zigbee and Home Assistant together. It also came with Thread connectivity support, which was (and still is) pretty groundbreaking at its price point. All these years later, it continues to receive strong support and is a community favorite.</p>
-<p>Home Assistant Connect ZBT-1 is the same great product we all know and love. Going forward, whenever we mention updates or features for Home Assistant Connect ZBT-1, this will also apply to Home Assistant SkyConnect-branded devices. Keep reading to learn why we changed the name.</p>
-<!--more-->
-<h2>Why change the name?</h2>
-<p>At Home Assistant, we love open standards because they allow you to connect and control devices locally while offering broad compatibility and longevity. In <a href="/blog/2024/06/12/roadmap-2024h1/#open-standards-certified-quality">our roadmap</a>, we explained how we are improving our already strong support of open standards, and this name change is just one necessary step in that direction.</p>
-<p>We are working towards building a new line of Connect products, specifically we are working on an upcoming <a href="/blog/2024/06/12/roadmap-2024h1/#z-wave">Z-Wave Connect</a> product. In future, if we see any product gaps with open standards, which require a more seamless and stable experience, they may join the Connect line.</p>
-<h2>What has changed?</h2>
-<p class="img"><img src='/images/blog/2024-06-ZBT1/zbt1-packaging.jpg' alt='Home Assistant Connect ZBT-1 Packaging'/>Home Assistant Connect ZBT-1 packaging 🤤.</p>
-<p>As I said nothing has changed internally - the <a href="/connectzbt1">listed specs</a> are identical. You do get new packaging, which we’re pretty proud of. The device itself has been updated visually with our current logo and has the new ZBT-1 name.</p>
-<h2>Which one should I buy?</h2>
-<p>Whichever is in stock, as they are the same. Retailers will continue to sell Home Assistant SkyConnect-branded devices while supplies last. Regardless of what you buy, you will still get the same long-term support, updates, plug-and-play experience, and great range.</p>
-<p>Learn more about where you can buy Home Assistant Connect ZBT-1 <a href="/connectzbt1">here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Roadmap 2024 Midyear Update: A home-approved smart home, peace of mind, and more!]]></title>
-    <link href="https://www.home-assistant.io/blog/2024/06/12/roadmap-2024h1/"/>
-    <updated>2024-06-12T00:00:01+00:00</updated>
-    <id>https://www.home-assistant.io/blog/2024/06/12/roadmap-2024h1</id>
-    <content type="html"><![CDATA[<p><img src='/images/blog/2024-06-roadmap-2024h1/banner.png' class='no-shadow' alt='Banner for Roadmap 2024 Midyear Update'/></p>
-<p>During our <a href="https://www.youtube.com/watch?v=oa__fLArsFk&amp;t=7649s">State of the Open Home livestream</a> in April, we presented our roadmaps for Home Assistant, open protocols, and Home Assistant Cloud. If you’re not sure what a roadmap is, or why we aren’t just listing features and dates - please read our intro to <a href="/blog/2024/06/12/roadmap-introduction">Home Assistant Roadmaps</a>.</p>
-<p>There has already been a lot of great discussion about these roadmaps in the community, and we would really like to encourage you to give your thoughts in the comments of this blog - as they will inform <a href="/blog/2024/06/12/roadmap-introduction/#how-are-roadmaps-made">how the roadmap evolves over time</a>.</p>
-<p>You can skip straight to the sections you’re most interested:</p>
-<ul>
-<li><a href="#home-assistant-a-home-approved-smart-home">Home Assistant: “A Home-Approved Smart Home”</a></li>
-<li><a href="#home-assistant-cloud-peace-of-mind">Home Assistant Cloud: “Peace of Mind”</a></li>
-<li><a href="#open-standards-certified-quality">Open standards: “Certified Quality”</a></li>
-</ul>
-<p>~ <a href="https://github.com/madelena">Madelena</a> &amp; <a href="https://github.com/jlpouffier">JLo</a></p>
-<p><em>Big thanks to everyone who had given feedback to us throughout the entire process!</em></p>
-<!--more-->
-<h2>Home Assistant: “A Home-Approved Smart Home”</h2>
-<p><img src='/images/blog/2024-06-roadmap-2024h1/ha-roadmap-2024h1.png' class='no-shadow' alt="[Home Assistant Roadmap 2024 Midyear Update"/></p>
-<p>The mission of the Home Assistant project is to become the best smart home platform that embodies the Open Home vision (privacy, choice, sustainability), powered by a helpful open-source user community.</p>
-<p>A smart home platform should allow users to observe, control, automate, and anticipate the key functions within a home, which provides safety, security, comfort, convenience, personalization, and accessibility to its residents.</p>
-<p>Through our user research, we learned that while Home Assistant is a powerful platform for people who prioritize better privacy and customizability, we also found that adoption within their homes is another story. Our users have often gone to great pains to make Home Assistant easier to use for other members of their household, either by using another app as the user interface or hiding any visible traces of the platform altogether. We call the adoption of Home Assistant by other household members the <a href="https://newsletter.openhomefoundation.org/open-home-approval-factor/">“Home Approval Factor”</a>.</p>
-<p>Therefore, in the roadmap ahead for Home Assistant, we propose that our contributor community and us, the core maintainers, should focus our efforts on making Home Assistant more home-approved.  This can be done by improving the touchpoints that all members of the household will interact with, such as automations, dashboards, and voice assistants, while maintaining the power and depth of the platform for our power users and admins. Our plan is divided into the following areas:</p>
-<h3>Dashboards</h3>
-<p>We have been hard at work renovating our dashboards since last year. Moving forward, we are focused on making the dashboard user experience better for all users.</p>
-<h4>Current priority: Make customization of dashboards easy and intuitive</h4>
-<p>With the new Sections view layout, better tile cards, and our incredibly well-received <a href="/blog/2024/03/04/dashboard-chapter-1/">drag and drop</a> 🐉, we have recently begun our work on making dashboard customization easy and intuitive. We aim to implement an intuitive and organized grid system for dashboards. We will need community contributions to update our current cards to fit the grid system.</p>
-<h4>Next priority: Make default dashboards more useful and relevant</h4>
-<p>Our current default dashboard gives our users two choices: Either list every entity the system is connected to or start from scratch. With dashboard blueprints, we know that we can make the default dashboards more useful than that. We will need your input to optimize them to display the most relevant information from the get-go.</p>
-<h4>Later priority: Improve privacy in user, guest, and public access</h4>
-<p>The inability to fine-tune access to Home Assistant by guests or other members of the family has been a pain point requested by many of our users. We want to investigate ways to mitigate this while improving the privacy of the household.</p>
-<h3>Voice assistants</h3>
-<p>Since last year, we have built our voice assistant framework from scratch with our <a href="/blog/2022/12/20/year-of-voice/">“Year of the Voice”</a> initiative. Now that the infrastructure is in place, we want to make sure that it will be usable for everyone (before the demise of Alexa and Google Assistant 😜).</p>
-<h4>Current priority 1: Improve Assist capabilities out of the box</h4>
-<p>Our <a href="https://community.home-assistant.io/t/poll-what-do-you-use-your-voice-assistant-for-what-do-you-expect-it-to-do-multiple-selections/693669">research has shown</a> users are most interested in us improving out-of-the-box capabilities of Assist, for instance, timers, reminders, and music controls.</p>
-<h4>Current priority 2: Make Assist easier to start with</h4>
-<p>At the moment, there are several things you need to install or configure to get started with voice. We want to make it easier to set up and onboard. There are already some good hardware choices to start using voice, but we’re exploring building our voice satellite hardware to create a more plug-and-play experience.</p>
-<h3>Automations</h3>
-<p>Automation is one of the cornerstones of the home automation industry. The ability to automate your home so that it does what you expect when you expect it is both fascinating and extremely rewarding for users, regardless of their experience level. Today, the automation engine of Home Assistant is one of the most powerful in the market. However, this comes at a cost: It is not the simplest to approach.</p>
-<h4>Current priority 1: Make automations easier to organize</h4>
-<p>As users grow their smart home, they will create more automation. Our automations are listed in a large table and can get easily disorganized as it grows. Earlier this year, we did a lot to improve the organization of automations, including <a href="https://youtu.be/g3Xo0ArcMaY?si=OrqvNDASLFvyKhEs">labels, filters, and categories</a>, which in return not only made automations easier to organize, but also almost every table in the Home Assistant settings.</p>
-<h4>Current priority 2: Make automations easier to create</h4>
-<p>While we made headway earlier this year in making automations easier to create, we need a more comprehensive effort with a full product development cycle of research, discovery, ideation, and validation to confidently make design and implementation decisions. As of now, many seemingly simple automations can be too complex to create and debug, and there is a lot of room for improvement. We foresee that when this opportunity is done, admins and housemates can easily create automations.</p>
-<hr />
-<h3>Research</h3>
-<p>To make informed product decisions, we need to base our work on solid research. Therefore, we have been building out our research capabilities, both in terms of user research and technology research.</p>
-<h4>User research</h4>
-<p>In order for all of us in our community to make the right product, design, and engineering decisions, we need all of us to have a clear picture of who our users really are. Last year, we did some initial research, mostly focused on dashboards. This year, we want to get the full picture with complete foundational research of our users.</p>
-<p>Secondly, of the three Open Home values, privacy, choice, and sustainability, while we have a pretty solid understanding of choice and some understanding of sustainability, the idea of privacy can benefit from more clarity. We want a better understanding of what privacy really means to a home and its residents.</p>
-<h4>Technology research (R&amp;D)</h4>
-<p>Yes, large language models (LLMs) are a hot trend, but that’s not why we’re exploring them. We know there are very interesting problems they can solve in the home, and with the amount of data our users collect in their history, we believe that there is much power underneath Home Assistant yet to be unearthed and it is uniquely positioned to be the smart home platform for AI. <a href="/blog/2024/06/07/ai-agents-for-the-smart-home/">Our AI vision</a> lays down the foundation for what we want to do with AI and LLMs next.</p>
-<p>In order to help AI make better decisions, we need a better understanding of the context of what each device actually is. To do so, we need to refine our information architecture. For instance, we recently rolled out floors helping Home Assistant better understand your house. This is no small task, but it could be vital in implementing better voice or even AI in the home.</p>
-<hr />
-<h2>Home Assistant Cloud: “Peace of Mind”</h2>
-<p><a href="https://www.nabucasa.com/">Home Assistant Cloud</a>, powered by our commercial partner Nabu Casa brings, to the many, the hard-to-reach features of Home Assistant usually reserved for power users with expensive hardware at home, with no compromise on privacy.</p>
-<p>Currently, Home Assistant Cloud provides the simplest and safest way to access your Home Assistant instance anywhere in the world and connect to third-party cloud-connected voice assistants, like Google’s and Alexa’s offerings. Our newest ability added to Cloud is the ability to offload the resource-intensive tasks of speech-to-text and text-to-speech. This allows our users to have power-efficient hardware at home, like the Home Assistant Green, which uses three watts and performs tasks usually reserved for hundred-watt home servers.</p>
-<p>For the next phase of Home Assistant Cloud, we want to continue to build features that adhere to our mission, as stated above. The theme for the upcoming initiatives revolve around providing peace of mind for our users:</p>
-<h4>Current priority: Hardening security</h4>
-<p>We want to harden our security, providing more control for remote access and Two-Factor Authentication (2FA) for your Nabu Casa account.</p>
-<h4>Next priority: Encrypted cloud backup</h4>
-<p>This would allow users to have a more resilient installation of Home Assistant, so if your instance completely breaks down, it can be restored from the cloud.</p>
-<h4>Later priority: Cloud monitoring</h4>
-<p>If your Home Assistant instance goes down, we’ll be able to detect it and send an email notification. This will allow you to monitor your downtime, and hopefully avoid more of it in the future, keeping your whole family happy 😁.</p>
-<p>If you are currently a subscriber of Home Assistant Cloud, thank you again for your generous support of our project, and please let us know what we can do to improve our service. If you haven’t subscribed yet, you can check it out <a href="https://nabucasa.com">here</a>!</p>
-<hr />
-<h2>Open standards: “Certified Quality”</h2>
-<p>We believe open standards are critical to providing choices for the future of the open home, and that is why we have put a lot of work into supporting current and emerging standards. They provide a way for manufacturers to provide broad compatibility, but they also provide peace of mind for users by ensuring the longevity of the devices.</p>
-<p>All our teams are currently working very hard on certification - we want to make sure all our open standards implementations are up to industry standards.</p>
-<h3>Zigbee</h3>
-<p>For Zigbee, we already have a well-established hardware solution via our <a href="/skyconnect/">Home Assistant Connect ZBT-1</a> (formerly known as the SkyConnect). We continue contributing code and refining ZHA and Zigpy, the software powering Zigbee in Home Assistant.</p>
-<h3>Matter</h3>
-<h4>Current priority 1: Certification</h4>
-<p>Matter is served via our Matter Server, which is evolving with the standard, and we will continue to the first home automation system that adopts the latest Matter standards. Our Home Assistant Connect ZBT-1 hardware also supports this standard via its support of Matter over Thread.</p>
-<h4>Current priority 2: Device Commissioning</h4>
-<p>There are still some big challenges that need to be addressed like device commissioning, which is currently overly complex, and we’re working with the industry to improve this.</p>
-<h3>Z-Wave</h3>
-<h4>Current priority: Certification</h4>
-<p>This year, we made several big announcements with our support of Z-Wave. We joined the Z-Wave Alliance in February this year and have been <a href="/blog/2024/05/08/zwave-is-not-dead">working to improve our Z-Wave JS software</a>.</p>
-<h4>Next priority: Home Assistant Connect Hardware for Z-Wave</h4>
-<p>To build the most seamless user experience for this protocol, we’re building our own Z-Wave stick to connect devices to Home Assistant. This new Z-Wave stick will join our Home Assistant Connect family of products.</p>
-<hr />
-<h2>What’s next?</h2>
-<p>Our roadmap is an open call for contributions in the product areas we are focusing on. It outlines what the core maintainers of the Home Assistant project will work on in the near future. This is a tool for our contributors and us, the project maintainers, to plan ahead for our collective future. As this is a living document, we will revisit and update our roadmap every half year.</p>
-<p>For more information on how the roadmaps were created and how you can contribute, please check out <a href="/blog/2024/06/12/roadmap-introduction">this blog post here</a>.</p>
 ]]></content>
   </entry>
   

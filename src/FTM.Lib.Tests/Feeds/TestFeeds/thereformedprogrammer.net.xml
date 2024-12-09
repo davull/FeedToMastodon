@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
 		<title>How to update a NuGet library once the author isn’t available</title>
 		<link>https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/</link>
@@ -412,7 +412,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png"><img loading="lazy" decoding="async" width="737" height="429" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png" alt="" class="wp-image-2943" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png 737w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet-300x175.png 300w" sizes="(max-width: 737px) 100vw, 737px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png"><img loading="lazy" decoding="async" width="737" height="429" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png" alt="" class="wp-image-2943" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet.png 737w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/SettingLocalNuGet-300x175.png 300w" sizes="auto, (max-width: 737px) 100vw, 737px" /></a></figure>
 
 
 
@@ -673,7 +673,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png"><img loading="lazy" decoding="async" width="721" height="420" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png" alt="" class="wp-image-2902" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png 721w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding-300x175.png 300w" sizes="(max-width: 721px) 100vw, 721px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png"><img loading="lazy" decoding="async" width="721" height="420" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png" alt="" class="wp-image-2902" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding.png 721w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToSetupSharding-300x175.png 300w" sizes="auto, (max-width: 721px) 100vw, 721px" /></a></figure>
 
 
 
@@ -807,7 +807,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png"><img loading="lazy" decoding="async" width="1003" height="754" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png" alt="" class="wp-image-2903" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png 1003w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2-300x226.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2-768x577.png 768w" sizes="(max-width: 1003px) 100vw, 1003px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png"><img loading="lazy" decoding="async" width="1003" height="754" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png" alt="" class="wp-image-2903" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2.png 1003w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2-300x226.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/ShardingSettingsSteps2-768x577.png 768w" sizes="auto, (max-width: 1003px) 100vw, 1003px" /></a></figure>
 
 
 
@@ -849,7 +849,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png"><img loading="lazy" decoding="async" width="839" height="518" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png" alt="" class="wp-image-2904" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png 839w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-300x185.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-768x474.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-825x510.png 825w" sizes="(max-width: 839px) 100vw, 839px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png"><img loading="lazy" decoding="async" width="839" height="518" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png" alt="" class="wp-image-2904" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant.png 839w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-300x185.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-768x474.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/TwoWaysToCreateTenant-825x510.png 825w" sizes="auto, (max-width: 839px) 100vw, 839px" /></a></figure>
 
 
 
@@ -891,7 +891,7 @@ public IActionResult Create(&#x5B;FromServices]
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png"><img loading="lazy" decoding="async" width="476" height="365" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png" alt="" class="wp-image-2905" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png 476w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly-300x230.png 300w" sizes="(max-width: 476px) 100vw, 476px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png"><img loading="lazy" decoding="async" width="476" height="365" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png" alt="" class="wp-image-2905" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly.png 476w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/08/SignUpNowShardinOnly-300x230.png 300w" sizes="auto, (max-width: 476px) 100vw, 476px" /></a></figure>
 
 
 
@@ -1098,7 +1098,7 @@ public IActionResult Create(&#x5B;FromServices]
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png"><img loading="lazy" decoding="async" width="732" height="329" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png" alt="" class="wp-image-2892" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png 732w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData-300x135.png 300w" sizes="(max-width: 732px) 100vw, 732px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png"><img loading="lazy" decoding="async" width="732" height="329" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png" alt="" class="wp-image-2892" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData.png 732w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/FourWaysToStoreAuthPAndTenantData-300x135.png 300w" sizes="auto, (max-width: 732px) 100vw, 732px" /></a></figure>
 
 
 
@@ -1255,7 +1255,7 @@ public class AuthPermissionsDbContextSqlite :
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png"><img loading="lazy" decoding="async" width="917" height="663" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png" alt="" class="wp-image-2893" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png 917w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb-300x217.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb-768x555.png 768w" sizes="(max-width: 917px) 100vw, 917px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png"><img loading="lazy" decoding="async" width="917" height="663" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png" alt="" class="wp-image-2893" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb.png 917w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb-300x217.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/05/ConvertUsingEfCoreSqlServerToCustomDb-768x555.png 768w" sizes="auto, (max-width: 917px) 100vw, 917px" /></a></figure>
 
 
 
@@ -1914,7 +1914,7 @@ public IStatusGeneric CheckNull(string? month)
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="711" height="460" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png" alt="" class="wp-image-2836" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png 711w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram-300x194.png 300w" sizes="(max-width: 711px) 100vw, 711px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="711" height="460" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png" alt="" class="wp-image-2836" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png 711w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram-300x194.png 300w" sizes="auto, (max-width: 711px) 100vw, 711px" /></figure>
 
 
 
@@ -2335,7 +2335,7 @@ public void TestStubDefaultLocalizer()
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png"><img loading="lazy" decoding="async" width="862" height="409" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png" alt="" class="wp-image-2839" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png 862w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-300x142.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-768x364.png 768w" sizes="(max-width: 862px) 100vw, 862px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png"><img loading="lazy" decoding="async" width="862" height="409" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png" alt="" class="wp-image-2839" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png 862w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-300x142.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-768x364.png 768w" sizes="auto, (max-width: 862px) 100vw, 862px" /></a></figure>
 
 
 
@@ -2519,7 +2519,7 @@ public void TestStubDefaultLocalizer()
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png"><img loading="lazy" decoding="async" width="711" height="460" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png" alt="" class="wp-image-2836" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png 711w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram-300x194.png 300w" sizes="(max-width: 711px) 100vw, 711px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png"><img loading="lazy" decoding="async" width="711" height="460" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png" alt="" class="wp-image-2836" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram.png 711w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/DefaultLocalizerDiagram-300x194.png 300w" sizes="auto, (max-width: 711px) 100vw, 711px" /></a></figure>
 
 
 
@@ -2827,7 +2827,7 @@ public void TestStubDefaultLocalizer()
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png"><img loading="lazy" decoding="async" width="862" height="409" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png" alt="" class="wp-image-2839" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png 862w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-300x142.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-768x364.png 768w" sizes="(max-width: 862px) 100vw, 862px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png"><img loading="lazy" decoding="async" width="862" height="409" src="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png" alt="" class="wp-image-2839" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog.png 862w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-300x142.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2023/01/ExampleLoggingLog-768x364.png 768w" sizes="auto, (max-width: 862px) 100vw, 862px" /></a></figure>
 
 
 
@@ -3028,7 +3028,7 @@ public void CreateResxFileFromCSV()
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png"><img loading="lazy" decoding="async" width="750" height="354" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png" alt="" class="wp-image-2795" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png 750w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange-300x142.png 300w" sizes="(max-width: 750px) 100vw, 750px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png"><img loading="lazy" decoding="async" width="750" height="354" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png" alt="" class="wp-image-2795" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange.png 750w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/CookieAuthenticationTenantChange-300x142.png 300w" sizes="auto, (max-width: 750px) 100vw, 750px" /></a></figure>
 
 
 
@@ -3201,7 +3201,7 @@ private static IEnumerable&lt;Claim&gt;
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png"><img loading="lazy" decoding="async" width="1017" height="414" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png" alt="" class="wp-image-2796" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png 1017w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization-300x122.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization-768x313.png 768w" sizes="(max-width: 1017px) 100vw, 1017px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png"><img loading="lazy" decoding="async" width="1017" height="414" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png" alt="" class="wp-image-2796" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization.png 1017w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization-300x122.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareUpdateAuthorization-768x313.png 768w" sizes="auto, (max-width: 1017px) 100vw, 1017px" /></a></figure>
 
 
 
@@ -3229,7 +3229,7 @@ private static IEnumerable&lt;Claim&gt;
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1.png"><img loading="lazy" decoding="async" width="1024" height="685" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1024x685.png" alt="" class="wp-image-2798" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1024x685.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-300x201.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-768x513.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1536x1027.png 1536w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1.png 1542w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1.png"><img loading="lazy" decoding="async" width="1024" height="685" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1024x685.png" alt="" class="wp-image-2798" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1024x685.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-300x201.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-768x513.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1-1536x1027.png 1536w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/RoleChangedDetectorServicePseudoCode-1.png 1542w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -3325,7 +3325,7 @@ public static async Task&lt;ClaimsPrincipal&gt; ReplacePermissionsMiddleware(
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim.png"><img loading="lazy" decoding="async" width="1024" height="355" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-1024x355.png" alt="" class="wp-image-2799" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-1024x355.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-300x104.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-768x266.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim.png 1067w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim.png"><img loading="lazy" decoding="async" width="1024" height="355" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-1024x355.png" alt="" class="wp-image-2799" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-1024x355.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-300x104.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim-768x266.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/10/MiddlewareOnDemandClaim.png 1067w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -3562,7 +3562,7 @@ public void RegisterEventHandlers(AuthPermissionsDbContext context)
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png"><img loading="lazy" decoding="async" width="820" height="547" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png" alt="" class="wp-image-2770" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png 820w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate-300x200.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate-768x512.png 768w" sizes="(max-width: 820px) 100vw, 820px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png"><img loading="lazy" decoding="async" width="820" height="547" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png" alt="" class="wp-image-2770" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate.png 820w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate-300x200.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceTenantUpdate-768x512.png 768w" sizes="auto, (max-width: 820px) 100vw, 820px" /></a></figure>
 
 
 
@@ -3598,7 +3598,7 @@ public void RegisterEventHandlers(AuthPermissionsDbContext context)
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow.png"><img loading="lazy" decoding="async" width="1024" height="492" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-1024x492.png" alt="" class="wp-image-2771" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-1024x492.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-300x144.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-768x369.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow.png 1145w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow.png"><img loading="lazy" decoding="async" width="1024" height="492" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-1024x492.png" alt="" class="wp-image-2771" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-1024x492.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-300x144.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow-768x369.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenance-flow.png 1145w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -3719,7 +3719,7 @@ public async Task&lt;IActionResult&gt; MoveDatabase(
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png"><img loading="lazy" decoding="async" width="825" height="339" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png" alt="" class="wp-image-2772" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png 825w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys-300x123.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys-768x316.png 768w" sizes="(max-width: 825px) 100vw, 825px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png"><img loading="lazy" decoding="async" width="825" height="339" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png" alt="" class="wp-image-2772" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys.png 825w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys-300x123.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceDivertKeys-768x316.png 768w" sizes="auto, (max-width: 825px) 100vw, 825px" /></a></figure>
 
 
 
@@ -3783,7 +3783,7 @@ public async Task&lt;IActionResult&gt; MoveDatabase(
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png"><img loading="lazy" decoding="async" width="736" height="734" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png" alt="" class="wp-image-2773" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png 736w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart-300x300.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart-150x150.png 150w" sizes="(max-width: 736px) 100vw, 736px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png"><img loading="lazy" decoding="async" width="736" height="734" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png" alt="" class="wp-image-2773" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart.png 736w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart-300x300.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/DownForMaintenanceMiddlewareFlowChart-150x150.png 150w" sizes="auto, (max-width: 736px) 100vw, 736px" /></a></figure>
 
 
 
@@ -3918,7 +3918,7 @@ await removeDownAsync();
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png"><img loading="lazy" decoding="async" width="690" height="369" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png" alt="" class="wp-image-2753" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png 690w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers-300x160.png 300w" sizes="(max-width: 690px) 100vw, 690px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png"><img loading="lazy" decoding="async" width="690" height="369" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png" alt="" class="wp-image-2753" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers.png 690w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/GeographicalSpreadServers-300x160.png 300w" sizes="auto, (max-width: 690px) 100vw, 690px" /></a></figure>
 
 
 
@@ -3934,7 +3934,7 @@ await removeDownAsync();
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png"><img loading="lazy" decoding="async" width="761" height="520" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png" alt="" class="wp-image-2754" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png 761w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps-300x205.png 300w" sizes="(max-width: 761px) 100vw, 761px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png"><img loading="lazy" decoding="async" width="761" height="520" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png" alt="" class="wp-image-2754" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps.png 761w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/09/ShardingSettingsSteps-300x205.png 300w" sizes="auto, (max-width: 761px) 100vw, 761px" /></a></figure>
 
 
 
@@ -4265,7 +4265,7 @@ public ShardingConnections(
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png"><img loading="lazy" decoding="async" width="763" height="376" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png" alt="" class="wp-image-2736" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png 763w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps-300x148.png 300w" sizes="(max-width: 763px) 100vw, 763px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png"><img loading="lazy" decoding="async" width="763" height="376" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png" alt="" class="wp-image-2736" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png 763w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps-300x148.png 300w" sizes="auto, (max-width: 763px) 100vw, 763px" /></a></figure>
 
 
 
@@ -4301,7 +4301,7 @@ public ShardingConnections(
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png"><img loading="lazy" decoding="async" width="671" height="277" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png" alt="" class="wp-image-2737" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png 671w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions-300x124.png 300w" sizes="(max-width: 671px) 100vw, 671px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png"><img loading="lazy" decoding="async" width="671" height="277" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png" alt="" class="wp-image-2737" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png 671w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions-300x124.png 300w" sizes="auto, (max-width: 671px) 100vw, 671px" /></a></figure>
 
 
 
