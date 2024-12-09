@@ -1,0 +1,5 @@
+﻿RSS Feed automatisch auf Mastodon veröffentlichen
+
+Viele Blogs und News-Webseite informieren über neue Artikel und Beiträge auch auf den vielen Social Media Plattformen wie Twitter, Facebook oder Threads. Leider ist Mastodon oft noch kein Ziel dieser Cross-Postings. Da ich Mastodon selbst gerne als News-Quelle und Aggregator verschiedener Blogs nutze, habe ich eine Anwendung geschrieben, die RSS-Feeds automatisch im Fediverse veröffentlicht.
+---
+https://www.production-ready.de/2024/11/24/feed-to-mastodon.html

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://nextcloud.com/?p=273491",
+    "raw": "December maintenance updates for Nextcloud Hub 7, 8 and 9",
+    "sanitized": "December maintenance updates for Nextcloud Hub 7, 8 and 9"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=271629",
+    "raw": "The open source answer to Microsoft Teams",
+    "sanitized": "The open source answer to Microsoft Teams"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=269114",
+    "raw": "How open-source AI models can help you take control of your privacy",
+    "sanitized": "How open-source AI models can help you take control of your privacy"
+  },
+  {
     "itemId": "https://nextcloud.com/?p=268517",
     "raw": "Nextcloud Enterprise Day lands in Paris: be part of the product launch event!",
     "sanitized": "Nextcloud Enterprise Day lands in Paris: be part of the product launch event!"
@@ -11,8 +26,8 @@
   },
   {
     "itemId": "https://nextcloud.com/?p=267113",
-    "raw": "November maintenance updates for Nextcloud Hub 7, 8 and 9",
-    "sanitized": "November maintenance updates for Nextcloud Hub 7, 8 and 9"
+    "raw": "November maintenance updates for Nextcloud Hub 7 and 9",
+    "sanitized": "November maintenance updates for Nextcloud Hub 7 and 9"
   },
   {
     "itemId": "https://nextcloud.com/?p=265256",
@@ -33,20 +48,5 @@
     "itemId": "https://nextcloud.com/?p=264188",
     "raw": "MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt",
     "sanitized": "MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt"
-  },
-  {
-    "itemId": "https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/",
-    "raw": "Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein’s CIO",
-    "sanitized": "Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein’s CIO"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=263936",
-    "raw": "SpaceNet joins as a sponsor for Nextcloud Enterprise Day 2024 in Frankfurt",
-    "sanitized": "SpaceNet joins as a sponsor for Nextcloud Enterprise Day 2024 in Frankfurt"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=263850",
-    "raw": "Nextcloud wins Platinum at the IT Awards 2024!",
-    "sanitized": "Nextcloud wins Platinum at the IT Awards 2024!"
   }
 ]

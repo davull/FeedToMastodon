@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/",
+    "raw": "Cross-Origin-Embedder-Policy: securing embedded resources: Understanding cross-origin security headers - Part 3",
+    "sanitized": "Cross-Origin-Embedder-Policy: securing embedded resources: Understanding cross-origin security headers - Part 3"
+  },
+  {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/",
+    "raw": "Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2",
+    "sanitized": "Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2"
+  },
+  {
     "itemId": "https://andrewlock.net/understanding-security-headers-part-1-cross-origin-opener-policy-preventing-attacks-from-popups/",
     "raw": "Cross-Origin-Opener-Policy: preventing attacks from popups: Understanding cross-origin security headers - Part 1",
     "sanitized": "Cross-Origin-Opener-Policy: preventing attacks from popups: Understanding cross-origin security headers - Part 1"
@@ -113,15 +123,5 @@
     "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
     "raw": "Blocking primary constructor member capture using a Roslyn Analyzer",
     "sanitized": "Blocking primary constructor member capture using a Roslyn Analyzer"
-  },
-  {
-    "itemId": "https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/",
-    "raw": "Thoughts about primary constructors: 3 pros and 5 cons",
-    "sanitized": "Thoughts about primary constructors: 3 pros and 5 cons"
-  },
-  {
-    "itemId": "https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/",
-    "raw": "An introduction to primary constructors in C#12",
-    "sanitized": "An introduction to primary constructors in C#12"
   }
 ]

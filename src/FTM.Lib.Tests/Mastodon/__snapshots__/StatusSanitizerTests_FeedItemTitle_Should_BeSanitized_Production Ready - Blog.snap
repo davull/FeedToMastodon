@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://www.production-ready.de/2024/11/24/feed-to-mastodon",
+    "raw": "RSS Feed automatisch auf Mastodon veröffentlichen",
+    "sanitized": "RSS Feed automatisch auf Mastodon veröffentlichen"
+  },
+  {
     "itemId": "https://www.production-ready.de/2024/05/10/integration-testing-with-docker",
     "raw": "Integrationstest mit Docker Compose und Azure Service-Containers",
     "sanitized": "Integrationstest mit Docker Compose und Azure Service-Containers"

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
+    "raw": "On Blazor Component Reusability - From Day 0",
+    "sanitized": "On Blazor Component Reusability - From Day 0"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Visual-Studios-AI-Future-Copilot-NET-Upgrades-and-More.aspx",
+    "raw": "Visual Studio's AI Future: Copilot .NET Upgrades and More",
+    "sanitized": "Visual Studio's AI Future: Copilot .NET Upgrades and More"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/PowerShell-Gets-AI-ified-in-AI-Shell-Preview.aspx",
+    "raw": "PowerShell Gets AI-ified in 'AI Shell' Preview",
+    "sanitized": "PowerShell Gets AI-ified in 'AI Shell' Preview"
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx",
     "raw": "GitHub Research Claims Copilot Code Quality Gains in Addition to Productivity",
     "sanitized": "GitHub Research Claims Copilot Code Quality Gains in Addition to Productivity"
@@ -283,20 +298,5 @@
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
     "raw": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python",
     "sanitized": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx",
-    "raw": "Uno Platform 5.3 Enhances Hot Reload UI",
-    "sanitized": "Uno Platform 5.3 Enhances Hot Reload UI"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx",
-    "raw": "Visual Studio Uses RUBICON to Improve AI Conversations",
-    "sanitized": "Visual Studio Uses RUBICON to Improve AI Conversations"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx",
-    "raw": "Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts",
-    "sanitized": "Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts"
   }
 ]

@@ -2,10 +2,40 @@
   "Id": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Website": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Title": "News",
-  "LastUpdatedTime": "2024-11-22T17:25:00+00:00",
+  "LastUpdatedTime": "2024-12-04T21:33:00+00:00",
   "Description": "",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
+      "Title": "On Blazor Component Reusability - From Day 0",
+      "PublishDate": "2024-12-04T21:33:00+00:00",
+      "Summary": "\"We want to try to design from Day One, even Day Zero, with reusability in mind,\" says Blazor expert Allen Conway in imparting his expertise to an audience of hundreds in an online tech event on Tuesday.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx"
+    },
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Visual-Studios-AI-Future-Copilot-NET-Upgrades-and-More.aspx",
+      "Title": "Visual Studio's AI Future: Copilot .NET Upgrades and More",
+      "PublishDate": "2024-11-22T22:14:00+00:00",
+      "Summary": "At this week's Microsoft Ignite conference, the Visual Studio team showed off a future AI-powered IDE that will leverage GitHub Copilot for legacy app .NET upgrades, along with several more cutting-edge features.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/11/22/Visual-Studios-AI-Future-Copilot-NET-Upgrades-and-More.aspx"
+    },
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/11/22/PowerShell-Gets-AI-ified-in-AI-Shell-Preview.aspx",
+      "Title": "PowerShell Gets AI-ified in 'AI Shell' Preview",
+      "PublishDate": "2024-11-22T20:10:00+00:00",
+      "Summary": "Eschewing the term \"Copilot,\" Microsoft introduced a new AI-powered tool for PowerShell called \"AI Shell,\" available in preview.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/11/22/PowerShell-Gets-AI-ified-in-AI-Shell-Preview.aspx"
+    },
     {
       "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
       "ItemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx",
@@ -575,36 +605,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx",
-      "Title": "Uno Platform 5.3 Enhances Hot Reload UI",
-      "PublishDate": "2024-07-24T19:25:00+00:00",
-      "Summary": "Uno Platform 5.3 shipped with enhanced Hot Reload UI functionality, full support for the Rider IDE from JetBrains and more.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx",
-      "Title": "Visual Studio Uses RUBICON to Improve AI Conversations",
-      "PublishDate": "2024-07-22T20:21:00+00:00",
-      "Summary": "AI assistants have improved coding productivity, but how do you know if they're getting better?",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx",
-      "Title": "Visual Studio Subscribers Now Get 'Visual Studio Live!' and Other Learning Discounts",
-      "PublishDate": "2024-07-18T17:15:00+00:00",
-      "Summary": "Microsoft announced new learning benefits to subscribers of its flagship Visual Studio IDE, including discounts for Visual Studio Live! developer conferences and other educational opportunities.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx"
     }
   ]
 }

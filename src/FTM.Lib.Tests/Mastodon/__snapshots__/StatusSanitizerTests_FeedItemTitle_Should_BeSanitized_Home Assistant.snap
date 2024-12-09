@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/04/release-202412",
+    "raw": "2024.12: Scene you in 2025! 🎄",
+    "sanitized": "2024.12: Scene you in 2025! 🎄"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/11/30/the-month-of-what-the-heck",
+    "raw": "The month of 'What the Heck?!' 2024",
+    "sanitized": "The month of 'What the Heck?!' 2024"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support",
+    "raw": "Home Assistant Yellow gets CM5 support in HAOS 14",
+    "sanitized": "Home Assistant Yellow gets CM5 support in HAOS 14"
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2024/11/18/event-wrapup-github-universe-24",
     "raw": "Event wrap-up - GitHub Universe '24",
     "sanitized": "Event wrap-up - GitHub Universe '24"
@@ -83,20 +98,5 @@
     "itemId": "https://www.home-assistant.io/blog/2024/07/03/release-20247",
     "raw": "2024.7: Time to resize your cards!",
     "sanitized": "2024.7: Time to resize your cards!"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7",
-    "raw": "Voice Chapter 7 - Supercharged wake words and timers",
-    "sanitized": "Voice Chapter 7 - Supercharged wake words and timers"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement",
-    "raw": "Home Assistant SkyConnect becomes Connect ZBT-1",
-    "sanitized": "Home Assistant SkyConnect becomes Connect ZBT-1"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/06/12/roadmap-2024h1",
-    "raw": "Roadmap 2024 Midyear Update: A home-approved smart home, peace of mind, and more!",
-    "sanitized": "Roadmap 2024 Midyear Update: A home-approved smart home, peace of mind, and more!"
   }
 ]

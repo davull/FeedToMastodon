@@ -1,6 +1,0 @@
-﻿Copy files across instances of Visual Studio
-
-Transferring code files between different instances of Visual Studio has often been a tedious task. To simplify this process, Visual Studio 2022 now includes a feature that allows you to easily copy and paste code files and folders between instances using the Solution Explorer. This enhancement aims to streamline workflow and save time. Until now, […]
-The post Copy files across instances of Visual Studio appeared fi...
----
-https://devblogs.microsoft.com/visualstudio/copy-files-across-instances-of-visual-studio/

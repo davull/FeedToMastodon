@@ -51,7 +51,7 @@ public static class FeedTestsProvider
             "driveteslacanada.ca.xml",
             "elektroauto-news.net.xml",
             "embarc.de.xml",
-            "fernuni-hagen.de.xml",
+            //"fernuni-hagen.de.xml",
             "golem.de.xml",
             "heiseplus.xml",
             "howtoforge.com.xml",
@@ -77,7 +77,8 @@ public static class FeedTestsProvider
             "visualstudiomagazine.com.xml",
             "WDR 5 Zeitzeichen.xml",
             "WindowsPro.xml",
-            "Yet another developer blog.xml"
+            "Yet another developer blog.xml",
+            "nitter.privacydev.net.xml"
         };
 
         return from fileName in rssFeeds

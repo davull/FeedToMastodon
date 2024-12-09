@@ -1,5 +1,25 @@
 ﻿[
   {
+    "itemId": "https://technikblog.ch/?p=37156",
+    "raw": "Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu",
+    "sanitized": "Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37088",
+    "raw": "Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation",
+    "sanitized": "Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37135",
+    "raw": "Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI",
+    "sanitized": "Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37070",
+    "raw": "Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)",
+    "sanitized": "Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)"
+  },
+  {
     "itemId": "https://technikblog.ch/?p=37052",
     "raw": "Bidirektionales Laden bei Volkswagen ID-Reihe mit erstem Anbieter in der Schweiz möglich",
     "sanitized": "Bidirektionales Laden bei Volkswagen ID-Reihe mit erstem Anbieter in der Schweiz möglich"
@@ -473,25 +493,5 @@
     "itemId": "http://tchor/?p=34291",
     "raw": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling",
     "sanitized": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling"
-  },
-  {
-    "itemId": "http://tchor/?p=34242",
-    "raw": "Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse",
-    "sanitized": "Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse"
-  },
-  {
-    "itemId": "http://tchor/?p=34177",
-    "raw": "Videokonferenz-Setup aufgerüstet mit Logitech Brio & Zone 900",
-    "sanitized": "Videokonferenz-Setup aufgerüstet mit Logitech Brio & Zone 900"
-  },
-  {
-    "itemId": "http://tchor/?p=34224",
-    "raw": "Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor",
-    "sanitized": "Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor"
-  },
-  {
-    "itemId": "http://tchor/?p=34203",
-    "raw": "Fahrbericht: Meine ersten 1500km mit dem Model Y",
-    "sanitized": "Fahrbericht: Meine ersten 1500km mit dem Model Y"
   }
 ]

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Visual-Studios-AI-Future-Copilot-NET-Upgrades-and-More.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/PowerShell-Gets-AI-ified-in-AI-Shell-Preview.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/11/22/Article_0GitHub-Copilot-Research-Claims-Code-Quality-Gains-in-Addition-to-Productivity.aspx",
     "raw": null,
     "sanitized": null
@@ -281,21 +296,6 @@
   },
   {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/24/uno-5-3.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/18/subscriber-benefits.aspx",
     "raw": null,
     "sanitized": null
   }

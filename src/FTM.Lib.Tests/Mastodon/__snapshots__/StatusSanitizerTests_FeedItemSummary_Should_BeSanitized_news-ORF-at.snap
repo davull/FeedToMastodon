@@ -1,131 +1,136 @@
 ﻿[
   {
-    "itemId": "https://orf.at/stories/3376757/",
-    "raw": "Der vom Internationalen Strafgerichtshof (IStGH) in Den Haag erlassene Haftbefehl gegen Israels Ministerpräsidenten Benjamin Netanjahu sorgt weiter für Wirbel. Insbesondere die Reaktion aus Ungarn stach hervor: Am Freitag lud Premier Viktor Orban Netanjahu ein und kündigte an, ihn nicht zu verhaften. Der israelische Politiker dankte, ließ aber offen, ob er die Einladung auch annimmt.",
-    "sanitized": "Der vom Internationalen Strafgerichtshof (IStGH) in Den Haag erlassene Haftbefehl gegen Israels Ministerpräsidenten Benjamin Netanjahu sorgt weiter für Wirbel. Insbesondere die Reaktion aus Ungarn stach hervor: Am Freitag lud Premier Viktor Orban Netanjahu ein und kündigte an, ihn nicht zu verhaften. Der israelische Politiker dankte, ließ aber offen, ob er die Einladung auch annimmt."
+    "itemId": "https://orf.at/stories/3378400/",
+    "raw": "Ein Bündnis von Fachleuten tritt für einen gesetzlich verankerten Gleichstellungsrat – ähnlich dem Fiskalrat – ein. Österreich sei von einer ausgewogenen ökonomischen, sozialen und politischen Teilhabe von Frauen und Männern noch weit entfernt. Dem soll der Rat durch regelmäßige Analyse der staatlichen Maßnahmen entgegenwirken. Die kommende Regierung habe „eine große Chance, hier einen historischen Schritt zu machen“.",
+    "sanitized": "Ein Bündnis von Fachleuten tritt für einen gesetzlich verankerten Gleichstellungsrat – ähnlich dem Fiskalrat – ein. Österreich sei von einer ausgewogenen ökonomischen, sozialen und politischen Teilhabe von Frauen und Männern noch weit entfernt. Dem soll der Rat durch regelmäßige Analyse der staatlichen Maßnahmen entgegenwirken. Die kommende Regierung habe „eine große Chance, hier einen historischen Schritt zu machen“."
   },
   {
-    "itemId": "https://orf.at/stories/3376820/",
+    "itemId": "https://orf.at/stories/3378445/",
+    "raw": "Fünf Tage nach den tödlichen Schüssen auf den Versicherungsmanager Brian Thompson in New York hat die Polizei eine verdächtige Person in Gewahrsam. Der 26-jährige Mann wurde rund 370 Kilometer westlich von New York im Bundesstaat Pennsylvania verhaftet. Der entscheidende Hinweis kam von einem McDonalds-Mitarbeiter.",
+    "sanitized": "Fünf Tage nach den tödlichen Schüssen auf den Versicherungsmanager Brian Thompson in New York hat die Polizei eine verdächtige Person in Gewahrsam. Der 26-jährige Mann wurde rund 370 Kilometer westlich von New York im Bundesstaat Pennsylvania verhaftet. Der entscheidende Hinweis kam von einem McDonalds-Mitarbeiter."
+  },
+  {
+    "itemId": "https://orf.at/stories/3378446/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376818/",
+    "itemId": "https://orf.at/stories/3378444/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376769/",
-    "raw": "Bei der UNO-Klimakonferenz COP29 in Aserbaidschan ist unter den Delegierten Ernüchterung eingetreten. Der Freitag sollte der letzte Tag der Zusammenkunft sein, doch ein Abkommen ist nicht in Sicht. Nun dürfte sich der Gipfel über das Wochenende ziehen. Von Anfang an ging es ums Geld: Reiche Länder sollen für Klimaschutz zahlen, um Schäden und Verluste zu decken und die Anpassung an die Erderhitzung zu schultern. Doch die Vorstellungen über die Höhe der Mittel gehen nach wie vor weit auseinander.",
-    "sanitized": "Bei der UNO-Klimakonferenz COP29 in Aserbaidschan ist unter den Delegierten Ernüchterung eingetreten. Der Freitag sollte der letzte Tag der Zusammenkunft sein, doch ein Abkommen ist nicht in Sicht. Nun dürfte sich der Gipfel über das Wochenende ziehen. Von Anfang an ging es ums Geld: Reiche Länder sollen für Klimaschutz zahlen, um Schäden und Verluste zu decken und die Anpassung an die Erderhitzung zu schultern. Doch die Vorstellungen über die Höhe der Mittel gehen nach wie vor weit auseinander."
+    "itemId": "https://orf.at/stories/3378405/",
+    "raw": "Nach dem Sturz von Machthaber Baschar al-Assad wollen die Aufständischen in Syrien nach eigenen Angaben rasch eine neue Regierung bilden. Das teilte die islamistische Gruppe Haiat Tahrir al-Scham (HTS) am Montag mit. Die Gruppe wird von den USA, der EU und der Türkei als Terrororganisation eingestuft. International wird nach einem Umgang mit den Islamisten gesucht.",
+    "sanitized": "Nach dem Sturz von Machthaber Baschar al-Assad wollen die Aufständischen in Syrien nach eigenen Angaben rasch eine neue Regierung bilden. Das teilte die islamistische Gruppe Haiat Tahrir al-Scham (HTS) am Montag mit. Die Gruppe wird von den USA, der EU und der Türkei als Terrororganisation eingestuft. International wird nach einem Umgang mit den Islamisten gesucht."
   },
   {
-    "itemId": "https://orf.at/stories/3376812/",
+    "itemId": "https://orf.at/stories/3378440/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376807/",
+    "itemId": "https://orf.at/stories/3378437/",
+    "raw": "Dem vollständigen Beitritt von Rumänien und Bulgarien zum Schengen-Raum dürfte nichts mehr im Wege stehen. Montagabend teilte das Innenministerium mit, man werde sich „nicht querlegen“. Innenminister Gerhard Karner (ÖVP) wird damit am Donnerstag beim EU-Innenministerrat in Brüssel dem Vollbeitritt zum Schengen-Abkommen von Bulgarien und Rumänien zustimmen.",
+    "sanitized": "Dem vollständigen Beitritt von Rumänien und Bulgarien zum Schengen-Raum dürfte nichts mehr im Wege stehen. Montagabend teilte das Innenministerium mit, man werde sich „nicht querlegen“. Innenminister Gerhard Karner (ÖVP) wird damit am Donnerstag beim EU-Innenministerrat in Brüssel dem Vollbeitritt zum Schengen-Abkommen von Bulgarien und Rumänien zustimmen."
+  },
+  {
+    "itemId": "https://orf.at/stories/3378436/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376806/",
+    "itemId": "https://orf.at/stories/3378434/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376801/",
+    "itemId": "https://orf.at/stories/3378404/",
+    "raw": "Einen Tag nach dem Sturz des Regimes in Syrien und trotz der unklaren Sicherheitslage hat Bundeskanzler Karl Nehammer am Montag Innenminister Gerhard Karner (beide ÖVP) beauftragt, alle laufenden syrischen Asylverfahren auszusetzen bzw. alle Asylgewährungen zu überprüfen. Auch Deutschland setzte Asylentscheidungen aus. Die EU-Kommission sieht derzeit die Bedingungen für eine sichere Rückkehr nicht gegeben.",
+    "sanitized": "Einen Tag nach dem Sturz des Regimes in Syrien und trotz der unklaren Sicherheitslage hat Bundeskanzler Karl Nehammer am Montag Innenminister Gerhard Karner (beide ÖVP) beauftragt, alle laufenden syrischen Asylverfahren auszusetzen bzw. alle Asylgewährungen zu überprüfen. Auch Deutschland setzte Asylentscheidungen aus. Die EU-Kommission sieht derzeit die Bedingungen für eine sichere Rückkehr nicht gegeben."
+  },
+  {
+    "itemId": "https://orf.at/stories/3378432/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376802/",
+    "itemId": "https://orf.at/stories/3378430/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376754/",
-    "raw": "Ein in Australien gestrandeter Kaiserpinguin aus der Antarktis ist wieder in Freiheit. Der Gus genannte Vogel sei von einem Boot aus in den Ozean entlassen worden, so das zuständige Ministerium am Freitag. Gus hatte sich 3.400 Kilometer weit in den Norden verirrt und war plötzlich auf einen Strand im Westen Australiens gewatschelt. Fachleuten zufolge war ein Exemplar dieser Spezies nie zuvor so weit von seiner Heimat entfernt gesichtet worden.",
-    "sanitized": "Ein in Australien gestrandeter Kaiserpinguin aus der Antarktis ist wieder in Freiheit. Der Gus genannte Vogel sei von einem Boot aus in den Ozean entlassen worden, so das zuständige Ministerium am Freitag. Gus hatte sich 3.400 Kilometer weit in den Norden verirrt und war plötzlich auf einen Strand im Westen Australiens gewatschelt. Fachleuten zufolge war ein Exemplar dieser Spezies nie zuvor so weit von seiner Heimat entfernt gesichtet worden."
+    "itemId": "https://orf.at/stories/3378379/",
+    "raw": "Mit einer Show vor rund 60.000 begeisterten Fans hat Superstar Taylor Swift ihre monumentale „The Eras Tour“ in Kanada beendet. Bei ihrem Auftritt am Sonntag (Ortszeit) im BC Place Stadium in Vancouver bedankte sich die 34-Jährige für die Leidenschaft und Treue ihrer Fans. Obwohl der Popstar aufgrund einer Terrorwarnung im August nicht in Wien aufgetreten war, stimmte das Ende der Tour die heimischen „Swifties“ nostalgisch – und sie hoffen auf eine neue Chance.",
+    "sanitized": "Mit einer Show vor rund 60.000 begeisterten Fans hat Superstar Taylor Swift ihre monumentale „The Eras Tour“ in Kanada beendet. Bei ihrem Auftritt am Sonntag (Ortszeit) im BC Place Stadium in Vancouver bedankte sich die 34-Jährige für die Leidenschaft und Treue ihrer Fans. Obwohl der Popstar aufgrund einer Terrorwarnung im August nicht in Wien aufgetreten war, stimmte das Ende der Tour die heimischen „Swifties“ nostalgisch – und sie hoffen auf eine neue Chance."
   },
   {
-    "itemId": "https://orf.at/stories/3376797/",
+    "itemId": "https://orf.at/stories/3378428/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376796/",
+    "itemId": "https://orf.at/stories/3378423/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376795/",
+    "itemId": "https://orf.at/stories/3378422/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376788/",
+    "itemId": "https://orf.at/stories/3378415/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376787/",
+    "itemId": "https://orf.at/stories/3378414/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376784/",
+    "itemId": "https://orf.at/stories/3378412/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376783/",
+    "itemId": "https://orf.at/stories/3378410/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376782/",
+    "itemId": "https://orf.at/stories/3378408/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376741/",
-    "raw": "Im Ukraine-Krieg stehen derzeit alle Zeichen auf Eskalation. Insbesondere der jüngste neuartige Einsatz von Raketen – sowohl durch die Ukraine als auch durch Russland – ist ein klares Signal dafür. Dazu kommen als Drohung bzw. Abschreckung gemeinte Aussagen. Am Freitag gab es zahlreiche Appelle zur Zurückhaltung – und Warnungen vor einer Ausweitung des Konflikts.",
-    "sanitized": "Im Ukraine-Krieg stehen derzeit alle Zeichen auf Eskalation. Insbesondere der jüngste neuartige Einsatz von Raketen – sowohl durch die Ukraine als auch durch Russland – ist ein klares Signal dafür. Dazu kommen als Drohung bzw. Abschreckung gemeinte Aussagen. Am Freitag gab es zahlreiche Appelle zur Zurückhaltung – und Warnungen vor einer Ausweitung des Konflikts."
+    "itemId": "https://orf.at/stories/3378386/",
+    "raw": "Nach dem Einmarsch einer von Islamisten angeführten Rebellenallianz in Damaskus und der offenbar unmittelbar zuvor erfolgten Flucht von Baschar al-Assad ist vielfach von einer Zeitenwende in Syrien die Rede. Wie es weitergeht, bleibt offen –  beendet ist aber eine wohl beispiellose Gewaltherrschaft, die am 16. November 1970, vor 54 Jahren, mit dem Putsch von Assads Vater Hafis al-Assad ihren Anfang nahm.",
+    "sanitized": "Nach dem Einmarsch einer von Islamisten angeführten Rebellenallianz in Damaskus und der offenbar unmittelbar zuvor erfolgten Flucht von Baschar al-Assad ist vielfach von einer Zeitenwende in Syrien die Rede. Wie es weitergeht, bleibt offen –  beendet ist aber eine wohl beispiellose Gewaltherrschaft, die am 16. November 1970, vor 54 Jahren, mit dem Putsch von Assads Vater Hafis al-Assad ihren Anfang nahm."
   },
   {
-    "itemId": "https://orf.at/stories/3376779/",
+    "itemId": "https://orf.at/stories/3378403/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376777/",
+    "itemId": "https://orf.at/stories/3378401/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376776/",
+    "itemId": "https://orf.at/stories/3378378/",
+    "raw": "Der Sturz von Syriens Machthaber Baschar al-Assad wirkt sich auch auf seinen größten Unterstützer Russland aus. Präsident Wladimir Putin platzierte sich mit dem Einsatz in Syrien über ein Jahrzehnt als wesentliche Macht im Nahen Osten. Doch Moskau konnte den Fall Assads nicht stoppen. Das wird nicht nur an Putins Einfluss in der Region, sondern auch an seiner Glaubwürdigkeit rütteln, so Fachleute.",
+    "sanitized": "Der Sturz von Syriens Machthaber Baschar al-Assad wirkt sich auch auf seinen größten Unterstützer Russland aus. Präsident Wladimir Putin platzierte sich mit dem Einsatz in Syrien über ein Jahrzehnt als wesentliche Macht im Nahen Osten. Doch Moskau konnte den Fall Assads nicht stoppen. Das wird nicht nur an Putins Einfluss in der Region, sondern auch an seiner Glaubwürdigkeit rütteln, so Fachleute."
+  },
+  {
+    "itemId": "https://orf.at/stories/3378396/",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://orf.at/stories/3376774/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://orf.at/stories/3376772/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://orf.at/stories/3376768/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://orf.at/stories/3376767/",
+    "itemId": "https://orf.at/stories/3378395/",
     "raw": null,
     "sanitized": null
   }

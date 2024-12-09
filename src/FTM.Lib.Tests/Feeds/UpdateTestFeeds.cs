@@ -60,7 +60,7 @@ public class UpdateTestFeeds
             ("home-assistant.io", "https://www.home-assistant.io/atom.xml"),
             ("andrewlock.net", "https://andrewlock.net/rss/"),
             ("stevetalkscode.co.uk", "https://stevetalkscode.co.uk/feed/index.rss"),
-            ("fernuni-hagen.de", "https://www.fernuni-hagen.de/ssi/universitaet/aktuelles_rss.xml"),
+            //("fernuni-hagen.de", "https://www.fernuni-hagen.de/ssi/universitaet/aktuelles_rss.xml"),
             ("roots-at-eifel.net", "https://www.roots-at-eifel.net/rss"),
             ("Yet another developer blog", "https://feeds.feedburner.com/YetAnotherDeveloperBlog"),
             ("heiseplus", "https://www.heise.de/rss/heiseplus.rdf"),
@@ -79,7 +79,8 @@ public class UpdateTestFeeds
             ("businessinsider.de", "https://www.businessinsider.de/feed/businessinsider-alle-artikel"),
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
-            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed")
+            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
+            ("nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss")
         };
 
         foreach (var (name, url) in feeds)

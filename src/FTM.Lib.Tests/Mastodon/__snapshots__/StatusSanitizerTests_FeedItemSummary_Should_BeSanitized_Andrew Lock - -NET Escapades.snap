@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/",
+    "raw": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs",
+    "sanitized": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs"
+  },
+  {
+    "itemId": "https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/",
+    "raw": "In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in <img> tags",
+    "sanitized": "In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in  tags"
+  },
+  {
     "itemId": "https://andrewlock.net/understanding-security-headers-part-1-cross-origin-opener-policy-preventing-attacks-from-popups/",
     "raw": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy",
     "sanitized": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy"
@@ -113,15 +123,5 @@
     "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
     "raw": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields",
     "sanitized": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields"
-  },
-  {
-    "itemId": "https://andrewlock.net/thoughts-about-primary-constructors-3-pros-and-5-cons/",
-    "raw": "In this post I describe some of the ways I like to use primary constructors and some of the things I don't like about them",
-    "sanitized": "In this post I describe some of the ways I like to use primary constructors and some of the things I don't like about them"
-  },
-  {
-    "itemId": "https://andrewlock.net/an-introduction-to-primary-constructors-in-csharp-12/",
-    "raw": "In this post I introduce C#12 primary constructors, describe the various ways to use them and how they work behind the scenes.",
-    "sanitized": "In this post I introduce C#12 primary constructors, describe the various ways to use them and how they work behind the scenes."
   }
 ]
