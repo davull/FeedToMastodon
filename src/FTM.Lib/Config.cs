@@ -12,8 +12,6 @@ public static class Config
 
     public static bool UseMastodonTestClient => GetBoolValue(UseMastodonTestClientKey);
 
-    public static TimeSpan WorkerLoopDelay => TimeSpan.FromMinutes(1);
-
     public static TimeSpan WorkerStartDelay(TimeSpan loopDelay, Random? random = null)
     {
         random ??= Random.Shared;

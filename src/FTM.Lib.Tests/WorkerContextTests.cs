@@ -23,11 +23,12 @@ public class WorkerContextTests
     [Test]
     public void ResetLoopDelay_Should_Reset_LoopDelay()
     {
-        var sut = Dummies.WorkerContext(Dummies.FeedConfiguration());
-
+        var initialDelay = TimeSpan.FromSeconds(11);
         var someDelay = TimeSpan.FromSeconds(99);
-        var initialDelay = sut.LoopWaitDelay;
 
+        var sut = Dummies.WorkerContext(Dummies.FeedConfiguration(), initialDelay);
+
+        sut.LoopWaitDelay.Should().Be(initialDelay);
         sut.LoopWaitDelay.Should().NotBe(someDelay);
         sut.SetLoopDelay(someDelay);
         sut.LoopWaitDelay.Should().Be(someDelay);

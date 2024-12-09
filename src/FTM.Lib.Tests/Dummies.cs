@@ -31,9 +31,11 @@ public static class Dummies
             summary, content, language, uri);
     }
 
-    public static WorkerContext WorkerContext(FeedConfiguration configuration)
+    public static WorkerContext WorkerContext(FeedConfiguration configuration, TimeSpan? defaultLoopWaitDelay = null)
     {
-        return new WorkerContext
+        defaultLoopWaitDelay ??= TimeSpan.FromMinutes(1);
+
+        return new WorkerContext(defaultLoopWaitDelay.Value)
         {
             Configuration = configuration,
             Logger = NullLogger.Instance,

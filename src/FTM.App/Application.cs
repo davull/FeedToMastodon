@@ -10,6 +10,7 @@ namespace FTM.App;
 
 [ExcludeFromCodeCoverage]
 public class Application(
+    ApplicationOptions applicationOptions,
     ICollection<FeedConfiguration> feedConfigurations,
     IMastodonClient mastodonClient,
     ILoggerFactory loggerFactory)
@@ -18,10 +19,12 @@ public class Application(
     {
         var feedConfigurations = FeedConfigurationReader.ReadConfiguration(Config.ConfigFileName);
         var appConfiguration = GetAppConfiguration();
+        var appOptions = appConfiguration.Get<ApplicationOptions>() ??
+                         throw new NullReferenceException("Can't read ApplicationOptions from appsettings.json");
         var mastodonClient = CreateMastodonClient();
         var loggerFactory = CreateLoggerFactory();
 
-        return new Application(feedConfigurations, mastodonClient, loggerFactory);
+        return new Application(appOptions, feedConfigurations, mastodonClient, loggerFactory);
 
         ILoggerFactory CreateLoggerFactory()
         {
@@ -68,7 +71,7 @@ public class Application(
 
         WorkerContext CreateWorkerContext(FeedConfiguration config)
         {
-            return new WorkerContext
+            return new WorkerContext(applicationOptions.DefaultWorkerLoopDelay)
             {
                 Configuration = config,
                 Logger = loggerFactory.CreateLogger(config.Title),
