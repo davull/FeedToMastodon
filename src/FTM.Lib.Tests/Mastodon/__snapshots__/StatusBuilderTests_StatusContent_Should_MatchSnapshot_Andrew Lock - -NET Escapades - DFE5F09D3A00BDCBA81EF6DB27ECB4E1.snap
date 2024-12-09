@@ -1,0 +1,5 @@
+﻿Cross-Origin-Resource-Policy: preventing hotlinking and XSSI attacks: Understanding cross-origin security headers - Part 2
+
+In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in  tags
+---
+https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/

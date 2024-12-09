@@ -1,5 +1,90 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20241209_9fc3fbe6.mp3",
+    "raw": "Als falsche Königing Beatrix, als \"Hurz\"-Perfomer, als Bestseller-Autor vom Jakobsweg, als Junge, der mal an die frische Luft muss: Hape Kerkeling gehört zu den beliebtesten Komikern der Deutschen. Von Fritz Schaefer.",
+    "sanitized": "Als falsche Königing Beatrix, als \"Hurz\"-Perfomer, als Bestseller-Autor vom Jakobsweg, als Junge, der mal an die frische Luft muss: Hape Kerkeling gehört zu den beliebtesten Komikern der Deutschen. Von Fritz Schaefer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241208_d0f24a57.mp3",
+    "raw": "Sein bestes Werk, so der italienische Komponist Verdi: Sein im Dezember 1899 gegründetes \"Haus des Ausruhens\", in dem Musikschaffende im Alter auf Gleichgesinnte treffen. Von Holger Noltze.",
+    "sanitized": "Sein bestes Werk, so der italienische Komponist Verdi: Sein im Dezember 1899 gegründetes \"Haus des Ausruhens\", in dem Musikschaffende im Alter auf Gleichgesinnte treffen. Von Holger Noltze."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241207_e72eb406.mp3",
+    "raw": "Der erste Bundespräsident thematisiert die Nazi-Verbrechen, spricht in seiner Rede vom 7.12.1949 von deutscher \"Kollektivscham\" und entschärft die Kollektivschuld-These. Von Heiner Wember.",
+    "sanitized": "Der erste Bundespräsident thematisiert die Nazi-Verbrechen, spricht in seiner Rede vom 7.12.1949 von deutscher \"Kollektivscham\" und entschärft die Kollektivschuld-These. Von Heiner Wember."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241206_47ec72ad.mp3",
+    "raw": "Kaffee, Kuchen - und ostasiatische Kampfkunst: Bei einer Wohltätigkeitsveranstaltung in London am 6.12.1909 machen sich die \"Suffragetten\",  Aktivistinnen fürs Frauenwahlrecht, fit für ihren Kampf. Von Veronika Bock ;Ulrich Biermann.",
+    "sanitized": "Kaffee, Kuchen - und ostasiatische Kampfkunst: Bei einer Wohltätigkeitsveranstaltung in London am 6.12.1909 machen sich die \"Suffragetten\",  Aktivistinnen fürs Frauenwahlrecht, fit für ihren Kampf. Von Veronika Bock ;Ulrich Biermann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241205_ed784e86.mp3",
+    "raw": "Vor 540 Jahren, genau am 5.12.1484, besiegelt Papst Innozenz VIII. ein Unheil bringendes Schreiben. Als so genannte Hexenbulle wird es in die Geschichte eingehen. Von Marko Rösseler.",
+    "sanitized": "Vor 540 Jahren, genau am 5.12.1484, besiegelt Papst Innozenz VIII. ein Unheil bringendes Schreiben. Als so genannte Hexenbulle wird es in die Geschichte eingehen. Von Marko Rösseler."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241204_a4d145e4.mp3",
+    "raw": "Nie war das Osmanische Reich größer als unter Süleyman. Im Abendland sorgt er für die Türkenfurcht, der \"Schrecken Europas\" erhält hier aber auch den Beinamen \"der Prächtige\". Von Marfa Heimbach.",
+    "sanitized": "Nie war das Osmanische Reich größer als unter Süleyman. Im Abendland sorgt er für die Türkenfurcht, der \"Schrecken Europas\" erhält hier aber auch den Beinamen \"der Prächtige\". Von Marfa Heimbach."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241203_3fcaa70f.mp3",
+    "raw": "Grausame Piraten, Ärzte mit gespaltener Persönlichkeit, entführte Söhne aus den Highlands - sie bevölkern die Romane von Robert Louis Stevenson. Die entstehen in Teilen auf Samoa in der Südsee. Hier stirbt Stevenson am 3.12.1894. Von Marko Rösseler.",
+    "sanitized": "Grausame Piraten, Ärzte mit gespaltener Persönlichkeit, entführte Söhne aus den Highlands - sie bevölkern die Romane von Robert Louis Stevenson. Die entstehen in Teilen auf Samoa in der Südsee. Hier stirbt Stevenson am 3.12.1894. Von Marko Rösseler."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241202_979c555a.mp3",
+    "raw": "Der Protest einer Nigerianerin eskaliert nach dem 2.12.1929 zum Krieg tausender Frauen gegen die britische Kolonialherrschaft. Die gerät stärker ins Wanken als je zuvor. Von Edda Dammmüller.",
+    "sanitized": "Der Protest einer Nigerianerin eskaliert nach dem 2.12.1929 zum Krieg tausender Frauen gegen die britische Kolonialherrschaft. Die gerät stärker ins Wanken als je zuvor. Von Edda Dammmüller."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241201_78ef6923.mp3",
+    "raw": "Der heutige Adventskranz ist jung: Seit den 50er Jahren ist er das Symbol für die Vorweihnachtszeit. Am 1. Dezember 1839 hängt Johann Hinrich Wichern den ersten hölzernen Ring mit 24 Kerzen auf. Von Daniela Wakonigg.",
+    "sanitized": "Der heutige Adventskranz ist jung: Seit den 50er Jahren ist er das Symbol für die Vorweihnachtszeit. Am 1. Dezember 1839 hängt Johann Hinrich Wichern den ersten hölzernen Ring mit 24 Kerzen auf. Von Daniela Wakonigg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241130_2baf6c97.mp3",
+    "raw": "Hans Krása ist auf dem besten Weg, einer der führenden Komponisten im 20. Jahrhundert zu werden. Die Nationalsozialisten beenden seine Karriere und nehmen ihm das Leben.  Von Christoph Vratz.",
+    "sanitized": "Hans Krása ist auf dem besten Weg, einer der führenden Komponisten im 20. Jahrhundert zu werden. Die Nationalsozialisten beenden seine Karriere und nehmen ihm das Leben.  Von Christoph Vratz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241129_99019b6e.mp3",
+    "raw": "Friedrich Koenig hieß der deutsche Erfinder der dampfgetriebenen Zylinderpresse. Die Schnelligkeit des Drucks war revolutionär. Am 29. November 1814 wurde \"The Times\" erstmals mit der Schnellpresse gedruckt. Von Stephan Beuting.",
+    "sanitized": "Friedrich Koenig hieß der deutsche Erfinder der dampfgetriebenen Zylinderpresse. Die Schnelligkeit des Drucks war revolutionär. Am 29. November 1814 wurde \"The Times\" erstmals mit der Schnellpresse gedruckt. Von Stephan Beuting."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241128_a1357099.mp3",
+    "raw": "F.W. von Steuben (gestorben am 28.11.1794) wird vermutlich wegen seiner Homosexualität aus dem preußischen Militär entlassen. Dann spielt er eine entscheidende Rolle im US-Unabhängigkeitskrieg... Von Almut Finck.",
+    "sanitized": "F.W. von Steuben (gestorben am 28.11.1794) wird vermutlich wegen seiner Homosexualität aus dem preußischen Militär entlassen. Dann spielt er eine entscheidende Rolle im US-Unabhängigkeitskrieg... Von Almut Finck."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241127_3a3bcc87.mp3",
+    "raw": "Bertolt Brecht hat den Kapitalismus verachtet - aber schnelle Sportwagen geliebt. Und deshalb sogar einen Werbeslogan für die Marke \"Steyr\" geschrieben... Von Jürgen Werth.",
+    "sanitized": "Bertolt Brecht hat den Kapitalismus verachtet - aber schnelle Sportwagen geliebt. Und deshalb sogar einen Werbeslogan für die Marke \"Steyr\" geschrieben... Von Jürgen Werth."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241126_64b2ebc4.mp3",
+    "raw": "Bei einem Bootsausflug mit der kleinen Alice Liddell erfindet Lewis Carroll die Geschichte, die später Dalí und die Beatles inspiriert. Am 26.11.1864 übergibt er ihr sein Manuskript. Von Christian Kosfeld.",
+    "sanitized": "Bei einem Bootsausflug mit der kleinen Alice Liddell erfindet Lewis Carroll die Geschichte, die später Dalí und die Beatles inspiriert. Am 26.11.1864 übergibt er ihr sein Manuskript. Von Christian Kosfeld."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241125_98886c43.mp3",
+    "raw": "Die am 25.11.1829 geborene Schriftstellerin kämpft zeitlebens für die Unabhängigkeit von Frauen. Ihr Engagement finanziert sie selbst, mit unkonventionell verdientem Geld. Von Irene Geuer.",
+    "sanitized": "Die am 25.11.1829 geborene Schriftstellerin kämpft zeitlebens für die Unabhängigkeit von Frauen. Ihr Engagement finanziert sie selbst, mit unkonventionell verdientem Geld. Von Irene Geuer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241124_de2f3d85.mp3",
+    "raw": "Am 24.11.1874 verändert ein Patent die USA und den Wilden Westen: Der Stacheldraht revolutioniert die Viehhaltung - und hat dramatische Folgen für Cowboys und Indianer. Von Martin Herzog.",
+    "sanitized": "Am 24.11.1874 verändert ein Patent die USA und den Wilden Westen: Der Stacheldraht revolutioniert die Viehhaltung - und hat dramatische Folgen für Cowboys und Indianer. Von Martin Herzog."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241123_1b3760db.mp3",
+    "raw": "Die Waldsiedlung Wandlitz, fast 30 Jahre exklusiver Wohnort für SED-Politbüromitglieder. Am 23.11.1989 gewährt erstmals eine TV-Reportage der Öffentlichkeit Einblick. Von Thomas Klug.",
+    "sanitized": "Die Waldsiedlung Wandlitz, fast 30 Jahre exklusiver Wohnort für SED-Politbüromitglieder. Am 23.11.1989 gewährt erstmals eine TV-Reportage der Öffentlichkeit Einblick. Von Thomas Klug."
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20241122_e76dd304.mp3",
     "raw": "Groß, klein, zusammen, getrennt - die deutsche Rechtschreibung ist voller Fallstricke. Mit einer Reform sollte sie vereinheitlicht und vereinfacht werden - mit gemischtem Erfolg. Von Christian Kosfeld.",
     "sanitized": "Groß, klein, zusammen, getrennt - die deutsche Rechtschreibung ist voller Fallstricke. Mit einer Reform sollte sie vereinheitlicht und vereinfacht werden - mit gemischtem Erfolg. Von Christian Kosfeld."
@@ -1141,8 +1226,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240408_24dfdd8c.mp3",
-    "raw": "Die zehn Bände der \"Kriminalgeschichte des Christentums\" wurden zu Karlheinz Deschners Lebenswerk: Jahrzehnte der Arbeit - fast 6000 Seiten. Von Hans Conrad Zander.",
-    "sanitized": "Die zehn Bände der \"Kriminalgeschichte des Christentums\" wurden zu Karlheinz Deschners Lebenswerk: Jahrzehnte der Arbeit - fast 6000 Seiten. Von Hans Conrad Zander."
+    "raw": "Die zehn Bände der \"Kriminalgeschichte des Christentums\" wurden zu Karlheinz Deschners (Todestag 08.04.2014) Lebenswerk: Jahrzehnte der Arbeit - fast 6000 Seiten. Von Hans Conrad Zander.",
+    "sanitized": "Die zehn Bände der \"Kriminalgeschichte des Christentums\" wurden zu Karlheinz Deschners (Todestag 08.04.2014) Lebenswerk: Jahrzehnte der Arbeit - fast 6000 Seiten. Von Hans Conrad Zander."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240407_58aa186e.mp3",
@@ -1156,8 +1241,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240405_c0da738c.mp3",
-    "raw": "Die Grunge-Band Nirvana liefert den Soundtrack einer Generation - deshalb ist die Nachricht vom Suizid des Sängers Kurt Cobain im April 1994 für viele ein Schock. Von Christopher Heimer.",
-    "sanitized": "Die Grunge-Band Nirvana liefert den Soundtrack einer Generation - deshalb ist die Nachricht vom Suizid des Sängers Kurt Cobain im April 1994 für viele ein Schock. Von Christopher Heimer."
+    "raw": "Die Grunge-Band Nirvana liefert der Soundtrack einer Generation - deshalb ist die Nachricht vom Suizid des Sängers Kurt Cobain für viele ein Schock... Von Christopher Heimer.",
+    "sanitized": "Die Grunge-Band Nirvana liefert der Soundtrack einer Generation - deshalb ist die Nachricht vom Suizid des Sängers Kurt Cobain für viele ein Schock... Von Christopher Heimer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240404_dce3ed2a.mp3",
@@ -1251,8 +1336,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240317_b530fc0d.mp3",
-    "raw": "Sie ist mitten drin in der Französischen Revolution. Ihr Mann ist Innenminister, sie schreibt Texte für ihn. Dann kommt Madame Roland (geboren am 17. März 1754) in Haft. Von Christoph Vormweg.",
-    "sanitized": "Sie ist mitten drin in der Französischen Revolution. Ihr Mann ist Innenminister, sie schreibt Texte für ihn. Dann kommt Madame Roland (geboren am 17. März 1754) in Haft. Von Christoph Vormweg."
+    "raw": "Sie ist mitten drin bei der Französischen Revolution. Ihr Mann ist Innenminister, sie schreibt Texte für ihn. Dann kommt Madame Roland (geboren am 17. März 1754) in Haft. Von Christoph Vormweg.",
+    "sanitized": "Sie ist mitten drin bei der Französischen Revolution. Ihr Mann ist Innenminister, sie schreibt Texte für ihn. Dann kommt Madame Roland (geboren am 17. März 1754) in Haft. Von Christoph Vormweg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240316_98bf9aa2.mp3",
@@ -1281,13 +1366,13 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240311_b7b006f3.mp3",
-    "raw": "Weimar gilt seit Goethe als die deutsche Kulturhauptstadt schlechthin - mit sehr wechselhafter Geschichte. Die erste urkundliche Erwähnung datiert vom 11.3.899. Von Daniela Wakonigg.",
-    "sanitized": "Weimar gilt seit Goethe als die deutsche Kulturhauptstadt schlechthin - mit sehr wechselhafter Geschichte. Die erste urkundliche Erwähnung datiert vom 11.3.899. Von Daniela Wakonigg."
+    "raw": "Weimar: seit Goethe die deutsche Kulturhauptstadt schlechthin - mit allerdings sehr wechselhafter Geschichte. Erste urkundliche Erwähnung am 11.3.899. Von Daniela Wakonigg.",
+    "sanitized": "Weimar: seit Goethe die deutsche Kulturhauptstadt schlechthin - mit allerdings sehr wechselhafter Geschichte. Erste urkundliche Erwähnung am 11.3.899. Von Daniela Wakonigg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240310_fac26ec6.mp3",
-    "raw": "Am 10. März 1959 beginnt der Aufstand in Tibet, der von chinesischen Truppen blutig niedergeschlagen wird. Der Dalai Lama flieht verkleidet aus seinem Palast. Von Andrea Kath.",
-    "sanitized": "Am 10. März 1959 beginnt der Aufstand in Tibet, der von chinesischen Truppen blutig niedergeschlagen wird. Der Dalai Lama flieht verkleidet aus seinem Palast. Von Andrea Kath."
+    "raw": "Am 10. März 1959 beginnt der Aufstand in Tibet, der von chinesischen Truppen blutig niedergeschlagen wird. Der Dalai Lama floh verkleidet aus seinem Palast. Von Andrea Kath.",
+    "sanitized": "Am 10. März 1959 beginnt der Aufstand in Tibet, der von chinesischen Truppen blutig niedergeschlagen wird. Der Dalai Lama floh verkleidet aus seinem Palast. Von Andrea Kath."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240309_17b786b5.mp3",
@@ -1296,8 +1381,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240308_804a16d3.mp3",
-    "raw": "Der Schah ist gerade gestürzt, da erlassen die islamischen Revolutionäre um Khomeini ein Schleiergebot. Irans Frauen protestieren zu Tausenden. Von Marfa Heimbach.",
-    "sanitized": "Der Schah ist gerade gestürzt, da erlassen die islamischen Revolutionäre um Khomeini ein Schleiergebot. Irans Frauen protestieren zu Tausenden. Von Marfa Heimbach."
+    "raw": "Der Schah ist gerade gestürzt, da erlassen die islamischen Revolutionäre um Khomeini ein Schleiergebot. Irans Frauen protestieren zu tausenden. Von Marfa Heimbach.",
+    "sanitized": "Der Schah ist gerade gestürzt, da erlassen die islamischen Revolutionäre um Khomeini ein Schleiergebot. Irans Frauen protestieren zu tausenden. Von Marfa Heimbach."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240307_cb099c33.mp3",
@@ -1336,8 +1421,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240229_79aa30db.mp3",
-    "raw": "Jetzt  reicht's! Nina Simone erträgt den alltäglichen und tödlichen Rassismus nicht mehr – und komponiert in 20 Minuten einen Protestsong, der niemanden kaltlässt... Von Veronika Bock.",
-    "sanitized": "Jetzt  reicht's! Nina Simone erträgt den alltäglichen und tödlichen Rassismus nicht mehr – und komponiert in 20 Minuten einen Protestsong, der niemanden kaltlässt... Von Veronika Bock."
+    "raw": "Jetzt reicht´s! Nina Simone erträgt den alltäglichen und tödlichen Rassismus nicht mehr – und komponiert in 20 Minuten einen Protestsong, der niemanden kalt lässt... Von Veronika Bock.",
+    "sanitized": "Jetzt reicht´s! Nina Simone erträgt den alltäglichen und tödlichen Rassismus nicht mehr – und komponiert in 20 Minuten einen Protestsong, der niemanden kalt lässt... Von Veronika Bock."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240228_c5a8862e.mp3",
@@ -1466,8 +1551,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240203_370a5d4d.mp3",
-    "raw": "Eins ihrer Lebensthemen: Sensibilität für das Leiden anderer. Für viele gehört Simone Weil (geboren am 3.2.1909) zu den wichtigsten Philosophinnen des Abendlands. Von Doris Arp.",
-    "sanitized": "Eins ihrer Lebensthemen: Sensibilität für das Leiden anderer. Für viele gehört Simone Weil (geboren am 3.2.1909) zu den wichtigsten Philosophinnen des Abendlands. Von Doris Arp."
+    "raw": "Vor allen anderen denkt sie über die Grenzen des wirtschaftlichen Wachstums nach. Eins ihrer Lebensthemen: Sensibel für das Leiden anderer zu sein. Für viele gehört Simone Weil (geboren am 3.2.1919) zu den wichtigsten Philosophinnen des Abendlands - provokant, unbequem, kämpferisch. Von Doris Arp.",
+    "sanitized": "Vor allen anderen denkt sie über die Grenzen des wirtschaftlichen Wachstums nach. Eins ihrer Lebensthemen: Sensibel für das Leiden anderer zu sein. Für viele gehört Simone Weil (geboren am 3.2.1919) zu den wichtigsten Philosophinnen des Abendlands - provokant, unbequem, kämpferisch. Von Doris Arp."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240202_1f70f498.mp3",
@@ -1531,8 +1616,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240121_11c51041.mp3",
-    "raw": "Viele Legenden ranken sich um Rasputin, den Prediger mit dem wilden Bart, mit den geheimnisumrankten Einfluss auf die Zarin, mit seiner angeblich großen sexuellen Energie. Von Thomas Klug.",
-    "sanitized": "Viele Legenden ranken sich um Rasputin, den Prediger mit dem wilden Bart, mit den geheimnisumrankten Einfluss auf die Zarin, mit seiner angeblich großen sexuellen Energie. Von Thomas Klug."
+    "raw": "Viele Legenden ranken sich um Rasputin, den Prediger mit dem wilden Bart, mit den geheimnisumrankten Einfluss auf die Zarin, mit seinen angeblich großen sexuellen Energie... Von Thomas Klug.",
+    "sanitized": "Viele Legenden ranken sich um Rasputin, den Prediger mit dem wilden Bart, mit den geheimnisumrankten Einfluss auf die Zarin, mit seinen angeblich großen sexuellen Energie... Von Thomas Klug."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240120_58195e7c.mp3",
@@ -1556,8 +1641,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240116_eae56ac3.mp3",
-    "raw": "Fans der \"???\"-Hörspiele lieben die Stimme von Thomas Fritsch (geboren am 16.1.1944). In den 1960er Jahren sollte niemand wissen, dass der Frauenschwarm des deutschen Films schwul war. Von Fritz Schaefer.",
-    "sanitized": "Fans der \"???\"-Hörspiele lieben die Stimme von Thomas Fritsch (geboren am 16.1.1944). In den 1960er Jahren sollte niemand wissen, dass der Frauenschwarm des deutschen Films schwul war. Von Fritz Schaefer."
+    "raw": "Fans der \"???\"-Hörspiele lieben die Stimme von Thomas Fritsch (geboren am 16.1.1944). In den 1960er Jahren sollte niemand wissen, dass der Frauenschwarm des deutschen Films schwul war... Von Fritz Schaefer.",
+    "sanitized": "Fans der \"???\"-Hörspiele lieben die Stimme von Thomas Fritsch (geboren am 16.1.1944). In den 1960er Jahren sollte niemand wissen, dass der Frauenschwarm des deutschen Films schwul war... Von Fritz Schaefer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240115_9b87bbd7.mp3",
@@ -1571,8 +1656,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240113_eb8f34b1.mp3",
-    "raw": "Über den aus Alexandria überführten Gebeinen des Evangelisten Markus errichten die Venezianer dreimal eine Kirche, zuletzt die Basilika San Marco. Sie wird 1094 geweiht. Von Hildburg Heider.",
-    "sanitized": "Über den aus Alexandria überführten Gebeinen des Evangelisten Markus errichten die Venezianer dreimal eine Kirche, zuletzt die Basilika San Marco. Sie wird 1094 geweiht. Von Hildburg Heider."
+    "raw": "Die erste Basilica di San Marco fällt 976 einem Großbrand zum Opfer. Bis zum Neubau vergehen bald hundert Jahre. Am 13. Januar 1094 wird der Markusdom eingeweiht. Von Hildburg Heider.",
+    "sanitized": "Die erste Basilica di San Marco fällt 976 einem Großbrand zum Opfer. Bis zum Neubau vergehen bald hundert Jahre. Am 13. Januar 1094 wird der Markusdom eingeweiht. Von Hildburg Heider."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240112_34360707.mp3",
@@ -1581,8 +1666,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20240111_fceb8377.mp3",
-    "raw": "Kein langes, aber ein reiches, volles Leben – und eine Musik, für die die Italiener Fabrizio De André noch immer verehren, auch 25 Jahre nach seinem Tod am 11.1.1999... Von Andrea Klasen.",
-    "sanitized": "Kein langes, aber ein reiches, volles Leben – und eine Musik, für die die Italiener Fabrizio De André noch immer verehren, auch 25 Jahre nach seinem Tod am 11.1.1999... Von Andrea Klasen."
+    "raw": "Kein langes, aber ein reiches, volles Leben - und eine Musik, für die die Italiener Fabrizio De André noch immer verehren, auch 25 Jahre nach seinem Tod am 11.1.1999... Von Andrea Klasen.",
+    "sanitized": "Kein langes, aber ein reiches, volles Leben - und eine Musik, für die die Italiener Fabrizio De André noch immer verehren, auch 25 Jahre nach seinem Tod am 11.1.1999... Von Andrea Klasen."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240110_44d6da2f.mp3",
@@ -1641,8 +1726,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231230_7e984f24.mp3",
-    "raw": "Publius Ovidius Naso ist der beliebteste Schriftsteller Roms, als er von Kaiser Augustus verbannt wird. War sein Buch \"Liebeskunst\" zu gewagt? Oder hatte Ovid im Kaiserpalast Dinge gesehen, die er nicht sehen sollte? Von Marko Rösseler.",
-    "sanitized": "Publius Ovidius Naso ist der beliebteste Schriftsteller Roms, als er von Kaiser Augustus verbannt wird. War sein Buch \"Liebeskunst\" zu gewagt? Oder hatte Ovid im Kaiserpalast Dinge gesehen, die er nicht sehen sollte? Von Marko Rösseler."
+    "raw": "Publius Ovidius Naso ist der beliebteste Schriftsteller Roms, als er von Kaiser Augustus verbannt wird. War sein Buch \"Liebeskunst\" zu gewagt? Oder hatte Ovid im Kaiserpalast Dinge gesehen, die er nicht sehen sollte...? Von Marko Rösseler.",
+    "sanitized": "Publius Ovidius Naso ist der beliebteste Schriftsteller Roms, als er von Kaiser Augustus verbannt wird. War sein Buch \"Liebeskunst\" zu gewagt? Oder hatte Ovid im Kaiserpalast Dinge gesehen, die er nicht sehen sollte...? Von Marko Rösseler."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231229_9b7ce854.mp3",
@@ -1656,8 +1741,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231227_d0f79424.mp3",
-    "raw": "1.000 Jahre lang ist Zarathustras Religion vorherrschend im heutigen Iran. Mit ihr vollzieht sich der Wandel zum Monotheismus, dem Glauben an einen Gott. Von Marfa Heimbach.",
-    "sanitized": "1.000 Jahre lang ist Zarathustras Religion vorherrschend im heutigen Iran. Mit ihr vollzieht sich der Wandel zum Monotheismus, dem Glauben an einen Gott. Von Marfa Heimbach."
+    "raw": "1000 Jahre lang war Zarathustras Religion vorherrschend im heutigen Iran. Mit ihr vollzog sich der Wandel zum Monotheismus, dem Glauben an einen Gott. Von Marfa Heimbach.",
+    "sanitized": "1000 Jahre lang war Zarathustras Religion vorherrschend im heutigen Iran. Mit ihr vollzog sich der Wandel zum Monotheismus, dem Glauben an einen Gott. Von Marfa Heimbach."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231226_642c2336.mp3",
@@ -1666,8 +1751,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231225_b23dadad.mp3",
-    "raw": "Am 25.12.1643 entdeckt der britische Kapitän William Mynors eine den Europäern unbekannte Insel im Indischen Ozean. Die Weihnachtsinsel ist berühmt für ihre Krabbenpopulation - aber auch für Dinge, die sich wneiger für den Reiseprospekt eignen... Von Daniela Wakonigg.",
-    "sanitized": "Am 25.12.1643 entdeckt der britische Kapitän William Mynors eine den Europäern unbekannte Insel im Indischen Ozean. Die Weihnachtsinsel ist berühmt für ihre Krabbenpopulation - aber auch für Dinge, die sich wneiger für den Reiseprospekt eignen... Von Daniela Wakonigg."
+    "raw": "Am 25.12.1643 entdeckt der britische Kapitän William Mynors eine den Europäern unbekannte Insel im Indischen Ozean. Die Weihnachtsinsel ist berühmt für ihre Krabbenpopulation - und für weniger reiseprospekttaugliche Dinge... Von Daniela Wakonigg.",
+    "sanitized": "Am 25.12.1643 entdeckt der britische Kapitän William Mynors eine den Europäern unbekannte Insel im Indischen Ozean. Die Weihnachtsinsel ist berühmt für ihre Krabbenpopulation - und für weniger reiseprospekttaugliche Dinge... Von Daniela Wakonigg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231224_3d9b45e3.mp3",
@@ -1716,8 +1801,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231215_c0e90ac3.mp3",
-    "raw": "Im Jahr 533 verschwinden die Vandalen aus der Weltgeschichte. Vermutlich ahnen sie damals nicht, dass der Name ihres Stammes bis heute als Synonym für ungezügelte Zerstörung gilt. Von Heiner Wember.",
-    "sanitized": "Im Jahr 533 verschwinden die Vandalen aus der Weltgeschichte. Vermutlich ahnen sie damals nicht, dass der Name ihres Stammes bis heute als Synonym für ungezügelte Zerstörung gilt. Von Heiner Wember."
+    "raw": "533 verschwanden die Vandalen aus der Weltgeschichte. Würden sich die Vandalen im Grabe umdrehen, wenn sie wüssten, was wir mit ihnen verbinden? Wäre das Vandalismus?, Von Heiner Wember.",
+    "sanitized": "533 verschwanden die Vandalen aus der Weltgeschichte. Würden sich die Vandalen im Grabe umdrehen, wenn sie wüssten, was wir mit ihnen verbinden? Wäre das Vandalismus?, Von Heiner Wember."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231214_c3788ef9.mp3",
@@ -1726,13 +1811,13 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231213_9ef120d4.mp3",
-    "raw": "Der Mann, der den legendären \"Commodore 64\" auf den Markt bringt, ist nur vier Jahre zur Schule gegangen. Dies ist die beeindruckende Lebensgeschichte von Jack Tramiel, offiziell geboren am 13.12.1928... Von Jana Magdanz.",
-    "sanitized": "Der Mann, der den legendären \"Commodore 64\" auf den Markt bringt, ist nur vier Jahre zur Schule gegangen. Dies ist die beeindruckende Lebensgeschichte von Jack Tramiel, offiziell geboren am 13.12.1928... Von Jana Magdanz."
+    "raw": "Der Mann, der den legendären \"Commodore 64\" auf den Markt brachte, ist nur vier Jahre zur Schule gegangen. Dies ist die beeindruckende Lebensgeschichte von Jack Tramiel, offiziell geboren am 13.12.1928... Von Jana Magdanz.",
+    "sanitized": "Der Mann, der den legendären \"Commodore 64\" auf den Markt brachte, ist nur vier Jahre zur Schule gegangen. Dies ist die beeindruckende Lebensgeschichte von Jack Tramiel, offiziell geboren am 13.12.1928... Von Jana Magdanz."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231212_3dbb8097.mp3",
-    "raw": "An vier Haken hängt vor über 100 Jahren da Vincis Mona Lisa im Pariser Louvre, und es ist ganz leicht, sie zu stehlen. Am 12.12.1913 wird sie in Florenz sichergestellt. Von Irene Geuer.",
-    "sanitized": "An vier Haken hängt vor über 100 Jahren da Vincis Mona Lisa im Pariser Louvre, und es ist ganz leicht, sie zu stehlen. Am 12.12.1913 wird sie in Florenz sichergestellt. Von Irene Geuer."
+    "raw": "An vier Haken hängt vor über 100 Jahren da Vincis Mona Lisa im Louvre, und es ist ganz leicht, sie zu stehlen. Am 12.12.1913 wird sie in Florenz sichergestellt. Von Irene Geuer.",
+    "sanitized": "An vier Haken hängt vor über 100 Jahren da Vincis Mona Lisa im Louvre, und es ist ganz leicht, sie zu stehlen. Am 12.12.1913 wird sie in Florenz sichergestellt. Von Irene Geuer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231211_c2d043bd.mp3",
@@ -1856,8 +1941,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231117_5c4db28c.mp3",
-    "raw": "Gemeinsam mit einem Baukonzern aus NRW rettet die UNESCO den gigantischen Tempel von Ramses II., bevor der in den Fluten des Assuan-Stausees in Ägypten versinkt. Es ist der Beginn der Idee des Weltkulturerbes ... Von Martina Meißner.",
-    "sanitized": "Gemeinsam mit einem Baukonzern aus NRW rettet die UNESCO den gigantischen Tempel von Ramses II., bevor der in den Fluten des Assuan-Stausees in Ägypten versinkt. Es ist der Beginn der Idee des Weltkulturerbes ... Von Martina Meißner."
+    "raw": "Gemeinsam mit einem Baukonzern aus NRW rettet die Unesco den gigantischen Tempel von Ramses II., bevor der in den Fluten des Assuan-Stausees in Ägypten versinkt. Es ist der Beginn der Idee des Weltkulturerbes... Von Martina Meißner.",
+    "sanitized": "Gemeinsam mit einem Baukonzern aus NRW rettet die Unesco den gigantischen Tempel von Ramses II., bevor der in den Fluten des Assuan-Stausees in Ägypten versinkt. Es ist der Beginn der Idee des Weltkulturerbes... Von Martina Meißner."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231116_1a9ec937.mp3",
@@ -1886,8 +1971,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231111_8a484c9b.mp3",
-    "raw": "Karneval 1948. Westdeutschland ist in zwei, und dann in drei Besatzungszonen aufgeteilt. Aus diesem Zustand macht der Kölner Karl Berbuer am 11.11.1948 ein Lied: Wir sind die Eingeborenen von Trizonesien, damals hochaktuell und politisch brisant. Von Irene Geuer.",
-    "sanitized": "Karneval 1948. Westdeutschland ist in zwei, und dann in drei Besatzungszonen aufgeteilt. Aus diesem Zustand macht der Kölner Karl Berbuer am 11.11.1948 ein Lied: Wir sind die Eingeborenen von Trizonesien, damals hochaktuell und politisch brisant. Von Irene Geuer."
+    "raw": "Karneval 1948. Westdeutschland ist in zwei, und dann in drei Besatzungszonen aufgeteilt.  Aus diesem Zustand macht der Kölner Karl Berbuer am 11.11.1948 ein Lied: Wir sind die Eingeborenen von Trizonesien, damals hochaktuell und politisch brisant. Von Irene Geuer.",
+    "sanitized": "Karneval 1948. Westdeutschland ist in zwei, und dann in drei Besatzungszonen aufgeteilt.  Aus diesem Zustand macht der Kölner Karl Berbuer am 11.11.1948 ein Lied: Wir sind die Eingeborenen von Trizonesien, damals hochaktuell und politisch brisant. Von Irene Geuer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231110_880f9b5e.mp3",
@@ -1911,8 +1996,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231106_1c34db66.mp3",
-    "raw": "Ein blasser Mann mit Halbglatze, Typ braver Beamter - trotz dieses Aussehens lebt Mezz Mezzrow eine der wildesten Jazz-Biographien des 20. Jahrhunderts... Am 6.11.1933 nimmt er sein erstes Album auf. Von Thomas Mau.",
-    "sanitized": "Ein blasser Mann mit Halbglatze, Typ braver Beamter - trotz dieses Aussehens lebt Mezz Mezzrow eine der wildesten Jazz-Biographien des 20. Jahrhunderts... Am 6.11.1933 nimmt er sein erstes Album auf. Von Thomas Mau."
+    "raw": "Ein blasser Mann mit Halbglatze, Typ braver Beamter - trotz dieses Aussehens lebte Mezz Mezzrow eine der wildesten Jazz-Biographien des 20. Jahrhunderts... Am 6.11.1933 nahm er sein erstes Album auf. Von Thomas Mau.",
+    "sanitized": "Ein blasser Mann mit Halbglatze, Typ braver Beamter - trotz dieses Aussehens lebte Mezz Mezzrow eine der wildesten Jazz-Biographien des 20. Jahrhunderts... Am 6.11.1933 nahm er sein erstes Album auf. Von Thomas Mau."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231105_594df6ff.mp3",
@@ -1926,13 +2011,13 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231103_6b56ddda.mp3",
-    "raw": "Bis zu seiner grundlegenden Reform tagt der EGMR nur gelegentlich – am 3.11.1998 nimmt er als Ständiger Gerichtshof für Menschenrechte seine Arbeit auf. Von Susanne Rabsahl.",
-    "sanitized": "Bis zu seiner grundlegenden Reform tagt der EGMR nur gelegentlich – am 3.11.1998 nimmt er als Ständiger Gerichtshof für Menschenrechte seine Arbeit auf. Von Susanne Rabsahl."
+    "raw": "Bis zu seiner grundlegenden Reform tagt der EGMR nur gelegentlich - am 3.11.1998 nimmt er als Ständiger Gerichtshof für Menschenrechte seine Arbeit auf. Von Susanne Rabsahl.",
+    "sanitized": "Bis zu seiner grundlegenden Reform tagt der EGMR nur gelegentlich - am 3.11.1998 nimmt er als Ständiger Gerichtshof für Menschenrechte seine Arbeit auf. Von Susanne Rabsahl."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231102_150674e9.mp3",
-    "raw": "Bunt, laut und vollgestopft mit gutem Essen: So gedenken die Mexikaner der Toten an Allerseelen. Der Día de los Muertos ist eine Mischung aus Jahrtausende alten Traditionen, christlichen Einflüssen – und einem aktuellen James-Bond-Film... Von Daniela Wakonigg.",
-    "sanitized": "Bunt, laut und vollgestopft mit gutem Essen: So gedenken die Mexikaner der Toten an Allerseelen. Der Día de los Muertos ist eine Mischung aus Jahrtausende alten Traditionen, christlichen Einflüssen – und einem aktuellen James-Bond-Film... Von Daniela Wakonigg."
+    "raw": "Bunt, laut und vollgestopft mit gutem Essen: So gedenken die Mexikaner der Toten an Allerseelen. Der Día de los Muertos ist eine Mischung aus Jahrtausende alten Traditionen, christlichen Einflüssen - und einem aktuellen James-Bond-Film... Von Daniela Wakonigg.",
+    "sanitized": "Bunt, laut und vollgestopft mit gutem Essen: So gedenken die Mexikaner der Toten an Allerseelen. Der Día de los Muertos ist eine Mischung aus Jahrtausende alten Traditionen, christlichen Einflüssen - und einem aktuellen James-Bond-Film... Von Daniela Wakonigg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231101_2da1b1ae.mp3",
@@ -1956,8 +2041,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231028_1cefdab8.mp3",
-    "raw": "In der schwedischen Kleinstadt Älmhult eröffnet Ingvar Kamprad am 28.10.1958 ein Möbelhaus für Do-it-yourself-Kunden. Seine Idee entwickelt sich zum Welterfolg. Von Steffi Tenhaven.",
-    "sanitized": "In der schwedischen Kleinstadt Älmhult eröffnet Ingvar Kamprad am 28.10.1958 ein Möbelhaus für Do-it-yourself-Kunden. Seine Idee entwickelt sich zum Welterfolg. Von Steffi Tenhaven."
+    "raw": "In der schwedischen Kleinstadt Älmhut eröffnet Ingvar Kamprad am 28.10.1958 ein Möbelhaus für Do-it-yourself-Kunden. Seine Idee entwickelt sich zum Welterfolg. Von Steffi Tenhaven.",
+    "sanitized": "In der schwedischen Kleinstadt Älmhut eröffnet Ingvar Kamprad am 28.10.1958 ein Möbelhaus für Do-it-yourself-Kunden. Seine Idee entwickelt sich zum Welterfolg. Von Steffi Tenhaven."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231027_29de30ce.mp3",
@@ -2011,13 +2096,13 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231017_aa72d402.mp3",
-    "raw": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinder können dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp.",
-    "sanitized": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinder können dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp."
+    "raw": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinderkönnen dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp.",
+    "sanitized": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinderkönnen dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231016_c12d03e4.mp3",
-    "raw": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Aber die Zeit der Stahlmonster neigt sich dem Ende. Von Martina Meißner.",
-    "sanitized": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Aber die Zeit der Stahlmonster neigt sich dem Ende. Von Martina Meißner."
+    "raw": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Nun geht die Zeit der Stahlmonster geht zu Ende. Von Martina Meißner.",
+    "sanitized": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Nun geht die Zeit der Stahlmonster geht zu Ende. Von Martina Meißner."
   },
   {
     "itemId": "/wdr_zeitzeichen_20231015_2ac1dd7a.mp3",
@@ -2131,8 +2216,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230924_945de38b.mp3",
-    "raw": "Der kleine Frank Mars ist kränklich, geht selten zur Schule – und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer.",
-    "sanitized": "Der kleine Frank Mars ist kränklich, geht selten zur Schule – und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer."
+    "raw": "Der kleine Frank Mars ist kränklich, geht selten zur Schule - und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer.",
+    "sanitized": "Der kleine Frank Mars ist kränklich, geht selten zur Schule - und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230923_fb02babe.mp3",
@@ -2196,8 +2281,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230911_cdc25e00.mp3",
-    "raw": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende. Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock.",
-    "sanitized": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende. Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock."
+    "raw": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende: Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock.",
+    "sanitized": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende: Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230910_4053a42f.mp3",
@@ -2216,8 +2301,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230907_1998cce5.mp3",
-    "raw": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt - und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau.",
-    "sanitized": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt - und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau."
+    "raw": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau.",
+    "sanitized": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230906_ad7966e4.mp3",
@@ -2251,8 +2336,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230831_18dfc062.mp3",
-    "raw": "Partyhauptstadt Berlin: In den 1920ern spielte sich das oft im \"Haus Vaterland\" ab, neu eröffnet am 31.8.1928, mit Essen und Vergnügen für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann.",
-    "sanitized": "Partyhauptstadt Berlin: In den 1920ern spielte sich das oft im \"Haus Vaterland\" ab, neu eröffnet am 31.8.1928, mit Essen und Vergnügen für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann."
+    "raw": "Im \"Haus Vaterland\" wird geklotzt statt gekleckert. Eröffnet am 31.08.1923 bietet Berlins Vergnügungstempel Platz zum tanzen, essen und in die Ferne schweifen - und das für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann.",
+    "sanitized": "Im \"Haus Vaterland\" wird geklotzt statt gekleckert. Eröffnet am 31.08.1923 bietet Berlins Vergnügungstempel Platz zum tanzen, essen und in die Ferne schweifen - und das für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230830_8c04027c.mp3",
@@ -2281,8 +2366,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230825_57640f1a.mp3",
-    "raw": "Ein Großmeister der Spannungsliteratur wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg.",
-    "sanitized": "Ein Großmeister der Spannungsliteratur wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg."
+    "raw": "Der Großmeister der Spionageromane wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg.",
+    "sanitized": "Der Großmeister der Spionageromane wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230824_0399eb52.mp3",
@@ -2301,8 +2386,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230821_7346a92d.mp3",
-    "raw": "Bis heute ist der Tod des einzigen Sohns von Kaiserin \"Sisi\" und Franz Joseph I. Gegenstand von Romanen und Verschwörungsmythen. Am 21.8.1858 wird er geboren. Von Daniela Wakonigg.",
-    "sanitized": "Bis heute ist der Tod des einzigen Sohns von Kaiserin \"Sisi\" und Franz Joseph I. Gegenstand von Romanen und Verschwörungsmythen. Am 21.8.1858 wird er geboren. Von Daniela Wakonigg."
+    "raw": "Die Erziehung des kleines Rudolf: brutal und sadistisch. Der Tod des einzigen Sohns von Kaiserin \"Sissi\" ist bis heute Gegenstand von Romanen und Verschwörungsmythen. Von Daniela Wakonigg.",
+    "sanitized": "Die Erziehung des kleines Rudolf: brutal und sadistisch. Der Tod des einzigen Sohns von Kaiserin \"Sissi\" ist bis heute Gegenstand von Romanen und Verschwörungsmythen. Von Daniela Wakonigg."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230820_2a3d645b.mp3",
@@ -2311,8 +2396,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230819_dbf5cb6c.mp3",
-    "raw": "Ende des 13. Jahrhunderts eskalieren in Florenz die Konflikte zwischen  alten Herrschern und einer neuen Mittelschicht, der \"popolani\". Ihr größter Coup: Sie setzen im Stadtrat eine Verordnung durch, die viele Adelsfamilien von Ämtern ausschließt. Doch die Macht hält nicht lange. Von Michael Struck-Schloen.",
-    "sanitized": "Ende des 13. Jahrhunderts eskalieren in Florenz die Konflikte zwischen  alten Herrschern und einer neuen Mittelschicht, der \"popolani\". Ihr größter Coup: Sie setzen im Stadtrat eine Verordnung durch, die viele Adelsfamilien von Ämtern ausschließt. Doch die Macht hält nicht lange. Von Michael Struck-Schloen."
+    "raw": "Sie waren frühe Kapitalisten, eine erste Mittelschicht: Im 13. Jahrhundert kommen Bürger in Florenz zu Geld - und sie fordern Macht... Von Michael Struck-Schloen.",
+    "sanitized": "Sie waren frühe Kapitalisten, eine erste Mittelschicht: Im 13. Jahrhundert kommen Bürger in Florenz zu Geld - und sie fordern Macht... Von Michael Struck-Schloen."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230818_50b7a70a.mp3",
@@ -2326,8 +2411,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230816_8f1b251e.mp3",
-    "raw": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama ist ein bespielloser Kriminalfall. Von Herwig Katzer.",
-    "sanitized": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama ist ein bespielloser Kriminalfall. Von Herwig Katzer."
+    "raw": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama war ein bespielloser Kriminalfall. Von Herwig Katzer.",
+    "sanitized": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama war ein bespielloser Kriminalfall. Von Herwig Katzer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230815_e44b6891.mp3",
@@ -2801,8 +2886,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230513_7511c391.mp3",
-    "raw": "Heute vor 100 Jahren, am 13. Mai 1923, wurde der Muttertag in Deutschland eingeführt: vom \"Verband deutscher Blumengeschäftsinhaber\". Seine überraschend unkommerziellen Wurzeln aber hat der Tag in den USA. Blumen, Basteleien, Brötchen ans Bett - hiermit werden viele Mütter an einem Sonntag im Mai beglückt. Ist der Tag heute noch zeitgemäß? Autorin: Steffi Tenhaven Von Steffi Tenhaven.",
-    "sanitized": "Heute vor 100 Jahren, am 13. Mai 1923, wurde der Muttertag in Deutschland eingeführt: vom \"Verband deutscher Blumengeschäftsinhaber\". Seine überraschend unkommerziellen Wurzeln aber hat der Tag in den USA. Blumen, Basteleien, Brötchen ans Bett - hiermit werden viele Mütter an einem Sonntag im Mai beglückt. Ist der Tag heute noch zeitgemäß? Autorin: Steffi Tenhaven Von Steffi Tenhaven."
+    "raw": "Heute vor 100 Jahren, am 13. Mai 1923, wurde der Muttertag in Deutschland eingeführt: vom \"Verband deutscher Blumengeschäftsinhaber\". Seine überraschend unkommerziellen Wurzeln aber hat der Tag in den USA. Blumen, Basteleien, Brötchen ans Bett - hiermit werden viele Mütter an einem Sonntag im Mai beglückt.  Ist der Tag heute noch zeitgemäß? Autorin: Steffi Tenhaven Von Steffi Tenhaven.",
+    "sanitized": "Heute vor 100 Jahren, am 13. Mai 1923, wurde der Muttertag in Deutschland eingeführt: vom \"Verband deutscher Blumengeschäftsinhaber\". Seine überraschend unkommerziellen Wurzeln aber hat der Tag in den USA. Blumen, Basteleien, Brötchen ans Bett - hiermit werden viele Mütter an einem Sonntag im Mai beglückt.  Ist der Tag heute noch zeitgemäß? Autorin: Steffi Tenhaven Von Steffi Tenhaven."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230512_8711c593.mp3",
@@ -2831,8 +2916,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230507_feb10a2b.mp3",
-    "raw": "Ein wildes Leben im Mittelalter: Hermann von Goch war erst ein Mann der Kirche, wurde reich, heiratete – und nutzte seinen Einfluss, dass der Papst persönlich seine Ehe nachträglich erlaubte. In Köln besaß er bald ein Monopol auf das Biergewürz, alle Brauer musste diese \"Grut\" bei ihm einkaufen. Und er hatte viele Neider, die ihm schließlich den Kopf kosteten. Autorin: Irene Geuer Von Irene Geuer.",
-    "sanitized": "Ein wildes Leben im Mittelalter: Hermann von Goch war erst ein Mann der Kirche, wurde reich, heiratete – und nutzte seinen Einfluss, dass der Papst persönlich seine Ehe nachträglich erlaubte. In Köln besaß er bald ein Monopol auf das Biergewürz, alle Brauer musste diese \"Grut\" bei ihm einkaufen. Und er hatte viele Neider, die ihm schließlich den Kopf kosteten. Autorin: Irene Geuer Von Irene Geuer."
+    "raw": "Ein wildes Leben im Mittelalter: Hermann von Goch war erst ein Mann der Kirche, wurde reich, heiratete – und nutzte seinen Einfluss, dass der Papst persönlich seine Ehe nachträglich erlaubte. In Köln besaß er bald ein Monopol auf das Biergewürz, alle Brauer musste diese Grut bei ihm einkaufen. Und er hatte viele Neider, die ihm schließlich den Kopf kosteten. Autorin: Irene Geuer Von Irene Geuer.",
+    "sanitized": "Ein wildes Leben im Mittelalter: Hermann von Goch war erst ein Mann der Kirche, wurde reich, heiratete – und nutzte seinen Einfluss, dass der Papst persönlich seine Ehe nachträglich erlaubte. In Köln besaß er bald ein Monopol auf das Biergewürz, alle Brauer musste diese Grut bei ihm einkaufen. Und er hatte viele Neider, die ihm schließlich den Kopf kosteten. Autorin: Irene Geuer Von Irene Geuer."
   },
   {
     "itemId": "/wdr_zeitzeichen_20230506_ec94a283.mp3",
@@ -2913,90 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230421_12757266.mp3",
     "raw": "Einen halben Kreuzer mehr sollen die Frankfurter 1873 für ihr Bier zahlen. Eine Preiserhöhung um etwa 12 Prozent für ein Grundnahrungsmittel der Arbeiterschaft. Die Polizei kapituliert vor den wütenden Massen - aber das preußische Militär schießt. Autorin: Martina Meißner Von Martina Meißner.",
     "sanitized": "Einen halben Kreuzer mehr sollen die Frankfurter 1873 für ihr Bier zahlen. Eine Preiserhöhung um etwa 12 Prozent für ein Grundnahrungsmittel der Arbeiterschaft. Die Polizei kapituliert vor den wütenden Massen - aber das preußische Militär schießt. Autorin: Martina Meißner Von Martina Meißner."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230420_c267ac6e.mp3",
-    "raw": "Das \"kollektive Produzieren\" im Dienst Bertolt Brechts hieß für Elisabeth Hauptmann lange: Sie hat mit ihm Schreibtisch und Bett geteilt. Ihr Anteil als Texterin, Übersetzerin und Komponistin am Kassenschlager \"Dreigroschenoper\"wird auf bis zu 80 Prozent geschätzt. Bei der Verteilung der Einnahmen erhielt sie wesentlich weniger. Autor: Christoph Vormweg Von Christoph Vormweg.",
-    "sanitized": "Das \"kollektive Produzieren\" im Dienst Bertolt Brechts hieß für Elisabeth Hauptmann lange: Sie hat mit ihm Schreibtisch und Bett geteilt. Ihr Anteil als Texterin, Übersetzerin und Komponistin am Kassenschlager \"Dreigroschenoper\"wird auf bis zu 80 Prozent geschätzt. Bei der Verteilung der Einnahmen erhielt sie wesentlich weniger. Autor: Christoph Vormweg Von Christoph Vormweg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230419_0a6e2e5f.mp3",
-    "raw": "Erfunden in einem sterilen Schweizer Pharmalabor, Modedroge der Hippies, heute als \"Microdosing\" wieder populär: LSD wurde erfunden vom Chemiker Albert Hofmann. Der testete die Substanz heute vor 80 Jahren zum ersten Mal. Der erste LSD-Trip der Geschichte endete mit einer rasanten Fahrt auf dem Fahrrad... Autorin: Daniela Wakonigg Von Daniela Wakonigg.",
-    "sanitized": "Erfunden in einem sterilen Schweizer Pharmalabor, Modedroge der Hippies, heute als \"Microdosing\" wieder populär: LSD wurde erfunden vom Chemiker Albert Hofmann. Der testete die Substanz heute vor 80 Jahren zum ersten Mal. Der erste LSD-Trip der Geschichte endete mit einer rasanten Fahrt auf dem Fahrrad... Autorin: Daniela Wakonigg Von Daniela Wakonigg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230418_426e2d66.mp3",
-    "raw": "In dem Heft \"Action Comics No.1\" erschien \"Superman\" zum ersten Mal - heute ist die Ausgabe Millionen wert. Zunächst hatte der Erfinder Superman als Bösesicht erdacht, doch als Kämpfer für das Gute hatte er mehr Potential. Mit Deutschland verbindet den starken Helden seine frühe Geschichte: Goebbels wollte den 'jüdischen Superman' verbieten. Der vermöbelte dann in den Comics bildgewaltig die Nazis. Autorin: Christiane Kopka Von Christiane Kopka.",
-    "sanitized": "In dem Heft \"Action Comics No.1\" erschien \"Superman\" zum ersten Mal - heute ist die Ausgabe Millionen wert. Zunächst hatte der Erfinder Superman als Bösesicht erdacht, doch als Kämpfer für das Gute hatte er mehr Potential. Mit Deutschland verbindet den starken Helden seine frühe Geschichte: Goebbels wollte den 'jüdischen Superman' verbieten. Der vermöbelte dann in den Comics bildgewaltig die Nazis. Autorin: Christiane Kopka Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230417_32cbc236.mp3",
-    "raw": "Die nach Robert Atkins benannte Diät war in den 1970er Jahren ein Renner. Umstritten ist seine \"Low Carb\"-Methode bis heute. Auch wenn sie jetzt (in Form des Protein-Hypes) wieder modern wird. Autorin: Irene Geuer Von Irene Geuer.",
-    "sanitized": "Die nach Robert Atkins benannte Diät war in den 1970er Jahren ein Renner. Umstritten ist seine \"Low Carb\"-Methode bis heute. Auch wenn sie jetzt (in Form des Protein-Hypes) wieder modern wird. Autorin: Irene Geuer Von Irene Geuer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230416_426e2e63.mp3",
-    "raw": "Ein Dirigent von überragender Begabung, doch tragisch und früh verstorben: István Kertész steht in einer Reihe mit großen ungarischen Dirigenten der Nachkriegszeit. Autor: Christoph Vratz Von Christoph Vratz.",
-    "sanitized": "Ein Dirigent von überragender Begabung, doch tragisch und früh verstorben: István Kertész steht in einer Reihe mit großen ungarischen Dirigenten der Nachkriegszeit. Autor: Christoph Vratz Von Christoph Vratz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230415_766e2859.mp3",
-    "raw": "Lieber tot als unfrei: Die Eroberung der Festung Masada durch die Römer im Jahr 73 und die kollektive Selbsttötung der dort verschanzten letzten jüdischen Widerstandskämpfer wurde zum Symbol und Mythos des modernen israelischen Freiheitswillens. Autorin: Marfa Heimbach Von Marfa Heimbach.",
-    "sanitized": "Lieber tot als unfrei: Die Eroberung der Festung Masada durch die Römer im Jahr 73 und die kollektive Selbsttötung der dort verschanzten letzten jüdischen Widerstandskämpfer wurde zum Symbol und Mythos des modernen israelischen Freiheitswillens. Autorin: Marfa Heimbach Von Marfa Heimbach."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230414_406e2b55.mp3",
-    "raw": "Hobby-Archäologen finden einen Schatz: 2018 machen René Schön und ein 13-jähriger Junge auf Rügen einen wertvollen Jahrhundertfund, der in die Zeit des sagenhaften Dänenkönigs Harald Blauzahn zurückweist... Autor: Ralph Erdenberger Von Ralph Erdenberger.",
-    "sanitized": "Hobby-Archäologen finden einen Schatz: 2018 machen René Schön und ein 13-jähriger Junge auf Rügen einen wertvollen Jahrhundertfund, der in die Zeit des sagenhaften Dänenkönigs Harald Blauzahn zurückweist... Autor: Ralph Erdenberger Von Ralph Erdenberger."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230413_eb6e2c6a.mp3",
-    "raw": "Toleranz-Edikte gab es viele - alleine acht im langen Religionskrieg des 16. Jahrhunderts in Frankreich. Doch keines bewirkte, dass der Hass zwischen Katholiken und Protestanten weniger wurde. Bis ein König kam, der eine Toleranzpflicht nicht nur erließ, sondern auch durchsetzte... Autor: Hans Conrad Zander Von Hans Conrad Zander.",
-    "sanitized": "Toleranz-Edikte gab es viele - alleine acht im langen Religionskrieg des 16. Jahrhunderts in Frankreich. Doch keines bewirkte, dass der Hass zwischen Katholiken und Protestanten weniger wurde. Bis ein König kam, der eine Toleranzpflicht nicht nur erließ, sondern auch durchsetzte... Autor: Hans Conrad Zander Von Hans Conrad Zander."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230412_0a6bf36c.mp3",
-    "raw": "Montserrat Caballé wurde vom armen Mädchen zu einer der größten Sopranistinnen des 20. Jahrhunderts. Eine Lebensgeschichte wie ein Märchen, das sie ihrer außergewöhnlichen Stimme und ihrem Fleiß zu verdanken hat. Ein Duett mit Queen-Sänger Freddie Mercury hat sie weltweit populär gemacht. Autor: Christoph Vratz Von Christoph Vratz.",
-    "sanitized": "Montserrat Caballé wurde vom armen Mädchen zu einer der größten Sopranistinnen des 20. Jahrhunderts. Eine Lebensgeschichte wie ein Märchen, das sie ihrer außergewöhnlichen Stimme und ihrem Fleiß zu verdanken hat. Ein Duett mit Queen-Sänger Freddie Mercury hat sie weltweit populär gemacht. Autor: Christoph Vratz Von Christoph Vratz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230411_a56bf270.mp3",
-    "raw": "Wenn seine Krimis im Radio oder später im TV liefen, waren die Straßen leergefegt. Einschaltquoten wie die Paul-Temple-Geschichten von Francis Durbridge haben heute nicht einmal die Finalspiele einer Fußball-WM. Und zu Durbridge-Live-Hörspielen mit Stars wie Bastian Pastewka kommen auch heute noch Tausende. Autorin: Ariane Hoffmann Von Ariane Hoffmann.",
-    "sanitized": "Wenn seine Krimis im Radio oder später im TV liefen, waren die Straßen leergefegt. Einschaltquoten wie die Paul-Temple-Geschichten von Francis Durbridge haben heute nicht einmal die Finalspiele einer Fußball-WM. Und zu Durbridge-Live-Hörspielen mit Stars wie Bastian Pastewka kommen auch heute noch Tausende. Autorin: Ariane Hoffmann Von Ariane Hoffmann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230410_1f6bf178.mp3",
-    "raw": "Wenn von den Opfern der DDR-Grenze die Rede ist, geht es meist um Flüchtlinge, die während eines Fluchtversuchs zu Tode kamen - doch es gab noch andere Tote: Menschen, die an der Grenze zusammenklappten, die vor lauter Aufregung einen Herzinfarkt bekamen, wenn sie aus der Reihe der Wartenden gefischt wurden. Wie Rudolf Burkert aus Bremen. Sein Tod ließ die Empörung in Ost und West hochkochen... Autoren: Veronika Bock und Ulli Biermann Von Veronika Bock /Ulli Biermann.",
-    "sanitized": "Wenn von den Opfern der DDR-Grenze die Rede ist, geht es meist um Flüchtlinge, die während eines Fluchtversuchs zu Tode kamen - doch es gab noch andere Tote: Menschen, die an der Grenze zusammenklappten, die vor lauter Aufregung einen Herzinfarkt bekamen, wenn sie aus der Reihe der Wartenden gefischt wurden. Wie Rudolf Burkert aus Bremen. Sein Tod ließ die Empörung in Ost und West hochkochen... Autoren: Veronika Bock und Ulli Biermann Von Veronika Bock /Ulli Biermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230409_15006090.mp3",
-    "raw": "Sein Name war eine Bürde: Der älteste Enkel des Dichters Johann Wolfgang von Goethe wurde als Komponist verlacht und als Autor ignoriert -  erst jetzt wird seine Kunst entdeckt. Autorin: Irene Dänzer-Vanotti Von Irene Dänzer-Vanotti.",
-    "sanitized": "Sein Name war eine Bürde: Der älteste Enkel des Dichters Johann Wolfgang von Goethe wurde als Komponist verlacht und als Autor ignoriert -  erst jetzt wird seine Kunst entdeckt. Autorin: Irene Dänzer-Vanotti Von Irene Dänzer-Vanotti."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230408_e06bf17c.mp3",
-    "raw": "1979 wird die erste Frau britische Premierministerin: Margaret \"Maggie\"  Thatcher. Nach wenigen Monaten ist die Parteiführerin der Konservativen die einflussreichste und mächtigste Frau Europas, die \"eiserne Lady\". Autor: Wolfgang Meyer Von Wolfgang Meyer.",
-    "sanitized": "1979 wird die erste Frau britische Premierministerin: Margaret \"Maggie\"  Thatcher. Nach wenigen Monaten ist die Parteiführerin der Konservativen die einflussreichste und mächtigste Frau Europas, die \"eiserne Lady\". Autor: Wolfgang Meyer Von Wolfgang Meyer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230407_7c6bf182.mp3",
-    "raw": "In Würde sterben können, mit erträglichen Schmerzen: Das stand in Deutschland lange nicht im Fokus der Medizin. Bis im Jahr 1983 eine junge Ärztin in kleinen Räumen der Uniklinik Köln eine Revolution startete... Autorin: Jana Magdanz Von Jana Magdanz.",
-    "sanitized": "In Würde sterben können, mit erträglichen Schmerzen: Das stand in Deutschland lange nicht im Fokus der Medizin. Bis im Jahr 1983 eine junge Ärztin in kleinen Räumen der Uniklinik Köln eine Revolution startete... Autorin: Jana Magdanz Von Jana Magdanz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230406_5f6bf886.mp3",
-    "raw": "In der Antike verheißt eine Sonnenfinsternis nichts Gutes: Dunkelheit mitten am Tag bedeutet für die Menschen eine Bedrohung der Weltordnung - das stellt auch die Macht der Herrschenden infrage. Heute vor 2760 Jahren verdunkelte der Mond die Sonne: die erste von einem Schriftsteller beschriebene Sonnenfinsternis. Autor: Martin Herzog Von Martin Herzog.",
-    "sanitized": "In der Antike verheißt eine Sonnenfinsternis nichts Gutes: Dunkelheit mitten am Tag bedeutet für die Menschen eine Bedrohung der Weltordnung - das stellt auch die Macht der Herrschenden infrage. Heute vor 2760 Jahren verdunkelte der Mond die Sonne: die erste von einem Schriftsteller beschriebene Sonnenfinsternis. Autor: Martin Herzog Von Martin Herzog."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230405_5a6fe52e.mp3",
-    "raw": "Nach ihren größten Idolen befragt, nannte vor wenigen Jahren noch mehr als jeder zehnte Deutsche Dietrich Bonhoeffer. Kein anderer Theologe des 20. Jahrhunderts ist heute noch so vielen Menschen ein Begriff, weil er seinen christlichen Glauben konsequent durchdacht und gelebt hat - bis zum Tod im Konzentrationslager. Autor: Uwe Schulz Von Uwe Schulz.",
-    "sanitized": "Nach ihren größten Idolen befragt, nannte vor wenigen Jahren noch mehr als jeder zehnte Deutsche Dietrich Bonhoeffer. Kein anderer Theologe des 20. Jahrhunderts ist heute noch so vielen Menschen ein Begriff, weil er seinen christlichen Glauben konsequent durchdacht und gelebt hat - bis zum Tod im Konzentrationslager. Autor: Uwe Schulz Von Uwe Schulz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230404_be6fe428.mp3",
-    "raw": "Mit 320 PS aus Dampfkraft über den Atlantik statt unter Segeln? Als die \"Sirius\" 1838 von Cork in Südirland in Richtung New York in See sticht, ist noch völlig offen, ob sie es überhaupt allein mit Dampfkraft über den Atlantik schaffen wird. Autor: Marko Rösseler Von Marko Rösseler.",
-    "sanitized": "Mit 320 PS aus Dampfkraft über den Atlantik statt unter Segeln? Als die \"Sirius\" 1838 von Cork in Südirland in Richtung New York in See sticht, ist noch völlig offen, ob sie es überhaupt allein mit Dampfkraft über den Atlantik schaffen wird. Autor: Marko Rösseler Von Marko Rösseler."
   }
 ]

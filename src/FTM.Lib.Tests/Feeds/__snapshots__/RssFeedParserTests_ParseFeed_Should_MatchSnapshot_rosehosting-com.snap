@@ -2,89 +2,89 @@
   "Id": "https://www.rosehosting.com/blog/feed/",
   "Website": "https://www.rosehosting.com/blog/",
   "Title": "RoseHosting",
-  "LastUpdatedTime": "2024-10-28T13:37:39+00:00",
+  "LastUpdatedTime": "2024-11-18T18:55:00+00:00",
   "Description": "Premium Linux Tutorials Since 2001",
   "Language": "en-US",
   "Items": [
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49329",
-      "Title": "Domain vs Hosting: Understanding the Key Differences",
-      "PublishDate": "2024-10-30T17:30:00+00:00",
-      "Summary": "<p>Whether you’re establishing a personal blog or promoting a business, it’s helpful to understand the fundamental aspects of a website. ... </p>\n<p class=\"read-more-container\"><a title=\"Domain vs Hosting: Understanding the Key Differences\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/domain-vs-hosting/#more-49329\" aria-label=\"Read more about Domain vs Hosting: Understanding the Key Differences\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/domain-vs-hosting/\">Domain vs Hosting: Understanding the Key Differences</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49551",
+      "Title": "How to Configure Static IP Address on Ubuntu 24.04",
+      "PublishDate": "2024-12-04T18:30:00+00:00",
+      "Summary": "<p>A machine or other devices connected to your router usually have a dynamic IP address. The DHCP server will assign ... </p>\n<p class=\"read-more-container\"><a title=\"How to Configure Static IP Address on Ubuntu 24.04\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-configure-static-ip-address-on-ubuntu-24-04/#more-49551\" aria-label=\"Read more about How to Configure Static IP Address on Ubuntu 24.04\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-configure-static-ip-address-on-ubuntu-24-04/\">How to Configure Static IP Address on Ubuntu 24.04</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/domain-vs-hosting/"
+      "Link": "https://www.rosehosting.com/blog/how-to-configure-static-ip-address-on-ubuntu-24-04/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49293",
-      "Title": "What is Virtual Desktop Infrastructure & How Does It Enhance Remote Operations and Security?",
-      "PublishDate": "2024-10-28T17:30:00+00:00",
-      "Summary": "<p>There’s no getting around it – remote work is here to stay. To make this new way of working successful, ... </p>\n<p class=\"read-more-container\"><a title=\"What is Virtual Desktop Infrastructure &#38; How Does It Enhance Remote Operations and Security?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/virtual-desktop-infrastructure/#more-49293\" aria-label=\"Read more about What is Virtual Desktop Infrastructure &#38; How Does It Enhance Remote Operations and Security?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/virtual-desktop-infrastructure/\">What is Virtual Desktop Infrastructure &amp; How Does It Enhance Remote Operations and Security?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49494",
+      "Title": "How to Install Odoo 18 on Ubuntu 24.04",
+      "PublishDate": "2024-12-02T18:30:00+00:00",
+      "Summary": "<p>Odoo is an open-source Python and Javascript software used to manage business processes. It includes various features such as customer ... </p>\n<p class=\"read-more-container\"><a title=\"How to Install Odoo 18 on Ubuntu 24.04\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-ubuntu-24-04/#more-49494\" aria-label=\"Read more about How to Install Odoo 18 on Ubuntu 24.04\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-ubuntu-24-04/\">How to Install Odoo 18 on Ubuntu 24.04</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/virtual-desktop-infrastructure/"
+      "Link": "https://www.rosehosting.com/blog/how-to-install-odoo-18-on-ubuntu-24-04/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49246",
-      "Title": "Best Open Source Hosting Control Panels for 2024",
-      "PublishDate": "2024-10-23T17:30:00+00:00",
-      "Summary": "<p>What are the best open-source hosting control panels in 2024? With a slew of options to choose from, we&#8217;ll cover ... </p>\n<p class=\"read-more-container\"><a title=\"Best Open Source Hosting Control Panels for 2024\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/#more-49246\" aria-label=\"Read more about Best Open Source Hosting Control Panels for 2024\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/\">Best Open Source Hosting Control Panels for 2024</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49513",
+      "Title": "How to Change Your Domain Name the Right Way",
+      "PublishDate": "2024-11-27T18:30:00+00:00",
+      "Summary": "<p>This blog post will show you how to change your domain name correctly. A domain name is a string that ... </p>\n<p class=\"read-more-container\"><a title=\"How to Change Your Domain Name the Right Way\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-change-your-domain-name/#more-49513\" aria-label=\"Read more about How to Change Your Domain Name the Right Way\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-change-your-domain-name/\">How to Change Your Domain Name the Right Way</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/best-open-source-hosting-control-panels-for-2024/"
+      "Link": "https://www.rosehosting.com/blog/how-to-change-your-domain-name/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49222",
-      "Title": "Fstab options: What are they, and when should you use them?",
-      "PublishDate": "2024-10-21T17:30:00+00:00",
-      "Summary": "<p>What is fstab in Lunix? What are fstab options, and when should you use them? Our latest tutorial covers all ... </p>\n<p class=\"read-more-container\"><a title=\"Fstab options: What are they, and when should you use them?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/fstab-options/#more-49222\" aria-label=\"Read more about Fstab options: What are they, and when should you use them?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/fstab-options/\">Fstab options: What are they, and when should you use them?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49490",
+      "Title": "The Difference between Brotli vs gzip to speed up your site",
+      "PublishDate": "2024-11-25T06:26:00+00:00",
+      "Summary": "<p>HTTP compression is a built-in capability in most modern web servers and clients. This reduces the size of data or ... </p>\n<p class=\"read-more-container\"><a title=\"The Difference between Brotli vs gzip to speed up your site\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/brotli-vs-gzip/#more-49490\" aria-label=\"Read more about The Difference between Brotli vs gzip to speed up your site\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/brotli-vs-gzip/\">The Difference between Brotli vs gzip to speed up your site</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/fstab-options/"
+      "Link": "https://www.rosehosting.com/blog/brotli-vs-gzip/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49231",
-      "Title": "Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other",
-      "PublishDate": "2024-10-16T17:30:00+00:00",
-      "Summary": "<p>Good, fast, cheap. Pick two! This popular phrase is often used throughout agencies when client expectations unrealistically want all three. ... </p>\n<p class=\"read-more-container\"><a title=\"Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/root-access/#more-49231\" aria-label=\"Read more about Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/root-access/\">Root Access with Unconditional Fully-Managed Support: Hosting Unlike Any Other</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49472",
+      "Title": "Nameservers: What Are They And How Do They Work?",
+      "PublishDate": "2024-11-20T18:30:00+00:00",
+      "Summary": "<p>When hosting a website on a server, you were probably asked by your hosting company to point your domain to ... </p>\n<p class=\"read-more-container\"><a title=\"Nameservers: What Are They And How Do They Work?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-are-nameservers/#more-49472\" aria-label=\"Read more about Nameservers: What Are They And How Do They Work?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-are-nameservers/\">Nameservers: What Are They And How Do They Work?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/root-access/"
+      "Link": "https://www.rosehosting.com/blog/what-are-nameservers/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49124",
-      "Title": "How to Redirect URLs Using Nginx",
-      "PublishDate": "2024-10-14T17:30:00+00:00",
-      "Summary": "<p>URL redirection, also called URL forwarding, allows multiple URL addresses to be associated with a single page. This can include ... </p>\n<p class=\"read-more-container\"><a title=\"How to Redirect URLs Using Nginx\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/#more-49124\" aria-label=\"Read more about How to Redirect URLs Using Nginx\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/\">How to Redirect URLs Using Nginx</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49476",
+      "Title": "How to Install Odoo 18 on Debian 12",
+      "PublishDate": "2024-11-18T18:30:00+00:00",
+      "Summary": "<p>Odoo, formerly OpenERP, is a suite of open-source business applications. It is widely regarded as a leading open-source enterprise resource ... </p>\n<p class=\"read-more-container\"><a title=\"How to Install Odoo 18 on Debian 12\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/#more-49476\" aria-label=\"Read more about How to Install Odoo 18 on Debian 12\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/\">How to Install Odoo 18 on Debian 12</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/how-to-redirect-urls-using-nginx/"
+      "Link": "https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49127",
-      "Title": "What is Systemctl and How Should You Use It?",
-      "PublishDate": "2024-10-09T17:30:00+00:00",
-      "Summary": "<p>Systemd is a popular init system that serves as a management tool for various systems within the Linux operating environment. ... </p>\n<p class=\"read-more-container\"><a title=\"What is Systemctl and How Should You Use It?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-is-systemctl/#more-49127\" aria-label=\"Read more about What is Systemctl and How Should You Use It?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-is-systemctl/\">What is Systemctl and How Should You Use It?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49468",
+      "Title": "How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04",
+      "PublishDate": "2024-11-13T18:30:00+00:00",
+      "Summary": "<p>Nginx or NGINX is a widely used web server with many features, including load balancing, reverse proxying, content caching, mail ... </p>\n<p class=\"read-more-container\"><a title=\"How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/#more-49468\" aria-label=\"Read more about How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/\">How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/what-is-systemctl/"
+      "Link": "https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/"
     },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49074",
-      "Title": "Linux Commands Cheat Sheet: Your Complete Reference",
-      "PublishDate": "2024-10-07T17:30:00+00:00",
-      "Summary": "<p>The Linux command line interface offers complete control over your Linux system. Although many Linux commands may seem scary or ... </p>\n<p class=\"read-more-container\"><a title=\"Linux Commands Cheat Sheet: Your Complete Reference\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/linux-commands-cheat-sheet/#more-49074\" aria-label=\"Read more about Linux Commands Cheat Sheet: Your Complete Reference\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/linux-commands-cheat-sheet/\">Linux Commands Cheat Sheet: Your Complete Reference</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49418",
+      "Title": "What is Price Transparency, and How Does it Benefit You?",
+      "PublishDate": "2024-11-11T18:30:00+00:00",
+      "Summary": "<p>Price transparency. Cost transparency. Open pricing. No hidden fees. All synonyms that are changing the way you make purchase decisions. ... </p>\n<p class=\"read-more-container\"><a title=\"What is Price Transparency, and How Does it Benefit You?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-is-price-transparency/#more-49418\" aria-label=\"Read more about What is Price Transparency, and How Does it Benefit You?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-is-price-transparency/\">What is Price Transparency, and How Does it Benefit You?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
       "Content": null,
       "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/linux-commands-cheat-sheet/"
+      "Link": "https://www.rosehosting.com/blog/what-is-price-transparency/"
     }
   ]
 }

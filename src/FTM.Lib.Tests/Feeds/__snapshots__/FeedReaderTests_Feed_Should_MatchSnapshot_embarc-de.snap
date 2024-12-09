@@ -2,10 +2,20 @@
   "Id": "https://www.embarc.de/blog/index.xml",
   "Website": "https://www.embarc.de/blog/",
   "Title": "Blog on embarc",
-  "LastUpdatedTime": "2024-11-18T10:00:00+00:00",
+  "LastUpdatedTime": "2024-12-05T00:00:00+00:00",
   "Description": "Recent content in Blog on embarc",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/interview-anja-kammer-datensicherheit/",
+      "Title": "Im Gespräch mit Anja Kammer zu Datensicherheit in der Produktentwicklung",
+      "PublishDate": "2024-12-05T00:00:00+00:00",
+      "Summary": "&nbsp;  (Stefan Zörner) &ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&quot;\nAnja Kammer: Ich bin Senior Consultant bei INNOQ. Während meiner täglichen Projektarbeit arbeite ich trotzdem Hands-on am Code und auch an Infrastrukturarchitektur und Softwarearchitektur, meistens in der Cloud. Aber ich bin auch beratend tätig. Ich unterstütze Unternehmen, die in die Cloud wollen oder bestimmte Fallstricke vorhersehen möchten.\nUnd ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektur-Themen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/interview-anja-kammer-datensicherheit/"
+    },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
       "ItemId": "https://www.embarc.de/interview-matthias-naab-plattformen/",

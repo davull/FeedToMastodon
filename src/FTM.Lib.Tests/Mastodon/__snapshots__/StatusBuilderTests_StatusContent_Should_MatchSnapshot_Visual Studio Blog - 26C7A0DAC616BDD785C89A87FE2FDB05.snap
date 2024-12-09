@@ -1,0 +1,6 @@
+﻿How Inline Return Values Simplify Debugging in Visual Studio 2022
+
+Have you ever found yourself creating temporary variables just to inspect return values from functions? It’s a small task that can quickly become tedious, breaking your rhythm and cluttering up your code. Visual Studio 2022 introduces a smarter way to handle this with “Inline Return Values,” allowing you to stay focused on coding without the […]
+The post How Inline Return Values Simplify Debuggi...
+---
+https://devblogs.microsoft.com/visualstudio/how-inline-return-values-simplify-debugging-in-visual-studio-2022/

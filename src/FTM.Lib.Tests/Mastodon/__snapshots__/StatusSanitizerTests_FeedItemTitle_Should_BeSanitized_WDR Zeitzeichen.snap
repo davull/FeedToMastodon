@@ -1,5 +1,90 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20241209_9fc3fbe6.mp3",
+    "raw": "Hape Kerkeling wird 60 (Geburtstag am 9.12.1964)",
+    "sanitized": "Hape Kerkeling wird 60 (Geburtstag am 9.12.1964)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241208_d0f24a57.mp3",
+    "raw": "Giuseppe Verdi gründet ein Altersheim für Musikschaffende",
+    "sanitized": "Giuseppe Verdi gründet ein Altersheim für Musikschaffende"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241207_e72eb406.mp3",
+    "raw": "Theodor Heuss: Schuld, Scham und Deutschlands Neubeginn",
+    "sanitized": "Theodor Heuss: Schuld, Scham und Deutschlands Neubeginn"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241206_47ec72ad.mp3",
+    "raw": "Jiu-Jitsu im Rock: Kampfsport für Frauenrechte im Jahr 1909",
+    "sanitized": "Jiu-Jitsu im Rock: Kampfsport für Frauenrechte im Jahr 1909"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241205_ed784e86.mp3",
+    "raw": "Hexenbulle: Wie ein Papsterlass die Hexenjagd befeuerte",
+    "sanitized": "Hexenbulle: Wie ein Papsterlass die Hexenjagd befeuerte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241204_a4d145e4.mp3",
+    "raw": "Sultan Süleyman I. der Prächtige erobert Bagdad (am 4.12.1534)",
+    "sanitized": "Sultan Süleyman I. der Prächtige erobert Bagdad (am 4.12.1534)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241203_3fcaa70f.mp3",
+    "raw": "Meister von Schauer, Spannung und Abenteuer",
+    "sanitized": "Meister von Schauer, Spannung und Abenteuer"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241202_979c555a.mp3",
+    "raw": "Nackt gegen die Kolonialherrschaft: Krieg der Frauen in Nigeria",
+    "sanitized": "Nackt gegen die Kolonialherrschaft: Krieg der Frauen in Nigeria"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241201_78ef6923.mp3",
+    "raw": "Der Weihnachts-Countdown: Die Erfindung des Adventskranzes",
+    "sanitized": "Der Weihnachts-Countdown: Die Erfindung des Adventskranzes"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241130_2baf6c97.mp3",
+    "raw": "Musik im Schatten des Holocaust: Hans Krása (geb. 30.11.1899)",
+    "sanitized": "Musik im Schatten des Holocaust: Hans Krása (geb. 30.11.1899)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241129_99019b6e.mp3",
+    "raw": "Massenmedien: \"The Times\" erstmals mit Schnellpresse gedruckt",
+    "sanitized": "Massenmedien: \"The Times\" erstmals mit Schnellpresse gedruckt"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241128_a1357099.mp3",
+    "raw": "Wie ein Preuße die US-Armee schuf: Wilhelm von Steuben",
+    "sanitized": "Wie ein Preuße die US-Armee schuf: Wilhelm von Steuben"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241127_3a3bcc87.mp3",
+    "raw": "Auto-Fan Bertolt Brecht kauft einen Sportwagen (am 27.11.1949)",
+    "sanitized": "Auto-Fan Bertolt Brecht kauft einen Sportwagen (am 27.11.1949)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241126_64b2ebc4.mp3",
+    "raw": "Verträumter Nonsens statt Moralerziehung: Alice im Wunderland",
+    "sanitized": "Verträumter Nonsens statt Moralerziehung: Alice im Wunderland"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241125_98886c43.mp3",
+    "raw": "Deutsche Antwort auf Sherlock Holmes: Autorin Jenny Hirsch",
+    "sanitized": "Deutsche Antwort auf Sherlock Holmes: Autorin Jenny Hirsch"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241124_de2f3d85.mp3",
+    "raw": "Patent für Stacheldraht: Das Ende der Cowboy-Ära?",
+    "sanitized": "Patent für Stacheldraht: Das Ende der Cowboy-Ära?"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241123_1b3760db.mp3",
+    "raw": "Das geheime Leben der DDR-Elite: die Waldsiedlung Wandlitz",
+    "sanitized": "Das geheime Leben der DDR-Elite: die Waldsiedlung Wandlitz"
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20241122_e76dd304.mp3",
     "raw": "Start ins Chaos: Konferenz zur Rechtschreibreform (22.11.1994)",
     "sanitized": "Start ins Chaos: Konferenz zur Rechtschreibreform (22.11.1994)"
@@ -1716,8 +1801,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231215_c0e90ac3.mp3",
-    "raw": "Das Ende des Vandalenreichs mit der Schlacht von Tricamarum",
-    "sanitized": "Das Ende des Vandalenreichs mit der Schlacht von Tricamarum"
+    "raw": "Die Schlacht von Tricamarum: Ende des Vandalenreichs",
+    "sanitized": "Die Schlacht von Tricamarum: Ende des Vandalenreichs"
   },
   {
     "itemId": "/wdr_zeitzeichen_20231214_c3788ef9.mp3",
@@ -2011,8 +2096,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20231017_aa72d402.mp3",
-    "raw": "17.10.1883: Geburtstag des Reformpädagogen A. S. Neill",
-    "sanitized": "17.10.1883: Geburtstag des Reformpädagogen A. S. Neill"
+    "raw": "Geburtstag des Reformpädagogen A. S. Neill (am 17.10.1883)",
+    "sanitized": "Geburtstag des Reformpädagogen A. S. Neill (am 17.10.1883)"
   },
   {
     "itemId": "/wdr_zeitzeichen_20231016_c12d03e4.mp3",
@@ -2301,8 +2386,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230821_7346a92d.mp3",
-    "raw": "Der unglückliche Kronprinz: Erzherzog Rudolf",
-    "sanitized": "Der unglückliche Kronprinz: Erzherzog Rudolf"
+    "raw": "Der unglückliche Kronprinz: Erzherzog Rudolf (Geb. 21.8.1858)",
+    "sanitized": "Der unglückliche Kronprinz: Erzherzog Rudolf (Geb. 21.8.1858)"
   },
   {
     "itemId": "/wdr_zeitzeichen_20230820_2a3d645b.mp3",
@@ -2731,8 +2816,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20230527_da11ba7e.mp3",
-    "raw": "Henry Kissinger: Machtpolitiker und Stratege der US-Außenpolitik",
-    "sanitized": "Henry Kissinger: Machtpolitiker und Stratege der US-Außenpolitik"
+    "raw": "Henry Kissinger: Machtpoltiker und Stratege der US-Außenpolitik",
+    "sanitized": "Henry Kissinger: Machtpoltiker und Stratege der US-Außenpolitik"
   },
   {
     "itemId": "/wdr_zeitzeichen_20230526_62bbe72b.mp3",
@@ -2913,90 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230421_12757266.mp3",
     "raw": "Tote wegen teurem Bier (am 21.04.1873)",
     "sanitized": "Tote wegen teurem Bier (am 21.04.1873)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230420_c267ac6e.mp3",
-    "raw": "Elisabeth Hauptmann, Brechts Koautorin (Todestag, 20.04.1973)",
-    "sanitized": "Elisabeth Hauptmann, Brechts Koautorin (Todestag, 20.04.1973)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230419_0a6e2e5f.mp3",
-    "raw": "Der erste LSD-Trip: Albert Hofmanns \"Bicycle Day\" (19.4.1943)",
-    "sanitized": "Der erste LSD-Trip: Albert Hofmanns \"Bicycle Day\" (19.4.1943)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230418_426e2d66.mp3",
-    "raw": "Der erste Auftritt von \"Superman\" (am 18.04.1938)",
-    "sanitized": "Der erste Auftritt von \"Superman\" (am 18.04.1938)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230417_32cbc236.mp3",
-    "raw": "Robert Atkins, Diätforscher (Todestag, 17.04.2003)",
-    "sanitized": "Robert Atkins, Diätforscher (Todestag, 17.04.2003)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230416_426e2e63.mp3",
-    "raw": "István Kertész, Dirigent (Todestag, 16.04.1973)",
-    "sanitized": "István Kertész, Dirigent (Todestag, 16.04.1973)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230415_766e2859.mp3",
-    "raw": "Fall der Festung Masada in Judäa (im Jahr 73)",
-    "sanitized": "Fall der Festung Masada in Judäa (im Jahr 73)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230414_406e2b55.mp3",
-    "raw": "Harald Blauzahns Silberschatz von Rügen (Bekanntgabe, 14.4.2018)",
-    "sanitized": "Harald Blauzahns Silberschatz von Rügen (Bekanntgabe, 14.4.2018)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230413_eb6e2c6a.mp3",
-    "raw": "Das Edikt von Nantes: Toleranz macht Wohlstand (13.4.1598)",
-    "sanitized": "Das Edikt von Nantes: Toleranz macht Wohlstand (13.4.1598)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230412_0a6bf36c.mp3",
-    "raw": "Die letzte Diva: Montserrat Caballé (Geburtstag, 12.04.1933)",
-    "sanitized": "Die letzte Diva: Montserrat Caballé (Geburtstag, 12.04.1933)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230411_a56bf270.mp3",
-    "raw": "Francis Durbridge, Kultkrimi-Autor (Todestag, 11.04.1998)",
-    "sanitized": "Francis Durbridge, Kultkrimi-Autor (Todestag, 11.04.1998)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230410_1f6bf178.mp3",
-    "raw": "Tod des Transitreisenden Rudolf Burkert (am 10.04.1983)",
-    "sanitized": "Tod des Transitreisenden Rudolf Burkert (am 10.04.1983)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230409_15006090.mp3",
-    "raw": "Walther von Goethe, Komponist (Geburtstag, 09.04.1818)",
-    "sanitized": "Walther von Goethe, Komponist (Geburtstag, 09.04.1818)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230408_e06bf17c.mp3",
-    "raw": "Margaret Thatcher, brit. Regierungschefin (Todestag, 08.04.2013)",
-    "sanitized": "Margaret Thatcher, brit. Regierungschefin (Todestag, 08.04.2013)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230407_7c6bf182.mp3",
-    "raw": "Die erste deutsche Palliativstation (am 07.04.1983)",
-    "sanitized": "Die erste deutsche Palliativstation (am 07.04.1983)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230406_5f6bf886.mp3",
-    "raw": "Die Sonnenfinsternis des Archilochos (am 6.4.648 v.Chr.)",
-    "sanitized": "Die Sonnenfinsternis des Archilochos (am 6.4.648 v.Chr.)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230405_5a6fe52e.mp3",
-    "raw": "Verhaftung des evangelischen Theologen Dietrich Bonhoeffer (am 05.04.1943)",
-    "sanitized": "Verhaftung des evangelischen Theologen Dietrich Bonhoeffer (am 05.04.1943)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230404_be6fe428.mp3",
-    "raw": "Erste Transatlantikfahrt unter Dampf beginnt (am 04.04.1838)",
-    "sanitized": "Erste Transatlantikfahrt unter Dampf beginnt (am 04.04.1838)"
   }
 ]

@@ -1,0 +1,6 @@
+﻿Home Assistant Yellow gets CM5 support in HAOS 14
+
+We launched our Home Assistant Yellow over two years ago, with the design philosophy that it would grow and extend its capabilities with its users’ needs. Need more storage, add an NVMe drive. Need Matter over Thread instead of Zigbee, change the firmware.
+Thanks to Raspberry Pi providing us with an early sample, we have been able to add Compute Module 5 (CM5) compatibility to the Home Assistant Yellow, which w...
+---
+https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support/

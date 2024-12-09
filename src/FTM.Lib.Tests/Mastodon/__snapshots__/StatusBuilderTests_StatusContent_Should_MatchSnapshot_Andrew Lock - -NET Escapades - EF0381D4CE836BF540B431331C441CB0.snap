@@ -1,0 +1,5 @@
+﻿Cross-Origin-Embedder-Policy: securing embedded resources: Understanding cross-origin security headers - Part 3
+
+In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs
+---
+https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/

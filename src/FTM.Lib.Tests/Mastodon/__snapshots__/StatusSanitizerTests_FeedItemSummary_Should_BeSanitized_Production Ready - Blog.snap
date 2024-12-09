@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://www.production-ready.de/2024/11/24/feed-to-mastodon",
+    "raw": "Viele Blogs und News-Webseite informieren über neue Artikel und Beiträge auch auf den vielen Social Media Plattformen wie Twitter, Facebook oder Threads. Leider ist Mastodon oft noch kein Ziel dieser Cross-Postings. Da ich Mastodon selbst gerne als News-Quelle und Aggregator verschiedener Blogs nutze, habe ich eine Anwendung geschrieben, die RSS-Feeds automatisch im Fediverse veröffentlicht.",
+    "sanitized": "Viele Blogs und News-Webseite informieren über neue Artikel und Beiträge auch auf den vielen Social Media Plattformen wie Twitter, Facebook oder Threads. Leider ist Mastodon oft noch kein Ziel dieser Cross-Postings. Da ich Mastodon selbst gerne als News-Quelle und Aggregator verschiedener Blogs nutze, habe ich eine Anwendung geschrieben, die RSS-Feeds automatisch im Fediverse veröffentlicht."
+  },
+  {
     "itemId": "https://www.production-ready.de/2024/05/10/integration-testing-with-docker",
     "raw": "In einem vorherigen Blog-Post habe ich gezeigt, wie man mit Hilfe von Testcontainers Integrationstests in einer .NET-Anwendung umsetzen kann. Möchte man die Docker-Container nicht innerhalb des Test-Codes verwalten, bietet es sich an, die Container unabhängig von der Test-Ausführung zu starten und zu stoppen. Docker Compose und das Azure DevOps-Feature Service-Containers bieten sich hier als Alternativen an.",
     "sanitized": "In einem vorherigen Blog-Post habe ich gezeigt, wie man mit Hilfe von Testcontainers Integrationstests in einer .NET-Anwendung umsetzen kann. Möchte man die Docker-Container nicht innerhalb des Test-Codes verwalten, bietet es sich an, die Container unabhängig von der Test-Ausführung zu starten und zu stoppen. Docker Compose und das Azure DevOps-Feature Service-Containers bieten sich hier als Alternativen an."

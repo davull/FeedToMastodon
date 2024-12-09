@@ -1,592 +1,492 @@
 ﻿[
   {
+    "itemId": "https://www.ksta.de/917235",
+    "raw": "Typisierung für Leo: 362 Menschen machten in Mechernich den Speicheltest",
+    "sanitized": "Typisierung für Leo: 362 Menschen machten in Mechernich den Speicheltest"
+  },
+  {
+    "itemId": "https://www.ksta.de/917250",
+    "raw": "Kreisliga A: Pyrotechnik nach dem Schlusspfiff in Mechernich – Flamersheim entzaubert Sötenich",
+    "sanitized": "Kreisliga A: Pyrotechnik nach dem Schlusspfiff in Mechernich – Flamersheim entzaubert Sötenich"
+  },
+  {
+    "itemId": "https://www.ksta.de/917229",
+    "raw": "Mitsingkonzert: Kinderschutzbund Mechernich lud zum „Advänz für Pänz“",
+    "sanitized": "Mitsingkonzert: Kinderschutzbund Mechernich lud zum „Advänz für Pänz“"
+  },
+  {
+    "itemId": "https://www.ksta.de/917189",
+    "raw": "Zwei Menschen schwer verletzt: Autofahrer fährt in Zingsheim in Fußgänger und Kinderwagen",
+    "sanitized": "Zwei Menschen schwer verletzt: Autofahrer fährt in Zingsheim in Fußgänger und Kinderwagen"
+  },
+  {
+    "itemId": "https://www.ksta.de/916470",
+    "raw": "Jubiläumsausstellung: Euskirchener Modelleisenbahnbauer machen sich Sorgen um die Zukunft",
+    "sanitized": "Jubiläumsausstellung: Euskirchener Modelleisenbahnbauer machen sich Sorgen um die Zukunft"
+  },
+  {
+    "itemId": "https://www.ksta.de/916545",
+    "raw": "Handball-Oberliga: Der TV Palmersheim zündete gegen Aachen den Turbo erst spät",
+    "sanitized": "Handball-Oberliga: Der TV Palmersheim zündete gegen Aachen den Turbo erst spät"
+  },
+  {
+    "itemId": "https://www.ksta.de/916297",
+    "raw": "Song-Adventskalender: WDR4-Moderatorin Katja Franke liebt ein Weihnachtslied von ABBA",
+    "sanitized": "Song-Adventskalender: WDR4-Moderatorin Katja Franke liebt ein Weihnachtslied von ABBA"
+  },
+  {
+    "itemId": "https://www.ksta.de/916465",
+    "raw": "Konzert: Neunjährige tanzt Hip-Hop zu Gitarren-Weihnachtsmusik in Euskirchen",
+    "sanitized": "Konzert: Neunjährige tanzt Hip-Hop zu Gitarren-Weihnachtsmusik in Euskirchen"
+  },
+  {
+    "itemId": "https://www.ksta.de/916559",
+    "raw": "Geschwindigkeitskontrollen: Kommunen im Kreis Euskirchen würden gerne selbst blitzen",
+    "sanitized": "Geschwindigkeitskontrollen: Kommunen im Kreis Euskirchen würden gerne selbst blitzen"
+  },
+  {
+    "itemId": "https://www.ksta.de/916420",
+    "raw": "Problem nimmt zu: Kaller Bauhof kämpft gegen wilden Müll und Vandalismus",
+    "sanitized": "Problem nimmt zu: Kaller Bauhof kämpft gegen wilden Müll und Vandalismus"
+  },
+  {
+    "itemId": "https://www.ksta.de/916599",
+    "raw": "Fußball-Bezirksliga: Ein Torwartfehler entscheidet das Derby zwischen Dahlem und Bessenich",
+    "sanitized": "Fußball-Bezirksliga: Ein Torwartfehler entscheidet das Derby zwischen Dahlem und Bessenich"
+  },
+  {
+    "itemId": "https://www.ksta.de/916631",
+    "raw": "Fußball-Landesliga: David Sasse sieht „schlechteste Viertelstunde“ als Zülpicher Trainer",
+    "sanitized": "Fußball-Landesliga: David Sasse sieht „schlechteste Viertelstunde“ als Zülpicher Trainer"
+  },
+  {
+    "itemId": "https://www.ksta.de/916449",
+    "raw": "Zweiter Advent: Der Krieg in Gaza war Thema auf dem Weihnachtsmarkt im Kloster Steinfeld",
+    "sanitized": "Zweiter Advent: Der Krieg in Gaza war Thema auf dem Weihnachtsmarkt im Kloster Steinfeld"
+  },
+  {
+    "itemId": "https://www.ksta.de/916415",
+    "raw": "Ein Gloria zum Mitsingen: Höhner begeistern mit Weihnachtskonzert in Euskirchen",
+    "sanitized": "Ein Gloria zum Mitsingen: Höhner begeistern mit Weihnachtskonzert in Euskirchen"
+  },
+  {
+    "itemId": "https://www.ksta.de/915336",
+    "raw": "Aufwendige Dachsanierung: Marder leistete an Hans-Verbeek-Schule in Euskirchen ganze Arbeit",
+    "sanitized": "Aufwendige Dachsanierung: Marder leistete an Hans-Verbeek-Schule in Euskirchen ganze Arbeit"
+  },
+  {
+    "itemId": "https://www.ksta.de/913902",
+    "raw": "Streit ums Geld: Politiker im Kreis Euskirchen beraten über 532-Millionen-Euro-Paket",
+    "sanitized": "Streit ums Geld: Politiker im Kreis Euskirchen beraten über 532-Millionen-Euro-Paket"
+  },
+  {
+    "itemId": "https://www.ksta.de/915402",
+    "raw": "Umweltsünde wird beseitigt: Schwermetalle aus Mechernich noch in Rotterdam nachweisbar",
+    "sanitized": "Umweltsünde wird beseitigt: Schwermetalle aus Mechernich noch in Rotterdam nachweisbar"
+  },
+  {
+    "itemId": "https://www.ksta.de/915372",
+    "raw": "Bad Münstereifel: Bauausschuss gibt grünes Licht für Sanierung des Eifelbad-Daches",
+    "sanitized": "Bad Münstereifel: Bauausschuss gibt grünes Licht für Sanierung des Eifelbad-Daches"
+  },
+  {
+    "itemId": "https://www.ksta.de/915842",
+    "raw": "Weilerswist: 80-Jähriger stürzt an Bahnübergang und wird von Zug erfasst und tödlich verletzt",
+    "sanitized": "Weilerswist: 80-Jähriger stürzt an Bahnübergang und wird von Zug erfasst und tödlich verletzt"
+  },
+  {
+    "itemId": "https://www.ksta.de/915345",
+    "raw": "Wasserstoff und autonomes Fahren: RVK steckt 91 Millionen Euro in ihre Mechernicher Projekte",
+    "sanitized": "Wasserstoff und autonomes Fahren: RVK steckt 91 Millionen Euro in ihre Mechernicher Projekte"
+  },
+  {
+    "itemId": "https://www.ksta.de/915210",
+    "raw": "Song-Adventskalender: Junge Zülpicherin hat schon zwei Weihnachtssongs geschrieben",
+    "sanitized": "Song-Adventskalender: Junge Zülpicherin hat schon zwei Weihnachtssongs geschrieben"
+  },
+  {
+    "itemId": "https://www.ksta.de/915253",
+    "raw": "Handball-Vorschau: Der TV Palmersheim will Wiedergutmachung nach der Derby-Niederlage",
+    "sanitized": "Handball-Vorschau: Der TV Palmersheim will Wiedergutmachung nach der Derby-Niederlage"
+  },
+  {
+    "itemId": "https://www.ksta.de/915346",
+    "raw": "Traumazentrum schließt: Hilfsangebot für Flutbetroffene in Gemünd wird eingestellt",
+    "sanitized": "Traumazentrum schließt: Hilfsangebot für Flutbetroffene in Gemünd wird eingestellt"
+  },
+  {
+    "itemId": "https://www.ksta.de/671378",
+    "raw": "Termine und Infos: Weihnachtsmärkte 2024 im Kreis Euskirchen und der Eifel im Überblick",
+    "sanitized": "Termine und Infos: Weihnachtsmärkte 2024 im Kreis Euskirchen und der Eifel im Überblick"
+  },
+  {
+    "itemId": "https://www.ksta.de/915301",
+    "raw": "82 Hektar stehen bereit: Stadt Schleiden will an drei Standorten Solarparks entwickeln",
+    "sanitized": "82 Hektar stehen bereit: Stadt Schleiden will an drei Standorten Solarparks entwickeln"
+  },
+  {
+    "itemId": "https://www.ksta.de/915127",
+    "raw": "Prozess: Kampfmittelfunde erfunden – Marien-Hospital Euskirchen zahlte dennoch Millionen",
+    "sanitized": "Prozess: Kampfmittelfunde erfunden – Marien-Hospital Euskirchen zahlte dennoch Millionen"
+  },
+  {
+    "itemId": "https://www.ksta.de/915213",
+    "raw": "Fußball-Bezirksliga: Der SV Bessenich hofft auf die Rückkehr von Torjäger Moritz Abels",
+    "sanitized": "Fußball-Bezirksliga: Der SV Bessenich hofft auf die Rückkehr von Torjäger Moritz Abels"
+  },
+  {
+    "itemId": "https://www.ksta.de/915012",
+    "raw": "Verwüstung: Euskirchener flüchtet vor Polizei und rast über Friedhof und mehrere Gräber",
+    "sanitized": "Verwüstung: Euskirchener flüchtet vor Polizei und rast über Friedhof und mehrere Gräber"
+  },
+  {
+    "itemId": "https://www.ksta.de/914825",
+    "raw": "Weihnachtsbrauch: Jeder dritte Tannenbaum kommt aus NRW – Öko-Alternativen gibt es auch in der Region",
+    "sanitized": "Weihnachtsbrauch: Jeder dritte Tannenbaum kommt aus NRW – Öko-Alternativen gibt es auch in der Region"
+  },
+  {
+    "itemId": "https://www.ksta.de/914830",
+    "raw": "Adventskalender: John Lennon und Rolf Zuckowski dürfen auf Weihnachtsplaylist nicht fehlen",
+    "sanitized": "Adventskalender: John Lennon und Rolf Zuckowski dürfen auf Weihnachtsplaylist nicht fehlen"
+  },
+  {
+    "itemId": "https://www.ksta.de/693212",
+    "raw": "Es weihnachtet sehr: Besinnliche Ausflüge in Eifel und Umgebung",
+    "sanitized": "Es weihnachtet sehr: Besinnliche Ausflüge in Eifel und Umgebung"
+  },
+  {
+    "itemId": "https://www.ksta.de/914356",
+    "raw": "Jugendfußball: A-Junioren der JSG Erft Euskirchen demontieren den Tabellenführer",
+    "sanitized": "Jugendfußball: A-Junioren der JSG Erft Euskirchen demontieren den Tabellenführer"
+  },
+  {
+    "itemId": "https://www.ksta.de/914353",
+    "raw": "Geschirr für alle Anlässe: „Tischlein deck dich“ in Freilingen hat gut 7000 Teile im Bestand",
+    "sanitized": "Geschirr für alle Anlässe: „Tischlein deck dich“ in Freilingen hat gut 7000 Teile im Bestand"
+  },
+  {
+    "itemId": "https://www.ksta.de/914339",
+    "raw": "Sparzwang: Bei diesen Projekten setzt der Kreis Euskirchen schon jetzt den Rotstift an",
+    "sanitized": "Sparzwang: Bei diesen Projekten setzt der Kreis Euskirchen schon jetzt den Rotstift an"
+  },
+  {
+    "itemId": "https://www.ksta.de/914308",
+    "raw": "Fernkunde mit Drohnen: KI hilft bei der Forschung im Nationalpark Eifel",
+    "sanitized": "Fernkunde mit Drohnen: KI hilft bei der Forschung im Nationalpark Eifel"
+  },
+  {
+    "itemId": "https://www.ksta.de/914528",
+    "raw": "Prozess am Landgericht: Wie ein Trio Geld des Marien-Hospitals Euskirchen aufteilte",
+    "sanitized": "Prozess am Landgericht: Wie ein Trio Geld des Marien-Hospitals Euskirchen aufteilte"
+  },
+  {
+    "itemId": "https://www.ksta.de/914219",
+    "raw": "Frauenfußball: Aufsteiger Zülpich feiert Kantersieg und die Herbstmeisterschaft",
+    "sanitized": "Frauenfußball: Aufsteiger Zülpich feiert Kantersieg und die Herbstmeisterschaft"
+  },
+  {
+    "itemId": "https://www.ksta.de/914194",
+    "raw": "Heimatpreis: Die Gemeinde Hellenthal ehrt die Betreiber der Grube Wohlfahrt in Rescheid",
+    "sanitized": "Heimatpreis: Die Gemeinde Hellenthal ehrt die Betreiber der Grube Wohlfahrt in Rescheid"
+  },
+  {
+    "itemId": "https://www.ksta.de/913874",
+    "raw": "Song-Adventskalender: Für die Band Spirit ist schon lange Weihnachten",
+    "sanitized": "Song-Adventskalender: Für die Band Spirit ist schon lange Weihnachten"
+  },
+  {
+    "itemId": "https://www.ksta.de/913371",
+    "raw": "Kurse in Euskirchen: So kann Yoga bei Depression und Angstzuständen helfen",
+    "sanitized": "Kurse in Euskirchen: So kann Yoga bei Depression und Angstzuständen helfen"
+  },
+  {
+    "itemId": "https://www.ksta.de/913335",
+    "raw": "Bewerbung per Mail: SPD, FDP und Grüne in Kall suchen Kandidat für die Bürgermeisterwahl",
+    "sanitized": "Bewerbung per Mail: SPD, FDP und Grüne in Kall suchen Kandidat für die Bürgermeisterwahl"
+  },
+  {
+    "itemId": "https://www.ksta.de/913550",
+    "raw": "Heimbacher Kloster: Pfarrer bekommt nach Ausstrahlung von ARD-„Tatort“ kritische Nachrichten",
+    "sanitized": "Heimbacher Kloster: Pfarrer bekommt nach Ausstrahlung von ARD-„Tatort“ kritische Nachrichten"
+  },
+  {
+    "itemId": "https://www.ksta.de/913428",
+    "raw": "Nur eine Fahrt: Landwirte im Kreis Euskirchen haben Nase voll wegen hoher Auflagen für Lichterzüge",
+    "sanitized": "Nur eine Fahrt: Landwirte im Kreis Euskirchen haben Nase voll wegen hoher Auflagen für Lichterzüge"
+  },
+  {
+    "itemId": "https://www.ksta.de/913420",
+    "raw": "Angstraum für Reisende: Fußgängertunnel am Kaller Bahnhof soll endlich umgestaltet werden",
+    "sanitized": "Angstraum für Reisende: Fußgängertunnel am Kaller Bahnhof soll endlich umgestaltet werden"
+  },
+  {
+    "itemId": "https://www.ksta.de/913314",
+    "raw": "Kampfsport: So bereitet Baker Barakat die Fight Night in Mechernich vor",
+    "sanitized": "Kampfsport: So bereitet Baker Barakat die Fight Night in Mechernich vor"
+  },
+  {
+    "itemId": "https://www.ksta.de/913280",
+    "raw": "Polit-Nachwuchs: Wie Dieter Bohlen: SPD im Kreis Euskirchen sucht „die nächste Kanzlerin“",
+    "sanitized": "Polit-Nachwuchs: Wie Dieter Bohlen: SPD im Kreis Euskirchen sucht „die nächste Kanzlerin“"
+  },
+  {
+    "itemId": "https://www.ksta.de/913211",
+    "raw": "Planungen: Neue Brücke könnte mehr Platz in Bad Münstereifeler Schule schaffen",
+    "sanitized": "Planungen: Neue Brücke könnte mehr Platz in Bad Münstereifeler Schule schaffen"
+  },
+  {
+    "itemId": "https://www.ksta.de/912505",
+    "raw": "Musikkarriere: Von der Euskirchener Blue Mary Big Band auf die Bühnen in aller Welt",
+    "sanitized": "Musikkarriere: Von der Euskirchener Blue Mary Big Band auf die Bühnen in aller Welt"
+  },
+  {
+    "itemId": "https://www.ksta.de/912597",
+    "raw": "Song-Adventskalender: Dominic Sanz tritt mit „3-Heit“ in seiner Heimat Freilingen auf",
+    "sanitized": "Song-Adventskalender: Dominic Sanz tritt mit „3-Heit“ in seiner Heimat Freilingen auf"
+  },
+  {
+    "itemId": "https://www.ksta.de/912532",
+    "raw": "Machbarkeitsstudie: Im Goldenen Tal in Bad Münstereifel ist eine neue Grundschule möglich",
+    "sanitized": "Machbarkeitsstudie: Im Goldenen Tal in Bad Münstereifel ist eine neue Grundschule möglich"
+  },
+  {
+    "itemId": "https://www.ksta.de/912491",
+    "raw": "Sondersitzung: Kreis Euskirchen steckt 219 Millionen Euro in die Zukunft der Berufskollegs",
+    "sanitized": "Sondersitzung: Kreis Euskirchen steckt 219 Millionen Euro in die Zukunft der Berufskollegs"
+  },
+  {
+    "itemId": "https://www.ksta.de/909771",
+    "raw": "Hilfe in der Not: Uli Wecker aus Bad Münstereifel rettet Leben seines 81-jährigen Nachbarn",
+    "sanitized": "Hilfe in der Not: Uli Wecker aus Bad Münstereifel rettet Leben seines 81-jährigen Nachbarn"
+  },
+  {
+    "itemId": "https://www.ksta.de/912580",
+    "raw": "Gewerbegebiet Wißkirchen: Pläne für Autohof in Euskirchen sind vom Tisch",
+    "sanitized": "Gewerbegebiet Wißkirchen: Pläne für Autohof in Euskirchen sind vom Tisch"
+  },
+  {
+    "itemId": "https://www.ksta.de/912288",
+    "raw": "Kritik an Unternehmen: Weiter massive Beschwerden wegen des Glasfaserausbaus in Kall",
+    "sanitized": "Kritik an Unternehmen: Weiter massive Beschwerden wegen des Glasfaserausbaus in Kall"
+  },
+  {
+    "itemId": "https://www.ksta.de/512973",
+    "raw": "Haushälfte oder Waldstück: Diese Grundstücke werden im Kreis Euskirchen und der Eifel zwangsversteigert",
+    "sanitized": "Haushälfte oder Waldstück: Diese Grundstücke werden im Kreis Euskirchen und der Eifel zwangsversteigert"
+  },
+  {
+    "itemId": "https://www.ksta.de/912303",
+    "raw": "Weihnachtskonzert: Ü50-Blasorchester und die „Ahr Voices“ harmonierten in Kommern",
+    "sanitized": "Weihnachtskonzert: Ü50-Blasorchester und die „Ahr Voices“ harmonierten in Kommern"
+  },
+  {
+    "itemId": "https://www.ksta.de/911404",
+    "raw": "Handball-Oberliga-Derby: Wölfe Voreifel lassen TV Palmersheim keine Chance",
+    "sanitized": "Handball-Oberliga-Derby: Wölfe Voreifel lassen TV Palmersheim keine Chance"
+  },
+  {
+    "itemId": "https://www.ksta.de/911762",
+    "raw": "Song-Adventskalender: Das Trio „Eu-Semble“ aus Euskirchen präsentiert drei Weihnachtslieder",
+    "sanitized": "Song-Adventskalender: Das Trio „Eu-Semble“ aus Euskirchen präsentiert drei Weihnachtslieder"
+  },
+  {
+    "itemId": "https://www.ksta.de/911545",
+    "raw": "Gastronomie: Neues Café in Flamersheim: Bei den Hunden ist das Leberwursteis der Renner",
+    "sanitized": "Gastronomie: Neues Café in Flamersheim: Bei den Hunden ist das Leberwursteis der Renner"
+  },
+  {
+    "itemId": "https://www.ksta.de/911672",
+    "raw": "Sport am Tisch: So liefen die Westdeutschen Tipp-Kick-Meisterschaften in Zingsheim",
+    "sanitized": "Sport am Tisch: So liefen die Westdeutschen Tipp-Kick-Meisterschaften in Zingsheim"
+  },
+  {
+    "itemId": "https://www.ksta.de/911562",
+    "raw": "Nach der Arbeit pauken: Fensterbau-Firma in Ripsdorf bietet Deutschunterricht für Mitarbeiter",
+    "sanitized": "Nach der Arbeit pauken: Fensterbau-Firma in Ripsdorf bietet Deutschunterricht für Mitarbeiter"
+  },
+  {
+    "itemId": "https://www.ksta.de/911422",
+    "raw": "Fußball-Kreisliga A: Frauenberg und Sötenich liefern sich einen offenen Schlagabtausch",
+    "sanitized": "Fußball-Kreisliga A: Frauenberg und Sötenich liefern sich einen offenen Schlagabtausch"
+  },
+  {
+    "itemId": "https://www.ksta.de/911486",
+    "raw": "52 Jahre alter Beifahrer: Weitere Person stirbt nach Unfall auf der A1 bei Mechernich",
+    "sanitized": "52 Jahre alter Beifahrer: Weitere Person stirbt nach Unfall auf der A1 bei Mechernich"
+  },
+  {
+    "itemId": "https://www.ksta.de/911370",
+    "raw": "Fußball-Bezirksliga: Bessenich kassiert eine bittere Niederlage – Nierfeld rettet einen Punkt",
+    "sanitized": "Fußball-Bezirksliga: Bessenich kassiert eine bittere Niederlage – Nierfeld rettet einen Punkt"
+  },
+  {
+    "itemId": "https://www.ksta.de/910770",
+    "raw": "Biostation sucht Unterstützer: Steinkäuze im Kreis Euskirchen brauchen menschliche Hilfe",
+    "sanitized": "Biostation sucht Unterstützer: Steinkäuze im Kreis Euskirchen brauchen menschliche Hilfe"
+  },
+  {
+    "itemId": "https://www.ksta.de/910795",
+    "raw": "Song-Adventskalender: Musikern aus Kuchenheim geht der eigene Song nicht aus dem Kopf",
+    "sanitized": "Song-Adventskalender: Musikern aus Kuchenheim geht der eigene Song nicht aus dem Kopf"
+  },
+  {
+    "itemId": "https://www.ksta.de/910773",
+    "raw": "Senioren im Fitnessstudio: Die Enkel sind für Euskirchener größere Motivation als Instagram",
+    "sanitized": "Senioren im Fitnessstudio: Die Enkel sind für Euskirchener größere Motivation als Instagram"
+  },
+  {
+    "itemId": "https://www.ksta.de/911022",
+    "raw": "Basketball-Landesliga: Erftbaskets Bad Münstereifel gewinnen emotionales Derby",
+    "sanitized": "Basketball-Landesliga: Erftbaskets Bad Münstereifel gewinnen emotionales Derby"
+  },
+  {
+    "itemId": "https://www.ksta.de/911019",
+    "raw": "Fußball-Landesliga: Zülpich zeigt keine Schwäche und siegt verdient",
+    "sanitized": "Fußball-Landesliga: Zülpich zeigt keine Schwäche und siegt verdient"
+  },
+  {
+    "itemId": "https://www.ksta.de/910799",
+    "raw": "Reiferscheid, Kronenburg und Co.: Weihnachtsmärkte locken Besucher im Kreis Euskirchen an",
+    "sanitized": "Reiferscheid, Kronenburg und Co.: Weihnachtsmärkte locken Besucher im Kreis Euskirchen an"
+  },
+  {
+    "itemId": "https://www.ksta.de/910749",
+    "raw": "Wahlkreis Euskirchen - Rhein-Erft II: SPD schickt Andrea Kanonenberg aus Wesseling ins Rennen",
+    "sanitized": "Wahlkreis Euskirchen - Rhein-Erft II: SPD schickt Andrea Kanonenberg aus Wesseling ins Rennen"
+  },
+  {
+    "itemId": "https://www.ksta.de/900647",
+    "raw": "Sänger und Multiinstrumentalist: Zehntausende hören die Musik des Euskircheners Leon Jander",
+    "sanitized": "Sänger und Multiinstrumentalist: Zehntausende hören die Musik des Euskircheners Leon Jander"
+  },
+  {
+    "itemId": "https://www.ksta.de/909815",
+    "raw": "Winterquartier: Ehemaliger Wasserspeicher bei Uedelhoven soll künftig Fledermäuse behausen",
+    "sanitized": "Winterquartier: Ehemaliger Wasserspeicher bei Uedelhoven soll künftig Fledermäuse behausen"
+  },
+  {
+    "itemId": "https://www.ksta.de/909784",
+    "raw": "Bürgermeister-Wahl: In Mechernich ist das Rennen um die Schick-Nachfolge eröffnet",
+    "sanitized": "Bürgermeister-Wahl: In Mechernich ist das Rennen um die Schick-Nachfolge eröffnet"
+  },
+  {
+    "itemId": "https://www.ksta.de/909642",
+    "raw": "Klagen von Anwohnern: Straßen in Rinnen sind durch Matsch aus dem Steinbruch verdreckt",
+    "sanitized": "Klagen von Anwohnern: Straßen in Rinnen sind durch Matsch aus dem Steinbruch verdreckt"
+  },
+  {
+    "itemId": "https://www.ksta.de/903328",
+    "raw": "Kampf gegen Blutkrebs: Münstereifelerin spendete Stammzellen für Frau aus den USA",
+    "sanitized": "Kampf gegen Blutkrebs: Münstereifelerin spendete Stammzellen für Frau aus den USA"
+  },
+  {
+    "itemId": "https://www.ksta.de/909683",
+    "raw": "Attraktion kommt gut an: Eisstockbahn in Schleiden ist schon zu 80 Prozent ausgebucht",
+    "sanitized": "Attraktion kommt gut an: Eisstockbahn in Schleiden ist schon zu 80 Prozent ausgebucht"
+  },
+  {
+    "itemId": "https://www.ksta.de/908510",
+    "raw": "CSD und Rosenmontag: Drehorgel Simon eröffnet Begegnungsstätte am Euskirchener Viehplätzchen",
+    "sanitized": "CSD und Rosenmontag: Drehorgel Simon eröffnet Begegnungsstätte am Euskirchener Viehplätzchen"
+  },
+  {
+    "itemId": "https://www.ksta.de/909589",
+    "raw": "Song-Adventskalender: Der Ex-Musikchef aus Kreuzweingarten und seine Lieblingslieder zum Fest",
+    "sanitized": "Song-Adventskalender: Der Ex-Musikchef aus Kreuzweingarten und seine Lieblingslieder zum Fest"
+  },
+  {
+    "itemId": "https://www.ksta.de/906618",
+    "raw": "Einige Extrawünsche: So bereitet sich der TuS Zülpich auf das Spiel gegen Viktoria Köln vor",
+    "sanitized": "Einige Extrawünsche: So bereitet sich der TuS Zülpich auf das Spiel gegen Viktoria Köln vor"
+  },
+  {
+    "itemId": "https://www.ksta.de/909303",
+    "raw": "„Communio in Christo“: 1984 war der Mechernicher Orden dem Bischof noch ein Dorn im Auge",
+    "sanitized": "„Communio in Christo“: 1984 war der Mechernicher Orden dem Bischof noch ein Dorn im Auge"
+  },
+  {
+    "itemId": "https://www.ksta.de/908786",
+    "raw": "Werben und Neugier wecken: Bürgerstiftung Schleiden will mit Imagefilm bekannter werden",
+    "sanitized": "Werben und Neugier wecken: Bürgerstiftung Schleiden will mit Imagefilm bekannter werden"
+  },
+  {
+    "itemId": "https://www.ksta.de/909593",
+    "raw": "Lkw fuhr weiter: 33-Jähriger stirbt bei Unfall auf der A1 Richtung Köln – Polizei fahndet nach Flüchtigem",
+    "sanitized": "Lkw fuhr weiter: 33-Jähriger stirbt bei Unfall auf der A1 Richtung Köln – Polizei fahndet nach Flüchtigem"
+  },
+  {
+    "itemId": "https://www.ksta.de/909359",
+    "raw": "Bezirksliga: SC Wißkirchen sehnt die Winterpause herbei",
+    "sanitized": "Bezirksliga: SC Wißkirchen sehnt die Winterpause herbei"
+  },
+  {
+    "itemId": "https://www.ksta.de/909768",
+    "raw": "Handball: Mehr Derby als zwischen Palmersheim und den Wölfen Rheinbach geht nicht",
+    "sanitized": "Handball: Mehr Derby als zwischen Palmersheim und den Wölfen Rheinbach geht nicht"
+  },
+  {
+    "itemId": "https://www.ksta.de/908996",
+    "raw": "30 Euro Bußgeld drohen: Kreis Euskirchen schreibt am Parkplatz nun Knöllchen",
+    "sanitized": "30 Euro Bußgeld drohen: Kreis Euskirchen schreibt am Parkplatz nun Knöllchen"
+  },
+  {
+    "itemId": "https://www.ksta.de/908624",
+    "raw": "Neubaugebiet: Firma plant in Euskirchen-Stotzheim bis zu 300 Wohneinheiten",
+    "sanitized": "Neubaugebiet: Firma plant in Euskirchen-Stotzheim bis zu 300 Wohneinheiten"
+  },
+  {
+    "itemId": "https://www.ksta.de/907894",
+    "raw": "Bahn-Elektrifizierung: Die nächste Hiobsbotschaft für die Fahrgäste auf der Eifelstrecke",
+    "sanitized": "Bahn-Elektrifizierung: Die nächste Hiobsbotschaft für die Fahrgäste auf der Eifelstrecke"
+  },
+  {
+    "itemId": "https://www.ksta.de/908997",
+    "raw": "Landgericht Bonn: Millionen-Prozess um Marien-Hospital: Kritische Fragen an Verwaltungsrat",
+    "sanitized": "Landgericht Bonn: Millionen-Prozess um Marien-Hospital: Kritische Fragen an Verwaltungsrat"
+  },
+  {
+    "itemId": "https://www.ksta.de/908873",
+    "raw": "Bekenntnis zum Standort: Netto-Markt in Dahlem wurde zweimal überflutet – nun hat er wieder geöffnet",
+    "sanitized": "Bekenntnis zum Standort: Netto-Markt in Dahlem wurde zweimal überflutet – nun hat er wieder geöffnet"
+  },
+  {
+    "itemId": "https://www.ksta.de/908935",
+    "raw": "Adventsmarkt: „Zöllecher Burg Weihnacht“ belebt Tradition des Zülpicher Geschichtsvereins",
+    "sanitized": "Adventsmarkt: „Zöllecher Burg Weihnacht“ belebt Tradition des Zülpicher Geschichtsvereins"
+  },
+  {
+    "itemId": "https://www.ksta.de/908513",
+    "raw": "Vorschlag der CDU: Hellenthaler Hauptschüler sollen die Förderschule besuchen",
+    "sanitized": "Vorschlag der CDU: Hellenthaler Hauptschüler sollen die Förderschule besuchen"
+  },
+  {
+    "itemId": "https://www.ksta.de/907868",
+    "raw": "Görner und Hammes im Gespräch: Zülpich und Bad Münstereifel feiern gemeinsam Adventsauftakt",
+    "sanitized": "Görner und Hammes im Gespräch: Zülpich und Bad Münstereifel feiern gemeinsam Adventsauftakt"
+  },
+  {
+    "itemId": "https://www.ksta.de/907898",
+    "raw": "Haupt- und Finanzausschuss: Die Grundsteuer B in Bad Münstereifel steigt erheblich",
+    "sanitized": "Haupt- und Finanzausschuss: Die Grundsteuer B in Bad Münstereifel steigt erheblich"
+  },
+  {
     "itemId": "https://www.ksta.de/898339",
     "raw": "Bei Glühwein, auf dem Pferdehof, auf Rädern: Hier gibt es Weihnachtsbäume im Kreis Euskirchen",
     "sanitized": "Bei Glühwein, auf dem Pferdehof, auf Rädern: Hier gibt es Weihnachtsbäume im Kreis Euskirchen"
   },
   {
-    "itemId": "https://www.ksta.de/904388",
-    "raw": "Handball-Kreispokal: Kall hat gewonnen, aber auch Bad Münstereifel ist zufrieden",
-    "sanitized": "Handball-Kreispokal: Kall hat gewonnen, aber auch Bad Münstereifel ist zufrieden"
+    "itemId": "https://www.ksta.de/908004",
+    "raw": "80. Transport: Hilfsgüter aus der Eifel zu Alzheimer-Einrichtung nach Rumänien gebracht",
+    "sanitized": "80. Transport: Hilfsgüter aus der Eifel zu Alzheimer-Einrichtung nach Rumänien gebracht"
   },
   {
-    "itemId": "https://www.ksta.de/904367",
-    "raw": "Fußball-Bezirksliga: Beim SV Nierfeld ist das Kollektiv der Star – eine Zwischenbilanz",
-    "sanitized": "Fußball-Bezirksliga: Beim SV Nierfeld ist das Kollektiv der Star – eine Zwischenbilanz"
+    "itemId": "https://www.ksta.de/907758",
+    "raw": "In einigen Orten wird gerast: Schleiden legt Auswertung von Geschwindigkeitsdisplays vor",
+    "sanitized": "In einigen Orten wird gerast: Schleiden legt Auswertung von Geschwindigkeitsdisplays vor"
   },
   {
-    "itemId": "https://www.ksta.de/904098",
-    "raw": "Problematischer Blindgänger: Kommerner Weltkriegsbombe auf Acker gesprengt",
-    "sanitized": "Problematischer Blindgänger: Kommerner Weltkriegsbombe auf Acker gesprengt"
-  },
-  {
-    "itemId": "https://www.ksta.de/903509",
-    "raw": "Von wegen knapp: So witzig reagiert „Pappen Olef“ auf Papier-Äußerung der Bundeswahlleiterin",
-    "sanitized": "Von wegen knapp: So witzig reagiert „Pappen Olef“ auf Papier-Äußerung der Bundeswahlleiterin"
-  },
-  {
-    "itemId": "https://www.ksta.de/903464",
-    "raw": "Interessante Einblicke: Mehr als 700 neue Fotos vom Bau der „Ordensburg“ Vogelsang entdeckt",
-    "sanitized": "Interessante Einblicke: Mehr als 700 neue Fotos vom Bau der „Ordensburg“ Vogelsang entdeckt"
-  },
-  {
-    "itemId": "https://www.ksta.de/903337",
-    "raw": "Für fünfeinhalb Wochen: Der Weihnachtsmarkt in Bad Münstereifel hat geöffnet",
-    "sanitized": "Für fünfeinhalb Wochen: Der Weihnachtsmarkt in Bad Münstereifel hat geöffnet"
-  },
-  {
-    "itemId": "https://www.ksta.de/903532",
-    "raw": "Finanzkrise: Erste Kommunen im Kreis Euskirchen kündigen wegen Umlage Steuererhöhungen an",
-    "sanitized": "Finanzkrise: Erste Kommunen im Kreis Euskirchen kündigen wegen Umlage Steuererhöhungen an"
-  },
-  {
-    "itemId": "https://www.ksta.de/903317",
-    "raw": "Zwischenbilanz: Warum sich in der Euskirchener Ideenfabrik Gründer und Start-ups wohlfühlen",
-    "sanitized": "Zwischenbilanz: Warum sich in der Euskirchener Ideenfabrik Gründer und Start-ups wohlfühlen"
-  },
-  {
-    "itemId": "https://www.ksta.de/903286",
-    "raw": "Blindgänger: Bombe in Kommern abtransportiert – Menschen dürfen zurück in ihre Häuser",
-    "sanitized": "Blindgänger: Bombe in Kommern abtransportiert – Menschen dürfen zurück in ihre Häuser"
-  },
-  {
-    "itemId": "https://www.ksta.de/903309",
-    "raw": "1898 gegründet: Cäcilien-Kirchenchor: Seit 125+1 Jahren nicht wegzudenken aus Kall",
-    "sanitized": "1898 gegründet: Cäcilien-Kirchenchor: Seit 125+1 Jahren nicht wegzudenken aus Kall"
-  },
-  {
-    "itemId": "https://www.ksta.de/903090",
-    "raw": "„Enorme Innovationskraft“: Eifel Awards 2024 wurden in der Bitburger Stadthalle verliehen",
-    "sanitized": "„Enorme Innovationskraft“: Eifel Awards 2024 wurden in der Bitburger Stadthalle verliehen"
-  },
-  {
-    "itemId": "https://www.ksta.de/899295",
-    "raw": "Skifahren, Rodeln, Wandern: In diese Wintersportgebiete in NRW lohnt sich schon jetzt ein Ausflug",
-    "sanitized": "Skifahren, Rodeln, Wandern: In diese Wintersportgebiete in NRW lohnt sich schon jetzt ein Ausflug"
-  },
-  {
-    "itemId": "https://www.ksta.de/902570",
-    "raw": "Nürburgring-Langstrecken-Serie: Stipplers Auto war am schnellsten, kam aber nicht ins Ziel",
-    "sanitized": "Nürburgring-Langstrecken-Serie: Stipplers Auto war am schnellsten, kam aber nicht ins Ziel"
-  },
-  {
-    "itemId": "https://www.ksta.de/902562",
-    "raw": "50 Millionen Jahresumsatz: DRK Euskirchen zieht in der Kreisversammlung positive Bilanz",
-    "sanitized": "50 Millionen Jahresumsatz: DRK Euskirchen zieht in der Kreisversammlung positive Bilanz"
-  },
-  {
-    "itemId": "https://www.ksta.de/902594",
-    "raw": "Frauenfußball: Die SG Erfthöhen ist seit sieben Spielen ungeschlagen in der Bezirksliga",
-    "sanitized": "Frauenfußball: Die SG Erfthöhen ist seit sieben Spielen ungeschlagen in der Bezirksliga"
-  },
-  {
-    "itemId": "https://www.ksta.de/902580",
-    "raw": "Inklusion: Nettersheimer Prinz sammelt Spenden für rollstuhlgerechten Karnevalswagen",
-    "sanitized": "Inklusion: Nettersheimer Prinz sammelt Spenden für rollstuhlgerechten Karnevalswagen"
-  },
-  {
-    "itemId": "https://www.ksta.de/902628",
-    "raw": "15 Anlagen geplant: Windräder in Hellenthal sollen höher als der Kölner Dom werden",
-    "sanitized": "15 Anlagen geplant: Windräder in Hellenthal sollen höher als der Kölner Dom werden"
-  },
-  {
-    "itemId": "https://www.ksta.de/902632",
-    "raw": "Kreisumlage: Euskirchener Landrat Markus Ramers lässt CDU-Kritik an sich abprallen",
-    "sanitized": "Kreisumlage: Euskirchener Landrat Markus Ramers lässt CDU-Kritik an sich abprallen"
-  },
-  {
-    "itemId": "https://www.ksta.de/902549",
-    "raw": "Neues Heim für die Akten: Kaller Gemeindearchiv im Geschäftshaus Nord kann bezogen werden",
-    "sanitized": "Neues Heim für die Akten: Kaller Gemeindearchiv im Geschäftshaus Nord kann bezogen werden"
-  },
-  {
-    "itemId": "https://www.ksta.de/902548",
-    "raw": "Jugendfußball: JSG-Erft-A-Junioren finden ein Mittel gegen Offensivstärke der Heinsberger",
-    "sanitized": "Jugendfußball: JSG-Erft-A-Junioren finden ein Mittel gegen Offensivstärke der Heinsberger"
-  },
-  {
-    "itemId": "https://www.ksta.de/901985",
-    "raw": "Wahl: Mechernichs Bürgermeister Schick erwägt, 2025 für den Kreistag zu kandidieren",
-    "sanitized": "Wahl: Mechernichs Bürgermeister Schick erwägt, 2025 für den Kreistag zu kandidieren"
-  },
-  {
-    "itemId": "https://www.ksta.de/901573",
-    "raw": "Praxistag: Münstereifeler Realschüler bauen Schwenkgrill für den Schulhof",
-    "sanitized": "Praxistag: Münstereifeler Realschüler bauen Schwenkgrill für den Schulhof"
-  },
-  {
-    "itemId": "https://www.ksta.de/901574",
-    "raw": "80 Jahre nach Weltkriegsende: Euskirchener Zeitzeugen erzählen von Trümmern, Tod und Leid",
-    "sanitized": "80 Jahre nach Weltkriegsende: Euskirchener Zeitzeugen erzählen von Trümmern, Tod und Leid"
-  },
-  {
-    "itemId": "https://www.ksta.de/901855",
-    "raw": "Winter-Wetter in NRW: Erster Schnee in der Region um Köln – Verschneites Siebengebirge am Löwenburger Hof",
-    "sanitized": "Winter-Wetter in NRW: Erster Schnee in der Region um Köln – Verschneites Siebengebirge am Löwenburger Hof"
-  },
-  {
-    "itemId": "https://www.ksta.de/901436",
-    "raw": "Freiflächen-Photovoltaik: In Bad Münstereifel gilt: Erst bauen, dann schauen",
-    "sanitized": "Freiflächen-Photovoltaik: In Bad Münstereifel gilt: Erst bauen, dann schauen"
-  },
-  {
-    "itemId": "https://www.ksta.de/901566",
-    "raw": "Kühe und Hahn lernen mit: In Kuchenheim ist ein besonderes Klassenzimmer entstanden",
-    "sanitized": "Kühe und Hahn lernen mit: In Kuchenheim ist ein besonderes Klassenzimmer entstanden"
-  },
-  {
-    "itemId": "https://www.ksta.de/901584",
-    "raw": "Stabwechsel bei CDU: Bürgermeister Hermann-Josef Esser tritt 2025 in Kall nicht mehr an",
-    "sanitized": "Stabwechsel bei CDU: Bürgermeister Hermann-Josef Esser tritt 2025 in Kall nicht mehr an"
-  },
-  {
-    "itemId": "https://www.ksta.de/901418",
-    "raw": "Gegen Gewalt: Euskirchener Frauenberatungsstelle setzt Brötchentüten-Kampagne fort",
-    "sanitized": "Gegen Gewalt: Euskirchener Frauenberatungsstelle setzt Brötchentüten-Kampagne fort"
-  },
-  {
-    "itemId": "https://www.ksta.de/900994",
-    "raw": "Alle Einheiten im Einsatz: THW Euskirchen probt auf Kläranlage in Mechernich den Ernstfall",
-    "sanitized": "Alle Einheiten im Einsatz: THW Euskirchen probt auf Kläranlage in Mechernich den Ernstfall"
-  },
-  {
-    "itemId": "https://www.ksta.de/901560",
-    "raw": "K-Frage: Euskirchener Landrat Ramers und SPD-Kandidatin: Kein klares Bekenntnis zu Scholz",
-    "sanitized": "K-Frage: Euskirchener Landrat Ramers und SPD-Kandidatin: Kein klares Bekenntnis zu Scholz"
-  },
-  {
-    "itemId": "https://www.ksta.de/900877",
-    "raw": "Heimbach-Hasenfeld: Erstmals führt ein Dreigestirn die Jecken der KG „Torrausch“",
-    "sanitized": "Heimbach-Hasenfeld: Erstmals führt ein Dreigestirn die Jecken der KG „Torrausch“"
-  },
-  {
-    "itemId": "https://www.ksta.de/900971",
-    "raw": "70 jähriges Bestehen: Bei den Löstige Höndche in Nettersheim ist die Vorsitzende Prinzessin",
-    "sanitized": "70 jähriges Bestehen: Bei den Löstige Höndche in Nettersheim ist die Vorsitzende Prinzessin"
-  },
-  {
-    "itemId": "https://www.ksta.de/901244",
-    "raw": "Fußball im Kreis Euskirchen: Es weihnachtet sehr in den Kreisligen B und C",
-    "sanitized": "Fußball im Kreis Euskirchen: Es weihnachtet sehr in den Kreisligen B und C"
-  },
-  {
-    "itemId": "https://www.ksta.de/900868",
-    "raw": "Doppel-Proklamation: Mit viel Frauenpower gehen die Sötenicher in die Karnevalssession",
-    "sanitized": "Doppel-Proklamation: Mit viel Frauenpower gehen die Sötenicher in die Karnevalssession"
-  },
-  {
-    "itemId": "https://www.ksta.de/900912",
-    "raw": "Bald 125 Jahre jeck: KG „Mer gon vör“ Vernich proklamiert ersten „hochdeutschen Prinzen“",
-    "sanitized": "Bald 125 Jahre jeck: KG „Mer gon vör“ Vernich proklamiert ersten „hochdeutschen Prinzen“"
-  },
-  {
-    "itemId": "https://www.ksta.de/900844",
-    "raw": "Typisierungsaktion: Stammzellenspender für Leo aus Mechernich gesucht",
-    "sanitized": "Typisierungsaktion: Stammzellenspender für Leo aus Mechernich gesucht"
-  },
-  {
-    "itemId": "https://www.ksta.de/900984",
-    "raw": "Finanzen: Bürgermeister im Kreis Euskirchen schlagen Alarm: Kommt der Kommunal-Soli?",
-    "sanitized": "Finanzen: Bürgermeister im Kreis Euskirchen schlagen Alarm: Kommt der Kommunal-Soli?"
-  },
-  {
-    "itemId": "https://www.ksta.de/900915",
-    "raw": "Bahn statt Bus: Kreis Euskirchen plant, Linie 806 wegen klammer Kasse zu streichen",
-    "sanitized": "Bahn statt Bus: Kreis Euskirchen plant, Linie 806 wegen klammer Kasse zu streichen"
-  },
-  {
-    "itemId": "https://www.ksta.de/900944",
-    "raw": "Bundestagswahl: FDP nominiert Markus Herbrand für Wahlkreis Euskirchen-Rhein-Erftkreis II",
-    "sanitized": "Bundestagswahl: FDP nominiert Markus Herbrand für Wahlkreis Euskirchen-Rhein-Erftkreis II"
-  },
-  {
-    "itemId": "https://www.ksta.de/900329",
-    "raw": "Fußball-Kreisliga A: Die JSG Erft 01 Euskirchen gewinnt im November Rain von Lommersum",
-    "sanitized": "Fußball-Kreisliga A: Die JSG Erft 01 Euskirchen gewinnt im November Rain von Lommersum"
-  },
-  {
-    "itemId": "https://www.ksta.de/900750",
-    "raw": "Ohne Tollitäten: Bei der Sessionseröffnung der KG Rot-Weiß Gemünd waren rund 300 Jecke",
-    "sanitized": "Ohne Tollitäten: Bei der Sessionseröffnung der KG Rot-Weiß Gemünd waren rund 300 Jecke"
-  },
-  {
-    "itemId": "https://www.ksta.de/900262",
-    "raw": "Mülheim-Wichterich: Mit einem Trick überzeugte Prinz Helena I. ihren Mann von jecker Idee",
-    "sanitized": "Mülheim-Wichterich: Mit einem Trick überzeugte Prinz Helena I. ihren Mann von jecker Idee"
-  },
-  {
-    "itemId": "https://www.ksta.de/900229",
-    "raw": "Frauenpower-Karneval: In Sieberath regieren drei junge Frauen die Jecken in dieser Session",
-    "sanitized": "Frauenpower-Karneval: In Sieberath regieren drei junge Frauen die Jecken in dieser Session"
-  },
-  {
-    "itemId": "https://www.ksta.de/900337",
-    "raw": "Fußball-Bezirksliga: Eine Lehrstunde für den SC Wißkirchen",
-    "sanitized": "Fußball-Bezirksliga: Eine Lehrstunde für den SC Wißkirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/899312",
-    "raw": "Wegen Wasserschaden: Keldenicher Kita muss für sechs Monate in Container umziehen",
-    "sanitized": "Wegen Wasserschaden: Keldenicher Kita muss für sechs Monate in Container umziehen"
-  },
-  {
-    "itemId": "https://www.ksta.de/882494",
-    "raw": "Angleichung an TVÖD: Musikschule Schleiden spürt Konkurrenzdruck – Löhne sollen steigen",
-    "sanitized": "Angleichung an TVÖD: Musikschule Schleiden spürt Konkurrenzdruck – Löhne sollen steigen"
-  },
-  {
-    "itemId": "https://www.ksta.de/900181",
-    "raw": "Crowdfunding gestartet: Darum sorgt die Euskirchener Weihnachtsbeleuchtung für Diskussion",
-    "sanitized": "Crowdfunding gestartet: Darum sorgt die Euskirchener Weihnachtsbeleuchtung für Diskussion"
-  },
-  {
-    "itemId": "https://www.ksta.de/899458",
-    "raw": "Viele Hürden: Darum ist das Recruiting von Pflegenden für den Kreis Euskirchen so schwierig",
-    "sanitized": "Viele Hürden: Darum ist das Recruiting von Pflegenden für den Kreis Euskirchen so schwierig"
-  },
-  {
-    "itemId": "https://www.ksta.de/900332",
-    "raw": "Handball-Oberliga: Eine eklatante Angriffsschwäche führt zur Niederlage der HSG Euskirchen",
-    "sanitized": "Handball-Oberliga: Eine eklatante Angriffsschwäche führt zur Niederlage der HSG Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/900333",
-    "raw": "Fußball-Landesliga: Dem TuS Zülpich bleibt das Elfmeterpech auch gegen Helpenstein treu",
-    "sanitized": "Fußball-Landesliga: Dem TuS Zülpich bleibt das Elfmeterpech auch gegen Helpenstein treu"
-  },
-  {
-    "itemId": "https://www.ksta.de/900249",
-    "raw": "Volkstrauertag: Auch im Kreis Euskirchen der Opfer von Krieg gedacht",
-    "sanitized": "Volkstrauertag: Auch im Kreis Euskirchen der Opfer von Krieg gedacht"
-  },
-  {
-    "itemId": "https://www.ksta.de/900176",
-    "raw": "Inklusive Neuerung: Mechernicher werden wieder von einem Dreigestirn regiert",
-    "sanitized": "Inklusive Neuerung: Mechernicher werden wieder von einem Dreigestirn regiert"
-  },
-  {
-    "itemId": "https://www.ksta.de/900165",
-    "raw": "Premiere: Euskirchener Jecke werden von einem Prinzenpaar regiert – Küfer ist ein Tanzbär",
-    "sanitized": "Premiere: Euskirchener Jecke werden von einem Prinzenpaar regiert – Küfer ist ein Tanzbär"
-  },
-  {
-    "itemId": "https://www.ksta.de/899271",
-    "raw": "Reform: Steuern für Wohnraum und Gewerbe: Das Dilemma der Politiker im Kreis Euskirchen",
-    "sanitized": "Reform: Steuern für Wohnraum und Gewerbe: Das Dilemma der Politiker im Kreis Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/899101",
-    "raw": "Zukunftsbilder sollen inspirieren: Weilerswister Initiative stößt Dialog über das Klima an",
-    "sanitized": "Zukunftsbilder sollen inspirieren: Weilerswister Initiative stößt Dialog über das Klima an"
-  },
-  {
-    "itemId": "https://www.ksta.de/897972",
-    "raw": "Holtec in Blumenthal: Wie eine Eifeler Firma die Sägewerke revolutionieren will",
-    "sanitized": "Holtec in Blumenthal: Wie eine Eifeler Firma die Sägewerke revolutionieren will"
-  },
-  {
-    "itemId": "https://www.ksta.de/899424",
-    "raw": "Drei Jahre nach der Flut: Tiny Houses in Kall sind immer noch alle von Betroffenen belegt",
-    "sanitized": "Drei Jahre nach der Flut: Tiny Houses in Kall sind immer noch alle von Betroffenen belegt"
-  },
-  {
-    "itemId": "https://www.ksta.de/898691",
-    "raw": "„Mer gon vör“: Vernicher Karnevalsgesellschaft wird 125 Jahre alt",
-    "sanitized": "„Mer gon vör“: Vernicher Karnevalsgesellschaft wird 125 Jahre alt"
-  },
-  {
-    "itemId": "https://www.ksta.de/898747",
-    "raw": "Vielfalts-Kompetenz: Das DRK-Schulungsmodul aus Euskirchen kommt bundesweit zum Einsatz",
-    "sanitized": "Vielfalts-Kompetenz: Das DRK-Schulungsmodul aus Euskirchen kommt bundesweit zum Einsatz"
-  },
-  {
-    "itemId": "https://www.ksta.de/899456",
-    "raw": "Fußball-Vorschau: In der Kreisliga A kommt es bei Lommersum gegen Erft zum Duell der Stürmer",
-    "sanitized": "Fußball-Vorschau: In der Kreisliga A kommt es bei Lommersum gegen Erft zum Duell der Stürmer"
-  },
-  {
-    "itemId": "https://www.ksta.de/898733",
-    "raw": "Brandschutzbedarfsplan: Die Gemeinde Nettersheim muss kräftig in die Feuerwehr investieren",
-    "sanitized": "Brandschutzbedarfsplan: Die Gemeinde Nettersheim muss kräftig in die Feuerwehr investieren"
-  },
-  {
-    "itemId": "https://www.ksta.de/838242",
-    "raw": "„Nur für meine Schwester“: Die einsamste Bushaltestelle Euskirchens nutzt nur eine Person",
-    "sanitized": "„Nur für meine Schwester“: Die einsamste Bushaltestelle Euskirchens nutzt nur eine Person"
-  },
-  {
-    "itemId": "https://www.ksta.de/898070",
-    "raw": "XXL-Format: Baumelbank im Nationalpark Eifel lädt zum Verweilen ein",
-    "sanitized": "XXL-Format: Baumelbank im Nationalpark Eifel lädt zum Verweilen ein"
-  },
-  {
-    "itemId": "https://www.ksta.de/896503",
-    "raw": "Kult-Disco: Pik-As in Euskirchen war für viele der Joker – Revivalparty geplant",
-    "sanitized": "Kult-Disco: Pik-As in Euskirchen war für viele der Joker – Revivalparty geplant"
-  },
-  {
-    "itemId": "https://www.ksta.de/899305",
-    "raw": "Pläne vorgestellt: Genuss-Schule und Musikclub im früheren Kurhaus von Bad Münstereifel",
-    "sanitized": "Pläne vorgestellt: Genuss-Schule und Musikclub im früheren Kurhaus von Bad Münstereifel"
-  },
-  {
-    "itemId": "https://www.ksta.de/898417",
-    "raw": "Verurteilt wegen Nötigung: Euskirchener Autofahrer ließ Polizei nicht an sich vorbei",
-    "sanitized": "Verurteilt wegen Nötigung: Euskirchener Autofahrer ließ Polizei nicht an sich vorbei"
-  },
-  {
-    "itemId": "https://www.ksta.de/899516",
-    "raw": "Zehnte Auflage: Eifeler Buchmesse lockt wieder nach Nettersheim",
-    "sanitized": "Zehnte Auflage: Eifeler Buchmesse lockt wieder nach Nettersheim"
-  },
-  {
-    "itemId": "https://www.ksta.de/899483",
-    "raw": "Umlage steigt deutlich: Euskirchens Landrat Ramers sieht kommunale Ebene vor dem Kollaps",
-    "sanitized": "Umlage steigt deutlich: Euskirchens Landrat Ramers sieht kommunale Ebene vor dem Kollaps"
-  },
-  {
-    "itemId": "https://www.ksta.de/897188",
-    "raw": "Jecke Premiere: Der fünfte Karnevalsverein in Zülpich ist ein Verein von Frauen für Frauen",
-    "sanitized": "Jecke Premiere: Der fünfte Karnevalsverein in Zülpich ist ein Verein von Frauen für Frauen"
-  },
-  {
-    "itemId": "https://www.ksta.de/899248",
-    "raw": "Das Sport-Wochenende: Zülpicher Handballer suchen einen neuen Trainer",
-    "sanitized": "Das Sport-Wochenende: Zülpicher Handballer suchen einen neuen Trainer"
-  },
-  {
-    "itemId": "https://www.ksta.de/898545",
-    "raw": "Projekt: So sollen im Kreis Euskirchen die Touristen-Informationen aufgewertet werden",
-    "sanitized": "Projekt: So sollen im Kreis Euskirchen die Touristen-Informationen aufgewertet werden"
-  },
-  {
-    "itemId": "https://www.ksta.de/898638",
-    "raw": "Gemeindeprüfung: Zülpich für Friedhofswesen ausgezeichnet – Gärtner bemängelt Pflegezustand",
-    "sanitized": "Gemeindeprüfung: Zülpich für Friedhofswesen ausgezeichnet – Gärtner bemängelt Pflegezustand"
-  },
-  {
-    "itemId": "https://www.ksta.de/898780",
-    "raw": "Bauvorhaben in Bad Münstereifel: Aldi Süd will auf Parkplatz Geschäfte und Café errichten",
-    "sanitized": "Bauvorhaben in Bad Münstereifel: Aldi Süd will auf Parkplatz Geschäfte und Café errichten"
-  },
-  {
-    "itemId": "https://www.ksta.de/898769",
-    "raw": "Zum „Faktencheck Integration“: Die Veranstaltung in Euskirchen bot keine Chance für Hetze",
-    "sanitized": "Zum „Faktencheck Integration“: Die Veranstaltung in Euskirchen bot keine Chance für Hetze"
-  },
-  {
-    "itemId": "https://www.ksta.de/898746",
-    "raw": "„Faktencheck“: Was im Kreis Euskirchen gut läuft bei der Integration und was nicht",
-    "sanitized": "„Faktencheck“: Was im Kreis Euskirchen gut läuft bei der Integration und was nicht"
-  },
-  {
-    "itemId": "https://www.ksta.de/897913",
-    "raw": "Früher Bundesstraße: Fußgängerzone in Euskirchen besteht seit 50 Jahren",
-    "sanitized": "Früher Bundesstraße: Fußgängerzone in Euskirchen besteht seit 50 Jahren"
-  },
-  {
-    "itemId": "https://www.ksta.de/898597",
-    "raw": "Tonnenschwere Teile eingesetzt: Arbeiten an neuer Brücke in Schleiden kommen gut voran",
-    "sanitized": "Tonnenschwere Teile eingesetzt: Arbeiten an neuer Brücke in Schleiden kommen gut voran"
-  },
-  {
-    "itemId": "https://www.ksta.de/898576",
-    "raw": "Frauenfußball: TB-SV Füssenich-Geich festigt dritten Platz in der Landesliga-Tabelle",
-    "sanitized": "Frauenfußball: TB-SV Füssenich-Geich festigt dritten Platz in der Landesliga-Tabelle"
-  },
-  {
-    "itemId": "https://www.ksta.de/898617",
-    "raw": "Jugendfußball: B-Junioren der JSG Erft 01 holen den ersten Saisonsieg",
-    "sanitized": "Jugendfußball: B-Junioren der JSG Erft 01 holen den ersten Saisonsieg"
-  },
-  {
-    "itemId": "https://www.ksta.de/897365",
-    "raw": "Dank für Einsatz: Zülpicher Feuerwehrleute werden für langjährige Mitgliedschaft geehrt",
-    "sanitized": "Dank für Einsatz: Zülpicher Feuerwehrleute werden für langjährige Mitgliedschaft geehrt"
-  },
-  {
-    "itemId": "https://www.ksta.de/897997",
-    "raw": "Nürburgring-Langstrecken-Serie: Tobias Müller hat noch Hoffnung auf den Gesamtsieg",
-    "sanitized": "Nürburgring-Langstrecken-Serie: Tobias Müller hat noch Hoffnung auf den Gesamtsieg"
-  },
-  {
-    "itemId": "https://www.ksta.de/897976",
-    "raw": "Vogelschutz: Entscheidung zu Flächen für Windräder im Kreis Euskirchen kurzfristig vertagt",
-    "sanitized": "Vogelschutz: Entscheidung zu Flächen für Windräder im Kreis Euskirchen kurzfristig vertagt"
-  },
-  {
-    "itemId": "https://www.ksta.de/897771",
-    "raw": "Preise für Ehrenamtler: Stadt Schleiden ehrt Maler, Heinzelmännchen und Kronkorkensammler",
-    "sanitized": "Preise für Ehrenamtler: Stadt Schleiden ehrt Maler, Heinzelmännchen und Kronkorkensammler"
-  },
-  {
-    "itemId": "https://www.ksta.de/897731",
-    "raw": "„Convertibles“: Zülpicher Eltern müssen für digitale Geräte tief in die Tasche greifen",
-    "sanitized": "„Convertibles“: Zülpicher Eltern müssen für digitale Geräte tief in die Tasche greifen"
-  },
-  {
-    "itemId": "https://www.ksta.de/898146",
-    "raw": "Eifelstadion: Mechernicher planen einen Rasentausch auf den Sportplätzen",
-    "sanitized": "Eifelstadion: Mechernicher planen einen Rasentausch auf den Sportplätzen"
-  },
-  {
-    "itemId": "https://www.ksta.de/897043",
-    "raw": "Drei Anträge gestellt: Euskirchenerin erschlich sich Fluthilfe – ein Jahr auf Bewährung",
-    "sanitized": "Drei Anträge gestellt: Euskirchenerin erschlich sich Fluthilfe – ein Jahr auf Bewährung"
-  },
-  {
-    "itemId": "https://www.ksta.de/897352",
-    "raw": "Neues Projekt: Nettersheimer Bürgermeister veranstaltet Jugendsprechstunde",
-    "sanitized": "Neues Projekt: Nettersheimer Bürgermeister veranstaltet Jugendsprechstunde"
-  },
-  {
-    "itemId": "https://www.ksta.de/897179",
-    "raw": "„Bouquet de Danse“: Tanzstudio „CO-LEG“ bot in Euskirchen ein Fest für Augen und Ohren",
-    "sanitized": "„Bouquet de Danse“: Tanzstudio „CO-LEG“ bot in Euskirchen ein Fest für Augen und Ohren"
-  },
-  {
-    "itemId": "https://www.ksta.de/897778",
-    "raw": "111 Punkte am 11.11.: Erftbaskets Bad Münstereifel sind ganz jeck auf Basketball",
-    "sanitized": "111 Punkte am 11.11.: Erftbaskets Bad Münstereifel sind ganz jeck auf Basketball"
-  },
-  {
-    "itemId": "https://www.ksta.de/897707",
-    "raw": "Auto gestohlen: Spritztour von Jugendlichen endet auf Schafweide bei Zülpich",
-    "sanitized": "Auto gestohlen: Spritztour von Jugendlichen endet auf Schafweide bei Zülpich"
-  },
-  {
-    "itemId": "https://www.ksta.de/897233",
-    "raw": "Starkregenschutz: Anwohner in Scheven müssen auch drei Jahre nach der Flut weiter warten",
-    "sanitized": "Starkregenschutz: Anwohner in Scheven müssen auch drei Jahre nach der Flut weiter warten"
-  },
-  {
-    "itemId": "https://www.ksta.de/897281",
-    "raw": "Kirchenkonzert: Ergreifendes Requiem erklang in Herz Jesu in Euskirchen",
-    "sanitized": "Kirchenkonzert: Ergreifendes Requiem erklang in Herz Jesu in Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/897209",
-    "raw": "Wiederaufbau in Zülpich: Kita in Sinzenich ist drei Jahre nach der Flut endlich fertig",
-    "sanitized": "Wiederaufbau in Zülpich: Kita in Sinzenich ist drei Jahre nach der Flut endlich fertig"
-  },
-  {
-    "itemId": "https://www.ksta.de/897381",
-    "raw": "NRW-Statistik: Wo im Kreis Euskirchen die Einkommen am höchsten und am niedrigsten sind",
-    "sanitized": "NRW-Statistik: Wo im Kreis Euskirchen die Einkommen am höchsten und am niedrigsten sind"
-  },
-  {
-    "itemId": "https://www.ksta.de/897353",
-    "raw": "Einsatz nach der Flut: Ein Held der Steinbachtalsperre: Hubert Schilles ist gestorben",
-    "sanitized": "Einsatz nach der Flut: Ein Held der Steinbachtalsperre: Hubert Schilles ist gestorben"
-  },
-  {
-    "itemId": "https://www.ksta.de/896569",
-    "raw": "Besucher tobten vor Lachen: Daphne de Luxe begeisterte in Euskirchen mit Witz und Ironie",
-    "sanitized": "Besucher tobten vor Lachen: Daphne de Luxe begeisterte in Euskirchen mit Witz und Ironie"
-  },
-  {
-    "itemId": "https://www.ksta.de/897246",
-    "raw": "Top-100-Ranking: Diese Reiseziele in der Region sind unter den zehn beliebtesten Attraktionen Deutschlands",
-    "sanitized": "Top-100-Ranking: Diese Reiseziele in der Region sind unter den zehn beliebtesten Attraktionen Deutschlands"
-  },
-  {
-    "itemId": "https://www.ksta.de/896500",
-    "raw": "Frage nach Gott: Künstler Roman Marcellus Castenholz zeigt seine Werke in Euskirchen",
-    "sanitized": "Frage nach Gott: Künstler Roman Marcellus Castenholz zeigt seine Werke in Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/896992",
-    "raw": "Kreisliga-Kolumne: Die Cardinales aus Lommersum erfüllen sich endlich ihren Wunsch",
-    "sanitized": "Kreisliga-Kolumne: Die Cardinales aus Lommersum erfüllen sich endlich ihren Wunsch"
-  },
-  {
-    "itemId": "https://www.ksta.de/896612",
-    "raw": "Nordeifelwerkstätten: Zentrum für berufliche Bildung in Mechernich ist eröffnet",
-    "sanitized": "Nordeifelwerkstätten: Zentrum für berufliche Bildung in Mechernich ist eröffnet"
-  },
-  {
-    "itemId": "https://www.ksta.de/896446",
-    "raw": "Selbsthilfe: Unterstützung und Trost für pflegende Angehörige im Kreis Euskirchen",
-    "sanitized": "Selbsthilfe: Unterstützung und Trost für pflegende Angehörige im Kreis Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/896544",
-    "raw": "„Erster Schritt“ Bürgerserviceplattform in Schleiden ist der Einstieg ins digitale Rathaus",
-    "sanitized": "„Erster Schritt“ Bürgerserviceplattform in Schleiden ist der Einstieg ins digitale Rathaus"
-  },
-  {
-    "itemId": "https://www.ksta.de/896666",
-    "raw": "Bunte Initiative: Jeck gegen Rechts eröffnet Karnevalssession in Euskirchen",
-    "sanitized": "Bunte Initiative: Jeck gegen Rechts eröffnet Karnevalssession in Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/896284",
-    "raw": "Er kommt aus Erftstadt: Die Grünen im Kreis Euskirchen haben einen Bundestagskandidaten",
-    "sanitized": "Er kommt aus Erftstadt: Die Grünen im Kreis Euskirchen haben einen Bundestagskandidaten"
-  },
-  {
-    "itemId": "https://www.ksta.de/896283",
-    "raw": "Proklamation: Das Dreigestirn von Mechernich-Vussem hat Tollitäten-Erfahrung",
-    "sanitized": "Proklamation: Das Dreigestirn von Mechernich-Vussem hat Tollitäten-Erfahrung"
-  },
-  {
-    "itemId": "https://www.ksta.de/896262",
-    "raw": "Beförderung: In Euskirchen-Stotzheim wurde der Bauer zu Prinz Petra I.",
-    "sanitized": "Beförderung: In Euskirchen-Stotzheim wurde der Bauer zu Prinz Petra I."
-  },
-  {
-    "itemId": "https://www.ksta.de/896046",
-    "raw": "Fußball-Bezirksliga: Gegentor in der letzten Minute besiegelt Nierfelder Niederlage",
-    "sanitized": "Fußball-Bezirksliga: Gegentor in der letzten Minute besiegelt Nierfelder Niederlage"
-  },
-  {
-    "itemId": "https://www.ksta.de/896042",
-    "raw": "Fußball-Kreisliga A: Leistungsgerechtes Remis zwischen D-H-O und Lommersum",
-    "sanitized": "Fußball-Kreisliga A: Leistungsgerechtes Remis zwischen D-H-O und Lommersum"
-  },
-  {
-    "itemId": "https://www.ksta.de/896036",
-    "raw": "Kommunalwahl: Dr. Ralf Nolten will Landrat in Düren werden",
-    "sanitized": "Kommunalwahl: Dr. Ralf Nolten will Landrat in Düren werden"
-  },
-  {
-    "itemId": "https://www.ksta.de/895838",
-    "raw": "Glaskunst: Ein Blickfang in Blau im neuen Eugebau-Wohnhaus in Euskirchen",
-    "sanitized": "Glaskunst: Ein Blickfang in Blau im neuen Eugebau-Wohnhaus in Euskirchen"
-  },
-  {
-    "itemId": "https://www.ksta.de/895945",
-    "raw": "Karneval: Warum das Dreiborner Trifolium zu spät zur eigenen Proklamation kam",
-    "sanitized": "Karneval: Warum das Dreiborner Trifolium zu spät zur eigenen Proklamation kam"
-  },
-  {
-    "itemId": "https://www.ksta.de/895962",
-    "raw": "Tollitäten: Damendreigestirn und Kinderprinzenpaar sind in Dom-Esch proklamiert",
-    "sanitized": "Tollitäten: Damendreigestirn und Kinderprinzenpaar sind in Dom-Esch proklamiert"
-  },
-  {
-    "itemId": "https://www.ksta.de/895077",
-    "raw": "Grundsteuerreform: Darum prüft die Stadt Bad Münstereifel alle 12.000 Daten",
-    "sanitized": "Grundsteuerreform: Darum prüft die Stadt Bad Münstereifel alle 12.000 Daten"
-  },
-  {
-    "itemId": "https://www.ksta.de/895811",
-    "raw": "Marien-Hospital: In Euskirchener Klinik werden die Bewegungen der Pflegefachkräfte analysiert",
-    "sanitized": "Marien-Hospital: In Euskirchener Klinik werden die Bewegungen der Pflegefachkräfte analysiert"
-  },
-  {
-    "itemId": "https://www.ksta.de/896038",
-    "raw": "Fußball-Landesliga: Der TuS Zülpich hat gegen Kurdistan Düren kein Elfmeter-Glück",
-    "sanitized": "Fußball-Landesliga: Der TuS Zülpich hat gegen Kurdistan Düren kein Elfmeter-Glück"
-  },
-  {
-    "itemId": "https://www.ksta.de/896044",
-    "raw": "Handball-Oberliga: Besonders Palmersheims Defensive überzeugte beim Sieg gegen Weiden II",
-    "sanitized": "Handball-Oberliga: Besonders Palmersheims Defensive überzeugte beim Sieg gegen Weiden II"
-  },
-  {
-    "itemId": "https://www.ksta.de/895984",
-    "raw": "Pogromnacht: Das Gedenken im Kreis Euskirchen ist zugleich eine Mahnung",
-    "sanitized": "Pogromnacht: Das Gedenken im Kreis Euskirchen ist zugleich eine Mahnung"
+    "itemId": "https://www.ksta.de/906662",
+    "raw": "Kinderzug und Co.: So fährt die Bundestagswahl dem Karneval im Kreis Euskirchen in die Parade",
+    "sanitized": "Kinderzug und Co.: So fährt die Bundestagswahl dem Karneval im Kreis Euskirchen in die Parade"
   }
 ]

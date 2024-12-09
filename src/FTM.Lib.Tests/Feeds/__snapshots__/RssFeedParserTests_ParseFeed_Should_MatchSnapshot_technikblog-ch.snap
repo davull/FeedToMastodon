@@ -2,10 +2,50 @@
   "Id": "http://technikblog.ch/feed/",
   "Website": "https://technikblog.ch/",
   "Title": "Technikblog",
-  "LastUpdatedTime": "2024-11-04T14:01:31+00:00",
+  "LastUpdatedTime": "2024-12-07T16:17:33+00:00",
   "Description": "",
   "Language": "de-CH",
   "Items": [
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37156",
+      "Title": "Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu",
+      "PublishDate": "2024-12-07T16:17:31+00:00",
+      "Summary": "<p>In den letzten Tagen hat unsere PV-Anlage eine Gesamtproduktion von 100 MWh erneuerbarer Energie erreicht, beziehungsweise überschritten. Das ist definitiv ein Beitrag Wert, ein Projekt das im 2017 gestartet hatte mit dem Bau einer PV-Anlage auf dem Hausdach mit 9.28 kWp Leistung. Das war der Anfang von einem Projekt, das unerwartet Ausmasse annahm und mit [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/\">Meine PV-Anlage hat über 100 MWh Energie produziert &#8211; ein paar Gedanken dazu</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/12/meine-pv-anlage-hat-ueber-100-mwh-energie-produziert-ein-paar-gedanken-dazu/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37088",
+      "Title": "Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation",
+      "PublishDate": "2024-12-02T10:26:36+00:00",
+      "Summary": "<p>Heute hat Solar Manager, führender Anbieter für herstellerunabhängige Energiemanagementlösungen, mit dem Solar Manager Connect 2 die neueste Hardware-Generation vorgestellt. Die neue Hutschienen-Version wurde in enger Zusammenarbeit mit Installateuren entwickelt. Sie vereinfacht Installationsprozesse weiter und reduziert den Bedarf an zusätzlicher Hardware erheblich. Sie wurde speziell für die Anforderungen heutiger Energieinfrastruktur konzipiert und überzeugt durch ihre Vielseitigkeit [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/\">Solar Manager stellt Gateway Connect 2 vor: Noch mehr Effizienz und Flexibilität in der Installation</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/12/solar-manager-stellt-gateway-connect-2-vor-noch-mehr-effizienz-und-flexibilitaet-in-der-installation/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37135",
+      "Title": "Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI",
+      "PublishDate": "2024-11-29T20:01:46+00:00",
+      "Summary": "<p>In diesem Blog habe ich schon mehrfach über DJI Produkte berichtet, das waren bisher immer Drohnen oder Gimbals &#8211; in diesem neuen Kurztest geht es aber um ein E-Mountainbike. DJI als welktmarktführender Hersteller von Drohnen, hat diesen Juli an der Eurobike nämlich sein erstes E-Bike-Antriebssystem vorgestellt. Das sogenannte «Avinox Drive System» ist eine Folgerung des [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/\">Ausprobiert: Amflow PL Carbon E-MTB mit Motor von Drohnenhersteller DJI</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/11/ausprobiert-amflow-pl-carbon-e-mtb-mit-motor-von-drohnenhersteller-dji/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37070",
+      "Title": "Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)",
+      "PublishDate": "2024-11-25T20:34:52+00:00",
+      "Summary": "<p>Seit 2021 werkelte bei mir im Technikraum eine Ubiquiti Dream Machine Pro im Technikraum. Damals hatte ich mich für diese professionelle Lösung entschieden, mittlerweile gibt es effizientere und günstigere Lösungen für meine Bedürfnisse. So habe ich nun auf den UniFi Cloud Gateway Ultra gewechselt. Das hat vor allem zwei Gründe: Einerseits genügt mir das günstigere [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/\">Auf Ubiquiti Cloud Gateway Ultra umgestiegen (von UDM Pro)</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2024/11/auf-ubiquiti-cloud-gateway-ultra-umgestiegen-von-udm-pro/"
+    },
     {
       "FeedId": "http://technikblog.ch/feed/",
       "ItemId": "https://technikblog.ch/?p=37052",
@@ -955,46 +995,6 @@
       "Content": null,
       "Language": "de-CH",
       "Link": "https://technikblog.ch/2021/10/mercedes-eqa-250-im-alltagstest-von-einem-elektroauto-neuling/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34242",
-      "Title": "Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse",
-      "PublishDate": "2021-09-28T06:00:00+00:00",
-      "Summary": "<p>Das Tesla Model Y war mit der Lancierung in der Schweiz hier schon die letzten Wochen ein grosses Thema. Dann habe ich dazu das Thema mit der begrenzten Zuladung thematisiert, wobei der Ursprung diesbezüglich noch nicht klar ist und mir auch Tesla nicht weiterhelfen konnte. Mein Kollege Christian hat dann von seinem Model Y etwas [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/\">Tesla Model Y ist im ersten Test: Effizienzkönig seiner Klasse</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/09/tesla-model-y-ist-im-ersten-test-effizienzkoenig-seiner-klasse/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34177",
-      "Title": "Videokonferenz-Setup aufgerüstet mit Logitech Brio & Zone 900",
-      "PublishDate": "2021-09-17T06:00:00+00:00",
-      "Summary": "<p>Während den letzten 1.5 Jahren haben wir wohl alle gelernt, wieviele Tools für Videokonferenzen es gibt. Bei mir hat sich dabei herauskristallisiert, das fast immer Microsoft Teams genutzt wird. Dazu war mein Home Office Setup das ich hier vorstellte eigentlich anfangs sehr gut, bis man dann länger damit arbeitet. Einerseits war nämlich die Bildqualität der [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/\">Videokonferenz-Setup aufgerüstet mit Logitech Brio &#038; Zone 900</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/09/videokonferenz-setup-aufgeruestet-mit-logitech-brio-zone-900/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34224",
-      "Title": "Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor",
-      "PublishDate": "2021-09-14T18:50:42+00:00",
-      "Summary": "<p>Apple hat ein reines Feuerwerk an neuen Produkten am Apple Event am 14. September 2021 vorgestellt. Anstatt lange Blogbeiträge zur Zusammenfassung zu schreiben, probiere ich es mal rekordverdächtig kompakt: iPhone 13 Pro Preise in der Schweiz: iPhone 13 Pro 128 GB für 1129.- CHF 256 GB für 1249.- // 512 GB für 1493.- und 1 [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/\">Apple stellt iPhone 13 Pro, iPhone 13, Apple Watch Series 7 und neues iPad mini und iPad vor</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/09/apple-stellt-iphone-13-pro-iphone-13-apple-watch-series-7-und-neues-ipad-mini-und-ipad-vor/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34203",
-      "Title": "Fahrbericht: Meine ersten 1500km mit dem Model Y",
-      "PublishDate": "2021-09-10T06:00:00+00:00",
-      "Summary": "<p>Seit ich vor über 11 Jahren eine Probefahrt mit einem Tesla Roadster machen durfte war ich von Tesla begeistert. Die Probefahrt war kurz, der Roadster war das anstrengendste Auto welches ich jemals gefahren bin und alles daran war improvisiert. Aber die Beschleunigung zu spüren, wie das Fahrzeug am &#171;Gas-&#187; oder eben Strompedal hing war eine [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/\">Fahrbericht: Meine ersten 1500km mit dem Model Y</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/09/fahrbericht-meine-ersten-1500km-mit-dem-model-y/"
     }
   ]
 }
