@@ -25,30 +25,14 @@ public static class FeedConfigurationReader
     private static FeedConfiguration MapSection(SectionData section)
     {
         var title = section.SectionName;
-        var feedUri = ReadRequiredProperty("feed_url");
-
-        if (!Uri.TryCreate(feedUri, UriKind.Absolute, out var parsedFeedUri))
-        {
-            throw new ArgumentException($"feed_url is not a valid URI, got {feedUri}");
-        }
-
-        var summarySeparator = section.Keys["summary_separator"] ?? string.Empty;
-        summarySeparator = summarySeparator.Replace("\\n", "\n");
-
+        var feedUri = ReadFeedUrl();
+        var summarySeparator = ReadSummarySeparator();
         var mastodonServer = ReadRequiredProperty("mastodon_server");
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
+        var workerLoopDelay = ReadWorkerLoopDelay();
 
-        var workerLoopDelay = section.Keys["worker_loop_delay"] ?? string.Empty;
-        var parsedWorkerLoopDelay = (TimeSpan?)null;
-
-        if (TimeSpan.TryParseExact(workerLoopDelay, @"hh\:mm\:ss",
-                CultureInfo.InvariantCulture, TimeSpanStyles.None, out var ts))
-        {
-            parsedWorkerLoopDelay = ts;
-        }
-
-        return new FeedConfiguration(title, parsedFeedUri, summarySeparator,
-            mastodonServer.TrimEnd('/'), mastodonAccessToken, parsedWorkerLoopDelay);
+        return new FeedConfiguration(title, feedUri, summarySeparator,
+            mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay);
 
         string ReadRequiredProperty(string key)
         {
@@ -59,6 +43,34 @@ public static class FeedConfigurationReader
             }
 
             return value;
+        }
+
+        Uri ReadFeedUrl()
+        {
+            var rawFeedUri = ReadRequiredProperty("feed_url");
+
+            if (!Uri.TryCreate(rawFeedUri, UriKind.Absolute, out var parsedFeedUri))
+            {
+                throw new ArgumentException($"feed_url is not a valid URI, got {rawFeedUri}");
+            }
+
+            return parsedFeedUri;
+        }
+
+        string ReadSummarySeparator()
+        {
+            var s = section.Keys["summary_separator"] ?? string.Empty;
+            return s.Replace("\\n", "\n");
+        }
+
+        TimeSpan? ReadWorkerLoopDelay()
+        {
+            var rawWorkerLoopDelay = section.Keys["worker_loop_delay"] ?? string.Empty;
+
+            return TimeSpan.TryParseExact(rawWorkerLoopDelay, @"hh\:mm\:ss",
+                CultureInfo.InvariantCulture, TimeSpanStyles.None, out var delay)
+                ? delay
+                : null;
         }
     }
 }
