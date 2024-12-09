@@ -800,15 +800,6 @@
           "Microsoft.Extensions.ObjectPool": "9.0.0"
         }
       },
-      "Microsoft.Extensions.Configuration": {
-        "type": "Transitive",
-        "resolved": "9.0.0",
-        "contentHash": "YIMO9T3JL8MeEXgVozKt2v79hquo/EFtnY0vgxmLnUvk1Rei/halI7kOWZL2RBeV9FMGzgM9LZA8CVaNwFMaNA==",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Primitives": "9.0.0"
-        }
-      },
       "Microsoft.Extensions.Configuration.Abstractions": {
         "type": "Transitive",
         "resolved": "9.0.0",
@@ -2459,6 +2450,16 @@
           "Microsoft.Data.Sqlite.Core": "9.0.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
           "SQLitePCLRaw.core": "2.1.10"
+        }
+      },
+      "Microsoft.Extensions.Configuration": {
+        "type": "CentralTransitive",
+        "requested": "[9.0.0, )",
+        "resolved": "9.0.0",
+        "contentHash": "YIMO9T3JL8MeEXgVozKt2v79hquo/EFtnY0vgxmLnUvk1Rei/halI7kOWZL2RBeV9FMGzgM9LZA8CVaNwFMaNA==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         }
       },
       "Microsoft.Extensions.Http.Resilience": {

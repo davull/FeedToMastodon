@@ -17,7 +17,7 @@ public static class FeedItemPoster
         var itemsToPost = GetRelevantItems(feed, processedItems);
 
         context.Logger.LogDebug(
-            "Processing feed \"{Title}\", Id {Id}, Found {RelevantCount} relevant items, Total {TotalCount}",
+            "Processing feed \"{Title}\", Id {Id}, Found {RelevantCount} new items, Total {TotalCount}",
             feed.Title, feed.Id, itemsToPost.Count, feed.Items.Count);
 
         var statuses = CreateStatuses(itemsToPost, context);
