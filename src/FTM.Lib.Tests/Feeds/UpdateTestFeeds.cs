@@ -79,7 +79,8 @@ public class UpdateTestFeeds
             ("businessinsider.de", "https://www.businessinsider.de/feed/businessinsider-alle-artikel"),
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
-            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed")
+            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
+            ("nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss")
         };
 
         foreach (var (name, url) in feeds)
