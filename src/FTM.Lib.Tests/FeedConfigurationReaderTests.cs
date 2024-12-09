@@ -39,6 +39,18 @@ public class FeedConfigurationReaderTests : TestBase
     }
 
     [Test]
+    public void InvalidWorkerLoopDelay_Should_ReturnNullTimeSpan()
+    {
+        var filePath = FilePath("invalid-workerloopdelay-feedconfig.ini");
+
+        var actual = FeedConfigurationReader.ReadConfiguration(filePath);
+
+        actual.Should().NotBeNull();
+        actual.Should().AllSatisfy(
+            config => config.WorkerLoopDelay.Should().BeNull());
+    }
+
+    [Test]
     public void ValidConfigFile_Should_ReturnConfig()
     {
         var filePath = FilePath("valid-feedconfig.ini");

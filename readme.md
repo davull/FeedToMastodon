@@ -22,6 +22,7 @@ feed_url = https://www.heise.de/rss/heise-atom.xml
 summary_separator = [...]
 mastodon_server = https://mastodon.social/
 mastodon_access_token = 1234567890
+worker_loop_delay = 00:30:00
 ```
 
 | Parameter             | Description                                                 |
@@ -30,6 +31,7 @@ mastodon_access_token = 1234567890
 | summary_separator     | Separator where the summary is cut off, see below, optional |
 | mastodon_server       | URL of the Mastodon server, required                        |
 | mastodon_access_token | Access token for the Mastodon account, required             |
+| worker_loop_delay     | Delay between feed checks, format `hh:mm:ss`, optional      |
 
 The locations of the configuration file and the sqlite database are set via environment variables.
 

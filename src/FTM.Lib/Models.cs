@@ -40,7 +40,8 @@ public record FeedConfiguration(
     Uri FeedUri,
     string SummarySeparator,
     string MastodonServer,
-    string MastodonAccessToken);
+    string MastodonAccessToken,
+    TimeSpan? WorkerLoopDelay);
 
 [DebuggerDisplay("{FeedTitle}: {Count}")]
 public record PostsPerFeed(
