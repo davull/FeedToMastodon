@@ -164,7 +164,7 @@ public static class FeedTestsProvider
             { "Drive Tesla", "[…]" },
             { "Visual Studio Blog", "[…]" },
             { "DER Persönlichkeits-Blog", "[…]" },
-            { "Technikblog", "[…]" },
+            { "Technikblog", "\nDer Beitrag" }, // […]
             { "The Reformed Programmer", "…" },
             { "BioinfoWelten", "...\nThe post" },
             { "Nextcloud", "\nThe post" },
