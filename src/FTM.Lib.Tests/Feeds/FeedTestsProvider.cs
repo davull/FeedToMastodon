@@ -165,7 +165,10 @@ public static class FeedTestsProvider
             { "Visual Studio Blog", "[…]" },
             { "DER Persönlichkeits-Blog", "[…]" },
             { "Technikblog", "[…]" },
-            { "The Reformed Programmer", "…" }
+            { "The Reformed Programmer", "…" },
+            { "BioinfoWelten", "...\nThe post" },
+            { "Nextcloud", "\nThe post" },
+            { "RoseHosting", "... \nRead More" }
         };
 
         return from feed in TestFeeds()
