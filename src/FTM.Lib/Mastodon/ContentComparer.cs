@@ -2,8 +2,15 @@
 
 public static class ContentComparer
 {
-    public static bool ContentEquals(string content1, string content2)
+    public static CompareResult Compare(string content1, string content2)
     {
-        return string.Equals(content1, content2, StringComparison.OrdinalIgnoreCase);
+        var equal = string.Equals(content1, content2, StringComparison.OrdinalIgnoreCase);
+        return equal ? CompareResult.Equal : CompareResult.NotEqual;
+    }
+
+    public enum CompareResult
+    {
+        Equal,
+        NotEqual
     }
 }

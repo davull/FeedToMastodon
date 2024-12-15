@@ -7,24 +7,24 @@ namespace FTM.Lib.Tests.Mastodon;
 public class ContentComparerTests
 {
     [Test]
-    public void Same_Content_Should_Return_True()
+    public void Same_Content_Should_Return_Equal()
     {
         const string content1 = "lorem ipsum";
         const string content2 = "lorem ipsum";
 
-        var actual = ContentComparer.ContentEquals(content1, content2);
+        var actual = ContentComparer.Compare(content1, content2);
 
-        actual.Should().BeTrue();
+        actual.Should().Be(ContentComparer.CompareResult.Equal);
     }
 
     [Test]
-    public void Different_Content_Should_Return_False()
+    public void Different_Content_Should_Return_NotEqual()
     {
         const string content1 = "lorem ipsum";
         const string content2 = "dolor sit amet";
 
-        var actual = ContentComparer.ContentEquals(content1, content2);
+        var actual = ContentComparer.Compare(content1, content2);
 
-        actual.Should().BeFalse();
+        actual.Should().Be(ContentComparer.CompareResult.NotEqual);
     }
 }
