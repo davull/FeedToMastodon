@@ -110,16 +110,16 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void StatusContent_Should_MatchSnapshot(FeedItem item)
+    public void StatusContent_Should_MatchSnapshot(FeedItem item, string separator)
     {
-        var status = StatusBuilder.CreateStatus(item, "");
+        var status = StatusBuilder.CreateStatus(item, separator);
         status.Status.Should().MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void Status_Should_MatchSnapshot(FeedItem item)
+    public void Status_Should_MatchSnapshot(FeedItem item, string separator)
     {
-        var status = StatusBuilder.CreateStatus(item, "");
+        var status = StatusBuilder.CreateStatus(item, separator);
 
         var indexes = new[]
         {
@@ -140,9 +140,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveContentAndLink(FeedItem item)
+    public void Status_Should_HaveContentAndLink(FeedItem item, string separator)
     {
-        var status = StatusBuilder.CreateStatus(item, "");
+        var status = StatusBuilder.CreateStatus(item, separator);
 
         var split = status.Status.Split("---");
 
@@ -153,9 +153,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveLanguage(FeedItem item)
+    public void Status_Should_HaveLanguage(FeedItem item, string separator)
     {
-        var status = StatusBuilder.CreateStatus(item, "");
+        var status = StatusBuilder.CreateStatus(item, separator);
         status.Language.Should().NotBeNullOrWhiteSpace();
     }
 
