@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
+    "raw": "Using the YamlDotNet source generator for Native AOT",
+    "sanitized": "Using the YamlDotNet source generator for Native AOT"
+  },
+  {
     "itemId": "https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/",
     "raw": "Cross-Origin-Embedder-Policy: securing embedded resources: Understanding cross-origin security headers - Part 3",
     "sanitized": "Cross-Origin-Embedder-Policy: securing embedded resources: Understanding cross-origin security headers - Part 3"
@@ -118,10 +123,5 @@
     "itemId": "https://andrewlock.net/conditionally-skipping-a-trigger-job-in-gitlab-based-on-a-previous-job/",
     "raw": "Conditionally skipping a trigger job in GitLab based on a previous job",
     "sanitized": "Conditionally skipping a trigger job in GitLab based on a previous job"
-  },
-  {
-    "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
-    "raw": "Blocking primary constructor member capture using a Roslyn Analyzer",
-    "sanitized": "Blocking primary constructor member capture using a Roslyn Analyzer"
   }
 ]

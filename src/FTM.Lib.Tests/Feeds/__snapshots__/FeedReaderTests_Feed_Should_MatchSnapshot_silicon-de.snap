@@ -2,10 +2,70 @@
   "Id": "https://www.silicon.de/feed",
   "Website": "https://www.silicon.de/",
   "Title": "silicon.de",
-  "LastUpdatedTime": "2024-12-09T09:04:52+00:00",
+  "LastUpdatedTime": "2024-12-13T08:48:48+00:00",
   "Description": "TECHNOLOGY POWERING BUSINESS",
   "Language": "de-DE",
   "Items": [
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717316",
+      "Title": "Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert",
+      "PublishDate": "2024-12-13T08:48:48+00:00",
+      "Summary": "In Deutschland ist der Infostealer Formbook weiterhin Spitzenreiter und für rund 18,5 Prozent aller Malware-Infektionen verantwortlich. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717316/malware-ranking-november-kritis-saboteur-androxgh0st-in-mozi-bot-netz-integriert"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717306",
+      "Title": "Sicherheitslücken drohen im gesamten Gerätelebenszyklus",
+      "PublishDate": "2024-12-12T10:43:05+00:00",
+      "Summary": "HP Wolf Security-Studie: fehlende Lieferanten-Audits, schwache BIOS-Passwörter, Fear of Making Updates, Epidemie verlorener Geräte und wachsender E-Müll.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717306/sicherheitsluecken-drohen-im-gesamten-geraetelebenszyklus"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717302",
+      "Title": "Die zehn größten Datenpannen 2024",
+      "PublishDate": "2024-12-12T10:15:29+00:00",
+      "Summary": "Datenpannen sorgen nicht nur für aufmerksamkeitsstarke Schlagzeilen – sie sind eine Erinnerung an die Schwachstellen, die in vielen Netzwerken lauern.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717302/die-zehn-groessten-datenpannen-2024"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717252",
+      "Title": "ISG sieht KI-getriebenen Wandel im Microsoft-Ökosystem",
+      "PublishDate": "2024-12-12T04:27:33+00:00",
+      "Summary": "Das Zusammenspiel von Cloud und KI stellt Hyperscaler, IT-Partner und Endkunden vor neue Herausforderungen. ",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717252/41717252"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717261",
+      "Title": "Hey Lou Hotels nutzt KI-Agenten von Salesforce",
+      "PublishDate": "2024-12-10T12:29:52+00:00",
+      "Summary": "Auf Basis der Lösungen Customer 360 und Data Cloud im Zusammenspiel mit Agentforce will Hotelkette Gästeservice digitalisieren und automatisieren.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717261/hey-lou-hotels-nutzt-ki-agenten-von-salesforce"
+    },
+    {
+      "FeedId": "https://www.silicon.de/feed",
+      "ItemId": "https://www.silicon.de/?p=41717247",
+      "Title": "“Daten nicht nur sammeln, sondern Mitarbeitern zugänglich machen”",
+      "PublishDate": "2024-12-10T09:20:24+00:00",
+      "Summary": "Mikroautomatisierungen sind ein wichtiger Bestandteil der aktuellen Entwicklungen, sagt Sofiane Fessi von Dataiku im Interview.",
+      "Content": null,
+      "Language": "de-DE",
+      "Link": "https://www.silicon.de/41717247/daten-nicht-nur-sammeln-sondern-mitarbeitern-zugaenglich-machen"
+    },
     {
       "FeedId": "https://www.silicon.de/feed",
       "ItemId": "https://www.silicon.de/?p=41717228",
@@ -445,66 +505,6 @@
       "Content": null,
       "Language": "de-DE",
       "Link": "https://www.silicon.de/41716805/sofortzahlungen-im-wandel-sicherheit-und-ki-als-treibende-kraefte"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41716786",
-      "Title": "Blockaden und Risiken bei APM-Projekten vermeiden",
-      "PublishDate": "2024-11-13T12:39:01+00:00",
-      "Summary": "Application Portfolio Management (APM) verspricht Transparenz, mehr IT-Leistung und Effizienz – theoretisch. ",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41716786/blockaden-und-risiken-bei-apm-projekten-vermeiden"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41717041",
-      "Title": "Schnell, sicher, smart: Was heutige Router wirklich leisten",
-      "PublishDate": "2024-11-13T12:20:35+00:00",
-      "Summary": "Router sind die stille Drehscheibe moderner Netzwerke. Sie verbinden Geräte, schaffen Zugang zu unzähligen digitalen Möglichkeiten und sorgen für nahtlose Kommunikation. Doch wie sieht die Entwicklung aus? Und was leisten Router heute wirklich? Ein Blick auf die aktuellen Technologien zeigt, wie leistungsstark und vielseitig moderne Router geworden sind – und warum sie für ein stabiles und sicheres Netzwerk unerlässlich sind.",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41717041/schnell-sicher-smart-was-heutige-router-wirklich-leisten"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41716768",
-      "Title": "BSI-Bericht: Sicherheitslage im Cyberraum bleibt angespannt",
-      "PublishDate": "2024-11-12T16:44:08+00:00",
-      "Summary": "Im Berichtszeitraum Mitte 2023 bis Mitte 2024 wurden täglich durchschnittlich 309.000 neue Schadprogramm-Varianten bekannt. ",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41716768/bsi-bericht-sicherheitslage-im-cyberraum-bleibt-angespannt"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41716753",
-      "Title": "KI-Hype in der Cybersicherheit – oder besser doch nicht?",
-      "PublishDate": "2024-11-12T09:09:23+00:00",
-      "Summary": "KI kommt in der Cybersicherheit zum Einsatz, etwa um Abweichungen im Netzwerkverkehr zu identifizieren. Ist der KI-Einsatz sinnvoll, fragt Sebastian Schmerl von Arctic Wolf.   ",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41716753/ki-hype-in-der-cybersicherheit-oder-besser-doch-nicht"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41716735",
-      "Title": "Netzwerksegementierung schützt vor Angriffen über die OT",
-      "PublishDate": "2024-11-11T14:00:52+00:00",
-      "Summary": "Ungepatchte und veraltetete Maschinen-Software ist ein beliebtes Einfallstor für Hacker, warnt Nils Ullmann von Zscaler im Interview.",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41716735/netzwerksegementierung-schuetzt-vor-angriffen-ueber-die-ot"
-    },
-    {
-      "FeedId": "https://www.silicon.de/feed",
-      "ItemId": "https://www.silicon.de/?p=41716722",
-      "Title": "KI-Bluff bei AIOps erkennen",
-      "PublishDate": "2024-11-11T09:12:39+00:00",
-      "Summary": "Die Auswahl einer Lösung sollte anhand von echten Leistungsindikatoren erfolgen, um echte KI von Behauptungen zu unterscheiden, sagt Dieter Badmann von Juniper Networks.",
-      "Content": null,
-      "Language": "de-DE",
-      "Link": "https://www.silicon.de/41716722/ki-bluff-bei-aiops-erkennen"
     }
   ]
 }

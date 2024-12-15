@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
+    "raw": "Avoid Using C# Events in ASP.NET Core Applications",
+    "sanitized": "Avoid Using C# Events in ASP.NET Core Applications"
+  },
+  {
     "itemId": "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
     "raw": "Interfaces Describe What - Implementations Describe How",
     "sanitized": "Interfaces Describe What - Implementations Describe How"
@@ -43,10 +48,5 @@
     "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
     "raw": "Stop Debugging and Start Running in Visual Studio",
     "sanitized": "Stop Debugging and Start Running in Visual Studio"
-  },
-  {
-    "itemId": "https://ardalis.com/5-rules-dtos/",
-    "raw": "5 Rules for DTOs",
-    "sanitized": "5 Rules for DTOs"
   }
 ]

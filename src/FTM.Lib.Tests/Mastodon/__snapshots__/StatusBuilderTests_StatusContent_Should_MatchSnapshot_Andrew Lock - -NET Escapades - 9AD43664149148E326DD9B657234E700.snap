@@ -1,0 +1,5 @@
+﻿Using the YamlDotNet source generator for Native AOT
+
+In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps
+---
+https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/

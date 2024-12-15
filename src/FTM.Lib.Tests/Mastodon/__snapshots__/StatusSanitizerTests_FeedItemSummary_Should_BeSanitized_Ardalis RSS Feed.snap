@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
+    "raw": "The Hidden Pitfalls of Using C# Events in ASP.NET Core Applications C# events are a powerful feature of the language, providing a simple…",
+    "sanitized": "The Hidden Pitfalls of Using C# Events in ASP.NET Core Applications C# events are a powerful feature of the language, providing a simple…"
+  },
+  {
     "itemId": "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
     "raw": "When working with software development, especially in object-oriented or component-based systems, understanding the distinction between…",
     "sanitized": "When working with software development, especially in object-oriented or component-based systems, understanding the distinction between…"
@@ -43,10 +48,5 @@
     "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
     "raw": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…",
     "sanitized": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…"
-  },
-  {
-    "itemId": "https://ardalis.com/5-rules-dtos/",
-    "raw": "If you don't like reading, here's my YouTube video with samples that covers why these 5 rules will help you write better DTOs: What's a DTO…",
-    "sanitized": "If you don't like reading, here's my YouTube video with samples that covers why these 5 rules will help you write better DTOs: What's a DTO…"
   }
 ]

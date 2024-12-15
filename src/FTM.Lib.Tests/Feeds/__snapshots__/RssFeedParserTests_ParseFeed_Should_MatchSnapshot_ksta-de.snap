@@ -2,10 +2,480 @@
   "Id": "https://www.ksta.de/region/euskirchen-eifel",
   "Website": "https://www.ksta.de/region/euskirchen-eifel",
   "Title": "Euskirchen & Eifel",
-  "LastUpdatedTime": "2024-12-09T20:01:00+01:00",
+  "LastUpdatedTime": "2024-12-15T08:04:00+01:00",
   "Description": "Was ist los im Kreis Euskirchen? Aktuelle Nachrichten und Berichte zu den Themen Kommunalpolitik, -entwicklung, Veranstaltungen, Freizeittipps, Polizei, Unfälle und vieles mehr.",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919674",
+      "Title": "Wiederaufbau: Untergrund lässt Brücken für Fahrzeuge in Arloff und Kirspenich nicht zu",
+      "PublishDate": "2024-12-15T08:04:00+01:00",
+      "Summary": "Planer stellen im Bauausschuss Konzepte für den Wiederaufbau von Straßen in Bad Münstereifel, Arloff/Kirspenich und Iversheim vor.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/bad-muenstereifel/boden-laesst-bruecken-fuer-fahrzeuge-in-arloff-kirspenich-nicht-zu-919674"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920584",
+      "Title": "Gebührensätze steigen: Kaller müssen im kommenden Jahr tiefer in die Tasche greifen",
+      "PublishDate": "2024-12-14T18:03:00+01:00",
+      "Summary": "Um die steigenden Kosten aufzufangen, müssen die Gebühren in Kall 2025 angehoben werden. Für 2026 kündigte Kämmerer Markus Stoff Steuererhöhungen an.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/kaller-muessen-im-kommenden-jahr-tiefer-in-die-tasche-greifen-920584"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920685",
+      "Title": "Stadt erhöht Gebühren: Mechernicher Musterfamilie muss 2025 rund 150 Euro mehr zahlen",
+      "PublishDate": "2024-12-14T16:02:00+01:00",
+      "Summary": "Der Rat der Stadt Mechernich hat auf Vorschlag der Stadtverwaltung einer Erhöhung bei Wasser, Müllabfuhr und Winterdienst zugestimmt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/mechernich-stadt-erhoeht-gebuehren-fuer-wasser-muellabfuhr-co-920685"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920759",
+      "Title": "Song-Adventskalender: Mechernicher Sängerin mag tanzbare Weihnachtsmusik",
+      "PublishDate": "2024-12-14T13:50:00+01:00",
+      "Summary": "Eva und Marvin Becker können sich kaum für ein Lieblingsweihnachtslied entscheiden. Auch die Kinder haben einen Vorschlag.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/mechernicher-saenger-paar-mag-tanzbare-weihnachtsmusik-920759"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920536",
+      "Title": "Sport-Vorschau: Nachsitzen abgesagt: Nachholspiel des SC Wißkirchen gegen Sindorf fällt aus",
+      "PublishDate": "2024-12-14T12:45:31+01:00",
+      "Summary": "In Bad Münstereifel haben die Erftbaskets Heimspiele. Die zweite Mannschaft der Volleyballerinnen aus Marmagen spielt in Urft.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/sport-vorschau-nachholspiel-des-sc-wisskirchen-faellt-aus-920536"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917784",
+      "Title": "Jugendfußball: Den B-Junioren der JSG Erft Euskirchen gelingt der zweite Saisonsieg",
+      "PublishDate": "2024-12-14T12:40:31+01:00",
+      "Summary": "Die A-Jugend der JSG Erft überwintert in der Bezirksliga auf dem Platz an der Sonne. Jubel gibt es bei den C-Juniorinnen des TuS Zülpich.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/jugendfussball-b-junioren-der-jsg-erft-gelingt-zweiter-saisonsieg-917784"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/898339",
+      "Title": "Bei Glühwein, auf dem Pferdehof, auf Rädern: Hier gibt es Weihnachtsbäume im Kreis Euskirchen",
+      "PublishDate": "2024-12-14T12:37:00+01:00",
+      "Summary": "Im Kreis Euskirchen und der Eifel gibt es viele Angebote für Tannenbäume, ob bei Weihnachtsmarktaktionen oder am klassischen Verkaufsstand.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-hier-gibt-es-weihnachtsbaeume-und-schnittgruen-2-898339"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920493",
+      "Title": "Handball-Vorschau: Euskirchener Frauen wünschen sich weitere Kugeln am Punkte-Christbaum",
+      "PublishDate": "2024-12-14T10:04:00+01:00",
+      "Summary": "In der Peter-Weber-Halle in Kuchenheim wird es am Samstag rund um die Handballspiele der Mannschaften der HSG Euskirchen weihnachtlich.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/euskirchener-handballerinnen-hoffen-beim-heimspiel-auf-punkte-920493"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920820",
+      "Title": "Gebühren steigen: Sterben in Euskirchen wird wieder teurer",
+      "PublishDate": "2024-12-14T08:02:00+01:00",
+      "Summary": "Zweimal in Folge hatte die Stadt Euskirchen die Friedhofsgebühren gesenkt, jetzt gehen die Tarife wieder nach oben.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/gebuehren-steigen-sterben-in-euskirchen-wird-wieder-teurer-920820"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920774",
+      "Title": "Weihnachtsdorf eröffnet: Die Weihnachtsstimmung in Euskirchen erreicht ihren Zenit",
+      "PublishDate": "2024-12-13T20:31:00+01:00",
+      "Summary": "Das Weihnachtsdorf in Euskirchen lädt bis Sonntag zum Shoppen ein. Es gibt aber auch buntes Rahmenprogramm.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/euskirchen-weihnachtsdorf-auf-dem-alten-markt-eroeffnet-920774"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920806",
+      "Title": "Votum eindeutig: Landrat Markus Ramers kandidiert erneut im Kreis Euskirchen",
+      "PublishDate": "2024-12-13T19:06:21+01:00",
+      "Summary": "Die SPD im Kreis Euskirchen hat Landrat Markus Ramers das Vertrauen ausgesprochen. Der Freilinger kandidiert erneut für den Posten des Landrats.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/kreis-euskirchen-landrat-markus-ramers-kandidiert-erneut-920806"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920641",
+      "Title": "Großeinsatz für Feuerwehr: Brand in der Filteranlage eines Holzbauunternehmens in Kall",
+      "PublishDate": "2024-12-13T18:49:08+01:00",
+      "Summary": "Ein Großaufgebot der Feuerwehr war am Freitag zu einem Brand in einer Holzbaufirma im Gewerbegebiet ausgerückt. Vier Stunden dauerte der Einsatz.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/kall-brand-in-filteranlage-einer-holzbaufirma-im-gewerbegebiet-920641"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920775",
+      "Title": "Angriff auf Zusteller: Frau in Hellenthal attackiert Paketboten mit Krücke",
+      "PublishDate": "2024-12-13T18:10:45+01:00",
+      "Summary": "Weil eine Frau im Hellenthaler Ortsteil Sieberath keinen Code für ein Paket vorzeigen konnte, nahm der Bote die Zustellung wieder mit.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/hellenthal/frau-in-hellenthal-attackiert-paketboten-mit-kruecke-920775"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920480",
+      "Title": "Kommentar zum Pokal in Zülpich: Ein Fußballspiel als Therapie gegen ein Trauma",
+      "PublishDate": "2024-12-13T16:08:00+01:00",
+      "Summary": "Das FVM-Pokal-Spiel zwischen dem TuS Zülpich und Viktoria Köln war ein Spektakel und bot mehr, als normalerweise in eine Fußballpartie passt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/kommentar-partie-in-zuelpich-als-therapie-gegen-ein-trauma-920480"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/916946",
+      "Title": "Prozess in Euskirchen: Zülpicher soll Nazi-Parolen verbreitet haben",
+      "PublishDate": "2024-12-13T16:01:00+01:00",
+      "Summary": "Ein 43-Jähriger bestreitet den Vorwurf, er habe Losungen der NSDAP und der SA verwendet. Jetzt soll seine Mutter in den Zeugenstand.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/zuelpich/prozess-zuelpicher-soll-im-internet-nazi-parolen-verbreitet-haben-916946"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/671378",
+      "Title": "Termine und Infos: Weihnachtsmärkte 2024 im Kreis Euskirchen und der Eifel im Überblick",
+      "PublishDate": "2024-12-13T14:52:00+01:00",
+      "Summary": "Zwischen Weihnachtsdekorationen schlendern, sich an einem Glühwein aufwärmen – die ersten Weihnachtsmärkte im Kreis Euskirchen und der Eifel öffnen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/weihnachtsmaerkte-kreis-euskirchen-eifel-2024-alle-termine-13-671378"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919650",
+      "Title": "Auch ohne Kreiszuschuss: Kulturcafé in Vogelsang wird als Integrationsprojekt fortgesetzt",
+      "PublishDate": "2024-12-13T12:05:00+01:00",
+      "Summary": "Obwohl der Kreis Euskirchen seinen Zuschuss gestrichen hat, wird Vogelsang IP das Kulturcafé als Integrationsprojekt fortführen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/kulturcaf-in-vogelsang-wird-als-integrationsprojekt-fortgesetzt-919650"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/920256",
+      "Title": "Song-Adventskalender: Zwei Höhner-Lieder landen auf der Weihnachtsplaylist",
+      "PublishDate": "2024-12-13T11:13:07+01:00",
+      "Summary": "Hannes Schöner packt zwei Höhner-Weihnachtslieder auf die Song-Adventskalender-Playlist.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/bad-muenstereifel/fuer-ex-hoehner-mitglied-ist-spiritueller-aspekt-von-weihnachten-wichtig-920256"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919886",
+      "Title": "Countrymusik im Stadttheater: Truck Stop begeistert in Euskirchen die Fans",
+      "PublishDate": "2024-12-13T09:58:00+01:00",
+      "Summary": "Seit mehr als 50 Jahren macht die Band Truck Stop Countrymusik mit deutschen Texten. Jetzt gastierten die Musiker in Euskirchen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/countryband-truck-stop-begeistert-in-euskirchen-die-fans-919886"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/693212",
+      "Title": "Es weihnachtet sehr: Besinnliche Ausflüge in Eifel und Umgebung",
+      "PublishDate": "2024-12-13T08:02:00+01:00",
+      "Summary": "Der Advent im Kreis Euskirchen und in der Eifel hat einiges zu bieten. Von Alpaka-Glühwein-Wanderungen bis hin zur Weihnachtsbäckerei.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/hier-kommen-sie-im-kreis-euskirchen-in-weihnachtsstimmung2-693212"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918648",
+      "Title": "Kampagne: Teuer und umweltschädlich: Viel zu viel Bioabfall im Restmüll im Kreis Euskirchen",
+      "PublishDate": "2024-12-13T07:31:00+01:00",
+      "Summary": "Im Schnitt sind 36 Prozent des Inhalts in den grauen Tonnen Biomüll, teilt der Kreis Euskirchen mit – und startet eine Kampagne.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/mehr-als-drittel-restmuelltonnen-im-kreis-euskirchen-sind-oft-falsch-gefuellt-918648"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919854",
+      "Title": "Strafanzeige gegen Besitzer: Behinderte Hundewelpen im Mechernicher Tierheim „entsorgt“",
+      "PublishDate": "2024-12-13T05:55:00+01:00",
+      "Summary": "In Mechernich wurden Labrador-Mischlinge mit Fehlstellungen aufgenommen – eine Mitarbeiterin hatte den richtigen Riecher und schöpfte Verdacht.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/behinderte-welpen-im-mechernicher-tierheim-entsorgt-919854"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919418",
+      "Title": "Sportlerwahl 2024: Die Euskirchener Lokalredaktion bittet um Nominierungen",
+      "PublishDate": "2024-12-12T19:55:00+01:00",
+      "Summary": "Die Sportlerwahl 2024 im Kreis Euskirchen hat begonnen. Zunächst sind die Leser gefragt: Teilen Sie uns ihre Nominierungen mit.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/sportlerwahl-in-euskirchen-lokalredaktion-bittet-um-vorschlaege-919418"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919518",
+      "Title": "Skiparadies Frauenkron: „“ Vorgänger der SMS – historische Postkarten aus Dahlem veröffentlicht",
+      "PublishDate": "2024-12-12T18:01:00+01:00",
+      "Summary": "Mehr als 200 alte Ansichtskarten aus Dahlem wurden in einem Buch zusammengetragen und beinhalten die ein oder andere Kuriosität.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/dahlem/dahlem-skiparadies-frauenkron-alte-postkarten-veroeffentlicht-919518"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918707",
+      "Title": "Klaus Schmitz hört auf: Stadtrat verabschiedet Euskirchener Finanzchef",
+      "PublishDate": "2024-12-12T16:05:00+01:00",
+      "Summary": "Der Kämmerer hat nach 25 Jahren zum letzten Mal den Haushaltsplan für die Stadt aufgestellt. Ihm fehlen 28,5 Millionen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/stadtrat-verabschiedet-euskirchener-finanzchef-918707"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918540",
+      "Title": "58 Stationen: Der Krippenweg in Ripsdorf erfreut sich immer größerer Beliebtheit",
+      "PublishDate": "2024-12-12T14:03:00+01:00",
+      "Summary": "Der Ripsdorfer Krippenweg hat bei seiner vierten Auflage einiges zu bieten. Das kleinste Exemplar ist nur wenige Zentimeter groß.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/blankenheim/krippenweg-in-ripsdorf-erfreut-sich-immer-groesserer-beliebtheit-918540"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919453",
+      "Title": "FVM-Pokal: Nach dem Zülpicher Blitzstart gegen Viktoria Köln gingen die Lichter aus",
+      "PublishDate": "2024-12-12T13:36:28+01:00",
+      "Summary": "Im Achtelfinale des FVM-Pokals unterliegt der Landesligist TuS Zülpich trotz couragierter Leistung gegen die Profis von Viktoria Köln mit 2:5.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/fvm-pokal-nach-dem-zuelpicher-blitzstart-gingen-die-lichter-aus-919453"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919017",
+      "Title": "Adventskalender: Andreas Warler aus Schleiden fand sein Lieblingsweihnachtslied im Petersdom",
+      "PublishDate": "2024-12-12T12:05:00+01:00",
+      "Summary": "Von Weihnachten bekommt der Schleidener Andreas Warler nicht genug. Er liebt es, wenn die Kirchen voll sind und die Leute singen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/song-adventskalender-schleidener-organist-fand-lieblingslied-im-petersdom-919017"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918991",
+      "Title": "Dreieinhalb Jahre nach der Flut: Badesaison am Kronenburger See ist für 2025 gerettet",
+      "PublishDate": "2024-12-12T10:02:00+01:00",
+      "Summary": "Nach dreieinhalbjähriger Zwangspause in Folge der Flutkatastrophe von 2021 kann der Kronenburger See wieder angestaut werden.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/dahlem/badesaison-am-kronenburger-see-ist-fuer-2025-gerettet-918991"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918813",
+      "Title": "Petition gegen Pläne der Stadt: Standorte der Solarparks in Schleiden stoßen auf Kritik",
+      "PublishDate": "2024-12-12T08:02:00+01:00",
+      "Summary": "Mit einer Petition will Markus Pauls aus Harperscheid die Pläne der Stadt für drei Solarparks stoppen. Unterstützung kommt aus der Politik.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/standorte-der-solarparks-in-schleiden-stossen-auf-kritik-918813"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919112",
+      "Title": "Stahlseil gerissen: Die „Aachen“ trieb nach Havarie führerlos auf dem Rursee",
+      "PublishDate": "2024-12-12T06:03:00+01:00",
+      "Summary": "Während der Fahrt ins Trockendock in Rurberg löste sich das Stahlseil der Slipanlage und das 100-Tonnen-Fahrgastschiff „Aachen“ der Rurseeschifffahrt trieb davon.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/die-aachen-trieb-nach-havarie-auf-fuehrerlos-auf-dem-rursee-919112"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918865",
+      "Title": "Frauenfußball: Die SG Erfthöhen ist seit neun Spielen ohne Niederlage",
+      "PublishDate": "2024-12-11T20:07:00+01:00",
+      "Summary": "In der Landesliga verlor Füssenich-Geich gegen einen mit Regionalligaspielerinnen gespickten SC Fortuna Köln. Zülpich siegt standesgemäß.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/frauenfussball-sg-erfthoehen-hat-sein-neun-spielen-nicht-verloren-918865"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919012",
+      "Title": "Planung vorgestellt: Streit in Mechernich über Radwege für die Feytalstraße",
+      "PublishDate": "2024-12-11T19:25:27+01:00",
+      "Summary": "Spätestens im September 2025 sollen der Ausbau und die Erneuerung der Kanalisation beginnen – Gesamtkosten: rund 7,5 Millionen Euro.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/mechernich-streit-ueber-radwege-fuer-die-feytalstrasse-919012"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/919023",
+      "Title": "Razzien: Mutmaßlicher Fluthilfe-Betrug: So reagieren Politiker und Helfer im Kreis Euskirchen",
+      "PublishDate": "2024-12-11T17:55:59+01:00",
+      "Summary": "In Euskirchen wurden 15 Wohnobjekte durchsucht, in Mechernich eines. Die Gründe sorgen im Kreis Euskirchen für Entsetzen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/so-reagieren-politiker-und-helfer-im-kreis-euskirchen-auf-fluthilfe-betrug-919023"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918841",
+      "Title": "„Verhöhnen die Flutopfer“: Verdacht auf Fluthilfe-Betrug – Polizei durchsucht Häuser in Euskirchen",
+      "PublishDate": "2024-12-11T15:44:43+01:00",
+      "Summary": "Die Durchsuchungen fanden in NRW und zwei anderen Bundesländern statt. Insgesamt werden 136 Menschen verdächtigt, sich die Taschen gefüllt zu haben.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/massiver-fluthilfe-betrug-polizei-durchsucht-haeuser-in-euskirchen-918841"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918166",
+      "Title": "Weihnachtsoratorium: Evangelische Kantorei Euskirchen bei Konzert in Bestform",
+      "PublishDate": "2024-12-11T14:03:00+01:00",
+      "Summary": "Das Weihnachtsoratorium von Johann Sebastian Bach aufzuführen, ist ein ambitioniertes Unterfangen für die evangelische Kantorei Euskirchen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/euskirchen-evangelische-kantorei-begeistert-mit-weihnachtsoratorium-918166"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917994",
+      "Title": "Benefizkonzert: Zoe Wees überzeugte im Zülpicher Seepark mit sehr persönlichen Texten",
+      "PublishDate": "2024-12-11T12:03:00+01:00",
+      "Summary": "Nur von einem Gitarristen begleitet, kam die Stimme des Stars in Zülpich besonders gut zur Geltung. Newcomer Marc Atlas machte den Auftakt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/zuelpich/zuelpich-zoe-wees-ueberzeugte-am-see-mit-persoenlichen-texten-917994"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918105",
+      "Title": "Song-Adventskalender: Vassil Svechtarov kritisiert Kommerz an Weihnachten",
+      "PublishDate": "2024-12-11T10:05:00+01:00",
+      "Summary": "Der Musiker möchte sich an den Feiertagen nicht berieseln lassen. Statt tausendfachen Wiederholungen von Liedern setzt er auf Inhalte.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/song-adventskalender-vassil-svechtarov-kritisiert-kommerz-918105"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918029",
+      "Title": "Umzug in den Osterferien: Grundschule Kall bleibt länger als geplant in den Containern",
+      "PublishDate": "2024-12-11T08:03:00+01:00",
+      "Summary": "Der Umzug der Kaller Grundschule wurde von den Weihnachts- auf die Osterferien verschoben. Danach muss noch das marode Dach saniert werden.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/grundschule-kall-bleibt-laenger-als-geplant-in-den-containern-918029"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917343",
+      "Title": "Ambitionierter Zeitplan: Stadt Euskirchen will Waldfreibad 2026 wiedereröffnen",
+      "PublishDate": "2024-12-11T06:03:00+01:00",
+      "Summary": "2021 war das Freibad an der Steinbachtalsperre schwer beschädigt worden. Die Stadt Euskirchen bereitet den Umbau vor.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/stadt-euskirchen-will-waldfreibad-2026-wiedereroeffnen-917343"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/918190",
+      "Title": "Massenkarambolage: Pkw stößt auf der L210 bei Euskirchen-Weidesheim mit Lkw zusammen",
+      "PublishDate": "2024-12-10T18:49:16+01:00",
+      "Summary": "In einen Unfall auf der L210 bei Euskirchen-Weidesheim sind insgesamt fünf Fahrzeuge verstrickt worden. Mehrere Menschen wurden verletzt. Die L210 ist noch gesperrt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/massenkarambolage-auf-der-l210-bei-euskirchen-weidesheim-918190"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917732",
+      "Title": "Grube Toni: So schützen Naturschützer in Bad Münstereifel den Edelkrebs vor dem Aussterben",
+      "PublishDate": "2024-12-10T16:03:00+01:00",
+      "Summary": "Edelkrebse werden im Kreis Euskirchen in ihrem ursprünglichen Lebensraum angesiedelt. Die Tiere zeigen dabei eine Stärke, die die Fachwelt erstaunt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/bad-muenstereifel-naturschuetzer-helfen-edelkrebsen-917732"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917234",
+      "Title": "Mit vielen Lichtern: Außenkrippe von Georg und Rosemarie in Olef lockt einige Besucher an",
+      "PublishDate": "2024-12-10T11:55:00+01:00",
+      "Summary": "Die Außenkrippe von Georg und Rosemarie Weber in ihrem Garten erfreut viele Besucher. Die Figuren aus Betonstein stammen aus dem französischen Banneux.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/aussenkrippe-von-georg-und-rosemarie-in-olef-lockt-einige-besucher-an-917234"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917368",
+      "Title": "Song-Adventskalender: DJ Paytric erinnert sich an Partys an Heiligabend",
+      "PublishDate": "2024-12-10T10:01:00+01:00",
+      "Summary": "DJ Paytric hört einen Klassiker der Weihnachtsmusik besonders gerne. Die Art Heiligabend zu feiern hat sich bei ihm stark verändert.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/song-adventskalender-dj-paytric-hat-an-heiligabend-aufgelegt-917368"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917328",
+      "Title": "Fehlende Schilder auf Fahrradstraße: Im Auel in Euskirchen sind Autos eigentlich verboten",
+      "PublishDate": "2024-12-10T07:25:00+01:00",
+      "Summary": "Der Auel in Euskirchen ist eine Fahrradstraße, aber die Zusatzschilder fehlen, weshalb dort eigentlich keine Autos fahren dürfen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/euskirchen-bei-der-fahrradstrasse-im-auel-fehlen-schilder-917328"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917314",
+      "Title": "Mittel werden erheblich gekürzt: Das Kommerner Freilichtmuseum setzt 2025 den Rotstift an",
+      "PublishDate": "2024-12-10T05:55:00+01:00",
+      "Summary": "Das Personal des Museums soll nach Möglichkeit gehalten werden, wenn die Großveranstaltungen wie erwartet gut besucht werden.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/kommern-freilichtmuseum-setzt-2025-den-rotstift-an-917314"
+    },
+    {
+      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
+      "ItemId": "https://www.ksta.de/917300",
+      "Title": "„Oase für die Seelen“: Aachener Bischof gratulierte zum Jubiläum der Communio in Mechernich",
+      "PublishDate": "2024-12-10T04:05:00+01:00",
+      "Summary": "Vor 40 Jahren gründete Mutter Marie Therese in Mechernich die Communio in Christo. Vertreter aus vielen Teilen der Welt feierten nun am Hauptsitz das Jubiläum.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/aachener-bischof-gratulierte-der-communio-in-mechernich-917300"
+    },
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
       "ItemId": "https://www.ksta.de/917235",
@@ -19,12 +489,12 @@
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
       "ItemId": "https://www.ksta.de/917250",
-      "Title": "Kreisliga A: Pyrotechnik nach dem Schlusspfiff in Mechernich – Flamersheim entzaubert Sötenich",
+      "Title": "Kreisliga A: Der SV Sötenich wacht bei der SG Flamersheim/Kirchheim zu spät auf",
       "PublishDate": "2024-12-09T19:01:00+01:00",
-      "Summary": "Zwei späte Tore in Mechernich sichert dem TSV Schönau noch einen Punkt. Die JSG Erft Euskirchen lässt Hellenthal keine Chance.",
+      "Summary": "Zwei späte Tore in Mechernich sichern dem TSV Schönau noch einen Punkt. Die JSG Erft Euskirchen lässt Hellenthal keine Chance.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/in-mechernich-wird-pyrotechnik-gezuendet-erft-01-siegt-souveraen-917250"
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/kreisliga-a-der-sv-soetenich-wacht-in-flamersheim-zu-spaet-auf-917250"
     },
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
@@ -69,12 +539,12 @@
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
       "ItemId": "https://www.ksta.de/916297",
-      "Title": "Song-Adventskalender: WDR4-Moderatorin Katja Franke liebt ein Weihnachtslied von ABBA",
+      "Title": "Song-Adventskalender: WDR4-Moderatorin Katia Franke liebt ein Weihnachtslied von ABBA",
       "PublishDate": "2024-12-09T11:54:00+01:00",
       "Summary": "Kinderstimmen berühren WDR-4-Moderatorin besonders. Aber auch „Last Christmas“ sei nicht schlecht.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/katja-franke-hat-mehr-als-ein-lieblingsweihnachtslied-916297"
+      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/katia-franke-hat-mehr-als-ein-lieblingsweihnachtslied-916297"
     },
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
@@ -238,16 +708,6 @@
     },
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/671378",
-      "Title": "Termine und Infos: Weihnachtsmärkte 2024 im Kreis Euskirchen und der Eifel im Überblick",
-      "PublishDate": "2024-12-06T19:52:30+01:00",
-      "Summary": "Zwischen Weihnachtsdekorationen schlendern, sich an einem Glühwein aufwärmen – die ersten Weihnachtsmärkte im Kreis Euskirchen und der Eifel öffnen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/weihnachtsmaerkte-kreis-euskirchen-eifel-2024-alle-termine-12-671378"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
       "ItemId": "https://www.ksta.de/915301",
       "Title": "82 Hektar stehen bereit: Stadt Schleiden will an drei Standorten Solarparks entwickeln",
       "PublishDate": "2024-12-06T18:54:45+01:00",
@@ -305,16 +765,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.ksta.de/region/euskirchen-eifel/zuelpich/song-adventskalender-john-lennon-und-rolf-zuckowski-duerfen-nicht-fehlen-914830"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/693212",
-      "Title": "Es weihnachtet sehr: Besinnliche Ausflüge in Eifel und Umgebung",
-      "PublishDate": "2024-12-06T10:02:00+01:00",
-      "Summary": "Der Advent im Kreis Euskirchen und in der Eifel hat einiges zu bieten. Von Alpaka-Glühwein-Wanderungen bis hin zur Weihnachtsbäckerei.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/hier-kommen-sie-im-kreis-euskirchen-in-weihnachtsstimmung1-693212"
     },
     {
       "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
@@ -595,396 +1045,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/neues-caf-in-flamersheim-hunde-lieben-das-leberwursteis-911545"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911672",
-      "Title": "Sport am Tisch: So liefen die Westdeutschen Tipp-Kick-Meisterschaften in Zingsheim",
-      "PublishDate": "2024-12-03T07:30:00+01:00",
-      "Summary": "Artur Merke gewann den Titel im Spiel mit dem eckigen Ball. Tipp-Kick fasziniert durch Tempo und Geschicklichkeit.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/nettersheim/in-zingsheim-fanden-westdeutsche-tipp-kick-meisterschaften-statt-911672"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911562",
-      "Title": "Nach der Arbeit pauken: Fensterbau-Firma in Ripsdorf bietet Deutschunterricht für Mitarbeiter",
-      "PublishDate": "2024-12-03T05:55:00+01:00",
-      "Summary": "Um die Integration der Mitarbeiter, die aus aller Welt kommen, zu verbessern, bietet die Firma Pfeil-Fensterbau in Ripsdorf einen Deutschunterricht an.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/blankenheim/fensterbau-firma-in-ripsdorf-bietet-deutschunterricht-fuer-mitarbeiter-911562"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911422",
-      "Title": "Fußball-Kreisliga A: Frauenberg und Sötenich liefern sich einen offenen Schlagabtausch",
-      "PublishDate": "2024-12-02T18:04:00+01:00",
-      "Summary": "Die JSG Erft Euskirchen feiert in der Fußball-Kreisliga A ein Schützenfest gegen den SC Roitzheim. Dom-Esch ringt den SSV Weilerswist nieder.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/fussball-frauenberg-und-soetenich-liefern-sich-offenen-schlagabtausch-911422"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911486",
-      "Title": "52 Jahre alter Beifahrer: Weitere Person stirbt nach Unfall auf der A1 bei Mechernich",
-      "PublishDate": "2024-12-02T15:06:43+01:00",
-      "Summary": "Ein Lkw-Fahrer ist nach dem Unfall auf A1 bei Mechernich ermittelt und nur unter strengen Auflagen wieder auf freien Fuß gesetzt worden.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/a1-mechernich-beifahrer-stirbt-nach-unfall-an-seinen-verletzungen-911486"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911370",
-      "Title": "Fußball-Bezirksliga: Bessenich kassiert eine bittere Niederlage – Nierfeld rettet einen Punkt",
-      "PublishDate": "2024-12-02T14:01:00+01:00",
-      "Summary": "Der SV Bessenich befindet sich in der Bezirksliga endgültig im Abstiegskampf. Wißkirchen kassiert Pleite und zwei Platzverweise.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/bessenich-kassiert-eine-bittere-niederlage-nierfeld-rettet-einen-punkt-911370"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/910770",
-      "Title": "Biostation sucht Unterstützer: Steinkäuze im Kreis Euskirchen brauchen menschliche Hilfe",
-      "PublishDate": "2024-12-02T11:55:00+01:00",
-      "Summary": "Der Lebensraum der Steinkäuze wird immer mehr beschnitten. Die Biologische Station im Kreis Euskirchen startet ein neues Projekt.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/kreis-euskirchen-biostation-sucht-helfer-fuer-steinkauz-projekt-910770"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/910795",
-      "Title": "Song-Adventskalender: Musikern aus Kuchenheim geht der eigene Song nicht aus dem Kopf",
-      "PublishDate": "2024-12-02T10:01:00+01:00",
-      "Summary": "Die zweiköpfige Band Schohnzeit präsentiert in jedem Jahr ein eigenes Weihnachtslied. Diesmal waren viele Musiker aus dem Kreis beteiligt.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/song-adventskalender-musiker-aus-kuchenheim-mit-kritischen-toenen-910795"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/910773",
-      "Title": "Senioren im Fitnessstudio: Die Enkel sind für Euskirchener größere Motivation als Instagram",
-      "PublishDate": "2024-12-02T05:35:00+01:00",
-      "Summary": "Die Clique der rüstigen Rentner trainiert seit zehn Jahren gemeinsam. Der Kaffee vor dem Sport ist dabei wichtiger als das Pumpen selbst.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/euskirchen-senioren-trainieren-im-gym-auch-die-social-fitness-910773"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911022",
-      "Title": "Basketball-Landesliga: Erftbaskets Bad Münstereifel gewinnen emotionales Derby",
-      "PublishDate": "2024-12-01T21:43:07+01:00",
-      "Summary": "Nach einer Steigerung besiegten die Münstereifeler Basketballer den TuS Zülpich. Trainer Hammes lobte die Spieler, die von der Bank kamen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/erftbaskets-bad-muenstereifel-gewinnen-emotionales-derby-911022"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/911019",
-      "Title": "Fußball-Landesliga: Zülpich zeigt keine Schwäche und siegt verdient",
-      "PublishDate": "2024-12-01T21:26:47+01:00",
-      "Summary": "Vor dem Pokalspiel gegen die Profis von Viktoria Köln zeigte der TuS Zülpich im Punktspiel gegen Eilendorf eine starke Leistung.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/fussball-tus-zuelpich-zeigt-keine-schwaeche-und-siegt-verdient-911019"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/910799",
-      "Title": "Reiferscheid, Kronenburg und Co.: Weihnachtsmärkte locken Besucher im Kreis Euskirchen an",
-      "PublishDate": "2024-12-01T16:30:00+01:00",
-      "Summary": "Mehrere Tausend Menschen im gesamten Kreis Euskirchen nutzten das erste Adventswochenende, um in die Vorweihnachtszeit einzutauchen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/weihnachtsmaerkte-im-kreis-euskirchen-locken-besucher-an-910799"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/910749",
-      "Title": "Wahlkreis Euskirchen - Rhein-Erft II: SPD schickt Andrea Kanonenberg aus Wesseling ins Rennen",
-      "PublishDate": "2024-12-01T14:01:00+01:00",
-      "Summary": "Tränen der Rührung nach Ergebnis: Die SPD nominiert 43-Jährige aus Wesseling mit großer Mehrheit für den Bundestagswahlkampf.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/bundestagswahl-spd-nominiert-andrea-kanonenberg-aus-wesseling-910749"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/900647",
-      "Title": "Sänger und Multiinstrumentalist: Zehntausende hören die Musik des Euskircheners Leon Jander",
-      "PublishDate": "2024-12-01T12:01:00+01:00",
-      "Summary": "Leon Jander arbeitet an seinem ersten Album. Der 28-jährige Musiker, der in Euskirchen aufwuchs, will 2025 auf Tournee gehen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/zehntausende-hoeren-die-musik-des-euskircheners-leon-jander-900647"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909815",
-      "Title": "Winterquartier: Ehemaliger Wasserspeicher bei Uedelhoven soll künftig Fledermäuse behausen",
-      "PublishDate": "2024-12-01T12:01:00+01:00",
-      "Summary": "Die Untere Naturschutzbehörde möchte in der Gemeinde Blankenheim ein zweites Quartier für Langohr, Mausohr und Co. schaffen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/blankenheim/uedelhoven-alter-wasserspeicher-soll-zu-fledermausdomizil-werden-909815"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909784",
-      "Title": "Bürgermeister-Wahl: In Mechernich ist das Rennen um die Schick-Nachfolge eröffnet",
-      "PublishDate": "2024-12-01T07:31:00+01:00",
-      "Summary": "Die Mechernicher SPD nominiert Dr. Peter Schweikert-Wehner für die Wahl zum Bürgermeister – Dirk Weiermann tritt als parteiloser Kandidat an.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/mechernich-kandidaten-fuer-die-schick-nachfolge-gehen-in-stellung-909784"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909642",
-      "Title": "Klagen von Anwohnern: Straßen in Rinnen sind durch Matsch aus dem Steinbruch verdreckt",
-      "PublishDate": "2024-11-30T20:01:00+01:00",
-      "Summary": "In Rinnen beschweren sich Anwohner über Matsch auf den Straßen, den Lkw aus dem Steinbruch mitbringen. Die Gemeinde will mit der Firma reden.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kall/kall-strassen-sind-durch-matsch-aus-steinbruch-bei-rinnen-verdreckt-909642"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/903328",
-      "Title": "Kampf gegen Blutkrebs: Münstereifelerin spendete Stammzellen für Frau aus den USA",
-      "PublishDate": "2024-11-30T18:01:00+01:00",
-      "Summary": "Jennifer Corsten hatte sich vor mehr als zehn Jahren typisieren lassen. Nun waren ihre Stammzellen gefragt, um einer kranken Frau zu helfen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/bad-muenstereifel/muenstereifelerin-spendete-stammzellen-fuer-frau-aus-den-usa-903328"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909683",
-      "Title": "Attraktion kommt gut an: Eisstockbahn in Schleiden ist schon zu 80 Prozent ausgebucht",
-      "PublishDate": "2024-11-30T16:01:00+01:00",
-      "Summary": "Erstmals lockt eine Eisstockbahn in der Weihnachtszeit Besucher in die Schleidener Innenstadt. Zudem gibt es ein Rahmenprogramm mit viel Musik.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/eisstockbahn-in-schleiden-ist-schon-zu-80-prozent-ausgebucht-909683"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908510",
-      "Title": "CSD und Rosenmontag: Drehorgel Simon eröffnet Begegnungsstätte am Euskirchener Viehplätzchen",
-      "PublishDate": "2024-11-30T11:55:00+01:00",
-      "Summary": "Winfried Kubitza-Simons eröffnet in Euskirchen „Simons Glück“. Der Queere Stammtisch kündigt CSD-Demo an und will beim Rosenmontagszug mitgehen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/euskirchen-simons-glueck-eroeffnet-im-viehplaetzchen-908510"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909589",
-      "Title": "Song-Adventskalender: Der Ex-Musikchef aus Kreuzweingarten und seine Lieblingslieder zum Fest",
-      "PublishDate": "2024-11-30T07:31:00+01:00",
-      "Summary": "Wolf Werth präsentiert weihnachtliche Songs, die einen besonderen Stellenwert für ihn haben. Dabei verteilt der Euskirchener Lob und Tadel.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/song-adventskalender-das-hoert-der-musikexperte-aus-kreuzweingarten-909589"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/906618",
-      "Title": "Einige Extrawünsche: So bereitet sich der TuS Zülpich auf das Spiel gegen Viktoria Köln vor",
-      "PublishDate": "2024-11-29T19:55:00+01:00",
-      "Summary": "Der Vorverkauf für das Spiel Zülpich gegen Viktoria läuft. Der TuS musste ein Sicherheitskonzept erstellen und rechnet mit 1500 Zuschauern.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/zuelpich/tus-zuelpich-vip-bereich-beim-pokalspiel-gegen-viktoria-koeln-906618"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909303",
-      "Title": "„Communio in Christo“: 1984 war der Mechernicher Orden dem Bischof noch ein Dorn im Auge",
-      "PublishDate": "2024-11-29T16:04:00+01:00",
-      "Summary": "Nach anfänglichen Widerständen in Kirche und Gesellschaft gehört der „Ordo Communionis in Christo“ heute fest zum Mechernicher Stadtbild.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/communio-in-christo-feiert-40-geburtstag-in-mechernich-909303"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908786",
-      "Title": "Werben und Neugier wecken: Bürgerstiftung Schleiden will mit Imagefilm bekannter werden",
-      "PublishDate": "2024-11-29T15:46:00+01:00",
-      "Summary": "Für rund 10.000 Euro hat die Bürgerstiftung Schleiden einen Imagefilm drehen lassen, mit dem sie das Interesse für ihre Arbeit wecken will.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/schleiden-buergerstiftung-will-mit-imagefilm-bekannter-werden-908786"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909593",
-      "Title": "Lkw fuhr weiter: 33-Jähriger stirbt bei Unfall auf der A1 Richtung Köln – Polizei fahndet nach Flüchtigem",
-      "PublishDate": "2024-11-29T14:17:11+01:00",
-      "Summary": "Die Polizei sucht mit einem Hubschrauber nach dem Lkw, der nach dem Zusammenstoß weitergefahren sein soll.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/mechernich/33-jaehriger-stirbt-auf-a1-richtung-koeln-polizei-fahndet-nach-lkw-2-909593"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909359",
-      "Title": "Bezirksliga: SC Wißkirchen sehnt die Winterpause herbei",
-      "PublishDate": "2024-11-29T14:17:00+01:00",
-      "Summary": "Kevin Greuel und Wißkirchen erleben in der Fußball-Bezirksliga das berüchtigte zweite Jahr nach dem Aufstieg.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/bezirksliga-sc-wisskirchen-sehnt-die-winterpause-herbei-909359"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/909768",
-      "Title": "Handball: Mehr Derby als zwischen Palmersheim und den Wölfen Rheinbach geht nicht",
-      "PublishDate": "2024-11-29T13:10:00+01:00",
-      "Summary": "Handball im Kreis Euskirchen: TV Palmersheim trifft auf die Wölfe Voreifel – HSG Euskirchen ist beim TuS Zülpich zu Gast.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/handball-palmersheim-trifft-auf-woelfe-voreifel-euskirchen-auf-zuelpich-909768"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908996",
-      "Title": "30 Euro Bußgeld drohen: Kreis Euskirchen schreibt am Parkplatz nun Knöllchen",
-      "PublishDate": "2024-11-29T11:56:00+01:00",
-      "Summary": "Jetzt aber: Das neue Parkraumkonzept des Kreises Euskirchen an der Kreisverwaltung wird umgesetzt. Bald schon drohen Knöllchen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/kreis-euskirchen-an-der-kreisverwaltung-drohen-nun-knoellchen-908996"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908624",
-      "Title": "Neubaugebiet: Firma plant in Euskirchen-Stotzheim bis zu 300 Wohneinheiten",
-      "PublishDate": "2024-11-29T08:04:00+01:00",
-      "Summary": "Stotzheim soll weiter wachsen. Das Grobkonzept für ein neues Baugebiet mit 13 Hektar Gesamtfläche stieß im Planungsausschuss auf Zustimmung.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/firma-plant-in-euskirchen-stotzheim-bis-zu-300-wohneinheiten-908624"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/907894",
-      "Title": "Bahn-Elektrifizierung: Die nächste Hiobsbotschaft für die Fahrgäste auf der Eifelstrecke",
-      "PublishDate": "2024-11-29T06:08:00+01:00",
-      "Summary": "Der Start des elektrischen Verkehrs auf der Strecke zwischen Köln, Euskirchen und Trier könnte sich weiter als bislang bekannt verzögern.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/kreis-euskirchen/deutsche-bahn-eifelstrecke-neue-hiobsbotschaft-fuer-bahnkunden-im-kreis-euskirchen-907894"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908997",
-      "Title": "Landgericht Bonn: Millionen-Prozess um Marien-Hospital: Kritische Fragen an Verwaltungsrat",
-      "PublishDate": "2024-11-29T06:03:00+01:00",
-      "Summary": "Vor dem Landgericht belastete der geschäftsführende Vorsitzende des Verwaltungsrates den Ex-Geschäftsführer – musste sich aber auch kritischen Fragen stellen.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/prozess-um-marien-hospital-euskirchen-was-tat-der-verwaltungsrat-908997"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908873",
-      "Title": "Bekenntnis zum Standort: Netto-Markt in Dahlem wurde zweimal überflutet – nun hat er wieder geöffnet",
-      "PublishDate": "2024-11-28T20:07:49+01:00",
-      "Summary": "Erst wurde die Discounter-Filiale von der Flutkatastrophe im Juli 2021 getroffen, dann setzte ein Starkregen im Mai 2024 das Geschäft unter Wasser.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/dahlem/dahlem-netto-nach-zweimaliger-ueberflutung-wieder-offen-908873"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908935",
-      "Title": "Adventsmarkt: „Zöllecher Burg Weihnacht“ belebt Tradition des Zülpicher Geschichtsvereins",
-      "PublishDate": "2024-11-28T20:03:30+01:00",
-      "Summary": "Initiator Maximilian Mannheims zeigte sich zufrieden mit dem Auftakt des noch kleinen, aber feinen Adventsmarktes in Zülpich.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/zuelpich/zuelpich-zoellecher-burg-weihnacht-belebt-tradition-wieder-908935"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908513",
-      "Title": "Vorschlag der CDU: Hellenthaler Hauptschüler sollen die Förderschule besuchen",
-      "PublishDate": "2024-11-28T15:55:00+01:00",
-      "Summary": "Im Hauptausschuss zog sich die CDU den Zorn der anderen Fraktionen zu. „Sie treten die Hauptschüler ins Gesicht“, sagte ein FDP-Mann.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/hellenthal/hellenthal-hauptschueler-sollen-foerderschule-besuchen-908513"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/907868",
-      "Title": "Görner und Hammes im Gespräch: Zülpich und Bad Münstereifel feiern gemeinsam Adventsauftakt",
-      "PublishDate": "2024-11-28T12:01:00+01:00",
-      "Summary": "Am Samstagabend treffen in der Basketball-Landesliga der TuS Zülpich und die Erftbaskets Bad Münstereifel zum Derby aufeinander.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-lokalsport/basketball-adventsauftakt-mit-zuelpich-und-bad-muenstereifel-907868"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/907898",
-      "Title": "Haupt- und Finanzausschuss: Die Grundsteuer B in Bad Münstereifel steigt erheblich",
-      "PublishDate": "2024-11-28T11:55:00+01:00",
-      "Summary": "Nicht nur die Grundsteuer B steigt, auch für die Straßenreinigung und die Müllabfuhr zahlen die Bürger Bad Münstereifel ab 2025 mehr.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/bad-muenstereifel/bad-muenstereifel-die-grundsteuer-b-steigt-erheblich-907898"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/898339",
-      "Title": "Bei Glühwein, auf dem Pferdehof, auf Rädern: Hier gibt es Weihnachtsbäume im Kreis Euskirchen",
-      "PublishDate": "2024-11-28T10:11:00+01:00",
-      "Summary": "Im Kreis Euskirchen und der Eifel gibt es viele Angebote für Tannenbäume, ob bei Weihnachtsmarktaktionen oder am klassischen Verkaufsstand.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/euskirchen-hier-gibt-es-weihnachtsbaeume-und-schnittgruen-1-898339"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/908004",
-      "Title": "80. Transport: Hilfsgüter aus der Eifel zu Alzheimer-Einrichtung nach Rumänien gebracht",
-      "PublishDate": "2024-11-28T09:58:00+01:00",
-      "Summary": "Elektrobetten und Nachttische wurden von den Hilfsorganisationen „Rumänien Sunshine“ und „Eifellicht“ von Trier bis nach Rumänien gebracht.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/nettersheim/eifel-hilfsgruppe-faehrt-80-transport-nach-rumaenien-908004"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/907758",
-      "Title": "In einigen Orten wird gerast: Schleiden legt Auswertung von Geschwindigkeitsdisplays vor",
-      "PublishDate": "2024-11-28T07:29:00+01:00",
-      "Summary": "Auswertungen von Geschwindigkeitsdisplays haben ergeben, dass im Schleidener Stadtgebiet zu schnell gefahren wird.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/schleiden-gemuend/schleiden-legt-auswertung-von-geschwindigkeitsdisplays-vor-907758"
-    },
-    {
-      "FeedId": "https://www.ksta.de/region/euskirchen-eifel",
-      "ItemId": "https://www.ksta.de/906662",
-      "Title": "Kinderzug und Co.: So fährt die Bundestagswahl dem Karneval im Kreis Euskirchen in die Parade",
-      "PublishDate": "2024-11-28T05:55:00+01:00",
-      "Summary": "Am 23. Februar wird wohl der Bundestag gewählt. Das tangiert Tollitätenempfänge und Karnevalszüge – beispielsweise in Euskirchen und Kalkar.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.ksta.de/region/euskirchen-eifel/stadt-euskirchen/kreis-euskirchen-bundestagswahl-trifft-auf-den-karneval-906662"
     }
   ]
 }

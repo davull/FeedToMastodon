@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20241215_d49a6aaf.mp3",
+    "raw": "Napoleon ist schwer verliebt, trotzdem löst er am 15.12.1809 mit einer offiziellen Zeremonie die Ehe zu Kaiserin Joséphine. Ihre besondere Beziehung bleibt.  Von Sabine Mann.",
+    "sanitized": "Napoleon ist schwer verliebt, trotzdem löst er am 15.12.1809 mit einer offiziellen Zeremonie die Ehe zu Kaiserin Joséphine. Ihre besondere Beziehung bleibt.  Von Sabine Mann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241214_935aedcc.mp3",
+    "raw": "Fast sieben Jahrzehnte lang teilte die US-kontrollierte Kanalzone das mittelamerikanische Land. Am 14.12.1999 geht der Panamakanal mit einem Festakt an Panama zurück. Von Christoph Vormweg.",
+    "sanitized": "Fast sieben Jahrzehnte lang teilte die US-kontrollierte Kanalzone das mittelamerikanische Land. Am 14.12.1999 geht der Panamakanal mit einem Festakt an Panama zurück. Von Christoph Vormweg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241213_a27869a7.mp3",
+    "raw": "Am 13.12.1974 bereiten sich die Gläubiger der Herstatt-Bank auf eine Versammlung in Köln vor. Bekommen sie ihre Ersparnisse zurück, mit denen die Banker gezockt hatten? Von Thomas Pfaff.",
+    "sanitized": "Am 13.12.1974 bereiten sich die Gläubiger der Herstatt-Bank auf eine Versammlung in Köln vor. Bekommen sie ihre Ersparnisse zurück, mit denen die Banker gezockt hatten? Von Thomas Pfaff."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241212_0d044e87.mp3",
+    "raw": "Die Entscheidung vom 12.12.1979 folgt der alten römischen Logik: Willst du Frieden, bereite den Krieg vor. Die Bundesregierung zerbricht auch an der Frage der Stationierung von Atomraketen. Von Michael Reinartz.",
+    "sanitized": "Die Entscheidung vom 12.12.1979 folgt der alten römischen Logik: Willst du Frieden, bereite den Krieg vor. Die Bundesregierung zerbricht auch an der Frage der Stationierung von Atomraketen. Von Michael Reinartz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241211_260165f6.mp3",
+    "raw": "Zehn Jahre klaut ein Mitarbeiter Bücher im Wert von 40 Millionen Euro aus der Königlichen Bibliothek. Erst Jahrzehnte später, im Dezember 2004, ist der Fall endgültig abgeschlossen. Von Julia Schäfer.",
+    "sanitized": "Zehn Jahre klaut ein Mitarbeiter Bücher im Wert von 40 Millionen Euro aus der Königlichen Bibliothek. Erst Jahrzehnte später, im Dezember 2004, ist der Fall endgültig abgeschlossen. Von Julia Schäfer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241210_641f3990.mp3",
+    "raw": "Als er die Lösung fand, fühlte sich Max Born wie ein Seefahrer nach langer Irrfahrt. Der Physik-Nobelpreis als Anerkennung ließ bis zum 10.12.1954 lange auf sich warten. Von Wolfgang Burgmer.",
+    "sanitized": "Als er die Lösung fand, fühlte sich Max Born wie ein Seefahrer nach langer Irrfahrt. Der Physik-Nobelpreis als Anerkennung ließ bis zum 10.12.1954 lange auf sich warten. Von Wolfgang Burgmer."
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20241209_9fc3fbe6.mp3",
     "raw": "Als falsche Königing Beatrix, als \"Hurz\"-Perfomer, als Bestseller-Autor vom Jakobsweg, als Junge, der mal an die frische Luft muss: Hape Kerkeling gehört zu den beliebtesten Komikern der Deutschen. Von Fritz Schaefer.",
     "sanitized": "Als falsche Königing Beatrix, als \"Hurz\"-Perfomer, als Bestseller-Autor vom Jakobsweg, als Junge, der mal an die frische Luft muss: Hape Kerkeling gehört zu den beliebtesten Komikern der Deutschen. Von Fritz Schaefer."
@@ -346,8 +376,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20241001_02819265.mp3",
-    "raw": "Als Marion Ihns und Judy Andersen wegen Mordes vor Gericht stehen, macht die Presse aus ihrer Liebe einen Skandal. Für die Frauenbewegung wird der Prozess zum Wendepunkt. Von Laura Dresch.",
-    "sanitized": "Als Marion Ihns und Judy Andersen wegen Mordes vor Gericht stehen, macht die Presse aus ihrer Liebe einen Skandal. Für die Frauenbewegung wird der Prozess zum Wendepunkt. Von Laura Dresch."
+    "raw": "Als Monika Ihns und Judy Andersen wegen Mordes vor Gericht stehen, macht die Presse aus ihrer Liebe einen Skandal. Für die Frauenbewegung wird der Prozess zum Wendepunkt. Von Laura Dresch.",
+    "sanitized": "Als Monika Ihns und Judy Andersen wegen Mordes vor Gericht stehen, macht die Presse aus ihrer Liebe einen Skandal. Für die Frauenbewegung wird der Prozess zum Wendepunkt. Von Laura Dresch."
   },
   {
     "itemId": "/wdr_zeitzeichen_20240930_c559c804.mp3",
@@ -1685,6 +1715,11 @@
     "sanitized": "Am 8.1.1324 ist Marco Polo gestorben, das steht fest. Aber was ist wahr von all den unglaublichen Geschichten und Abenteuern, die er auf der Reise seines Lebens erlebt haben will? Von Marko Rösseler."
   },
   {
+    "itemId": "/wdr_zeitzeichen_20240108_d818d5ea.mp3",
+    "raw": "Eine Frau führt im Jahr 60 n.Chr. die Rebellion der Kelten gegen die römischen Besatzer in Britannien an. Boudicca feiert gibt erste Siege, das antike Londinium brennt - dann schlägt Rom zurück... Von Tobias Sauer.",
+    "sanitized": "Eine Frau führt im Jahr 60 n.Chr. die Rebellion der Kelten gegen die römischen Besatzer in Britannien an. Boudicca feiert gibt erste Siege, das antike Londinium brennt - dann schlägt Rom zurück... Von Tobias Sauer."
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20240107_32d21a65.mp3",
     "raw": "Massenwahn, ganze Dörfer im wilden Tanz: Wo der Wanderprediger Friedrich Muck-Lamberty auftaucht in den wirren Jahren nach dem Ersten Weltkrieg, begeistert er die Menschen. Am 7.1.1984 ist Muck-Lamberty gestorben. Von Christiane Kopka.",
     "sanitized": "Massenwahn, ganze Dörfer im wilden Tanz: Wo der Wanderprediger Friedrich Muck-Lamberty auftaucht in den wirren Jahren nach dem Ersten Weltkrieg, begeistert er die Menschen. Am 7.1.1984 ist Muck-Lamberty gestorben. Von Christiane Kopka."
@@ -2963,40 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230428_3b750376.mp3",
     "raw": "Zucker ohne Sklavenarbeit? Das ist im 18. Jahrhundert kaum denkbar. Aber dann kommt Franz Carl Achard (geboren am 28.4.1753) und zeigt, dass man Zucker nicht nur aus dem in den Kolonien wachsenden Rohrzucker, sondern auch aus Runkelrüben herstellen kann. Es ist - trotz Achards persönlicher Fehlschläge und Eskapaden - der Beginn einer ganzen Industrie. Autor: Marko Rösseler Von Marko Rösseler.",
     "sanitized": "Zucker ohne Sklavenarbeit? Das ist im 18. Jahrhundert kaum denkbar. Aber dann kommt Franz Carl Achard (geboren am 28.4.1753) und zeigt, dass man Zucker nicht nur aus dem in den Kolonien wachsenden Rohrzucker, sondern auch aus Runkelrüben herstellen kann. Es ist - trotz Achards persönlicher Fehlschläge und Eskapaden - der Beginn einer ganzen Industrie. Autor: Marko Rösseler Von Marko Rösseler."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230427_3675047c.mp3",
-    "raw": "Sie war eine unangepasste Frau mit einem großen Herzen. Dorothee Sölle war eine der ersten Frauen in der protestantischen Kirche Deutschlands, die sich offensiv zum Feminismus bekannte und Ökologie zum Thema machte. Autorin: Heide soltau Von Heide Soltau.",
-    "sanitized": "Sie war eine unangepasste Frau mit einem großen Herzen. Dorothee Sölle war eine der ersten Frauen in der protestantischen Kirche Deutschlands, die sich offensiv zum Feminismus bekannte und Ökologie zum Thema machte. Autorin: Heide soltau Von Heide Soltau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230426_acc607e6.mp3",
-    "raw": "Am 26.4.1988, heute vor 25 Jahren, wurde Valerie Solanas tot aufgefunden. Bis heute bekannt ist Solanas vor allem als die Frau, die auf den weltberühmten Pop-Art-Künstler Andy Warhol schoss. Ihre Wut über die Unterdrückung von Frauen hat sie im \"SCUM-Manifesto\" ausgedrückt. Autor: Thomas Mau Von Thomas Mau.",
-    "sanitized": "Am 26.4.1988, heute vor 25 Jahren, wurde Valerie Solanas tot aufgefunden. Bis heute bekannt ist Solanas vor allem als die Frau, die auf den weltberühmten Pop-Art-Künstler Andy Warhol schoss. Ihre Wut über die Unterdrückung von Frauen hat sie im \"SCUM-Manifesto\" ausgedrückt. Autor: Thomas Mau Von Thomas Mau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230425_6486765f.mp3",
-    "raw": "Es ist der wohl größte Medien-Fake der deutschen Nachkriegsgeschichte: 62 Bände Hitler, \"der Führer\" in seinen eigenen Worten! Das Hamburger Magazin \"Stern\" hat da 1983 zweifelsohne eine Sensation am Haken. Leider alles gefälscht. Autorin: Kerstin Hilt Von Kerstin Hilt.",
-    "sanitized": "Es ist der wohl größte Medien-Fake der deutschen Nachkriegsgeschichte: 62 Bände Hitler, \"der Führer\" in seinen eigenen Worten! Das Hamburger Magazin \"Stern\" hat da 1983 zweifelsohne eine Sensation am Haken. Leider alles gefälscht. Autorin: Kerstin Hilt Von Kerstin Hilt."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230424_5c824185.mp3",
-    "raw": "Nicht in Katar oder in Texas liegt die Wiege der Erdölförderung: ein kleines Dorf in der Lüneburger Heide kann die europaweit erste erfolgreiche Bohrung nach dem begehrten Energieträger für sich reklamieren - im Jahr 1858. Dank eines abenteuerlustigen Markscheiders. Autor: Kay Bandermann Von Kay Bandermann.",
-    "sanitized": "Nicht in Katar oder in Texas liegt die Wiege der Erdölförderung: ein kleines Dorf in der Lüneburger Heide kann die europaweit erste erfolgreiche Bohrung nach dem begehrten Energieträger für sich reklamieren - im Jahr 1858. Dank eines abenteuerlustigen Markscheiders. Autor: Kay Bandermann Von Kay Bandermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230423_8d7f8f4a.mp3",
-    "raw": "Ethel Smyth war eine herausragende Komponistin - aber dass sie von ihrer Kunst leben wollte, auch als Frau: Das war im 19. Jahrhundert ein Affront. Ihre Karriere hat sich Ethel Smtyh deshalb auch durch Hungerstreiks erkämpfen müssen... Autor: Holger Noltze Von Holger Noltze.",
-    "sanitized": "Ethel Smyth war eine herausragende Komponistin - aber dass sie von ihrer Kunst leben wollte, auch als Frau: Das war im 19. Jahrhundert ein Affront. Ihre Karriere hat sich Ethel Smtyh deshalb auch durch Hungerstreiks erkämpfen müssen... Autor: Holger Noltze Von Holger Noltze."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230422_ca7aa81b.mp3",
-    "raw": "Pechschwarze Haare, schnurgerader Pony, strammer Po: Bettie Page ist die meistfotografierte Frau der 1950er Jahre. Heute vor 100 Jahren wurde sie geboren. Inzwischen gilt Bettie Page auch als Ikone der Burlesque-Kunst und Wegbereiterin des selbstbewussten Umgang von Frauen mit ihrer Sexualität. Autorin: Steffi Tenhaven Von Steffi Tenhaven.",
-    "sanitized": "Pechschwarze Haare, schnurgerader Pony, strammer Po: Bettie Page ist die meistfotografierte Frau der 1950er Jahre. Heute vor 100 Jahren wurde sie geboren. Inzwischen gilt Bettie Page auch als Ikone der Burlesque-Kunst und Wegbereiterin des selbstbewussten Umgang von Frauen mit ihrer Sexualität. Autorin: Steffi Tenhaven Von Steffi Tenhaven."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230421_12757266.mp3",
-    "raw": "Einen halben Kreuzer mehr sollen die Frankfurter 1873 für ihr Bier zahlen. Eine Preiserhöhung um etwa 12 Prozent für ein Grundnahrungsmittel der Arbeiterschaft. Die Polizei kapituliert vor den wütenden Massen - aber das preußische Militär schießt. Autorin: Martina Meißner Von Martina Meißner.",
-    "sanitized": "Einen halben Kreuzer mehr sollen die Frankfurter 1873 für ihr Bier zahlen. Eine Preiserhöhung um etwa 12 Prozent für ein Grundnahrungsmittel der Arbeiterschaft. Die Polizei kapituliert vor den wütenden Massen - aber das preußische Militär schießt. Autorin: Martina Meißner Von Martina Meißner."
   }
 ]

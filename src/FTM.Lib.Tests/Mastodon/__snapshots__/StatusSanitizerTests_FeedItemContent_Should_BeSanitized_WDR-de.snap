@@ -1,63 +1,33 @@
 ﻿[
   {
-    "itemId": "https://www1.wdr.de/nachrichten/assad-syrien-nrw-interview-hossein-100.html",
-    "raw": "Vor 34 Jahren flüchtete Siruan H. Hossein aus Syrien. Wie er den Assad-Sturz erlebte, erzählt der Journalist im WDR-Interview.",
-    "sanitized": "Vor 34 Jahren flüchtete Siruan H. Hossein aus Syrien. Wie er den Assad-Sturz erlebte, erzählt der Journalist im WDR-Interview."
+    "itemId": "https://www1.wdr.de/nachrichten/guten-morgen-nrw-bahn-fahrplan-fdp-nationalpark-weihnachtsingen-bergwerk-darts-100.html",
+    "raw": "Ab heute gilt der neue Bahn-Fahrplan • FDP stellt Landesliste auf<strong> • </strong>Vollsperrung auf A1 wegen Brückensprengung",
+    "sanitized": "Ab heute gilt der neue Bahn-Fahrplan • FDP stellt Landesliste auf • Vollsperrung auf A1 wegen Brückensprengung"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/hape-kerkeling-60-jahre-geburtstag-komiker-bestseller-humor-100.html",
-    "raw": "Hape Kerkeling gehört seit Jahrzehnten zu Deutschlands beliebtesten Komikern. Zum 60. Geburtstag gibt es eine große ARD-Doku.",
-    "sanitized": "Hape Kerkeling gehört seit Jahrzehnten zu Deutschlands beliebtesten Komikern. Zum 60. Geburtstag gibt es eine große ARD-Doku."
+    "itemId": "https://www1.wdr.de/nachrichten/fahrplan-wechsel-nrw-100.html",
+    "raw": "Der Fahrplanwechsel könnte für Pendler zum Problem werden. Das Angebot im Nahverkehr wird ausgedünnt, Ticketpreise steigen.",
+    "sanitized": "Der Fahrplanwechsel könnte für Pendler zum Problem werden. Das Angebot im Nahverkehr wird ausgedünnt, Ticketpreise steigen."
   },
   {
-    "itemId": "https://www.tagesschau.de/newsticker/liveblog-syrien-montag-100.html",
-    "raw": "Der türkische Präsident Erdogan hat angekündigt, einen weiteren Grenzübergang zu Syrien für Flüchtlinge zu öffnen. Die Rebellenallianz sichert syrischen Wehrpflichtigen eine Generalamnestie zu. Die Entwicklungen im Liveblog.",
-    "sanitized": "Der türkische Präsident Erdogan hat angekündigt, einen weiteren Grenzübergang zu Syrien für Flüchtlinge zu öffnen. Die Rebellenallianz sichert syrischen Wehrpflichtigen eine Generalamnestie zu. Die Entwicklungen im Liveblog."
+    "itemId": "https://data.wdr.de/ddj/deutschland-wo-brennts/",
+    "raw": "Am 23. Februar wird ein neuer Bundestag gewählt und wir möchten wissen: Was bewegt euch vor der Wahl? Welche Sorgen habt ihr? Welche Probleme müssen in Deutschland dringend gelöst werden? Macht mit bei unserer Befragung und sagt es uns!",
+    "sanitized": "Am 23. Februar wird ein neuer Bundestag gewählt und wir möchten wissen: Was bewegt euch vor der Wahl? Welche Sorgen habt ihr? Welche Probleme müssen in Deutschland dringend gelöst werden? Macht mit bei unserer Befragung und sagt es uns!"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/syrer-in-nrw-100.html",
-    "raw": "Den Sturz des Diktators al-Assad feiern auch Syrer in NRW. Hunderttausende leben inzwischen hier. Wie steht es um sie?",
-    "sanitized": "Den Sturz des Diktators al-Assad feiern auch Syrer in NRW. Hunderttausende leben inzwischen hier. Wie steht es um sie?"
+    "itemId": "https://www1.wdr.de/nachrichten/weihnachtseinkauf-innenstadt-koeln-voll-shopping-100.html",
+    "raw": "In der Kölner Innenstadt ging es am dritten Adventssamstag kaum noch voran. Die Menschen liefen zwischendurch nicht mehr - sie standen.",
+    "sanitized": "In der Kölner Innenstadt ging es am dritten Adventssamstag kaum noch voran. Die Menschen liefen zwischendurch nicht mehr - sie standen."
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/asien/syrien-regierung-machtwechsel-100.html",
-    "raw": "Die jahrzehntelange Herrschaft der Assad-Dynastie in Syrien ist vorbei. Aber was kommt jetzt? Die Islamisten-Gruppe HTS spricht von einer neuen Regierung, die entstehen solle. Nun ist auch ein Name im Gespräch.",
-    "sanitized": "Die jahrzehntelange Herrschaft der Assad-Dynastie in Syrien ist vorbei. Aber was kommt jetzt? Die Islamisten-Gruppe HTS spricht von einer neuen Regierung, die entstehen solle. Nun ist auch ein Name im Gespräch."
+    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/bundestagswahl-nrw-fdp-spitzenkandidat-lindner-100.html",
+    "raw": "Zweifel am Frontmann gibt es vor dem Parteitag in Bielefeld kaum. Aber die Latte liegt hoch: 2021 kam Lindner auf fast 97 Prozent.",
+    "sanitized": "Zweifel am Frontmann gibt es vor dem Parteitag in Bielefeld kaum. Aber die Latte liegt hoch: 2021 kam Lindner auf fast 97 Prozent."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/assad-syrien-nrw-demos-rebellen-damaskus-100.html",
-    "raw": "In vielen deutschen Städten haben Exil-Syrer am Sonntag das Ende des Assad-Regimes gefeiert. Auch in NRW kamen Tausende zusammen.",
-    "sanitized": "In vielen deutschen Städten haben Exil-Syrer am Sonntag das Ende des Assad-Regimes gefeiert. Auch in NRW kamen Tausende zusammen."
-  },
-  {
-    "itemId": "https://www1.wdr.de/mediathek/audio/cosmo/audio-syrien---ein-land-vor-einem-positiven-neuanfang-100.html",
-    "raw": "Assad ist Geschichte. Aber ist der Sturz des Machthabers tatsächlich ein positiver Neuanfang für Syrien? Das sind Fragen, die sich auch COSMO-Autor Abdullah Al Samman stellt. Ob seine Freude uneingeschränkt ist, wie er die Befreiungsaktionen im Land wahrgenommen hat und ob er seine persönliche Zukunft auch in Syrien sieht.",
-    "sanitized": "Assad ist Geschichte. Aber ist der Sturz des Machthabers tatsächlich ein positiver Neuanfang für Syrien? Das sind Fragen, die sich auch COSMO-Autor Abdullah Al Samman stellt. Ob seine Freude uneingeschränkt ist, wie er die Befreiungsaktionen im Land wahrgenommen hat und ob er seine persönliche Zukunft auch in Syrien sieht."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/aktivisten-syriens-machthaber-assad-hat-das-land-verlassen-100.html",
-    "raw": "Machtwechsel in Syrien: Rebellen haben Damaskus übernommen, Machthaber Assad hat das Land verlassen. Die wichtigsten Hintergründe.",
-    "sanitized": "Machtwechsel in Syrien: Rebellen haben Damaskus übernommen, Machthaber Assad hat das Land verlassen. Die wichtigsten Hintergründe."
-  },
-  {
-    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-aktuelle-kultur/hoffnung-fuer-syrien-ahmad-katlesh-ueber-den-fall-assads-100.html",
-    "raw": "Niemals hätte der in Berlin lebende syrische Autor Ahmad Katlesh mit einem so raschen und - bislang - so gewaltfreien Ende der Diktatur in seiner Heimat gerechnet. Jetzt gebe es endlich Hoffnung, sagt er. Und es gelte, das Land neu aufzubauen.",
-    "sanitized": "Niemals hätte der in Berlin lebende syrische Autor Ahmad Katlesh mit einem so raschen und - bislang - so gewaltfreien Ende der Diktatur in seiner Heimat gerechnet. Jetzt gebe es endlich Hoffnung, sagt er. Und es gelte, das Land neu aufzubauen."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/keine-schiffe-auf-mosel-100.html",
-    "raw": "Die Mosel bleibt wohl bis März für den Schiffsverkehr gesperrt. Grund dafür war ein Unfall an einer Schleuse bei Koblenz.",
-    "sanitized": "Die Mosel bleibt wohl bis März für den Schiffsverkehr gesperrt. Grund dafür war ein Unfall an einer Schleuse bei Koblenz."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/kardinal-woelki-prozess-100.html",
-    "raw": "Kardinal Woelki muss wieder vor Gericht erscheinen - als Zeuge im Prozess um mutmaßlichen Pornokonsum einiger seiner Mitarbeiter.",
-    "sanitized": "Kardinal Woelki muss wieder vor Gericht erscheinen - als Zeuge im Prozess um mutmaßlichen Pornokonsum einiger seiner Mitarbeiter."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/facebook-sammelklage-datendiebstahl-verbraucherzentrale-100.html",
-    "raw": "Wegen eines Datendiebstahls bei Facebook wollen Verbraucherzentralen Schadensersatz fordern. Betroffene können sich anschließen.",
-    "sanitized": "Wegen eines Datendiebstahls bei Facebook wollen Verbraucherzentralen Schadensersatz fordern. Betroffene können sich anschließen."
+    "itemId": "https://www1.wdr.de/nachrichten/unfall-bonn-fahrer-gefluechtet-100.html",
+    "raw": "Drei Männer bauen in Bonn einen Unfall und schrauben anschließend die Kennzeichen ab. Die Polizei fahndet nach ihnen.",
+    "sanitized": "Drei Männer bauen in Bonn einen Unfall und schrauben anschließend die Kennzeichen ab. Die Polizei fahndet nach ihnen."
   },
   {
     "itemId": "https://reportage.wdr.de/adventskalender-2024",
@@ -65,24 +35,24 @@
     "sanitized": null
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/grenzkontrollen-164.html",
-    "raw": "Die Niederlande starten mit Grenzkontrollen: Stichprobenartig soll an den Grenzen zu Deutschland und Belgien kontrolliert werden.",
-    "sanitized": "Die Niederlande starten mit Grenzkontrollen: Stichprobenartig soll an den Grenzen zu Deutschland und Belgien kontrolliert werden."
+    "itemId": "https://www1.wdr.de/nachrichten/bewussten-busfahrer-gerettet-gelsenkirchen-100.html",
+    "raw": "Ein Busfahrer wird bewusstlos, der Bus fährt ungesteuert weiter. Ein 22-Jähriger greift ein und verhindert Schlimmeres.",
+    "sanitized": "Ein Busfahrer wird bewusstlos, der Bus fährt ungesteuert weiter. Ein 22-Jähriger greift ein und verhindert Schlimmeres."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/polizei-ns-zeit-duisburg-100.html",
-    "raw": "NRW-Innenminister Reul hat am Montag ein Forschungsprojekt zur Auseinandersetzung der Polizei während der NS-Zeit vorgestellt.",
-    "sanitized": "NRW-Innenminister Reul hat am Montag ein Forschungsprojekt zur Auseinandersetzung der Polizei während der NS-Zeit vorgestellt."
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/demonstration-dortmund-drame-urteil-100.html",
+    "raw": "In Dortmund haben rund 1.500 Menschen gegen den Freispruch von fünf Polizisten im Fall Dramé demonstriert.",
+    "sanitized": "In Dortmund haben rund 1.500 Menschen gegen den Freispruch von fünf Polizisten im Fall Dramé demonstriert."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/lehrermangel-nrw-100.html",
-    "raw": "Seit Amtsantritt hat die NRW-Schulministerin tausende Menschen zusätzlich an die Schulen geholt. Der Lehrkräftemangel ist aber geblieben.",
-    "sanitized": "Seit Amtsantritt hat die NRW-Schulministerin tausende Menschen zusätzlich an die Schulen geholt. Der Lehrkräftemangel ist aber geblieben."
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/koelner-weihnachtsmarkt-geraeumt-100.html",
+    "raw": "Am Samstagabend hatte die Polizei den Rudolfplatz geräumt. Gegen Mitternacht kam die Entwarnung: In dem Koffer war Sand.",
+    "sanitized": "Am Samstagabend hatte die Polizei den Rudolfplatz geräumt. Gegen Mitternacht kam die Entwarnung: In dem Koffer war Sand."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/urteil-ueberfall-koe-juwelier-100.html",
-    "raw": "Vier Jahre nach dem Raub bei einem Juwelier in Düsseldorf ist einer der Täter zu einer Gefängnisstrafe verurteilt worden.",
-    "sanitized": "Vier Jahre nach dem Raub bei einem Juwelier in Düsseldorf ist einer der Täter zu einer Gefängnisstrafe verurteilt worden."
+    "itemId": "https://www1.wdr.de/nachrichten/liedbachtalbruecke-sprengung-a1-100.html",
+    "raw": "Die Liedbachtalbrücke der A1 soll am Sonntag gegen 13 Uhr gesprengt werden. Deswegen gibt es eine Sperrung in beide Richtungen.",
+    "sanitized": "Die Liedbachtalbrücke der A1 soll am Sonntag gegen 13 Uhr gesprengt werden. Deswegen gibt es eine Sperrung in beide Richtungen."
   },
   {
     "itemId": "https://www1.wdr.de/aktionen/der-westen-hilft/uebersicht-gegen-den-hunger-in-der-welt100.html",
@@ -90,84 +60,74 @@
     "sanitized": "Die Hunger- und Nahrungsmittelkrise spitzt sich dramatisch zu: Weltweit hungern derzeit über 783 Millionen Menschen. Um diese Menschen zu unterstützen, initiiert der WDR gemeinsam mit „Aktion Deutschland Hilft e.V.“ vom 29.11. bis 20.12.2024 zum dritten Mal in Folge seine große Spendenaktion unter dem Titel „DER WESTEN HILFT. Gemeinsam gegen den Hunger in der Welt“. Durch die Zusammenarbeit mit der „Tafel Nordrhein- Westfalen e.V.“ unterstützt die WDR Spendenaktion in diesem Jahr auch armutsbetroffene Menschen in NRW."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/beamte-besoldung-buergergeld-optendrenk-difabio-verfassungsgericht-100.html",
-    "raw": "Im Oktober hat der Landtag Einschränkungen bei der Beamtenbesoldung beschlossen. Der Beamtenbund hält die für verfassungswidrig.",
-    "sanitized": "Im Oktober hat der Landtag Einschränkungen bei der Beamtenbesoldung beschlossen. Der Beamtenbund hält die für verfassungswidrig."
+    "itemId": "https://www1.wdr.de/nachrichten/-tafeln-lebensmittel-dachverband-ukraine-100.html",
+    "raw": "Die Tafeln in Deutschland schlagen Alarm: Deutschlandweit müssen viele Tafeln die Ausgabe von Lebensmitteln einschränken.",
+    "sanitized": "Die Tafeln in Deutschland schlagen Alarm: Deutschlandweit müssen viele Tafeln die Ausgabe von Lebensmitteln einschränken."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/deutscher-engagementpreis-fluechtlingshilfe-bonn-100.html",
-    "raw": "Der Verein <cite>\"Flüchtlingshilfe Bonn\"</cite> ist mit dem Deutschen Engagementpreis 2024 in der Kategorie \"<cite>Grenzen überwinden</cite>\"ausgezeichnet worden.",
-    "sanitized": "Der Verein \"Flüchtlingshilfe Bonn\" ist mit dem Deutschen Engagementpreis 2024 in der Kategorie \"Grenzen überwinden\"ausgezeichnet worden."
+    "itemId": "https://www1.wdr.de/nachrichten/rauchverbot-holzwickede-nrw-eu-100.html",
+    "raw": "Die EU empfiehlt Rauchverbote in Freien, bekam aber keine Mehrheit. Holzwickede setzt es trotzdem um - und das ist sinnvoll.",
+    "sanitized": "Die EU empfiehlt Rauchverbote in Freien, bekam aber keine Mehrheit. Holzwickede setzt es trotzdem um - und das ist sinnvoll."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/armin-laschet-portrait-broenner-enthuellt-100.html",
-    "raw": "Frühere Minsterpräsidenten des Landes ließen sich noch malen. Hannelore Kraft wollte ein Foto. Armin Laschet setzt die Reihe fort.",
-    "sanitized": "Frühere Minsterpräsidenten des Landes ließen sich noch malen. Hannelore Kraft wollte ein Foto. Armin Laschet setzt die Reihe fort."
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/weihnachtsmarkt-solingen-nach-anschlag100.html",
+    "raw": "Am Samstag findet in Solingen die erste Veranstaltung seit dem Terroranschlag im August statt. Das sei ein Zeichen, um Mut zu machen.",
+    "sanitized": "Am Samstag findet in Solingen die erste Veranstaltung seit dem Terroranschlag im August statt. Das sei ein Zeichen, um Mut zu machen."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/schumacher-prozess-beginn-100.html",
-    "raw": "Der Erpressungsversuch gegen die Familie von Ex-Formel-1-Weltmeister Michael Schumacher wird am Dienstag in Wuppertal aufgerollt.",
-    "sanitized": "Der Erpressungsversuch gegen die Familie von Ex-Formel-1-Weltmeister Michael Schumacher wird am Dienstag in Wuppertal aufgerollt."
+    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/winternotquartier-obdachlose-muenster-106.html",
+    "raw": "Obdachlose in Münster können auch in diesem Winter wieder in Containern am Stadtrand schlafen - ein Schutz vor dem Erfrierungstod.",
+    "sanitized": "Obdachlose in Münster können auch in diesem Winter wieder in Containern am Stadtrand schlafen - ein Schutz vor dem Erfrierungstod."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/weihnachtsbaeume-ohne-spitze-spende-100.html",
-    "raw": "Unbekannte hatten in Schmallenberg-Oberkirchen 200 Weihnachtsbäume zerstört. Jetzt gibt's für die Bäume doch noch Abnehmer.",
-    "sanitized": "Unbekannte hatten in Schmallenberg-Oberkirchen 200 Weihnachtsbäume zerstört. Jetzt gibt's für die Bäume doch noch Abnehmer."
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/razzia-drogen-bundespolizisten-nrw-100.html",
+    "raw": "Die Polizei in NRW hat möglicherweise einen Drogen-Ring aufgedeckt, zu dem auch zwei Mitarbeiter der Bundespolizei gehören sollen.",
+    "sanitized": "Die Polizei in NRW hat möglicherweise einen Drogen-Ring aufgedeckt, zu dem auch zwei Mitarbeiter der Bundespolizei gehören sollen."
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/europa/merz-tagesthemen-ukraine-100.html",
-    "raw": "CDU-Chef Merz pocht in den tagesthemen auf eine gemeinsame europäische Strategie bei der Unterstützung der Ukraine. Und er will, dass deutsche Waffen auch auf russischem Territorium gegen militärische Ziele zum Einsatz kommen dürfen.",
-    "sanitized": "CDU-Chef Merz pocht in den tagesthemen auf eine gemeinsame europäische Strategie bei der Unterstützung der Ukraine. Und er will, dass deutsche Waffen auch auf russischem Territorium gegen militärische Ziele zum Einsatz kommen dürfen."
+    "itemId": "https://www.tagesschau.de/inland/zahlen-spenden-parteien-100.html",
+    "raw": "Keine Partei hat in diesem Jahr so viele Zuwendungen über 35.000 Euro bekommen wie das BSW. Die Summe der Großspenden liegt rund 40 Prozent über jener der CDU. Das lag vor allem an einer Person. Von Moritz Rödle.",
+    "sanitized": "Keine Partei hat in diesem Jahr so viele Zuwendungen über 35.000 Euro bekommen wie das BSW. Die Summe der Großspenden liegt rund 40 Prozent über jener der CDU. Das lag vor allem an einer Person. Von Moritz Rödle."
   },
   {
-    "itemId": "https://www.tagesschau.de/newsticker/liveblog-ukraine-montag-442.html",
-    "raw": "Der Rat der Europäischen Union hat die Auszahlung von rund 4,1 Milliarden Euro Finanzhilfe für die Ukraine freigegeben. Die Ukraine und Russland berichten von Drohnenangriffen der jeweils anderen Seite. Die Entwicklungen im Liveblog.",
-    "sanitized": "Der Rat der Europäischen Union hat die Auszahlung von rund 4,1 Milliarden Euro Finanzhilfe für die Ukraine freigegeben. Die Ukraine und Russland berichten von Drohnenangriffen der jeweils anderen Seite. Die Entwicklungen im Liveblog."
+    "itemId": "https://www.tagesschau.de/inland/syrer-rueckkehr-100.html",
+    "raw": "Außenministerin Baerbock hat die Helfer des gestürzten syrischen Machthabers Assad vor einer Flucht nach Deutschland gewarnt. Hier warte die \"volle Härte des Gesetzes\". In der Rückkehrer-Debatte gibt es eine neue Idee und Appelle aus der Wirtschaft.",
+    "sanitized": "Außenministerin Baerbock hat die Helfer des gestürzten syrischen Machthabers Assad vor einer Flucht nach Deutschland gewarnt. Hier warte die \"volle Härte des Gesetzes\". In der Rückkehrer-Debatte gibt es eine neue Idee und Appelle aus der Wirtschaft."
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/europa/merz-ukraine-selenskyj-100.html",
-    "raw": "Der CDU-Chef betont, dass er die Hilfe für das Land künftig aus Europa koordinieren will. Außerdem erneuert er sein Versprechen, \"Taurus\"-Marschflugkörper zu liefern, sollte er Kanzler werden.",
-    "sanitized": "Der CDU-Chef betont, dass er die Hilfe für das Land künftig aus Europa koordinieren will. Außerdem erneuert er sein Versprechen, \"Taurus\"-Marschflugkörper zu liefern, sollte er Kanzler werden."
+    "itemId": "https://www.tagesschau.de/ausland/asien/syrien-international-unterstuetzung-100.html",
+    "raw": "Arabische und internationale Diplomaten wollen Chaos bei der Machtübergabe in Syrien vermeiden. Die USA stehen in Kontakt mit den neuen islamistischen Machthabern. Doch diese waren nicht zu dem Krisentreffen eingeladen. Von Moritz Behrendt.",
+    "sanitized": "Arabische und internationale Diplomaten wollen Chaos bei der Machtübergabe in Syrien vermeiden. Die USA stehen in Kontakt mit den neuen islamistischen Machthabern. Doch diese waren nicht zu dem Krisentreffen eingeladen. Von Moritz Behrendt."
   },
   {
-    "itemId": "https://www.tagesschau.de/inland/innenpolitik/syrien-gefluechtete-deutschland-100.html",
-    "raw": "Bereits kurz nach dem Sturz von Diktator Assad wird über die Zukunft von syrischen Geflüchteten in Deutschland diskutiert. Doch wie steht es um ihren Schutz? Und wie wahrscheinlich ist eine Rückkehr? Ein Überblick.",
-    "sanitized": "Bereits kurz nach dem Sturz von Diktator Assad wird über die Zukunft von syrischen Geflüchteten in Deutschland diskutiert. Doch wie steht es um ihren Schutz? Und wie wahrscheinlich ist eine Rückkehr? Ein Überblick."
+    "itemId": "https://www.tagesschau.de/newsticker/liveblog-nahost-sonntag-216.html",
+    "raw": "In Israel haben erneut Angehörige von Hamas-Geiseln für ein Ende des Kriegs demonstriert. Bei einem Angriff der Armee im Gazastreifen sind mindestens sieben Menschen getötet worden. Alle Entwicklungen im Liveblog.",
+    "sanitized": "In Israel haben erneut Angehörige von Hamas-Geiseln für ein Ende des Kriegs demonstriert. Bei einem Angriff der Armee im Gazastreifen sind mindestens sieben Menschen getötet worden. Alle Entwicklungen im Liveblog."
   },
   {
-    "itemId": "https://www.tagesschau.de/kommentar/fluechtlinge-syrien-debatte-100.html",
-    "raw": "Nach dem Sturz Assads in Syrien wird in Deutschland über den Umgang mit Geflüchteten diskutiert. Statt reflexhaft über Asylbescheide, sollte man über Wiederaufbau, Unterstützung und kluge Diplomatie reden, meint Georg Schwarte.",
-    "sanitized": "Nach dem Sturz Assads in Syrien wird in Deutschland über den Umgang mit Geflüchteten diskutiert. Statt reflexhaft über Asylbescheide, sollte man über Wiederaufbau, Unterstützung und kluge Diplomatie reden, meint Georg Schwarte."
+    "itemId": "https://www.tagesschau.de/ausland/trump-grenell-100.html",
+    "raw": "Als US-Botschafter in Berlin sorgte Richard Grenell mit offener Kritik häufig für Schlagzeilen. Nun bekommt der Trump-Vertraute eine neue Rolle als Gesandter für Sondermissionen. Ein Geschäftspartner Trumps erhält ebenfalls einen Posten.",
+    "sanitized": "Als US-Botschafter in Berlin sorgte Richard Grenell mit offener Kritik häufig für Schlagzeilen. Nun bekommt der Trump-Vertraute eine neue Rolle als Gesandter für Sondermissionen. Ein Geschäftspartner Trumps erhält ebenfalls einen Posten."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/uebersicht-ukraine-104.html",
-    "raw": "Aktuelles, Hintergründe, Fragen und Antworten zu Putins Krieg gegen die Ukraine. Wir sprechen mit Betroffenen in NRW und der Ukraine und zeigen, wie den Menschen geholfen werden kann.",
-    "sanitized": "Aktuelles, Hintergründe, Fragen und Antworten zu Putins Krieg gegen die Ukraine. Wir sprechen mit Betroffenen in NRW und der Ukraine und zeigen, wie den Menschen geholfen werden kann."
+    "itemId": "https://www1.wdr.de/sport/fussball/dritte-liga/muenchen-sportclub-verl-spielbericht-100.html",
+    "raw": "Der SC Verl arbeitet sich in der 3. Liga mit einem Sieg bei 1860 München und dem fünften Spiel ohne Niederlage weiter nach oben.",
+    "sanitized": "Der SC Verl arbeitet sich in der 3. Liga mit einem Sieg bei 1860 München und dem fünften Spiel ohne Niederlage weiter nach oben."
   },
   {
-    "itemId": "https://www.tagesschau.de/newsticker/liveblog-nahost-montag-214.html",
-    "raw": "Die vier im Südlibanon getöteten israelischen Soldaten sind vermutlich bei einem Unfall und nicht bei Kämpfen gestorben. Im Gazastreifen wurden mehrere Menschen bei israelischen Angriffen getötet. Die Entwicklungen im Liveblog.",
-    "sanitized": "Die vier im Südlibanon getöteten israelischen Soldaten sind vermutlich bei einem Unfall und nicht bei Kämpfen gestorben. Im Gazastreifen wurden mehrere Menschen bei israelischen Angriffen getötet. Die Entwicklungen im Liveblog."
+    "itemId": "https://www.sportschau.de/fussball/bundesliga/eklat-in-berlin-fast-spielabbruch-bei-union-gegen-bochum,bundesliga-fcu-vfl-100.html",
+    "raw": "Ein Feuerzeugwurf gegen Bochums Keeper hat bei der Partie zwischen Union Berlin und dem VfL Bochum fast für einen Spielabbruch gesorgt. Bochum wird Einspruch gegen die Wertung des Spiel einlegen.",
+    "sanitized": "Ein Feuerzeugwurf gegen Bochums Keeper hat bei der Partie zwischen Union Berlin und dem VfL Bochum fast für einen Spielabbruch gesorgt. Bochum wird Einspruch gegen die Wertung des Spiel einlegen."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/grossangriff-israel-hamas-gaza-100.html",
-    "raw": "Aktuelles, Hintergründe, Fragen und Antworten zum Großangriff der Hamas auf Israel. Wie kam es zu dem Angriff? Wie geht es den Menschen in Israel? Wie ist die Lage im Nahen Osten?",
-    "sanitized": "Aktuelles, Hintergründe, Fragen und Antworten zum Großangriff der Hamas auf Israel. Wie kam es zu dem Angriff? Wie geht es den Menschen in Israel? Wie ist die Lage im Nahen Osten?"
+    "itemId": "https://www.sportschau.de/fussball/bundesliga/leverkusen-robbt-sich-an-bayern-heran,bundesliga-fca-b04-100.html",
+    "raw": "Gegen Jahresende ist der Meister in Fahrt. In Augsburg lässt Bayer 04 Leverkusen nichts anbrennen und verkürzt den Rückstand auf Tabellenführer Bayern München.",
+    "sanitized": "Gegen Jahresende ist der Meister in Fahrt. In Augsburg lässt Bayer 04 Leverkusen nichts anbrennen und verkürzt den Rückstand auf Tabellenführer Bayern München."
   },
   {
-    "itemId": "https://www1.wdr.de/sport/fussball/champions-league/leverkusen-inter-mailand-100.html",
-    "raw": "Bayer Leverkusen will seine Siegesserie auch in der Champions League fortsetzen - hat mit Inter Mailand aber einen dicken Brocken vor der Brust.",
-    "sanitized": "Bayer Leverkusen will seine Siegesserie auch in der Champions League fortsetzen - hat mit Inter Mailand aber einen dicken Brocken vor der Brust."
-  },
-  {
-    "itemId": "https://www1.wdr.de/sport/basketball/baskets-bonn-riga-champions-league-vorschau-100.html",
-    "raw": "Die Telekom Baskets Bonn wollen sich am vorletzten Vorrunden-Spieltag der Champions League für die Hinspiel-Niederlage bei VEF Riga revanchieren und einen großen Schritt Richtung Zwischenrunde machen.",
-    "sanitized": "Die Telekom Baskets Bonn wollen sich am vorletzten Vorrunden-Spieltag der Champions League für die Hinspiel-Niederlage bei VEF Riga revanchieren und einen großen Schritt Richtung Zwischenrunde machen."
-  },
-  {
-    "itemId": "https://www1.wdr.de/sport/fussball/champions-league/donezk-auf-schalke-100.html",
-    "raw": "Wie auch die ersten beiden \"Heimspiele\" in der bisherigen Champions-League-Saison trägt Schachtar Donezk auch sein \"Heimspiel\" am Dienstag gegen Bayern München auf Schalke aus.",
-    "sanitized": "Wie auch die ersten beiden \"Heimspiele\" in der bisherigen Champions-League-Saison trägt Schachtar Donezk auch sein \"Heimspiel\" am Dienstag gegen Bayern München auf Schalke aus."
+    "itemId": "https://www.sportschau.de/fussball/bundesliga/gladbachs-kopfballspezialisten-eine-nummer-zu-gross-fuer-kiel,bundesliga-bmg-ksv-100.html",
+    "raw": "Borussia Mönchengladbach hat mit recht traditionellen Mitteln den sechsten Heimerfolg in Serie in der Fußball-Bundesliga gefeiert. Gegen Holstein Kiel waren hohe Bälle der Schlüssel zum Sieg.",
+    "sanitized": "Borussia Mönchengladbach hat mit recht traditionellen Mitteln den sechsten Heimerfolg in Serie in der Fußball-Bundesliga gefeiert. Gegen Holstein Kiel waren hohe Bälle der Schlüssel zum Sieg."
   },
   {
     "itemId": "https://www1.wdr.de/nachrichten/update-wdr-aktuell-app-wuensche-weiterentwicklung-100.html",
@@ -175,74 +135,89 @@
     "sanitized": "Tausende haben die neue WDR aktuell App geladen, viele zum ersten Mal. Hier sind eure Eindrücke – und so geht es jetzt weiter."
   },
   {
-    "itemId": "https://www1.wdr.de/kugelzwei/gamechanger/nachhaltige-postzustellung-100.html",
-    "raw": "Wie könnte Paketzustellung in Zukunft nachhaltiger laufen? Wir haben dir einige inspirative Ideen zusammengestellt.",
-    "sanitized": "Wie könnte Paketzustellung in Zukunft nachhaltiger laufen? Wir haben dir einige inspirative Ideen zusammengestellt."
+    "itemId": "https://www1.wdr.de/nachrichten/fahrplan-bahn-pendeln-tipps-stress-100.html",
+    "raw": "Die Deutsche Bahn ändert am Sonntag ihren Fahrplan. Pendler müssen sich umgewöhnen, doch stressig wird es wohl weiterhin bleiben.",
+    "sanitized": "Die Deutsche Bahn ändert am Sonntag ihren Fahrplan. Pendler müssen sich umgewöhnen, doch stressig wird es wohl weiterhin bleiben."
   },
   {
-    "itemId": "https://www1.wdr.de/verbraucher/rezepte/ulla-dubai-schokolade-dreimal-anders-100.html",
-    "raw": "Dubai-Schokolade mit Pistazien und geröstetem Engelhaar ist sehr teuer. Selbermachen erweist sich für Laien als kniffelig, wenn es eine perfekte Schokoladentafel werden soll. Ulla benutzt stattdessen eine Muffinform aus Silikon, setzt auf kleine Törtchen und stellt drei alternative Füllungen vor.",
-    "sanitized": "Dubai-Schokolade mit Pistazien und geröstetem Engelhaar ist sehr teuer. Selbermachen erweist sich für Laien als kniffelig, wenn es eine perfekte Schokoladentafel werden soll. Ulla benutzt stattdessen eine Muffinform aus Silikon, setzt auf kleine Törtchen und stellt drei alternative Füllungen vor."
+    "itemId": "https://www1.wdr.de/nachrichten/private-krankenversicherung-abschaffen-100.html",
+    "raw": "Die Beiträge zur gesetzlichen Krankenversicherung steigen. Fachleute fordern ein Ende der privaten Krankenversicherung. Was dafür, was dagegen spricht.",
+    "sanitized": "Die Beiträge zur gesetzlichen Krankenversicherung steigen. Fachleute fordern ein Ende der privaten Krankenversicherung. Was dafür, was dagegen spricht."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/ministerpraesidenten-nrw-ahnengalerie-100.html",
-    "raw": "12 Regierungschefs hatte NRW bisher, inklusive des Amtsinhabers Hendrik Wüst. Wer waren die Menschen vor ihm?",
-    "sanitized": "12 Regierungschefs hatte NRW bisher, inklusive des Amtsinhabers Hendrik Wüst. Wer waren die Menschen vor ihm?"
+    "itemId": "https://www1.wdr.de/nachrichten/tierversuche-anzahl-entwicklung-100.html",
+    "raw": "Die Zahl der Tierversuche sinkt – so stark wie nie zuvor. Auch, weil es immer bessere Alternativen zu Experimenten an Tieren gibt.",
+    "sanitized": "Die Zahl der Tierversuche sinkt – so stark wie nie zuvor. Auch, weil es immer bessere Alternativen zu Experimenten an Tieren gibt."
   },
   {
-    "itemId": "https://www1.wdr.de/radio/wdr2/themen/frag-doch-mal-die-maus/bock-drauf-100.html",
-    "raw": "Tony (5 Jahre alt) möchte gerne von der Maus wissen: Woher kommt der Begriff \"Bock drauf\"?",
-    "sanitized": "Tony (5 Jahre alt) möchte gerne von der Maus wissen: Woher kommt der Begriff \"Bock drauf\"?"
+    "itemId": "https://www1.wdr.de/nachrichten/chatgpt-ki-santa-claus-hohoho-100.html",
+    "raw": "Bis Anfang Januar können ChatGPT-Nutzer live mit einem interaktiven KI-Weihnachtsmann sprechen – auch auf Deutsch.",
+    "sanitized": "Bis Anfang Januar können ChatGPT-Nutzer live mit einem interaktiven KI-Weihnachtsmann sprechen – auch auf Deutsch."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/unterhaltung/video-der-kulinarische-adventskalender--genuessliche-weihnachtsgeschichten-100.html",
-    "raw": "Die Adventszeit ist geprägt von Vorfreude und Sinnlichkeit. Es duftet nach Weihnachtsplätzchen, Gänsekeule und Glühwein.",
-    "sanitized": "Die Adventszeit ist geprägt von Vorfreude und Sinnlichkeit. Es duftet nach Weihnachtsplätzchen, Gänsekeule und Glühwein."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/lokalzeit-landschafft/108-trecker-bei-lichterfahrt-im-grosseinsatz-102.html",
+    "raw": "Unterwegs mit über 100 Treckern durch Haltern am See – mittlerweile ist die weihnachtliche Lichterfahrt dort schon zur Tradition geworden.",
+    "sanitized": "Unterwegs mit über 100 Treckern durch Haltern am See – mittlerweile ist die weihnachtliche Lichterfahrt dort schon zur Tradition geworden."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/erlebnis-erde/video-natur-am-koenigssee-100.html",
-    "raw": "Eingebettet zwischen steilen Bergflanken liegt der Königssee in den Berchtesgadener Alpen. Fast 200 Meter Tiefe, sieben Kilometer Länge und eine Farbenpracht, die einem den Atem rauben kann.",
-    "sanitized": "Eingebettet zwischen steilen Bergflanken liegt der Königssee in den Berchtesgadener Alpen. Fast 200 Meter Tiefe, sieben Kilometer Länge und eine Farbenpracht, die einem den Atem rauben kann."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/heimatflimmern/durch-meine-augen-mein-vater-howard-carpendale-102.html",
+    "raw": "Howard Carpendale gehört zu den größten deutschen Künstlern. Doch eines gab es noch nie – ein Film und ein Blick auf den großen Künstler wie ihn nur ein Sohn vermitteln kann.",
+    "sanitized": "Howard Carpendale gehört zu den größten deutschen Künstlern. Doch eines gab es noch nie – ein Film und ein Blick auf den großen Künstler wie ihn nur ein Sohn vermitteln kann."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/wunderschoen/video-die-kanarischen-inseln-teneriffa-gran-canaria-lanzarote-fuerteventura-und-la-palma-100.html",
-    "raw": "Nicht sehr weit weg und im Winter warm – das schätzen Urlauber an den Kanarischen Inseln. Spanisches Flair bieten sie alle, und doch haben sie ihre Eigenheiten.",
-    "sanitized": "Nicht sehr weit weg und im Winter warm – das schätzen Urlauber an den Kanarischen Inseln. Spanisches Flair bieten sie alle, und doch haben sie ihre Eigenheiten."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/die-carolin-kebekus-show/carolin-friends-spielen-vampirjagd-102.html",
+    "raw": "Das Dorf “Klein-Dckseln” ist in Gefahr! In dieser besonders gruseligen Folge spielt Carolin Kebekus mit Freunden ein gefährliches Rollenspiel. Wer gewinnt: Vampire oder Bürger?",
+    "sanitized": "Das Dorf “Klein-Dckseln” ist in Gefahr! In dieser besonders gruseligen Folge spielt Carolin Kebekus mit Freunden ein gefährliches Rollenspiel. Wer gewinnt: Vampire oder Bürger?"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/fernsehfilm/samba-in-mettmann-clip-samba-in-mettmann--komoedie-100.html",
-    "raw": "Spielfilm Deutschland 2004 +++ Olaf Kischewski betreibt mit seinem Vater Benno die Wäscherei \"Fleck weg\". Vater, Sohn und Opa verbringen ein bürgerliches, manchmal spießiges Leben.",
-    "sanitized": "Spielfilm Deutschland 2004 +++ Olaf Kischewski betreibt mit seinem Vater Benno die Wäscherei \"Fleck weg\". Vater, Sohn und Opa verbringen ein bürgerliches, manchmal spießiges Leben."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/servicezeit/servicezeit-clip-servicezeit-432.html",
+    "raw": "Themen: Walnüsse im Test: Teuer muss nicht besser sein [00:26Min.] | Universalmesser im Test: Welches schneidet am besten? [09:20Min.] | Krankenversicherung für Haustiere [16:59Min.] | Internet aus dem All: Starlink im Test [23:09Min.]",
+    "sanitized": "Themen: Walnüsse im Test: Teuer muss nicht besser sein [00:26Min.] | Universalmesser im Test: Welches schneidet am besten? [09:20Min.] | Krankenversicherung für Haustiere [16:59Min.] | Internet aus dem All: Starlink im Test [23:09Min.]"
   },
   {
-    "itemId": "https://www1.wdr.de/daserste/mediathek/musiksendungen-im-ersten/241208notredame-clip-notre-dame-la-renaissance-100.html",
-    "raw": "Die ganze Welt war fassungslos und live dabei, als 2019 mit der Pariser Kathedrale Notre-Dame eines der Wahrzeichen Europas in Flammen aufging.",
-    "sanitized": "Die ganze Welt war fassungslos und live dabei, als 2019 mit der Pariser Kathedrale Notre-Dame eines der Wahrzeichen Europas in Flammen aufging."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/bundesvibe/bundesvibe-clip-deutschlands-autokrise-was-passiert-mit-unseren-jobs-100.html",
+    "raw": "Die deutsche Autoindustrie ist in einer existenziellen Krise, zehntausende Arbeitsplätze sind in Gefahr. Wie gehen die Betroffenen damit um?",
+    "sanitized": "Die deutsche Autoindustrie ist in einer existenziellen Krise, zehntausende Arbeitsplätze sind in Gefahr. Wie gehen die Betroffenen damit um?"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/lokalzeit-landschafft/lokalzeit-land-schafft-clip-lokalzeit-land-schafft--102.html",
-    "raw": "Landwirte Chris und Arne Hensgens betreiben einen Erdbeer- und Spargelhof. Ihre Herausforderung: Ein Viertel der Flächen liegt in den Niederlanden.",
-    "sanitized": "Landwirte Chris und Arne Hensgens betreiben einen Erdbeer- und Spargelhof. Ihre Herausforderung: Ein Viertel der Flächen liegt in den Niederlanden."
+    "itemId": "https://www1.wdr.de/mediathek/video/einzelstuecke/doku/Atmen-clip-atmen-breathe-your-life-100.html",
+    "raw": "Breathwork und spezielle Atemtechniken wie das \"holotrope Atmen“ oder die \"Wim-Hof-Methode“ sind zu einem Trendthema in der Sport- und Yogawelt geworden.",
+    "sanitized": "Breathwork und spezielle Atemtechniken wie das \"holotrope Atmen“ oder die \"Wim-Hof-Methode“ sind zu einem Trendthema in der Sport- und Yogawelt geworden."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/koelner-treff/koelner-treff-clip-talk-mit-popmusiker-lvaro-soler-und-schauspielerin-katharina-thalbach-100.html",
-    "raw": "Susan Link und Micky Beisenherz begrüßen im Kölner Treff den Popmusiker Álvaro Soler sowie die Schauspielerinnen Katharina Thalbach und Jenny Jürgens.",
-    "sanitized": "Susan Link und Micky Beisenherz begrüßen im Kölner Treff den Popmusiker Álvaro Soler sowie die Schauspielerinnen Katharina Thalbach und Jenny Jürgens."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/fernsehfilm/weihnachts-maenner-clip-weihnachts-maenner--tragikkomoedie-100.html",
+    "raw": "Spielfilm Deutschland 2019 +++ Anstelle zur Bescherung nach Hause zu eilen, muss Hauptkommissarin Caroline Bremer noch drei Verdächtige vernehmen: Fritz, Walter und Andi, auf frischer Tat ertappt.",
+    "sanitized": "Spielfilm Deutschland 2019 +++ Anstelle zur Bescherung nach Hause zu eilen, muss Hauptkommissarin Caroline Bremer noch drei Verdächtige vernehmen: Fritz, Walter und Andi, auf frischer Tat ertappt."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/die-carolin-kebekus-show/die-carolin-kebekus-show-clip-wahlkrampf-mit-filiz-tasdan-100.html",
-    "raw": "Weihnachtszeit, Wahlkampfzeit – wer soll da den Überblick behalten? Carolin Kebekus natürlich! Auch mit Comedienne Filiz Tasdan steht sie vor der Qual der Wahl.",
-    "sanitized": "Weihnachtszeit, Wahlkampfzeit – wer soll da den Überblick behalten? Carolin Kebekus natürlich! Auch mit Comedienne Filiz Tasdan steht sie vor der Qual der Wahl."
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/wdr-dok/verlorenen-seelen-syriens-clip-die-verlorenen-seelen-syriens-100.html",
+    "raw": "27.000 Fotos von zu Tode gefolterten zivilen Gefangenen wurden von einem militärischen Überläufer mit dem Codenamen Caesar aus den Geheimarchiven des syrischen Regimes gestohlen und öffentlich gemacht.",
+    "sanitized": "27.000 Fotos von zu Tode gefolterten zivilen Gefangenen wurden von einem militärischen Überläufer mit dem Codenamen Caesar aus den Geheimarchiven des syrischen Regimes gestohlen und öffentlich gemacht."
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-buehne/audio-aschenputtel-als-bergarbeiter-ballett-in-duisburg-100.html",
-    "raw": "Als Psychogramm im Milieu des Kohlebergbaus hat Choreografin Bridget Breiner 2013 die Aschenputtel-Geschichte inszeniert. Dafür bekam sie den Theaterpreis Der Faust. Nun hat sie das Stück für das Ballett am Rhein neu erarbeitet. Nicole Strecker war dort.",
-    "sanitized": "Als Psychogramm im Milieu des Kohlebergbaus hat Choreografin Bridget Breiner 2013 die Aschenputtel-Geschichte inszeniert. Dafür bekam sie den Theaterpreis Der Faust. Nun hat sie das Stück für das Ballett am Rhein neu erarbeitet. Nicole Strecker war dort."
+    "itemId": "https://www1.wdr.de/nachrichten/berghain-jubilaeum-club-nrw-situation-100.html",
+    "raw": "Das Berghain in Berlin feiert sein 20-jähriges Bestehen - trotz Clubsterben. Auch in NRW stehen die Clubs vor Herausforderungen.",
+    "sanitized": "Das Berghain in Berlin feiert sein 20-jähriges Bestehen - trotz Clubsterben. Auch in NRW stehen die Clubs vor Herausforderungen."
   },
   {
-    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/zeitzeichen-hape-kerkeling-geburtstag-100.html",
-    "raw": "Als Kind versucht Hape Kerkeling verzweifelt, seine schwermütige Mutter aufzuheitern und lernt dabei, wie Humor in schwierigen Zeiten eine Stütze sein kann.",
-    "sanitized": "Als Kind versucht Hape Kerkeling verzweifelt, seine schwermütige Mutter aufzuheitern und lernt dabei, wie Humor in schwierigen Zeiten eine Stütze sein kann."
+    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/zeitzeichen-napoleon-josephine-scheidung-100.html",
+    "raw": "Napoleon ist schwer verliebt, trotzdem löst er mit einem großen Fest die Ehe zu Kaiserin Joséphine. Er sorgt sich um sein Vermächtnis, sie reagiert pragmatisch.",
+    "sanitized": "Napoleon ist schwer verliebt, trotzdem löst er mit einem großen Fest die Ehe zu Kaiserin Joséphine. Er sorgt sich um sein Vermächtnis, sie reagiert pragmatisch."
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5424.html",
+    "raw": "K-Pop ist Soundtrack der aktuellen Proteste in Südkorea | Parastoo Ahmadi bricht iranisches Recht mit Konzert | \"Brat\" ist Kink-Trend bei Gen Z",
+    "sanitized": "K-Pop ist Soundtrack der aktuellen Proteste in Südkorea | Parastoo Ahmadi bricht iranisches Recht mit Konzert | \"Brat\" ist Kink-Trend bei Gen Z"
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/podcast/machiavelli/machiavelli-deep-dive-kendrick-lamar-gnx-100.html",
+    "raw": "Ein neues Kendrick Album aus dem Nichts. Gerüchtweise hat bis wenige Stunden vor dem Drop von \"GNX\" nicht mal das Label davon gewusst, dass da was kommt. Nicht zum ersten Mal dieses Jahr hat Kendrick alle überrascht. ",
+    "sanitized": "Ein neues Kendrick Album aus dem Nichts. Gerüchtweise hat bis wenige Stunden vor dem Drop von \"GNX\" nicht mal das Label davon gewusst, dass da was kommt. Nicht zum ersten Mal dieses Jahr hat Kendrick alle überrascht."
+  },
+  {
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/musikserien/reviews/pa-salieu-afrikan-alien-100.html",
+    "raw": "Der 27-jährige Pa Salieu wurde mit seinem Song \"Frontline\" 2020 zum Superstar der britischen Drill- und Rapszene.",
+    "sanitized": "Der 27-jährige Pa Salieu wurde mit seinem Song \"Frontline\" 2020 zum Superstar der britischen Drill- und Rapszene."
   },
   {
     "itemId": "https://www1.wdr.de/radio/cosmo/musik/musikserien/fuenf-songs/fuenf-songs-876.html",
@@ -250,29 +225,14 @@
     "sanitized": "Trettmann und Jassin sammeln Geld für die Opfer von rechter Gewalt, Bad Bunny fühlt sich trotz Clubstimmung leer und Tyla kehrt zu ihren südafrikanischen Roots zurück – das sind unsere fünf Songs der Woche!"
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/musik/album-der-woche/kitschkrieg-german-engineering-zwei-100.html",
-    "raw": "KitschKrieg wurden mit ihrem Mix aus Trap, Elektronik und Dancehall zu einem der einflussreichsten Produktions-Teams Deutschlands. Auf ihrem Album \"German Engineering Zwei\" wagen sie den Sprung über den großen Teich.",
-    "sanitized": "KitschKrieg wurden mit ihrem Mix aus Trap, Elektronik und Dancehall zu einem der einflussreichsten Produktions-Teams Deutschlands. Auf ihrem Album \"German Engineering Zwei\" wagen sie den Sprung über den großen Teich."
+    "itemId": "https://www.daserste.de/unterhaltung/krimi/tatort/sendung/man-stirbt-nur-zweimal-100.html",
+    "raw": "Was Hauptkommissar Frank Thiel und Professor Karl-Friedrich Boerne dieses Mal in Münster vorfinden, ist rundum bizarr: Die Leiche des Anwalts Oskar Weintraub ist vom Speer einer exotischen Krieger-Skulptur vollständig durchbohrt.",
+    "sanitized": "Was Hauptkommissar Frank Thiel und Professor Karl-Friedrich Boerne dieses Mal in Münster vorfinden, ist rundum bizarr: Die Leiche des Anwalts Oskar Weintraub ist vom Speer einer exotischen Krieger-Skulptur vollständig durchbohrt."
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5418.html",
-    "raw": "Viele Menschen haben sich nach Assads Fall an den spontanen Feiern beteiligt | Lizzo gewinnt Rechtsstreit gegen Klägerin | Emilia Pérez räumt ab beim Europäische Filmpreis",
-    "sanitized": "Viele Menschen haben sich nach Assads Fall an den spontanen Feiern beteiligt | Lizzo gewinnt Rechtsstreit gegen Klägerin | Emilia Pérez räumt ab beim Europäische Filmpreis"
-  },
-  {
-    "itemId": "https://www1.wdr.de/radio/cosmo/podcast/iran-im-herzen/wie-iranisches-soulfood-kraft-spendet-100.html",
-    "raw": "Die iranische Küche zeigt, dass Iran mit seiner reichen Geschichte und Kulinarik mehr ist als der Staatsterror des Regimes. Für Moderatorin Nina Moghaddam und Comedian Masud Akbarzadeh sind damit vor allem Kindheitserinnerungen verbunden. ",
-    "sanitized": "Die iranische Küche zeigt, dass Iran mit seiner reichen Geschichte und Kulinarik mehr ist als der Staatsterror des Regimes. Für Moderatorin Nina Moghaddam und Comedian Masud Akbarzadeh sind damit vor allem Kindheitserinnerungen verbunden."
-  },
-  {
-    "itemId": "https://www1.wdr.de/radio/1live-krone/videos/video-live-krone----die-ganze-show-102.html",
-    "raw": "Deutschlands größter Radio-Preis ist zurück! Die 1LIVE Krone wird zum zweiten Mal im Lokschuppen in Bielefeld in vielen Musik-Kategorien verliehen. Moderation: Jeannine Michaelsen.",
-    "sanitized": "Deutschlands größter Radio-Preis ist zurück! Die 1LIVE Krone wird zum zweiten Mal im Lokschuppen in Bielefeld in vielen Musik-Kategorien verliehen. Moderation: Jeannine Michaelsen."
-  },
-  {
-    "itemId": "https://www1.wdr.de/mediathek/audio/wdr2/wdr2-kabarett/audio-wilfried-schmickler-tipps-fuer-die-weihnachtsfeier-100.html",
-    "raw": "Die Weihnachtsfeier steht noch an? Was soll man anziehen, wie sich benehmen? Tipps zum Überleben im Dschungel der Weihnachtsfeierlichkeiten mit Kolleginnen und Kollegen hat WDR 2 Satiriker Wilfried Schmickler.",
-    "sanitized": "Die Weihnachtsfeier steht noch an? Was soll man anziehen, wie sich benehmen? Tipps zum Überleben im Dschungel der Weihnachtsfeierlichkeiten mit Kolleginnen und Kollegen hat WDR 2 Satiriker Wilfried Schmickler."
+    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/spezial/angela-merkel-liest-live-aus-ihrer-biografie-freiheit100.html",
+    "raw": "Biografie Freiheit: WDR 5 überträgt Angela Merkels ausverkaufte lit.COLOGNE-Lesung mit Bettina Böttinger live aus der Kölner Flora.",
+    "sanitized": "Biografie Freiheit: WDR 5 überträgt Angela Merkels ausverkaufte lit.COLOGNE-Lesung mit Bettina Böttinger live aus der Kölner Flora."
   },
   {
     "itemId": "https://www1.wdr.de/radio/wdr4/dab-umstellung-100.html",
@@ -283,16 +243,6 @@
     "itemId": "https://www1.wdr.de/nachrichten/auszeichnung-fuer-lokalzeit-100.html",
     "raw": "WDR-Erfolg beim Bremer Fernseh- und Digitalpreis: Die Lokalzeiten aus Düsseldorf, Dortmund und Duisburg wurden ausgezeichnet.",
     "sanitized": "WDR-Erfolg beim Bremer Fernseh- und Digitalpreis: Die Lokalzeiten aus Düsseldorf, Dortmund und Duisburg wurden ausgezeichnet."
-  },
-  {
-    "itemId": "https://www1.wdr.de/unternehmen/der-wdr/profil/chronik/auszeichnungen/kinderrechtepreis/kinderrechtepreis-102.html",
-    "raw": "Der <abbr title=\"Westdeutscher Rundfunk\">WDR</abbr> sieht sich als öffentlich-rechtlicher Sender besonders in der Pflicht, die Verwirklichung von Kinderrechten immer wieder ins öffentliche Bewusstsein zu rücken.",
-    "sanitized": "Der WDR sieht sich als öffentlich-rechtlicher Sender besonders in der Pflicht, die Verwirklichung von Kinderrechten immer wieder ins öffentliche Bewusstsein zu rücken."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/deutscher-radiopreis-verleihung-wdr-100.html",
-    "raw": "Zwei WDR-Formate gewinnen beim Deutschen Radiopreis: MausLive-Reportage ist \"Beste Sendung\", Podcast \"CUT\" \"Beste Reportage\".",
-    "sanitized": "Zwei WDR-Formate gewinnen beim Deutschen Radiopreis: MausLive-Reportage ist \"Beste Sendung\", Podcast \"CUT\" \"Beste Reportage\"."
   },
   {
     "itemId": "https://www1.wdr.de/nachrichten/junge-formate/nice-to-know-newsroom-tiktok-100.html",
@@ -315,19 +265,9 @@
     "sanitized": "Du suchst eine App, die dich so durch den Tag in NRW begleitet, um jederzeit mitzureden? Die WDR aktuell App bietet genau das."
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/der-westen-haelt-zusammen-ehrenamt-helfer-100.html",
-    "raw": "Tausende Ehrenamtliche und Rettungskräfte sind in den vergangenen Tagen und Wochen für uns da gewesen und haben Sandsäcke geschleppt, den Dom gesichert oder Keller leergepumpt. Wir haben am Donnerstag ihnen allen DANKE gesagt - mit einem crossmedialen Aktionstag.",
-    "sanitized": "Tausende Ehrenamtliche und Rettungskräfte sind in den vergangenen Tagen und Wochen für uns da gewesen und haben Sandsäcke geschleppt, den Dom gesichert oder Keller leergepumpt. Wir haben am Donnerstag ihnen allen DANKE gesagt - mit einem crossmedialen Aktionstag."
-  },
-  {
     "itemId": "https://www1.wdr.de/nachrichten/wdr-aktuell-whatsapp-kanal-100.html",
     "raw": "WDR aktuell gibt’s auch bei <span lang=\"en\">Whatsapp</span>. Täglich frische News für <abbr title=\"Nordrhein-Westfalen\">NRW</abbr> und Insights aus dem Newsroom. So abonniert ihr den Kanal und seid den ganzen Tag über informiert.",
     "sanitized": "WDR aktuell gibt’s auch bei Whatsapp. Täglich frische News für NRW und Insights aus dem Newsroom. So abonniert ihr den Kanal und seid den ganzen Tag über informiert."
-  },
-  {
-    "itemId": "https://www1.wdr.de/nachrichten/wdr-intendant-buhrow-100.html",
-    "raw": "<abbr title=\"Westdeutschen Rundfunk\">WDR</abbr>-Intendant Tom Buhrow strebt keine dritte Amtszeit an und hört vorzeitig auf. Er übergebe die Leitung schon Ende 2024, teilte der 65-Jährige am Dienstag mit.",
-    "sanitized": "WDR-Intendant Tom Buhrow strebt keine dritte Amtszeit an und hört vorzeitig auf. Er übergebe die Leitung schon Ende 2024, teilte der 65-Jährige am Dienstag mit."
   },
   {
     "itemId": "https://www1.wdr.de/lokalzeit/lokalzeithomestartseite100.html",

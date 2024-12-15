@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/",
+    "raw": "pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04.",
+    "sanitized": "pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/",
+    "raw": "OpenSearch is a community-driven project by Amazon and a fork of Elasticsearch and Kibana. It's a fully open-source search engine and analytics suite with rich features and innovative functionality. This guide will show you how to install OpenSearch and OpenSearch Dashboard on the Ubuntu 24.04 server.",
+    "sanitized": "OpenSearch is a community-driven project by Amazon and a fork of Elasticsearch and Kibana. It's a fully open-source search engine and analytics suite with rich features and innovative functionality. This guide will show you how to install OpenSearch and OpenSearch Dashboard on the Ubuntu 24.04 server."
+  },
+  {
     "itemId": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/",
     "raw": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine.",
     "sanitized": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine."
@@ -38,15 +48,5 @@
     "itemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
     "raw": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.",
     "sanitized": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/",
-    "raw": "In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans.",
-    "sanitized": "In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/",
-    "raw": "Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile.",
-    "sanitized": "Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile."
   }
 ]
