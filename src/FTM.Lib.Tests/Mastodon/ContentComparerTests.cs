@@ -20,5 +20,20 @@ public class ContentComparerTests
 
         yield return new TestCaseData("lorem ipsum", "dolor sit amet", ContentComparer.CompareResult.Different)
             .SetName("Different content");
+
+        yield return new TestCaseData("lorem ipsum dolor", "ipsum", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("First contains second");
+
+        yield return new TestCaseData("lorem", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("Second contains first");
+
+        yield return new TestCaseData("lorem ipsum", " ", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Second is white space");
+
+        yield return new TestCaseData("lorem ipsum", "", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Second is empty string");
+
+        yield return new TestCaseData("", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First is empty string");
     }
 }
