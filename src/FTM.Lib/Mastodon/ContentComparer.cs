@@ -6,8 +6,8 @@ public static class ContentComparer
 
     public static CompareResult Compare(string first, string second)
     {
-        first = Cleanup(first);
-        second = Cleanup(second);
+        first = Sanitize(first);
+        second = Sanitize(second);
 
         if (first.Contains(second))
         {
@@ -21,7 +21,7 @@ public static class ContentComparer
 
         return CompareResult.Different;
 
-        static string Cleanup(string s) => CharsToRemove.Aggregate(s, (current, c) => current.Replace(c, ""));
+        static string Sanitize(string s) => CharsToRemove.Aggregate(s, (current, c) => current.Replace(c, ""));
     }
 
     public enum CompareResult
