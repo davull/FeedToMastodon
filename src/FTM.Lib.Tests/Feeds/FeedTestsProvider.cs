@@ -174,7 +174,7 @@ public static class FeedTestsProvider
     private static string GetTestName(Feed feed, FeedItem item)
     {
         var bytes = MD5.HashData(Encoding.UTF8.GetBytes(item.ItemId));
-        var md5 = BitConverter.ToString(bytes).Replace("-", "");
+        var md5 = Convert.ToHexString(bytes);
         return $"{feed.Title} - {md5}";
     }
 }
