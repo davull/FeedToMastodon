@@ -35,5 +35,14 @@ public class ContentComparerTests
 
         yield return new TestCaseData("", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
             .SetName("First is empty string");
+
+        yield return new TestCaseData("lorem ip...", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First contains three dots");
+
+        yield return new TestCaseData("lorem ip…", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First contains ellipsis");
+
+        yield return new TestCaseData("loremipsumdolor", "lorem ipsum dolor sit amet",
+            ContentComparer.CompareResult.SecondContainsFirst).SetName("Whitespaces are trimmed");
     }
 }
