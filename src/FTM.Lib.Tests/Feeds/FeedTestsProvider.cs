@@ -78,7 +78,8 @@ public static class FeedTestsProvider
             "WDR 5 Zeitzeichen.xml",
             "WindowsPro.xml",
             "Yet another developer blog.xml",
-            "nitter.privacydev.net.xml"
+            "JLMelenchon-nitter.privacydev.net.xml",
+            "EUDelegationUA-nitter.privacydev.net.xml"
         };
 
         return from fileName in rssFeeds
