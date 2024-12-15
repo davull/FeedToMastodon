@@ -58,22 +58,24 @@ public static class StatusBuilder
 
     private static string GetStatus(string title, string summary, Uri? link)
     {
-        if (string.IsNullOrWhiteSpace(summary))
-        {
-            return $"""
-                    {title}
-                    ---
-                    {link}
-                    """;
-        }
+        const string formatWithSummary = """
+                                         {0}
 
-        return $"""
-                {title}
+                                         {1}
+                                         ---
+                                         {2}
+                                         """;
+        const string formatWoSummary = """
+                                       {0}
+                                       ---
+                                       {2}
+                                       """;
 
-                {summary}
-                ---
-                {link}
-                """;
+        var format = string.IsNullOrWhiteSpace(summary)
+            ? formatWoSummary
+            : formatWithSummary;
+
+        return string.Format(format, title, summary, link);
     }
 
     private static string TrimIfNeeded(string text, int maxLength)
