@@ -6,25 +6,43 @@ namespace FTM.Lib.Tests.Mastodon;
 
 public class ContentComparerTests
 {
-    [Test]
-    public void Same_Content_Should_Return_True()
+    [TestCaseSource(nameof(TestCases))]
+    public void Compare_Should_Return_Expected(string first, string second, ContentComparer.CompareResult expected)
     {
-        const string content1 = "lorem ipsum";
-        const string content2 = "lorem ipsum";
-
-        var actual = ContentComparer.ContentEquals(content1, content2);
-
-        actual.Should().BeTrue();
+        var actual = ContentComparer.Compare(first, second);
+        actual.Should().Be(expected);
     }
 
-    [Test]
-    public void Different_Content_Should_Return_False()
+    private static IEnumerable<TestCaseData> TestCases()
     {
-        const string content1 = "lorem ipsum";
-        const string content2 = "dolor sit amet";
+        yield return new TestCaseData("lorem ipsum", "lorem ipsum", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Equal content");
 
-        var actual = ContentComparer.ContentEquals(content1, content2);
+        yield return new TestCaseData("lorem ipsum", "dolor sit amet", ContentComparer.CompareResult.Different)
+            .SetName("Different content");
 
-        actual.Should().BeFalse();
+        yield return new TestCaseData("lorem ipsum dolor", "ipsum", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("First contains second");
+
+        yield return new TestCaseData("lorem", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("Second contains first");
+
+        yield return new TestCaseData("lorem ipsum", " ", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Second is white space");
+
+        yield return new TestCaseData("lorem ipsum", "", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Second is empty string");
+
+        yield return new TestCaseData("", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First is empty string");
+
+        yield return new TestCaseData("lorem ip...", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First contains three dots");
+
+        yield return new TestCaseData("lorem ip…", "lorem ipsum", ContentComparer.CompareResult.SecondContainsFirst)
+            .SetName("First contains ellipsis");
+
+        yield return new TestCaseData("loremipsumdolor", "lorem ipsum dolor sit amet",
+            ContentComparer.CompareResult.SecondContainsFirst).SetName("Whitespaces are trimmed");
     }
 }

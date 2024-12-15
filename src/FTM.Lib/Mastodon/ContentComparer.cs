@@ -2,8 +2,32 @@
 
 public static class ContentComparer
 {
-    public static bool ContentEquals(string content1, string content2)
+    private static readonly string[] CharsToRemove = [".", " ", "…", "\n", "\r", "\t"];
+
+    public static CompareResult Compare(string first, string second)
     {
-        return string.Equals(content1, content2, StringComparison.OrdinalIgnoreCase);
+        first = Sanitize(first);
+        second = Sanitize(second);
+
+        if (first.Contains(second))
+        {
+            return CompareResult.FirstContainsSecond;
+        }
+
+        if (second.Contains(first))
+        {
+            return CompareResult.SecondContainsFirst;
+        }
+
+        return CompareResult.Different;
+
+        static string Sanitize(string s) => CharsToRemove.Aggregate(s, (current, c) => current.Replace(c, ""));
+    }
+
+    public enum CompareResult
+    {
+        FirstContainsSecond,
+        SecondContainsFirst,
+        Different
     }
 }
