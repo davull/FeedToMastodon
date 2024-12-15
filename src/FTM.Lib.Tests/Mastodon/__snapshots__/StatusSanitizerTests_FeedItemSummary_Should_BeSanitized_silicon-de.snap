@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://www.silicon.de/?p=41717316",
+    "raw": "In Deutschland ist der Infostealer Formbook weiterhin Spitzenreiter und für rund 18,5 Prozent aller Malware-Infektionen verantwortlich. ",
+    "sanitized": "In Deutschland ist der Infostealer Formbook weiterhin Spitzenreiter und für rund 18,5 Prozent aller Malware-Infektionen verantwortlich."
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717306",
+    "raw": "HP Wolf Security-Studie: fehlende Lieferanten-Audits, schwache BIOS-Passwörter, Fear of Making Updates, Epidemie verlorener Geräte und wachsender E-Müll.",
+    "sanitized": "HP Wolf Security-Studie: fehlende Lieferanten-Audits, schwache BIOS-Passwörter, Fear of Making Updates, Epidemie verlorener Geräte und wachsender E-Müll."
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717302",
+    "raw": "Datenpannen sorgen nicht nur für aufmerksamkeitsstarke Schlagzeilen – sie sind eine Erinnerung an die Schwachstellen, die in vielen Netzwerken lauern.",
+    "sanitized": "Datenpannen sorgen nicht nur für aufmerksamkeitsstarke Schlagzeilen – sie sind eine Erinnerung an die Schwachstellen, die in vielen Netzwerken lauern."
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717252",
+    "raw": "Das Zusammenspiel von Cloud und KI stellt Hyperscaler, IT-Partner und Endkunden vor neue Herausforderungen. ",
+    "sanitized": "Das Zusammenspiel von Cloud und KI stellt Hyperscaler, IT-Partner und Endkunden vor neue Herausforderungen."
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717261",
+    "raw": "Auf Basis der Lösungen Customer 360 und Data Cloud im Zusammenspiel mit Agentforce will Hotelkette Gästeservice digitalisieren und automatisieren.",
+    "sanitized": "Auf Basis der Lösungen Customer 360 und Data Cloud im Zusammenspiel mit Agentforce will Hotelkette Gästeservice digitalisieren und automatisieren."
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717247",
+    "raw": "Mikroautomatisierungen sind ein wichtiger Bestandteil der aktuellen Entwicklungen, sagt Sofiane Fessi von Dataiku im Interview.",
+    "sanitized": "Mikroautomatisierungen sind ein wichtiger Bestandteil der aktuellen Entwicklungen, sagt Sofiane Fessi von Dataiku im Interview."
+  },
+  {
     "itemId": "https://www.silicon.de/?p=41717228",
     "raw": "Trends 2025: Mobile Risiken, Phishing-Techniken und Sideloading-Angriffe.",
     "sanitized": "Trends 2025: Mobile Risiken, Phishing-Techniken und Sideloading-Angriffe."
@@ -218,35 +248,5 @@
     "itemId": "https://www.silicon.de/?p=41716805",
     "raw": "Echtzeitüberweisungen erfüllen die Erwartungen der Nutzer an Geschwindigkeit, sind jedoch anfällig für spezifische Sicherheits- und Datenschutzrisiken.",
     "sanitized": "Echtzeitüberweisungen erfüllen die Erwartungen der Nutzer an Geschwindigkeit, sind jedoch anfällig für spezifische Sicherheits- und Datenschutzrisiken."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716786",
-    "raw": "Application Portfolio Management (APM) verspricht Transparenz, mehr IT-Leistung und Effizienz – theoretisch. ",
-    "sanitized": "Application Portfolio Management (APM) verspricht Transparenz, mehr IT-Leistung und Effizienz – theoretisch."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41717041",
-    "raw": "Router sind die stille Drehscheibe moderner Netzwerke. Sie verbinden Geräte, schaffen Zugang zu unzähligen digitalen Möglichkeiten und sorgen für nahtlose Kommunikation. Doch wie sieht die Entwicklung aus? Und was leisten Router heute wirklich? Ein Blick auf die aktuellen Technologien zeigt, wie leistungsstark und vielseitig moderne Router geworden sind – und warum sie für ein stabiles und sicheres Netzwerk unerlässlich sind.",
-    "sanitized": "Router sind die stille Drehscheibe moderner Netzwerke. Sie verbinden Geräte, schaffen Zugang zu unzähligen digitalen Möglichkeiten und sorgen für nahtlose Kommunikation. Doch wie sieht die Entwicklung aus? Und was leisten Router heute wirklich? Ein Blick auf die aktuellen Technologien zeigt, wie leistungsstark und vielseitig moderne Router geworden sind – und warum sie für ein stabiles und sicheres Netzwerk unerlässlich sind."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716768",
-    "raw": "Im Berichtszeitraum Mitte 2023 bis Mitte 2024 wurden täglich durchschnittlich 309.000 neue Schadprogramm-Varianten bekannt. ",
-    "sanitized": "Im Berichtszeitraum Mitte 2023 bis Mitte 2024 wurden täglich durchschnittlich 309.000 neue Schadprogramm-Varianten bekannt."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716753",
-    "raw": "KI kommt in der Cybersicherheit zum Einsatz, etwa um Abweichungen im Netzwerkverkehr zu identifizieren. Ist der KI-Einsatz sinnvoll, fragt Sebastian Schmerl von Arctic Wolf.   ",
-    "sanitized": "KI kommt in der Cybersicherheit zum Einsatz, etwa um Abweichungen im Netzwerkverkehr zu identifizieren. Ist der KI-Einsatz sinnvoll, fragt Sebastian Schmerl von Arctic Wolf."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716735",
-    "raw": "Ungepatchte und veraltetete Maschinen-Software ist ein beliebtes Einfallstor für Hacker, warnt Nils Ullmann von Zscaler im Interview.",
-    "sanitized": "Ungepatchte und veraltetete Maschinen-Software ist ein beliebtes Einfallstor für Hacker, warnt Nils Ullmann von Zscaler im Interview."
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716722",
-    "raw": "Die Auswahl einer Lösung sollte anhand von echten Leistungsindikatoren erfolgen, um echte KI von Behauptungen zu unterscheiden, sagt Dieter Badmann von Juniper Networks.",
-    "sanitized": "Die Auswahl einer Lösung sollte anhand von echten Leistungsindikatoren erfolgen, um echte KI von Behauptungen zu unterscheiden, sagt Dieter Badmann von Juniper Networks."
   }
 ]

@@ -1,8 +1,0 @@
-﻿Pendulum swing: no Haskell type annotation by default
-
-Are Haskell IDE plugins now good enough that you don't need explicit type annotations?
-    
-    
-        More than three years ago, I published a small article series to document that I'd changed my mind on various small practices. Belatedly, here comes a fourth article, which, frankly, is a cousin rather than a sibling. Still, it fits the overall theme well enough to become another instalment in the series...
----
-https://blog.ploeh.dk/2024/11/04/pendulum-swing-no-haskell-type-annotation-by-default/

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/10/penSilver-3-1-Unveils-Drag-and-Drop-XAML-Designer-for-VS-Code.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/09/Visual-Studio-Dev-Vexed-by-Copilots-Obtuse-Responsible-AI-Refusal.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
     "raw": null,
     "sanitized": null
@@ -281,21 +296,6 @@
   },
   {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
     "raw": null,
     "sanitized": null
   }

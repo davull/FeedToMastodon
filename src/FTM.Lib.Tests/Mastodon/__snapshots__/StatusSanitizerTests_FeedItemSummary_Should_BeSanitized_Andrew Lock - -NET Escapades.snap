@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
+    "raw": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps",
+    "sanitized": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps"
+  },
+  {
     "itemId": "https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/",
     "raw": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs",
     "sanitized": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs"
@@ -118,10 +123,5 @@
     "itemId": "https://andrewlock.net/conditionally-skipping-a-trigger-job-in-gitlab-based-on-a-previous-job/",
     "raw": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines",
     "sanitized": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines"
-  },
-  {
-    "itemId": "https://andrewlock.net/blocking-primary-constructor-member-capture-using-an-analyzer/",
-    "raw": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields",
-    "sanitized": "In this post I describe a Rosyln analyzer you can use to enforce that primary constructors are only used for initialization and never to capture as fields"
   }
 ]

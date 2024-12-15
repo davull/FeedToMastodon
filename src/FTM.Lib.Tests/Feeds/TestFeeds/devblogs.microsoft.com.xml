@@ -12,7 +12,7 @@
 	<atom:link href="https://devblogs.microsoft.com/visualstudio/feed/" rel="self" type="application/rss+xml" />
 	<link>https://devblogs.microsoft.com/visualstudio/</link>
 	<description>The official source of product insight from the Visual Studio Engineering Team</description>
-	<lastBuildDate>Mon, 09 Dec 2024 19:57:55 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Dec 2024 15:05:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,102 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Boost your Git confidence with the new file rename notification</title>
+		<link>https://devblogs.microsoft.com/visualstudio/boost-your-git-confidence-with-the-new-file-rename-notification/</link>
+		
+		<dc:creator><![CDATA[Jessie Houghton]]></dc:creator>
+		<pubDate>Thu, 12 Dec 2024 15:05:11 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[Reliability]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251755</guid>
+
+					<description><![CDATA[<p>Have you ever renamed a file in Solution Explorer and wondered if Git is tracking your changes correctly? You&#8217;re not alone. Many developers have found this process confusing and worry whether their changes are being properly staged in Git. But worry no more &#8211; there&#8217;s a solution! When you rename files in Solution Explorer, Visual [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/boost-your-git-confidence-with-the-new-file-rename-notification/">Boost your Git confidence with the new file rename notification</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Have you ever renamed a file in Solution Explorer and wondered if Git is tracking your changes correctly? You&#8217;re not alone. Many developers have found this process confusing and worry whether their changes are being properly staged in Git. But worry no more &#8211; there&#8217;s a solution!</p>
+<p><img fetchpriority="high" decoding="async" class="alignnone wp-image-251756" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png" alt="Messaging showing that files have been renamed and that Git is picking up on these chnages" width="900" height="505" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png 900w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-300x168.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-768x431.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>When you rename files in Solution Explorer, Visual Studio 2022 will now remind you to stage your changes to see the renamed files in Git. This small but mighty notification ensures that Git is recognizing your file change.</p>
+<h2>Why This Matters</h2>
+<p>There is often confusion on how Git works when you rename files, especially since there’s a specific <a href="https://git-scm.com/docs/git-mv">git mv</a> command that is used when you want to move or rename a file or directory. But don’t be deceived, Git never stores any information to track renames. Even when you run a git mv operation, it’s just a short cut for doing a git rm, and then git add on the file. That’s because Git only looks at code change additions (git add) and removals (git rm) over time. In some views Git runs rename detection as it’s navigating history and may display a set of an addition and removal as a rename, but under the hood it uses a heuristic based on the similarity of the two files to call it a rename instead – and sometimes it gets it wrong!</p>
+<p>This shows up in Visual Studio when you rename a file from Solution Explorer and look at your changed files list. In all cases, it is shown as an addition and a removal. Understandably, this can be disconcerting if you&#8217;re expecting Git to detect and track the rename and fear you might be losing history information. However, since Git is not tracking renames at all, you won’t be at risk! Your file changes are still in the Git history and can be retrieved. To gain some additional piece of mind, once you stage your files, Git runs the rename detection, and you can see how it resolves the addition and removal into a rename under the staged section. That’s where this new notification comes in.</p>
+<p>Tip: If you want to ensure that Git can always identify your file renames when navigating history, you can keep your file naming changes in a separate commit to file content changes. That way, there’s a perfect match between the file that Git sees as removed and the one that Git sees as added, so it’ll correctly detect the rename. This isn’t required and can be inconvenient if it doesn’t match up to your flow but can be helpful when looking through your history later.</p>
+<h2>User Feedback Driven Updates</h2>
+<p>This feature was developed in response to <a href="https://developercommunity.visualstudio.com/t/renaming-a-file-does-not-perform-a-git-rename/942071">feedback from the Developer Community</a>. We listened to your concerns and collaborated with you to create a solution that makes your workflow more efficient and stress-free. Your input is invaluable, and we are committed to continuously improving Visual Studio based on your feedback.</p>
+<p>We want to extend our heartfelt thanks to our users. Your continuous feedback helps us make Visual Studio better with each release. Keep sharing your thoughts and experiences with us!</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/boost-your-git-confidence-with-the-new-file-rename-notification/">Boost your Git confidence with the new file rename notification</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Effortless publishing with Azure Functions Flex Consumption</title>
+		<link>https://devblogs.microsoft.com/visualstudio/effortless-publishing-with-azure-functions-flex-consumption/</link>
+		
+		<dc:creator><![CDATA[Brady Gaster]]></dc:creator>
+		<pubDate>Wed, 11 Dec 2024 16:51:45 +0000</pubDate>
+				<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251750</guid>
+
+					<description><![CDATA[<p>Struggling with complex deployment processes for your serverless applications? Visual Studio 2022 introduces a seamless solution with the new Azure Functions Flex Consumption hosting plan, now generally available. Imagine a world where deploying your serverless applications to a hosting plan that supports fast scaling and VNet is as simple as a right-click. With the Azure [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/effortless-publishing-with-azure-functions-flex-consumption/">Effortless publishing with Azure Functions Flex Consumption</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Struggling with complex deployment processes for your serverless applications? Visual Studio 2022 introduces a seamless solution with the new Azure Functions Flex Consumption hosting plan, now generally available.</p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251750-1-e1733851878995.png"><img decoding="async" class="alignnone wp-image-251751 " src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251750-1-e1733851878995.png" alt="Create new Function App Linux screenshot" width="540" height="418" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251750-1-e1733851878995.png 441w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251750-1-e1733851878995-300x233.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></a></p>
+<p>Imagine a world where deploying your serverless applications to a hosting plan that supports fast scaling and VNet is as simple as a right-click. With the Azure Functions Flex Consumption hosting plan, this is now a reality. This feature allows you to right-click publish to Flex directly from Visual Studio 2022, streamlining your workflow and saving valuable time.</p>
+<p>One of the standout features of the Flex Consumption plan is its Virtual Network integration at no extra cost. This ensures that your apps can communicate securely with other resources in your Azure infrastructure without incurring additional expenses.</p>
+<h1>Fast and predictable scaling</h1>
+<p>Flex Consumption offers fast and predictable scaling with instance size choice and per instance concurrency control. This means you can tailor the performance of your applications to meet the specific demands of your users, ensuring a smooth and responsive experience.</p>
+<p>Enjoy the benefits of a true serverless environment with scale to zero capabilities. You only pay for instances while they are active, allowing for cost-effective management of your resources. Additionally, the optional Always Ready instances feature mitigates cold starts, providing a more efficient and user-friendly experience.</p>
+<h1>Try it out today</h1>
+<p>The Azure Functions Flex Consumption hosting plan is currently in Preview. Learn more about this feature in our <a href="https://aka.ms/flexconsumption/publicpreviewannouncement">announcement blog post</a> and <a href="https://aka.ms/flexconsumption">documentation</a>. Try out one of our <a href="https://aka.ms/flexconsumption/samples">samples</a> to see how easy it is to integrate this new functionality into your projects.</p>
+<p>Your continuous feedback is invaluable, and it helps us make Visual Studio better with every update. We appreciate your support and look forward to hearing your thoughts on this new feature.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/effortless-publishing-with-azure-functions-flex-consumption/">Effortless publishing with Azure Functions Flex Consumption</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Effortless publishing to Azure WebJobs on Linux</title>
+		<link>https://devblogs.microsoft.com/visualstudio/effortless-publishing-to-azure-webjobs-on-linux/</link>
+		
+		<dc:creator><![CDATA[Brady Gaster]]></dc:creator>
+		<pubDate>Tue, 10 Dec 2024 17:24:00 +0000</pubDate>
+				<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251739</guid>
+
+					<description><![CDATA[<p>Are you tired of the cumbersome process involved in publishing your .NET console applications to Azure WebJobs on Linux? For developers yearning for a seamless and efficient method to deploy their applications, Visual Studio 2022 introduces a much-anticipated solution. Visual Studio 2022 now supports right-click publishing to Azure WebJobs on Linux, making the deployment process [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/effortless-publishing-to-azure-webjobs-on-linux/">Effortless publishing to Azure WebJobs on Linux</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Are you tired of the cumbersome process involved in publishing your .NET console applications to Azure WebJobs on Linux? For developers yearning for a seamless and efficient method to deploy their applications, Visual Studio 2022 introduces a much-anticipated solution.</p>
+<p><img decoding="async" class="alignnone wp-image-251740" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251739-1.png" alt="Publish to specific target Linux" width="804" height="564" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251739-1.png 804w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251739-1-300x210.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251739-1-768x539.png 768w" sizes="(max-width: 804px) 100vw, 804px" /></p>
+<p>Visual Studio 2022 now supports right-click publishing to Azure WebJobs on Linux, making the deployment process faster and more intuitive than ever before. This new feature brings much-needed convenience to developers working with <strong>cross-platform .NET 5.0+ Console Apps</strong>, allowing them to effortlessly publish their code with just a few clicks.</p>
+<h2>Why This Matters: The Problem at Hand</h2>
+<p>Deploying applications to Azure WebJobs on Linux traditionally required several manual steps, often leading to inefficiencies and increased potential for errors. Developers faced a fragmented workflow, which could be time-consuming and prone to mistakes, ultimately impacting project timelines and productivity.</p>
+<h2>The Solution: Simplified Publishing Process</h2>
+<p>With the right-click publish feature in Visual Studio 2022, the deployment process has been streamlined significantly. Here’s how it benefits you:</p>
+<p><strong>Ease of Use</strong>: Simply right-click on your project in Visual Studio and select the option to publish to Azure WebJobs on Linux. The intuitive interface guides you through the process, reducing the complexity and time required for deployment.</p>
+<p><strong>Cross-Platform Compatibility</strong>: This feature supports .NET 5.0+ Console Apps, ensuring that your applications are compatible across various platforms, enhancing their versatility and reach.</p>
+<p><strong>Enhanced Efficiency</strong>: By minimizing manual steps and automating the deployment process, developers can focus more on writing code and less on deployment logistics, leading to improved productivity and project efficiency.</p>
+<h2>Final Thoughts</h2>
+<p>We are incredibly excited about this new addition to Visual Studio 2022 and believe it will significantly enhance your development experience. Your continuous feedback is invaluable to us and plays a crucial role in making Visual Studio the best it can be. Thank you for your support, and we look forward to hearing how this feature improves your workflow.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/effortless-publishing-to-azure-webjobs-on-linux/">Effortless publishing to Azure WebJobs on Linux</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Keep working with non-blocking Code Cleanup</title>
 		<link>https://devblogs.microsoft.com/visualstudio/keep-working-with-non-blocking-code-cleanup/</link>
 		
@@ -41,7 +137,7 @@
 <p>The post <a href="https://devblogs.microsoft.com/visualstudio/keep-working-with-non-blocking-code-cleanup/">Keep working with non-blocking Code Cleanup</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[<p>Are you tired of waiting for Code Cleanup to finish every time you save your work? Visual Studio 2022 will no longer lock up and get in the way of your tasks as it’s cleaning up the code under the covers.</p>
-<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif"><img fetchpriority="high" decoding="async" class="alignnone wp-image-251733" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif" alt="Image async code cleanup on save" width="773" height="515" /></a></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif"><img decoding="async" class="alignnone wp-image-251733" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif" alt="Image async code cleanup on save" width="773" height="515" /></a></p>
 <p>Every developer knows the importance of <a id="post-251728-_Int_7kjpjNfF"></a>maintaining clean code. However, the traditional Code Cleanup process in Visual Studio could take a while to run and lock up the entire IDE, which made it inappropriate to run on save for all scenarios. These interruptions could break your flow and slow down your development progress.</p>
 <p>Now, when you save your work, Code Cleanup can run seamlessly in the background without interrupting your workflow.</p>
 <h1>Background cleanup for uninterrupted coding</h1>
@@ -314,161 +410,6 @@
 <p>We hope this has given you a taste of what’s new. For all the details, see <a href="https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2022-17-12/">What’s New for C++ Developers in Visual Studio 2022 17.12</a> on the C++ blog.</p>
 <p>We are very much interested in your feedback. The comments below are open. Feedback can also be shared through <a href="https://developercommunity.visualstudio.com/cpp">Visual Studio Developer Community</a>. You can also reach us via email at <a href="mailto:visualcpp@microsoft.com">visualcpp@microsoft.com</a>.</p>
 <p>The post <a href="https://devblogs.microsoft.com/visualstudio/updates-for-c-developers-in-visual-studio-2022-17-12/">Updates for C++ developers in Visual Studio 2022 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Debugger and Diagnostics updates in Visual Studio 17.12</title>
-		<link>https://devblogs.microsoft.com/visualstudio/debugger-and-diagnostics-updates-in-visual-studio-17-12/</link>
-		
-		<dc:creator><![CDATA[Harshada Hole]]></dc:creator>
-		<pubDate>Tue, 26 Nov 2024 16:41:34 +0000</pubDate>
-				<category><![CDATA[Debug]]></category>
-		<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<category><![CDATA[Debugging and Diagnostics]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251549</guid>
-
-					<description><![CDATA[<p>We are thrilled to announce a host of exciting new features in Visual Studio 17.12, designed to enhance your development experience and boost your productivity. Our team has been working diligently to address some of the most popular requests from our developer community, and we are confident that these updates will significantly improve your workflow. [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/debugger-and-diagnostics-updates-in-visual-studio-17-12/">Debugger and Diagnostics updates in Visual Studio 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>We are thrilled to announce a host of exciting new features in Visual Studio 17.12, designed to enhance your development experience and boost your productivity. Our team has been working diligently to address some of the most popular requests from our developer community, and we are confident that these updates will significantly improve your workflow.</p>
-<p>For a full list of updates, check out the <a href="https://learn.microsoft.com/visualstudio/releases/2022/release-notes-preview">release notes</a>.</p>
-<h2>Display Inline Method Return Values</h2>
-<p>The Visual Studio debugger now displays inline values for return statements, responding to one of the most requested features from the developer community.</p>
-<p>This enhancement allows you to see the exact values being returned by functions directly in the code, eliminating the need for additional code or temporary variables to inspect return values.</p>
-<p><img decoding="async" class="alignnone wp-image-251550" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/a-computer-screen-shot-of-a-program-description-a.gif" alt="Gif showing inline returns connecting with GitHub Copilot chat" width="800" height="468" /></p>
-<p>With GitHub Copilot, you can take it further by using the <strong>Ask Copilot</strong> option on hover to analyze return values directly in Visual Studio, allowing you to address issues immediately.</p>
-<p>It is supported in both native and managed code.</p>
-<h2>Export breakpoint groups with ease</h2>
-<p>Visual Studio Breakpoint Groups now support import and export functionality, enabling you to easily manage and maintain your breakpoint structures across multiple projects or environments.</p>
-<p><img decoding="async" class="alignnone wp-image-251551" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/a-screenshot-of-a-computer-description-automatica-1.gif" alt="Gif showing exporting breakpoints into file explorer" width="790" height="595" /></p>
-<p>This new feature allows you to export your breakpoint groups with their configurations and later import them into different solutions, ensuring a consistent debugging setup without the need to manually recreate breakpoints groups again.</p>
-<h2>Inspect variable with Copilot</h2>
-<p>With GitHub Copilot seamlessly integrated into Visual Studio, analyzing values from Locals, Autos, and DataTips becomes a streamlined experience. Similar to method return values, you can instantly access AI-powered insights to identify potential errors, diagnose unexpected outcomes, or uncover anomalies by simply right-clicking on any value.</p>
-<p>This feature keeps the focus on debugging by providing actionable suggestions and detailed context directly within the IDE, eliminating the need to switch tools or disrupt workflow.</p>
-<p><img decoding="async" class="alignnone wp-image-251552" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-3.png" alt="Image leveraging GitHub Copilot chat to inspect images" width="1200" height="675" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-3.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-3-300x169.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-3-1024x576.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-3-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
-<h2>IntelliSense in the IEnumerable Visualizer</h2>
-<p>The IEnumerable Visualizer has been enhanced with IntelliSense, providing real-time code suggestions and autocompletion, which makes writing LINQ expressions faster and more accurate.</p>
-<p><img decoding="async" class="alignnone wp-image-251553" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/a-screenshot-of-a-computer-description-automatica-2.gif" alt="Gif showcasing IntelliSense in the IEnumerable Visualizer" width="724" height="496" /></p>
-<p>This enhancement streamlines the process of building and editing queries by providing intelligent code recommendations, minimizing errors, and accelerating development. Additional improvements are planned for upcoming releases, including AI assistance for writing LINQ queries.</p>
-<h2>Analyze memory use over time</h2>
-<p>The Diagnostics Tool window now supports comparing memory snapshots, making it easier to analyze changes in memory usage over time. To use this feature, ensure you have at least two memory snapshots captured in the <strong>Memory</strong> tab.</p>
-<p>You can select snapshots for comparison by holding <strong>Ctrl</strong> and clicking on the desired rows or by holding <strong>Shift</strong> and using the <strong>up/down arrow keys</strong> to select two consecutive snapshots. To unselect a snapshot, simply hold <strong>Ctrl</strong> and click on the snapshot you want to deselect. Once two snapshots are selected, click the <strong>View Diff</strong> button located above the snapshot list to view the differences between them.</p>
-<p><img decoding="async" class="alignnone wp-image-251554" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-5.png" alt="Image in the Memory Usage tab highlighting the View Diff" width="424" height="179" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-5.png 424w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-5-300x127.png 300w" sizes="(max-width: 424px) 100vw, 424px" /></p>
-<h2>Meter histogram in the profiler</h2>
-<p>We’ve also introduced the <strong>Meter Histogram</strong> feature in the <strong>Diagnostics Window</strong>, enhancing your ability to analyze and visualize histogram data generated by histogram instruments. This upgrade allows you to capture and explore data distributions in greater detail, presenting the results through clear and intuitive visualizations during profiling sessions. With this feature, identifying patterns, trends, and insights from histogram-based metrics becomes more efficient, providing a seamless and effective way to optimize and debug your applications.</p>
-<p><img decoding="async" class="alignnone wp-image-251555" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-6.png" alt="Image highlighting the meter histogram in the profiler" width="1200" height="675" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-6.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-6-300x169.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-6-1024x576.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251549-6-768x432.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
-<h2>Thank you!</h2>
-<p>We are dedicated to continuously improving your development experience, and many of these advancements are driven by your invaluable feedback and suggestions. Your input plays a vital role in shaping the future of Visual Studio, and we encourage you to keep sharing your ideas with us.</p>
-<p>Thank you for being an essential part of our developer community and for your ongoing support. Together, we can reach new milestones and make Visual Studio the ultimate development environment.</p>
-<p>Happy coding!</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/debugger-and-diagnostics-updates-in-visual-studio-17-12/">Debugger and Diagnostics updates in Visual Studio 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Copying error messages just got easier</title>
-		<link>https://devblogs.microsoft.com/visualstudio/copying-error-messages-just-got-easier/</link>
-		
-		<dc:creator><![CDATA[Leah Tran]]></dc:creator>
-		<pubDate>Mon, 25 Nov 2024 15:19:53 +0000</pubDate>
-				<category><![CDATA[Productivity]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251533</guid>
-
-					<description><![CDATA[<p>Have you ever been frustrated by the tedious process of copying error descriptions from the Error List? Previously with Visual Studio, copying an error would include all column headers and row values, which isn’t always what you want. If you were planning to search for the error online, it was a hassle to clean up [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/copying-error-messages-just-got-easier/">Copying error messages just got easier</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Have you ever been frustrated by the tedious process of copying error descriptions from the Error List? Previously with Visual Studio, copying an error would include all column headers and row values, which isn’t always what you want. If you were planning to search for the error online, it was a hassle to clean up the text after pasting.</p>
-<p><img decoding="async" width="801" height="283" class="wp-image-251534" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/context-menu-highlights-options-copy-copy-row-an.png" alt="Context menu highlights options Copy, Copy Row, and Search the Web for Help" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/context-menu-highlights-options-copy-copy-row-an.png 801w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/context-menu-highlights-options-copy-copy-row-an-300x106.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/context-menu-highlights-options-copy-copy-row-an-768x271.png 768w" sizes="(max-width: 801px) 100vw, 801px" /></p>
-<p>Now when you `Ctrl+C` on a row in the Error List, only the error description is copied to the clipboard. You can still copy the entire row with `Ctrl+Shift+C` and now even directly search the web for the error. This makes it easy to get the information you need, saving precious time and headaches.</p>
-<h2><a id="post-251533-_Int_aUKesQch"></a>Additional options for copying</h2>
-<p>Visual Studio 2022 now offers multiple copy options in the Error List for quick access to what you need.</p>
-<p>After selecting the relevant error, you can choose the <a id="post-251533-_Int_Q65vMMrz"></a>option in the context menu or use the following keyboard shortcuts.</p>
-<table>
-<tbody>
-<tr>
-<td><strong>Context menu </strong><a id="post-251533-_Int_GJuPqXpB"></a><strong>option</strong></td>
-<td><strong>Keyboard shortcut</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td>Copy</td>
-<td>Ctrl+C</td>
-<td>Copy only the description</td>
-</tr>
-<tr>
-<td>Copy Row</td>
-<td>Ctrl+Shift+C</td>
-<td>Copy the entire row, description and all</td>
-</tr>
-<tr>
-<td>Search the Web for Help</td>
-<td>Ctrl+F1</td>
-<td>Search online for the error with Bing</td>
-</tr>
-</tbody>
-</table>
-<p>You can also Copy and Copy Row with multiple errors at a time, so you can get all the information you need at once.</p>
-<h2>Conclusion</h2>
-<p>We are continually improving Visual Studio based on your feedback, striving to make your development experience as smooth and productive as possible. This update to the Error List copying functionality is just one of the many ways we are working to enhance your workflow. Thank you for your continued support and valuable insights.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/copying-error-messages-just-got-easier/">Copying error messages just got easier</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024</title>
-		<link>https://devblogs.microsoft.com/visualstudio/top-5-github-copilot-features-in-visual-studio-from-microsoft-ignite-2024/</link>
-		
-		<dc:creator><![CDATA[Amy Nguyen]]></dc:creator>
-		<pubDate>Fri, 22 Nov 2024 13:00:25 +0000</pubDate>
-				<category><![CDATA[Copilot]]></category>
-		<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Productivity]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<category><![CDATA[Ignite]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251478</guid>
-
-					<description><![CDATA[<p>At this year’s Microsoft Ignite, it was truly exciting to see Scott, Dalia, and Jessie demo some of the most innovative features of GitHub Copilot that are transforming the developer experience in Visual Studio. From the breakout session, we highlighted five standout features that are pushing productivity to the next level. Whether you&#8217;re working on [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/top-5-github-copilot-features-in-visual-studio-from-microsoft-ignite-2024/">Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/Screenshot-2024-11-21-170028.png"><img decoding="async" class="alignnone wp-image-251491 size-full" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/Screenshot-2024-11-21-170028.png" alt="Ignite banner showing session &quot;Discover GitHub Copilot's Untapped Potential in Visual Studio&quot; by Scott, Dalia, Jessie" width="908" height="503" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/Screenshot-2024-11-21-170028.png 908w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/Screenshot-2024-11-21-170028-300x166.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/Screenshot-2024-11-21-170028-768x425.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></a></p>
-<p>At this year’s Microsoft Ignite, it was truly exciting to see Scott, Dalia, and Jessie demo some of the most innovative features of GitHub Copilot that are transforming the developer experience in Visual Studio. From the breakout session, we highlighted five standout features that are pushing productivity to the next level. Whether you&#8217;re working on complex edits or crafting custom workflows, these tools showcase how AI can elevate your coding game in ways you never thought possible.</p>
-<p><div class="d-flex justify-content-left"><a class="cta_button_link btn-primary mb-24" href="https://ignite.microsoft.com/en-US/sessions/BRK141?source=sessions" target="_blank">Watch the Ignite Session Here</a></div></p>
-<p>*Note: It will take 24-48 hours after the session for the recording to be uploaded.</p>
-<h2>1. Copilot Edits: Collaborative Iterations</h2>
-<p><img decoding="async" class="alignnone wp-image-251496" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-2.png" alt="Copilot Edits showing inline chat edits, and Copilot Edits entry point" width="1048" height="620" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-2.png 1429w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-2-300x177.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-2-1024x606.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-2-768x454.png 768w" sizes="(max-width: 1048px) 100vw, 1048px" /></p>
-<p>It was amazing to see Copilot Edits in action. This new editing surface is designed for seamless multi-file changes, making large-scale updates across your project feel effortless. Imagine needing to redesign your UI or implement logic that spans multiple files—Copilot handles it by generating a change plan tailored to your goals, without the usual headache of tracking dependencies manually.</p>
-<p>What makes this feature transformative is how Copilot analyzes your codebase, identifies the necessary edits through multiple files, and iterates on those changes while maintaining the context from your conversation history. And the best part? Visual Studio’s inline code previews let you review, modify, or accept suggestions directly in the IDE, making complex updates feel more like a smooth collaboration than a solo effort. This iterative approach ensures that Copilot evolves alongside your intentions, keeping you in control while streamlining your updates.</p>
-<h2>2. Vision: Code Smarter with Contextual Understanding</h2>
-<p><img decoding="async" class="alignnone wp-image-251497" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-3.png" alt="Picture of Copilot Chat with two screenshots in the prompt box (Vision)" width="573" height="400" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-3.png 573w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-3-300x209.png 300w" sizes="(max-width: 573px) 100vw, 573px" /></p>
-<p>This feature blew us away with its ability to process images and screenshots, allowing GitHub Copilot to instantly grasp your intentions, without the hassle of going back and forth, tediously describing UI changes.</p>
-<p>For instance, when updating a UI, you can simply paste screenshots of the current and desired states into Copilot. It analyzes the differences, determines the necessary changes, and suggests edits tailored to your goals. Vision bridges the gap between visual inputs and actionable suggestions, empowering developers to handle visually-oriented tasks with ease. It truly makes Copilot feel like a collaborative partner in your workflow.</p>
-<h2>3. Icebreakers: A Launchpad for Productivity</h2>
-<p><img decoding="async" class="alignnone wp-image-251498" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-4.png" alt="Icebreakers, 4 clickable prompts in the Copilot Chat window" width="347" height="431" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-4.png 347w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-4-242x300.png 242w" sizes="(max-width: 347px) 100vw, 347px" /></p>
-<p>We all know that getting started can sometimes feel like the hardest part, but Icebreakers make it so much easier. These curated starter prompts, like “Refactor my code” or “Add a new feature,” inspire action and guide your initial steps when facing common coding challenges. Seeing Scott demo how Icebreakers now support more complex, multi-step workflows was incredible. They seamlessly integrate with Copilot Edits, enabling actionable plans for even the most intricate tasks.</p>
-<p>Whether you&#8217;re navigating an unfamiliar codebase or tackling a large project, Icebreakers reduce cognitive load, giving you a clear starting point and boosting productivity right from the get-go. It was exciting to see how this feature now helps developers take control of complex tasks and move forward with confidence.</p>
-<h2>4. Function Calling: Bridging Gaps in Logic</h2>
-<p><img decoding="async" class="alignnone wp-image-251499" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-5.png" alt="A picture that describes how function calling work -- takes a vague prompt and finds references to fill in the gaps" width="440" height="418" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-5.png 440w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-5-300x285.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-5-24x24.png 24w" sizes="(max-width: 440px) 100vw, 440px" /></p>
-<p>Function Calling, which enhances GitHub Copilot&#8217;s ability to provide precise recommendations by automatically determining the relevant context and tools based on your natural language prompts. Copilot seamlessly integrates the necessary context, saving you time and effort.</p>
-<p>Function Calling streamlines the process by dynamically accessing open files and project structure, eliminating the need to manually specify paths. This makes debugging and integration faster and more efficient. Watching them demo this feature was a highlight, as they showed how quickly developers can go from idea to implementation with Copilot’s context-aware functionality!</p>
-<h2>5. Custom Instructions: Your Copilot, Your Way</h2>
-<p><img decoding="async" class="alignnone wp-image-251500" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-6.png" alt="Picture of copilot-instructions.md file and how it is referenced in a response. " width="1430" height="385" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-6.png 1430w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-6-300x81.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-6-1024x276.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251478-6-768x207.png 768w" sizes="(max-width: 1430px) 100vw, 1430px" /></p>
-<p>Custom Instructions allow Copilot to adapt to your unique team workflow. No two teams are alike, and seeing Jessie demonstrate how you can fine-tune Copilot’s behavior to align with your team’s coding conventions and communication style was truly amazing!</p>
-<p>With Custom Instructions, you can add team-specific practices to your Copilot instructions file, ensuring consistency across your codebase. This feature is a game-changer for teams who want to make their workflow more efficient while ensuring alignment with best practices.</p>
-<h2>Your New Development Sidekick</h2>
-<p>The advancements showcased at Ignite reaffirm GitHub Copilot’s role as a transformative tool for developers. From simplifying multi-file edits to embracing team-specific workflows, these features show how AI can be both powerful and adaptable.</p>
-<p>Try these features in Visual Studio today and see how GitHub Copilot can help you code smarter, faster, and with more confidence.</p>
-<p>Which feature are you most excited to try? Let us know in the comments below!</p>
-<p><div class="d-flex justify-content-left"><a class="cta_button_link btn-primary mb-24" href="https://visualstudio.microsoft.com/downloads/" target="_blank">Download Visual Studio 2022</a></div></p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/top-5-github-copilot-features-in-visual-studio-from-microsoft-ignite-2024/">Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
 ]]></content:encoded>
 					
 		

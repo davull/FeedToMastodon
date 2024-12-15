@@ -4,11 +4,27 @@
 	<title>Howtoforge Linux Howtos und Tutorials</title>
 	<link>https://www.howtoforge.com</link>
 	<description>Howtoforge Tutorials</description>
-	<pubDate>Fri, 22 Nov 2024 18:38:12 +0000</pubDate>
+	<pubDate>Fri, 13 Dec 2024 11:45:21 +0000</pubDate>
 	<webMaster>webmaster@howtoforge.com (Howtoforge Webmaster)</webMaster>
 	<atom:link href="https://www.howtoforge.com/feed.rss" rel="self" type="application/rss+xml" />
 	<generator>howtoforge</generator>
 	<ttl>60</ttl>
+	<item>
+		<title>How to Install pgAdmin 4 PostgreSQL Admin Tool on Ubuntu 24.04</title>
+		<link>https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/</link>
+		<category>apache</category>
+		<description><![CDATA[pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04.]]></description>
+		<pubDate>Fri, 13 Dec 2024 11:45:21 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/</guid>
+	</item>
+	<item>
+		<title>How to Install OpenSearch on Ubuntu 24.04</title>
+		<link>https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[OpenSearch is a community-driven project by Amazon and a fork of Elasticsearch and Kibana. It's a fully open-source search engine and analytics suite with rich features and innovative functionality. This guide will show you how to install OpenSearch and OpenSearch Dashboard on the Ubuntu 24.04 server.]]></description>
+		<pubDate>Fri, 13 Dec 2024 11:33:14 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/</guid>
+	</item>
 	<item>
 		<title>Install WireGuard VPN on Debian 12</title>
 		<link>https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/</link>
@@ -72,22 +88,6 @@
 		<description><![CDATA[Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.]]></description>
 		<pubDate>Thu, 07 Nov 2024 19:48:07 +0000</pubDate>
 		<guid>https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/</guid>
-	</item>
-	<item>
-		<title>How to Install and Use Vuls Vulnerability Scanner on Ubuntu 24.04</title>
-		<link>https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/</link>
-		<category>ubuntu</category>
-		<description><![CDATA[In this guide, we'll show you how to install Vuls Vulnerability Scanner on Ubuntu 24.04 server. You'll be installing Vuls, generating CVE databases, and scanning Ubuntu/Debian via local and remote scans.]]></description>
-		<pubDate>Thu, 07 Nov 2024 19:43:24 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/</guid>
-	</item>
-	<item>
-		<title>How to Install Seafile Self-Hosted Cloud Storage on Debian 12</title>
-		<link>https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/</link>
-		<category>debian</category>
-		<description><![CDATA[Seafile is an open-source file-hosting system written in the Django web framework. This article will guide you through installing Seafile on a Debian 12 server with MariaDB as the database, Nginx as a reverse proxy, and HTTPS through Letsencrypt and UFW (Uncomplicated Firewall) to secure Seafile.]]></description>
-		<pubDate>Tue, 29 Oct 2024 09:51:25 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/</guid>
 	</item>
 </channel>
 </rss>

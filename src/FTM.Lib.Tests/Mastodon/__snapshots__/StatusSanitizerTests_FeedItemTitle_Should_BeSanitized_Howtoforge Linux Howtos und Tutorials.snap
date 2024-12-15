@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/",
+    "raw": "How to Install pgAdmin 4 PostgreSQL Admin Tool on Ubuntu 24.04",
+    "sanitized": "How to Install pgAdmin 4 PostgreSQL Admin Tool on Ubuntu 24.04"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/",
+    "raw": "How to Install OpenSearch on Ubuntu 24.04",
+    "sanitized": "How to Install OpenSearch on Ubuntu 24.04"
+  },
+  {
     "itemId": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/",
     "raw": "Install WireGuard VPN on Debian 12",
     "sanitized": "Install WireGuard VPN on Debian 12"
@@ -38,15 +48,5 @@
     "itemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
     "raw": "How to Install Mattermost on Rocky Linux 9",
     "sanitized": "How to Install Mattermost on Rocky Linux 9"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-ubuntu-24-04/",
-    "raw": "How to Install and Use Vuls Vulnerability Scanner on Ubuntu 24.04",
-    "sanitized": "How to Install and Use Vuls Vulnerability Scanner on Ubuntu 24.04"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-seafile-self-hosted-cloud-storage-on-debian-12/",
-    "raw": "How to Install Seafile Self-Hosted Cloud Storage on Debian 12",
-    "sanitized": "How to Install Seafile Self-Hosted Cloud Storage on Debian 12"
   }
 ]

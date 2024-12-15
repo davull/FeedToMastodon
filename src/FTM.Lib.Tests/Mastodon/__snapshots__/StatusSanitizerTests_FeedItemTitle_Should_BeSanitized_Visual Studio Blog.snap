@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251755",
+    "raw": "Boost your Git confidence with the new file rename notification",
+    "sanitized": "Boost your Git confidence with the new file rename notification"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251750",
+    "raw": "Effortless publishing with Azure Functions Flex Consumption",
+    "sanitized": "Effortless publishing with Azure Functions Flex Consumption"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251739",
+    "raw": "Effortless publishing to Azure WebJobs on Linux",
+    "sanitized": "Effortless publishing to Azure WebJobs on Linux"
+  },
+  {
     "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251728",
     "raw": "Keep working with non-blocking Code Cleanup",
     "sanitized": "Keep working with non-blocking Code Cleanup"
@@ -33,20 +48,5 @@
     "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251578",
     "raw": "Updates for C++ developers in Visual Studio 2022 17.12",
     "sanitized": "Updates for C++ developers in Visual Studio 2022 17.12"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251549",
-    "raw": "Debugger and Diagnostics updates in Visual Studio 17.12",
-    "sanitized": "Debugger and Diagnostics updates in Visual Studio 17.12"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251533",
-    "raw": "Copying error messages just got easier",
-    "sanitized": "Copying error messages just got easier"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251478",
-    "raw": "Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024",
-    "sanitized": "Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024"
   }
 ]

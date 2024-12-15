@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
+    "raw": "In its latest annual developer ecosystem report, JetBrains introduced a new \"Language Promise Index\" topped by Microsoft's TypeScript programming language.",
+    "sanitized": "In its latest annual developer ecosystem report, JetBrains introduced a new \"Language Promise Index\" topped by Microsoft's TypeScript programming language."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/10/penSilver-3-1-Unveils-Drag-and-Drop-XAML-Designer-for-VS-Code.aspx",
+    "raw": "Claiming an industry first, Userware announced a drag-and-drop XAML designer for use in VS Code, coming with OpenSilver 3.1, the latest iteration of the open-source implementation of Microsoft's long-deprecated and oft-mourned rich client development platform, Silverlight.",
+    "sanitized": "Claiming an industry first, Userware announced a drag-and-drop XAML designer for use in VS Code, coming with OpenSilver 3.1, the latest iteration of the open-source implementation of Microsoft's long-deprecated and oft-mourned rich client development platform, Silverlight."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/09/Visual-Studio-Dev-Vexed-by-Copilots-Obtuse-Responsible-AI-Refusal.aspx",
+    "raw": "No matter what, some systems simply won't divulge exactly what in the current conversation caused them to balk, simply pointing to vague policies and generic guidance.",
+    "sanitized": "No matter what, some systems simply won't divulge exactly what in the current conversation caused them to balk, simply pointing to vague policies and generic guidance."
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
     "raw": "\"We want to try to design from Day One, even Day Zero, with reusability in mind,\" says Blazor expert Allen Conway in imparting his expertise to an audience of hundreds in an online tech event on Tuesday.",
     "sanitized": "\"We want to try to design from Day One, even Day Zero, with reusability in mind,\" says Blazor expert Allen Conway in imparting his expertise to an audience of hundreds in an online tech event on Tuesday."
@@ -283,20 +298,5 @@
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
     "raw": "Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension.",
     "sanitized": "Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx",
-    "raw": "Developers who use Google's Gemini Code Assist tool in Microsoft's Visual Studio Code editor were this month informed the tool would be free to use until Nov. 8, 2024, an extension of a previous July 11 deadline.",
-    "sanitized": "Developers who use Google's Gemini Code Assist tool in Microsoft's Visual Studio Code editor were this month informed the tool would be free to use until Nov. 8, 2024, an extension of a previous July 11 deadline."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx",
-    "raw": "In this year's big Stack Overflow developer survey things are much the same for Microsoft-centric data points: VS Code and Visual Studio still rule the IDE roost, while .NET maintains its No. 1 position among non-web frameworks.",
-    "sanitized": "In this year's big Stack Overflow developer survey things are much the same for Microsoft-centric data points: VS Code and Visual Studio still rule the IDE roost, while .NET maintains its No. 1 position among non-web frameworks."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
-    "raw": "Microsoft's first significant update to .NET Aspire for cloud-native app development addresses the building of container images and the orchestration of Python code among a bevy of new features and enhancements.",
-    "sanitized": "Microsoft's first significant update to .NET Aspire for cloud-native app development addresses the building of container images and the orchestration of Python code among a bevy of new features and enhancements."
   }
 ]

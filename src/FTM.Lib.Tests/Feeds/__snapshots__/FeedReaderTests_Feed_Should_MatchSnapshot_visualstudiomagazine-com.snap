@@ -2,10 +2,40 @@
   "Id": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Website": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Title": "News",
-  "LastUpdatedTime": "2024-12-04T21:33:00+00:00",
+  "LastUpdatedTime": "2024-12-11T17:25:00+00:00",
   "Description": "",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
+      "Title": "TypeScript Tops New JetBrains 'Language Promise Index'",
+      "PublishDate": "2024-12-11T17:25:00+00:00",
+      "Summary": "In its latest annual developer ecosystem report, JetBrains introduced a new \"Language Promise Index\" topped by Microsoft's TypeScript programming language.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx"
+    },
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/10/penSilver-3-1-Unveils-Drag-and-Drop-XAML-Designer-for-VS-Code.aspx",
+      "Title": "OpenSilver 3.1 Unveils Drag-and-Drop XAML Designer for VS Code",
+      "PublishDate": "2024-12-10T22:40:00+00:00",
+      "Summary": "Claiming an industry first, Userware announced a drag-and-drop XAML designer for use in VS Code, coming with OpenSilver 3.1, the latest iteration of the open-source implementation of Microsoft's long-deprecated and oft-mourned rich client development platform, Silverlight.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/10/penSilver-3-1-Unveils-Drag-and-Drop-XAML-Designer-for-VS-Code.aspx"
+    },
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/09/Visual-Studio-Dev-Vexed-by-Copilots-Obtuse-Responsible-AI-Refusal.aspx",
+      "Title": "Visual Studio Dev Vexed by Copilot's Obtuse 'Responsible AI' Refusal",
+      "PublishDate": "2024-12-09T21:56:00+00:00",
+      "Summary": "No matter what, some systems simply won't divulge exactly what in the current conversation caused them to balk, simply pointing to vague policies and generic guidance.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/09/Visual-Studio-Dev-Vexed-by-Copilots-Obtuse-Responsible-AI-Refusal.aspx"
+    },
     {
       "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
       "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
@@ -575,36 +605,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx",
-      "Title": "Google Extends Free Use of VS Code AI Assistant Until Nov. 8",
-      "PublishDate": "2024-07-29T18:17:00+00:00",
-      "Summary": "Developers who use Google's Gemini Code Assist tool in Microsoft's Visual Studio Code editor were this month informed the tool would be free to use until Nov. 8, 2024, an extension of a previous July 11 deadline.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx",
-      "Title": "Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine",
-      "PublishDate": "2024-07-26T19:34:00+00:00",
-      "Summary": "In this year's big Stack Overflow developer survey things are much the same for Microsoft-centric data points: VS Code and Visual Studio still rule the IDE roost, while .NET maintains its No. 1 position among non-web frameworks.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
-      "Title": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python",
-      "PublishDate": "2024-07-25T17:54:00+00:00",
-      "Summary": "Microsoft's first significant update to .NET Aspire for cloud-native app development addresses the building of container images and the orchestration of Python code among a bevy of new features and enhancements.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx"
     }
   ]
 }

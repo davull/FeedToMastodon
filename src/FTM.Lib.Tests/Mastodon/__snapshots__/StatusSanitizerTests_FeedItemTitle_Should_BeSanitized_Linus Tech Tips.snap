@@ -1,13 +1,33 @@
 ﻿[
   {
+    "itemId": "yt:video:A8t0b0auTDs",
+    "raw": "Intel Value King - WAN Show December 13, 2024",
+    "sanitized": "Intel Value King - WAN Show December 13, 2024"
+  },
+  {
+    "itemId": "yt:video:dboPZUcTAW4",
+    "raw": "THE ARC B580 IS ACTUALLY GREAT & AFFORDABLE",
+    "sanitized": "THE ARC B580 IS ACTUALLY GREAT & AFFORDABLE"
+  },
+  {
+    "itemId": "yt:video:X07t7403Q9Q",
+    "raw": "Upgrading my Big Brother’s Setup - AMD $5000 Ultimate Tech Upgrade",
+    "sanitized": "Upgrading my Big Brother’s Setup - AMD $5000 Ultimate Tech Upgrade"
+  },
+  {
+    "itemId": "yt:video:0208nuGPmZw",
+    "raw": "I Rented an AirBnB to Look for Hidden Cameras",
+    "sanitized": "I Rented an AirBnB to Look for Hidden Cameras"
+  },
+  {
     "itemId": "yt:video:71jBX5N3wcM",
     "raw": "Finally a Mac for This Economy - Mac Mini M4",
     "sanitized": "Finally a Mac for This Economy - Mac Mini M4"
   },
   {
     "itemId": "yt:video:jnsVGAgHEM8",
-    "raw": "I was SURE these were a scam",
-    "sanitized": "I was SURE these were a scam"
+    "raw": "Don't fall for this Power Saving Scam!",
+    "sanitized": "Don't fall for this Power Saving Scam!"
   },
   {
     "itemId": "yt:video:Os0Yo4g-Ezw",
@@ -53,25 +73,5 @@
     "itemId": "yt:video:bNVOBNPGVCo",
     "raw": "Look At Me I'm The Sponsor Now - WAN Show November 29, 2024",
     "sanitized": "Look At Me I'm The Sponsor Now - WAN Show November 29, 2024"
-  },
-  {
-    "itemId": "yt:video:oQLUZ78LlCE",
-    "raw": "Turning 100,000 Screwdriver Shafts into Pens",
-    "sanitized": "Turning 100,000 Screwdriver Shafts into Pens"
-  },
-  {
-    "itemId": "yt:video:ESyiQ0tfqFQ",
-    "raw": "dbrand left me Unsupervised in their Factory",
-    "sanitized": "dbrand left me Unsupervised in their Factory"
-  },
-  {
-    "itemId": "yt:video:RqQ8SQqjlGk",
-    "raw": "The PERFECT PC at Every Price",
-    "sanitized": "The PERFECT PC at Every Price"
-  },
-  {
-    "itemId": "yt:video:vIJgc-5bOkw",
-    "raw": "I'm Scared of my viewer's MESS - The Setup Doctor",
-    "sanitized": "I'm Scared of my viewer's MESS - The Setup Doctor"
   }
 ]

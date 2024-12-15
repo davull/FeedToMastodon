@@ -2,279 +2,279 @@
   "Id": "https://orf.at/",
   "Website": "https://orf.at/",
   "Title": "news.ORF.at",
-  "LastUpdatedTime": "2024-12-09T21:16:23+01:00",
+  "LastUpdatedTime": "2024-12-15T09:13:28+01:00",
   "Description": "Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.",
   "Language": "de",
   "Items": [
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378400/",
-      "Title": "Ruf nach Verbindlichkeit in der Politik",
-      "PublishDate": "2024-12-09T21:16:23+01:00",
-      "Summary": "Ein Bündnis von Fachleuten tritt für einen gesetzlich verankerten Gleichstellungsrat – ähnlich dem Fiskalrat – ein. Österreich sei von einer ausgewogenen ökonomischen, sozialen und politischen Teilhabe von Frauen und Männern noch weit entfernt. Dem soll der Rat durch regelmäßige Analyse der staatlichen Maßnahmen entgegenwirken. Die kommende Regierung habe „eine große Chance, hier einen historischen Schritt zu machen“.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378400/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378445/",
-      "Title": "US-Polizei nimmt Verdächtigen fest",
-      "PublishDate": "2024-12-09T20:07:16+01:00",
-      "Summary": "Fünf Tage nach den tödlichen Schüssen auf den Versicherungsmanager Brian Thompson in New York hat die Polizei eine verdächtige Person in Gewahrsam. Der 26-jährige Mann wurde rund 370 Kilometer westlich von New York im Bundesstaat Pennsylvania verhaftet. Der entscheidende Hinweis kam von einem McDonalds-Mitarbeiter.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378445/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378446/",
-      "Title": "Oppositionsführer gewinnt Präsidentschaftswahl in Ghana",
-      "PublishDate": "2024-12-09T20:06:08+01:00",
+      "ItemId": "https://orf.at/stories/3379013/",
+      "Title": "Trump macht Ex-Botschafter Grenell zum Sondergesandten",
+      "PublishDate": "2024-12-15T09:13:28+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378446/"
+      "Link": "https://orf.at/stories/3379013/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378444/",
-      "Title": "Extremismusforscher Neumann zu Gast",
-      "PublishDate": "2024-12-09T19:35:16+01:00",
+      "ItemId": "https://orf.at/stories/3379011/",
+      "Title": "Stromausfälle durch Tornado in San Francisco",
+      "PublishDate": "2024-12-15T07:59:10+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378444/"
+      "Link": "https://orf.at/stories/3379011/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378405/",
-      "Title": "Islamisten wollen rasch Regierung bilden",
-      "PublishDate": "2024-12-09T19:35:03+01:00",
-      "Summary": "Nach dem Sturz von Machthaber Baschar al-Assad wollen die Aufständischen in Syrien nach eigenen Angaben rasch eine neue Regierung bilden. Das teilte die islamistische Gruppe Haiat Tahrir al-Scham (HTS) am Montag mit. Die Gruppe wird von den USA, der EU und der Türkei als Terrororganisation eingestuft. International wird nach einem Umgang mit den Islamisten gesucht.",
+      "ItemId": "https://orf.at/stories/3378655/",
+      "Title": "Friedensgipfel zu rohstoffreicher Region",
+      "PublishDate": "2024-12-15T07:48:50+01:00",
+      "Summary": "Die UNO-Migrationsorganisation IOM spricht von einem der „kompliziertesten und vielschichtigsten Konflikte“, der bereits Millionen Menschen zur Flucht gezwungen hat: der bewaffnete Konflikt im rohstoffreichen Nordosten der Demokratischen Republik (DR) Kongo. Am Sonntag versucht der Nachbar Angola, einen noch sehr wackeligen Friedensprozess auf einem Gipfel mit den Präsidenten der DR Kongo und Ruandas, Felix Tshisekedi und Paul Kagame, voranzutreiben. Wegen des Rohstoffreichtums hat der Dauerkonflikt längst eine internationale Bedeutung.",
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378405/"
+      "Link": "https://orf.at/stories/3378655/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378440/",
-      "Title": "Fachleute kritisieren geringe Impfrate in Österreich",
-      "PublishDate": "2024-12-09T18:44:29+01:00",
+      "ItemId": "https://orf.at/stories/3379001/",
+      "Title": "Appelle zu friedlichem Machtwechsel",
+      "PublishDate": "2024-12-15T00:00:24+01:00",
+      "Summary": "Nach dem Sturz des syrischen Machthabers Baschar al-Assad haben Außenminister arabischer Staaten sowie internationale Vertreter und Vertreterinnen auf einem Krisengipfel in Jordanien über Syriens Zukunft beraten. Eine neue Regierung, so der Tenor der Appelle, müsse nun vor allem einen friedlichen Machtwechsel garantieren.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3379001/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3379006/",
+      "Title": "NGO: Fast 130 Menschen im Mittelmeer gerettet",
+      "PublishDate": "2024-12-14T23:51:14+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378440/"
+      "Link": "https://orf.at/stories/3379006/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378437/",
-      "Title": "Österreich gibt Schengen-Veto auf",
-      "PublishDate": "2024-12-09T18:04:33+01:00",
-      "Summary": "Dem vollständigen Beitritt von Rumänien und Bulgarien zum Schengen-Raum dürfte nichts mehr im Wege stehen. Montagabend teilte das Innenministerium mit, man werde sich „nicht querlegen“. Innenminister Gerhard Karner (ÖVP) wird damit am Donnerstag beim EU-Innenministerrat in Brüssel dem Vollbeitritt zum Schengen-Abkommen von Bulgarien und Rumänien zustimmen.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378437/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378436/",
-      "Title": "Leistungsvereinbarungen für Unis fixiert",
-      "PublishDate": "2024-12-09T18:00:49+01:00",
+      "ItemId": "https://orf.at/stories/3379004/",
+      "Title": "Umstrittene Präsidentenwahl: Großdemo in Georgien",
+      "PublishDate": "2024-12-14T23:16:20+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378436/"
+      "Link": "https://orf.at/stories/3379004/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378434/",
-      "Title": "Google kündigt Leistungssprung bei Quantencomputer an",
-      "PublishDate": "2024-12-09T17:24:07+01:00",
+      "ItemId": "https://orf.at/stories/3379002/",
+      "Title": "Rechtsstreit beigelegt: US-Sender zahlt Trump Millionen",
+      "PublishDate": "2024-12-14T23:05:42+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378434/"
+      "Link": "https://orf.at/stories/3379002/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378404/",
-      "Title": "Österreich setzt Asylverfahren für Syrer aus",
-      "PublishDate": "2024-12-09T17:02:52+01:00",
-      "Summary": "Einen Tag nach dem Sturz des Regimes in Syrien und trotz der unklaren Sicherheitslage hat Bundeskanzler Karl Nehammer am Montag Innenminister Gerhard Karner (beide ÖVP) beauftragt, alle laufenden syrischen Asylverfahren auszusetzen bzw. alle Asylgewährungen zu überprüfen. Auch Deutschland setzte Asylentscheidungen aus. Die EU-Kommission sieht derzeit die Bedingungen für eine sichere Rückkehr nicht gegeben.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378404/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378432/",
-      "Title": "TikTok beantragt Aufschub für drohendes US-Verbot",
-      "PublishDate": "2024-12-09T17:02:29+01:00",
+      "ItemId": "https://orf.at/stories/3379000/",
+      "Title": "Selenskyj: Viele Nordkoreaner bei russischen Angriffen dabei",
+      "PublishDate": "2024-12-14T22:05:58+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378432/"
+      "Link": "https://orf.at/stories/3379000/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378430/",
-      "Title": "Handysicherstellung: Ausschussmehrheit für Neuregelung",
-      "PublishDate": "2024-12-09T16:40:28+01:00",
+      "ItemId": "https://orf.at/stories/3378963/",
+      "Title": "Italien setzt im Verkehr auf saftige Strafen",
+      "PublishDate": "2024-12-14T22:00:36+01:00",
+      "Summary": "Wer sich im italienischen Straßenverkehr nicht an die Regeln hält, muss von nun an mit deutlich höheren Strafen rechnen. Seit Samstag gilt der neue Bußgeldkatalog. Erste Strafen wurden bereits verhängt. Dazu kommen noch verschärfte Regeln, etwa für das Fahren mit E-Scootern. Die Neuerungen sollen laut Regierung vor allem helfen, die Zahl der Verkehrstoten zu reduzieren.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3378963/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3378998/",
+      "Title": "Konzert ohne Kopftuch: Iranische Sängerin verhaftet",
+      "PublishDate": "2024-12-14T21:13:21+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378430/"
+      "Link": "https://orf.at/stories/3378998/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378379/",
-      "Title": "Wiener „Swifties“ hoffen auf neue Chance",
-      "PublishDate": "2024-12-09T16:37:03+01:00",
-      "Summary": "Mit einer Show vor rund 60.000 begeisterten Fans hat Superstar Taylor Swift ihre monumentale „The Eras Tour“ in Kanada beendet. Bei ihrem Auftritt am Sonntag (Ortszeit) im BC Place Stadium in Vancouver bedankte sich die 34-Jährige für die Leidenschaft und Treue ihrer Fans. Obwohl der Popstar aufgrund einer Terrorwarnung im August nicht in Wien aufgetreten war, stimmte das Ende der Tour die heimischen „Swifties“ nostalgisch – und sie hoffen auf eine neue Chance.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378379/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378428/",
-      "Title": "Verheerende Waldbrandsaison im Amazonas-Gebiet",
-      "PublishDate": "2024-12-09T16:24:07+01:00",
+      "ItemId": "https://orf.at/stories/3378996/",
+      "Title": "Russischer Ex-Präsident deutet weitere Annexionen an",
+      "PublishDate": "2024-12-14T20:51:19+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378428/"
+      "Link": "https://orf.at/stories/3378996/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378423/",
-      "Title": "China geht gegen Chiphersteller Nvidia vor",
-      "PublishDate": "2024-12-09T16:02:30+01:00",
+      "ItemId": "https://orf.at/stories/3378991/",
+      "Title": "Gründer von Modekette Mango tödlich verunglückt",
+      "PublishDate": "2024-12-14T18:40:51+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378423/"
+      "Link": "https://orf.at/stories/3378991/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378422/",
-      "Title": "Explosion in Ölraffinerie bei Florenz: Zwei Tote",
-      "PublishDate": "2024-12-09T15:55:07+01:00",
+      "ItemId": "https://orf.at/stories/3378981/",
+      "Title": "UNO-Konferenz mit dürrem Ergebnis",
+      "PublishDate": "2024-12-14T18:30:38+01:00",
+      "Summary": "Die UNO-Konferenz zur Wüstenbildung (COP16) in Saudi-Arabien ist am Samstag mit einem dürren Ergebnis zu Ende gegangen. Zwar sprach der Vorsitz von einem „Wendepunkt“, doch eine verpflichtende Übereinkunft dazu, wie Wüstenbildung bekämpft und Böden wieder fruchtbar gemacht werden können, gab es nicht.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3378981/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3378988/",
+      "Title": "Tausende behinderten rechtsextremen Aufmarsch in Berlin",
+      "PublishDate": "2024-12-14T17:34:19+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378422/"
+      "Link": "https://orf.at/stories/3378988/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378415/",
-      "Title": "Golden Globes: „Emilia Perez“ führt mit zehn Nominierungen",
-      "PublishDate": "2024-12-09T15:14:06+01:00",
+      "ItemId": "https://orf.at/stories/3378986/",
+      "Title": "USA laut Blinken in direktem Kontakt mit HTS in Syrien",
+      "PublishDate": "2024-12-14T17:30:24+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378415/"
+      "Link": "https://orf.at/stories/3378986/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378414/",
-      "Title": "Schweden: Mädchen wegen Mordes an 14-Jähriger angeklagt",
-      "PublishDate": "2024-12-09T14:53:52+01:00",
+      "ItemId": "https://orf.at/stories/3378985/",
+      "Title": "US-iranischer Reporter im Iran zu zehn Jahren Haft verurteilt",
+      "PublishDate": "2024-12-14T17:10:19+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378414/"
+      "Link": "https://orf.at/stories/3378985/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378412/",
-      "Title": "Scholz schlägt europäischen Stahlgipfel vor",
-      "PublishDate": "2024-12-09T14:39:02+01:00",
+      "ItemId": "https://orf.at/stories/3378984/",
+      "Title": "Tote bei israelischen Angriffen in Gaza",
+      "PublishDate": "2024-12-14T17:01:58+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378412/"
+      "Link": "https://orf.at/stories/3378984/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378410/",
-      "Title": "Russischer Vormarsch beschleunigt sich",
-      "PublishDate": "2024-12-09T14:17:28+01:00",
+      "ItemId": "https://orf.at/stories/3378982/",
+      "Title": "Ukraine und Russland melden Tote nach Angriffen",
+      "PublishDate": "2024-12-14T16:38:45+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378410/"
+      "Link": "https://orf.at/stories/3378982/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378408/",
-      "Title": "WKO will ministerielle Zuständigkeit für Bürokratieabbau",
-      "PublishDate": "2024-12-09T14:13:42+01:00",
+      "ItemId": "https://orf.at/stories/3378980/",
+      "Title": "Arabische Staaten fordern friedlichen Übergang in Syrien",
+      "PublishDate": "2024-12-14T16:25:20+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378408/"
+      "Link": "https://orf.at/stories/3378980/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378386/",
-      "Title": "Syriens 54 Jahre unter Assad",
-      "PublishDate": "2024-12-09T13:57:12+01:00",
-      "Summary": "Nach dem Einmarsch einer von Islamisten angeführten Rebellenallianz in Damaskus und der offenbar unmittelbar zuvor erfolgten Flucht von Baschar al-Assad ist vielfach von einer Zeitenwende in Syrien die Rede. Wie es weitergeht, bleibt offen –  beendet ist aber eine wohl beispiellose Gewaltherrschaft, die am 16. November 1970, vor 54 Jahren, mit dem Putsch von Assads Vater Hafis al-Assad ihren Anfang nahm.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3378386/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378403/",
-      "Title": "Parteispitzen informierten Van der Bellen über Gespräche",
-      "PublishDate": "2024-12-09T13:48:12+01:00",
+      "ItemId": "https://orf.at/stories/3378977/",
+      "Title": "Deal soll Ozempic drei weitere Abfüllanlagen bringen",
+      "PublishDate": "2024-12-14T15:52:33+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378403/"
+      "Link": "https://orf.at/stories/3378977/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378401/",
-      "Title": "Bericht: China fährt nahe Taiwan Dutzende Kriegsschiffe auf",
-      "PublishDate": "2024-12-09T13:37:15+01:00",
+      "ItemId": "https://orf.at/stories/3378975/",
+      "Title": "Brasiliens Ex-Verteidigungsminister verhaftet",
+      "PublishDate": "2024-12-14T15:47:33+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378401/"
+      "Link": "https://orf.at/stories/3378975/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378378/",
-      "Title": "Assads Sturz bringt Putin unter Druck",
-      "PublishDate": "2024-12-09T13:33:58+01:00",
-      "Summary": "Der Sturz von Syriens Machthaber Baschar al-Assad wirkt sich auch auf seinen größten Unterstützer Russland aus. Präsident Wladimir Putin platzierte sich mit dem Einsatz in Syrien über ein Jahrzehnt als wesentliche Macht im Nahen Osten. Doch Moskau konnte den Fall Assads nicht stoppen. Das wird nicht nur an Putins Einfluss in der Region, sondern auch an seiner Glaubwürdigkeit rütteln, so Fachleute.",
+      "ItemId": "https://orf.at/stories/3378933/",
+      "Title": "Ermittlung nach mysteriösen Drohnenflügen",
+      "PublishDate": "2024-12-14T15:23:23+01:00",
+      "Summary": "Mysteriöse Drohnenflüge über dem Großraum New York sorgen in den USA bereits seit Tagen für Schlagzeilen. Am Freitag teilte die New Yorker Gouverneurin Kathy Hochul mit, dass es in der Causa gemeinsame Ermittlungen mit den Strafverfolgungsbehörden des Bundes gebe. Derzeit habe man aber keine Hinweise darauf, dass die Drohnen eine „Bedrohung für die öffentliche oder nationale Sicherheit darstellen“. Unterdessen schaltete sich am Samstag auch der designierte US-Präsident Donald Trump ein und forderte im Zweifel einen Abschuss.",
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378378/"
+      "Link": "https://orf.at/stories/3378933/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378396/",
-      "Title": "Selenskyj fordert von Merz Taurus-Raketen",
-      "PublishDate": "2024-12-09T12:57:41+01:00",
+      "ItemId": "https://orf.at/stories/3378971/",
+      "Title": "Tote bei Unglück mit Flüchtlingsboot vor Kreta",
+      "PublishDate": "2024-12-14T15:20:07+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378396/"
+      "Link": "https://orf.at/stories/3378971/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3378395/",
-      "Title": "Autobombe tötet Gefängnisdirektor in Donezk",
-      "PublishDate": "2024-12-09T12:46:31+01:00",
+      "ItemId": "https://orf.at/stories/3378970/",
+      "Title": "Scholz zum Spitzenkandidaten gewählt",
+      "PublishDate": "2024-12-14T15:15:00+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3378395/"
+      "Link": "https://orf.at/stories/3378970/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3378969/",
+      "Title": "Privatanklage von Sellner: Gericht will Auslieferung Voglauers",
+      "PublishDate": "2024-12-14T15:05:40+01:00",
+      "Summary": null,
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3378969/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3378965/",
+      "Title": "Konferenz zu Wüstenbildung endet ohne Abkommen zu Dürre",
+      "PublishDate": "2024-12-14T14:11:39+01:00",
+      "Summary": null,
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3378965/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3378962/",
+      "Title": "Studie: Mafia in Italien mit 40 Milliarden Umsatz",
+      "PublishDate": "2024-12-14T13:25:41+01:00",
+      "Summary": null,
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3378962/"
     }
   ]
 }

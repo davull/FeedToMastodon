@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://www.silicon.de/?p=41717316",
+    "raw": "Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert",
+    "sanitized": "Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717306",
+    "raw": "Sicherheitslücken drohen im gesamten Gerätelebenszyklus",
+    "sanitized": "Sicherheitslücken drohen im gesamten Gerätelebenszyklus"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717302",
+    "raw": "Die zehn größten Datenpannen 2024",
+    "sanitized": "Die zehn größten Datenpannen 2024"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717252",
+    "raw": "ISG sieht KI-getriebenen Wandel im Microsoft-Ökosystem",
+    "sanitized": "ISG sieht KI-getriebenen Wandel im Microsoft-Ökosystem"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717261",
+    "raw": "Hey Lou Hotels nutzt KI-Agenten von Salesforce",
+    "sanitized": "Hey Lou Hotels nutzt KI-Agenten von Salesforce"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717247",
+    "raw": "“Daten nicht nur sammeln, sondern Mitarbeitern zugänglich machen”",
+    "sanitized": "“Daten nicht nur sammeln, sondern Mitarbeitern zugänglich machen”"
+  },
+  {
     "itemId": "https://www.silicon.de/?p=41717228",
     "raw": "Zimperium: „Mishing“-Bedrohungen nehmen deutlich zu",
     "sanitized": "Zimperium: „Mishing“-Bedrohungen nehmen deutlich zu"
@@ -218,35 +248,5 @@
     "itemId": "https://www.silicon.de/?p=41716805",
     "raw": "Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte",
     "sanitized": "Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716786",
-    "raw": "Blockaden und Risiken bei APM-Projekten vermeiden",
-    "sanitized": "Blockaden und Risiken bei APM-Projekten vermeiden"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41717041",
-    "raw": "Schnell, sicher, smart: Was heutige Router wirklich leisten",
-    "sanitized": "Schnell, sicher, smart: Was heutige Router wirklich leisten"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716768",
-    "raw": "BSI-Bericht: Sicherheitslage im Cyberraum bleibt angespannt",
-    "sanitized": "BSI-Bericht: Sicherheitslage im Cyberraum bleibt angespannt"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716753",
-    "raw": "KI-Hype in der Cybersicherheit – oder besser doch nicht?",
-    "sanitized": "KI-Hype in der Cybersicherheit – oder besser doch nicht?"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716735",
-    "raw": "Netzwerksegementierung schützt vor Angriffen über die OT",
-    "sanitized": "Netzwerksegementierung schützt vor Angriffen über die OT"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716722",
-    "raw": "KI-Bluff bei AIOps erkennen",
-    "sanitized": "KI-Bluff bei AIOps erkennen"
   }
 ]

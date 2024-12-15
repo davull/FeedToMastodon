@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20241215_d49a6aaf.mp3",
+    "raw": "Kaiserliches Beziehungsdrama: Napoleon lässt sich scheiden",
+    "sanitized": "Kaiserliches Beziehungsdrama: Napoleon lässt sich scheiden"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241214_935aedcc.mp3",
+    "raw": "\"It's yours!\": USA geben Panama den Kanal zurück",
+    "sanitized": "\"It's yours!\": USA geben Panama den Kanal zurück"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241213_a27869a7.mp3",
+    "raw": "Herstatt: Deutschlands erste große Bankenpleite",
+    "sanitized": "Herstatt: Deutschlands erste große Bankenpleite"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241212_0d044e87.mp3",
+    "raw": "NATO-Doppelbeschluss: Frieden schaffen mit noch mehr Waffen",
+    "sanitized": "NATO-Doppelbeschluss: Frieden schaffen mit noch mehr Waffen"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241211_260165f6.mp3",
+    "raw": "Größter Kulturraub Dänemarks: Bücherdiebstahl von Kopenhagen",
+    "sanitized": "Größter Kulturraub Dänemarks: Bücherdiebstahl von Kopenhagen"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241210_641f3990.mp3",
+    "raw": "Max Born und die Quantenmechanik: Motor der modernen Welt",
+    "sanitized": "Max Born und die Quantenmechanik: Motor der modernen Welt"
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20241209_9fc3fbe6.mp3",
     "raw": "Hape Kerkeling wird 60 (Geburtstag am 9.12.1964)",
     "sanitized": "Hape Kerkeling wird 60 (Geburtstag am 9.12.1964)"
@@ -1685,6 +1715,11 @@
     "sanitized": "\"Die Wunder der Welt\": Der venezianische Reisende Marco Polo"
   },
   {
+    "itemId": "/wdr_zeitzeichen_20240108_d818d5ea.mp3",
+    "raw": "Boudicca: Wie die keltische Rebellin London niederbrannte",
+    "sanitized": "Boudicca: Wie die keltische Rebellin London niederbrannte"
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20240107_32d21a65.mp3",
     "raw": "Inflationsheiliger und Kohlrabiapostel: Friedrich Muck-Lamberty",
     "sanitized": "Inflationsheiliger und Kohlrabiapostel: Friedrich Muck-Lamberty"
@@ -2963,40 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230428_3b750376.mp3",
     "raw": "Zucker ohne Sklavenarbeit: der Visionär Franz Carl Achard",
     "sanitized": "Zucker ohne Sklavenarbeit: der Visionär Franz Carl Achard"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230427_3675047c.mp3",
-    "raw": "Dorothee Sölle, ev. Theologin (Todestag, 27.04.2003)",
-    "sanitized": "Dorothee Sölle, ev. Theologin (Todestag, 27.04.2003)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230426_acc607e6.mp3",
-    "raw": "Warhol-Attentäterin, radikale Feministin: Valerie Solanas",
-    "sanitized": "Warhol-Attentäterin, radikale Feministin: Valerie Solanas"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230425_6486765f.mp3",
-    "raw": "\"Stern\" gibt VÖ der \"Hitlertagebücher\" bekannt (am 25.04.1983)",
-    "sanitized": "\"Stern\" gibt VÖ der \"Hitlertagebücher\" bekannt (am 25.04.1983)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230424_5c824185.mp3",
-    "raw": "Im deutschen Ort Wietze: Die erste erfolgreiche Erdölbohrung",
-    "sanitized": "Im deutschen Ort Wietze: Die erste erfolgreiche Erdölbohrung"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230423_8d7f8f4a.mp3",
-    "raw": "Komponistin und Kämpferin: Ethel Smyth (Geburtstag, 23.04.1858)",
-    "sanitized": "Komponistin und Kämpferin: Ethel Smyth (Geburtstag, 23.04.1858)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230422_ca7aa81b.mp3",
-    "raw": "Bettie Page, Pin-up-Girl und Empowerment-Ikone (Geburtstag, 22.4.1923)",
-    "sanitized": "Bettie Page, Pin-up-Girl und Empowerment-Ikone (Geburtstag, 22.4.1923)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230421_12757266.mp3",
-    "raw": "Tote wegen teurem Bier (am 21.04.1873)",
-    "sanitized": "Tote wegen teurem Bier (am 21.04.1873)"
   }
 ]

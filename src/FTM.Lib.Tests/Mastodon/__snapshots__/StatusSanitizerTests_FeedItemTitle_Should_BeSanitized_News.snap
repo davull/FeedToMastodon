@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
+    "raw": "TypeScript Tops New JetBrains 'Language Promise Index'",
+    "sanitized": "TypeScript Tops New JetBrains 'Language Promise Index'"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/10/penSilver-3-1-Unveils-Drag-and-Drop-XAML-Designer-for-VS-Code.aspx",
+    "raw": "OpenSilver 3.1 Unveils Drag-and-Drop XAML Designer for VS Code",
+    "sanitized": "OpenSilver 3.1 Unveils Drag-and-Drop XAML Designer for VS Code"
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/09/Visual-Studio-Dev-Vexed-by-Copilots-Obtuse-Responsible-AI-Refusal.aspx",
+    "raw": "Visual Studio Dev Vexed by Copilot's Obtuse 'Responsible AI' Refusal",
+    "sanitized": "Visual Studio Dev Vexed by Copilot's Obtuse 'Responsible AI' Refusal"
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/04/On-Blazor-Component-Reusability--From-Day-0.aspx",
     "raw": "On Blazor Component Reusability - From Day 0",
     "sanitized": "On Blazor Component Reusability - From Day 0"
@@ -283,20 +298,5 @@
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
     "raw": "Microsoft Previews AI Prompt Playground for VS Code: Prompty",
     "sanitized": "Microsoft Previews AI Prompt Playground for VS Code: Prompty"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/29/gemini-code-assist.aspx",
-    "raw": "Google Extends Free Use of VS Code AI Assistant Until Nov. 8",
-    "sanitized": "Google Extends Free Use of VS Code AI Assistant Until Nov. 8"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/26/so-dev-survey.aspx",
-    "raw": "Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine",
-    "sanitized": "Stack Overflow Dev Survey: VS Code, Visual Studio and .NET Shine"
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/25/net-aspire-8-1.aspx",
-    "raw": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python",
-    "sanitized": "Cloud-Native .NET Aspire 8.1 Targets Building Containers, Orchestrating Python"
   }
 ]

@@ -30,7 +30,6 @@
 	<item>
 		<title>December maintenance updates for Nextcloud Hub 7, 8 and 9</title>
 		<link>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/</link>
-					<comments>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/#respond</comments>
 		
 		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
 		<pubDate>Mon, 09 Dec 2024 04:39:58 +0000</pubDate>
@@ -192,8 +191,6 @@
 <p>The post <a href="https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/">December maintenance updates for Nextcloud Hub 7, 8 and 9</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
@@ -733,7 +730,7 @@
 
 
 
-<p>With Nextcloud Talk, we empower companies and public institutions to work securely and productively – regardless of their location or infrastructure. The platform is ideal for on-premises installations or hosting by local cloud providers, giving companies and organizations full control over their data.</p>
+<p>With Nextcloud Talk, we empower companies and public institutions to work securely and productively – regardless of their location or infrastructure. The platform is ideal for on premise installations or hosting by local cloud providers, giving companies and organizations full control over their data.</p>
 
 
 
@@ -949,7 +946,7 @@
 
 
 
-<p>Stable Diffusion is open-source model licensed under CreativeML Open RAIL-M License. Users have full access to the model and its code, can modify and redistribute it, given that it’s an on-premises version. In Nextcloud, self-hosted Stable Diffusion can be used via LocalAI. We give it a Yellow rating, as the training data is not freely available in this case.</p>
+<p>Stable Diffusion is open-source model licensed under CreativeML Open RAIL-M License. Users have full access to the model and its code, can modify and redistribute it, given that it’s an on premise version. In Nextcloud, self-hosted Stable Diffusion can be used via LocalAI. We give it a Yellow rating, as the training data is not freely available in this case.</p>
 </div></div>
 
 
@@ -969,7 +966,7 @@
 
 
 
-<p>Llama 2 is a free LLM by Meta that can be run on-premises, and the software for training and inference of this model is open source. However, the training data is not freely available. It is offered under Llama 2 Community License.</p>
+<p>Llama 2 is a free LLM by Meta that can be run on premise, and the software for training and inference of this model is open source. However, the training data is not freely available. It is offered under Llama 2 Community License.</p>
 </div></div>
 
 
