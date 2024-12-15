@@ -108,49 +108,33 @@ public static class FeedTestsProvider
 
     public static IEnumerable<TestCaseData> FeedItemsTestCases()
     {
-        const string separator = "";
-
-        return from feed in TestFeeds()
+        return from tuple in TestFeedsWithSeparators()
+            let feed = tuple.feed
+            let separator = tuple.separator
             from item in feed.Items
-            select new TestCaseData(item, separator)
-                .SetName(GetTestName(feed, item));
+            let testName = GetTestName(feed, item)
+            select new TestCaseData(item, separator).SetName(testName);
     }
 
     public static IEnumerable<TestCaseData> LessFeedItemsTestCases()
     {
-        const string separator = "";
-
-        return from feed in TestFeeds()
+        return from tuple in TestFeedsWithSeparators()
+            let feed = tuple.feed
+            let separator = tuple.separator
             from item in feed.Items.Take(5)
-            select new TestCaseData(item, separator)
-                .SetName(GetTestName(feed, item));
+            let testName = GetTestName(feed, item)
+            select new TestCaseData(item, separator).SetName(testName);
     }
 
     public static IEnumerable<TestCaseData> FeedItemsWithSeparatorTestCases()
     {
-        var directory = Path.Combine(PathHelper.GetCurrentFileDirectory(), "TestFeeds");
-    
-        var data = new List<(string file, string separator)>
-        {
-            ("stadt-bremerhaven.de.xml", "...Zum Beitrag"),
-            ("stonewars.de.xml", "[...]"),
-            ("teslarati.com.xml", "[…]"),
-            ("Nextmove.de.xml", "[…]"),
-            ("elektroauto-news.net.xml", "\nDer Beitrag "),
-            ("driveteslacanada.ca.xml", "[…]")
-        };
-    
-        foreach (var (file, separator) in data)
-        {
-            var filePath = Path.Combine(directory, file);
-            var feed = FeedReader.Read(File.ReadAllText(filePath));
-    
-            foreach (var item in feed.Items)
-            {
-                yield return new TestCaseData(item, separator)
-                    .SetName(GetTestName(feed, item));
-            }
-        }
+        return from tuple in TestFeedsWithSeparators()
+            let feed = tuple.feed
+            let separator = tuple.separator
+            where !string.IsNullOrEmpty(separator)
+            from item in feed.Items
+            let testName = GetTestName(feed, item)
+            select new TestCaseData(item, separator).SetName(testName);
     }
 
     public static IEnumerable<FeedItem> TestFeedItems()
@@ -166,6 +150,23 @@ public static class FeedTestsProvider
 
         return from file in Directory.EnumerateFiles(directory)
             select FeedReader.Read(File.ReadAllText(file));
+    }
+
+    private static IEnumerable<(Feed feed, string separator)> TestFeedsWithSeparators()
+    {
+        var separators = new Dictionary<string, string>
+        {
+            { "Caschys Blog", "...Zum Beitrag" },
+            { "StoneWars", "[...]" },
+            { "TESLARATI", "[…]" },
+            { "nextmove", "[…]" },
+            { "Elektroauto-News.net", "\nDer Beitrag " },
+            { "Drive Tesla", "[…]" }
+        };
+
+        return from feed in TestFeeds()
+            let separator = separators.GetValueOrDefault(feed.Title!, "")
+            select (feed, separator);
     }
 
     private static string GetTestName(Feed feed, FeedItem item)
