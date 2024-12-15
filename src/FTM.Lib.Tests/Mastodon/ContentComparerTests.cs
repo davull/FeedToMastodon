@@ -6,25 +6,19 @@ namespace FTM.Lib.Tests.Mastodon;
 
 public class ContentComparerTests
 {
-    [Test]
-    public void Same_Content_Should_Return_Equal()
+    [TestCaseSource(nameof(TestCases))]
+    public void Compare_Should_Return_Expected(string first, string second, ContentComparer.CompareResult expected)
     {
-        const string content1 = "lorem ipsum";
-        const string content2 = "lorem ipsum";
-
-        var actual = ContentComparer.Compare(content1, content2);
-
-        actual.Should().Be(ContentComparer.CompareResult.Equal);
+        var actual = ContentComparer.Compare(first, second);
+        actual.Should().Be(expected);
     }
 
-    [Test]
-    public void Different_Content_Should_Return_NotEqual()
+    private static IEnumerable<TestCaseData> TestCases()
     {
-        const string content1 = "lorem ipsum";
-        const string content2 = "dolor sit amet";
+        yield return new TestCaseData("lorem ipsum", "lorem ipsum", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Equal content");
 
-        var actual = ContentComparer.Compare(content1, content2);
-
-        actual.Should().Be(ContentComparer.CompareResult.NotEqual);
+        yield return new TestCaseData("lorem ipsum", "dolor sit amet", ContentComparer.CompareResult.Different)
+            .SetName("Different content");
     }
 }
