@@ -71,7 +71,11 @@ public static class StatusBuilder
                                        {2}
                                        """;
 
-        var format = string.IsNullOrWhiteSpace(summary)
+        var titleAndSummaryAreEqual = ContentComparer.ContentEquals(title, summary);
+
+        var useShortFormat = string.IsNullOrWhiteSpace(summary) || titleAndSummaryAreEqual;
+
+        var format = useShortFormat
             ? formatWoSummary
             : formatWithSummary;
 
