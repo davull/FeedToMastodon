@@ -80,7 +80,8 @@ public class UpdateTestFeeds
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
             ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
-            ("nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss")
+            ("JLMelenchon-nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss"),
+            ("EUDelegationUA-nitter.privacydev.net", "https://nitter.privacydev.net/EUDelegationUA/rss")
         };
 
         foreach (var (name, url) in feeds)
