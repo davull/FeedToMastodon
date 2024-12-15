@@ -3,7 +3,7 @@
   <title><![CDATA[Home Assistant]]></title>
   <link href="https://www.home-assistant.io/atom.xml" rel="self"/>
   <link href="https://www.home-assistant.io/"/>
-  <updated>2024-12-09T19:06:25+00:00</updated>
+  <updated>2024-12-14T19:43:47+00:00</updated>
   <id>https://www.home-assistant.io/</id>
   <author>
     <name><![CDATA[Home Assistant]]></name>
@@ -61,6 +61,8 @@ includes you!</p>
 <li><a href="#patch-releases">Patch releases</a>
 <ul>
 <li><a href="#2024121---december-6">2024.12.1 - December 6</a></li>
+<li><a href="#2024122---december-10">2024.12.2 - December 10</a></li>
+<li><a href="#2024123---december-13">2024.12.3 - December 13</a></li>
 </ul>
 </li>
 <li><a href="#need-help-join-the-community">Need help? Join the community!</a></li>
@@ -313,6 +315,51 @@ release every Friday.</p>
 <li>Update frontend to 20241127.6 (<a href="https://github.com/bramkragten">@bramkragten</a> - <a href="https://github.com/home-assistant/core/pull/132494">#132494</a>)</li>
 <li>Fix google tasks due date timezone handling (<a href="https://github.com/allenporter">@allenporter</a> - <a href="https://github.com/home-assistant/core/pull/132498">#132498</a>)</li>
 </ul>
+<h3>2024.12.2 - December 10</h3>
+<ul>
+<li>Enable additional entities on myUplink model SMO20 (<a href="https://github.com/astrandb">@astrandb</a> - <a href="https://github.com/home-assistant/core/pull/131688">#131688</a>)</li>
+<li>Bump pydrawise to 2024.12.0 (<a href="https://github.com/dknowles2">@dknowles2</a> - <a href="https://github.com/home-assistant/core/pull/132015">#132015</a>)</li>
+<li>Fix API change for AC not supporting floats in SwitchBot Cloud (<a href="https://github.com/SeraphicRav">@SeraphicRav</a> - <a href="https://github.com/home-assistant/core/pull/132231">#132231</a>)</li>
+<li>Update pyrisco to 0.6.5 (<a href="https://github.com/agmckaybro">@agmckaybro</a> - <a href="https://github.com/home-assistant/core/pull/132493">#132493</a>)</li>
+<li>Fix PyTado dependency (<a href="https://github.com/erwindouna">@erwindouna</a> - <a href="https://github.com/home-assistant/core/pull/132510">#132510</a>)</li>
+<li>Bump pycups to 2.0.4 (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132514">#132514</a>)</li>
+<li>Update debugpy to 1.8.8 (<a href="https://github.com/frenck">@frenck</a> - <a href="https://github.com/home-assistant/core/pull/132519">#132519</a>)</li>
+<li>bump total_connect_client to 2023.12 (<a href="https://github.com/austinmroczek">@austinmroczek</a> - <a href="https://github.com/home-assistant/core/pull/132531">#132531</a>)</li>
+<li>Bump aiounifi to v81 to fix partitioned cookies on python 3.13 (<a href="https://github.com/Kane610">@Kane610</a> - <a href="https://github.com/home-assistant/core/pull/132540">#132540</a>)</li>
+<li>Update twentemilieu to 2.2.0 (<a href="https://github.com/frenck">@frenck</a> - <a href="https://github.com/home-assistant/core/pull/132554">#132554</a>)</li>
+<li>Bump yalexs-ble to 2.5.2 (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132560">#132560</a>)</li>
+<li>Bump plugwise to v1.6.1 (<a href="https://github.com/bouwew">@bouwew</a> - <a href="https://github.com/home-assistant/core/pull/131950">#131950</a>)</li>
+<li>Bump plugwise to v1.6.2 and adapt (<a href="https://github.com/bouwew">@bouwew</a> - <a href="https://github.com/home-assistant/core/pull/132608">#132608</a>)</li>
+<li>Fix config flow in Husqvarna Automower (<a href="https://github.com/Thomas55555">@Thomas55555</a> - <a href="https://github.com/home-assistant/core/pull/132615">#132615</a>)</li>
+<li>Bump ZHA dependencies (<a href="https://github.com/puddly">@puddly</a> - <a href="https://github.com/home-assistant/core/pull/132630">#132630</a>)</li>
+<li>Bump plugwise to v1.6.3 (<a href="https://github.com/bouwew">@bouwew</a> - <a href="https://github.com/home-assistant/core/pull/132673">#132673</a>)</li>
+<li>Bump yt-dlp to 2024.12.06 (<a href="https://github.com/joostlek">@joostlek</a> - <a href="https://github.com/home-assistant/core/pull/132684">#132684</a>)</li>
+<li>Revert “Bump pyezviz to 0.2.2.3” (<a href="https://github.com/srescio">@srescio</a> - <a href="https://github.com/home-assistant/core/pull/132715">#132715</a>)</li>
+<li>Bump intents to 2024.12.9 (<a href="https://github.com/synesthesiam">@synesthesiam</a> - <a href="https://github.com/home-assistant/core/pull/132726">#132726</a>)</li>
+<li>Update frontend to 20241127.7 (<a href="https://github.com/bramkragten">@bramkragten</a> - <a href="https://github.com/home-assistant/core/pull/132729">#132729</a>)</li>
+<li>Bump reolink-aio to 0.11.5 (<a href="https://github.com/starKillerOG">@starkillerOG</a> - <a href="https://github.com/home-assistant/core/pull/132757">#132757</a>)</li>
+<li>Catch Hydrawise authorization errors in the correct place (<a href="https://github.com/dknowles2">@dknowles2</a> - <a href="https://github.com/home-assistant/core/pull/132727">#132727</a>)</li>
+<li>Pass an application identifier to the Hydrawise API (<a href="https://github.com/dknowles2">@dknowles2</a> - <a href="https://github.com/home-assistant/core/pull/132779">#132779</a>)</li>
+<li>Bump deebot-client to 9.3.0 (<a href="https://github.com/edenhaus">@edenhaus</a> - <a href="https://github.com/home-assistant/core/pull/132834">#132834</a>)</li>
+<li>Bump aioacaia to 0.1.11 (<a href="https://github.com/zweckj">@zweckj</a> - <a href="https://github.com/home-assistant/core/pull/132838">#132838</a>)</li>
+</ul>
+<h3>2024.12.3 - December 13</h3>
+<ul>
+<li>Bump python-linkplay to v0.1.1 (<a href="https://github.com/silamon">@silamon</a> - <a href="https://github.com/home-assistant/core/pull/132091">#132091</a>)</li>
+<li>Bump pydaikin to 2.13.8 (<a href="https://github.com/weltall">@weltall</a> - <a href="https://github.com/home-assistant/core/pull/132759">#132759</a>)</li>
+<li>Fix pipeline conversation language (<a href="https://github.com/synesthesiam">@synesthesiam</a> - <a href="https://github.com/home-assistant/core/pull/132896">#132896</a>)</li>
+<li>fix AndroidTV logging when disconnected (<a href="https://github.com/chemelli74">@chemelli74</a> - <a href="https://github.com/home-assistant/core/pull/132919">#132919</a>)</li>
+<li>Guard Vodafone Station updates against bad data (<a href="https://github.com/chemelli74">@chemelli74</a> - <a href="https://github.com/home-assistant/core/pull/132921">#132921</a>)</li>
+<li>Bump led-ble to 1.1.1 (<a href="https://github.com/bdraco">@bdraco</a> - <a href="https://github.com/home-assistant/core/pull/132977">#132977</a>)</li>
+<li>Change warning to debug for VAD timeout (<a href="https://github.com/synesthesiam">@synesthesiam</a> - <a href="https://github.com/home-assistant/core/pull/132987">#132987</a>)</li>
+<li>Fix LaMetric config flow for cloud import path (<a href="https://github.com/frenck">@frenck</a> - <a href="https://github.com/home-assistant/core/pull/133039">#133039</a>)</li>
+<li>Update frontend to 20241127.8 (<a href="https://github.com/bramkragten">@bramkragten</a> - <a href="https://github.com/home-assistant/core/pull/133066">#133066</a>)</li>
+<li>Bump pysuezV2 to 1.3.5 (<a href="https://github.com/jb101010-2">@jb101010-2</a> - <a href="https://github.com/home-assistant/core/pull/133076">#133076</a>)</li>
+<li>Bugfix to use evohome’s new hostname (<a href="https://github.com/zxdavb">@zxdavb</a> - <a href="https://github.com/home-assistant/core/pull/133085">#133085</a>)</li>
+<li>Bump py-aosmith to 1.0.12 (<a href="https://github.com/bdr99">@bdr99</a> - <a href="https://github.com/home-assistant/core/pull/133100">#133100</a>)</li>
+<li>Bump deebot-client to 9.4.0 (<a href="https://github.com/edenhaus">@edenhaus</a> - <a href="https://github.com/home-assistant/core/pull/133114">#133114</a>)</li>
+<li>Bump aiowithings to 3.1.4 (<a href="https://github.com/joostlek">@joostlek</a> - <a href="https://github.com/home-assistant/core/pull/133117">#133117</a>)</li>
+</ul>
 <h2>Need help? Join the community!</h2>
 <p>Home Assistant has a great community of users who are all more than willing
 to help each other out. So, join us!</p>
@@ -423,13 +470,29 @@ it.</p>
 <div class="details-block">
   <details class='details-block-item'>
     <summary class='details-block-title'>
-      <span>QNAP</span>
+      <span>Plugwise</span>
       <div class='details-block-arrow'>
       <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
     <div class='details-block-content' id="content_5">
+<p>For the Plugwise Adam, all device-based climate entities will be replaced by new zone-based climate entities, which will most likely have different entity names.
+This change aligns with the Plugwise App’s representation of climate entities as zones (as discovered in Issue <a href="https://github.com/home-assistant/core/issues/130597">#130597</a>).</p>
+<p>(<a href="https://github.com/bouwew">@bouwew</a> - <a href="https://github.com/home-assistant/core/pull/131659">#131659</a>) (<a href="/integrations/plugwise">documentation</a>)</p>
+ </div>
+  </details>
+</div>
+<div class="details-block">
+  <details class='details-block-item'>
+    <summary class='details-block-title'>
+      <span>QNAP</span>
+      <div class='details-block-arrow'>
+      <svg class="down" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
+      </div>
+    </summary>
+    <div class='details-block-content' id="content_6">
 <p>The QNAP sensors will no longer have the following extra state attributes:</p>
 <ul>
 <li><code>memory_free</code></li>
@@ -465,7 +528,7 @@ the separate available sensors instead.</p>
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
-    <div class='details-block-content' id="content_6">
+    <div class='details-block-content' id="content_7">
 <p>The Spotify audio feature sensors have been removed since Spotify
 removed access for them, starting 27 November.</p>
 <p>Additionally, featured and category playlists have been removed from
@@ -484,7 +547,7 @@ starting on 27 November.</p>
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
-    <div class='details-block-content' id="content_7">
+    <div class='details-block-content' id="content_8">
 <p>Previously the attributes of the entity states of the Statistics integration were only provided when they had a non <code>None</code> value.
 This has now changed so the attributes are always provided even with <code>None</code>
 values. You might need to modify your automations or scripts depending on
@@ -502,7 +565,7 @@ whether these attributes are present or not.</p>
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
-    <div class='details-block-content' id="content_8">
+    <div class='details-block-content' id="content_9">
 <p>The Stookwijzer sensor has migrated to the new API provided by Atlas
 Leefomgeving. As a result, the reported states are slightly different.</p>
 <p>Old versus new:</p>
@@ -526,7 +589,7 @@ need to adjust those for this change.</p>
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
-    <div class='details-block-content' id="content_9">
+    <div class='details-block-content' id="content_10">
 <p>The <code>this</code> template variable which is available in some templatable helpers was
 previously based on the new state instead of the current state.</p>
 <p>The change affects the following integrations, if templates use the <code>this</code>
@@ -552,7 +615,7 @@ change using the <code>value</code> variable instead, which holds the new value.
       <svg class="up" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>
       </div>
     </summary>
-    <div class='details-block-content' id="content_10">
+    <div class='details-block-content' id="content_11">
 <p>With this release, you will need to update your zwave-js-server instance. You
 must use zwave-js-server 1.39.0 or greater (schema 39).</p>
 <ul>
