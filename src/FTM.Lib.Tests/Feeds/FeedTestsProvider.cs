@@ -161,7 +161,11 @@ public static class FeedTestsProvider
             { "TESLARATI", "[…]" },
             { "nextmove", "[…]" },
             { "Elektroauto-News.net", "\nDer Beitrag " },
-            { "Drive Tesla", "[…]" }
+            { "Drive Tesla", "[…]" },
+            { "Visual Studio Blog", "[…]" },
+            { "DER Persönlichkeits-Blog", "[…]" },
+            { "Technikblog", "[…]" },
+            { "The Reformed Programmer", "…" }
         };
 
         return from feed in TestFeeds()
