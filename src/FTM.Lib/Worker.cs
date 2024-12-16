@@ -15,8 +15,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
     public async Task Start(CancellationToken cancellationToken = default)
     {
         Logger.LogInformation("Worker started, loop delay: {LoopDelay}, feed: {FeedUri}",
-            context.LoopDelay,
-            Configuration.FeedUri);
+            context.LoopDelay, Configuration.FeedUri);
 
         try
         {

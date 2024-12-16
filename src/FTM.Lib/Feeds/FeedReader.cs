@@ -10,10 +10,7 @@ public static class FeedReader
 
     public static async Task<Feed> Read(Uri url, HttpClient httpClient)
     {
-        using var response = await httpClient.GetAsync(url);
-        response.EnsureSuccessStatusCode();
-
-        var content = await response.Content.ReadAsStringAsync();
+        var content = await FeedHttpClient.ReadString(url, httpClient);
         return Read(content);
     }
 
