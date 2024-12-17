@@ -12,6 +12,8 @@ public class WorkerContext(TimeSpan defaultLoopDelay)
 
     public required HttpClient HttpClient { get; init; } = null!;
 
+    public string? ETag { get; set; }
+
     public TimeSpan LoopDelay { get; private set; } = defaultLoopDelay;
 
     public void ResetLoopDelay() => LoopDelay = _defaultLoopDelay;

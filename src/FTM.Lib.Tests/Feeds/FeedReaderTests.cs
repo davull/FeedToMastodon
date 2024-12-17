@@ -12,8 +12,8 @@ public class FeedReaderTests : TestBase
     [TestCase("https://production-ready.de/feed/de.xml")]
     public async Task CanReadFeedFromUri(string uri)
     {
-        var httpClient = new HttpClient();
-        var feed = await FeedReader.Read(new Uri(uri), httpClient);
+        using var httpClient = new HttpClient();
+        var feed = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag: null);
         feed.Should().NotBeNull();
     }
 

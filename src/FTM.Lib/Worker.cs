@@ -15,8 +15,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
     public async Task Start(CancellationToken cancellationToken = default)
     {
         Logger.LogInformation("Worker started, loop delay: {LoopDelay}, feed: {FeedUri}",
-            context.LoopDelay,
-            Configuration.FeedUri);
+            context.LoopDelay, Configuration.FeedUri);
 
         try
         {
@@ -55,7 +54,18 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
     private async Task Loop(CancellationToken cancellationToken)
     {
-        var feed = await FeedReader.Read(Configuration.FeedUri, context.HttpClient);
+        Logger.LogDebug("Processing Feed {Feed}, Url {FeedUri}", Configuration.Title, Configuration.FeedUri);
+
+        var (feed, etag) = await FeedReader.ReadIfChanged(Configuration.FeedUri, context.HttpClient, context.ETag);
+        context.ETag = etag;
+
+        if (feed is null)
+        {
+            Logger.LogDebug("Feed {Feed} has not changed due to HTTP ETag Header {ETag}",
+                Configuration.Title, context.ETag);
+            return;
+        }
+
         var isNewFeed = await FeedOnboarding.IsNewFeed(feed, Repository.FeedExists);
 
         if (isNewFeed)

@@ -8,13 +8,17 @@ public static class FeedReader
     private static readonly AtomFeedParser AtomFeedParser = new();
     private static readonly RdfFeedParser RdfFeedParser = new();
 
-    public static async Task<Feed> Read(Uri url, HttpClient httpClient)
+    public static async Task<(Feed? feed, string? etag)> ReadIfChanged(Uri url, HttpClient httpClient, string? etag)
     {
-        using var response = await httpClient.GetAsync(url);
-        response.EnsureSuccessStatusCode();
+        var result = await FeedHttpClient.ReadString(url, httpClient, etag);
 
-        var content = await response.Content.ReadAsStringAsync();
-        return Read(content);
+        if (result.ContentHasChanged)
+        {
+            var feed = Read(result.Content);
+            return (feed, result.ETag);
+        }
+
+        return (null, result.ETag);
     }
 
     public static Feed Read(string content)

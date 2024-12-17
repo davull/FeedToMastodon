@@ -1,0 +1,831 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+    <channel>
+        <title>ploeh blog</title>
+        <link>https://blog.ploeh.dk</link>
+        <description>danish software design</description>
+        <language>en-us</language>
+        <copyright>Mark Seemann</copyright>
+        <pubDate>Mon, 09 Dec 2024 21:46:13 UTC</pubDate>
+        <lastBuildDate>Mon, 09 Dec 2024 21:46:13 UTC</lastBuildDate>
+
+        <item>
+            <title>Implementation and usage mindsets</title>
+            <link>https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets/</link>
+            <pubDate>Mon, 09 Dec 2024 21:45:00 UTC</pubDate>
+            <description>
+
+
+                &lt;div id=&quot;post&quot;&gt;
+                &lt;p&gt;
+                &lt;em&gt;A one-dimensional take on the enduring static-versus-dynamic
+                debate.&lt;/em&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                It recently occurred to me that one possible explanation for the standing, and
+                probably never-ending, debate about static versus dynamic types may be that each
+                camp have disjoint perspectives on the kinds of problems their favourite languages
+                help them solve. In short, my hypothesis is that perhaps lovers of dynamically-typed
+                languages often approach a problem from an implementation mindset, whereas
+                proponents of static types emphasize usage.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;img src=&quot;/content/binary/implementation-versus-usage.png&quot; alt=&quot;A
+                question mark in the middle. An arrow from left labelled &apos;implementation&apos;
+                points to the question mark from a figure indicating a person. Another arrow from
+                the right labelled &apos;usage&apos; points to the question mark from another figure
+                indicating a person.&quot;&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                I&apos;ll expand on this idea here, and then provide examples in two subsequent
+                articles.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;d748f29ae31543fbb6db537711800c62&quot;&gt;
+                Background &lt;a href=&quot;#d748f29ae31543fbb6db537711800c62&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                For years I&apos;ve struggled to understand &apos;the other side&apos;. While
+                I&apos;m firmly in the statically typed camp, I realize that many highly skilled
+                programmers and thought leaders enjoy, or get great use out of, dynamically typed
+                languages. This worries me, because it &lt;a
+                href=&quot;/2021/08/09/am-i-stuck-in-a-local-maximum&quot;&gt;might indicate that
+                I&apos;m stuck in a local maximum&lt;/a&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                In other words, just because I, personally, prefer static types, it doesn&apos;t
+                follow that static types are universally better than dynamic types.
+                &lt;/p&gt;
+                &lt;p&gt;
+                In reality, it&apos;s probably rather the case that we&apos;re dealing with a false
+                dichotomy, and that the problem is really multi-dimensional.
+                &lt;/p&gt;
+                &lt;blockquote&gt;
+                &lt;p&gt;
+                &quot;Let me stop you right there: I don&apos;t think there is a real dynamic typing
+                versus static typing debate.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &quot;What such debates normally are is language X vs language Y debates (where X
+                happens to be dynamic and Y happens to be static).&quot;
+                &lt;/p&gt;
+                &lt;footer&gt;&lt;cite&gt;&lt;a
+                href=&quot;https://twitter.com/KevlinHenney/status/1425513161252278280&quot;&gt;Kevlin
+                Henney&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+                &lt;/blockquote&gt;
+                &lt;p&gt;
+                Even so, I can&apos;t help thinking about such things. Am I missing something?
+                &lt;/p&gt;
+                &lt;p&gt;
+                For the past few years, I&apos;ve dabbled with &lt;a
+                href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; to see what writing in
+                a popular dynamically typed language is like. It&apos;s not a bad language, and I
+                can clearly see how it&apos;s attractive. Even so, I&apos;m still frustrated every
+                time I return to some Python code after a few weeks or more. The lack of static
+                types makes it hard for me to pick up, or revisit, old code.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;8b6d87e0536d40b6aaec28d8e6356553&quot;&gt;
+                A question of perspective? &lt;a
+                href=&quot;#8b6d87e0536d40b6aaec28d8e6356553&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                Whenever I run into a difference of opinion, I often interpret it as a difference in
+                perspective. Perhaps it&apos;s my academic background as an economist, but I
+                consider it a given that people have different motivations, and that incentives
+                influence actions.
+                &lt;/p&gt;
+                &lt;p&gt;
+                A related kind of analysis deals with problem definitions. Are we even trying to
+                solve the same problem?
+                &lt;/p&gt;
+                &lt;p&gt;
+                I&apos;ve &lt;a
+                href=&quot;/2021/08/09/am-i-stuck-in-a-local-maximum&quot;&gt;discussed such
+                questions before, but in a different context&lt;/a&gt;. Here, it strikes me that
+                perhaps programmers who gravitate toward dynamically typed languages are focused on
+                another problem than the other group.
+                &lt;/p&gt;
+                &lt;p&gt;
+                Again, I&apos;d like to emphasize that I don&apos;t consider the world so black and
+                white in reality. Some developers straddle the two camps, and as the above Kevlin
+                Henney quote suggests, there really aren&apos;t only two kinds of languages. &lt;a
+                href=&quot;https://en.wikipedia.org/wiki/C_(programming_language)&quot;&gt;C&lt;/a&gt;
+                and &lt;a href=&quot;https://www.haskell.org/&quot;&gt;Haskell&lt;/a&gt; are both
+                statically typed, but the similarities stop there. Likewise, I don&apos;t know if
+                it&apos;s fair to put JavaScript and &lt;a
+                href=&quot;https://clojure.org/&quot;&gt;Clojure&lt;/a&gt; in the same bucket.
+                &lt;/p&gt;
+                &lt;p&gt;
+                That said, I&apos;d still like to offer the following hypothesis, in the spirit that
+                although &lt;a
+                href=&quot;https://en.wikipedia.org/wiki/All_models_are_wrong&quot;&gt;all models
+                are wrong&lt;/a&gt;, some are useful.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The idea is that if you&apos;re trying to solve a problem related to
+                &lt;em&gt;implementation&lt;/em&gt;, dynamically typed languages may be more
+                suitable. If you&apos;re trying to implement an algorithm, or even trying to invent
+                one, a dynamic language seems useful. One year, I did a good chunk of &lt;a
+                href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt; in Python,
+                and didn&apos;t find it harder than in Haskell. (I ultimately ran out of steam for
+                reasons unrelated to Python.)
+                &lt;/p&gt;
+                &lt;p&gt;
+                On the other hand, if your main focus may be &lt;em&gt;usage&lt;/em&gt; of your
+                code, perhaps you&apos;ll find a statically typed language more useful. At least, I
+                do. I can use the static type system to communicate how my APIs work. How to
+                instantiate my classes. How to call my functions. How return values are shaped. In
+                other words, the preconditions, invariants, and postconditions of my reusable code:
+                &lt;a href=&quot;/encapsulation-and-solid/&quot;&gt;Encapsulation&lt;/a&gt;.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;f0cbf02e11484e9a8c8d0fab9a6463f2&quot;&gt;
+                Examples &lt;a href=&quot;#f0cbf02e11484e9a8c8d0fab9a6463f2&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                Some examples may be in order. In the next two articles, I&apos;ll first examine how
+                easy it is to implement an algorithm in various programming languages. Then
+                I&apos;ll discuss how to encapsulate that algorithm.
+                &lt;/p&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Implementing rod-cutting&lt;/li&gt;
+                &lt;li&gt;Encapsulating rod-cutting&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;
+                The articles will both discuss the rod-cutting problem from &lt;a
+                href=&quot;/ref/clrs&quot;&gt;Introduction to Algorithms&lt;/a&gt;, but I&apos;ll
+                introduce the problem in the next article.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;97b3e722024b4228924faa2d6ff5d188&quot;&gt;
+                Conclusion &lt;a href=&quot;#97b3e722024b4228924faa2d6ff5d188&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                I&apos;d be naive if I believed that a single model can fully explain why some
+                people prefer dynamically typed languages, and others rather like statically typed
+                languages. Even so, suggesting a model helps me understand how to analyze problems.
+                &lt;/p&gt;
+                &lt;p&gt;
+                My hypothesis is that dynamically typed languages may be suitable for implementing
+                algorithms, whereas statically typed languages offer better encapsulation.
+                &lt;/p&gt;
+                &lt;p&gt;
+                This may be used as a heuristic for &apos;picking the right tool for the job&apos;.
+                If I need to suss out an algorithm, perhaps I should do it in Python. If, on the
+                other hand, I need to publish a reusable library, perhaps Haskell is a better
+                choice.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;strong&gt;Next:&lt;/strong&gt; Implementing rod-cutting.
+                &lt;/p&gt;
+                &lt;/div&gt;&lt;hr&gt;
+                This blog is totally free, but if you like it, please consider &lt;a
+                href="https://blog.ploeh.dk/support"&gt;supporting it&lt;/a&gt;.</description>
+            <author>Mark Seemann</author>
+            <guid isPermaLink="false">
+                https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets</guid>
+        </item>
+
+        <item>
+            <title>Short-circuiting an asynchronous traversal</title>
+            <link>https://blog.ploeh.dk/2024/12/02/short-circuiting-an-asynchronous-traversal/</link>
+            <pubDate>Mon, 02 Dec 2024 09:32:00 UTC</pubDate>
+            <description>
+
+
+                &lt;div id=&quot;post&quot;&gt;
+                &lt;p&gt;
+                &lt;em&gt;Another C# example.&lt;/em&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                This article is a continuation of &lt;a
+                href=&quot;/2024/11/18/collecting-and-handling-result-values&quot;&gt;an earlier
+                post&lt;/a&gt; about refactoring a piece of imperative code to a &lt;a
+                href=&quot;/2018/11/19/functional-architecture-a-definition&quot;&gt;functional
+                architecture&lt;/a&gt;. It all started with &lt;a
+                href=&quot;https://stackoverflow.com/q/79112836/126014&quot;&gt;a Stack Overflow
+                question&lt;/a&gt;, but read the previous article, and you&apos;ll be up to speed.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;2bf66b90d3ba4dfe980538175b647070&quot;&gt;
+                Imperative outset &lt;a
+                href=&quot;#2bf66b90d3ba4dfe980538175b647070&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                To begin, consider this mostly imperative code snippet:
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItems&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;();
+                &lt;span style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;failedItems&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;();
+                &lt;span style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;&amp;nbsp;=&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItems&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;failedItems&lt;/span&gt;,&amp;nbsp;hasError:&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;false&lt;/span&gt;);
+                &lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;foreach&lt;/span&gt;&amp;nbsp;(&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;in&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;itemsToUpdate&lt;/span&gt;)
+                {
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;NotFound&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;updateResult&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#74531f;&quot;&gt;UpdateItem&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;dbContext&lt;/span&gt;);
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;updateResult&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Match&lt;/span&gt;&amp;lt;(&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;,&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;bool&lt;/span&gt;)&amp;gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;{&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItems&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Add&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;);&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;;&amp;nbsp;&amp;nbsp;},
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;notFound&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;{&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;failedItems&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Add&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;);&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;;&amp;nbsp;},
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;error&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;{&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.hasError&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;true&lt;/span&gt;;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;;&amp;nbsp;}
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;);
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;if&lt;/span&gt;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.hasError)
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Results&lt;/span&gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;BadRequest&lt;/span&gt;();
+                }
+
+                &lt;span style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;dbContext&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;SaveChangesAsync&lt;/span&gt;();
+                &lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Results&lt;/span&gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;Ok&lt;/span&gt;(&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;([..&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItems&lt;/span&gt;],&amp;nbsp;[..&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;failedItems&lt;/span&gt;]));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                I&apos;ll recap a few points from the previous article. Apart from one crucial
+                detail, it&apos;s similar to the other post. One has to infer most of the types and
+                APIs, since the original post didn&apos;t show more code than that. If you&apos;re
+                used to engaging with Stack Overflow questions, however, it&apos;s not too hard to
+                figure out what most of the moving parts do.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The most non-obvious detail is that the code uses a library called &lt;a
+                href=&quot;https://github.com/mcintyre321/OneOf/&quot;&gt;OneOf&lt;/a&gt;, which
+                supplies general-purpose, but rather abstract, sum types. Both the container type
+                &lt;code&gt;OneOf&lt;/code&gt;, as well as the two indicator types
+                &lt;code&gt;NotFound&lt;/code&gt; and &lt;code&gt;Error&lt;/code&gt; are defined in
+                that library.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The &lt;code&gt;Match&lt;/code&gt; method implements standard &lt;a
+                href=&quot;/2018/05/22/church-encoding&quot;&gt;Church encoding&lt;/a&gt;, which
+                enables the code to pattern-match on the three alternative values that
+                &lt;code&gt;UpdateItem&lt;/code&gt; returns.
+                &lt;/p&gt;
+                &lt;p&gt;
+                One more detail also warrants an explicit description: The
+                &lt;code&gt;itemsToUpdate&lt;/code&gt; object is an input argument of the type
+                &lt;code&gt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;&lt;/code&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The major difference from before is that now the update process short-circuits on
+                the first &lt;code&gt;Error&lt;/code&gt;. If an error occurs, it stops processing
+                the rest of the items. In that case, it now returns
+                &lt;code&gt;Results.BadRequest()&lt;/code&gt;, and it
+                &lt;em&gt;doesn&apos;t&lt;/em&gt; save the changes to
+                &lt;code&gt;dbContext&lt;/code&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The implementation makes use of mutable state and undisciplined I/O. How do you
+                refactor it to a more functional design?
+                &lt;/p&gt;
+                &lt;h3 id=&quot;d5b47b3ebb0345ea9b1d2879755bec12&quot;&gt;
+                Short-circuiting traversal &lt;a
+                href=&quot;#d5b47b3ebb0345ea9b1d2879755bec12&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                &lt;a href=&quot;/2024/11/11/traversals&quot;&gt;The standard Traverse
+                function&lt;/a&gt; isn&apos;t lazy, or rather, it does consume the entire input
+                sequence. Even various &lt;a
+                href=&quot;https://www.haskell.org/&quot;&gt;Haskell&lt;/a&gt; data structures I
+                investigated do that. And yes, I even tried to &lt;code&gt;traverse&lt;/code&gt;
+                &lt;a
+                href=&quot;https://hackage.haskell.org/package/list-t/docs/ListT.html&quot;&gt;ListT&lt;/a&gt;.
+                If there&apos;s a data structure that you can &lt;code&gt;traverse&lt;/code&gt; with
+                deferred execution of I/O-bound actions, I&apos;m not aware of it.
+                &lt;/p&gt;
+                &lt;p&gt;
+                That said, all is not lost, but you&apos;ll need to implement a more specialized
+                traversal. While consuming the input sequence, the function needs to know when to
+                stop. It can&apos;t do that on just any &lt;a
+                href=&quot;https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1&quot;&gt;IEnumerable&amp;lt;T&amp;gt;&lt;/a&gt;,
+                because it has no information about &lt;code&gt;T&lt;/code&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                If, on the other hand, you specialize the traversal to a sequence of items with more
+                information, you can stop processing if it encounters a particular condition. You
+                could generalize this to, say, &lt;code&gt;IEnumerable&amp;lt;Either&amp;lt;L,
+                R&amp;gt;&amp;gt;&lt;/code&gt;, but since I already have the OneOf library in scope,
+                I&apos;ll use that, instead of implementing or pulling in a general-purpose &lt;a
+                href=&quot;/2018/06/11/church-encoded-either&quot;&gt;Either&lt;/a&gt; data type.
+                &lt;/p&gt;
+                &lt;p&gt;
+                In fact, I&apos;ll just use a three-way &lt;code&gt;OneOf&lt;/code&gt; type
+                compatible with the one that &lt;code&gt;UpdateItem&lt;/code&gt; returns.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:blue;&quot;&gt;internal&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;async&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Task&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;color:#74531f;&quot;&gt;Sequence&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;&amp;gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;this&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Task&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;tasks&lt;/span&gt;)
+                {
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;List&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;();
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;foreach&lt;/span&gt;&amp;nbsp;(&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;task&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;in&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;tasks&lt;/span&gt;)
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;task&lt;/span&gt;;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Add&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;);
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;if&lt;/span&gt;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;.IsT2)
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;break&lt;/span&gt;;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;;
+                }&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                This implementation doesn&apos;t care what &lt;code&gt;T1&lt;/code&gt; or
+                &lt;code&gt;T2&lt;/code&gt; is, so they&apos;re free to be
+                &lt;code&gt;ShoppingListItem&lt;/code&gt; and &lt;code&gt;NotFound&lt;/code&gt;. The
+                third type argument, on the other hand, must be &lt;code&gt;Error&lt;/code&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The &lt;code&gt;if&lt;/code&gt; conditional looks a bit odd, but as I wrote, the
+                types that ship with the OneOf library have rather abstract APIs. A three-way
+                &lt;code&gt;OneOf&lt;/code&gt; value comes with three case tests called
+                &lt;code&gt;IsT0&lt;/code&gt;, &lt;code&gt;IsT1&lt;/code&gt;, and
+                &lt;code&gt;IsT2&lt;/code&gt;. Notice that the library uses a zero-indexed naming
+                convention for its type parameters. &lt;code&gt;IsT2&lt;/code&gt; returns
+                &lt;code&gt;true&lt;/code&gt; if the value is the &lt;em&gt;third&lt;/em&gt; kind,
+                in this case &lt;code&gt;Error&lt;/code&gt;. If a &lt;code&gt;task&lt;/code&gt;
+                turns out to produce an &lt;code&gt;Error&lt;/code&gt;, the
+                &lt;code&gt;Sequence&lt;/code&gt; method adds that one error, but then stops
+                processing any remaining items.
+                &lt;/p&gt;
+                &lt;p&gt;
+                Some readers may complain that the entire implementation of
+                &lt;code&gt;Sequence&lt;/code&gt; is imperative. It hardly matters that much, since
+                the mutation doesn&apos;t escape the method. The behaviour is as functional as
+                it&apos;s possible to make it. It&apos;s fundamentally I/O-bound, so we can&apos;t
+                consider it a &lt;a
+                href=&quot;https://en.wikipedia.org/wiki/Pure_function&quot;&gt;pure
+                function&lt;/a&gt;. That said, if we hypothetically imagine that all the
+                &lt;code&gt;tasks&lt;/code&gt; are deterministic and have no side effects, the
+                &lt;code&gt;Sequence&lt;/code&gt; function does become a pure function when viewed
+                as a black box. From the outside, you can&apos;t tell that the implementation is
+                imperative.
+                &lt;/p&gt;
+                &lt;p&gt;
+                It &lt;em&gt;is&lt;/em&gt; possible to implement &lt;code&gt;Sequence&lt;/code&gt;
+                in a proper functional style, and it might make &lt;a
+                href=&quot;/2020/01/13/on-doing-katas&quot;&gt;a good exercise&lt;/a&gt;. I think,
+                however, that it&apos;ll be difficult in C#. In &lt;a
+                href=&quot;https://fsharp.org/&quot;&gt;F#&lt;/a&gt; or Haskell I&apos;d use
+                recursion, and while you &lt;em&gt;can&lt;/em&gt; do that in C#, I admit that
+                I&apos;ve lost sight of whether or not &lt;a
+                href=&quot;/2015/12/22/tail-recurse&quot;&gt;tail recursion&lt;/a&gt; is supported
+                by the C# compiler.
+                &lt;/p&gt;
+                &lt;p&gt;
+                Be that as it may, the traversal implementation doesn&apos;t change.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:blue;&quot;&gt;internal&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Task&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;TResult&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;color:#74531f;&quot;&gt;Traverse&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;TResult&lt;/span&gt;&amp;gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;this&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;items&lt;/span&gt;,
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Func&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T1&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Task&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;TResult&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;T2&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;selector&lt;/span&gt;)
+                {
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;items&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Select&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;selector&lt;/span&gt;).&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Sequence&lt;/span&gt;();
+                }&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                You can now &lt;code&gt;Traverse&lt;/code&gt; the
+                &lt;code&gt;itemsToUpdate&lt;/code&gt;:
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:green;&quot;&gt;//&amp;nbsp;Impure&lt;/span&gt;
+                &lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;NotFound&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;&amp;nbsp;=
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;itemsToUpdate&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Traverse&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;color:#74531f;&quot;&gt;UpdateItem&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;dbContext&lt;/span&gt;));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                As the &lt;code&gt;// Impure&lt;/code&gt; comment may suggest, this constitutes the
+                first impure layer of an &lt;a
+                href=&quot;/2020/03/02/impureim-sandwich&quot;&gt;Impureim Sandwich&lt;/a&gt;.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;e7d6b741e8e1406b9588a5788df0ff9b&quot;&gt;
+                Aggregating the results &lt;a
+                href=&quot;#e7d6b741e8e1406b9588a5788df0ff9b&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                Since the above statement awaits the traversal, the &lt;code&gt;results&lt;/code&gt;
+                object is a &apos;pure&apos; object that can be passed to a pure function. This
+                does, however, assume that &lt;code&gt;ShoppingListItem&lt;/code&gt; is an immutable
+                object.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The next step must collect results and &lt;code&gt;NotFound&lt;/code&gt;-related
+                failures, but contrary to the previous article, it must short-circuit if it
+                encounters an &lt;code&gt;Error&lt;/code&gt;. This again suggests an Either-like
+                data structure, but again I&apos;ll repurpose a &lt;code&gt;OneOf&lt;/code&gt;
+                container. I&apos;ll start by defining a &lt;code&gt;seed&lt;/code&gt; for an
+                aggregation (a &lt;em&gt;left fold&lt;/em&gt;).
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:blue;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;seed&lt;/span&gt;&amp;nbsp;=
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;(&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;IEnumerable&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;gt;),&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;FromT0&lt;/span&gt;(([],&amp;nbsp;[]));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                This type can be either a tuple or an error. The .NET tendency is often to define an
+                explicit &lt;code&gt;Result&amp;lt;TSuccess, TFailure&amp;gt;&lt;/code&gt; type,
+                where &lt;code&gt;TSuccess&lt;/code&gt; is defined to the left of
+                &lt;code&gt;TFailure&lt;/code&gt;. This, for example, is &lt;a
+                href=&quot;https://learn.microsoft.com/dotnet/fsharp/language-reference/results&quot;&gt;how
+                F# defines Result types&lt;/a&gt;, and other .NET libraries tend to emulate that
+                design. That&apos;s also what I&apos;ve done here, although I admit that I&apos;m
+                regularly confused when going back and forth between F# and Haskell, where the
+                &lt;code&gt;Right&lt;/code&gt; case is &lt;a
+                href=&quot;/2015/08/03/idiomatic-or-idiosyncratic&quot;&gt;idiomatically&lt;/a&gt;
+                considered to indicate success.
+                &lt;/p&gt;
+                &lt;p&gt;
+                As already discussed, OneOf follows a zero-indexed naming convention for type
+                parameters, so &lt;code&gt;FromT0&lt;/code&gt; indicates the first (or leftmost)
+                case. The seed is thus initialized with a tuple that contains two empty sequences.
+                &lt;/p&gt;
+                &lt;p&gt;
+                As in the previous article, you can now use the &lt;a
+                href=&quot;https://learn.microsoft.com/dotnet/api/system.linq.enumerable.aggregate&quot;&gt;Aggregate&lt;/a&gt;
+                method to collect the result you want.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Aggregate&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;seed&lt;/span&gt;,
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;)&amp;nbsp;=&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Match&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;MapT0&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item1.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Append&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;),&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item2)),
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;notFound&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;MapT0&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item1,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item2.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Append&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;notFound&lt;/span&gt;.Item))),
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;e&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;e&lt;/span&gt;))
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;MapT0&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item1.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;ToArray&lt;/span&gt;(),&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;t&lt;/span&gt;.Item2.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;ToArray&lt;/span&gt;()));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                This expression is a two-step composition. I&apos;ll get back to the concluding
+                &lt;code&gt;MapT0&lt;/code&gt; in a moment, but let&apos;s first discuss what
+                happens in the &lt;code&gt;Aggregate&lt;/code&gt; step. Since the
+                &lt;code&gt;state&lt;/code&gt; is now a discriminated union, the big lambda
+                expression not only has to &lt;code&gt;Match&lt;/code&gt; on the
+                &lt;code&gt;result&lt;/code&gt;, but it also has to deal with the two mutually
+                exclusive cases in which &lt;code&gt;state&lt;/code&gt; can be.
+                &lt;/p&gt;
+                &lt;p&gt;
+                Although it comes third in the code listing, it may be easiest to explain if we
+                start with the error case. Keep in mind that the &lt;code&gt;seed&lt;/code&gt;
+                starts with the optimistic assumption that the operation is going to succeed. If,
+                however, we encounter an error &lt;code&gt;e&lt;/code&gt;, we now switch the
+                &lt;code&gt;state&lt;/code&gt; to the &lt;code&gt;Error&lt;/code&gt; case. Once in
+                that state, it stays there.
+                &lt;/p&gt;
+                &lt;p&gt;
+                The two other &lt;code&gt;result&lt;/code&gt; cases map over the first (i.e. the
+                success) case, appending the result to the appropriate sequence in the tuple
+                &lt;code&gt;t&lt;/code&gt;. Since these expressions map over the first
+                (zero-indexed) case, these updates only run as long as the
+                &lt;code&gt;state&lt;/code&gt; is in the success case. If the
+                &lt;code&gt;state&lt;/code&gt; is in the error state, these lambda expressions
+                don&apos;t run, and the &lt;code&gt;state&lt;/code&gt; doesn&apos;t change.
+                &lt;/p&gt;
+                &lt;p&gt;
+                After having collected the tuple of sequences, the final step is to map over the
+                success case, turning the tuple &lt;code&gt;t&lt;/code&gt; into a
+                &lt;code&gt;BulkUpdateResult&lt;/code&gt;. That&apos;s what
+                &lt;code&gt;MapT0&lt;/code&gt; does: It maps over the first (zero-indexed) case,
+                which contains the tuple of sequences. It&apos;s a standard &lt;a
+                href=&quot;/2018/03/22/functors&quot;&gt;functor&lt;/a&gt; projection.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;e4c3b20a30c34b4785ccdd886b20d197&quot;&gt;
+                Saving the changes and returning the results &lt;a
+                href=&quot;#e4c3b20a30c34b4785ccdd886b20d197&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                The final, impure step in the sandwich is to save the changes and return the
+                results:
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:green;&quot;&gt;//&amp;nbsp;Impure&lt;/span&gt;
+                &lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Match&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;async&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bulkUpdateResult&lt;/span&gt;&amp;nbsp;=&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;await&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;dbContext&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;SaveChangesAsync&lt;/span&gt;();
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#8f08c4;&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Results&lt;/span&gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;Ok&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bulkUpdateResult&lt;/span&gt;);
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;_&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Task&lt;/span&gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;FromResult&lt;/span&gt;(&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Results&lt;/span&gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;BadRequest&lt;/span&gt;()));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                Note that it only calls &lt;code&gt;dbContext.SaveChangesAsync()&lt;/code&gt; in
+                case the &lt;code&gt;result&lt;/code&gt; is a success.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;a6d28bd9d66a4e068bc4cd4ba21dde32&quot;&gt;
+                Accumulating the bulk-update result &lt;a
+                href=&quot;#a6d28bd9d66a4e068bc4cd4ba21dde32&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                So far, I&apos;ve assumed that the final &lt;code&gt;BulkUpdateResult&lt;/code&gt;
+                class is just a simple immutable container without much functionality. If, however,
+                we add some copy-and-update functions to it, we can use that to aggregate the
+                result, instead of an anonymous tuple.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span
+                style=&quot;color:blue;&quot;&gt;internal&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Store&lt;/span&gt;(&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;)&amp;nbsp;=&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;([..&amp;nbsp;StoredItems,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;],&amp;nbsp;FailedItems);
+                &lt;span style=&quot;color:blue;&quot;&gt;internal&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Fail&lt;/span&gt;(&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;ShoppingListItem&lt;/span&gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;)&amp;nbsp;=&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;(StoredItems,&amp;nbsp;[..&amp;nbsp;FailedItems,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;item&lt;/span&gt;]);&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                I would have personally preferred the name &lt;code&gt;NotFound&lt;/code&gt; instead
+                of &lt;code&gt;Fail&lt;/code&gt;, but I was going with the original post&apos;s
+                &lt;code&gt;failedItems&lt;/code&gt; terminology, and I thought that it made more
+                sense to call a method &lt;code&gt;Fail&lt;/code&gt; when it adds to a collection
+                called &lt;code&gt;FailedItems&lt;/code&gt;.
+                &lt;/p&gt;
+                &lt;p&gt;
+                Adding these two instance methods to &lt;code&gt;BulkUpdateResult&lt;/code&gt;
+                simplifies the composing code:
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;pre&gt;&lt;span style=&quot;color:green;&quot;&gt;//&amp;nbsp;Pure&lt;/span&gt;
+                &lt;span style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;results&lt;/span&gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Aggregate&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;OneOf&lt;/span&gt;&amp;lt;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;BulkUpdateResult&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;color:#2b91af;&quot;&gt;Error&lt;/span&gt;&amp;gt;.&lt;span
+                style=&quot;color:#74531f;&quot;&gt;FromT0&lt;/span&gt;(&lt;span
+                style=&quot;color:blue;&quot;&gt;new&lt;/span&gt;([],&amp;nbsp;[])),
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;,&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;)&amp;nbsp;=&amp;gt;
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;result&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Match&lt;/span&gt;(
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;MapT0&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bur&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bur&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Store&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;storedItem&lt;/span&gt;)),
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;notFound&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;state&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;MapT0&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bur&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;bur&lt;/span&gt;.&lt;span
+                style=&quot;font-weight:bold;color:#74531f;&quot;&gt;Fail&lt;/span&gt;(&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;notFound&lt;/span&gt;.Item)),
+                &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;e&lt;/span&gt;&amp;nbsp;=&amp;gt;&amp;nbsp;&lt;span
+                style=&quot;font-weight:bold;color:#1f377f;&quot;&gt;e&lt;/span&gt;));&lt;/pre&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                This variation starts with an empty &lt;code&gt;BulkUpdateResult&lt;/code&gt; and
+                then uses &lt;code&gt;Store&lt;/code&gt; or &lt;code&gt;Fail&lt;/code&gt; as
+                appropriate to update the state. The final, impure step of the sandwich remains the
+                same.
+                &lt;/p&gt;
+                &lt;h3 id=&quot;ed88649e2d75403ab654fe7c034b6c1f&quot;&gt;
+                Conclusion &lt;a href=&quot;#ed88649e2d75403ab654fe7c034b6c1f&quot;&gt;#&lt;/a&gt;
+                &lt;/h3&gt;
+                &lt;p&gt;
+                It&apos;s a bit more tricky to implement a short-circuiting traversal than the
+                standard traversal. You can, still, implement a specialized
+                &lt;code&gt;Sequence&lt;/code&gt; or &lt;code&gt;Traverse&lt;/code&gt; method, but
+                it requires that the input stream carries enough information to decide when to stop
+                processing more items. In this article, I used a specialized three-way union, but
+                you could generalize this to use a standard Either or Result type.
+                &lt;/p&gt;
+                &lt;/div&gt;&lt;hr&gt;
+                This blog is totally free, but if you like it, please consider &lt;a
+                href="https://blog.ploeh.dk/support"&gt;supporting it&lt;/a&gt;.</description>
+            <author>Mark Seemann</author>
+            <guid isPermaLink="false">
+                https://blog.ploeh.dk/2024/12/02/short-circuiting-an-asynchronous-traversal</guid>
+        </item>
+    </channel>
+</rss>

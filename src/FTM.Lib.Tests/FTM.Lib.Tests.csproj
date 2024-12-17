@@ -23,6 +23,7 @@
 
     <ItemGroup>
         <Folder Include="Data\TestDatabases\"/>
+        <Folder Include="Feeds\Responses\"/>
         <Folder Include="Feeds\TestFeeds\"/>
     </ItemGroup>
 
