@@ -54,12 +54,13 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
     private async Task Loop(CancellationToken cancellationToken)
     {
-        var etag = "";
-        var feed = await FeedReader.ReadIfChanged(Configuration.FeedUri, context.HttpClient, etag);
+        var (feed, etag) = await FeedReader.ReadIfChanged(Configuration.FeedUri, context.HttpClient, context.ETag);
+        context.ETag = etag;
+
         if (feed is null)
         {
             Logger.LogDebug("Feed {Feed} has not changed due to HTTP ETag Header {ETag}",
-                Configuration.FeedUri, etag);
+                Configuration.FeedUri, context.ETag);
             return;
         }
 
