@@ -44,5 +44,20 @@ public class ContentComparerTests
 
         yield return new TestCaseData("loremipsumdolor", "lorem ipsum dolor sit amet",
             ContentComparer.CompareResult.SecondContainsFirst).SetName("Whitespaces are trimmed");
+
+        yield return new TestCaseData("lorem / ipsum \\ dolor", "lorem ipsum dolor sit amet",
+            ContentComparer.CompareResult.SecondContainsFirst).SetName("Slashes are trimmed");
+
+        yield return new TestCaseData("lorem ipsum https://www.google.de/q=search dolor sit amet",
+                "lorem ipsum www.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("With https url");
+
+        yield return new TestCaseData("lorem ipsum http://www.google.de/q=search dolor sit amet",
+                "lorem ipsum www.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("With http url");
+
+        yield return new TestCaseData("lorem ipsum http://www.google.de/q=search dolor sit amet",
+                "lorem ipsum www.google.com/q=search dolor sit...", ContentComparer.CompareResult.Different)
+            .SetName("Different urls");
     }
 }
