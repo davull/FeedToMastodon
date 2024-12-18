@@ -238,7 +238,8 @@ public static class FeedTestsProvider
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
             ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
             ("JLMelenchon-nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss"),
-            ("EUDelegationUA-nitter.privacydev.net", "https://nitter.privacydev.net/EUDelegationUA/rss")
+            ("EUDelegationUA-nitter.privacydev.net", "https://nitter.privacydev.net/EUDelegationUA/rss"),
+            ("Europarl_PT-nitter.privacydev.net", "https://nitter.privacydev.net/Europarl_PT/rss")
         };
 
         return feeds;
