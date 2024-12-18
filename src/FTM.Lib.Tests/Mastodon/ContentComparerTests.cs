@@ -50,14 +50,26 @@ public class ContentComparerTests
 
         yield return new TestCaseData("lorem ipsum https://www.google.de/q=search dolor sit amet",
                 "lorem ipsum www.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
-            .SetName("With https url");
+            .SetName("With https://www url");
+
+        yield return new TestCaseData("lorem ipsum https://web.google.de/q=search dolor sit amet",
+                "lorem ipsum web.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("With https://web url");
 
         yield return new TestCaseData("lorem ipsum http://www.google.de/q=search dolor sit amet",
                 "lorem ipsum www.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
-            .SetName("With http url");
+            .SetName("With http://www url");
+
+        yield return new TestCaseData("lorem ipsum http://web.google.de/q=search dolor sit amet",
+                "lorem ipsum web.google.de/q=search dolor sit...", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("With http://web url");
 
         yield return new TestCaseData("lorem ipsum http://www.google.de/q=search dolor sit amet",
                 "lorem ipsum www.google.com/q=search dolor sit...", ContentComparer.CompareResult.Different)
             .SetName("Different urls");
+
+        yield return new TestCaseData("direto:https://www.europarl.europa.eu/plenary/pt/home.html",
+                "direto:europarl.europa.eu/plenary/p…", ContentComparer.CompareResult.FirstContainsSecond)
+            .SetName("Full url");
     }
 }

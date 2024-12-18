@@ -3,10 +3,7 @@
 public static class ContentComparer
 {
     private static readonly string[] CharsToRemove =
-    [
-        ".", " ", "…", "\n", "\r", "\t", ":", "/", "\\",
-        "https", "http"
-    ];
+        ["https", "http", "www", ".", " ", "…", "\n", "\r", "\t", ":", "/", "\\"];
 
     public static CompareResult Compare(string first, string second)
     {
