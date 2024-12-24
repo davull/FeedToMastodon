@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageVersion Include="coverlet.collector" Version="6.0.2" />
     <PackageVersion Include="Dapper" Version="2.1.35" />
-    <PackageVersion Include="dbup-sqlite" Version="5.0.40" />
+    <PackageVersion Include="dbup-sqlite" Version="6.0.1" />
     <PackageVersion Include="FluentAssertions" Version="7.0.0" />
     <PackageVersion Include="FluentAssertions.Analyzers" Version="0.34.1" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.11.71" />
