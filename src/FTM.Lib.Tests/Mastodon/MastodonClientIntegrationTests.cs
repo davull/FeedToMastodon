@@ -47,7 +47,7 @@ public class MastodonClientIntegrationTests : TestBase
     }
 
     [Test]
-    public async Task PostStatus_WithRateLimit_Should_ThrowException()
+    public async Task PostStatus_TooManyRequests_WithRateLimit_Should_ThrowException()
     {
         SetupServer(429, "PostStatusWithRateLimitResponse.json", 0);
 
@@ -63,21 +63,45 @@ public class MastodonClientIntegrationTests : TestBase
             TimeSpan.FromSeconds(1));
     }
 
-    private void SetupServer(int statusCode, string responseFileName, int remaining = 299)
+    [Test]
+    public async Task PostStatus_TooManyRequests_WoRateLimit_Should_ThrowException()
+    {
+        SetupServer(429, "PostStatusWithRateLimitResponse.json", 0, false);
+
+        var action = async () => await PostStatus();
+
+        var exception = (await action.Should().ThrowAsync<RateLimitException>())
+            .Subject.Single();
+
+        exception.Limit.Should().BeNull();
+        exception.Remaining.Should().BeNull();
+        exception.Reset.Should().BeNull();
+    }
+
+    private void SetupServer(int statusCode, string responseFileName,
+        int remaining = 299, bool rateLimitHeaders = true)
     {
         var responseFile = Path.Combine(PathHelper.GetCurrentFileDirectory(),
             "Responses", responseFileName);
 
-        _server
-            .Given(Request.Create()
-                .WithPath("/api/v1/statuses")
-                .UsingPost())
-            .RespondWith(Response.Create()
-                .WithStatusCode(statusCode)
+        var request = Request.Create()
+            .WithPath("/api/v1/statuses")
+            .UsingPost();
+
+        var response = Response.Create()
+            .WithStatusCode(statusCode)
+            .WithBodyFromFile(responseFile);
+        if (rateLimitHeaders)
+        {
+            response
                 .WithHeader("X-Ratelimit-Limit", "300")
                 .WithHeader("X-Ratelimit-Remaining", $"{remaining}")
-                .WithHeader("X-Ratelimit-Reset", "2024-11-02T00:00:00.581781Z")
-                .WithBodyFromFile(responseFile));
+                .WithHeader("X-Ratelimit-Reset", "2024-11-02T00:00:00.581781Z");
+        }
+
+        _server
+            .Given(request)
+            .RespondWith(response);
     }
 
     private async Task<string> PostStatus()
@@ -89,6 +113,6 @@ public class MastodonClientIntegrationTests : TestBase
             mastodonServer: _server.Url!,
             mastodonAccessToken: "some-mastodon-token"));
 
-        return await _sut.PostStatus(status, context, default);
+        return await _sut.PostStatus(status, context, CancellationToken.None);
     }
 }
