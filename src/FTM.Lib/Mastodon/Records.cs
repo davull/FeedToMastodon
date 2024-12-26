@@ -6,3 +6,8 @@ public record PostStatusResponse(
     string Uri,
     string Url,
     string Content);
+
+public record RateLimit(
+    int Limit,
+    int Remaining,
+    DateTime Reset);

@@ -54,9 +54,17 @@ public static class FeedItemPoster
         }
         catch (RateLimitException ex)
         {
-            context.Logger.LogError(ex,
-                "Rate limit exceeded; limit {Limit}, remaining {Remaining}, reset {Reset}",
-                ex.Limit, ex.Remaining, ex.Reset);
+            if (ex.RateLimit is null)
+            {
+                context.Logger.LogError(ex, "Rate limit exceeded");
+            }
+            else
+            {
+                context.Logger.LogError(ex,
+                    "Rate limit exceeded; limit {Limit}, remaining {Remaining}, reset {Reset}",
+                    ex.RateLimit.Limit, ex.RateLimit.Remaining, ex.RateLimit.Reset);
+            }
+
             context.SetLoopDelay(Config.MastodonRateLimitExceptionDelay);
         }
         catch (Exception ex) when (ex is not OperationCanceledException)
