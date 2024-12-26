@@ -1,9 +1,20 @@
 ﻿namespace FTM.Lib.Mastodon;
 
-public class RateLimitException(int limit, int remaining, DateTime reset)
-    : Exception($"Rate limit exceeded; limit {limit}, remaining {remaining}, reset {reset}")
+public class RateLimitException : Exception
 {
-    public DateTime Reset { get; } = reset;
-    public int Limit { get; } = limit;
-    public int Remaining { get; } = remaining;
+    public DateTime? Reset { get; }
+    public int? Limit { get; }
+    public int? Remaining { get; }
+
+    public RateLimitException() : base("Rate limit exceeded")
+    {
+    }
+
+    public RateLimitException(int limit, int remaining, DateTime reset)
+        : base($"Rate limit exceeded; limit {limit}, remaining {remaining}, reset {reset}")
+    {
+        Limit = limit;
+        Remaining = remaining;
+        Reset = reset;
+    }
 }
