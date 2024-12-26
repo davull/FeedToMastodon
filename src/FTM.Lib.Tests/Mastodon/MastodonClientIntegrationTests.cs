@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 using FTM.Lib.Mastodon;
+using Microsoft.Extensions.Logging.Abstractions;
 using NUnit.Framework;
 using WireMock.RequestBuilders;
 using WireMock.ResponseBuilders;
@@ -10,7 +11,7 @@ namespace FTM.Lib.Tests.Mastodon;
 public class MastodonClientIntegrationTests : TestBase
 {
     private WireMockServer _server = null!;
-    private readonly MastodonClient _sut = new();
+    private readonly MastodonClient _sut = new(NullLogger<MastodonClient>.Instance);
 
     [SetUp]
     public void Setup()
