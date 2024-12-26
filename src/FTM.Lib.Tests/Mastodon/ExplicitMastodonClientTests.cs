@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 using FTM.Lib.Mastodon;
+using Microsoft.Extensions.Logging.Abstractions;
 using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Mastodon;
@@ -13,7 +14,7 @@ public class ExplicitMastodonClientTests : TestBase
         Dummies.FeedConfiguration(mastodonServer: MastodonServer,
             mastodonAccessToken: MastodonAccessToken));
 
-    private readonly MastodonClient _client = new();
+    private readonly MastodonClient _client = new(NullLogger<MastodonClient>.Instance);
 
     [Explicit]
     [Test]

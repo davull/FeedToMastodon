@@ -21,8 +21,8 @@ public class Application(
         var appConfiguration = GetAppConfiguration();
         var appOptions = GetAppOptions();
 
-        var mastodonClient = CreateMastodonClient();
         var loggerFactory = CreateLoggerFactory();
+        var mastodonClient = CreateMastodonClient(loggerFactory);
 
         return new Application(appOptions, feedConfigurations, mastodonClient, loggerFactory);
 
@@ -41,11 +41,11 @@ public class Application(
             });
         }
 
-        IMastodonClient CreateMastodonClient()
+        IMastodonClient CreateMastodonClient(ILoggerFactory lf)
         {
             return Config.UseMastodonTestClient
                 ? new MastodonTestClient()
-                : new MastodonClient();
+                : new MastodonClient(lf.CreateLogger<MastodonClient>());
         }
 
         IConfiguration GetAppConfiguration()

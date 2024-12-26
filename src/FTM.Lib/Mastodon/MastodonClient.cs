@@ -4,10 +4,11 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace FTM.Lib.Mastodon;
 
-public class MastodonClient : IMastodonClient
+public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
 {
     public async Task<string> PostStatus(MastodonStatus status, WorkerContext context,
         CancellationToken cancellationToken)
@@ -71,7 +72,7 @@ public class MastodonClient : IMastodonClient
         }
     }
 
-    private static async Task<string> SendRequest(HttpRequestMessage request,
+    private async Task<string> SendRequest(HttpRequestMessage request,
         HttpClient httpClient, CancellationToken cancellationToken)
     {
         using var response = await httpClient.SendAsync(request, cancellationToken);
@@ -81,16 +82,23 @@ public class MastodonClient : IMastodonClient
         if (!response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync(cancellationToken);
-            throw new InvalidOperationException($"Failed to post status: {content}");
+            throw new InvalidOperationException(
+                $"Failed to post status. Status code: {(int)response.StatusCode}, message: {content}");
         }
 
         var postStatusResponse = await response.Content.ReadFromJsonAsync<PostStatusResponse>(cancellationToken);
         return postStatusResponse!.Id;
     }
 
-    private static void HandleRateLimit(HttpResponseMessage response)
+    private void HandleRateLimit(HttpResponseMessage response)
     {
         var rateLimit = TryGetRateLimit();
+
+        if (rateLimit is not null)
+        {
+            logger.LogDebug("Mastodon Rate Limit: Limit {Limit}, Remaining {Remaining}, Reset {Reset}",
+                rateLimit.Limit, rateLimit.Remaining, rateLimit.Reset);
+        }
 
         if (response.StatusCode == HttpStatusCode.TooManyRequests) // 429 Too Many Requests
         {
