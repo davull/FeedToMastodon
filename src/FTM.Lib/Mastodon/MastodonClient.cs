@@ -81,7 +81,8 @@ public class MastodonClient : IMastodonClient
         if (!response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync(cancellationToken);
-            throw new InvalidOperationException($"Failed to post status: {content}");
+            throw new InvalidOperationException(
+                $"Failed to post status. Status code: {(int)response.StatusCode}, message: {content}");
         }
 
         var postStatusResponse = await response.Content.ReadFromJsonAsync<PostStatusResponse>(cancellationToken);
