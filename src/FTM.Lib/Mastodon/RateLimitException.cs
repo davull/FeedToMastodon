@@ -2,19 +2,17 @@
 
 public class RateLimitException : Exception
 {
-    public DateTime? Reset { get; }
-    public int? Limit { get; }
-    public int? Remaining { get; }
+    public RateLimit? RateLimit { get; }
 
     public RateLimitException() : base("Rate limit exceeded")
     {
     }
 
-    public RateLimitException(int limit, int remaining, DateTime reset)
-        : base($"Rate limit exceeded; limit {limit}, remaining {remaining}, reset {reset}")
+    public RateLimitException(RateLimit rateLimit)
+        : base($"Rate limit exceeded; limit {rateLimit.Limit}, " +
+               $"remaining {rateLimit.Remaining}, " +
+               $"reset {rateLimit.Reset}")
     {
-        Limit = limit;
-        Remaining = remaining;
-        Reset = reset;
+        RateLimit = rateLimit;
     }
 }

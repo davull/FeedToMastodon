@@ -56,11 +56,9 @@ public class MastodonClientIntegrationTests : TestBase
         var exception = (await action.Should().ThrowAsync<RateLimitException>())
             .Subject.Single();
 
-        exception.Limit.Should().Be(300);
-        exception.Remaining.Should().Be(0);
-        exception.Reset.Should().BeCloseTo(
-            new DateTime(2024, 11, 2, 1, 0, 0, DateTimeKind.Utc),
-            TimeSpan.FromSeconds(1));
+        var expected = Dummies.RateLimit();
+
+        exception.RateLimit.Should().BeEquivalentTo(expected);
     }
 
     [Test]
@@ -73,9 +71,7 @@ public class MastodonClientIntegrationTests : TestBase
         var exception = (await action.Should().ThrowAsync<RateLimitException>())
             .Subject.Single();
 
-        exception.Limit.Should().BeNull();
-        exception.Remaining.Should().BeNull();
-        exception.Reset.Should().BeNull();
+        exception.RateLimit.Should().BeNull();
     }
 
     private void SetupServer(int statusCode, string responseFileName,
@@ -96,7 +92,7 @@ public class MastodonClientIntegrationTests : TestBase
             response
                 .WithHeader("X-Ratelimit-Limit", "300")
                 .WithHeader("X-Ratelimit-Remaining", $"{remaining}")
-                .WithHeader("X-Ratelimit-Reset", "2024-11-02T00:00:00.581781Z");
+                .WithHeader("X-Ratelimit-Reset", "2024-11-02T00:00:00.00Z");
         }
 
         _server

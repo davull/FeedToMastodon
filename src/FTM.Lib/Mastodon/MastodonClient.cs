@@ -90,16 +90,34 @@ public class MastodonClient : IMastodonClient
 
     private static void HandleRateLimit(HttpResponseMessage response)
     {
-        if (response.StatusCode != HttpStatusCode.TooManyRequests) // 429 Too Many Requests
+        var rateLimit = TryGetRateLimit();
+
+        if (response.StatusCode == HttpStatusCode.TooManyRequests) // 429 Too Many Requests
         {
-            return;
+            throw rateLimit is null
+                ? new RateLimitException()
+                : new RateLimitException(rateLimit);
         }
 
-        var limit = int.Parse(response.Headers.GetValues("X-Ratelimit-Limit").First());
-        var remaining = int.Parse(response.Headers.GetValues("X-Ratelimit-Remaining").First());
-        var reset = DateTime.Parse(response.Headers.GetValues("X-Ratelimit-Reset").First(),
-            CultureInfo.InvariantCulture);
+        RateLimit? TryGetRateLimit()
+        {
+            const string headerLimit = "X-Ratelimit-Limit";
+            const string headerRemaining = "X-Ratelimit-Remaining";
+            const string headerReset = "X-Ratelimit-Reset";
+            var headers = new[] { headerLimit, headerRemaining, headerReset };
 
-        throw new RateLimitException(limit, remaining, reset);
+            var containsAllHeaders = headers.All(h => response.Headers.Contains(h));
+            if (containsAllHeaders is false)
+            {
+                return null;
+            }
+
+            var limit = int.Parse(response.Headers.GetValues(headerLimit).First());
+            var remaining = int.Parse(response.Headers.GetValues(headerRemaining).First());
+            var reset = DateTime.Parse(response.Headers.GetValues(headerReset).First(),
+                CultureInfo.InvariantCulture);
+
+            return new RateLimit(limit, remaining, reset);
+        }
     }
 }

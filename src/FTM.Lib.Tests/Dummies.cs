@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging.Abstractions;
+﻿using FTM.Lib.Mastodon;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace FTM.Lib.Tests;
 
@@ -81,5 +82,14 @@ public static class Dummies
             description,
             language,
             items);
+    }
+
+    public static RateLimit RateLimit(
+        int limit = 300,
+        int remaining = 0,
+        DateTime? reset = null)
+    {
+        reset ??= new DateTime(2024, 11, 2, 1, 0, 0, DateTimeKind.Utc);
+        return new RateLimit(limit, remaining, reset.Value);
     }
 }
