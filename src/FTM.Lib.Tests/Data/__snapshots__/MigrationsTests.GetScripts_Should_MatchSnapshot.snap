@@ -9,6 +9,6 @@
   },
   {
     "Name": "03-add-indexes.sql",
-    "Contents": "CREATE INDEX IX_FeedId_ItemId ON ProcessedPosts (FeedId, ItemId);\n"
+    "Contents": "CREATE INDEX IX_FeedId_ItemId ON ProcessedPosts (FeedId, ItemId);\n\nCREATE INDEX IX_Timestamp_StatusId ON ProcessedPosts (Timestamp, StatusId);\n"
   }
 ]
