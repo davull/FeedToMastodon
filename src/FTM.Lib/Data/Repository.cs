@@ -4,18 +4,19 @@ namespace FTM.Lib.Data;
 
 public static class Repository
 {
-    public static async Task<List<FeedIdItemId>> GetProcessedItems(string feedId)
+    public static async Task<List<FeedIdItemId>> GetProcessedItems(string feedId, IReadOnlyCollection<string> itemIds)
     {
         const string sql = """
                            SELECT FeedId, ItemId
                            from ProcessedPosts
-                           WHERE FeedId = @FeedId;
+                           WHERE FeedId = @FeedId
+                             AND ItemId IN @ItemIds;
                            """;
 
         using var con = Database.CreateConnection();
 
         var processedItems = await con.QueryAsync<FeedIdItemId>(
-            sql, new { FeedId = feedId });
+            sql, new { FeedId = feedId, ItemIds = itemIds });
         return processedItems.ToList();
     }
 

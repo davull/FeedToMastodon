@@ -75,7 +75,8 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
         }
         else
         {
-            var processedItems = await Repository.GetProcessedItems(feed.Id);
+            var itemIds = feed.Items.Select(i => i.ItemId).ToArray();
+            var processedItems = await Repository.GetProcessedItems(feed.Id, itemIds);
             await FeedItemPoster.ProcessFeed(feed, processedItems,
                 Repository.SaveProcessedPost, mastodonClient.PostStatus,
                 context, cancellationToken);
