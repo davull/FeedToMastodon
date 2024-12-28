@@ -124,7 +124,7 @@ steps:
     inputs:
       command: restore
       projects: $(Projects)
-      arguments: "--locked-mode"
+      restoreArguments: "--locked-mode"
 
   # Build
   - task: DotNetCoreCLI@2
