@@ -48,7 +48,31 @@ public class RepositoryTests : DatabaseTestBase
     [Test]
     public async Task GetProcessedItems_WoExistingPost_ShouldReturnEmptyList()
     {
-        var actual = await Repository.GetProcessedItems(Dummies.GuidString());
+        await SaveTestPost();
+
+        var actual = await Repository.GetProcessedItems(Dummies.GuidString(), [Dummies.GuidString()]);
+        actual.Should().BeEmpty();
+    }
+
+    [Test]
+    public async Task GetProcessedItems_WoEmptyList_ShouldReturnEmptyList()
+    {
+        await SaveTestPost();
+
+        var actual = await Repository.GetProcessedItems(Dummies.GuidString(), []);
+        actual.Should().BeEmpty();
+    }
+
+    [Test]
+    public async Task GetProcessedItems_CanHandleLargeLists_ShouldReturnEmptyList()
+    {
+        await SaveTestPost();
+
+        var itemIds = Enumerable.Range(0, 1_000)
+            .Select(_ => Dummies.GuidString())
+            .ToArray();
+
+        var actual = await Repository.GetProcessedItems(Dummies.GuidString(), itemIds);
         actual.Should().BeEmpty();
     }
 
@@ -59,11 +83,33 @@ public class RepositoryTests : DatabaseTestBase
         var itemId = Dummies.GuidString();
         await SaveTestPost(feedId, itemId);
 
-        var actual = await Repository.GetProcessedItems(feedId);
+        var actual = await Repository.GetProcessedItems(feedId, [itemId]);
 
         var expected = Dummies.FeedIdItemId(feedId, itemId);
 
         actual.Should().BeEquivalentTo([expected]);
+    }
+
+    [Test]
+    public async Task GetProcessedItems_WithExistingPosts_FilterByItemIds()
+    {
+        var feedId = Dummies.GuidString();
+        var itemId1 = Dummies.GuidString();
+        var itemId2 = Dummies.GuidString();
+        await SaveTestPost(feedId, itemId1);
+        await SaveTestPost(feedId, itemId2);
+        await SaveTestPost(feedId);
+        await SaveTestPost(feedId);
+
+        var actual = await Repository.GetProcessedItems(feedId, [itemId1, itemId2]);
+
+        FeedIdItemId[] expected =
+        [
+            Dummies.FeedIdItemId(feedId, itemId1),
+            Dummies.FeedIdItemId(feedId, itemId2)
+        ];
+
+        actual.Should().BeEquivalentTo(expected);
     }
 
     [Test]
