@@ -4,7 +4,7 @@
       "id": 2,
       "parent": 0,
       "notused": 0,
-      "detail": "SCAN ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1"
+      "detail": "SCAN ProcessedPosts USING COVERING INDEX IX_FeedId_ItemId"
     }
   ],
   "sql": "EXPLAIN QUERY PLAN SELECT FeedId, ItemId\nFROM ProcessedPosts"

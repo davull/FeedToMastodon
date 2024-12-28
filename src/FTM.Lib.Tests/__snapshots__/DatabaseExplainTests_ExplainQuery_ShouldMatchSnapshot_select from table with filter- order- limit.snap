@@ -4,7 +4,7 @@
       "id": 5,
       "parent": 0,
       "notused": 0,
-      "detail": "SEARCH ProcessedPosts USING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=?)"
+      "detail": "SEARCH ProcessedPosts USING INDEX IX_FeedId_ItemId (FeedId=?)"
     },
     {
       "id": 20,
