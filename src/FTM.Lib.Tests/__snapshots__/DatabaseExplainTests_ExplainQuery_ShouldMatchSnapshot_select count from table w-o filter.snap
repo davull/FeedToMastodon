@@ -1,0 +1,11 @@
+﻿{
+  "result": [
+    {
+      "id": 4,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SCAN ProcessedPosts USING COVERING INDEX IX_Timestamp_StatusId"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts"
+}

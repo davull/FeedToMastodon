@@ -1,0 +1,11 @@
+﻿{
+  "result": [
+    {
+      "id": 2,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SEARCH ProcessedPosts USING COVERING INDEX IX_FeedId_ItemId (FeedId=?)"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT FeedId, ItemId\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'"
+}

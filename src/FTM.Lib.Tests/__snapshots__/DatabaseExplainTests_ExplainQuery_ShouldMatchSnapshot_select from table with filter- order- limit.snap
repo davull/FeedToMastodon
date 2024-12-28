@@ -1,0 +1,17 @@
+﻿{
+  "result": [
+    {
+      "id": 5,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SEARCH ProcessedPosts USING INDEX IX_FeedId_ItemId (FeedId=?)"
+    },
+    {
+      "id": 20,
+      "parent": 0,
+      "notused": 0,
+      "detail": "USE TEMP B-TREE FOR ORDER BY"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT FeedTitle\nFROM ProcessedPosts \nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'\nORDER BY Timestamp DESC\nLIMIT 1"
+}
