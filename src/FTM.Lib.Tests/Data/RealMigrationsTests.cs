@@ -16,23 +16,23 @@ public class RealMigrationsTests : TestBase
             Mode = SqliteOpenMode.ReadWriteCreate
         }.ConnectionString;
 
-        await using( var con = new SqliteConnection(connectionString))
+        await using (var con = new SqliteConnection(connectionString))
         {
             await con.OpenAsync();
 
             // ReSharper disable once AccessToDisposedClosure
             var action = () => Migrations.ApplyMigrations(con);
             action.Should().NotThrow();
-            
+
             await con.CloseAsync();
-            
+
             SqliteConnection.ClearPool(con);
         }
-        
+
         File.Delete(filePath);
     }
 
-    public static IEnumerable<TestCaseData> GetMigrationsTestCases()
+    private static IEnumerable<TestCaseData> GetMigrationsTestCases()
     {
         var sourcePath = Path.Combine(PathHelper.GetCurrentFileDirectory(), "TestDatabases");
         var sourceFiles = Directory.GetFiles(sourcePath, "*.sqlite");
