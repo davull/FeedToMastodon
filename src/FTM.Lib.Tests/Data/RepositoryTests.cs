@@ -64,16 +64,18 @@ public class RepositoryTests : DatabaseTestBase
     }
 
     [Test]
-    public async Task GetProcessedItems_CanHandleLargeLists_ShouldReturnEmptyList()
+    public async Task GetProcessedItems_CanHandleLargeLists()
     {
+        var feedId = Dummies.GuidString();
+        var itemId = Dummies.GuidString();
+        await SaveTestPost(feedId, itemId);
         await SaveTestPost();
 
         var itemIds = Enumerable.Range(0, 1_000)
-            .Select(_ => Dummies.GuidString())
-            .ToArray();
+            .Select(_ => Dummies.GuidString());
 
-        var actual = await Repository.GetProcessedItems(Dummies.GuidString(), itemIds);
-        actual.Should().BeEmpty();
+        var actual = await Repository.GetProcessedItems(feedId, [..itemIds, itemId]);
+        actual.Should().ContainSingle();
     }
 
     [Test]
