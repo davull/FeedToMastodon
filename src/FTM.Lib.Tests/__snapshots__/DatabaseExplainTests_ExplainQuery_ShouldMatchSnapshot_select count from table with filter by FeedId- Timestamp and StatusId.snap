@@ -1,0 +1,11 @@
+﻿{
+  "result": [
+    {
+      "id": 4,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SEARCH ProcessedPosts USING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=?)"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'\n  AND Timestamp >= 1731683439 AND Timestamp < 1731693439\n  AND StatusId IS NOT NULL;"
+}

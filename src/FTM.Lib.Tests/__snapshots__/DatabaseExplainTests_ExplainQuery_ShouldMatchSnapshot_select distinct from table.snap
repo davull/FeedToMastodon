@@ -1,11 +1,11 @@
 ﻿{
   "result": [
     {
-      "id": 2,
+      "id": 3,
       "parent": 0,
       "notused": 0,
       "detail": "SCAN ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1"
     }
   ],
-  "sql": "EXPLAIN QUERY PLAN SELECT FeedId, ItemId\nFROM ProcessedPosts"
+  "sql": "EXPLAIN QUERY PLAN SELECT DISTINCT FeedId\nfrom ProcessedPosts;"
 }

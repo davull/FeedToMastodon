@@ -13,9 +13,15 @@ public class DatabaseExplainTests : DatabaseTestBase
     {
         using var con = Database.CreateConnection();
 
-        var result = (await con.QueryAsync<ExplainRecord>(sql)).Single();
-        result = result with { Sql = sql };
-        result.Should().MatchSnapshotWithTestName();
+        var result = await con.QueryAsync(sql);
+
+        var snapshot = new
+        {
+            result,
+            sql
+        };
+
+        snapshot.Should().MatchSnapshotWithTestName();
     }
 
     private static IEnumerable<TestCaseData> ExplainTestCases()
@@ -53,10 +59,29 @@ public class DatabaseExplainTests : DatabaseTestBase
             FROM ProcessedPosts
             WHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'
             """).SetName("select count from table with filter by FeedId");
-    }
 
-    private record ExplainRecord(long Id, long Parent, long Notused, string Detail)
-    {
-        public string Sql { get; init; } = null!;
+        yield return new TestCaseData(
+            """
+            EXPLAIN QUERY PLAN SELECT count(*)
+            FROM ProcessedPosts
+            WHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'
+              AND Timestamp >= 1731683439 AND Timestamp < 1731693439
+              AND StatusId IS NOT NULL;
+            """).SetName("select count from table with filter by FeedId, Timestamp and StatusId");
+
+        yield return new TestCaseData(
+            """
+            EXPLAIN QUERY PLAN SELECT DISTINCT FeedId
+            from ProcessedPosts;
+            """).SetName("select distinct from table");
+
+        yield return new TestCaseData(
+            """
+            EXPLAIN QUERY PLAN SELECT FeedTitle
+            FROM ProcessedPosts 
+            WHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'
+            ORDER BY Timestamp DESC
+            LIMIT 1
+            """).SetName("select from table with filter, order, limit");
     }
 }

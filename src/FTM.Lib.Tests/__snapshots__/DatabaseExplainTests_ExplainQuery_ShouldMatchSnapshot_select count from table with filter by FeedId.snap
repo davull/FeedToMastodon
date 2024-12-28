@@ -1,7 +1,11 @@
 ﻿{
-  "Id": 3,
-  "Parent": 0,
-  "Notused": 0,
-  "Detail": "SEARCH ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=?)",
-  "Sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'"
+  "result": [
+    {
+      "id": 3,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SEARCH ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=?)"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'"
 }

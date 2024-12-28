@@ -1,7 +1,11 @@
 ﻿{
-  "Id": 4,
-  "Parent": 0,
-  "Notused": 0,
-  "Detail": "SCAN ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1",
-  "Sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts"
+  "result": [
+    {
+      "id": 4,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SCAN ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT count(*)\nFROM ProcessedPosts"
 }

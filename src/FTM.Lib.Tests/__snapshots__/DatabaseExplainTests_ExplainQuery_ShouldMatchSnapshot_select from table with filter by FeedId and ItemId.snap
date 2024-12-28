@@ -1,7 +1,11 @@
 ﻿{
-  "Id": 2,
-  "Parent": 0,
-  "Notused": 0,
-  "Detail": "SEARCH ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=? AND ItemId=?)",
-  "Sql": "EXPLAIN QUERY PLAN SELECT FeedId, ItemId\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'\n  AND ItemId IN ( 'http://heise.de/-10038958', 'http://heise.de/-10035763' )"
+  "result": [
+    {
+      "id": 2,
+      "parent": 0,
+      "notused": 0,
+      "detail": "SEARCH ProcessedPosts USING COVERING INDEX sqlite_autoindex_ProcessedPosts_1 (FeedId=? AND ItemId=?)"
+    }
+  ],
+  "sql": "EXPLAIN QUERY PLAN SELECT FeedId, ItemId\nFROM ProcessedPosts\nWHERE FeedId = 'https://www.heise.de/rss/heise-atom.xml'\n  AND ItemId IN ( 'http://heise.de/-10038958', 'http://heise.de/-10035763' )"
 }
