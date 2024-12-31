@@ -9,7 +9,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="coverlet.collector" Version="6.0.2" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.3" />
     <PackageVersion Include="Dapper" Version="2.1.35" />
     <PackageVersion Include="dbup-sqlite" Version="6.0.1" />
     <PackageVersion Include="FluentAssertions" Version="7.0.0" />
