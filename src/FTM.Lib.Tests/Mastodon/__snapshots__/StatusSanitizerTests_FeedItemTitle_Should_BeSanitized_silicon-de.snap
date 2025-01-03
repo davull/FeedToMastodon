@@ -1,5 +1,85 @@
 ﻿[
   {
+    "itemId": "https://www.silicon.de/?p=41717452",
+    "raw": "Studie: Rund ein Drittel der APIs sind ungeschützt",
+    "sanitized": "Studie: Rund ein Drittel der APIs sind ungeschützt"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717449",
+    "raw": "Universitätsmedizin Essen setzt für E-Mail-Sicherheit auf NoSpamProxy",
+    "sanitized": "Universitätsmedizin Essen setzt für E-Mail-Sicherheit auf NoSpamProxy"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717447",
+    "raw": "Bau-Spezialist Schöck: Migration von SAP ECC ERP auf S/4HANA",
+    "sanitized": "Bau-Spezialist Schöck: Migration von SAP ECC ERP auf S/4HANA"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717436",
+    "raw": "Pure Storage: Cloud, KI und Energieeffizienz",
+    "sanitized": "Pure Storage: Cloud, KI und Energieeffizienz"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717413",
+    "raw": "GenKI verbessert Datenmanagement und Angebotsgenauigkeit",
+    "sanitized": "GenKI verbessert Datenmanagement und Angebotsgenauigkeit"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717410",
+    "raw": "Rolls-Royce Power Systems nutzt industrielle KI aus der IFS Cloud​",
+    "sanitized": "Rolls-Royce Power Systems nutzt industrielle KI aus der IFS Cloud​"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717407",
+    "raw": "Thomas-Krenn.AG: viele Pflichten, knappe Ressourcen, mehr freie IT-Welt",
+    "sanitized": "Thomas-Krenn.AG: viele Pflichten, knappe Ressourcen, mehr freie IT-Welt"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717386",
+    "raw": "Stadt Kempen nutzt Onsite Colocation-Lösung",
+    "sanitized": "Stadt Kempen nutzt Onsite Colocation-Lösung"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717383",
+    "raw": "SoftwareOne: Cloud-Technologie wird sich von Grund auf verändern",
+    "sanitized": "SoftwareOne: Cloud-Technologie wird sich von Grund auf verändern"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717379",
+    "raw": "KI-basierte Herz-Kreislauf-Vorsorge entlastet Herzspezialisten​",
+    "sanitized": "KI-basierte Herz-Kreislauf-Vorsorge entlastet Herzspezialisten​"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717233",
+    "raw": "IBM sieht Nachhaltigkeit als KI-Treiber",
+    "sanitized": "IBM sieht Nachhaltigkeit als KI-Treiber"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717365",
+    "raw": "Wie KI das Rechnungsmanagement optimiert",
+    "sanitized": "Wie KI das Rechnungsmanagement optimiert"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717358",
+    "raw": "Zukunft der europäischen Cybersicherheit ist automatisiert",
+    "sanitized": "Zukunft der europäischen Cybersicherheit ist automatisiert"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717347",
+    "raw": "Imperva: API-Nutzung vergrößert Angriffsfläche",
+    "sanitized": "Imperva: API-Nutzung vergrößert Angriffsfläche"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717342",
+    "raw": "Zendesk: KI-Integration steht auch beim Kundenservice am Anfang",
+    "sanitized": "Zendesk: KI-Integration steht auch beim Kundenservice am Anfang"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717225",
+    "raw": "Cyberangriffe kosten Unternehmen im Schnitt 1 Million Dollar",
+    "sanitized": "Cyberangriffe kosten Unternehmen im Schnitt 1 Million Dollar"
+  },
+  {
     "itemId": "https://www.silicon.de/?p=41717316",
     "raw": "Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert",
     "sanitized": "Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert"
@@ -58,6 +138,11 @@
     "itemId": "https://www.silicon.de/?p=41717190",
     "raw": "Wenn KI die Luftfracht managt",
     "sanitized": "Wenn KI die Luftfracht managt"
+  },
+  {
+    "itemId": "https://www.silicon.de/?p=41717045",
+    "raw": "KI im SEO: So erzielen Sie optimale Ergebnisse",
+    "sanitized": "KI im SEO: So erzielen Sie optimale Ergebnisse"
   },
   {
     "itemId": "https://www.silicon.de/?p=41717169",
@@ -140,6 +225,11 @@
     "sanitized": "Cloud-Transformation: Vom Wildwuchs zur Effizienz"
   },
   {
+    "itemId": "https://www.silicon.de/?p=41717419",
+    "raw": "Kopenhagen kulinarisch: Smørrebrød, Märkte und nordische Köstlichkeiten",
+    "sanitized": "Kopenhagen kulinarisch: Smørrebrød, Märkte und nordische Köstlichkeiten"
+  },
+  {
     "itemId": "https://www.silicon.de/?p=41717059",
     "raw": "Lückenlose Sicherheit ohne erhöhte Latenz",
     "sanitized": "Lückenlose Sicherheit ohne erhöhte Latenz"
@@ -158,95 +248,5 @@
     "itemId": "https://www.silicon.de/?p=41717019",
     "raw": "KI-Reifegrad-Studie: Viele Unternehmen stehen noch am Anfang",
     "sanitized": "KI-Reifegrad-Studie: Viele Unternehmen stehen noch am Anfang"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41717016",
-    "raw": "Das Wiederaufleben USB-basierter Angriffe",
-    "sanitized": "Das Wiederaufleben USB-basierter Angriffe"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716892",
-    "raw": "KI in Unternehmen – Die Zukunft der Digitalisierung",
-    "sanitized": "KI in Unternehmen – Die Zukunft der Digitalisierung"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716998",
-    "raw": "S/4HANA-Migration: Verzögerung vorprogrammiert?",
-    "sanitized": "S/4HANA-Migration: Verzögerung vorprogrammiert?"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716511",
-    "raw": "Black Friday: Ein Blick auf den Schnäppchen-Hype",
-    "sanitized": "Black Friday: Ein Blick auf den Schnäppchen-Hype"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716988",
-    "raw": "Mehr Datenschutz in der Montage",
-    "sanitized": "Mehr Datenschutz in der Montage"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716985",
-    "raw": "Cyber Resilience Act: Countdown läuft",
-    "sanitized": "Cyber Resilience Act: Countdown läuft"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716940",
-    "raw": "KI auf dem Prüfstand",
-    "sanitized": "KI auf dem Prüfstand"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716935",
-    "raw": "Rechenzentren: Deutschland verliert Anschluss",
-    "sanitized": "Rechenzentren: Deutschland verliert Anschluss"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716930",
-    "raw": "KI steigert Nachfrage nach hybriden Workplace-Umgebungen",
-    "sanitized": "KI steigert Nachfrage nach hybriden Workplace-Umgebungen"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716902",
-    "raw": "Hagebau erreicht E-Mail-Sicherheit mit der NoSpamProxy Cloud",
-    "sanitized": "Hagebau erreicht E-Mail-Sicherheit mit der NoSpamProxy Cloud"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716895",
-    "raw": "Rechenzentrumsnetzwerke als Schlüssel für Desaster Recovery",
-    "sanitized": "Rechenzentrumsnetzwerke als Schlüssel für Desaster Recovery"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41717148",
-    "raw": "Der Faktor Mensch im Cyberschutz: Fortschrittliche Schulungskonzepte und Awareness-Programme",
-    "sanitized": "Der Faktor Mensch im Cyberschutz: Fortschrittliche Schulungskonzepte und Awareness-Programme"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716866",
-    "raw": "Cybersecurity mit KI: Strategischer Vorteil oder Sicherheitsrisiko?",
-    "sanitized": "Cybersecurity mit KI: Strategischer Vorteil oder Sicherheitsrisiko?"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716869",
-    "raw": "Datenexplosion durch KI technisch bewältigen",
-    "sanitized": "Datenexplosion durch KI technisch bewältigen"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716862",
-    "raw": "Alnatura steigert Kundenerlebnis mit Blue Yonder",
-    "sanitized": "Alnatura steigert Kundenerlebnis mit Blue Yonder"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716846",
-    "raw": "So revolutioniert KI & Automatisierung die Lead-Gewinnung durch Content Produktion",
-    "sanitized": "So revolutioniert KI & Automatisierung die Lead-Gewinnung durch Content Produktion"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716831",
-    "raw": "IT 2025: IT-Führungskräfte erwarten massiven KI-Ruck",
-    "sanitized": "IT 2025: IT-Führungskräfte erwarten massiven KI-Ruck"
-  },
-  {
-    "itemId": "https://www.silicon.de/?p=41716805",
-    "raw": "Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte",
-    "sanitized": "Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte"
   }
 ]

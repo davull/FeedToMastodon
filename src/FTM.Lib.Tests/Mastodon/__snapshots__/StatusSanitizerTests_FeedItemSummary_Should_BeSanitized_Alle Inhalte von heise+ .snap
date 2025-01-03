@@ -1,77 +1,77 @@
 ﻿[
   {
-    "itemId": "http://heise.de/-10197283",
-    "raw": "Der Pulsetto ist ein Wearable, das nichts misst, aber am Hals den Vagusnerv stimuliert. Das soll laut Hersteller das Wohlbefinden steigern und Stress abbauen.",
-    "sanitized": "Der Pulsetto ist ein Wearable, das nichts misst, aber am Hals den Vagusnerv stimuliert. Das soll laut Hersteller das Wohlbefinden steigern und Stress abbauen."
+    "itemId": "http://heise.de/-10219524",
+    "raw": "Immer mehr Menschen befragen große Sprachmodelle wie ChatGPT und Gemini. Experimente zeigen, wie solche KI-Systeme die Meinungen ihrer Nutzer verändern.",
+    "sanitized": "Immer mehr Menschen befragen große Sprachmodelle wie ChatGPT und Gemini. Experimente zeigen, wie solche KI-Systeme die Meinungen ihrer Nutzer verändern."
   },
   {
-    "itemId": "http://heise.de/-10196911",
-    "raw": "Der wöchentliche Newsletter von heise+ mit Raspberry Pi 500, Tastatur mit OLED-Displays, Raspi & Co. im Labor, KI auf iPhone nachrüsten und LED-Weihnachtsstern",
-    "sanitized": "Der wöchentliche Newsletter von heise+ mit Raspberry Pi 500, Tastatur mit OLED-Displays, Raspi & Co. im Labor, KI auf iPhone nachrüsten und LED-Weihnachtsstern"
+    "itemId": "http://heise.de/-10219037",
+    "raw": "Celestron bringt ein smartes Teleskop heraus: Origin geht verglichen mit den vollintegrierten Geräten der Konkurrenz neue Wege. Wir haben es getestet.",
+    "sanitized": "Celestron bringt ein smartes Teleskop heraus: Origin geht verglichen mit den vollintegrierten Geräten der Konkurrenz neue Wege. Wir haben es getestet."
   },
   {
-    "itemId": "http://heise.de/-10194970",
-    "raw": "Die Sorge vor dem Verlust langjährig gepflegter Daten bei einem Homebanking-Umzug ist groß. Unsere Anleitungen für gängige Programme helfen beim Systemwechsel.",
-    "sanitized": "Die Sorge vor dem Verlust langjährig gepflegter Daten bei einem Homebanking-Umzug ist groß. Unsere Anleitungen für gängige Programme helfen beim Systemwechsel."
+    "itemId": "http://heise.de/-10206033",
+    "raw": "Wir erklären die wichtigsten Quantisierungsmethoden, mit denen Sprachmodelle wie ChatGPT Energie und Kosten sparen und sogar lokal auf Smartphones laufen.",
+    "sanitized": "Wir erklären die wichtigsten Quantisierungsmethoden, mit denen Sprachmodelle wie ChatGPT Energie und Kosten sparen und sogar lokal auf Smartphones laufen."
   },
   {
-    "itemId": "http://heise.de/-10195239",
-    "raw": "2D-Pixelgrafik vergangener Jahre hat noch immer Charme. Dank diverser Displayfilter erstrahlen Spiele auf 4K-Bildschirmen wie früher auf dem Röhrenfernseher.",
-    "sanitized": "2D-Pixelgrafik vergangener Jahre hat noch immer Charme. Dank diverser Displayfilter erstrahlen Spiele auf 4K-Bildschirmen wie früher auf dem Röhrenfernseher."
+    "itemId": "http://heise.de/-7180518",
+    "raw": "Die Preise an Ladesäulen unterscheiden sich enorm. Wer mit Gleichstrom lädt, zahlt unter Umständen 40 Cent/kWh mehr. Einige Fußnoten sollten Sie deshalb kennen.",
+    "sanitized": "Die Preise an Ladesäulen unterscheiden sich enorm. Wer mit Gleichstrom lädt, zahlt unter Umständen 40 Cent/kWh mehr. Einige Fußnoten sollten Sie deshalb kennen."
   },
   {
-    "itemId": "http://heise.de/-10188835",
-    "raw": "Wazuh bietet Monitoring, XDR und SIEM ohne Lizenzkosten, die Vielzahl der Funktionen erschwert den Einstieg. Wir zeigen, wie man die IT-Infrastruktur schützt.",
-    "sanitized": "Wazuh bietet Monitoring, XDR und SIEM ohne Lizenzkosten, die Vielzahl der Funktionen erschwert den Einstieg. Wir zeigen, wie man die IT-Infrastruktur schützt."
+    "itemId": "http://heise.de/-10198566",
+    "raw": "Wir erklären, wie Sie mit Homematic-IP-Komponenten und RaspberryMatic auf dem Raspi trotz aller Komplexität Ihr Heim vernetzen, um Heizkosten zu sparen.",
+    "sanitized": "Wir erklären, wie Sie mit Homematic-IP-Komponenten und RaspberryMatic auf dem Raspi trotz aller Komplexität Ihr Heim vernetzen, um Heizkosten zu sparen."
   },
   {
-    "itemId": "http://heise.de/-10186452",
-    "raw": "Schon günstige Fitnessarmbänder für rund 40 Euro bieten gutes Tracking und lange Akkulaufzeiten. Teurere Modelle punkten dazu mit Extras wie mobilem Bezahlen.",
-    "sanitized": "Schon günstige Fitnessarmbänder für rund 40 Euro bieten gutes Tracking und lange Akkulaufzeiten. Teurere Modelle punkten dazu mit Extras wie mobilem Bezahlen."
+    "itemId": "http://heise.de/-10185884",
+    "raw": "Wer Astronaut werden will, muss Unmengen an Tests, Fragebögen und Trainings überstehen. Ein Überblick für alle Weltraum-Fans.",
+    "sanitized": "Wer Astronaut werden will, muss Unmengen an Tests, Fragebögen und Trainings überstehen. Ein Überblick für alle Weltraum-Fans."
   },
   {
-    "itemId": "http://heise.de/-10184590",
-    "raw": "Gesundheitsgadgets wie Fitnesstracker oder smarte Waagen liefern viele Daten. Ein Überblick über Sensoren, ihr Zusammenspiel und Grenzen von Consumer-Wearables.",
-    "sanitized": "Gesundheitsgadgets wie Fitnesstracker oder smarte Waagen liefern viele Daten. Ein Überblick über Sensoren, ihr Zusammenspiel und Grenzen von Consumer-Wearables."
+    "itemId": "http://heise.de/-10200908",
+    "raw": "In Handys, Smartwatches und Unternehmen schlummern Daten. Mit Python gewinnen Sie informative Vorhersagen aus dem Datenschatz. Wir schaffen einen Einstieg.",
+    "sanitized": "In Handys, Smartwatches und Unternehmen schlummern Daten. Mit Python gewinnen Sie informative Vorhersagen aus dem Datenschatz. Wir schaffen einen Einstieg."
   },
   {
-    "itemId": "http://heise.de/-10185988",
-    "raw": "Die Huawei Watch D2 pumpt ihr Armband auf, um den Blutdruck zu messen. Die ermittelten Messwerte sind allerdings mit Vorsicht zu genießen.",
-    "sanitized": "Die Huawei Watch D2 pumpt ihr Armband auf, um den Blutdruck zu messen. Die ermittelten Messwerte sind allerdings mit Vorsicht zu genießen."
+    "itemId": "http://heise.de/-10217576",
+    "raw": "Trotz 5G-Mobilfunk kann satellitengestütztes Internet als Backup nützlich sein. Messungen zeigen, was Starlink unter realistischen Bedingungen leistet.",
+    "sanitized": "Trotz 5G-Mobilfunk kann satellitengestütztes Internet als Backup nützlich sein. Messungen zeigen, was Starlink unter realistischen Bedingungen leistet."
   },
   {
-    "itemId": "http://heise.de/-10185249",
-    "raw": "Smarte Ringe versprechen, Körper- und Fitnessdaten bequem und mit langen Akuulaufzeiten zu sammeln. An anderen Stellen schwächeln die Fitnessringe aber.",
-    "sanitized": "Smarte Ringe versprechen, Körper- und Fitnessdaten bequem und mit langen Akuulaufzeiten zu sammeln. An anderen Stellen schwächeln die Fitnessringe aber."
+    "itemId": "http://heise.de/-10194322",
+    "raw": "Der DC-Superheld The Flash überholt Autos, Explosionen und sogar Licht. Forschern gelingt es nun auch, einen Laserpuls im Flug zu filmen.",
+    "sanitized": "Der DC-Superheld The Flash überholt Autos, Explosionen und sogar Licht. Forschern gelingt es nun auch, einen Laserpuls im Flug zu filmen."
   },
   {
-    "itemId": "http://heise.de/-10030226",
-    "raw": "Wer zu viel tippt, riskiert eine Sehnenscheidenentzündung.  Ergonomische Tastaturen sollen das vorbeugen. Wir testen fünf Modelle, darunter Split-Tastaturen.",
-    "sanitized": "Wer zu viel tippt, riskiert eine Sehnenscheidenentzündung.  Ergonomische Tastaturen sollen das vorbeugen. Wir testen fünf Modelle, darunter Split-Tastaturen."
+    "itemId": "http://heise.de/-10192217",
+    "raw": "Chinesische Verkäufer unterlaufen Zollbestimmungen durch Aufteilung von Warensendungen. Die EU will deshalb strengere Plattform-Kontrollen und schärfere Regeln.",
+    "sanitized": "Chinesische Verkäufer unterlaufen Zollbestimmungen durch Aufteilung von Warensendungen. Die EU will deshalb strengere Plattform-Kontrollen und schärfere Regeln."
   },
   {
-    "itemId": "http://heise.de/-10186456",
-    "raw": "Die Energiewende wirkt sich auch auf Fernwärme aus. Wie sich Wärme in großem Maßstab klimafreundlich erzeugen lässt, zeigen die Pläne für Hamburg und Hannover.",
-    "sanitized": "Die Energiewende wirkt sich auch auf Fernwärme aus. Wie sich Wärme in großem Maßstab klimafreundlich erzeugen lässt, zeigen die Pläne für Hamburg und Hannover."
+    "itemId": "http://heise.de/-10180292",
+    "raw": "Skodas Octavia Combi als TDI gehört zu den beliebtesten deutschen Allroundern. Der Hersteller hat die aktuelle Generation zur Perle aufpoliert.",
+    "sanitized": "Skodas Octavia Combi als TDI gehört zu den beliebtesten deutschen Allroundern. Der Hersteller hat die aktuelle Generation zur Perle aufpoliert."
   },
   {
-    "itemId": "http://heise.de/-10190845",
-    "raw": "Unser Leitfaden zeigt, wie KI-unterstütztes Texten im akademischen Umfeld den Lernerfolg nicht mindert, sondern fördert und welche Regeln zu beachten sind.",
-    "sanitized": "Unser Leitfaden zeigt, wie KI-unterstütztes Texten im akademischen Umfeld den Lernerfolg nicht mindert, sondern fördert und welche Regeln zu beachten sind."
+    "itemId": "http://heise.de/-10183694",
+    "raw": "Beim Wechsel auf ein neues Gerät laden iPad oder iPhone die Apps nachträglich aus dem App Store. So schützen Sie sich vor potenziellem App-Schwund.",
+    "sanitized": "Beim Wechsel auf ein neues Gerät laden iPad oder iPhone die Apps nachträglich aus dem App Store. So schützen Sie sich vor potenziellem App-Schwund."
   },
   {
-    "itemId": "http://heise.de/-10194201",
-    "raw": "Mit dem zweiten ThinkPhone ändert die Lenovo-Tochter Motorola die Marschrichtung: Mittelklasse statt High-End, Pragmatismus statt Extravaganz. Lohnt sich das?",
-    "sanitized": "Mit dem zweiten ThinkPhone ändert die Lenovo-Tochter Motorola die Marschrichtung: Mittelklasse statt High-End, Pragmatismus statt Extravaganz. Lohnt sich das?"
+    "itemId": "http://heise.de/-10200309",
+    "raw": "Deutschland und Europa können auf eine lange Geschichte zurückblicken. Diese spiegelt sich in vielen Städten in der Architektur wider. ",
+    "sanitized": "Deutschland und Europa können auf eine lange Geschichte zurückblicken. Diese spiegelt sich in vielen Städten in der Architektur wider."
   },
   {
-    "itemId": "http://heise.de/-10197201",
-    "raw": "Intels Battlemage-Grafikkartengeneration im ersten Test: Die Arc B580 muss im Test nicht nur Performance, sondern auch ihre Effizienz unter Beweis stellen.",
-    "sanitized": "Intels Battlemage-Grafikkartengeneration im ersten Test: Die Arc B580 muss im Test nicht nur Performance, sondern auch ihre Effizienz unter Beweis stellen."
+    "itemId": "http://heise.de/-10196821",
+    "raw": "Die geringe Einstiegshürde von großen Sprachmodellen ist ihre Schwäche: Bei mangelhaften Sicherheitsvorkehrungen lassen sie sich zu Fehlverhalten überreden.",
+    "sanitized": "Die geringe Einstiegshürde von großen Sprachmodellen ist ihre Schwäche: Bei mangelhaften Sicherheitsvorkehrungen lassen sie sich zu Fehlverhalten überreden."
   },
   {
-    "itemId": "http://heise.de/-10196795",
-    "raw": "Wer Elektrik, Smart Home und Netzwerk im Haus selbst planen will, kommt mit der Webanwendung Jetplan schneller an 2D-Pläne und Teilelisten als mit CAD-Software.",
-    "sanitized": "Wer Elektrik, Smart Home und Netzwerk im Haus selbst planen will, kommt mit der Webanwendung Jetplan schneller an 2D-Pläne und Teilelisten als mit CAD-Software."
+    "itemId": "http://heise.de/-10215598",
+    "raw": "Bereits der Kontrollverlust über eigene Daten kann zu Schadenersatzansprüchen führen, hat der BGH entschieden. Deswegen müssen Unternehmen ihre IT schützen.",
+    "sanitized": "Bereits der Kontrollverlust über eigene Daten kann zu Schadenersatzansprüchen führen, hat der BGH entschieden. Deswegen müssen Unternehmen ihre IT schützen."
   }
 ]

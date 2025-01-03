@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx",
+    "raw": "The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects.",
+    "sanitized": "The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx",
+    "raw": "Microsoft improved on its new \"Copilot Edit\" functionality in the latest release of Visual Studio Code, v1.96, its open-source based code editor that has become the most popular in the world according to many surveys.",
+    "sanitized": "Microsoft improved on its new \"Copilot Edit\" functionality in the latest release of Visual Studio Code, v1.96, its open-source based code editor that has become the most popular in the world according to many surveys."
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
     "raw": "In its latest annual developer ecosystem report, JetBrains introduced a new \"Language Promise Index\" topped by Microsoft's TypeScript programming language.",
     "sanitized": "In its latest annual developer ecosystem report, JetBrains introduced a new \"Language Promise Index\" topped by Microsoft's TypeScript programming language."
@@ -288,15 +298,5 @@
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx",
     "raw": "Visual Studio devs who have become dependent upon GitHub Copilot AI assistance will have to wait a while for a hot new feature already available in VS Code.",
     "sanitized": "Visual Studio devs who have become dependent upon GitHub Copilot AI assistance will have to wait a while for a hot new feature already available in VS Code."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx",
-    "raw": "In revealing future plans for its Semantic Kernel AI dev tooling, Microsoft said it's going small -- at lease in terms of AI model size.",
-    "sanitized": "In revealing future plans for its Semantic Kernel AI dev tooling, Microsoft said it's going small -- at lease in terms of AI model size."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
-    "raw": "Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension.",
-    "sanitized": "Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension."
   }
 ]

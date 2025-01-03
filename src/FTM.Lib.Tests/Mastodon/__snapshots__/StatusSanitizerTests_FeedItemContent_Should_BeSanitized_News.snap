@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
     "raw": null,
     "sanitized": null
@@ -286,16 +296,6 @@
   },
   {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
     "raw": null,
     "sanitized": null
   }

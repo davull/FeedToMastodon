@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://nextcloud.com/?p=276209",
+    "raw": "Nextcloud powering the digital workspace of tomorrow: 2024 in review",
+    "sanitized": "Nextcloud powering the digital workspace of tomorrow: 2024 in review"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=271028",
+    "raw": "Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches",
+    "sanitized": "Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches"
+  },
+  {
+    "itemId": "https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/",
+    "raw": "Empowering through open source: Nextcloud’s Director of Engineering Andy Scherzinger",
+    "sanitized": "Empowering through open source: Nextcloud’s Director of Engineering Andy Scherzinger"
+  },
+  {
     "itemId": "https://nextcloud.com/?p=273491",
     "raw": "December maintenance updates for Nextcloud Hub 7, 8 and 9",
     "sanitized": "December maintenance updates for Nextcloud Hub 7, 8 and 9"
@@ -33,20 +48,5 @@
     "itemId": "https://nextcloud.com/?p=265256",
     "raw": "Nextcloud Enterprise Day:  key to smooth SharePoint to Nextcloud migration with Dr. Frank Dengler",
     "sanitized": "Nextcloud Enterprise Day:  key to smooth SharePoint to Nextcloud migration with Dr. Frank Dengler"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=263323",
-    "raw": "Open Source AI is here",
-    "sanitized": "Open Source AI is here"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=264537",
-    "raw": "HKN joins as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt",
-    "sanitized": "HKN joins as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=264188",
-    "raw": "MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt",
-    "sanitized": "MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt"
   }
 ]

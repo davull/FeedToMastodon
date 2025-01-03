@@ -2,10 +2,70 @@
   "Id": "https://www.rosehosting.com/blog/feed/",
   "Website": "https://www.rosehosting.com/blog/",
   "Title": "RoseHosting",
-  "LastUpdatedTime": "2024-11-18T18:55:00+00:00",
+  "LastUpdatedTime": "2024-12-13T10:08:28+00:00",
   "Description": "Premium Linux Tutorials Since 2001",
   "Language": "en-US",
   "Items": [
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49608",
+      "Title": "WordPress vs Web Builders",
+      "PublishDate": "2024-12-25T18:30:00+00:00",
+      "Summary": "<p>Stacking up WordPress vs web builders such as Squarespace, Wix, and Shopify is a question asked often. Various comparisons of ... </p>\n<p class=\"read-more-container\"><a title=\"WordPress vs Web Builders\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/wordpress-vs-web-builders/#more-49608\" aria-label=\"Read more about WordPress vs Web Builders\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/wordpress-vs-web-builders/\">WordPress vs Web Builders</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/wordpress-vs-web-builders/"
+    },
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49630",
+      "Title": "How to Install WordPress with LEMP on Ubuntu 24.04",
+      "PublishDate": "2024-12-23T18:30:00+00:00",
+      "Summary": "<p>This tutorial is about installing WordPress with the LEMP stack on Ubuntu 24.04. WordPress is an open-source content management system ... </p>\n<p class=\"read-more-container\"><a title=\"How to Install WordPress with LEMP on Ubuntu 24.04\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-install-wordpress-with-lemp-on-ubuntu-24-04/#more-49630\" aria-label=\"Read more about How to Install WordPress with LEMP on Ubuntu 24.04\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-install-wordpress-with-lemp-on-ubuntu-24-04/\">How to Install WordPress with LEMP on Ubuntu 24.04</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/how-to-install-wordpress-with-lemp-on-ubuntu-24-04/"
+    },
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49590",
+      "Title": "Agency Hosting: The Agency Carousel",
+      "PublishDate": "2024-12-18T18:30:00+00:00",
+      "Summary": "<p>What is the agency carousel, and how does true managed agency hosting help you get back on track? Can fully ... </p>\n<p class=\"read-more-container\"><a title=\"Agency Hosting: The Agency Carousel\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/agency-hosting-the-agency-carousel/#more-49590\" aria-label=\"Read more about Agency Hosting: The Agency Carousel\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/agency-hosting-the-agency-carousel/\">Agency Hosting: The Agency Carousel</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/agency-hosting-the-agency-carousel/"
+    },
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49622",
+      "Title": "How to Use the htop Command to Monitor System Processes and Resource Usage",
+      "PublishDate": "2024-12-16T18:30:00+00:00",
+      "Summary": "<p>This tutorial will explain how to use the htop command in Linux with examples. The htop command in the Linux ... </p>\n<p class=\"read-more-container\"><a title=\"How to Use the htop Command to Monitor System Processes and Resource Usage\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/htop-command-monitor-system-processes/#more-49622\" aria-label=\"Read more about How to Use the htop Command to Monitor System Processes and Resource Usage\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/htop-command-monitor-system-processes/\">How to Use the htop Command to Monitor System Processes and Resource Usage</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/htop-command-monitor-system-processes/"
+    },
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49441",
+      "Title": "What it means to be in the web hosting business for 25 years",
+      "PublishDate": "2024-12-11T18:30:00+00:00",
+      "Summary": "<p>Simply put, being in business for 25 years means a company has operated for a quarter of a century. However, ... </p>\n<p class=\"read-more-container\"><a title=\"What it means to be in the web hosting business for 25 years\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-it-means-to-be-in-the-web-hosting-business-for-25-years/#more-49441\" aria-label=\"Read more about What it means to be in the web hosting business for 25 years\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-it-means-to-be-in-the-web-hosting-business-for-25-years/\">What it means to be in the web hosting business for 25 years</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/what-it-means-to-be-in-the-web-hosting-business-for-25-years/"
+    },
+    {
+      "FeedId": "https://www.rosehosting.com/blog/feed/",
+      "ItemId": "https://www.rosehosting.com/blog/?p=49555",
+      "Title": "How to Install Odoo 18 on AlmaLinux 9",
+      "PublishDate": "2024-12-09T18:30:00+00:00",
+      "Summary": "<p>Odoo provides many applications, including accounting, inventory management, CRM, and e-commerce. This versatility makes it a favored option for businesses ... </p>\n<p class=\"read-more-container\"><a title=\"How to Install Odoo 18 on AlmaLinux 9\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-9/#more-49555\" aria-label=\"Read more about How to Install Odoo 18 on AlmaLinux 9\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-9/\">How to Install Odoo 18 on AlmaLinux 9</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
+      "Content": null,
+      "Language": "en-US",
+      "Link": "https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-9/"
+    },
     {
       "FeedId": "https://www.rosehosting.com/blog/feed/",
       "ItemId": "https://www.rosehosting.com/blog/?p=49551",
@@ -25,66 +85,6 @@
       "Content": null,
       "Language": "en-US",
       "Link": "https://www.rosehosting.com/blog/how-to-install-odoo-18-on-ubuntu-24-04/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49513",
-      "Title": "How to Change Your Domain Name the Right Way",
-      "PublishDate": "2024-11-27T18:30:00+00:00",
-      "Summary": "<p>This blog post will show you how to change your domain name correctly. A domain name is a string that ... </p>\n<p class=\"read-more-container\"><a title=\"How to Change Your Domain Name the Right Way\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-change-your-domain-name/#more-49513\" aria-label=\"Read more about How to Change Your Domain Name the Right Way\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-change-your-domain-name/\">How to Change Your Domain Name the Right Way</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/how-to-change-your-domain-name/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49490",
-      "Title": "The Difference between Brotli vs gzip to speed up your site",
-      "PublishDate": "2024-11-25T06:26:00+00:00",
-      "Summary": "<p>HTTP compression is a built-in capability in most modern web servers and clients. This reduces the size of data or ... </p>\n<p class=\"read-more-container\"><a title=\"The Difference between Brotli vs gzip to speed up your site\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/brotli-vs-gzip/#more-49490\" aria-label=\"Read more about The Difference between Brotli vs gzip to speed up your site\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/brotli-vs-gzip/\">The Difference between Brotli vs gzip to speed up your site</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/brotli-vs-gzip/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49472",
-      "Title": "Nameservers: What Are They And How Do They Work?",
-      "PublishDate": "2024-11-20T18:30:00+00:00",
-      "Summary": "<p>When hosting a website on a server, you were probably asked by your hosting company to point your domain to ... </p>\n<p class=\"read-more-container\"><a title=\"Nameservers: What Are They And How Do They Work?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-are-nameservers/#more-49472\" aria-label=\"Read more about Nameservers: What Are They And How Do They Work?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-are-nameservers/\">Nameservers: What Are They And How Do They Work?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/what-are-nameservers/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49476",
-      "Title": "How to Install Odoo 18 on Debian 12",
-      "PublishDate": "2024-11-18T18:30:00+00:00",
-      "Summary": "<p>Odoo, formerly OpenERP, is a suite of open-source business applications. It is widely regarded as a leading open-source enterprise resource ... </p>\n<p class=\"read-more-container\"><a title=\"How to Install Odoo 18 on Debian 12\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/#more-49476\" aria-label=\"Read more about How to Install Odoo 18 on Debian 12\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/\">How to Install Odoo 18 on Debian 12</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/how-to-install-odoo-18-on-debian-12/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49468",
-      "Title": "How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04",
-      "PublishDate": "2024-11-13T18:30:00+00:00",
-      "Summary": "<p>Nginx or NGINX is a widely used web server with many features, including load balancing, reverse proxying, content caching, mail ... </p>\n<p class=\"read-more-container\"><a title=\"How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/#more-49468\" aria-label=\"Read more about How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/\">How To Configure Nginx as a Reverse Proxy on Ubuntu 24.04</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-24-04/"
-    },
-    {
-      "FeedId": "https://www.rosehosting.com/blog/feed/",
-      "ItemId": "https://www.rosehosting.com/blog/?p=49418",
-      "Title": "What is Price Transparency, and How Does it Benefit You?",
-      "PublishDate": "2024-11-11T18:30:00+00:00",
-      "Summary": "<p>Price transparency. Cost transparency. Open pricing. No hidden fees. All synonyms that are changing the way you make purchase decisions. ... </p>\n<p class=\"read-more-container\"><a title=\"What is Price Transparency, and How Does it Benefit You?\" class=\"read-more button\" href=\"https://www.rosehosting.com/blog/what-is-price-transparency/#more-49418\" aria-label=\"Read more about What is Price Transparency, and How Does it Benefit You?\">Read More</a></p>\n<p>The post <a href=\"https://www.rosehosting.com/blog/what-is-price-transparency/\">What is Price Transparency, and How Does it Benefit You?</a> appeared first on <a href=\"https://www.rosehosting.com/blog\">RoseHosting</a>.</p>\n",
-      "Content": null,
-      "Language": "en-US",
-      "Link": "https://www.rosehosting.com/blog/what-is-price-transparency/"
     }
   ]
 }

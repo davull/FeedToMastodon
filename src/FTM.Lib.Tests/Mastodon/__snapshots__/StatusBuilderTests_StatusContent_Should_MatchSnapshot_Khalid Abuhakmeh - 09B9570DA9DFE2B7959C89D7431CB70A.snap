@@ -1,7 +1,0 @@
-﻿Htmx and Playwright Tests in C#
-
-Community member Jonathan Channon recently approached me about an appropriate way to test your Htmx-powered applications using the Playwright testing framework. It can be annoying to get the timing right between sending an HTMX request, processing it on the server, and applying it to the page.
-
-In this post, we’ll see a surefire way to wait for Htmx to finish before testing the state of your pages, thus leading to more reliable ...
----
-https://khalidabuhakmeh.com/htmx-and-playwright-tests-in-csharp

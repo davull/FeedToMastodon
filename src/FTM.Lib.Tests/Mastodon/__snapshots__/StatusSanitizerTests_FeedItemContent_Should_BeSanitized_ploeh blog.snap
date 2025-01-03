@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://blog.ploeh.dk/2024/12/30/pytest-is-fast",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/12/23/implementing-rod-cutting",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/12/16/a-restaurant-sandwich",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets",
     "raw": null,
     "sanitized": null
@@ -31,21 +46,6 @@
   },
   {
     "itemId": "https://blog.ploeh.dk/2024/10/28/functor-compositions",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/21/legacy-security-manager-in-haskell",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/14/functor-sums",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/07/the-const-functor",
     "raw": null,
     "sanitized": null
   }

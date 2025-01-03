@@ -1,5 +1,40 @@
 ﻿[
   {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251794",
+    "raw": "Dock the Code Search window in Visual Studio 2022",
+    "sanitized": "Dock the Code Search window in Visual Studio 2022"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251839",
+    "raw": "Go to line anywhere with Code Search for Visual Studio 2022",
+    "sanitized": "Go to line anywhere with Code Search for Visual Studio 2022"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251830",
+    "raw": "Connect securely to your Azure resources",
+    "sanitized": "Connect securely to your Azure resources"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251823",
+    "raw": "Security updates to Azure publishing from Visual Studio",
+    "sanitized": "Security updates to Azure publishing from Visual Studio"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251812",
+    "raw": "GitHub Copilot Free is here in Visual Studio",
+    "sanitized": "GitHub Copilot Free is here in Visual Studio"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251787",
+    "raw": "Refresh your Find results",
+    "sanitized": "Refresh your Find results"
+  },
+  {
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251783",
+    "raw": "Create internal GitHub repos for your team",
+    "sanitized": "Create internal GitHub repos for your team"
+  },
+  {
     "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251755",
     "raw": "Boost your Git confidence with the new file rename notification",
     "sanitized": "Boost your Git confidence with the new file rename notification"
@@ -13,40 +48,5 @@
     "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251739",
     "raw": "Effortless publishing to Azure WebJobs on Linux",
     "sanitized": "Effortless publishing to Azure WebJobs on Linux"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251728",
-    "raw": "Keep working with non-blocking Code Cleanup",
-    "sanitized": "Keep working with non-blocking Code Cleanup"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251641",
-    "raw": "Introducing Code Referencing for GitHub Copilot Chat in Visual Studio",
-    "sanitized": "Introducing Code Referencing for GitHub Copilot Chat in Visual Studio"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251636",
-    "raw": "How Inline Return Values Simplify Debugging in Visual Studio 2022",
-    "sanitized": "How Inline Return Values Simplify Debugging in Visual Studio 2022"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251631",
-    "raw": "Introducing the Copy Git Permalink Feature in Visual Studio 17.12",
-    "sanitized": "Introducing the Copy Git Permalink Feature in Visual Studio 17.12"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251626",
-    "raw": "AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio",
-    "sanitized": "AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251588",
-    "raw": "Transform your debugging experience with GitHub Copilot",
-    "sanitized": "Transform your debugging experience with GitHub Copilot"
-  },
-  {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251578",
-    "raw": "Updates for C++ developers in Visual Studio 2022 17.12",
-    "sanitized": "Updates for C++ developers in Visual Studio 2022 17.12"
   }
 ]

@@ -1,0 +1,20 @@
+﻿Implementing rod-cutting
+
+From pseudocode to implementation in three languages.
+    
+    
+        This article picks up where Implementation and usage mindsets left off, examining how easy it is to implement an algorithm in three different programming languages.
+    
+    
+        As an example, I'll use the bottom-up rod-cutting algorithm from Introduction to Algorithms.
+    
+    
+        Rod-cutting #
+    
+    
+        The problem is simple:
+    
+    
+        ...
+---
+https://blog.ploeh.dk/2024/12/23/implementing-rod-cutting/

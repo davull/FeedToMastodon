@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/",
+    "raw": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+    "sanitized": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/",
+    "raw": "Zeek (formerly Bro) is a free and open-source platform for network security monitoring. It is a powerful passive network traffic analyzer that investigates suspicious or malicious activity.",
+    "sanitized": "Zeek (formerly Bro) is a free and open-source platform for network security monitoring. It is a powerful passive network traffic analyzer that investigates suspicious or malicious activity."
+  },
+  {
     "itemId": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/",
     "raw": "pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04.",
     "sanitized": "pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04."
@@ -38,15 +48,5 @@
     "itemId": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/",
     "raw": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron.",
     "sanitized": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/",
-    "raw": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana.",
-    "sanitized": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
-    "raw": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.",
-    "sanitized": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams."
   }
 ]

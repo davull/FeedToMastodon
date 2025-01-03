@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
+    "raw": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image",
+    "sanitized": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image"
+  },
+  {
     "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
     "raw": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps",
     "sanitized": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps"
@@ -118,10 +123,5 @@
     "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-1-introducing-collection-expressions-in-csharp12/",
     "raw": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element",
     "sanitized": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element"
-  },
-  {
-    "itemId": "https://andrewlock.net/conditionally-skipping-a-trigger-job-in-gitlab-based-on-a-previous-job/",
-    "raw": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines",
-    "sanitized": "In this post I describe the approaches I explored to conditionally skip a trigger job in GitLab based on a previous job using dynamic pipelines"
   }
 ]

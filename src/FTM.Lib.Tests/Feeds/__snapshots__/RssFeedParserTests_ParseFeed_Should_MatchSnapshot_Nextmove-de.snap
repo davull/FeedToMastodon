@@ -2,10 +2,20 @@
   "Id": "https://nextmove.de/feed/",
   "Website": "https://nextmove.de",
   "Title": "nextmove",
-  "LastUpdatedTime": "2024-10-25T12:33:10+00:00",
+  "LastUpdatedTime": "2024-12-19T13:52:03+00:00",
   "Description": "Elektroautos testen, mieten, abonnieren oder kaufen",
   "Language": "de",
   "Items": [
+    {
+      "FeedId": "https://nextmove.de/feed/",
+      "ItemId": "https://nextmove.de/?p=29846",
+      "Title": "Auf die Kleinen kommt es an!",
+      "PublishDate": "2024-12-19T13:52:03+00:00",
+      "Summary": "<p>Diesen Blogbeitrag widmen wir einem lokalen Energieversorger, der sich seit Jahren für die Elektromobilität im ländlichen Raum einsetzt. Es handelt [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://nextmove.de/auf-die-kleinen-kommt-es-an/\">Auf die Kleinen kommt es an!</a> appeared first on <a rel=\"nofollow\" href=\"https://nextmove.de\">nextmove</a>.</p>\n",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://nextmove.de/auf-die-kleinen-kommt-es-an/"
+    },
     {
       "FeedId": "https://nextmove.de/feed/",
       "ItemId": "https://nextmove.de/?p=29806",
@@ -95,16 +105,6 @@
       "Content": null,
       "Language": "de",
       "Link": "https://nextmove.de/ausbau-der-ladeinfrastruktur-muss-dem-aktuellen-ladebedarf-vorausgehen-studie-gibt-ausblick-auf-2030/"
-    },
-    {
-      "FeedId": "https://nextmove.de/feed/",
-      "ItemId": "https://nextmove.de/?p=28037",
-      "Title": "nextnews: Renault R5, VW ID.3, Laden günstiger, Urlaubs-Falle, GWM schließt Standort, CDU-Kampagne",
-      "PublishDate": "2024-06-04T06:45:37+00:00",
-      "Summary": "<p>Renault R5 Bestellstart 25.000 Euro sind der fest zugesagte Zielpreis der Basisversion des Renault R5. Heute ist Bestellstart, aber das [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://nextmove.de/nextnews-renault-r5-vw-id-3-laden-guenstiger-urlaubs-falle-gwm-schliesst-standort-cdu-kampagne/\">nextnews: Renault R5, VW ID.3, Laden günstiger, Urlaubs-Falle, GWM schließt Standort, CDU-Kampagne</a> appeared first on <a rel=\"nofollow\" href=\"https://nextmove.de\">nextmove</a>.</p>\n",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://nextmove.de/nextnews-renault-r5-vw-id-3-laden-guenstiger-urlaubs-falle-gwm-schliesst-standort-cdu-kampagne/"
     }
   ]
 }
