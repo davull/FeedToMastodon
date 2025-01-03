@@ -1,0 +1,110 @@
+﻿{
+  "Id": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+  "Website": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+  "Title": "FernUniversität in Hagen - Aktuelles",
+  "LastUpdatedTime": "2025-01-03T01:01:02+01:00",
+  "Description": "Aktuelles",
+  "Language": "de",
+  "Items": [
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/CO2-ist-noch-nicht-teuer-genug.shtml",
+      "Title": "CO2 ist noch nicht teuer genug",
+      "PublishDate": "2024-12-19T00:00:00+01:00",
+      "Summary": "Eine groß angelegte Studie mit FernUni-Prof. Robert Schmidt zeigt Konsens unter Forscherinnen und Forschern: Die Preise für eine Tonne CO2 müssten deutlich höher sein als bisher.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/CO2-ist-noch-nicht-teuer-genug.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-lateinamerikanische-gaeste.shtml",
+      "Title": "Lateinamerika zu Gast in Hagen",
+      "PublishDate": "2024-12-18T00:00:00+01:00",
+      "Summary": "Die FernUni pflegt einen engen deutsch-lateinamerikanischen Austausch – mit anhaltendem Erfolg: Gerade forschen Gäste aus Chile, Brasilien, Argentinien und Mexiko auf dem Campus.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-lateinamerikanische-gaeste.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/jahresrueckblick-2024.shtml",
+      "Title": "Jahresrückblick 2024 ",
+      "PublishDate": "2024-12-16T00:00:00+01:00",
+      "Summary": "Lassen Sie das FernUni-Jahr 2024 noch einmal Revue passieren. Unsere Bildergalerie zeigt eine Auswahl wichtiger und schöner Momente.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/jahresrueckblick-2024.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-start-in-hagen.shtml",
+      "Title": "Gelandet in Hagen: Vom kleinen Raum zur größten Uni",
+      "PublishDate": "2024-12-13T00:00:00+01:00",
+      "Summary": "Das erste Büro der FernUni, es wurde nicht auf dem heutigen Campusgelände bezogen, sondern in der Hagener Fachhochschule. Rolf von der Heyden und Dr. Bernd Sudeick erinnern sich.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-start-in-hagen.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/wie-wichtig-ist-uns-die-arbeitsatmosphaere.shtml",
+      "Title": "Wie wichtig ist uns die Arbeitsatmosphäre?",
+      "PublishDate": "2024-11-12T00:00:00+01:00",
+      "Summary": "FernUni-Forschende haben die erste repräsentative Studie in Deutschland zur Arbeitsatmosphäre veröffentlicht. Das Ergebnis zeigt auf, warum sie so wichtig für Angestellte ist.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/wie-wichtig-ist-uns-die-arbeitsatmosphaere.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/aktuelles-termine/aktuelles/MeetAIEDU.shtml",
+      "Title": "Neugier auf das, was mit Bildungstechnologien möglich ist",
+      "PublishDate": "2024-06-12T00:00:00+02:00",
+      "Summary": "Die Wissenschaftler:innen Prof. Dr. Claudia de Witt, Silke Wrede und Lars van Rijn vom AI.EDU Research Lab berichten im Interview von ihren zentralen Forschungserkenntnissen.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/aktuelles-termine/aktuelles/MeetAIEDU.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-hochschulwahl.shtml",
+      "Title": "FernUniversität wählt Stefan Stürmer zum neuen Rektor",
+      "PublishDate": "2024-05-12T00:00:00+02:00",
+      "Summary": "Die Hochschulwahlversammlung der FernUniversität in Hagen hat Prof. Dr. Stefan Stürmer am 5. Dezember zum neuen Rektor gewählt.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-hochschulwahl.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-portrait-frank-hillebrandt.shtml",
+      "Title": "Mehr Freiheit – mit jeder Etappe",
+      "PublishDate": "2024-03-12T00:00:00+01:00",
+      "Summary": "Frank Hillebrandt ist Soziologe an der FernUniversität. Zum 25-jährigen Dienstjubiläum teilt er Erinnerungen an seinen Bildungsweg vom Bergarbeitersohn zum Universitätsprofessor.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/12/am-portrait-frank-hillebrandt.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/11/veex-heldenprojekt.shtml",
+      "Title": "Braucht es Superkräfte, um ein:e Held:in zu sein?",
+      "PublishDate": "2024-11-28T00:00:00+01:00",
+      "Summary": "Auf dem FernUni-Campus ist jetzt das gemeinsame Held:innen-Projekt des außerschulischen Bildungsanbieters Veex und der Hagener Hochschule gestartet.  ",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/11/veex-heldenprojekt.shtml"
+    },
+    {
+      "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/11/abschied-rektorin-ada-pellert.shtml",
+      "Title": "FernUniversität verabschiedet sich von Rektorin Ada Pellert",
+      "PublishDate": "2024-11-28T00:00:00+01:00",
+      "Summary": "Über 300 Gäste nahmen am 27. November an einem Empfang zu Ehren der Rektorin teil, die Hagen in Richtung ihrer Heimat Österreich verlässt.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2024/11/abschied-rektorin-ada-pellert.shtml"
+    }
+  ]
+}
