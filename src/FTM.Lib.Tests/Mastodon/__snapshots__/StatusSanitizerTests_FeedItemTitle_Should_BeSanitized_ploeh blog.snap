@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://blog.ploeh.dk/2024/12/30/pytest-is-fast",
+    "raw": "Pytest is fast",
+    "sanitized": "Pytest is fast"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/12/23/implementing-rod-cutting",
+    "raw": "Implementing rod-cutting",
+    "sanitized": "Implementing rod-cutting"
+  },
+  {
+    "itemId": "https://blog.ploeh.dk/2024/12/16/a-restaurant-sandwich",
+    "raw": "A restaurant sandwich",
+    "sanitized": "A restaurant sandwich"
+  },
+  {
     "itemId": "https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets",
     "raw": "Implementation and usage mindsets",
     "sanitized": "Implementation and usage mindsets"
@@ -33,20 +48,5 @@
     "itemId": "https://blog.ploeh.dk/2024/10/28/functor-compositions",
     "raw": "Functor compositions",
     "sanitized": "Functor compositions"
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/21/legacy-security-manager-in-haskell",
-    "raw": "Legacy Security Manager in Haskell",
-    "sanitized": "Legacy Security Manager in Haskell"
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/14/functor-sums",
-    "raw": "Functor sums",
-    "sanitized": "Functor sums"
-  },
-  {
-    "itemId": "https://blog.ploeh.dk/2024/10/07/the-const-functor",
-    "raw": "The Const functor",
-    "sanitized": "The Const functor"
   }
 ]

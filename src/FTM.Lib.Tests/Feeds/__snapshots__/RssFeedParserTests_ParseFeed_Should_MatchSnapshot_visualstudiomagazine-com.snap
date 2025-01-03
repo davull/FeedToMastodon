@@ -2,10 +2,30 @@
   "Id": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Website": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
   "Title": "News",
-  "LastUpdatedTime": "2024-12-11T17:25:00+00:00",
+  "LastUpdatedTime": "2024-12-18T20:05:00+00:00",
   "Description": "",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx",
+      "Title": "Compare New GitHub Copilot Free Plan for Visual Studio/VS Code to Paid Plans",
+      "PublishDate": "2024-12-18T20:05:00+00:00",
+      "Summary": "The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx"
+    },
+    {
+      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
+      "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx",
+      "Title": "Copilot AI Boosts Abound in New VS Code v1.96",
+      "PublishDate": "2024-12-17T14:00:00+00:00",
+      "Summary": "Microsoft improved on its new \"Copilot Edit\" functionality in the latest release of Visual Studio Code, v1.96, its open-source based code editor that has become the most popular in the world according to many surveys.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx"
+    },
     {
       "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
       "ItemId": "https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx",
@@ -585,26 +605,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx",
-      "Title": "Microsoft Going Small in Semantic Kernel AI Dev Tooling",
-      "PublishDate": "2024-07-31T19:39:00+00:00",
-      "Summary": "In revealing future plans for its Semantic Kernel AI dev tooling, Microsoft said it's going small -- at lease in terms of AI model size.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx"
-    },
-    {
-      "FeedId": "https://visualstudiomagazine.com/RSS-Feeds/News.aspx",
-      "ItemId": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx",
-      "Title": "Microsoft Previews AI Prompt Playground for VS Code: Prompty",
-      "PublishDate": "2024-07-30T19:17:00+00:00",
-      "Summary": "Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx"
     }
   ]
 }

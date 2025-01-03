@@ -1,8 +1,18 @@
 ﻿[
   {
+    "itemId": "https://www.kernel-error.de/?p=3040",
+    "raw": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf [&#8230;]",
+    "sanitized": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=2755",
+    "raw": "Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker. Warum erzähle ich das? [&#8230;]",
+    "sanitized": "Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker. Warum erzähle ich das? […]"
+  },
+  {
     "itemId": "https://www.kernel-error.de/?p=2702",
-    "raw": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. 😉 Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings [&#8230;]",
-    "sanitized": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. 😉 Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings […]"
+    "raw": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen [&#8230;]",
+    "sanitized": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen […]"
   },
   {
     "itemId": "https://www.kernel-error.de/?p=2688",
@@ -38,15 +48,5 @@
     "itemId": "https://www.kernel-error.de/?p=2572",
     "raw": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name &#8222;Turbo Tape&#8220; ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen [&#8230;]",
     "sanitized": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name „Turbo Tape“ ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2529",
-    "raw": "Ich möchte ein paar Worte über meinen 3D Drucker verlieren. Seit knapp 2 Jahre werkelt bei mir der i-mates von QIDI Tech. Ich habe damals ein paar Testberichte durchgeschaut und bin auf diesen gekommen. Wichtig war mir, ein geringer Preis, beheizbares Druckbett, kompaktes Design, die Möglichkeit eines geschlossenen Druckraumes sowie, dass sich das Druckbett nur [&#8230;]",
-    "sanitized": "Ich möchte ein paar Worte über meinen 3D Drucker verlieren. Seit knapp 2 Jahre werkelt bei mir der i-mates von QIDI Tech. Ich habe damals ein paar Testberichte durchgeschaut und bin auf diesen gekommen. Wichtig war mir, ein geringer Preis, beheizbares Druckbett, kompaktes Design, die Möglichkeit eines geschlossenen Druckraumes sowie, dass sich das Druckbett nur […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2498",
-    "raw": "Es gibt aktuell einen EEEECCCHHHTTTT guten Deal um günstig an bis zu 10 YubiKeys 5 NFC und/oder 5C NFC zu kommen. Man benötigt dafür einen Cloudflare Account, der ist ja schnell geklickt. Dann klickt man ein paar Links und wartet auf eine E-Mail mit seinem Discount Code. Da die Keys in der Regel etwas um [&#8230;]",
-    "sanitized": "Es gibt aktuell einen EEEECCCHHHTTTT guten Deal um günstig an bis zu 10 YubiKeys 5 NFC und/oder 5C NFC zu kommen. Man benötigt dafür einen Cloudflare Account, der ist ja schnell geklickt. Dann klickt man ein paar Links und wartet auf eine E-Mail mit seinem Discount Code. Da die Keys in der Regel etwas um […]"
   }
 ]

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
+    "raw": "The era of open voice assistants has arrived",
+    "sanitized": "The era of open voice assistants has arrived"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home",
+    "raw": "Voice Chapter 8 - Assist in the home today",
+    "sanitized": "Voice Chapter 8 - Assist in the home today"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/16/community-survey-2024",
+    "raw": "Understanding Our Community: The 2024 Home Assistant Survey",
+    "sanitized": "Understanding Our Community: The 2024 Home Assistant Survey"
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2024/12/04/release-202412",
     "raw": "2024.12: Scene you in 2025! 🎄",
     "sanitized": "2024.12: Scene you in 2025! 🎄"
@@ -83,20 +98,5 @@
     "itemId": "https://www.home-assistant.io/blog/2024/08/07/release-20248",
     "raw": "2024.8: Beautiful badges!",
     "sanitized": "2024.8: Beautiful badges!"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/01/streamlining-the-home-assistant-yellow-lineup",
-    "raw": "Streamlining the Home Assistant Yellow lineup",
-    "sanitized": "Streamlining the Home Assistant Yellow lineup"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2",
-    "raw": "Dashboard chapter 2: Let’s redesign the cards together!",
-    "sanitized": "Dashboard chapter 2: Let’s redesign the cards together!"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/07/03/release-20247",
-    "raw": "2024.7: Time to resize your cards!",
-    "sanitized": "2024.7: Time to resize your cards!"
   }
 ]

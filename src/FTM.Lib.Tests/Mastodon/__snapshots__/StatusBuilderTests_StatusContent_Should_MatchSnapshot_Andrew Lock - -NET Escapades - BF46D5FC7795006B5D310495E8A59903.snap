@@ -1,5 +1,0 @@
-﻿Recent updates for NetEscapades.EnumGenerators: interceptors!
-
-In this post I describe the experimental interceptor support in NetEscapades.EnumGenerators that replaces ToString() calls with ToStringFast() automatically
----
-https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/

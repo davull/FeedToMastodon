@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2024/12/16/community-survey-2024",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2024/12/04/release-202412",
     "raw": null,
     "sanitized": null
@@ -81,21 +96,6 @@
   },
   {
     "itemId": "https://www.home-assistant.io/blog/2024/08/07/release-20248",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/01/streamlining-the-home-assistant-yellow-lineup",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/07/03/release-20247",
     "raw": null,
     "sanitized": null
   }

@@ -1,5 +1,100 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20250103_27047eac.mp3",
+    "raw": "Vom Wiener Salon in die Savanne: Löwenforscherin Joy Adamson",
+    "sanitized": "Vom Wiener Salon in die Savanne: Löwenforscherin Joy Adamson"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250102_981b2a07.mp3",
+    "raw": "Wie ein Kinohit die Wiedergeburt des Ku-Klux-Klans befeuerte",
+    "sanitized": "Wie ein Kinohit die Wiedergeburt des Ku-Klux-Klans befeuerte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250101_3911e361.mp3",
+    "raw": "Landnahme am Roten Meer: Italien gründet die Kolonie Eritrea",
+    "sanitized": "Landnahme am Roten Meer: Italien gründet die Kolonie Eritrea"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241231_f779d370.mp3",
+    "raw": "Dunkles Mittelalter? Von wegen! So lebten wir 1224",
+    "sanitized": "Dunkles Mittelalter? Von wegen! So lebten wir 1224"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241230_72744069.mp3",
+    "raw": "Schauspielerin Luise Rainer: Hollywood, nein danke!",
+    "sanitized": "Schauspielerin Luise Rainer: Hollywood, nein danke!"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241229_f4794806.mp3",
+    "raw": "Große Vision kleiner Teilchen: Feynmans Rede zur Nanotechnologie",
+    "sanitized": "Große Vision kleiner Teilchen: Feynmans Rede zur Nanotechnologie"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241228_61690436.mp3",
+    "raw": "Greyhound-Busse in Amerika: Mythos oder Alptraum?",
+    "sanitized": "Greyhound-Busse in Amerika: Mythos oder Alptraum?"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241227_3ecf9864.mp3",
+    "raw": "Peter Pan: Der Traum, niemals erwachsen zu werden",
+    "sanitized": "Peter Pan: Der Traum, niemals erwachsen zu werden"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241226_4d7fddf9.mp3",
+    "raw": "Deutsche in den USA: Der Anfang in der neuen Heimat ist hart",
+    "sanitized": "Deutsche in den USA: Der Anfang in der neuen Heimat ist hart"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241225_e5ed8b1b.mp3",
+    "raw": "Udo Steinberg: Der vergessene deutsche Star des FC Barcelona",
+    "sanitized": "Udo Steinberg: Der vergessene deutsche Star des FC Barcelona"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241224_83dd5f3e.mp3",
+    "raw": "\"Weihnachtsfrieden\": Verbrüderung auf dem Schlachtfeld",
+    "sanitized": "\"Weihnachtsfrieden\": Verbrüderung auf dem Schlachtfeld"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241223_9b61571d.mp3",
+    "raw": "Der vergessene Wegbereiter des Aspirin: Arthur Eichengrün",
+    "sanitized": "Der vergessene Wegbereiter des Aspirin: Arthur Eichengrün"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241222_2a773f09.mp3",
+    "raw": "\"Like A Virgin\" stürmt die Charts: Die Geburt der Queen of Pop",
+    "sanitized": "\"Like A Virgin\" stürmt die Charts: Die Geburt der Queen of Pop"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241221_7d94aa43.mp3",
+    "raw": "21.12.1844: Hans Christian Andersens \"Schneekönigin\" erscheint",
+    "sanitized": "21.12.1844: Hans Christian Andersens \"Schneekönigin\" erscheint"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241220_fdd70166.mp3",
+    "raw": "Stanley Milgrams Experiment: Der Mann, der wie Welt schockte",
+    "sanitized": "Stanley Milgrams Experiment: Der Mann, der wie Welt schockte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241219_6d7541a3.mp3",
+    "raw": "Geburt des Zirkusgründers Friedrich Knie (im Jahr 1784)",
+    "sanitized": "Geburt des Zirkusgründers Friedrich Knie (im Jahr 1784)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241218_5ddb6ec0.mp3",
+    "raw": "Alfred Hitchcocks Film \"Der unsichtbare Dritte\" in Deutschland",
+    "sanitized": "Alfred Hitchcocks Film \"Der unsichtbare Dritte\" in Deutschland"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241217_0e0f50e4.mp3",
+    "raw": "Queere Ikone, die Europa schockierte: Christina von Schweden",
+    "sanitized": "Queere Ikone, die Europa schockierte: Christina von Schweden"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20241216_339d99a4.mp3",
+    "raw": "1564: Baubeginn des Tuilerienpalasts in Paris",
+    "sanitized": "1564: Baubeginn des Tuilerienpalasts in Paris"
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20241215_d49a6aaf.mp3",
     "raw": "Kaiserliches Beziehungsdrama: Napoleon lässt sich scheiden",
     "sanitized": "Kaiserliches Beziehungsdrama: Napoleon lässt sich scheiden"
@@ -1715,11 +1810,6 @@
     "sanitized": "\"Die Wunder der Welt\": Der venezianische Reisende Marco Polo"
   },
   {
-    "itemId": "/wdr_zeitzeichen_20240108_d818d5ea.mp3",
-    "raw": "Boudicca: Wie die keltische Rebellin London niederbrannte",
-    "sanitized": "Boudicca: Wie die keltische Rebellin London niederbrannte"
-  },
-  {
     "itemId": "/wdr_zeitzeichen_20240107_32d21a65.mp3",
     "raw": "Inflationsheiliger und Kohlrabiapostel: Friedrich Muck-Lamberty",
     "sanitized": "Inflationsheiliger und Kohlrabiapostel: Friedrich Muck-Lamberty"
@@ -2908,95 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230516_0111c58a.mp3",
     "raw": "Grausame Macht: Aufstand im Warschauer Ghetto niedergeschlagen",
     "sanitized": "Grausame Macht: Aufstand im Warschauer Ghetto niedergeschlagen"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230515_6211c38c.mp3",
-    "raw": "Niederlande werden unabhängig von Spanien (15.5.1648)",
-    "sanitized": "Niederlande werden unabhängig von Spanien (15.5.1648)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230514_1911c58e.mp3",
-    "raw": "Vor 75 Jahren: Die Staatsgründung Israels",
-    "sanitized": "Vor 75 Jahren: Die Staatsgründung Israels"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230513_7511c391.mp3",
-    "raw": "Vielen Dank für die Blumen: Muttertag in Deutschland eingeführt",
-    "sanitized": "Vielen Dank für die Blumen: Muttertag in Deutschland eingeführt"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230512_8711c593.mp3",
-    "raw": "Komponist zahlreicher Ohrwürmer: Burt Bacharach",
-    "sanitized": "Komponist zahlreicher Ohrwürmer: Burt Bacharach"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230511_db11c395.mp3",
-    "raw": "Ältestes gedrucktes Buch: Das Diamantsutra (11.05.868)",
-    "sanitized": "Ältestes gedrucktes Buch: Das Diamantsutra (11.05.868)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230510_4dfe9ca5.mp3",
-    "raw": "Gustav Stresemann, Weimars größter Staatsmann (geb.am 10.5.1878)",
-    "sanitized": "Gustav Stresemann, Weimars größter Staatsmann (geb.am 10.5.1878)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230509_06b38ebc.mp3",
-    "raw": "Italienisches Trauma: die Entführung und Ermordung von Aldo Moro",
-    "sanitized": "Italienisches Trauma: die Entführung und Ermordung von Aldo Moro"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230508_aaf07f7e.mp3",
-    "raw": "Er kämpfte für die Unabhängigkeit Mexikos: Miguel Hidalgo",
-    "sanitized": "Er kämpfte für die Unabhängigkeit Mexikos: Miguel Hidalgo"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230507_feb10a2b.mp3",
-    "raw": "Kölner Geschäftsmann Hermann von Goch enthauptet (am 7.5.1398)",
-    "sanitized": "Kölner Geschäftsmann Hermann von Goch enthauptet (am 7.5.1398)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230506_ec94a283.mp3",
-    "raw": "Maximilien de Robespierre, Revolutionär (geboren am 06.05.1758)",
-    "sanitized": "Maximilien de Robespierre, Revolutionär (geboren am 06.05.1758)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230505_5f916c26.mp3",
-    "raw": "Historischer Wendepunkt der Kirchenmusik: Bach rockt Leipzig",
-    "sanitized": "Historischer Wendepunkt der Kirchenmusik: Bach rockt Leipzig"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230504_d18a27d0.mp3",
-    "raw": "Omar Khayyam: Gelehrter und Spott-Dichter (geb. im Mai 1048)",
-    "sanitized": "Omar Khayyam: Gelehrter und Spott-Dichter (geb. im Mai 1048)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230503_e175013b.mp3",
-    "raw": "Mehr als \"Bollywood\": Der Beginn der indischen Filmproduktion",
-    "sanitized": "Mehr als \"Bollywood\": Der Beginn der indischen Filmproduktion"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230502_ee750040.mp3",
-    "raw": "Otto Weidt, NS-Gegner (Geburtstag, 02.05.1883)",
-    "sanitized": "Otto Weidt, NS-Gegner (Geburtstag, 02.05.1883)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230501_41750044.mp3",
-    "raw": "Schokolade wird \"Götterspeise\" (botanischer Name, Mai 1753)",
-    "sanitized": "Schokolade wird \"Götterspeise\" (botanischer Name, Mai 1753)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230430_b6750348.mp3",
-    "raw": "Die perfekte Täuschung: Alliierte starten Operation Mincemeat",
-    "sanitized": "Die perfekte Täuschung: Alliierte starten Operation Mincemeat"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230429_b6750067.mp3",
-    "raw": "Etwas Citizen Kane, etwas Trump: Medientycoon William R. Hearst",
-    "sanitized": "Etwas Citizen Kane, etwas Trump: Medientycoon William R. Hearst"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230428_3b750376.mp3",
-    "raw": "Zucker ohne Sklavenarbeit: der Visionär Franz Carl Achard",
-    "sanitized": "Zucker ohne Sklavenarbeit: der Visionär Franz Carl Achard"
   }
 ]

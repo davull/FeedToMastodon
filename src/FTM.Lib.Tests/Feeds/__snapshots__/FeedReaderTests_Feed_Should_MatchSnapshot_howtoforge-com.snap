@@ -2,10 +2,30 @@
   "Id": "https://www.howtoforge.com/feed.rss",
   "Website": "https://www.howtoforge.com",
   "Title": "Howtoforge Linux Howtos und Tutorials",
-  "LastUpdatedTime": "2024-12-13T11:45:21+00:00",
+  "LastUpdatedTime": "2025-01-02T17:25:41+00:00",
   "Description": "Howtoforge Tutorials",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/",
+      "Title": "How to Install Zabbix on Debian 12 Server",
+      "PublishDate": "2025-01-02T17:25:41+00:00",
+      "Summary": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/",
+      "Title": "How to Install Zeek Network Security Monitoring Tool on Ubuntu 24.04",
+      "PublishDate": "2025-01-02T17:15:36+00:00",
+      "Summary": "Zeek (formerly Bro) is a free and open-source platform for network security monitoring. It is a powerful passive network traffic analyzer that investigates suspicious or malicious activity.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/"
+    },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
       "ItemId": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/",
@@ -85,26 +105,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/",
-      "Title": "How to Monitor MySQL or MariaDB with Prometheus and Grafana",
-      "PublishDate": "2024-11-07T19:52:35+00:00",
-      "Summary": "To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/",
-      "Title": "How to Install Mattermost on Rocky Linux 9",
-      "PublishDate": "2024-11-07T19:48:07+00:00",
-      "Summary": "Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/"
     }
   ]
 }

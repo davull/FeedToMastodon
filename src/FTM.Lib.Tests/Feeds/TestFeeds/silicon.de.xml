@@ -12,7 +12,7 @@
 	<atom:link href="https://www.silicon.de/feed" rel="self" type="application/rss+xml" />
 	<link>https://www.silicon.de/</link>
 	<description>TECHNOLOGY POWERING BUSINESS</description>
-	<lastBuildDate>Fri, 13 Dec 2024 08:48:48 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Dec 2024 06:54:22 +0000</lastBuildDate>
 	<language>de-DE</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,321 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Studie: Rund ein Drittel der APIs sind ungeschützt</title>
+		<link>https://www.silicon.de/41717452/studie-rund-ein-drittel-der-apis-sind-ungeschuetzt</link>
+					<comments>https://www.silicon.de/41717452/studie-rund-ein-drittel-der-apis-sind-ungeschuetzt#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2024 06:54:22 +0000</pubDate>
+				<category><![CDATA[Cybersicherheit]]></category>
+		<category><![CDATA[Interview]]></category>
+		<category><![CDATA[Sicherheitsmanagement]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717452</guid>
+
+					<description><![CDATA[Angriffe auf APIs und Webanwendungen sind zwischen Januar 2023 und Juni 2024 von knapp 14 Milliarden auf über 26 Milliarden gestiegen.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717452/studie-rund-ein-drittel-der-apis-sind-ungeschuetzt/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="337246" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/10/API-scaled.jpg" />
+	</item>
+		<item>
+		<title>Universitätsmedizin Essen setzt für E-Mail-Sicherheit auf NoSpamProxy</title>
+		<link>https://www.silicon.de/41717449/universitaetsmedizin-essen-setzt-fuer-e-mail-sicherheit-auf-nospamproxy</link>
+					<comments>https://www.silicon.de/41717449/universitaetsmedizin-essen-setzt-fuer-e-mail-sicherheit-auf-nospamproxy#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2024 06:41:16 +0000</pubDate>
+				<category><![CDATA[Cybersicherheit]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Sicherheitsmanagement]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717449</guid>
+
+					<description><![CDATA[Mit täglich über 45.000 eingehenden E-Mails ist die IT-Abteilung des Klinikums durch Anhänge und raffinierte Angriffsformen vermehrt Cyberrisiken ausgesetzt]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717449/universitaetsmedizin-essen-setzt-fuer-e-mail-sicherheit-auf-nospamproxy/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="78550" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/Email-security.jpg" />
+	</item>
+		<item>
+		<title>Bau-Spezialist Schöck: Migration von SAP ECC ERP auf S/4HANA</title>
+		<link>https://www.silicon.de/41717447/bau-spezialist-schoeck-migration-von-sap-ecc-erp-auf-s-4hana</link>
+					<comments>https://www.silicon.de/41717447/bau-spezialist-schoeck-migration-von-sap-ecc-erp-auf-s-4hana#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Sat, 21 Dec 2024 11:31:59 +0000</pubDate>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[ERP-Suites]]></category>
+		<category><![CDATA[Software]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717447</guid>
+
+					<description><![CDATA[Bau- und Fertigungsspezialist investiert in die S/4HANA-Migration und geht mit RISE WITH SAP in die Cloud.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717447/bau-spezialist-schoeck-migration-von-sap-ecc-erp-auf-s-4hana/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="346937" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/04/SAP-scaled.jpg" />
+	</item>
+		<item>
+		<title>Pure Storage: Cloud, KI und Energieeffizienz</title>
+		<link>https://www.silicon.de/41717436/pure-storage-cloud-ki-und-energieeffizienz</link>
+					<comments>https://www.silicon.de/41717436/pure-storage-cloud-ki-und-energieeffizienz#respond</comments>
+		
+		<dc:creator><![CDATA[Pure Storage]]></dc:creator>
+		<pubDate>Fri, 20 Dec 2024 11:59:14 +0000</pubDate>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[KI]]></category>
+		<category><![CDATA[Trends 2025]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717436</guid>
+
+					<description><![CDATA[Trends 2025: Rasante Entwicklungen bei Automatisierung, KI und in vielen anderen Bereichen lassen Unternehmen nicht zur Ruhe kommen.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717436/pure-storage-cloud-ki-und-energieeffizienz/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="136737" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/word-trends-with-colored-blocks-on-yellow-backgrou-2023-11-27-05-07-53-utc-scaled.jpg" />
+	</item>
+		<item>
+		<title>GenKI verbessert Datenmanagement und Angebotsgenauigkeit</title>
+		<link>https://www.silicon.de/41717413/genki-verbessert-datenmanagement-und-angebotsgenauigkeit</link>
+					<comments>https://www.silicon.de/41717413/genki-verbessert-datenmanagement-und-angebotsgenauigkeit#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Thu, 19 Dec 2024 10:14:31 +0000</pubDate>
+				<category><![CDATA[Best Practice]]></category>
+		<category><![CDATA[genKI]]></category>
+		<category><![CDATA[KI]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717413</guid>
+
+					<description><![CDATA[DHL Supply Chain nutzt generative KI-Anwendungen für Datenbereinigung und präzisere Beantwortung von Angebotsanforderungen (RFQ).]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717413/genki-verbessert-datenmanagement-und-angebotsgenauigkeit/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="387220" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/DHL-GenAI-In-Use-1-scaled.jpeg" />
+	</item>
+		<item>
+		<title>Rolls-Royce Power Systems nutzt industrielle KI aus der IFS Cloud​</title>
+		<link>https://www.silicon.de/41717410/rolls-royce-power-systems-nutzt-industrielle-ki-aus-der-ifs-cloud</link>
+					<comments>https://www.silicon.de/41717410/rolls-royce-power-systems-nutzt-industrielle-ki-aus-der-ifs-cloud#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Thu, 19 Dec 2024 10:05:47 +0000</pubDate>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[ERP-Suites]]></category>
+		<category><![CDATA[KI]]></category>
+		<category><![CDATA[Software]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717410</guid>
+
+					<description><![CDATA[Marke mtu will globale Serviceabläufe optimieren und strategische Ziele hinsichtlich Effizienz, Nachhaltigkeit und Wachstum unterstützen. ]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717410/rolls-royce-power-systems-nutzt-industrielle-ki-aus-der-ifs-cloud/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="445367" type="image/png" url="https://www.silicon.de/wp-content/uploads/2024/12/Bildschirmfoto-2024-12-19-um-11.04.30.png" />
+	</item>
+		<item>
+		<title>Thomas-Krenn.AG: viele Pflichten, knappe Ressourcen, mehr freie IT-Welt</title>
+		<link>https://www.silicon.de/41717407/thomas-krenn-ag-viele-pflichten-knappe-ressourcen-mehr-freie-it-welt</link>
+					<comments>https://www.silicon.de/41717407/thomas-krenn-ag-viele-pflichten-knappe-ressourcen-mehr-freie-it-welt#respond</comments>
+		
+		<dc:creator><![CDATA[Thomas-Krenn.AG]]></dc:creator>
+		<pubDate>Thu, 19 Dec 2024 09:39:59 +0000</pubDate>
+				<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Trends 2025]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717407</guid>
+
+					<description><![CDATA[IT-Infrastruktur-Trends 2025: Open-Source-Projekte sowie aufwändige regulatorische und Pflichtaufgaben werden das Jahr prägen.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717407/thomas-krenn-ag-viele-pflichten-knappe-ressourcen-mehr-freie-it-welt/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="625740" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/Open-Source.jpg" />
+	</item>
+		<item>
+		<title>Stadt Kempen nutzt Onsite Colocation-Lösung</title>
+		<link>https://www.silicon.de/41717386/stadt-kempen-nutzt-onsite-colocation-loesung</link>
+					<comments>https://www.silicon.de/41717386/stadt-kempen-nutzt-onsite-colocation-loesung#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 10:08:28 +0000</pubDate>
+				<category><![CDATA[Best Practice]]></category>
+		<category><![CDATA[IT-Lösungen/-Produkte]]></category>
+		<category><![CDATA[Öffentliche Hand]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717386</guid>
+
+					<description><![CDATA[IT-Systeme werden vor Ort in einem hochsicheren IT-Safe betrieben, ohne auf bauliche Maßnahmen wie die Erweiterung von Serverräumen angewiesen zu sein.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717386/stadt-kempen-nutzt-onsite-colocation-loesung/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="2983476" type="image/png" url="https://www.silicon.de/wp-content/uploads/2024/12/Bildschirmfoto-2024-12-18-um-11.07.41.png" />
+	</item>
+		<item>
+		<title>SoftwareOne: Cloud-Technologie wird sich von Grund auf verändern</title>
+		<link>https://www.silicon.de/41717383/softwareone-cloud-technologie-wird-sich-von-grund-auf-veraendern</link>
+					<comments>https://www.silicon.de/41717383/softwareone-cloud-technologie-wird-sich-von-grund-auf-veraendern#respond</comments>
+		
+		<dc:creator><![CDATA[SoftwareOne]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 09:43:06 +0000</pubDate>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[KI]]></category>
+		<category><![CDATA[Trends 2025]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717383</guid>
+
+					<description><![CDATA[Cloud-Trends 2025: Zahlreiche neue Technologien erweitern die Grenzen von Cloud Computing.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717383/softwareone-cloud-technologie-wird-sich-von-grund-auf-veraendern/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="574999" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/03/shutterstock_1247262331.jpg" />
+	</item>
+		<item>
+		<title>KI-basierte Herz-Kreislauf-Vorsorge entlastet Herzspezialisten​</title>
+		<link>https://www.silicon.de/41717379/ki-basierter-herz-kreislauf-vorsorge-entlastet-herzspezialisten</link>
+					<comments>https://www.silicon.de/41717379/ki-basierter-herz-kreislauf-vorsorge-entlastet-herzspezialisten#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 09:25:42 +0000</pubDate>
+				<category><![CDATA[Best Practice]]></category>
+		<category><![CDATA[Gesundheitswesen]]></category>
+		<category><![CDATA[KI]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717379</guid>
+
+					<description><![CDATA[Noah Labs wollen Kardiologie-Praxen und Krankenhäuser in Deutschland durch KI-gestütztes Telemonitoring von Patienten entlasten.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717379/ki-basierter-herz-kreislauf-vorsorge-entlastet-herzspezialisten/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="318437" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/cardiovascular-disease-cvd-asian-doctor-holding-h-2024-07-12-23-38-17-utc-scaled.jpg" />
+	</item>
+		<item>
+		<title>IBM sieht Nachhaltigkeit als KI-Treiber</title>
+		<link>https://www.silicon.de/41717233/ibm-sieht-nachhaltigkeitsmanagement-als-ki-treiber</link>
+					<comments>https://www.silicon.de/41717233/ibm-sieht-nachhaltigkeitsmanagement-als-ki-treiber#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 04:36:48 +0000</pubDate>
+				<category><![CDATA[Nachhaltigkeit]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717233</guid>
+
+					<description><![CDATA[Neun von zehn deutschen Managern erwarten, dass der Einsatz von KI auf ihre Nachhaltigkeitsziele einzahlen werde.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717233/ibm-sieht-nachhaltigkeitsmanagement-als-ki-treiber/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="329810" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/09/Deutsche-Telekom_Nactigkeitsmanager-scaled.jpg" />
+	</item>
+		<item>
+		<title>Wie KI das Rechnungsmanagement optimiert</title>
+		<link>https://www.silicon.de/41717365/wie-ki-das-rechnungsmanagement-optimiert</link>
+					<comments>https://www.silicon.de/41717365/wie-ki-das-rechnungsmanagement-optimiert#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 12:54:29 +0000</pubDate>
+				<category><![CDATA[Best Practice]]></category>
+		<category><![CDATA[KI]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717365</guid>
+
+					<description><![CDATA[Intergermania Transport automatisiert die Belegerfassung mit KI und profitiert von 95 Prozent Zeitersparnis.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717365/wie-ki-das-rechnungsmanagement-optimiert/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="1764159" type="image/png" url="https://www.silicon.de/wp-content/uploads/2024/12/Bildschirmfoto-2024-12-17-um-13.53.38.png" />
+	</item>
+		<item>
+		<title>Zukunft der europäischen Cybersicherheit ist automatisiert</title>
+		<link>https://www.silicon.de/41717358/zukunft-der-europaeischen-cybersicherheit-ist-automatisiert</link>
+					<comments>https://www.silicon.de/41717358/zukunft-der-europaeischen-cybersicherheit-ist-automatisiert#respond</comments>
+		
+		<dc:creator><![CDATA[Zac Warren - Tanium]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 11:23:36 +0000</pubDate>
+				<category><![CDATA[Cybersicherheit]]></category>
+		<category><![CDATA[Sicherheitsmanagement]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717358</guid>
+
+					<description><![CDATA[Cyberattacken finden in allen Branchen statt, und Geschwindigkeit und Häufigkeit der Angriffe werden weiter zunehmen, warnt Gastautor Zac Warren von Tanium.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717358/zukunft-der-europaeischen-cybersicherheit-ist-automatisiert/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="64032" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2017/11/cybersecurity-1200.jpg" />
+	</item>
+		<item>
+		<title>Imperva: API-Nutzung vergrößert Angriffsfläche</title>
+		<link>https://www.silicon.de/41717347/imperva-api-nutzung-vergroessert-angriffsflaeche</link>
+					<comments>https://www.silicon.de/41717347/imperva-api-nutzung-vergroessert-angriffsflaeche#respond</comments>
+		
+		<dc:creator><![CDATA[Imperva]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2024 12:39:06 +0000</pubDate>
+				<category><![CDATA[Cybersicherheit]]></category>
+		<category><![CDATA[Sicherheitsmanagement]]></category>
+		<category><![CDATA[Trends 2025]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717347</guid>
+
+					<description><![CDATA[Trends 2025 Application Security: Prompt Injection, Super Hacking Tool und Extended Berkeley Packet Filter.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717347/imperva-api-nutzung-vergroessert-angriffsflaeche/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="337246" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/10/API-scaled.jpg" />
+	</item>
+		<item>
+		<title>Zendesk: KI-Integration steht auch beim Kundenservice am Anfang</title>
+		<link>https://www.silicon.de/41717342/zendesk-ki-integration-steht-auch-beim-kundenservice-am-anfang</link>
+					<comments>https://www.silicon.de/41717342/zendesk-ki-integration-steht-auch-beim-kundenservice-am-anfang#respond</comments>
+		
+		<dc:creator><![CDATA[Zendesk]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2024 12:28:22 +0000</pubDate>
+				<category><![CDATA[KI]]></category>
+		<category><![CDATA[Trends 2025]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717342</guid>
+
+					<description><![CDATA[Trends 2025 in der Kundenkommunikation: Schatten-KI, Bot-Kommunikation und menschenähnlichen KI-Agenten.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717342/zendesk-ki-integration-steht-auch-beim-kundenservice-am-anfang/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="374529" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/Trends-2025.jpg" />
+	</item>
+		<item>
+		<title>Cyberangriffe kosten Unternehmen im Schnitt 1 Million Dollar</title>
+		<link>https://www.silicon.de/41717225/cyberangriffe-kosten-unternehmen-im-schnitt-1-million-dollar</link>
+					<comments>https://www.silicon.de/41717225/cyberangriffe-kosten-unternehmen-im-schnitt-1-million-dollar#respond</comments>
+		
+		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2024 04:47:23 +0000</pubDate>
+				<category><![CDATA[Cybersicherheit]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717225</guid>
+
+					<description><![CDATA[Aus Sicht des Sicherheitsdienstleisters Kaspersky liegen Schadenskosten und Investitionen in Cybersicherheit damit fast gleichauf.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717225/cyberangriffe-kosten-unternehmen-im-schnitt-1-million-dollar/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="721764" type="image/png" url="https://www.silicon.de/wp-content/uploads/2015/03/hacker-shutterstock-e1441624925291.png" />
+	</item>
+		<item>
 		<title>Malware-Ranking November: KRITIS-Saboteur Androxgh0st in Mozi-Bot-Netz integriert</title>
 		<link>https://www.silicon.de/41717316/malware-ranking-november-kritis-saboteur-androxgh0st-in-mozi-bot-netz-integriert</link>
 					<comments>https://www.silicon.de/41717316/malware-ranking-november-kritis-saboteur-androxgh0st-in-mozi-bot-netz-integriert#respond</comments>
@@ -260,6 +575,23 @@
 		
 			<enclosure length="124359" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/Telekom.jpg" />
 	</item>
+		<item>
+		<title>KI im SEO: So erzielen Sie optimale Ergebnisse</title>
+		<link>https://www.silicon.de/41717045/seo-ki-%e2%9c%85-effizienz-automatisierung-und-content-optimierung</link>
+					<comments>https://www.silicon.de/41717045/seo-ki-%e2%9c%85-effizienz-automatisierung-und-content-optimierung#respond</comments>
+		
+		<dc:creator><![CDATA[Klara Sommer]]></dc:creator>
+		<pubDate>Thu, 05 Dec 2024 07:03:00 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717045</guid>
+
+					<description><![CDATA[Künstliche Intelligenz gewinnt im Bereich der Suchmaschinenoptimierung zunehmend an Bedeutung. Durch Technologien, die menschliches Verhalten analysieren und aus diesen Erkenntnissen lernen, verändern sich die Art und Weise, wie Suchmaschinen Inhalte bewerten und interpretieren. Unternehmen, die solche Systeme in ihre SEO-Strategien integrieren, können sich im Wettbewerb besser positionieren und neue Chancen nutzen.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717045/seo-ki-%e2%9c%85-effizienz-automatisierung-und-content-optimierung/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Cybersicherheitstrends im Finanzsektor</title>
 		<link>https://www.silicon.de/41717169/cybersicherheitstrends-im-finanzsektor</link>
@@ -570,6 +902,24 @@
 			<enclosure length="574999" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/03/shutterstock_1247262331.jpg" />
 	</item>
 		<item>
+		<title>Kopenhagen kulinarisch: Smørrebrød, Märkte und nordische Köstlichkeiten</title>
+		<link>https://www.silicon.de/41717419/kopenhagen-kulinarisch-smorrebrod-maerkte-und-nordische-koestlichkeiten</link>
+					<comments>https://www.silicon.de/41717419/kopenhagen-kulinarisch-smorrebrod-maerkte-und-nordische-koestlichkeiten#respond</comments>
+		
+		<dc:creator><![CDATA[Alicia Schmitz]]></dc:creator>
+		<pubDate>Thu, 28 Nov 2024 13:27:18 +0000</pubDate>
+				<category><![CDATA[Brandvoice]]></category>
+		<guid isPermaLink="false">https://www.silicon.de/?p=41717419</guid>
+
+					<description><![CDATA[Kopenhagen hat sich zu einem der kulinarischen Hotspots Europas entwickelt. Die Stadt vereint Tradition und Moderne auf beeindruckende Weise und zieht nicht nur Gourmets, sondern auch neugierige Entdecker in ihren Bann. Zwischen regionalen Zutaten und innovativen Konzepten wird das Essen in Kopenhagen zu einem Erlebnis, das alle Sinne anspricht.]]></description>
+		
+					<wfw:commentRss>https://www.silicon.de/41717419/kopenhagen-kulinarisch-smorrebrod-maerkte-und-nordische-koestlichkeiten/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<enclosure length="67899" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/Von-makasana-photo-stock.adobe_.com_.jpg" />
+	</item>
+		<item>
 		<title>Lückenlose Sicherheit ohne erhöhte Latenz</title>
 		<link>https://www.silicon.de/41717059/lueckenlose-sicherheit-ohne-erhoehte-latenz</link>
 					<comments>https://www.silicon.de/41717059/lueckenlose-sicherheit-ohne-erhoehte-latenz#respond</comments>
@@ -649,345 +999,6 @@
 		
 		
 			<enclosure length="465633" type="image/png" url="https://www.silicon.de/wp-content/uploads/2023/12/KI-AI.png" />
-	</item>
-		<item>
-		<title>Das Wiederaufleben USB-basierter Angriffe</title>
-		<link>https://www.silicon.de/41717016/das-wiederaufleben-usb-basierter-angriffe</link>
-					<comments>https://www.silicon.de/41717016/das-wiederaufleben-usb-basierter-angriffe#respond</comments>
-		
-		<dc:creator><![CDATA[Holger Fischer - OPSWAT]]></dc:creator>
-		<pubDate>Tue, 26 Nov 2024 09:31:05 +0000</pubDate>
-				<category><![CDATA[Cybersicherheit]]></category>
-		<category><![CDATA[Gastbeitrag]]></category>
-		<category><![CDATA[Sicherheitsmanagement]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41717016</guid>
-
-					<description><![CDATA[Wer auf Wechselmedien – wie USB-Laufwerke – angewiesen ist, muss wachsam bleiben, da diese Geräte schädliche und kostspielige Cyberangriffe auslösen können.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41717016/das-wiederaufleben-usb-basierter-angriffe/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="64926" type="image/png" url="https://www.silicon.de/wp-content/uploads/2022/10/usb.png" />
-	</item>
-		<item>
-		<title>KI in Unternehmen &#8211; Die Zukunft der Digitalisierung</title>
-		<link>https://www.silicon.de/41716892/ki-in-unternehmen-die-zukunft-der-digitalisierung</link>
-					<comments>https://www.silicon.de/41716892/ki-in-unternehmen-die-zukunft-der-digitalisierung#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel Schnittbacher]]></dc:creator>
-		<pubDate>Tue, 26 Nov 2024 08:19:34 +0000</pubDate>
-				<category><![CDATA[Brandvoice]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716892</guid>
-
-					<description><![CDATA[Das Thema künstliche Intelligenz wird immer relevanter. Diese Technologie hat Einfluss auf Arbeitsweisen, Politik und das Weltgeschehen und kann sowohl viel Positives, als auch Negatives bewirken. Immer mehr Unternehmen informieren sich über die Möglichkeiten, die KI ihnen gibt und suchen nach Wegen, diese für sich zu nutzen. Sie arbeiten oftmals eng mit IT-Experten zusammen, die bei der Implementierung von KI-basierten Technologien helfen. ]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716892/ki-in-unternehmen-die-zukunft-der-digitalisierung/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="974984" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/igor-omilaev-eGGFZ5X2LnA-unsplash-scaled.jpg" />
-	</item>
-		<item>
-		<title>S/4HANA-Migration: Verzögerung vorprogrammiert?</title>
-		<link>https://www.silicon.de/41716998/s-4hana-migration-verzoegerung-vorprogrammiert</link>
-					<comments>https://www.silicon.de/41716998/s-4hana-migration-verzoegerung-vorprogrammiert#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Mon, 25 Nov 2024 09:46:32 +0000</pubDate>
-				<category><![CDATA[ERP-Suites]]></category>
-		<category><![CDATA[Interview]]></category>
-		<category><![CDATA[Software]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716998</guid>
-
-					<description><![CDATA[SAP S/4HANA-Transformationen sind äußerst komplex und verlaufen oft nicht wie geplant – oder scheitern sogar ganz. Lässt sich das verhindern?]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716998/s-4hana-migration-verzoegerung-vorprogrammiert/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="346937" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/04/SAP-scaled.jpg" />
-	</item>
-		<item>
-		<title>Black Friday: Ein Blick auf den Schnäppchen-Hype</title>
-		<link>https://www.silicon.de/41716511/black-friday-ein-blick-auf-den-schnaeppchen-hype</link>
-					<comments>https://www.silicon.de/41716511/black-friday-ein-blick-auf-den-schnaeppchen-hype#respond</comments>
-		
-		<dc:creator><![CDATA[Daniel Schnittbacher]]></dc:creator>
-		<pubDate>Mon, 25 Nov 2024 09:05:43 +0000</pubDate>
-				<category><![CDATA[Anzeige]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716511</guid>
-
-					<description><![CDATA[Der Black Friday, der in den USA traditionell am Freitag nach Thanksgiving gefeiert wird, hat sich zu einem weltweiten Phänomen entwickelt. Der Tag ist bekannt für seine massiven Rabatte und Sonderangebote, die sowohl Online-Händler als auch stationäre Geschäfte anbieten. ]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716511/black-friday-ein-blick-auf-den-schnaeppchen-hype/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="1084759" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/viktor-bystrov-gFjGZ2qRZOo-unsplash-scaled.jpg" />
-	</item>
-		<item>
-		<title>Mehr Datenschutz in der Montage</title>
-		<link>https://www.silicon.de/41716988/mehr-datenschutz-in-der-montage</link>
-					<comments>https://www.silicon.de/41716988/mehr-datenschutz-in-der-montage#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
-		<pubDate>Fri, 22 Nov 2024 15:56:00 +0000</pubDate>
-				<category><![CDATA[Datenschutz]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716988</guid>
-
-					<description><![CDATA[Assistenzsysteme unterstützen Monteure bei der Arbeit. Zu oft zahlt man jedoch mit den eigenen Daten dafür. Ein Forschungsprojekt will dies ändern.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716988/mehr-datenschutz-in-der-montage/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="75013" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/KIT.jpg" />
-	</item>
-		<item>
-		<title>Cyber Resilience Act: Countdown läuft</title>
-		<link>https://www.silicon.de/41716985/cyber-resilience-act-countdown-laeuft</link>
-					<comments>https://www.silicon.de/41716985/cyber-resilience-act-countdown-laeuft#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
-		<pubDate>Fri, 22 Nov 2024 15:10:24 +0000</pubDate>
-				<category><![CDATA[Cybersicherheit]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716985</guid>
-
-					<description><![CDATA[Hersteller werden stärker in die Pflicht genommen, den gesamten Lebenszyklus ihrer Produkte in den Blick zu nehmen.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716985/cyber-resilience-act-countdown-laeuft/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="559160" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/08/Gesetz-Symbol-EU.jpg" />
-	</item>
-		<item>
-		<title>KI auf dem Prüfstand</title>
-		<link>https://www.silicon.de/41716940/ki-auf-dem-pruefstand</link>
-					<comments>https://www.silicon.de/41716940/ki-auf-dem-pruefstand#respond</comments>
-		
-		<dc:creator><![CDATA[Hana Konrád - IBM]]></dc:creator>
-		<pubDate>Thu, 21 Nov 2024 15:38:13 +0000</pubDate>
-				<category><![CDATA[Gastbeitrag]]></category>
-		<category><![CDATA[genKI]]></category>
-		<category><![CDATA[KI]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716940</guid>
-
-					<description><![CDATA[LLMs besitzen einerseits innovative neue Fähigkeiten, stellen Unternehmen allerdings auch vor diverse Herausforderungen: ob EU AI Act, Metriken oder Benchmarks zur Evaluierung von Modellen und Prompts. ]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716940/ki-auf-dem-pruefstand/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="321169" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/08/it-professionals-using-artificial-intelligence-aug-2024-07-04-01-21-27-utc-scaled.jpg" />
-	</item>
-		<item>
-		<title>Rechenzentren: Deutschland verliert Anschluss</title>
-		<link>https://www.silicon.de/41716935/rechenzentren-deutschland-verliert-anschluss</link>
-					<comments>https://www.silicon.de/41716935/rechenzentren-deutschland-verliert-anschluss#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
-		<pubDate>Thu, 21 Nov 2024 11:05:21 +0000</pubDate>
-				<category><![CDATA[Data]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716935</guid>
-
-					<description><![CDATA[Server-Ausbau in den USA und China macht große Fortschritte, deutscher Weltmarktanteil sinkt. Lichtblicke in Frankfurt und Berlin.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716935/rechenzentren-deutschland-verliert-anschluss/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="1215174" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2023/08/Ionos.jpg" />
-	</item>
-		<item>
-		<title>KI steigert Nachfrage nach hybriden Workplace-Umgebungen</title>
-		<link>https://www.silicon.de/41716930/ki-steigert-nachfrage-nach-hybriden-workplace-umgebungen</link>
-					<comments>https://www.silicon.de/41716930/ki-steigert-nachfrage-nach-hybriden-workplace-umgebungen#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion / mg]]></dc:creator>
-		<pubDate>Thu, 21 Nov 2024 10:11:10 +0000</pubDate>
-				<category><![CDATA[Workplace]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716930</guid>
-
-					<description><![CDATA[Der Markt für Workplace Services gerät in Bewegung. Das bestmögliche digitale Nutzererlebnis gilt als Schlüssel für weiteres Wachstum.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716930/ki-steigert-nachfrage-nach-hybriden-workplace-umgebungen/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="487939" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/11/workplace-of-repairman-or-technician-with-laptop-a-2021-12-23-00-11-48-utc-scaled.jpg" />
-	</item>
-		<item>
-		<title>Hagebau erreicht E-Mail-Sicherheit mit der NoSpamProxy Cloud</title>
-		<link>https://www.silicon.de/41716902/hagebau-erreicht-e-mail-sicherheit-mit-der-nospamproxy-cloud</link>
-					<comments>https://www.silicon.de/41716902/hagebau-erreicht-e-mail-sicherheit-mit-der-nospamproxy-cloud#respond</comments>
-		
-		<dc:creator><![CDATA[Roger Homrich]]></dc:creator>
-		<pubDate>Wed, 20 Nov 2024 13:49:45 +0000</pubDate>
-				<category><![CDATA[Cybersicherheit]]></category>
-		<category><![CDATA[Sicherheitsmanagement]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716902</guid>
-
-					<description><![CDATA[Schutz für 10.000 Postfächer über rund 200 Domains: Private-Stack-Variante kombiniert Vorteile einer Cloud-Lösung mit Sicherheit einer dediziert eigenständigen Instanz. ]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716902/hagebau-erreicht-e-mail-sicherheit-mit-der-nospamproxy-cloud/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="532265" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/hagebaumarkt.jpg" />
-	</item>
-		<item>
-		<title>Rechenzentrumsnetzwerke als Schlüssel für Desaster Recovery</title>
-		<link>https://www.silicon.de/41716895/rechenzentrumsnetzwerke-als-schluessel-fuer-desaster-recovery</link>
-					<comments>https://www.silicon.de/41716895/rechenzentrumsnetzwerke-als-schluessel-fuer-desaster-recovery#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Wed, 20 Nov 2024 13:27:19 +0000</pubDate>
-				<category><![CDATA[Data]]></category>
-		<category><![CDATA[Storage]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716895</guid>
-
-					<description><![CDATA[Huawei Connect Paris: Innovationen rund um Data Center, Storage und IT-Sicherheit.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716895/rechenzentrumsnetzwerke-als-schluessel-fuer-desaster-recovery/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="651346" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/Huawei-scaled.jpg" />
-	</item>
-		<item>
-		<title>Der Faktor Mensch im Cyberschutz: Fortschrittliche Schulungskonzepte und Awareness-Programme</title>
-		<link>https://www.silicon.de/41717148/der-faktor-mensch-im-cyberschutz-fortschrittliche-schulungskonzepte-und-awareness-programme</link>
-					<comments>https://www.silicon.de/41717148/der-faktor-mensch-im-cyberschutz-fortschrittliche-schulungskonzepte-und-awareness-programme#respond</comments>
-		
-		<dc:creator><![CDATA[Burkard Ringle]]></dc:creator>
-		<pubDate>Wed, 20 Nov 2024 11:51:11 +0000</pubDate>
-				<category><![CDATA[Cybersicherheit]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41717148</guid>
-
-					<description><![CDATA[Cyberschutz neu gedacht: Schulungen und Technologien stärken Mitarbeitende als zentrale Verteidigungslinie gegen moderne Bedrohungen.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41717148/der-faktor-mensch-im-cyberschutz-fortschrittliche-schulungskonzepte-und-awareness-programme/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="143356" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/12/Kelvn.jpg" />
-	</item>
-		<item>
-		<title>Cybersecurity mit KI: Strategischer Vorteil oder Sicherheitsrisiko?</title>
-		<link>https://www.silicon.de/41716866/cybersecurity-mit-ki-strategischer-vorteil-oder-sicherheitsrisiko</link>
-					<comments>https://www.silicon.de/41716866/cybersecurity-mit-ki-strategischer-vorteil-oder-sicherheitsrisiko#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Wed, 20 Nov 2024 10:30:17 +0000</pubDate>
-				<category><![CDATA[Cybersicherheit]]></category>
-		<category><![CDATA[Interview]]></category>
-		<category><![CDATA[Sicherheitsmanagement]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716866</guid>
-
-					<description><![CDATA[Mit KI optimieren Hacker ihre Angriffsversuche. Ist CIAM eine Lösung, mit der sich Unternehmen vor Angriffen schützen können? Ein Interview mit Stephan Schweizer von Nevis.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716866/cybersecurity-mit-ki-strategischer-vorteil-oder-sicherheitsrisiko/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="252936" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2023/01/AdobeStock_245636933-scaled.jpeg" />
-	</item>
-		<item>
-		<title>Datenexplosion durch KI technisch bewältigen</title>
-		<link>https://www.silicon.de/41716869/datenexplosion-durch-ki-technisch-bewaeltigen</link>
-					<comments>https://www.silicon.de/41716869/datenexplosion-durch-ki-technisch-bewaeltigen#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Tue, 19 Nov 2024 13:06:49 +0000</pubDate>
-				<category><![CDATA[Data]]></category>
-		<category><![CDATA[KI]]></category>
-		<category><![CDATA[Netzwerke]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716869</guid>
-
-					<description><![CDATA[“Amplify Digital and Green Transformation” hieß die zentrale Botschaft des europäischen Flagship-Events „Huawei Connect“ in Paris.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716869/datenexplosion-durch-ki-technisch-bewaeltigen/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="839244" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/Huawei-Connect-scaled.jpg" />
-	</item>
-		<item>
-		<title>Alnatura steigert Kundenerlebnis mit Blue Yonder</title>
-		<link>https://www.silicon.de/41716862/alnatura-steigert-kundenerlebnis-mit-blue-yonder</link>
-					<comments>https://www.silicon.de/41716862/alnatura-steigert-kundenerlebnis-mit-blue-yonder#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Tue, 19 Nov 2024 11:44:26 +0000</pubDate>
-				<category><![CDATA[Best Practice]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716862</guid>
-
-					<description><![CDATA[Deutscher Bio-Lebensmittel-Einzelhändler schließt die Migration von Blue Yonder Category Management-Lösungen in die Cloud ab.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716862/alnatura-steigert-kundenerlebnis-mit-blue-yonder/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="3054181" type="image/png" url="https://www.silicon.de/wp-content/uploads/2024/11/Bildschirmfoto-2024-11-19-um-12.42.38.png" />
-	</item>
-		<item>
-		<title>So revolutioniert KI &#038; Automatisierung die Lead-Gewinnung durch Content Produktion</title>
-		<link>https://www.silicon.de/41716846/so-revolutioniert-kuenstliche-intelligenz-automatisierung-die-lead-gewinnung-durch-content-produktion</link>
-					<comments>https://www.silicon.de/41716846/so-revolutioniert-kuenstliche-intelligenz-automatisierung-die-lead-gewinnung-durch-content-produktion#respond</comments>
-		
-		<dc:creator><![CDATA[Karlson von Westerholt]]></dc:creator>
-		<pubDate>Tue, 19 Nov 2024 07:00:42 +0000</pubDate>
-				<category><![CDATA[Brandvoice]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716846</guid>
-
-					<description><![CDATA[Die meisten Markenbotschaften bleiben ungehört. Wie schaffen es Unternehmen wie Siemens, SAP oder Deutsche Telekom, immer sichtbar zu sein?]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716846/so-revolutioniert-kuenstliche-intelligenz-automatisierung-die-lead-gewinnung-durch-content-produktion/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="32984" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/Picture34.jpg" />
-	</item>
-		<item>
-		<title>IT 2025: IT-Führungskräfte erwarten massiven KI-Ruck</title>
-		<link>https://www.silicon.de/41716831/it-2025-it-fuehrungskraefte-erwarten-massiven-ki-ruck</link>
-					<comments>https://www.silicon.de/41716831/it-2025-it-fuehrungskraefte-erwarten-massiven-ki-ruck#respond</comments>
-		
-		<dc:creator><![CDATA[Redaktion silicon.de]]></dc:creator>
-		<pubDate>Fri, 15 Nov 2024 10:27:19 +0000</pubDate>
-				<category><![CDATA[IT-Lösungen/-Produkte]]></category>
-		<category><![CDATA[Software]]></category>
-		<category><![CDATA[Studie]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716831</guid>
-
-					<description><![CDATA[Einsatz von KI-Lösungen wirbelt auch in deutschen Unternehmen die Liste der Top-Technologieanbieter durcheinander.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716831/it-2025-it-fuehrungskraefte-erwarten-massiven-ki-ruck/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="294979" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2022/05/software-update-electronic-device-display-concept-2021-08-26-23-58-47-utc-scaled.jpg" />
-	</item>
-		<item>
-		<title>Sofortzahlungen im Wandel: Sicherheit und KI als treibende Kräfte</title>
-		<link>https://www.silicon.de/41716805/sofortzahlungen-im-wandel-sicherheit-und-ki-als-treibende-kraefte</link>
-					<comments>https://www.silicon.de/41716805/sofortzahlungen-im-wandel-sicherheit-und-ki-als-treibende-kraefte#respond</comments>
-		
-		<dc:creator><![CDATA[Elisabeth Müller]]></dc:creator>
-		<pubDate>Fri, 15 Nov 2024 07:10:51 +0000</pubDate>
-				<category><![CDATA[Anzeige]]></category>
-		<guid isPermaLink="false">https://www.silicon.de/?p=41716805</guid>
-
-					<description><![CDATA[Echtzeitüberweisungen erfüllen die Erwartungen der Nutzer an Geschwindigkeit, sind jedoch anfällig für spezifische Sicherheits- und Datenschutzrisiken.]]></description>
-		
-					<wfw:commentRss>https://www.silicon.de/41716805/sofortzahlungen-im-wandel-sicherheit-und-ki-als-treibende-kraefte/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			<enclosure length="555675" type="image/jpeg" url="https://www.silicon.de/wp-content/uploads/2024/11/pexels-shvetsa-5614119-scaled.jpg" />
 	</item>
 	</channel>
 </rss>

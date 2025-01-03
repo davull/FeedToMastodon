@@ -12,7 +12,7 @@
 	<atom:link href="https://nextcloud.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nextcloud.com/</link>
 	<description>Regain control over your data</description>
-	<lastBuildDate>Mon, 09 Dec 2024 04:39:58 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 24 Dec 2024 13:43:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,1155 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Nextcloud powering the digital workspace of tomorrow: 2024 in review</title>
+		<link>https://nextcloud.com/blog/nextcloud-2024-wrap-up/</link>
+		
+		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2024 10:12:04 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://nextcloud.com/?p=276209</guid>
+
+					<description><![CDATA[<p>In the Nextcloud 2024 wrap-up, we want to take a moment to celebrate this year's achievements. Join us as we continue to reimagine what’s possible - shaping a world where open source, privacy and connection come together and drive progress for the greater good. </p>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-2024-wrap-up/">Nextcloud powering the digital workspace of tomorrow: 2024 in review</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1921" height="1081" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review.png" alt="Nextcloud powering the digital workspace of tomorrow - 2024 in review" class="wp-image-277361" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review.png 1921w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review-300x169.png 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review-768x432.png 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review-1536x864.png 1536w" sizes="(max-width: 1921px) 100vw, 1921px" /></figure>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>We at Nextcloud have remained true to our vision: empowering collaboration without compromising on privacy. This year has been a testament to that commitment. Together with the passion of our global team and the support of our community we have not just build the best open-source collaboration tools, but expanded our dedication to open source itself.</p>
+
+
+
+<p>In this annual wrap-up, we want to take a moment to celebrate this year&#8217;s achievements. Join us as we continue to reimagine what’s possible &#8211; shaping a world where open source, privacy and connection come together and drive progress for the greater good.&nbsp;</p>
+
+
+
+<p>~ Nextcloud team </p>
+</blockquote>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" id="block-1b3b6ab7-bb3d-46b1-8216-6462116fee7d">Charting global growth </h2>
+
+
+
+<p>Nextcloud is used around the world by private individuals, communities, enterprises, and governments. In 2024, millions of new users gained access through hundreds of new enterprise customers. In the wider community, exact numbers are difficult to come by but there are some 400-500K servers online and this number also continues to grow steadily, with tens of thousands of new deployments across the globe from the US to France, from Australia to Indonesia and South Africa to Hawaii.</p>
+
+
+
+<p>These numbers convert in the change Nextcloud brings about, contributing to a more connected, privacy-respecting, transparent, and safer digital world &#8211; where we interact with government services, access our education, cast votes in elections, fill forms on websites and call our colleagues and friends through video chat.</p>
+
+
+
+<h3 class="wp-block-heading">Change starts with people </h3>
+
+
+
+<p>This year, our team has grown significantly, reflecting our success. With 20% increase in size we are now 118 strong united by a shared vision across 23 countries. That includes 7&nbsp;working students who get a chance to learn the ropes at Nextcloud. While we have expanded into a bigger office space in Berlin, we remain proudly remote-first, reflecting the flexibility and global collaboration that define our culture.</p>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay.jpg" alt="Nextcloud Community Conference 2024 group photo with overlay" class="wp-image-276806" srcset="https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/12/nextcloud-community-conference-2024-group-photo-with-overlay-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">A spirit of fellowship: Nextcloud community <img decoding="async" class="wp-image-224548" style="width: 0px;" src="https://nextcloud.com/c/uploads/2024/06/conference-icon-blue-2.svg" alt=""></h2>
+
+
+
+<p>As an open-source project, Nextcloud thrives not just on code but on the people behind it. Thanks to all the developers, translators, maintainers, and other enthusiasts that contribute, Nextcloud has grown into the platform of choice for those who value privacy, security, and transparency. Let us share some facts about Nextcloud in 2024!</p>
+
+
+<section class="industries-section " id="">
+	<div class="container">
+				<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 spacer"><div class="item-box "><h4>38k+ GitHub commits <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f9d1-200d-1f4bb.png" alt="🧑‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>Made this year by the Nextcloud team and community.</p>
+</div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box "><h4>11.3k+ new forum members <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>+8,4K new topics and +41.7 new posts on the Nextcloud Community forum.</p>
+</div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box "><h4>100+ security experts thanked <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1fa7a.png" alt="🩺" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>Our engineers responded to reports in 5 hours on average, with 100% response efficiency.</p>
+</div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box "><h4>100+ languages <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f4ac.png" alt="💬" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>Thanks to the translator community, Nextcloud is available in 107 languages, 41 exceeding 50% completion.</p>
+</div></div>		</div>
+	</div>
+</section>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image imageRoundShadow">
+<figure class="aligncenter size-full is-resized"><a href="https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/" target="_blank" rel=" noreferrer noopener"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote.png" alt="Nextcloud Podcast Andy quote" class="wp-image-276850" style="width:561px;height:auto" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote.png 1920w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote-300x169.png 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote-768x432.png 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-quote-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></a><figcaption class="wp-element-caption">Click to listen to the podcast episode!</figcaption></figure></div>
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Shaping collaboration of tomorrow with Nextcloud Hub </h2>
+
+
+
+<h3 class="wp-block-heading">The efficient Nextcloud Hub 8</h3>
+
+
+
+<p>Launching <a href="https://nextcloud.com/blog/nextcloud-hub8" target="_blank" rel="noreferrer noopener">Nextcloud Hub 8</a> under the “Regain control over your time” theme, we made it all about efficiency. With Nextcloud Assistant 2.0 bringing innovative AI features, interactive widgets connecting our apps further, advancing chat and sharing tools and ambitious architecture undertakings, this release gave you more control than ever before.</p>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-provider-youtube wp-block-embed-youtube"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Introducing Nextcloud Hub 8: Nextcloud AI Assistant 2.0, Context Chat, and Teams &#x1f389;" width="500" height="281" src="https://www.youtube.com/embed/fl2BQu2dWZY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">The connected Nextcloud Hub 9</h3>
+
+
+
+<p>Our <a href="https://nextcloud.com/blog/nextcloud-hub9/" target="_blank" rel="noreferrer noopener">latest release</a> brought a major visual redesign to the platform, resulting in a slicker experience all around. But it’s not all about the looks &#8211; with a growing stack of federation features, automation centralizing under Nextcloud Flow, and further efforts to elevate performance and scaling, Nextcloud Hub 9 made headlines this September as an “Explosive release”.</p>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-provider-youtube wp-block-embed-youtube"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Introducing Nextcloud Hub 9 - the world&#039;s leading open source collaboration platform!" width="500" height="281" src="https://www.youtube.com/embed/EnT_OVfE4nw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Nextcloud Talk: the open-source answer to Teams</h2>
+
+
+
+<p>In an unrestful world of today, dependency on centralized, opaque systems under strong foreign influence is a ticking clock. It is time the open-source world had a real answer to Microsoft Teams. Nextcloud Talk is the only open-source conferencing hub that seamlessly integrates chats, video meetings and webinar functionality in one powerful, privacy-respecting platform.</p>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Introducing the Open Source answer to Microsoft Teams" src="https://player.vimeo.com/video/1035504262?h=776fa1186e&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</div></figure>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>We are wrapping up 2024 with a strong <a href="https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/" target="_blank" rel="noreferrer noopener">standalone release of Nextcloud Talk</a>, celebrating its reinvention within Nextcloud’s product portfolio. New desktop application, new AI features, new streaming capabilities, simplified and mindful collaboration, and reinforced security (again!) &#8211; we invite you to meet the new Nextcloud Talk.</p>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1.png"><img decoding="async" width="1200" height="597" src="https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1.png" alt="Nextcloud Talk Hub 9" class="wp-image-257769" srcset="https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1.png 1200w, https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1-300x149.png 300w, https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1-1024x509.png 1024w, https://nextcloud.com/c/uploads/2024/09/nextcloud-hub9-talk-preview-1-768x382.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></a></figure></div>
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Standing ground against Big Tech </h2>
+
+
+
+<p>In an attempt to <a href="https://nextcloud.com/blog/microsoft-attempts-to-slow-antitrust-case-by-separating-teams/" target="_blank" rel="noreferrer noopener">slow down the antitrust case</a> backed by Nextcloud and other members of the Coalition for level playing field, Microsoft has unbundled Teams from the Windows ecosystem. Such “malicious compliance” is one of the common instruments in the Big Tech arsenal used to resist the limiting market regulations. A legislation like EU’s Digital Markets Act (DMA) could <a href="https://nextcloud.com/blog/nextcloud-for-die-zeit-microsoft/" target="_blank" rel="noreferrer noopener">protect fair competition further</a>, once it targets Microsoft’s cloud products that squeeze numerous local providers from the market.</p>
+
+
+
+<p>With this struggle still far from over, some results of our common efforts are evident. Earlier this year, Germany has officially <a href="https://nextcloud.com/blog/germany-recognises-microsoft-as-tech-giant/" target="_blank" rel="noreferrer noopener">recognized Microsoft as a tech giant</a> and made it “subject to extended abuse control”, three years since the formal antitrust complaint.</p>
+
+
+
+<p>When the global IT so evidently lacks <a href="https://nextcloud.com/blog/global-outage-shows-lack-of-digital-sovereignty-and-resilience/" target="_blank" rel="noreferrer noopener">digital sovereignty and resilience</a>, we naturally consider the fight for a fair trade a part of our mission.</p>
+
+
+
+<h2 class="wp-block-heading">AI with ethical integrity </h2>
+
+
+
+<p>Like we said in one of the early introductions to our AI tools, some AI is hype and some is substance. And we want to give you the substance. Nextcloud does become a better version of itself with the evolving AI stack, helping you get some tasks done quicker.</p>
+
+
+
+<p>The back-end, the UX, the features, and the models you can use to power up Nextcloud Assistant &#8211; this year our engineers and contributors have done work to be proud of. From context-aware features with <a href="https://nextcloud.com/blog/nextcloud-releases-assistant-2-0-and-pushes-ai-as-a-service/">Nextcloud Assistant 2.0</a> and chat UI and platform-wide integration in <a href="https://nextcloud.com/blog/nextcloud-hub9/">Nextcloud Hub 9</a> to new <a href="https://nextcloud.com/blog/how-open-source-ai-models-can-help-you-take-control-of-your-privacy/">open-source AI</a> models &#8211; you can enjoy a fully AI-powered workspace.</p>
+
+
+
+<p>And most importantly, you stay in control of this powerful technology. To build the system that you can rely on and keep your data yours, you can refer to our Ethical AI Rating and decide what AI you want to use in Nextcloud Hub.</p>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/03/nextcloud-ethical-AI-logo-1.svg" alt="Nextcloud Ethical AI" class="wp-image-108526" style="width:256px;height:auto"/></figure></div>
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Ready for mission-critical, enterprise deployment </h2>
+
+
+
+<h3 class="wp-block-heading">Enterprise support for Roundcube</h3>
+
+
+
+<p>Since <a href="https://nextcloud.com/blog/open-source-email-pioneer-roundcube-comes-aboard-nextcloud/">Roundcube joined us</a>, Nextcloud began to receive requests from large hosting companies for support. In August Nextcloud introduced the first official offering of enterprise support for Roundcube! It is tailored specifically for mail providers running large instances with thousands to millions of end users.&nbsp;We also offer our services to help businesses, universities and the public sector, but our offering makes the most sense for <a href="https://nextcloud.com/blog/introducing-enterprise-support-for-roundcube/">larger installations</a>. </p>
+
+
+
+<h3 class="wp-block-heading">Process automation at scale with Nextcloud Flow</h3>
+
+
+
+<p>Shortly before Nextcloud Hub 9, <a href="https://nextcloud.com/de/">Nextcloud</a> has presented the first <a href="https://nextcloud.com/de/blog/press_releases/ozg-erste-open-source-plattform-fuer-einfache-umsetzung/">automation-enabled open source platform</a> for implementing the Online Access Act (Onlinezugangsgesetz, OZG) in Germany and similar use cases in other countries. The Nextcloud Flow toolbox provides administrations with a digitally sovereign tool for offering and automating public services online and for exchanging the underlying processes among themselves. </p>
+
+
+
+<h3 class="wp-block-heading">BITV 2.0 certified Nextcloud</h3>
+
+
+
+<p>Nextcloud Enterprise has been awarded a German BITV 2.0 certification that is based on WCAG 2.0 benchmark. This means that the enterprise and public sector users can be confident in the accessibility standards of Nextcloud. The platform is designed with all users’ needs in mind, suitable for people with limitations and requirements for non-standard input devices and additional measures like a screen reader. Contact your sales representative if you require the certification.</p>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-columns borderRadius has-background is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex" style="background-color:#e0edf8">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<h2 class="wp-block-heading">News talk: In the spotlight </h2>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Spanish newspaper <a href="https://www.elespanol.com/invertia/disruptores/grandes-actores/tecnologicas/20240917/empresa-protege-datos-csic-amnistia-internacional-frenando-abuso-tecnologicas/885911448_0.html">El Espanol</a> reported on the Nextcloud Community Conference.</li>
+
+
+
+<li>German <a href="https://netzpolitik.org/2024/bundeskartellamt-legt-sich-bei-microsoft-auf-die-lauer/">netzpolitik.org</a> and others reported on the update regarding the complaint against Microsoft.</li>
+
+
+
+<li>German newspaper <a href="https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/open-source-als-wegbereiter-digitaler-souveraenitaet">Der Tagesspiegel</a> published a bylined article by Frank Karlitschek on open source as a pioneer of digital sovereignty.</li>
+
+
+
+<li>Weekly newspaper <a href="https://www.zeit.de/digital/internet/2024-07/microsoft-pakete-software-eu-kommission">Die Zeit</a> published an article on Microsoft’s practices of bundling following an interview with Frank Karlitschek. </li>
+
+
+
+<li><a href="https://www.sz-dossier.de/newsletters/digitalwende/2024-12-19-schleswig-holstein-ohne-microsoft-so-laeuft-die-umstellung" target="_blank" rel="noreferrer noopener">Süddeutsche Zeitung Dossier</a> published an article exploring the transition of Schleswig-Holstein state administration from Microsoft, featuring a conversation with Frank Karlitschek and Dirk Schrödter of Schleswig-Holstein.</li>
+</ul>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/press/" target="_blank" rel="noreferrer noopener">Press? Let&#8217;s chat!</a></div>
+</div>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="industries-section text-left wide" id="">
+	<div class="container">
+		<div class="row justify-content-center"><div class="col-lg-6"><div class="section-title"><p>Award-winning achievements <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f3c6.png" alt="🏆" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p></div></div></div>		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 spacer"><div class="item-box with-link"><a href="https://nextcloud.com/blog/nextcloud-wins-platinum-at-the-it-awards-2024/ " title="Read more" target="_blank"><img decoding="async" src="https://nextcloud.com/c/uploads/2024/05/CloudComputing-Insider-AWARD-2024-image-1.png" alt="Nextcloud - Platinum CloudComputing-Insider Award"/><h4>Platinum CloudComputing-Insider Award</h4><p>The IT Awards celebrate outstanding IT solutions across various categories. This is our 8th nomination, bringing us Platinum.</p>
+</a></div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box with-link"><a href="https://nextcloud.com/blog/nextcloud-recognized-with-world-summit-award-germany/" title="Read more" target="_blank"><img decoding="async" src="https://nextcloud.com/c/uploads/2024/11/wsa-logo-master-rvg_Germany-Winner-e1731599383543.png" alt="Nextcloud - World Summit Award Germany"/><h4>World Summit Award Germany</h4><p>Nextcloud has been recognized with the World Summit Award Germany in the Government &#038; Citizen Engagement category. </p>
+</a></div></div>		</div>
+	</div>
+</section>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Connecting globally, inspiring locally: 2024 events </h2>
+
+
+<section class="industries-section text-left" id="">
+	<div class="container">
+				<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 spacer"><div class="item-box with-link"><a href="https://nextcloud.com/events/" title="Browse all events" target="_blank"><h4>25 events <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f5d3.png" alt="🗓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>10 events took place in Germany, and our Q4 has been the busiest. On our checklist are FOSDEM, it-sa, GITEX Global, Smart City Expo, Smart Country Convention and many others. </p>
+</a></div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box with-link"><a href="https://nextcloud.com/webinars/" title="Watch this year's webinars" target="_blank"><h4>76 webinars <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f4fa.png" alt="📺" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h4><p>Through our free webinars, Nextcloud users learn about solving their individual challenges and using new Nextcloud features and acquire skills in deployment and administration. </p>
+</a></div></div>		</div>
+	</div>
+</section>
+
+
+
+<div class="wp-block-columns borderRadius has-background is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex" style="background-color:#e0edf8">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top" style="grid-template-columns:auto 25%"><div class="wp-block-media-text__content">
+<h4 class="wp-block-heading">Top 3 most watched Nextcloud webinars in 2024:</h4>
+
+
+
+<ul class="wp-block-list nc-list">
+<li><a href="https://nextcloud.com/blog/event/overcome-workflow-challenges-with-nextcloud-flow/" target="_blank" rel="noreferrer noopener">Overcome workflow challenges with Nextcloud Flow</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/event/introducing-nextcloud-hub-9/" target="_blank" rel="noreferrer noopener">Introducing Nexcloud Hub 9</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/event/set-up-nextcloud-scale/" target="_blank" rel="noreferrer noopener">How to set up Nextcloud for scale</a></li>
+</ul>
+</div><figure class="wp-block-media-text__media"><img decoding="async" src="https://nextcloud.com/c/uploads/2024/12/NC-webinar-icon-blue.svg" alt="" class="wp-image-274773 size-full"/></figure></div>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/webinars/" target="_blank" rel="noreferrer noopener">Browse all</a></div>
+</div>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Nextcloud Community Conference 2024</h3>
+
+
+
+<p>This September, we hosted our annual community gathering in Berlin once again. With attendance beating all the records, we certainly scaled up – and so did the program! Our guests &#8211; about 200 open-source enthusiasts, Nextcloud lovers, and team &#8211; were joined by speakers of a great caliber: computer scientist, author and spokeswoman of the Chaos Computer Club&nbsp;Constanze Kurz, and professor Björn Lundell, a researcher and Software Systems Research Group lead at the University of Skövde.</p>
+
+
+
+<p>As always, Nextcloud Community Conference is a platform for our community to showcase their projects and discuss modern day wins and challenges of open-source! You can find the recordings of all the lightning talks in a dedicated <a href="https://youtube.com/playlist?list=PL4eBKdNy6FCHmPSWQ3y3AKG7OyKlJw0nE&amp;feature=shared">YouTube playlist</a>.</p>
+
+
+
+<figure class="wp-block-embed is-provider-youtube wp-block-embed-youtube"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Nextcloud Community Conference 2024 &#x1f389;" width="500" height="281" src="https://www.youtube.com/embed/9PlYyNhmOeI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:37px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Nextcloud Enterprise Day in Paris, Munich and Frankfurt </h3>
+
+
+
+<p>Nextcloud Enterprise Day is gaining a momentum each year. Over two hundred enterprise and public decision makers attended our first event in Frankfurt in 2024. Featuring keynotes by leading voices across industries, product announcements and roadmap sneak peeks, and ample opportunities for networking and optimizing your platform, it provides a premier setting to explore and advance privacy, digital sovereignty, and digitalization. The success prompted us to organize two more events, in Munich and Paris.</p>
+
+
+
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="simple-slider-section " id="">
+	<div class="">
+                    <div class="owl-carousel simple_slider_slideshow" id="">
+                                    <div class="gallery_item" id="260937">
+                        <a href="https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1105" height="720" src="https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191.jpg 1105w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191-300x195.jpg 300w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191-884x576.jpg 884w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-EnterpriseDay24-191-768x500.jpg 768w" sizes="(max-width: 1105px) 100vw, 1105px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="276476">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1280" src="https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer.jpg" class="attachment-full size-full" alt="Nextcloud Enterprise Day Frankfurt Felix Gebauer" srcset="https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer-300x200.jpg 300w, https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer-864x576.jpg 864w, https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer-768x512.jpg 768w, https://nextcloud.com/c/uploads/2024/12/Enterprise-Day-Frankfurt-Felix-Gebauer-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="245076">
+                        <a href="https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="2000" height="1125" src="https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1.jpg 2000w, https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1-300x169.jpg 300w, https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1-1024x576.jpg 1024w, https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1-768x432.jpg 768w, https://nextcloud.com/c/uploads/2024/08/Nextcloud-EnterpriseDay24-131-copy-1-1536x864.jpg 1536w" sizes="(max-width: 2000px) 100vw, 2000px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="276491">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1280" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team.jpg" class="attachment-full size-full" alt="Nextcloud Enterprise Day Frankfurt team" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team-300x200.jpg 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team-864x576.jpg 864w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team-768x512.jpg 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-team-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="276784">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1280" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team-300x200.jpg 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team-864x576.jpg 864w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team-768x512.jpg 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Paris-team-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="276789">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1280" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A-300x200.jpg 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A-864x576.jpg 864w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A-768x512.jpg 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-Frankfurt-Q-A-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                                    <div class="gallery_item" id="276794">
+                        <a href="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank.jpg" class="simple_slider_slideshow_link">
+                            <img decoding="async" width="1920" height="1280" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank.jpg 1920w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank-300x200.jpg 300w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank-864x576.jpg 864w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank-768x512.jpg 768w, https://nextcloud.com/c/uploads/2024/12/Nextcloud-Enterprise-Day-keynote-Frank-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />                        </a>
+                                            </div>
+                            </ul>
+        	</div>
+</section>
+<script type="rocketlazyloadscript">
+    jQuery(document).ready(function ($) {
+        var owl_simple_slider = $('.simple_slider_slideshow');
+        owl_simple_slider.owlCarousel({
+            loop:true,
+            stagePadding: 50,
+            autoplay: true,
+            margin:10,
+            dots: false,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            },
+            onDragged: owl_stop_autoplay,
+            autoplayHoverPause:true
+        });
+
+        owl_simple_slider.on('click', function(e) {
+            owl_stop_autoplay();
+        });
+        function owl_stop_autoplay() {
+            //console.log('autoplay stopped.');
+            owl_simple_slider.trigger('stop.owl.autoplay');
+        }
+
+    });
+</script>
+
+
+<section class="industries-section " id="">
+	<div class="container">
+		<div class="row justify-content-center"><div class="col-lg-6"><div class="section-title"><p>This year, we hosted Nextcloud Enterprise Day in three cities:</p></div></div></div>		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>Nextcloud Enterprise Day Munich</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>Nextcloud Enterprise Day Frankfurt</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>Nextcloud Enterprise Day Paris</h4></div></div>		</div>
+	</div>
+</section>
+
+
+
+<p>Each year, Nextcloud Enterprise Day events grow in relevance among enterprise audiences, evident in rising attendance and enthusiasm. In 2025, we aim to amplify their impact by exploring new formats and locations.</p>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-columns borderRadius has-background is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex" style="background-color:#e0edf8">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<h2 class="wp-block-heading">This year&#8217;s content highlights </h2>
+
+
+
+<p>This year has been busy for our content team. Numbers speak: 154 blog articles, 9 Nextcloud Podcast episodes, 59 videos, 14 community newsletters, an a lot more content across social media and other channels. Here are some of the most popular pieces for you.</p>
+
+
+
+<h3 class="wp-block-heading">The best of our blog in 2024 </h3>
+
+
+
+<figure class="wp-block-image size-full imageRoundShadow"><img decoding="async" width="1921" height="1081" src="https://nextcloud.com/c/uploads/2024/11/nextcloud-talk.png" alt="" class="wp-image-272546" srcset="https://nextcloud.com/c/uploads/2024/11/nextcloud-talk.png 1921w, https://nextcloud.com/c/uploads/2024/11/nextcloud-talk-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/nextcloud-talk-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/nextcloud-talk-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/nextcloud-talk-1536x864.png 1536w" sizes="(max-width: 1921px) 100vw, 1921px" /></figure>
+
+
+
+<ul class="wp-block-list nc-list">
+<li><a href="https://nextcloud.com/blog/nextcloud-hub9/" target="_blank" rel="noreferrer noopener">Be connected with Nextcloud Hub 9</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/" target="_blank" rel="noreferrer noopener">The open-source answer to Microsoft Teams</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-hub8/" target="_blank" rel="noreferrer noopener">Regain control over your time with Nextcloud Hub 8 </a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/vote-for-nextcloud-in-the-cloudcomputing-insider-award-2024/" target="_blank" rel="noreferrer noopener">Nextcloud in the CloudComputing-Insider Awards 2024</a> </li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-releases-assistant-2-0-and-pushes-ai-as-a-service/" target="_blank" rel="noreferrer noopener">Nextcloud releases Assistant 2.0 and pushes AI-as-a-Service</a> </li>
+
+
+
+<li><a href="https://nextcloud.com/blog/sendent-an-outlook-add-in-to-protect-your-data/" target="_blank" rel="noreferrer noopener">Sendent: An Outlook add-in to protect your data</a> </li>
+
+
+
+<li><a href="https://nextcloud.com/blog/how-to-protect-yourself-against-deepfake-scams/" target="_blank" rel="noreferrer noopener">How to protect yourself against deepfake scams in video calls</a> </li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-talk-open-source-online-video-conferencing-software/" target="_blank" rel="noreferrer noopener">Nextcloud Talk: open-source online video conferencing software </a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/how-to-backup-your-files-with-an-open-source-file-sync-tool/" target="_blank" rel="noreferrer noopener">How to secure your data daily with an open-source file sync and backup tool </a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-global-scale-how-it-works/" target="_blank" rel="noreferrer noopener">Nextcloud Global Scale: local data and limitless scalability at commodity cost</a> </li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">In conversation: Nextcloud Podcast episodes <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f3a7.png" alt="🎧" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<figure class="wp-block-image size-full imageRoundShadow"><img decoding="async" width="1280" height="720" src="https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein.png" alt="Nextcloud podcast Open source government Schleswig Holstein" class="wp-image-263823" srcset="https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein.png 1280w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein-768x432.png 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></figure>
+
+
+
+<ul class="wp-block-list nc-list">
+<li><a href="https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/" target="_blank" rel="noreferrer noopener">Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein&#8217;s CIO</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/constanze-kurz-mass-surveillance-snowden-and-the-future-of-digital-politics/" target="_blank" rel="noreferrer noopener">Constanze Kurz: mass surveillance, Snowden, and the future of digital politics</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/bechtle-and-nextcloud-navigating-digital-transitions-in-the-public-sector/" target="_blank" rel="noreferrer noopener">Bechtle and Nextcloud: Navigating Digital Transitions in the Public Sector</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/lea-grober-understanding-self-hosting-and-security-through-nextcloud/" target="_blank" rel="noreferrer noopener">Lea Gröber: Understanding self-hosting and security through Nextcloud</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/open-source-dynamics-philosophy-and-community-jos-poortvliets-nextcloud-insights/" target="_blank" rel="noreferrer noopener">Open source dynamics, philosophy, and community: Jos Poortvliet&#8217;s Nextcloud insights</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/a-fireside-chat-with-nextcloud-founder-frank-karlitschek/" target="_blank" rel="noreferrer noopener">A fireside chat with Nextcloud founder Frank Karlitschek</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/magentacloud-t-systems-building-a-2m-user-nextcloud/" target="_blank" rel="noreferrer noopener">MagentaCLOUD + T-Systems: Building a 2.2M User Nextcloud</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-podcast-nextclouders-journey-with-julien-veyssier/" target="_blank" rel="noreferrer noopener">The Nextclouder&#8217;s Journey with Julien Veyssier</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/" target="_blank" rel="noreferrer noopener">Empowering through open source: Nextcloud’s Director of Engineering Andy Scherzinger</a></li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Videos you loved <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/25b6.png" alt="▶" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
+
+
+
+<p>We published 59 videos <em>with </em>356K+ views and about 15.5H hours total watch-time! Here are 10 most watched videos this year:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li><a href="https://www.youtube.com/watch?v=EnT_OVfE4nw" target="_blank" rel="noreferrer noopener">Introducing Nextcloud Hub 9 &#8211; the world&#8217;s leading open source collaboration platform!</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=fl2BQu2dWZY" target="_blank" rel="noreferrer noopener">Introducing Nextcloud Hub 8: Nextcloud AI Assistant 2.0, Context Chat, and Teams</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=XpZqpSvN3MM" target="_blank" rel="noreferrer noopener">Nextcloud Photos 2.0</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=W1-W5KTWNdM" target="_blank" rel="noreferrer noopener">Introducing Nextcloud Files</a><em> </em></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=CX8aPmoJlGo" target="_blank" rel="noreferrer noopener">Automate your business processes with Nextcloud Flow</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/Nextcloud-blue.png);">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+					<div class="icon"><img decoding="async" src="https://nextcloud.com/c/uploads/2022/09/nc-icon-email-white.svg" alt="Nextcloud - +9198 Newsletter subscriptions"/></div><h2>+9198 Newsletter subscriptions</h2><p>Love to learn more about Nextcloud? Get our monthly newsletter straight to your inbox!</p>
+<a class="c-btn btn-white" href="https://nextcloud.com/newsletter/" target="_blank">Subscribe</a>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">More reasons to develop for Nextcloud! </h2>
+
+
+
+<figure class="wp-block-image size-full imageRoundShadow"><img decoding="async" width="3024" height="1416" src="https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1.png" alt="Develop for Nextcloud" class="wp-image-276541" srcset="https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1.png 3024w, https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1-300x140.png 300w, https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1-1024x479.png 1024w, https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1-768x360.png 768w, https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1-1536x719.png 1536w, https://nextcloud.com/c/uploads/2024/12/Develop-for-Nextcloud-1-2048x959.png 2048w" sizes="(max-width: 3024px) 100vw, 3024px" /></figure>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>With our developer program, you get an opportunity to create apps for hundreds of thousands of Nextcloud servers deployed across the globe. With our App Store, you get free promotion and an opportunity to publish apps for both end users and businesses. </p>
+
+
+
+<p>Create new apps or build on top of the Nextcloud platform using 11 available app tutorials. This year, we added 2 new tutorials: a &#8216;hello world&#8217; app tutorial and a guide to using Github Codespaces as a developer environment. </p>
+
+
+
+<p>Other important improvements for developers this year include:</p>
+
+
+
+<ul class="wp-block-list nc-list">
+<li>Getting help from Nextcloud translator community with Transifex</li>
+
+
+
+<li>New mechanics in AppStore: donations, enterprise support</li>
+
+
+
+<li>Support for AI apps</li>
+
+
+
+<li>Support for external UI injection</li>
+</ul>
+
+
+
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/developer/" target="_blank" rel="noreferrer noopener">Develop for Nextcloud</a></div>
+</div>
+
+
+
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">New integrations </h2>
+
+
+
+<p>We designed Nextcloud to fit effortlessly into your existing workflows &#8211; by offering a wide range of integrations with popular tools and platforms, and an ability to create unique Nextcloud-ready apps in any programming language. This year, we introduced integrations with popular apps XWiki and Paperless-ngx, added new AI models to power up Nextcloud Assistant, and enabled enterprise support for a range of apps, working together with teams behind them.</p>
+
+
+<section class="industries-section wide" id="">
+	<div class="container">
+		<div class="row justify-content-center"><div class="col-lg-6"><div class="section-title"><p>New app integrations:</p></div></div></div>		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 spacer"><div class="item-box "><img decoding="async" src="https://nextcloud.com/c/uploads/2024/04/Paperless-ngx-logo_full_black-copy.png" alt="Nextcloud - Paperless-ngx"/><h4>Paperless-ngx</h4></div></div><div class="col-lg-6 col-md-6 spacer"><div class="item-box "><img decoding="async" src="https://nextcloud.com/c/uploads/2023/12/xwiki-logo.png" alt="Nextcloud - XWiki"/><h4>XWiki</h4></div></div>		</div>
+	</div>
+</section>
+
+
+<section class="industries-section wide" id="">
+	<div class="container">
+		<div class="row justify-content-center"><div class="col-lg-6"><div class="section-title"><p>Enterprise support for apps:</p></div></div></div>		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 spacer"><div class="item-box "><img decoding="async" src="https://nextcloud.com/c/uploads/2024/07/logo-mailvelope.svg" alt="Nextcloud - Mailvelope"/><h4>Mailvelope</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><img decoding="async" src="https://nextcloud.com/c/uploads/2024/07/dovecot_logo.png" alt="Nextcloud - Dovecot"/><h4>Dovecot</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><img decoding="async" src="https://nextcloud.com/c/uploads/2024/07/logo-Stalwart-red.svg" alt="Nextcloud - Stalwart"/><h4>Stalwart</h4></div></div>		</div>
+	</div>
+</section>
+
+
+<section class="industries-section wide" id="">
+	<div class="container">
+		<div class="row justify-content-center"><div class="col-lg-6"><div class="section-title"><p>New AI models supported:</p></div></div></div>		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+									</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>NeuralBeagle14 7B</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>Smaug-72b</h4></div></div><div class="col-lg-4 col-md-6 spacer"><div class="item-box "><h4>LLama3</h4></div></div>		</div>
+	</div>
+</section>
+
+
+
+<h2 class="wp-block-heading">Let&#8217;s make it awesome in 2025! </h2>
+
+
+
+<p>If you made it this far, we hope this hefty read has brought you a personal reason to celebrate alongside us. From millions of new users choosing privacy to an ever-expanding deployments of servers worldwide, Nextcloud continues to connect people and organizations without compromising control over their data. And our story as a community-driven project is told by people. So today we thank <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" />you<img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> for being a part of it. </p>
+
+
+
+<p>Cheers to reaching new heights together in 2025!</p>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-2024-wrap-up/">Nextcloud powering the digital workspace of tomorrow: 2024 in review</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches</title>
+		<link>https://nextcloud.com/blog/nextcloud-office-your-privacy-upgrade-as-microsoft-office-end-of-life-approaches/</link>
+		
+		<dc:creator><![CDATA[Brent Gervais]]></dc:creator>
+		<pubDate>Fri, 20 Dec 2024 10:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<guid isPermaLink="false">https://nextcloud.com/?p=271028</guid>
+
+					<description><![CDATA[<p>By 2025 the most popular Microsoft Office products fall out of support.</p>
+<p>We believe there's a need for a real Microsoft 365 alternative that protects your privacy.</p>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-office-your-privacy-upgrade-as-microsoft-office-end-of-life-approaches/">Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image-1024x576.png" alt="" class="wp-image-271658" srcset="https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image-1536x864.png 1536w, https://nextcloud.com/c/uploads/2024/11/Nextcloud-Office-Microsoft-end-of-life-Featured-Image.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>By 2025 the most popular Microsoft Office products fall out of support, including the most widely used Office versions: Microsoft Office 2016 and 2019. Microsoft&#8217;s recommendation? Move, of course, to their subscription-only Microsoft 365 offering which changes the scope of data privacy, access, and the financial relationship SME&#8217;s depend on — becoming subject to sudden price changes, like the previous <a href="https://www.computerworld.com/article/1614963/microsoft-plots-price-hikes-for-most-office-microsoft-365-subscriptions.html" target="_blank" rel="noreferrer noopener">up-to-25% price hikes</a>.</p>
+
+
+
+<p>We believe there&#8217;s a need for a real alternative.</p>
+
+
+
+<h2 class="wp-block-heading">The clock is ticking</h2>
+
+
+
+<p>Currently more than 80% of small and midsize enterprises (SMEs) in Germany use Microsoft Office packages that <a href="https://www.intra2net.com/en/company/press/press-release.php_id=58.html" target="_blank" rel="noreferrer noopener">will have reached end-of-life next year</a>, including Office 2016 and Office 2019. Essentially, &#8220;support for Office 2016 and Office 2019 will end on October 14, 2025 and there will be no extension and no extended security updates.&#8221; <a href="https://support.microsoft.com/en-us/office/end-of-support-for-office-2016-and-office-2019-818c68bc-d5e5-47e5-b52f-ddf636cf8e16">states</a> Microsoft. Without an upgrade &#8220;you could expose yourself to serious and potentially harmful security risks.&#8221; And… they&#8217;re right.</p>
+
+
+
+<h2 class="wp-block-heading">Why businesses hesitate with Microsoft 365</h2>
+
+
+
+<p>Microsoft&#8217;s recommendation to move to Microsoft 365 carries significant implications for essential everyday office tools in enterprises. Data show that enterprises are <a href="https://www.intra2net.com/en/company/press/press-release.php_id=58.html" target="_blank" rel="noreferrer noopener">hesitating to upgrade</a>, with market share of Office 2010, 2013, 2015 and 2019 remaining stable in the last 24 months. Why the hesitation to upgrade?</p>
+
+
+
+<p>We can think of a few reasons.</p>
+
+
+
+<h3 class="wp-block-heading">The financial implications</h3>
+
+
+
+<p>The soon-to-expire versions of Microsoft Office follow the traditional licensing model, which SMEs expect and appreciate for it&#8217;s predictability. With Microsoft&#8217;s suggested move to Office 365, that model gets thrown away for the monthly subscription model with cloud services. Which leads us to question…</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>Why does Big Tech love subscriptions?</p></blockquote></figure>
+
+
+
+<h3 class="wp-block-heading">Price control: increased prices at any time</h3>
+
+
+
+<p>There&#8217;s an incentive to lock you into recurring pricing through subscriptions that cause price control: the ability for them to raise prices at any point, leaving SMEs at the mercy of their new subscription overlords.</p>
+
+
+
+<p>The reason this is so effective?</p>
+
+
+
+<h3 class="wp-block-heading">Cancelling is painful: the vendor lock-in guarantee</h3>
+
+
+
+<p>Subscription models provide a perfect vendor lock-in scenario, creating this dependency and making it both difficult and costly to switch providers if the service does not meet expectations. Another step to this vendor lock-in includes the technical challenges associated with a massive migration from a subscription service.</p>
+
+
+
+<h3 class="wp-block-heading">What about my data privacy?</h3>
+
+
+
+<p>Is it acceptable that internal documents, Intellectual Property, and private communications are the new building blocks for Microsoft&#8217;s AI models?</p>
+
+
+
+<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image imageRoundShadow">
+<figure class="aligncenter size-full"><a href="https://nextcloud.com/blog/how-open-source-ai-models-can-help-you-take-control-of-your-privacy/" target="_blank" rel=" noreferrer noopener"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy.png" alt="How open-source AI models help you take control of your privacy" class="wp-image-269501" srcset="https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy.png 1920w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-300x169.png 300w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-768x432.png 768w, https://nextcloud.com/c/uploads/2024/11/How-open-source-AI-models-help-you-take-control-of-your-privacy-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></figure></div>
+
+
+<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Moving to Microsoft 365 also drastically changes the expectations of data privacy, sovereignty, and transparency. With the suggestion to move the entire office suite to Microsoft&#8217;s cloud, your data may no longer be solely yours.</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/privacy/privacystatement" target="_blank" rel="noreferrer noopener">Microsoft&#8217;s Privacy Statement</a> even states &#8220;As part of our efforts to improve and develop our products, we may use your data to develop and train our AI models.&#8221;</p>
+
+
+
+<p>Even the European Commission this year was found to <a href="https://www.edps.europa.eu/press-publications/press-news/press-releases/2024/european-commissions-use-microsoft-365-infringes-data-protection-law-eu-institutions-and-bodies_en" target="_blank" rel="noreferrer noopener">infringe on its own EU data protection laws</a> through its use of Microsoft 365, which &#8220;failed […] to ensure that personal data transferred outside the EU are afforded an essentially equivalent level of protection as guaranteed in the EU.&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">Nextcloud Office: refreshing alternative to Microsoft technologies</h2>
+
+
+
+<p>Nextcloud Office presents a migration path that addresses all of these Big Tech problems, from the grips of vendor lock-in to the critical data privacy concerns. It&#8217;s your ideal Microsoft 365 alternative!</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Real-time collaboration with Nextcloud Office | Nextcloud Hub 9" width="500" height="281" src="https://www.youtube.com/embed/LF4PnKbsBVc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>By allowing self-hosting on secure and self-controlled servers, or with trusted sovereign <a href="https://nextcloud.com/partners/">cloud hosting partners</a>, Nextcloud Office prioritizes your data sovereignty and <a href="https://nextcloud.com/compliance/">GDPR compliance</a>. This gives Nextcloud an edge over Microsoft 365, where data is stored on Microsoft&#8217;s servers and may be subject to access by US authorities.</p>
+
+
+
+<p>In addition to real-time collaborative editing of documents, spreadsheets, and presentations, Nextcloud Office also seamlessly integrates with other Nextcloud apps like <a href="https://nextcloud.com/talk/" target="_blank" rel="noreferrer noopener">Nextcloud Talk</a> and <a href="https://nextcloud.com/groupware/">Nextcloud Groupware</a> applications, enhancing overall team productivity.</p>
+
+
+
+<h3 class="wp-block-heading">Success in Germany&#8217;s federal state</h3>
+
+
+
+<p>From the public sector, the federal state of Schleswig-Holstein in Germany migrated away from the grasp of subscription models into Nextcloud&#8217;s suite of open source, data sovereign solutions including Nextcloud Office. This transition has been explored in details by Schleswig-Holstein&#8217;s CIO Sven Thomsen in a recent episode of the <em>Nextcloud Podcast</em>.</p>
+
+
+
+<section class="squote_style3_section" id="">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<div class="col-lg-8 order-lg-2">
+				<figure class="text-block">
+                    <blockquote>
+					<div class="quote-block"><p>With the adoption of Nextcloud Office in the last years, the value proposition that Nextcloud put into place totally changed for us: Nextcloud migrated in our view from a simple OneDrive alternative to becoming our central hub for collaboration and collaborative document editing. From an IT operations point of view, Nextcloud being open source is the perfect implementation path as a new solution.</p>
+</div><div class="rest"><cite><h6>Sven Thomsen</h6></cite><span>CIO of Schleswig-Holstein</span></div>                    </blockquote>
+				</figure>
+			</div>
+
+			<div class="order-lg-1 col-lg-4 ">
+				<div class="image-block">
+					<img decoding="async" width="400" height="400" src="https://nextcloud.com/c/uploads/2024/10/SvenThomsen.jpg" class="attachment-full size-full" alt="Sven Thomsen" srcset="https://nextcloud.com/c/uploads/2024/10/SvenThomsen.jpg 400w, https://nextcloud.com/c/uploads/2024/10/SvenThomsen-300x300.jpg 300w, https://nextcloud.com/c/uploads/2024/10/SvenThomsen-150x150.jpg 150w" sizes="(max-width: 400px) 100vw, 400px" />				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons noreferrer noopener is-content-justification-center is-nowrap is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio" target="_blank" rel="noreferrer noopener">Listen to the podcast!</a></div>
+</div>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Migrating to Nextcloud? Let us help!</h2>
+
+
+
+<p>We can directly help you migrate to <a href="https://nextcloud.com/enterprise/">Nextcloud Enterprise</a> or to one of our <a href="https://nextcloud.com/partners/">trusted partners</a>. We offer support for migration from a multitude of platforms, and encourage you to <a href="https://nextcloud.com/get-a-quote/">contact our sales team</a>.</p>
+
+
+
+<p>To smooth the transition, Nextcloud also supports many <a href="https://nextcloud.com/microsoft-integrations/">Microsoft integrations</a> to make the journey a success!</p>
+
+
+
+<h2 class="wp-block-heading">Nextcloud Office: Your new path forward</h2>
+
+
+
+<p>As Microsoft Office 2016 and 2019 reach their end-of-life milestones, SMEs face a critical decision, and an opportunity for a better path forward.</p>
+
+
+
+<p>An upgrade to Nextcloud Office prioritizes your data privacy, sovereignty, compliance, and vendor lock-in freedoms. Our open source suite of solutions allows SMEs to maintain control over their sensitive business information and avoid the risks associated with Big Tech&#8217;s cloud-based services.</p>
+
+
+
+<p>Don&#8217;t get left behind by the changing landscape of Microsoft&#8217;s products. Join the growing community of organizations that have successfully migrated to Nextcloud Office.</p>
+
+
+
+<p><em><strong>Take control of your data and your future.</strong></em></p>
+
+
+<section class="promo-section has_custom_bg_image  full-width " id="" style="">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-block">
+					<div class="icon"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/06/download-solid-white.svg" alt="Nextcloud - Explore Nextcloud Office"/></div><h2>Explore Nextcloud Office</h2><p>Your update journey to a more private and collaborative document editing.</p>
+<a class="c-btn btn-white" href="https://nextcloud.com/office/" target="_blank">Learn more!</a>				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<p></p>
+<p>The post <a href="https://nextcloud.com/blog/nextcloud-office-your-privacy-upgrade-as-microsoft-office-end-of-life-approaches/">Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Empowering through open source: Nextcloud&#8217;s Director of Engineering Andy Scherzinger</title>
+		<link>https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/</link>
+		
+		<dc:creator><![CDATA[Brent Gervais]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 10:10:01 +0000</pubDate>
+				<category><![CDATA[podcast]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[<p>From Andy's approach to problem-solving and guiding others to his personal values that give him direction, this episode is a must-listen for anyone interested in the intersection of technology, community, and personal growth.</p>
+<p>The post <a href="https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/">Empowering through open source: Nextcloud&#8217;s Director of Engineering Andy Scherzinger</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+
+<p>In this episode, we dive into Andy Scherzinger&#8217;s journey from contributing to Nextcloud as a community member to becoming Director of Engineering. We explore his unique perspectives on our open source community, the importance of compliance in software development, and how he balances technical expertise with leadership responsibilities.</p>
+
+
+
+<section class="squote_style3_section" id="">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<div class="col-lg-8 order-lg-2">
+				<figure class="text-block">
+                    <blockquote>
+					<div class="quote-block"><p>It gives me joy and recharges my batteries if at the end of the day I can see other people succeed.</p>
+</div><div class="rest"><cite><h6>Andy Scherzinger</h6></cite><span>Nextcloud&#8217;s Director of Engineering</span></div>                    </blockquote>
+				</figure>
+			</div>
+
+			<div class="order-lg-1 col-lg-4 ">
+				<div class="image-block">
+					<img decoding="async" width="1000" height="1000" src="https://nextcloud.com/c/uploads/2022/03/andy.jpg" class="attachment-full size-full" alt="Andy Scherzinger" srcset="https://nextcloud.com/c/uploads/2022/03/andy.jpg 1000w, https://nextcloud.com/c/uploads/2022/03/andy-300x300.jpg 300w, https://nextcloud.com/c/uploads/2022/03/andy-150x150.jpg 150w, https://nextcloud.com/c/uploads/2022/03/andy-768x768.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+<p>From his approach to problem-solving and guiding others to his personal values that give him direction, this episode is a must-listen for anyone interested in the intersection of technology, community, and personal growth.</p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading">Episode Links</h3>
+
+
+
+<ul class="wp-block-list nc-list">
+<li><a href="https://github.com/AndyScherzinger" target="_blank" rel="noreferrer noopener">AndyScherzinger &#8211; GitHub</a></li>
+
+
+
+<li><a href="https://www.linkedin.com/in/andyscherzinger/" target="_blank" rel="noreferrer noopener">Andy Scherzinger | LinkedIn</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/nextcloud-podcast-nextclouders-journey-with-julien-veyssier/" target="_blank" rel="noreferrer noopener">The Nextclouder&#8217;s Journey with Julien Veyssier &#8211; Nextcloud Podcast</a></li>
+
+
+
+<li><a href="https://nextcloud.com/developer/" target="_blank" rel="noreferrer noopener">Develop for Nextcloud: App development tutorials</a></li>
+
+
+
+<li><a href="https://nextcloud.com/enterprise/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise: Content collaboration software for enterprises</a></li>
+
+
+
+<li><a href="https://nextcloud.com/blog/ethical-use-of-ai-5-major-challenges/" target="_blank" rel="noreferrer noopener">Ethical use of AI: five major challenges</a></li>
+
+
+
+<li><a href="https://killedbygoogle.com/" target="_blank" rel="noreferrer noopener">Google Graveyard &#8211; Killed by Google</a></li>
+
+
+
+<li><a href="https://github.com/nextcloud" target="_blank" rel="noreferrer noopener">Nextcloud &#8211; GitHub</a></li>
+</ul>
+
+
+
+<p></p>
+<p>The post <a href="https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/">Empowering through open source: Nextcloud&#8217;s Director of Engineering Andy Scherzinger</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>December maintenance updates for Nextcloud Hub 7, 8 and 9</title>
 		<link>https://nextcloud.com/blog/december-maintenance-updates-for-nextcloud-hub-7-8-and-9/</link>
 		
@@ -104,7 +1253,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/changelog/" target="_blank" rel="noreferrer noopener">Full changelog</a></div>
 </div>
 
@@ -119,7 +1268,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Introducing Nextcloud Hub 9 - the world&#039;s leading open source collaboration platform!" width="500" height="281" src="https://www.youtube.com/embed/EnT_OVfE4nw?start=2&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="Introducing Nextcloud Hub 9 - the world&#039;s leading open source collaboration platform!" width="500" height="281" src="https://www.youtube.com/embed/EnT_OVfE4nw?start=2&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -209,7 +1358,7 @@
 <p>The post <a href="https://nextcloud.com/blog/nextcloud-talk-our-open-source-answer-to-microsoft-teams/">The open source answer to Microsoft Teams</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<p style="font-size:22px">When cables are cut, sanctions are put in place or privacy legislation prohibits the use of the service your entire organization depends on, what can you do?</p>
+<p>When cables are cut, sanctions are put in place or privacy legislation prohibits the use of the service your entire organization depends on, what can you do?</p>
 
 
 
@@ -222,7 +1371,7 @@
 
 
 <figure class="wp-block-embed is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
-<iframe title="Introducing the Open Source answer to Microsoft Teams" src="https://player.vimeo.com/video/1035504262?h=776fa1186e&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+<iframe loading="lazy" title="Introducing the Open Source answer to Microsoft Teams" src="https://player.vimeo.com/video/1035504262?h=776fa1186e&amp;dnt=1&amp;app_id=122963" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
 </div></figure>
 
 
@@ -231,7 +1380,6 @@
 
 
 
-<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top" style="grid-template-columns:auto 22%"><div class="wp-block-media-text__content">
 <h2 class="wp-block-heading">Welcome to Nextcloud Talk</h2>
 
 
@@ -245,7 +1393,6 @@
 
 
 <p>Nextcloud Talk is designed to address three key use cases. Let’s go quickly over them!</p>
-</div><figure class="wp-block-media-text__media"><img decoding="async" width="160" height="160" src="https://nextcloud.com/c/uploads/2024/12/Nextcloud-Talk-1.svg" alt="" class="wp-image-273429 size-full"/></figure></div>
 
 
 
@@ -1128,7 +2275,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">Register now</a></div>
 </div>
 
@@ -1198,7 +2345,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">View the access map</a></div>
 </div>
 
@@ -1322,7 +2469,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/enterprise-day-2024-france/" target="_blank" rel="noreferrer noopener">Register now!</a></div>
 </div>
 <p>The post <a href="https://nextcloud.com/blog/nextcloud-enterprise-day-lands-in-paris-be-part-of-the-product-launch-event/">Nextcloud Enterprise Day lands in Paris: be part of the product launch event!</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
@@ -1501,7 +2648,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://nextcloud.com/changelog/" target="_blank" rel="noreferrer noopener">Full changelog</a></div>
 </div>
 
@@ -1709,340 +2856,6 @@ Secure your seat today and don&#8217;t miss out!</p>
 
 <p></p>
 <p>The post <a href="https://nextcloud.com/blog/nextcloud-enterprise-day-key-to-smooth-sharepoint-to-nextcloud-migration-with-dr-frank-dengler/">Nextcloud Enterprise Day:  key to smooth SharePoint to Nextcloud migration with Dr. Frank Dengler</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Open Source AI is here</title>
-		<link>https://nextcloud.com/blog/open-source-ai-is-here/</link>
-		
-		<dc:creator><![CDATA[Jos Poortvliet]]></dc:creator>
-		<pubDate>Mon, 28 Oct 2024 14:26:27 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Blog]]></category>
-		<category><![CDATA[General]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<guid isPermaLink="false">https://nextcloud.com/?p=263323</guid>
-
-					<description><![CDATA[<p>Today, the Open Source Initiative has released its first official definition of Open Source AI. This is an important milestone. Let me explain why.</p>
-<p>The post <a href="https://nextcloud.com/blog/open-source-ai-is-here/">Open Source AI is here</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1.png" alt="Open-source AI is here - Nextcloud" class="wp-image-263341" srcset="https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1.png 1920w, https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1-768x432.png 768w, https://nextcloud.com/c/uploads/2024/10/open-source-ai-is-here-nextcloud-1-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>Today, the Open Source Initiative has <a href="https://opensource.org/deepdive" target="_blank" rel="noreferrer noopener">released</a> its first official definition of Open Source AI. This is an important milestone. Let me explain why.</p>
-
-
-
-<h2 class="wp-block-heading">Why Open Source matters</h2>
-
-
-
-<figure class="wp-block-pullquote"><blockquote><p>In a world where speech depends on software, free speech depends on free software.</p></blockquote></figure>
-
-
-
-<p>The key tenet of open source is is that it puts the user in control. Software is ever growing in complexity and importance in our society. Software is how we do our work, how we communicate, how we pay, how we access information. When software is a black box, subject to subtle (<a href="https://datasociety.net/research/media-manipulation/">or not so much</a>) manipulation, users are at risk.</p>
-
-
-
-<h2 class="wp-block-heading">Risks of AI</h2>
-
-
-
-<p>AI brings these risks to an entirely new level. Not only because it makes decisions that are often entirely intransparent, but also because its easy, human like interface often lulls users to trust it far more than deserved.</p>
-
-
-
-<p>The big AI firms have done their level best to ensure the attention of the public around risks with AI were aimed at existential, contrived notions akin to Skynet, the AI in the movie series Terminator, scenarios where AI would take over the world. In reality, the risks associated with AI are far more mundane. Surveillance, bias, explosive energy usage and job losses are the concerns we should focus on.</p>
-
-
-
-<h2 class="wp-block-heading">Need for control</h2>
-
-
-
-<p>And, just like with software, what matters is control. Who controls the AI, who makes decisions about what it can and can&#8217;t do, what goes in and what does not. With control, we can address the real risks of AI. Without control, we can simply hope that the billion dollar companies do the right thing.</p>
-
-
-
-<p>They haven&#8217;t <a href="https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook">in the past</a>. So we need Open Source AI. AI that that gives users the ability to study and modify the AI models that govern their lives.</p>
-
-
-
-<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 33%"><div class="wp-block-media-text__content">
-<h3 class="wp-block-heading">Nextcloud Ethical AI Rating <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e2.png" alt="🟢" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e1.png" alt="🟡" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f7e0.png" alt="🟠" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f534.png" alt="🔴" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h3>
-
-
-
-<p>Nextcloud gave this a <a href="https://nextcloud.com/blog/nextcloud-ethical-ai-rating/">first shot in March 2023,</a> when we launched our Ethical AI Rating. A simple traffic light would show with green/yellow/orange/red if a given AI model was freely available, if its data was publicly available and if the code needed to run and train it was open source. This way we help users make an informed decision without restricting their choice of models and features.</p>
-</div><figure class="wp-block-media-text__media"><img decoding="async" src="https://nextcloud.com/c/uploads/2023/03/nextcloud-ethical-AI-logo-1.svg" alt="Nextcloud Ethical AI" class="wp-image-108526 size-full"/></figure></div>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<section class="squote_style3_section" id="">
-	<div class="container">
-		<div class="row align-items-center">
-
-			<div class="col-lg-8 order-lg-2">
-				<figure class="text-block">
-                    <blockquote>
-					<div class="quote-block"><p>Users of AI solutions deserve transparency and control, which is why we introduced our Ethical AI rating in early 2023. Now, we see big tech firms trying to hijack the term open source AI. We fully endorse the creation of a clear definition of open source AI by the community to protect users and the market.</p>
-</div><div class="rest"><cite><h6>Frank Karlitschek</h6></cite><span>CEO and fouder of Nextcloud</span></div>                    </blockquote>
-				</figure>
-			</div>
-
-			<div class="order-lg-1 col-lg-4 ">
-				<div class="image-block">
-					<img decoding="async" width="500" height="500" src="https://nextcloud.com/c/uploads/2023/12/Frank-Karlitschek_portrait.jpg" class="attachment-full size-full" alt="" srcset="https://nextcloud.com/c/uploads/2023/12/Frank-Karlitschek_portrait.jpg 500w, https://nextcloud.com/c/uploads/2023/12/Frank-Karlitschek_portrait-300x300.jpg 300w, https://nextcloud.com/c/uploads/2023/12/Frank-Karlitschek_portrait-150x150.jpg 150w" sizes="(max-width: 500px) 100vw, 500px" />				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>The wider open source community has <a href="https://opensource.org/ai" target="_blank" rel="noreferrer noopener">picked up the gauntlet</a> as well, and after <a href="https://opensource.org/ai/timeline" target="_blank" rel="noreferrer noopener">extensive consultation with the community</a>, today the OSI has announced an official definition of Open Source AI. This will help users, from private users, to governments, research institutes, hospitals and businesses, to make decisions what systems they can trust.</p>
-
-
-
-<p>So, today, It is a first step in a journey and we are glad to be a part of it. Nextcloud has formally endorsed the definition, even if we think there is room for improvement. We will use it as a basis for our Ethical AI Rating. Our rating is a bit more granular and also more critical in some areas &#8211; for example, when it comes to data, we believe it should be always fully available &#8211; and thus, for now, we will keep using it, as it fits the use cases of our users more.</p>
-
-
-
-<p>We look forward to your input, both on the <a href="https://opensource.org/ai">OSI definition</a> &#8211; on the road to a 2.0 &#8211; and on our AI rating.</p>
-<p>The post <a href="https://nextcloud.com/blog/open-source-ai-is-here/">Open Source AI is here</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>HKN joins as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</title>
-		<link>https://nextcloud.com/blog/hkn-joins-as-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/</link>
-		
-		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
-		<pubDate>Thu, 24 Oct 2024 12:05:45 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Business]]></category>
-		<category><![CDATA[Events]]></category>
-		<guid isPermaLink="false">https://nextcloud.com/?p=264537</guid>
-
-					<description><![CDATA[<p>HKN GmbH has joined the Nextcloud Enterprise Day 2024 sponsor lineup, and we couldn't be more excited! Read this blog to learn more about this partnership.</p>
-<p>The post <a href="https://nextcloud.com/blog/hkn-joins-as-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/">HKN joins as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt.png" alt="HKN signs on as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt" class="wp-image-264545" srcset="https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt.png 1920w, https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt-768x432.png 768w, https://nextcloud.com/c/uploads/2024/10/HKN-signs-on-as-sponsor-for-Nextcloud-Enterprise-Day-2024-in-Frankfurt-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>HKN GmbH has joined the <a href="https://nextcloud.com/enterprise-day/">Nextcloud Enterprise Day 2024</a> sponsor lineup, and we couldn&#8217;t be more excited!</p>
-
-
-
-<p>The event will be held on November 6 in Frankfurt, Germany, and we can&#8217;t wait to see you there! As a long-standing partner of Nextcloud, HKN is absolutely thrilled to support the event and promote the importance of data sovereignty and open-source solutions.</p>
-
-
-
-<p>Register today to secure your seat!</p>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Register for Nextcloud Enterprise Day today to secure your spot!</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading">About HKN</h2>
-
-
-
-<p>Since 1996, HKN GmbH has been a top provider of open-source solutions for businesses. It operates its own OpenStack cloud to serve the needs of demanding clients, and it&#8217;s been doing an amazing job! One of the best things about HKN is our ability to tailor Nextcloud environments to fit each customer&#8217;s unique infrastructure and requirements perfectly. This flexibility has made HKN a trusted partner across various sectors, from financial institutions to healthcare organisations – and we&#8217;re proud to have earned the trust of so many great clients.</p>
-
-
-
-<p>Together with Nextcloud, HKN have had great success implementing a whole range of projects. These include Nextcloud for teachers in Luxembourg, platforms for financial institutions and tailored solutions for healthcare organisations.</p>
-
-
-
-<p>HKN GmbH prioritize data sovereignty and run their own cloud infrastructure entirely on open-source solutions. HKN GmbH makes a considerable contribution to helping organisations avoid vendor lock-in and maintain full control over their data.</p>
-
-
-
-<p>HKN GmbH can&#8217;t wait to join the event with their team on-site to share expertise and engage with attendees. The Nextcloud Enterprise Day is a fantastic opportunity to connect with forward-thinking leaders in the IT industry and gain insights into the latest developments surrounding Nextcloud.</p>
-
-
-
-<h2 class="wp-block-heading">About Nextcloud Enterprise Day</h2>
-
-
-
-<p><a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day</a> is our top event of the year for business leaders, decision-makers, and project managers to achieve their goals with Nextcloud.</p>
-
-
-
-<p>From customer presentations and success stories to networking opportunities and access to management, sales, marketing, and engineering teams, you’re bound to walk away with new information, techniques, and inspiration.</p>
-
-
-
-<p>The upcoming edition takes place at the spectacular Radisson Blu hotel in Frankfurt, Germany. Early Bird tickets are limited.</p>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/Lobby-Radisson-Blu-Frankfurt.jpg);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Early Bird tickets are limited. Secure your spot now!</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<p>The post <a href="https://nextcloud.com/blog/hkn-joins-as-sponsor-for-nextcloud-enterprise-day-2024-in-frankfurt/">HKN joins as sponsor for Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt</title>
-		<link>https://nextcloud.com/blog/mariadb-becomes-a-sponsor-of-nextcloud-enterprise-day-2024-in-frankfurt/</link>
-		
-		<dc:creator><![CDATA[Mikhail Korotaev]]></dc:creator>
-		<pubDate>Thu, 24 Oct 2024 09:01:15 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Business]]></category>
-		<category><![CDATA[Events]]></category>
-		<guid isPermaLink="false">https://nextcloud.com/?p=264188</guid>
-
-					<description><![CDATA[<p>We are announcing MariaDB, a pioneering database solution provider and Nextcloud's trusted partner, as a sponsor of the Nextcloud Enterprise Day 2024 in Frankfurt. Read more to find out why this is exciting news.</p>
-<p>The post <a href="https://nextcloud.com/blog/mariadb-becomes-a-sponsor-of-nextcloud-enterprise-day-2024-in-frankfurt/">MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1920" height="1080" src="https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt.png" alt="MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt" class="wp-image-264190" srcset="https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt.png 1920w, https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt-300x169.png 300w, https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt-1024x576.png 1024w, https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt-768x432.png 768w, https://nextcloud.com/c/uploads/2024/10/MariaDB-becomes-a-sponsor-of-Nextcloud-Enterprise-Day-2024-in-Frankfurt-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>MariaDB becomes a new sponsor of the <a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day</a> in Frankfurt on November 6.</p>
-
-
-
-<p>A provider of leading open-source database solutions, MariaDB makes data easier to access and lets users focus on growing their business while being confident in their database&#8217;s resilience. A long-standing partnership between Nextcloud and MariaDB enables scalability and high availability of solutions for Nextcloud customers. We are proud to welcome MariaDB as a sponsor of the most important event for Nextcloud&#8217;s enterprise users.</p>
-
-
-
-<p>Nextcloud Enterprise Day takes place on November 6 in Frankfurt, Germany. Register today to secure your spot!</p>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/frankfurt-sunset-skyline-1.jpg);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Register for Nextcloud Enterprise Day today to secure your spot!</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading">About MariaDB</h2>
-
-
-
-<p>MariaDB seeks to eliminate the constraints and complexity of proprietary databases, enabling organizations to reinvest in what matters most – rapidly developing innovative, customer-facing applications. Enterprises can depend on a single complete database for all their needs, that can be deployed in minutes for transactional, analytical or hybrid use cases. </p>
-
-
-
-<p>Trusted by organizations such as Deutsche Bank, DBS Bank, Red Hat, ServiceNow and Samsung – MariaDB delivers customer value without the financial burden of legacy database providers.</p>
-
-
-
-<h2 class="wp-block-heading">About Nextcloud Enterprise Day</h2>
-
-
-
-<p><a href="https://nextcloud.com/enterprise-day/" target="_blank" rel="noreferrer noopener">Nextcloud Enterprise Day</a> is our top event of the year for business leaders, decision-makers, and project managers to achieve their goals with Nextcloud.</p>
-
-
-
-<p>From customer presentations and success stories to networking opportunities and access to management, sales, marketing, and engineering teams, you’re bound to walk away with new information, techniques, and inspiration.</p>
-
-
-
-<p>The upcoming edition takes place at the spectacular Radisson Blu hotel in Frankfurt, Germany. Early Bird tickets are limited.</p>
-
-
-<section class="promo-section has_custom_bg_image " id="" style="background-image: url(https://nextcloud.com/c/uploads/2024/08/Lobby-Radisson-Blu-Frankfurt.jpg);">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-block">
-					<p>Early Bird tickets are limited. Secure your spot.</p>
-<a class="c-btn btn-white" href="https://nextcloud.com/enterprise-day/" target="_blank">Register now</a>				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<p>The post <a href="https://nextcloud.com/blog/mariadb-becomes-a-sponsor-of-nextcloud-enterprise-day-2024-in-frankfurt/">MariaDB becomes a sponsor of Nextcloud Enterprise Day 2024 in Frankfurt</a> appeared first on <a href="https://nextcloud.com">Nextcloud</a>.</p>
 ]]></content:encoded>
 					
 		

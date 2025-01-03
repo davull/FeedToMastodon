@@ -15,7 +15,7 @@
 	<atom:link href="https://www.digitaltrends.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.digitaltrends.com</link>
 	<description>Tech Product Reviews, How To, Best Ofs, deals and Advice</description>
-	<lastBuildDate>Sun, 15 Dec 2024 05:03:19 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Jan 2025 06:20:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,383 +30,537 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">35334127</site>	<item>
-		<title>Quentin Tarantino thinks movies are still better than TV shows like Yellowstone</title>
-		<link>https://www.digitaltrends.com/movies/quentin-tarantino-yellowstone-movies-better-than-tv-shows/</link>
+		<title>Astronaut’s first photo of 2025 is a real stunner</title>
+		<link>https://www.digitaltrends.com/space/astronaut-first-photo-of-2025-a-real-stunner/</link>
 		
-		<dc:creator><![CDATA[Alex Welch]]></dc:creator>
-		<pubDate>Sun, 15 Dec 2024 02:08:26 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[1883]]></category>
-		<category><![CDATA[quentin tarantino]]></category>
-		<category><![CDATA[TV news]]></category>
-		<category><![CDATA[TV shows]]></category>
-		<category><![CDATA[Yellowstone]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803702</guid>
+		<dc:creator><![CDATA[Trevor Mogg]]></dc:creator>
+		<pubDate>Fri, 03 Jan 2025 06:20:02 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[Aurora]]></category>
+		<category><![CDATA[don pettit]]></category>
+		<category><![CDATA[International Space Station]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[space photography]]></category>
+		<category><![CDATA[space station]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3819142</guid>
 
-					<description><![CDATA[Quentin Tarantino doesn't think a TV show like Yellowstone has as much of a lasting impact as any great film.]]></description>
+					<description><![CDATA[NASA astronaut Don Pettit has started 2025 as he means to go on, with yet another stunning photograph from the space station.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803702</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/08/Quentin-Tarantino-Comic-Con.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3819142</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/iss-aurora.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>Kraven the Hunter is already performing worse than Madame Web</title>
-		<link>https://www.digitaltrends.com/movies/kraven-the-hunter-friday-box-office-worse-than-madame-web-opening-day-sony-universe/</link>
+		<title>Relive the most beautiful rocket launch of 2024</title>
+		<link>https://www.digitaltrends.com/space/relive-most-beautiful-rocket-launch-2024/</link>
 		
-		<dc:creator><![CDATA[Alex Welch]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 22:47:11 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Box Office News]]></category>
-		<category><![CDATA[kraven the hunter]]></category>
-		<category><![CDATA[movie news]]></category>
-		<category><![CDATA[Sony]]></category>
-		<category><![CDATA[Spider-Man]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803650</guid>
+		<dc:creator><![CDATA[Trevor Mogg]]></dc:creator>
+		<pubDate>Fri, 03 Jan 2025 01:45:52 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[falcon 9]]></category>
+		<category><![CDATA[rocket launch]]></category>
+		<category><![CDATA[Rockets]]></category>
+		<category><![CDATA[SpaceX]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818110</guid>
 
-					<description><![CDATA[Kraven the Hunter is sending Sony's Spider-Man Universe out not with a bang but a whimper.]]></description>
+					<description><![CDATA[One SpaceX Falcon 9 rocket launch really stood out from the rest last year.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803650</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/11/Aaron-Taylor-Johnson-raises-his-fist-in-Kraven-the-Hunter-e1733862795702.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3818110</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/07/falcon-9-launch.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>ChatGPT vs. Perplexity: battle of the AI search engines</title>
-		<link>https://www.digitaltrends.com/computing/chatgpt-search-vs-perplexity-battle-ai-search-engines/</link>
-		
-		<dc:creator><![CDATA[Andrew Tarantola]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 22:00:34 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[Guides]]></category>
-		<category><![CDATA[Artificial intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[OpenAI]]></category>
-		<category><![CDATA[Perplexity]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3798382</guid>
-
-					<description><![CDATA[ChatGPT Search and Perplexity stand at the forefront of AI-enhanced web search, but which one is best? ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3798382</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/03/perplexity-on-nothing-phone-2a.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Trump team in sync with Tesla on ending crash-reporting requirements, report says</title>
-		<link>https://www.digitaltrends.com/cars/trump-team-end-crash-reporting/</link>
-		
-		<dc:creator><![CDATA[Nick Godt]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 19:13:56 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Emerging Tech]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[gm cruise]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[Tesla FSD]]></category>
-		<category><![CDATA[Waymo]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803630</guid>
-
-					<description><![CDATA[The transition team of President-elect Donald Trump is planning to end existing car-crash reporting requirements to safety regulators.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803630</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/09/telsa-FSD.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>In Carry-On, Jaume Collet-Serra returns to his action roots for a Christmas thriller</title>
-		<link>https://www.digitaltrends.com/movies/carry-on-jaume-collet-serra-interview-netflix-christmas-thriller/</link>
-		
-		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 18:00:31 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[carry-on]]></category>
-		<category><![CDATA[Carry-On interview]]></category>
-		<category><![CDATA[Entertainment interviews]]></category>
-		<category><![CDATA[Jaume Collet-Serra]]></category>
-		<category><![CDATA[Jaume Collet-Serra interview]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3800316</guid>
-
-					<description><![CDATA[In a conversation with Digital Trends, Jaume Collet-Serra spoke about his new Netflix movie Carry-On and why he returned to mid-budget action thrillers.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3800316</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Taron-Egerton-Carry-On-Netflix.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Qualcomm Snapdragon X vs. Intel Core Ultra Series 2: the better laptop chip?</title>
-		<link>https://www.digitaltrends.com/computing/qualcomm-snapdragon-x-vs-intel-core-ultra-series-2/</link>
+		<title>Lenovo ThinkPad P16 Gen 2 review: a true mobile workstation</title>
+		<link>https://www.digitaltrends.com/computing/lenovo-thinkpad-p16-gen-2-review/</link>
 		
 		<dc:creator><![CDATA[Mark Coppock]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 17:30:59 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 22:56:55 +0000</pubDate>
 				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[Guides]]></category>
-		<category><![CDATA[chipsets]]></category>
-		<category><![CDATA[Core Ultra Series 2]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[qualcomm]]></category>
-		<category><![CDATA[snapdragon x]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3798288</guid>
-
-					<description><![CDATA[Qualcomm's Snapdragon X and Intel's Core Ultra Series 2 are intended to make Windows laptops more competitive with Apple MacBooks. Which is more successful?]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3798288</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/04/Snapdragon-X-Plus-Chip-in-Glass.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>​​OpenAI spills tea on Musk as Meta seeks block on for-profit dreams</title>
-		<link>https://www.digitaltrends.com/computing/openai-for-profit-elon-musk-chat-meta-block-letter/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 17:08:49 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[ai]]></category>
-		<category><![CDATA[Artificial intelligence]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Meta]]></category>
-		<category><![CDATA[OpenAI]]></category>
-		<category><![CDATA[xai]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803601</guid>
-
-					<description><![CDATA[OpenAI has release a trove of communication that alleges Musk was chasing a peice of the non-profit pie, while Meta is urging the government to intervene.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803601</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/05/elon-musk-twitter-gradient-map.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>30 years ago, Star Trek Generations captured crucial moment in sci-fi franchise</title>
-		<link>https://www.digitaltrends.com/movies/star-trek-generations-movie-30-anniversary/</link>
-		
-		<dc:creator><![CDATA[Michael Green]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 16:30:48 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[best star trek movies]]></category>
-		<category><![CDATA[movie anniversaries]]></category>
-		<category><![CDATA[Star Trek]]></category>
-		<category><![CDATA[Star Trek Generations]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3759547</guid>
-
-					<description><![CDATA[In 1994, Star Trek Generations was a crucial moment in the franchise's history when the original cast made way for The Next Generation. But is it a good movie?]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3759547</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/11/Star-Trek-Generations-Different-Uniforms.avif?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>The Lord of the Rings: The War of the Rohirrim review: a slight prequel</title>
-		<link>https://www.digitaltrends.com/movies/the-lord-of-the-rings-the-war-of-the-rohirrim-animated-movie-2024-review/</link>
-		
-		<dc:creator><![CDATA[Alex Welch]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 15:30:51 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
 		<category><![CDATA[Reviews]]></category>
-		<category><![CDATA[Animated Movies]]></category>
-		<category><![CDATA[Lord of the Rings]]></category>
-		<category><![CDATA[Movie Reviews]]></category>
-		<category><![CDATA[new movies]]></category>
-		<category><![CDATA[The Lord of the Rings: The War of the Rohirrim]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802663</guid>
+		<category><![CDATA[Laptops]]></category>
+		<category><![CDATA[Lenovo]]></category>
+		<category><![CDATA[ThinkPad]]></category>
+		<category><![CDATA[ThinkPad P16]]></category>
+		<category><![CDATA[workstations]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3811642</guid>
 
-					<description><![CDATA[The Lord of the Rings: The War of the Rohirrim is a slight, surprisingly flat prequel that will likely only win over die-hard Tolkien fans.]]></description>
+					<description><![CDATA[The Lenovo ThinkPad P16 Gen 2 is very fast but also very large and expensive. It offers rock-solid reliability, but that's most valuable for a select few.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802663</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/lotr-war-of-the-rohirrim-1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3811642</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/lenovo-thinkpad-p16-gen2-featured-e1735685322898.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>10 years ago, the most underrated crime movie of the 2010s was a box office failure</title>
-		<link>https://www.digitaltrends.com/movies/inherent-vice-movie-paul-thomas-anderson-joaquin-phoenix-10th-anniversary-retrospective/</link>
-		
-		<dc:creator><![CDATA[Alex Welch]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 15:00:45 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[HBO Max]]></category>
-		<category><![CDATA[Inherent Vice]]></category>
-		<category><![CDATA[movie anniversary]]></category>
-		<category><![CDATA[Paul Thomas Anderson]]></category>
-		<category><![CDATA[Streaming]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3797858</guid>
-
-					<description><![CDATA[Ten years ago, Joaquin Phoenix gave his most against-type performance in the best crime movie you've never seen.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3797858</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Doc-watches-Shasta-on-a-beach-in-Inherent-Vice.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>YouTube gets parental code feature on TV to protect kids</title>
-		<link>https://www.digitaltrends.com/home/youtube-tv-feature-parent-code-access-user-profile-for-kids/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 14:45:42 +0000</pubDate>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Smart Home]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[YouTube]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803573</guid>
-
-					<description><![CDATA[YouTube has introduced a new safety protocol that would require young users to enter a parent code if they want to watch videos outside the "kids" profile.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803573</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Untitled-2_61da6a.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>As a PC gamer, 2024 just made me sad</title>
-		<link>https://www.digitaltrends.com/computing/2024-was-a-disappointing-year-gaming-pc-hardware/</link>
-		
-		<dc:creator><![CDATA[Monica J. White]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 14:30:36 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[AMD]]></category>
-		<category><![CDATA[graphics cards]]></category>
-		<category><![CDATA[Intel]]></category>
-		<category><![CDATA[Nvidia]]></category>
-		<category><![CDATA[PC Gaming]]></category>
-		<category><![CDATA[processor]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802553</guid>
-
-					<description><![CDATA[As a PC hardware enthusiast who is also a gamer, this year didn't turn out the way I thought it would -- and that's a disappointment.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802553</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/10/core-ultra-9-285k-review-3.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Project K is an upcoming League of Legends TCG and it looks like fun</title>
-		<link>https://www.digitaltrends.com/gaming/project-k-league-legends-tcg/</link>
-		
-		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 14:04:00 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[league of legends]]></category>
-		<category><![CDATA[Riot Games]]></category>
-		<category><![CDATA[tcg]]></category>
-		<category><![CDATA[trading card game]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803538</guid>
-
-					<description><![CDATA[Project K is Riot Games' upcoming League of Legends-inspired trading card game. It's set for a 2025 release, although the exact date isn't known.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803538</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/10/Ambessa-League-of-Legends.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Like Netflix&#8217;s thriller Carry-On? Then watch these 3 movies right now</title>
-		<link>https://www.digitaltrends.com/movies/like-carry-on-watch-these-three-similar-movies/</link>
-		
-		<dc:creator><![CDATA[Jason Struss]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 14:00:36 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[best Netflix movies]]></category>
-		<category><![CDATA[carry-on]]></category>
-		<category><![CDATA[december 2024 movies]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3796213</guid>
-
-					<description><![CDATA[Netflix has an odd way of celebrating the holiday season. No, I&#8217;m not talking about Hot Frosty, a popular movie offering that sees Frosty the Snowman transformed into a hot human man with abs. I&#8217;m talking about , a thriller set during the holidays that chronicles the desperate situation a young TSA agent named Ethan, [&#8230;]]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3796213</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/carry-on-1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Splitgate 2 is going cross-gen, and that&#8217;s good news for PC players</title>
-		<link>https://www.digitaltrends.com/gaming/splitgate-2-game-awards-2024-interview/</link>
-		
-		<dc:creator><![CDATA[Giovanni Colantonio]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 14:00:07 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[1047 Games]]></category>
-		<category><![CDATA[Splitgate 2]]></category>
-		<category><![CDATA[The Game Awards]]></category>
-		<category><![CDATA[The Game Awards 2024]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803390</guid>
-
-					<description><![CDATA[Splitgate 2 won't be ditching PS4 and Xbox One players, and that decision was designed to optimize PC performance.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803390</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/07/ss_8f42d55c7890faee35772b6ad61a9a9cac39db2c.1920x1080.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>This code gets you this Google TV-powered projector at $172 off</title>
-		<link>https://www.digitaltrends.com/home-theater/yaber-k3-projector-deal-amazon-december-2024/</link>
+		<title>This RIG gaming headset is on sale at 50% off — works with all systems</title>
+		<link>https://www.digitaltrends.com/home-theater/rig-900-max-hx-gaming-headset-deal-best-buy-january-2025/</link>
 		
 		<dc:creator><![CDATA[Aaron Mamiit]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:59:00 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 21:10:57 +0000</pubDate>
 				<category><![CDATA[Audio / Video]]></category>
 		<category><![CDATA[Deals]]></category>
-		<category><![CDATA[Amazon 2024]]></category>
+		<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[audio/video]]></category>
 		<category><![CDATA[audio/video deals]]></category>
-		<category><![CDATA[Projector Deals]]></category>
-		<category><![CDATA[Yaber K3 Projector]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802233</guid>
+		<category><![CDATA[Best Buy 2025]]></category>
+		<category><![CDATA[gaming deals]]></category>
+		<category><![CDATA[Gaming Headset Deals]]></category>
+		<category><![CDATA[Rig 900 Max HX gaming headset]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818627</guid>
 
-					<description><![CDATA[The Yaber K3 Projector with easy setup, built-in JBL speakers, and Google TV is on sale from Amazon at $172 off with a discount code. Hurry if you want it!]]></description>
+					<description><![CDATA[The RIG 900 Max HX gaming headset is on sale from Best Buy for only $125. It works with all major gaming platforms, and it has a battery life of up to 50 hours.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802233</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Yaber-K3-Projector.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3818627</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/Rig-900-Max-HX-gaming-headset.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>Some iPhone users report overheating when using Apple Intelligence</title>
-		<link>https://www.digitaltrends.com/mobile/some-iphone-users-report-overheating-apple-intelligence/</link>
+		<title>The monolithic Sennheiser Ambeo Max is on sale for $1,800 today</title>
+		<link>https://www.digitaltrends.com/home-theater/sennheiser-ambeo-max-deal-amazon-december-2024/</link>
+		
+		<dc:creator><![CDATA[Michael Bizzaco]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 20:47:24 +0000</pubDate>
+				<category><![CDATA[Audio / Video]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Sennheiser Ambeo Max]]></category>
+		<category><![CDATA[Sennheiser Ambeo Max deals]]></category>
+		<category><![CDATA[Soundbar deals]]></category>
+		<category><![CDATA[soundbars]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3817440</guid>
+
+					<description><![CDATA[Did you know that the Sennheiser Ambeo Max is designed to virtualize an entire Dolby Atmos system? This beast of a soundbar is also on sale for $1,800 today.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3817440</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/sennheiser-ambeo-max-lifestyle-1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>A new patent suggests the Nintendo Switch 2 might upscale games to 4K</title>
+		<link>https://www.digitaltrends.com/gaming/new-patent-suggests-switch-2-upscale-4k/</link>
 		
 		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:34:13 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 20:19:54 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Handheld]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[Nintendo Switch]]></category>
+		<category><![CDATA[Nintendo Switch 2]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818654</guid>
+
+					<description><![CDATA[A patent from Nintendo suggests the Switch 2 will be able to upscale games from 1080p to 4K, allowing for smaller overall game sizes. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818654</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/06/nintendo-switch-joy-con-controllers.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>How to complete all Kindled Inspiration quests in Infinity Nikki</title>
+		<link>https://www.digitaltrends.com/gaming/how-to-complete-all-kindled-inspiration-quests-in-infinity-nikki/</link>
+		
+		<dc:creator><![CDATA[Anyka Pettigrew]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 19:48:38 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Guides]]></category>
+		<category><![CDATA[gacha games]]></category>
+		<category><![CDATA[Infinity Nikki]]></category>
+		<category><![CDATA[open world games]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3788639</guid>
+
+					<description><![CDATA[The Kindled Inspiration quests in Infinity Nikki task you with hunting down specific pieces of clothing that NPCs are looking for. Here's how to solve them all.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3788639</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/infinity-nikki-kindled-inspiration-quests.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Save up to 44% on a pair of Sennheiser headphones in 2025</title>
+		<link>https://www.digitaltrends.com/home-theater/sennheiser-headphones-deals-amazon-december-2024/</link>
+		
+		<dc:creator><![CDATA[Michael Bizzaco]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 19:44:23 +0000</pubDate>
+				<category><![CDATA[Audio / Video]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[headphone deals]]></category>
+		<category><![CDATA[Headphones]]></category>
+		<category><![CDATA[Sennheiser HD 450BT wireless headphones]]></category>
+		<category><![CDATA[Sennheiser HD 450BT wireless headphones deals]]></category>
+		<category><![CDATA[Sennheiser rs 195 rf wireless headphones]]></category>
+		<category><![CDATA[Sennheiser rs 195 rf wireless headphones deals]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3817429</guid>
+
+					<description><![CDATA[Both the Sennheiser RS 195 RF Wireless Headphones and Sennheiser HD 450BT Wireless Headphones are on sale today. Call it a New Year’s miracle.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3817429</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2020/02/sennheiser-hd-450bt-anc-headphones-ry-8.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The already-inexpensive Acer Chromebook 315 is on sale today!</title>
+		<link>https://www.digitaltrends.com/computing/acer-chromebook-315-deal-best-buy-december-2024/</link>
+		
+		<dc:creator><![CDATA[Michael Bizzaco]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 19:02:58 +0000</pubDate>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Acer Chromebook 315]]></category>
+		<category><![CDATA[Acer Chromebook 315 deals]]></category>
+		<category><![CDATA[Chromebook deals]]></category>
+		<category><![CDATA[Chromebooks]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3817418</guid>
+
+					<description><![CDATA[The Acer Chromebook 315 is marked down to $120 today. While it may not be the fanciest or most powerful PC on the market, there’s still plenty to love about it.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3817418</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2019/09/acer_chromebook_315_cb315-3h_cb315-3ht_06.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Volvo EX90 vs Tesla Model Y: Is Tesla&#8217;s cheaper EV also better?</title>
+		<link>https://www.digitaltrends.com/cars/volvo-ex90-vs-tesla-model-y-is-teslas-cheaper-ev-also-better/</link>
+		
+		<dc:creator><![CDATA[Christian de Looper]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 19:00:47 +0000</pubDate>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[model y]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[Tesla Model Y]]></category>
+		<category><![CDATA[Volvo]]></category>
+		<category><![CDATA[Volvo EX90]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3817129</guid>
+
+					<description><![CDATA[The long-awaited Volvo EX90 is finally here, and it has a lot going for it. But it also has to compete with the Tesla Model Y. Which electric SUV wins?]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3817129</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/09/DSC_1082.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Half-Life 3 speculation surges once more following cryptic tweet</title>
+		<link>https://www.digitaltrends.com/gaming/half-life-3-talk-surges-cryptic-tweet/</link>
+		
+		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 18:59:23 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Half-Life]]></category>
+		<category><![CDATA[PC Gaming]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[Valve]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818549</guid>
+
+					<description><![CDATA[A post from original G-Man voice actor Mike Shapiro has sent Half-Life fans into a frenzy as Half-Life 3 hopes return in force. ]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818549</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2019/11/half-life-2-game-image-featuring-alyx-and-gordon-1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>James Gunn on Batman&#8217;s DCU debut: &#8216;We&#8217;re going to do great things with him&#8217;</title>
+		<link>https://www.digitaltrends.com/movies/james-gunn-batman-dcu-debut-creature-commandos/</link>
+		
+		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 17:52:46 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Batman]]></category>
+		<category><![CDATA[creature commandos]]></category>
+		<category><![CDATA[dcu]]></category>
+		<category><![CDATA[entertainment news 2025]]></category>
+		<category><![CDATA[james gunn]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818422</guid>
+
+					<description><![CDATA[Batman has arrived in the DC Universe. James Gunn recently spoke about the character's introduction in the latest episode of Creature Commandos.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818422</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/Batman-Creature-Commandos.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>3 underrated movies on Amazon Prime Video you need to watch in January 2025</title>
+		<link>https://www.digitaltrends.com/movies/3-underrated-movies-amazon-prime-video-watch-january-2025/</link>
+		
+		<dc:creator><![CDATA[Christine Persaud]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 17:30:33 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Amazon Prime Video]]></category>
+		<category><![CDATA[best amazon prime video movies]]></category>
+		<category><![CDATA[january 2025 streaming]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3814907</guid>
+
+					<description><![CDATA[Chill with a motorcycle club, a vampire child, or a love story with the three underrated movies on Amazon Prime Video you need to watch in January 2025.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3814907</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/me-before-you-2.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Samsung is going all-in on Snapdragon chips for the Galaxy S25</title>
+		<link>https://www.digitaltrends.com/mobile/samsung-going-all-in-with-snapdragon-chips-for-galaxy-s25/</link>
+		
+		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 16:56:09 +0000</pubDate>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Exynos 2400]]></category>
+		<category><![CDATA[qualcomm]]></category>
+		<category><![CDATA[Qualcomm Snapdragon 8 Elite]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[Samsung Galaxy S25]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818408</guid>
+
+					<description><![CDATA[It looks like Samsung will use all Snapdragon chips for its Galaxy S25 lineup regardless of sales region or location, according to a new leak.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818408</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/01/samsung-galaxy-s24-marble-gray-lean-bench.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The Recruit season 2 trailer: Noah Centineo heads to S. Korea for secret mission</title>
+		<link>https://www.digitaltrends.com/movies/the-recruit-season-2-trailer-noah-centineo-netflix/</link>
+		
+		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 16:44:12 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[entertainment news 2025]]></category>
+		<category><![CDATA[Noah Centineo]]></category>
+		<category><![CDATA[The Recruit]]></category>
+		<category><![CDATA[The Recruit season 2]]></category>
+		<category><![CDATA[The Recruit season 2 trailer]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818350</guid>
+
+					<description><![CDATA[In the new trailer for Netflix's The Recruit season 2, Noah Centineo's Owen Hendricks is sent to South Korea for his next secret mission.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818350</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/The_Recruit_n_S2_E1_00_43_46_08R_Crop.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The next iPhone SE may get a surprising name change</title>
+		<link>https://www.digitaltrends.com/mobile/iphone-se-4-surprising-name-change-iphone-16e-rumor/</link>
+		
+		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 16:29:12 +0000</pubDate>
 				<category><![CDATA[Mobile]]></category>
 		<category><![CDATA[News]]></category>
 		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Apple Intelligence]]></category>
-		<category><![CDATA[iPhone 15]]></category>
-		<category><![CDATA[iPhone 16]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803506</guid>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[iPhone 16E]]></category>
+		<category><![CDATA[iPhone SE]]></category>
+		<category><![CDATA[iPhone SE 4]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818352</guid>
 
-					<description><![CDATA[Some iOS 18.2 users have reported concerning amounts of heat generation while using Image Playground and other AI-features.]]></description>
+					<description><![CDATA[The iPhone SE 4 might deviate from the established pattern, according to a new leak. Instead, it might be called the iPhone 16E.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803506</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/10/Nomad-Leather-Magnetic-Back-Digital-Trends-1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3818352</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/08/iPhone-SE-2022-Side-Hand.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>Our pick for the best noise canceling headphones just got a price cut</title>
-		<link>https://www.digitaltrends.com/home-theater/bose-quietcomfort-ultra-headphones-deal-bose-december-2024/</link>
+		<title>This is the one 2024 show I absolutely hated. Here&#8217;s why</title>
+		<link>https://www.digitaltrends.com/movies/worst-show-2024-i-hated-heres-why/</link>
 		
-		<dc:creator><![CDATA[Aaron Mamiit]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:47 +0000</pubDate>
-				<category><![CDATA[Audio / Video]]></category>
-		<category><![CDATA[Deals]]></category>
-		<category><![CDATA[audio/video]]></category>
-		<category><![CDATA[audio/video deals]]></category>
-		<category><![CDATA[Bose 2024]]></category>
-		<category><![CDATA[Bose headphone deals]]></category>
-		<category><![CDATA[Bose QuietComfort Ultra Headphones]]></category>
-		<category><![CDATA[headphone deals]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802253</guid>
+		<dc:creator><![CDATA[Nick Perry]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 16:00:55 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Kate Winslet]]></category>
+		<category><![CDATA[MAX]]></category>
+		<category><![CDATA[movies and TV]]></category>
+		<category><![CDATA[The Regime]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3804335</guid>
 
-					<description><![CDATA[The Bose QuietComfort Ultra are on sale with a $100 discount from Bose itself. Don't miss this chance to get these noise-canceling headphones for only $329.]]></description>
+					<description><![CDATA[Most TV I watched in 2024 was pretty good! Except for this one show that I hated: HBO's The Regime with Kate Winslet. Here's why it's the worst.]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802253</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2023/10/bose-quietcomfort-ultra-headphones-review-00018.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+		<post-id xmlns="com-wordpress:feed-additions:1">3804335</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/the-regime-4.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>NYT Crossword: answers for Saturday, December 14</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-crossword-answers-december-14/</link>
+		<title>A new OnePlus phone just leaked with a ridiculous battery spec</title>
+		<link>https://www.digitaltrends.com/mobile/a-new-onepus-phone-just-leaked-with-a-ridiculous-battery-spec/</link>
+		
+		<dc:creator><![CDATA[Bryan M. Wolfe]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 15:42:12 +0000</pubDate>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[oneplus]]></category>
+		<category><![CDATA[Phones]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818288</guid>
+
+					<description><![CDATA[A new phone from OnePlus could come with massive battery capacity. Finding the phone might prove difficult, however.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818288</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/08/OnePlus-Nord-4-black-back-hero.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>AT&#038;T is ringing in the New Year with a price increase for some subscribers</title>
+		<link>https://www.digitaltrends.com/mobile/att-is-celebrating-2025-with-price-hike-for-some-subscribers/</link>
+		
+		<dc:creator><![CDATA[Bryan M. Wolfe]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 15:14:23 +0000</pubDate>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[american carriers]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[carriers]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818254</guid>
+
+					<description><![CDATA[Some AT&#038;T Wireless customers will see their monthly bills rise by nearly 7% as of January 15.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818254</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/aT-wall-robot.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Samsung&#8217;s $60 Fitbit killer is now available in the U.S.</title>
+		<link>https://www.digitaltrends.com/mobile/samsung-galaxy-fit-3-galaxy-a16-5g-us-release-specs-price/</link>
+		
+		<dc:creator><![CDATA[Joe Maring]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 15:00:28 +0000</pubDate>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[Samsung Galaxy A16]]></category>
+		<category><![CDATA[Samsung Galaxy Fit 3]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818264</guid>
+
+					<description><![CDATA[Samsung isn't waiting to start 2025. The Galaxy Fit 3 and Galaxy A16 5G are both coming to the U.S. soon. Here are all the details.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818264</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/samsung-galaxy-fit-3-official-render.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>I&#8217;m using an Amazon Kindle Scribe for the first time &#8212; and I love it</title>
+		<link>https://www.digitaltrends.com/mobile/im-using-an-amazon-kindle-scribe-2024-for-the-first-time-and-i-love-it/</link>
+		
+		<dc:creator><![CDATA[Christine Romero-Chan]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 14:45:42 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Amazon Kindle]]></category>
+		<category><![CDATA[Amazon Kindle Scribe (2024)]]></category>
+		<category><![CDATA[e-ink tablet]]></category>
+		<category><![CDATA[E-Readers]]></category>
+		<category><![CDATA[Kindle e-reader]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3817530</guid>
+
+					<description><![CDATA[I had never used a Kindle Scribe before. After a few days with the new 2024 model, I'm already hooked.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3817530</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/kindle-scribe-2024-notes.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>10 best Netflix movies of 2024, ranked</title>
+		<link>https://www.digitaltrends.com/movies/10-best-netflix-movies-of-2024-ranked/</link>
+		
+		<dc:creator><![CDATA[Alex Welch]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 14:30:56 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[best movies of 2024]]></category>
+		<category><![CDATA[Best of 2024]]></category>
+		<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[Rebel Ridge]]></category>
+		<category><![CDATA[Streaming]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3814297</guid>
+
+					<description><![CDATA[From Rebel Ridge to The Shadow Strays, here are the 10 best Netflix movies of 2024.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3814297</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Aaron-Pierre-wears-a-tactical-vest-in-Rebel-Ridge.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Retro gamers have a whole lot to look forward to in 2025</title>
+		<link>https://www.digitaltrends.com/gaming/2025-retro-games-roundup-save-state/</link>
+		
+		<dc:creator><![CDATA[Tomas Franzese]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 14:00:49 +0000</pubDate>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[bubsy]]></category>
+		<category><![CDATA[Capcom Fighting Collection 2]]></category>
+		<category><![CDATA[Chantey]]></category>
+		<category><![CDATA[Croc: Legend of the Gobbos]]></category>
+		<category><![CDATA[Demonschool]]></category>
+		<category><![CDATA[Double Dragon Revive]]></category>
+		<category><![CDATA[fatal fury: city of the wolves]]></category>
+		<category><![CDATA[Metal Gear Solid Delta: Snake Eater]]></category>
+		<category><![CDATA[mina the hollower]]></category>
+		<category><![CDATA[Rendering Ranger: R2 Rewind]]></category>
+		<category><![CDATA[retro games]]></category>
+		<category><![CDATA[Save State]]></category>
+		<category><![CDATA[Shadow Labyrinth]]></category>
+		<category><![CDATA[Suikoden]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3812940</guid>
+
+					<description><![CDATA[Retro gaming fans already have 50 games to look forward to in 2025, spanning remasters, remakes, reimaginings, and brand new titles.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3812940</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/DT-Save-State-Fatal-Fury-City-of-the-Wolves.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Nvidia might dominate the GPU market in January</title>
+		<link>https://www.digitaltrends.com/computing/nvidia-amd-gpu-release-dates-leaked/</link>
+		
+		<dc:creator><![CDATA[Monica J. White]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 13:59:45 +0000</pubDate>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[CES 2025]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[graphics cards]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<category><![CDATA[RDNA 4]]></category>
+		<category><![CDATA[RTX 50-series]]></category>
+		<category><![CDATA[RX 9000 series]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3818224</guid>
+
+					<description><![CDATA[With just a few days left until the official announcement, leakers are speaking up about the release dates for upcoming Nvidia and AMD GPUs.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3818224</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/10/12-pin.00_00_27_21.Still007.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The 7 most disappointing movies of 2024, ranked</title>
+		<link>https://www.digitaltrends.com/movies/the-seven-most-disappointing-movies-of-2024-ranked/</link>
+		
+		<dc:creator><![CDATA[Blair Marnell]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2025 13:30:16 +0000</pubDate>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Argylle]]></category>
+		<category><![CDATA[Drive-Away Dolls]]></category>
+		<category><![CDATA[Hellboy: The Crooked Man]]></category>
+		<category><![CDATA[Horizon: An American Saga Chapter 1]]></category>
+		<category><![CDATA[Joker: Folie à Deux]]></category>
+		<category><![CDATA[Megalopolis]]></category>
+		<category><![CDATA[Trap]]></category>
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3810665</guid>
+
+					<description><![CDATA[Sometimes the films that let you down the most are the ones that could have been good. These are the seven most disappointing movies of 2024.]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3810665</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/08/Trap_1.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>NYT Crossword: answers for Friday, January 3</title>
+		<link>https://www.digitaltrends.com/gaming/nyt-crossword-answers-january-2/</link>
 		
 		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:13 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 13:30:13 +0000</pubDate>
 				<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[News]]></category>
 		<category><![CDATA[crossword puzzle]]></category>
@@ -422,11 +576,11 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">3629341</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/nyt-crossword-logo.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>NYT Mini Crossword today: puzzle answers for Saturday, December 14</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-mini-crossword-answers-december-14/</link>
+		<title>NYT Mini Crossword today: puzzle answers for Friday, January 3</title>
+		<link>https://www.digitaltrends.com/gaming/nyt-mini-crossword-answers-january-2/</link>
 		
 		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:12 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 13:30:12 +0000</pubDate>
 				<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[News]]></category>
 		<category><![CDATA[Mini Crossword]]></category>
@@ -442,11 +596,11 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">3547533</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/NYT-Games-mini-crossword.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>NYT Strands today: hints, spangram and answers for Sunday, December 15</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-strands-answers-for-saturday-december-14/</link>
+		<title>NYT Strands today: hints, spangram and answers for Friday, January 3</title>
+		<link>https://www.digitaltrends.com/gaming/nyt-strands-answers-for-thursday-january-2/</link>
 		
 		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:09 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 13:30:09 +0000</pubDate>
 				<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[Guides]]></category>
 		<category><![CDATA[nyt games]]></category>
@@ -462,11 +616,11 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">3555135</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/03/NYT-Strands.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>NYT Connections: hints and answers for Sunday, December 15</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-connections-today-answer-hints-december-14/</link>
+		<title>NYT Connections: hints and answers for Friday, January 3</title>
+		<link>https://www.digitaltrends.com/gaming/nyt-connections-today-answer-hints-january-2/</link>
 		
 		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:07 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 13:30:07 +0000</pubDate>
 				<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[News]]></category>
 		<category><![CDATA[connections]]></category>
@@ -483,11 +637,11 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">3413808</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/NYT-Games-connections.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 		<item>
-		<title>Wordle Today: Wordle answer and hints for December 15</title>
+		<title>Wordle Today: Wordle answer and hints for January 3</title>
 		<link>https://www.digitaltrends.com/gaming/wordle-today-answer-hints/</link>
 		
 		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:30:05 +0000</pubDate>
+		<pubDate>Thu, 02 Jan 2025 13:30:05 +0000</pubDate>
 				<category><![CDATA[Gaming]]></category>
 		<category><![CDATA[News]]></category>
 		<category><![CDATA[nyt games]]></category>
@@ -502,154 +656,6 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3302133</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/10/image_adobe_express.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>The best Xbox games of 2024: Indiana Jones, Hellblade 2, and more</title>
-		<link>https://www.digitaltrends.com/gaming/best-xbox-games-2024/</link>
-		
-		<dc:creator><![CDATA[Tomas Franzese]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:20:46 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Holiday Gaming 2024]]></category>
-		<category><![CDATA[PC Game Pass]]></category>
-		<category><![CDATA[xbox cloud gaming]]></category>
-		<category><![CDATA[Xbox Game Pass]]></category>
-		<category><![CDATA[xbox series s]]></category>
-		<category><![CDATA[Xbox Series X]]></category>
-		<category><![CDATA[Year in Gaming 2024]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3796721</guid>
-
-					<description><![CDATA[While 2024 has been a year full of ups and downs for Xbox, it delivered with games like Indiana Jones and the Great Circle and Senua's Saga: Hellblade 2.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3796721</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/11/Digital-Trends-Best-Xbox-Games-2024.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>3 great BritBox shows you should watch in December 2024</title>
-		<link>https://www.digitaltrends.com/movies/great-britbox-shows-should-watch-december-2024/</link>
-		
-		<dc:creator><![CDATA[Joe Allen]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 13:00:18 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[best britbox shows]]></category>
-		<category><![CDATA[best british shows]]></category>
-		<category><![CDATA[britbox]]></category>
-		<category><![CDATA[december 2024 streaming]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3800816</guid>
-
-					<description><![CDATA[These three shows are the perfect way to explore everything that BritBox has to offer. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3800816</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/The-cast-of-Being-Human.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>I tested Google Gemini and Apple Intelligence. Here&#8217;s which one you should use</title>
-		<link>https://www.digitaltrends.com/mobile/i-tested-google-gemini-and-apple-intelligence-which-one-you-should-use/</link>
-		
-		<dc:creator><![CDATA[Bryan M. Wolfe]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 12:30:57 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Apple Intelligence]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Artificial intelligence]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Google Gemini]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3740834</guid>
-
-					<description><![CDATA[Apple Intelligence and Google Gemini have adopted different strategies for integrating AI into our smartphones.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3740834</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/10/pixel-car.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>What is Boy Band? Ryan Reynolds talks next project with Hugh Jackman, Shawn Levy</title>
-		<link>https://www.digitaltrends.com/movies/boy-band-ryan-reynolds-hugh-jackman-shawn-levy-movie/</link>
-		
-		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 12:20:15 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Boy Band]]></category>
-		<category><![CDATA[Entertainment news 2024]]></category>
-		<category><![CDATA[Hugh Jackman]]></category>
-		<category><![CDATA[Ryan Reynolds]]></category>
-		<category><![CDATA[Shawn Levy]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802925</guid>
-
-					<description><![CDATA[Ryan Reynolds wants to reunite with Hugh Jackman and Shawn Levy. However, he wants to do it on Boy Band, not Deadpool 4.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802925</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Shawn-Levy-Deadpool-Wolverine.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>EV drivers are not going back to gas cars, global survey says</title>
-		<link>https://www.digitaltrends.com/cars/ev-drivers-are-not-going-back-to-gas-cars-global-survey-says/</link>
-		
-		<dc:creator><![CDATA[Nick Godt]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 10:51:53 +0000</pubDate>
-				<category><![CDATA[Cars]]></category>
-		<category><![CDATA[Emerging Tech]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Chevrolet]]></category>
-		<category><![CDATA[Hyundai]]></category>
-		<category><![CDATA[Kia]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[Volkswagen]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3803361</guid>
-
-					<description><![CDATA[Nearly all current owners of EVs are either satisfied with the experience, and 92% of them plan to buy another EV, according to a global survey.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3803361</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Scherm_afbeelding-2024-12-10-om-18.18.19.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>3 action movies on Hulu you need to watch in December 2024</title>
-		<link>https://www.digitaltrends.com/movies/three-action-movies-on-hulu-you-need-to-watch-in-december-2024/</link>
-		
-		<dc:creator><![CDATA[Blair Marnell]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 01:00:57 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[december 2024 streaming]]></category>
-		<category><![CDATA[Die Hard 2]]></category>
-		<category><![CDATA[gladiator]]></category>
-		<category><![CDATA[Hulu]]></category>
-		<category><![CDATA[speed]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3800398</guid>
-
-					<description><![CDATA[Celebrate the holidays with Bruce Willis' other Christmas film as part of the three action movies on Hulu that you need to watch in December.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3800398</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Die-Hard-2-Movie.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>The Google Pixel 9 is $150 off — time to upgrade your Android phone?</title>
-		<link>https://www.digitaltrends.com/mobile/google-pixel-9-deal-best-buy-december-2024/</link>
-		
-		<dc:creator><![CDATA[Aaron Mamiit]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 00:05:25 +0000</pubDate>
-				<category><![CDATA[Deals]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Best Buy 2024]]></category>
-		<category><![CDATA[Google Pixel 9]]></category>
-		<category><![CDATA[Google Pixel Deals]]></category>
-		<category><![CDATA[mobile deals]]></category>
-		<category><![CDATA[phone deals]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3802223</guid>
-
-					<description><![CDATA[The 128GB model of the Google Pixel 9 is on sale from Best Buy at $150 off. If you've thought about upgrading your Android smartphone, don't miss this offer.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3802223</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/08/google-pixel-9-review-1.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
 	</item>
 	</channel>
 </rss>

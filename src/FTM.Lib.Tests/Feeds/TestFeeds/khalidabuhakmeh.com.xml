@@ -5,9 +5,611 @@
     <description>Khalid is a product designer, traveler, respected community member, and open source contributor.</description>
     <link>https://khalidabuhakmeh.com/</link>
     <atom:link href="https://khalidabuhakmeh.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2024 15:01:21 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2024 15:01:21 +0000</lastBuildDate>
+    <pubDate>Thu, 02 Jan 2025 15:01:14 +0000</pubDate>
+    <lastBuildDate>Thu, 02 Jan 2025 15:01:14 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Great .NET Documentation with Astro, Starlight, and MarkdownSnippets</title>
+        <description>&lt;p&gt;The hallmark of every great project is equally great documentation, but it can be increasingly difficult for developers to keep both in sync. Luckily, I’ve been experimenting again with a combination of Starlight and MarkdownSnippets to make maintaining code samples and documentation much more convenient.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll see how to set up your repository so that MarkdownSnippets pulls samples from your codebase and updates your Starlight documentation.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;directory-structure-and-tools&quot;&gt;Directory Structure and Tools&lt;/h2&gt;
+
+&lt;p&gt;To get started, let’s set up our repository for success. Let’s begin with folders. We’ll want to create the following folders at the root of a newly created directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- docs
+- src
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;docs&lt;/code&gt; directory will hold our documentation powered by Starlight, and the
+&lt;code&gt;src&lt;/code&gt; directory will have all our .NET code.&lt;/p&gt;
+
+&lt;p&gt;We’ll want to run the following dotnet commands within the same directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;dotnet new tool-manifest
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, let’s install the MarkdownSnippets tool.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;dotnet tool install MarkdownSnippets.Tool
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, let’s create the MarkdownSnippets configuration file of
+&lt;code&gt;mdsnippets.json&lt;/code&gt;, which will tune our snippet generation to work with Starlight.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &quot;$schema&quot;: &quot;https://raw.githubusercontent.com/SimonCropp/MarkdownSnippets/refs/heads/main/schema.json&quot;,
+  &quot;Convention&quot;: &quot;InPlaceOverwrite&quot;,
+  &quot;WriteHeader&quot;: false,
+  &quot;ReadOnly&quot;: false,
+  &quot;LinkFormat&quot;: &quot;None&quot;,
+  &quot;OmitSnippetLinks&quot;: true
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Following the steps correctly, you’ll have the following files and folders.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- docs
+- src
+- .config
+- mdsnippets.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Great! Let’s write some .NET code in our &lt;code&gt;src&lt;/code&gt; directory now.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-net-code-samples&quot;&gt;Our .NET Code Samples&lt;/h2&gt;
+
+&lt;p&gt;Change to the &lt;code&gt;src&lt;/code&gt; directory and create a new
+&lt;code&gt;Console&lt;/code&gt; application. Any will do. What’s important is using the MarkdownSnippets convention to develop a block of code to be extracted. Here’s the one I’m using in
+&lt;code&gt;Program.cs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;// begin-snippet: App:HelloWorld
+// Program.cs
+Console.WriteLine(&quot;Hello, Again!&quot;);
+// end-snippet
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That’s it! Write and decorate as many code samples as you’ll use in the next section.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-starlight-documentation&quot;&gt;Our Starlight Documentation&lt;/h2&gt;
+
+&lt;p&gt;Now, let’s move into the &lt;code&gt;docs&lt;/code&gt; directory and run the following command. Note you’ll need both Node and Yarn installed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yarn create astro --template starlight
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From here, follow the Astro wizard to create a new documentation site. From the root, your directory structure should look similar to the following.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;- docs
+	- .astro
+	- .vscode
+	- .yarn
+	- src
+	- public
+	- astro.config.mjs
+	- package.json
+	- ...
+- src
+	- App
+		- bin
+		- obj
+		- App.csproj
+		- Program.cs
+- mdsnippets.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, let’s update our &lt;code&gt;package.json&lt;/code&gt; to scan our C# project, find snippets, and update our documentation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+  &quot;type&quot;: &quot;module&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;scripts&quot;: {
+    &quot;mdsnippets&quot;: &quot;cd .. &amp;amp;&amp;amp; dotnet mdsnippets&quot;,
+    &quot;dev&quot;: &quot;npm run mdsnippets &amp;amp;&amp;amp; astro dev&quot;,
+    &quot;start&quot;: &quot;npm run dev&quot;,
+    &quot;build&quot;: &quot;npm run mdsnippets &amp;amp;&amp;amp; astro build&quot;
+  },
+  &quot;dependencies&quot;: {
+    &quot;@astrojs/starlight&quot;: &quot;^0.29.3&quot;,
+    &quot;astro&quot;: &quot;^4.16.10&quot;,
+    &quot;sharp&quot;: &quot;^0.32.5&quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Feel free to add or remove any additional scripts or dependencies for your particular use case. This is the bare minimum for this post.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s write some documentation. Find the &lt;code&gt;example.md&lt;/code&gt; file under
+&lt;code&gt;docs/src/content/docs/guides/&lt;/code&gt; and write the following markdown.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;---
+title: Hello, World!
+description: Creating your first .NET Console Application
+---
+
+## Getting Started
+
+Your first .NET application will be a console application, or what the cool folks like to call it, an app. Create a new project using the
+`dotnet` CLI command `new`.
+
+```bash title=&quot;Terminal&quot;
+dotnet new console -o HelloWorld &amp;amp;&amp;amp; cd ./HelloWorld
+```
+
+Then, add the following code in the `Program.cs` file.
+
+snippet: App:HelloWorld
+
+Then run the app by using the following command.
+
+```bash title=&quot;Terminal&quot;
+dotnet run
+```
+
+Congratulations!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, run the &lt;code&gt;dev&lt;/code&gt; command from the root directory. MarkdownSnippets will transform the
+&lt;code&gt;snippet: App:HelloWorld&lt;/code&gt; in your Markdown to the following.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;---
+title: Hello, World!
+description: Creating your first .NET Console Application
+---
+
+## Getting Started
+
+Your first .NET application will be a console application, or what the cool folks like to call it, an app. Create a new project using the
+`dotnet` CLI command `new`.
+
+```bash title=&quot;Terminal&quot;
+dotnet new console -o HelloWorld &amp;amp;&amp;amp; cd ./HelloWorld
+```
+
+Then, add the following code in the `Program.cs` file.
+
+&amp;lt;!-- snippet: App:HelloWorld --&amp;gt;
+
+```cs
+// Program.cs
+Console.WriteLine(&quot;Hello, Again!&quot;);
+```
+
+&amp;lt;!-- endSnippet --&amp;gt;
+
+Then run the app by using the following command.
+
+```bash title=&quot;Terminal&quot;
+dotnet run
+```
+
+Congratulations!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can change the code in &lt;code&gt;Program.cs&lt;/code&gt; and rerun the command to see the documentation update.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you’re working on code-heavy documentation where samples speak louder than words, then combining MarkdownSnippets with Starlight is a great pairing. You’ll want to develop a good naming convention to make finding and altering samples easier, after which you’ll be sure that any code samples are valid, compiled, and run. After all, as developers, we all want to get it right the first time.&lt;/p&gt;
+
+&lt;p&gt;As always, thanks for reading, and cheers.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/great-dotnet-documentation-with-astro-starlight-and-markdownsnippets</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/great-dotnet-documentation-with-astro-starlight-and-markdownsnippets</guid>
+        
+        <category>astro</category>
+        
+        <category>javascript</category>
+        
+        <category>dotnet</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Alpine.Js Polling ASP.NET Core APIs For Updates</title>
+        <description>&lt;p&gt;Building dynamic JavaScript experiences has come a long in the 20 years since I first started software development, but updating the document object model (DOM) can still be a real pain in the butt. That’s why we’ve seen single-page application frameworks explode in use. While JavaScript provides a very capable API when interacting with the DOM, it can be verbose.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll see how to use the Alpine.Js library’s declarative attribute approach to create a real-time updating UI with minimal JavaScript and no direct use of the DOM APIs.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;the-strength-of-alpinejs&quot;&gt;The Strength of Alpine.js&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://alpinejs.dev/&quot;&gt;Alpine.js&lt;/a&gt; is a lightweight JavaScript framework that allows you to compose behavior directly in your HTML markup. The library consists of 15 attributes, six properties, and two methods. While its surface API is small, what it offers is, as the site says,
+&lt;strong&gt;“powerful as hell.”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The strength of Alpine.js comes from its data model, which uses reactivity to detect changes to data and update the UI elements accordingly. Reactivity means you can update values naturally without keeping track of a dependency graph. Let’s take a look at a quick example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;
+&amp;lt;div x-data=&quot;{ count: 0 }&quot;&amp;gt;
+    &amp;lt;button x-on:click=&quot;count++&quot;&amp;gt;Increment&amp;lt;/button&amp;gt;
+
+    &amp;lt;span x-text=&quot;count&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this example, the &lt;code&gt;count&lt;/code&gt; value is reactive. When you click the button, the value increments. Since the
+&lt;code&gt;count&lt;/code&gt; value is also used in the &lt;code&gt;span&lt;/code&gt; element, it is updated at the time of the change. So easy!&lt;/p&gt;
+
+&lt;p&gt;Values can also be accessed from JavaScript. With a few modifications, we can use the
+&lt;code&gt;data&lt;/code&gt; method to create a shared context for our counter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;
+&amp;lt;div x-data=&quot;count&quot;&amp;gt;
+    &amp;lt;button x-on:click=&quot;increment()&quot;&amp;gt;Increment&amp;lt;/button&amp;gt;
+    &amp;lt;span x-text=&quot;value&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script&amp;gt;
+    document.addEventListener(&apos;alpine:init&apos;, () =&amp;gt; {
+
+        Alpine.data(&apos;count&apos;, () =&amp;gt; ({
+            increment() {
+                this.value++;
+            },
+            value: 0
+        }));
+
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that we’ve encapsulated the counter logic in &lt;code&gt;increment&lt;/code&gt; and changed the
+&lt;code&gt;value&lt;/code&gt; field on each click. There’s no need to do any special syntax to access the
+&lt;code&gt;value&lt;/code&gt; field. We can use it as we would a plain-old JavaScript object.&lt;/p&gt;
+
+&lt;p&gt;Now that we understand more about reactivity related to Alpine.js, let’s write a more complex sample that polls our ASP.NET Core application for updated data.&lt;/p&gt;
+
+&lt;h2 id=&quot;aspnet-core-and-alpinejs&quot;&gt;ASP.NET Core and Alpine.Js&lt;/h2&gt;
+
+&lt;p&gt;Let’s start by creating an API endpoint that will return weather data. First, let’s look at our data model.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class Weather
+{
+    public string Location { get; set; } = &quot;&quot;;
+    public string Description { get; set; } = &quot;&quot;;
+    public string Temperature { get; set; } = &quot;&quot;;
+
+    public static ReadOnlySpan&amp;lt;string&amp;gt; Descriptions =&amp;gt;
+        new([&quot;Sunny&quot;, &quot;Cloudy&quot;, &quot;Rainy&quot;, &quot;Snowy&quot;]);
+
+    public static ReadOnlySpan&amp;lt;string&amp;gt; Locations =&amp;gt;
+        new([&quot;Mountain&quot;, &quot;Valley&quot;, &quot;Desert&quot;, &quot;Forest&quot;]);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, let’s add a new API endpoint to our application in &lt;code&gt;Program&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using MountainWeather.Models;
+
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet(&quot;/weather&quot;, () =&amp;gt;
+{
+    return Results.Json(
+        Enumerable
+            .Range(1, 10)
+            .Select(i =&amp;gt; new Weather
+            {
+                Location = $&quot;{Random.Shared.GetItems(Weather.Locations, 1)[0]} #{i}&quot;,
+                Description = $&quot;{Random.Shared.GetItems(Weather.Descriptions, 1)[0]}&quot;,
+                Temperature = $&quot;{Random.Shared.Next(32, 100)}℉&quot;
+            })
+            .ToList()
+    );
+});
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.Run();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, let’s write our HTML and JavaScript. This is an &lt;code&gt;index.html&lt;/code&gt; file placed in the &lt;code&gt;wwwroot&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+    &amp;lt;title&amp;gt;Weather&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/@picocss/pico@latest/css/pico.min.css&quot;&amp;gt;
+    &amp;lt;script src=&quot;https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js&quot; defer&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;main class=&quot;container-fluid&quot;&amp;gt;
+    &amp;lt;table class=&quot;table table-striped&quot; x-data=&quot;weather&quot;&amp;gt;
+        &amp;lt;thead&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;th&amp;gt;Location&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;Temperature&amp;lt;/th&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        &amp;lt;/thead&amp;gt;
+        &amp;lt;tbody&amp;gt;
+        &amp;lt;tr x-show=&quot;locations.length === 0&quot;&amp;gt;
+            &amp;lt;td colspan=&quot;3&quot;&amp;gt;
+                0 Locations Found.
+            &amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        &amp;lt;template x-for=&quot;l in locations&quot;&amp;gt;
+            &amp;lt;tr&amp;gt;
+                &amp;lt;td x-text=&quot;l.location&quot;&amp;gt;&amp;lt;/td&amp;gt;
+                &amp;lt;td x-text=&quot;l.description&quot;&amp;gt;&amp;lt;/td&amp;gt;
+                &amp;lt;td x-text=&quot;l.temperature&quot;&amp;gt;&amp;lt;/td&amp;gt;
+            &amp;lt;/tr&amp;gt;
+        &amp;lt;/template&amp;gt;
+        &amp;lt;/tbody&amp;gt;
+        &amp;lt;tfoot&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td colspan=&quot;3&quot; x-text=&quot;updated&quot;&amp;gt;&amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        &amp;lt;/tfoot&amp;gt;
+    &amp;lt;/table&amp;gt;
+&amp;lt;/main&amp;gt;
+&amp;lt;script&amp;gt;
+    async function getWeather() {
+        let result = {};
+        const response = await fetch(&apos;/weather&apos;);
+        result.locations = await response.json();
+        result.updated = new Date();
+        return result;
+    }
+
+    document.addEventListener(&apos;alpine:init&apos;, () =&amp;gt; {
+        Alpine.data(&apos;weather&apos;, () =&amp;gt; ({
+            async init() {
+                this.timer = setInterval(async () =&amp;gt; {
+                    const result = await getWeather();
+                    this.locations = result.locations;
+                    this.updated = result.updated;
+                }, 3000);
+
+                const result = await getWeather();
+                this.locations = result.locations;
+                this.updated = result.updated;
+            },
+            destroy: () =&amp;gt; {
+                clearInterval(this.timer);
+            },
+            locations: [],
+            updated: &quot;n/a&quot;,
+            timer: null
+        }));
+    });
+&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let me explain what’s happening in this HTML, starting with our &lt;code&gt;weather&lt;/code&gt; data model. We use the
+&lt;code&gt;Alpine.data&lt;/code&gt; method to create a data context that our HTML can use with the
+&lt;code&gt;x-data&lt;/code&gt; attribute. This data model has fields for &lt;code&gt;locations&lt;/code&gt;, &lt;code&gt;updated&lt;/code&gt;, and
+&lt;code&gt;timer&lt;/code&gt;. The timer fetches data from our API every three seconds and changes the values. When the values change, the UI changes as well.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at HTML binding because Alpine.js allows developers to employ a neat trick: the
+&lt;code&gt;template&lt;/code&gt; HTML tag. By default, the
+&lt;code&gt;template&lt;/code&gt; tag takes the user-defined contents and appends the hydrated version into the DOM as the following elements. In this sample, we get rows matching the values from the ASP.NET Core API. Now, running the sample, we get a table that updates its values every three seconds.&lt;/p&gt;
+
+&lt;p&gt;Note that JavaScript developers using intervals should call clearInterval if the DOM element can be removed before the user navigates away from the page. This ensures there will be no memory leaks. You can do this using the
+&lt;code&gt;destroy&lt;/code&gt; method in your data definition.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There you go—a simple, updating UI with minimal JavaScript and an easy-to-understand and maintainable codebase. I like Alpine.js and what it offers. In most cases, a little bit of a user interface can go a long way. I hope you enjoyed this post, and thank you for reading. Cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/alpinejs-polling-aspnet-core-apis-for-updates</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/alpinejs-polling-aspnet-core-apis-for-updates</guid>
+        
+        <category>aspnetcore</category>
+        
+        <category>javascript</category>
+        
+        <category>csharp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Building a Persistent Counter with Alpine.Js</title>
+        <description>&lt;p&gt;If you read this blog, you likely know I predominantly work with .NET technologies and use web technologies such as HTML, CSS, and JavaScript. The web is an excellent space for new and exciting ways to solve age-old problems. I recently thought about the Blazor “Counter” example that ships with the Blazor Wasm template and how I’ve solved the same problem using Htmx. The issue with Htmx is that it still requires a backend to manage the state; in the case of a counter, this state is the current count. What if you wanted to build a self-contained client-side experience?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://alpinejs.dev/&quot;&gt;Alpine.js&lt;/a&gt; is a declarative library aimed at helping developers build client-side interactivity using HTML attributes on DOM elements. This post will show you how to create the same Blazor Counter example with very little JavaScript and network payloads.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;installing-alpinejs&quot;&gt;Installing Alpine.js&lt;/h2&gt;
+
+&lt;p&gt;Since Alpine.js is a JavaScript library, you only need to reference the necessary files in your HTML pages. In an ASP.NET Core application, that’s typically in your layout files.&lt;/p&gt;
+
+&lt;p&gt;Add the following &lt;code&gt;script&lt;/code&gt; tag to the &lt;code&gt;head&lt;/code&gt; portion of your page.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- Alpine Core --&amp;gt;  
+&amp;lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That’s it. You can also use NPM to bundle the dependency into an existing build process, but we’ll leave that out of this post for now.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-an-inline-counter-with-alpine&quot;&gt;Building an inline Counter with Alpine&lt;/h2&gt;
+
+&lt;p&gt;Alpine uses attributes, and one of the most important attributes is the &lt;code&gt;x-data&lt;/code&gt; attribute. The &lt;code&gt;x-data&lt;/code&gt; attribute sets up the context for our current scope. In most cases, that scope is the DOM element you decorate with the attribute.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;main class=&quot;container&quot; x-data=&quot;{ count : 0 }&quot;&amp;gt;
+    &amp;lt;article class=&quot;card&quot;&amp;gt;
+        &amp;lt;header&amp;gt;
+            &amp;lt;h3&amp;gt;Counter Value&amp;lt;/h3&amp;gt;
+        &amp;lt;/header&amp;gt;
+        &amp;lt;section&amp;gt;
+            &amp;lt;p x-text=&quot;count&quot;&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/article&amp;gt;
+
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;count++&quot;&amp;gt;
+        Increment
+    &amp;lt;/button&amp;gt;
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;count = 0&quot;&amp;gt;
+        Reset
+    &amp;lt;/button&amp;gt;
+&amp;lt;/main&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Wow, that’s easy, right? So, how do we persist this information on reloads? Local storage of course!&lt;/p&gt;
+
+&lt;h2 id=&quot;making-the-inline-counter-persistent&quot;&gt;Making the inline counter persistent&lt;/h2&gt;
+
+&lt;p&gt;Alpine.js has a persistence plugin, which we’ll need to install. While you can write the local storage code, this plugin makes it much nicer to use stored values and update them as users make changes.&lt;/p&gt;
+
+&lt;p&gt;Modify the reference to Alpine.js on the page to include these two &lt;code&gt;script&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!-- Alpine Plugins --&amp;gt;  
+&amp;lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.x.x/dist/cdn.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;  
+&amp;lt;!-- Alpine Core --&amp;gt;  
+&amp;lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cool, we’re ready to update the HTML to persist the value across page refreshes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;main class=&quot;container&quot; x-data=&quot;{ count : $persist(0) }&quot;&amp;gt;
+    &amp;lt;article class=&quot;card&quot;&amp;gt;
+        &amp;lt;header&amp;gt;
+            &amp;lt;h3&amp;gt;Counter Value&amp;lt;/h3&amp;gt;
+        &amp;lt;/header&amp;gt;
+        &amp;lt;section&amp;gt;
+            &amp;lt;p x-text=&quot;count&quot;&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/article&amp;gt;
+
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;count++&quot;&amp;gt;
+        Increment
+    &amp;lt;/button&amp;gt;
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;count = 0&quot;&amp;gt;
+        Reset
+    &amp;lt;/button&amp;gt;
+&amp;lt;/main&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Refreshing the page now maintains the previous count. What if we want to use that value in other page parts? In other words, what if we want to keep a globally accessible value? That’s where Alpine.js stores come in.&lt;/p&gt;
+
+&lt;h2 id=&quot;persisting-state-in-an-alpine-store&quot;&gt;Persisting state in an Alpine Store&lt;/h2&gt;
+
+&lt;p&gt;Alpine.js allows you to create a global state using a &lt;strong&gt;store&lt;/strong&gt;. Stores are created when Alpine.js initializes the page, allowing you to write more complex logic using JavaScript. Let’s modify our page to use a &lt;code&gt;counter&lt;/code&gt; store with persistent values and methods.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;body&amp;gt;
+    &amp;lt;main class=&quot;container&quot; x-data&amp;gt;
+        &amp;lt;article class=&quot;card&quot;&amp;gt;
+            &amp;lt;header&amp;gt;
+                &amp;lt;h3&amp;gt;Counter Value&amp;lt;/h3&amp;gt;
+            &amp;lt;/header&amp;gt;
+            &amp;lt;section&amp;gt;
+                &amp;lt;p x-text=&quot;$store.counter.value&quot;&amp;gt;&amp;lt;/p&amp;gt;
+            &amp;lt;/section&amp;gt;
+        &amp;lt;/article&amp;gt;
+        
+        &amp;lt;button type=&quot;button&quot; x-on:click=&quot;$store.counter.increment()&quot;&amp;gt;
+            Increment
+        &amp;lt;/button&amp;gt;
+        &amp;lt;button type=&quot;button&quot; x-on:click=&quot;$store.counter.reset()&quot;&amp;gt;
+            Reset
+        &amp;lt;/button&amp;gt;             
+    &amp;lt;/main&amp;gt;
+    &amp;lt;script&amp;gt;
+        document.addEventListener(&apos;alpine:initializing&apos;, () =&amp;gt; {
+            Alpine.store(&apos;counter&apos;, {
+                value: Alpine.$persist(0),
+                increment() {
+                    this.value++
+                },
+                reset() {
+                    this.value = 0;
+                }
+            })
+        })
+    &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It’s a bit more JavaScript code, but now other page elements can access the counter store, and the concepts of &lt;code&gt;increment&lt;/code&gt; and &lt;code&gt;reset&lt;/code&gt; are incapsulated into the store, allowing us to change behavior in a single location. That’s pretty cool!&lt;/p&gt;
+
+&lt;p&gt;Here’s the full HTML file so you can try it out for yourself.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot; xmlns:x-on=&quot;http://www.w3.org/1999/xhtml&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+    &amp;lt;title&amp;gt;PicoCSS Boilerplate&amp;lt;/title&amp;gt;
+    &amp;lt;link
+            rel=&quot;stylesheet&quot;
+            href=&quot;https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css&quot;
+    /&amp;gt;
+    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/site.css&quot;/&amp;gt;
+    &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
+    &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&amp;gt;
+    &amp;lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot;/&amp;gt;
+    &amp;lt;title&amp;gt;Hello World!&amp;lt;/title&amp;gt;
+    &amp;lt;!-- Alpine Plugins --&amp;gt;
+    &amp;lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.x.x/dist/cdn.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;!-- Alpine Core --&amp;gt;
+    &amp;lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;main class=&quot;container&quot; x-data&amp;gt;
+    &amp;lt;article class=&quot;card&quot;&amp;gt;
+        &amp;lt;header&amp;gt;
+            &amp;lt;h3&amp;gt;Counter Value&amp;lt;/h3&amp;gt;
+        &amp;lt;/header&amp;gt;
+        &amp;lt;section&amp;gt;
+            &amp;lt;p x-text=&quot;$store.counter.value&quot;&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/article&amp;gt;
+
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;$store.counter.increment()&quot;&amp;gt;
+        Increment
+    &amp;lt;/button&amp;gt;
+    &amp;lt;button type=&quot;button&quot; x-on:click=&quot;$store.counter.reset()&quot;&amp;gt;
+        Reset
+    &amp;lt;/button&amp;gt;
+&amp;lt;/main&amp;gt;
+&amp;lt;script&amp;gt;
+    document.addEventListener(&apos;alpine:initializing&apos;, () =&amp;gt; {
+        Alpine.store(&apos;counter&apos;, {
+            value: Alpine.$persist(0),
+            increment() {
+                this.value++
+            },
+            reset() {
+                this.value = 0;
+            }
+        })
+    })
+&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Alpine.js is an excellent library for building client-side experiences, and mixing it with Htmx or plain old JavaScript is a winning combination. I hope you try this and experiment with changing the behavior of &lt;code&gt;increment&lt;/code&gt; and &lt;code&gt;reset&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, thanks for reading and sharing my posts with others. Cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/building-a-persistent-counter-with-alpinejs</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/building-a-persistent-counter-with-alpinejs</guid>
+        
+        <category>javascript</category>
+        
+        <category>html</category>
+        
+        
+      </item>
     
       <item>
         <title>Dynamic Htmx Islands with ASP.NET Core</title>
@@ -17915,473 +18517,6 @@ let run = fib 11 |&amp;gt; Seq.toList |&amp;gt; printf &quot;%A&quot;
         <category>fsharp,</category>
         
         <category>kotlin</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>How Many Threads Does My .NET App Have?</title>
-        <description>&lt;p&gt;I’ve recently been working with WebAssembly (WASM) to target the WebAssembly Server Interface (WASI), specifically the &lt;a href=&quot;https://wasmtime.dev&quot;&gt;Wasmtime runtime&lt;/a&gt;. Running .NET applications in an operating system agnostic way opens up a world of possibilities and begins to blur the lines between client and server. Of course, it’s still very early, and anything could happen, but to say I’m excited about the future of WASM is an understatement.&lt;/p&gt;
-
-&lt;p&gt;One drawback with WASI runtimes is they are still limited to single-threaded execution. I wasn’t sure how to confirm that my application was single-threaded, but I’ve found a few ways to tell if your current application has threads necessary for multiple-thread executions.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;wasm-runtime-warning&quot;&gt;WASM Runtime Warning&lt;/h2&gt;
-
-&lt;p&gt;The following code I’m about to show you depends on the runtime and platform your application is running within. If you’re running in a supported platform, I suggest the first method I’ll be showing you as it accounts for all potential threads in your application, managed and unmanaged.&lt;/p&gt;
-
-&lt;p&gt;See, WASM and their runtimes are still evolving, and in most .NET cases, the runtime you’ll be using is the same one Blazor uses, a modified version of Silverlight/Mono. This runtime is only a subset of what you might use with runtimes like .NET SDK or Full Framework. Therefore, when targeting WASM with .NET, it is vital to test your code and not assume all the functionalities you’re currently using exist.&lt;/p&gt;
-
-&lt;h2 id=&quot;counting-threads-on-the-process-normal&quot;&gt;Counting Threads on the Process (Normal)&lt;/h2&gt;
-
-&lt;p&gt;The first method to determine the thread count of your application is to use the &lt;code&gt;Process&lt;/code&gt; class. You can find the &lt;code&gt;Process&lt;/code&gt; class under the &lt;code&gt;System. Diagnostics&lt;/code&gt; namespace and the type encapsulates several valuable properties such as &lt;code&gt;MachineName&lt;/code&gt;, &lt;code&gt;ProcessInfo&lt;/code&gt;, &lt;code&gt;ProcessId&lt;/code&gt;, &lt;code&gt;ProcessName&lt;/code&gt;,  and &lt;code&gt;Threads&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;To get the current number of threads in your .NET Process, you’ll need the following line of C#.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var numberOfThreads = Process.GetCurrentProcess().Threads.Count;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note that this thread count is all the available threads your process has access to, including managed and unmanaged threads. Those threads could also be located on a remote machine if your process is remote.&lt;/p&gt;
-
-&lt;p&gt;Sadly, there is no current support for the &lt;code&gt;Process&lt;/code&gt; type in a WASM runtime environment, and you will get the following &lt;code&gt;PlatformNotSupportedException&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;System.PlatformNotSupportedException: System.Diagnostics.Process is not supported on this platform.
-   at System.Diagnostics.Process.GetCurrentProcess()
-   at Program.&amp;lt;Main&amp;gt;$(String[] args)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Luckily, there is another approach, but you’ll need to be aware of its limitations.&lt;/p&gt;
-
-&lt;h2 id=&quot;counting-threads-on-the-process-wasm&quot;&gt;Counting Threads on the Process (WASM)&lt;/h2&gt;
-
-&lt;p&gt;Since WASM apps run in a sandbox, accessing the host system is not allowed and ultimately doesn’t work like you’d expect a process running on an OS to function. Luckily, there’s the &lt;code&gt;ThreadPool&lt;/code&gt; class found in the &lt;code&gt;System.Threading&lt;/code&gt; namespace, and you can ask it how many threads are currently available.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Provides a pool of threads that can be used to execute tasks, post work items, process asynchronous I/O, wait on behalf of other threads, and process timers. 
-–&lt;a href=&quot;https://learn.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=net-7.0&quot;&gt;Microsoft Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;code&gt;ThreadPool&lt;/code&gt; allows you to retrieve the count of all &lt;strong&gt;managed&lt;/strong&gt; threads, unlike the &lt;code&gt;Process&lt;/code&gt; class, which is a mix of managed and unmanaged threads.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var numberOfThreads = ThreadPool.ThreadCount;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;getting-thread-counts-in-two-environments&quot;&gt;Getting Thread Counts in Two Environments&lt;/h2&gt;
-
-&lt;p&gt;Let’s run the following app as a native OS app on macOS and as a WASM-targeted app and see our results.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Diagnostics;
-
-int numberOfThreads;
-try
-{
-    // this will fail in WASM because its not supported
-    numberOfThreads = Process.GetCurrentProcess().Threads.Count;
-}
-catch
-{
-    numberOfThreads = 1;
-}
-
-Console.WriteLine($&quot;Current number of process threads are {numberOfThreads}&quot;);
-Console.WriteLine($&quot;Current threads in thread pool are {ThreadPool.ThreadCount}&quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;First up is the app running natively on macOS. Your thread count may differ on machine specifications and app settings.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;Current number of process threads are 11
-Current threads in thread pool are 3
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let’s run the same process under the Wasmtime runtime.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;➜ wasmtime HelloWasm/bin/Debug/net7.0/HelloWasm.wasm --wasm-features all
-Current number of threads are 1
-Current max thread in thread pool are 1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note the difference in threads. Cool!&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;So why would you want to know how many threads your application can access? Well, in my case, I found that my WASM application was dead-locking on some trivial threading code. As I’m learning about WASM-targeted apps, I thought it would be interesting to confirm my suspicion, and after reading about WASM, I confirmed it even further. Wasmtime has experimental multithreading support, but the .NET WASM target also needs to support it to see the benefit of those additional threads. Anyways, I hope you enjoyed this post, and if you have any other ways to count the current threads in your .NET application, please let me know on Twitter at &lt;a href=&quot;https://twitter.com/buhakmeh&quot;&gt;@buhakmeh&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/how-many-threads-does-my-dotnet-app-have</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/how-many-threads-does-my-dotnet-app-have</guid>
-        
-        <category>dotnet,</category>
-        
-        <category>wasm</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ASP.NET Core Placeholder Images with ImageSharp</title>
-        <description>&lt;p&gt;An essential part of building web applications is understanding what elements may look like in an evolving user interface. For most users, the web is a visual medium with complex components that include many images. This trend has accelerated since the introduction of broadband in more regions worldwide. Who doesn’t love a pretty-looking picture on a website? That said, when you first start building your applications, image assets might be far and few between and may not be essential to the structure of your web application.&lt;/p&gt;
-
-&lt;p&gt;In this short post, we’ll see how to use &lt;a href=&quot;https://sixlabors.com/products/imagesharp-web/&quot;&gt;ImageSharp.Web&lt;/a&gt; and ASP.NET Core to build a local placeholder image service to help you prototype an expanding UI component library.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;placeholder-images-and-why-not-a-service&quot;&gt;Placeholder Images and Why Not A Service?&lt;/h2&gt;
-
-&lt;p&gt;Placeholder images help you fill out the structure of an HTML component. If you’ve seen any HTML component library, such as Bootstrap, you’re likely familiar with some of the components requiring an image element. The most notable is the &lt;strong&gt;card&lt;/strong&gt; component, where an image is at the top of the component, followed by a title, subtitle, and content.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/bootstrap-card.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/bootstrap-card.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/bootstrap-card.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_654/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/bootstrap-card.png 654w&quot; sizes=&quot;100vw&quot; alt=&quot;bootstrap card&quot; loading=&quot;lazy&quot; width=&quot;654&quot; height=&quot;824&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These components don’t look right until you have an image placed in them, so what is one to do? Well, in most cases, you’d likely reach for an image placeholder service. Here are a few:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://picsum.photos/&quot;&gt;https://picsum.photos/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://picsum.photos/&quot;&gt;https://placeholder.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://picsum.photos/&quot;&gt;https://fakeimg.pl/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Easy enough, right? A few drawbacks should make you cautious about using these third-party services.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;These services can have intermittent issues that cause your layout to break.&lt;/li&gt;
-  &lt;li&gt;Slow transfer speeds of placeholder images can make your app seem slow to clients. In some scenarios, slow images can pause the rendering of your page until the client has fully downloaded the image.&lt;/li&gt;
-  &lt;li&gt;You could be sending cookie data to an unknown third party.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Issue 2 is particularly problematic if you’re doing automated testing or have performance alerts for page rendering times. These warnings can lead you to spend hours looking for performance bottlenecks in your code when the issue is with these placeholder services.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-write-a-local-image-placeholder-service&quot;&gt;Let’s Write A Local Image Placeholder Service&lt;/h2&gt;
-
-&lt;p&gt;Luckily for you, there’s an effortless way of creating a local placeholder image service with ASP.NET Core and ImageSharp.Web. But before we get to code, you’ll need an abstract image that can be stretched and resized without affecting the image’s content. In my case, I’ve created one in my favorite image editor. Feel free to use it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/placeholder.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_256/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/placeholder.png 256w&quot; sizes=&quot;100vw&quot; width=&quot;256&quot; height=&quot;256&quot; alt=&quot;placeholder image&quot; loading=&quot;lazy&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ok, let’s get to some code.&lt;/p&gt;
-
-&lt;p&gt;In a new ASP.NET Core project, you’ll want to add the following NuGet dependency of &lt;code&gt;SixLabors.ImageSharp.Web&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;dotnet add package SixLabors.ImageSharp.Web
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once you’ve installed the package, you’ll want to set up the ASP.NET Core pipeline. First, you’ll register the ImageSharp services, then add the middleware to your application’s request pipeline.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using SixLabors.ImageSharp.Web.DependencyInjection;
-
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddRazorPages();
-builder.Services.AddImageSharp(options =&amp;gt;
-{
-    options.BrowserMaxAge = TimeSpan.FromDays(7);
-    options.CacheMaxAge = TimeSpan.FromDays(365);
-});
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler(&quot;/Error&quot;);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-
-// Important, have the ImageSharp
-// middleware before the static files
-app.UseImageSharp();
-app.UseStaticFiles();
-app.UseRouting();
-app.UseAuthorization();
-app.MapRazorPages();
-app.Run();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;It’s important that you register ImageSharp middleware before the static file middleware, or else ASP.NET Core won’t process images from your static folders properly.&lt;/strong&gt; Next, let’s create a specialized tag helper to make adding placeholder images more straightforward in our Razor views.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using Microsoft.AspNetCore.Razor.TagHelpers;
-
-namespace Bespoke;
-
-[HtmlTargetElement(&quot;placeholder&quot;, TagStructure = TagStructure.WithoutEndTag)] 
-public class PlaceholderTagHelper : TagHelper
-{
-    public int Width { get; set; } = 256;
-    public int? Height { get; set; }
-    
-    public override void Process(TagHelperContext context, TagHelperOutput output)
-    {
-        output.TagName = &quot;img&quot;;
-        var src = $&quot;/img/placeholder.png?width={Width}&amp;amp;height={Height ?? Width}&amp;amp;rmode=stretch&quot;;
-
-        output.Attributes.SetAttribute(&quot;src&quot;, src);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;At this point, you should create a folder named &lt;code&gt;img&lt;/code&gt; under your &lt;code&gt;wwwroot&lt;/code&gt; folder and add the placeholder image there.&lt;/p&gt;
-
-&lt;p&gt;Finally, let’s add our tag helper to our &lt;code&gt;_ViewImports.cshtml&lt;/code&gt; so we can reference the new tag in all of our Razor views. Be sure to adjust the namespace to match your particular project’s namespace.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;@using Bespoke
-@namespace Bespoke.Pages
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@addTagHelper *, Bespoke
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let’s use the &lt;code&gt;placeholder&lt;/code&gt; tag in some Razor views.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&amp;gt;
-    &amp;lt;placeholder class=&quot;card-img-top&quot; width=&quot;286&quot; height=&quot;180&quot; alt=&quot;Card image cap&quot;/&amp;gt;
-    &amp;lt;div class=&quot;card-body&quot;&amp;gt;
-        &amp;lt;h5 class=&quot;card-title&quot;&amp;gt;Card title&amp;lt;/h5&amp;gt;
-        &amp;lt;p class=&quot;card-text&quot;&amp;gt;Some quick example text to build on the card title and make up the bulk of the card&apos;s content.&amp;lt;/p&amp;gt;
-        &amp;lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&amp;gt;Go somewhere&amp;lt;/a&amp;gt;
-    &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Cool! Let’s also see what it looks like rendered.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_1200/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-final.png 1200w&quot; sizes=&quot;100vw&quot; alt=&quot;final image with aspnet core placeholder tag&quot; loading=&quot;lazy&quot; width=&quot;2556&quot; height=&quot;2058&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you look at the developer tools at the bottom of the screenshot, you’ll notice that each image is rendered precisely for the use case it is applied within. You also have the added benefit of caching each image, so your app stays more performant as more images are processed. Finally, all images are processed and served locally, so you can accurately represent the performance of your application profile.&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-the-dimensions-to-the-image&quot;&gt;Adding The Dimensions To The Image&lt;/h2&gt;
-
-&lt;p&gt;While not completely necessary, adding the dimensions of your placeholder image can help debug layout issues faster than without them. Luckily, ImageSharp.Web has an extensible command pipeline that you can use to your advantage.&lt;/p&gt;
-
-&lt;p&gt;The first step is to create a &lt;code&gt;DimensionsWatermarkProcessor&lt;/code&gt; class. This will give us an opportunity to add additional context to our original placeholder image. Before pasting this class into your project you’ll need a few additional packages in your project: &lt;code&gt;SixLabors.Fonts&lt;/code&gt; and &lt;code&gt;SixLabors.ImageSHarp.Drawing&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;PackageReference Include=&quot;SixLabors.Fonts&quot; Version=&quot;1.0.0-beta18&quot; /&amp;gt;
-&amp;lt;PackageReference Include=&quot;SixLabors.ImageSharp.Drawing&quot; Version=&quot;1.0.0-beta15&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, you’ll need to create a &lt;code&gt;DimensionsWatermarkProcessor&lt;/code&gt; class. &lt;a href=&quot;https://www.adamrussell.com/adding-image-watermark-text-in-c-with-imagesh&quot;&gt;Thanks to Adam Russel for the watermark blog post&lt;/a&gt;. You can modify the below code to load custom fonts, change sizes of the dimensions, and the location. For this use case, I felt having the values in the bottom-right were fine.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Globalization;
-using Microsoft.Extensions.Options;
-using SixLabors.Fonts;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Drawing.Processing;
-using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
-using SixLabors.ImageSharp.Web;
-using SixLabors.ImageSharp.Web.Commands;
-using SixLabors.ImageSharp.Web.Middleware;
-using SixLabors.ImageSharp.Web.Processors;
-
-namespace Bespoke;
-
-public class DimensionsWatermarkProcessor : IImageWebProcessor
-{
-    public const string Dimensions = &quot;dim&quot;;
-
-    private static readonly IEnumerable&amp;lt;string&amp;gt; DimensionsCommands
-        = new[] { Dimensions };
-
-    private readonly ImageSharpMiddlewareOptions options;
-
-    public FormattedImage Process(FormattedImage image, ILogger logger, CommandCollection commands, CommandParser parser,
-        CultureInfo culture)
-    {
-        var extension = commands.GetValueOrDefault(Dimensions);
-
-        if (!string.IsNullOrEmpty(extension))
-        {
-            // https://www.adamrussell.com/adding-image-watermark-text-in-c-with-imagesh
-            var text = $&quot;{image.Image.Width}x{image.Image.Height}&quot;;
-
-            // substitute your own font here if you like
-            var font = SystemFonts.Families.First().CreateFont(18f, FontStyle.Regular);
-            var textOptions = new TextOptions(font) { Dpi = 72, KerningMode = KerningMode.Normal };
-            var rect = TextMeasurer.Measure(text, textOptions);
-
-            // add watermark
-            image.Image.Mutate(x =&amp;gt; x.DrawText(
-                $&quot;{image.Image.Width} x {image.Image.Height}&quot;,
-                font,
-                new Color(Rgba32.ParseHex(&quot;#FFFFFF&quot;)),
-                new PointF(image.Image.Width - rect.Width - 18f,
-                    image.Image.Height - rect.Height - 5f)
-            ));
-        }
-
-        return image;
-    }
-
-    public bool RequiresTrueColorPixelFormat(CommandCollection commands, CommandParser parser, CultureInfo culture)
-        =&amp;gt; false;
-
-    public IEnumerable&amp;lt;string&amp;gt; Commands { get; } = DimensionsCommands;
-
-    public DimensionsWatermarkProcessor(IOptions&amp;lt;ImageSharpMiddlewareOptions&amp;gt; options)
-        =&amp;gt; this.options = options.Value;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Once you have the watermark processor in your project, you’ll need to add the processor to the ImageSharp middleware pipeline. Back in your &lt;code&gt;Program.cs&lt;/code&gt; file, you’ll need to call &lt;code&gt;AddProcessor&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;builder.Services.AddImageSharp(options =&amp;gt;
-{
-    options.BrowserMaxAge = TimeSpan.FromDays(7);
-    options.CacheMaxAge = TimeSpan.FromDays(365);
-}).AddProcessor&amp;lt;DimensionsWatermarkProcessor&amp;gt;();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, let’s update the &lt;code&gt;PlaceholderTagHelper&lt;/code&gt; implementation to include the additional &lt;code&gt;dim&lt;/code&gt; command that the &lt;code&gt;DimensionsWatermarkProcessor&lt;/code&gt; expects. &lt;strong&gt;Note, you could modify the value of &lt;code&gt;dim&lt;/code&gt; to allow for configurability of the watermark.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;[HtmlTargetElement(&quot;placeholder&quot;, TagStructure = TagStructure.WithoutEndTag)] 
-public class PlaceholderTagHelper : TagHelper
-{
-    public int Width { get; set; } = 256;
-    public int? Height { get; set; }
-    
-    public override void Process(TagHelperContext context, TagHelperOutput output)
-    {
-        output.TagName = &quot;img&quot;;
-        var src = $&quot;/img/placeholder.png?width={Width}&amp;amp;height={Height ?? Width}&amp;amp;rmode=stretch&amp;amp;dim=true&quot;;
-
-        output.Attributes.SetAttribute(&quot;src&quot;, src);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let’s see what the updated placeholders look like now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_1200/https://khalidabuhakmeh.com/assets/images/posts/imagesharp-placeholder-aspnet-core/aspnetcore-placeholder-watermark.png 1200w&quot; sizes=&quot;100vw&quot; alt=&quot;final image with aspnet core placeholder tag&quot; loading=&quot;lazy&quot; width=&quot;2218&quot; height=&quot;1268&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;I hope you enjoyed this short post. As you can see, with a few bits of code, you can create a local placeholder service designed specifically for your needs. Suppose you want to go the extra mile. In that case, you can explore the ImageSharp APIs and develop processors to generate custom images and watermarks to help uniquely identify image placeholders.&lt;/p&gt;
-
-&lt;p&gt;Again, thank you for reading, and I hope you share this post with friends and colleagues. Also, remember to follow me on Twitter at &lt;a href=&quot;https://twitter.com/buhakmeh&quot;&gt;@buhakmeh&lt;/a&gt; for more #dotnet news and discussions.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/aspnet-core-placeholder-images-with-imagesharp</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/aspnet-core-placeholder-images-with-imagesharp</guid>
-        
-        <category>aspnet,</category>
-        
-        <category>dotnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stop Entity Framework Core Performance Issues With Interceptors</title>
-        <description>&lt;p&gt;You can only catch so many errors when working with databases by looking at the code you write. It’s only when you start using your code against production data sets do you realize there’s an obvious mistake. Sure, your app may still technically work, but it’s limping along, performing inefficient queries and ultimately providing a less-than-ideal experience to your users.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/entity-framework-core-5-interceptors&quot;&gt;I’ve recently written a blog post about Entity Framework Core Interceptors&lt;/a&gt;, but I thought I’d revisit the topic because I had an idea. &lt;strong&gt;Is there enough information given to an interceptor to warn us of poor querying decisions?&lt;/strong&gt; In fact, there is!&lt;/p&gt;
-
-&lt;p&gt;In this post, you’ll see how to implement a specific type of interceptor to catch greedy queries that can be the source of potential performance issues.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;whats-an-interceptor&quot;&gt;What’s an Interceptor&lt;/h2&gt;
-
-&lt;p&gt;With the latest release of Entity Framework Core, the team has focused on extensibility points for the EF Core user base.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Entity Framework Core (EF Core) interceptors enable interception, modification, and/or suppression of EF Core operations. This includes low-level database operations such as executing a command, as well as higher-level operations, such as calls to SaveChanges.
-– &lt;a href=&quot;https://docs.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors&quot;&gt;Microsoft Docs&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In this post, you’ll use a specific kind of interceptor, &lt;code&gt;IDbCommandInterceptor&lt;/code&gt; and implement the &lt;code&gt;DataReaderClosing&lt;/code&gt; method. &lt;strong&gt;Note that all interfaces have a default implementation, so your IDE tooling won’t prompt you to implement any methods.&lt;/strong&gt; Instead, you’ll need to learn and discover which methods are essential to your use case.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
-
-&lt;p&gt;Typically, folks forget to limit their queries to a reasonably-sized set of results. Instead, they may accidentally pull ALL the data and filter it on the client. Inefficient querying can lead to performance issues down the road; as data sets grow, more clients hit your querying code paths, and resources dwindle.&lt;/p&gt;
-
-&lt;p&gt;You can catch this issue by implementing an &lt;code&gt;IDbCommandInterceptor&lt;/code&gt;, but first, let’s look at an offending code snippet.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using var db = new CustomerContext();
-var customers = db.Customers.ToList();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;While an analyzer may say there’s an issue here, it can never fully understand the scope of the data in the database. For example, you may only ever have five customers or 5000 customers. The only way to detect these issues is to run the query against your database.&lt;/p&gt;
-
-&lt;p&gt;Let’s write the interceptor to look at the &lt;code&gt;ReadCount&lt;/code&gt; of any DataReader created by EF Core. If results exceed your expectations, warn developers using the configured logging mechanisms.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class MaxCountExceededInterceptor : IDbCommandInterceptor
-{
-    private readonly int _maxCount;
-
-    public MaxCountExceededInterceptor(int maxCount = 100)
-    {
-        _maxCount = maxCount;
-    }
-
-    public InterceptionResult DataReaderClosing(
-        DbCommand command, 
-        DataReaderClosingEventData eventData,
-        InterceptionResult result)
-    {
-        if (eventData.ReadCount &amp;gt; _maxCount)
-        {
-            var factory = eventData.Context!.Database.GetService&amp;lt;ILoggerFactory&amp;gt;();
-            var logger = factory.CreateLogger&amp;lt;MaxCountExceededInterceptor&amp;gt;();
-            logger.LogWarning(&quot;Result count exceeded max of {MaxCount} with query {CommandText}&quot;,
-                _maxCount,
-                eventData.Command.CommandText
-            );
-        }
-
-        return result;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The code uses the &lt;code&gt;ILoggerFactory&lt;/code&gt; registered with the &lt;code&gt;DbContext&lt;/code&gt; implementation. &lt;strong&gt;It’s critical that you register a logger factory. The use of &lt;code&gt;.LogTo&lt;/code&gt; will not log any messages.&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Let’s look at how you might register this interceptor.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class CustomerContext : DbContext
-{
-    private static readonly 
-        MaxCountExceededInterceptor 
-        MaxCountExceededInterceptor
-        = new(maxCount: 100);
-    
-    public DbSet&amp;lt;Customer&amp;gt; Customers =&amp;gt; Set&amp;lt;Customer&amp;gt;();
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        =&amp;gt; optionsBuilder
-            .UseLoggerFactory(LoggerFactory.Create(b =&amp;gt; {
-                b.AddConsole();
-            }))
-            .AddInterceptors(MaxCountExceededInterceptor)
-            .UseSqlite(&quot;Data Source = customers.db&quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The above code uses the package &lt;code&gt;Microsoft.Extensions.Logging.Console&lt;/code&gt; to log messages to the console, but any of the many other packages will work with the interceptor implementation.&lt;/p&gt;
-
-&lt;p&gt;Running the query sample calling for a list of customers will show the new warning message in the console output.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;warn: MaxCountExceededInterceptor[0]
-      Result count exceeded max of 100 with query SELECT &quot;c&quot;.&quot;Id&quot;, &quot;c&quot;.&quot;Name&quot;, &quot;c&quot;.&quot;PhoneNumber&quot;
-      FROM &quot;Customers&quot; AS &quot;c&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Awesome!&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Interceptors have an opportunity to catch issues that static analysis might miss. In general, when working with databases, you never truly get a complete picture of your system’s performance profile until you work with production datasets. You’ll also notice the interceptor uses information provided by the interceptor pipeline, keeping object allocations and resource utilization to a minimum. This approach can help save you and your team from problems early on in staging environments and even when authoring queries locally.&lt;/p&gt;
-
-&lt;p&gt;Please share it with friends and coworkers, and if you have a chance, be sure to follow me on Twitter at &lt;a href=&quot;https://twitter.com/buhakmeh&quot;&gt;@buhakmeh&lt;/a&gt; for even more #dotnet content. As always, thank you for reading.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/stop-entity-framework-core-performance-issues-with-interceptors</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/stop-entity-framework-core-performance-issues-with-interceptors</guid>
-        
-        <category>dotnet,</category>
-        
-        <category>entity-framework</category>
         
         
       </item>
