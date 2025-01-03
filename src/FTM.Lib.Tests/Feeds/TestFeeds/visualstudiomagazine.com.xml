@@ -5,6 +5,20 @@
     <description />
     <link>https://visualstudiomagazine.com/RSS-Feeds/News.aspx</link>
     <item>
+      <title>Compare New GitHub Copilot Free Plan for Visual Studio/VS Code to Paid Plans</title>
+      <description>The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx</link>
+      <pubDate>Wed, 18 Dec 2024 20:05:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx</guid>
+    </item>
+    <item>
+      <title>Copilot AI Boosts Abound in New VS Code v1.96</title>
+      <description>Microsoft improved on its new "Copilot Edit" functionality in the latest release of Visual Studio Code, v1.96, its open-source based code editor that has become the most popular in the world according to many surveys.</description>
+      <link>https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx</link>
+      <pubDate>Tue, 17 Dec 2024 14:00:00 GMT</pubDate>
+      <guid>https://visualstudiomagazine.com/Articles/2024/12/17/Copilot-AI-Boosts-Abound-in-New-VS-Code-v1-96.aspx</guid>
+    </item>
+    <item>
       <title>TypeScript Tops New JetBrains 'Language Promise Index'</title>
       <description>In its latest annual developer ecosystem report, JetBrains introduced a new "Language Promise Index" topped by Microsoft's TypeScript programming language.</description>
       <link>https://visualstudiomagazine.com/Articles/2024/12/11/TypeScript-Tops-New-JetBrains-Language-Promise-Index.aspx</link>
@@ -409,20 +423,6 @@
       <link>https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx</link>
       <pubDate>Wed, 31 Jul 2024 20:50:00 GMT</pubDate>
       <guid>https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx</guid>
-    </item>
-    <item>
-      <title>Microsoft Going Small in Semantic Kernel AI Dev Tooling</title>
-      <description>In revealing future plans for its Semantic Kernel AI dev tooling, Microsoft said it's going small -- at lease in terms of AI model size.</description>
-      <link>https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx</link>
-      <pubDate>Wed, 31 Jul 2024 19:39:00 GMT</pubDate>
-      <guid>https://visualstudiomagazine.com/Articles/2024/07/31/semantic-kernel-plans.aspx</guid>
-    </item>
-    <item>
-      <title>Microsoft Previews AI Prompt Playground for VS Code: Prompty</title>
-      <description>Prompt engineering positions might not be pulling down $335,000 salaries anymore, but Microsoft is continuing to pump out AI model prompting guidance, with a recent effort being Prompty, described as an intuitive prompt playground delivered in a Visual Studio Code extension.</description>
-      <link>https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx</link>
-      <pubDate>Tue, 30 Jul 2024 19:17:00 GMT</pubDate>
-      <guid>https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx</guid>
     </item>
   </channel>
 </rss>

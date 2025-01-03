@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ardalis RSS Feed]]></title><description><![CDATA[Steve is an experienced software architect and trainer, focusing currently on ASP.NET Core and Domain-Driven Design.]]></description><link>https://ardalis.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 15 Dec 2024 04:16:17 GMT</lastBuildDate><item><title><![CDATA[Avoid Using C# Events in ASP.NET Core Applications]]></title><description><![CDATA[The Hidden Pitfalls of Using C# Events in ASP.NET Core Applications C# events are a powerful feature of the language, providing a simple…]]></description><link>https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/</link><guid isPermaLink="false">https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/</guid><pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Hidden Pitfalls of Using C# Events in ASP.NET Core Applications&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ardalis RSS Feed]]></title><description><![CDATA[Steve is an experienced software architect and trainer, focusing currently on ASP.NET Core and Domain-Driven Design.]]></description><link>https://ardalis.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 Dec 2024 15:19:16 GMT</lastBuildDate><item><title><![CDATA[Avoid Using C# Events in ASP.NET Core Applications]]></title><description><![CDATA[This post is part of the C# Advent Calendar 2024 - check out all of the C# articles from this year! C# events are a powerful feature of the…]]></description><link>https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/</link><guid isPermaLink="false">https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/</guid><pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This post is part of the &lt;a href=&quot;https://csadvent.christmas/&quot;&gt;C# Advent Calendar 2024 - check out all of the C# articles from this year!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;C# events are a powerful feature of the language, providing a simple mechanism for building publish-subscribe communication patterns. However, when used in ASP.NET Core applications, events can lead to subtle, hard-to-diagnose issues that can harm the reliability and scalability of your application. In this article, I&apos;ll highlight the main issues with using C# events in ASP.NET Core and share better alternatives.&lt;/p&gt;
+&lt;p&gt;The associated code samples can be found in this &lt;a href=&quot;https://github.com/ardalis/AvoidCSharpEventsAspNetCore&quot;&gt;GitHub repository: AvoidCSharpEventsAspNetCore&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;The Appeal of C# Events&lt;/h2&gt;
 &lt;p&gt;At first glance, C# events seem like a natural choice for situations where you want to notify other parts of the application about something that has happened. Here&apos;s a simple example of an event-based system in a hypothetical alarm service:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;csharp&quot;&gt;&lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AlarmService&lt;/span&gt;
@@ -103,6 +104,52 @@ BenchmarkRunner&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt
 &lt;p&gt;&lt;img src=&quot;/img/benchmarkdotnet-comparison.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The allocated memory is the same in both cases, but notice that garbage collection is happening in the second case. This is because the &lt;code class=&quot;language-text&quot;&gt;FixedSubscriber&lt;/code&gt; is properly unsubscribing from the event, allowing the garbage collector to reclaim the memory.&lt;/p&gt;
 &lt;p&gt;But even if you&apos;re always diligent about unsubscribing from events, there are other issues to consider.&lt;/p&gt;
+&lt;h3&gt;Where&apos;s the increase in RAM over time?&lt;/h3&gt;
+&lt;p&gt;To see the increase in memory usage over time, you can put the leaky code into a big loop like this one:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;csharp&quot;&gt;&lt;pre class=&quot;language-csharp&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1_000_000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// Create a new leaking subscriber&lt;/span&gt;
+    &lt;span class=&quot;token class-name&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt;&lt;/span&gt; subscriber &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token constructor-invocation class-name&quot;&gt;LeakySubscriber&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;publisher&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Optionally raise an event to simulate activity&lt;/span&gt;
+    publisher&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;RaiseEvent&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Periodically log memory usage&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10_000&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        Console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;WriteLine&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token interpolation-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;$&quot;Iteration: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token expression language-csharp&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;, Memory: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token expression language-csharp&quot;&gt;GC&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;GetTotalMemory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token format-string&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;N0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; bytes&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Running that yields something like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;plaintext&quot;&gt;&lt;pre class=&quot;language-plaintext&quot;&gt;&lt;code class=&quot;language-plaintext&quot;&gt;Iteration: 0, Memory: 64,168 bytes
+Iteration: 10000, Memory: 1,860,584 bytes
+Iteration: 20000, Memory: 3,646,528 bytes
+Iteration: 30000, Memory: 5,170,200 bytes
+Iteration: 40000, Memory: 7,218,032 bytes
+Iteration: 50000, Memory: 8,741,808 bytes
+Iteration: 60000, Memory: 6,668,840 bytes
+Iteration: 70000, Memory: 9,247,104 bytes
+Iteration: 80000, Memory: 10,768,544 bytes
+Iteration: 90000, Memory: 12,297,072 bytes
+Iteration: 100000, Memory: 13,820,848 bytes
+Iteration: 110000, Memory: 11,798,080 bytes
+Iteration: 120000, Memory: 13,327,744 bytes
+Iteration: 130000, Memory: 14,849,184 bytes
+Iteration: 140000, Memory: 18,469,752 bytes
+Iteration: 150000, Memory: 19,993,272 bytes
+Iteration: 160000, Memory: 21,517,048 bytes
+Iteration: 170000, Memory: 17,547,392 bytes
+Iteration: 180000, Memory: 19,068,832 bytes
+Iteration: 190000, Memory: 20,590,272 bytes
+Iteration: 200000, Memory: 22,118,816 bytes
+Iteration: 210000, Memory: 23,642,336 bytes
+Iteration: 220000, Memory: 21,500,744 bytes
+Iteration: 230000, Memory: 23,024,520 bytes
+Iteration: 240000, Memory: 24,548,296 bytes
+Iteration: 250000, Memory: 26,071,720 bytes
+Iteration: 260000, Memory: 27,595,496 bytes
+Iteration: 270000, Memory: 33,321,824 bytes
+Iteration: 280000, Memory: 29,327,472 bytes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Thread-Safety Issues&lt;/h3&gt;
 &lt;p&gt;C# events are not thread-safe by default. If multiple threads raise or subscribe to an event at the same time, it can lead to race conditions or even &lt;code class=&quot;language-text&quot;&gt;NullReferenceException&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Example of a Potential Race Condition:&lt;/p&gt;
@@ -229,6 +276,7 @@ BenchmarkRunner&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt
 &lt;li&gt;&lt;a href=&quot;https://learn.microsoft.com/dotnet/csharp/programming-guide/events/&quot;&gt;C# Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/dotnet/standard/events/&quot;&gt;Handle and Raise Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/dotnet/comments/lrby7j/events_and_delegates_in_an_aspnet_core/&quot;&gt;Reddit: Events and delegates in ASP.NET Core&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://csadvent.christmas/&quot;&gt;C# Advent Calendar&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@Ardalis&quot;&gt;Follow Me on YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Interfaces Describe What - Implementations Describe How]]></title><description><![CDATA[When working with software development, especially in object-oriented or component-based systems, understanding the distinction between…]]></description><link>https://ardalis.com/interfaces-describe-what-implementations-describe-how/</link><guid isPermaLink="false">https://ardalis.com/interfaces-describe-what-implementations-describe-how/</guid><pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When working with software development, especially in object-oriented or component-based systems, understanding the distinction between interfaces and implementations is crucial. The two terms often come up in conversations about architecture, design patterns, and coding best practices, but what do they really mean? In this post, we&apos;ll break down the difference and why it matters.&lt;/p&gt;
 &lt;h2&gt;YouTube&lt;/h2&gt;

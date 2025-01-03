@@ -4,11 +4,27 @@
 	<title>Howtoforge Linux Howtos und Tutorials</title>
 	<link>https://www.howtoforge.com</link>
 	<description>Howtoforge Tutorials</description>
-	<pubDate>Fri, 13 Dec 2024 11:45:21 +0000</pubDate>
+	<pubDate>Thu, 02 Jan 2025 17:25:41 +0000</pubDate>
 	<webMaster>webmaster@howtoforge.com (Howtoforge Webmaster)</webMaster>
 	<atom:link href="https://www.howtoforge.com/feed.rss" rel="self" type="application/rss+xml" />
 	<generator>howtoforge</generator>
 	<ttl>60</ttl>
+	<item>
+		<title>How to Install Zabbix on Debian 12 Server</title>
+		<link>https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/</link>
+		<category>debian</category>
+		<description><![CDATA[Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.]]></description>
+		<pubDate>Thu, 02 Jan 2025 17:25:41 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/</guid>
+	</item>
+	<item>
+		<title>How to Install Zeek Network Security Monitoring Tool on Ubuntu 24.04</title>
+		<link>https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[Zeek (formerly Bro) is a free and open-source platform for network security monitoring. It is a powerful passive network traffic analyzer that investigates suspicious or malicious activity.]]></description>
+		<pubDate>Thu, 02 Jan 2025 17:15:36 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/</guid>
+	</item>
 	<item>
 		<title>How to Install pgAdmin 4 PostgreSQL Admin Tool on Ubuntu 24.04</title>
 		<link>https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/</link>
@@ -72,22 +88,6 @@
 		<description><![CDATA[In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron.]]></description>
 		<pubDate>Mon, 11 Nov 2024 12:55:32 +0000</pubDate>
 		<guid>https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/</guid>
-	</item>
-	<item>
-		<title>How to Monitor MySQL or MariaDB with Prometheus and Grafana</title>
-		<link>https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/</link>
-		<category>linux</category>
-		<description><![CDATA[To ensure the MySQL/MariaDB server is working properly, you need to implement monitoring on your infrastructure. In this guide, you'll learn how to monitor MySQL/MariaDB servers with Prometheus and Grafana.]]></description>
-		<pubDate>Thu, 07 Nov 2024 19:52:35 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-monitor-mysql-or-mariadb-with-prometheus/</guid>
-	</item>
-	<item>
-		<title>How to Install Mattermost on Rocky Linux 9</title>
-		<link>https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/</link>
-		<category>linux</category>
-		<description><![CDATA[Mattermost is an open-source and self-hosted messaging system for your organization. It is an alternative to services like Slack and Microsoft Teams.]]></description>
-		<pubDate>Thu, 07 Nov 2024 19:48:07 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-mattermost-on-rocky-linux-9/</guid>
 	</item>
 </channel>
 </rss>

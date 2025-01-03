@@ -12,7 +12,7 @@
 	<atom:link href="https://devblogs.microsoft.com/visualstudio/feed/" rel="self" type="application/rss+xml" />
 	<link>https://devblogs.microsoft.com/visualstudio/</link>
 	<description>The official source of product insight from the Visual Studio Engineering Team</description>
-	<lastBuildDate>Thu, 12 Dec 2024 15:05:11 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Dec 2024 18:49:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,261 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Dock the Code Search window in Visual Studio 2022</title>
+		<link>https://devblogs.microsoft.com/visualstudio/dock-the-code-search-window-in-visual-studio-2022/</link>
+		
+		<dc:creator><![CDATA[Leah Tran]]></dc:creator>
+		<pubDate>Tue, 31 Dec 2024 13:00:22 +0000</pubDate>
+				<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[code search]]></category>
+		<category><![CDATA[Search]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251794</guid>
+
+					<description><![CDATA[<p>Ever felt frustrated with the search window cluttering your workspace? The latest feature in Visual Studio 2022 gives you more control over the behavior of the Code and Feature Search window, making your search experience smoother and more efficient. Some users have shared that the search window feels intrusive, interrupting your work by appearing mid-screen [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/dock-the-code-search-window-in-visual-studio-2022/">Dock the Code Search window in Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Ever felt frustrated with the search window cluttering your workspace? The latest feature in Visual Studio 2022 gives you more control over the behavior of the Code and Feature Search window, making your search experience smoother and more efficient.</p>
+<p><img fetchpriority="high" decoding="async" width="1200" height="662" class="wp-image-251797" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/search-docked-below-the-editor-.png" alt="Search docked below the editor." srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/search-docked-below-the-editor-.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/search-docked-below-the-editor--300x166.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/search-docked-below-the-editor--1024x565.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/search-docked-below-the-editor--768x424.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p>Some users have shared that the search window feels intrusive, interrupting your work by appearing mid-screen or on the wrong screen and taking up precious screen real estate. You now have the <a id="post-251794-_Int_AXEdxsZv"></a>option to turn the search window into a tool window and dock it where you’d like.</p>
+<h1>Choose how you want your search window</h1>
+<p>Visual Studio now allows you to dock the search window and perform various tool window actions, like Solution Explorer and other tool windows. The window will continue to pop up by default, but you can now dock, pop out, or auto-hide the search window as a tool window.</p>
+<p>After launching Code Search (Ctrl+T or Ctrl+,) or Feature Search (Ctrl+Q), click the box icon with an arrow at the top right of the window. This icon transforms the search window into a versatile tool window, which you can then dock anywhere in your interface and organize your workspace as you like.</p>
+<p><img decoding="async" width="1200" height="399" class="wp-image-251798" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-docking-window-button-next-to-hide-or.png" alt="Switch to a docking window button next to Hide or Show preview button" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-docking-window-button-next-to-hide-or.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-docking-window-button-next-to-hide-or-300x100.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-docking-window-button-next-to-hide-or-1024x340.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-docking-window-button-next-to-hide-or-768x255.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p>If you try it out and decide this feature isn’t for you, you can go back to the popup version of the window by clicking on the box icon with a rectangle.</p>
+<p><img decoding="async" width="735" height="312" class="wp-image-251799" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-popup-window-button-next-to-hide-or-sh.png" alt="Switch to a popup window button next to Hide or Show preview button" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-popup-window-button-next-to-hide-or-sh.png 735w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/switch-to-a-popup-window-button-next-to-hide-or-sh-300x127.png 300w" sizes="(max-width: 735px) 100vw, 735px" /></p>
+<h1>Streamlined previewing experience</h1>
+<p>We’ve also simplified the previewing experience within the search window. The interface has been simplified and cleaned up, providing a more user-friendly experience. A single button, marked with an eye icon, allows you to toggle the preview panel on and off.</p>
+<p><img decoding="async" width="1200" height="399" class="wp-image-251800" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/hide-or-show-preview-button.png" alt="Hide or Show preview button" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/hide-or-show-preview-button.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/hide-or-show-preview-button-300x100.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/hide-or-show-preview-button-1024x340.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/hide-or-show-preview-button-768x255.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p>Moreover, the preview panel&#8217;s position will now automatically adjust based on the dimensions of the search window, ensuring a seamless and adaptable viewing experience.</p>
+<p><img decoding="async" width="1200" height="661" class="wp-image-251801" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/preview-panel-is-below-results-list-with-search-wi.png" alt="Preview panel is below results list with search window docked right" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/preview-panel-is-below-results-list-with-search-wi.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/preview-panel-is-below-results-list-with-search-wi-300x165.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/preview-panel-is-below-results-list-with-search-wi-1024x564.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/preview-panel-is-below-results-list-with-search-wi-768x423.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<h1>We appreciate your feedback</h1>
+<p>We are deeply grateful for the continuous feedback from our dedicated users, which plays a crucial role in making Visual Studio better with each update. Your input helps us refine and enhance the features that matter most to you.</p>
+<p>Thank you for being an integral part of the Visual Studio community. We can&#8217;t wait for you to experience the improved search window control in Visual Studio 2022!</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/dock-the-code-search-window-in-visual-studio-2022/">Dock the Code Search window in Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Go to line anywhere with Code Search for Visual Studio 2022</title>
+		<link>https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022/</link>
+		
+		<dc:creator><![CDATA[Leah Tran]]></dc:creator>
+		<pubDate>Mon, 30 Dec 2024 13:00:42 +0000</pubDate>
+				<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[code search]]></category>
+		<category><![CDATA[Navigate through code]]></category>
+		<category><![CDATA[Search]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251839</guid>
+
+					<description><![CDATA[<p>Finding the exact line of code where an issue is occurring can be like searching for a needle in a haystack. Whether you are debugging an error on line 43 of a file or diving into a specific section of code, you can efficiently jump to the right places with this newest addition to Code [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022/">Go to line anywhere with Code Search for Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Finding the exact line of code where an issue is occurring can be like searching for a needle in a haystack. Whether you are debugging an error on line 43 of a file or diving into a specific section of code, you can efficiently jump to the right places with this newest addition to Code Search.</p>
+<p>In Code Search, you can now jump to a specific line in the current file or another file, making it faster and easier to move around your codebase.</p>
+<h1>Navigate to a line in the current document</h1>
+<p>No need to scroll endlessly to find a specific line. With the updated Code Search, you can swiftly jump to any line in the current document by simply typing colon + line number. For example, <a id="post-251839-_Int_UOF1URck"></a>typing <strong>:39</strong> instantly takes you to line 39 in the active file.</p>
+<p><img decoding="async" class="alignnone wp-image-251840" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-1.png" alt="Navigate to a line in the current document :39 items shown" width="800" height="534" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-1.png 800w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-1-300x200.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-1-768x513.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<h1>Navigate to a line in a different document</h1>
+<p>But that&#8217;s not all! You can also navigate to a specific line in a certain document by appending the file name with a colon and the line number. For instance, entering <strong>Order:43</strong> will direct you to line 43 in the <em>Order.cs</em> file. If you don&#8217;t specify the exact file name, the search will try to find the best match for you.</p>
+<p><img decoding="async" class="alignnone wp-image-251841" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-2.png" alt="Navigate to a line in a different document Order:43 items" width="800" height="534" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-2.png 800w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-2-300x200.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251839-2-768x513.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<h1>We appreciate your feedback</h1>
+<p>Your feedback is invaluable to us. It helps us make Visual Studio better with each update. We are excited to see how this new feature will enhance your coding workflow.</p>
+<p>From feedback we received during Previews, we’ve already got work lined up to support another format for line navigation. See more at <a href="https://developercommunity.visualstudio.com/t/Support-Filenameline:column-format-in-/10720994">Support Filename(line,column) format in Code Search &#8211; Developer Community (visualstudio.com)</a>.</p>
+<p>We look forward to hearing about your experiences and suggestions.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/go-to-line-anywhere-with-code-search-for-visual-studio-2022/">Go to line anywhere with Code Search for Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Connect securely to your Azure resources</title>
+		<link>https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/</link>
+		
+		<dc:creator><![CDATA[Brady Gaster]]></dc:creator>
+		<pubDate>Tue, 24 Dec 2024 13:00:11 +0000</pubDate>
+				<category><![CDATA[Administration]]></category>
+		<category><![CDATA[Reliability]]></category>
+		<category><![CDATA[Team and Development]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[Authentication]]></category>
+		<category><![CDATA[Azure App Services]]></category>
+		<category><![CDATA[Azure Storage]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251830</guid>
+
+					<description><![CDATA[<p>Visual Studio 2022&#8217;s Connected Services features are being updated to help you start secure. In the past, for example with Azure Storage, we’d inject the entire connection string into your configuration. With this update, we’ve removed the secrets from the UX – and from what we save to configuration – altogether. This means your code [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/">Connect securely to your Azure resources</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Visual Studio 2022&#8217;s Connected Services features are being updated to help you start secure. In the past, for example with Azure Storage, we’d inject the entire connection string into your configuration. With this update, we’ve removed the secrets from the UX – and from what we save to configuration – altogether. This means your code has fewer secrets in it, so you won’t push those into your source control repository inadvertently.</p>
+<p><img decoding="async" class="alignnone wp-image-251831" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251830-1.png" alt="Connecting to Azure storage old view" width="804" height="564" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251830-1.png 804w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251830-1-300x210.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251830-1-768x539.png 768w" sizes="(max-width: 804px) 100vw, 804px" /></p>
+<h1>Integrated authentication, by default</h1>
+<p>Prior to this update, Connected Services would inject secret-inclusive connection strings for resources like Azure Storage into your secrets. If you were using <em>secrets.json</em> for local storage, this would result in your secrets being stored in files on disk.</p>
+<p><img decoding="async" class="alignnone wp-image-251832" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au.png" alt="screenshot of code with secret blurred out in it" width="1564" height="429" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au.png 1564w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au-300x82.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au-1024x281.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au-768x211.png 768w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-program-description-au-1536x421.png 1536w" sizes="(max-width: 1564px) 100vw, 1564px" /></p>
+<p>After this update, your <em>secrets.json</em> will contain no actual secrets, but rather the Azure Storage endpoints for your service instance. Using the latest Azure SDKs, your code connects to your Azure resources using your Visual Studio or Azure CLI login. Locally, your logged-in credential does the magic; in Azure, the app service&#8217;s managed identity takes over!</p>
+<p><img decoding="async" class="alignnone wp-image-251833" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screen-shot-of-a-computer-description-automatic.png" alt="screenshot of the same code after update with no secret in code" width="1425" height="264" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screen-shot-of-a-computer-description-automatic.png 1425w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screen-shot-of-a-computer-description-automatic-300x56.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screen-shot-of-a-computer-description-automatic-1024x190.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screen-shot-of-a-computer-description-automatic-768x142.png 768w" sizes="(max-width: 1425px) 100vw, 1425px" /></p>
+<h1>Benefits with this update</h1>
+<p><strong>Enhanced security:</strong> Fewer secrets on disk means your development process is automatically more secure, since you mitigate the potential for these secrets to be inadvertently committed to source control.</p>
+<p><strong>Simplified development and deployment:</strong> Focus on what you do best &#8211; coding &#8211; while Connected Services handles the tedious parts, more securely than ever.</p>
+<p><strong>Automated configuration:</strong> During publishing, your app is seamlessly configured with the necessary identity and roles needed to access resources, making the process smoother than ever.</p>
+<h1>Thank You for Your Feedback</h1>
+<p>Your invaluable feedback drives our continuous improvement. We&#8217;re thrilled to bring you these enhancements and can&#8217;t wait to hear about your experiences with the new Connected Services feature. Happy coding!</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/">Connect securely to your Azure resources</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Security updates to Azure publishing from Visual Studio</title>
+		<link>https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/</link>
+		
+		<dc:creator><![CDATA[Brady Gaster]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2024 13:00:24 +0000</pubDate>
+				<category><![CDATA[Administration]]></category>
+		<category><![CDATA[Reliability]]></category>
+		<category><![CDATA[Team and Development]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[Authentication]]></category>
+		<category><![CDATA[Azure App Services]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251823</guid>
+
+					<description><![CDATA[<p>Visual Studio 2022 introduces a new feature to improve the security of publishing applications to Azure App Service. This feature is designed to disable Basic Authentication and enable integrated security for a more secure publishing process. Basic Authentication has been identified as a less secure method for managing app deployments. Visual Studio 2022 addresses this [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/">Security updates to Azure publishing from Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Visual Studio 2022 introduces a new feature to improve the security of publishing applications to Azure App Service. This feature is designed to disable Basic Authentication and enable integrated security for a more secure publishing process.</p>
+<p><img decoding="async" class="alignnone wp-image-251824" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251823-1.png" alt="Disabling basic Auth" width="1200" height="480" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251823-1.png 1200w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251823-1-300x120.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251823-1-1024x410.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251823-1-768x307.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p>Basic Authentication has been identified as a less secure method for managing app deployments. Visual Studio 2022 addresses this issue by offering you an option to disable Basic Authentication, which enhances security by using integrated authentication.</p>
+<h2>The problem with Basic Authentication</h2>
+<p>Basic Authentication involves sending user credentials in a format that is not highly secure, making it vulnerable to interception. This poses a risk to the integrity of applications.</p>
+<h2>Secure publishing with integrated authentication</h2>
+<p>The new feature in Visual Studio 2022 disables Basic Authentication and enables integrated security for publishing to Azure App Service. This ensures that publishing credentials is handled securely, reducing the risks associated with Basic Authentication.</p>
+<p>When publishing to an Azure App Service that has Basic Authentication enabled (which is <strong>not</strong> recommended), users will see the <strong>Turn on Basic Authentication</strong> option, and it will be unchecked by default. Customers who need to retain Basic Authentication can check the box, but given the recommendation is to disable Basic Authentication it’s unchecked by default, so you <strong>start</strong> secure if this is the first time you’re publishing or, you <strong>get</strong> secure once you go through the publishing process after you update Visual Studio.</p>
+<p><img decoding="async" class="alignnone wp-image-251825" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica.png" alt="publishing a new app service (basic auth available)" width="804" height="564" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica.png 804w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-300x210.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-768x539.png 768w" sizes="(max-width: 804px) 100vw, 804px" /></p>
+<p>If you’ve created the Web App recently via the portal or this or any future version of Visual Studio, Basic Authentication will be disabled by default. For any Web App that’s already got Basic Authentication disabled, we circumvent inadvertently making the Web App less secure by disabling the checkbox altogether, so you <strong>stay</strong> secure.</p>
+<p><img decoding="async" class="alignnone wp-image-251826" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-1.png" alt="publishing a new app service (basic auth not available)" width="804" height="564" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-1.png 804w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-1-300x210.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/a-screenshot-of-a-computer-description-automatica-1-768x539.png 768w" sizes="(max-width: 804px) 100vw, 804px" /></p>
+<p>This feature improves the overall security of the publishing process, ensuring that sensitive credentials are not exposed. It also simplifies the process by defaulting to a more secure option, reducing the need for manual security configurations. If, at any point, you need to re-enable Basic Authentication, this is always possible in the Azure Portal.</p>
+<h2>Conclusion</h2>
+<p>We deeply appreciate your invaluable feedback, which plays a crucial role in enhancing Visual Studio. Thank you for being a vital part of our community.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/">Security updates to Azure publishing from Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>GitHub Copilot Free is here in Visual Studio</title>
+		<link>https://devblogs.microsoft.com/visualstudio/github-copilot-free-is-here-in-visual-studio/</link>
+		
+		<dc:creator><![CDATA[Rhea Patel]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 18:14:49 +0000</pubDate>
+				<category><![CDATA[Copilot]]></category>
+		<category><![CDATA[GitHub Copilot]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[GitHub Copilot Chat]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251812</guid>
+
+					<description><![CDATA[<p>If you haven’t already heard, GitHub just announced Copilot Free! And great news: you can already start using Copilot Free right now in Visual Studio. It&#8217;s available now, and we&#8217;re putting the finishing touches on a more streamlined experience in January. We’re excited to bring these benefits to the entire Visual Studio family. With Copilot [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/github-copilot-free-is-here-in-visual-studio/">GitHub Copilot Free is here in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>If you haven’t already heard, GitHub just announced <a href="https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/">Copilot Free</a>! And great news: you can already start using <strong>Copilot Free</strong> right now in Visual Studio. It&#8217;s available now, and we&#8217;re putting the finishing touches on a more streamlined experience in January.</p>
+<p>We’re excited to bring these benefits to the entire Visual Studio family. With Copilot Free, you’ll have AI-powered tools right at your fingertips—smarter debugging, AI generated commit messages, AI-breakpoint placement, and of course, direct access to Completions, Chat, and much more. Developers have seen a <a href="https://github.com/customer-stories/duolingo">25%</a> speed increase with Copilot—and now you can experience that boost firsthand in Visual Studio.</p>
+<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="c9223446-6964-4654-8b5d-0ce139b8ed02" data-message-model-slug="gpt-4o">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<h3><strong>Ready to give it a try?</strong></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: center;"><div class="d-flex justify-content-left"><a class="cta_button_link btn-primary mb-24" href="https://github.com/settings/copilot" target="_blank"> Sign up for GitHub Copilot Free</a></div></p>
+<h3 style="text-align: left;"><strong>A couple of recommendations</strong></h3>
+<ol>
+<li><strong>Try it now:</strong> Don’t wait to experience the benefits. Give <strong>GitHub Copilot Free</strong> a spin in Visual Studio today. Just note that for now, you won’t be notified when you hit your usage limit, but we’ve got you covered with updates coming in January.</li>
+<li><strong>Stay Updated:</strong> Keep your Visual Studio installation current and subscribe to the <a href="https://visualstudio.microsoft.com/vs/preview/">preview channels</a>. By staying on the cutting edge, you’ll be among the first to enjoy the latest updates, ensuring you get the most out of Copilot Free as we roll out new features.</li>
+</ol>
+<h3><strong>Looking ahead to January</strong></h3>
+<p>Copilot Free will be even easier to use in Visual Studio. You’ll see clear indicators when you hit your usage limits—no more guesswork. And if you find yourself needing more, upgrading to a no-limits plan will be smooth and seamless, so you can keep your ideas flowing.</p>
+<p>Keep an eye on the latest previews for these updates, and don’t forget to share your feedback through <a href="https://developercommunity.visualstudio.com/home">Developer Community</a>!</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/github-copilot-free-is-here-in-visual-studio/">GitHub Copilot Free is here in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Refresh your Find results</title>
+		<link>https://devblogs.microsoft.com/visualstudio/refresh-your-find-results/</link>
+		
+		<dc:creator><![CDATA[Leah Tran]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 13:00:35 +0000</pubDate>
+				<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[Find]]></category>
+		<category><![CDATA[Search]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251787</guid>
+
+					<description><![CDATA[<p>Are you tired of having to repeatedly launch the Find window in Visual Studio to update your search results? Whether you&#8217;ve just refactored some code or pulled recent changes, having to redo a search to get updated results is no longer necessary. With the new refresh option, you can now update your Find results without [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/refresh-your-find-results/">Refresh your Find results</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Are you tired of having to repeatedly launch the Find window in Visual Studio to update your search results? Whether you&#8217;ve just refactored some code or pulled recent changes, having to redo a search to get updated results is no longer necessary. With the new refresh <a id="post-251787-_Int_fqCvJZHY"></a>option, you can now update your Find results without the hassle of starting over.</p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/refresh-search-results-icon-highlighted-e1734111940468.png"><img decoding="async" class="alignnone size-full wp-image-251788" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/refresh-search-results-icon-highlighted-e1734111940468.png" alt="Refresh search results icon highlighted" width="500" height="170" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/refresh-search-results-icon-highlighted-e1734111940468.png 500w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/refresh-search-results-icon-highlighted-e1734111940468-300x102.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>The <em>Refresh search results </em>button in Visual Studio 2022 will save you time and effort when searching through your code.</p>
+<h2><em>Refresh </em>your <a id="post-251787-_Int_R3gIEucq"></a>previous Find</h2>
+<p>No more friction when updating your earlier Find results! After completing a Find, you can click the clockwise arrow icon to refresh the results instantly. This ensures all changes you’ve made since the last Find are reflected without having to reopen the Find window.</p>
+<p><img decoding="async" width="1099" height="334" class="wp-image-251789" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-refresh-search-results-icon-to-the.png" alt="In the toolbar, Refresh search results icon to the right of Group by and Stops a background find" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-refresh-search-results-icon-to-the.png 1099w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-refresh-search-results-icon-to-the-300x91.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-refresh-search-results-icon-to-the-1024x311.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-refresh-search-results-icon-to-the-768x233.png 768w" sizes="(max-width: 1099px) 100vw, 1099px" /></p>
+<h2><em>Modify Find</em> to refine search parameters</h2>
+<p>To avoid confusion, we&#8217;ve also relabeled the former Repeat Find to <em>Modify Find</em>, now represented with a pencil icon.</p>
+<p>Clicking <em>Modify Find</em> reopens Find in Files with your prior search criteria for that set of results, making it easier to refine your searches and get the results you need.</p>
+<h2><img decoding="async" width="1099" height="334" class="wp-image-251790" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-modify-find-at-the-far-right.png" alt="In the toolbar, Modify Find at the far right" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-modify-find-at-the-far-right.png 1099w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-modify-find-at-the-far-right-300x91.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-modify-find-at-the-far-right-1024x311.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/in-the-toolbar-modify-find-at-the-far-right-768x233.png 768w" sizes="(max-width: 1099px) 100vw, 1099px" /></h2>
+<h2>Conclusion</h2>
+<p>We are thrilled to bring you these improvements in Visual Studio 2022, aimed at making your development process more efficient and less cumbersome. Your continuous feedback helps us make Visual Studio even better, and we appreciate your ongoing support.</p>
+<p>Thank you for being a valued user of Visual Studio. We look forward to hearing more about your experiences with the Refresh functionality in Find Results and are always open to your suggestions for further enhancements.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/refresh-your-find-results/">Refresh your Find results</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Create internal GitHub repos for your team</title>
+		<link>https://devblogs.microsoft.com/visualstudio/create-internal-github-repos-for-your-team/</link>
+		
+		<dc:creator><![CDATA[Jessie Houghton]]></dc:creator>
+		<pubDate>Mon, 16 Dec 2024 13:00:09 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251783</guid>
+
+					<description><![CDATA[<p>Visual Studio 2022 now includes support for creating internal repositories for GitHub organizations. This feature allows developers to work within their GitHub organization&#8217;s guidelines within the Visual Studio environment more effectively. Managing repositories involves configuring varying levels of visibility and permissions. Visual Studio 2022’s new feature aims to smooth this process by providing support for [&#8230;]</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/create-internal-github-repos-for-your-team/">Create internal GitHub repos for your team</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Visual Studio 2022 now includes support for creating internal repositories for GitHub organizations. This feature allows developers to work within their GitHub organization&#8217;s guidelines within the Visual Studio environment more effectively.</p>
+<p><img decoding="async" class="alignnone wp-image-251784" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251783-1.png" alt="Creating a new git rep with local path" width="854" height="616" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251783-1.png 854w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251783-1-300x216.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251783-1-768x554.png 768w" sizes="(max-width: 854px) 100vw, 854px" /></p>
+<p>Managing repositories involves configuring varying levels of visibility and permissions. Visual Studio 2022’s new feature aims to smooth this process by providing support for internal repositories, ensuring that developers can be aligned with their organization&#8217;s polices when they create new repositories.</p>
+<h1>How it works</h1>
+<p>In the <strong>Create a Git repository </strong>dialog, the visibility of your new repository now includes the new internal option if you’ve selected an account where internal repositories are available. Additionally, Visual Studio now offers detailed guidance for each type of repository. This guidance clarifies the visibility settings of new projects based on the account being used, helping developers ensure the correct setup of their repositories from the outset. If you try to create a repository with the wrong visibility, the action will fail, so that you don’t share your sourcecode with anyone you didn’t mean to.</p>
+<p>This functionality reduces the need for leaving Visual Studio to create internal repositories from GitHub – an unfamiliar flow, allowing developers to focus more on coding and less on managing repository settings.</p>
+<h1>Continuous improvement with your feedback</h1>
+<p>The feedback from Visual Studio users has been instrumental in developing these features. This continuous input helps enhance the functionality of Visual Studio, making it a more efficient tool for developers. Leave your thoughts on this feature <a href="https://developercommunity.visualstudio.com/t/Clarify-the-new-Git-repository-dialog-to/10580823">here</a>.</p>
+<p>Thank you for your ongoing feedback, which continues to improve Visual Studio with every update.</p>
+<p>The post <a href="https://devblogs.microsoft.com/visualstudio/create-internal-github-repos-for-your-team/">Create internal GitHub repos for your team</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Boost your Git confidence with the new file rename notification</title>
 		<link>https://devblogs.microsoft.com/visualstudio/boost-your-git-confidence-with-the-new-file-rename-notification/</link>
 		
@@ -43,7 +298,7 @@
 <p>The post <a href="https://devblogs.microsoft.com/visualstudio/boost-your-git-confidence-with-the-new-file-rename-notification/">Boost your Git confidence with the new file rename notification</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[<p>Have you ever renamed a file in Solution Explorer and wondered if Git is tracking your changes correctly? You&#8217;re not alone. Many developers have found this process confusing and worry whether their changes are being properly staged in Git. But worry no more &#8211; there&#8217;s a solution!</p>
-<p><img fetchpriority="high" decoding="async" class="alignnone wp-image-251756" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png" alt="Messaging showing that files have been renamed and that Git is picking up on these chnages" width="900" height="505" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png 900w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-300x168.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-768x431.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p><img decoding="async" class="alignnone wp-image-251756" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png" alt="Messaging showing that files have been renamed and that Git is picking up on these chnages" width="900" height="505" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1.png 900w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-300x168.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251755-1-768x431.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></p>
 <p>When you rename files in Solution Explorer, Visual Studio 2022 will now remind you to stage your changes to see the renamed files in Git. This small but mighty notification ensures that Git is recognizing your file change.</p>
 <h2>Why This Matters</h2>
 <p>There is often confusion on how Git works when you rename files, especially since there’s a specific <a href="https://git-scm.com/docs/git-mv">git mv</a> command that is used when you want to move or rename a file or directory. But don’t be deceived, Git never stores any information to track renames. Even when you run a git mv operation, it’s just a short cut for doing a git rm, and then git add on the file. That’s because Git only looks at code change additions (git add) and removals (git rm) over time. In some views Git runs rename detection as it’s navigating history and may display a set of an addition and removal as a rename, but under the hood it uses a heuristic based on the similarity of the two files to call it a rename instead – and sometimes it gets it wrong!</p>
@@ -118,298 +373,6 @@
 <h2>Final Thoughts</h2>
 <p>We are incredibly excited about this new addition to Visual Studio 2022 and believe it will significantly enhance your development experience. Your continuous feedback is invaluable to us and plays a crucial role in making Visual Studio the best it can be. Thank you for your support, and we look forward to hearing how this feature improves your workflow.</p>
 <p>The post <a href="https://devblogs.microsoft.com/visualstudio/effortless-publishing-to-azure-webjobs-on-linux/">Effortless publishing to Azure WebJobs on Linux</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Keep working with non-blocking Code Cleanup</title>
-		<link>https://devblogs.microsoft.com/visualstudio/keep-working-with-non-blocking-code-cleanup/</link>
-		
-		<dc:creator><![CDATA[Leah Tran]]></dc:creator>
-		<pubDate>Mon, 09 Dec 2024 16:11:34 +0000</pubDate>
-				<category><![CDATA[performance]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251728</guid>
-
-					<description><![CDATA[<p>Are you tired of waiting for Code Cleanup to finish every time you save your work? Visual Studio 2022 will no longer lock up and get in the way of your tasks as it’s cleaning up the code under the covers. Every developer knows the importance of maintaining clean code. However, the traditional Code Cleanup [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/keep-working-with-non-blocking-code-cleanup/">Keep working with non-blocking Code Cleanup</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Are you tired of waiting for Code Cleanup to finish every time you save your work? Visual Studio 2022 will no longer lock up and get in the way of your tasks as it’s cleaning up the code under the covers.</p>
-<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif"><img decoding="async" class="alignnone wp-image-251733" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/async-code-cleanup-on-save.gif" alt="Image async code cleanup on save" width="773" height="515" /></a></p>
-<p>Every developer knows the importance of <a id="post-251728-_Int_7kjpjNfF"></a>maintaining clean code. However, the traditional Code Cleanup process in Visual Studio could take a while to run and lock up the entire IDE, which made it inappropriate to run on save for all scenarios. These interruptions could break your flow and slow down your development progress.</p>
-<p>Now, when you save your work, Code Cleanup can run seamlessly in the background without interrupting your workflow.</p>
-<h1>Background cleanup for uninterrupted coding</h1>
-<p>With this enhancement enabled, the cleanup process runs quietly in the background without locking up the IDE. This means no more waiting for the cleanup to be completed before resuming your work, whether that’s opening tools or navigating around to different files in your codebase. Your IDE stays fully responsive, ensuring a smoother and more efficient user experience.</p>
-<h1>Automatic cancellation for real-time adjustments</h1>
-<p>Need to make a quick edit, but Code Cleanup started up after you saved? When the editor detects typing, the cleanup process stops. Simply save again to restart cleanup on the updated code. This ensures that you can stay in your workflow and make changes to your code without any worries.</p>
-<h1>Setting up Code Cleanup on save</h1>
-<p>To enable Code Cleanup on save, navigate to <em>Tools &gt; Options &gt; Text Editor &gt; Code Cleanup</em>. Turn on <a id="post-251728-_Int_HxPZIIOJ"></a>the option <em>Run Code Cleanup profile on Save</em> and choose your desired profile.</p>
-<p><img decoding="async" width="762" height="467" class="wp-image-251730" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/second-item-in-options-window-shows-checkbox-for-r.png" alt="Second item in Options window shows checkbox for Run Code Cleanup profile on Save" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/second-item-in-options-window-shows-checkbox-for-r.png 762w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/second-item-in-options-window-shows-checkbox-for-r-300x184.png 300w" sizes="(max-width: 762px) 100vw, 762px" /></p>
-<h1>Thank you for your feedback</h1>
-<p>We continuously strive to enhance your development experience based on your invaluable feedback. These updates to the Code Cleanup feature are a testament to our commitment to making Visual Studio the best it can be. Your insights drive our innovations, and we appreciate your continuous support.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/keep-working-with-non-blocking-code-cleanup/">Keep working with non-blocking Code Cleanup</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Introducing Code Referencing for GitHub Copilot Chat in Visual Studio</title>
-		<link>https://devblogs.microsoft.com/visualstudio/introducing-code-referencing-for-github-copilot-chat-in-visual-studio/</link>
-		
-		<dc:creator><![CDATA[Rhea Patel]]></dc:creator>
-		<pubDate>Thu, 05 Dec 2024 16:00:15 +0000</pubDate>
-				<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251641</guid>
-
-					<description><![CDATA[<p>Are you tired of the uncertainty that comes with using code suggestions from AI tools? We&#8217;ve got exciting news for you! Visual Studio 2022 now includes code referencing in GitHub Copilot, ensuring greater transparency and control for developers. We are thrilled to announce that code referencing is now available in GitHub Copilot Chat within Visual [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/introducing-code-referencing-for-github-copilot-chat-in-visual-studio/">Introducing Code Referencing for GitHub Copilot Chat in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Are you tired of the uncertainty that comes with using code suggestions from AI tools? We&#8217;ve got exciting news for you! Visual Studio 2022 now includes code referencing in GitHub Copilot, ensuring greater transparency and control for developers.</p>
-<p>We are thrilled to announce that <strong>code referencing is now available in GitHub Copilot Chat within Visual Studio</strong>. This new feature introduces a filter that detects when code suggestions match public code on GitHub, providing you with valuable context to make more informed decisions about the code you incorporate into your projects.</p>
-<h2>Make Informed Decisions with Code Suggestions</h2>
-<p>In the rare instances where GitHub Copilot suggests code that matches public repositories on GitHub, this feature displays a list of those repositories along with their licenses directly in the editor. This transparency empowers you to:</p>
-<ul>
-<li><strong>Learn from existing implementations</strong>: Gain insights from how others have tackled similar problems.</li>
-<li><strong>Consider dependencies</strong>: Decide whether to use an existing library instead of writing new code.</li>
-<li><strong>Acknowledge similar work</strong>: Give or receive credit for comparable code within the community.</li>
-</ul>
-<h2>How It Works</h2>
-<p>When GitHub Copilot suggests code that matches public code, it now lets you know of this match. You can view the matching code, its source file, and any associated licensing information directly within Visual Studio. This allows you to make more informed decisions about whether to use the suggested code.</p>
-<p>If a match is found, a notification appears in the editor showing:</p>
-<ol>
-<li><strong>The matching code snippet</strong></li>
-<li><strong>Repositories where the code appears</strong></li>
-<li><strong>The licenses governing each repository</strong></li>
-</ol>
-<p>You have the option to block suggestions containing matching code or allow them with full awareness of their context.</p>
-<p>In Copilot Chat it will show like this</p>
-<p><img decoding="async" class="alignnone wp-image-251642" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-1.png" alt="Highlighting that copilot found similar code in git repos with the option to view" width="376" height="167" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-1.png 376w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-1-300x133.png 300w" sizes="(max-width: 376px) 100vw, 376px" /></p>
-<p>Instead of this:</p>
-<p><img decoding="async" class="alignnone wp-image-251643" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-2.png" alt="Original error showing that the response matched public code so it was blcoked" width="571" height="265" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-2.png 571w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251641-2-300x139.png 300w" sizes="(max-width: 571px) 100vw, 571px" /></p>
-<h2>Try It Out Today</h2>
-<p>We believe this new code referencing feature enhances your development experience by adding an extra layer of transparency and choice. Try it out in Visual Studio 17.12 Preview 3 and above, and let us know your feedback. Your insights help us improve and tailor our tools to better meet your needs.</p>
-<h2>Configuration Note</h2>
-<p>Please note that this feature may need to be configured by your administrator. To ensure its enabled for you, check your settings:</p>
-<ul>
-<li><strong>Copilot &#8211; Suggestions matching public code (duplication detection filter): Allowed</strong></li>
-</ul>
-<p>GitHub Copilot can provide you with details about matching code when you accept such suggestions. <a href="https://docs.github.com/en/copilot">Learn more</a>.</p>
-<h3>Enabling or Disabling Suggestions Matching Public Code</h3>
-<p><strong>Note:</strong> If you are a member of an organization on GitHub Enterprise Cloud and have been assigned a GitHub Copilot seat through your organization, you may not be able to configure suggestions matching public code in your personal account settings. Your settings will be inherited from your organization or enterprise.</p>
-<p>Your personal settings for GitHub Copilot include an option to either allow or block code suggestions that match publicly available code:</p>
-<ul>
-<li><strong>Block suggestions matching public code</strong>: GitHub Copilot checks code suggestions with their surrounding code against public code on GitHub. If there&#8217;s a match or near match, the suggestion is not shown.</li>
-<li><strong>Allow suggestions matching public code</strong>: When Copilot suggests matching code, you can view details of the matches and navigate to the relevant repositories on GitHub.</li>
-</ul>
-<p><strong>To adjust your settings:</strong></p>
-<ol>
-<li>In the upper-right corner of any page on GitHub, click your profile photo, then click <strong>Your Copilot</strong>.</li>
-<li>Next to <strong>Suggestions matching public code</strong>, use the dropdown menu to select <strong>Allow</strong> or <strong>Block</strong>.</li>
-</ol>
-<p>For more information, see <a href="https://docs.github.com/en/copilot">Managing Copilot policies as an individual subscriber</a>.</p>
-<p>Developers often face the challenge of not knowing the origins of code suggestions offered by AI tools. This can lead to concerns about licensing and the appropriateness of using certain code snippets. With the new code referencing feature in GitHub Copilot, those worries are outdated.</p>
-<h2>Fostering knowledge sharing</h2>
-<p>By integrating code referencing into GitHub Copilot, we are fostering a culture of knowledge sharing and transparency. This feature not only empowers individual developers but also supports larger teams in navigating the complexities of public code with ease.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/introducing-code-referencing-for-github-copilot-chat-in-visual-studio/">Introducing Code Referencing for GitHub Copilot Chat in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>How Inline Return Values Simplify Debugging in Visual Studio 2022</title>
-		<link>https://devblogs.microsoft.com/visualstudio/how-inline-return-values-simplify-debugging-in-visual-studio-2022/</link>
-		
-		<dc:creator><![CDATA[Harshada Hole]]></dc:creator>
-		<pubDate>Wed, 04 Dec 2024 16:00:35 +0000</pubDate>
-				<category><![CDATA[Debug]]></category>
-		<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<category><![CDATA[Debugging and Diagnostics]]></category>
-		<category><![CDATA[Developer Productivity]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251636</guid>
-
-					<description><![CDATA[<p>Have you ever found yourself creating temporary variables just to inspect return values from functions? It’s a small task that can quickly become tedious, breaking your rhythm and cluttering up your code. Visual Studio 2022 introduces a smarter way to handle this with &#8220;Inline Return Values,&#8221; allowing you to stay focused on coding without the [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/how-inline-return-values-simplify-debugging-in-visual-studio-2022/">How Inline Return Values Simplify Debugging in Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Have you ever found yourself creating temporary variables just to inspect return values from functions? It’s a small task that can quickly become tedious, breaking your rhythm and cluttering up your code. Visual Studio 2022 introduces a smarter way to handle this with &#8220;Inline Return Values,&#8221; allowing you to stay focused on coding without the extra steps.</p>
-<p><a href="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526.png"><img decoding="async" class="alignnone size-full wp-image-251677" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526.png" alt="Image Screenshot 2024 12 03 130526" width="1110" height="201" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526.png 1110w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526-300x54.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526-1024x185.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/Screenshot-2024-12-03-130526-768x139.png 768w" sizes="(max-width: 1110px) 100vw, 1110px" /></a></p>
-<figure style="text-align: center;"></figure>
-<p>This new feature allows you to view return values directly in your code, right where you need them. With Copilot integration, you can go a step further by analyzing the return values in real time. It simplifies understanding and verifying your code’s behavior, cutting out unnecessary steps. Whether you&#8217;re working with native or managed code, this feature is designed to enhance your workflow, providing a seamless, intuitive debugging experience tailored to your needs.</p>
-<h2>How It Works</h2>
-<p>Previously you might have used the return values shown in the Autos / Locals windows. These values would appear after the function has exited and returned to the caller. Inline return values show this information before the function exits and directly in the editor. And with Copilot integration, you can now receive explanations and solutions without ever leaving your code.</p>
-<p>When you hit a breakpoint or step through your code, Visual Studio 2022 automatically displays &#8220;the value which will be returned inline, right next to the closing brace of the method. This provides immediate, clear feedback, making it easy to spot issues and verify that your functions are returning the expected results. <img decoding="async" class="alignnone wp-image-251637" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251636-1.gif" alt="Gif showcasing inline return values with copilot" width="2463" height="1538" /></p>
-<p>To explore the return values further, simply hover over the inline display and click &#8220;Ask Copilot” icon on the datatip. A new Copilot chat window will open, and the debugger will gather relevant context and pass it to Copilot for analysis. Copilot will not only explain why you’re seeing those values, but also provide insights into potential issues. If necessary, it can even suggest code fixes to ensure the correct return values, streamlining your debugging process.</p>
-<p>You will experience similar Copilot-assisted variable analysis capabilities for Locals, Autos, Watch windows, and DataTips as well , learn more here : <a href="https://devblogs.microsoft.com/visualstudio/ai-powered-insights-streamlining-variable-analysis-with-github-copilot-in-visual-studio/">AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio &#8211; Visual Studio Blog</a></p>
-<h2>Tell us what you think!</h2>
-<p>We hope the inline return values feature enhances your debugging experience! As we continue to develop seamless inline data inspection, your feedback is invaluable. Consider completing our <strong><a href="https://www.surveymonkey.com/r/P3WK629">quick survey</a> </strong>to help us improve this feature.</p>
-<p>If you have comments or questions about this or any other Visual Studio features, please use the <a href="https://learn.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2022">Report a Problem tool</a>. Stay connected with the Visual Studio team by following us on <a href="https://twitter.com/VS_Debugger">Twitter @VS_Debugger</a>, <a href="https://twitter.com/VisualStudio">Twitter @VisualStudio</a>, <a href="https://www.youtube.com/user/VisualStudio">YouTube</a>, and <a href="https://www.linkedin.com/showcase/microsoft-visual-studio/">LinkedIn.</a></p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/how-inline-return-values-simplify-debugging-in-visual-studio-2022/">How Inline Return Values Simplify Debugging in Visual Studio 2022</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Introducing the Copy Git Permalink Feature in Visual Studio 17.12</title>
-		<link>https://devblogs.microsoft.com/visualstudio/introducing-the-copy-git-permalink-feature-in-visual-studio-17-12/</link>
-		
-		<dc:creator><![CDATA[Jullyana Ramos]]></dc:creator>
-		<pubDate>Tue, 03 Dec 2024 14:05:05 +0000</pubDate>
-				<category><![CDATA[Git]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251631</guid>
-
-					<description><![CDATA[<p>We are excited to announce the release of the Copy Git Permalink feature in Visual Studio 17.12. This new functionality streamlines the process of sharing code references, enhancing collaboration and ensuring that critical context is preserved. Effortless Code Sharing If you’ve found yourself needing to share code snippets with colleagues, you know the challenges of [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/introducing-the-copy-git-permalink-feature-in-visual-studio-17-12/">Introducing the Copy Git Permalink Feature in Visual Studio 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>We are excited to announce the release of the Copy Git Permalink feature in Visual Studio 17.12. This new functionality streamlines the process of sharing code references, enhancing collaboration and ensuring that critical context is preserved.</p>
-<h1><img decoding="async" class="alignnone wp-image-251632" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-1.png" alt="Git menu showing the Copy GitHub Permalink option" width="900" height="506" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-1.png 900w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-1-300x169.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-1-768x432.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></h1>
-<h2>Effortless Code Sharing</h2>
-<p>If you’ve found yourself needing to share code snippets with colleagues, you know the challenges of preserving context. With the new Copy Git Permalink feature, you can now generate a permalink directly from Visual Studio to the remote repository. Simply select the desired code, right-click, and choose the “Copy Permalink” option under the Git submenu. Then, your colleague can open the link you shared to get to that line of code on the web, providing them with the surrounding code without disrupting their local environment.</p>
-<p>This feature supports both Azure DevOps repositories and GitHub (requires sign-in). If you’d like the ability to extend the support for your own favorite Git hosting provider, please upvote this <a href="https://developercommunity.visualstudio.com/t/VisualStudioExtensibility-Feature-reque/10771452">Visual Studio Extensibility suggestion ticket</a>.</p>
-<h2>Best Practices for Accuracy</h2>
-<p>To ensure that your permalink reflects the latest code, remember to commit and push your changes before generating the link. Visual Studio will automatically find the most recent commit on the web if your changes haven’t been pushed recently.</p>
-<p>To include line and column numbers in your permalink, make sure the text of interest is selected.</p>
-<h2>Historical Code Reference</h2>
-<p>The Copy Git Permalink option is also available within the embedded commit details view in the Git Repository window. This allows you to reference specific code from previous commits without switching branches.</p>
-<p><img decoding="async" class="alignnone wp-image-251633" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-2.png" alt="in the Branch explorer showing a real example where you would copy Git Permalink" width="1431" height="1014" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-2.png 1431w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-2-300x213.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-2-1024x726.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251631-2-768x544.png 768w" sizes="(max-width: 1431px) 100vw, 1431px" /></p>
-<h2>From Marketplace to Product</h2>
-<p>This started as a hackathon project of a Visual Studio engineer, Etienne Baudoux, which turned into <a id="post-251631-_Int_CuH5ntxn"></a>the popular <a href="https://marketplace.visualstudio.com/items?itemName=EtienneBAUDOUX.CopyGitLink2022">Copy Git Link extension</a>. The productivity gains experienced by internal Microsoft adopters and the votes received in a <a href="https://developercommunity.visualstudio.com/t/copy-url-to-azure-devops-repo-file-view-from-visua/975364">related suggestion ticket</a> made it clear that an in-box alternative to this extension would be appreciated.</p>
-<h2>Conclusion</h2>
-<p>We encourage you to explore the new Copy Git Permalink feature and share your feedback with us. We are committed to enhancing your development experience and look forward to hear your thoughts.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/introducing-the-copy-git-permalink-feature-in-visual-studio-17-12/">Introducing the Copy Git Permalink Feature in Visual Studio 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio</title>
-		<link>https://devblogs.microsoft.com/visualstudio/ai-powered-insights-streamlining-variable-analysis-with-github-copilot-in-visual-studio/</link>
-		
-		<dc:creator><![CDATA[Harshada Hole]]></dc:creator>
-		<pubDate>Mon, 02 Dec 2024 14:44:07 +0000</pubDate>
-				<category><![CDATA[Debug]]></category>
-		<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<category><![CDATA[Debugging and Diagnostics]]></category>
-		<category><![CDATA[Developer Productivity]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251626</guid>
-
-					<description><![CDATA[<p>Tired of spending countless hours troubleshooting errors and unexpected values in your code? Visual Studio 2022 introduces GitHub Copilot Variable Analysis. This powerful tool makes inspecting and analyzing variables from Locals, Autos, watch windows and DataTips effortless, helping you solve issues faster and cutting down on time and frustration. Enhanced Debugging Experience Debugging can often [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/ai-powered-insights-streamlining-variable-analysis-with-github-copilot-in-visual-studio/">AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Tired of spending countless hours troubleshooting errors and unexpected values in your code? <strong>Visual Studio 2022</strong> introduces<strong> GitHub Copilot Variable Analysis</strong>. This powerful tool makes inspecting and analyzing variables from Locals, Autos, watch windows and DataTips effortless, helping you solve issues faster and cutting down on time and frustration.</p>
-<h2><strong>Enhanced Debugging Experience</strong></h2>
-<p>Debugging can often resemble searching for a needle in a haystack, especially in complex codebases. But <strong>GitHub</strong> <strong>Copilot Variable Analysis</strong> can make the debugging experience much easier and smoother. Simply hover over any variable in the <strong>Locals</strong>, <strong>Autos</strong>, <strong>Watch</strong>, or <strong>DataTips</strong> windows to reveal the Copilot icon. Clicking this icon launches an interactive chat within Visual Studio, delivering detailed, AI-driven insights about the variable&#8217;s values and how they affect your code&#8217;s execution.</p>
-<p><img decoding="async" class="alignnone wp-image-251627" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-1.png" alt="in Autos menu, hovering over root2 variable showing ask copilot as an option" width="977" height="321" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-1.png 977w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-1-300x99.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-1-768x252.png 768w" sizes="(max-width: 977px) 100vw, 977px" /></p>
-<p><img decoding="async" class="alignnone wp-image-251628" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-2.png" alt="inline, hovering over root2 with ask copilot option" width="963" height="188" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-2.png 963w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-2-300x59.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-2-768x150.png 768w" sizes="(max-width: 963px) 100vw, 963px" /></p>
-<p>This feature is also accessible via the right-click context menu for added convenience.</p>
-<h2><strong>How It Works</strong></h2>
-<p>When you click the Copilot icon next to a variable, GitHub Copilot analyzes its value and delivers comprehensive insights. The debugger supplies necessary references, allowing Copilot to evaluate the code and offer relevant insights for understanding variable behavior or specific values.</p>
-<p>When relevant, Copilot also offers code solutions. To incorporate a suggested solution, simply click the preview button in the chat, which will insert the code directly into the editor. If the code aligns with your requirements, you can accept it and continue debugging.</p>
-<p><img decoding="async" class="alignnone wp-image-251629" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/12/word-image-251626-3.gif" alt="Gif showing the root2 ask copilot option. Copilot generates an explanation and new code, the author accepts this new code" width="2463" height="1538" /></p>
-<h2><strong>The Benefits of Real-Time Analysis</strong></h2>
-<p><strong>Variable Analysis</strong> is a standout feature of <strong>GitHub</strong> <strong>Copilot</strong>, enabling real-time evaluation of variables. When unexpected values arise, you can quickly access detailed information, significantly improving your troubleshooting speed. This seamless integration within the IDE reduces the need for internet searches or context switching, allowing you to concentrate on resolving issues.</p>
-<p>Furthermore, <strong>GitHub</strong> <strong>Copilot </strong>empowers you to make informed decisions rapidly. Whether addressing errors or understanding variable behavior, you receive instant feedback without disrupting your workflow.</p>
-<h2>Thank you for your feedback</h2>
-<p>We believe that the continuous feedback from our users is what makes Visual Studio better with every release. We appreciate your input and are committed to incorporating your suggestions to improve your development experience. Thank you for helping us make Visual Studio the best IDE for developers worldwide.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/ai-powered-insights-streamlining-variable-analysis-with-github-copilot-in-visual-studio/">AI-Powered Insights: Streamlining Variable Analysis with GitHub Copilot in Visual Studio</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Transform your debugging experience with GitHub Copilot</title>
-		<link>https://devblogs.microsoft.com/visualstudio/transform-your-debugging-experience-with-github-copilot/</link>
-		
-		<dc:creator><![CDATA[Wendy Breiding (SHE/HER)]]></dc:creator>
-		<pubDate>Thu, 28 Nov 2024 13:00:22 +0000</pubDate>
-				<category><![CDATA[Debug]]></category>
-		<category><![CDATA[GitHub Copilot]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<category><![CDATA[Debugging]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251588</guid>
-
-					<description><![CDATA[<p>Are your unit tests failing, and do you want to debug them more effectively? The latest feature in Visual Studio 2022, powered by GitHub Copilot, has the perfect solution for you. Introducing the Debug with Copilot button in Test Explorer, this feature takes the hassle out of debugging failed tests and gets you closer to [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/transform-your-debugging-experience-with-github-copilot/">Transform your debugging experience with GitHub Copilot</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Are your unit tests failing, and do you want to debug them more effectively? The latest feature in Visual Studio 2022, powered by GitHub Copilot, has the perfect solution for you. Introducing the <strong>Debug with Copilot</strong> button in Test Explorer, this feature takes the hassle out of debugging failed tests and gets you closer to passing tests in no time.</p>
-<p><img decoding="async" width="1429" height="910" class="wp-image-251589" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-visual-studio-with-the-ask-copilot.png" alt="Screen shot of Visual Studio with the Ask Copilot buttons highlighted on the Test Explorer." srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-visual-studio-with-the-ask-copilot.png 1429w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-visual-studio-with-the-ask-copilot-300x191.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-visual-studio-with-the-ask-copilot-1024x652.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-visual-studio-with-the-ask-copilot-768x489.png 768w" sizes="(max-width: 1429px) 100vw, 1429px" /></p>
-<p>Debugging failing unit tests can often be a tedious and frustrating process. Developers spend significant time identifying the root cause of the failure and figuring out the steps to resolve it. This time-consuming process can delay development timelines and reduce productivity. But fear not, Visual Studio 2022 with GitHub Copilot has an innovative solution to streamline this process.</p>
-<h2>Introducing Debug with Copilot in Test Explorer</h2>
-<p>With <strong>Debug with Copilot</strong> in Test Explorer, your debugging experience is about to become more efficient and user-friendly. When you click on this button, GitHub Copilot steps in to assist you with a comprehensive debug plan. This plan includes setting appropriate breakpoints, watching variables, and launching the debug session.</p>
-<h2>How it works</h2>
-<p>Once you initiate the feature, GitHub Copilot provides a detailed debug plan tailored to your specific test. It sets the necessary breakpoints and watches variables that are crucial for determining the next steps. As the debug session progresses and hits a breakpoint, GitHub Copilot analyzes the values of the watched variables and provides guidance on whether to continue debugging or proceed with fixing the problematic code.</p>
-<p><img decoding="async" class="wp-image-251590" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-github-copilot-chat-after-initiatin.png" alt="Screen shot of GitHub Copilot chat after initiating Debug with Copilot from Test Explorer." width="576" height="661" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-github-copilot-chat-after-initiatin.png 840w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-github-copilot-chat-after-initiatin-261x300.png 261w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screen-shot-of-github-copilot-chat-after-initiatin-768x881.png 768w" sizes="(max-width: 576px) 100vw, 576px" /></p>
-<p>You can engage in a continuous conversation with GitHub Copilot until your test passes, making the entire process more interactive and less time-consuming. This feature not only saves time but also enhances your debugging skills by providing insightful suggestions and guidance.</p>
-<p><img decoding="async" class="wp-image-251591" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screenshot-of-github-copilot-chat-after-variables.png" alt="Screenshot of GitHub Copilot chat after variables returned from debug session showing it knows how to fix the failure." width="586" height="514" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screenshot-of-github-copilot-chat-after-variables.png 752w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/screenshot-of-github-copilot-chat-after-variables-300x263.png 300w" sizes="(max-width: 586px) 100vw, 586px" /></p>
-<h2>Appreciation for our users</h2>
-<p>We are immensely grateful for the continuous feedback from our users, which drives us to make Visual Studio better with each update. Your insights and suggestions are invaluable in helping us deliver features that truly make a difference in your development workflow.</p>
-<p>Thank you for being a part of this journey with us. We are excited to see how the <strong>Debug with Copilot</strong> feature transforms your debugging experience and contributes to your success.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/transform-your-debugging-experience-with-github-copilot/">Transform your debugging experience with GitHub Copilot</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Updates for C++ developers in Visual Studio 2022 17.12</title>
-		<link>https://devblogs.microsoft.com/visualstudio/updates-for-c-developers-in-visual-studio-2022-17-12/</link>
-		
-		<dc:creator><![CDATA[Sy Brand]]></dc:creator>
-		<pubDate>Wed, 27 Nov 2024 13:00:42 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[performance]]></category>
-		<category><![CDATA[Productivity]]></category>
-		<category><![CDATA[Visual Studio]]></category>
-		<guid isPermaLink="false">https://devblogs.microsoft.com/visualstudio/?p=251578</guid>
-
-					<description><![CDATA[<p>Visual Studio 17.12 is here and comes with a host of new features for C++ developers. We’ve made improvements across our toolchain, C++ Build Insights, Unreal Engine support, and more. This post gives a quick overview of what’s available; for all the details, see What’s New for C++ Developers in Visual Studio 2022 17.12 on [&#8230;]</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/updates-for-c-developers-in-visual-studio-2022-17-12/">Updates for C++ developers in Visual Studio 2022 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<p>Visual Studio 17.12 is here and comes with a host of new features for C++ developers. We’ve made improvements across our toolchain, C++ Build Insights, Unreal Engine support, and more. This post gives a quick overview of what’s available; for all the details, see <a href="https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2022-17-12/">What’s New for C++ Developers in Visual Studio 2022 17.12</a> on the C++ blog.</p>
-<h2>Standard Library and MSVC Compiler</h2>
-<p>As always, you can find all the details about our STL work in the <a href="https://github.com/microsoft/STL/wiki/Changelog">changelog on GitHub</a>. Thanks to everyone who contributed changes for this release!</p>
-<p>On the conformance side, we have finished the implementation of C++23’s <a href="https://wg21.link/P2286R8">P2286R8</a> Formatting Ranges and the multidimensional subscript operator (e.g. my_3d_span[i,j,k]). This release also comes with some new C++26 features:</p>
-<ul>
-<li><a href="https://wg21.link/P2997R1">P2997R1</a> Removing The Common Reference Requirement From The Indirectly Invocable Concepts</li>
-<li><a href="https://wg21.link/P0952R2">P0952R2</a> A New Specification For <code>generate_canonical()</code></li>
-<li><a href="https://wg21.link/P2968R2">P2968R2</a> Make <code>std::ignore</code> A First-Class Object</li>
-</ul>
-<p>You’ll find improvements to several debug visualizers, including those for <code>mutex/recursive_mutex and move_iterator.</code></p>
-<p>We added <code>lifetimebound</code> attributes to <code>min</code>, <code>max</code>, <code>clamp</code>, <code>ranges::min</code>, <code>ranges::max</code>, and <code>ranges::clamp</code>, allowing MSVC code analysis and Clang &#8211;<code>Wdangling</code> to detect dangling references in improper usage. See the documentation for <a href="https://learn.microsoft.com/cpp/code-quality/c26815">warnings C26815</a> and <a href="https://learn.microsoft.com/cpp/code-quality/c26816">C26816</a> for more information about lifetimebound annotations.</p>
-<p>Finally, we improved the performance of several types and algorithms. The <code>popcount()</code> function now uses a compiler intrinsic on ARM64. We further improved the vectorized implementations of the <code>minmax_element()</code> and <code>minmax()</code> algorithm families, and optimized the <code>search()</code> and <code>find_end()</code> algorithms. We also overhauled the implementations of <code>condition_variable</code> and <code>condition_variable_any</code>, which has knock-on effects on the <code>timed_mutex</code> and <code>recursive_timed_mutex</code> types.</p>
-<h2>Set Command Line Arguments for Unreal Engine Projects</h2>
-<p>For Unreal Engine projects, you can now set the command line arguments to pass to your application directly from the toolbar. This toolbar component will show up by default if you have the <strong>Game development with C++ workload </strong>installed. If you don’t see it, you can add it by right-clicking on the toolbar and selecting <strong>Set Arguments</strong>.</p>
-<p><img decoding="async" class="alignnone wp-image-251579" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/set-command-line-arguments-box.png" alt="Set command line arguments box (-graphicsadapter=0)" width="600" height="171" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/set-command-line-arguments-box.png 600w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/set-command-line-arguments-box-300x86.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></p>
-<p>We’ll be adding support for this feature to non-UE projects in the future. See <a href="https://learn.microsoft.com/en-us/visualstudio/debugger/specify-command-line-arguments?view=vs-2022">Pass command-line arguments while debugging</a> on Microsoft Learn for documentation.</p>
-<h2>Open Folder for Unreal Engine uproject</h2>
-<p>We have added an additional entry point to open your Unreal Engine uproject with Visual Studio’s uproject support. You can now open your uproject directly from the <strong>File</strong> menu by selecting <strong>Open &gt; Folder…</strong>. This will open your Unreal Engine project in Visual Studio.</p>
-<p>For more information on how to use this feature, see the <a href="https://learn.microsoft.com/en-us/visualstudio/debugger/specify-command-line-arguments?view=vs-2022">documentation on Microsoft Learn</a> and our <a href="https://aka.ms/DirectUnrealSupport">announcement blog post</a>.</p>
-<h2>Change Signature Improvements</h2>
-<p>We have updated the <strong>Change Signature</strong> interface, allowing you to add, remove, and rearrange parameters in the parameter configuration section. Additionally, you can change their order by selecting and dragging them to a new position.</p>
-<p>The access methods remain the same: press Ctrl+. to trigger the <em>Quick Actions and Refactorings</em> menu and select <strong>Change Signature</strong>. <img decoding="async" class="alignnone wp-image-251580" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2.png" alt="Image showing and updated method signature (bool LayoutHorizontal(const char * label, int numItems, float itemLabelSize, bool showBorders) and parapmeters" width="1680" height="1009" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2.png 1680w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2-300x180.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2-1024x615.png 1024w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2-768x461.png 768w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-2-1536x923.png 1536w" sizes="(max-width: 1680px) 100vw, 1680px" /></p>
-<h2>C++ Build Insights</h2>
-<p>This release of Visual Studio comes with a bunch of quality-of-life improvements for C++ Build Insights.</p>
-<p>You can now select a few files, run Build Insights on them, and see exactly how these files impact build performance: <img decoding="async" width="700" height="393" class="wp-image-251581" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/run-build-insights-on-file-selection-file-selectio.png" alt="Run Build Insights on File Selection File Selection Command in contextual menu of selected files." srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/run-build-insights-on-file-selection-file-selectio.png 700w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/run-build-insights-on-file-selection-file-selectio-300x168.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></p>
-<p>You can filter results by project and file path:</p>
-<p><img decoding="async" width="447" height="347" class="wp-image-251582" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/file-path-filter.png" alt="File Path Filter" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/file-path-filter.png 447w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/file-path-filter-300x233.png 300w" sizes="(max-width: 447px) 100vw, 447px" /></p>
-<p>Note that we now truncate paths to make them easier to read.</p>
-<p>You can designate a folder to automatically store the reports so you can easily access them during your investigation.</p>
-<p><img decoding="async" width="846" height="570" class="wp-image-251583" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/setting-to-save-traces-in-custom-location.png" alt="Setting to save traces in custom location" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/setting-to-save-traces-in-custom-location.png 846w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/setting-to-save-traces-in-custom-location-300x202.png 300w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/setting-to-save-traces-in-custom-location-768x517.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></p>
-<p>Finally, you can now see a short description on how each tab of <a href="https://learn.microsoft.com/en-us/cpp/build-insights/?view=msvc-170">Build Insights</a> can be used, along with a link to the documentation for a detailed explanation.</p>
-<p><img decoding="async" class="alignnone wp-image-251584" src="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-6.png" alt="Image showing the highlighted ? for Build insights" width="700" height="394" srcset="https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-6.png 700w, https://devblogs.microsoft.com/visualstudio/wp-content/uploads/sites/4/2024/11/word-image-251578-6-300x169.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></p>
-<h2>Summary</h2>
-<p>We hope this has given you a taste of what’s new. For all the details, see <a href="https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2022-17-12/">What’s New for C++ Developers in Visual Studio 2022 17.12</a> on the C++ blog.</p>
-<p>We are very much interested in your feedback. The comments below are open. Feedback can also be shared through <a href="https://developercommunity.visualstudio.com/cpp">Visual Studio Developer Community</a>. You can also reach us via email at <a href="mailto:visualcpp@microsoft.com">visualcpp@microsoft.com</a>.</p>
-<p>The post <a href="https://devblogs.microsoft.com/visualstudio/updates-for-c-developers-in-visual-studio-2022-17-12/">Updates for C++ developers in Visual Studio 2022 17.12</a> appeared first on <a href="https://devblogs.microsoft.com/visualstudio">Visual Studio Blog</a>.</p>
 ]]></content:encoded>
 					
 		
