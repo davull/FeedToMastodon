@@ -11,7 +11,7 @@ public class LoggerFactoryProviderTests
     [Test]
     public void Should_Create_Logger()
     {
-        var factory = LoggerFactoryProvider.Create(CreateConfiguration());
+        var factory = LoggerFactoryProvider.Create(CreateConfiguration(LogLevel.Information));
         var logger = factory.CreateLogger("MyCategory");
 
         logger.Should().NotBeNull();
@@ -59,23 +59,26 @@ public class LoggerFactoryProviderTests
     }
 
     [Test]
-    public void None_Should_Log_Nothing()
+    public void Should_FallbackToInformation_WoConfiguration()
     {
-        var appConfig = CreateConfiguration(LogLevel.None);
-        var factory = LoggerFactoryProvider.Create(appConfig);
+        var factory = LoggerFactoryProvider.Create(CreateConfiguration(null));
         var logger = factory.CreateLogger("MyCategory");
 
-        var logLevels = Enum.GetValues<LogLevel>();
-
-        logLevels.Should()
-            .AllSatisfy(l => logger.IsEnabled(l).Should().BeFalse());
+        logger.IsEnabled(LogLevel.Debug).Should().BeFalse();
+        logger.IsEnabled(LogLevel.Information).Should().BeTrue();
     }
 
-    private static IConfiguration CreateConfiguration(LogLevel logLevel = LogLevel.Information)
+    private static IConfiguration CreateConfiguration(LogLevel? logLevel)
     {
-        return new ConfigurationBuilder()
-            .AddInMemoryCollection([
+        var builder = new ConfigurationBuilder();
+
+        if (logLevel.HasValue)
+        {
+            builder.AddInMemoryCollection([
                 new KeyValuePair<string, string?>("Logging:LogLevel:Default", $"{logLevel}")
-            ]).Build();
+            ]);
+        }
+
+        return builder.Build();
     }
 }
