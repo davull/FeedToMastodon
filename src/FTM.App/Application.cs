@@ -4,7 +4,6 @@ using FTM.Lib.Data;
 using FTM.Lib.Mastodon;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Console;
 
 namespace FTM.App;
 
@@ -21,25 +20,10 @@ public class Application(
         var appConfiguration = GetAppConfiguration();
         var appOptions = GetAppOptions();
 
-        var loggerFactory = CreateLoggerFactory();
+        var loggerFactory = LoggerFactoryProvider.Create(appConfiguration);
         var mastodonClient = CreateMastodonClient(loggerFactory);
 
         return new Application(appOptions, feedConfigurations, mastodonClient, loggerFactory);
-
-        ILoggerFactory CreateLoggerFactory()
-        {
-            return LoggerFactory.Create(builder =>
-            {
-                builder
-                    .AddSimpleConsole(options =>
-                    {
-                        options.SingleLine = true;
-                        options.ColorBehavior = LoggerColorBehavior.Enabled;
-                        options.TimestampFormat = "yyyy-MM-dd HH:mm:ss ";
-                    })
-                    .AddConfiguration(appConfiguration.GetSection("Logging"));
-            });
-        }
 
         IMastodonClient CreateMastodonClient(ILoggerFactory lf)
         {
