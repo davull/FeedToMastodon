@@ -14,7 +14,8 @@ public static class LoggerFactoryProvider
 
         return LoggerFactory.Create(builder =>
         {
-            const string template = "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}";
+            const string template =
+                "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] {SourceContext} - {Message:lj}{NewLine}{Exception}";
 
             var logFilePath = Path.Combine(AppContext.BaseDirectory, "logs", "log-.txt");
 
