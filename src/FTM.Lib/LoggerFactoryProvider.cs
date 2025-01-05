@@ -14,11 +14,18 @@ public static class LoggerFactoryProvider
 
         return LoggerFactory.Create(builder =>
         {
+            const string template = "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}";
+
+            var logFilePath = Path.Combine(AppContext.BaseDirectory, "logs", "log-.txt");
+
             var logger = new LoggerConfiguration()
                 .MinimumLevel.Is(minimumLogLevel)
                 .WriteTo.Console(
                     theme: AnsiConsoleTheme.Code,
-                    outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}")
+                    outputTemplate: template)
+                .WriteTo.File(logFilePath,
+                    rollingInterval: RollingInterval.Day,
+                    outputTemplate: template)
                 .CreateLogger();
 
             builder.AddSerilog(logger, dispose: true);
