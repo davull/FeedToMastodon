@@ -11,7 +11,7 @@ public static class FeedHttpClient
     private const string IfNoneMatchHeader = "If-None-Match";
 
     public static async Task<ReadStringResult> ReadString(
-        Uri url, HttpClient httpClient, string? etag)
+        Uri url, HttpClient httpClient, string? etag, CancellationToken cancellationToken)
     {
         if (!IsValidETag(etag))
         {
@@ -19,7 +19,7 @@ public static class FeedHttpClient
         }
 
         using var request = CreateRequest();
-        using var response = await httpClient.SendAsync(request);
+        using var response = await httpClient.SendAsync(request, cancellationToken);
 
         var newEtag = GetETag(response.Headers);
 
@@ -30,7 +30,7 @@ public static class FeedHttpClient
 
         response.EnsureSuccessStatusCode();
 
-        var content = await response.Content.ReadAsStringAsync();
+        var content = await response.Content.ReadAsStringAsync(cancellationToken);
         return new ReadStringResult(true, content, newEtag);
 
         HttpRequestMessage CreateRequest()

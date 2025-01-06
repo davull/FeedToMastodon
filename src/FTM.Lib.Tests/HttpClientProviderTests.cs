@@ -30,8 +30,8 @@ public class HttpClientProviderTests : TestBase
     [TestCase(3)]
     public async Task WithUpToThreeFailingRequests_Should_RetryAndReturnSuccess(int failures)
     {
-        // 429 TooManyRequests
-        var failureCodes = Enumerable.Range(0, failures).Select(_ => 429);
+        // 500 Internal Server Error
+        var failureCodes = Enumerable.Range(0, failures).Select(_ => 500);
         int[] status = [..failureCodes, 200];
 
         SetupServer(status);
@@ -49,7 +49,20 @@ public class HttpClientProviderTests : TestBase
     [Test]
     public async Task WithFourFailingRequest_Should_ReturnFailure()
     {
-        SetupServer(429, 429, 429, 429); // TooManyRequests
+        SetupServer(500, 500, 500, 502);
+
+        var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
+        var uri = new Uri($"{_server.Url}/route");
+
+        var response = await client.GetAsync(uri);
+
+        response.StatusCode.Should().Be(HttpStatusCode.BadGateway);
+    }
+
+    [Test]
+    public async Task Should_NotRetryOnTooManyRequests()
+    {
+        SetupServer(500, 429);
 
         var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
         var uri = new Uri($"{_server.Url}/route");

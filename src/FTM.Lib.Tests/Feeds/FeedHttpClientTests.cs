@@ -11,7 +11,7 @@ public class FeedHttpClientTests : TestBase
     public async Task ReadString_Should_ReturnNonEmptyString(string uri)
     {
         using var httpClient = new HttpClient();
-        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null);
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
 
         result.ContentHasChanged.Should().BeTrue();
         result.Content.Should().NotBeNull();

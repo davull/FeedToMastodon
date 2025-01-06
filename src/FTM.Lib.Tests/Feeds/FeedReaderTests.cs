@@ -13,7 +13,7 @@ public class FeedReaderTests : TestBase
     public async Task CanReadFeedFromUri(string uri)
     {
         using var httpClient = new HttpClient();
-        var feed = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag: null);
+        var feed = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag: null, CancellationToken.None);
         feed.Should().NotBeNull();
     }
 

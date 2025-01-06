@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Net;
 using FTM.Lib.Data;
 using FTM.Lib.Feeds;
 using FTM.Lib.Mastodon;
@@ -30,10 +31,19 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                     await Loop(cancellationToken);
                     context.ResetLoopDelay();
                 }
+                catch (HttpRequestException ex) when (ex.StatusCode is HttpStatusCode.TooManyRequests)
+                {
+                    Logger.LogError(
+                        "Error while processing feed {FeedUri}: Too Many Network Requests (HTTP Status {StatusCode}), resetting loop delay",
+                        Configuration.FeedUri, (int)ex.StatusCode);
+                    context.ResetLoopDelay();
+                }
                 catch (HttpRequestException ex)
                 {
-                    Logger.LogError("Error while processing feed {FeedUri}: Network error, status code {StatusCode}",
-                        Configuration.FeedUri, ex.StatusCode);
+                    Logger.LogError(
+                        "Error while processing feed {FeedUri}: Network error, status code {StatusCode} ({NumericStatusCode}), setting loop delay to {Delay}",
+                        Configuration.FeedUri, ex.StatusCode, (int)(ex.StatusCode ?? 0),
+                        Config.HttpRequestExceptionDelay);
                     context.SetLoopDelay(Config.HttpRequestExceptionDelay);
                 }
                 catch (Exception ex) when (ex is not OperationCanceledException)
@@ -54,7 +64,8 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
 
     private async Task Loop(CancellationToken cancellationToken)
     {
-        var (feed, etag) = await FeedReader.ReadIfChanged(Configuration.FeedUri, context.HttpClient, context.ETag);
+        var (feed, etag) = await FeedReader.ReadIfChanged(Configuration.FeedUri,
+            context.HttpClient, context.ETag, cancellationToken);
         context.ETag = etag;
 
         if (feed is null)
