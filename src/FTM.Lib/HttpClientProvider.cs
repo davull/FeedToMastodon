@@ -1,5 +1,7 @@
-﻿using Microsoft.Extensions.Http.Resilience;
+﻿using System.Net;
+using Microsoft.Extensions.Http.Resilience;
 using Polly;
+using Polly.Retry;
 
 namespace FTM.Lib;
 
@@ -14,8 +16,11 @@ public static class HttpClientProvider
             BackoffType = DelayBackoffType.Exponential,
             Delay = delay.Value,
             MaxRetryAttempts = 3,
-            UseJitter = true
+            UseJitter = true,
+            ShouldHandle = ShouldHandle,
+            ShouldRetryAfterHeader = false
         };
+
         var retryPipeline = new ResiliencePipelineBuilder<HttpResponseMessage>()
             .AddRetry(options)
             .Build();
@@ -30,5 +35,17 @@ public static class HttpClientProvider
             }
         };
         return new HttpClient(resilienceHandler);
+    }
+
+    private static ValueTask<bool> ShouldHandle(RetryPredicateArguments<HttpResponseMessage> arg)
+    {
+        var code = arg.Outcome.Result?.StatusCode;
+        if (code is null)
+        {
+            return ValueTask.FromResult(false);
+        }
+
+        var shouldHandle = code >= HttpStatusCode.InternalServerError;
+        return ValueTask.FromResult(shouldHandle);
     }
 }

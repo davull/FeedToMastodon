@@ -59,6 +59,19 @@ public class HttpClientProviderTests : TestBase
         response.StatusCode.Should().Be(HttpStatusCode.BadGateway);
     }
 
+    [Test]
+    public async Task Should_NotRetryOnTooManyRequests()
+    {
+        SetupServer(500, 429);
+
+        var client = HttpClientProvider.CreateHttpClient(TimeSpan.FromMilliseconds(10));
+        var uri = new Uri($"{_server.Url}/route");
+
+        var response = await client.GetAsync(uri);
+
+        response.StatusCode.Should().Be(HttpStatusCode.TooManyRequests);
+    }
+
     private void SetupServer(params int[] status)
     {
         const string scenario = "my-scenario";
