@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Title": "feed1",
+    "WorkerLoopDelay": "00:10:00"
+  },
+  {
+    "Title": "feed2",
+    "WorkerLoopDelay": "23:59:00"
+  },
+  {
+    "Title": "feed3",
+    "WorkerLoopDelay": "1.00:00:00"
+  },
+  {
+    "Title": "feed4",
+    "WorkerLoopDelay": "2.00:30:00"
+  },
+  {
+    "Title": "feed5",
+    "WorkerLoopDelay": "7.00:00:00"
+  }
+]

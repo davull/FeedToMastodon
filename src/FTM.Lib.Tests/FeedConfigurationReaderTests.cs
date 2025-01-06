@@ -45,7 +45,7 @@ public class FeedConfigurationReaderTests : TestBase
 
         var actual = FeedConfigurationReader.ReadConfiguration(filePath);
 
-        actual.Should().NotBeNull();
+        actual.Should().NotBeNullOrEmpty();
         actual.Should().AllSatisfy(
             config => config.WorkerLoopDelay.Should().BeNull());
     }
@@ -59,6 +59,23 @@ public class FeedConfigurationReaderTests : TestBase
 
         actual.Should().NotBeNullOrEmpty();
         actual.Should().MatchSnapshot();
+    }
+
+    [Test]
+    public void LargeWorkerLoopDelay_Should_ReturnConfig()
+    {
+        var filePath = FilePath("valid-large-loop-delay.ini");
+
+        var actual = FeedConfigurationReader.ReadConfiguration(filePath);
+
+        actual.Should().NotBeNullOrEmpty();
+
+        actual.Should().AllSatisfy(
+            config => config.WorkerLoopDelay.Should().NotBeNull());
+
+        var snapshot = actual.Select(a => new
+            { a.Title, a.WorkerLoopDelay });
+        snapshot.Should().MatchSnapshot();
     }
 
     private static string FilePath(string fileName) =>
