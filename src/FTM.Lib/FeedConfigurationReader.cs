@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using IniParser;
+﻿using IniParser;
 using IniParser.Model;
 
 namespace FTM.Lib;
@@ -63,14 +62,6 @@ public static class FeedConfigurationReader
             return s.Replace("\\n", "\n");
         }
 
-        TimeSpan? ReadWorkerLoopDelay()
-        {
-            var rawWorkerLoopDelay = section.Keys["worker_loop_delay"] ?? string.Empty;
-
-            return TimeSpan.TryParseExact(rawWorkerLoopDelay, @"hh\:mm\:ss",
-                CultureInfo.InvariantCulture, TimeSpanStyles.None, out var delay)
-                ? delay
-                : null;
-        }
+        TimeSpan? ReadWorkerLoopDelay() => TimeSpanParser.Parse(section.Keys["worker_loop_delay"]);
     }
 }
