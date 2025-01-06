@@ -29,10 +29,10 @@ Some settings are set for the whole application. This is done via an JSON file `
 }
 ```
 
-| Parameter                | Description                           | Values                          | Optional | Default       |
-|--------------------------|---------------------------------------|---------------------------------|----------|---------------|
-| Logging:LogLevel:Default | The log level of the application      | `Debug`, `Information`, `Error` | yes      | `Information` |
-| DefaultWorkerLoopDelay   | The default delay between feed checks | format `hh:mm:ss`               | yes      | `00:01:00`    |
+| Parameter                | Description                           | Values                            | Optional | Default       |
+|--------------------------|---------------------------------------|-----------------------------------|----------|---------------|
+| Logging:LogLevel:Default | The log level of the application      | `Debug`, `Information`, `Error`   | yes      | `Information` |
+| DefaultWorkerLoopDelay   | The default delay between feed checks | format `hh:mm:ss` or `d.hh:mm:ss` | yes      | `00:01:00`    |
 
 The file or the docker mount point must be located in the application directory.
 This file is optional, if not present the default values are used.
@@ -50,13 +50,13 @@ mastodon_access_token = 1234567890
 worker_loop_delay = 00:30:00
 ```
 
-| Parameter             | Description                                                 |
-|-----------------------|-------------------------------------------------------------|
-| feed_url              | URL of the feed, required                                   |
-| summary_separator     | Separator where the summary is cut off, see below, optional |
-| mastodon_server       | URL of the Mastodon server, required                        |
-| mastodon_access_token | Access token for the Mastodon account, required             |
-| worker_loop_delay     | Delay between feed checks, format `hh:mm:ss`, optional      |
+| Parameter             | Description                                                            |
+|-----------------------|------------------------------------------------------------------------|
+| feed_url              | URL of the feed, required                                              |
+| summary_separator     | Separator where the summary is cut off, see below, optional            |
+| mastodon_server       | URL of the Mastodon server, required                                   |
+| mastodon_access_token | Access token for the Mastodon account, required                        |
+| worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional |
 
 The locations of the configuration file and the sqlite database are set via environment variables.
 
