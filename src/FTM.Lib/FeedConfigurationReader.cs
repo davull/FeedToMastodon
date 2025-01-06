@@ -67,8 +67,7 @@ public static class FeedConfigurationReader
         {
             var rawWorkerLoopDelay = section.Keys["worker_loop_delay"] ?? string.Empty;
 
-            return TimeSpan.TryParseExact(rawWorkerLoopDelay, @"hh\:mm\:ss",
-                CultureInfo.InvariantCulture, TimeSpanStyles.None, out var delay)
+            return TimeSpan.TryParse(rawWorkerLoopDelay, CultureInfo.InvariantCulture, out var delay)
                 ? delay
                 : null;
         }
