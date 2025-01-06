@@ -72,6 +72,10 @@ public class FeedConfigurationReaderTests : TestBase
 
         actual.Should().AllSatisfy(
             config => config.WorkerLoopDelay.Should().NotBeNull());
+
+        var snapshot = actual.Select(a => new
+            { a.Title, a.WorkerLoopDelay });
+        snapshot.Should().MatchSnapshot();
     }
 
     private static string FilePath(string fileName) =>
