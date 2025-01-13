@@ -55,10 +55,12 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                 await Task.Delay(context.LoopDelay, cancellationToken);
             }
         }
-        catch (OperationCanceledException)
+        catch (OperationCanceledException ex)
         {
-            Logger.LogInformation("Worker stopped, feed: {FeedUri}",
-                Configuration.FeedUri);
+            Logger.LogInformation("Worker stopped, feed: {FeedUri}", Configuration.FeedUri);
+            Logger.LogDebug(ex, "CancellationToken.IsCancellationRequested: {IsCancellationRequested}, " +
+                                "Data: {Data}, Source: {Source}",
+                ex.CancellationToken.IsCancellationRequested, ex.Data, ex.Source);
         }
     }
 
