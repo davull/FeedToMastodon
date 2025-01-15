@@ -13,9 +13,11 @@ public class StatisticsBackgroundService(ILogger<StatisticsBackgroundService> lo
     {
         logger.LogInformation("StatisticsWorker started");
 
+        using var timer = new PeriodicTimer(TimeSpan.FromDays(1));
+
         try
         {
-            while (!stoppingToken.IsCancellationRequested)
+            do
             {
                 try
                 {
@@ -25,10 +27,7 @@ public class StatisticsBackgroundService(ILogger<StatisticsBackgroundService> lo
                 {
                     logger.LogError(ex, "Error while processing statistics: {Message}", ex.Message);
                 }
-
-                const int delay = 1_000 * 60 * 60 * 24; // 24 hour
-                await Task.Delay(delay, stoppingToken);
-            }
+            } while (await timer.WaitForNextTickAsync(stoppingToken));
         }
         catch (OperationCanceledException)
         {
