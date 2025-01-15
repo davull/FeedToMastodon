@@ -60,8 +60,7 @@ public class Application(
 
         Task[] workerTasks =
         [
-            ..InitializeFeedWorkers(cancellationToken),
-            InitializeStatisticsWorker(cancellationToken)
+            ..InitializeFeedWorkers(cancellationToken)
         ];
         await Task.WhenAll(workerTasks);
     }
@@ -86,12 +85,5 @@ public class Application(
         }
 
         Worker CreateWorker(WorkerContext context) => new(context, mastodonClient);
-    }
-
-    private Task InitializeStatisticsWorker(CancellationToken cancellationToken)
-    {
-        var logger = loggerFactory.CreateLogger("Statistics");
-        var worker = new StatisticsWorker(logger);
-        return worker.Start(cancellationToken);
     }
 }
