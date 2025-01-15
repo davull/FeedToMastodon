@@ -1,20 +1,23 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using FTM.Lib.Data;
 using FTM.Lib.Extensions;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace FTM.Lib;
 
 [ExcludeFromCodeCoverage]
-public class StatisticsWorker(ILogger logger)
+public class StatisticsBackgroundService(ILogger<StatisticsBackgroundService> logger) : BackgroundService
 {
-    public async Task Start(CancellationToken cancellationToken = default)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         logger.LogInformation("StatisticsWorker started");
 
+        using var timer = new PeriodicTimer(TimeSpan.FromDays(1));
+
         try
         {
-            while (!cancellationToken.IsCancellationRequested)
+            do
             {
                 try
                 {
@@ -24,10 +27,7 @@ public class StatisticsWorker(ILogger logger)
                 {
                     logger.LogError(ex, "Error while processing statistics: {Message}", ex.Message);
                 }
-
-                const int delay = 1_000 * 60 * 60 * 24; // 24 hour
-                await Task.Delay(delay, cancellationToken);
-            }
+            } while (await timer.WaitForNextTickAsync(stoppingToken));
         }
         catch (OperationCanceledException)
         {
