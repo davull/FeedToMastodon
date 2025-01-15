@@ -1,7 +1,5 @@
 ﻿using FTM.App;
-using FTM.Lib;
 using FTM.Lib.Data;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 #pragma warning disable S2930
@@ -21,9 +19,7 @@ Console.WriteLine("Press Cntrl+C to stop application...");
 Database.Initialize();
 
 var host = new HostBuilder()
-    .ConfigureServices(services => services
-        .RegisterDependencies()
-        .RegisterWorkers())
+    .ConfigureServices(services => services.RegisterDependencies())
     .Build();
 await host.RunAsync(cts.Token);
 
