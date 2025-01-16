@@ -3,17 +3,18 @@ using System.Net;
 using FTM.Lib.Data;
 using FTM.Lib.Feeds;
 using FTM.Lib.Mastodon;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace FTM.Lib;
 
 [ExcludeFromCodeCoverage]
-public class Worker(WorkerContext context, IMastodonClient mastodonClient)
+public class FeedBackgroundWorker(WorkerContext context, IMastodonClient mastodonClient) : BackgroundService
 {
     private ILogger Logger => context.Logger;
     private FeedConfiguration Configuration => context.Configuration;
 
-    public async Task Start(CancellationToken cancellationToken = default)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         Logger.LogInformation("Worker started, loop delay: {LoopDelay}, feed: {FeedUri}",
             context.LoopDelay, Configuration.FeedUri);
@@ -22,13 +23,13 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
         {
             var startDelay = Config.WorkerStartDelay(context.LoopDelay);
             Logger.LogDebug("Delay worker start for {StartDelay}", startDelay.ToString(@"hh\:mm\:ss"));
-            await Task.Delay(startDelay, cancellationToken);
+            await Task.Delay(startDelay, stoppingToken);
 
-            while (!cancellationToken.IsCancellationRequested)
+            while (!stoppingToken.IsCancellationRequested)
             {
                 try
                 {
-                    await Loop(cancellationToken);
+                    await Loop(stoppingToken);
                     context.ResetLoopDelay();
                 }
                 catch (HttpRequestException ex) when (ex.StatusCode is HttpStatusCode.TooManyRequests)
@@ -52,7 +53,7 @@ public class Worker(WorkerContext context, IMastodonClient mastodonClient)
                         Configuration.FeedUri, ex.Message);
                 }
 
-                await Task.Delay(context.LoopDelay, cancellationToken);
+                await Task.Delay(context.LoopDelay, stoppingToken);
             }
         }
         catch (OperationCanceledException ex)
