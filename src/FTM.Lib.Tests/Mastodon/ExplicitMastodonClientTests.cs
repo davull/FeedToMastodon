@@ -1,7 +1,5 @@
-﻿using FluentAssertions;
-using FTM.Lib.Mastodon;
+﻿using FTM.Lib.Mastodon;
 using Microsoft.Extensions.Logging.Abstractions;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Mastodon;
 

@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace FTM.Lib.Tests;
+﻿namespace FTM.Lib.Tests;
 
 public abstract class TestBase
 {

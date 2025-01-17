@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-using Snapshooter;
-using Snapshooter.NUnit;
+﻿using Snapshooter;
 
 namespace FTM.Lib.Tests.Extensions;
 

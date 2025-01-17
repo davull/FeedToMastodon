@@ -1,8 +1,6 @@
 ﻿using Dapper;
-using FluentAssertions;
 using FTM.Lib.Data;
 using FTM.Lib.Tests.Extensions;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests;
 

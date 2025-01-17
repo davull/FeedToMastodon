@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-
-namespace FTM.Lib.Tests.Feeds;
+﻿namespace FTM.Lib.Tests.Feeds;
 
 public class UpdateTestFeeds
 {

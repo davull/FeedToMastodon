@@ -1,8 +1,6 @@
-﻿using FluentAssertions;
-using FluentAssertions.Execution;
+﻿using FluentAssertions.Execution;
 using FTM.Lib.Feeds;
 using FTM.Lib.Tests.Extensions;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Feeds;
 

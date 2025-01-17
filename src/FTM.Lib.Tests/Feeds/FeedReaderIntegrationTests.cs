@@ -1,7 +1,5 @@
 ﻿using System.Net;
-using FluentAssertions;
 using FTM.Lib.Feeds;
-using NUnit.Framework;
 using WireMock.RequestBuilders;
 using WireMock.ResponseBuilders;
 using WireMock.Server;
