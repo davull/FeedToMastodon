@@ -20,7 +20,7 @@ public class StatusSanitizerTests : TestBase
     public void Sanitize_Should_Remove_Html_Tags(string? content, string? expected)
     {
         var actual = StatusSanitizer.Sanitize(content);
-        actual.Should().BeEquivalentTo(expected);
+        actual.ShouldBe(expected);
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedsTestCases))]
@@ -31,7 +31,7 @@ public class StatusSanitizerTests : TestBase
         var sanitized = StatusSanitizer.Sanitize(raw);
 
         var snapshot = new { feedId, raw, sanitized };
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedsTestCases))]
@@ -48,7 +48,7 @@ public class StatusSanitizerTests : TestBase
             snapshot.Add(new { itemId, raw, sanitized });
         }
 
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedsTestCases))]
@@ -65,7 +65,7 @@ public class StatusSanitizerTests : TestBase
             snapshot.Add(new { itemId, raw, sanitized });
         }
 
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedsTestCases))]
@@ -82,6 +82,6 @@ public class StatusSanitizerTests : TestBase
             snapshot.Add(new { itemId, raw, sanitized });
         }
 
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 }

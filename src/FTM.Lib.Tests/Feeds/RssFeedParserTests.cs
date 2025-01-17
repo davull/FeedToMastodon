@@ -14,7 +14,7 @@ public class RssFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.CanRead(document);
 
-        actual.Should().BeTrue();
+        actual.ShouldBeTrue();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.AtomFeedContentTestCases))]
@@ -24,7 +24,7 @@ public class RssFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.CanRead(document);
 
-        actual.Should().BeFalse();
+        actual.ShouldBeFalse();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.RssFeedContentTestCases))]
@@ -33,7 +33,7 @@ public class RssFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.ParseFeed(document);
 
-        actual.Should().MatchSnapshotWithTestName(options => options
+        actual.MatchSnapshotWithTestName(options => options
             .IgnoreField("LastUpdatedTime")
             .IgnoreField("Items[*].PublishDate"));
     }

@@ -9,7 +9,7 @@ public class RepositoryTests : DatabaseTestBase
     public async Task SaveProcessedPost_WithStatusId_ShouldNotThrow()
     {
         var action = () => SaveTestPost();
-        await action.Should().NotThrowAsync();
+        await action.ShouldNotThrowAsync();
     }
 
     [Test]
@@ -20,7 +20,7 @@ public class RepositoryTests : DatabaseTestBase
 
         var action = () => Repository.SaveProcessedPost(feedId: feedId, itemId: itemId, feedTitle: "Test Feed");
 
-        await action.Should().NotThrowAsync();
+        await action.ShouldNotThrowAsync();
     }
 
     [Test]
@@ -40,7 +40,7 @@ public class RepositoryTests : DatabaseTestBase
             start: DateTimeOffset.UtcNow.AddHours(-1),
             end: DateTimeOffset.UtcNow.AddHours(1));
 
-        actual.Should().Be(1);
+        actual.ShouldBe(1);
     }
 
     [Test]
@@ -49,7 +49,7 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost();
 
         var actual = await Repository.GetProcessedItems(Dummies.GuidString(), [Dummies.GuidString()]);
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -58,7 +58,7 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost();
 
         var actual = await Repository.GetProcessedItems(Dummies.GuidString(), []);
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -73,7 +73,7 @@ public class RepositoryTests : DatabaseTestBase
             .Select(_ => Dummies.GuidString());
 
         var actual = await Repository.GetProcessedItems(feedId, [..itemIds, itemId]);
-        actual.Should().ContainSingle();
+        actual.ShouldHaveSingleItem();
     }
 
     [Test]
@@ -87,7 +87,7 @@ public class RepositoryTests : DatabaseTestBase
 
         var expected = Dummies.FeedIdItemId(feedId, itemId);
 
-        actual.Should().BeEquivalentTo([expected]);
+        actual.ShouldBe([expected]);
     }
 
     [Test]
@@ -101,7 +101,8 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost(feedId);
         await SaveTestPost(feedId);
 
-        var actual = await Repository.GetProcessedItems(feedId, [itemId1, itemId2]);
+        var actual = (await Repository.GetProcessedItems(feedId, [itemId1, itemId2]))
+            .OrderBy(item => item.ItemId);
 
         FeedIdItemId[] expected =
         [
@@ -109,7 +110,7 @@ public class RepositoryTests : DatabaseTestBase
             Dummies.FeedIdItemId(feedId, itemId2)
         ];
 
-        actual.Should().BeEquivalentTo(expected);
+        actual.ShouldBe(expected.OrderBy(item => item.ItemId));
     }
 
     [Test]
@@ -122,9 +123,9 @@ public class RepositoryTests : DatabaseTestBase
             => await SaveTestPost(feedId, itemId));
 
         // First call should not throw
-        await action.Should().NotThrowAsync();
+        await action.ShouldNotThrowAsync();
         // Second call should throw
-        await action.Should().ThrowAsync<SqliteException>();
+        await action.ShouldThrowAsync<SqliteException>();
     }
 
     [Test]
@@ -136,7 +137,7 @@ public class RepositoryTests : DatabaseTestBase
         var feedId = Dummies.GuidString();
         var actual = await Repository.FeedExists(feedId);
 
-        actual.Should().BeFalse();
+        actual.ShouldBeFalse();
     }
 
     [Test]
@@ -148,7 +149,7 @@ public class RepositoryTests : DatabaseTestBase
 
         var actual = await Repository.FeedExists(feedId);
 
-        actual.Should().BeTrue();
+        actual.ShouldBeTrue();
     }
 
     [Test]
@@ -159,7 +160,7 @@ public class RepositoryTests : DatabaseTestBase
         var end = DateTimeOffset.UtcNow.AddSeconds(10);
         var actual = await Repository.ProcessedPostsCountPerFeedInInterval(feedId, start, end);
 
-        actual.Should().Be(0);
+        actual.ShouldBe(0);
     }
 
     [Test]
@@ -174,7 +175,7 @@ public class RepositoryTests : DatabaseTestBase
         var end = DateTimeOffset.UtcNow.AddSeconds(10);
         var actual = await Repository.ProcessedPostsCountPerFeedInInterval(feedId, start, end);
 
-        actual.Should().Be(2);
+        actual.ShouldBe(2);
     }
 
     [Test]
@@ -190,7 +191,7 @@ public class RepositoryTests : DatabaseTestBase
         var end = DateTimeOffset.UtcNow;
         var actual = await Repository.ProcessedPostsCountPerFeedInInterval(feedId, start, end);
 
-        actual.Should().Be(2);
+        actual.ShouldBe(2);
     }
 
     [Test]
@@ -216,7 +217,7 @@ public class RepositoryTests : DatabaseTestBase
 
         var actual = await Repository.ProcessedPostsCountPerFeedInInterval(
             feedId, intervalStart, intervalEnd);
-        actual.Should().Be(2);
+        actual.ShouldBe(2);
     }
 
     [Test]
@@ -232,7 +233,7 @@ public class RepositoryTests : DatabaseTestBase
         var end = DateTimeOffset.UtcNow.AddSeconds(10);
         var actual = await Repository.ProcessedPostsCountPerFeedInInterval(feedId, start, end);
 
-        actual.Should().Be(2);
+        actual.ShouldBe(2);
     }
 
     [Test]
@@ -240,7 +241,7 @@ public class RepositoryTests : DatabaseTestBase
     {
         var actual = await Repository.GetFeedIds();
 
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -252,16 +253,19 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost(feedId1);
         await SaveTestPost(feedId2);
 
-        var actual = await Repository.GetFeedIds();
+        var actual = (await Repository.GetFeedIds())
+            .OrderBy(id => id);
 
-        actual.Should().BeEquivalentTo(feedId1, feedId2);
+        var expected = new[] { feedId1, feedId2 }.OrderBy(id => id);
+
+        actual.ShouldBe(expected);
     }
 
     [Test]
     public async Task GetFeedTitle_WoFeeds_ShouldReturnNull()
     {
         var actual = await Repository.GetFeedTitle(Dummies.GuidString());
-        actual.Should().BeNull();
+        actual.ShouldBeNull();
     }
 
     [Test]
@@ -271,7 +275,7 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost(feedId: feedId, feedTitle: null);
 
         var actual = await Repository.GetFeedTitle(feedId);
-        actual.Should().BeNull();
+        actual.ShouldBeNull();
     }
 
     [Test]
@@ -282,7 +286,7 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost(feedId: feedId, feedTitle: feedTitle);
 
         var actual = await Repository.GetFeedTitle(feedId);
-        actual.Should().Be(feedTitle);
+        actual.ShouldBe(feedTitle);
     }
 
     [Test]
@@ -296,7 +300,7 @@ public class RepositoryTests : DatabaseTestBase
         await SaveTestPost(feedId: feedId, feedTitle: "Last feed title", timestamp: timestamp.AddSeconds(1));
 
         var actual = await Repository.GetFeedTitle(feedId);
-        actual.Should().Be("Last feed title");
+        actual.ShouldBe("Last feed title");
     }
 
     private static async Task SaveTestPost(

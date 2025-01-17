@@ -1,5 +1,4 @@
-﻿using FluentAssertions.Execution;
-using FTM.Lib.Mastodon;
+﻿using FTM.Lib.Mastodon;
 using FTM.Lib.Tests.Extensions;
 using FTM.Lib.Tests.Feeds;
 
@@ -18,12 +17,10 @@ public class StatusBuilderTests : TestBase
 
         var status = StatusBuilder.CreateStatus(feedItem, "").Status;
 
-        using var _ = new AssertionScope();
-
-        status.Should().Contain("My post title");
-        status.Should().Contain("My summary");
-        status.Should().NotContain("My content");
-        status.Should().Contain("https://example.com/feed=123");
+        status.ShouldContain("My post title");
+        status.ShouldContain("My summary");
+        status.ShouldNotContain("My content");
+        status.ShouldContain("https://example.com/feed=123");
     }
 
     [Test]
@@ -37,11 +34,9 @@ public class StatusBuilderTests : TestBase
 
         var status = StatusBuilder.CreateStatus(feedItem, "").Status;
 
-        using var _ = new AssertionScope();
-
-        status.Should().Contain("My post title");
-        status.Should().Contain("My content");
-        status.Should().Contain("https://example.com/feed=123");
+        status.ShouldContain("My post title");
+        status.ShouldContain("My content");
+        status.ShouldContain("https://example.com/feed=123");
     }
 
     [Test]
@@ -60,7 +55,7 @@ public class StatusBuilderTests : TestBase
                                 ---
                                 https://example.com/feed=123
                                 """;
-        status.Should().BeEquivalentTo(expected);
+        status.ShouldBe(expected);
     }
 
     [Test]
@@ -82,7 +77,7 @@ public class StatusBuilderTests : TestBase
                                 ---
                                 https://example.com/feed=123
                                 """;
-        status.Should().BeEquivalentTo(expected);
+        status.ShouldBe(expected);
     }
 
     [Test]
@@ -104,14 +99,14 @@ public class StatusBuilderTests : TestBase
                                 ---
                                 https://example.com/feed=123
                                 """;
-        status.Should().BeEquivalentTo(expected);
+        status.ShouldBe(expected);
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void StatusContent_Should_MatchSnapshot(FeedItem item, string separator)
     {
         var status = StatusBuilder.CreateStatus(item, separator);
-        status.Status.Should().MatchSnapshotWithTestName();
+        status.Status.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
@@ -134,7 +129,7 @@ public class StatusBuilderTests : TestBase
             status.Visibility,
             Status = status.Status[..index] + "..."
         };
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
@@ -144,17 +139,15 @@ public class StatusBuilderTests : TestBase
 
         var split = status.Status.Split("---");
 
-        using var _ = new AssertionScope();
-
-        split[0].Should().NotBeNullOrWhiteSpace();
-        split[1].Should().NotBeNullOrWhiteSpace();
+        split[0].ShouldNotBeNullOrWhiteSpace();
+        split[1].ShouldNotBeNullOrWhiteSpace();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_Should_HaveLanguage(FeedItem item, string separator)
     {
         var status = StatusBuilder.CreateStatus(item, separator);
-        status.Language.Should().NotBeNullOrWhiteSpace();
+        status.Language.ShouldNotBeNullOrWhiteSpace();
     }
 
     [Test]
@@ -170,8 +163,10 @@ public class StatusBuilderTests : TestBase
             })
             .ToList();
 
-        groups.Should().AllSatisfy(
-            g => g.Should().ContainSingle());
+        foreach (var group in groups)
+        {
+            group.ShouldContainSingle();
+        }
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithSeparatorTestCases))]
@@ -185,6 +180,6 @@ public class StatusBuilderTests : TestBase
             raw__ = statusWoSeparator.Status,
             split = statusWithSeparator.Status
         };
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 }

@@ -31,7 +31,7 @@ public class MastodonClientIntegrationTests : TestBase
 
         var statusId = await PostStatus();
 
-        statusId.Should().Be("123456789012345678");
+        statusId.ShouldBe("123456789012345678");
     }
 
     [Test]
@@ -41,8 +41,8 @@ public class MastodonClientIntegrationTests : TestBase
 
         var action = async () => await PostStatus();
 
-        await action.Should().ThrowAsync<InvalidOperationException>()
-            .WithMessage("*The access token is invalid*");
+        (await action.ShouldThrowAsync<InvalidOperationException>())
+            .Message.ShouldContain("The access token is invalid");
     }
 
     [Test]
@@ -52,12 +52,11 @@ public class MastodonClientIntegrationTests : TestBase
 
         var action = async () => await PostStatus();
 
-        var exception = (await action.Should().ThrowAsync<RateLimitException>())
-            .Subject.Single();
+        var exception = await action.ShouldThrowAsync<RateLimitException>();
 
         var expected = Dummies.RateLimit();
 
-        exception.RateLimit.Should().BeEquivalentTo(expected);
+        exception.RateLimit.ShouldBe(expected);
     }
 
     [Test]
@@ -67,10 +66,9 @@ public class MastodonClientIntegrationTests : TestBase
 
         var action = async () => await PostStatus();
 
-        var exception = (await action.Should().ThrowAsync<RateLimitException>())
-            .Subject.Single();
+        var exception = await action.ShouldThrowAsync<RateLimitException>();
 
-        exception.RateLimit.Should().BeNull();
+        exception.RateLimit.ShouldBeNull();
     }
 
     private void SetupServer(int statusCode, string responseFileName,

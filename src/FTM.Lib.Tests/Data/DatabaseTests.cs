@@ -9,7 +9,7 @@ public class DatabaseTests : DatabaseTestBase
     public async Task AfterInitialize_GetTables_ShouldMatchSnapshot()
     {
         var tables = await Database.GetTables();
-        tables.Should().MatchSnapshot();
+        tables.MatchSnapshot();
     }
 
     [Test]
@@ -30,6 +30,6 @@ public class DatabaseTests : DatabaseTestBase
             }
         }
 
-        snapshot.ToString().Should().MatchSnapshot();
+        snapshot.ToString().MatchSnapshot();
     }
 }

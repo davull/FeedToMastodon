@@ -1,5 +1,5 @@
-﻿using FluentAssertions.Execution;
-using FTM.Lib.Data;
+﻿using FTM.Lib.Data;
+using FTM.Lib.Tests.Extensions;
 
 namespace FTM.Lib.Tests.Data;
 
@@ -34,12 +34,10 @@ public class GlobalStatisticsTests : DatabaseTestBase
         var now = DateTimeOffset(10, 2, 15);
         var stats = await GlobalStatistics.PostsProcessedPerFeedLastDay(now);
 
-        using var _ = new AssertionScope();
-
-        stats.Should().HaveCount(2);
-
-        stats.Should().ContainSingle(s => s.FeedTitle == feedTitle1 && s.Count == 4);
-        stats.Should().ContainSingle(s => s.FeedTitle == feedTitle2 && s.Count == 3);
+        stats.ShouldHaveCount(2);
+        stats.ShouldContainSingle(s => s.FeedTitle == feedTitle1 && s.Count == 4);
+        stats.ShouldContainSingle(s => s.FeedTitle == feedTitle1 && s.Count == 4);
+        stats.ShouldContainSingle(s => s.FeedTitle == feedTitle2 && s.Count == 3);
     }
 
     [Test]
@@ -72,12 +70,9 @@ public class GlobalStatisticsTests : DatabaseTestBase
         var now = DateTimeOffset(10, 2, 15);
         var stats = await GlobalStatistics.PostsProcessedPerFeedLastWeek(now);
 
-        using var _ = new AssertionScope();
-
-        stats.Should().HaveCount(2);
-
-        stats.Should().ContainSingle(s => s.FeedTitle == feedTitle1 && s.Count == 4);
-        stats.Should().ContainSingle(s => s.FeedTitle == feedTitle2 && s.Count == 3);
+        stats.ShouldHaveCount(2);
+        stats.ShouldContainSingle(s => s.FeedTitle == feedTitle1 && s.Count == 4);
+        stats.ShouldContainSingle(s => s.FeedTitle == feedTitle2 && s.Count == 3);
     }
 
     private static async Task SaveTestPost(DateTimeOffset timestamp, string? statusId = null,

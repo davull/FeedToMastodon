@@ -10,9 +10,9 @@ public class FeedParserBaseTests
     public void TryGetDate_WithInvalidString_ShouldReturnNull(string? value)
     {
         var actual = FeedParserBase.TryGetDate(value);
-        actual.Should().BeNull();
+        actual.ShouldBeNull();
     }
-   
+
     [TestCase("2024-01-31")]
     [TestCase("2024-01-31 12:00:00")]
     [TestCase("Tue, 08 Mar 2022 18:39:11 +0000")]
@@ -29,6 +29,6 @@ public class FeedParserBaseTests
     public void TryGetDate_WithValidString_ShouldReturnValue(string value)
     {
         var actual = FeedParserBase.TryGetDate(value);
-        actual.Should().NotBeNull();
+        actual.ShouldNotBeNull();
     }
 }

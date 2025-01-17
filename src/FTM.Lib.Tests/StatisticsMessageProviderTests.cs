@@ -17,7 +17,7 @@ public class StatisticsMessageProviderTests : TestBase
 
         var message = StatisticsMessageProvider.CreateMessage(postsPerHour);
 
-        message.Should().BeEmpty();
+        message.ShouldBeEmpty();
     }
 
     [Test]
@@ -33,7 +33,7 @@ public class StatisticsMessageProviderTests : TestBase
             new("Feed number 3", 0, start, end)
         };
         var message = StatisticsMessageProvider.CreateMessage(postsPerFeed);
-        message.Should().MatchSnapshot();
+        message.MatchSnapshot();
     }
 
     [Test]
@@ -51,7 +51,7 @@ public class StatisticsMessageProviderTests : TestBase
             new("Very long feed title with many chars - Very long feed title with many chars", 9_999, start, end)
         };
         var message = StatisticsMessageProvider.CreateMessage(postsPerFeed);
-        message.Should().MatchSnapshot();
+        message.MatchSnapshot();
     }
 
     private static DateTimeOffset DateTimeOffset(int month, int day,

@@ -14,7 +14,7 @@ public class RdfFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.CanRead(document);
 
-        actual.Should().BeTrue();
+        actual.ShouldBeTrue();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.RssFeedContentTestCases))]
@@ -24,7 +24,7 @@ public class RdfFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.CanRead(document);
 
-        actual.Should().BeFalse();
+        actual.ShouldBeFalse();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.RdfFeedContentTestCases))]
@@ -33,6 +33,6 @@ public class RdfFeedParserTests : TestBase
         var document = XDocument.Parse(content);
         var actual = _sut.ParseFeed(document);
 
-        actual.Should().MatchSnapshotWithTestName();
+        actual.MatchSnapshotWithTestName();
     }
 }
