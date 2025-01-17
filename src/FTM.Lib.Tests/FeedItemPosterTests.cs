@@ -18,9 +18,10 @@ public class FeedItemPosterTests
         ];
 
         var feed = Dummies.Feed(items: items);
-        var actual = FeedItemPoster.GetRelevantItems(feed, processedItems);
+        var actual = FeedItemPoster.GetRelevantItems(feed, processedItems)
+            .OrderBy(item => item.ItemId);
 
-        actual.Should().BeEquivalentTo(items);
+        actual.ShouldBe(items.OrderBy(i => i.ItemId));
     }
 
     [Test]
@@ -35,7 +36,7 @@ public class FeedItemPosterTests
         var feed = Dummies.Feed(items: items);
         var actual = FeedItemPoster.GetRelevantItems(feed, []);
 
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -54,7 +55,7 @@ public class FeedItemPosterTests
         var feed = Dummies.Feed(items: items);
         var actual = FeedItemPoster.GetRelevantItems(feed, processedItems);
 
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -73,10 +74,10 @@ public class FeedItemPosterTests
 
         await FeedItemPoster.ProcessFeed(feed, [], SavePost, PostStatus, context);
 
-        savePostFeedId.Should().Be(feed.Id);
-        savePostItemId.Should().Be(item.ItemId);
-        savePostStatusId.Should().Be(postStatusId);
-        saveFeedTitle.Should().Be("Best feed ever");
+        savePostFeedId.ShouldBe(feed.Id);
+        savePostItemId.ShouldBe(item.ItemId);
+        savePostStatusId.ShouldBe(postStatusId);
+        saveFeedTitle.ShouldBe("Best feed ever");
 
         Task SavePost(string feedId, string itemId, string statusId, string? feedTitle)
         {

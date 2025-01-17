@@ -23,6 +23,6 @@ public class ExplicitMastodonClientTests : TestBase
             MastodonStatusVisibility.Private);
 
         var postId = await _client.PostStatus(status, WorkerContext, default);
-        postId.Should().NotBeNullOrEmpty();
+        postId.ShouldNotBeNullOrEmpty();
     }
 }

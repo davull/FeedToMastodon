@@ -11,7 +11,7 @@ public class ConfigTests
     {
         Environment.SetEnvironmentVariable(Config.DatabaseNameKey, env);
 
-        Path.IsPathRooted(Config.DatabaseName).Should().BeTrue();
+        Path.IsPathRooted(Config.DatabaseName).ShouldBeTrue();
     }
 
     [Test]
@@ -23,7 +23,7 @@ public class ConfigTests
 
         Environment.SetEnvironmentVariable(Config.DatabaseNameKey, env);
 
-        Config.DatabaseName.Should().Be(env);
+        Config.DatabaseName.ShouldBe(env);
     }
 
     [TestCase("", false)]
@@ -37,7 +37,7 @@ public class ConfigTests
     {
         Environment.SetEnvironmentVariable(Config.UseMastodonTestClientKey, env);
 
-        Config.UseMastodonTestClient.Should().Be(expected);
+        Config.UseMastodonTestClient.ShouldBe(expected);
     }
 
     [Test]
@@ -49,9 +49,8 @@ public class ConfigTests
 
             var actual = Config.WorkerStartDelay(loopDelay, _random);
 
-            actual.Should()
-                .BeGreaterOrEqualTo(TimeSpan.Zero)
-                .And.BeLessThanOrEqualTo(loopDelay / 2);
+            actual.ShouldBeGreaterThanOrEqualTo(TimeSpan.Zero);
+            actual.ShouldBeLessThanOrEqualTo(loopDelay / 2);
         }
     }
 
@@ -65,6 +64,6 @@ public class ConfigTests
             .Select(d => d.TotalMilliseconds)
             .ToList();
 
-        delays.Should().OnlyHaveUniqueItems();
+        delays.ShouldBeUnique();
     }
 }

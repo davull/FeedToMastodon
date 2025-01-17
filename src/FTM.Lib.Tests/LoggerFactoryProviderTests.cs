@@ -1,5 +1,4 @@
-﻿using FluentAssertions.Execution;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace FTM.Lib.Tests;
@@ -12,7 +11,7 @@ public class LoggerFactoryProviderTests
         var factory = LoggerFactoryProvider.Create(CreateConfiguration(LogLevel.Information));
         var logger = factory.CreateLogger("MyCategory");
 
-        logger.Should().NotBeNull();
+        logger.ShouldNotBeNull();
     }
 
     [TestCase(LogLevel.Debug)]
@@ -33,13 +32,15 @@ public class LoggerFactoryProviderTests
             .Where(l => l >= logLevel)
             .Except([LogLevel.None]);
 
-        using var _ = new AssertionScope();
+        foreach (var level in disabledLogLevels)
+        {
+            logger.IsEnabled(level).ShouldBeFalse();
+        }
 
-        disabledLogLevels.Should()
-            .AllSatisfy(l => logger.IsEnabled(l).Should().BeFalse());
-
-        enabledLogLevels.Should()
-            .AllSatisfy(l => logger.IsEnabled(l).Should().BeTrue());
+        foreach (var level in enabledLogLevels)
+        {
+            logger.IsEnabled(level).ShouldBeTrue();
+        }
     }
 
     [Test]
@@ -52,8 +53,10 @@ public class LoggerFactoryProviderTests
         var enabledLogLevels = Enum.GetValues<LogLevel>()
             .Except([LogLevel.None]);
 
-        enabledLogLevels.Should()
-            .AllSatisfy(l => logger.IsEnabled(l).Should().BeTrue());
+        foreach (var level in enabledLogLevels)
+        {
+            logger.IsEnabled(level).ShouldBeTrue();
+        }
     }
 
     [Test]
@@ -62,8 +65,8 @@ public class LoggerFactoryProviderTests
         var factory = LoggerFactoryProvider.Create(CreateConfiguration(null));
         var logger = factory.CreateLogger("MyCategory");
 
-        logger.IsEnabled(LogLevel.Debug).Should().BeFalse();
-        logger.IsEnabled(LogLevel.Information).Should().BeTrue();
+        logger.IsEnabled(LogLevel.Debug).ShouldBeFalse();
+        logger.IsEnabled(LogLevel.Information).ShouldBeTrue();
     }
 
     private static IConfiguration CreateConfiguration(LogLevel? logLevel)

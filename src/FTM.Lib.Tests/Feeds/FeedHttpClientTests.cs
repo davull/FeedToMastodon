@@ -11,8 +11,8 @@ public class FeedHttpClientTests : TestBase
         using var httpClient = new HttpClient();
         var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
 
-        result.ContentHasChanged.Should().BeTrue();
-        result.Content.Should().NotBeNull();
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
     }
 
     [Theory]
@@ -27,6 +27,6 @@ public class FeedHttpClientTests : TestBase
     public void IsValidETag_Should_ReturnExpected(string? etag, bool expected)
     {
         var actual = FeedHttpClient.IsValidETag(etag);
-        actual.Should().Be(expected);
+        actual.ShouldBe(expected);
     }
 }

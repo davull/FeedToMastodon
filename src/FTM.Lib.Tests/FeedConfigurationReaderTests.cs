@@ -1,4 +1,6 @@
-﻿namespace FTM.Lib.Tests;
+﻿using FTM.Lib.Tests.Extensions;
+
+namespace FTM.Lib.Tests;
 
 public class FeedConfigurationReaderTests : TestBase
 {
@@ -9,8 +11,8 @@ public class FeedConfigurationReaderTests : TestBase
 
         var action = () => FeedConfigurationReader.ReadConfiguration(filePath);
 
-        action.Should().Throw<ArgumentException>()
-            .WithMessage("*mastodon_server*");
+        action.ShouldThrow<ArgumentException>()
+            .Message.ShouldContain("mastodon_server");
     }
 
     [Test]
@@ -20,8 +22,8 @@ public class FeedConfigurationReaderTests : TestBase
 
         var action = () => FeedConfigurationReader.ReadConfiguration(filePath);
 
-        action.Should().Throw<ArgumentException>()
-            .WithMessage("*feed_url is not a valid URI*");
+        action.ShouldThrow<ArgumentException>()
+            .Message.ShouldContain("feed_url is not a valid URI");
     }
 
     [Test]
@@ -31,7 +33,7 @@ public class FeedConfigurationReaderTests : TestBase
 
         var actual = FeedConfigurationReader.ReadConfiguration(filePath);
 
-        actual.Should().BeEmpty();
+        actual.ShouldBeEmpty();
     }
 
     [Test]
@@ -41,9 +43,12 @@ public class FeedConfigurationReaderTests : TestBase
 
         var actual = FeedConfigurationReader.ReadConfiguration(filePath);
 
-        actual.Should().NotBeNullOrEmpty();
-        actual.Should().AllSatisfy(
-            config => config.WorkerLoopDelay.Should().BeNull());
+        actual.ShouldNotBeNullOrEmpty();
+
+        foreach (var config in actual)
+        {
+            config.WorkerLoopDelay.ShouldBeNull();
+        }
     }
 
     [Test]
@@ -53,8 +58,8 @@ public class FeedConfigurationReaderTests : TestBase
 
         var actual = FeedConfigurationReader.ReadConfiguration(filePath);
 
-        actual.Should().NotBeNullOrEmpty();
-        actual.Should().MatchSnapshot();
+        actual.ShouldNotBeNullOrEmpty();
+        actual.MatchSnapshot();
     }
 
     [Test]
@@ -64,14 +69,16 @@ public class FeedConfigurationReaderTests : TestBase
 
         var actual = FeedConfigurationReader.ReadConfiguration(filePath);
 
-        actual.Should().NotBeNullOrEmpty();
+        actual.ShouldNotBeNullOrEmpty();
 
-        actual.Should().AllSatisfy(
-            config => config.WorkerLoopDelay.Should().NotBeNull());
+        foreach (var config in actual)
+        {
+            config.WorkerLoopDelay.ShouldNotBeNull();
+        }
 
         var snapshot = actual.Select(a => new
             { a.Title, a.WorkerLoopDelay });
-        snapshot.Should().MatchSnapshot();
+        snapshot.MatchSnapshot();
     }
 
     private static string FilePath(string fileName) =>

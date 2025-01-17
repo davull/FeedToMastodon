@@ -37,8 +37,8 @@ public class FeedReaderIntegrationTests : TestBase
         using var httpClient = new HttpClient();
         var result = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag, CancellationToken.None);
 
-        result.feed.Should().NotBeNull();
-        result.etag.Should().Be(ETag);
+        result.feed.ShouldNotBeNull();
+        result.etag.ShouldBe(ETag);
     }
 
     [Test]
@@ -49,8 +49,8 @@ public class FeedReaderIntegrationTests : TestBase
         using var httpClient = new HttpClient();
         var result = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, ETag, CancellationToken.None);
 
-        result.feed.Should().BeNull();
-        result.etag.Should().Be(ETag);
+        result.feed.ShouldBeNull();
+        result.etag.ShouldBe(ETag);
     }
 
     private void SetupServer()

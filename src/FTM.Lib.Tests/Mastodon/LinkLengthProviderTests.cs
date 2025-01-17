@@ -10,7 +10,7 @@ public class LinkLengthProviderTests
         Uri? link = null;
 
         var actual = LinkLengthProvider.GetRelevantLength(link);
-        actual.Should().Be(0);
+        actual.ShouldBe(0);
     }
 
     [TestCase("https://www.google.de")]
@@ -22,6 +22,6 @@ public class LinkLengthProviderTests
         var link = new Uri(uri);
 
         var actual = LinkLengthProvider.GetRelevantLength(link);
-        actual.Should().Be(23);
+        actual.ShouldBe(23);
     }
 }

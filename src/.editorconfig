@@ -8,5 +8,6 @@ max_line_length = 120
 dotnet_diagnostic.S112.severity = none
 dotnet_diagnostic.S125.severity = none
 dotnet_diagnostic.S1125.severity = none
+dotnet_diagnostic.S2699.severity = none
 dotnet_diagnostic.S6605.severity = none
 dotnet_diagnostic.S6667.severity = none

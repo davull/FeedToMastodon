@@ -8,7 +8,7 @@ public class ContentComparerTests
     public void Compare_Should_Return_Expected(string first, string second, ContentComparer.CompareResult expected)
     {
         var actual = ContentComparer.Compare(first, second);
-        actual.Should().Be(expected);
+        actual.ShouldBe(expected);
     }
 
     private static IEnumerable<TestCaseData> TestCases()

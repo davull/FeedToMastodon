@@ -19,7 +19,7 @@ public class DatabaseExplainTests : DatabaseTestBase
             sql
         };
 
-        snapshot.Should().MatchSnapshotWithTestName();
+        snapshot.MatchSnapshotWithTestName();
     }
 
     private static IEnumerable<TestCaseData> ExplainTestCases()

@@ -20,7 +20,7 @@ public class RealMigrationsTests : TestBase
 
             // ReSharper disable once AccessToDisposedClosure
             var action = () => Migrations.ApplyMigrations(con);
-            action.Should().NotThrow();
+            action.ShouldNotThrow();
 
             await con.CloseAsync();
 

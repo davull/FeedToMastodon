@@ -1,5 +1,4 @@
-﻿using FluentAssertions.Execution;
-using FTM.Lib.Feeds;
+﻿using FTM.Lib.Feeds;
 using FTM.Lib.Tests.Extensions;
 
 namespace FTM.Lib.Tests.Feeds;
@@ -12,14 +11,16 @@ public class FeedReaderTests : TestBase
     {
         using var httpClient = new HttpClient();
         var feed = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag: null, CancellationToken.None);
-        feed.Should().NotBeNull();
+
+        feed.feed.ShouldNotBeNull();
+        feed.etag.ShouldNotBeNullOrEmpty();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.ValidRssContentTestCases))]
     public void CanReadValidRssContent(string content)
     {
         var feed = FeedReader.Read(content);
-        feed.Should().NotBeNull();
+        feed.ShouldNotBeNull();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.ValidRssContentTestCases))]
@@ -27,26 +28,24 @@ public class FeedReaderTests : TestBase
     {
         var feed = FeedReader.Read(content);
 
-        using var _ = new AssertionScope();
+        feed.Id.ShouldNotBeNullOrEmpty();
+        feed.Website.ShouldNotBeNull();
+        feed.Title.ShouldNotBeNullOrEmpty();
+        feed.Items.ShouldNotBeEmpty();
 
-        feed.Id.Should().NotBeNullOrEmpty();
-        feed.Website.Should().NotBeNull();
-        feed.Title.Should().NotBeNullOrEmpty();
-        feed.Items.Should().NotBeEmpty();
-
-        feed.Items.Should().AllSatisfy(item =>
+        foreach (var item in feed.Items)
         {
-            item.ItemId.Should().NotBeNullOrEmpty();
-            item.Title.Should().NotBeNullOrEmpty();
-            item.Link.Should().NotBeNull();
-        });
+            item.ItemId.ShouldNotBeNullOrEmpty();
+            item.Title.ShouldNotBeNullOrEmpty();
+            item.Link.ShouldNotBeNull();
+        }
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.ValidRssContentTestCases))]
     public void Feed_Should_MatchSnapshot(string content)
     {
         var feed = FeedReader.Read(content);
-        feed.Should().MatchSnapshotWithTestName(options => options
+        feed.MatchSnapshotWithTestName(options => options
             .IgnoreField("LastUpdatedTime")
             .IgnoreField("Items[*].PublishDate")
         );

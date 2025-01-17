@@ -15,7 +15,7 @@ public class MigrationsTests : DatabaseTestBase
             .Select(s => new { s.Name, s.Contents })
             .ToList();
 
-        snapshot.Should().MatchSnapshot();
+        snapshot.MatchSnapshot();
     }
 
     [Test]
@@ -25,20 +25,20 @@ public class MigrationsTests : DatabaseTestBase
 
         // ReSharper disable once AccessToDisposedClosure
         var action = () => Migrations.ApplyMigrations(connection);
-        action.Should().NotThrow();
+        action.ShouldNotThrow();
     }
 
     [Test]
     public async Task ApplyMigrations_WoDatabase_Should_CreateSchemaTable()
     {
         var schemaTableExistsBefore = await Database.TableExists("SchemaVersions");
-        schemaTableExistsBefore.Should().BeFalse();
+        schemaTableExistsBefore.ShouldBeFalse();
 
         using var connection = Database.CreateConnection();
         Migrations.ApplyMigrations(connection);
 
         var schemaTableExistsAfter = await Database.TableExists("SchemaVersions");
-        schemaTableExistsAfter.Should().BeTrue();
+        schemaTableExistsAfter.ShouldBeTrue();
     }
 
     [Test]
@@ -49,6 +49,6 @@ public class MigrationsTests : DatabaseTestBase
         Migrations.ApplyMigrations(connection);
 
         var tables = (await Database.GetTables()).Order();
-        tables.Should().MatchSnapshot();
+        tables.MatchSnapshot();
     }
 }

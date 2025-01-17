@@ -40,8 +40,8 @@ public class HttpClientProviderTests : TestBase
         var response = await client.GetAsync(uri);
         var content = await response.Content.ReadAsStringAsync();
 
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
-        content.Should().NotBeNullOrWhiteSpace();
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
+        content.ShouldNotBeNullOrWhiteSpace();
     }
 
     [Test]
@@ -54,7 +54,7 @@ public class HttpClientProviderTests : TestBase
 
         var response = await client.GetAsync(uri);
 
-        response.StatusCode.Should().Be(HttpStatusCode.BadGateway);
+        response.StatusCode.ShouldBe(HttpStatusCode.BadGateway);
     }
 
     [Test]
@@ -67,7 +67,7 @@ public class HttpClientProviderTests : TestBase
 
         var response = await client.GetAsync(uri);
 
-        response.StatusCode.Should().Be(HttpStatusCode.TooManyRequests);
+        response.StatusCode.ShouldBe(HttpStatusCode.TooManyRequests);
     }
 
     private void SetupServer(params int[] status)

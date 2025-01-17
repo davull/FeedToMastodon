@@ -8,7 +8,7 @@ public class FeedOnboardingTests
     {
         var actual = await FeedOnboarding.IsNewFeed(Dummies.Feed(), FeedExists);
 
-        actual.Should().Be(expected);
+        actual.ShouldBe(expected);
 
         Task<bool> FeedExists(string _) => Task.FromResult(exists);
     }
@@ -29,7 +29,7 @@ public class FeedOnboardingTests
 
         var expected = feed.Items.Select(i => (feed.Id, i.ItemId, feed.Title));
 
-        savedItems.Should().BeEquivalentTo(expected);
+        savedItems.ShouldBe(expected);
 
         Task SavePost(string f, string i, string? t)
         {
@@ -54,8 +54,8 @@ public class FeedOnboardingTests
 
         await FeedOnboarding.OnboardNewFeed(feed, SavePost);
 
-        savedItems.Should().HaveCount(2);
-        savedItems.Should().OnlyHaveUniqueItems();
+        savedItems.Count.ShouldBe(2);
+        savedItems.ShouldBeUnique();
 
         Task SavePost(string f, string i, string? t)
         {

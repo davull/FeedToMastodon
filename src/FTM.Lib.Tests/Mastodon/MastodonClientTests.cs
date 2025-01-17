@@ -13,7 +13,7 @@ public class MastodonClientTests : TestBase
         var content = MastodonClient.GetStatusContent(mastodonStatus);
         var actual = await content.ReadAsStringAsync();
 
-        actual.Should().MatchSnapshotWithTestName();
+        actual.MatchSnapshotWithTestName();
     }
 
     private static IEnumerable<TestCaseData> StatusContentTestCases()
@@ -46,7 +46,7 @@ public class MastodonClientTests : TestBase
         var status = Dummies.MastodonStatus();
         var actual = MastodonClient.CreateIdempotencyKey(status);
 
-        actual.Should().NotBeNullOrWhiteSpace();
+        actual.ShouldNotBeNullOrWhiteSpace();
     }
 
     [Test]
@@ -57,7 +57,7 @@ public class MastodonClientTests : TestBase
         var key1 = MastodonClient.CreateIdempotencyKey(status);
         var key2 = MastodonClient.CreateIdempotencyKey(status);
 
-        key1.Should().Be(key2);
+        key1.ShouldBe(key2);
     }
 
     [Test]
@@ -68,6 +68,6 @@ public class MastodonClientTests : TestBase
             Dummies.MastodonStatus(),
             "access-token");
 
-        request.Should().MatchSnapshot();
+        request.MatchSnapshot();
     }
 }
