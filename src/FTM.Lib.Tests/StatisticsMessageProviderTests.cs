@@ -1,7 +1,4 @@
 ﻿using System.Globalization;
-using FluentAssertions;
-using NUnit.Framework;
-using Snapshooter.NUnit;
 
 namespace FTM.Lib.Tests;
 

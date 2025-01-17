@@ -1,8 +1,6 @@
 ﻿using System.Xml.Linq;
-using FluentAssertions;
 using FTM.Lib.Feeds;
 using FTM.Lib.Tests.Extensions;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Feeds;
 

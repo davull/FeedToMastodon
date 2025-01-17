@@ -1,6 +1,4 @@
-using FluentAssertions;
 using FTM.Lib.Feeds;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Feeds;
 

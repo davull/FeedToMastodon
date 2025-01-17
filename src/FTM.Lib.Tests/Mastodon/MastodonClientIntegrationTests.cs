@@ -1,7 +1,5 @@
-﻿using FluentAssertions;
-using FTM.Lib.Mastodon;
+﻿using FTM.Lib.Mastodon;
 using Microsoft.Extensions.Logging.Abstractions;
-using NUnit.Framework;
 using WireMock.RequestBuilders;
 using WireMock.ResponseBuilders;
 using WireMock.Server;

@@ -1,8 +1,5 @@
-﻿using FluentAssertions;
-using FTM.Lib.Mastodon;
+﻿using FTM.Lib.Mastodon;
 using FTM.Lib.Tests.Extensions;
-using NUnit.Framework;
-using Snapshooter.NUnit;
 
 namespace FTM.Lib.Tests.Mastodon;
 

@@ -1,5 +1,4 @@
 ﻿using FTM.Lib.Data;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests;
 

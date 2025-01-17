@@ -1,7 +1,5 @@
-﻿using FluentAssertions;
-using FluentAssertions.Execution;
+﻿using FluentAssertions.Execution;
 using FTM.Lib.Data;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Data;
 

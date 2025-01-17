@@ -1,8 +1,6 @@
-﻿using FluentAssertions;
-using FluentAssertions.Execution;
+﻿using FluentAssertions.Execution;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests;
 

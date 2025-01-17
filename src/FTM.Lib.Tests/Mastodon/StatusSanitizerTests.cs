@@ -1,8 +1,6 @@
-﻿using FluentAssertions;
-using FTM.Lib.Mastodon;
+﻿using FTM.Lib.Mastodon;
 using FTM.Lib.Tests.Extensions;
 using FTM.Lib.Tests.Feeds;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Mastodon;
 

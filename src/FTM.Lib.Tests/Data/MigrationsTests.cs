@@ -1,7 +1,4 @@
-﻿using FluentAssertions;
-using FTM.Lib.Data;
-using NUnit.Framework;
-using Snapshooter.NUnit;
+﻿using FTM.Lib.Data;
 
 namespace FTM.Lib.Tests.Data;
 

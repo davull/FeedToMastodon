@@ -1,7 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 using FTM.Lib.Feeds;
-using NUnit.Framework;
 
 namespace FTM.Lib.Tests.Feeds;
 

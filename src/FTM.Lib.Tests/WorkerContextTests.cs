@@ -1,7 +1,4 @@
-﻿using FluentAssertions;
-using NUnit.Framework;
-
-namespace FTM.Lib.Tests;
+﻿namespace FTM.Lib.Tests;
 
 public class WorkerContextTests
 {

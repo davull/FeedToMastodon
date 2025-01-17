@@ -1,8 +1,4 @@
-﻿using FluentAssertions;
-using NUnit.Framework;
-using Snapshooter.NUnit;
-
-namespace FTM.Lib.Tests;
+﻿namespace FTM.Lib.Tests;
 
 public class FeedConfigurationReaderTests : TestBase
 {
