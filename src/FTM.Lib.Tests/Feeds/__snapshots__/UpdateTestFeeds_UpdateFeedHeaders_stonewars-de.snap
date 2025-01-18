@@ -1,0 +1,14 @@
+﻿Alt-Svc                       : h3=":443"
+cf-cache-status               : DYNAMIC
+cf-edge-cache                 : cache,platform=wordpress
+Connection                    : keep-alive
+ETag                          : W/"3e247fe2bdd23370733a9800dea0199e"
+Link                          : <https://www.stonewars.de/wp-json/>; rel="https://api.w.org/", <https://www.stonewars.de/>; rel="canonical"
+NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server                        : cloudflare
+Strict-Transport-Security     : max-age=63072000
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+X-Cache                       : HIT
+x-cache-device-type           : responsive
+x-cache-type                  : NGINX

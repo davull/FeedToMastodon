@@ -1,0 +1,19 @@
+﻿Access-Control-Allow-Methods  : GET, POST, OPTIONS
+Access-Control-Allow-Origin   : *
+Alt-Svc                       : h3=":443"
+Cache-Control                 : must-revalidate, max-age=300
+cf-cache-status               : DYNAMIC
+Connection                    : keep-alive
+Referrer-Policy               : strict-origin-when-cross-origin
+Server                        : cloudflare
+Strict-Transport-Security     : max-age=31536000
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+x-cache-key                   : GEThttpswww.businessinsider.de/feed/businessinsider-alle-artikelnono
+x-cache-status                : EXPIRED
+X-Content-Type-Options        : nosniff
+x-design-by                   : level-level.com
+X-Frame-Options               : SAMEORIGIN
+x-google-bot                  : no
+x-is-app                      : no
+x-proxy-cache                 : HIT

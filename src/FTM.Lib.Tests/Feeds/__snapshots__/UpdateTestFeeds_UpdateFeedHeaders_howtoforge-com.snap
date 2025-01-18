@@ -1,0 +1,18 @@
+﻿Age                           : 2449
+Alt-Svc                       : h3=":443"
+Cache-Control                 : max-age=3600, private
+CF-Cache-Status               : HIT
+Connection                    : keep-alive
+display                       : staticcontent_sol
+NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Pragma                        : no-cache
+response                      : 200
+Server                        : cloudflare
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding, Origin
+X-Content-Type-Options        : nosniff
+x-ez-proxy-out                : true 2.4
+x-ezoic-cdn                   : Bypass
+X-Frame-Options               : SAMEORIGIN
+x-middleton-display           : staticcontent_sol
+x-middleton-response          : 200

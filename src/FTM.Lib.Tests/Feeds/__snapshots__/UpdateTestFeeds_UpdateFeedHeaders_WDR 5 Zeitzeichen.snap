@@ -1,0 +1,6 @@
+﻿Cache-Control                 : max-age=178
+Connection                    : keep-alive, Transfer-Encoding
+Server                        : Apache
+Strict-Transport-Security     : max-age=31536000
+Transfer-Encoding             : chunked
+X-Content-Type-Options        : nosniff

@@ -1,0 +1,10 @@
+﻿Accept-Ranges                 : bytes
+Age                           : 27928
+Cache-Control                 : public, must-revalidate, max-age=0
+Cache-Status                  : "Netlify Edge"; hit
+ETag                          : "d2a66f246020651404343d58a8394819-ssl"
+Referrer-Policy               : same-origin
+Server                        : Netlify
+Strict-Transport-Security     : max-age=31536000
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : DENY

@@ -1,0 +1,9 @@
+﻿Cache-Control                 : must-revalidate, post-check=0, pre-check=0
+Connection                    : Upgrade
+ETag                          : "46e0edf73e605b2ae02b7bda98daa82e"
+Pragma                        : public
+Server                        : Apache
+Transfer-Encoding             : chunked
+Upgrade                       : h2
+Vary                          : Cookie
+X-Robots-Tag                  : noindex

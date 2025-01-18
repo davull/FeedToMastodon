@@ -1,0 +1,9 @@
+﻿Connection                    : keep-alive
+ETag                          : "c819632cc459776f438c758e2bdf3b5e"
+Host-Header                   : 8441280b0c35cbc1147f8ba998a563a7
+Link                          : <https://www.thereformedprogrammer.net/wp-json/>; rel="https://api.w.org/"
+Server                        : nginx
+Transfer-Encoding             : chunked
+X-Cache-Enabled               : True
+X-Httpd                       : 1
+X-Proxy-Cache                 : HIT

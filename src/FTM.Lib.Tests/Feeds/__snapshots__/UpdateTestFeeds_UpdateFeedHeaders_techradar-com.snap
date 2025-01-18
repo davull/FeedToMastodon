@@ -1,0 +1,14 @@
+﻿Accept-Ranges                 : bytes
+Age                           : 41
+Alt-Svc                       : h3=":443", h3-29=":443", h3-27=":443"
+Cache-Control                 : no-store, private
+Connection                    : keep-alive
+edge-control                  : max-age=60
+Strict-Transport-Security     : max-age=31536000; includeSubDomains
+Vary                          : Accept-Encoding
+x-age                         : 25
+X-Cache                       : HIT-CLUSTER
+X-Cache-Hits                  : 0, 1
+X-Country-Code                : DE
+X-Country-Code-Real           : DE
+x-ftr-backend                 : varnish-leopard

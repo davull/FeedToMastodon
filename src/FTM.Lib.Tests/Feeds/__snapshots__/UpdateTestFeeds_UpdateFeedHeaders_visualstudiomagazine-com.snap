@@ -1,0 +1,6 @@
+﻿Cache-Control                 : no-store, no-cache
+cf-cache-status               : DYNAMIC
+Connection                    : keep-alive
+NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Pragma                        : no-cache
+Server                        : cloudflare

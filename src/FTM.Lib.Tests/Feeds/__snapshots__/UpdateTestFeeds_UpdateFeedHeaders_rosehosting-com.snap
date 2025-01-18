@@ -1,0 +1,20 @@
+﻿Access-Control-Allow-Origin   : https://secure.rosehosting.com
+Age                           : 428713
+Alt-Svc                       : h3=":443"
+Cache-Control                 : public, max-age=1036800
+cf-apo-via                    : origin,feed
+CF-Cache-Status               : HIT
+Connection                    : keep-alive
+ETag                          : W/"b5516fb8c551325e587cbcd6b8d68843"
+Link                          : <https://www.rosehosting.com/blog/wp-json/>; rel="https://api.w.org/", <https://www.rosehosting.com/blog/>; rel="canonical"
+NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server                        : cloudflare
+Strict-Transport-Security     : max-age=31536000
+surrogate-control             : public, max-age=1036800
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding, Accept-Encoding
+X-Cache                       : MISS
+x-cache-hits                  : 0
+x-cacheable                   : YES:Forced
+X-Frame-Options               : SAMEORIGIN
+X-UA-Compatible               : IE=edge

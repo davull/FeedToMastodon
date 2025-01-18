@@ -1,0 +1,10 @@
+﻿Accept-Ranges                 : bytes
+Access-Control-Allow-Origin   : *
+Age                           : 278
+Alt-Svc                       : h3=":443"
+Cache-Control                 : max-age=300, stale-while-revalidate=60, stale-if-error=86400
+Connection                    : keep-alive
+Server                        : CloudFront
+Vary                          : accept-encoding
+X-Amz-Cf-Pop                  : FRA56-P9
+X-Cache                       : Hit from cloudfront

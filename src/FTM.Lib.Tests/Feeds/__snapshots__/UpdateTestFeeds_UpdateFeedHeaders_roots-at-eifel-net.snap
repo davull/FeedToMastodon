@@ -1,0 +1,7 @@
+﻿Alt-Svc                       : h3=":443"; ma=2592000
+ETag                          : "1db9d01feec1c14e0173cb55c69d4304-gzip"
+Link                          : <https://www.roots-at-eifel.net/wp-json/>; rel="https://api.w.org/"
+Server                        : Caddy, Apache/2.4.51, (Debian)
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+X-Powered-By                  : PHP/7.4.27

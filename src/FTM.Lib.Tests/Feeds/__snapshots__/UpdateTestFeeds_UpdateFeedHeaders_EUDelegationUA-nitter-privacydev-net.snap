@@ -1,0 +1,8 @@
+﻿Connection                    : keep-alive
+min-id                        : DAABCgABGhhFY1g__-kKAAIaEZo0XFcQ1wgAAwAAAAIAAA
+Onion-Location                : http://nitter.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/EUDelegationUA/rss
+Server                        : nginx
+Strict-Transport-Security     : max-age=63072000; includeSubDomains; preload
+X-Cache                       : HIT
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : DENY

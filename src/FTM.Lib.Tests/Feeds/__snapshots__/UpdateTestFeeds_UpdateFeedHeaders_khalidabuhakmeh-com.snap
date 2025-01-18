@@ -1,0 +1,7 @@
+﻿Accept-Ranges                 : bytes
+Age                           : 57848
+Cache-Control                 : public, must-revalidate, max-age=0
+Cache-Status                  : "Netlify Edge"; hit
+ETag                          : "91c321886a3069ed311a469673a5fb55-ssl"
+Server                        : Netlify
+Strict-Transport-Security     : max-age=31536000

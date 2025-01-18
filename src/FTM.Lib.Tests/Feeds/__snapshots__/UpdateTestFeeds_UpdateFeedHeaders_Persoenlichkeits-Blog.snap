@@ -1,0 +1,11 @@
+﻿Accept-CH                     : Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Accept-Ranges                 : none
+Cache-Control                 : no-store, must-revalidate, no-cache, max-age=0
+Cross-Origin-Opener-Policy    : same-origin
+feedburnerv2                  : 
+Pragma                        : no-cache
+Server                        : ESF
+Transfer-Encoding             : chunked
+Vary                          : Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Accept-Encoding
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : SAMEORIGIN
