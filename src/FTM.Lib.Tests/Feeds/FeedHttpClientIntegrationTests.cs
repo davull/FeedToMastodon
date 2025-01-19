@@ -8,6 +8,7 @@ namespace FTM.Lib.Tests.Feeds;
 public class FeedHttpClientIntegrationTests : TestBase
 {
     private WireMockServer _server = null!;
+    private Uri _uri = null!;
 
     [SetUp]
     public void Setup()
@@ -26,14 +27,12 @@ public class FeedHttpClientIntegrationTests : TestBase
     [Test]
     public async Task ReadString_Timeout_ShouldThrow_TimeoutException_As_InnerException()
     {
-        var uri = new Uri($"{_server.Url}/feed.xml");
-
-        var client = _server.CreateClient();
+        using var client = _server.CreateClient();
         client.Timeout = TimeSpan.FromMilliseconds(200);
 
         try
         {
-            _ = await FeedHttpClient.ReadString(uri, client, null, CancellationToken.None);
+            _ = await FeedHttpClient.ReadString(_uri, client, null, CancellationToken.None);
             Assert.Fail();
         }
         catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
@@ -49,14 +48,12 @@ public class FeedHttpClientIntegrationTests : TestBase
     [Test]
     public async Task ReadString_Cancelled_ShouldThrow_TaskCanceledException_As_InnerException()
     {
-        var uri = new Uri($"{_server.Url}/feed.xml");
-
         using var cts = new CancellationTokenSource(200);
         using var client = _server.CreateClient();
 
         try
         {
-            _ = await FeedHttpClient.ReadString(uri, client, null, cts.Token);
+            _ = await FeedHttpClient.ReadString(_uri, client, null, cts.Token);
             Assert.Fail();
         }
         catch (TaskCanceledException ex) when (ex.InnerException is TaskCanceledException)
@@ -81,5 +78,7 @@ public class FeedHttpClientIntegrationTests : TestBase
                 .WithStatusCode(200)
                 .WithBody("lorem ipsum")
                 .WithDelay(delay));
+
+        _uri = new Uri($"{_server.Url}/feed.xml");
     }
 }
