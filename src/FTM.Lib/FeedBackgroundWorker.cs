@@ -47,6 +47,14 @@ public class FeedBackgroundWorker(WorkerContext context, IMastodonClient mastodo
                         Config.HttpRequestExceptionDelay);
                     context.SetLoopDelay(Config.HttpRequestExceptionDelay);
                 }
+                catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException innerException)
+                {
+                    Logger.LogError("Error while processing feed {FeedUri}: Timeout, setting loop delay to {Delay}",
+                        Configuration.FeedUri, Config.HttpRequestExceptionDelay);
+                    Logger.LogDebug(ex, "Exception: {Exception}, InnerException: {InnerException}", ex.Message,
+                        innerException.Message);
+                    context.SetLoopDelay(Config.HttpRequestExceptionDelay);
+                }
                 catch (Exception ex) when (ex is not OperationCanceledException)
                 {
                     Logger.LogError(ex, "Error while processing feed {FeedUri}: {Message}",
