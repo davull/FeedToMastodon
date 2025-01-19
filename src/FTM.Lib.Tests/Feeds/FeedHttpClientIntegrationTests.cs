@@ -24,7 +24,7 @@ public class FeedHttpClientIntegrationTests : TestBase
     }
 
     [Test]
-    public async Task ReadString_Timeout()
+    public async Task ReadString_Timeout_ShouldThrow_TimeoutException_As_InnerException()
     {
         var uri = new Uri($"{_server.Url}/feed.xml");
 
@@ -36,17 +36,18 @@ public class FeedHttpClientIntegrationTests : TestBase
             _ = await FeedHttpClient.ReadString(uri, client, null, CancellationToken.None);
             Assert.Fail();
         }
-        catch (Exception ex)
+        catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
         {
-            ex.ShouldBeOfType<TaskCanceledException>();
-
-            ex.InnerException.ShouldNotBeNull();
-            ex.InnerException.ShouldBeOfType<TimeoutException>();
+            Assert.Pass();
+        }
+        catch
+        {
+            Assert.Fail();
         }
     }
 
     [Test]
-    public async Task ReadString_Cancelled()
+    public async Task ReadString_Cancelled_ShouldThrow_TaskCanceledException_As_InnerException()
     {
         var uri = new Uri($"{_server.Url}/feed.xml");
 
@@ -58,12 +59,13 @@ public class FeedHttpClientIntegrationTests : TestBase
             _ = await FeedHttpClient.ReadString(uri, client, null, cts.Token);
             Assert.Fail();
         }
-        catch (Exception ex)
+        catch (TaskCanceledException ex) when (ex.InnerException is TaskCanceledException)
         {
-            ex.ShouldBeOfType<TaskCanceledException>();
-
-            ex.InnerException.ShouldNotBeNull();
-            ex.InnerException.ShouldBeOfType<TaskCanceledException>();
+            Assert.Pass();
+        }
+        catch
+        {
+            Assert.Fail();
         }
     }
 
