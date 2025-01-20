@@ -11,7 +11,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="coverlet.collector" Version="6.0.3" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
     <PackageVersion Include="Dapper" Version="2.1.35" />
     <PackageVersion Include="dbup-sqlite" Version="6.0.1" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.11.72" />
