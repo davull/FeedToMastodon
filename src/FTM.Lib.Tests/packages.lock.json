@@ -63,18 +63,18 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[1.7.0, )",
-        "resolved": "1.7.0",
-        "contentHash": "YusGxvl2ePYhNjv2joYGhN6YRDVdXv0HCOK8vNtr74uSPkQz5dyFkzfIaf+J/ca+vEsnIYT4IyAtRbMXNIcD2Q==",
+        "requested": "[1.7.1, )",
+        "resolved": "1.7.1",
+        "contentHash": "XsLX7OSeqX2P9k6TYDnNZb+YdCXYsKhJzyqVu8AU61ewFQL/vO7Y1lg0+hqXRFuloPoqilyk4BtOBaRhAc5OQQ==",
         "dependencies": {
           "AnyOf": "0.4.0",
           "GraphQL.NewtonsoftJson": "8.2.1",
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Humanizer": "2.4.9",
-          "Handlebars.Net.Helpers.Json": "2.4.9",
-          "Handlebars.Net.Helpers.Random": "2.4.9",
-          "Handlebars.Net.Helpers.XPath": "2.4.9",
-          "Handlebars.Net.Helpers.Xeger": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Humanizer": "2.4.10",
+          "Handlebars.Net.Helpers.Json": "2.4.10",
+          "Handlebars.Net.Helpers.Random": "2.4.10",
+          "Handlebars.Net.Helpers.XPath": "2.4.10",
+          "Handlebars.Net.Helpers.Xeger": "2.4.10",
           "Handlebars.Net.Helpers.Xslt": "2.4.6",
           "JmesPath.Net": "1.0.330",
           "JsonConverter.Abstractions": "0.7.0",
@@ -89,9 +89,9 @@
           "System.Text.Encodings.Web": "4.7.2",
           "System.Text.RegularExpressions": "4.3.1",
           "TinyMapper": "3.0.3",
-          "WireMock.Net.Abstractions": "1.7.0",
-          "WireMock.Net.OpenApiParser": "1.7.0",
-          "WireMock.Org.Abstractions": "1.7.0"
+          "WireMock.Net.Abstractions": "1.7.1",
+          "WireMock.Net.OpenApiParser": "1.7.1",
+          "WireMock.Org.Abstractions": "1.7.1"
         }
       },
       "AnyOf": {
@@ -162,17 +162,17 @@
       },
       "Handlebars.Net.Helpers": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "bYyVRIuiCKrhqDqDo7FEAGkR6R6yqH7sIFdbNSm+I8trwnFAFXf4j0qnfB1zXYaEIVt466uZ5slzoAqSunn4ww==",
+        "resolved": "2.4.10",
+        "contentHash": "RKpqCkGsK56n8ddCe0O5ovlsBTFXKT5Q1pHUKmIUkSRYJc/0FWEBxAFrcE+2yNs06EODOYGfWC6ZKWLlP5dzXQ==",
         "dependencies": {
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
       "Handlebars.Net.Helpers.Core": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "FX55nz6AonMKjXNsSfsgk16wejHhTJzcmzCL03V+Rj6WhIOcj5dsGtE4qexPwvCKI7kBLOQz/Rzpy6ahsUkq+g==",
+        "resolved": "2.4.10",
+        "contentHash": "47Lf4GaKHHA2MhJ5iITJXctYQNBS20kxtn5nkc1K1Eh1RBOXDuArdSKNy+7SGgl3RyEuQVmsrl3EMVE1u/FBbA==",
         "dependencies": {
           "Handlebars.Net": "2.1.6",
           "Stef.Validation": "0.1.1",
@@ -181,55 +181,55 @@
       },
       "Handlebars.Net.Helpers.Humanizer": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "OuLIL/tIN+anlOAbjPk6irfsr3vxzHRODLu/rUTf3E5HA31d9S/D/Nk0r4jg1v5sJSZfDQ6ZbWeNiIhFp5RnLw==",
+        "resolved": "2.4.10",
+        "contentHash": "e0FU6Aw6MUDUB8oix2rz9vP8ptcD0ylVhtBsLUmILXkbM4QnB0f4Ic86xjX+0sm4yCzybtg5ulCKgxAShXU6iw==",
         "dependencies": {
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "Humanizer": "2.14.1",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
       "Handlebars.Net.Helpers.Json": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "tctGu4w1C4D6WEuynfxJMy6BKJUcOUms5Rp2144jSaNcvhTYyJuaJ1e5rOGoZZBVIXManc2kfJJ/vUY209Q2Wg==",
+        "resolved": "2.4.10",
+        "contentHash": "nE0QLCVv5bcgKEJvJ/eur3JZZylpSERn+hX3OTItTVrrxhT6T4IsEdozJukI4G7SlMDZKAsUp8/Rg1t8Kz+PnA==",
         "dependencies": {
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "Newtonsoft.Json": "13.0.3",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
       "Handlebars.Net.Helpers.Random": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "i3okXuBgdOXLIQtgFhozTVTJankpBGSx1lYXZ9qktpB6qz1Tef0OQk0JJccB+LZNF2WegH/262D1/KGky5rrjw==",
+        "resolved": "2.4.10",
+        "contentHash": "Xsuy8XA+3zva2jVxeIZ4fYLuzcMP8S11eVA87LOmze+P8SLkkuKGWjD5uwpkLl14OQvksqN6AHRWlFH10EziUw==",
         "dependencies": {
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "RandomDataGenerator.Net": "1.0.18",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
       "Handlebars.Net.Helpers.Xeger": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "XZun0se0JD2j2DGxx6Rd877l4IE+vm0dqY//XYWmiZLmx5iXGtvcS4gqtzh9CQLJj16TYq5c4S3rLC+DXJGWQg==",
+        "resolved": "2.4.10",
+        "contentHash": "jJj5u+huZE+HKzPR2FJ4Tp1oi4TN9yiRrpaPhvOP58bNyOXkv3I7+UW3pTKirXhO2P55xgNgy2pGjSc2ogLFVg==",
         "dependencies": {
           "Fare": "2.2.1",
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
       "Handlebars.Net.Helpers.XPath": {
         "type": "Transitive",
-        "resolved": "2.4.9",
-        "contentHash": "Y1I+4wiyu8YrAZHR4Kb4nL9eHcw7J0Zwh42t9C8t6Sjj7/KELXZTzR6OcfvnVyHE7hir5+4dopwdX6Zj2MM/dQ==",
+        "resolved": "2.4.10",
+        "contentHash": "PmypqfkEjIjvUSf4XjFPYjBaONiXSM7bhx+v39lW/126kgBV3RGC+gHJieyN58NsYfNVQEZGb972iz9qnyPaVA==",
         "dependencies": {
-          "Handlebars.Net.Helpers": "2.4.9",
-          "Handlebars.Net.Helpers.Core": "2.4.9",
+          "Handlebars.Net.Helpers": "2.4.10",
+          "Handlebars.Net.Helpers.Core": "2.4.10",
           "System.Text.RegularExpressions": "4.3.1",
           "XPath2.Extensions": "1.1.5"
         }
@@ -2286,8 +2286,8 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.7.0",
-        "contentHash": "CnrmlZ28K8eZ+hl8h5VOXbrP6p2nPI6kbWVl9FPbJ+IO2FKyOAwvU56gLA62RxEeTjFkmBNhQ9fGYUZatIhyKw==",
+        "resolved": "1.7.1",
+        "contentHash": "/P2g4QeMkGpCV+WGuHXpzuv9qC9HsgW/1zHOQ0oNyySFx3KAg0S/X0c3Ng2My7Fib6JUJowrmIc+3mkNTZVuxA==",
         "dependencies": {
           "System.Net.Http": "4.3.4",
           "System.Security.Cryptography.X509Certificates": "4.3.0",
@@ -2296,8 +2296,8 @@
       },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "1.7.0",
-        "contentHash": "WkmoLctl3bcMFoTsh5RvtP1Yc+BIk4X4Y21dqQp1/ATfLaJlBKNfS7IFB4oMhGf0bygq4Bojij0JBXPZm3o5PQ==",
+        "resolved": "1.7.1",
+        "contentHash": "JQpBhnm1TJQMvFgxVQHl3fNUJKHZRYG2iryN0UkXz6lKEQjkF+TWmb8CYT+ZV4qVTxucsVoNthv5XH0bJ2w+MQ==",
         "dependencies": {
           "Microsoft.OpenApi.Readers": "1.2.3",
           "Newtonsoft.Json": "13.0.3",
@@ -2305,13 +2305,13 @@
           "RandomDataGenerator.Net": "1.0.18",
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.7.0"
+          "WireMock.Net.Abstractions": "1.7.1"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.7.0",
-        "contentHash": "uh+NLXkyh6Z/meFq+eiRGneodzWT4ZFEqAb9Y4xC/y6mFkidiqLPVHTiZVFTN0uO3E4UeljryZaG5GDvyBn1lQ==",
+        "resolved": "1.7.1",
+        "contentHash": "x33ZExADOT+U47eZFKeQ3Wd2MQe21D0zJhnPRohUVamswX7vt5t1VCG1E2xtSG3NhSEU0JnhWmI35qEKGaUs6w==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1"
         }
