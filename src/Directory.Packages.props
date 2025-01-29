@@ -32,7 +32,7 @@
     <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageVersion Include="Shouldly" Version="4.3.0" />
     <PackageVersion Include="Snapshooter.NUnit" Version="1.0.0" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.5.0.109200" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.6.0.109712" />
     <PackageVersion Include="System.Net.Http" Version="4.3.4" />
     <PackageVersion Include="System.Private.Uri" Version="4.3.2" />
     <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
