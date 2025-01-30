@@ -134,7 +134,7 @@ steps:
       projects: $(Projects)
       arguments: "--no-restore"
 
-  # Test
+  # Run tests
   - task: DotNetCoreCLI@2
     displayName: Test
     inputs:
@@ -143,6 +143,24 @@ steps:
       arguments: --no-restore --no-build --collect "Code Coverage" --settings "src/coverage.runsettings"
     env:
       TZ: Europe/Berlin
+
+  # Run mutation tests
+  - task: CmdLine@2
+    displayName: Mutation Tests
+    inputs:
+      script: |
+        dotnet stryker \
+          --break-at 80 \
+          --output $(Build.SourcesDirectory)/src/.stryker \
+          --since
+      workingDirectory: $(Build.SourcesDirectory)/src
+
+  # Publish mutation test results
+  - task: PublishMutationReport@1
+    displayName: 'Publish Mutation Test Report'
+    inputs:
+      reportPattern: $(Build.SourcesDirectory)/src/.stryker/**/mutation-report.html
+      reportDisplayName: 'Mutation Test Report'
 
   # Publish
   - task: DotNetCoreCLI@2
