@@ -1,0 +1,8 @@
+{
+    "stryker-config": {
+        "ignore-methods": [
+            "Log*"
+        ],
+        "mutation-level": "Standard"
+    }
+}
