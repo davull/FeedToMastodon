@@ -36,13 +36,13 @@
       },
       "Snapshooter.NUnit": {
         "type": "Direct",
-        "requested": "[1.0.0, )",
-        "resolved": "1.0.0",
-        "contentHash": "/vWL0shqJzfQPqfqWs3DyHUNFvnufVKi3osF/DncgOnpVDxxG5SYmdsBi2wSrlJCtGFa06hHB4Nxw78kPyLzIw==",
+        "requested": "[1.0.1, )",
+        "resolved": "1.0.1",
+        "contentHash": "wgs9TOdKV9pKD565bYE3oZSNA918zUuP32TtsghN6tQLs2TyjeBByNnrCxfqucjsYZCuW+WN1bvUv4/DkM8Cyw==",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "NUnit": "4.0.1",
-          "Snapshooter": "1.0.0"
+          "Snapshooter": "1.0.1"
         }
       },
       "SonarAnalyzer.CSharp": {
@@ -1401,8 +1401,8 @@
       },
       "Snapshooter": {
         "type": "Transitive",
-        "resolved": "1.0.0",
-        "contentHash": "eS4L6o9s5q5bSymxxM9EwnM+mwdMobttwFIm7/n6EHVfdNfCsTBSLwrSed+1WF9q9wK728I9V6JNmrKWsQgGuA==",
+        "resolved": "1.0.1",
+        "contentHash": "Nwto0wB33ZMQ6AuqKLG+55e86fID1XYq/wwZ2zqJBCImy7SOv5AaykCHXCX7/O4faMIWpRkMU3b13If7OxJOJg==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         }
