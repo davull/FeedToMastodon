@@ -2338,7 +2338,7 @@
       "ftm.lib": {
         "type": "Project",
         "dependencies": {
-          "Dapper": "[2.1.35, )",
+          "Dapper": "[2.1.66, )",
           "HtmlAgilityPack": "[1.11.72, )",
           "Microsoft.Data.Sqlite": "[9.0.1, )",
           "Microsoft.Extensions.Http.Resilience": "[9.1.0, )",
@@ -2356,9 +2356,9 @@
       },
       "Dapper": {
         "type": "CentralTransitive",
-        "requested": "[2.1.35, )",
-        "resolved": "2.1.35",
-        "contentHash": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw=="
+        "requested": "[2.1.66, )",
+        "resolved": "2.1.66",
+        "contentHash": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw=="
       },
       "dbup-sqlite": {
         "type": "CentralTransitive",
