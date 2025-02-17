@@ -3,6 +3,7 @@
         "ignore-methods": [
             "Log*"
         ],
-        "mutation-level": "Standard"
+        "mutation-level": "Standard",
+        "test-case-filter": "Name~LinkLengthProviderTests"
     }
 }
