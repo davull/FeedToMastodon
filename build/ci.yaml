@@ -150,17 +150,15 @@ steps:
     inputs:
       script: |
         dotnet stryker \
-          --break-at 80 \
           --output $(Build.SourcesDirectory)/src/.stryker \
-          --since
       workingDirectory: $(Build.SourcesDirectory)/src
 
   # Publish mutation test results
   - task: PublishMutationReport@1
-    displayName: 'Publish Mutation Test Report'
+    displayName: Publish Mutation Test Report
     inputs:
       reportPattern: $(Build.SourcesDirectory)/src/.stryker/**/mutation-report.html
-      reportDisplayName: 'Mutation Test Report'
+      reportDisplayName: Mutation Test Report
 
   # Publish
   - task: DotNetCoreCLI@2
@@ -180,7 +178,7 @@ steps:
     inputs:
       script: |
         mkdir $(Build.ArtifactStagingDirectory)/.sbom
-        
+
         dotnet tool run sbom-tool generate \
           -b $(Build.ArtifactStagingDirectory)/out/app \
           -bc $(Build.SourcesDirectory)/src \
@@ -216,49 +214,49 @@ steps:
         docker buildx inspect --bootstrap
 
   - ${{ if eq(variables.PushDockerImage, 'false') }}:
-    # Build Docker Image
-    - task: CmdLine@2
-      displayName: Build Docker Image
-      inputs:
-        script: |
-          docker buildx build \
-              -f dockerfile \
-              --platform linux/amd64,linux/arm64 \
-              --no-cache \
-              -t $(DockerRepository):$(Build.BuildNumber) \
-              -t $(DockerRepository):latest .
-        workingDirectory: $(Build.SourcesDirectory)
+      # Build Docker Image
+      - task: CmdLine@2
+        displayName: Build Docker Image
+        inputs:
+          script: |
+            docker buildx build \
+                -f dockerfile \
+                --platform linux/amd64,linux/arm64 \
+                --no-cache \
+                -t $(DockerRepository):$(Build.BuildNumber) \
+                -t $(DockerRepository):latest .
+          workingDirectory: $(Build.SourcesDirectory)
 
   - ${{ if eq(variables.PushDockerImage, 'true') }}:
-    # Login to Docker Hub
-    - task: CmdLine@2
-      displayName: Login to Docker Hub
-      inputs:
-        script: echo $(DOCKER_PASSWORD) | docker login --username $(DOCKER_USERNAME) --password-stdin
-      env:
-        DOCKER_USERNAME: $(DOCKER_USERNAME)
-        DOCKER_PASSWORD: $(DOCKER_PASSWORD)
+      # Login to Docker Hub
+      - task: CmdLine@2
+        displayName: Login to Docker Hub
+        inputs:
+          script: echo $(DOCKER_PASSWORD) | docker login --username $(DOCKER_USERNAME) --password-stdin
+        env:
+          DOCKER_USERNAME: $(DOCKER_USERNAME)
+          DOCKER_PASSWORD: $(DOCKER_PASSWORD)
 
-    # Build and Push Docker Image
-    - task: CmdLine@2
-      displayName: Build and Push Docker Image
-      inputs:
-        script: |
-          docker buildx build \
-              -f dockerfile \
-              --platform linux/amd64,linux/arm64 \
-              --no-cache \
-              -t $(DockerRepository):$(Build.BuildNumber) \
-              -t $(DockerRepository):latest \
-              --output=type=registry .
-        workingDirectory: $(Build.SourcesDirectory)
+      # Build and Push Docker Image
+      - task: CmdLine@2
+        displayName: Build and Push Docker Image
+        inputs:
+          script: |
+            docker buildx build \
+                -f dockerfile \
+                --platform linux/amd64,linux/arm64 \
+                --no-cache \
+                -t $(DockerRepository):$(Build.BuildNumber) \
+                -t $(DockerRepository):latest \
+                --output=type=registry .
+          workingDirectory: $(Build.SourcesDirectory)
 
-    # Logout from Docker Hub
-    - task: CmdLine@2
-      condition: always()
-      displayName: Logout from Docker Hub
-      inputs:
-        script: docker logout
+      # Logout from Docker Hub
+      - task: CmdLine@2
+        condition: always()
+        displayName: Logout from Docker Hub
+        inputs:
+          script: docker logout
 
   # Cleanup docker environment
   - task: CmdLine@2
