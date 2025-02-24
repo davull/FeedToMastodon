@@ -11,15 +11,17 @@ public class MastodonClientIntegrationTests : TestBase
     private WireMockServer _server = null!;
     private readonly MastodonClient _sut = new(NullLogger<MastodonClient>.Instance);
 
-    [SetUp]
-    public void Setup()
+    protected override async Task SetUp()
     {
+        await base.SetUp();
+
         _server = WireMockServer.Start();
     }
 
-    [TearDown]
-    public void TearDown()
+    protected override async Task TearDown()
     {
+        await base.TearDown();
+
         _server.Stop();
         _server.Dispose();
     }

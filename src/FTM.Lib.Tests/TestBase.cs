@@ -7,11 +7,21 @@ public abstract class TestBase
         Environment.SetEnvironmentVariable("SNAPSHOOTER_STRICT_MODE", "on");
     }
 
+    [OneTimeSetUp]
+    protected virtual Task OneTimeSetUp() => Task.CompletedTask;
+
     [OneTimeTearDown]
-    protected void OneTimeTearDown()
+    protected virtual Task OneTimeTearDown()
     {
         MoveMismatchSnapshots();
+        return Task.CompletedTask;
     }
+
+    [SetUp]
+    protected virtual Task SetUp() => Task.CompletedTask;
+
+    [TearDown]
+    protected virtual Task TearDown() => Task.CompletedTask;
 
     private static void MoveMismatchSnapshots()
     {

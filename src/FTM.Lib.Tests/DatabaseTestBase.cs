@@ -7,9 +7,10 @@ public abstract class DatabaseTestBase : TestBase
 {
     protected virtual bool InitializeDatabase => true;
 
-    [SetUp]
-    public virtual Task SetUp()
+    protected override async Task SetUp()
     {
+        await base.SetUp();
+
         Directory.CreateDirectory("databases");
 
         var databaseName = $"databases/ftm-tests-{Guid.NewGuid()}.sqlite";
@@ -20,14 +21,12 @@ public abstract class DatabaseTestBase : TestBase
         {
             Database.Initialize();
         }
-
-        return Task.CompletedTask;
     }
 
-    [TearDown]
-    public Task TearDown()
+    protected override async Task TearDown()
     {
+        await base.TearDown();
+
         Database.DeleteDatabase();
-        return Task.CompletedTask;
     }
 }

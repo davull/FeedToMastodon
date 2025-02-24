@@ -1,8 +1,19 @@
-﻿namespace FTM.Lib.Tests;
+﻿using System.Text;
 
-public class ConfigTests
+namespace FTM.Lib.Tests;
+
+public class ConfigTests : TestBase
 {
     private readonly Random _random = new(123);
+
+    protected override async Task TearDown()
+    {
+        await base.TearDown();
+
+        Environment.SetEnvironmentVariable(Config.DatabaseNameKey, "");
+        Environment.SetEnvironmentVariable(Config.ConfigFileNameKey, "");
+        Environment.SetEnvironmentVariable(Config.UseMastodonTestClientKey, "");
+    }
 
     [TestCase("ftm.sqlite")]
     [TestCase("../ftm.sqlite")]
@@ -65,5 +76,20 @@ public class ConfigTests
             .ToList();
 
         delays.ShouldBeUnique();
+    }
+
+    [Test]
+    [Explicit("This test is environment specific.")]
+    public void Print_ShouldMatchSnapshot()
+    {
+        Environment.SetEnvironmentVariable(Config.DatabaseNameKey, "C:/user/ftm.sqlite");
+        Environment.SetEnvironmentVariable(Config.ConfigFileNameKey, "C:/user/ftm.ini");
+        Environment.SetEnvironmentVariable(Config.UseMastodonTestClientKey, "true");
+
+        var output = new StringBuilder();
+
+        Config.Print(s => output.AppendLine(s));
+
+        output.ToString().MatchSnapshot();
     }
 }

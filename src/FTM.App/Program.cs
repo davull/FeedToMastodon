@@ -1,4 +1,5 @@
 ﻿using FTM.App;
+using FTM.Lib;
 using FTM.Lib.Data;
 using Microsoft.Extensions.Hosting;
 
@@ -16,6 +17,8 @@ AppDomain.CurrentDomain.ProcessExit += (_, _) => cts.Cancel();
 
 Console.WriteLine("Press Cntrl+C to stop application...");
 
+Config.Print(Console.WriteLine);
+ConfigValidation.Validate();
 Database.Initialize();
 
 var host = new HostBuilder()

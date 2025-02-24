@@ -1,0 +1,7 @@
+﻿
+Configuration:
+
+FTM_DATABASE_NAME              C:/user/ftm.sqlite
+FTM_CONFIG_FILE_NAME           C:/user/ftm.ini
+FTM_USE_MASTODON_TEST_CLIENT   True
+
