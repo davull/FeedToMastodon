@@ -1,8 +1,17 @@
 ﻿namespace FTM.Lib.Tests;
 
-public class ConfigTests
+public class ConfigTests : TestBase
 {
     private readonly Random _random = new(123);
+
+    protected override void TearDown()
+    {
+        base.TearDown();
+
+        Environment.SetEnvironmentVariable(Config.DatabaseNameKey, "");
+        Environment.SetEnvironmentVariable(Config.ConfigFileNameKey, "");
+        Environment.SetEnvironmentVariable(Config.UseMastodonTestClientKey, "");
+    }
 
     [TestCase("ftm.sqlite")]
     [TestCase("../ftm.sqlite")]

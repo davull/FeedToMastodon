@@ -18,6 +18,16 @@ public abstract class TestBase
         MoveMismatchSnapshots();
     }
 
+    [SetUp]
+    protected virtual void SetUp()
+    {
+    }
+
+    [TearDown]
+    protected virtual void TearDown()
+    {
+    }
+
     private static void MoveMismatchSnapshots()
     {
         var sourceCodeDirectory = Path.Combine("..", "..", "..");
