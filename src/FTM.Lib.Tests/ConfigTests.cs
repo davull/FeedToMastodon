@@ -6,9 +6,9 @@ public class ConfigTests : TestBase
 {
     private readonly Random _random = new(123);
 
-    protected override void TearDown()
+    protected override async Task TearDown()
     {
-        base.TearDown();
+        await base.TearDown();
 
         Environment.SetEnvironmentVariable(Config.DatabaseNameKey, "");
         Environment.SetEnvironmentVariable(Config.ConfigFileNameKey, "");

@@ -10,16 +10,18 @@ public class FeedHttpClientIntegrationTests : TestBase
     private WireMockServer _server = null!;
     private Uri _uri = null!;
 
-    [SetUp]
-    public void Setup()
+    protected override async Task SetUp()
     {
+        await base.SetUp();
+
         _server = WireMockServer.Start();
         SetupServer();
     }
 
-    [TearDown]
-    public void TearDown()
+    protected override async Task TearDown()
     {
+        await base.TearDown();
+
         _server.Stop();
         _server.Dispose();
     }

@@ -5,9 +5,9 @@ public class ConfigValidationTests : TestBase
     private string _directoryPath;
     private string _filePath;
 
-    protected override void OneTimeSetUp()
+    protected override async Task OneTimeSetUp()
     {
-        base.OneTimeSetUp();
+        await base.OneTimeSetUp();
 
         _directoryPath = Path.Combine(
             Path.GetTempPath(), $"ftm-test-{Guid.NewGuid()}");
@@ -17,9 +17,9 @@ public class ConfigValidationTests : TestBase
         File.Create(_filePath).Close();
     }
 
-    protected override void OneTimeTearDown()
+    protected override async Task OneTimeTearDown()
     {
-        base.OneTimeTearDown();
+        await base.OneTimeTearDown();
 
         Directory.Delete(_directoryPath, true);
     }

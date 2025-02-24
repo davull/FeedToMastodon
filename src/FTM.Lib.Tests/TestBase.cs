@@ -8,25 +8,20 @@ public abstract class TestBase
     }
 
     [OneTimeSetUp]
-    protected virtual void OneTimeSetUp()
-    {
-    }
+    protected virtual Task OneTimeSetUp() => Task.CompletedTask;
 
     [OneTimeTearDown]
-    protected virtual void OneTimeTearDown()
+    protected virtual Task OneTimeTearDown()
     {
         MoveMismatchSnapshots();
+        return Task.CompletedTask;
     }
 
     [SetUp]
-    protected virtual void SetUp()
-    {
-    }
+    protected virtual Task SetUp() => Task.CompletedTask;
 
     [TearDown]
-    protected virtual void TearDown()
-    {
-    }
+    protected virtual Task TearDown() => Task.CompletedTask;
 
     private static void MoveMismatchSnapshots()
     {

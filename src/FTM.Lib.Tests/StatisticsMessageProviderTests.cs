@@ -4,9 +4,10 @@ namespace FTM.Lib.Tests;
 
 public class StatisticsMessageProviderTests : TestBase
 {
-    [SetUp]
-    public void SetUp()
+    protected override async Task SetUp()
     {
+        await base.SetUp();
+
         Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
     }
 
