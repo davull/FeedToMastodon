@@ -7,8 +7,13 @@ public abstract class TestBase
         Environment.SetEnvironmentVariable("SNAPSHOOTER_STRICT_MODE", "on");
     }
 
+    [OneTimeSetUp]
+    protected virtual void OneTimeSetUp()
+    {
+    }
+
     [OneTimeTearDown]
-    protected void OneTimeTearDown()
+    protected virtual void OneTimeTearDown()
     {
         MoveMismatchSnapshots();
     }
