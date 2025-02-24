@@ -4,13 +4,6 @@ namespace FTM.Lib.Tests;
 
 public class StatisticsMessageProviderTests : TestBase
 {
-    protected override async Task SetUp()
-    {
-        await base.SetUp();
-
-        Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-    }
-
     [Test]
     public void PostsPerFeed_CreateMessage_EmptyList()
     {
@@ -40,6 +33,8 @@ public class StatisticsMessageProviderTests : TestBase
     [Test]
     public void PostsPerFeed_CreateMessage_ReturnsExpected()
     {
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
         // 2024-10-01 15:30
         var start = DateTimeOffset(10, 1, 15, 30);
         var end = start.AddDays(1);
