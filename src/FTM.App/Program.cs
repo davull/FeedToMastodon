@@ -17,6 +17,7 @@ AppDomain.CurrentDomain.ProcessExit += (_, _) => cts.Cancel();
 
 Console.WriteLine("Press Cntrl+C to stop application...");
 
+Config.Print(Console.WriteLine);
 ConfigValidation.Validate();
 Database.Initialize();
 

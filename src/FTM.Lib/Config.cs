@@ -25,6 +25,19 @@ public static class Config
 
     public static TimeSpan HttpClientRetryDelay => TimeSpan.FromSeconds(4);
 
+    public static void Print(Action<string> print)
+    {
+        const string format = "{0,-30} {1}";
+
+        print("");
+        print("Configuration:");
+        print("");
+        print(string.Format(format, DatabaseNameKey, DatabaseName));
+        print(string.Format(format, ConfigFileNameKey, ConfigFileName));
+        print(string.Format(format, UseMastodonTestClientKey, UseMastodonTestClient));
+        print("");
+    }
+
     private static string GetFilePath(string key)
     {
         var path = GetStringValue(key);
