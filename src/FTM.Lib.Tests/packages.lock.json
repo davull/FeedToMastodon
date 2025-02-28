@@ -51,9 +51,9 @@
       },
       "SonarAnalyzer.CSharp": {
         "type": "Direct",
-        "requested": "[10.6.0.109712, )",
-        "resolved": "10.6.0.109712",
-        "contentHash": "fMwoXhlmFrcIYLpmCZOPXQkKwQD6WoFsmkZp8FZ7RJ9Db+ELUg56qh1X4Vy2nU7ZOWmuAMDOMosYxiQKNLBWtw=="
+        "requested": "[10.7.0.110445, )",
+        "resolved": "10.7.0.110445",
+        "contentHash": "U4v2LWopxADYkUv7Z5CX7ifKMdDVqHb7a1bzppIQnQi4WQR6z1Zi5rDkCHlVYGEd1U/WMz1IJCU8OmFZLJpVig=="
       },
       "System.Private.Uri": {
         "type": "Direct",
@@ -67,9 +67,9 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[1.7.3, )",
-        "resolved": "1.7.3",
-        "contentHash": "KXD46KS2uFg+/KB+rnsA3OlATjiQerJnbYz5ViL/eE6Gl+1ol6XRJBAkR5NvK8YAEEy3p6bwJwJRq3BXLN3e6g==",
+        "requested": "[1.7.4, )",
+        "resolved": "1.7.4",
+        "contentHash": "pFtnwAcjcQqcd7ZUBmHPihTi9MjwdlQFCqwfYWrMyEiIAMofuaxn15rQN+lHX9Z9zm5KQST0HDf7Q22si9boyQ==",
         "dependencies": {
           "AnyOf": "0.4.0",
           "GraphQL.NewtonsoftJson": "8.2.1",
@@ -93,9 +93,9 @@
           "System.Text.Encodings.Web": "4.7.2",
           "System.Text.RegularExpressions": "4.3.1",
           "TinyMapper": "3.0.3",
-          "WireMock.Net.Abstractions": "1.7.3",
-          "WireMock.Net.OpenApiParser": "1.7.3",
-          "WireMock.Org.Abstractions": "1.7.3"
+          "WireMock.Net.Abstractions": "1.7.4",
+          "WireMock.Net.OpenApiParser": "1.7.4",
+          "WireMock.Org.Abstractions": "1.7.4"
         }
       },
       "AnyOf": {
@@ -2333,8 +2333,8 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.7.3",
-        "contentHash": "TKQ5+BxP7BctvnRhzsrrR8UWA5tlsYR8zjVhzXnf/fn0MhH2SbNFRVdfl55sGzLtkrcqYgWcm3Luf3ERzEbA4A==",
+        "resolved": "1.7.4",
+        "contentHash": "IQlaDPp05gGEklPUbL9TUqztJVNimilhmbrrkuGtt3ygwoF3ZOpGIh/UMn2rd+9GYam1YbBqnwNhNVR5XTQNAg==",
         "dependencies": {
           "System.Net.Http": "4.3.4",
           "System.Security.Cryptography.X509Certificates": "4.3.0",
@@ -2343,8 +2343,8 @@
       },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "1.7.3",
-        "contentHash": "18NbqD3DbWM9oCckQ4TAjNFs/IJ7l6DO0xgDhj5iIu9gpslR7kSfust4vKOOQ0YrOYekYcxxZVK3etTPjpkzfA==",
+        "resolved": "1.7.4",
+        "contentHash": "M3l1H7UEbkYJ2qR+NqtKvJ/j2hEA1bhYfkrR+izwyn52tp0QjGE+8T9fvCNiyx5L+KocWuixbn4NiSxkT1qS1A==",
         "dependencies": {
           "Microsoft.OpenApi.Readers": "1.2.3",
           "Newtonsoft.Json": "13.0.3",
@@ -2352,13 +2352,13 @@
           "RandomDataGenerator.Net": "1.0.18",
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.7.3"
+          "WireMock.Net.Abstractions": "1.7.4"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.7.3",
-        "contentHash": "FpOxr6r4f6y7FwFSpFiSIHhB4XXpoOPRHZZVHkC62SPIrllpuQnoJo9IA3e85j/12VxR7dTQhd8i5ftblE0kiw==",
+        "resolved": "1.7.4",
+        "contentHash": "zKjq7EXa+8mBaMM3WSCBOwTBiTphG8ypB3+FgWZoNf8v4dx6K7gugRgX8A1yZiUo0AYbdzmU826Sse609sKTjg==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1"
         }
@@ -2386,7 +2386,7 @@
         "type": "Project",
         "dependencies": {
           "Dapper": "[2.1.66, )",
-          "HtmlAgilityPack": "[1.11.73, )",
+          "HtmlAgilityPack": "[1.11.74, )",
           "Microsoft.Data.Sqlite": "[9.0.2, )",
           "Microsoft.Extensions.Http.Resilience": "[9.2.0, )",
           "Microsoft.Extensions.Logging": "[9.0.2, )",
@@ -2419,9 +2419,9 @@
       },
       "HtmlAgilityPack": {
         "type": "CentralTransitive",
-        "requested": "[1.11.73, )",
-        "resolved": "1.11.73",
-        "contentHash": "SykMV3QdkulfQOevA5M3fqdTtOx12HRdNL0aaYYEZSYqDvBo2ylgFBngmNDL0XguuGQHpff2iOFNy32M2ZUx7g=="
+        "requested": "[1.11.74, )",
+        "resolved": "1.11.74",
+        "contentHash": "q0wRGbegtr4sZXjCNoV3OeRLTOcTNJQKiO9etNVSKPoTo33unmSK8Ahg36C4jIg/Hd3aw8YnTQjtKpBy+wlOpg=="
       },
       "ini-parser-netstandard": {
         "type": "CentralTransitive",
