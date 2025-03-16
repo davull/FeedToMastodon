@@ -109,31 +109,31 @@ public static class FeedTestsProvider
     {
         return from tuple in TestFeedsWithSeparators()
             let feed = tuple.feed
-            let separator = tuple.separator
+            let separators = tuple.separators
             from item in feed.Items
             let testName = GetTestName(feed, item)
-            select new TestCaseData(item, separator).SetName(testName);
+            select new TestCaseData(item, separators).SetName(testName);
     }
 
     public static IEnumerable<TestCaseData> LessFeedItemsTestCases()
     {
         return from tuple in TestFeedsWithSeparators()
             let feed = tuple.feed
-            let separator = tuple.separator
+            let separators = tuple.separators
             from item in feed.Items.Take(5)
             let testName = GetTestName(feed, item)
-            select new TestCaseData(item, separator).SetName(testName);
+            select new TestCaseData(item, separators).SetName(testName);
     }
 
     public static IEnumerable<TestCaseData> FeedItemsWithSeparatorTestCases()
     {
         return from tuple in TestFeedsWithSeparators()
             let feed = tuple.feed
-            let separator = tuple.separator
-            where !string.IsNullOrEmpty(separator)
+            let separators = tuple.separators
+            where separators.Length > 0
             from item in feed.Items
             let testName = GetTestName(feed, item)
-            select new TestCaseData(item, separator).SetName(testName);
+            select new TestCaseData(item, separators).SetName(testName);
     }
 
     public static IEnumerable<FeedItem> TestFeedItems()
@@ -151,28 +151,28 @@ public static class FeedTestsProvider
             select FeedReader.Read(File.ReadAllText(file));
     }
 
-    private static IEnumerable<(Feed feed, string separator)> TestFeedsWithSeparators()
+    private static IEnumerable<(Feed feed, string[] separators)> TestFeedsWithSeparators()
     {
-        var separators = new Dictionary<string, string>
+        var separators = new Dictionary<string, string[]>
         {
-            { "Caschys Blog", "...Zum Beitrag" },
-            { "StoneWars", "[...]" },
-            { "TESLARATI", "[…]" },
-            { "nextmove", "[…]" },
-            { "Elektroauto-News.net", "\nDer Beitrag " },
-            { "Drive Tesla", "[…]" },
-            { "Visual Studio Blog", "[…]" },
-            { "DER Persönlichkeits-Blog", "[…]" },
-            { "Technikblog", "\nDer Beitrag" }, // […]
-            { "The Reformed Programmer", "…" },
-            { "BioinfoWelten", "...\nThe post" },
-            { "Nextcloud", "\nThe post" },
-            { "RoseHosting", "... \nRead More" }
+            { "Caschys Blog", ["...Zum Beitrag"] },
+            { "StoneWars", ["[...]"] },
+            { "TESLARATI", ["[…]", "\nThe post"] },
+            { "nextmove", ["[…]"] },
+            { "Elektroauto-News.net", ["\nDer Beitrag "] },
+            { "Drive Tesla", ["[…]"] },
+            { "Visual Studio Blog", ["[…]"] },
+            { "DER Persönlichkeits-Blog", ["[…]"] },
+            { "Technikblog", ["\nDer Beitrag", "[…]"] },
+            { "The Reformed Programmer", ["…"] },
+            { "BioinfoWelten", ["...\nThe post"] },
+            { "Nextcloud", ["\nThe post"] },
+            { "RoseHosting", ["... \nRead More"] }
         };
 
         return from feed in TestFeeds()
-            let separator = separators.GetValueOrDefault(feed.Title!, "")
-            select (feed, separator);
+            let sep = separators.GetValueOrDefault(feed.Title!, [])
+            select (feed, sep);
     }
 
     private static string GetTestName(Feed feed, FeedItem item)

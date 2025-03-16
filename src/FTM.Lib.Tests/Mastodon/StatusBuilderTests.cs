@@ -103,16 +103,16 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void StatusContent_Should_MatchSnapshot(FeedItem item, string separator)
+    public void StatusContent_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [separator]);
+        var status = StatusBuilder.CreateStatus(item, separators);
         status.Status.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void Status_Should_MatchSnapshot(FeedItem item, string separator)
+    public void Status_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [separator]);
+        var status = StatusBuilder.CreateStatus(item, separators);
 
         var indexes = new[]
         {
@@ -133,9 +133,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveContentAndLink(FeedItem item, string separator)
+    public void Status_Should_HaveContentAndLink(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [separator]);
+        var status = StatusBuilder.CreateStatus(item, separators);
 
         var split = status.Status.Split("---");
 
@@ -144,9 +144,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveLanguage(FeedItem item, string separator)
+    public void Status_Should_HaveLanguage(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [separator]);
+        var status = StatusBuilder.CreateStatus(item, separators);
         status.Language.ShouldNotBeNullOrWhiteSpace();
     }
 
@@ -170,9 +170,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithSeparatorTestCases))]
-    public void Status_ShouldBeSplitAtSeparator(FeedItem item, string separator)
+    public void Status_ShouldBeSplitAtSeparator(FeedItem item, string[] separators)
     {
-        var statusWithSeparator = StatusBuilder.CreateStatus(item, [separator]);
+        var statusWithSeparator = StatusBuilder.CreateStatus(item, separators);
         var statusWoSeparator = StatusBuilder.CreateStatus(item, []);
 
         var snapshot = new

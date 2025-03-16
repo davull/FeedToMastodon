@@ -41,18 +41,18 @@ public static class StatusBuilder
 
     private static string GetSummary(FeedItem item, int maxLength, string[] separators)
     {
-        var separator = separators.FirstOrDefault();
-
         var summary = StatusSanitizer.Sanitize(item.Summary) ?? string.Empty;
         if (string.IsNullOrEmpty(summary))
         {
             summary = StatusSanitizer.Sanitize(item.Content) ?? string.Empty;
         }
 
-        if (!string.IsNullOrEmpty(separator) &&
-            summary.Contains(separator))
+        var summaryContainsSeparator = separators.Any(
+            sep => !string.IsNullOrEmpty(sep) &&
+                   summary.Contains(sep));
+        if (summaryContainsSeparator)
         {
-            summary = summary.Split(separator)[0] + "...";
+            summary = summary.Split(separators, StringSplitOptions.None)[0] + "...";
         }
 
         return TrimIfNeeded(summary, maxLength);
