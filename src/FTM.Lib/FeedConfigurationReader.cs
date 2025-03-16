@@ -18,7 +18,9 @@ public static class FeedConfigurationReader
     private static IniData ReadIni(string path)
     {
         using var reader = File.OpenText(path);
-        var parser = new StreamIniDataParser();
+        var parser = new StreamIniDataParser(new FeedConfigurationIniParser());
+        parser.Parser.Configuration.AllowDuplicateKeys = true;
+        parser.Parser.Configuration.ConcatenateDuplicateKeys = true;
         return parser.ReadData(reader);
     }
 
