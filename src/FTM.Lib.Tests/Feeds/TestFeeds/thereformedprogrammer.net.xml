@@ -12,14 +12,463 @@
 	<atom:link href="https://www.thereformedprogrammer.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.thereformedprogrammer.net</link>
 	<description>I am a freelance .NET Core back-end developer</description>
-	<lastBuildDate>Tue, 28 May 2024 18:04:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 09 Jan 2025 08:47:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7.1</generator>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>A detailed look at EF Core’s JSON Columns feature</title>
+		<link>https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/</link>
+					<comments>https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#comments</comments>
+		
+		<dc:creator><![CDATA[Jon P Smith]]></dc:creator>
+		<pubDate>Tue, 07 Jan 2025 16:47:31 +0000</pubDate>
+				<category><![CDATA[.NET Core]]></category>
+		<category><![CDATA[Entity Framework]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[EF Core]]></category>
+		<category><![CDATA[JSON]]></category>
+		<guid isPermaLink="false">https://www.thereformedprogrammer.net/?p=2970</guid>
+
+					<description><![CDATA[Some developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then &#8230; <a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/" class="more-link">Continue reading <span class="screen-reader-text">A detailed look at EF Core’s JSON Columns feature</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Some developers used EF Core <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">JSON Columns</a> in their DbContext when using my <a href="https://github.com/JonPSmith/EfCore.SchemaCompare">EfCore.SchemaCompare</a> library, then they had a problem. That’s because I hadn’t added support for <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">JSON Columns</a> to my <a href="https://github.com/JonPSmith/EfCore.SchemaCompare">EfCore.SchemaCompare</a> library (this library compares a EF Core&#8217;s Model of the database against a database&#8217;s schema). When I added support for JSON Columns feature to the library, I found it had a rather complex internal design. In fact <a href="https://github.com/roji">Shay Rojansky</a> talks about this complex design in the EF Core 9 release EF Core community standup (<a href="https://youtu.be/wG8D5HJMzjA?t=862">click this</a> to hear what he says) and they want to improve it in EF Core 10.</p>
+
+
+
+<p>So the combination of a complex design, not much documentation, and my <a href="https://www.cdc.gov/aging/dementia/index.html">dementia</a> (See the <a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#endnote-dementia-and-programming"><em>ENDNOTE&nbsp;dementia and</em> programming</a> section at the end of this article) made it pretty hard for me to work out what to do. Thankfully the EF Core team responded to <a href="https://github.com/dotnet/efcore/issues/34568">my issue</a>, which helped me a lot.</p>
+
+
+
+<p>So, I decided to create this article to provide more documentation to help other developers when using JSON Columns. The article compares the EF Core normal approach of using SQL Tables, columns, Indexes, etc., (shortened to “Tables/Indexes approach” in this article) against the JSON Columns approach so that you can compare / contrast the two approaches.</p>
+
+
+
+<h2 class="wp-block-heading">TL;DR; – Summary of this article</h2>
+
+
+
+<ul class="wp-block-list">
+<li>EF Core added a feature called <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">JSON Columns</a> in .NET 7, which stores data in an JSON string, and was also updated in EF Core’s .NET 8 release.</li>
+
+
+
+<li>This article compares the JSON Columns approach against the normal Tables/Indexes approach.</li>
+
+
+
+<li>I use a &#8220;list of books&#8221; app using both the JSON Columns approach and the Tables/Indexes approach</li>
+
+
+
+<li>The way relationships are configured and stored are different &#8211; The JSON Columns&#8217; relationships are held inside the its JSON string, while the the Tables/Indexes approach has multiple tables, linked by Indexes.</li>
+
+
+
+<li>The create and read of both approaches are (nearly) the same, while selecting particular entries is different in the two approaches.</li>
+
+
+
+<li>There is a large section looking at the performance of eight tasks with different numbers of the entities to give you an idea where JSON Columns would work in your application.</li>
+
+
+
+<li>At the end I give you my, and EF Core&#8217;s, view of what sort of data that works with JSON Columns: The data must be “Coherent”,&nbsp; i.e. there no links outside the data. Logging data is one example where JSON Columns would work well.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Introduction of storing data in a database using JSON</h2>
+
+
+
+<p>JSON (Full name: JavaScript Object Notation) is a lightweight format for storing and transporting data in strings. The JSON’s format has a beautifully simple design, which makes it easy to understand and use. JSON is used everywhere, for instance Web Applications to send data from the server to the client and to send back inputs from the client.</p>
+
+
+
+<p>I also used JSON in my early use of EF Core by using the JsonSerializer.Serialize and JsonSerializer.Deserialize methods to store data in a database. But in the <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">.NET 7 release of EF Core</a> added dedicated code to convert data into a JSON string (this is known as “JSON Columns” in EF Core). In&nbsp; <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#enhancements-to-json-column-mapping">.NET 8 release of EF Core</a> to improve its performance and added JSON Columns to SQLite. And <a href="https://github.com/roji">Shay Rojansky</a>, who is part of the EF Core team, said they will improve how JSON Columns in .NET 10 EF Core.</p>
+
+
+
+<p>The JSON Columns feature allows you to put some code in your EF Core’s DbContext’s OnModelCreating method to automatically convert a class’s properties into a JSON string. It also allows multiple classes, including relationships, to be stored in one JSON string.</p>
+
+
+
+<p>The <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">.NET 7 what’s new JSON Columns section</a> says “JSON columns allow relational databases to take on some of the characteristics of document databases, creating a useful hybrid between the two.“ JSON Columns can contain any basic types: e.g., string, int, bool, DateTime and relationships, although JSON Columns’ relationships are handed differently to the normal Tables / Index approach.</p>
+
+
+
+<h2 class="wp-block-heading">Creating an example application</h2>
+
+
+
+<p>I wanted an example application that to covers relationships, configured, read/write and performance. I also I wanted an application that both the Tables/Indexes approach and JSON Columns approach can use. I choose a “list of books” app (think a very simple Amazon book app).</p>
+
+
+
+<p>I have to say that the “list of books” app is NOT something that I would build using JSON Columns, but it does show all the JSON Columns’ relationships. Also, the “list of books” app provides a good way to compare the JSON Columns’ performance against the Tables/Indexes approach.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>NOTE: I used a “list of books” app in my <a href="https://bit.ly/EfCoreBookEd2">Entity Framework Core in Action</a> (2nd. Edition). In chapter 2 I used the “list of books” app to show the main types of EF Core’s relations, and in <a href="https://www.thereformedprogrammer.net/five-levels-of-performance-tuning-for-an-ef-core-query/#the-book-app-and-its-features">chapter 15 looked at performance</a> and <a href="https://www.thereformedprogrammer.net/an-in-depth-study-of-cosmos-db-and-ef-core-3-0-database-provider/">chapter 16 using Cosmos DB</a>.</p>
+</blockquote>
+
+
+
+<p>I created a GitHub called&nbsp; <a href="https://github.com/JonPSmith/ExploringJsonColumns/tree/main">ExploringJsonColumns</a> which holds the code to check that the code was correct, and also to run performance tests to compare the two approaches. The sections in this article are:</p>
+
+
+
+<ol class="wp-block-list">
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#1-an-overview-of-the-list-of-books-data">An overview of the “list of books” data</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#2-the-relationships-and-how-they-are-configured">The relationships and how they are configured</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#4-writing-into-the-database">Writing into the database</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#5-selecting-data-from-the-database">Selecting data from the database</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#6-reading-data-from-the-database">Reading data from the database</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#4-performance-comparisons">Performance comparisons</a></li>
+
+
+
+<li><a href="https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/#5-my-thoughts-on-where-json-columns-are-a-good-fit">My thoughts on where JSON Columns are a good fit</a></li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">1. An overview of the “list of books” data</h2>
+
+
+
+<p>My <a href="https://github.com/JonPSmith/ExploringJsonColumns">ExploringJsonColumns</a> solution holds two versions of the “list of books” app code: one using the normal Tables/Indexes approach and the other the JSON Columns approach, and provides the same output into common class called <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/Test/Dtos/BookListDto.cs">BookListDto</a> (The BookListDto class contains all the data to show a book’s details, e.g., book title, author(s), price, star ratings, etc.. This ensures that we can compare their performances the results because both approaches are the same data. The screenshot below shows one (fictional) book showing the book&#8217;s data.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/BookDisplay.png"><img fetchpriority="high" decoding="async" width="516" height="154" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/BookDisplay.png" alt="" class="wp-image-2971" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/BookDisplay.png 516w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/BookDisplay-300x90.png 300w" sizes="(max-width: 516px) 100vw, 516px" /></a></figure></div>
+
+
+<h3 class="wp-block-heading">2. The relationships and how they are configured</h3>
+
+
+
+<p>The “list of books” app has the three types of relationships, and the diagram below shows the Tables/Indexes approach on the left and the JSON Columns approach on the right.</p>
+
+
+
+<p class="has-text-align-center"><strong><em>NOTE: click on the picture below to get a bigger picture.</em></strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate.png"><img decoding="async" width="1024" height="382" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate-1024x382.png" alt="" class="wp-image-2972" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate-1024x382.png 1024w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate-300x112.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate-768x286.png 768w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/Ef-Core-TwoWaysToStoreDate.png 1368w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>See Tables/Indexes classes in <a href="https://github.com/JonPSmith/ExploringJsonColumns/tree/main/DataLayer/SqlBookClasses">this folder</a>.</td><td>See JSON Columns classes in <a href="https://github.com/JonPSmith/ExploringJsonColumns/tree/main/DataLayer/JsonBookClasses">this folder</a>.</td></tr></tbody></table></figure>
+
+
+
+<p>The JSON Columns part of the diagram above isn’t as clear as the Tables/Indexes approach, so the screenshot below shows the JSON in the BookData’s nvarchar(max) string.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/QuantumNetworkingJsonString-1.png"><img decoding="async" width="730" height="585" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/QuantumNetworkingJsonString-1.png" alt="" class="wp-image-2974" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/QuantumNetworkingJsonString-1.png 730w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/QuantumNetworkingJsonString-1-300x240.png 300w" sizes="(max-width: 730px) 100vw, 730px" /></a></figure>
+
+
+
+<p>The configuring of JSON Columns is added in your DbContext’s OnModelCreating method – see the diagram below which shows the <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/DataLayer/JsonBookEfCore/BookJsonContext.cs">BookJsonContext class</a> with comments about where the JSON Columns&#8217; OwnsOne and OwnsMany methods are used</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExampleJsonColumnsConfigure.png"><img loading="lazy" decoding="async" width="611" height="318" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExampleJsonColumnsConfigure.png" alt="" class="wp-image-2983" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExampleJsonColumnsConfigure.png 611w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExampleJsonColumnsConfigure-300x156.png 300w" sizes="auto, (max-width: 611px) 100vw, 611px" /></a></figure>
+
+
+
+<p>Here is a link to another the <a href="https://github.com/JonPSmith/EfCore.SchemaCompare/blob/master/DataLayer/JsonColumnDb/JsonCustomerContext.cs">JsonCustomerContext</a> DbContext which I used in testing my JSON Columns code added to my <a href="https://github.com/JonPSmith/EfCore.SchemaCompare">EfCore.SchemaCompare</a> library. This shows how you can configure multiple layers (e.g., grandfather, father, son) relationships and handing multiples JSON Columns’ entities.</p>
+
+
+
+<h3 class="wp-block-heading">The differences between Tables/Indexes and JSON Columns version’s “many” relationships</h3>
+
+
+
+<p>When showing a book with multiple authors you must ensure the authors’ names are in the correct order. In the Tables/Indexes approach: the <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/DataLayer/SqlBookClasses/BookAuthor.cs">BookAuthor class</a> has an byte “Order” column to make sure that Author’s Names are shown in the correct order.</p>
+
+
+
+<p>But in the JSON Columns approach the <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/DataLayer/JsonBookClasses/JsonAuthor.cs">JsonAuthor class</a> doesn’t need a “Order” property because the List&lt;JsonAuthor&gt; holds the authors’ names in the order they were added. &nbsp;Therefore you don’t need a “Order” property.</p>
+
+
+
+<h3 class="wp-block-heading">4. Writing into the database</h3>
+
+
+
+<p>From the developer’s perspective the writing of data to the database uses the same process for the Table / Index approach and JSON Columns &#8211; you put data into a class and EF Core will store it into the database. EF Core will store Table / Index data into tables and columns, while with JSON Columns EF Core will store the data in a JSON string.</p>
+
+
+
+<h3 class="wp-block-heading">5. Selecting data from the database</h3>
+
+
+
+<p>In the first version (EF Core 7) of the JSON Columns the only way to select data is using the Table / Index approach, i.e. by using column(s) to in the top entity, for instance in the&nbsp; “lists of books” you could its Id (Index) in the <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/DataLayer/JsonBookClasses/BookTop.cs">BookTop</a> class.</p>
+
+
+
+<p>But in EF Core 8 there was a new <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew#enhancements-to-json-column-mapping">Enhancements to JSON column mapping</a>” feature which enables you to filter each entry (i.e. book) using data point(s) in the JSON string. I use this feature in my performance tasks to find all the books that has a specific author’s name. You can find that <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/Test/MappingCode/MapJsonBooksByAuthor.cs">code here</a>.</p>
+
+
+
+<h3 class="wp-block-heading">6. Reading data from the database</h3>
+
+
+
+<p>The reading of JSON Columns’ data is very easy – you simply access the classes / properties just like the Table / Index approach. The only small difference is that any relationship in the JSON Columns is immediately available, so you don’t need to add code to load relationships (e.g., context.Books.Include(book =&gt; book.Reviews)… isn’t needed).</p>
+
+
+
+<p>NOTE: There are some rare situations when you need to a) read in many JSON Columns entities, and b) combine data, or you only need a subset of the data points, then using IEnumerable&lt;&gt; input and an IEnumerable&lt;&gt; out can make the process (a bit) quicker (see <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/Test/MappingCode/MapJsonBooks.cs">MapJsonBooks</a> for an example). I found this when reading all the books ordered by each book’s star rating, because I had two ToList’s – using IEnumerable&lt;&gt; in/out removes one of the ToList method.</p>
+
+
+
+<h2 class="wp-block-heading">4. Performance comparisons</h2>
+
+
+
+<p>I had a project called <a href="https://github.com/JonPSmith/ExploringJsonColumns/blob/main/Benchmark/ConsoleBenchmark.cs">ConsoleBenchmark</a> in my ExploringJsonColumns solution which used &nbsp;<a href="https://github.com/dotnet/BenchmarkDotNet">BenchmarkDotNet</a> to get the performance of the two approaches, i.e., the normal Tables/Indexes approach and the JSON Columns approach. There are four tasks to compare, with two types of data:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Simple data: This has the least relationships, with each book having one Author’s Name and no reviews or promotions.</li>
+
+
+
+<li>Complex data: This has many relationships, with each book having two Author’s Name and many reviews and a few promotions.</li>
+</ul>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Task name</strong></td><td><strong>What is does</strong></td></tr><tr><td>1. Add</td><td>Add N sample data to an empty SQL database</td></tr><tr><td>2. Read</td><td>Read N sample data from the SQL database</td></tr><tr><td>3. Order</td><td>Read N sample data and order the books using their star rating</td></tr><tr><td>4. Author</td><td>Find all the books that has a specific author’s name in the N sample data.</td></tr></tbody></table></figure>
+
+
+
+<p>The first two tasks (Add, Read) don’t favour either approach, but last two tasks (Order, Author) should favour the Tables/Indexes approach because it can use indexes to get to the information more easily. NOTE: that the “Order” and &nbsp;“Author” tasks don’t work in the Simple type.</p>
+
+
+
+<p>Below are the benchmark results for the two setups: Simple and Complex, with a performance summary after the BenchmarkDotNet’s results.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Simple-benchmark-28-12-24.png"><img loading="lazy" decoding="async" width="542" height="329" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Simple-benchmark-28-12-24.png" alt="" class="wp-image-2976" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Simple-benchmark-28-12-24.png 542w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Simple-benchmark-28-12-24-300x182.png 300w" sizes="auto, (max-width: 542px) 100vw, 542px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Complex-10-100-1000-28-12-24.png"><img loading="lazy" decoding="async" width="556" height="582" src="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Complex-10-100-1000-28-12-24.png" alt="" class="wp-image-2977" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Complex-10-100-1000-28-12-24.png 556w, https://www.thereformedprogrammer.net/wp-content/uploads/2025/01/ExploringJsonColumns-Complex-10-100-1000-28-12-24-287x300.png 287w" sizes="auto, (max-width: 556px) 100vw, 556px" /></a></figure>
+
+
+
+<p>From the performance of this “list of books” code of you can say:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Add tests</strong>: The JSON Columns is as good, or better than the Table / Index version, and the 1,000 books with JSON Columns is nearly half the time of the Table / Index code. I suspect the number of relationships will have some effect on the Table / Index version’s performance.</li>
+
+
+
+<li><strong>Read tests</strong>: The JSON Columns performance is near to the Table / Index version when there aren’t many books, i.e., 10, but once you get to 100 books takes 8 times longer, and with 1,000 test Columns takes 10 times longer.</li>
+
+
+
+<li><strong>Order tests</strong> (complex only): I thought the Table / Index version would win every time because it could use the LINQ Average method on all the review’s star rating, but in the “ten books” JSON Columns works well. However, compared against the Table / Index version the 100 books JSON Columns take 7 times longer, and 1,000 JSON Columns takes 7 times longer.</li>
+
+
+
+<li><strong>Author tests</strong> (complex only): &nbsp;This task finds all the books that have a specific author’s name. The JSON Columns approach was better than I expected, but it’s always slower than the Table/Index approach. The worse was 1,000 JSON Columns version, which was 8 times slower that the Table/Index approach.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">5. My thoughts on where JSON Columns are a good fit</h2>
+
+
+
+<p>I used the “list of books” code because it covers the JSON Columns’ relationships, configuration, types of reading, etc. which makes a good example. As I said earlier, I was sure that the normal Table / Index approach would have the best performance on the “list of books” tests, and I was right. But I was surprised that the JSON Columns did so well!</p>
+
+
+
+<p>So, what types of data is a good fit for using JSON Columns? My take is:</p>
+
+
+
+<ul class="wp-block-list">
+<li>The data has many parts.</li>
+
+
+
+<li>Each data point can be held in a built-in type, e.g. int, bool, string…</li>
+
+
+
+<li>The data points are “coherent”,&nbsp; i.e. there no links outside this data.</li>
+</ul>
+
+
+
+<p>This means the JSON Columns approach is good if you have lots of data about one thing that doesn’t need links to another entity. The <a href="https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#json-columns">.NET 7 release the EF Core</a> documentation gives you examples that work well with JSON Columns, for instance:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Contact Details: name, phones, address, etc.</li>
+
+
+
+<li>Logging: what, where, when, who…</li>
+</ul>
+
+
+
+<p>The other thing to consider is the performance comparison where the JSON Columns approach is better that the Table / Index approach. The Performance comparisons section show that:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Adding a lot of JSON Columns data is normally faster than the Table / Index approach (I think this because the Table / Index approach of the “”list of books” app has to create more indexing and relationships on adding).</li>
+
+
+
+<li>Do you need to read a lot of entities using JSON Columns, then a JSON Columns can be slow. For instance, “list of books”:<ul><li>JSON Columns: 10 takes the same as the Table / Index approach, but…</li></ul><ul><li>JSON Columns: 100 takes 2 times of the Table / Index approach</li></ul>
+<ul class="wp-block-list">
+<li>JSON Columns: 1,000 takes 8 times of the Table / Index approach</li>
+</ul>
+</li>
+
+
+
+<li>If there are lookups (e.g., finding all the books for a specific Author) or ordering, then the Table / Index approach, with its links using Indexing, is likely to perform better that JSON Columns approach. For instance, in the Author task the JSON Columns approach has read every AuthorName in each entity, while the &nbsp;Table / Index approach only has to look at the at the links via the BookAuthor class, which are 10.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p>I hope this article helps you to understand how to setup and use EF Core’s JSON Columns feature. Also the performance figures give you some idea of what JSON Columns will do in add, read, and filter tasks.</p>
+
+
+
+<p>Just to end, if your data fits a JSON Columns approach, but performance is critical, then I would recommend <a href="https://learn.microsoft.com/en-us/azure/cosmos-db/use-cases">Cosmos DB</a>. I used Cosmos DB with the <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs">CQRS pattern</a> in chapter 16 of my book <a href="https://bit.ly/EfCoreBookEd2">Entity Framework Core in Action</a> (2nd. Edition) and I found it very fast. For instance, the Order task in this article was way faster than the normal Tables / Indexes approach.&nbsp;&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading has-black-color has-text-color has-link-color wp-elements-1126ea8ae0024c5661ab855fd09a6d7b"><em>ENDNOTE dementia and programming</em></h2>
+
+
+
+<p><em>I wrote an article in the end of May 2024 which had an </em><a href="https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/#endnote-dementia-and-programming"><em>endnote about my dementia</em></a><em>, talking about my diagnosis of Alzheimer&#8217;s disease in January 2024. Alzheimer&#8217;s disease is a progressive disease that worsens over time; this endnote talks about how I am in January 2025.</em></p>
+
+
+
+<p><em>I am very happy to say my programming skills are better! and that’s what this endnote talks abouts. However I have to say that there are a few negative symptoms as well, like something I call “sensory overload,” where if I do lots of different tasks one after another (or lots of people or sounds), then I feel overloaded. But I’m going to focus on how my programming skills got better, because developers will be reading this.</em></p>
+
+
+
+<p><em>In my first </em><a href="https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/#endnote-dementia-and-programming"><em>endnote about my dementia</em></a><em> I talked about using lists more to cover the problem of memory loss, and using my version </em><a href="https://neuraleffects.com/blog/cognitive-stimulation-therapy-activities/"><em>Cognitive Stimulation Therapy</em></a><em> (CST) approach. The typical CST ‘s suggestions are to do crossword puzzles, Sudoku, Rubik’s Cube, etc. I do some of these but for me the best CST work is programming! I had to change my approach to programming to counter the dementia’s symptoms – and for me it works.</em></p>
+
+
+
+<p><em>It turns out in the last three months I have done a lot of programming:</em></p>
+
+
+
+<ul class="wp-block-list">
+<li><em>Added JSON Columns to my EfCore.SchemaCompare (very difficult!)</em></li>
+
+
+
+<li><em>Fixed a tricky problem my EfCore.SchemaCompare (complex)</em></li>
+
+
+
+<li><em>I updated five these libraries to .NET 9 (mostly easy)</em></li>
+
+
+
+<li><em>The </em><a href="https://github.com/JonPSmith/ExploringJsonColumns"><em>ExploringJsonColumns </em></a><em>for this article (complex)</em></li>
+</ul>
+
+
+
+<p><em>Doing all this has helps me to regain some of my programming skills!, like my “holding all of parts of the code in my head” skill back (I talked about this in </em><a href="https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/#endnote-dementia-and-programming"><em>first endnote</em></a><em>). This skill gave a detailed understanding of design of any projects I was working on. This allows me to think about additions or improvements “in my head”, often after work without the code in front of me. I though everyone could do this, but when I lost this gift, I was devastated, but I also realised that my “in my head” skill might be rare. But now I have seen that I can get back my “in my head” skill, it makes it easier to do programming</em>!</p>
+
+
+
+<p><em>However dementia effects many parts of the brain, and the big ones for me are remembering words and spelling. Here are two that I have, with examples from my programming:</em></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong><em>Correct name</em></strong><em>: For instance, when coding I usually know that I can do a task, but I can’t remember the name of the method I need. For instance, I knew I could select a subset of a list, but didn’t remember its name (it turns out is the LINQ’s Take method). This happened many times on my small ExploringJsonColumns project.</em></li>
+
+
+
+<li><strong><em>Correct spelling</em></strong><em>: The coding is bad, but the real problem is to remember how to spell a word, even when using Word to help me! I can’t put a number of the times I had to type a word, and it wasn’t correct, then I have to try different spelling or look up on the web (I found that Google Search is better that Word when figuring out what my incorrect version of a word should be).</em></li>
+</ul>
+
+
+
+<p><em>The other things I do when coding are:</em></p>
+
+
+
+<ul class="wp-block-list">
+<li><em><strong>Unit Tests: Indispensable</strong> : I have always used unit tests, but now I have dementia I need it more!</em></li>
+
+
+
+<li><em><strong>Task list: Now used:</strong> Before dementia I could handle many things in my head. Now I must create a task list to help me to not miss something. For this article I wrote the section names first, and then created the code for each section.</em></li>
+
+
+
+<li><em><strong>Use two monitors:</strong> If I am changing some code it’s useful to remember what the original code was, but my dementia removes the ability to remember things (short-term memory). Therefore I often have the original code on my second monitor while I updating the code using my main monitor.</em></li>
+</ul>
+
+
+
+<p>END</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>How to update a NuGet library once the author isn’t available</title>
 		<link>https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/</link>
 					<comments>https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/#comments</comments>
@@ -250,7 +699,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png"><img fetchpriority="high" decoding="async" width="542" height="548" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png" alt="" class="wp-image-2940" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png 542w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles-297x300.png 297w" sizes="(max-width: 542px) 100vw, 542px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png"><img loading="lazy" decoding="async" width="542" height="548" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png" alt="" class="wp-image-2940" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles.png 542w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VisualStudio-PlaceInFiles-297x300.png 297w" sizes="auto, (max-width: 542px) 100vw, 542px" /></a></figure>
 
 
 
@@ -258,7 +707,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png"><img decoding="async" width="649" height="41" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png" alt="" class="wp-image-2941" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png 649w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects-300x19.png 300w" sizes="(max-width: 649px) 100vw, 649px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png"><img loading="lazy" decoding="async" width="649" height="41" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png" alt="" class="wp-image-2941" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects.png 649w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/VIsualStudioReloadProjects-300x19.png 300w" sizes="auto, (max-width: 649px) 100vw, 649px" /></a></figure>
 
 
 
@@ -270,7 +719,7 @@
 
 
 
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png"><img decoding="async" width="769" height="419" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png" alt="" class="wp-image-2942" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png 769w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution-300x163.png 300w" sizes="(max-width: 769px) 100vw, 769px" /></a></figure>
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png"><img loading="lazy" decoding="async" width="769" height="419" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png" alt="" class="wp-image-2942" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution.png 769w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/NuGetPackagesForSolution-300x163.png 300w" sizes="auto, (max-width: 769px) 100vw, 769px" /></a></figure>
 
 
 
@@ -488,7 +937,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 			</item>
@@ -4174,356 +4623,6 @@ public ShardingConnections(
 					
 					<wfw:commentRss>https://www.thereformedprogrammer.net/how-to-turn-an-asp-net-core-appsettings-json-file-into-a-fast-read-database/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A .NET distributed cache with a ~25 nanosecond read time!</title>
-		<link>https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/</link>
-					<comments>https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/#comments</comments>
-		
-		<dc:creator><![CDATA[Jon P Smith]]></dc:creator>
-		<pubDate>Mon, 08 Aug 2022 10:13:28 +0000</pubDate>
-				<category><![CDATA[.NET Core]]></category>
-		<category><![CDATA[ASP.NET Core]]></category>
-		<category><![CDATA[Performance]]></category>
-		<category><![CDATA[.NET]]></category>
-		<category><![CDATA[distributed cache]]></category>
-		<guid isPermaLink="false">https://www.thereformedprogrammer.net/?p=2735</guid>
-
-					<description><![CDATA[This article described a .NET distributed cache library called Net.DistributedFileStoreCache (referred to as FileStore cache in &#8230; <a href="https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/" class="more-link">Continue reading <span class="screen-reader-text">A .NET distributed cache with a ~25 nanosecond read time!</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p>This article described a .NET distributed cache library called <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache">Net.DistributedFileStoreCache</a> (referred to as <em>FileStore cache</em> in this article). The FileStore distributed cache library is very quick to read a cache value (known as <em>Get</em>), for instance, FileStore cache take ~25 ns. to Get a cache value, but a SQL Server distributed cache would take at least 0.1 ms – that means FileStore cache is 4,000 faster on Gets! Typically, you don’t need that speed, but I have a situation where I needed to read lots of cache value in every HTTP request, so I built this FileStore cache.</p>
-
-
-
-<p>The other positive of the FileStore cache is its very easy to setup and use. The FileStore cache design is based on ASP.NET Core’s appsetting.json files so it stores the cache entries in a json file which is shared by all the instances of the application. This also means you don’t have to set up, or pay, for a database for your caching <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
-
-
-
-<p>The downside of the FileStore cache is it’s slower than database caches when adding a new cache value (known as Set). For instance, to Set a cache value to an existing 100 cache values takes ~1.5 ms., while a database would normally execute a Set in less than one millisecond. And it gets worse as the cache gets bigger, e.g. to Set a cache value to an existing 10,000 cache values takes ~9 ms. <strong>So, the FileStore cache library is useful when your application needs fast cache reads and only a few cache writes. Also, it’s NOT a good fit for large cached values, like a image, as the bigger the cache gets the slower the update will be.</strong></p>
-
-
-
-<p>The other (smaller) downside is the FileStore cache doesn’t implement the IDistributedCache’s <a href="https://stackoverflow.com/questions/13637856/net-caching-how-does-sliding-expiration-work">SlidingExpiration</a> feature, because that would make the read performance slow. But the FileStore cache does support the two AbsoluteExpiration versions.</p>
-
-
-
-<p>Read on to understand how the FileStore cache works so you can decide if it would be useful to your application.</p>
-
-
-
-<h2 class="wp-block-heading">TL;DR; – Summary of this article</h2>
-
-
-
-<ul class="wp-block-list"><li>The FileStore cache library provides a .NET distributed cache that has a very fast – it only takes ~25 ns. to Get of one entry in a cache containing 10,000 entries, but it is slow when you use Set / Remove (100 entries = ~1.3 ms., 1,000 entries = ~1.7 ms., 10,000 = ~7.9 ms.)</li><li>The FileStore distributed cache relies on a json file that all the the instances of the application can accesse, just like your ASP.NET Core appsettings.json files (see <a href="https://stackoverflow.com/a/63260637/1434764">Azure&#8217;s Scale-Out</a> approach). This make it’s easy to setup because it just relies on a json file in your applications directory so you don’t have to set up, or pay, for a database for your <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-sql-server-cache">SQL Server cache</a>, <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-redis-cache">Redis cache</a>, or <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-ncache-cache">NCache cache</a>.</li><li>The main FileStore cache implementation has a value of type string, mainly because the values are stored in a json file. This Version is known as String.</li><li>There are three other versions which have different cache value types / interfaces convert their cache value to a string and then call the String version:<ul><li>Version=Class: This inherits the String version and adds three method types that serializes the class to a json string. Useful when you want to store a complex data I the cache.</li></ul><ul><li>Version=Bytes: This has a value of type byte[] with extra features over the IDistributedCache interface.</li></ul><ul><li>Version=IDistributedCache: The Bytes version is accessed via the IDistributedCache interface. Useful if you have an existing caching using the IDistributedCache interface.</li></ul></li><li><a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache">Net.DistributedFileStoreCache</a> is an open-source library under the MIT license and a <a href="https://www.nuget.org/packages/Net.DistributedFileStoreCache">NuGet package</a>. The documentation can be found in the <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/wiki">GitHub wiki</a>.</li></ul>
-
-
-
-<h2 class="wp-block-heading">Useful links to general info on caching</h2>
-
-
-
-<ul class="wp-block-list"><li><a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed">Distributed caching in ASP.NET Core</a> – different distributed caching libraries with ASP.NET</li><li><a href="https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching">Caching guidance from Microsoft</a> &#8211; covers all sorts of caching arrangements</li><li><a href="https://towardsdatascience.com/system-design-basics-getting-started-with-caching-c2c3e934064a">System Design Basics: Getting started with Caching</a> – explains different caching approaches</li><li><a href="https://docs.microsoft.com/en-us/dotnet/framework/performance/caching-in-net-framework-applications">Caching in .NET Framework Applications</a> &#8211; other types of caching, e.g WCF REST caching</li></ul>
-
-
-
-<h2 class="wp-block-heading">Setting the scene – why and how I built the FileStore cache library.</h2>
-
-
-
-<p>The articles / documentation about a software cache talk about <a href="https://docs.microsoft.com/en-us/dotnet/framework/performance/caching-in-net-framework-applications">improving performance and scalability</a>. For instance, in my book “<a href="https://bit.ly/EfCoreBookEd2">Entity Framework Core in Action</a>” I use two different cache approaches to improve performance of displaying and searching first 100,000 books and then ½ million books (see <a href="https://www.thereformedprogrammer.net/five-levels-of-performance-tuning-for-an-ef-core-query/">this article</a> for the details and link to a <a href="https://www.youtube.com/watch?v=VgNFFEqwZPU">video</a>).</p>
-
-
-
-<p>But I want to talk about to another use of caches, especially distributed cache, where they are used to manage application data that changes and all the instances of the application need to access. I have used a distributed cache in this way to:</p>
-
-
-
-<ul class="wp-block-list"><li>How to take an ASP.NET MVC web site “Down for maintenance” (see this <a href="https://www.thereformedprogrammer.net/how-to-take-a-asp-net-mvc-web-site-down-for-maintenance/">old (MVC5) article</a>)</li><li>Updating a logged-in user’s claims when something changes (see <a href="https://www.thereformedprogrammer.net/advanced-techniques-around-asp-net-core-users-and-their-claims/#4-refreshing-the-logged-in-users-claims-on-an-event">this section / article</a>)</li></ul>
-
-
-
-<p>But recently I used the ASP.NET Core’s appsetting.json file as a simple distributed cache when adding sharding to the multi-tenant part of the <a href="https://github.com/JonPSmith/AuthPermissions.AspNetCore">AuthPermissions.AspNetCore</a> library. In this case I configured a separate json file containing the list of database information used<strong> </strong>ASP.NET Core’s <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options#use-ioptionssnapshot-to-read-updated-data"><code>IOptionsSnapshot</code></a> service to read it. This means I can update the <strong>j</strong>son file and then get the latest data when I use <code>IOptionsSnapshot</code> – and <code>IOptionsSnapshot</code> is <u>very quick</u>, which is good as that data is accessed every HTTP request.</p>
-
-
-
-<p><code>IOptionsSnapshot</code> is great, but it turns out there are some issues to fix if its going to properly implement a distributed cache. For instance, if two instances update the json file <u>at the same time</u>, then there would be a problem. At best result would be that one instance throws an IOException, but the worse result is one of changes is lost and you aren’t aware of it. This breaks the “<em>coherent</em> (consistent) across requests to multiple servers” <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed">rule of a distributed cache</a>.</p>
-
-
-
-<p>I tried to fix these problems using the <code>IOptionsSnapshot</code> but I found a number of situations that I couldn’t fix. But the idea is good, so I went back to the basic .NET features needed to make a true distributed cache. The two .NET features that I used to make a true distributed cache with fast read are:</p>
-
-
-
-<ol class="wp-block-list" type="1"><li><a href="https://www.thecodebuzz.com/file-lock-unlock-read-write-file-c-sharp-thread-safe-net-core/">File Locking</a>: locking a file during an update means no other processes can read or write the file until the updated file has been saved. If another process tries to access a locked file, then it throws an exception which the library catches and retries the access after a delay. This makes sure that the FileStore cache implements the <strong>“</strong><em>coherent</em> (consistent) across requests to multiple servers” rule.</li><li><a href="https://www.c-sharpcorner.com/UploadFile/puranindia/filesystemwatcher-in-C-Sharp/">FileSystemWatcher</a>: the FileSystemWatcher class will alert each the instance of the application that the cache file has been changed, which means the (hidden) local static cache is out of date. On the next time the application code accesses the FileStore cache will read the file (within a lock) and update the local static cache before executing the application’s request.</li></ol>
-
-
-
-<p>The diagram below shows the four steps that happens when the FileStore cache goes through an update (e.g, Set or Remove).</p>
-
-
-
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png"><img loading="lazy" decoding="async" width="763" height="376" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png" alt="" class="wp-image-2736" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps.png 763w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCache-Steps-300x148.png 300w" sizes="auto, (max-width: 763px) 100vw, 763px" /></a></figure>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>NOTE: Even if you have only one application instance to the four steps are still run as a single application can be running multiple processed at the same time.</p></blockquote>
-
-
-
-<p><strong>DESIGN NOTES</strong></p>
-
-
-
-<ul class="wp-block-list"><li>The FileSystemWatcher class is known to <a href="https://stackoverflow.com/questions/1764809/filesystemwatcher-changed-event-is-raised-twice">create two events</a> when a file is changed and this can happen in the FileStore cache. For that reason, the library invalidates the local cache and then waits for another access to the FileStore cache: that way it’s less likely that the read of the FileStore cache file will runs twice.</li><li>For performance reasons a cache entry’s AbsoluteExpiration has expired it will return null when accessed, but the cache entry is still in the FileStore cache file. Once any cache update (i.e. set, remove, or reset) is executed, then the expired cache entries still present entries are removed. This keeps the read performance of the library high.</li><li>As stated earlier the FileStore cache doesn’t implement the IDistributedCache’s <a href="https://stackoverflow.com/questions/13637856/net-caching-how-does-sliding-expiration-work">SlidingExpiration</a> to keeps the performance of the library high. &nbsp;I could have used a similar approach to the AbsoluteExpiration in the last design note, but it would only be based on only local accesses.</li></ul>
-
-
-
-<p>The end result is that the <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache">Net.DistributedFileStoreCache</a> library is an cache that meets the requirements of a distributed cache. It also contains some extra useful features over the default IDistributedCache interface (described later).</p>
-
-
-
-<h2 class="wp-block-heading">The four different FileStore cache interfaces</h2>
-
-
-
-<p>The primary .NET interface for distributed caches is <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.caching.distributed.idistributedcache">IDistributedCache</a> which has only four methods types: Set, Get, Remove and Refresh, plus async versions of each, with the key being a string and the value is a byte[]. For instance, the sync Get method has the following signature:</p>
-
-
-
-<pre class="wp-block-preformatted"><code>public byte[] Get (string key);</code></pre>
-
-
-
-<p>But because I am storing the data in a json file its much better to have the value of type string, called <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/DistributedFileStoreCacheString.cs">DistributedFileStoreCacheString</a>, which contains the primary code. But to make the library useful to users already using the IDistributedCache I added other versions where the value is byte[]. Also, I added class that added a few extra features to the primary …String version. The figure below gives you a summary of the four interfaces the FileStore cache library provides.</p>
-
-
-
-<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png"><img loading="lazy" decoding="async" width="671" height="277" src="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png" alt="" class="wp-image-2737" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions.png 671w, https://www.thereformedprogrammer.net/wp-content/uploads/2022/08/DistributedFileStoreCacheVersions-300x124.png 300w" sizes="auto, (max-width: 671px) 100vw, 671px" /></a></figure>
-
-
-
-<p>The table below shows the which interface is registered is defined by the WhichVersion parameter in the FileStore&#8217;s options – they are:</p>
-
-
-
-<figure class="wp-block-table"><table><tbody><tr><td><strong>Version name</strong></td><td><strong>Registered Interface</strong></td><td><strong>Value type</strong></td></tr><tr><td>String</td><td><a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/IDistributedFileStoreCacheString.cs">IDistributedFileStoreCacheString</a></td><td>string</td></tr><tr><td>Class</td><td><a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/IDistributedFileStoreCacheClass.cs">IDistributedFileStoreCacheClass</a></td><td>string + class</td></tr><tr><td>Bytes</td><td><a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/IDistributedFileStoreCacheBytes.cs">IDistributedFileStoreCacheBytes</a></td><td>byte[]</td></tr><tr><td>IDistributedCache</td><td><a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.caching.distributed.idistributedcache">IDistributedCache</a></td><td>byte[]</td></tr></tbody></table></figure>
-
-
-
-<h2 class="wp-block-heading">Registering the distributed FileStore Cache</h2>
-
-
-
-<p>the AddDistributedFileStoreCache extension within FileStore cache library allows to register the FileStore cache version you want to use as a service. It also sets up / find the FileStore cache file name and location using your environment information, which is simpler (and cheaper) compared to using a distributed cache that uses a database. The code below shows how you would this in an ASP.NET Core’s Program startup.</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: csharp; title: ; notranslate">
-builder.Services.AddDistributedFileStoreCache (options =&gt;
-    {
-        options.WhichInterface = String;
-    }, builder.Environment);
-</pre></div>
-
-
-<p>The registration code above would register a service with the interface IDistributedFileStoreCacheString. It also uses the ASP.NET Core environment class to create an different cache filename based on your EnvironmentName, for instance the file name would be “FileStoreCacheFile.Development.json” when in a development environment, and file is stored directory defined by the environment’s ContentRootPath FilePath. This makes sure that your cache file is in the right place and your development c and doesn’t interfere with your production cache file.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>NOTE: Go to the <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/wiki/Registering-FileStore-Cache">Register the FileStore Cache</a> documentation for more information on the setup and the various options you might need.</p></blockquote>
-
-
-
-<h2 class="wp-block-heading">The performance of the distributed FileStore Cache</h2>
-
-
-
-<p>I measure the performance of the FileStore cache String version by the excellent <a href="https://www.nuget.org/packages/BenchmarkDotNet/">BenchmarkDotNet</a> library. My performance tests both reads and writes of the cache on a cache that already has 100, 1,000 and 10,000 cached values in it. The performance tests where run on an Intel Core i9-9940X CPU 3.30GHz.</p>
-
-
-
-<p>The full performance figures are available in the repo’s <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/README.md#performance-figures">README file</a> but here is a summary.</p>
-
-
-
-<h3 class="wp-block-heading">Read performance</h3>
-
-
-
-<ul class="wp-block-list"><li>Reads a single cache value took ~25 ns at the three levels of cache size.</li><li>Getting a Dictionary of ALL the cache key/values took ~80 ns at the three levels of cache size.</li></ul>
-
-
-
-<h3 class="wp-block-heading">Write performance</h3>
-
-
-
-<p>The time taken to add a cache value to cache goes up as the size of the cache is – see table below. This makes sense as unlike a database you are reading and then writing ALL the cache values into a file. The async versions are slower than the sync versions, but it does release a thread while reading and writing.</p>
-
-
-
-<figure class="wp-block-table"><table><tbody><tr><td>Cache number / size</td><td>100 / 4.6 kb</td><td>1,000 / 40.1 kb</td><td>10,000 / 400.0 kb</td></tr><tr><td>AddKey (Set)</td><td>1.3 ms.</td><td>1.7 ms.</td><td>7.9 ms. </td></tr><tr><td>Add 100 (SetMany)</td><td>1.4 ms.</td><td>1.7 ms.</td><td>8.3 ms.</td></tr><tr><td>AddKeyAsync (SetAsync)</td><td>1.7 ms.</td><td>2.3 ms.</td><td>9.0 ms.</td></tr></tbody></table></figure>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>NOTE: If you want to make sure your use of the FileStore cache is the best it can be, then I recommend you read the <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/wiki/Tips-on-making-your-cache-fast">Tips on making your cache fast</a> document.</p></blockquote>
-
-
-
-<h2 class="wp-block-heading">Using the distributed FileStore Cache</h2>
-
-
-
-<p>If you are familiar with any of .NET’s distributed cache libraries like <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-sql-server-cache">Distributed SQL Server cache</a>, <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-redis-cache">Distributed Redis cache</a>, <a href="https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0#distributed-ncache-cache">Distributed NCache cache</a> etc. then it will the same, but without of the hassle / cost of setting up a database.</p>
-
-
-
-<p>The biggest difference if you use the String version is that the value is a string instead of byte[]. But each FileStore version has some other differences, as detailed below:</p>
-
-
-
-<ul class="wp-block-list"><li>All the versions apart from the IDistributedCache version has two extra method types:<ul><li>GetAllKeyValues/Async methods, which returns all the key/values as a directory. I find this useful if I want to load multiple cache values as it only takes ~85 ns.</li></ul><ul><li>ClearAll, which drops all the key/values. Useful for testing and stackoverflow has may questions on how to clear out all the key/values in a cache.</li></ul></li><li>To keep the read performance FileStore cache doesn’t support <a href="https://stackoverflow.com/questions/13637856/net-caching-how-does-sliding-expiration-work">SlidingExpiration</a>. This has three effects:<ul><li>All four versions will throw an exception if you try to set the SlidingExpiration option via the DistributedCacheEntryOptions parameter in the Set/SetAsync.</li></ul><ul><li>The two FileStore cache versions that use the byte[] type for the value has a Refresh / RefreshAsync method, but if you call them it will throw an exception. This makes these two versions compatible to the IDistributedCache interface.</li></ul><ul><li>In the FileStore cache versions that use a string type for the value do not contain the the Refresh / RefreshAsync methods.</li></ul></li></ul>
-
-
-
-<p>The code below uses the String version and shows the use of the GetAllKeyValues (see line 12) and the Set method (line 30).</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: csharp; highlight: [12,30]; title: ; notranslate">
-public class HomeController : Controller
-{
-    private readonly IDistributedOptionsCacheString _fsCache;
-
-    public HomeController(IDistributedOptionsCacheString optionsCache)
-    {
-        _fsCache = optionsCache;
-    }
-
-    public IActionResult Index()
-    {
-        var allKeyValues = _fsCache.GetAllKeyValues();
-        foreach (var key in allKeyValues.Keys)
-        {
-            logs.Add($&quot;Key = {key}, Value = {allKeyValues&#x5B;key]}&quot;);
-        }
-
-        return View(logs);
-    }
-
-    public IActionResult AddCache()
-    {
-        return View();
-    }
-
-    &#x5B;HttpPost]
-    &#x5B;ValidateAntiForgeryToken]
-    public IActionResult AddCache(string key)
-    {
-        _fsCache.Set(key, DateTime.Now.ToString(&quot;s&quot;), null);
-        return RedirectToAction(&quot;Index&quot;);
-    }
-}
-</pre></div>
-
-
-<p>NOTE: The 1.1.0 version of FileStore cache adds the following extra commands:</p>
-
-
-
-<ul class="wp-block-list"><li><code>SetMany</code> / <code>SetManyAsync</code> which adds multiple entries in one go, which is quicker than individual Set / SetAsync calls.</li><li>The <code>ClearAll </code>method has optional parameters to add multiple entries into the cache after the cache has been cleared.</li></ul>
-
-
-
-<h2 class="wp-block-heading">Looking at the IDistributedFileStoreCacheClass version</h2>
-
-
-
-<p>The reason for building the FileStore cache library was to improve my <a href="https://github.com/JonPSmith/AuthPermissions.AspNetCore">AuthPermissions.AspNetCore</a> library and its handling of multi-tenant applications. In this library I have some data in the appsettings.json files which would be better in a distributed cache, but they have multiple parameters.</p>
-
-
-
-<p>I saw <a href="https://code-maze.com/aspnetcore-distributed-caching/">this article</a> which suggested some extension methods to turn a class into a json string before saving that json string in a cache, and I though that would be really useful for me. Rather than creating extension methods I built a small class called <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/DistributedFileStoreCacheClass.cs">DistributedFileStoreCacheClass</a> that inherits the string FileStore cache version that adds the following method types (the first threehave an async version):</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>NOTE: The &lt;T&gt; part has the following where cause: <code>where T : class, new()</code></p></blockquote>
-
-
-
-<ul class="wp-block-list"><li><code>SetClass&lt;T&gt;(string key, T yourClass, …)</code> – this serializes the “yourClass” into a json string and saved to the string to the FileStore cache.</li><li><code>SetManyClass&lt;T&gt;(List&lt;KeyValuePair&lt;string,T&gt; manyEntries, ...)</code> which adds multiple entries in one go, which is quicker than individual SetClass calls.</li><li>T<code>? GetClass&lt;T&gt;(string key)</code> – This reads in the string from the string FileStore cache and deserializes the string back to a class.</li><li><code>T? GetClassFromString&lt;T&gt;(string? jsonString)</code> – This is useful if you want to obtain a class from a cache entry obtained by the GetAllKeyValues / Async method.</li></ul>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><p>NOTE: Be aware that the cache does not hold the class type in the cache. It is up to you to use the same &lt;T&gt; on the GetClass as you used in the SetClass method.</p></blockquote>
-
-
-
-<p>Here is an example from my unit tests to show how it works:</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: csharp; title: ; notranslate">
-&#x5B;Fact]
-public void DistributedFileStoreCacheSetClass_JsonClass_Example()
-{
-    //SETUP
-    _distributedCache.ClearAll();
-
-    //ATTEMPT
-    _distributedCache.SetClass(&quot;test&quot;, new JsonClass2 { MyInt = 3, 
-        MyClass1 = new JsonClass1 { MyInt = 1, MyString = &quot;Hello&quot; } }, null);
-
-    //VERIFY
-    var jsonClass2 = _distributedCache.GetClass&lt;JsonClass2&gt;(&quot;test&quot;);
-    jsonClass2.ShouldBeType&lt;JsonClass2&gt;();
-    jsonClass2.ShouldNotBeNull();
-    //… other tests left out
-}
-</pre></div>
-
-
-<p>The string below shows how your class is turned into a string to save in the cache.</p>
-
-
-
-<p><code>"{\"MyClass1\":{\"MyInt\":1,\"MyString\":\"Hello\"},\"MyInt\":3}"</code></p>
-
-
-
-<h2 class="wp-block-heading">The byte[] value versions of the distributed FileStore cache</h2>
-
-
-
-<p>Because many existing usages of a distributed cache uses byte[] for the value. I created two versions that supports byte[] for the value, which then convert the byte[] value into a string and the calls &nbsp;String version to access the FileStore cache.</p>
-
-
-
-<p>There is one <a href="https://github.com/JonPSmith/Net.DistributedFileStoreCache/blob/main/Net.DistributedFileStoreCache/DistributedFileStoreCacheBytes.cs">DistributedFileStoreCacheBytes</a> class, but it can be registered either the IDistributedCache interface, or the IDistributedFileStoreCacheBytes interface which contains the extra methods, GetAllKeyValues/Async and ClearAll.</p>
-
-
-
-<h2 class="wp-block-heading">Conclusions</h2>
-
-
-
-<p>I needed a distributed cache that has a very fast read because wanted to read a lots of cache values on every HTTP request. If I used a database-based distributed cache could have taken at least a millisecond and more, but I remembered how fast the ASP.NET Core <code>IOptionsSnapshot&lt;T&gt;</code> was when it returns data in the appsettings.json file.</p>
-
-
-
-<p>After quite bit of work, I found I couldn’t build a distributed cache using ASP.NET Core’s <code>IOptionsSnapshot&lt;T&gt;</code>. But it did guide me to a design that that a) implements a true distributed cache, b) which is blistering fast on reads, and c) is very easy to setup. From my point of view the slower update of the cache (e.g. Set, Remove) is a pity, but in my situation adding a new cache value happens very infrequently. &nbsp;&nbsp;</p>
-
-
-
-<p>In the end I put in extra features, like the byte[] values version, because there must be users already using the IDistributedCache interface. To my mind the FileStore cache’s simple setup and no extra costs (for Redis, SQL Server, etc.) may be more attractive than its super-fast read! Good luck and do let me know how you get on with this library if you use it.</p>
-
-
-
-<p>Happy coding.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
 		
 		
 			</item>

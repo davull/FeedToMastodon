@@ -5,9 +5,1005 @@
     <description>Khalid is a product designer, traveler, respected community member, and open source contributor.</description>
     <link>https://khalidabuhakmeh.com/</link>
     <atom:link href="https://khalidabuhakmeh.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jan 2025 15:01:14 +0000</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2025 15:01:14 +0000</lastBuildDate>
+    <pubDate>Sun, 16 Mar 2025 15:01:54 +0000</pubDate>
+    <lastBuildDate>Sun, 16 Mar 2025 15:01:54 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Generic C# Methods with Enum Constraints for .NET</title>
+        <description>&lt;p&gt;Every couple of years, I tend to write the same variation of an &lt;code&gt;enum&lt;/code&gt; helper that reads metadata from an enumeration using reflection. Almost any .NET developer with a few years of experience has done the same. The implementation uses Generics to work for any &lt;code&gt;enum&lt;/code&gt; defined in my solution, as there is typically more than one described in a typical .NET solution. Historically, generics and enums didn’t work well because of the limitations of generics when dealing with this particular type, but to my surprise, they do now!&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll explore how to write the helper method I’m describing while ensuring the generic constraints stop us from passing in arguments other than enums.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;straight-to-the-implementation&quot;&gt;Straight To The Implementation&lt;/h2&gt;
+
+&lt;p&gt;Since this post will be short, I’ll start with a sample you can play with.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.ComponentModel;
+using System.Reflection;
+
+// get all descriptions
+{
+    Console.WriteLine(&quot;Groceries:\n&quot;);
+    var descriptions = Enums.GetDescriptions&amp;lt;Groceries&amp;gt;();
+    foreach (var (value, description) in descriptions)
+    {
+        Console.WriteLine($&quot;{value} - {description}&quot;);
+    }
+    Console.WriteLine();
+}
+
+// Get a description for a single value
+{
+    var (value, description) = Enums.GetDescription(Groceries.Fruit);
+    Console.WriteLine($&quot;Single value:\n{value} - {description}&quot;);
+}
+
+public enum Groceries
+{
+    [Description(&quot;Apples, Oranges, Bananas&quot;)]
+    Fruit,
+    [Description(&quot;Spinach, Kale, Broccoli, Cabbage&quot;)]
+    Vegetables,
+    [Description(&quot;Cheese, Milk, Yogurt&quot;)]
+    Dairy,
+    [Description(&quot;Chicken, Beef, Pork, Lamb, Turkey&quot;)]
+    Meat,
+    [Description(&quot;Anything not listed above&quot;)]
+    Other
+}
+
+public static class Enums
+{
+    public static IEnumerable&amp;lt;(TEnum Value, string Description)&amp;gt; GetDescriptions&amp;lt;TEnum&amp;gt;()
+        where TEnum : struct, Enum
+    {
+        var values = Enum.GetValues&amp;lt;TEnum&amp;gt;();
+        foreach (var value in values)
+        {
+            yield return GetDescription(value);
+        }
+    }
+
+    public static (TEnum Value, string Description) GetDescription&amp;lt;TEnum&amp;gt;(TEnum value)
+        where TEnum : struct, Enum
+    {
+        var type = typeof(TEnum);
+        var name = value.ToString();
+        var info = type.GetMember(name)[0];
+        var description = info.GetCustomAttribute&amp;lt;DescriptionAttribute&amp;gt;() is { } attr
+            ? attr.Description
+            : name;
+        
+        return (value, description);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The helper code is here for people who don’t want to visualize the previous sample.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public static class Enums
+{
+    public static IEnumerable&amp;lt;(TEnum Value, string Description)&amp;gt; GetDescriptions&amp;lt;TEnum&amp;gt;()
+        where TEnum : struct, Enum
+    {
+        var values = Enum.GetValues&amp;lt;TEnum&amp;gt;();
+        foreach (var value in values)
+        {
+            yield return GetDescription(value);
+        }
+    }
+
+    public static (TEnum Value, string Description) GetDescription&amp;lt;TEnum&amp;gt;(TEnum value)
+        where TEnum : struct, Enum
+    {
+        var type = typeof(TEnum);
+        var name = value.ToString();
+        var info = type.GetMember(name)[0];
+        var description = info.GetCustomAttribute&amp;lt;DescriptionAttribute&amp;gt;() is { } attr
+            ? attr.Description
+            : name;
+        
+        return (value, description);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The essential part of our generic methods is our method declarations’ &lt;code&gt;where&lt;/code&gt; clause.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;where TEnum: struct, Enum
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This line adds two crucial elements to our generic method.&lt;/p&gt;
+
+&lt;p&gt;It makes sure that &lt;code&gt;TEnum&lt;/code&gt; is an &lt;code&gt;Enum&lt;/code&gt; type.
+The &lt;code&gt;struct&lt;/code&gt; ensures that &lt;code&gt;TEnum&lt;/code&gt; is non-nullable.&lt;/p&gt;
+
+&lt;p&gt;The non-nullability of an &lt;code&gt;Enum&lt;/code&gt; is essential since we are using the &lt;code&gt;Enum.GetValues&amp;lt;TEnum&amp;gt;&lt;/code&gt; method to get known values. You could remove this constraint, but your implementation would require more boxing and defensive programming in the form of null checks. It’s more straightforward to enforce the &lt;code&gt;struct&lt;/code&gt; requirement.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There you go, a constrained generic method implementation that can get metadata from an Enum value. If you’re still wondering, “where would I use this?” I find these methods helpful in web applications for creating a &lt;code&gt;SelectListItem&lt;/code&gt;, but I stuck with Tuples for this post. What a time to be alive. Cheers!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/generic-csharp-methods-with-enum-constraints-for-dotnet</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/generic-csharp-methods-with-enum-constraints-for-dotnet</guid>
+        
+        <category>dotnet,</category>
+        
+        <category>csharp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Strongly-Typed Markdown for ASP.NET Core Content Apps</title>
+        <description>&lt;p&gt;Every development career has milestone moments. One we all likely share is building a custom content management system, or CMS, as developers like to refer to it. A common approach to melding metadata and content is utilizing the old reliable Markdown format, which fuses YAML frontmatter with a simple content format. While YAML is flexible, it can be less than ideal when wanting to use that embedded data in your ASP.NET Core applications.&lt;/p&gt;
+
+&lt;p&gt;In this post, I’ll show you a quick experiment around processing Markdown files and their YAML into a strongly-type C# object. The example allows you to easily modify content while still having access to instances of data that you can strongly type.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;the-magnificent-markdown&quot;&gt;The Magnificent Markdown&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;Markdown&lt;/a&gt; is a very flexible format whose strength comes from its simplicity. Let’s examine a document that defines a person’s profile.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;---
+name: &quot;Khalid Abuhakmeh&quot;
+profession: &quot;Software Developer&quot;
+hobbies: [&quot;video games&quot;, &quot;movies&quot;, &quot;boxing&quot;]
+---
+
+## Summary
+
+I am writing a little about myself here and this should appear
+in the page. Cool! Check me out at my [personal blog](https://khalidabuhakmeh.com).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The top of the document defines a data model with properties for &lt;code&gt;Name&lt;/code&gt;, &lt;code&gt;Profession&lt;/code&gt;, and &lt;code&gt;Hobbies&lt;/code&gt;. The C# data model for this YAML  would consist of three properties.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class Asset
+{
+    public string Name { get; set; } = &quot;&quot;;
+    public string Profession { get; set; } = &quot;&quot;;
+    public string[] Hobbies { get; set; } = [];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let’s build an object that will parse the Markdown file’s front matter while helping us render the content into HTML for use on a Razor page.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-markdownobject-and-parsing-files&quot;&gt;The MarkdownObject and Parsing Files&lt;/h2&gt;
+
+&lt;p&gt;For my experiment, I created a &lt;code&gt;MarkdownObject&amp;lt;T&amp;gt;&lt;/code&gt; class that takes a content string and parses the document into its parts. The &lt;code&gt;T&lt;/code&gt; argument is up to the developer to determine.&lt;/p&gt;
+
+&lt;p&gt;To continue with the code, you must add the &lt;code&gt;Markdig&lt;/code&gt; package and the &lt;code&gt;YamlDotNet&lt;/code&gt; package.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;ItemGroup&amp;gt;
+  &amp;lt;PackageReference Include=&quot;Markdig&quot; Version=&quot;0.40.0&quot; /&amp;gt;
+  &amp;lt;PackageReference Include=&quot;YamlDotNet&quot; Version=&quot;16.3.0&quot; /&amp;gt;
+&amp;lt;/ItemGroup&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let’s look at the implementation next.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using Markdig;
+using Markdig.Extensions.Yaml;
+using Markdig.Syntax;
+using Microsoft.AspNetCore.Html;
+using YamlDotNet.Serialization;
+using Md = Markdig.Markdown;
+
+namespace SuperContent.Models;
+
+public class MarkdownObject&amp;lt;T&amp;gt;
+{
+    private static readonly MarkdownPipeline MarkdownPipeline 
+        = new MarkdownPipelineBuilder()
+            .UseYamlFrontMatter()
+            .UseAdvancedExtensions()
+            .Build();
+    private static readonly IDeserializer Deserializer 
+        = new DeserializerBuilder()
+            .WithYamlFormatter(new YamlFormatter())
+            .WithCaseInsensitivePropertyMatching()
+            .Build();
+
+    public MarkdownObject(string content)
+    {
+        var doc = Md.Parse(content, MarkdownPipeline);
+        FrontMatter = default;
+        
+        if (doc.Descendants&amp;lt;YamlFrontMatterBlock&amp;gt;().FirstOrDefault() is { } fm)
+        {
+            var yaml = fm.Lines.ToSlice();
+            FrontMatter = Deserializer.Deserialize&amp;lt;T&amp;gt;(yaml.Text);
+            
+            // we don&apos;t want front matter after it&apos;s processed
+            doc.Remove(fm);
+        }
+        
+        // turn it into HTML once
+        Html = new HtmlString(doc.ToHtml());
+    }
+
+    public T? FrontMatter { get; private set; }
+    
+    public IHtmlContent Html { get; private set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the case of this demo, we’ll create an instance of &lt;code&gt;MarkdownObject&amp;lt;Asset&amp;gt;&lt;/code&gt;. Let’s see how to use this type in a Razor Page.&lt;/p&gt;
+
+&lt;h2 id=&quot;markdownobject-in-a-razor-page&quot;&gt;MarkdownObject in a Razor Page&lt;/h2&gt;
+
+&lt;p&gt;In my demo, I have all my Markdown files in a &lt;code&gt;Data&lt;/code&gt; directory. Each file in the data directory has a unique file name that we’ll use in our Razor Page as a &lt;code&gt;slug&lt;/code&gt;. We’ll also use the Model to output the data and the processed HTML into a structured layout.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-razor&quot;&gt;@page &quot;/profile/{slug}&quot;
+@model SuperContent.Pages.Profile
+
+&amp;lt;div class=&quot;row&quot;&amp;gt;
+    &amp;lt;div class=&quot;col-12&quot;&amp;gt;
+        &amp;lt;h1&amp;gt;@Model.Asset.FrontMatter?.Name&amp;lt;/h1&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&quot;row&quot;&amp;gt;
+    &amp;lt;div class=&quot;col-3&quot;&amp;gt;
+        &amp;lt;dl&amp;gt;
+            &amp;lt;dt&amp;gt;Profession&amp;lt;/dt&amp;gt;
+            &amp;lt;dd&amp;gt;@Model.Asset.FrontMatter?.Profession&amp;lt;/dd&amp;gt;
+            &amp;lt;dt&amp;gt;Hobbies&amp;lt;/dt&amp;gt;
+            &amp;lt;dd&amp;gt;
+                &amp;lt;ul&amp;gt;
+                    @if (Model.Asset is { FrontMatter.Hobbies : { } hobbies })
+                    {
+                        @foreach (var hobby in hobbies)
+                        {
+                            &amp;lt;li&amp;gt;@hobby&amp;lt;/li&amp;gt;
+                        }
+                    }
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/dd&amp;gt;
+        &amp;lt;/dl&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;col-9&quot;&amp;gt;
+        @Model.Asset.Html
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, what does the page’s model look like?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using SuperContent.Models;
+
+namespace SuperContent.Pages;
+
+public partial class Profile : PageModel
+{
+    [BindProperty(SupportsGet = true)]
+    public string Slug { get; set; } = &quot;&quot;;
+    
+    public MarkdownObject&amp;lt;Asset&amp;gt; Asset { get; set; } 
+        = null!;
+    
+    public IActionResult OnGet()
+    {
+        // read a file from the Data directory based on the slug
+        // sanitize the slug first because people are mean
+        var sanitizedSlug = SlugRegex.Replace(Slug, &quot;&quot;);
+        var path = Path.Combine(&quot;Data&quot;, $&quot;{sanitizedSlug}.md&quot;);
+
+        if (System.IO.File.Exists(path))
+        {
+            var content = System.IO.File.ReadAllText($&quot;Data/{sanitizedSlug}.md&quot;);
+            Asset = new(content);
+            return Page();
+        }
+
+        return NotFound();
+    }
+
+    [GeneratedRegex(&quot;[^a-zA-Z0-9_-]&quot;)]
+    private static partial Regex SlugRegex { get; }
+}
+
+public class Asset
+{
+    public string Name { get; set; } = &quot;&quot;;
+    public string Profession { get; set; } = &quot;&quot;;
+    public string[] Hobbies { get; set; } = [];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;OnGet&lt;/code&gt; method contains some protective code to prevent access to other files, but it’s ultimately pretty straightforward. When you go to &lt;code&gt;/profile/Khalid,&lt;/code&gt; you’ll see a nicely formatted page that mixes data and content into predetermined HTML because we use the new &lt;code&gt;MarkdownObject&lt;/code&gt; class. Sweet!&lt;/p&gt;
+
+&lt;p&gt;I’ve pushed the code to my &lt;a href=&quot;https://github.com/khalidabuhakmeh/SuperContent&quot;&gt;GitHub repository so you can try this sample&lt;/a&gt; for yourself. Please give it a try and let me know what you think. As always, thanks for reading and sharing my posts. Cheers.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/strongly-typed-markdown-for-aspnet-core-content-apps</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/strongly-typed-markdown-for-aspnet-core-content-apps</guid>
+        
+        <category>aspnet,</category>
+        
+        <category>markdown</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Curious Case of .NET ConcurrentDictionary and Closures</title>
+        <description>&lt;p&gt;I was recently looking at the &lt;a href=&quot;https://duendesoftware.com&quot;&gt;Duende Software&lt;/a&gt; codebase, and I kept seeing the same suggestion offered by the IDE tooling whenever I encountered a &lt;code&gt;ConcurrentDictionary&lt;/code&gt;: &lt;strong&gt;“Closure can be eliminated: method has overload to avoid closure creation.”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the suggestion appears in the tooling, there isn’t a quick fix action to apply the change. It left me scratching my head because there wasn’t an immediately obvious solution.&lt;/p&gt;
+
+&lt;p&gt;This post will define closures and explain their problems. We’ll also explain how to change your usage of &lt;code&gt;ConcurrentDictionary&lt;/code&gt; to avoid closures altogether.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;what-are-closures&quot;&gt;What Are Closures?&lt;/h2&gt;
+
+&lt;p&gt;If you’ve ever worked with an &lt;code&gt;Action&lt;/code&gt;, &lt;code&gt;Func&lt;/code&gt;, &lt;code&gt;delegate&lt;/code&gt;, or LINQ, then you’ve likely encountered a closure. A closure is a language mechanism that allows you to treat a function with &lt;strong&gt;free variables&lt;/strong&gt; as if it were an object instance you may pass, invoke, or use in another context from when you first created it. &lt;a href=&quot;https://www.simplethread.com/c-closures-explained/&quot;&gt;Justin Etheredge&lt;/a&gt; has a great article explaining closures in-depth, but it’s when you use a lambda with a state outside the current scope of the lambda.&lt;/p&gt;
+
+&lt;p&gt;Let’s create a closure by capturing a variable in a straightforward example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;void SayHello(string name)
+{
+    var hello = () =&amp;gt;
+    {
+        // name is captured causing an allocation
+        // and potential concurrency issues
+        Console.WriteLine($&quot;Hello {name}&quot;);
+    };
+    hello();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the code above, the compiler needs to capture the &lt;code&gt;name&lt;/code&gt; parameter to ensure all future calls to our &lt;code&gt;hello&lt;/code&gt; lambda can execute. Capture can cause issues that may be difficult to predict until you execute your code.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Additional allocations are needed to capture a value and can have resource utilization implications.&lt;/li&gt;
+  &lt;li&gt;A value captured from outside the closure scope may be alterable if it is a reference type. Unintended state change can lead to unpredictable behavior.&lt;/li&gt;
+  &lt;li&gt;Long-lived references may lead to memory leaks in the long run.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To avoid capture, ensure all lambdas pass state required as arguments.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;void SayHello(string name)
+{
+    var hello = (string n) =&amp;gt;
+    {
+        Console.WriteLine($&quot;Hello {n}&quot;);
+    };
+    hello(name);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now that we understand the basics, let’s examine the &lt;code&gt;ConcurrentDictionary&lt;/code&gt; suggestion and see how we might fix it.&lt;/p&gt;
+
+&lt;h2 id=&quot;concurrentdictionarygetoradd-and-closure-creation&quot;&gt;ConcurrentDictionary.GetOrAdd and Closure Creation&lt;/h2&gt;
+
+&lt;p&gt;Let’s write a straightforward use of the &lt;code&gt;GetOrAdd&lt;/code&gt; method on &lt;code&gt;ConcurrentDictionary&lt;/code&gt; and see what the issue might be.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Collections.Concurrent;
+
+ConcurrentDictionary&amp;lt;string, Item&amp;gt; concurrentDictionary 
+    = new();
+
+var key = &quot;khalid&quot;;
+var value = &quot;awesome&quot;;
+
+var result = concurrentDictionary.GetOrAdd(key, (k) =&amp;gt; {
+    Console.WriteLine($&quot;Building {k}&quot;);
+    return new Item(value, DateTime.Now);
+});
+
+Console.WriteLine(result);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looking at the code, what variable do you think is creating the unnecessary closure?&lt;/p&gt;
+
+&lt;p&gt;If you guessed &lt;code&gt;value&lt;/code&gt;, then you would be correct!&lt;/p&gt;
+
+&lt;p&gt;How do we fix the closure since our tooling now suggests that there is a solution to this issue?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Closure can be eliminated: method has overload 
+to avoid closure creation.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Well, let’s refactor and see how our code changes. I’ll add parameter prefixes to make clear what is happening.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Collections.Concurrent;
+
+ConcurrentDictionary&amp;lt;string, Item&amp;gt; concurrentDictionary = new();
+
+var key = &quot;khalid&quot;;
+var value = &quot;awesome&quot;;
+
+var result = concurrentDictionary.GetOrAdd(
+    key: key,
+    valueFactory: (k, arg) =&amp;gt;
+    {
+        Console.WriteLine($&quot;Building {k}&quot;);
+        return new Item(arg, DateTime.Now);
+    },
+    factoryArgument: value);
+
+Console.WriteLine(result);
+
+record Item(string Value, DateTime Time);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So there is an overload on &lt;code&gt;ConcurrentDictionary.GetOrAdd&lt;/code&gt; that takes three parameters:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The key to our value.&lt;/li&gt;
+  &lt;li&gt;The lambda function responsible for creating our value when we do not find it.&lt;/li&gt;
+  &lt;li&gt;A singular factory argument. You must wrap multiple arguments in a container class.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using this overload, we now avoid closures, reduce allocations, and avoid potentially nasty concurrency or memory leak issues.&lt;/p&gt;
+
+&lt;p&gt;If you’re using &lt;code&gt;ConcurrentDictionary&lt;/code&gt; check to see if you’re using &lt;code&gt;GetOrAdd&lt;/code&gt; and see if you’re using the more efficient overload. Thanks for reading and sharing my posts with friends and colleagues. Cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/the-curious-case-of-dotnet-concurrentdictionary-and-closures</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/the-curious-case-of-dotnet-concurrentdictionary-and-closures</guid>
+        
+        <category>dotnet</category>
+        
+        <category>csharp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>ASP.NET Core and Chunking HTTP Cookies</title>
+        <description>&lt;p&gt;If you’ve spent time around web development or your grocery store’s baked goods aisle, you’ve probably dealt with &lt;strong&gt;cookies&lt;/strong&gt;. Let’s discuss the web kind today. A cookie is a header key-value pair that is set on the server using the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie&quot;&gt;&lt;code&gt;Set-Cookie&lt;/code&gt;&lt;/a&gt; key, and a value of &lt;code&gt;&amp;lt;name&amp;gt;=&amp;lt;value&amp;gt;&lt;/code&gt;. Cookies persist on the client, where the client will send each cookie to the server on each subsequent request. It’s a simple way to persist state in the stateless web environment and avoid complex session management infrastructure. That said, cookies have limitations, mainly the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#data_storage&quot;&gt;&lt;strong&gt;4kb&lt;/strong&gt; size limit&lt;/a&gt; for each unique cookie. Size limits can be a serious problem for ASP.NET Core applications, which rely heavily on maintaining user session data in an encrypted and encoded cookie.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll look at a sample I wrote that uses the same &lt;code&gt;ICookieManager&lt;/code&gt; abstraction that ASP.NET Core uses to chunk large cookies successfully.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;why-you-would-and-wouldnt-use-cookies&quot;&gt;Why You Would and Wouldn’t Use Cookies&lt;/h2&gt;
+
+&lt;p&gt;As the introduction mentions, cookies are a straightforward mechanism for maintaining the state between HTTP requests as users interact with your application. Cookies can significantly simplify your backend implementation, as you can expect requests to contain most of the information required to process user-intended actions. Cookies may include user information such as an ID, a name, an email address, and more. The request/response lifecycle of cookies also makes it easy to debug issues when they inevitably occur, as you can view an HTTP request and its headers in most logging mechanisms. These are only a few advantages, but let’s discuss some disadvantages.&lt;/p&gt;
+
+&lt;p&gt;While cookies are configurable, you can assume that, generally, the client will pass them along with each request to the server. The additional payload on each request can add unnecessary overhead to requests that don’t take advantage of the cookies. For example, any request for a file might still receive all set cookies even though the goal is to serve static content. That adds unnecessary ingress and resource utilization to your applications. Imagine a request with 10 cookies with a maxed-out cookie size on each. That’s an additional 40kb per request! And speaking of resource utilization, if cookies are chunked or encrypted, they first need to be reassembled and unencrypted before you can use them. Depending on your ASP.NET Core pipeline setup, this can unnecessarily add to your resource utilization, leading to increased memory and CPU usage.&lt;/p&gt;
+
+&lt;p&gt;My description does not say you should or shouldn’t ever use cookies, but you should be mindful that they have an associated cost. Now, let’s get to some code to see how to set a simple cookie and then use the &lt;code&gt;ChunkingCookieManager&lt;/code&gt; to chunk larger cookies.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-cookies-in-aspnet-core&quot;&gt;Setting Cookies in ASP.NET Core&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;You can see the &lt;a href=&quot;https://github.com/khalidabuhakmeh/CookieMonster&quot;&gt;entire sample at this GitHub repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Like most web-related abstractions, you can access cookies from the current &lt;code&gt;HttpContext&lt;/code&gt;. Using the current request’s context, let’s set a cookie on an HTTP response.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;ctx.Response.Cookies.Append(&quot;cookie_monster&quot;, &quot;nom nom nom&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In our sample, we’ll be reading and rewriting a value with appended data.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;app.MapGet(&quot;/nom-nom&quot;, async ctx =&amp;gt;
+{
+    ctx.Response.Cookies.Append(&quot;cookie_monster&quot;,
+        ctx.Request.Cookies.TryGetValue(&quot;cookie_monster&quot;, out var cookie)
+            ? $&quot;{cookie}, {RandomString()}&quot;
+            : $&quot;{RandomString()}&quot;);
+    // more code
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That was easy! But there’s an issue: our cookie will continue expanding until it reaches our 4kb limit. Oh no! Admittedly, this is an example designed to fail quickly, but it’s easy to find yourself in a situation where cookies slowly creep up to the size limit. Let’s fix this code.&lt;/p&gt;
+
+&lt;p&gt;Install the &lt;code&gt;Microsoft.AspNetCore.Authentication.Cookies&lt;/code&gt; NuGet package into your existing project to start using cookie chunking. In most cases, you’ll likely already have this dependency due to a transitive inclusion, but it never hurts to include it explicitly.&lt;/p&gt;
+
+&lt;p&gt;Next, we’ll need to register the &lt;code&gt;ChunkingCookieManager&lt;/code&gt; in our services collection as an implementation of &lt;code&gt;ICookieManager&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;builder.Services.AddScoped&amp;lt;ICookieManager&amp;gt;(svc =&amp;gt; new ChunkingCookieManager
+{
+    // characters, not bytes... 🤔
+    ChunkSize = 1000, ThrowForPartialCookies = true
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my case, I reduced the chunk size for a few reasons.&lt;/p&gt;
+
+&lt;p&gt;See the chunking behavior sooner than later.
+The &lt;code&gt;ChunkSize&lt;/code&gt; is based on characters in .NET and not kilobytes, so you’ll need to account for that based on the data you’ll be storing.
+&lt;code&gt;1000&lt;/code&gt; is a nice round number, but the default is &lt;code&gt;4050&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the implementation in another minimal API endpoint.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;{
+app.MapGet(&quot;/chunks&quot;, async (HttpContext ctx, ICookieManager cookieManager) =&amp;gt;
+{
+    var value = cookieManager.GetRequestCookie(ctx, &quot;chunky_monster&quot;) is { } cookie
+        ? $&quot;{cookie}, {RandomString()}&quot;
+        : $&quot;{RandomString()}&quot;;
+
+    cookieManager.AppendResponseCookie(ctx, &quot;chunky_monster&quot;, value, new CookieOptions());
+
+    // more code...
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are a few essential elements to getting cookie chunking working:&lt;/p&gt;
+
+&lt;p&gt;You must use the &lt;code&gt;ICookieManager&lt;/code&gt; implementation for all interactions of your logical cookie since it will take care of the chunks. Interacting with the cookies directly through the &lt;code&gt;HttpContext&lt;/code&gt; will cause you issues.
+The &lt;code&gt;ICookieManager&lt;/code&gt; API requires access to an &lt;code&gt;HttpContext&lt;/code&gt; instance. There is no assumption that a cookie manager will have an HTTP context dependency injected. You could easily create an implementation that wraps this into a new API.
+The &lt;code&gt;CookieOptions&lt;/code&gt; argument is required but can be left empty. Options allow you to set cookie options on the resulting cookie chunks, such as &lt;code&gt;Domain&lt;/code&gt;, &lt;code&gt;Expires&lt;/code&gt;, &lt;code&gt;Secure&lt;/code&gt;, and more.&lt;/p&gt;
+
+&lt;p&gt;As the concrete type name suggests, we will be chunking cookies, meaning that if a cookie’s contents exceed our configured limits, we’ll produce multiple header values.&lt;/p&gt;
+
+&lt;p&gt;You’ll usually see the following behavior in your browser’s dev tools.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chunky_monster&lt;/td&gt;
+      &lt;td&gt;chunks-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chunky_monsterC1&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;value chunk up to &lt;code&gt;ChunkSize&lt;/code&gt;&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chunky_monsterC2&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;rest of value&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chunky_monsterCN&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;more to come if necessary&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There you go, you’ve successfully chunked your cookies using the mechanisms provided by ASP.NET Core.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Cookies are a bedrock of web development, but you need to be mindful of their benefits and drawbacks. If you do find yourself exceeding the size limits of cookies, I’d recommend first understanding why it has occurred and if you have room to optimize your data. In a pinch, adopting chunking can help you get over the sizing issue, but can have the drawbacks mentioned in one of the previous sections. If you think you have a better strategy, you can implement the &lt;code&gt;ICookieManager&lt;/code&gt; yourself and take a completely different approach. If you do, drop me a message and send me a link to your implementation.&lt;/p&gt;
+
+&lt;p&gt;To &lt;a href=&quot;https://github.com/khalidabuhakmeh/CookieMonster&quot;&gt;try this sample out for yourself, head to my GitHub repository&lt;/a&gt;. As always, thanks for reading and sharing my posts.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/aspnet-core-and-chunking-http-cookies</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/aspnet-core-and-chunking-http-cookies</guid>
+        
+        <category>aspnet,</category>
+        
+        <category>http</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vogen and Value Objects with C# and .NET</title>
+        <description>&lt;p&gt;When it comes to programming, correctness is the name of the game. Every developer aims to understand, model, and limit potential outliers when executing code because those unknown variables can lead to exceptions and critical failures. There are many techniques developers use, but I recently discovered a new library (at least to me) in the .NET community that aims to help developers constrain potential inputs using value objects.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll write a quick sample using Vogen to demonstrate how value objects can make our code clearer and less error-prone.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;what-is-a-value-object&quot;&gt;What is a Value Object?&lt;/h2&gt;
+
+&lt;p&gt;A value object represents a logical concept but is a .NET primitive value such as &lt;code&gt;int&lt;/code&gt;, &lt;code&gt;bool&lt;/code&gt;, &lt;code&gt;string&lt;/code&gt;, and more. A straightforward example might be a birth date. Most developers would define a birth date using the &lt;code&gt;DateTime&lt;/code&gt; type, hoping that the variable name clarifies the value’s intention.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;DateTime birthDate = new DateTime(1990, 1, 1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The drawback to this code is nothing stops a developer from unintentionally using the &lt;code&gt;birthDate&lt;/code&gt; variable incorrectly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;DateTime birthDate = new DateTime(1990, 1, 1);
+SetMovieReleaseDate(birthDate);
+void SetMovieReleaseDate(DateTime date) { }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While the code technically works, it may not be what the developers intended logically. The birth date may or may not be the release date of a movie, and it’s difficult to tell if this code is “correct.” Let’s fix it using value objects.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var birthDate = new BirthDateTime(new (1990, 1, 1));
+var movieReleaseDate = new MovieReleaseDateTime(birthDate.Value);
+SetMovieReleaseDate(movieReleaseDate);
+
+void SetMovieReleaseDate(MovieReleaseDateTime date) { }
+// value objects
+public record MovieReleaseDateTime(DateTime Value);
+public record BirthDateTime(DateTime Value);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looking at this code, you can see that the developer intended to set a movie release date to the same value as the birth date. The goal is to minimize the chance of autocompleting your way into logical bugs that may be difficult to track down.&lt;/p&gt;
+
+&lt;p&gt;Yes, this can seem overly ceremonious, so consider the benefits and drawbacks before deciding if you want to adopt it.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s see what Vogen is about.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-vogen&quot;&gt;What is Vogen?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stevedunn.github.io/Vogen/overview.html&quot;&gt;Vogen&lt;/a&gt; is a NuGet library that utilizes source generators to generate value objects, taking much of the ceremony out of model creation. The library creates factory methods, comparisons, validation, and serializers on partial &lt;code&gt;struct&lt;/code&gt; and &lt;code&gt;class&lt;/code&gt; implementations.&lt;/p&gt;
+
+&lt;p&gt;Let’s start by adding Vogen to a .NET console application.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;PackageReference Include=&quot;Vogen&quot; Version=&quot;7.0.0-beta.1&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my example, I’ll create a &lt;code&gt;PacMan&lt;/code&gt; class that requires a &lt;code&gt;FavoriteGhost&lt;/code&gt; property to have a valid value of &lt;code&gt;Ghost&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class PacMan
+{
+    public Ghost FavoriteGhost { get; set; }
+
+    public override string ToString()
+    {
+        return $&quot;Pac Man&apos;s favorite ghost is {FavoriteGhost}.&quot;;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Our value object will be &lt;code&gt;Ghost&lt;/code&gt;; everyone knows that the ghosts that haunt Pac-Man include Blinky, Pinky, Inky, and Clyde. Let’s start with the unconstrained approach using Vogen.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;[ValueObject&amp;lt;string&amp;gt;]
+[Instance(&quot;Blinky&quot;, &quot;Blinky&quot;)]
+[Instance(&quot;Pinky&quot;, &quot;Pinky&quot;)]
+[Instance(&quot;Inky&quot;, &quot;Inky&quot;)]
+[Instance(&quot;Clyde&quot;, &quot;Clyde&quot;)]
+public partial struct Ghost;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After the source generators have run, you’ll now have &lt;code&gt;public static readonly&lt;/code&gt; instances of each ghost on the &lt;code&gt;Ghost&lt;/code&gt; struct, allowing our code to run and set the &lt;code&gt;FavoriteGhost&lt;/code&gt; property on our &lt;code&gt;pacMan&lt;/code&gt; instance.&lt;/p&gt;
+
+&lt;p&gt;You can create any &lt;code&gt;Ghost&lt;/code&gt; you like using the &lt;code&gt;From&lt;/code&gt; method on the struct.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var aNewGhost = Ghost.From(&quot;Khalid&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If your value objects are unconstrained, this might be a good time to stop, but we want to limit our &lt;code&gt;Ghost&lt;/code&gt; values. Let’s rework our &lt;code&gt;Ghost&lt;/code&gt; struct.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;[ValueObject&amp;lt;string&amp;gt;]
+public partial struct Ghost
+{
+    public static readonly Ghost Blinky = new(&quot;Blinky&quot;);
+    public static readonly Ghost Pinky = new(&quot;Pinky&quot;);
+    public static readonly Ghost Inky = new(&quot;Inky&quot;);
+    public static readonly Ghost Clyde = new(&quot;Clyde&quot;);
+
+    public static IReadOnlyCollection&amp;lt;Ghost&amp;gt; All { get; }
+        = new[] { Blinky, Pinky, Inky, Clyde }.AsReadOnly();
+
+    private static Validation Validate(string input) =&amp;gt;
+        All.Any(g =&amp;gt; g.Equals(input))
+            ? Validation.Ok
+            : Validation.Invalid($&quot;Ghost must be {string.Join(&quot;, &quot;, All)}&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With some extra code, we can now validate that all values used to create a &lt;code&gt;Ghost&lt;/code&gt; fit within a defined set of values.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;// will throw an exception
+var aNewGhost = Ghost.From(&quot;Khalid&quot;);
+// will pass
+var aKnownGhost = Ghost.From(&quot;Blinky&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let’s see the use of Vogen in a complete C# sample.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using Vogen;
+
+var pacMan = new PacMan
+{
+    FavoriteGhost = Ghost.Blinky
+};
+
+foreach (var ghost in Ghost.All)
+{
+    Console.WriteLine(ghost);
+}
+
+Console.WriteLine(pacMan);
+
+[ValueObject&amp;lt;string&amp;gt;]
+public partial struct Ghost
+{
+    public static readonly Ghost Blinky = new(&quot;Blinky&quot;);
+    public static readonly Ghost Pinky = new(&quot;Pinky&quot;);
+    public static readonly Ghost Inky = new(&quot;Inky&quot;);
+    public static readonly Ghost Clyde = new(&quot;Clyde&quot;);
+
+    public static IReadOnlyCollection&amp;lt;Ghost&amp;gt; All { get; }
+        = new[] { Blinky, Pinky, Inky, Clyde }.AsReadOnly();
+
+    private static Validation Validate(string input) =&amp;gt;
+        All.Any(g =&amp;gt; g.Equals(input))
+            ? Validation.Ok
+            : Validation.Invalid($&quot;Ghost must be {string.Join(&quot;, &quot;, All)}&quot;);
+}
+
+public class PacMan
+{
+    public Ghost FavoriteGhost { get; set; }
+
+    public override string ToString()
+    {
+        return $&quot;Pac Man&apos;s favorite ghost is {FavoriteGhost}.&quot;;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Using value objects is an efficient way to constrain inputs and outputs logically. It helps you reflect logical constraints in the codebase and offers readability levels that could be lost using primitive types. With the addition of Vogen, you can remove boilerplate code and get straight to using value objects, with the benefits of quickly accessing the underlying primitive value through explicit and implicit means.&lt;/p&gt;
+
+&lt;p&gt;I think the next step for folks is likely to take an existing part of a codebase and see if converting it to use value objects improves readability and correctness.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoyed this post. As always, thanks for reading and sharing my posts.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/vogen-and-value-objects-with-csharp-and-dotnet</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/vogen-and-value-objects-with-csharp-and-dotnet</guid>
+        
+        <category>csharp</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Initialize ASP.NET Core TagHelpers with Shared Data</title>
+        <description>&lt;p&gt;ASP.NET Core has a superpower that few other frameworks have, largely thanks to the Razor engine. Razor syntax is a mix of HTML and C#, and most Razor syntax implementations will skew heavily towards HTML over C#. However, C# syntax offers the most value in control flow mechanics using if, for, and switch statements. Razor’s power is that
+&lt;em&gt;even
+HTML&lt;/em&gt; syntax is processed by C# and converted into compiled artifacts. This gives Razor a unique opportunity to do some amazing tricks.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll see how to use the TagHelpers infrastructure to initialize all tag helper usage across your application and inject necessary shared data.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;the-taghelper-in-question&quot;&gt;The TagHelper In Question&lt;/h2&gt;
+
+&lt;p&gt;Let’s start by writing a simple tag helper that will replace the contents of a &lt;code&gt;span&lt;/code&gt; tag when a
+&lt;code&gt;text&lt;/code&gt; attribute is set.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Razor.TagHelpers;
+
+namespace WebApplication2.Models;
+
+[HtmlTargetElement(&quot;span&quot;)]
+public class MyTagHelper: TagHelper
+{
+    [HtmlAttributeName(&quot;text&quot;)]
+    public string Text { get; set; } = &quot;&quot;;
+
+    [HtmlAttributeNotBound] 
+    public string Version { get; set; } = &quot;&quot;;
+    
+    public override Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
+    {
+        output.Content.SetHtmlContent(Text);
+        output.Attributes.Add(&quot;data-version&quot;, Version);
+        return Task.CompletedTask;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Usage of this tag helper is straightforward. In a Razor view, add the following tag.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span class=&quot;fs-1 d-block&quot; text=&quot;Hello, World!&quot;&amp;gt;...&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;fs-1 d-block&quot;&amp;gt;&amp;lt;/span&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you may have noticed in the &lt;code&gt;MyTagHelper&lt;/code&gt; implementation, there is another property of
+&lt;code&gt;Version&lt;/code&gt;, which I decorated with the
+&lt;code&gt;HtmlAttributeNotBound&lt;/code&gt; attribute. This value will be initialized with the tag helper initialization infrastructure.&lt;/p&gt;
+
+&lt;h2 id=&quot;taghelper-initializers&quot;&gt;TagHelper Initializers&lt;/h2&gt;
+
+&lt;p&gt;We’ll implement the &lt;code&gt;ITagHelperInitializer&lt;/code&gt; generic interface, which has an
+&lt;code&gt;Initialize&lt;/code&gt; method that takes an instance of a tag helper and a &lt;code&gt;ViewContext&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class MyTagHelperInitializer(string defaultText, string version) 
+    : ITagHelperInitializer&amp;lt;MyTagHelper&amp;gt;
+{
+    public void Initialize(MyTagHelper helper, ViewContext context)
+    {
+        helper.Text = defaultText;
+        helper.Version = version;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here, the data passed into our implementation can be used to hydrate all tag helpers of
+&lt;code&gt;MyTagHelper&lt;/code&gt;. This is awesome for multiple reasons.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Expensive data can be calculated once and set globally, reducing resource utilization and speeding up page rendering.&lt;/li&gt;
+  &lt;li&gt;We have access to the
+&lt;code&gt;ViewContext&lt;/code&gt;, so we can modify and enhance all request/response lifecycle elements if necessary.&lt;/li&gt;
+  &lt;li&gt;We have direct access to the tag helper, so the initialization code is as straightforward as possible.&lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;ViewContext&lt;/code&gt; gives us access to
+&lt;code&gt;HttpContext&lt;/code&gt;, so we can also handle request-specific values from cookies, user information, etc.&lt;/li&gt;
+  &lt;li&gt;Also, we can request other services that are already registered in our services collection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How do we use this initializer? In
+&lt;code&gt;Program&lt;/code&gt;, add the following line to register our initializer with our services collection.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;builder.Services.AddSingleton&amp;lt;
+    ITagHelperInitializer&amp;lt;MyTagHelper&amp;gt;
+&amp;gt;(new MyTagHelperInitializer(&quot;Default Text&quot;, &quot;1.0.0&quot;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In our case, we’re passing in the initial values. However, this type could also take in application configuration and read values from the
+&lt;code&gt;IConfiguration&lt;/code&gt; implementation of an ASP.NET Core application. It’s important to note that this type is registered as a
+**Singleton
+**, which means any data passed to it in the constructor is the data for the rest of the application’s lifetime.&lt;/p&gt;
+
+&lt;p&gt;When we run our application, the tag helper will result in the following HTML.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span class=&quot;fs-1 d-block&quot; data-version=&quot;1.0.0&quot;&amp;gt;Hello, World!&amp;lt;/span&amp;gt;
+&amp;lt;span class=&quot;fs-1 d-block&quot; data-version=&quot;1.0.0&quot;&amp;gt;Default Text&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Wow, so easy!&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Part of building web experiences is handling requests efficiently and returning responses as quickly as possible. With tag helpers, you can help create more buffer space in your performance budgets by reducing and isolating the work needed to process data for HTML tags. Additionally, this technique of global initialization might also be helpful for test-driven UI tests, as attributes and their data can be added or removed depending on build flags. This approach is exciting, and I hope you try it in your applications.&lt;/p&gt;
+
+&lt;p&gt;As always, thanks for reading and sharing my blog posts. Cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/initialize-aspnet-core-taghelpers-with-shared-data</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/initialize-aspnet-core-taghelpers-with-shared-data</guid>
+        
+        <category>aspnet</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Writing a String Numeric Comparer with .NET 9</title>
+        <description>&lt;p&gt;I recently saw that .NET 10 adds a numeric comparer, allowing you to sort string elements that may contain numeric values at the end of a string. Think movie sequels or number versions of an operating system. To my surprise, I could not believe it wasn’t already included in .NET, but then I sat down to try to write my own, and I now “get it”. The edge cases alone can drive you mad. Numeric ordering is subjective. Should the numbers come before Roman numerals? Should Roman numerals be parsed as numbers? What about decimals?&lt;/p&gt;
+
+&lt;p&gt;Anyway, I’ve added my numeric comparer implementation in this post, which uses some of the latest .NET features. Enjoy!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;a-list-of-numbered-things&quot;&gt;A List of Numbered Things&lt;/h2&gt;
+
+&lt;p&gt;A number at the end of a text is typical for movies, books, video games, and products. These numbers denote a newer and better iteration of an item. For example, I have a combination of movies, Windows versions, and some decimal values.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var numberedThings = new List&amp;lt;string&amp;gt;
+{
+    &quot;Godfather&quot;, &quot;Godfather 3&quot;, &quot;Scream&quot;,
+    &quot;Scream 2&quot;, &quot;Scream 3&quot;, &quot;Scream 1&quot;,
+    &quot;Windows 10&quot;, &quot;Windows 7&quot;,
+    &quot;Windows 11&quot;, &quot;Rocky 5&quot;,
+    &quot;Rocky 2&quot;, &quot;Rocky 4&quot;, &quot;Rocky 3&quot;, &quot;Rock&quot;,
+    &quot;1.2&quot;, &quot;1.3&quot;, &quot;1.1&quot;, &quot;Rocky&quot;, &quot;Windows XP&quot;, 
+    &quot;Godfather 2&quot;, &quot;1.11&quot;, &quot;1.10&quot;, &quot;10.0&quot;, &quot;1.0&quot;
+};
+
+var numericOrderer = new NumericOrderer();
+var sorted = numberedThings
+    .OrderBy(x =&amp;gt; x, numericOrderer)
+    .ToList();
+
+foreach (var item in sorted)
+{
+    Console.WriteLine(item);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The goal is to have the output result in alphanumeric ordering. For example, &lt;code&gt;Godfather&lt;/code&gt; should come before
+&lt;code&gt;Godfather 2&lt;/code&gt;. Also, when it comes to strings made of numbers, I want each part of a value to be treated as a whole number. For example,
+&lt;code&gt;1.1&lt;/code&gt;, &lt;code&gt;1.10&lt;/code&gt;, and &lt;code&gt;1.11&lt;/code&gt; would follow that order.&lt;/p&gt;
+
+&lt;p&gt;We expect the following output from the previous code based on the input.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;1.0
+1.1
+1.2
+1.3
+1.10
+1.11
+10.0
+Godfather
+Godfather 2
+Godfather 3
+Rock
+Rocky
+Rocky 2
+Rocky 3
+Rocky 4
+Rocky 5
+Scream
+Scream 1
+Scream 2
+Scream 3
+Windows 7
+Windows 10
+Windows 11
+Windows XP
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let’s look at my implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-a-numericorderer-with-spans&quot;&gt;Writing a NumericOrderer with Spans&lt;/h2&gt;
+
+&lt;p&gt;Here is my &lt;code&gt;NumericOrderer&lt;/code&gt; based on the collection of data previously mentioned.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public sealed class NumericOrderer : IComparer&amp;lt;string&amp;gt;
+{
+    public int Compare(string? x, string? y)
+    {
+        if (x == null &amp;amp;&amp;amp; y == null) return 0;
+        if (x == null) return -1;
+        if (y == null) return 1;
+
+        var xSpan = x.AsSpan();
+        var ySpan = y.AsSpan();
+        
+        var commonPrefixLength = xSpan.CommonPrefixLength(ySpan);
+
+        while (commonPrefixLength &amp;gt; 0)
+        {
+            xSpan = xSpan[commonPrefixLength..];
+            ySpan = ySpan[commonPrefixLength..];
+            commonPrefixLength = xSpan.CommonPrefixLength(ySpan);
+        }
+        
+        if (int.TryParse(xSpan, out var xNumber) &amp;amp;&amp;amp; 
+            int.TryParse(ySpan, out var yNumber))
+        {
+            return xNumber.CompareTo(yNumber);
+        }
+
+        return xSpan.CompareTo(ySpan, StringComparison.Ordinal);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are three configuration points you should consider in this implementation.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;CommonPrefixLength&lt;/code&gt; can also take a &lt;code&gt;Comparer&lt;/code&gt; argument, which might help ignore casing.&lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;CompareTo&lt;/code&gt; method currently takes a
+&lt;code&gt;StringComparison.Ordinal&lt;/code&gt; value, which is case sensitive. I suggest changing this based on your needs.&lt;/li&gt;
+  &lt;li&gt;The use of &lt;code&gt;int.TryParse&lt;/code&gt; compares whole numbers. If your values contain decimals, then you may want to try
+&lt;code&gt;double.TryParse&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Are there edge cases here? Very likely, but when ordering anything with “opinions”, you’ll likely have to tweak it to your liking. As I mentioned previously, Roman numerals are commonly used in place of Arabic numerals, so you may want to tweak this to support those, or you may want
+&lt;code&gt;Windows XP&lt;/code&gt; to appear before &lt;code&gt;Windows 11&lt;/code&gt; in a list. You’re the sorting wizard in your magical journey.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This exercise made me realize that building a general-purpose numeric orderer is likely a herculean task. Instead, I’d probably implement a sorter based on your needs for that specific use case. Also, I learned that the
+&lt;code&gt;Span&lt;/code&gt; APIs are very good and capable of breaking apart strings without creating new instances in memory. Finally, while this comparison works well for a single-point dataset, you’re likely dealing with more complex data models with other sortable fields that can be more accurately sorted (think numbers and dates). I’d likely lean more on predictably sortable values in a production setting than leaving it all to a general-purpose numeric comparer.&lt;/p&gt;
+
+&lt;p&gt;At the very least, I hope this implementation gives you a starting point for writing and tweaking your implementation. As always, thanks for reading, and cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/writing-a-string-numeric-comparer-with-dotnet-9</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/writing-a-string-numeric-comparer-with-dotnet-9</guid>
+        
+        <category>dotnet</category>
+        
+        
+      </item>
     
       <item>
         <title>Great .NET Documentation with Astro, Starlight, and MarkdownSnippets</title>
@@ -17134,1389 +18130,6 @@ public class IndexModel : PageModel
         <guid isPermaLink="true">https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core</guid>
         
         <category>aspnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Deserialize Mastodon User XML RSS feeds with .NET</title>
-        <description>&lt;p&gt;If you’ve made the migration over to &lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastodon&lt;/a&gt;, you’re probably looking to automate a few of your activities using your programming skills. Since I mostly write code using C# and .NET, I thought I would take the time to look at how to do just that. This post isn’t really long, but should make it easier for you to consume RSS feeds coming from Mastodon accounts.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;mastodon-users-and-rss-feeds&quot;&gt;Mastodon Users and RSS Feeds&lt;/h2&gt;
-
-&lt;p&gt;If you’re new to Mastodon, you probably aren’t aware that everyone’s account can be instantly converted into an RSS feed of their latest posts. Take my account for instance at &lt;a href=&quot;https://mastodon.social/@khalidabuhakmeh&quot;&gt;@khalidabuhakmeh@mastodon.social&lt;/a&gt;. Just by adding a &lt;code&gt;.rss&lt;/code&gt; extension to the end of the url of &lt;code&gt;https://mastodon.social/@khalidabuhakmeh&lt;/code&gt; you can convert my profile into an RSS feed. Very neat.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
-&amp;lt;rss version=&quot;2.0&quot; xmlns:webfeeds=&quot;http://webfeeds.org/rss/1.0&quot; xmlns:media=&quot;http://search.yahoo.com/mrss/&quot;&amp;gt;
-  &amp;lt;channel&amp;gt;
-    &amp;lt;title&amp;gt;Khalid ⚡&amp;lt;/title&amp;gt;
-    &amp;lt;description&amp;gt;Public posts from @khalidabuhakmeh@mastodon.social&amp;lt;/description&amp;gt;
-    &amp;lt;link&amp;gt;https://mastodon.social/@khalidabuhakmeh&amp;lt;/link&amp;gt;
-    &amp;lt;image&amp;gt;
-      &amp;lt;url&amp;gt;https://files.mastodon.social/accounts/avatars/000/467/424/original/62d2f4d9361a3cab.gif&amp;lt;/url&amp;gt;
-      &amp;lt;title&amp;gt;Khalid ⚡&amp;lt;/title&amp;gt;
-      &amp;lt;link&amp;gt;https://mastodon.social/@khalidabuhakmeh&amp;lt;/link&amp;gt;
-    &amp;lt;/image&amp;gt;
-    &amp;lt;lastBuildDate&amp;gt;Fri, 16 Dec 2022 16:40:41 +0000&amp;lt;/lastBuildDate&amp;gt;
-    &amp;lt;webfeeds:icon&amp;gt;https://files.mastodon.social/accounts/avatars/000/467/424/original/62d2f4d9361a3cab.gif&amp;lt;/webfeeds:icon&amp;gt;
-    &amp;lt;generator&amp;gt;Mastodon v4.0.2&amp;lt;/generator&amp;gt;
-    &amp;lt;item&amp;gt;
-      &amp;lt;guid isPermaLink=&quot;true&quot;&amp;gt;https://mastodon.social/@khalidabuhakmeh/109524342610611176&amp;lt;/guid&amp;gt;
-      &amp;lt;link&amp;gt;https://mastodon.social/@khalidabuhakmeh/109524342610611176&amp;lt;/link&amp;gt;
-      &amp;lt;pubDate&amp;gt;Fri, 16 Dec 2022 16:40:41 +0000&amp;lt;/pubDate&amp;gt;
-      &amp;lt;description&amp;gt;&amp;amp;lt;p&amp;amp;gt;Is there a way to &amp;amp;amp;quot;page&amp;amp;amp;quot; someone&amp;amp;amp;#39;s rss feed from Mastodon?&amp;amp;lt;/p&amp;amp;gt;&amp;amp;lt;p&amp;amp;gt;Right now you only get the last 20 posts by default.&amp;amp;lt;/p&amp;amp;gt;&amp;lt;/description&amp;gt;
-    &amp;lt;/item&amp;gt;
-  &amp;lt;/channel&amp;gt;
-&amp;lt;/rss&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Knowing this, you can now process RSS feeds from your favorite accounts, but you’ll need a little help from .NET.&lt;/p&gt;
-
-&lt;h2 id=&quot;mastodon-c-classes-and-the-xmlserializer&quot;&gt;Mastodon C# Classes and the XmlSerializer&lt;/h2&gt;
-
-&lt;p&gt;Impowered by the knowledge that accounts also expose RSS feeds, you’ll need to take the XML and turn them into C# objects. Here are the types to deserialize that XML.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.ComponentModel;
-using System.Xml.Serialization;
-
-namespace Mastodon;
-
-[XmlRoot(ElementName = &quot;image&quot;)]
-public class Image
-{
-    [XmlElement(ElementName = &quot;url&quot;)] public string Url { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;title&quot;)] public string Title { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;link&quot;)] public string Link { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;guid&quot;)]
-public class Guid
-{
-    [XmlAttribute(AttributeName = &quot;isPermaLink&quot;)]
-    public bool IsPermalink { get; set; }
-
-    [XmlText] public string Text { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;item&quot;)]
-public class Item
-{
-    [XmlElement(ElementName = &quot;guid&quot;)] public Guid Guid { get; set; } = new();
-
-    [XmlElement(ElementName = &quot;link&quot;)] public string Link { get; set; } = &quot;&quot;;
-
-    [XmlIgnore] public DateTimeOffset PubDate =&amp;gt; DateTimeOffset.Parse(PubDateString);
-
-    [XmlElement(ElementName = &quot;pubDate&quot;),
-     EditorBrowsable(EditorBrowsableState.Never),
-     Browsable(false)]
-    public string PubDateString { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;description&quot;)]
-    public string Description { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;content&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-    public List&amp;lt;Content&amp;gt; Media { get; set; } = new();
-
-    [XmlElement(ElementName = &quot;category&quot;)] public List&amp;lt;string&amp;gt; Category { get; set; } = new();
-
-    [XmlElement(ElementName = &quot;enclosure&quot;)]
-    public Enclosure Enclosure { get; set; } = new();
-}
-
-[XmlRoot(ElementName = &quot;rating&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-public class Rating
-{
-    [XmlAttribute(AttributeName = &quot;scheme&quot;)]
-    public string Scheme { get; set; } = &quot;&quot;;
-
-    [XmlText] public string Text { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;description&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-public class Description
-{
-    [XmlAttribute(AttributeName = &quot;type&quot;)] public string Type { get; set; } = &quot;&quot;;
-
-    [XmlText] public string Text { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;content&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-public class Content
-{
-    [XmlElement(ElementName = &quot;rating&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-    public Rating Rating { get; set; } = default!;
-
-    [XmlElement(ElementName = &quot;description&quot;, Namespace = &quot;http://search.yahoo.com/mrss/&quot;)]
-    public Description Description { get; set; }
-
-    [XmlAttribute(AttributeName = &quot;url&quot;)] public string Url { get; set; } = &quot;&quot;;
-
-    [XmlAttribute(AttributeName = &quot;type&quot;)] public string Type { get; set; } = &quot;&quot;;
-
-    [XmlAttribute(AttributeName = &quot;fileSize&quot;)]
-    public int FileSize { get; set; }
-
-    [XmlAttribute(AttributeName = &quot;medium&quot;)]
-    public string Medium { get; set; } = &quot;&quot;;
-
-    [XmlText] public string Text { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;enclosure&quot;)]
-public class Enclosure
-{
-    [XmlAttribute(AttributeName = &quot;url&quot;)] public string Url { get; set; } = &quot;&quot;;
-
-    [XmlAttribute(AttributeName = &quot;length&quot;)]
-    public int Length { get; set; }
-
-    [XmlAttribute(AttributeName = &quot;type&quot;)] public string Type { get; set; } = &quot;&quot;;
-}
-
-[XmlRoot(ElementName = &quot;channel&quot;)]
-public class Channel
-{
-    [XmlElement(ElementName = &quot;title&quot;)] public string Title { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;description&quot;)]
-    public string Description { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;link&quot;)] public string Link { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;image&quot;)] public Image Image { get; set; } = new();
-
-    [XmlIgnore]
-    public DateTimeOffset LastBuildDate
-        =&amp;gt; DateTimeOffset.Parse(LastBuildDateString);
-
-    [XmlElement(ElementName = &quot;lastBuildDate&quot;),
-     EditorBrowsable(EditorBrowsableState.Never),
-     Browsable(false)]
-    public string LastBuildDateString { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;icon&quot;, Namespace = &quot;http://webfeeds.org/rss/1.0&quot;)]
-    public string Icon { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;generator&quot;)]
-    public string Generator { get; set; } = &quot;&quot;;
-
-    [XmlElement(ElementName = &quot;item&quot;)] public List&amp;lt;Item&amp;gt; Items { get; set; } = new();
-}
-
-[XmlRoot(ElementName = &quot;rss&quot;)]
-public class Rss
-{
-    [XmlElement(ElementName = &quot;channel&quot;)] public Channel Channel { get; set; } = new();
-
-    [XmlAttribute(AttributeName = &quot;version&quot;)]
-    public double Version { get; set; }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, it’s as simple as reading the feed from a URL and working with the objects.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Xml;
-using System.Xml.Serialization;
-
-var url = &quot;https://mastodon.social/@khalidabuhakmeh.rss&quot;;
-using var reader = XmlReader.Create(url);
-var serializer = new XmlSerializer(typeof(Mastodon.Rss));
-var feed = (Mastodon.Rss)serializer.Deserialize(reader)!;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Awesome!&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases-and-drawbacks&quot;&gt;Use Cases and Drawbacks&lt;/h2&gt;
-
-&lt;p&gt;Currently, Mastodon search is dependent on the instance you’ve joined and kind of flaky, if it works at all. You may want to process your own RSS feed periodically and create a searchable store of your interactions online. This can help you recall recurring conversations and reference past events with more accuracy. If you’re looking to do so, I recommend search services like &lt;a href=&quot;https://typesense.org/&quot;&gt;Typesense&lt;/a&gt; or &lt;a href=&quot;https://algolia.com&quot;&gt;Algolia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, the downside. RSS feed results are limited to a certain number of results. I was reliably able to get the last 100 items from my account, but this will likely depend on your Mastodon host. If you need to build a complete history of posts from an account, you might be better off using your instance’s API endpoints.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;There you have it. I hope you found this post helpful and I’d love to hear what you’re building with Mastodon.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/deserialize-mastodon-user-xml-rss-feed</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/deserialize-mastodon-user-xml-rss-feed</guid>
-        
-        <category>dotnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Testing ASP.NET Core FastEndpoints</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://fast-endpoints.com/&quot;&gt;FastEndpoints&lt;/a&gt; is an alternative web framework built on ASP.NET Core primitives to reinforce the &lt;strong&gt;Request-Endpoint-Response (REPR) Design pattern&lt;/strong&gt;. In summary, FastEndpoints lets you focus on building endpoint-focused APIs instead of dealing with the ceremony of something like MVC or the potential analysis-paralysis of Minimal API decisions.&lt;/p&gt;
-
-&lt;p&gt;I think the framework does a lot correctly and can help teams accelerate creating APIs without dealing with the plumbing and code shuffling that typically accompanies large applications. That said, confidence is an essential part of any complex system, and that confidence naturally comes in the form of tests.&lt;/p&gt;
-
-&lt;p&gt;This post will explore testing FastEndpoints using a few community NuGet packages and some helper classes.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;your-first-fastendpoint-endpoint&quot;&gt;Your First FastEndpoint Endpoint&lt;/h2&gt;
-
-&lt;p&gt;When starting a FastEndpoints project, it’s best to start with an empty ASP.NET Core template. You’ll also need to add the &lt;code&gt;FastEndpoints&lt;/code&gt; NuGet package to your web project. &lt;strong&gt;Your version number might differ from the one in this post.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;PackageReference Include=&quot;FastEndpoints&quot; Version=&quot;5.5.0.3-beta&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can set up your &lt;code&gt;Program.cs&lt;/code&gt; file after you’ve installed the Fast Endpoints package. Fast Endpoints is secure by default, so we allow access to all endpoints for this demo. Of course, we’ll only have one for this demo, but feel free to add as many as you’d like.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using EndpointsSample;
-using FastEndpoints;
-using Microsoft.AspNetCore.Authentication;
-
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddScoped&amp;lt;ISystemClock, SystemClock&amp;gt;();
-builder.Services.AddFastEndpoints();
-
-var app = builder.Build();
-
-app.UseFastEndpoints(c =&amp;gt; {
-    // everything is anonymous for this sample
-    c.Endpoints.Configurator = epd =&amp;gt; epd.AllowAnonymous();
-});
-app.Run();
-
-public partial class Program {}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Next, in an &lt;code&gt;Api&lt;/code&gt; folder, let’s add a &lt;code&gt;Root&lt;/code&gt; class. This class will be our root endpoint, accessible at &lt;code&gt;/&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using FastEndpoints;
-using Microsoft.AspNetCore.Authentication;
-
-namespace EndpointsSample.Api;
-
-public class Root : EndpointWithoutRequest&amp;lt;string&amp;gt;
-{
-    public ISystemClock Clock { get; set; }
-        = default!;
-
-    public override void Configure()
-    {
-        Get(&quot;/&quot;);
-    }
-
-    public override async Task HandleAsync(CancellationToken ct)
-    {
-        var message = $&quot;Hello, World @ {Clock.UtcNow:hh:mm:ss tt}&quot;;
-        
-        if (User.Identity?.IsAuthenticated == true)
-        {
-            message += $&quot;\n{User.Identity.Name}&quot;;
-        }
-        
-        await SendStringAsync(
-            message,
-            cancellation: ct
-        );
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Running your web application, you should now be able to hit the root endpoint and retrieve the following result (your time may differ).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Hello, World @ 05:03:00 PM
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let’s write some unit tests!&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-fastendpoints-using-xunit&quot;&gt;Testing FastEndpoints Using XUnit&lt;/h2&gt;
-
-&lt;p&gt;Our goal is to be able to test each endpoint in isolation. The philosophy of the REPR pattern is that all endpoints should be testable in isolation, so it should be straightforward.&lt;/p&gt;
-
-&lt;p&gt;Let’s start by adding a few NuGet packages to a new XUnit test project. The most important being &lt;code&gt;Microsoft.AspNetCore.Mvc.Testing&lt;/code&gt;. Don’t worry; while the name mentions &lt;code&gt;Mvc&lt;/code&gt;, it is a general-purpose testing library for ASP.NET Core. You’ll also need to reference your previous web project.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;ItemGroup&amp;gt;
-    &amp;lt;PackageReference Include=&quot;Microsoft.AspNetCore.Mvc.Testing&quot; Version=&quot;7.0.0&quot; /&amp;gt;
-    &amp;lt;PackageReference Include=&quot;Microsoft.NET.Test.Sdk&quot; Version=&quot;17.3.2&quot; /&amp;gt;
-    &amp;lt;PackageReference Include=&quot;xunit&quot; Version=&quot;2.4.2&quot; /&amp;gt;
-    &amp;lt;PackageReference Include=&quot;xunit.runner.visualstudio&quot; Version=&quot;2.4.5&quot;&amp;gt;
-        &amp;lt;IncludeAssets&amp;gt;runtime; build; native; contentfiles; analyzers; buildtransitive&amp;lt;/IncludeAssets&amp;gt;
-        &amp;lt;PrivateAssets&amp;gt;all&amp;lt;/PrivateAssets&amp;gt;
-    &amp;lt;/PackageReference&amp;gt;
-    &amp;lt;PackageReference Include=&quot;coverlet.collector&quot; Version=&quot;3.1.2&quot;&amp;gt;
-        &amp;lt;IncludeAssets&amp;gt;runtime; build; native; contentfiles; analyzers; buildtransitive&amp;lt;/IncludeAssets&amp;gt;
-        &amp;lt;PrivateAssets&amp;gt;all&amp;lt;/PrivateAssets&amp;gt;
-    &amp;lt;/PackageReference&amp;gt;
-&amp;lt;/ItemGroup&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Add the following file to your test project, and feel free to replace the namespace and move the classes to any file structure you’d like. These classes will help us write concise tests later.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.Extensions.Hosting;
-
-namespace EndpointSample.Tests.Helpers;
-
-public class App : WebApplicationFactory&amp;lt;Program&amp;gt;
-{
-    private readonly ServiceDescriptor[] _overrides;
-
-    public App(params ServiceDescriptor[]? overrides)
-    {
-        _overrides = overrides ?? Array.Empty&amp;lt;ServiceDescriptor&amp;gt;();
-    }
-
-    protected override IHost CreateHost(IHostBuilder builder)
-    {
-        builder.ConfigureServices(services =&amp;gt;
-        {
-            foreach (var service in _overrides)
-            {
-                services.Replace(service);
-            }
-        });
-
-        return base.CreateHost(builder);
-    }
-}
-
-public static class ClaimsPrincipalExtensions
-{
-    public static void WithIdentity(this ClaimsPrincipal user, params Claim[] claims)
-        =&amp;gt; user.AddIdentity(new ClaimsIdentity(claims, &quot;test_auth&quot;));
-}
-
-public class TestSystemClock : ISystemClock
-{
-    public DateTimeOffset UtcNow { get; set; }
-        = DateTimeOffset.UtcNow;
-
-    public void SetTime(int hour, int minutes, int seconds = 0)
-    {
-        var now = DateTimeOffset.UtcNow.Date;
-        UtcNow = new DateTimeOffset(
-            now.Year,
-            now.Month,
-            now.Day,
-            hour,
-            minutes,
-            seconds,
-            TimeSpan.Zero
-        );
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, let’s write a test and explain what’s happening.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using EndpointSample.Tests.Helpers;
-using Microsoft.AspNetCore.Authentication;
-using Xunit;
-using Xunit.Abstractions;
-using static Microsoft.Extensions.DependencyInjection.ServiceDescriptor;
-
-namespace EndpointSample.Tests.Api;
-
-public class Root
-{
-    private readonly ITestOutputHelper _output;
-    
-    private App App { get; }
-    private TestSystemClock Clock { get; } = new();
-
-    public Root(ITestOutputHelper output)
-    {
-        _output = output;
-        App = new(
-            Scoped&amp;lt;ISystemClock&amp;gt;(_ =&amp;gt; Clock)
-        );
-    }
-
-    [Fact]
-    public async Task CanGetRootEndpoint()
-    {
-        // Arrange
-        Clock.SetTime(0, 0);
-        // Act
-        var client = App.CreateClient();
-        var result = await client.GetStringAsync(&quot;/&quot;);
-        // Assert
-        Assert.Equal(&quot;Hello, World @ 12:00:00 AM&quot;, result);
-        
-        _output.WriteLine(result);
-    }
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Each unit test will spin up an instance of our web application, allowing us to call any endpoint using an HTTP client. Our &lt;code&gt;App&lt;/code&gt; class takes in any dependencies (Singleton, Scoped, or Transient) and replaces any instance of that registration in our &lt;code&gt;ServiceCollection&lt;/code&gt;. In the case of this test, we’re replacing our instance of &lt;code&gt;ISystemClock&lt;/code&gt; with a &lt;code&gt;TestSystemClock&lt;/code&gt;, which allows us to control time.&lt;/p&gt;
-
-&lt;p&gt;We want to keep these instances as part of our unit test class, which enables us to massage state to pass a test. Given the nature of FastEndpoints, I feel this also makes more sense, as each endpoint could have its own set of dependencies you’ll need to swap out.&lt;/p&gt;
-
-&lt;p&gt;You should now have a passing test!&lt;/p&gt;
-
-&lt;h2 id=&quot;manipulating-auth-for-fastendpoints&quot;&gt;Manipulating Auth for FastEndpoints&lt;/h2&gt;
-
-&lt;p&gt;Adding the ability to bypass authentication is a bit more complex, but not by much. Your web application will need an implementation for &lt;code&gt;UserOverrideMiddleware&lt;/code&gt;. Add the following code to that project.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Security.Claims;
-
-namespace EndpointsSample;
-
-public class UserOverrideMiddleware : IMiddleware
-{
-    public async Task InvokeAsync(HttpContext context, RequestDelegate next)
-    {
-        var userOverride = context.RequestServices.GetService&amp;lt;UserOverride&amp;gt;();
-        if (userOverride is { Value : {} })
-        {
-            context.User = userOverride.Value;
-        }
-
-        await next(context);
-    }
-}
-
-public record UserOverride(ClaimsPrincipal Value)
-{
-    public static ServiceDescriptor With(ClaimsPrincipal user)
-        =&amp;gt; ServiceDescriptor.Scoped&amp;lt;UserOverride&amp;gt;(_ =&amp;gt; new(user));
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The middleware will look for a &lt;code&gt;UserOverride&lt;/code&gt; in the services container. If it is present, then we’ll override the currently authenticated user. &lt;strong&gt;It’s important to register this middleware before the authentication and authorization middleware.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You’ll also need to modify your &lt;code&gt;Program.cs&lt;/code&gt; file to look like the following. Note we only register the &lt;code&gt;UserOverrideMiddleware&lt;/code&gt; for development. You don’t want this middleware in production.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using EndpointsSample;
-using FastEndpoints;
-using Microsoft.AspNetCore.Authentication;
-
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddScoped&amp;lt;ISystemClock, SystemClock&amp;gt;();
-builder.Services.AddScoped&amp;lt;UserOverrideMiddleware&amp;gt;();
-builder.Services.AddFastEndpoints();
-
-var app = builder.Build();
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseMiddleware&amp;lt;UserOverrideMiddleware&amp;gt;();
-}
-
-app.UseFastEndpoints(c =&amp;gt; {
-    // everything is anonymous for this sample
-    c.Endpoints.Configurator = epd =&amp;gt; epd.AllowAnonymous();
-});
-app.Run();
-
-public partial class Program {}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let’s modify our test to allow for supplying a user. Then, back in your unit test project, adjust your test class to include a new &lt;code&gt;User&lt;/code&gt; property and a new test using it.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.Security.Claims;
-using EndpointSample.Tests.Helpers;
-using EndpointsSample;
-using Microsoft.AspNetCore.Authentication;
-using Xunit;
-using Xunit.Abstractions;
-using static Microsoft.Extensions.DependencyInjection.ServiceDescriptor;
-
-namespace EndpointSample.Tests.Api;
-
-public class Root
-{
-    private readonly ITestOutputHelper _output;
-    
-    private App App { get; }
-    private TestSystemClock Clock { get; } = new();
-    private ClaimsPrincipal User { get; } = new();
-
-    public Root(ITestOutputHelper output)
-    {
-        _output = output;
-        App = new(
-            UserOverride.With(User),
-            Scoped&amp;lt;ISystemClock&amp;gt;(_ =&amp;gt; Clock)
-        );
-    }
-
-    [Fact]
-    public async Task CanGetRootWithUserEndpoint()
-    {
-        // Arrange
-        Clock.SetTime(0, 0);
-
-        User.WithIdentity(
-            new Claim(ClaimTypes.Name, &quot;Khalid&quot;)
-        );
-
-        // Act
-        var client = App.CreateClient();
-        var result = await client.GetStringAsync(&quot;/&quot;);
-        // Assert
-        Assert.Equal(&quot;Hello, World @ 12:00:00 AM\nKhalid&quot;, result);
-        
-        _output.WriteLine(result);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Running your test now, you should get a passing test along with the following output result.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Hello, World @ 12:00:00 AM
-Khalid
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Nice! Now you have a test harness for all your new FastEndpoint endpoints. So you can keep your tests readable and straight to the point.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Building on ASP.NET Core primitives allows us to exercise FastEndpoints like we would Minimal API endpoints or MVC controllers. You could certainly adapt this approach to any ASP.NET Core web framework, and I think it helps keep your tests from devolving into setup soup. You may also want to consider moving the creation of your &lt;code&gt;App&lt;/code&gt; instance into a class fixture if you find instantiating the dependencies add considerable time to your unit testing runs.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;If you’d like to see a &lt;a href=&quot;https://github.com/khalidabuhakmeh/FastEndpointsSample&quot;&gt;complete sample of this post, please go to my GitHub repository&lt;/a&gt;.&lt;/strong&gt; As always, thanks for reading, and be sure to let me know if you found this post helpful. Cheers!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints</guid>
-        
-        <category>dotnet,</category>
-        
-        <category>aspnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Generate YouTube Timestamp Links with C# 11</title>
-        <description>&lt;p&gt;YouTube content creation is complex and rarely ends with filming and editing the video. After uploading, you’re typically encouraged to upload timestamp markers for essential parts of your video. In this post, I’ll show you a quick C# script that can help you generate links to specific sections of your videos so you can use them in promotional blog posts and social media posts.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;youtube-videos-and-timestamps&quot;&gt;YouTube Videos and Timestamps&lt;/h2&gt;
-
-&lt;p&gt;You typically get a video identifier in alphanumeric characters when you upload a video. For example, my latest YouTube video has the identifier &lt;code&gt;u5y_aUP5Td0&lt;/code&gt;. Additionally, as the webinar progresses, there are moments you’d like to highlight. YouTube will automatically link these timestamps when placed in the video’s description. Here’s an example.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;00:00:00 Introduction 
-00:01:30 Luce Carter 
-00:02:55 Luce’s History with Databases 
-00:08:10 Tables vs. Documents 
-00:16:48 Term Mapping Summary 
-00:22:26 MongoDB Atlas 
-00:27:49 Browsing Documents 
-00:38:25 .NET with MongoDB 
-00:48:45 MongoDB University
-00:50:05 MongoDB Realm (Mobile) 
-00:53:17 MongoDB in Action 
-01:01:43 Questions and Answers 
-01:10:01 Outro
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When viewed on YouTube, the timestamp values will hyperlink to specific video portions. That’s great, but this format is limited to YouTube and can be difficult to share on your blog or other mediums.&lt;/p&gt;
-
-&lt;p&gt;Wouldn’t it be cool to use C# 11 features to generate these links quickly? With the flexibility of my script, I can produce any output that works for me: HTML, markdown, CSV, etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;using-c-11-to-generate-youtube-links&quot;&gt;Using C# 11 To Generate YouTube Links&lt;/h2&gt;
-
-&lt;p&gt;Let’s look at the script, and we’ll break down the C# 11 features used to generate the output.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;
-using System.Text.RegularExpressions;
-
-var videoId = &quot;u5y_aUP5Td0&quot;;
-
-var timestamps = &quot;&quot;&quot;
-00:00:00 Introduction 
-00:01:30 Luce Carter 
-00:02:55 Luce’s History with Databases 
-00:08:10 Tables vs. Documents 
-00:16:48 Term Mapping Summary 
-00:22:26 MongoDB Atlas 
-00:27:49 Browsing Documents 
-00:38:25 .NET with MongoDB 
-00:48:45 MongoDB University
-00:50:05 MongoDB Realm (Mobile) 
-00:53:17 MongoDB in Action 
-01:01:43 Questions and Answers 
-01:10:01 Outro
-&quot;&quot;&quot;;
-
-var results = timestamps
-    .Split(Environment.NewLine)
-    .Select((line, _) =&amp;gt; Entry.Parse(line, videoId))
-    .ToList();
-
-foreach (var (entry, i) in results.Select((e, i) =&amp;gt; (e, i)))
-{
-    Console.WriteLine($&quot;#{i:00} - {entry.Time:g} - {entry.Description} - {entry.Url}&quot;);
-}
-
-public record Entry(TimeSpan Time, string Url, string Description)
-{
-    private static readonly Regex TimestampRegex =
-        new(&quot;((?&amp;lt;hours&amp;gt;[0-9]{0,2}):)?(?&amp;lt;minutes&amp;gt;[0-9]{0,2}):(?&amp;lt;seconds&amp;gt;[0-9]{0,2})&quot;,
-            RegexOptions.Compiled | RegexOptions.Singleline);
-    
-    public static Entry Parse(string line, string videoId)
-    { 
-        var format = $&quot;https://www.youtube.com/watch?v={videoId}&amp;amp;t={{0}}s&quot;;
-        
-        var match = TimestampRegex.Match(line);
-        var timeSpan = new TimeSpan(
-            int.Parse(match.Groups[&quot;hours&quot;].Value),
-            int.Parse(match.Groups[&quot;minutes&quot;].Value),
-            int.Parse(match.Groups[&quot;seconds&quot;].Value)
-        );
-
-        return new Entry(
-            Time: timeSpan, 
-            Url: string.Format(format, timeSpan.TotalSeconds),
-            Description: line.Substring(line.IndexOf(&quot; &quot;, StringComparison.Ordinal))
-        );
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The first part of the script asks the developer for a &lt;code&gt;videoId&lt;/code&gt; and the &lt;code&gt;timestamps&lt;/code&gt; in a raw string literal. From there, we parse each row of the string literal and generate the links to each timestamp. Finally, in my case, I  write out the output to the console.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;#00 - 0:00:00 -  Introduction  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=0s
-#01 - 0:01:30 -  Luce Carter  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=90s
-#02 - 0:02:55 -  Luce’s History with Databases  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=175s
-#03 - 0:08:10 -  Tables vs. Documents  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=490s
-#04 - 0:16:48 -  Term Mapping Summary  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=1008s
-#05 - 0:22:26 -  MongoDB Atlas  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=1346s
-#06 - 0:27:49 -  Browsing Documents  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=1669s
-#07 - 0:38:25 -  .NET with MongoDB  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=2305s
-#08 - 0:48:45 -  MongoDB University - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=2925s
-#09 - 0:50:05 -  MongoDB Realm (Mobile)  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=3005s
-#10 - 0:53:17 -  MongoDB in Action  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=3197s
-#11 - 1:01:43 -  Questions and Answers  - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=3703s
-#12 - 1:10:01 -  Outro - https://www.youtube.com/watch?v=u5y_aUP5Td0&amp;amp;t=4201s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you’re getting started creating YouTube content, you might find this code helpful for parsing timestamps and posting links to video segments on your social media platforms.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/generate-youtube-timestamp-links-with-csharp-11</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/generate-youtube-timestamp-links-with-csharp-11</guid>
-        
-        <category>dotnet,</category>
-        
-        <category>csharp</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ASP.NET Core Display Description Tag Helper</title>
-        <description>&lt;p&gt;Part of what makes ASP.NET Core so powerful is the C# language and the ability to generate UI based on object metadata. The ability to define metadata as a single source of truth helps reduce repetition and makes refactoring UI more straightforward. When defining metadata on your ASP.NET Core models, the &lt;code&gt;System.ComponentModel.DataAnnotations&lt;/code&gt; namespace is the most commonly used attribute library across the .NET ecosystem.&lt;/p&gt;
-
-&lt;p&gt;In this short post, you’ll learn how to decorate your models with the &lt;code&gt;DisplayAttribute&lt;/code&gt; and read the &lt;code&gt;Description&lt;/code&gt; to output to HTML using a custom ASP.NET Core tag helper.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;what-is-displayattribute&quot;&gt;What Is DisplayAttribute&lt;/h2&gt;
-
-&lt;p&gt;You can find the &lt;code&gt;DisplayAttribute&lt;/code&gt; in the &lt;code&gt;System.ComponentModel.DataAnnotations&lt;/code&gt; namespace, and you can use it to define user-facing text when generating user interfaces. For example, some properties include &lt;code&gt;Name&lt;/code&gt;, &lt;code&gt;ShortName&lt;/code&gt;, &lt;code&gt;Description&lt;/code&gt;, and &lt;code&gt;ResourceType&lt;/code&gt;. The metadata provided in the attribute can help UI generators create the correct UI elements for the particular property.&lt;/p&gt;
-
-&lt;p&gt;To use the &lt;code&gt;DisplayAttribute&lt;/code&gt;, you’ll need to decorate your model properties as shown in the following Razor Pages page model.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;[BindProperty,
- Display(
-     Name = &quot;Profile Url&quot;,
-     Description = &quot;Your profile url, ex. @user@instance.com&quot;),
- Required(AllowEmptyStrings = false),
- RegularExpression(Mastodon.ProfileLinkRegularExpression)]
-public string? ProfileUrl { get; set; }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;asp-for&lt;/code&gt; tag helper then uses this &lt;code&gt;Name&lt;/code&gt; metadata from the &lt;code&gt;DisplayAttribute&lt;/code&gt; to display the human-readable name rather than the property name.&lt;/p&gt;
-
-&lt;p&gt;For example, the following Razor syntax will produce a label with the &lt;code&gt;Profile Url&lt;/code&gt; value.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label asp-for=&quot;ProfileUrl&quot;&amp;gt;&amp;lt;/label&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Processing the Razor syntax will produce the following HTML output.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;label for=&quot;ProfileUrl&quot;&amp;gt;Profile Url&amp;lt;/label&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pretty sweet! Now, how do we get the description into an HTML element?&lt;/p&gt;
-
-&lt;h2 id=&quot;description-taghelper&quot;&gt;Description TagHelper&lt;/h2&gt;
-
-&lt;p&gt;Unfortunately, there is no &lt;code&gt;asp-description-for&lt;/code&gt; tag helper. Luckily, it’s pretty straightforward to write yourself.&lt;/p&gt;
-
-&lt;p&gt;We aim to take the Razor syntax and produce our description as an HTML element’s value.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span asp-description-for=&quot;ProfileUrl&quot; class=&quot;text-muted ps-2&quot;&amp;gt;&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We’ll read the &lt;code&gt;Description&lt;/code&gt; property from our &lt;code&gt;Display&lt;/code&gt; attribute. In another stroke of luck, that information is already parsed for us using the &lt;code&gt;ModelExpression&lt;/code&gt; property type. Let’s see what the TagHelper implementation is.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
-using Microsoft.AspNetCore.Razor.TagHelpers;
-
-[HtmlTargetElement(&quot;div&quot;, Attributes = ForAttributeName)]
-[HtmlTargetElement(&quot;p&quot;, Attributes = ForAttributeName)]
-[HtmlTargetElement(&quot;span&quot;, Attributes = ForAttributeName)]
-public sealed class DescriptionForTagHelper : TagHelper
-{
-    private const string ForAttributeName = &quot;asp-description-for&quot;;
-
-    [HtmlAttributeName(ForAttributeName)] 
-    public ModelExpression For { get; set; } = default!;
-
-    public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
-    {
-        if (context == null)
-        {
-            throw new ArgumentNullException(nameof(context));
-        }
-
-        if (output == null)
-        {
-            throw new ArgumentNullException(nameof(output));
-        }
-
-        var description = For.Metadata.Description;
-        if (description != null)
-        {
-            // Do not update the content if another tag helper
-            // targeting this element has already done so.
-            if (!output.IsContentModified)
-            {
-                var childContent = await output.GetChildContentAsync();
-                if (childContent.IsEmptyOrWhiteSpace)
-                {
-                    output.Content.SetHtmlContent(description);
-                }
-                else
-                {
-                    output.Content.SetHtmlContent(childContent);
-                }
-            }
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I’ve limited the scope of this particular tag helper to &lt;code&gt;span&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, and &lt;code&gt;div&lt;/code&gt; elements, but you could as easily target all HTML elements by adding a &lt;code&gt;*&lt;/code&gt; option. So, for example, when we run our ASP.NET Core application, we should get the following HTML output.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span class=&quot;text-muted ps-2&quot;&amp;gt;Your profile url, ex. @user@instance.com&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Awesome!&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Tag helpers are fantastic, and this tag helper can make it easier to maintain UI text in a single location on your view models. The &lt;code&gt;ModelExpression&lt;/code&gt; type does most of the heavy lifting and has more information you could take advantage of to build more UI helpers.&lt;/p&gt;
-
-&lt;p&gt;If you don’t feel like adding this type to your class, I have submitted the tag helper to &lt;a href=&quot;https://github.com/DamianEdwards/TagHelperPack/pull/53&quot;&gt;Damian Edwards TagHelperPack NuGet package&lt;/a&gt;, hoping he’ll add it to the existing collection he’s managing.&lt;/p&gt;
-
-&lt;p&gt;I hope you found this post helpful, and feel free to reach out to me at any of the social media channels I have available. Cheers!&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/aspnet-core-display-description-tag-helper</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/aspnet-core-display-description-tag-helper</guid>
-        
-        <category>csharp,</category>
-        
-        <category>aspnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Entity Framework Core Conversions for Logical Domain Types</title>
-        <description>&lt;p&gt;I recently read a blog post from &lt;a href=&quot;https://twitter.com/dustinmoris&quot;&gt;Dustin Moris Gorski&lt;/a&gt; titled &lt;strong&gt;&lt;a href=&quot;https://dusted.codes/the-type-system-is-a-programmers-best-friend&quot;&gt;“The type system is a programmer’s best friend”&lt;/a&gt;&lt;/strong&gt;, and he makes a lot of great points. Typically when dealing with data storage mechanisms, we model our objects using primitive types like &lt;code&gt;int&lt;/code&gt;, &lt;code&gt;string&lt;/code&gt;, &lt;code&gt;double&lt;/code&gt;, etc. These primitives play well with database providers but can lead you to make errors when working with data. As Dustin says, “Good types can prevent bugs”. For example, you might typically represent an &lt;code&gt;EmailAddress&lt;/code&gt; property with a &lt;code&gt;string&lt;/code&gt;, but an email is a complex type with structure. Wouldn’t it be better to deal with the logical concept?&lt;/p&gt;
-
-&lt;p&gt;Well, if you’re on the side that wants to take this approach and an Entity Framework Core user, you will want to read this post. First, we’ll explore a simple database model and then discuss the querying caveat you’ll have to overcome.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;the-domain-model&quot;&gt;The Domain Model&lt;/h2&gt;
-
-&lt;p&gt;Let’s start with our domain model, which in this example, will have a &lt;code&gt;Person&lt;/code&gt; with an identifier and an &lt;code&gt;EmailAddress&lt;/code&gt;. We’ll also be using Entity Framework Core as our database access library. However, unlike a typically modeled relationship, the &lt;code&gt;EmailAddress&lt;/code&gt; will &lt;strong&gt;not&lt;/strong&gt; be another table; instead, we will map it to a primitive type of &lt;code&gt;string&lt;/code&gt;. Let’s take a look at the model.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class Person
-{
-    public int Id { get; set; }
-    public EmailAddress EmailAddress { get; set; } 
-        = new(&quot;&quot;);
-}
-
-public record EmailAddress(string Value)
-{
-    public string Domain =&amp;gt; Value[Value.IndexOf(&apos;@&apos;)..];
-    public string Username =&amp;gt; Value[..Value.IndexOf(&apos;@&apos;)];
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You’ll note that the &lt;code&gt;EmailAddress&lt;/code&gt; model has domain-specific properties that can help you in the realm of .NET but do not apply to the database storage of our data. Let’s see how we can map this complex type to a text column in our SQLite database.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class Database : DbContext
-{
-    public DbSet&amp;lt;Person&amp;gt; People =&amp;gt; Set&amp;lt;Person&amp;gt;();
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        =&amp;gt; optionsBuilder
-            .UseSqlite(&quot;Data Source=database.db&quot;)
-            .LogTo(Console.WriteLine)
-        ;
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity&amp;lt;Person&amp;gt;()
-            .Property(m =&amp;gt; m.EmailAddress)
-            .HasConversion&amp;lt;EmailAddressConversion&amp;gt;();
-    }
-}
-
-public class EmailAddressConversion 
-    : ValueConverter&amp;lt;EmailAddress, string&amp;gt;
-{
-    public EmailAddressConversion()
-        : base(
-            emailAddress =&amp;gt; emailAddress.Value,
-            value =&amp;gt; new EmailAddress(value)
-        )
-    { }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can map any .NET type to a database column using EF Core value converters. To do so, you first need to implement a class that implements &lt;code&gt;ValueConverter&amp;lt;T&amp;gt;&lt;/code&gt;, with the first type argument being the C# type and the second being the target column type. In the case of this sample, we are converting to &lt;code&gt;string&lt;/code&gt; from an &lt;code&gt;EmailAddress&lt;/code&gt; and vice versa. To register a converter, you’ll need to use the &lt;code&gt;OnModelCreating&lt;/code&gt; method on your &lt;code&gt;DbContext&lt;/code&gt; to register the converter for the property using the &lt;code&gt;HasConversion&lt;/code&gt; method.&lt;/p&gt;
-
-&lt;p&gt;Once you’ve set up your mappings, it’s as simple as writing the C# you know and love.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var person = new Person
-{
-    EmailAddress = new(&quot;khalid+abuhakmeh@example.com&quot;)
-};
-
-database.People.Add(person);
-database.SaveChanges();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Looking at the EF Core migrations, we can see how EF Core has mapped our property &lt;code&gt;EmailAddress&lt;/code&gt; to an SQLite&lt;code&gt;TEXT&lt;/code&gt; column.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;b.Property&amp;lt;string&amp;gt;(&quot;EmailAddress&quot;)
-    .IsRequired()
-    .HasColumnType(&quot;TEXT&quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you may know already, storing and retrieving data is only half the story. What about queries?&lt;/p&gt;
-
-&lt;h2 id=&quot;querying-complex-types&quot;&gt;Querying complex types&lt;/h2&gt;
-
-&lt;p&gt;Your first instinct might be to write the following LINQ Query to act on the &lt;code&gt;EmailAddress&lt;/code&gt; value in the database.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var result = database
-    .People
-    .Where(p =&amp;gt; p.EmailAddress.Value.EndsWith(&quot;@example.com&quot;))
-    .OrderByDescending(x =&amp;gt; x.Id)
-    .First();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Sadly, the translation from LINQ to SQL will lead to an exception.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-console&quot;&gt;Unhandled exception. System.InvalidOperationException: The LINQ expression &apos;DbSet&amp;lt;Person&amp;gt;()
-.Where(p =&amp;gt; p.EmailAddress.Value != null &amp;amp;&amp;amp; &quot;@example.com&quot; != null &amp;amp;&amp;amp; p.EmailAddress.Value.
-EndsWith(&quot;@example.com&quot;))&apos; could not be translated. Either rewrite the query in a form that can
-be translated or switch to client evaluation explicitly by inserting a call to &apos;AsEnumerable&apos;,
-&apos;AsAsyncEnumerable&apos;, &apos;ToList&apos;, or &apos;ToListAsync&apos;. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The exception makes sense. EF Core doesn’t know what &lt;code&gt;EmailAddress.Value&lt;/code&gt; is in the context of the database schema. We only know of a column named &lt;code&gt;EmailAddress&lt;/code&gt;. So how do we get EF Core to do what we want without complicating our &lt;code&gt;OnModelCreating&lt;/code&gt; method with complex translations? Well, I have a trick for you!&lt;/p&gt;
-
-&lt;p&gt;Let’s update our &lt;code&gt;EmailAddress&lt;/code&gt; object to include a cast operator from &lt;code&gt;EmailAddress&lt;/code&gt; to &lt;code&gt;string&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public record EmailAddress(string Value)
-{
-    public string Domain =&amp;gt; Value[Value.IndexOf(&apos;@&apos;)..];
-    public string Username =&amp;gt; Value[..Value.IndexOf(&apos;@&apos;)];
-    
-    // THE IMPORTANT PART
-    public static implicit operator string(EmailAddress d) =&amp;gt; d.Value;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We can now update our LINQ statement with a cast and “trick” EF Core into translating the query correctly.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var result = database
-    .People
-    // Remember to cast your logical entity to the primitive
-    .Where(p =&amp;gt; ((string)p.EmailAddress).EndsWith(&quot;@example.com&quot;))
-    .OrderByDescending(x =&amp;gt; x.Id)
-    .First();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Running our query results in the following generated SQL.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-sql&quot;&gt;SELECT &quot;p&quot;.&quot;Id&quot;, &quot;p&quot;.&quot;EmailAddress&quot;
-FROM &quot;People&quot; AS &quot;p&quot;
-WHERE CAST(&quot;p&quot;.&quot;EmailAddress&quot; AS TEXT) LIKE &apos;%@example.com&apos;
-ORDER BY &quot;p&quot;.&quot;Id&quot; DESC
-LIMIT 1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;So how did that work? It is straightforward once you realize EF Core translates our C# using expressions into SQL. In this case, we’re leveraging the C# cast operator to take advantage of the EF Core translations for string methods like &lt;code&gt;EndsWith&lt;/code&gt;. Since our logical entity maps directly to a column type, this translation works!&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;As you read in Dustin’s blog post, you can use domain objects to reduce the potential errors that may result from using primitive types. If you like that approach, you’ve seen that it doesn’t take a lot of EF Core configuration to make that happen in your codebase. Of course, the biggest hurdle will be crafting queries. Still, using the implicit cast operator, we can trick EF Core query translation into producing a SQL query that works against the schema. While we could write translations specific to each model and the SQL, we would like to generate, most logical entities will always map to a .NET/database primitive. EF Core already knows these primitives and has a library of translations for commonly-used .NET methods.&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoyed this blog post, and if you haven’t already, &lt;a href=&quot;https://dusted.codes/the-type-system-is-a-programmers-best-friend&quot;&gt;please read Dustin’s blog post&lt;/a&gt;. It makes some great arguments.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/entity-framework-core-conversions-for-logical-domain-types</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/entity-framework-core-conversions-for-logical-domain-types</guid>
-        
-        <category>entity-framework,</category>
-        
-        <category>csharp</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Consuming .NET WebAssembly From JavaScript in the Browser</title>
-        <description>&lt;p&gt;I’ve recently been exploring the newest features of .NET 7 and came across a fascinating post on the &lt;a href=&quot;https://devblogs.microsoft.com/dotnet/use-net-7-from-any-javascript-app-in-net-7/&quot;&gt;Microsoft blogs titled “Use .NET 7 from any JavaScript app in .NET 7.”&lt;/a&gt; In the humble opinion of an internet crank, I believe WebAssembly (WASM) is the future, and .NET is one of the technologies leading the way to make it accessible to a new set of developers.&lt;/p&gt;
-
-&lt;p&gt;In this post, I go through my understanding of the sample project mentioned in the blog post and some things I’d like to improve in the JavaScript experience.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;what-is-webassembly&quot;&gt;What is WebAssembly?&lt;/h2&gt;
-
-&lt;p&gt;WebAssembly, also called WASM, is a new type of binary format that you can run in modern browsers and on the server. A WASM application depends on a host to execute the code within the &lt;code&gt;wasm&lt;/code&gt; artifact, and the host grants access to host features to the code. For .NET developers, think of WASM as a universally recognized &lt;code&gt;.dll&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Currently, your browser is the most fully featured host environment, with access to many things you’d be using if you wrote the solution in JavaScript.&lt;/p&gt;
-
-&lt;p&gt;The compiled nature of WASM gives your solution near-native performance and the option of choosing a non-web-native language such as C/C++, Rust, and in the case of .NET developers, C#.&lt;/p&gt;
-
-&lt;p&gt;The host is essential to WASM, as a contract between your implementation and host must be satisfied for your solution to work. You’ll see this in the sample as we look at C# and JavaScript code. Luckily, the .NET team has satisfied as many of the .NET runtime features as possible, so most C# code works. That said, multithreading support is coming in .NET 7, but still experimental. Lack of threading may be a roadblock if you’re writing &lt;code&gt;async/await&lt;/code&gt; code.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;You’ll need to install the latest .NET 7 SDK to follow along. As of writing this post, the newest release was .NET 7 RC2, but I suspect the final release has already occurred.&lt;/p&gt;
-
-&lt;p&gt;Once you’ve installed the SDK, you’ll need two additional workloads. First, from a command line terminal, execute the following commands. macOS users will have to use &lt;code&gt;sudo&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;dotnet workload install wasm-tools
-dotnet workload install wasm-experimental
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/khalidabuhakmeh/HelloDotnetWasm&quot;&gt;Next, clone the repository I have included on my GitHub, called  &lt;strong&gt;HelloDotnetWasm&lt;/strong&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, once cloned, please run &lt;code&gt;dotnet tool restore&lt;/code&gt;. Restoring will install two tools locally to help run the project: &lt;code&gt;dotnet-serve&lt;/code&gt; and &lt;code&gt;run-script&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-wasm-targeted-project&quot;&gt;The WASM Targeted Project&lt;/h2&gt;
-
-&lt;p&gt;The first thing I noticed during this exercise was the lack of dependencies in my project’s &lt;code&gt;csproj&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&amp;gt;
-  &amp;lt;PropertyGroup&amp;gt;
-    &amp;lt;TargetFramework&amp;gt;net7.0&amp;lt;/TargetFramework&amp;gt;
-    &amp;lt;RuntimeIdentifier&amp;gt;browser-wasm&amp;lt;/RuntimeIdentifier&amp;gt;
-    &amp;lt;WasmMainJSPath&amp;gt;main.js&amp;lt;/WasmMainJSPath&amp;gt;
-    &amp;lt;OutputType&amp;gt;Exe&amp;lt;/OutputType&amp;gt;
-    &amp;lt;AllowUnsafeBlocks&amp;gt;true&amp;lt;/AllowUnsafeBlocks&amp;gt;
-  &amp;lt;/PropertyGroup&amp;gt;
-
-  &amp;lt;ItemGroup&amp;gt;
-    &amp;lt;WasmExtraFilesToDeploy Include=&quot;index.html&quot; /&amp;gt;
-    &amp;lt;WasmExtraFilesToDeploy Include=&quot;main.js&quot; /&amp;gt;
-    &amp;lt;WasmExtraFilesToDeploy Include=&quot;favicon.ico&quot; /&amp;gt;
-  &amp;lt;/ItemGroup&amp;gt;
-&amp;lt;/Project&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The sparseness is because the WASM project uses the SDK workloads functionality to pull in MSBuild targets. WASM is part of .NET, and that’s pretty cool.&lt;/p&gt;
-
-&lt;p&gt;The essential element in the &lt;code&gt;csproj&lt;/code&gt; file is that of &lt;code&gt;RuntimeIdentifier&lt;/code&gt;, which tells the .NET build process to target WASM specifically for the browser. I can imagine as WASI becomes more fleshed out, you’ll see a new value similar to &lt;code&gt;server-wasm&lt;/code&gt;, but that’s speculation on my part.&lt;/p&gt;
-
-&lt;p&gt;The next thing you’ll notice in the project is the &lt;code&gt;Program.cs&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System;
-using System.Runtime.InteropServices.JavaScript;
-
-// ReSharper disable MemberCanBePrivate.Global
-
-Console.WriteLine(&quot;Hello, Browser!&quot;);
-Console.WriteLine(string.Join(&quot; &quot;, args));
-
-public partial class MyClass
-{
-    [JSExport]
-    internal static string Greeting()
-    {
-        // language=html
-        var text = 
-        $&quot;&quot;&quot;
-        &amp;lt;div&amp;gt;
-            &amp;lt;h1&amp;gt;Hello, World! Greetings from WASM!&amp;lt;/h1&amp;gt;
-            &amp;lt;p&amp;gt;Listening at {GetHRef()}&amp;lt;/p&amp;gt;
-        &amp;lt;/div&amp;gt;
-        &quot;&quot;&quot;;
-        Console.WriteLine(text);
-        return text;
-    }
-
-    [JSImport(&quot;window.location.href&quot;, &quot;main.js&quot;)]
-    internal static partial string GetHRef();
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This program uses top-level statements, so the first mentions of &lt;code&gt;Console.WriteLine&lt;/code&gt; will execute when we run our WASM module. The &lt;code&gt;MyClass&lt;/code&gt; type encapsulates both an exported and an imported method, with the import method’s functionality being implemented by our host. We’ll see how a host implements an import when looking at the &lt;code&gt;main.js&lt;/code&gt; JavaScript file.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;JsImportAttribute&lt;/code&gt; expects two arguments. The first is the function name. The string should match the JavaScript object’s structure found on the host. The second value is the module’s name; in this case, you can find the implementation of &lt;code&gt;window.location.href&lt;/code&gt; in the &lt;code&gt;main.js&lt;/code&gt; module.&lt;/p&gt;
-
-&lt;p&gt;Let’s look at the &lt;code&gt;main.js&lt;/code&gt; file, where we load our module, and the &lt;code&gt;dotnet.js&lt;/code&gt; module that contains the .NET runtime. The .NET runtime implements the WASM host interface, giving us a translation between the code we write and the browser environment. The &lt;code&gt;dotnet.js&lt;/code&gt; file is part of the build process, so there’s no need to look at it, but you should know it exists.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;import { dotnet } from &apos;./dotnet.js&apos;
-
-const is_browser = typeof window != &quot;undefined&quot;;
-if (!is_browser) throw new Error(`Expected to be running in a browser`);
-
-const { setModuleImports, getAssemblyExports, getConfig, runMainAndExit } = await dotnet
-    .withDiagnosticTracing(false)
-    .withApplicationArgumentsFromQuery()
-    .create();
-
-setModuleImports(&quot;main.js&quot;, {
-    window: {
-        location: {
-            href: () =&amp;gt; globalThis.window.location.href
-        }
-    }
-});
-
-const config = getConfig();
-const exports = await getAssemblyExports(config.mainAssemblyName);
-const html = exports.MyClass.Greeting();
-console.log(html);
-
-
-document.getElementById(&quot;out&quot;).innerHTML = `${html}`;
-await runMainAndExit(config.mainAssemblyName, [&quot;dotnet&quot;, &quot;is&quot;, &quot;great!&quot;]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The file has many points of interest, so let’s work our way down from top to bottom.&lt;/p&gt;
-
-&lt;p&gt;The first step is to import the .NET runtime, which will allow us to get information about our WASM “assembly”. There’s some defensive code at the top on the off chance you are targeting a different WASM runtime other than a browser, but it’s almost unnecessary, in my opinion.&lt;/p&gt;
-
-&lt;p&gt;The following section is we start loading the .NET WASM runtime functionality that will allow us to introspect our WASM app. Here we can enable our host to trace our app, read application arguments from the query string, and more.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;const { setModuleImports, getAssemblyExports, getConfig, runMainAndExit } = await dotnet
-    .withDiagnosticTracing(false)
-    .withApplicationArgumentsFromQuery()
-    .create();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The call to &lt;code&gt;setModuleImports&lt;/code&gt; allows us to create a module name and the implementation we saw in our C# &lt;code&gt;Program.cs&lt;/code&gt; file. Imports will enable us to proxy any JavaScript implementation into our app. Keep in mind our WASM app shares the same memory as the host, meaning we can share almost anything.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;setModuleImports(&quot;main.js&quot;, {
-    window: {
-        location: {
-            href: () =&amp;gt; globalThis.window.location.href
-        }
-    }
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The following section asks the WASM implementation what interfaces are part of the export so that the host can utilize them. For example, in the implementation, we have a &lt;code&gt;MyClass&lt;/code&gt; implementation with a &lt;code&gt;Greeting&lt;/code&gt; method. To access it, you only need to remember the namespace, class, and method name.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;const config = getConfig();
-const exports = await getAssemblyExports(config.mainAssemblyName);
-const html = exports.MyClass.Greeting();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, we can call our main entry point, which, as you remember, invokes the &lt;code&gt;Console.WriteLine&lt;/code&gt; method. We can even pass in arguments to our entry point method.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;document.getElementById(&quot;out&quot;).innerHTML = `${html}`;
-await runMainAndExit(config.mainAssemblyName, [&quot;dotnet&quot;, &quot;is&quot;, &quot;great!&quot;]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All that’s left to do, is write an &lt;code&gt;index.html&lt;/code&gt; file to load all of our modules.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;!--  Licensed to the .NET Foundation under one or more agreements. --&amp;gt;
-&amp;lt;!-- The .NET Foundation licenses this file to you under the MIT license. --&amp;gt;
-&amp;lt;html&amp;gt;
-
-&amp;lt;head&amp;gt;
-  &amp;lt;title&amp;gt;HelloDotnetWasm&amp;lt;/title&amp;gt;
-  &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
-  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
-  &amp;lt;link rel=&quot;modulepreload&quot; href=&quot;./main.js&quot; /&amp;gt;
-  &amp;lt;link rel=&quot;modulepreload&quot; href=&quot;./dotnet.js&quot; /&amp;gt;
-&amp;lt;/head&amp;gt;
-
-&amp;lt;body&amp;gt;
-  &amp;lt;main id=&quot;out&quot;&amp;gt;&amp;lt;/main&amp;gt;
-  &amp;lt;script type=&apos;module&apos; src=&quot;./main.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;/body&amp;gt;
-
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;building-the-wasm-project&quot;&gt;Building the WASM Project&lt;/h2&gt;
-
-&lt;p&gt;When we build the WASM project, we get an &lt;code&gt;AppBundle&lt;/code&gt; folder that includes everything we need to run our WASM app in any browser without a .NET  backend.&lt;/p&gt;
-
-&lt;p&gt;Note you’ll be pushing down all the .NET runtime assemblies with your WASM app. I think these payloads will reduce in future iterations as the integration between .NET and WASM matures.&lt;/p&gt;
-
-&lt;p&gt;Now, it’s only a matter of running an HTTP server. In this project, I’ve included a simple command.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;dotnet r start
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or, if you’re using JetBrains Rider, use the &lt;strong&gt;Start&lt;/strong&gt; run configuration I’ve created in the sample. Navigating to &lt;code&gt;https://localhost:8080&lt;/code&gt;, you’ll see the running application. Also, open the developer tools to see the messages our app is writing to the host console.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_1200/https://khalidabuhakmeh.com/assets/images/posts/dotnet-browser-wasm/complete_browser_wasm_dotnet.jpg 1200w&quot; sizes=&quot;100vw&quot; alt=&quot;final dotnet wasm app running in a browser&quot; loading=&quot;lazy&quot; width=&quot;3840&quot; height=&quot;2106&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Congratulations! You’re running .NET in the browser using WASM!&lt;/p&gt;
-
-&lt;h2 id=&quot;something-that-could-be-better-in-javascript&quot;&gt;Something That Could Be Better in JavaScript&lt;/h2&gt;
-
-&lt;p&gt;Working with the &lt;code&gt;main.js&lt;/code&gt; file is a leap of faith. I mean that the build process will eventually create a &lt;code&gt;dotnet.js&lt;/code&gt; file which will be part of the &lt;code&gt;AppBundle&lt;/code&gt; folder, but as you write your &lt;code&gt;main.js&lt;/code&gt; file, you don’t get any tooling help. This &lt;strong&gt;Chicken and Egg&lt;/strong&gt; issue can lead to mistakes that tooling could easily catch.&lt;/p&gt;
-
-&lt;p&gt;A potential solution is to generate the &lt;code&gt;dotnet.js&lt;/code&gt; file using source generators and have it be part of the solution as you work on your WASM project. That way, most modern tooling would see and process the file, giving you code completion and hints.&lt;/p&gt;
-
-&lt;p&gt;Another thing I would like to see improve is the generation of a better interface used in &lt;code&gt;main.js&lt;/code&gt;. Right now, the helper methods from &lt;code&gt;dotnet.js&lt;/code&gt; are low-level building blocks. I think the build process could abstract your code behind a project-specific wrapper.&lt;/p&gt;
-
-&lt;p&gt;For example, this &lt;strong&gt;could be&lt;/strong&gt; the code you write using a generated &lt;code&gt;program.js&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;import { program } from &apos;./program.js&apos;
-
-program.imports[&quot;main.js&quot;].window.location.href = () =&amp;gt; globalThis.window.location.href;
-const html = program.exports.MyClass.Greeting();
-
-document.getElementById(&quot;out&quot;).innerHTML = `${html}`;
-
-program.Main([&quot;dotnet&quot;, &quot;is&quot;, &quot;great!&quot;])
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This change would also make it much easier to pass around your program across different modules.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;The ability to target WASM with .NET 7 is terrific and one of the things I’m excited about with the future of C# and F# development. So please download the sample from my GitHub repository and try it. I know it might not look like a lot, but I’m convinced this is the future of development and is worth keeping in mind.&lt;/p&gt;
-
-&lt;p&gt;As always, thank you for reading and please remember to follow me on Twitter &lt;a href=&quot;https://twitter.com/buhakmeh&quot;&gt;@buhakmeh&lt;/a&gt; and let me know your thoughts on WASM.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/consuming-dotnet-webassembly-from-javascript-in-the-browser</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/consuming-dotnet-webassembly-from-javascript-in-the-browser</guid>
-        
-        <category>dotnet,</category>
-        
-        <category>wasm</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fibonacci Sequences with Kotlin, C#, and F#</title>
-        <description>&lt;p&gt;As an employee of JetBrains, I get to see and interact with many languages and technology stacks; frankly, it’s pretty rewarding. While I would still say my expertise is C#, these experiences inform my thoughts on C# and .NET in general: What’s good? What could be better? These questions help me gain new perspectives I otherwise wouldn’t have if I had stayed inside my ecosystem bubble.&lt;/p&gt;
-
-&lt;p&gt;As a recent exercise, I thought I’d implement the Fibonacci sequence in both Kotlin and C# and &lt;a href=&quot;https://twitter.com/buhakmeh/status/1577738711013335040?s=21&amp;amp;t=zX2EMraA0y24-j4CDSbYKg&quot;&gt;I decided to share it on Twitter&lt;/a&gt;. The responses from the community have been surprising and educational. So I thought I would take the best solutions and share them here in this post.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;what-is-the-fibonacci-sequence&quot;&gt;What is the Fibonacci sequence?&lt;/h2&gt;
-
-&lt;p&gt;The Fibonacci sequence is a pattern commonly found in nature and has been described as early as 200 BC in Indian Mathematics. The sequence was introduced to Western European mathematics by Leonardo of Pisa, later known as Fibonacci.&lt;/p&gt;
-
-&lt;p&gt;The sequence works by starting with the values of &lt;code&gt;0&lt;/code&gt; and &lt;code&gt;1&lt;/code&gt;, then proceeding to derive the next value by calculating the sum of the two previous values. Here are the first 13 digits of the sequence.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you can see, the numbers quickly snowball in magnitude. Therefore, the mathematical formula for the sequence is as follows.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;F0 = 0, F1 = 1
-and then
-Fn = Fn-1 + Fn-2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fibonacci_number&quot;&gt;Read more about it on Wikipedia; it is a fascinating topic&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s simple enough to program using a language, but you can tackle this simple equation in many ways as a programmer. So let’s first look at my solutions in both Kotlin and C#.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-fibonacci-sequence-solutions&quot;&gt;My Fibonacci Sequence Solutions&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kotlinlang.org&quot;&gt;Kotlin is a language developed by JetBrains&lt;/a&gt; and has functional and object-oriented concepts. It is a JVM-based language focusing on interop between itself and Java. If you’re familiar with C#, you’ll likely find it pleasant to read and write Kotlin. So let’s take a look at the solution written with the use of Kotlin.&lt;/p&gt;
-
-&lt;p&gt;The first implementation is a declarative style, similar to what you’d see with LINQ in C#.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot;&gt;fun fibonacci(num: Int): List&amp;lt;Int&amp;gt; {
-    val series = mutableListOf(0, 1)
-    (2..num)
-        .asSequence()
-        .map { series[it -1] + series[it -2] }
-        .forEach { series.add(it) }
-    return series
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I also wrote an imperative style, using a &lt;code&gt;for&lt;/code&gt; loop.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot;&gt;fun fibonacciLoop(num: Int) : List&amp;lt;Int&amp;gt; {
-    val series = mutableListOf(0, 1)
-    for(i in 2..num) {
-        series.add(series[i - 1] + series[i - 2])
-    }
-    return series
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, let’s look at the C# solution. Note I had to write a few extension methods to get a similar syntax to the Kotlin solution. I did so because I started this experiment trying to get two similar answers across technology stacks.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var series = Fibonacci(10);
-Console.WriteLine(string.Join(&quot;,&quot;, series));
-
-IReadOnlyList&amp;lt;int&amp;gt; Fibonacci(int num)
-{
-    var series = new List&amp;lt;int&amp;gt; { 0, 1 };
-
-    (2..num)
-        .AsSequence()
-        .Select(it =&amp;gt; series[it - 1] + series[it - 2])
-        .ForEach(it =&amp;gt; series.Add(it));
-
-    return series.AsReadOnly();
-}
-
-public static class KotlinExtensions
-{
-    public static IEnumerable&amp;lt;int&amp;gt; AsSequence(this Range range) {
-        for (var i = range.Start.Value; i &amp;lt;= range.End.Value; i++)
-            yield return i;
-    }
-
-    public static void ForEach&amp;lt;T&amp;gt;(this IEnumerable&amp;lt;T&amp;gt; seq, Action&amp;lt;T&amp;gt; action)
-    {
-        foreach (var item in seq) action(item);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you can see, I’ve written two extension methods of &lt;code&gt;AsSequence&lt;/code&gt; and &lt;code&gt;ForEach&lt;/code&gt;. You may say, “But Khalid, &lt;code&gt;List&lt;/code&gt; has a &lt;code&gt;ForEach&lt;/code&gt; method!” I would have to iterate the original collection, breaking the enumeration necessary to solve the solution.&lt;/p&gt;
-
-&lt;p&gt;Those are my solutions, but I quickly found out there are more C# solutions. Let’s look at some of them that veer away from the Kotlin-looking implementation and rely more on C# and .NET features.&lt;/p&gt;
-
-&lt;h2 id=&quot;community-solutions&quot;&gt;Community Solutions&lt;/h2&gt;
-
-&lt;p&gt;I want to thank the following community members that shared these solutions: &lt;a href=&quot;https://twitter.com/sinclairinat0r&quot;&gt;Jeremy Sinclair&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ijrussell&quot;&gt;Ian Russell&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/idg10&quot;&gt;Ian Griffiths&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/krimog?s=21&amp;amp;t=gbpLIKO3QstU17iB6qEihg&quot;&gt;Krimog&lt;/a&gt;. Let’s take a look at a few. Some focused on elegance, while others concentrated on allocations and performance. Try them out to see which ones suit your needs.&lt;/p&gt;
-
-&lt;p&gt;The first is an implementation that stores the values in a collection and finds the values using a &lt;code&gt;for&lt;/code&gt; loop. Simple and understandable.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;IReadOnlyList&amp;lt;int&amp;gt; Fibonacci(int num)
-{
-    var series = new List&amp;lt;int&amp;gt; { 0, 1 };
-    for (var i = 2; i &amp;lt;= num; i++)
-    {
-        series.Add(series[i - 1] + series[i - 2]);
-    }
-    return series.AsReadOnly();
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The following solution from Ian Griffiths uses the &lt;code&gt;yield&lt;/code&gt; operator and can go “forever”. It is up to the caller to determine if they need to store the values or just throw them away as they iterate. It also uses a neat deconstruction technique to swap values as the loop continues.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;
-using System.Numerics;
-
-var series = FibonacciEndless().Take(10);
-Console.WriteLine(string.Join(&quot;,&quot;, series));
-
-IEnumerable&amp;lt;BigInteger&amp;gt; FibonacciEndless()
-{
-    BigInteger i = 0, n = 1;
-    while (true)
-    {
-        yield return i;
-        (i, n) = (n, i + n);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A modified solution from Jeremy Sinclair uses the &lt;code&gt;Aggregate&lt;/code&gt; construct to build a collection.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var series = Fibonacci(10);
-Console.WriteLine(string.Join(&quot;,&quot;, series));
-
-IReadOnlyList&amp;lt;int&amp;gt; Fibonacci(int num)
-{
-    return Enumerable
-        .Range(2, num - 1)
-        .Aggregate(new List&amp;lt;int&amp;gt; { 0, 1 }, (it, next) =&amp;gt;
-            it.Append(it[next - 1] + it[next - 2]).ToList()
-        ).AsReadOnly();
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The following solution is from Krimog, which uses the &lt;code&gt;yield&lt;/code&gt; operator again with the technique of streaming values as you iterate. This is likely the most memory efficient approach.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;var series = Fibonacci().Take(10);
-Console.WriteLine(string.Join(&quot;,&quot;, series));
-
-IEnumerable&amp;lt;int&amp;gt; Fibonacci()
-{
-   yield return 0;
-   yield return 1;
-   var current = (n0: 0, n1: 1);
-   while (true)
-   {
-      current = (current.n1, current.n0 + current.n1);
-      yield return current.n1;
-   }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, we have a solution written in F# by Ian Russell. The answer is neat as it uses the &lt;code&gt;unfold&lt;/code&gt; function and is unique to F#.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;let fib n =
-    Seq.unfold
-        (fun (n0, n1) -&amp;gt;
-            Some(n0, (n1, n0 + n1)))
-        (0I, 1I)
-        |&amp;gt; Seq.take n
-        
-let run = fib 11 |&amp;gt; Seq.toList |&amp;gt; printf &quot;%A&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That’s pretty cool!&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;I started this exercise to learn more about Kotlin, and sharing my work with the community yielded more solutions that helped me understand .NET better and solve the Fibonacci sequence with C# and F#. If you have other approaches you’d like to share, please follow me on Twitter &lt;a href=&quot;https://twitter.com/buhakmeh&quot;&gt;@buhakmeh&lt;/a&gt; and tweet me directly. As always, thank you for reading.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/fibonacci-sequences-with-kotlin-csharp-and-fsharp</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/fibonacci-sequences-with-kotlin-csharp-and-fsharp</guid>
-        
-        <category>csharp,</category>
-        
-        <category>fsharp,</category>
-        
-        <category>kotlin</category>
         
         
       </item>

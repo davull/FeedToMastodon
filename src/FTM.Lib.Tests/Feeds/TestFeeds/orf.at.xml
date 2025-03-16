@@ -9,7 +9,7 @@
 <channel rdf:about="https://orf.at/">
    <title>news.ORF.at</title>
    <link>https://orf.at/</link>
-   <dc:date>2025-01-03T11:27:47+01:00</dc:date>
+   <dc:date>2025-03-16T20:50:54+01:00</dc:date>
       <description>Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.</description>
    <dc:publisher>ORF Österreichischer Rundfunk, Wien</dc:publisher>
    <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
@@ -24,372 +24,330 @@
 
    <items>
       <rdf:Seq>
-         <rdf:li rdf:resource="https://orf.at/stories/3380645/" />
+         <rdf:li rdf:resource="https://orf.at/stories/3387831/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380642/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387849/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380630/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387846/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380635/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387845/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380634/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387843/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380633/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387819/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380632/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387837/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380629/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387833/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380622/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387830/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380618/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387829/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380616/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387731/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380615/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387822/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380614/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387821/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380600/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387808/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380612/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387817/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380611/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387816/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380610/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387815/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3374201/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387814/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380608/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387813/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380563/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387810/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380606/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387809/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380605/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387806/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3380601/" />
-
-   <rdf:li rdf:resource="https://orf.at/stories/3380599/" />
-
-   <rdf:li rdf:resource="https://orf.at/stories/3380598/" />
-
-   <rdf:li rdf:resource="https://orf.at/stories/3380573/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3387804/" />
 
 
       </rdf:Seq>
    </items>
 </channel>
-<item rdf:about="https://orf.at/stories/3380645/">
-   <title>Dichter Smog belastet Hanoi</title>
-   
-   <link>https://orf.at/stories/3380645/</link>
-   <dc:subject>Umwelt</dc:subject>
-   <dc:date>2025-01-03T11:27:47+01:00</dc:date>
+<item rdf:about="https://orf.at/stories/3387831/">
+   <title>USA schieben Hunderte Venezolaner ab</title>
+   <description>Die USA haben ungeachtet einer richterlichen Anordnung mehr als 200 mutmaßliche Mitglieder einer venezolanischen Drogenbande zur Inhaftierung nach El Salvador abgeschoben. US-Präsident Donald Trump hatte die Abschiebung unter Verweis auf ein Gesetz von 1798 angeordnet, ein Richter hatte den Vorstoß jedoch blockiert.</description>
+   <link>https://orf.at/stories/3387831/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T20:50:54+01:00</dc:date>
 
-   <orfon:usid>news:3380645</orfon:usid>
+   <orfon:usid>news:3387831</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387849/">
+   <title>Umfrage: Demokraten in den USA auf neuem Tiefpunkt</title>
+   
+   <link>https://orf.at/stories/3387849/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T20:09:06+01:00</dc:date>
+
+   <orfon:usid>news:3387849</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387846/">
+   <title>Die Gewinnzahlen von Lotto „6 aus 45“</title>
+   
+   <link>https://orf.at/stories/3387846/</link>
+   <dc:subject>cLotto</dc:subject>
+   <dc:date>2025-03-16T19:31:19+01:00</dc:date>
+
+   <orfon:usid>news:3387846</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Sonstiges" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387845/">
+   <title>Medwedew droht mit Krieg gegen NATO</title>
+   
+   <link>https://orf.at/stories/3387845/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T19:29:02+01:00</dc:date>
+
+   <orfon:usid>news:3387845</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387843/">
+   <title>Ukraine auf dem Rückzug: Meinl-Reisinger zu Gast</title>
+   
+   <link>https://orf.at/stories/3387843/</link>
+   <dc:subject>Medien</dc:subject>
+   <dc:date>2025-03-16T19:15:35+01:00</dc:date>
+
+   <orfon:usid>news:3387843</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:MedienUndWerbung/Medien" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387819/">
+   <title>Pyrotechnik Ursache für Discobrand</title>
+   <description>Nach dem verheerenden Brand in einer Diskothek in Nordmazedonien in der Nacht auf Sonntag ist mittlerweile die Ursache bekannt. Das Feuer wurde von Pyrotechnik ausgelöst, konkret Fackeln, die Funken sprühten. Bei der Katastrophe starben während eines Konzerts 59 Menschen in dem stark überfüllten Club.</description>
+   <link>https://orf.at/stories/3387819/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T18:00:59+01:00</dc:date>
+
+   <orfon:usid>news:3387819</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387837/">
+   <title>Aussichtsturm in den Niederlanden eingestürzt</title>
+   
+   <link>https://orf.at/stories/3387837/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T17:56:50+01:00</dc:date>
+
+   <orfon:usid>news:3387837</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387833/">
+   <title>Kuba auch nach zwei Tagen weitgehend ohne Strom</title>
+   
+   <link>https://orf.at/stories/3387833/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T16:46:38+01:00</dc:date>
+
+   <orfon:usid>news:3387833</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387830/">
+   <title>Syrien-Konferenz: Österreich will 19,3 Millionen Euro geben</title>
+   
+   <link>https://orf.at/stories/3387830/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2025-03-16T16:15:11+01:00</dc:date>
+
+   <orfon:usid>news:3387830</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387829/">
+   <title>Hunderte Venezolaner von USA nach El Salvador abgeschoben</title>
+   
+   <link>https://orf.at/stories/3387829/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T16:11:37+01:00</dc:date>
+
+   <orfon:usid>news:3387829</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387731/">
+   <title>Große Wildtierzählung in Sri Lanka</title>
+   <description>Um Ernteschäden durch wilde Tiere zu begrenzen, ist in Sri Lanka am Samstag eine großangelegte Zählung der Affen, Riesenhörnchen und Pfauen über die Bühne gegangen. „Das Problem ist so schlimm geworden, dass die Leute ihre Farmen aufgeben“, so Vizeagrarminister Namal Karunaratne. „Die Zählung ist der erste Schritt, um die Population dieser Tiere in landwirtschaftlichen Gebieten zu verstehen und geeignete Kontrollmaßnahmen zu finden.“</description>
+   <link>https://orf.at/stories/3387731/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T16:03:03+01:00</dc:date>
+
+   <orfon:usid>news:3387731</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387822/">
+   <title>Trump – Putin: US-Gesandter stellt baldiges Gespräch in Aussicht</title>
+   
+   <link>https://orf.at/stories/3387822/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T15:43:20+01:00</dc:date>
+
+   <orfon:usid>news:3387822</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387821/">
+   <title>Bericht: Huthi-Anführer verlassen Sanaa nach US-Angriff</title>
+   
+   <link>https://orf.at/stories/3387821/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T14:41:57+01:00</dc:date>
+
+   <orfon:usid>news:3387821</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387808/">
+   <title>Badelt warnt vor „demografischer Bombe“</title>
+   <description>Österreich befindet sich in einer anhaltenden Rezession. Doch das von der Regierung geplante Volumen von 6,3 Mrd. Euro 2025 zur Budgetkonsolidierung überzeugt Fiskalratspräsident Christoph Badelt nicht zur Gänze. In der ORF-„Pressestunde“ am Sonntag warnte er vor der „demografischen Bombe“ hinsichtlich der alternden Gesellschaft, wenn in den nächsten Jahren nicht längerfristig geplant und gehandelt würde. Die größten Herausforderungen sieht Badelt in den Bereichen Pensionen, Pflege und Gesundheit.</description>
+   <link>https://orf.at/stories/3387808/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2025-03-16T14:00:27+01:00</dc:date>
+
+   <orfon:usid>news:3387808</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387817/">
+   <title>Deutschland: Mann zündet Frau in Straßenbahn an</title>
+   
+   <link>https://orf.at/stories/3387817/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T13:45:36+01:00</dc:date>
+
+   <orfon:usid>news:3387817</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387816/">
+   <title>Schmuggel von 73 Tonnen Kokain nach Europa aufgeflogen</title>
+   
+   <link>https://orf.at/stories/3387816/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T13:22:19+01:00</dc:date>
+
+   <orfon:usid>news:3387816</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387815/">
+   <title>Russland: Über 370 Zivilisten aus Region Kursk weggebracht</title>
+   
+   <link>https://orf.at/stories/3387815/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T13:06:35+01:00</dc:date>
+
+   <orfon:usid>news:3387815</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387814/">
+   <title>VW-Familien dementieren Verkaufspläne für Aktien</title>
+   
+   <link>https://orf.at/stories/3387814/</link>
+   <dc:subject>Wirtschaft</dc:subject>
+   <dc:date>2025-03-16T13:04:04+01:00</dc:date>
+
+   <orfon:usid>news:3387814</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Unternehmensberichterstattung" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387813/">
+   <title>Burkina Fasos Regierung bestreitet Beteiligung an Massaker</title>
+   
+   <link>https://orf.at/stories/3387813/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T13:01:03+01:00</dc:date>
+
+   <orfon:usid>news:3387813</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387810/">
+   <title>Griechenland zwischen Schnee und 31 Grad</title>
+   
+   <link>https://orf.at/stories/3387810/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2025-03-16T12:13:20+01:00</dc:date>
+
+   <orfon:usid>news:3387810</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3380642/">
-   <title>Flugzeugunglück in Südkorea: Ermittlungen werden ausgeweitet</title>
+<item rdf:about="https://orf.at/stories/3387809/">
+   <title>Vucic nach Protesten in Serbien mehr und mehr unter Druck</title>
    
-   <link>https://orf.at/stories/3380642/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-01-03T11:08:48+01:00</dc:date>
+   <link>https://orf.at/stories/3387809/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-03-16T11:46:07+01:00</dc:date>
 
-   <orfon:usid>news:3380642</orfon:usid>
+   <orfon:usid>news:3387809</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3387806/">
+   <title>Panama zeitweise ohne Strom und Trinkwasser</title>
+   
+   <link>https://orf.at/stories/3387806/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-03-16T11:00:37+01:00</dc:date>
+
+   <orfon:usid>news:3387806</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3380630/">
-   <title>NEOS steigt aus Koalitionsverhandlungen aus</title>
-   <description>NEOS hat am Freitag in einer überraschend angesetzten Pressekonferenz das Ende der Koalitionsgespräche mit ÖVP und SPÖ verkündet. In einer ausführlichen Rede begründete Parteichefin Beate Meinl-Reisinger den Schritt mit mangelndem Reformwillen bei den Verhandlungspartnern ÖVP und SPÖ. Es seien „keine relevanten Fortschritte, sondern viel mehr Rückschritte“ in den Gesprächen erzielt worden.</description>
-   <link>https://orf.at/stories/3380630/</link>
-   <dc:subject>Inland</dc:subject>
-   <dc:date>2025-01-03T11:05:28+01:00</dc:date>
-
-   <orfon:usid>news:3380630</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380635/">
-   <title>Modekonzern Benetton will 2025 über 400 Shops schließen</title>
+<item rdf:about="https://orf.at/stories/3387804/">
+   <title>Magna in Graz soll Aufträge aus China erhalten</title>
    
-   <link>https://orf.at/stories/3380635/</link>
+   <link>https://orf.at/stories/3387804/</link>
    <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-01-03T11:04:43+01:00</dc:date>
+   <dc:date>2025-03-16T10:44:01+01:00</dc:date>
 
-   <orfon:usid>news:3380635</orfon:usid>
+   <orfon:usid>news:3387804</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380634/">
-   <title>NEOS steigt aus Koalitionsverhandlungen aus</title>
-   
-   <link>https://orf.at/stories/3380634/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T10:57:38+01:00</dc:date>
-
-   <orfon:usid>news:3380634</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380633/">
-   <title>Kiew erneut Ziel russischer Drohnenangriffe</title>
-   
-   <link>https://orf.at/stories/3380633/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T10:14:24+01:00</dc:date>
-
-   <orfon:usid>news:3380633</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380632/">
-   <title>Wintersaison gut gestartet: 2024 Nächtigungsrekord möglich</title>
-   
-   <link>https://orf.at/stories/3380632/</link>
-   <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-01-03T10:12:37+01:00</dc:date>
-
-   <orfon:usid>news:3380632</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380629/">
-   <title>NEOS dürfte aus Koalitionsverhandlungen austreten</title>
-   
-   <link>https://orf.at/stories/3380629/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T10:00:19+01:00</dc:date>
-
-   <orfon:usid>news:3380629</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380622/">
-   <title>Biden zeichnete Trump-Kritikerin Cheney aus</title>
-   
-   <link>https://orf.at/stories/3380622/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T09:00:58+01:00</dc:date>
-
-   <orfon:usid>news:3380622</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380618/">
-   <title>USA: Ex-Krypto-Chef Do Kwon wegen Betrugs vor Gericht</title>
-   
-   <link>https://orf.at/stories/3380618/</link>
-   <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-01-03T08:12:04+01:00</dc:date>
-
-   <orfon:usid>news:3380618</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380616/">
-   <title>Flugzeugunglück in Südkorea: Mauer im Fokus der Ermittler</title>
-   
-   <link>https://orf.at/stories/3380616/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-01-03T08:05:28+01:00</dc:date>
-
-   <orfon:usid>news:3380616</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380615/">
-   <title>Streit über Siri: Apple stimmt Millionenzahlung zu</title>
-   
-   <link>https://orf.at/stories/3380615/</link>
-   <dc:subject>IT</dc:subject>
-   <dc:date>2025-01-03T08:00:46+01:00</dc:date>
-
-   <orfon:usid>news:3380615</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:ComputerUndTechnik/ComputerUndTechnikUeberblick" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380614/">
-   <title>Selenskyj: Trump könnte zu Kriegsende beitragen</title>
-   
-   <link>https://orf.at/stories/3380614/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T07:54:56+01:00</dc:date>
-
-   <orfon:usid>news:3380614</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380600/">
-   <title>Militär blockiert Festnahme von Ex-Präsident Yoon</title>
-   <description>Die politischen Turbulenzen in Südkorea nach der kurzzeitigen Ausrufung des Kriegsrechts durch den inzwischen suspendierten Präsidenten Yoon Suk Yeol nehmen kein Ende. Am Freitag blockierte eine Militäreinheit die geplante Festnahme Yoons. Die Strafverfolgungsbehörden brachen unter dem Jubel der Anhänger und Anhängerinnen Yoons den Festnahmeversuch ab.</description>
-   <link>https://orf.at/stories/3380600/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T07:29:43+01:00</dc:date>
-
-   <orfon:usid>news:3380600</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380612/">
-   <title>Meta bekommt Politikchef mit Nähe zu Republikanern</title>
-   
-   <link>https://orf.at/stories/3380612/</link>
-   <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-01-03T06:37:39+01:00</dc:date>
-
-   <orfon:usid>news:3380612</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380611/">
-   <title>Grundentgelt für Zivil- und Präsenzdiener erhöht</title>
-   
-   <link>https://orf.at/stories/3380611/</link>
-   <dc:subject>Inland</dc:subject>
-   <dc:date>2025-01-03T06:35:09+01:00</dc:date>
-
-   <orfon:usid>news:3380611</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380610/">
-   <title>Baerbock und Barrot besuchen Führung in Damaskus</title>
-   
-   <link>https://orf.at/stories/3380610/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-03T06:31:50+01:00</dc:date>
-
-   <orfon:usid>news:3380610</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3374201/">
-   <title>KI verändert Wikipedia für immer</title>
-   <description>Seit der Gründung vor einem knappen Vierteljahrhundert hat sich der Ruf des Onlinelexikons Wikipedia stark gewandelt. War die Nutzung zu Beginn im Jahr 2001 noch verpönt, hat Wikipedia mittlerweile unzählige Lexika komplett ersetzt, selbst an Universitäten gibt es deutlich weniger Vorbehalte als noch vor zwei Jahrzehnten. Ermöglicht wurde das durch „Wisdom of the crowd“, das Wissen der Masse. Durch KI-Werkzeuge wie ChatGPT ist genau dieses jedoch in Gefahr – und könnte Wikipedias Ruf dauerhaft beschädigen. Fachleute sehen aber auch neue Möglichkeiten.</description>
-   <link>https://orf.at/stories/3374201/</link>
-   <dc:subject>IT</dc:subject>
-   <dc:date>2025-01-03T06:08:08+01:00</dc:date>
-
-   <orfon:usid>news:3374201</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:ComputerUndTechnik/ComputerUndTechnikUeberblick" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380608/">
-   <title>Truck-Explosion: Lenker identifiziert</title>
-   
-   <link>https://orf.at/stories/3380608/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-01-03T03:44:38+01:00</dc:date>
-
-   <orfon:usid>news:3380608</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380563/">
-   <title>Tausende Tote bei Überfahrt nach Europa</title>
-   <description>Mehr als 2.200 Menschen sind im Jahr 2024 bei Seefahrten über das Mittelmeer als tot bzw. vermisst gemeldet worden. Davon seien 1.700 Menschen entlang der zentralen Mittelmeer-Route ums Leben gekommen, sagte die Regionaldirektorin des UNO-Kinderhilfswerks (UNICEF) für Europa und Zentralasien, Regina De Dominicis, am Donnerstag. Weit höher ist die Zahl der Toten, wenn auch die Atlantikroute berücksichtigt wird.</description>
-   <link>https://orf.at/stories/3380563/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-02T23:59:30+01:00</dc:date>
-
-   <orfon:usid>news:3380563</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380606/">
-   <title>Explosion bei Berliner Polizeigebäude: Zwei Verletzte</title>
-   
-   <link>https://orf.at/stories/3380606/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-01-02T23:59:22+01:00</dc:date>
-
-   <orfon:usid>news:3380606</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380605/">
-   <title>Parteivorsitzende verhandeln heute weiter</title>
-   
-   <link>https://orf.at/stories/3380605/</link>
-   <dc:subject>Inland</dc:subject>
-   <dc:date>2025-01-02T23:19:11+01:00</dc:date>
-
-   <orfon:usid>news:3380605</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380601/">
-   <title>Südkorea: Verhaftung Yoons offenbar blockiert</title>
-   
-   <link>https://orf.at/stories/3380601/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-02T22:47:47+01:00</dc:date>
-
-   <orfon:usid>news:3380601</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380599/">
-   <title>Gastransit: Fico droht mit Schritten gegen Geflüchtete</title>
-   
-   <link>https://orf.at/stories/3380599/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-02T21:57:33+01:00</dc:date>
-
-   <orfon:usid>news:3380599</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380598/">
-   <title>Auch US-Großbank Morgan Stanley verlässt Klimaallianz</title>
-   
-   <link>https://orf.at/stories/3380598/</link>
-   <dc:subject>Umwelt</dc:subject>
-   <dc:date>2025-01-02T21:55:46+01:00</dc:date>
-
-   <orfon:usid>news:3380598</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3380573/">
-   <title>Regisseur Scott sorgt für Eklat in Malta</title>
-   <description>Mit unbedachten Aussagen hat der britische Regisseur Ridley Scott für mittlere Schockwellen in Malta gesorgt. Er würde Urlaub auf der Mittelmeer-Insel nicht empfehlen, sagte er – ein aus dem Zusammenhang gerissener Sager. Doch in der maltesischen Politik sorgte Scott damit für große Empörung, zumal Malta sich für die Dreharbeiten für Scotts „Gladiator II“ auf der Insel äußerst großzügig erwiesen hatte. Scott musste sich entschuldigen.</description>
-   <link>https://orf.at/stories/3380573/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-01-02T21:33:38+01:00</dc:date>
-
-   <orfon:usid>news:3380573</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
 </item>
 
 
