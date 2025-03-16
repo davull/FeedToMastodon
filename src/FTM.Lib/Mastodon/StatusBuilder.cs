@@ -7,10 +7,10 @@ public static class StatusBuilder
 
     private const string DefaultLanguage = "en-US";
 
-    public static MastodonStatus CreateStatus(FeedItem feedItem, string separator,
+    public static MastodonStatus CreateStatus(FeedItem feedItem, string[] separators,
         MastodonStatusVisibility visibility = MastodonStatusVisibility.Public)
     {
-        var status = BuildStatusText(feedItem, separator);
+        var status = BuildStatusText(feedItem, separators);
         var language = string.IsNullOrEmpty(feedItem.Language)
             ? DefaultLanguage
             : feedItem.Language;
@@ -18,7 +18,7 @@ public static class StatusBuilder
         return new MastodonStatus(status, language, visibility);
     }
 
-    private static string BuildStatusText(FeedItem item, string separator)
+    private static string BuildStatusText(FeedItem item, string[] separators)
     {
         var remainingLength = MaxStatusLength;
 
@@ -28,7 +28,7 @@ public static class StatusBuilder
         var title = GetTitle(item, remainingLength);
         remainingLength -= title.Length;
 
-        var summary = GetSummary(item, remainingLength, separator);
+        var summary = GetSummary(item, remainingLength, separators);
 
         return GetStatus(title, summary, link);
     }
@@ -39,7 +39,7 @@ public static class StatusBuilder
         return TrimIfNeeded(title, maxLength);
     }
 
-    private static string GetSummary(FeedItem item, int maxLength, string separator)
+    private static string GetSummary(FeedItem item, int maxLength, string[] separators)
     {
         var summary = StatusSanitizer.Sanitize(item.Summary) ?? string.Empty;
         if (string.IsNullOrEmpty(summary))
@@ -47,10 +47,12 @@ public static class StatusBuilder
             summary = StatusSanitizer.Sanitize(item.Content) ?? string.Empty;
         }
 
-        if (!string.IsNullOrEmpty(separator) &&
-            summary.Contains(separator))
+        var summaryContainsSeparator = separators.Any(
+            sep => !string.IsNullOrEmpty(sep) &&
+                   summary.Contains(sep));
+        if (summaryContainsSeparator)
         {
-            summary = summary.Split(separator)[0] + "...";
+            summary = summary.Split(separators, StringSplitOptions.None)[0] + "...";
         }
 
         return TrimIfNeeded(summary, maxLength);

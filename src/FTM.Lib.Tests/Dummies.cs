@@ -46,14 +46,15 @@ public static class Dummies
 
     public static FeedConfiguration FeedConfiguration(
         string title = "Dummy Feed", Uri? feedUri = null,
-        string summarySeparator = "",
+        string[]? summarySeparators = null,
         string mastodonServer = "https://social.colormixed.de",
         string mastodonAccessToken = "abc",
         TimeSpan? workerLoopDelay = null)
     {
+        summarySeparators ??= [];
         feedUri ??= new Uri("https://example.com/feed.xml");
 
-        return new FeedConfiguration(title, feedUri, summarySeparator,
+        return new FeedConfiguration(title, feedUri, summarySeparators,
             mastodonServer, mastodonAccessToken, workerLoopDelay);
     }
 

@@ -38,7 +38,7 @@ public enum MastodonStatusVisibility
 public record FeedConfiguration(
     string Title,
     Uri FeedUri,
-    string SummarySeparator,
+    string[] SummarySeparators,
     string MastodonServer,
     string MastodonAccessToken,
     TimeSpan? WorkerLoopDelay);

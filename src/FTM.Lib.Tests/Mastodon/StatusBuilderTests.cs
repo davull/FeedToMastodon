@@ -15,7 +15,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, "").Status;
+        var status = StatusBuilder.CreateStatus(feedItem, []).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My summary");
@@ -32,7 +32,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, "").Status;
+        var status = StatusBuilder.CreateStatus(feedItem, []).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My content");
@@ -48,7 +48,7 @@ public class StatusBuilderTests : TestBase
             content: "",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, "").Status;
+        var status = StatusBuilder.CreateStatus(feedItem, []).Status;
 
         const string expected = """
                                 My post title
@@ -68,7 +68,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, separator).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [separator]).Status;
 
         const string expected = """
                                 My post title
@@ -90,7 +90,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, separator).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [separator]).Status;
 
         const string expected = """
                                 My post title
@@ -102,17 +102,85 @@ public class StatusBuilderTests : TestBase
         status.ShouldBe(expected);
     }
 
-    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void StatusContent_Should_MatchSnapshot(FeedItem item, string separator)
+    [Test]
+    public void StatusContent_WithMultipleSeparators_ShouldBeTrimmedAtFirstSeparator()
     {
-        var status = StatusBuilder.CreateStatus(item, separator);
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary[...]This is the content[---]This is the rest",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        string[] separators = ["[...]", "[---]"];
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary...
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
+    [Test]
+    public void StatusContent_WithMultipleSeparators_ShouldBeTrimmedAtSecondSeparator()
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary. This is the content[---]This is the rest",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        string[] separators = ["[...]", "[---]"];
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary. This is the content...
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
+    [Theory]
+    [TestCase([new string[0]])]
+    [TestCase([new[] { "" }])]
+    [TestCase([new[] { "", "" }])]
+    public void StatusContent_WoSeparator_ShouldNotBeTrimmed(string[] separators)
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary. [...] This is the content",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary. [...] This is the content
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
+    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
+    public void StatusContent_Should_MatchSnapshot(FeedItem item, string[] separators)
+    {
+        var status = StatusBuilder.CreateStatus(item, separators);
         status.Status.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
-    public void Status_Should_MatchSnapshot(FeedItem item, string separator)
+    public void Status_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, separator);
+        var status = StatusBuilder.CreateStatus(item, separators);
 
         var indexes = new[]
         {
@@ -133,9 +201,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveContentAndLink(FeedItem item, string separator)
+    public void Status_Should_HaveContentAndLink(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, separator);
+        var status = StatusBuilder.CreateStatus(item, separators);
 
         var split = status.Status.Split("---");
 
@@ -144,9 +212,9 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
-    public void Status_Should_HaveLanguage(FeedItem item, string separator)
+    public void Status_Should_HaveLanguage(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, separator);
+        var status = StatusBuilder.CreateStatus(item, separators);
         status.Language.ShouldNotBeNullOrWhiteSpace();
     }
 
@@ -170,10 +238,10 @@ public class StatusBuilderTests : TestBase
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithSeparatorTestCases))]
-    public void Status_ShouldBeSplitAtSeparator(FeedItem item, string separator)
+    public void Status_ShouldBeSplitAtSeparator(FeedItem item, string[] separators)
     {
-        var statusWithSeparator = StatusBuilder.CreateStatus(item, separator);
-        var statusWoSeparator = StatusBuilder.CreateStatus(item, "");
+        var statusWithSeparator = StatusBuilder.CreateStatus(item, separators);
+        var statusWoSeparator = StatusBuilder.CreateStatus(item, []);
 
         var snapshot = new
         {
