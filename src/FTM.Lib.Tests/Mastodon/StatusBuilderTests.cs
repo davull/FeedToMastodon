@@ -102,6 +102,74 @@ public class StatusBuilderTests : TestBase
         status.ShouldBe(expected);
     }
 
+    [Test]
+    public void StatusContent_WithMultipleSeparators_ShouldBeTrimmedAtFirstSeparator()
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary[...]This is the content[---]This is the rest",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        string[] separators = ["[...]", "[---]"];
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary...
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
+    [Test]
+    public void StatusContent_WithMultipleSeparators_ShouldBeTrimmedAtSecondSeparator()
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary. This is the content[---]This is the rest",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        string[] separators = ["[...]", "[---]"];
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary. This is the content...
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
+    [Theory]
+    [TestCase([new string[0]])]
+    [TestCase([new[] { "" }])]
+    [TestCase([new[] { "", "" }])]
+    public void StatusContent_WoSeparator_ShouldNotBeTrimmed(string[] separators)
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My Summary. [...] This is the content",
+            content: "",
+            link: "https://example.com/feed=123");
+
+        var status = StatusBuilder.CreateStatus(feedItem, separators).Status;
+
+        const string expected = """
+                                My post title
+
+                                My Summary. [...] This is the content
+                                ---
+                                https://example.com/feed=123
+                                """;
+        status.ShouldBe(expected);
+    }
+
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void StatusContent_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
