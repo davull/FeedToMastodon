@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://www.thereformedprogrammer.net/?p=2970",
+    "raw": "Some developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then &#8230; <a href=\"https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">A detailed look at EF Core’s JSON Columns feature</span></a>",
+    "sanitized": "Some developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then … Continue reading A detailed look at EF Core’s JSON Columns feature"
+  },
+  {
     "itemId": "https://www.thereformedprogrammer.net/?p=2938",
     "raw": "I’m writing this article because I have an illness called dementia, which over time degrades a &#8230; <a href=\"https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">How to update a NuGet library once the author isn’t available</span></a>",
     "sanitized": "I’m writing this article because I have an illness called dementia, which over time degrades a … Continue reading How to update a NuGet library once the author isn’t available"
@@ -43,10 +48,5 @@
     "itemId": "https://www.thereformedprogrammer.net/?p=2752",
     "raw": "This article describes a way to create a database using ASP.NET Core appsettings.json configuration feature. The &#8230; <a href=\"https://www.thereformedprogrammer.net/how-to-turn-an-asp-net-core-appsettings-json-file-into-a-fast-read-database/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">How to turn an ASP.NET Core appsettings.json file into a fast-read database</span></a>",
     "sanitized": "This article describes a way to create a database using ASP.NET Core appsettings.json configuration feature. The … Continue reading How to turn an ASP.NET Core appsettings.json file into a fast-read database"
-  },
-  {
-    "itemId": "https://www.thereformedprogrammer.net/?p=2735",
-    "raw": "This article described a .NET distributed cache library called Net.DistributedFileStoreCache (referred to as FileStore cache in &#8230; <a href=\"https://www.thereformedprogrammer.net/a-net-distributed-cache-with-a-25-nanosecond-read-time/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">A .NET distributed cache with a ~25 nanosecond read time!</span></a>",
-    "sanitized": "This article described a .NET distributed cache library called Net.DistributedFileStoreCache (referred to as FileStore cache in … Continue reading A .NET distributed cache with a ~25 nanosecond read time!"
   }
 ]

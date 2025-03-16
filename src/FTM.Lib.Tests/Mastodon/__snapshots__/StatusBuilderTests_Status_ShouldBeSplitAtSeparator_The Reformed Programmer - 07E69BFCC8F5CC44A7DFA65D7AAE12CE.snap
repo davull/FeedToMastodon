@@ -1,0 +1,4 @@
+﻿{
+  "raw__": "Some developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then … Continue reading A detailed look at EF Core’s JSON Columns feature\n---\nhttps://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/",
+  "split": "A detailed look at EF Core’s JSON Columns feature\n\nSome developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then ...\n---\nhttps://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/"
+}

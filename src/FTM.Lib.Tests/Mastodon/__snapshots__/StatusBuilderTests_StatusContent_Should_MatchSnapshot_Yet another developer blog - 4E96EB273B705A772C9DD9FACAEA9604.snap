@@ -1,5 +1,0 @@
-﻿Azure Functions Integration Testing With Testcontainers
-
-As developers, we want reassurance that our code functions as expected. We also want to be given that reassurance as fast as possible. This is why we are writing automated tests. We also desire for those tests to be easy to run on our machine or in the worst-case scenario on the build agent as part of the continuous integration pipeline. This is something that can be challenging to achieve when it comes t...
----
-http://www.tpeczek.com/2023/10/azure-functions-integration-testing.html

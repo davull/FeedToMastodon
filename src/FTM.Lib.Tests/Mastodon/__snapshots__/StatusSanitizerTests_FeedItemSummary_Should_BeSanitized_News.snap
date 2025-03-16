@@ -1,5 +1,165 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/14/Visual-Studio-Devs-Share-Copilot-AI-Prompts-to-Improve-Code.aspx",
+    "raw": " Microsoft's Mads Kristensen took to social media to ask Visual Studio developers to share their favorite prompts to get GitHub Copilot AI to improve their code.",
+    "sanitized": "Microsoft's Mads Kristensen took to social media to ask Visual Studio developers to share their favorite prompts to get GitHub Copilot AI to improve their code."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/13/Azure-AI-Foundry-Gets-Computer-Using-Agent-for-Autonomous-GUI-Interaction.aspx",
+    "raw": "  Microsoft is expanding functionality for agentic AI into its Azure AI Foundry platform, furthering one of the hottest areas of development right now where AI controls computers just like humans.\n",
+    "sanitized": "Microsoft is expanding functionality for agentic AI into its Azure AI Foundry platform, furthering one of the hottest areas of development right now where AI controls computers just like humans."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/12/Microsoft-Previews-GPT-4o-Copilot-Code-Completion-and-NET-AI-Template-in-Visual-Studio.aspx",
+    "raw": "Things are happening quickly in the Microsoft-centric AI dev space, with the company previewing new AI features in Visual Studio 2022 ranging from a new .NET AI template to GPT-4o Copilot Code Completion.",
+    "sanitized": "Things are happening quickly in the Microsoft-centric AI dev space, with the company previewing new AI features in Visual Studio 2022 ranging from a new .NET AI template to GPT-4o Copilot Code Completion."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/11/Microsoft-Ports-TypeScript-to-Go-for-10x-Native-Performance-Gains.aspx",
+    "raw": "Microsoft is revamping its TypeScript programming language with a native compiler and toolset. This effort seeks to address performance challenges, especially in large codebases, by porting the existing TypeScript compiler from TypeScript/JavaScript to the native language, Go.",
+    "sanitized": "Microsoft is revamping its TypeScript programming language with a native compiler and toolset. This effort seeks to address performance challenges, especially in large codebases, by porting the existing TypeScript compiler from TypeScript/JavaScript to the native language, Go."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/10/Uno-Platform-Takes-Hot-Design-for-Cross-Platform-NET-Apps-to-Public-Beta.aspx",
+    "raw": "Uno Platform has taken its \"Hot Design\" feature to public beta, extending the \"Hot Reload\" paradigm with functionality to visually edit and refine a running app in real-time.  \n  ",
+    "sanitized": "Uno Platform has taken its \"Hot Design\" feature to public beta, extending the \"Hot Reload\" paradigm with functionality to visually edit and refine a running app in real-time."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/06/New-VS-Code-Release-Polishes-Experimental-GitHub-Copilot-Agent-Mode.aspx",
+    "raw": "Continuing the journey from \"AI pair programmer\" to \"autonomous peer programmer\" to, eventually, just \"AI programmer,\" no human coding needed, just supervision.",
+    "sanitized": "Continuing the journey from \"AI pair programmer\" to \"autonomous peer programmer\" to, eventually, just \"AI programmer,\" no human coding needed, just supervision."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/04/Semantic-Kernel-Agent-Framework-Graduates-to-Release-Candidate.aspx",
+    "raw": "With agentic AI now firmly established as a key component of modern software development, Microsoft graduated its Semantic Kernel Agent Framework to Release Candidate 1 status.",
+    "sanitized": "With agentic AI now firmly established as a key component of modern software development, Microsoft graduated its Semantic Kernel Agent Framework to Release Candidate 1 status."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/04/TypeScript-5-8-Improves-Type-Checking-Conditional-Feature-Delayed-to-5-9.aspx",
+    "raw": "Microsoft shipped TypeScript 5.8 with improved type checking in some scenarios, but thorny problems caused the dev team to delay related work to the next release.",
+    "sanitized": "Microsoft shipped TypeScript 5.8 with improved type checking in some scenarios, but thorny problems caused the dev team to delay related work to the next release."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/Cloud-Focused-NET-Aspire-9-1-Ships.aspx",
+    "raw": "Along with .NET 10 Preview 1, Microsoft released.NET Aspire 9.1, the latest update to its opinionated, cloud-ready stack for building resilient, observable, and configurable cloud-native applications with .NET.",
+    "sanitized": "Along with .NET 10 Preview 1, Microsoft released.NET Aspire 9.1, the latest update to its opinionated, cloud-ready stack for building resilient, observable, and configurable cloud-native applications with .NET."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/Microsoft-Ships-First-,-d-,NET-10-Preview.aspx",
+    "raw": "  Microsoft shipped .NET 10 Preview 1, introducing a raft of improvements and fixes across performance, libraries, and the developer experience. \n",
+    "sanitized": "Microsoft shipped .NET 10 Preview 1, introducing a raft of improvements and fixes across performance, libraries, and the developer experience."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/CSharp-Dev-Kit-Previews-NET-Aspire-Orchestration.aspx",
+    "raw": "  Microsoft's dev team has been busy updating the C# Dev Kit, a Visual Studio Code extension that enhances the C# development experience by providing tools for managing, debugging, and editing C# projects.",
+    "sanitized": "Microsoft's dev team has been busy updating the C# Dev Kit, a Visual Studio Code extension that enhances the C# development experience by providing tools for managing, debugging, and editing C# projects."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/VS-Code-Copilot-Adds-New-GPT-4o-Code-Completion-Model.aspx",
+    "raw": "The 4o upgrade includes additional training on more than 275,000 high-quality public repositories in over 30 popular programming languages, said Microsoft-owned GitHub, which created the original \"AI pair programmer\" years ago.",
+    "sanitized": "The 4o upgrade includes additional training on more than 275,000 high-quality public repositories in over 30 popular programming languages, said Microsoft-owned GitHub, which created the original \"AI pair programmer\" years ago."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/Microsofts-Rust-Embrace-Continues-with-Azure-SDK-for-Rust-Beta.aspx",
+    "raw": "\"Rust's strong type system and ownership model help prevent common programming errors such as null pointer dereferencing and buffer overflows, leading to more secure and stable code.\"",
+    "sanitized": "\"Rust's strong type system and ownership model help prevent common programming errors such as null pointer dereferencing and buffer overflows, leading to more secure and stable code.\""
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/Xcode-IDE-from-Microsoft-Archrival-Apple-Gets-Copilot-AI.aspx",
+    "raw": "Just after expanding the reach of its Copilot AI coding assistant to the open-source Eclipse IDE, Microsoft showcased how it's going even further, providing details about a preview version for the Xcode IDE from archrival Apple.",
+    "sanitized": "Just after expanding the reach of its Copilot AI coding assistant to the open-source Eclipse IDE, Microsoft showcased how it's going even further, providing details about a preview version for the Xcode IDE from archrival Apple."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/13/Microsoft-Previews-Copilot-AI-for-Open-Source-Eclipse-IDE.aspx",
+    "raw": "  Catering to Java jockeys, Microsoft is yet again expanding the sprawling reach of its Copilot-branded AI assistants, previewing a coding tool for the open-source Eclipse IDE.\n",
+    "sanitized": "Catering to Java jockeys, Microsoft is yet again expanding the sprawling reach of its Copilot-branded AI assistants, previewing a coding tool for the open-source Eclipse IDE."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/12/Visual-Studio-2022-v17-13-Ships-Meet-GitHub-Copilot-Free.aspx",
+    "raw": " New GitHub Copilot AI features range from AI-enhanced feature search to edits across files, new shortcuts and expansion of slash commands, along with much more.",
+    "sanitized": "New GitHub Copilot AI features range from AI-enhanced feature search to edits across files, new shortcuts and expansion of slash commands, along with much more."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/10/VS-Code-Copilot-Gets-Closer-to-Tab-Tab-Tab-Coding.aspx",
+    "raw": " Microsoft is previewing new AI tech that predicts next edits, allowing devs to just Tab to accept them and keep on going.",
+    "sanitized": "Microsoft is previewing new AI tech that predicts next edits, allowing devs to just Tab to accept them and keep on going."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/06/GitHub-Previews-Agentic-AI-in-VS-Code-Copilot.aspx",
+    "raw": "GitHub announced a raft of improvements to its Copilot AI in the Visual Studio Code editor, including a new \"agent mode\" in preview that lets developers use the AI technology to write code faster and more accurately.",
+    "sanitized": "GitHub announced a raft of improvements to its Copilot AI in the Visual Studio Code editor, including a new \"agent mode\" in preview that lets developers use the AI technology to write code faster and more accurately."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/04/Uno-Platform-Wants-Microsoft-to-Improve-WebAssembly.aspx",
+    "raw": " Uno Platform, a third-party dev tooling specialist that caters to .NET developers, published a report on the state of WebAssembly, addressing some shortcomings in the .NET implementation it would like to see Microsoft address.",
+    "sanitized": "Uno Platform, a third-party dev tooling specialist that caters to .NET developers, published a report on the state of WebAssembly, addressing some shortcomings in the .NET implementation it would like to see Microsoft address."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/30/As-Some-Orgs-Restrict-DeepSeek-AI-Usage-Microsoft-Offers-Models-and-Dev-Guidance.aspx",
+    "raw": "While some organizations are restricting employee usage of the new open source DeepSeek AI from a Chinese company due to data collection concerns, Microsoft has taken a different approach.",
+    "sanitized": "While some organizations are restricting employee usage of the new open source DeepSeek AI from a Chinese company due to data collection concerns, Microsoft has taken a different approach."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/29/TypeScript-5-8-Beta-Speeds-Program-Loads-Updates.aspx",
+    "raw": " \"TypeScript 5.8 introduces a number of optimizations that can both improve the time to build up a program, and also to update a program based on a file change in either --watch mode or editor scenarios.\"",
+    "sanitized": "\"TypeScript 5.8 introduces a number of optimizations that can both improve the time to build up a program, and also to update a program based on a file change in either --watch mode or editor scenarios.\""
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/AI-Toolkit-for-VS-Code-Now-Lets-You-Bring-Your-Own-Model.aspx",
+    "raw": "\"AI Toolkit extension for VS code now supports external local models via Ollama. It has also added support remote hosted models using API keys for OpenAI, Google and Anthropic.\"",
+    "sanitized": "\"AI Toolkit extension for VS code now supports external local models via Ollama. It has also added support remote hosted models using API keys for OpenAI, Google and Anthropic.\""
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/Visual-Studio-Copilot-Improves-Feature-Search-Shortcuts-Slash-Commands.aspx",
+    "raw": "Microsoft's Visual Studio dev team has been working on the next release of its flagship IDE, Visual Studio 2022 v17.13, with an emphasis on improving the GitHub Copilot AI-powered coding assistant.",
+    "sanitized": "Microsoft's Visual Studio dev team has been working on the next release of its flagship IDE, Visual Studio 2022 v17.13, with an emphasis on improving the GitHub Copilot AI-powered coding assistant."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/AI-Powered-Trae-IDE-Ships.aspx",
+    "raw": "As Chinese AI tech shakes up the entire industry with new breakthroughs, a new AI-powered IDE from a Beijing firm is flying under the radar, based on the same tech that powers Visual Studio Code and many other code editors.",
+    "sanitized": "As Chinese AI tech shakes up the entire industry with new breakthroughs, a new AI-powered IDE from a Beijing firm is flying under the radar, based on the same tech that powers Visual Studio Code and many other code editors."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/24/Microsoft-Duels-JetBrains-with-Same-Day-AI-Coding-Moves.aspx",
+    "raw": "In an IDE AI update, this week we see JetBrains introducing a new coding agent called Junie just as Microsoft unveiled a free tier for GitHub Copilot in Visual Studio. ",
+    "sanitized": "In an IDE AI update, this week we see JetBrains introducing a new coding agent called Junie just as Microsoft unveiled a free tier for GitHub Copilot in Visual Studio."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/21/Microsoft-Revamps-Fledgling-AutoGen-Framework-for-Agentic-AI.aspx",
+    "raw": "Only at v0.4, Microsoft's AutoGen framework for agentic AI -- the hottest new trend in AI development -- has already undergone a complete revamp, going to an asynchronous, event-driven architecture.",
+    "sanitized": "Only at v0.4, Microsoft's AutoGen framework for agentic AI -- the hottest new trend in AI development -- has already undergone a complete revamp, going to an asynchronous, event-driven architecture."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/17/Coding-Errors-Cause-Critical-Vulnerability-in-Visual-Studio.aspx",
+    "raw": "In a larger-than-normal Patch Tuesday, Microsoft warned of a \"critical\" vulnerability in Visual Studio that should be fixed immediately if automatic patching isn't enabled, ironically caused by coding errors.",
+    "sanitized": "In a larger-than-normal Patch Tuesday, Microsoft warned of a \"critical\" vulnerability in Visual Studio that should be fixed immediately if automatic patching isn't enabled, ironically caused by coding errors."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/14/Microsoft-Execs-to-Tackle-AI-and-Cloud-in-Dev-Conference-Keynote.aspx",
+    "raw": "  AI unsurprisingly is all over keynotes that Microsoft execs will helm to kick off the Visual Studio Live! developer conference in Las Vegas, March 10-14, which the company described as \"a must-attend event.\"",
+    "sanitized": "AI unsurprisingly is all over keynotes that Microsoft execs will helm to kick off the Visual Studio Live! developer conference in Las Vegas, March 10-14, which the company described as \"a must-attend event.\""
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/13/Copilot-Agentic-AI-Dev-Environment-Opens-Up-to-All.aspx",
+    "raw": " Microsoft removed waitlist restrictions for some of its most advanced GenAI tech, Copilot Workspace, recently made available as a technical preview.",
+    "sanitized": "Microsoft removed waitlist restrictions for some of its most advanced GenAI tech, Copilot Workspace, recently made available as a technical preview."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/10/Microsofts-New-Cloudy-Java-The-Modern-Web-App-Pattern-and-Strangler-Fig.aspx",
+    "raw": " Having introduced its Modern Web Application (MWA) pattern for Java developers late last year, Microsoft is now promoting the cloud-centric concept further by highlighting the benefits of the \"Strangler Fig\" approach.",
+    "sanitized": "Having introduced its Modern Web Application (MWA) pattern for Java developers late last year, Microsoft is now promoting the cloud-centric concept further by highlighting the benefits of the \"Strangler Fig\" approach."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/09/VS-Code-Python-Devs-Get-Full-Language-Server-Mode-for-Pylance.aspx",
+    "raw": "Serving tens of millions of developers, Microsoft's dev team for Python in Visual Studio Code shipped a new release with three major new features, including a \"full\" language server mode for Pylance, which provides language-specific \"smarts,\" including IntelliSense.",
+    "sanitized": "Serving tens of millions of developers, Microsoft's dev team for Python in Visual Studio Code shipped a new release with three major new features, including a \"full\" language server mode for Pylance, which provides language-specific \"smarts,\" including IntelliSense."
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/08/Top-10-GitHub-Copilot-Extensions-Led-by-Docker-and-PerplexityAI.aspx",
+    "raw": "They work in GitHub.com, the Visual Studio IDE and VS Code, where developers can access various services, perform actions and generate files without leaving those dev environments.",
+    "sanitized": "They work in GitHub.com, the Visual Studio IDE and VS Code, where developers can access various services, perform actions and generate files without leaving those dev environments."
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx",
     "raw": "The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects.",
     "sanitized": "The free plan restricts the number of completions, chat requests and access to AI models, being suitable for occasional users and small projects."
@@ -138,165 +298,5 @@
     "itemId": "https://visualstudiomagazine.com/Articles/2024/10/09/Final-NET-9-Preview-Ships-with-Go-Live-License.aspx",
     "raw": "Visual Studio developers can now download the SDK for .NET 9 Release Candidate 2 with a go-live license, meaning devs get Microsoft support for production applications even before the framework reaches general availability next month.",
     "sanitized": "Visual Studio developers can now download the SDK for .NET 9 Release Candidate 2 with a go-live license, meaning devs get Microsoft support for production applications even before the framework reaches general availability next month."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/08/Visual-Studios-Future-Live-Help-to-AI-ify-Your-App.aspx",
-    "raw": "Visual Studio guru Mads Kristensen provided a peek into the IDE's AI future, explaining how while in live-coding it will identify opportunities for your own app to use AI to your advantage.",
-    "sanitized": "Visual Studio guru Mads Kristensen provided a peek into the IDE's AI future, explaining how while in live-coding it will identify opportunities for your own app to use AI to your advantage."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/07/Python-AI-Updates-Highlight-New-VS-Code-Release.aspx",
-    "raw": "Millions of Python developers using VS Code find updated data science functionality in the new release of version 1.94, the September 2024 edition of Microsoft's open-source-based editor.",
-    "sanitized": "Millions of Python developers using VS Code find updated data science functionality in the new release of version 1.94, the September 2024 edition of Microsoft's open-source-based editor."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Ships-Stable-Versions-of-OpenAI-Libraries-for-,-d-,NET-and-Azure.aspx",
-    "raw": "Further leveraging the relationship that vaulted Microsoft and OpenAI into leadership positions in the AI era, Microsoft this week announced stable versions of two new OpenAI libraries.",
-    "sanitized": "Further leveraging the relationship that vaulted Microsoft and OpenAI into leadership positions in the AI era, Microsoft this week announced stable versions of two new OpenAI libraries."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Further-Embraces-OpenAPI-Spec-formerly-Swagger.aspx",
-    "raw": "Microsoft has long embraced the OpenAPI Specification (formerly known as Swagger) for describing APIs, and it's now taking that support to the next level with a new online resource.",
-    "sanitized": "Microsoft has long embraced the OpenAPI Specification (formerly known as Swagger) for describing APIs, and it's now taking that support to the next level with a new online resource."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/25/Whats-New-for-Java-Tooling-in-VS-Code-Azure-Cloud.aspx",
-    "raw": "Java on Visual Studio Code gets a new tool to its extension pack, while Java on Azure upgraded the Azure Toolkit for IntelliJ and more in new regular updates for both properties.",
-    "sanitized": "Java on Visual Studio Code gets a new tool to its extension pack, while Java on Azure upgraded the Azure Toolkit for IntelliJ and more in new regular updates for both properties."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/20/Microsoft-Highlights-Third-Party-Open-Source-NET-Smart-Components.aspx",
-    "raw": "Microsoft has long acknowledged third-party vendor contributions to dev tooling ecosystems like Blazor and is now doing the same for its newly open-sourced .NET Smart Components.",
-    "sanitized": "Microsoft has long acknowledged third-party vendor contributions to dev tooling ecosystems like Blazor and is now doing the same for its newly open-sourced .NET Smart Components."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/19/Data-Science-Pack-for-VS-Code-Bundles-Python-Data-and-Copilot-Tools.aspx",
-    "raw": "New extension pack bundles wildly popular tools for Python development, assisted by the AI-powered GitHub Copilot and a data wrangler.",
-    "sanitized": "New extension pack bundles wildly popular tools for Python development, assisted by the AI-powered GitHub Copilot and a data wrangler."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/18/30th-Annual-Visual-Studio-Magazine-Readers-Choice-Awards-Announced.aspx",
-    "raw": "For the 30th year in a row, Visual Studio Magazine readers have chosen the best tools and services for developers. The 2024 winners are honored in 43 categories, from component suites to testing tools to AI helpers.",
-    "sanitized": "For the 30th year in a row, Visual Studio Magazine readers have chosen the best tools and services for developers. The 2024 winners are honored in 43 categories, from component suites to testing tools to AI helpers."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/17/Another-Report-Weighs-In-on-GitHub-Copilot-Dev-Productivity.aspx",
-    "raw": "Several reports have answered \"yes\" to the question of whether GitHub Copilot improves developer productivity. A new one says \"no.\"",
-    "sanitized": "Several reports have answered \"yes\" to the question of whether GitHub Copilot improves developer productivity. A new one says \"no.\""
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/13/Dev-Asks-and-7-Years-Later-Python-in-VS-Code-Delivers-Django-Unit-Test-Support.aspx",
-    "raw": "\"We are excited to announce support for one of our most requested features: you can now discover and run Django unit tests through the Test Explorer!\"",
-    "sanitized": "\"We are excited to announce support for one of our most requested features: you can now discover and run Django unit tests through the Test Explorer!\""
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/12/OData-Finally-Ditches-Old-NET-Framework.aspx",
-    "raw": "\"The most disruptive change we are making in this release is dropping support for .NET Framework.\"",
-    "sanitized": "\"The most disruptive change we are making in this release is dropping support for .NET Framework.\""
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/NET-MAUI-ASP-NET-Core-Polished-in-First-Release-Candidate-for-NET-9.aspx",
-    "raw": "Microsoft shipped the first release candidate for .NET 9, which is nearing feature completeness and production readiness in advance of its November debut.",
-    "sanitized": "Microsoft shipped the first release candidate for .NET 9, which is nearing feature completeness and production readiness in advance of its November debut."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/Microsofts-Stalled-UWP-Project-Supports-NET-9-as-WinUI-3-Migration-Urged.aspx",
-    "raw": "The company urges devs to switch to Windows App SDK and WinUI 3 because UWP is no longer under active development.",
-    "sanitized": "The company urges devs to switch to Windows App SDK and WinUI 3 because UWP is no longer under active development."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/09/VS-Code-Experiments-Boost-AI-Copilot-Functionality.aspx",
-    "raw": "Devs can now customize code generation, enjoy enhanced Chat experiences and much more.",
-    "sanitized": "Devs can now customize code generation, enjoy enhanced Chat experiences and much more."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/Windows-Community-Toolkit-Update-Improves-Controls.aspx",
-    "raw": "The Windows Community Toolkit advanced to version 8.1, adding new features, improving existing controls and making dependency changes.",
-    "sanitized": "The Windows Community Toolkit advanced to version 8.1, adding new features, improving existing controls and making dependency changes."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/ASPNET-Core-NET-MAUI-Updated-as-NET-9-Nears.aspx",
-    "raw": "The web-dev ASP.NET Core framework and Xamarin.Forms' successor .NET MAUI received the lion's share of dev attention in the seventh preview of .NET 9 as Microsoft preps for a November launch at .NET Conf 2024.",
-    "sanitized": "The web-dev ASP.NET Core framework and Xamarin.Forms' successor .NET MAUI received the lion's share of dev attention in the seventh preview of .NET 9 as Microsoft preps for a November launch at .NET Conf 2024."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/NET-Community-Toolkit-Gets-Native-AOT-NET-8-Support.aspx",
-    "raw": "The .NET Community Toolkit is Microsoft's latest dev tooling to get native ahead-of-time compilation, continuing a years-long push for that capability across the board.",
-    "sanitized": "The .NET Community Toolkit is Microsoft's latest dev tooling to get native ahead-of-time compilation, continuing a years-long push for that capability across the board."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/26/GitHub-Copilot-Tops-Research-Report-on-AI-Code-Assistants.aspx",
-    "raw": "GitHub topped research firm's Gartner's inaugural Magic Quadrant report on AI code assistants, with Copilot leading in both completeness of vision and ability to execute.",
-    "sanitized": "GitHub topped research firm's Gartner's inaugural Magic Quadrant report on AI code assistants, with Copilot leading in both completeness of vision and ability to execute."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/23/VS-Code-Tool-for-Azure-Machine-Learning-Ships-After-7-Year-Preview.aspx",
-    "raw": "\"You can use your favorite VS Code setup, either desktop or web, to build, train, deploy, debug, and manage machine learning models with Azure Machine Learning from within VS Code.\"",
-    "sanitized": "\"You can use your favorite VS Code setup, either desktop or web, to build, train, deploy, debug, and manage machine learning models with Azure Machine Learning from within VS Code.\""
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/21/Newly-Open-Sourced-NET-Smart-Components-Demoed-at-AI-Event.aspx",
-    "raw": "Yesterday's .NET Conf Focus on AI online event highlighted Microsoft's latest/greatest AI dev tooling, including the newly open-sourced .NET Smart Components.",
-    "sanitized": "Yesterday's .NET Conf Focus on AI online event highlighted Microsoft's latest/greatest AI dev tooling, including the newly open-sourced .NET Smart Components."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/19/Content-Exclusion-Is-Latest-of-Many-New-Visual-Studio-Copilot-Features.aspx",
-    "raw": "The ability for admins to configure Copilot to ignore specific files in repositories or organizations joins a raft of other enhancements that affect everything from commit histories to pull requests to targeted slash commands and more.",
-    "sanitized": "The ability for admins to configure Copilot to ignore specific files in repositories or organizations joins a raft of other enhancements that affect everything from commit histories to pull requests to targeted slash commands and more."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/16/Microsoft-Spotlights-NET-9-Cloud-in-First-Visual-Studio-2022-v17-12-Preview.aspx",
-    "raw": " With Visual Studio 2022 v17.11 shipping this week, the first preview of the next edition sees Microsoft emphasizing support for the coming .NET 9 and cloud development with Aspire.",
-    "sanitized": "With Visual Studio 2022 v17.11 shipping this week, the first preview of the next edition sees Microsoft emphasizing support for the coming .NET 9 and cloud development with Aspire."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/14/Visual-Studio-2022-v17-11-Ships-Shaped-by-Your-Feedback.aspx",
-    "raw": "Microsoft's Mads Kristensen heavily emphasized the community contributions that helped the dev team ship the brand-new Visual Studio 2022 version 17.11, which includes new features, improvements and fixes across the board spawned from the ideas of users. ",
-    "sanitized": "Microsoft's Mads Kristensen heavily emphasized the community contributions that helped the dev team ship the brand-new Visual Studio 2022 version 17.11, which includes new features, improvements and fixes across the board spawned from the ideas of users."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/13/VSLive-Dev-Conference-Tip-Leads-to-New-IDE-Extension-Sql-Formatter.aspx",
-    "raw": "\"During the VS Live conference last week, it was brought to my attention that Visual Studio has no support for formatting SQL files.\"",
-    "sanitized": "\"During the VS Live conference last week, it was brought to my attention that Visual Studio has no support for formatting SQL files.\""
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/12/Copilot-Rolled-Out-to-Your-Org-Better-Check-User-Activity.aspx",
-    "raw": "Many organizations jumped on the Gen AI bandwagon in a big way, but now that it has fallen into the \"trough of disillusionment,\" it might be time to check copilot usage to control costs, check for inappropriate or risky behavior and so on.",
-    "sanitized": "Many organizations jumped on the Gen AI bandwagon in a big way, but now that it has fallen into the \"trough of disillusionment,\" it might be time to check copilot usage to control costs, check for inappropriate or risky behavior and so on."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/09/VS-Code-v1-92-Pick-Your-Browser-Use-OpenAI-GPT-4o-Model.aspx",
-    "raw": "A highlight of the latest release of Microsoft's Visual Studio Code open-source-based code editor is the ability to pick your default browser for opening links, along with access to new advanced AI model.",
-    "sanitized": "A highlight of the latest release of Microsoft's Visual Studio Code open-source-based code editor is the ability to pick your default browser for opening links, along with access to new advanced AI model."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/07/ABP-Ships-Community-Edition-of-Open-Source-,-d-,NET-Dev-Framework.aspx",
-    "raw": "Flying under the radar below Visual Studio, VS Code, JetBrains Rider and other big names in the .NET-centric IDE space is the open-source ABP, which just shipped a new community edition.",
-    "sanitized": "Flying under the radar below Visual Studio, VS Code, JetBrains Rider and other big names in the .NET-centric IDE space is the open-source ABP, which just shipped a new community edition."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/05/With-NET-6-Support-Ending-Security-Vulnerabilities-Loom.aspx",
-    "raw": "While many Visual Studio developers are awaiting the debut of .NET 9 in November, they might want to pay attention to a looming security issue with .NET 6, which will reach end of support at the same time, perhaps leaving apps open to cybersecurity attacks.",
-    "sanitized": "While many Visual Studio developers are awaiting the debut of .NET 9 in November, they might want to pay attention to a looming security issue with .NET 6, which will reach end of support at the same time, perhaps leaving apps open to cybersecurity attacks."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/02/Semantic-Kernel-AI-SDK-Gets-Agents-Experimental.aspx",
-    "raw": "As AI matures, agents are one of the most significant areas of development, and Microsoft's Semantic Kernel AI dev tooling is getting them, as an experiment for now.",
-    "sanitized": "As AI matures, agents are one of the most significant areas of development, and Microsoft's Semantic Kernel AI dev tooling is getting them, as an experiment for now."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/github-models.aspx",
-    "raw": "GitHub Models is unveiled as a limited public beta to help platform's 100-million-plus developers try out the latest/greatest AI models from a range of providers.",
-    "sanitized": "GitHub Models is unveiled as a limited public beta to help platform's 100-million-plus developers try out the latest/greatest AI models from a range of providers."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/vs-code-java-python.aspx",
-    "raw": "Microsoft's Visual Studio Code dev teams for Java and Python announced Gradle enhancements for the former and improved Python discovery for the latter.",
-    "sanitized": "Microsoft's Visual Studio Code dev teams for Java and Python announced Gradle enhancements for the former and improved Python discovery for the latter."
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx",
-    "raw": "Visual Studio devs who have become dependent upon GitHub Copilot AI assistance will have to wait a while for a hot new feature already available in VS Code.",
-    "sanitized": "Visual Studio devs who have become dependent upon GitHub Copilot AI assistance will have to wait a while for a hot new feature already available in VS Code."
   }
 ]

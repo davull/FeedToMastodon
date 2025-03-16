@@ -1,268 +1,283 @@
 ﻿[
   {
-    "itemId": "https://www1.wdr.de/nachrichten/nrw-geburten-neugeborene-rueckgang-100.html",
-    "raw": "Neugeborene: Weniger Babys in NRW",
-    "sanitized": "Neugeborene: Weniger Babys in NRW"
+    "itemId": "https://www1.wdr.de/nachrichten/flugbereitschaft-bundeswehr-100.html",
+    "raw": "Teure Flugbereitschaft: Vielflieger und Leerflüge",
+    "sanitized": "Teure Flugbereitschaft: Vielflieger und Leerflüge"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/afd-liste-bundestag-marl-100.html",
-    "raw": "Fünf Tage Liste: Die NRW-AfD bestimmt ihre Bundestagskandidaten",
-    "sanitized": "Fünf Tage Liste: Die NRW-AfD bestimmt ihre Bundestagskandidaten"
+    "itemId": "https://www1.wdr.de/nachrichten/wetterphaenomen-polarwirbel100.html",
+    "raw": "Suchtrend im Netz: Das Wetterphänomen \"Polarwirbel\"",
+    "sanitized": "Suchtrend im Netz: Das Wetterphänomen \"Polarwirbel\""
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/wetter-nrw-schneeregen-100.html",
-    "raw": "Wetter in NRW: Schnee, Regen und glatte Straßen",
-    "sanitized": "Wetter in NRW: Schnee, Regen und glatte Straßen"
+    "itemId": "https://reportage.wdr.de/corona-chronik-beginn-der-pandemie",
+    "raw": "Als Corona uns in die Krise stürzte: Chronik der ersten Pandemie-Monate",
+    "sanitized": "Als Corona uns in die Krise stürzte: Chronik der ersten Pandemie-Monate"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/nebenkostenabrechnung112.html",
-    "raw": "Nebenkostenabrechnung: Das ist wichtig für Mieter",
-    "sanitized": "Nebenkostenabrechnung: Das ist wichtig für Mieter"
+    "itemId": "https://www1.wdr.de/kultur/kulturnachrichten/wdr-corona-umfrage-pandemie-konflikte-100.html",
+    "raw": "WDR-Umfrage: Corona führte zu privaten Konflikten",
+    "sanitized": "WDR-Umfrage: Corona führte zu privaten Konflikten"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/fehlgeburt-mutterschutz-gesetz-100.html",
-    "raw": "Gesetz für früheren Mutterschutz nach Fehlgeburt",
-    "sanitized": "Gesetz für früheren Mutterschutz nach Fehlgeburt"
+    "itemId": "https://www1.wdr.de/nachrichten/corona-pandemie-auswirkungen-gesellschaft-cut-100.html",
+    "raw": "Fünf Jahre nach dem Corona-Ausbruch: Was bleibt?",
+    "sanitized": "Fünf Jahre nach dem Corona-Ausbruch: Was bleibt?"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/erdbeben-grenze-niederlande-aachen-102.html",
-    "raw": "Erde bebt um niederländische Grenze",
-    "sanitized": "Erde bebt um niederländische Grenze"
+    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-europamagazin/audio-fuenf-jahre-corona-welche-lehren-zieht-die-eu-aus-der-pandemie-100.html",
+    "raw": "Fünf Jahre Corona: Welche Lehren zieht die EU aus der Pandemie?",
+    "sanitized": "Fünf Jahre Corona: Welche Lehren zieht die EU aus der Pandemie?"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/lkw-unfallfahrt-ermittlungen-100.html",
-    "raw": "Ermittler suchen nach Fahrdaten zur LKW-Unfallfahrt",
-    "sanitized": "Ermittler suchen nach Fahrdaten zur LKW-Unfallfahrt"
+    "itemId": "https://www1.wdr.de/nachrichten/nah-dran-podcast-fuenf-jahre-corona-100.html",
+    "raw": "Warum uns Corona bis heute nicht loslässt",
+    "sanitized": "Warum uns Corona bis heute nicht loslässt"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/verletzte-brand-gelsenkirchen-100.html",
-    "raw": "Wohnhausbrand in Gelsenkirchen mit 18 Verletzten",
-    "sanitized": "Wohnhausbrand in Gelsenkirchen mit 18 Verletzten"
+    "itemId": "https://www1.wdr.de/nachrichten/saint-patricks-day-chicago-fluss-feier-100.html",
+    "raw": "St. Patrick's Day: Wenn der Chicago River grün leuchtet",
+    "sanitized": "St. Patrick's Day: Wenn der Chicago River grün leuchtet"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/geseke-feuerwerk-unfall-100.html",
-    "raw": "Festnahme nach Tod durch Böller-Explosion in Geseke",
-    "sanitized": "Festnahme nach Tod durch Böller-Explosion in Geseke"
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/unfall-autobahn-steine-aeste-polizei-100.html",
+    "raw": "Unfälle: Unbekannte werfen Äste und Stein auf A1 und A46",
+    "sanitized": "Unfälle: Unbekannte werfen Äste und Stein auf A1 und A46"
   },
   {
-    "itemId": "https://www.tagesschau.de/inland/gesellschaft/musk-wahlkampf-esken-merz-100.html",
-    "raw": "Aufruf zur Wahl der AfD: CDU-Chef Merz kritisiert Musk-Kommentar als \"übergriffig\"",
-    "sanitized": "Aufruf zur Wahl der AfD: CDU-Chef Merz kritisiert Musk-Kommentar als \"übergriffig\""
+    "itemId": "https://www1.wdr.de/nachrichten/wilhelmina-aussichtsturm-niederlande-einsturz-100.html",
+    "raw": "Niederlande: Aussichtsturm in Valkenburg eingestürzt",
+    "sanitized": "Niederlande: Aussichtsturm in Valkenburg eingestürzt"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/neuwahl-am-23-februar-bundespraesident-steinmeier-hat-aufloesung-des-bundestags-bekannt-gegeben-100.html",
-    "raw": "Steinmeier erklärt Bundestag für aufgelöst",
-    "sanitized": "Steinmeier erklärt Bundestag für aufgelöst"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/finanzpaket-union-spd-bundestag-regierungsbildung-100.html",
+    "raw": "Finanzpaket von Union und SPD: Finanzpaket von Union und SPD: Erleichterung und Erwartungen nach der Einigung",
+    "sanitized": "Finanzpaket von Union und SPD: Finanzpaket von Union und SPD: Erleichterung und Erwartungen nach der Einigung"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/bundestagswahl-wahlprogramme-vergleich-100.html",
-    "raw": "Was steht in den Wahlprogrammen zur Bundestagswahl?",
-    "sanitized": "Was steht in den Wahlprogrammen zur Bundestagswahl?"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/bundestag-union-spd-gruene-schuldenbremse-sondervermoegen-faq-102.html",
+    "raw": "Finanzpaket: Finanzpaket: Worauf sich Union, SPD und Grüne geeinigt haben",
+    "sanitized": "Finanzpaket: Finanzpaket: Worauf sich Union, SPD und Grüne geeinigt haben"
   },
   {
-    "itemId": "https://www1.wdr.de/daserste/bundestagswahl/wahlarena-bundestagswahl-2025-100.html",
-    "raw": "Wahlarena zur Bundestagswahl - Teilnahmeformular",
-    "sanitized": "Wahlarena zur Bundestagswahl - Teilnahmeformular"
+    "itemId": "https://www.tagesschau.de/inland/bundesverfassungsgericht-eilantraege-sondersitzung-bundestag-100.html",
+    "raw": "Bundesverfassungsgericht: Bundesverfassungsgericht macht Weg frei für Bundestags-Sondersitzung",
+    "sanitized": "Bundesverfassungsgericht: Bundesverfassungsgericht macht Weg frei für Bundestags-Sondersitzung"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/wahl-o-mat-vorbereitungen-bonn-100.html",
-    "raw": "Jungwähler erarbeiten \"Wahl-O-Mat\" für Bundestagswahl",
-    "sanitized": "Jungwähler erarbeiten \"Wahl-O-Mat\" für Bundestagswahl"
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/bischofskonferenz-aachen-100.html",
+    "raw": "Bischofskonferenz: Sorge wegen politischer Lage",
+    "sanitized": "Bischofskonferenz: Sorge wegen politischer Lage"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-westblick-aktuell/audio-in-nrw-laufen-die-vorbereitungen-auf-die-bundestagswahl-100.html",
-    "raw": "In NRW laufen die Vorbereitungen auf die Bundestagswahl",
-    "sanitized": "In NRW laufen die Vorbereitungen auf die Bundestagswahl"
+    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/wuest-erwartungen-industrie-bundesregierung-100.html",
+    "raw": "Die Erwartungen der Industrie an die Bundesregierung",
+    "sanitized": "Die Erwartungen der Industrie an die Bundesregierung"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/bundestagswahl-2025/wahlberechtigte-nrw-100.html",
-    "raw": "Jeder fünfte Wahlberechtigte kommt aus NRW",
-    "sanitized": "Jeder fünfte Wahlberechtigte kommt aus NRW"
+    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/mitverhandler-nrw-koalitionsverhandlungen-100.html",
+    "raw": "So stark verhandelt NRW die neue Regierung mit",
+    "sanitized": "So stark verhandelt NRW die neue Regierung mit"
   },
   {
-    "itemId": "https://data.wdr.de/ddj/deutschland-wo-brennts/",
-    "raw": "Deutschland, wo brennt's? Unsere Befragung zur Bundestagswahl",
-    "sanitized": "Deutschland, wo brennt's? Unsere Befragung zur Bundestagswahl"
+    "itemId": "https://www1.wdr.de/nachrichten/sicherheitsluecke-online-casinos-merkur-100.html",
+    "raw": "Schwere IT-Sicherheitslücken bei Online-Casinos von Merkur.com",
+    "sanitized": "Schwere IT-Sicherheitslücken bei Online-Casinos von Merkur.com"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/bundestagswahl-2025/bundestagswahl-2025-100.html",
-    "raw": "Übersicht: Bundestagswahl 2025 in NRW",
-    "sanitized": "Übersicht: Bundestagswahl 2025 in NRW"
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/dortmund-entsorgungsbetriebe-sonderschichten-streik-100.html",
+    "raw": "Entsorgungsbetriebe in Dortmund fahren Sonderschicht",
+    "sanitized": "Entsorgungsbetriebe in Dortmund fahren Sonderschicht"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/wolf-mehr-uebergriffe-nrw-100.html",
-    "raw": "Wölfe in NRW: Mehr Nachwuchs, mehr Angriffe",
-    "sanitized": "Wölfe in NRW: Mehr Nachwuchs, mehr Angriffe"
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/messer-angriff-mordkommission-niederkruechten-brempt-100.html",
+    "raw": "Polizei ermittelt: 47-Jähriger sticht auf Ehefrau ein",
+    "sanitized": "Polizei ermittelt: 47-Jähriger sticht auf Ehefrau ein"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/eurocup-heiden-fussball-jugend-100.html",
-    "raw": "Jugendfußballteams aus ganz Europa in Heiden am Start",
-    "sanitized": "Jugendfußballteams aus ganz Europa in Heiden am Start"
+    "itemId": "https://www1.wdr.de/nachrichten/tagebau-garzweiler-doerfer-namen-100.html",
+    "raw": "Alte Braunkohle-Dörfer bekommen neue Namen",
+    "sanitized": "Alte Braunkohle-Dörfer bekommen neue Namen"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/biomuell-kampagne-ennepe-ruhr-100.html",
-    "raw": "Kampagne gegen Plastik in Biomüll gestartet",
-    "sanitized": "Kampagne gegen Plastik in Biomüll gestartet"
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/gasaustritt-kupferdiebstahl-gelsenkirchen-schalke-100.html",
+    "raw": "Explosionsgefahr in Gelsenkirchen: Kupferdiebe sägen Gasleitung ab",
+    "sanitized": "Explosionsgefahr in Gelsenkirchen: Kupferdiebe sägen Gasleitung ab"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/passantin-heisses-wasser-luedenscheid-100.html",
-    "raw": "Passantin in Lüdenscheid mit heißem Wasser überschüttet",
-    "sanitized": "Passantin in Lüdenscheid mit heißem Wasser überschüttet"
+    "itemId": "https://www1.wdr.de/nachrichten/westfalen-lippe/freibad-eroeffnung-mitte-maerz-oelde-stromberg-100.html",
+    "raw": "Freibad im März? Möglich im Münsterland",
+    "sanitized": "Freibad im März? Möglich im Münsterland"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/rheinland/autobahn-unfall-eschweiler-100.html",
-    "raw": "Schwerer Unfall bei Eschweiler: A4 wieder frei",
-    "sanitized": "Schwerer Unfall bei Eschweiler: A4 wieder frei"
+    "itemId": "https://www1.wdr.de/nachrichten/rheinland/anklage-pfleger-rhein-maas-klinikum-100.html",
+    "raw": "Mordverdacht: neue Anklage gegen Pfleger aus Würselen",
+    "sanitized": "Mordverdacht: neue Anklage gegen Pfleger aus Würselen"
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/europa/koalitionsgespraeche-oesterreich-100.html",
-    "raw": "Regierungsbildung: Koalitionsverhandlungen in Österreich gescheitert",
-    "sanitized": "Regierungsbildung: Koalitionsverhandlungen in Österreich gescheitert"
+    "itemId": "https://www1.wdr.de/nachrichten/beschwerden-pakete-briefe-post-100.html",
+    "raw": "Deutsche Post erreichen hunderttausende Beschwerden",
+    "sanitized": "Deutsche Post erreichen hunderttausende Beschwerden"
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/asien/syrien-aufarbeitung-assad-verbrechen-100.html",
-    "raw": "Suche nach Vermissten in Syrien: Aufarbeitung in Syrien: Bleiben Verbrechen islamistischer Milizen ungesühnt?",
-    "sanitized": "Suche nach Vermissten in Syrien: Aufarbeitung in Syrien: Bleiben Verbrechen islamistischer Milizen ungesühnt?"
+    "itemId": "https://www1.wdr.de/nachrichten/ruhrgebiet/polizei-grosseinsatz-in-essen-wegen-nazi-demo-und-hochrisikospiel-100.html",
+    "raw": "Demos am Samstag: Polizei Essen im Dauerstress",
+    "sanitized": "Demos am Samstag: Polizei Essen im Dauerstress"
   },
   {
-    "itemId": "https://www.tagesschau.de/ausland/asien/syrien-baerbock-barrot-damaskus-hts-assad-100.html",
-    "raw": "Baerbock in Damaskus: Baerbock in Damaskus: Ein Angebot und viele Forderungen an Syrien",
-    "sanitized": "Baerbock in Damaskus: Baerbock in Damaskus: Ein Angebot und viele Forderungen an Syrien"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/merz-droege-finanzpaket-100.html",
+    "raw": "Merz kündigt Einsparungen an: Merz kündigt \"schwere Gespräche\" mit der SPD über Einsparungen an",
+    "sanitized": "Merz kündigt Einsparungen an: Merz kündigt \"schwere Gespräche\" mit der SPD über Einsparungen an"
   },
   {
-    "itemId": "https://www.tagesschau.de/newsticker/liveblog-nahost-freitag-220.html",
-    "raw": "Lage im Nahen Osten: Nahost-Liveblog: ++ Israel fängt Rakete aus dem Jemen ab ++",
-    "sanitized": "Lage im Nahen Osten: Nahost-Liveblog: ++ Israel fängt Rakete aus dem Jemen ab ++"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/czaja-finanzpaket-100.html",
+    "raw": "Ex-CDU-Generalsekretär: Ex-CDU-Generalsekretär Czaja will gegen Finanzpaket stimmen",
+    "sanitized": "Ex-CDU-Generalsekretär: Ex-CDU-Generalsekretär Czaja will gegen Finanzpaket stimmen"
   },
   {
-    "itemId": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslosenquote-deutschland-104.html",
-    "raw": "Bundesagentur für Arbeit: Zahl der Arbeitslosen in Deutschland steigt im Dezember",
-    "sanitized": "Bundesagentur für Arbeit: Zahl der Arbeitslosen in Deutschland steigt im Dezember"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/finanzpaket-union-spd-bundestag-regierungsbildung-104.html",
+    "raw": "Vor Abstimmung im Bundestag: Haushälter im Bundestag machen Weg frei für Finanzpaket",
+    "sanitized": "Vor Abstimmung im Bundestag: Haushälter im Bundestag machen Weg frei für Finanzpaket"
   },
   {
-    "itemId": "https://www1.wdr.de/sport/eishockey/del-spielbericht-duesseldorf-ingolstadt-100.html",
-    "raw": "Düsseldorfer EG überrascht gegen Tabellenführer Ingolstadt",
-    "sanitized": "Düsseldorfer EG überrascht gegen Tabellenführer Ingolstadt"
+    "itemId": "https://www.tagesschau.de/inland/innenpolitik/eilantrag-sondervermoegen-100.html",
+    "raw": "Bundesverfassungsgericht: Abgeordnete stellen in Karlsruhe neue Eilanträge gegen Finanzpaket",
+    "sanitized": "Bundesverfassungsgericht: Abgeordnete stellen in Karlsruhe neue Eilanträge gegen Finanzpaket"
   },
   {
-    "itemId": "https://www1.wdr.de/sport/fussball/erste-bundesliga/bayer-leverkusen-transfer-100.html",
-    "raw": "Leverkusen holt argentinisches Talent Sarco",
-    "sanitized": "Leverkusen holt argentinisches Talent Sarco"
+    "itemId": "https://www.tagesschau.de/ausland/asien/huthi-eskalation-102.html",
+    "raw": "Nach Luftangriffen im Jemen: USA und Huthi drohen sich gegenseitig mit Eskalation",
+    "sanitized": "Nach Luftangriffen im Jemen: USA und Huthi drohen sich gegenseitig mit Eskalation"
   },
   {
-    "itemId": "https://www1.wdr.de/sport/fussball/fc-frauen-trainerin-100.html",
-    "raw": "Frauen-BL: Carlson wird neue Trainerin beim 1. FC Köln",
-    "sanitized": "Frauen-BL: Carlson wird neue Trainerin beim 1. FC Köln"
+    "itemId": "https://www.sportschau.de/fussball/bundesliga/leverkusen-nutzt-bayern-vorschlag-ganz-spaet,bundesliga-vfb-b04-100.html",
+    "raw": "Irres Comeback in Stuttgart: Leverkusen nutzt Bayern-Vorlage ganz spät",
+    "sanitized": "Irres Comeback in Stuttgart: Leverkusen nutzt Bayern-Vorlage ganz spät"
   },
   {
-    "itemId": "https://www1.wdr.de/sport/nrw-sport-weihnachten-silvester-100.html",
-    "raw": "Eishockey, Basketball und Wintersport - Sport in NRW um den Jahreswechsel",
-    "sanitized": "Eishockey, Basketball und Wintersport - Sport in NRW um den Jahreswechsel"
+    "itemId": "https://www1.wdr.de/sport/fussball/dritte-liga/bericht-aachen-rostock-100.html",
+    "raw": "Aachen feiert wichtigen Heimsieg gegen Rostock",
+    "sanitized": "Aachen feiert wichtigen Heimsieg gegen Rostock"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/update-wdr-aktuell-app-wuensche-weiterentwicklung-100.html",
-    "raw": "Die neue WDR aktuell App: Eure Wünsche im nächsten Update",
-    "sanitized": "Die neue WDR aktuell App: Eure Wünsche im nächsten Update"
+    "itemId": "https://www1.wdr.de/sport/fussball/spielbericht-sgs-essen-turbine-potsdam-100.html",
+    "raw": "Frauen-Bundesliga: Zwei Elfmeter bescheren SGS Essen den Sieg",
+    "sanitized": "Frauen-Bundesliga: Zwei Elfmeter bescheren SGS Essen den Sieg"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/microsoft-windows-10-support-ende-sicherheit-100.html",
-    "raw": "Support-Ende für Windows 10 in 2025: Was zu tun ist",
-    "sanitized": "Support-Ende für Windows 10 in 2025: Was zu tun ist"
+    "itemId": "https://www1.wdr.de/sport/eishockey/spielbericht-fischtown-pinguins-bremerhaven-koelner-haie-100.html",
+    "raw": "DEL, Playoffs: Effektive Haie deklassieren Bremerhaven",
+    "sanitized": "DEL, Playoffs: Effektive Haie deklassieren Bremerhaven"
   },
   {
-    "itemId": "https://www1.wdr.de/kugelzwei/gluecksfunken/Tipps-gegen-Januar-Blues-100.html",
-    "raw": "Tipps für einen schönen Januar",
-    "sanitized": "Tipps für einen schönen Januar"
+    "itemId": "https://www1.wdr.de/nachrichten/tulpen-preise-steigen-qualitaet-sinkt100.html",
+    "raw": "Tulpen - Preise steigen, Qualität sinkt",
+    "sanitized": "Tulpen - Preise steigen, Qualität sinkt"
   },
   {
-    "itemId": "https://www1.wdr.de/nachrichten/landespolitik/nrw-it-check-kommunen-weniger-wirksam-als-gedacht-100.html",
-    "raw": "IT-Check für Kommunen: Millionen-Ausgabe mit fraglicher Wirkung",
-    "sanitized": "IT-Check für Kommunen: Millionen-Ausgabe mit fraglicher Wirkung"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/kochen-mit-martina-und-moritz/video-geliebte-buletten-frikadellen-und-klopse-102.html",
+    "raw": "Geliebte Buletten, Frikadellen und Klopse",
+    "sanitized": "Geliebte Buletten, Frikadellen und Klopse"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/audio/wdr5/wdr5-tagesgespraech/audio-alles-wird-gut-woher-nehmen-sie-ihre-zuversicht-100.html",
-    "raw": "Alles wird gut: Woher nehmen Sie Ihre Zuversicht?",
-    "sanitized": "Alles wird gut: Woher nehmen Sie Ihre Zuversicht?"
+    "itemId": "https://www.quarks.de/podcast/ploetzlich-hochwasser-koennen-wir-uns-ueberhaupt-schuetzen-quarks-daily-spezial/",
+    "raw": "Hochwasser - Können wir uns schützen?",
+    "sanitized": "Hochwasser - Können wir uns schützen?"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/die-carolin-kebekus-show/250102-dcks-standup-comedy-clip-stand-up-special-100.html",
-    "raw": "Die Carolin Kebekus Show: Stand-up Special",
-    "sanitized": "Die Carolin Kebekus Show: Stand-up Special"
+    "itemId": "https://www1.wdr.de/radio/wdr2/themen/frag-doch-mal-die-maus/hempels-unterm-sofa-100.html",
+    "raw": "WDR 2 Frag doch mal die Maus: Warum herrscht bei \"Hempels unterm Sofa\" Chaos?",
+    "sanitized": "WDR 2 Frag doch mal die Maus: Warum herrscht bei \"Hempels unterm Sofa\" Chaos?"
   },
   {
-    "itemId": "https://kinder.wdr.de/tv/die-sendung-mit-der-maus/av/ele-50-mausspot100.html",
-    "raw": "Geburtstagsüberraschung für den Elefanten bei der Maus",
-    "sanitized": "Geburtstagsüberraschung für den Elefanten bei der Maus"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/wunderschoen/video-wunderschoen-urlaub-in-der-suedlichen-bretagne-100.html",
+    "raw": "Urlaub in der südlichen Bretagne",
+    "sanitized": "Urlaub in der südlichen Bretagne"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/einzelstuecke/doku/esc-legenden-abba-die-ganze-geschichte-clip-100.html",
-    "raw": "ESC-Legenden: ABBA – Die ganze Geschichte",
-    "sanitized": "ESC-Legenden: ABBA – Die ganze Geschichte"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/unterhaltung/unsere-legendaeren-schauspielstars--von-mario-adorf-bis-romy-schneider-100.html",
+    "raw": "Unsere legendären Schauspielstars: Von Mario Adorf bis Romy Schneider",
+    "sanitized": "Unsere legendären Schauspielstars: Von Mario Adorf bis Romy Schneider"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/aktuelle-stunde/neujahrsansprache-des-ministerpraesidenten-von-nrw-100.html",
-    "raw": "Neujahrsansprache des Ministerpräsidenten von NRW",
-    "sanitized": "Neujahrsansprache des Ministerpräsidenten von NRW"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/koelner-treff/koelner-treff-clip-talk-mit-fussballer-christoph-kramer-und-schauspielerin-almila-bagriacik-100.html",
+    "raw": "Kölner Treff mit Fußballer Kramer",
+    "sanitized": "Kölner Treff mit Fußballer Kramer"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/einzelstuecke/fiktion/helix-clip-helix--thriller-100.html",
-    "raw": "Helix | Thriller",
-    "sanitized": "Helix | Thriller"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/fernsehfilm/forget-alberto-for-now-clip-forget-alberto-for-now--kurzfilm-dokudrama-100.html",
+    "raw": "Forget Alberto for now | Kurzfilm-Dokudrama",
+    "sanitized": "Forget Alberto for now | Kurzfilm-Dokudrama"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/wdr-klassik/neujahrskonzert-2024-aus-dem-teatro-la-fenice-in-venedig-clip-neujahrskonzert-2024-aus-dem-teatro-la-fenice-in-venedig-100.html",
-    "raw": "Neujahrskonzert 2024 aus dem Teatro La Fenice in Venedig",
-    "sanitized": "Neujahrskonzert 2024 aus dem Teatro La Fenice in Venedig"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/fernsehfilm/kirschknochen--kurzfilm-drama-100.html",
+    "raw": "Kirschknochen | Kurzfilm-Drama",
+    "sanitized": "Kirschknochen | Kurzfilm-Drama"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/video-ein-herz-und-eine-seele-sylvesterpunsch-100.html",
-    "raw": "Ein Herz und eine Seele: Sylvesterpunsch",
-    "sanitized": "Ein Herz und eine Seele: Sylvesterpunsch"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/frau-tv/frau-tv-midlife-magic-clip-midlife-magic-23-100.html",
+    "raw": "Midlife Magic: Unsere wilden Wechseljahre",
+    "sanitized": "Midlife Magic: Unsere wilden Wechseljahre"
   },
   {
-    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/unterhaltung/video-dinner-op-koelsch-102.html",
-    "raw": "Dinner op Kölsch",
-    "sanitized": "Dinner op Kölsch"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/fernsehfilm/zoopticon-clip-zoopticon--animierter-musical-kurzfilm-100.html",
+    "raw": "Zoopticon | Animierter Musical-Kurzfilm über die Reise eines Raumschiffes",
+    "sanitized": "Zoopticon | Animierter Musical-Kurzfilm über die Reise eines Raumschiffes"
   },
   {
-    "itemId": "https://www1.wdr.de/kultur/buecher/duvanel-nah-bei-dir-briefe-100.html",
-    "raw": "\"Nah bei Dir – Briefe 1978-1996\" von Adelheid Duvanel",
-    "sanitized": "\"Nah bei Dir – Briefe 1978-1996\" von Adelheid Duvanel"
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/ghosts/ghosts--clip-folge-1-schweres-erbe-100.html",
+    "raw": "Neue Serie \"Ghosts\" - Folge 1: Schweres Erbe",
+    "sanitized": "Neue Serie \"Ghosts\" - Folge 1: Schweres Erbe"
   },
   {
-    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/zeitzeichen-joy-adamson-102.html",
-    "raw": "03.01.1980: Todestag der Tierbuchautorin Joy Adamson",
-    "sanitized": "03.01.1980: Todestag der Tierbuchautorin Joy Adamson"
+    "itemId": "https://www1.wdr.de/mediathek/audio/wdr3/meisterstuecke/audio-genialer-egozentriker---ein-heldenleben-von-richard-strauss-100.html",
+    "raw": "Genialer Egozentriker - Ein Heldenleben von Richard Strauss",
+    "sanitized": "Genialer Egozentriker - Ein Heldenleben von Richard Strauss"
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/musik/album-der-woche/cosmo-alben-zwanzigvierundzwanzig-100.html",
-    "raw": "Best of Album der Woche - Die COSMO Alben des Jahres 2024",
-    "sanitized": "Best of Album der Woche - Die COSMO Alben des Jahres 2024"
+    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/zeitzeichen/zeitzeichen-selma-lagerloef-102.html",
+    "raw": "16.03.1940: Todestag der schwedischen Schriftstellerin Selma Lagerlöf",
+    "sanitized": "16.03.1940: Todestag der schwedischen Schriftstellerin Selma Lagerlöf"
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/podcast/machiavelli/politik-podcast-elefantenrunde-102.html",
-    "raw": "Machiavelli - Der Podcast über Rap und Politik",
-    "sanitized": "Machiavelli - Der Podcast über Rap und Politik"
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/album-der-woche/yarin-yoksa_derya-yildirim-grup-simsek-100.html",
+    "raw": "Album der Woche: \"Yarin Yoksa\" von Derya Yildirim & Grup Şimşek",
+    "sanitized": "Album der Woche: \"Yarin Yoksa\" von Derya Yildirim & Grup Şimşek"
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5440.html",
-    "raw": "Global Pop News: \"Acts of Faith\" - Neues Album von Sault",
-    "sanitized": "Global Pop News: \"Acts of Faith\" - Neues Album von Sault"
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/musikserien/reviews/haiyti-stadium-rock-100.html",
+    "raw": "Album-Review: Haiyti – \"Stadium Rock\"",
+    "sanitized": "Album-Review: Haiyti – \"Stadium Rock\""
   },
   {
-    "itemId": "https://www1.wdr.de/radio/cosmo/musik/album-der-woche/the-bongo-hop-la-pata-coja-100.html",
-    "raw": "Album der Woche: The Bongo Hop – \"La Pata Coja\"",
-    "sanitized": "Album der Woche: The Bongo Hop – \"La Pata Coja\""
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/album-der-woche/shygirl-club-shy-room-100.html",
+    "raw": "Album der Woche: Shygirl - \"Club Shy Room 2\"",
+    "sanitized": "Album der Woche: Shygirl - \"Club Shy Room 2\""
   },
   {
-    "itemId": "https://www1.wdr.de/radio/wdr5/sendungen/spezial/litcologne-maedel-stratmann-102.html",
-    "raw": "Lesung von der Lit.Cologne: Cordula Stratmann und Bjarne Mädel: Alles wird gut!",
-    "sanitized": "Lesung von der Lit.Cologne: Cordula Stratmann und Bjarne Mädel: Alles wird gut!"
+    "itemId": "https://www1.wdr.de/radio/cosmo/musik/global-pop-news/global-pop-news-5540.html",
+    "raw": "Global Pop News:",
+    "sanitized": "Global Pop News:"
   },
   {
-    "itemId": "https://kinder.wdr.de/tv/die-sendung-mit-dem-elefanten/50-jahre-elefant-die-geburtstagssendung-mit-dem-elefanten-102.html",
-    "raw": "50 Jahre Elefant: Die Geburtstagssendung mit dem Elefanten",
-    "sanitized": "50 Jahre Elefant: Die Geburtstagssendung mit dem Elefanten"
+    "itemId": "https://www1.wdr.de/mediathek/audio/neongrau/neongrau-hoerspiel-100.html",
+    "raw": "Neongrau: Cyberpunk-Hörspiel-Podcast",
+    "sanitized": "Neongrau: Cyberpunk-Hörspiel-Podcast"
+  },
+  {
+    "itemId": "https://www1.wdr.de/mediathek/video/sendungen/ladies-night/ladies-night-clip-ladies-night-mit-daphne-de-luxe--15-03-2025-100.html",
+    "raw": "Ladies Night mit Daphne de Luxe",
+    "sanitized": "Ladies Night mit Daphne de Luxe"
+  },
+  {
+    "itemId": "https://www1.wdr.de/nachrichten/westen-hilft-spendensumme-tafel-deutschland-hilft-100.html",
+    "raw": "\"Der Westen hilft\" - Über 14,4 Mio. Euro gespendet",
+    "sanitized": "\"Der Westen hilft\" - Über 14,4 Mio. Euro gespendet"
+  },
+  {
+    "itemId": "https://www1.wdr.de/unternehmen/der-wdr/unternehmen/vernau-neue-intendantin-100.html",
+    "raw": "Katrin Vernau seit dem 1. Januar 2025 neue Intendantin des WDR",
+    "sanitized": "Katrin Vernau seit dem 1. Januar 2025 neue Intendantin des WDR"
   },
   {
     "itemId": "https://www1.wdr.de/radio/wdr4/dab-umstellung-100.html",
@@ -296,8 +311,8 @@
   },
   {
     "itemId": "https://www1.wdr.de/nachrichten/wdr-aktuell-whatsapp-kanal-100.html",
-    "raw": "WDR aktuell Whatsapp-Kanal abonnieren - so geht's",
-    "sanitized": "WDR aktuell Whatsapp-Kanal abonnieren - so geht's"
+    "raw": "Für euch in NRW: Der Whatsapp-Kanal von WDR aktuell",
+    "sanitized": "Für euch in NRW: Der Whatsapp-Kanal von WDR aktuell"
   },
   {
     "itemId": "https://www1.wdr.de/lokalzeit/lokalzeithomestartseite100.html",
@@ -311,12 +326,12 @@
   },
   {
     "itemId": "https://www1.wdr.de/kugelzwei/kugelzweistartseite100.html",
-    "raw": "Übersicht: kugelzwei - Ideen für heute und übermorgen",
-    "sanitized": "Übersicht: kugelzwei - Ideen für heute und übermorgen"
+    "raw": "Übersicht: Kugelzwei – Was, wenn morgen gut wird? ",
+    "sanitized": "Übersicht: Kugelzwei – Was, wenn morgen gut wird?"
   },
   {
     "itemId": "https://www1.wdr.de/hilfe/leichte-sprache/uebersicht-leichte-sprache-100.html",
-    "raw": "Texte in Leichter Sprache",
-    "sanitized": "Texte in Leichter Sprache"
+    "raw": "Leichte Sprache",
+    "sanitized": "Leichte Sprache"
   }
 ]

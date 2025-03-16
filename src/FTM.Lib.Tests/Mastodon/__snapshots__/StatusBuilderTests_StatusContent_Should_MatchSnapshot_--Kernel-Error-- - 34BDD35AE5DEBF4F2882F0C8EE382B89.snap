@@ -1,0 +1,5 @@
+﻿S/MIME-Zertifikat per DNS veröffentlichen – SMIMEA
+
+Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem […]
+---
+https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/

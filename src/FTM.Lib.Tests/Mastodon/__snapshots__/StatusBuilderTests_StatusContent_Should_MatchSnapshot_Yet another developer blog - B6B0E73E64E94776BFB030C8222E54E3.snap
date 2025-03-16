@@ -1,6 +1,0 @@
-﻿Experimenting With .NET & WebAssembly - Running .NET Based Slight Application On WASM/WASI Node Pool in AKS
-
-A year ago I wrote about running a .NET based Spin application on a WASI node pool in AKS. Since then the support for WebAssembly in AKS hasn't changed. We still have the same preview, supporting the same versions of two ContainerD shims: Spin and Slight (a.k.a. SpiderLightning). So why am I coming back to the subject? The broader context has evolved.
-Wi...
----
-http://www.tpeczek.com/2024/01/experimenting-with-net-webassembly.html

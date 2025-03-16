@@ -1,0 +1,5 @@
+﻿Microsoft Ports TypeScript to Go for 10x Native Performance Gains
+
+Microsoft is revamping its TypeScript programming language with a native compiler and toolset. This effort seeks to address performance challenges, especially in large codebases, by porting the existing TypeScript compiler from TypeScript/JavaScript to the native language, Go.
+---
+https://visualstudiomagazine.com/Articles/2025/03/11/Microsoft-Ports-TypeScript-to-Go-for-10x-Native-Performance-Gains.aspx

@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251794",
-    "raw": "Dock the Code Search window in Visual Studio 2022",
-    "sanitized": "Dock the Code Search window in Visual Studio 2022"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252703",
+    "raw": "New, Simpler Solution File Format",
+    "sanitized": "New, Simpler Solution File Format"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251839",
-    "raw": "Go to line anywhere with Code Search for Visual Studio 2022",
-    "sanitized": "Go to line anywhere with Code Search for Visual Studio 2022"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252657",
+    "raw": "Make more sense of multithreaded debugging",
+    "sanitized": "Make more sense of multithreaded debugging"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251830",
-    "raw": "Connect securely to your Azure resources",
-    "sanitized": "Connect securely to your Azure resources"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252652",
+    "raw": "GPT-4o Copilot code completion model available now in Visual Studio public preview",
+    "sanitized": "GPT-4o Copilot code completion model available now in Visual Studio public preview"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251823",
-    "raw": "Security updates to Azure publishing from Visual Studio",
-    "sanitized": "Security updates to Azure publishing from Visual Studio"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252540",
+    "raw": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers",
+    "sanitized": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251812",
-    "raw": "GitHub Copilot Free is here in Visual Studio",
-    "sanitized": "GitHub Copilot Free is here in Visual Studio"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252584",
+    "raw": "New Debugging and Profiling Features in Visual Studio (v17.13)",
+    "sanitized": "New Debugging and Profiling Features in Visual Studio (v17.13)"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251787",
-    "raw": "Refresh your Find results",
-    "sanitized": "Refresh your Find results"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252558",
+    "raw": "Great new productivity features in Visual Studio",
+    "sanitized": "Great new productivity features in Visual Studio"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251783",
-    "raw": "Create internal GitHub repos for your team",
-    "sanitized": "Create internal GitHub repos for your team"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252505",
+    "raw": "Catch issues before you commit to Git",
+    "sanitized": "Catch issues before you commit to Git"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251755",
-    "raw": "Boost your Git confidence with the new file rename notification",
-    "sanitized": "Boost your Git confidence with the new file rename notification"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252474",
+    "raw": "Claude 3.7 Now Available in GitHub Copilot for Visual Studio",
+    "sanitized": "Claude 3.7 Now Available in GitHub Copilot for Visual Studio"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251750",
-    "raw": "Effortless publishing with Azure Functions Flex Consumption",
-    "sanitized": "Effortless publishing with Azure Functions Flex Consumption"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252436",
+    "raw": "Leverage vision in Copilot Chat",
+    "sanitized": "Leverage vision in Copilot Chat"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=251739",
-    "raw": "Effortless publishing to Azure WebJobs on Linux",
-    "sanitized": "Effortless publishing to Azure WebJobs on Linux"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252167",
+    "raw": "Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio",
+    "sanitized": "Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio"
   }
 ]

@@ -1,5 +1,45 @@
 ﻿[
   {
+    "itemId": "https://technikblog.ch/?p=37288",
+    "raw": "Das neue Shelly 3EM-63T Gen3 im Test",
+    "sanitized": "Das neue Shelly 3EM-63T Gen3 im Test"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37252",
+    "raw": "Whatwatt Go im Test: Mit diesem Adapter gibt es Live-Daten aus deinem Smart Meter",
+    "sanitized": "Whatwatt Go im Test: Mit diesem Adapter gibt es Live-Daten aus deinem Smart Meter"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37155",
+    "raw": "VW ID. Buzz LWB im Test – Der Elektro-Bulli mit 3 Sitzreihen",
+    "sanitized": "VW ID. Buzz LWB im Test – Der Elektro-Bulli mit 3 Sitzreihen"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37228",
+    "raw": "Smart Meter in der Schweiz: Was ist damit möglich und was nicht?",
+    "sanitized": "Smart Meter in der Schweiz: Was ist damit möglich und was nicht?"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37237",
+    "raw": "VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können",
+    "sanitized": "VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37210",
+    "raw": "Move Mobility: bessere Ladetarife bei Fastned und Gofast",
+    "sanitized": "Move Mobility: bessere Ladetarife bei Fastned und Gofast"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37212",
+    "raw": "Shelly präsentiert Geräte der 4. Generation und kompakte Energiemessung",
+    "sanitized": "Shelly präsentiert Geräte der 4. Generation und kompakte Energiemessung"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37190",
+    "raw": "Energie-Rückblick 2024: EFH mit PV-Anlage mit Speicher und zwei Elektroautos",
+    "sanitized": "Energie-Rückblick 2024: EFH mit PV-Anlage mit Speicher und zwei Elektroautos"
+  },
+  {
     "itemId": "https://technikblog.ch/?p=37156",
     "raw": "Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu",
     "sanitized": "Meine PV-Anlage hat über 100 MWh Energie produziert – ein paar Gedanken dazu"
@@ -453,45 +493,5 @@
     "itemId": "http://tchor/?p=34476",
     "raw": "Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad",
     "sanitized": "Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad"
-  },
-  {
-    "itemId": "http://tchor/?p=34430",
-    "raw": "Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?",
-    "sanitized": "Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?"
-  },
-  {
-    "itemId": "http://tchor/?p=34326",
-    "raw": "Hyundai IONIQ 5 im Test: Wie mag das «Ladewunder» im Alltag zu überzeugen?",
-    "sanitized": "Hyundai IONIQ 5 im Test: Wie mag das «Ladewunder» im Alltag zu überzeugen?"
-  },
-  {
-    "itemId": "http://tchor/?p=34414",
-    "raw": "Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest",
-    "sanitized": "Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest"
-  },
-  {
-    "itemId": "http://tchor/?p=34369",
-    "raw": "Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes",
-    "sanitized": "Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes"
-  },
-  {
-    "itemId": "http://tchor/?p=34327",
-    "raw": "Testbericht: iPhone 13 – muss es immer das Pro sein?",
-    "sanitized": "Testbericht: iPhone 13 – muss es immer das Pro sein?"
-  },
-  {
-    "itemId": "http://tchor/?p=34338",
-    "raw": "Apple MacBook Pro 14″ und 16″ mit M1 Pro und Max Prozessor vorgestellt",
-    "sanitized": "Apple MacBook Pro 14″ und 16″ mit M1 Pro und Max Prozessor vorgestellt"
-  },
-  {
-    "itemId": "http://tchor/?p=34332",
-    "raw": "Apple zeigt neue AirPods der dritten Generation",
-    "sanitized": "Apple zeigt neue AirPods der dritten Generation"
-  },
-  {
-    "itemId": "http://tchor/?p=34291",
-    "raw": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling",
-    "sanitized": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling"
   }
 ]

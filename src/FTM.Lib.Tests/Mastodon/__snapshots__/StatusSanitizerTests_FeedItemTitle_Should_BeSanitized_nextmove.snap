@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://nextmove.de/?p=29938",
+    "raw": "Voll elektrische Kühlfahrzeuge ab sofort bundesweit bei nextmove mietbar",
+    "sanitized": "Voll elektrische Kühlfahrzeuge ab sofort bundesweit bei nextmove mietbar"
+  },
+  {
+    "itemId": "https://nextmove.de/?p=29887",
+    "raw": "Hilfe für gebrauchte E-Autos, Discounter Ladepreise, Tesla Model Y, kein Steuervorteil",
+    "sanitized": "Hilfe für gebrauchte E-Autos, Discounter Ladepreise, Tesla Model Y, kein Steuervorteil"
+  },
+  {
+    "itemId": "https://nextmove.de/?p=29859",
+    "raw": "E-Auto Markt 2024: Gewinner & Verlierer, Tesla Model Y & Skoda Enyaq Facelifts, Stromrekord",
+    "sanitized": "E-Auto Markt 2024: Gewinner & Verlierer, Tesla Model Y & Skoda Enyaq Facelifts, Stromrekord"
+  },
+  {
     "itemId": "https://nextmove.de/?p=29846",
     "raw": "Auf die Kleinen kommt es an!",
     "sanitized": "Auf die Kleinen kommt es an!"
@@ -33,20 +48,5 @@
     "itemId": "https://nextmove.de/?p=28977",
     "raw": "29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen",
     "sanitized": "29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen"
-  },
-  {
-    "itemId": "https://nextmove.de/?p=28832",
-    "raw": "Günstige Ladetarife, Tesla Leasing, Blockiergebühren, KIA EV3, VW E-Bus, BMW, Hitzetest",
-    "sanitized": "Günstige Ladetarife, Tesla Leasing, Blockiergebühren, KIA EV3, VW E-Bus, BMW, Hitzetest"
-  },
-  {
-    "itemId": "https://nextmove.de/?p=28305",
-    "raw": "nextnews: Tesla-Rabatte, VW ID2 schon 2024, Hyundai Inster, Strafzölle, Cupra Tavascan, Laden teurer",
-    "sanitized": "nextnews: Tesla-Rabatte, VW ID2 schon 2024, Hyundai Inster, Strafzölle, Cupra Tavascan, Laden teurer"
-  },
-  {
-    "itemId": "https://nextmove.de/?p=28278",
-    "raw": "Ausbau der Ladeinfrastruktur muss dem aktuellen Ladebedarf vorausgehen: Studie gibt Ausblick auf 2030",
-    "sanitized": "Ausbau der Ladeinfrastruktur muss dem aktuellen Ladebedarf vorausgehen: Studie gibt Ausblick auf 2030"
   }
 ]

@@ -1,0 +1,5 @@
+﻿A detailed look at EF Core’s JSON Columns feature
+
+Some developers used EF Core JSON Columns in their DbContext when using my EfCore.SchemaCompare library, then ...
+---
+https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/

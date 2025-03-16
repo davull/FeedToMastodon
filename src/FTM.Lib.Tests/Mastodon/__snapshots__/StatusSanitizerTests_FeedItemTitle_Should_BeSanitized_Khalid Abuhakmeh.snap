@@ -1,5 +1,40 @@
 ﻿[
   {
+    "itemId": "https://khalidabuhakmeh.com/generic-csharp-methods-with-enum-constraints-for-dotnet",
+    "raw": "Generic C# Methods with Enum Constraints for .NET",
+    "sanitized": "Generic C# Methods with Enum Constraints for .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/strongly-typed-markdown-for-aspnet-core-content-apps",
+    "raw": "Strongly-Typed Markdown for ASP.NET Core Content Apps",
+    "sanitized": "Strongly-Typed Markdown for ASP.NET Core Content Apps"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/the-curious-case-of-dotnet-concurrentdictionary-and-closures",
+    "raw": "The Curious Case of .NET ConcurrentDictionary and Closures",
+    "sanitized": "The Curious Case of .NET ConcurrentDictionary and Closures"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/aspnet-core-and-chunking-http-cookies",
+    "raw": "ASP.NET Core and Chunking HTTP Cookies",
+    "sanitized": "ASP.NET Core and Chunking HTTP Cookies"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/vogen-and-value-objects-with-csharp-and-dotnet",
+    "raw": "Vogen and Value Objects with C# and .NET",
+    "sanitized": "Vogen and Value Objects with C# and .NET"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/initialize-aspnet-core-taghelpers-with-shared-data",
+    "raw": "Initialize ASP.NET Core TagHelpers with Shared Data",
+    "sanitized": "Initialize ASP.NET Core TagHelpers with Shared Data"
+  },
+  {
+    "itemId": "https://khalidabuhakmeh.com/writing-a-string-numeric-comparer-with-dotnet-9",
+    "raw": "Writing a String Numeric Comparer with .NET 9",
+    "sanitized": "Writing a String Numeric Comparer with .NET 9"
+  },
+  {
     "itemId": "https://khalidabuhakmeh.com/great-dotnet-documentation-with-astro-starlight-and-markdownsnippets",
     "raw": "Great .NET Documentation with Astro, Starlight, and MarkdownSnippets",
     "sanitized": "Great .NET Documentation with Astro, Starlight, and MarkdownSnippets"
@@ -463,40 +498,5 @@
     "itemId": "https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core",
     "raw": "Multiple File Drag and Drop Upload with ASP.NET Core",
     "sanitized": "Multiple File Drag and Drop Upload with ASP.NET Core"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/deserialize-mastodon-user-xml-rss-feed",
-    "raw": "Deserialize Mastodon User XML RSS feeds with .NET",
-    "sanitized": "Deserialize Mastodon User XML RSS feeds with .NET"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/testing-aspnet-core-fastendpoints",
-    "raw": "Testing ASP.NET Core FastEndpoints",
-    "sanitized": "Testing ASP.NET Core FastEndpoints"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/generate-youtube-timestamp-links-with-csharp-11",
-    "raw": "Generate YouTube Timestamp Links with C# 11",
-    "sanitized": "Generate YouTube Timestamp Links with C# 11"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/aspnet-core-display-description-tag-helper",
-    "raw": "ASP.NET Core Display Description Tag Helper",
-    "sanitized": "ASP.NET Core Display Description Tag Helper"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/entity-framework-core-conversions-for-logical-domain-types",
-    "raw": "Entity Framework Core Conversions for Logical Domain Types",
-    "sanitized": "Entity Framework Core Conversions for Logical Domain Types"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/consuming-dotnet-webassembly-from-javascript-in-the-browser",
-    "raw": "Consuming .NET WebAssembly From JavaScript in the Browser",
-    "sanitized": "Consuming .NET WebAssembly From JavaScript in the Browser"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/fibonacci-sequences-with-kotlin-csharp-and-fsharp",
-    "raw": "Fibonacci Sequences with Kotlin, C#, and F#",
-    "sanitized": "Fibonacci Sequences with Kotlin, C#, and F#"
   }
 ]

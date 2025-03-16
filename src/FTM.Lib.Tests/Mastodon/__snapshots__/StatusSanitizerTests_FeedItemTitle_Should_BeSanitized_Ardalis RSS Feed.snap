@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/ardalis-specification-v9-release/",
+    "raw": "Ardalis Specification v9 Released",
+    "sanitized": "Ardalis Specification v9 Released"
+  },
+  {
+    "itemId": "https://ardalis.com/2024-year-in-review/",
+    "raw": "2024 Year In Review",
+    "sanitized": "2024 Year In Review"
+  },
+  {
+    "itemId": "https://ardalis.com/when-qa-keeps-finding-bugs/",
+    "raw": "When QA Keeps Finding Bugs",
+    "sanitized": "When QA Keeps Finding Bugs"
+  },
+  {
     "itemId": "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
     "raw": "Avoid Using C# Events in ASP.NET Core Applications",
     "sanitized": "Avoid Using C# Events in ASP.NET Core Applications"
@@ -33,20 +48,5 @@
     "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
     "raw": "Effectively Sharing Resources Between Modules in a Modular Monolith",
     "sanitized": "Effectively Sharing Resources Between Modules in a Modular Monolith"
-  },
-  {
-    "itemId": "https://ardalis.com/clean-architecture-sucks/",
-    "raw": "Clean Architecture Sucks",
-    "sanitized": "Clean Architecture Sucks"
-  },
-  {
-    "itemId": "https://ardalis.com/technology-edges-bleeding-leading-rusting/",
-    "raw": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting",
-    "sanitized": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting"
-  },
-  {
-    "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
-    "raw": "Stop Debugging and Start Running in Visual Studio",
-    "sanitized": "Stop Debugging and Start Running in Visual Studio"
   }
 ]

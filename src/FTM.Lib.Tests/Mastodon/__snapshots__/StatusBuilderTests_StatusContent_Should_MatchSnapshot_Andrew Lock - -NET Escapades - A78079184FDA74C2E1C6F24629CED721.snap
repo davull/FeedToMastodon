@@ -1,0 +1,5 @@
+﻿Preventing client-side cross-site-scripting vulnerabilities with Trusted Types
+
+In this post I describe how the Trusted Types Content-Security-Policy feature can protect you against cross-site-scripting attacks.
+---
+https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/

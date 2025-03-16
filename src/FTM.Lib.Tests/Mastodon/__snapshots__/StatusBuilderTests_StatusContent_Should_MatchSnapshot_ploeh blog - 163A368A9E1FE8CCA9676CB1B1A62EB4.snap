@@ -1,8 +1,0 @@
-﻿Implementation and usage mindsets
-
-A one-dimensional take on the enduring static-versus-dynamic debate.
-    
-    
-        It recently occurred to me that one possible explanation for the standing, and probably never-ending, debate about static versus dynamic types may be that each camp have disjoint perspectives on the kinds of problems their favourite languages help them solve. In short, my hypothesis is that perhaps lovers of dynamically-typed languages often...
----
-https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets/

@@ -1,5 +1,45 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
+    "raw": "Home Assistant officially Matters",
+    "sanitized": "Home Assistant officially Matters"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/05/release-20253",
+    "raw": "2025.3: View those headers!",
+    "sanitized": "2025.3: View those headers!"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/05/music-assistants-next-big-hit",
+    "raw": "Music Assistant's next big hit",
+    "sanitized": "Music Assistant's next big hit"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha",
+    "raw": "Apollo joins the Works With Home Assistant Program",
+    "sanitized": "Apollo joins the Works With Home Assistant Program"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/13/voice-chapter-9-speech-to-phrase",
+    "raw": "Speech-to-Phrase brings voice home - Voice chapter 9",
+    "sanitized": "Speech-to-Phrase brings voice home - Voice chapter 9"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/05/release-20252",
+    "raw": "2025.2: Iterating on backups",
+    "sanitized": "2025.2: Iterating on backups"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup",
+    "raw": "3…2…1… Backup",
+    "sanitized": "3…2…1… Backup"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/01/03/release-20251",
+    "raw": "2025.1: Backing Up into 2025!",
+    "sanitized": "2025.1: Backing Up into 2025!"
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
     "raw": "The era of open voice assistants has arrived",
     "sanitized": "The era of open voice assistants has arrived"
@@ -58,45 +98,5 @@
     "itemId": "https://www.home-assistant.io/blog/2024/10/02/release-202410",
     "raw": "2024.10: Heading in the right direction",
     "sanitized": "2024.10: Heading in the right direction"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/24/we-are-joining-the-z-wave-alliance-board",
-    "raw": "We are joining the Z-Wave Alliance Board",
-    "sanitized": "We are joining the Z-Wave Alliance Board"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/18/home-assistant-is-11-years-old",
-    "raw": "Home Assistant is 11 years old!",
-    "sanitized": "Home Assistant is 11 years old!"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/16/getting-ready-for-ios18",
-    "raw": "Companion App for iOS 2024.9: Getting ready for iOS 18",
-    "sanitized": "Companion App for iOS 2024.9: Getting ready for iOS 18"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/04/release-20249",
-    "raw": "2024.9: Sections go BIG",
-    "sanitized": "2024.9: Sections go BIG"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/03/aqara-joins-works-with-home-assistant",
-    "raw": "Aqara joins Works with Home Assistant",
-    "sanitized": "Aqara joins Works with Home Assistant"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects",
-    "raw": "HACS 2.0 - The best way to share community-made projects just got better",
-    "sanitized": "HACS 2.0 - The best way to share community-made projects just got better"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf",
-    "raw": "Works with Home Assistant becomes part of the Open Home Foundation",
-    "sanitized": "Works with Home Assistant becomes part of the Open Home Foundation"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/07/release-20248",
-    "raw": "2024.8: Beautiful badges!",
-    "sanitized": "2024.8: Beautiful badges!"
   }
 ]

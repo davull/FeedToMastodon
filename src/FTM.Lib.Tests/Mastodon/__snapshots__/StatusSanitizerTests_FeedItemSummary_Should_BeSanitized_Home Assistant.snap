@@ -1,5 +1,45 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/05/release-20253",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/05/music-assistants-next-big-hit",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/13/voice-chapter-9-speech-to-phrase",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/02/05/release-20252",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/01/03/release-20251",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
     "raw": null,
     "sanitized": null
@@ -56,46 +96,6 @@
   },
   {
     "itemId": "https://www.home-assistant.io/blog/2024/10/02/release-202410",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/24/we-are-joining-the-z-wave-alliance-board",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/18/home-assistant-is-11-years-old",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/16/getting-ready-for-ios18",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/04/release-20249",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/09/03/aqara-joins-works-with-home-assistant",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/08/07/release-20248",
     "raw": null,
     "sanitized": null
   }

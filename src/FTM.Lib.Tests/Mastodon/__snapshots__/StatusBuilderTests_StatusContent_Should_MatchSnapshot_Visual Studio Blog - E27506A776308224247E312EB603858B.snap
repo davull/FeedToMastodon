@@ -1,5 +1,0 @@
-﻿Security updates to Azure publishing from Visual Studio
-
-Visual Studio 2022 introduces a new feature to improve the security of publishing applications to Azure App Service. This feature is designed to disable Basic Authentication and enable integrated security for a more secure publishing process. Basic Authentication has been identified as a less secure method for managing app deployments. Visual Studio 2022 addresses this ...
----
-https://devblogs.microsoft.com/visualstudio/security-updates-to-azure-publishing-from-visual-studio/

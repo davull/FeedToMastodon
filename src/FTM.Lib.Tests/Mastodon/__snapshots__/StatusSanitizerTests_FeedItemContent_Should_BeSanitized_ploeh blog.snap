@@ -1,51 +1,51 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/30/pytest-is-fast",
+    "itemId": "https://blog.ploeh.dk/2025/03/10/appeal-to-aithority",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/23/implementing-rod-cutting",
+    "itemId": "https://blog.ploeh.dk/2025/03/03/reactive-monad",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/16/a-restaurant-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/02/24/easier-encapsulation-with-static-types",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets",
+    "itemId": "https://blog.ploeh.dk/2025/02/17/in-defence-of-multiple-wip",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/02/short-circuiting-an-asynchronous-traversal",
+    "itemId": "https://blog.ploeh.dk/2025/02/10/geographic-hulls",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/25/nested-monads",
+    "itemId": "https://blog.ploeh.dk/2025/02/03/modelling-data-relationships-with-c-types",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/18/collecting-and-handling-result-values",
+    "itemId": "https://blog.ploeh.dk/2025/01/27/dependency-inversion-without-inversion-of-control",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/11/traversals",
+    "itemId": "https://blog.ploeh.dk/2025/01/20/modelling-data-relationships-with-f-types",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/04/pendulum-swing-no-haskell-type-annotation-by-default",
+    "itemId": "https://blog.ploeh.dk/2025/01/13/recawr-sandwich",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/10/28/functor-compositions",
+    "itemId": "https://blog.ploeh.dk/2025/01/06/encapsulating-rod-cutting",
     "raw": null,
     "sanitized": null
   }
