@@ -2,7 +2,9 @@
   {
     "Title": "feed1",
     "FeedUri": "http://example.com/feed1",
-    "SummarySeparator": "",
+    "SummarySeparators": [
+      ""
+    ],
     "MastodonServer": "https://mastodon.social",
     "MastodonAccessToken": "1234567890",
     "WorkerLoopDelay": null
@@ -10,7 +12,10 @@
   {
     "Title": "feed2",
     "FeedUri": "http://example.com/feed2?format=rss#tag=test",
-    "SummarySeparator": "[...]",
+    "SummarySeparators": [
+      "[...]",
+      "\nThePost"
+    ],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz",
     "WorkerLoopDelay": null
@@ -18,7 +23,9 @@
   {
     "Title": "feed3",
     "FeedUri": "http://example.com/feed3",
-    "SummarySeparator": "\nZum Beitrag",
+    "SummarySeparators": [
+      "\nZum Beitrag"
+    ],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",
     "WorkerLoopDelay": "01:30:10"

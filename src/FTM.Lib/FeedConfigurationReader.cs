@@ -28,7 +28,7 @@ public static class FeedConfigurationReader
     {
         var title = section.SectionName;
         var feedUri = ReadFeedUrl();
-        var summarySeparator = ReadSummarySeparator();
+        var summarySeparator = ReadSummarySeparators();
         var mastodonServer = ReadRequiredProperty("mastodon_server");
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
         var workerLoopDelay = ReadWorkerLoopDelay();
@@ -59,10 +59,13 @@ public static class FeedConfigurationReader
             return parsedFeedUri;
         }
 
-        string ReadSummarySeparator()
+        string[] ReadSummarySeparators()
         {
-            var s = section.Keys["summary_separator"] ?? string.Empty;
-            return s.Replace("\\n", "\n");
+            var sep = section.Keys["summary_separator"] ?? string.Empty;
+            return sep
+                .Split(FeedConfigurationIniParser.ConcatenateSeparator)
+                .Select(s => s.Replace("\\n", "\n"))
+                .ToArray();
         }
 
         TimeSpan? ReadWorkerLoopDelay()
