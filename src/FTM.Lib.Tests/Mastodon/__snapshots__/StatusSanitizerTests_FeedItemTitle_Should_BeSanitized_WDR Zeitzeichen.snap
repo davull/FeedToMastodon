@@ -1,5 +1,365 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20250316_012ff010.mp3",
+    "raw": "Selma Lagerlöf: Erste Frau mit Literaturnobelpreis",
+    "sanitized": "Selma Lagerlöf: Erste Frau mit Literaturnobelpreis"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250315_e1f26a82.mp3",
+    "raw": "Wie ein Generalstreik Deutschlands Demokratie rettet",
+    "sanitized": "Wie ein Generalstreik Deutschlands Demokratie rettet"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250314_da04c973.mp3",
+    "raw": "Wie Viktor Emanuel II. zum ersten König von Italien wurde",
+    "sanitized": "Wie Viktor Emanuel II. zum ersten König von Italien wurde"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250313_861a817a.mp3",
+    "raw": "Vorreiterin der deutschen Frauenbewegung: Luise Otto-Peters",
+    "sanitized": "Vorreiterin der deutschen Frauenbewegung: Luise Otto-Peters"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250312_711a4341.mp3",
+    "raw": "Salzkörner, die ein Weltreich erschüttern: Gandhis Salzmarsch",
+    "sanitized": "Salzkörner, die ein Weltreich erschüttern: Gandhis Salzmarsch"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250311_1baad19f.mp3",
+    "raw": "Die Neuseelandkriege: Die Kämpfe der Maori um Land und Freiheit",
+    "sanitized": "Die Neuseelandkriege: Die Kämpfe der Maori um Land und Freiheit"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250310_a2c2b412.mp3",
+    "raw": "Erster Punischer Krieg: Rom versenkt Karthagos Flotte",
+    "sanitized": "Erster Punischer Krieg: Rom versenkt Karthagos Flotte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250309_3e2709bd.mp3",
+    "raw": "Sigmund Freuds Neffe: Der US-Propagandist Edward L. Bernays",
+    "sanitized": "Sigmund Freuds Neffe: Der US-Propagandist Edward L. Bernays"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250308_d5a19f4c.mp3",
+    "raw": "Späte Berühmtheit dank Fassbinder: Schauspielerin Brigitte Mira",
+    "sanitized": "Späte Berühmtheit dank Fassbinder: Schauspielerin Brigitte Mira"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250307_dc82968a.mp3",
+    "raw": "US-Soldaten erobern die Brücke von Remagen",
+    "sanitized": "US-Soldaten erobern die Brücke von Remagen"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250306_c6aa86ed.mp3",
+    "raw": "Eiskalte Revolution: Beginn der Tiefkühlkost-Ära",
+    "sanitized": "Eiskalte Revolution: Beginn der Tiefkühlkost-Ära"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250305_8ef79f8c.mp3",
+    "raw": "Von der Kunst zur Macht: Cosimo I. de Medici",
+    "sanitized": "Von der Kunst zur Macht: Cosimo I. de Medici"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250304_985fea41.mp3",
+    "raw": "Vom Fusel zum Qualitätswein? Das Weinpanscherurteil",
+    "sanitized": "Vom Fusel zum Qualitätswein? Das Weinpanscherurteil"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250303_b74d0ba7.mp3",
+    "raw": "Queen Elizabeth: Von der Werft direkt in den Krieg",
+    "sanitized": "Queen Elizabeth: Von der Werft direkt in den Krieg"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250302_d62f9eb6.mp3",
+    "raw": "Vor Rosa Parks gegen Rassentrennung im Bus: Claudette Colvin",
+    "sanitized": "Vor Rosa Parks gegen Rassentrennung im Bus: Claudette Colvin"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250301_66216626.mp3",
+    "raw": "The Lone Star State: Wie Texas Teil der USA wurde",
+    "sanitized": "The Lone Star State: Wie Texas Teil der USA wurde"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250228_f56e716f.mp3",
+    "raw": "Henry Every erklärt sich 1695 zum Piraten",
+    "sanitized": "Henry Every erklärt sich 1695 zum Piraten"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250227_f99b46c9.mp3",
+    "raw": "Märchenhaft: der iranische Schah und Kaiserin Soraya in Bonn",
+    "sanitized": "Märchenhaft: der iranische Schah und Kaiserin Soraya in Bonn"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250226_dc6a8dfc.mp3",
+    "raw": "Ein Kämpfer für die Arbeiterrechte: Hans Böckler",
+    "sanitized": "Ein Kämpfer für die Arbeiterrechte: Hans Böckler"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250225_1c38b629.mp3",
+    "raw": "Daoguang: chinesischer Kaiser des Untergangs",
+    "sanitized": "Daoguang: chinesischer Kaiser des Untergangs"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250224_3c79c28e.mp3",
+    "raw": "Henry Cavendish: Der Mann, der die Welt wog",
+    "sanitized": "Henry Cavendish: Der Mann, der die Welt wog"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250223_640d88f1.mp3",
+    "raw": "Filmkomiker-Legende Stan Laurel: Großmeister des Slapstick",
+    "sanitized": "Filmkomiker-Legende Stan Laurel: Großmeister des Slapstick"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250222_56add826.mp3",
+    "raw": "Mittelalterkrimi: Die Kammerfrau, die Ungarns Krone stiehlt",
+    "sanitized": "Mittelalterkrimi: Die Kammerfrau, die Ungarns Krone stiehlt"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250221_54a883ea.mp3",
+    "raw": "Urban, anspruchsvoll, hip: Das Magazin \"The New Yorker\"",
+    "sanitized": "Urban, anspruchsvoll, hip: Das Magazin \"The New Yorker\""
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250220_52ca1c96.mp3",
+    "raw": "Subiaco: der römische Staudamm, der (fast) ewig hielt",
+    "sanitized": "Subiaco: der römische Staudamm, der (fast) ewig hielt"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250219_10f43384.mp3",
+    "raw": "George Bridgetower: Der Mann hinter Beethovens Kreutzer-Sonate",
+    "sanitized": "George Bridgetower: Der Mann hinter Beethovens Kreutzer-Sonate"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250218_b5c7ba61.mp3",
+    "raw": "Robert R. Jenkins: Der Amerikaner, der nach Nordkorea floh",
+    "sanitized": "Robert R. Jenkins: Der Amerikaner, der nach Nordkorea floh"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250217_52f82951.mp3",
+    "raw": "Die falsche Zarentochter: Geburt der Anastasia-Legende",
+    "sanitized": "Die falsche Zarentochter: Geburt der Anastasia-Legende"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250216_3fd49a8c.mp3",
+    "raw": "Brutal und erfolgreich wie Dschingis Khan: Timur Lenk",
+    "sanitized": "Brutal und erfolgreich wie Dschingis Khan: Timur Lenk"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250215_738573da.mp3",
+    "raw": "Fahrrad und Feminismus: die irische Pädagogin Sophie Bryant",
+    "sanitized": "Fahrrad und Feminismus: die irische Pädagogin Sophie Bryant"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250214_c82db7af.mp3",
+    "raw": "Liebe und Legende: Die Geschichte des Valentinstages",
+    "sanitized": "Liebe und Legende: Die Geschichte des Valentinstages"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250213_9300a32b.mp3",
+    "raw": "\"Black Sabbath\": Das Album, das den Heavy Metal erschuf",
+    "sanitized": "\"Black Sabbath\": Das Album, das den Heavy Metal erschuf"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250212_14507d6b.mp3",
+    "raw": "Als Charlie Brown seinen Vater verlor (am 12.02.2000)",
+    "sanitized": "Als Charlie Brown seinen Vater verlor (am 12.02.2000)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250211_a219458a.mp3",
+    "raw": "Befreite Frauenbeine: Mary Quant \"erfindet\" den Minirock",
+    "sanitized": "Befreite Frauenbeine: Mary Quant \"erfindet\" den Minirock"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250210_d33612b3.mp3",
+    "raw": "Oxford versinkt in blutigen Krawallen: War das Bier schuld?",
+    "sanitized": "Oxford versinkt in blutigen Krawallen: War das Bier schuld?"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250209_b8692d96.mp3",
+    "raw": "Johann C. Godeffroy: Gründer völkerkundlicher Museen",
+    "sanitized": "Johann C. Godeffroy: Gründer völkerkundlicher Museen"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250208_756fe005.mp3",
+    "raw": "Blaue Pferde, neue Kunst: Franz Marc (geb. am 8.2.1880)",
+    "sanitized": "Blaue Pferde, neue Kunst: Franz Marc (geb. am 8.2.1880)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250207_08f3b6bf.mp3",
+    "raw": "Im Namen der \"Ehre\": Der Mord an Hatun Sürücü",
+    "sanitized": "Im Namen der \"Ehre\": Der Mord an Hatun Sürücü"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250206_6b44b5a9.mp3",
+    "raw": "\"Lex Heinze\": wie ein Kriminalfall zum Kulturkampf führte",
+    "sanitized": "\"Lex Heinze\": wie ein Kriminalfall zum Kulturkampf führte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250205_09d52f81.mp3",
+    "raw": "Wie ein Reifen die Welt verändert: John Dunlop (geb. 5.2.1840)",
+    "sanitized": "Wie ein Reifen die Welt verändert: John Dunlop (geb. 5.2.1840)"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250204_b990948b.mp3",
+    "raw": "Tod vor der Premiere der Broadway-Revolution: Jonathan Larson",
+    "sanitized": "Tod vor der Premiere der Broadway-Revolution: Jonathan Larson"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250203_7d4da77d.mp3",
+    "raw": "Henry Moule und die Erfindung der Trockentoilette",
+    "sanitized": "Henry Moule und die Erfindung der Trockentoilette"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250202_0af2c3b0.mp3",
+    "raw": "Wie eine Hundeschlittenstaffel eine ganze Stadt rettete",
+    "sanitized": "Wie eine Hundeschlittenstaffel eine ganze Stadt rettete"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250201_d09870b1.mp3",
+    "raw": "Bernard Altum: der Vogelkundler und sein Lebenswerk",
+    "sanitized": "Bernard Altum: der Vogelkundler und sein Lebenswerk"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250131_334f9c1b.mp3",
+    "raw": "Tatort 1910: Der Fall Cora Crippen und die moderne Technik",
+    "sanitized": "Tatort 1910: Der Fall Cora Crippen und die moderne Technik"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250130_6dfe6143.mp3",
+    "raw": "Das Kultspielzeug der 80er: Ernö Rubiks Zauberwürfel",
+    "sanitized": "Das Kultspielzeug der 80er: Ernö Rubiks Zauberwürfel"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250129_872e3b6d.mp3",
+    "raw": "Die Vermessung des Universums: Astronom Claudius Ptolemäus",
+    "sanitized": "Die Vermessung des Universums: Astronom Claudius Ptolemäus"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250128_1a7f60f6.mp3",
+    "raw": "Pornografie: Von Schlüpferstürmern und Schmuddel-DVDs",
+    "sanitized": "Pornografie: Von Schlüpferstürmern und Schmuddel-DVDs"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250127_48e264ce.mp3",
+    "raw": "Ende der Todesfabrik: Die Rote Armee befreit Auschwitz",
+    "sanitized": "Ende der Todesfabrik: Die Rote Armee befreit Auschwitz"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250126_ea9e415c.mp3",
+    "raw": "Dirndl, Berge und Sound of Music: die Musikerin Maria von Trapp",
+    "sanitized": "Dirndl, Berge und Sound of Music: die Musikerin Maria von Trapp"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250125_46475757.mp3",
+    "raw": "Die starke Frau hinter dem Propheten Mohammed: Khadija",
+    "sanitized": "Die starke Frau hinter dem Propheten Mohammed: Khadija"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250124_5663c47e.mp3",
+    "raw": "Vom Versager zum Retter vor den Nazis: Winston Churchill",
+    "sanitized": "Vom Versager zum Retter vor den Nazis: Winston Churchill"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250123_59f90c28.mp3",
+    "raw": "Der Mann, der Europa den Jazz brachte: Django Reinhardt",
+    "sanitized": "Der Mann, der Europa den Jazz brachte: Django Reinhardt"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250122_4874c1a8.mp3",
+    "raw": "Petersburger Blutsonntag: Der Tag, der Russland veränderte",
+    "sanitized": "Petersburger Blutsonntag: Der Tag, der Russland veränderte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250121_c2fcfb7b.mp3",
+    "raw": "George Orwell: Der Mann hinter \"1984\" und \"Farm der Tiere\"",
+    "sanitized": "George Orwell: Der Mann hinter \"1984\" und \"Farm der Tiere\""
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250120_37f5e665.mp3",
+    "raw": "Rausch ohne Drogen: Achterbahn wird patentiert",
+    "sanitized": "Rausch ohne Drogen: Achterbahn wird patentiert"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250119_8d719054.mp3",
+    "raw": "Tagsüber Hollywooddiva, nachts Erfinderin: Hedy Lamarr",
+    "sanitized": "Tagsüber Hollywooddiva, nachts Erfinderin: Hedy Lamarr"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250118_9eb1336e.mp3",
+    "raw": "Die \"Hakenkreuzwelle\" in Deutschland",
+    "sanitized": "Die \"Hakenkreuzwelle\" in Deutschland"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250117_7e6fa982.mp3",
+    "raw": "Kaffee in Wien: Das schwarze Gold der Osmanen",
+    "sanitized": "Kaffee in Wien: Das schwarze Gold der Osmanen"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250116_a64a0cb2.mp3",
+    "raw": "Eleanor Marx: Karls starke Erbin",
+    "sanitized": "Eleanor Marx: Karls starke Erbin"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250115_eb3abb77.mp3",
+    "raw": "Vom Wüstenführer zum König des Öls: Ibn Saud",
+    "sanitized": "Vom Wüstenführer zum König des Öls: Ibn Saud"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250114_6833c8d3.mp3",
+    "raw": "Mäzenin, Frauenrechtlerin, Influencerin: Ida Dehmel",
+    "sanitized": "Mäzenin, Frauenrechtlerin, Influencerin: Ida Dehmel"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250113_c83166ef.mp3",
+    "raw": "Das älteste Lied der Welt: Die \"Hymne an Nikkal\"",
+    "sanitized": "Das älteste Lied der Welt: Die \"Hymne an Nikkal\""
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250112_90c98ba2.mp3",
+    "raw": "Als Ketzer verfolgt, bis heute gelesen: Meister Eckhart",
+    "sanitized": "Als Ketzer verfolgt, bis heute gelesen: Meister Eckhart"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250111_fddaf676.mp3",
+    "raw": "Max Lorenz: Der Tenor, der Hitler trotzte",
+    "sanitized": "Max Lorenz: Der Tenor, der Hitler trotzte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250110_2dd6b007.mp3",
+    "raw": "John D. Rockefeller und die Quelle seines legendären Reichtums",
+    "sanitized": "John D. Rockefeller und die Quelle seines legendären Reichtums"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250109_7871d81d.mp3",
+    "raw": "Der ewige König von Deutschland - Geburtstag von Rio Reiser",
+    "sanitized": "Der ewige König von Deutschland - Geburtstag von Rio Reiser"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250108_d818d5ea.mp3",
+    "raw": "Boudicca: Wie die keltische Rebellin London niederbrannte",
+    "sanitized": "Boudicca: Wie die keltische Rebellin London niederbrannte"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250107_645f73ca.mp3",
+    "raw": "Inês de Castro: die Tote, die Königin von Portugal wurde",
+    "sanitized": "Inês de Castro: die Tote, die Königin von Portugal wurde"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250106_a57a19fe.mp3",
+    "raw": "Es war einmal ein übersehener Märchenbruder: Ferdinand Grimm",
+    "sanitized": "Es war einmal ein übersehener Märchenbruder: Ferdinand Grimm"
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250105_7cbecd79.mp3",
+    "raw": "John Rabe: \"Der gute Deutsche von Nanking\"",
+    "sanitized": "John Rabe: \"Der gute Deutsche von Nanking\""
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250104_1026054a.mp3",
+    "raw": "Victor Lustig: Der Hochstapler, der den Eiffelturm verkaufte",
+    "sanitized": "Victor Lustig: Der Hochstapler, der den Eiffelturm verkaufte"
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20250103_27047eac.mp3",
     "raw": "Vom Wiener Salon in die Savanne: Löwenforscherin Joy Adamson",
     "sanitized": "Vom Wiener Salon in die Savanne: Löwenforscherin Joy Adamson"
@@ -71,8 +431,8 @@
   },
   {
     "itemId": "/wdr_zeitzeichen_20241220_fdd70166.mp3",
-    "raw": "Stanley Milgrams Experiment: Der Mann, der wie Welt schockte",
-    "sanitized": "Stanley Milgrams Experiment: Der Mann, der wie Welt schockte"
+    "raw": "Stanley Milgrams Experiment: Der Mann, der die Welt schockte",
+    "sanitized": "Stanley Milgrams Experiment: Der Mann, der die Welt schockte"
   },
   {
     "itemId": "/wdr_zeitzeichen_20241219_6d7541a3.mp3",
@@ -2638,365 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20230727_9d0c2a3f.mp3",
     "raw": "Berühmte Märchenerzählerin: Elsa Sophia von Kamphoevener",
     "sanitized": "Berühmte Märchenerzählerin: Elsa Sophia von Kamphoevener"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230726_24fc8209.mp3",
-    "raw": "Er revolutionierte das Kino: Regie-Legende Stanley Kubrick",
-    "sanitized": "Er revolutionierte das Kino: Regie-Legende Stanley Kubrick"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230725_9fbb9b18.mp3",
-    "raw": "Zeitgesetz von 1978: Vom Sinn und Unsinn der Zeitumstellung",
-    "sanitized": "Zeitgesetz von 1978: Vom Sinn und Unsinn der Zeitumstellung"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230724_9ebb9a1a.mp3",
-    "raw": "Auf der Flucht: Revolutionär Leo Trotzki erreicht Marseille",
-    "sanitized": "Auf der Flucht: Revolutionär Leo Trotzki erreicht Marseille"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230723_ecbb991c.mp3",
-    "raw": "Der Bürgerkrieg in Sri Lanka: Tiefe Wunden im Urlaubsparadies",
-    "sanitized": "Der Bürgerkrieg in Sri Lanka: Tiefe Wunden im Urlaubsparadies"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230722_bdbb9c1e.mp3",
-    "raw": "Ein Vordenker für die Realschule: Der Pädagoge Heinrich Gräfe",
-    "sanitized": "Ein Vordenker für die Realschule: Der Pädagoge Heinrich Gräfe"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230721_01bb9c20.mp3",
-    "raw": "Yusuf/Cat Stevens wird 75!",
-    "sanitized": "Yusuf/Cat Stevens wird 75!"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230720_23bb9b23.mp3",
-    "raw": "\"Be water, my friend\": Die Kampfkunst-Ikone Bruce Lee",
-    "sanitized": "\"Be water, my friend\": Die Kampfkunst-Ikone Bruce Lee"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230719_527f1b4a.mp3",
-    "raw": "Erst Kriegsgefangener, dann Torwartlegende: Bert Trautmann",
-    "sanitized": "Erst Kriegsgefangener, dann Torwartlegende: Bert Trautmann"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230718_906ed996.mp3",
-    "raw": "Heiligsprechung des Thomas von Aquin: Der Kant des Mittelalters",
-    "sanitized": "Heiligsprechung des Thomas von Aquin: Der Kant des Mittelalters"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230717_4d61402e.mp3",
-    "raw": "Von Drachen, Legenden, Technikwundern: Die Drachenfelsbahn",
-    "sanitized": "Von Drachen, Legenden, Technikwundern: Die Drachenfelsbahn"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230716_c4406ef6.mp3",
-    "raw": "Einsamer Nazi-Jäger: Der Jurist Fritz Bauer",
-    "sanitized": "Einsamer Nazi-Jäger: Der Jurist Fritz Bauer"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230715_0969d528.mp3",
-    "raw": "Als Europas Wein starb: Die \"Reblauskrise\"",
-    "sanitized": "Als Europas Wein starb: Die \"Reblauskrise\""
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230714_8e644c60.mp3",
-    "raw": "Die Osmanen belagern Wien (ab dem 14.7.1683)",
-    "sanitized": "Die Osmanen belagern Wien (ab dem 14.7.1683)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230713_dd482287.mp3",
-    "raw": "Prinzenraub von Wiesbaden: Rosenkrieg beim serbischen König",
-    "sanitized": "Prinzenraub von Wiesbaden: Rosenkrieg beim serbischen König"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230712_77b254e3.mp3",
-    "raw": "Hitze messen, Wein kühlen: Beginn der Wettermessung (12.7.1613)",
-    "sanitized": "Hitze messen, Wein kühlen: Beginn der Wettermessung (12.7.1613)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230711_64109295.mp3",
-    "raw": "Geburtstag von John Wanamaker: Pionier des modernen Marketings",
-    "sanitized": "Geburtstag von John Wanamaker: Pionier des modernen Marketings"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230710_81b254e8.mp3",
-    "raw": "Die Entführung von Jean Paul Getty III. (am 10.7.1973)",
-    "sanitized": "Die Entführung von Jean Paul Getty III. (am 10.7.1973)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230709_cdb257ed.mp3",
-    "raw": "Steven Langton, Theologe und Befürworter der \"Magna Charta\"",
-    "sanitized": "Steven Langton, Theologe und Befürworter der \"Magna Charta\""
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230708_7db254f2.mp3",
-    "raw": "Pastor, Pirat, Genie? Karl Gützlaff, China-Missionar",
-    "sanitized": "Pastor, Pirat, Genie? Karl Gützlaff, China-Missionar"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230707_4db254f6.mp3",
-    "raw": "Vater der Rationalisierung: Frank B. Gilbreth (Geb. am 7.7.1868)",
-    "sanitized": "Vater der Rationalisierung: Frank B. Gilbreth (Geb. am 7.7.1868)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230706_ecb257fb.mp3",
-    "raw": "Geburtstag von Helene Wessel, einer der Mütter des Grundgesetzes",
-    "sanitized": "Geburtstag von Helene Wessel, einer der Mütter des Grundgesetzes"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230705_ccf8552f.mp3",
-    "raw": "Gründung des Deutsch-Französischen Jugendwerks (am 5.7.1963)",
-    "sanitized": "Gründung des Deutsch-Französischen Jugendwerks (am 5.7.1963)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230704_22f85832.mp3",
-    "raw": "Papst Clemens schützt Juden vor den Pest-Pogromen von 1348",
-    "sanitized": "Papst Clemens schützt Juden vor den Pest-Pogromen von 1348"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230703_9ef85634.mp3",
-    "raw": "Die Schlacht von Gettysburg: Anfang vom Ende des US-Bürgerkriegs",
-    "sanitized": "Die Schlacht von Gettysburg: Anfang vom Ende des US-Bürgerkriegs"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230702_dbf85837.mp3",
-    "raw": "Geschichten für eine bessere Welt: Lisa Tetzner (+ 2.7.1963)",
-    "sanitized": "Geschichten für eine bessere Welt: Lisa Tetzner (+ 2.7.1963)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230701_a1f85639.mp3",
-    "raw": "Ignaz Semmelweis, Arzt und \"Retter der Mütter\" (Geb., 1.7.1818)",
-    "sanitized": "Ignaz Semmelweis, Arzt und \"Retter der Mütter\" (Geb., 1.7.1818)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230630_85f8583b.mp3",
-    "raw": "Sie gilt als Erfinderin der Currywurst: Herta Heuwer",
-    "sanitized": "Sie gilt als Erfinderin der Currywurst: Herta Heuwer"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230629_429c9040.mp3",
-    "raw": "Brand zerstört Shakespeares Globe Theatre in London (29.6.1613)",
-    "sanitized": "Brand zerstört Shakespeares Globe Theatre in London (29.6.1613)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230628_cd9c9243.mp3",
-    "raw": "General und Militärreformer Preußens: Gerhard von Scharnhorst",
-    "sanitized": "General und Militärreformer Preußens: Gerhard von Scharnhorst"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230627_229b638b.mp3",
-    "raw": "Unaufklärbar? Der Skandal-Einsatz von Bad Kleinen (am 27.6.1993)",
-    "sanitized": "Unaufklärbar? Der Skandal-Einsatz von Bad Kleinen (am 27.6.1993)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230626_929c9045.mp3",
-    "raw": "Riesige Erdzeichnung in Australien: Das Rätsel des \"Marree Man\"",
-    "sanitized": "Riesige Erdzeichnung in Australien: Das Rätsel des \"Marree Man\""
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230625_319c9347.mp3",
-    "raw": "Berliner Luftbrücke wird beschlossen (am 25.6.1948)",
-    "sanitized": "Berliner Luftbrücke wird beschlossen (am 25.6.1948)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230624_cd9c964a.mp3",
-    "raw": "Vom Bauern zum ersten Ming-Kaiser: Hongwu (gest. 24.6.1398)",
-    "sanitized": "Vom Bauern zum ersten Ming-Kaiser: Hongwu (gest. 24.6.1398)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230623_479c954d.mp3",
-    "raw": "Alles über die Alpen: Der Naturforscher Johann Jakob Scheuchzer",
-    "sanitized": "Alles über die Alpen: Der Naturforscher Johann Jakob Scheuchzer"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230622_559c974f.mp3",
-    "raw": "Geburtstag von Erich Maria Remarque (am 22.6.1898)",
-    "sanitized": "Geburtstag von Erich Maria Remarque (am 22.6.1898)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230621_6baffd9b.mp3",
-    "raw": "Schande von Lens: Hooligan-Angriff auf Daniel Nivel",
-    "sanitized": "Schande von Lens: Hooligan-Angriff auf Daniel Nivel"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230620_39affca2.mp3",
-    "raw": "Eine Frau wie ein Stolperstein: Frauenrechtlerin Clara Zetkin",
-    "sanitized": "Eine Frau wie ein Stolperstein: Frauenrechtlerin Clara Zetkin"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230619_d626a721.mp3",
-    "raw": "\"Atomspione\" in den USA hingerichtet: Julius und Ethel Rosenberg",
-    "sanitized": "\"Atomspione\" in den USA hingerichtet: Julius und Ethel Rosenberg"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230618_68afffaa.mp3",
-    "raw": "Goethe kehrt von seiner italienischen Reise nach Weimar zurück",
-    "sanitized": "Goethe kehrt von seiner italienischen Reise nach Weimar zurück"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230617_39affeaf.mp3",
-    "raw": "Gescheiterte Revolution: Der Aufstand vom 17. Juni 1953",
-    "sanitized": "Gescheiterte Revolution: Der Aufstand vom 17. Juni 1953"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230616_daaffdb5.mp3",
-    "raw": "Schwedens Kriegstreiber: Axel Oxenstierna (Geb. am 16.6.1583)",
-    "sanitized": "Schwedens Kriegstreiber: Axel Oxenstierna (Geb. am 16.6.1583)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230615_9591a7c7.mp3",
-    "raw": "Legendäres Troja: Heinrich Schliemann schließt Ausgrabungen ab",
-    "sanitized": "Legendäres Troja: Heinrich Schliemann schließt Ausgrabungen ab"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230614_a2ebbbe5.mp3",
-    "raw": "\"Als Hitler das rosa Kaninchen stahl\": Geburtstag von Judith Kerr",
-    "sanitized": "\"Als Hitler das rosa Kaninchen stahl\": Geburtstag von Judith Kerr"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230613_70a6e864.mp3",
-    "raw": "A beautiful mind: Der Mathematiker John Nash (Geb. am 13.6.1928)",
-    "sanitized": "A beautiful mind: Der Mathematiker John Nash (Geb. am 13.6.1928)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230612_a2a6e768.mp3",
-    "raw": "Erster Dopingtoter der BRD: Der Boxer Jupp Elze",
-    "sanitized": "Erster Dopingtoter der BRD: Der Boxer Jupp Elze"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230611_0aa6e76c.mp3",
-    "raw": "Napoleon zwingt die Malteser zur Kapitulation (am 11.6.1798)",
-    "sanitized": "Napoleon zwingt die Malteser zur Kapitulation (am 11.6.1798)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230610_01a6e771.mp3",
-    "raw": "Alexander der Große stirbt an Fieber (am 10.6.323 v. Chr.)",
-    "sanitized": "Alexander der Große stirbt an Fieber (am 10.6.323 v. Chr.)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230609_bca6ea75.mp3",
-    "raw": "Zwischen Redekunst und Fußball: Walter Jens starb vor 10 Jahren",
-    "sanitized": "Zwischen Redekunst und Fußball: Walter Jens starb vor 10 Jahren"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230608_8ca6ea7b.mp3",
-    "raw": "Die Wikinger überfallen das englische Inselkloster Lindisfarne",
-    "sanitized": "Die Wikinger überfallen das englische Inselkloster Lindisfarne"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230607_43b8f982.mp3",
-    "raw": "Neues Sexualstrafrecht: Selbstbestimmung statt \"Sittlichkeit\"",
-    "sanitized": "Neues Sexualstrafrecht: Selbstbestimmung statt \"Sittlichkeit\""
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230606_61b8f986.mp3",
-    "raw": "Von Mozart bis Nirvana: Die deutsche Arche Noah der Musik",
-    "sanitized": "Von Mozart bis Nirvana: Die deutsche Arche Noah der Musik"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230605_c2b8f98b.mp3",
-    "raw": "Callgirl-Skandal im Kalten Krieg: Die Profumo-Affäre",
-    "sanitized": "Callgirl-Skandal im Kalten Krieg: Die Profumo-Affäre"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230604_afb8fa90.mp3",
-    "raw": "Rekordfahrt mit der Droschke: \"Eiserner Gustav\" erreicht Paris",
-    "sanitized": "Rekordfahrt mit der Droschke: \"Eiserner Gustav\" erreicht Paris"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230603_f6fb3205.mp3",
-    "raw": "\"Leben einzeln und frei\": Todestag des Dichters Nazim Hikmet",
-    "sanitized": "\"Leben einzeln und frei\": Todestag des Dichters Nazim Hikmet"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230602_06b8f795.mp3",
-    "raw": "Kaiser für 66 Tage: Didius Julianus (ermordet am 2.6.193)",
-    "sanitized": "Kaiser für 66 Tage: Didius Julianus (ermordet am 2.6.193)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230601_ddb8fa99.mp3",
-    "raw": "Vorbote der Ölkrise 1973: Die OPEC erhöht den Ölpreis",
-    "sanitized": "Vorbote der Ölkrise 1973: Die OPEC erhöht den Ölpreis"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230531_3fc89bdf.mp3",
-    "raw": "Der Waschmaschinenerfinder J.C. Schäffer (Geburtstag, 31.5.1718)",
-    "sanitized": "Der Waschmaschinenerfinder J.C. Schäffer (Geburtstag, 31.5.1718)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230530_54c61640.mp3",
-    "raw": "Preußen führt  ein modernes Erbschaftssteuergesetz ein",
-    "sanitized": "Preußen führt  ein modernes Erbschaftssteuergesetz ein"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230529_98c361a6.mp3",
-    "raw": "Kanonen gegen Konstantinopel: Der Sturz einer Weltstadt",
-    "sanitized": "Kanonen gegen Konstantinopel: Der Sturz einer Weltstadt"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230528_b8c09b13.mp3",
-    "raw": "Rätselhafter Suizid der Flugpionierin Marga von Etzdorf",
-    "sanitized": "Rätselhafter Suizid der Flugpionierin Marga von Etzdorf"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230527_da11ba7e.mp3",
-    "raw": "Henry Kissinger: Machtpoltiker und Stratege der US-Außenpolitik",
-    "sanitized": "Henry Kissinger: Machtpoltiker und Stratege der US-Außenpolitik"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230526_62bbe72b.mp3",
-    "raw": "Erste Müllsammel-Expedition erreicht Gipfel des Mount Everest",
-    "sanitized": "Erste Müllsammel-Expedition erreicht Gipfel des Mount Everest"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230525_2bb7746b.mp3",
-    "raw": "Er schrieb \"Die letzten Tage von Pompeji\": Edward Bulwer-Lytton",
-    "sanitized": "Er schrieb \"Die letzten Tage von Pompeji\": Edward Bulwer-Lytton"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230524_06f0b569.mp3",
-    "raw": "Erste deutsche Nordpolarexpedition (am 24.05.1868)",
-    "sanitized": "Erste deutsche Nordpolarexpedition (am 24.05.1868)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230523_46a8c8fd.mp3",
-    "raw": "Venedig in seiner Blüte: Francesco Donà, 79. Doge der Republik",
-    "sanitized": "Venedig in seiner Blüte: Francesco Donà, 79. Doge der Republik"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230522_64ed0d0b.mp3",
-    "raw": "Aufbruch zum ersten Oregon-Treck (am 22.05.1843)",
-    "sanitized": "Aufbruch zum ersten Oregon-Treck (am 22.05.1843)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230521_0dcf2788.mp3",
-    "raw": "Welt-Star mit Trompete: Maurice André",
-    "sanitized": "Welt-Star mit Trompete: Maurice André"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230520_8ccb6f90.mp3",
-    "raw": "AIDS-Auslöser: Beschreibung HI-Virus erstmals veröffentlicht.",
-    "sanitized": "AIDS-Auslöser: Beschreibung HI-Virus erstmals veröffentlicht."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230519_e9a51829.mp3",
-    "raw": "Maria Stuart auf der Flucht gefangen genommen (am 19.5.1568)",
-    "sanitized": "Maria Stuart auf der Flucht gefangen genommen (am 19.5.1568)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230518_b49ec79c.mp3",
-    "raw": "Computerhacker mit 16: Der dramatische Fall des Jonathan James",
-    "sanitized": "Computerhacker mit 16: Der dramatische Fall des Jonathan James"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230517_ad11c688.mp3",
-    "raw": "Wasser für NRW: Talsperren-Pionier Otto Intze (Geb., 17.5.1843)",
-    "sanitized": "Wasser für NRW: Talsperren-Pionier Otto Intze (Geb., 17.5.1843)"
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230516_0111c58a.mp3",
-    "raw": "Grausame Macht: Aufstand im Warschauer Ghetto niedergeschlagen",
-    "sanitized": "Grausame Macht: Aufstand im Warschauer Ghetto niedergeschlagen"
   }
 ]

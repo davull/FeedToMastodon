@@ -1,5 +1,165 @@
 ﻿[
   {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/14/Visual-Studio-Devs-Share-Copilot-AI-Prompts-to-Improve-Code.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/13/Azure-AI-Foundry-Gets-Computer-Using-Agent-for-Autonomous-GUI-Interaction.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/12/Microsoft-Previews-GPT-4o-Copilot-Code-Completion-and-NET-AI-Template-in-Visual-Studio.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/11/Microsoft-Ports-TypeScript-to-Go-for-10x-Native-Performance-Gains.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/10/Uno-Platform-Takes-Hot-Design-for-Cross-Platform-NET-Apps-to-Public-Beta.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/06/New-VS-Code-Release-Polishes-Experimental-GitHub-Copilot-Agent-Mode.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/04/Semantic-Kernel-Agent-Framework-Graduates-to-Release-Candidate.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/03/04/TypeScript-5-8-Improves-Type-Checking-Conditional-Feature-Delayed-to-5-9.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/Cloud-Focused-NET-Aspire-9-1-Ships.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/Microsoft-Ships-First-,-d-,NET-10-Preview.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/26/CSharp-Dev-Kit-Previews-NET-Aspire-Orchestration.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/VS-Code-Copilot-Adds-New-GPT-4o-Code-Completion-Model.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/Microsofts-Rust-Embrace-Continues-with-Azure-SDK-for-Rust-Beta.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/19/Xcode-IDE-from-Microsoft-Archrival-Apple-Gets-Copilot-AI.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/13/Microsoft-Previews-Copilot-AI-for-Open-Source-Eclipse-IDE.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/12/Visual-Studio-2022-v17-13-Ships-Meet-GitHub-Copilot-Free.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/10/VS-Code-Copilot-Gets-Closer-to-Tab-Tab-Tab-Coding.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/06/GitHub-Previews-Agentic-AI-in-VS-Code-Copilot.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/02/04/Uno-Platform-Wants-Microsoft-to-Improve-WebAssembly.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/30/As-Some-Orgs-Restrict-DeepSeek-AI-Usage-Microsoft-Offers-Models-and-Dev-Guidance.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/29/TypeScript-5-8-Beta-Speeds-Program-Loads-Updates.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/AI-Toolkit-for-VS-Code-Now-Lets-You-Bring-Your-Own-Model.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/Visual-Studio-Copilot-Improves-Feature-Search-Shortcuts-Slash-Commands.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/27/AI-Powered-Trae-IDE-Ships.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/24/Microsoft-Duels-JetBrains-with-Same-Day-AI-Coding-Moves.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/21/Microsoft-Revamps-Fledgling-AutoGen-Framework-for-Agentic-AI.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/17/Coding-Errors-Cause-Critical-Vulnerability-in-Visual-Studio.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/14/Microsoft-Execs-to-Tackle-AI-and-Cloud-in-Dev-Conference-Keynote.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/13/Copilot-Agentic-AI-Dev-Environment-Opens-Up-to-All.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/10/Microsofts-New-Cloudy-Java-The-Modern-Web-App-Pattern-and-Strangler-Fig.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/09/VS-Code-Python-Devs-Get-Full-Language-Server-Mode-for-Pylance.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://visualstudiomagazine.com/Articles/2025/01/08/Top-10-GitHub-Copilot-Extensions-Led-by-Docker-and-PerplexityAI.aspx",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/12/18/Compare-New-GitHub-Copilot-Free-Plan-for-Visual-Studio-VS-Code-to-Paid-Plans.aspx",
     "raw": null,
     "sanitized": null
@@ -136,166 +296,6 @@
   },
   {
     "itemId": "https://visualstudiomagazine.com/Articles/2024/10/09/Final-NET-9-Preview-Ships-with-Go-Live-License.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/08/Visual-Studios-Future-Live-Help-to-AI-ify-Your-App.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/07/Python-AI-Updates-Highlight-New-VS-Code-Release.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Ships-Stable-Versions-of-OpenAI-Libraries-for-,-d-,NET-and-Azure.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/10/04/Microsoft-Further-Embraces-OpenAPI-Spec-formerly-Swagger.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/25/Whats-New-for-Java-Tooling-in-VS-Code-Azure-Cloud.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/20/Microsoft-Highlights-Third-Party-Open-Source-NET-Smart-Components.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/19/Data-Science-Pack-for-VS-Code-Bundles-Python-Data-and-Copilot-Tools.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/18/30th-Annual-Visual-Studio-Magazine-Readers-Choice-Awards-Announced.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/17/Another-Report-Weighs-In-on-GitHub-Copilot-Dev-Productivity.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/13/Dev-Asks-and-7-Years-Later-Python-in-VS-Code-Delivers-Django-Unit-Test-Support.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/12/OData-Finally-Ditches-Old-NET-Framework.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/NET-MAUI-ASP-NET-Core-Polished-in-First-Release-Candidate-for-NET-9.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/11/Microsofts-Stalled-UWP-Project-Supports-NET-9-as-WinUI-3-Migration-Urged.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/09/09/VS-Code-Experiments-Boost-AI-Copilot-Functionality.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/Windows-Community-Toolkit-Update-Improves-Controls.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/ASPNET-Core-NET-MAUI-Updated-as-NET-9-Nears.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/27/NET-Community-Toolkit-Gets-Native-AOT-NET-8-Support.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/26/GitHub-Copilot-Tops-Research-Report-on-AI-Code-Assistants.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/23/VS-Code-Tool-for-Azure-Machine-Learning-Ships-After-7-Year-Preview.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/21/Newly-Open-Sourced-NET-Smart-Components-Demoed-at-AI-Event.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/19/Content-Exclusion-Is-Latest-of-Many-New-Visual-Studio-Copilot-Features.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/16/Microsoft-Spotlights-NET-9-Cloud-in-First-Visual-Studio-2022-v17-12-Preview.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/14/Visual-Studio-2022-v17-11-Ships-Shaped-by-Your-Feedback.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/13/VSLive-Dev-Conference-Tip-Leads-to-New-IDE-Extension-Sql-Formatter.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/12/Copilot-Rolled-Out-to-Your-Org-Better-Check-User-Activity.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/09/VS-Code-v1-92-Pick-Your-Browser-Use-OpenAI-GPT-4o-Model.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/07/ABP-Ships-Community-Edition-of-Open-Source-,-d-,NET-Dev-Framework.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/05/With-NET-6-Support-Ending-Security-Vulnerabilities-Loom.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/02/Semantic-Kernel-AI-SDK-Gets-Agents-Experimental.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/github-models.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/08/01/vs-code-java-python.aspx",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://visualstudiomagazine.com/Articles/2024/07/31/copilot-update.aspx",
     "raw": null,
     "sanitized": null
   }

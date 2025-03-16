@@ -1,5 +1,45 @@
 ﻿[
   {
+    "itemId": "https://nextcloud.com/?p=292875",
+    "raw": "March maintenance updates for Nextcloud Hub 8,9 and 10",
+    "sanitized": "March maintenance updates for Nextcloud Hub 8,9 and 10"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=294380",
+    "raw": "Digital sovereignty in Munich: Join us at the Nextcloud Summit 2025",
+    "sanitized": "Digital sovereignty in Munich: Join us at the Nextcloud Summit 2025"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=286984",
+    "raw": "Nextcloud Hub 10 – your unified, modular digital workspace",
+    "sanitized": "Nextcloud Hub 10 – your unified, modular digital workspace"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=287471",
+    "raw": "February maintenance updates ahead of Nextcloud Hub 10 launch",
+    "sanitized": "February maintenance updates ahead of Nextcloud Hub 10 launch"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=283441",
+    "raw": "The Draghi report: How Europe can become fit for a competitive digital future",
+    "sanitized": "The Draghi report: How Europe can become fit for a competitive digital future"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=282688",
+    "raw": "Trump’s second term: A critical turning point for open source and digital sovereignty?",
+    "sanitized": "Trump’s second term: A critical turning point for open source and digital sovereignty?"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=281861",
+    "raw": "OpenCloud: the digitally sovereign workspace from HKN, Univention and Nextcloud",
+    "sanitized": "OpenCloud: the digitally sovereign workspace from HKN, Univention and Nextcloud"
+  },
+  {
+    "itemId": "https://nextcloud.com/?p=281103",
+    "raw": "January maintenance updates are here: Nextcloud Hub 8 and 9",
+    "sanitized": "January maintenance updates are here: Nextcloud Hub 8 and 9"
+  },
+  {
     "itemId": "https://nextcloud.com/?p=276209",
     "raw": "Nextcloud powering the digital workspace of tomorrow: 2024 in review",
     "sanitized": "Nextcloud powering the digital workspace of tomorrow: 2024 in review"
@@ -8,45 +48,5 @@
     "itemId": "https://nextcloud.com/?p=271028",
     "raw": "Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches",
     "sanitized": "Nextcloud Office: your privacy upgrade as Microsoft Office end-of-life approaches"
-  },
-  {
-    "itemId": "https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/",
-    "raw": "Empowering through open source: Nextcloud’s Director of Engineering Andy Scherzinger",
-    "sanitized": "Empowering through open source: Nextcloud’s Director of Engineering Andy Scherzinger"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=273491",
-    "raw": "December maintenance updates for Nextcloud Hub 7, 8 and 9",
-    "sanitized": "December maintenance updates for Nextcloud Hub 7, 8 and 9"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=271629",
-    "raw": "The open source answer to Microsoft Teams",
-    "sanitized": "The open source answer to Microsoft Teams"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=269114",
-    "raw": "How open-source AI models can help you take control of your privacy",
-    "sanitized": "How open-source AI models can help you take control of your privacy"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=268517",
-    "raw": "Nextcloud Enterprise Day lands in Paris: be part of the product launch event!",
-    "sanitized": "Nextcloud Enterprise Day lands in Paris: be part of the product launch event!"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=268259",
-    "raw": "Nextcloud Recognized with World Summit Award Germany",
-    "sanitized": "Nextcloud Recognized with World Summit Award Germany"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=267113",
-    "raw": "November maintenance updates for Nextcloud Hub 7 and 9",
-    "sanitized": "November maintenance updates for Nextcloud Hub 7 and 9"
-  },
-  {
-    "itemId": "https://nextcloud.com/?p=265256",
-    "raw": "Nextcloud Enterprise Day:  key to smooth SharePoint to Nextcloud migration with Dr. Frank Dengler",
-    "sanitized": "Nextcloud Enterprise Day:  key to smooth SharePoint to Nextcloud migration with Dr. Frank Dengler"
   }
 ]

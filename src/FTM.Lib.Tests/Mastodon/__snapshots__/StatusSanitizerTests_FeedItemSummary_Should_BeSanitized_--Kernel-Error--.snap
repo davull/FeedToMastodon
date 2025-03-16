@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://www.kernel-error.de/?p=3219",
+    "raw": "Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem [&#8230;]",
+    "sanitized": "Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3180",
+    "raw": "Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von PDS (Programm und Datenservice) gearbeitet. Dazu habe ich schon mal etwas geschrieben. Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen [&#8230;]",
+    "sanitized": "Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von PDS (Programm und Datenservice) gearbeitet. Dazu habe ich schon mal etwas geschrieben. Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3144",
+    "raw": "Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten. Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für [&#8230;]",
+    "sanitized": "Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten. Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3133",
+    "raw": "Vor Kurzem habe ich einen Vulnerability Report erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt. Der Report lautet wie folgt: Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.comHello Team,I have identified a security issue in your system [&#8230;]",
+    "sanitized": "Vor Kurzem habe ich einen Vulnerability Report erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt. Der Report lautet wie folgt: Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.comHello Team,I have identified a security issue in your system […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3124",
+    "raw": "Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist &#8222;Lüften&#8220;. Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein [&#8230;]",
+    "sanitized": "Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist „Lüften“. Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3109",
+    "raw": "Die meisten von euch werden das Spiel GeoGuessr kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt. Eine etwas abgewandelte Version begegnet mir immer [&#8230;]",
+    "sanitized": "Die meisten von euch werden das Spiel GeoGuessr kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt. Eine etwas abgewandelte Version begegnet mir immer […]"
+  },
+  {
     "itemId": "https://www.kernel-error.de/?p=3040",
     "raw": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf [&#8230;]",
     "sanitized": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf […]"
@@ -18,35 +48,5 @@
     "itemId": "https://www.kernel-error.de/?p=2688",
     "raw": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen [&#8230;]",
     "sanitized": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2649",
-    "raw": "Eigentlich sollte die Überschrift heißen: Ärgere ich mich gerade über mich selbst oder über AVM? Zuhause arbeitete eine FRITZ!Box 7590 KA, die zu Beginn mit einem Frixtender erweitert wurde. Nach knapp zwei Jahren habe ich bemerkt, dass die FRITZ!Box angefangen hat zu fiepen. Eine Funktionseinschränkung konnte ich jedoch nicht feststellen. Da es aber knapp vor [&#8230;]",
-    "sanitized": "Eigentlich sollte die Überschrift heißen: Ärgere ich mich gerade über mich selbst oder über AVM? Zuhause arbeitete eine FRITZ!Box 7590 KA, die zu Beginn mit einem Frixtender erweitert wurde. Nach knapp zwei Jahren habe ich bemerkt, dass die FRITZ!Box angefangen hat zu fiepen. Eine Funktionseinschränkung konnte ich jedoch nicht feststellen. Da es aber knapp vor […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2620",
-    "raw": "Bei meinen letzten Einkaufstouren auf Aliexpress ist mir immer mal wieder ein FNIRSI GC-01 Nuclear Radiation Detector, sprich Geigerzähler vorgeschlagen worden. Was soll ich sagen, japp hat funktioniert, irgendwann habe ich das Teil tatsächlich einfach für knapp 30€ mit im Einkaufswagen gehabt. Nach ein paar Spielerreien ging mir aber schnell die Batterielebensdauer auf die Nerven, [&#8230;]",
-    "sanitized": "Bei meinen letzten Einkaufstouren auf Aliexpress ist mir immer mal wieder ein FNIRSI GC-01 Nuclear Radiation Detector, sprich Geigerzähler vorgeschlagen worden. Was soll ich sagen, japp hat funktioniert, irgendwann habe ich das Teil tatsächlich einfach für knapp 30€ mit im Einkaufswagen gehabt. Nach ein paar Spielerreien ging mir aber schnell die Batterielebensdauer auf die Nerven, […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2609",
-    "raw": "Wer den Chrome-Browser unter Linux für Videocalls oder sogar für Microsoft Teams nutzt, kann meinen Schmerz in Bezug auf die hohe CPU-Auslastung sicherlich nachvollziehen. Wenn ich dann noch meinen Hintergrund im Video unscharf stellen möchte, fühlt es sich an, als wäre mein System mindestens 15 Jahre alt. Dabei spielt es bei mir keine Rolle, ob [&#8230;]",
-    "sanitized": "Wer den Chrome-Browser unter Linux für Videocalls oder sogar für Microsoft Teams nutzt, kann meinen Schmerz in Bezug auf die hohe CPU-Auslastung sicherlich nachvollziehen. Wenn ich dann noch meinen Hintergrund im Video unscharf stellen möchte, fühlt es sich an, als wäre mein System mindestens 15 Jahre alt. Dabei spielt es bei mir keine Rolle, ob […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2594",
-    "raw": "Dass man eigentlich keinen reinen Kennwort-Login für seine Anmeldung an einem SSH-Server haben möchte, ist sicherlich bei fast allen angekommen. Kennwörter lassen sich einfacher mittels eines Brute-Force-Angriffes herausfinden. Ebenso gehen diese auch mal verloren. SSH-Keys werden die meisten ebenfalls bereits aufseiten des Clients mit einem zweiten Faktor geschützt haben. Dies kann ein MFA-Token sein oder [&#8230;]",
-    "sanitized": "Dass man eigentlich keinen reinen Kennwort-Login für seine Anmeldung an einem SSH-Server haben möchte, ist sicherlich bei fast allen angekommen. Kennwörter lassen sich einfacher mittels eines Brute-Force-Angriffes herausfinden. Ebenso gehen diese auch mal verloren. SSH-Keys werden die meisten ebenfalls bereits aufseiten des Clients mit einem zweiten Faktor geschützt haben. Dies kann ein MFA-Token sein oder […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2589",
-    "raw": "Heute habe ich versucht, mich von meiner neuen Linux Mint Installation aus mit einem meiner SSH-Server zu verbinden. Mein SSH-Client hat mich direkt mit der Frage begrüßt, ob ich dem neuen Hostkey vertrauen möchte oder nicht. Für viele mag diese Meldung bekannt und vollkommen normal erscheinen. In der Regel antwortet man initial mit &#8222;yes&#8220; und [&#8230;]",
-    "sanitized": "Heute habe ich versucht, mich von meiner neuen Linux Mint Installation aus mit einem meiner SSH-Server zu verbinden. Mein SSH-Client hat mich direkt mit der Frage begrüßt, ob ich dem neuen Hostkey vertrauen möchte oder nicht. Für viele mag diese Meldung bekannt und vollkommen normal erscheinen. In der Regel antwortet man initial mit „yes“ und […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2572",
-    "raw": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name &#8222;Turbo Tape&#8220; ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen [&#8230;]",
-    "sanitized": "In meinem Keller sammelt sich unter anderem die eine oder andere Hardware an, die wohl inzwischen der Retro-Computer-Ecke zugeordnet werden kann. Dazu gehört auch diese Cartridge für den Commodore 64. Der Name „Turbo Tape“ ist dabei wörtlich zu nehmen. Das kleine Programm, das auf dem IC in der Cartridge gespeichert ist, ermöglicht es, das Lesen […]"
   }
 ]

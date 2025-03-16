@@ -2,10 +2,20 @@
   "Id": "https://www.embarc.de/blog/index.xml",
   "Website": "https://www.embarc.de/blog/",
   "Title": "Blog on embarc",
-  "LastUpdatedTime": "2024-12-05T00:00:00+00:00",
+  "LastUpdatedTime": "2025-01-05T10:00:00+00:00",
   "Description": "Recent content in Blog on embarc",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/markdown-vs-asciidoc/",
+      "Title": "Markdown oder AsciiDoc: Die Gretchenfrage für Docs-as-Code",
+      "PublishDate": "2025-01-05T10:00:00+00:00",
+      "Summary": "Was ist Docs-as-Code?Mit der Nutzung leichtgewichtiger Textformate können wir unsere Dokumentation direkt im Git-Repository erstellen und versionieren – ganz nah am Sourcecode. So lassen sich verschiedene Versionen problemlos vergleichen und bei Bedarf ältere Stände wiederherstellen. Der Einsatz verteilter Versionskontrollsysteme wie Git ermöglicht es uns, auch offline, etwa im Zug oder in einem Funkloch, an der Dokumentation zu arbeiten. Über Pull-Requests und begleitende Review-Prozesse können wir zudem gemeinsam mit Kollegen an den Inhalten feilen, was die Zusammenarbeit enorm verbessert.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/markdown-vs-asciidoc/"
+    },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
       "ItemId": "https://www.embarc.de/interview-anja-kammer-datensicherheit/",

@@ -1,5 +1,55 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
+    "raw": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container",
+    "sanitized": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/",
+    "raw": "In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised",
+    "sanitized": "In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised"
+  },
+  {
+    "itemId": "https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/",
+    "raw": "In this post I show how to reduce the size of the publish output for .NET apps by preventing the publishing of localization resources when they're not needed",
+    "sanitized": "In this post I show how to reduce the size of the publish output for .NET apps by preventing the publishing of localization resources when they're not needed"
+  },
+  {
+    "itemId": "https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/",
+    "raw": "In this post I outline how IIS works, describe how to add environment variables to app pools, and show how to prevent automatic app pool recycling on changes",
+    "sanitized": "In this post I outline how IIS works, describe how to add environment variables to app pools, and show how to prevent automatic app pool recycling on changes"
+  },
+  {
+    "itemId": "https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/",
+    "raw": "In this post I describe how the Trusted Types Content-Security-Policy feature can protect you against cross-site-scripting attacks.",
+    "sanitized": "In this post I describe how the Trusted Types Content-Security-Policy feature can protect you against cross-site-scripting attacks."
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-14-supporting-multiple-sdk-versions-in-a-source-generator/",
+    "raw": "In this post I show how I updated my NetEscapades.EnumGenerators projects to support multi-targeting two different .NET SDK versions",
+    "sanitized": "In this post I show how I updated my NetEscapades.EnumGenerators projects to support multi-targeting two different .NET SDK versions"
+  },
+  {
+    "itemId": "https://andrewlock.net/supporting-multiple-sdk-versions-in-analyzers-and-source-generators/",
+    "raw": "In this post I describe why source generators might need to work with multiple versions of the .NET SDK and how NuGet packages support this in .NET 6",
+    "sanitized": "In this post I describe why source generators might need to work with multiple versions of the .NET SDK and how NuGet packages support this in .NET 6"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/",
+    "raw": "In this post I describe how to read MSBuild settings from inside a source generator, and how to use this to allow user configuration of your generator",
+    "sanitized": "In this post I describe how to read MSBuild settings from inside a source generator, and how to use this to allow user configuration of your generator"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-12-reading-compilation-options-and-csharp-version-in-source-generators/",
+    "raw": "In this post I show how to read details of a target project from a source generator, such as assembly name, the current configuration, or the c# version",
+    "sanitized": "In this post I show how to read details of a target project from a source generator, such as assembly name, the current configuration, or the c# version"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/",
+    "raw": "In this post I show how interceptors work, and how you can implement an interceptor using a source generator and the GetInterceptableLocation API",
+    "sanitized": "In this post I show how interceptors work, and how you can implement an interceptor using a source generator and the GetInterceptableLocation API"
+  },
+  {
     "itemId": "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
     "raw": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image",
     "sanitized": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image"
@@ -73,55 +123,5 @@
     "itemId": "https://andrewlock.net/using-azure-storage-queues-with-azure-functions-and-queuetrigger/",
     "raw": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app",
     "sanitized": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app"
-  },
-  {
-    "itemId": "https://andrewlock.net/avoiding-cdn-supply-chain-attacks-with-subresource-integrity/",
-    "raw": "In this post I discus the recent pollyfill.io supply-chain attack and describe how to protect against similar attacks using Subresource Integrity (SRI)",
-    "sanitized": "In this post I discus the recent pollyfill.io supply-chain attack and describe how to protect against similar attacks using Subresource Integrity (SRI)"
-  },
-  {
-    "itemId": "https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/",
-    "raw": "In this post I show two ways to combine multiple docker images into a single multi-arch image, discuss manifests and manifest lists, and why they matter",
-    "sanitized": "In this post I show two ways to combine multiple docker images into a single multi-arch image, discuss manifests and manifest lists, and why they matter"
-  },
-  {
-    "itemId": "https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/",
-    "raw": "In this post I show how you can simplify your xUnit [Theory] tests using the Xunit.Combinatorial package to auto-generate your test parameters",
-    "sanitized": "In this post I show how you can simplify your xUnit [Theory] tests using the Xunit.Combinatorial package to auto-generate your test parameters"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-source-only-nuget-packages/",
-    "raw": "In this post I show how you can create a NuGet package that contains source code (instead of dlls) which is then compiled into  the target project",
-    "sanitized": "In this post I show how you can create a NuGet package that contains source code (instead of dlls) which is then compiled into  the target project"
-  },
-  {
-    "itemId": "https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/",
-    "raw": "In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages",
-    "sanitized": "In this post I describe how to solve Error CS0433, where you have two types with the exact same name and namespace coming from two different packages"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-5-adding-support-for-collection-expressions-to-your-own-types/",
-    "raw": "In this final post of the series I show how to add support for collection expressions to your own types that don't support them automatically",
-    "sanitized": "In this final post of the series I show how to add support for collection expressions to your own types that don't support them automatically"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-4-the-spread-element/",
-    "raw": "In this post I show what the compiler generates when you use collection expressions with the spread element and how it depends on the collections used",
-    "sanitized": "In this post I show what the compiler generates when you use collection expressions with the spread element and how it depends on the collections used"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/",
-    "raw": "In this post I look at the code generated when you use collection expressions with T[], ReadOnlySpan<T>, Span<T>, and immutable collections",
-    "sanitized": "In this post I look at the code generated when you use collection expressions with T[], ReadOnlySpan, Span, and immutable collections"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/",
-    "raw": "In this post I look at the code generated when you use collection expressions with List<T> or with types that can be used with collection initializers",
-    "sanitized": "In this post I look at the code generated when you use collection expressions with List or with types that can be used with collection initializers"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-1-introducing-collection-expressions-in-csharp12/",
-    "raw": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element",
-    "sanitized": "In this post I introduce C#12 collection expressions, discuss the benefits of the unified syntax for refactoring, and show how to use the spread element"
   }
 ]

@@ -2,109 +2,109 @@
   "Id": "https://www.howtoforge.com/feed.rss",
   "Website": "https://www.howtoforge.com",
   "Title": "Howtoforge Linux Howtos und Tutorials",
-  "LastUpdatedTime": "2025-01-02T17:25:41+00:00",
+  "LastUpdatedTime": "2025-03-14T18:16:34+00:00",
   "Description": "Howtoforge Tutorials",
   "Language": null,
   "Items": [
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/",
-      "Title": "How to Install Zabbix on Debian 12 Server",
-      "PublishDate": "2025-01-02T17:25:41+00:00",
-      "Summary": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
+      "Title": "How to Install and Use Nessus Vulnerability Scanner on Ubuntu 24.04",
+      "PublishDate": "2025-03-14T18:16:34+00:00",
+      "Summary": "Nessus is a network scanning tool and vulnerability scanner developed by Tenable. It is used for vulnerability assessments, penetration testing, and ethical hacking. In this guide, you'll learn how to install Nessus on Ubuntu 24.04 server.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-zabbix-on-debian-12-server/"
+      "Link": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/",
-      "Title": "How to Install Zeek Network Security Monitoring Tool on Ubuntu 24.04",
-      "PublishDate": "2025-01-02T17:15:36+00:00",
-      "Summary": "Zeek (formerly Bro) is a free and open-source platform for network security monitoring. It is a powerful passive network traffic analyzer that investigates suspicious or malicious activity.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/",
+      "Title": "How to Install Apache Solr on an Ubuntu 24.04 Server",
+      "PublishDate": "2025-03-06T20:46:15+00:00",
+      "Summary": "Apache Solr is an open-source search platform built on Apache Lucene, designed to create powerful application search and indexing capabilities. In this guide, you'll learn how to install Apache Solr on Ubuntu 24.04 server.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-zeek-network-security-monitoring-tool-on-ubuntu-24-04/"
+      "Link": "https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/",
-      "Title": "How to Install pgAdmin 4 PostgreSQL Admin Tool on Ubuntu 24.04",
-      "PublishDate": "2024-12-13T11:45:21+00:00",
-      "Summary": "pgAdmin4 is an easy-to-use free and open-source graphical administration tool for PostgreSQL. In this tutorial, you'll learn how to install pgAdmin4 server mode on Ubuntu 24.04.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/",
+      "Title": "How to Install ntopng on Debian 12",
+      "PublishDate": "2025-02-24T13:44:11+00:00",
+      "Summary": "Ntopng is an open-source network traffic monitoring tool for traffic analysis and real-time visualization. In this tutorial, you'll learn how to install the Ntopng Network Monitoring Tool on the Debian 12 server.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-pgadmin-4-postgresql-admin-tool-on-ubuntu-2404/"
+      "Link": "https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/",
-      "Title": "How to Install OpenSearch on Ubuntu 24.04",
-      "PublishDate": "2024-12-13T11:33:14+00:00",
-      "Summary": "OpenSearch is a community-driven project by Amazon and a fork of Elasticsearch and Kibana. It's a fully open-source search engine and analytics suite with rich features and innovative functionality. This guide will show you how to install OpenSearch and OpenSearch Dashboard on the Ubuntu 24.04 server.",
+      "ItemId": "https://www.howtoforge.com/ispconfig-php-ubuntu/",
+      "Title": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Ubuntu 22.04 - 24.04",
+      "PublishDate": "2025-02-19T10:26:45+00:00",
+      "Summary": "When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-opensearch-on-ubuntu-24-04/"
+      "Link": "https://www.howtoforge.com/ispconfig-php-ubuntu/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/",
-      "Title": "Install WireGuard VPN on Debian 12",
-      "PublishDate": "2024-11-22T18:38:12+00:00",
-      "Summary": "Wireguard is an open-source VPN protocol alternative to IPSec, IKEv2, and OpenVPN. This guide will show you how to install Wireguard VPN on the Debian 12 server and configure the Wireguard client on a Linux machine.",
+      "ItemId": "https://www.howtoforge.com/ispconfig-php-debian/",
+      "Title": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Debian 11 to 12",
+      "PublishDate": "2025-02-19T10:13:28+00:00",
+      "Summary": "In this guide we will take you through installing additional PHP versions (5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.1, 8.2, 8.3, and 8.4) on a Debian server with ISPConfig.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/guide-to-install-wireguard-vpn-on-debian-12/"
+      "Link": "https://www.howtoforge.com/ispconfig-php-debian/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/",
-      "Title": "How to Install Mattermost with Nginx proxy and free Let's Encrypt SSL on Ubuntu 24.04",
-      "PublishDate": "2024-11-22T18:14:05+00:00",
-      "Summary": "Mattermost is an open-source alternative to Slack and Microsoft Teams. It allows you to self-host online chat with multiple features such as file sharing, search, automation, and multiple third-party integrations. In this tutorial, you'll learn how to install Mattermost on Ubuntu 24.04 server.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/",
+      "Title": "How to Install Fast API with MongoDB on Ubuntu 24.04",
+      "PublishDate": "2025-02-15T13:01:09+00:00",
+      "Summary": "FastAPI is a web framework based on Python for creating API services. It's a modern, fast, high-performance framework supporting asynchronous operations. ",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-mattermost-on-ubuntu-24-04/"
+      "Link": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-graylog-on-ubuntu-24-04/",
-      "Title": "How to Install Graylog on Ubuntu 24.04",
-      "PublishDate": "2024-11-15T10:58:35+00:00",
-      "Summary": "Graylog is a free and open-source log-management platform for capturing, storing, and enabling real-time analysis of your data and logs. It's written in Java and built on top of other open-source software like MongoDB and Elasticsearch.",
+      "ItemId": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/",
+      "Title": "How to Install Rancher on Debian 12 Server",
+      "PublishDate": "2025-02-11T21:24:37+00:00",
+      "Summary": "Rancher is an open-source container management platform designed to facilitate the deployment, management, and governance of Kubernetes clusters. In this tutorial, you'll learn how to install Rancher on a Debian 12 server.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-graylog-on-ubuntu-24-04/"
+      "Link": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-zabbix-on-ubuntu-24-04/",
-      "Title": "How to Install Zabbix on Ubuntu 24.04",
-      "PublishDate": "2024-11-15T10:08:00+00:00",
-      "Summary": "Zabbix is a free and open-source monitoring solution for IT infrastructure. It allows you to monitor networks, servers, virtual machines, and cloud services.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/",
+      "Title": "How to Install Apache Couch DB on AlmaLinux 9",
+      "PublishDate": "2025-01-26T09:42:26+00:00",
+      "Summary": "Apache CouchDB is an open-source NoSQL and document-oriented database that supports multiple formats and protocols to store its data. Apache CouchDB allows you to use JSON to store data, and it also provides web UI for managing the CouchDB system and HTTP API that enables you to query data easily.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-zabbix-on-ubuntu-24-04/"
+      "Link": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/",
-      "Title": "How to Install and Use Vuls Vulnerability Scanner on Debian 12",
-      "PublishDate": "2024-11-11T13:42:01+00:00",
-      "Summary": "Vuls is an agentless, free, and open-source vulnerability scanner for Linux and FreeBSD. In this guide, you'll learn how to install Vuls Vulnerability Scanner on the Debian 12 server. You'll install Vuls, set up CVE databases, and then scan the local system and remote machine Vuls.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/",
+      "Title": "How to Install NodeBB with MongoDB and Nginx Proxy on AlmaLinux 9",
+      "PublishDate": "2025-01-25T09:03:20+00:00",
+      "Summary": "NodeBB is an open-source, Node.js-based forum software that provides a modern and responsive solution for online communities. This guide will provide step-by-step instructions for installing NodeBB on an Alma Linux 9 server.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-and-use-vuls-vulnerability-scanner-on-debian-12/"
+      "Link": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/"
     },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/",
-      "Title": "How to Use Rsnapshot for Backup and Restore on Linux Servers",
-      "PublishDate": "2024-11-11T12:55:32+00:00",
-      "Summary": "In this tutorial, you'll learn how to backup and restore using Rsnapshot on a Linux server. You'll be setting up rsnapshot for local backup and remote backup. You'll also learn how to set up an automatic backup with rsnapshot and cron.",
+      "ItemId": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/",
+      "Title": "How to Install Consul Server on AlmaLinux 9",
+      "PublishDate": "2025-01-19T18:35:58+00:00",
+      "Summary": "Consul is a modern platform for service discovery that allows you to register services via DNS and HTTP interface. It also offers a Service mesh feature that enables secure connections via TLS and provides authorization between services.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-use-rsnapshot-for-backup-and-restore-on-linux-servers/"
+      "Link": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/"
     }
   ]
 }

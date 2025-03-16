@@ -1,5 +1,55 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
+    "raw": "Running an ASP.NET Core app inside IIS in a Windows container",
+    "sanitized": "Running an ASP.NET Core app inside IIS in a Windows container"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/",
+    "raw": "Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions",
+    "sanitized": "Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions"
+  },
+  {
+    "itemId": "https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/",
+    "raw": "Disabling localized satellite assemblies during dotnet publish",
+    "sanitized": "Disabling localized satellite assemblies during dotnet publish"
+  },
+  {
+    "itemId": "https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/",
+    "raw": "Setting application environment variables in IIS without restarts",
+    "sanitized": "Setting application environment variables in IIS without restarts"
+  },
+  {
+    "itemId": "https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/",
+    "raw": "Preventing client-side cross-site-scripting vulnerabilities with Trusted Types",
+    "sanitized": "Preventing client-side cross-site-scripting vulnerabilities with Trusted Types"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-14-supporting-multiple-sdk-versions-in-a-source-generator/",
+    "raw": "Supporting multiple .NET SDK versions in a source generator: Creating a source generator - Part 14",
+    "sanitized": "Supporting multiple .NET SDK versions in a source generator: Creating a source generator - Part 14"
+  },
+  {
+    "itemId": "https://andrewlock.net/supporting-multiple-sdk-versions-in-analyzers-and-source-generators/",
+    "raw": "Supporting multiple .NET SDK versions in analyzers and source generators",
+    "sanitized": "Supporting multiple .NET SDK versions in analyzers and source generators"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/",
+    "raw": "Accessing MSBuild properties and user configuration from source generators: Creating a source generator - Part 13",
+    "sanitized": "Accessing MSBuild properties and user configuration from source generators: Creating a source generator - Part 13"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-12-reading-compilation-options-and-csharp-version-in-source-generators/",
+    "raw": "Reading compilation options and the C# version in source generators: Creating a source generator - Part 12",
+    "sanitized": "Reading compilation options and the C# version in source generators: Creating a source generator - Part 12"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/",
+    "raw": "Implementing an interceptor with a source generator: Creating a source generator - Part 11",
+    "sanitized": "Implementing an interceptor with a source generator: Creating a source generator - Part 11"
+  },
+  {
     "itemId": "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
     "raw": "Building LaTeX projects on Windows easily with Docker",
     "sanitized": "Building LaTeX projects on Windows easily with Docker"
@@ -73,55 +123,5 @@
     "itemId": "https://andrewlock.net/using-azure-storage-queues-with-azure-functions-and-queuetrigger/",
     "raw": "Using Azure Storage Queue messages with Azure Functions and [QueueTrigger]",
     "sanitized": "Using Azure Storage Queue messages with Azure Functions and [QueueTrigger]"
-  },
-  {
-    "itemId": "https://andrewlock.net/avoiding-cdn-supply-chain-attacks-with-subresource-integrity/",
-    "raw": "Avoiding CDN supply-chain attacks with Subresource Integrity (SRI)",
-    "sanitized": "Avoiding CDN supply-chain attacks with Subresource Integrity (SRI)"
-  },
-  {
-    "itemId": "https://andrewlock.net/combining-multiple-docker-images-into-a-multi-arch-image/",
-    "raw": "Combining multiple docker images into a multi-arch image",
-    "sanitized": "Combining multiple docker images into a multi-arch image"
-  },
-  {
-    "itemId": "https://andrewlock.net/simplifying-theory-test-data-with-xunit-combinatorial/",
-    "raw": "Simplifying [Theory] test data with Xunit.Combinatorial",
-    "sanitized": "Simplifying [Theory] test data with Xunit.Combinatorial"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-source-only-nuget-packages/",
-    "raw": "Creating source-only NuGet packages",
-    "sanitized": "Creating source-only NuGet packages"
-  },
-  {
-    "itemId": "https://andrewlock.net/disambiguating-types-with-the-same-name-with-extern-alias/",
-    "raw": "Disambiguating types with the same name with extern alias",
-    "sanitized": "Disambiguating types with the same name with extern alias"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-5-adding-support-for-collection-expressions-to-your-own-types/",
-    "raw": "Adding support for collection expressions to your own types: Behind the scenes of collection expressions - Part 5",
-    "sanitized": "Adding support for collection expressions to your own types: Behind the scenes of collection expressions - Part 5"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-4-the-spread-element/",
-    "raw": "Exploring the generated code: the spread element: Behind the scenes of collection expressions - Part 4",
-    "sanitized": "Exploring the generated code: the spread element: Behind the scenes of collection expressions - Part 4"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-3-arrays-span-of-t-and-immutable-collections/",
-    "raw": "Exploring the generated code: T[], Span<T>, and Immutable collections: Behind the scenes of collection expressions - Part 3",
-    "sanitized": "Exploring the generated code: T[], Span, and Immutable collections: Behind the scenes of collection expressions - Part 3"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-2-exploring-the-generated-code-list-and-fallback-cases/",
-    "raw": "Exploring the generated code: List<T> and fallback cases: Behind the scenes of collection expressions - Part 2",
-    "sanitized": "Exploring the generated code: List and fallback cases: Behind the scenes of collection expressions - Part 2"
-  },
-  {
-    "itemId": "https://andrewlock.net/behind-the-scenes-of-collection-expressions-part-1-introducing-collection-expressions-in-csharp12/",
-    "raw": "Introducing collection expressions in C#12: Behind the scenes of collection expressions - Part 1",
-    "sanitized": "Introducing collection expressions in C#12: Behind the scenes of collection expressions - Part 1"
   }
 ]

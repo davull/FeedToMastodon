@@ -1,0 +1,11 @@
+﻿Reactive monad
+
+IObservable<T> is (also) a monad.
+    
+    
+        This article is an instalment in an article series about monads. While the previous articles showed, in great detail, how to turn various classes into monads, this article mostly serves as a place-holder. The purpose is only to point out that you don't have to create all monads yourself. Sometimes, they come as part of a reusable library.
+    
+    
+        Rx define such libraries, and IObserva...
+---
+https://blog.ploeh.dk/2025/03/03/reactive-monad/

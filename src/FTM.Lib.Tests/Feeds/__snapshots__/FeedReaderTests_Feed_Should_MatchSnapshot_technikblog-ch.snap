@@ -2,10 +2,90 @@
   "Id": "http://technikblog.ch/feed/",
   "Website": "https://technikblog.ch/",
   "Title": "Technikblog",
-  "LastUpdatedTime": "2024-12-07T16:17:33+00:00",
+  "LastUpdatedTime": "2025-03-13T12:40:13+00:00",
   "Description": "",
   "Language": "de-CH",
   "Items": [
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37288",
+      "Title": "Das neue Shelly 3EM-63T Gen3 im Test",
+      "PublishDate": "2025-03-13T12:40:11+00:00",
+      "Summary": "<p>Ich hatte hier im Technikblog schon die neuen Shelly Geräte angekündigt, mittlerweile ist das für mich spannende 3-Phasen Messgerät Shelly 3EM-63T Gen3 bei mir schon mehrere Wochen verbaut. Das Gerät ergänzt das Portfolio der 3-phasigen Energiemessgeräte bei Shelly um eine weitere, kompakte Bauform gegenüber der Messung mit Klappwandlern des Shelly Pro 3EM. Ideal wo man [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/03/das-neue-shelly-3em-63t-gen3-im-test/\">Das neue Shelly 3EM-63T Gen3 im Test</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/03/das-neue-shelly-3em-63t-gen3-im-test/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37252",
+      "Title": "Whatwatt Go im Test: Mit diesem Adapter gibt es Live-Daten aus deinem Smart Meter",
+      "PublishDate": "2025-01-29T06:50:24+00:00",
+      "Summary": "<p>Vor einigen Tagen habe ich über die Möglichkeiten mit Smart Metern in der Schweiz berichtet und den Testbericht zu whatwatt versprochen. Whatwatt go ist ein Adapter für die Kundenschnittstelle aller sich im Rollout befindenden Smart Metern in der Schweiz. Damit wird es für den Kunden möglich auf Echtzeitdaten zuzugreifen und auch ein integraler Bestandteil für [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/whatwatt-go-im-test-mit-diesem-adapter-gibt-es-live-daten-aus-deinem-smart-meter/\">Whatwatt Go im Test: Mit diesem Adapter gibt es Live-Daten aus deinem Smart Meter</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/whatwatt-go-im-test-mit-diesem-adapter-gibt-es-live-daten-aus-deinem-smart-meter/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37155",
+      "Title": "VW ID. Buzz LWB im Test – Der Elektro-Bulli mit 3 Sitzreihen",
+      "PublishDate": "2025-01-27T07:00:00+00:00",
+      "Summary": "<p>Vor mehr als 2 Jahren durfte ich noch vor Markteinführung den ID. Buzz in Kopenhagen testen und dann etwas später einen &#171;Wintertest&#187; in der Schweiz. Mittlerweile hat Volkswagen die ID.-Modelle erweitert und neu gibt es den Buzz auch als LWB, spricht mit langem Radstand. Dies hat zur Folge das 3 Sitzreihen mit total bis zu [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/vw-id-buzz-lwb-im-test-der-elektro-bulli-mit-3-sitzreihen/\">VW ID. Buzz LWB im Test &#8211; Der Elektro-Bulli mit 3 Sitzreihen</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/vw-id-buzz-lwb-im-test-der-elektro-bulli-mit-3-sitzreihen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37228",
+      "Title": "Smart Meter in der Schweiz: Was ist damit möglich und was nicht?",
+      "PublishDate": "2025-01-16T07:00:00+00:00",
+      "Summary": "<p>Energieversorgungsunternehmen in der Schweiz müssen bis Ende 2027 in ihrem Versorgungsgebiet jeweils 80 Prozent der konventionellen Stromzähler durch Smart Meter ersetzen. Bei einigen Anbietern ist dieser sogenannte Rollout bereits durch und abgeschlossen, andere sind mittendrin und wieder andere starten erst damit. Diese intelligenten Messsysteme sind ein integraler Bestandteil der Energiestrategie 2050. Ich habe seit etwas [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/smart-meter-in-der-schweiz-was-ist-damit-moeglich-und-was-nicht/\">Smart Meter in der Schweiz: Was ist damit möglich und was nicht?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/smart-meter-in-der-schweiz-was-ist-damit-moeglich-und-was-nicht/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37237",
+      "Title": "VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können",
+      "PublishDate": "2025-01-15T07:19:00+00:00",
+      "Summary": "<p>Ich bin wieder mal seit langem über ein spannendes Kickstarter-Projekt gestossen: Das&#160;VortiPower VP2&#160;ist eine externe Entladevorrichtung, die speziell für Tesla-Modelle (3, Y, S, X) entwickelt wurde. Damit wird der Tesla V2L-fähig, sprich er kann Geräte mit Strom aus dem Tesla versorgen. Unterschiede zwischen V2H, V2L, V2G etc. habe ich hier mal genau beschrieben. Die wichtigsten [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/vortipower-vp20-kickstarter-projekt-will-tesla-bidirektional-v2l-entladen-koennen/\">VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/vortipower-vp20-kickstarter-projekt-will-tesla-bidirektional-v2l-entladen-koennen/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37210",
+      "Title": "Move Mobility: bessere Ladetarife bei Fastned und Gofast",
+      "PublishDate": "2025-01-13T07:00:00+00:00",
+      "Summary": "<p>Ich bin seit einigen Jahr MOVE Mobility Kunde und nutze die Move App und den praktischen RFID-Ladeschlüsselanhänger beim öffentlichen Laden. Gerade bei längeren Reisen im Ausland war Move immer ein verlässlicher Partner, dabei nutze ich persönlich das Angebot von Move Comfort. Dort habe ich reduzierte Ladetarife zu einem kleinen Fixbeitrag monatlich. Nun gibt es zum [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/move-mit-neuen-attraktiven-tarifen-bei-fastned-und-gofast/\">Move Mobility: bessere Ladetarife bei Fastned und Gofast</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/move-mit-neuen-attraktiven-tarifen-bei-fastned-und-gofast/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37212",
+      "Title": "Shelly präsentiert Geräte der 4. Generation und kompakte Energiemessung",
+      "PublishDate": "2025-01-11T07:00:00+00:00",
+      "Summary": "<p>Die neuen Shelly-Geräte der 4. Generation wurden auf der CES 2025 vorgestellt und unterstützen mehrere Funkstandards, darunter ZigBee, Wi-Fi und Bluetooth. Diese Geräte sind Matter-zertifiziert und lassen sich nahtlos in verschiedene Smart-Home-Plattformen wie Google Home, Alexa, Apple Home und Samsung SmartThings integrieren. Zu den neuen Produkten gehören unter anderem Relais für Beleuchtung, Leistungsmessgeräte und ein [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/shelly-praesentiert-geraete-der-4-generation-und-kompakte-energiemessung/\">Shelly präsentiert Geräte der 4. Generation und kompakte Energiemessung</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/shelly-praesentiert-geraete-der-4-generation-und-kompakte-energiemessung/"
+    },
+    {
+      "FeedId": "http://technikblog.ch/feed/",
+      "ItemId": "https://technikblog.ch/?p=37190",
+      "Title": "Energie-Rückblick 2024: EFH mit PV-Anlage mit Speicher und zwei Elektroautos",
+      "PublishDate": "2025-01-06T19:21:55+00:00",
+      "Summary": "<p>Alle Jahre wieder ist auch das Motto meines Energie-Rückblicks. Ich habe mir vorgenommen jährlich meine PV-Ertragsdaten genauer auszuwerten, aber auch vor allem auf unser Verbrauchsverhalten zu schauen: Das Zusammenspiel aus Photovoltaikanlage auf dem Einfamilienhaus in Einklang mit Wärmepumpe und zwei Elektroautos auszuwerten. Der Haushalt ist frei von fossilen Energieträgern und entsprechend aussagekräftig ist der Blick auf [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2025/01/energie-rueckblick-2024-efh-mit-pv-anlage-mit-speicher-und-zwei-elektroautos/\">Energie-Rückblick 2024: EFH mit PV-Anlage mit Speicher und zwei Elektroautos</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
+      "Content": null,
+      "Language": "de-CH",
+      "Link": "https://technikblog.ch/2025/01/energie-rueckblick-2024-efh-mit-pv-anlage-mit-speicher-und-zwei-elektroautos/"
+    },
     {
       "FeedId": "http://technikblog.ch/feed/",
       "ItemId": "https://technikblog.ch/?p=37156",
@@ -915,86 +995,6 @@
       "Content": null,
       "Language": "de-CH",
       "Link": "https://technikblog.ch/2021/12/skoda-enyaq-iv80x-im-test-das-elektro-familienauto-mit-allrad/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34430",
-      "Title": "Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?",
-      "PublishDate": "2021-11-19T07:00:00+00:00",
-      "Summary": "<p>Wer Ford Mustang hört oder liest, der denkt in erster Linie sicher nicht an ein Elektroauto und auch kaum an einen Familienwagen. Genau das ist der Mustang Mach-E aber, ein reines Elektroauto das den Charme des Mustangs versucht zu erhalten und auch noch Familien tauglich ist. Das wollte ich selbst natürlich auch probieren und hatte [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/ford-mustang-mach-e-im-test-vom-muscle-car-zum-allrounder/\">Ford Mustang Mach-E im Test: Vom Muscle-Car zum Allrounder?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/11/ford-mustang-mach-e-im-test-vom-muscle-car-zum-allrounder/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34326",
-      "Title": "Hyundai IONIQ 5 im Test: Wie mag das «Ladewunder» im Alltag zu überzeugen?",
-      "PublishDate": "2021-11-04T06:30:00+00:00",
-      "Summary": "<p>Ein Fahrzeugtest auf den ich mich schon lange gefreut hatte, der Ioniq 5 von Hyundai. Einerseits weil ich grosse Freude bereits am Hyundai Kona hatte und weil der Kona und der Ioniq richtig sparsame Elektrofahrzeuge sind. Entsprechend gespannt war ich auf das erste Auto von Hyundai, das auf einer eigenen Elektroauto-Plattform aufbaut und auch gleich [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/hyundai-ioniq-5-im-test-wie-mag-das-ladewunder-im-alltag-zu-ueberzeugen/\">Hyundai IONIQ 5 im Test: Wie mag das &#171;Ladewunder&#187; im Alltag zu überzeugen?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/11/hyundai-ioniq-5-im-test-wie-mag-das-ladewunder-im-alltag-zu-ueberzeugen/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34414",
-      "Title": "Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest",
-      "PublishDate": "2021-11-02T06:42:58+00:00",
-      "Summary": "<p>Tesla hat nun wie angekündigt damit begonnen, das hauseigene Supercharger Netzwerk für Fremdmarken zu öffnen. Man beginnt mit einem Pilotprojekt über 10 Supercharger-Standorte in den Niederlanden. Tes Supercharger für Nicht-Tesla-Fahrer Nicht-Tesla-Fahrer mit Wohnsitz in den Niederlanden können derzeit an 10 Supercharger-Standorten im ganzen Land aufladen: Sassenheim Apeldoorn Oost Meerkerk Hengelo Tilburg Duiven Breukelen Naarden Eemnes [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/11/tesla-gibt-10-supercharger-frei-fuer-fremdmarken-als-feldtest/\">Tesla gibt 10 Supercharger frei für Fremdmarken als Feldtest</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/11/tesla-gibt-10-supercharger-frei-fuer-fremdmarken-als-feldtest/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34369",
-      "Title": "Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes",
-      "PublishDate": "2021-10-29T06:00:00+00:00",
-      "Summary": "<p>Einige Projekte schiebe ich immer etwas vor mir her, eines davon war es die Steckdosen in der Garage zu automatisieren. Das heisst es soll einige geben, die dediziert vom Überschuss der PV-Anlage über den Solar Manager angesteuert werden. Bisher habe ich das mit zusätzlichen myStrom Smart Plugs realisiert, neu erledigt diese Arbeit das brandneue Shelly [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/projekt-shelly-pro-4pm-fuer-gesteuerte-steckdosen-fuer-e-bikes/\">Projekt: Shelly Pro 4PM für gesteuerte Steckdosen für E-Bikes</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/10/projekt-shelly-pro-4pm-fuer-gesteuerte-steckdosen-fuer-e-bikes/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34327",
-      "Title": "Testbericht: iPhone 13 – muss es immer das Pro sein?",
-      "PublishDate": "2021-10-25T06:00:00+00:00",
-      "Summary": "<p>Die letzten Smartphones waren bei mir immer Pro-Modelle von Apple und absichtlich &#171;die kleine Variante&#187;. Sprich, ich hatte bis anhing das iPhone 12 Pro und mit dem Wechsel auf die neuen iPhone 13 Modelle gibt es dieses Jahr den Versuch: &#171;muss es immer das Pro sein?&#187; Um dieser Frage nachzugehen und wie ich mit dem [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/testbericht-iphone-13-muss-es-immer-das-pro-sein/\">Testbericht: iPhone 13 &#8211; muss es immer das Pro sein?</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/10/testbericht-iphone-13-muss-es-immer-das-pro-sein/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34338",
-      "Title": "Apple MacBook Pro 14″ und 16″ mit M1 Pro und Max Prozessor vorgestellt",
-      "PublishDate": "2021-10-18T19:09:19+00:00",
-      "Summary": "<p>Da sind sie endlich, die neuen MacBook Pro Geräte. Ich war auch einer der auf die Linie sehr gehofft hat, wie viele habe ich einen M2 erwartet und wurde aber von einem starken M1 Pro und Max überrascht. Neu aufgelegt wurde das 16&#8243; MacBook Pro und ganz neu kommt ein 14&#8243; Pro Gerät daher. Die [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/apple-macbook-pro-14-und-16-mit-m1-pro-und-max-prozessor-vorgestellt/\">Apple MacBook Pro 14&#8243; und 16&#8243; mit M1 Pro und Max Prozessor vorgestellt</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/10/apple-macbook-pro-14-und-16-mit-m1-pro-und-max-prozessor-vorgestellt/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34332",
-      "Title": "Apple zeigt neue AirPods der dritten Generation",
-      "PublishDate": "2021-10-18T18:39:14+00:00",
-      "Summary": "<p>Am heutigen Oktober-Event hat Apple die neuste Generation AirPods vorgestellt. Die Apple AirPods der 3. Generation kommen mit einigen neuen Features daher und sind für 199.- CHF ab dem 26. Oktober 2021 erhältlich. AirPods 3.Gen Die neuen AirPods bleiben weiterhin dem Aufbau der AirPods treu und verzichten weiterhin auf die Silikon-Einlagen für die Ohren, welche [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/apple-zeigt-neue-airpods-der-dritten-generation/\">Apple zeigt neue AirPods der dritten Generation</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/10/apple-zeigt-neue-airpods-der-dritten-generation/"
-    },
-    {
-      "FeedId": "http://technikblog.ch/feed/",
-      "ItemId": "http://tchor/?p=34291",
-      "Title": "Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling",
-      "PublishDate": "2021-10-11T06:55:21+00:00",
-      "Summary": "<p>Mit Sigi habe ich mich mehrmals darüber unterhalten, wie es wohl wäre wenn ich ihm mal ein Elektroauto hinstelle und er sich damit eine 10 Tage rumschlägt. Wichtig dabei: Sigi hat keine Elektroauto-Erfahrung und uns beiden ging es darum: Wie fühlt sich ein Neueinsteiger in der Elektromobilität zu Recht? Hans Nachdem mir der Schlüssel übergeben [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://technikblog.ch/2021/10/mercedes-eqa-250-im-alltagstest-von-einem-elektroauto-neuling/\">Mercedes EQA 250 im Alltagstest von einem Elektroauto-Neuling</a> erschien zuerst auf <a href=\"https://technikblog.ch\">Technikblog</a>.</p>\n",
-      "Content": null,
-      "Language": "de-CH",
-      "Link": "https://technikblog.ch/2021/10/mercedes-eqa-250-im-alltagstest-von-einem-elektroauto-neuling/"
     }
   ]
 }

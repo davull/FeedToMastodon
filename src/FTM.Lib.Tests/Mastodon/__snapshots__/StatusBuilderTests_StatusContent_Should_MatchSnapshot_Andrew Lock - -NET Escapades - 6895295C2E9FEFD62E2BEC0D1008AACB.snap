@@ -1,0 +1,5 @@
+﻿Running an ASP.NET Core app inside IIS in a Windows container
+
+In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container
+---
+https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/

@@ -1,5 +1,20 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/ardalis-specification-v9-release/",
+    "raw": "A new major version of the Ardalis Specification library has been released. This library is used to create and compose specifications for…",
+    "sanitized": "A new major version of the Ardalis Specification library has been released. This library is used to create and compose specifications for…"
+  },
+  {
+    "itemId": "https://ardalis.com/2024-year-in-review/",
+    "raw": "Better late than never, as I'm writing this in late February 2025... First, here's a few links to past years in review: My 2017 Year in…",
+    "sanitized": "Better late than never, as I'm writing this in late February 2025... First, here's a few links to past years in review: My 2017 Year in…"
+  },
+  {
+    "itemId": "https://ardalis.com/when-qa-keeps-finding-bugs/",
+    "raw": "A developer manager recently reached out with a concern: their new QA team member was finding too many bugs, leading to frustration among…",
+    "sanitized": "A developer manager recently reached out with a concern: their new QA team member was finding too many bugs, leading to frustration among…"
+  },
+  {
     "itemId": "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
     "raw": "This post is part of the C# Advent Calendar 2024 - check out all of the C# articles from this year! C# events are a powerful feature of the…",
     "sanitized": "This post is part of the C# Advent Calendar 2024 - check out all of the C# articles from this year! C# events are a powerful feature of the…"
@@ -33,20 +48,5 @@
     "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
     "raw": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…",
     "sanitized": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…"
-  },
-  {
-    "itemId": "https://ardalis.com/clean-architecture-sucks/",
-    "raw": "The other day I was participating in a conversation online in an architecture forum. One of the participants was complaining about the mess…",
-    "sanitized": "The other day I was participating in a conversation online in an architecture forum. One of the participants was complaining about the mess…"
-  },
-  {
-    "itemId": "https://ardalis.com/technology-edges-bleeding-leading-rusting/",
-    "raw": "In the fast-evolving world of software development, keeping pace with technology trends is both a necessity and a challenge. Companies and…",
-    "sanitized": "In the fast-evolving world of software development, keeping pace with technology trends is both a necessity and a challenge. Companies and…"
-  },
-  {
-    "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
-    "raw": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…",
-    "sanitized": "NOTE: Watch the video above to see actual timings of starting with and without debugging. Vote for this feature request to make Run vs Debug…"
   }
 ]

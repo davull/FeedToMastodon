@@ -1,7 +1,0 @@
-﻿Alpine.Js Polling ASP.NET Core APIs For Updates
-
-Building dynamic JavaScript experiences has come a long in the 20 years since I first started software development, but updating the document object model (DOM) can still be a real pain in the butt. That’s why we’ve seen single-page application frameworks explode in use. While JavaScript provides a very capable API when interacting with the DOM, it can be verbose.
-
-In this post, we’ll see how to use the Alpine.Js...
----
-https://khalidabuhakmeh.com/alpinejs-polling-aspnet-core-apis-for-updates

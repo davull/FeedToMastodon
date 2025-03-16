@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/30/pytest-is-fast",
-    "raw": "Pytest is fast",
-    "sanitized": "Pytest is fast"
+    "itemId": "https://blog.ploeh.dk/2025/03/10/appeal-to-aithority",
+    "raw": "Appeal to aithority",
+    "sanitized": "Appeal to aithority"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/23/implementing-rod-cutting",
-    "raw": "Implementing rod-cutting",
-    "sanitized": "Implementing rod-cutting"
+    "itemId": "https://blog.ploeh.dk/2025/03/03/reactive-monad",
+    "raw": "Reactive monad",
+    "sanitized": "Reactive monad"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/16/a-restaurant-sandwich",
-    "raw": "A restaurant sandwich",
-    "sanitized": "A restaurant sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/02/24/easier-encapsulation-with-static-types",
+    "raw": "Easier encapsulation with static types",
+    "sanitized": "Easier encapsulation with static types"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/09/implementation-and-usage-mindsets",
-    "raw": "Implementation and usage mindsets",
-    "sanitized": "Implementation and usage mindsets"
+    "itemId": "https://blog.ploeh.dk/2025/02/17/in-defence-of-multiple-wip",
+    "raw": "In defence of multiple WiP",
+    "sanitized": "In defence of multiple WiP"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/12/02/short-circuiting-an-asynchronous-traversal",
-    "raw": "Short-circuiting an asynchronous traversal",
-    "sanitized": "Short-circuiting an asynchronous traversal"
+    "itemId": "https://blog.ploeh.dk/2025/02/10/geographic-hulls",
+    "raw": "Geographic hulls",
+    "sanitized": "Geographic hulls"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/25/nested-monads",
-    "raw": "Nested monads",
-    "sanitized": "Nested monads"
+    "itemId": "https://blog.ploeh.dk/2025/02/03/modelling-data-relationships-with-c-types",
+    "raw": "Modelling data relationships with C# types",
+    "sanitized": "Modelling data relationships with C# types"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/18/collecting-and-handling-result-values",
-    "raw": "Collecting and handling result values",
-    "sanitized": "Collecting and handling result values"
+    "itemId": "https://blog.ploeh.dk/2025/01/27/dependency-inversion-without-inversion-of-control",
+    "raw": "Dependency inversion without inversion of control",
+    "sanitized": "Dependency inversion without inversion of control"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/11/traversals",
-    "raw": "Traversals",
-    "sanitized": "Traversals"
+    "itemId": "https://blog.ploeh.dk/2025/01/20/modelling-data-relationships-with-f-types",
+    "raw": "Modelling data relationships with F# types",
+    "sanitized": "Modelling data relationships with F# types"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/11/04/pendulum-swing-no-haskell-type-annotation-by-default",
-    "raw": "Pendulum swing: no Haskell type annotation by default",
-    "sanitized": "Pendulum swing: no Haskell type annotation by default"
+    "itemId": "https://blog.ploeh.dk/2025/01/13/recawr-sandwich",
+    "raw": "Recawr Sandwich",
+    "sanitized": "Recawr Sandwich"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2024/10/28/functor-compositions",
-    "raw": "Functor compositions",
-    "sanitized": "Functor compositions"
+    "itemId": "https://blog.ploeh.dk/2025/01/06/encapsulating-rod-cutting",
+    "raw": "Encapsulating rod-cutting",
+    "sanitized": "Encapsulating rod-cutting"
   }
 ]

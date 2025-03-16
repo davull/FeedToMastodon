@@ -9,7 +9,7 @@
         <description>IT-News fuer Profis</description>
         <link>https://www.golem.de/</link>
         <atom:link rel="self" href="https://rss.golem.de/rss.php?feed=RSS2.0" />
-        <lastBuildDate>Fri, 03 Jan 2025 11:36:02 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 16 Mar 2025 21:36:02 +0100</lastBuildDate>
         <generator>FeedCreator 1.6</generator>
         <image>
             <url>https://www.golem.de/staticrl/images/golem-rss.png</url>
@@ -20,401 +20,393 @@
         <language>de</language>
         <atom:link rel="hub" href="http://golem.superfeedr.com/" />
         <item>
-            <title>Scanprobleme in Windows 11 24H2: eSCL-Bug immer noch nicht behoben</title>
-            <link>https://www.golem.de/news/scanprobleme-in-windows-11-24h2-escl-bug-immer-noch-nicht-behoben-2501-192091.html</link>
-            <description>Einige Nutzer haben immer noch Probleme mit ihren eSCL-Multifunktionsgeräten, obwohl Microsoft den Bug im Dezember 2024 als behoben gemeldet hat. (&lt;a href=&quot;https://www.golem.de/specials/windows-11/&quot;&gt;Windows 11&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/drucker/&quot;&gt;Drucker&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192091&amp;amp;page=1&amp;amp;ts=1735900202&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/foto/scanprobleme-in-windows-11-24h2-escl-bug-immer-noch-nicht-behoben/177072,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 11:30:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192091.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192091-486681-486680_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Einige Nutzer haben immer noch Probleme mit ihren eSCL-Multifunktionsgeräten, obwohl Microsoft den Bug im Dezember 2024 als behoben gemeldet hat. (<a href="https://www.golem.de/specials/windows-11/">Windows 11</a>, <a href="https://www.golem.de/specials/drucker/">Drucker</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192091&amp;page=1&amp;ts=1735900202" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Anzeige: In nur fünf Tagen zum LPIC-1-Zertifikat</title>
+            <link>https://www.golem.de/news/anzeige-in-nur-fuenf-tagen-zum-lpic-1-zertifikat-2503-194312.html</link>
+            <description>Um das LPIC-1-Zertifikat zu erhalten, müssen die Prüfungen LPI-101 und LPI-102 bestanden werden. Ein fünftägiges Onlineseminar bereitet Teilnehmer intensiv darauf vor, optional mit einem Prüfungsgutschein. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/serverapps/&quot;&gt;Server-Applikationen&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194312&amp;amp;page=1&amp;amp;ts=1742144402&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Sun, 16 Mar 2025 18:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194312.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194312-499781-499776_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Um das LPIC-1-Zertifikat zu erhalten, müssen die Prüfungen LPI-101 und LPI-102 bestanden werden. Ein fünftägiges Onlineseminar bereitet Teilnehmer intensiv darauf vor, optional mit einem Prüfungsgutschein. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/serverapps/">Server-Applikationen</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194312&amp;page=1&amp;ts=1742144402" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments />
         </item>
         <item>
-            <title>Browser: Microsoft Edge ist in Deutschland besonders unbeliebt</title>
-            <link>https://www.golem.de/news/browser-microsoft-edge-ist-in-deutschland-besonders-unbeliebt-2501-192089.html</link>
-            <description>Microsofts Browser bleibt trotz Eigenwerbung weit hinter Google Chrome zurück. In Deutschland ist er sogar nur auf Platz drei. (&lt;a href=&quot;https://www.golem.de/specials/msedge/&quot;&gt;MS Edge&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192089&amp;amp;page=1&amp;amp;ts=1735898702&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/browser-microsoft-edge-ist-in-deutschland-besonders-unbeliebt/177071,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 11:05:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192089.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192089-486670-486666_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsofts Browser bleibt trotz Eigenwerbung weit hinter Google Chrome zurück. In Deutschland ist er sogar nur auf Platz drei. (<a href="https://www.golem.de/specials/msedge/">MS Edge</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192089&amp;page=1&amp;ts=1735898702" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Pravda-Netzwerk: Chatbots von russischer Propaganda verseucht</title>
+            <link>https://www.golem.de/news/pravda-netzwerk-chatbots-von-russischer-propaganda-verseucht-2503-194349.html</link>
+            <description>Das russische Pravda-Netzwerk infiltriert KI-Tools wie ChatGPT und Perplexity mit Fehlinformationen, wie eine Studie belegt. (&lt;a href=&quot;https://www.golem.de/specials/fake-news/&quot;&gt;Fake-News&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/ki/&quot;&gt;KI&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194349&amp;amp;page=1&amp;amp;ts=1742127301&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/pravda-netzwerk-chatbots-von-russischer-propaganda-verseucht/178853,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 13:15:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194349.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194349-499975-499971_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Das russische Pravda-Netzwerk infiltriert KI-Tools wie ChatGPT und Perplexity mit Fehlinformationen, wie eine Studie belegt. (<a href="https://www.golem.de/specials/fake-news/">Fake-News</a>, <a href="https://www.golem.de/specials/ki/">KI</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194349&amp;page=1&amp;ts=1742127301" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>24</slash:comments>
+        </item>
+        <item>
+            <title>Saab Gripen als Alternative: Kanada überdenkt F-35-Kauf</title>
+            <link>https://www.golem.de/news/saab-gripen-als-alternative-kanada-ueberdenkt-f-35-kauf-2503-194347.html</link>
+            <description>Kanada überdenkt den Kauf von Kampfflugzeugen des Typs F-35 und sucht nach einer Alternative. Die könnte in Schweden gefunden werden. (&lt;a href=&quot;https://www.golem.de/specials/lockheed-martin/&quot;&gt;Lockheed Martin&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/politik-recht/&quot;&gt;Politik&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194347&amp;amp;page=1&amp;amp;ts=1742124607&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/saab-gripen-als-alternative-kanada-ueberdenkt-f-35-kauf/178852,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 12:30:07 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194347.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194347-499965-499964_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Kanada überdenkt den Kauf von Kampfflugzeugen des Typs F-35 und sucht nach einer Alternative. Die könnte in Schweden gefunden werden. (<a href="https://www.golem.de/specials/lockheed-martin/">Lockheed Martin</a>, <a href="https://www.golem.de/specials/politik-recht/">Politik</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194347&amp;page=1&amp;ts=1742124607" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>41</slash:comments>
+        </item>
+        <item>
+            <title>Kunden sind verärgert: Samsung macht Soundbars kaputt</title>
+            <link>https://www.golem.de/news/kunden-sind-veraergert-samsung-macht-soundbars-kaputt-2503-194348.html</link>
+            <description>Mit einem Firmware-Update hat Samsung etliche Soundbar-Modelle unbrauchbar gemacht. Eine Reparatur wird mehrere Wochen dauern. (&lt;a href=&quot;https://www.golem.de/specials/samsung/&quot;&gt;Samsung&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/soundhardware/&quot;&gt;Sound-Hardware&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194348&amp;amp;page=1&amp;amp;ts=1742122081&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/audio-video/kunden-sind-veraergert-samsung-macht-soundbars-kaputt/178851,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 11:48:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194348.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194348-499970-499966_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mit einem Firmware-Update hat Samsung etliche Soundbar-Modelle unbrauchbar gemacht. Eine Reparatur wird mehrere Wochen dauern. (<a href="https://www.golem.de/specials/samsung/">Samsung</a>, <a href="https://www.golem.de/specials/soundhardware/">Sound-Hardware</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194348&amp;page=1&amp;ts=1742122081" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>19</slash:comments>
+        </item>
+        <item>
+            <title>Internationale Raumstation: Rückholmission für gestrandete Astronauten läuft</title>
+            <link>https://www.golem.de/news/internationale-raumstation-rueckholmission-fuer-gestrandete-astronauten-laeuft-2503-194346.html</link>
+            <description>Die Rückflugraumkapsel hat an der ISS angedockt. Die gestrandeten Astronauten können zurückkommen. Beim ISS-Aufenthalt gibt es einen neuen Rekord. (&lt;a href=&quot;https://www.golem.de/specials/iss/&quot;&gt;ISS&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/nasa/&quot;&gt;Nasa&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194346&amp;amp;page=1&amp;amp;ts=1742120642&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/internationale-raumstation-rueckholmission-fuer-gestrandete-astronauten-laeuft/178850,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 11:24:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194346.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194346-499959-499955_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Rückflugraumkapsel hat an der ISS angedockt. Die gestrandeten Astronauten können zurückkommen. Beim ISS-Aufenthalt gibt es einen neuen Rekord. (<a href="https://www.golem.de/specials/iss/">ISS</a>, <a href="https://www.golem.de/specials/nasa/">Nasa</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194346&amp;page=1&amp;ts=1742120642" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>Ohne Mensch als Bedienung: Automaten gelten erstmals als Postfilialen</title>
+            <link>https://www.golem.de/news/ohne-mensch-als-bedienung-automaten-gelten-erstmals-als-postfilialen-2503-194344.html</link>
+            <description>Erstmals hat die zuständige Aufsichtsbehörde Automaten der Deuschen Post als Ersatz für eine reguläre Postfiliale anerkannt. Weitere werden folgen. (&lt;a href=&quot;https://www.golem.de/specials/deutsche-post/&quot;&gt;Post&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/bundesnetzagentur/&quot;&gt;Bundesnetzagentur&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194344&amp;amp;page=1&amp;amp;ts=1742119021&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/ohne-mensch-als-bedienung-automaten-gelten-erstmals-als-postfilialen/178849,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 10:57:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194344.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194344-499949-499945_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Erstmals hat die zuständige Aufsichtsbehörde Automaten der Deuschen Post als Ersatz für eine reguläre Postfiliale anerkannt. Weitere werden folgen. (<a href="https://www.golem.de/specials/deutsche-post/">Post</a>, <a href="https://www.golem.de/specials/bundesnetzagentur/">Bundesnetzagentur</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194344&amp;page=1&amp;ts=1742119021" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>34</slash:comments>
+        </item>
+        <item>
+            <title>Weltraumpläne von Elon Musk: SpaceX will 2026 mit Starship zum Mars fliegen</title>
+            <link>https://www.golem.de/news/weltraumplaene-von-elon-musk-spacex-will-2026-mit-starship-zum-mars-fliegen-2503-194345.html</link>
+            <description>Mit der Rakete hakt's, doch SpaceX-Chef Elon Musk nennt trotzdem einen ambitionierten Zeitplan für eine erste Reise zum Mars. Bald sogar mit Menschen. (&lt;a href=&quot;https://www.golem.de/specials/mars/&quot;&gt;Mars&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/raumfahrt/&quot;&gt;Raumfahrt&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194345&amp;amp;page=1&amp;amp;ts=1742116621&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/weltraumplaene-von-elon-musk-spacex-will-2026-mit-starship-zum-mars-fliegen/178848,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 10:17:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194345.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194345-499954-499950_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mit der Rakete hakt's, doch SpaceX-Chef Elon Musk nennt trotzdem einen ambitionierten Zeitplan für eine erste Reise zum Mars. Bald sogar mit Menschen. (<a href="https://www.golem.de/specials/mars/">Mars</a>, <a href="https://www.golem.de/specials/raumfahrt/">Raumfahrt</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194345&amp;page=1&amp;ts=1742116621" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>48</slash:comments>
+        </item>
+        <item>
+            <title>(g+) Fitness: Eine Woche Sport in virtueller Realität</title>
+            <link>https://www.golem.de/news/fitness-eine-woche-sport-in-virtueller-realitaet-2503-193922.html</link>
+            <description>Fitter werden in künstlichen Welten? Das geht: Golem.de hat mit einem Virtual-Reality-Headset geboxt und geturnt - ein verschwitztes Experiment. Ein Erfahrungsbericht von Peter Steinlechner (&lt;a href=&quot;https://www.golem.de/specials/fitness/&quot;&gt;Fitness&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/virtuelle-realitaet/&quot;&gt;VR&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=193922&amp;amp;page=1&amp;amp;ts=1742115601&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/fitness-eine-woche-sport-in-virtueller-realitaet/178847,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 10:00:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/193922.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/193922-497997-497992_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Fitter werden in künstlichen Welten? Das geht: Golem.de hat mit einem Virtual-Reality-Headset geboxt und geturnt - ein verschwitztes Experiment. Ein Erfahrungsbericht von Peter Steinlechner (<a href="https://www.golem.de/specials/fitness/">Fitness</a>, <a href="https://www.golem.de/specials/virtuelle-realitaet/">VR</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=193922&amp;page=1&amp;ts=1742115601" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments />
         </item>
         <item>
-            <title>Deutschland auf Platz 2: Millionen E-Mail-Server kommunizieren unverschlüsselt</title>
-            <link>https://www.golem.de/news/deutschland-auf-platz-2-millionen-e-mail-server-kommunizieren-unverschluesselt-2501-192087.html</link>
-            <description>Etwa 3,3 Millionen über das Internet erreichbare POP3- und IMAP-Dienste verzichten auf TLS. Mehr als eine halbe Million davon aus Deutschland. (&lt;a href=&quot;https://www.golem.de/specials/e-mail/&quot;&gt;E-Mail&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/datenschutz/&quot;&gt;Datenschutz&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192087&amp;amp;page=1&amp;amp;ts=1735894861&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/deutschland-auf-platz-2-millionen-e-mail-server-kommunizieren-unverschluesselt/177070,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 10:01:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192087.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192087-486659-486655_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Etwa 3,3 Millionen über das Internet erreichbare POP3- und IMAP-Dienste verzichten auf TLS. Mehr als eine halbe Million davon aus Deutschland. (<a href="https://www.golem.de/specials/e-mail/">E-Mail</a>, <a href="https://www.golem.de/specials/datenschutz/">Datenschutz</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192087&amp;page=1&amp;ts=1735894861" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>18</slash:comments>
-        </item>
-        <item>
-            <title>Dune: Warner plant vierten Film und zweite Serie</title>
-            <link>https://www.golem.de/news/dune-warner-plant-vierten-film-und-zweite-serie-2501-192086.html</link>
-            <description>Der dritte Teil der Dune-Saga wird von Denis Villeneuve gemacht, danach soll ein anderer Regisseur das Ruder übernehmen. (&lt;a href=&quot;https://www.golem.de/specials/dune/&quot;&gt;Dune&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/film/&quot;&gt;Film&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192086&amp;amp;page=1&amp;amp;ts=1735893902&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/audio-video/dune-warner-plant-vierten-film-und-zweite-serie/177069,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 09:45:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192086.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192086-486654-486650_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der dritte Teil der Dune-Saga wird von Denis Villeneuve gemacht, danach soll ein anderer Regisseur das Ruder übernehmen. (<a href="https://www.golem.de/specials/dune/">Dune</a>, <a href="https://www.golem.de/specials/film/">Film</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192086&amp;page=1&amp;ts=1735893902" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments />
-        </item>
-        <item>
-            <title>Microsoft: So sehen animierte Desktop-Wallpaper in Windows 11 aus</title>
-            <link>https://www.golem.de/news/microsoft-so-sehen-animierte-desktop-wallpaper-in-windows-11-aus-2501-192085.html</link>
-            <description>Dynamische Wallpaper sollen Windows 11 einen modernen Look verpassen. Da stellt sich die Frage: Wo sind sie? (&lt;a href=&quot;https://www.golem.de/specials/windows-11/&quot;&gt;Windows 11&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192085&amp;amp;page=1&amp;amp;ts=1735891686&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/microsoft-so-sehen-animierte-desktop-wallpaper-in-windows-11-aus/177068,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 09:08:06 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192085.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192085-486649-486645_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Dynamische Wallpaper sollen Windows 11 einen modernen Look verpassen. Da stellt sich die Frage: Wo sind sie? (<a href="https://www.golem.de/specials/windows-11/">Windows 11</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192085&amp;page=1&amp;ts=1735891686" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>8</slash:comments>
-        </item>
-        <item>
-            <title>Compact Ergonomic Keyboard: Microsofts neue ergonomische Tastatur vorgestellt</title>
-            <link>https://www.golem.de/news/compact-ergonomic-keyboard-microsofts-neue-ergonomische-tastatur-vorgestellt-2501-192084.html</link>
-            <description> Die von Microsoft gestaltete neue ergonomische Tastatur ist auf eine kompakte Bauweise getrimmt. Sie hat eine spezielle Copilot-Taste. (&lt;a href=&quot;https://www.golem.de/specials/tastatur/&quot;&gt;Tastatur&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192084&amp;amp;page=1&amp;amp;ts=1735890482&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/compact-ergonomic-keyboard-microsofts-neue-ergonomische-tastatur-vorgestellt/177067,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 08:48:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192084.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192084-486644-486640_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left"> Die von Microsoft gestaltete neue ergonomische Tastatur ist auf eine kompakte Bauweise getrimmt. Sie hat eine spezielle Copilot-Taste. (<a href="https://www.golem.de/specials/tastatur/">Tastatur</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192084&amp;page=1&amp;ts=1735890482" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments />
-        </item>
-        <item>
-            <title>Hepha Pedelec im Test: Das nicht alltägliche Alltagsrad von Hepha</title>
-            <link>https://www.golem.de/news/hepha-pedelec-im-test-das-nicht-alltaegliche-alltagsrad-von-hepha-2501-191743.html</link>
-            <description>Ein selbst entwickelter Mittelmotor, ein großer Akku und volle Alltagstauglichkeit - das Pedelec Trekking 7 Long Range überzeugte uns im Test. Ein Test von Martin Wolf (&lt;a href=&quot;https://www.golem.de/specials/e-bike/&quot;&gt;E-Bike&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/test/&quot;&gt;Test&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191743&amp;amp;page=1&amp;amp;ts=1735889641&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/hepha-pedelec-im-test-das-nicht-alltaegliche-alltagsrad-von-hepha/177065,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 08:34:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191743.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191743-484616-484611_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ein selbst entwickelter Mittelmotor, ein großer Akku und volle Alltagstauglichkeit - das Pedelec Trekking 7 Long Range überzeugte uns im Test. Ein Test von Martin Wolf (<a href="https://www.golem.de/specials/e-bike/">E-Bike</a>, <a href="https://www.golem.de/specials/test/">Test</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191743&amp;page=1&amp;ts=1735889641" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>25</slash:comments>
-        </item>
-        <item>
-            <title>Jahreswechsel: Silvester-Datenverbrauch im Mobilfunk zieht kräftig an</title>
-            <link>https://www.golem.de/news/jahreswechsel-silvester-datenverbrauch-im-mobilfunk-zieht-kraeftig-an-2501-192083.html</link>
-            <description>Ob Telekom, Vodafone oder O2 - in allen drei deutschen Mobilfunknetzen stieg der Datenverbrauch zum Jahreswechsel erneut an. (&lt;a href=&quot;https://www.golem.de/specials/mobilfunk/&quot;&gt;Mobilfunk&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/telekom/&quot;&gt;Telekom&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192083&amp;amp;page=1&amp;amp;ts=1735888802&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/handy/jahreswechsel-silvester-datenverbrauch-im-mobilfunk-zieht-kraeftig-an/177064,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 08:20:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192083.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192083-486639-486635_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ob Telekom, Vodafone oder O2 - in allen drei deutschen Mobilfunknetzen stieg der Datenverbrauch zum Jahreswechsel erneut an. (<a href="https://www.golem.de/specials/mobilfunk/">Mobilfunk</a>, <a href="https://www.golem.de/specials/telekom/">Telekom</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192083&amp;page=1&amp;ts=1735888802" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments />
-        </item>
-        <item>
-            <title>Asus, Samsung und MSI: 4K-OLED-Monitore mit 27 Zoll angekündigt</title>
-            <link>https://www.golem.de/news/asus-samsung-und-msi-4k-oled-monitore-mit-27-zoll-angekuendigt-2501-192082.html</link>
-            <description>Asus, Samsung und MSI haben gleichzeitig etwa 27 Zoll große 4K-OLED-Displays angekündigt, die eine Bildwiederholfrequenz von 240 Hz erreichen. (&lt;a href=&quot;https://www.golem.de/specials/oled/&quot;&gt;OLED&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/display/&quot;&gt;Display&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192082&amp;amp;page=1&amp;amp;ts=1735886462&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/asus-samsung-und-msi-4k-oled-monitore-mit-27-zoll-angekuendigt/177063,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 07:41:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192082.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192082-486634-486630_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Asus, Samsung und MSI haben gleichzeitig etwa 27 Zoll große 4K-OLED-Displays angekündigt, die eine Bildwiederholfrequenz von 240 Hz erreichen. (<a href="https://www.golem.de/specials/oled/">OLED</a>, <a href="https://www.golem.de/specials/display/">Display</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192082&amp;page=1&amp;ts=1735886462" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>3</slash:comments>
-        </item>
-        <item>
-            <title>Vergleich wegen Datenschutzverletzung: Apple zahlt 95 Millionen Dollar wegen illegaler ...</title>
-            <link>https://www.golem.de/news/vergleich-wegen-datenschutzverletzung-apple-zahlt-95-millionen-dollar-wegen-illegaler-siri-aufnahmen-2501-192081.html</link>
-            <description>Apple hat eine Vergleichsvereinbarung über 95 Millionen US-Dollar wegen nicht autorisierter Sprachaufzeichnungen durch Siri erzielt. (&lt;a href=&quot;https://www.golem.de/specials/apple/&quot;&gt;Apple&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/datenschutz/&quot;&gt;Datenschutz&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192081&amp;amp;page=1&amp;amp;ts=1735885562&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/vergleich-wegen-datenschutzverletzung-apple-zahlt-95-millionen-dollar-wegen-illegaler-siri/177062,list.html</comments>
-            <pubDate>Fri, 03 Jan 2025 07:26:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192081.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192081-486629-486625_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Apple hat eine Vergleichsvereinbarung über 95 Millionen US-Dollar wegen nicht autorisierter Sprachaufzeichnungen durch Siri erzielt. (<a href="https://www.golem.de/specials/apple/">Apple</a>, <a href="https://www.golem.de/specials/datenschutz/">Datenschutz</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192081&amp;page=1&amp;ts=1735885562" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>8</slash:comments>
-        </item>
-        <item>
-            <title>Anzeige: So funktioniert Penetration Testing</title>
-            <link>https://www.golem.de/news/anzeige-so-funktioniert-penetration-testing-2501-191771.html</link>
-            <description>Penetration Testing wird eingesetzt, um IT-Systeme effektiv abzusichern. Eine praxisorientierte Einführung in die Methoden und Techniken zum Aufspüren und Schließen von Sicherheitslücken bietet ein zweitägiger Workshop. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/sicherheitsluecke/&quot;&gt;Sicherheitslücke&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191771&amp;amp;page=1&amp;amp;ts=1735884002&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <pubDate>Fri, 03 Jan 2025 07:00:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191771.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191771-484831-484826_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Penetration Testing wird eingesetzt, um IT-Systeme effektiv abzusichern. Eine praxisorientierte Einführung in die Methoden und Techniken zum Aufspüren und Schließen von Sicherheitslücken bietet ein zweitägiger Workshop. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/sicherheitsluecke/">Sicherheitslücke</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191771&amp;page=1&amp;ts=1735884002" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments />
-        </item>
-        <item>
-            <title>Elektroauto: Tesla verpasst Auslieferungsziel</title>
-            <link>https://www.golem.de/news/elektroauto-tesla-verpasst-auslieferungsziel-2501-192078.html</link>
-            <description>Tesla muss einen Rückschlag in seiner Wachstumsstrategie hinnehmen. Der Abstand zum Konkurrenten BYD ist minimal geworden. (&lt;a href=&quot;https://www.golem.de/specials/tesla/&quot;&gt;Tesla&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/elektroauto/&quot;&gt;Elektroauto&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192078&amp;amp;page=1&amp;amp;ts=1735849322&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/automobil/elektroauto-tesla-verpasst-auslieferungsziel/177061,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 21:22:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192078.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192078-486613-486609_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Tesla muss einen Rückschlag in seiner Wachstumsstrategie hinnehmen. Der Abstand zum Konkurrenten BYD ist minimal geworden. (<a href="https://www.golem.de/specials/tesla/">Tesla</a>, <a href="https://www.golem.de/specials/elektroauto/">Elektroauto</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192078&amp;page=1&amp;ts=1735849322" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>36</slash:comments>
-        </item>
-        <item>
-            <title>Azure Cloud: Microsoft forscht an Servern aus recycelten Komponenten</title>
-            <link>https://www.golem.de/news/azure-cloud-microsoft-forscht-an-servern-aus-recycelten-komponenten-2501-192076.html</link>
-            <description>Statt alte Server nach fünf Jahren auf den Müll zu werfen, sollen Komponenten wie RAM und CPU weiterhin in der Cloud arbeiten können. (&lt;a href=&quot;https://www.golem.de/specials/server/&quot;&gt;Server&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192076&amp;amp;page=1&amp;amp;ts=1735828441&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/azure-cloud-microsoft-forscht-an-servern-aus-recycelten-komponenten/177060,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 15:34:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192076.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192076-486602-486598_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Statt alte Server nach fünf Jahren auf den Müll zu werfen, sollen Komponenten wie RAM und CPU weiterhin in der Cloud arbeiten können. (<a href="https://www.golem.de/specials/server/">Server</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192076&amp;page=1&amp;ts=1735828441" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>16</slash:comments>
-        </item>
-        <item>
-            <title>Autonomes Fahren: Waymo-Taxi kollidiert mit Lieferroboter</title>
-            <link>https://www.golem.de/news/autonomes-fahren-waymo-taxi-kollidiert-mit-lieferroboter-2501-192075.html</link>
-            <description>In Los Angeles hat ein autonomes Waymo-Taxi einen Lieferroboter angefahren. Der hat zuvor eine rote Ampel nicht beachtet. (&lt;a href=&quot;https://www.golem.de/specials/waymo/&quot;&gt;Waymo&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/robots/&quot;&gt;Roboter&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192075&amp;amp;page=1&amp;amp;ts=1735827302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/autonomes-fahren-waymo-taxi-kollidiert-mit-lieferroboter/177059,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 15:15:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192075.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192075-486597-486596_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">In Los Angeles hat ein autonomes Waymo-Taxi einen Lieferroboter angefahren. Der hat zuvor eine rote Ampel nicht beachtet. (<a href="https://www.golem.de/specials/waymo/">Waymo</a>, <a href="https://www.golem.de/specials/robots/">Roboter</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192075&amp;page=1&amp;ts=1735827302" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>42</slash:comments>
-        </item>
-        <item>
-            <title>Supportende naht: Forscher warnt vor Security-Fiasko durch Windows 10</title>
-            <link>https://www.golem.de/news/supportende-naht-forscher-warnt-vor-security-fiasko-durch-windows-10-2501-192072.html</link>
-            <description>Rund zwei Drittel aller Windows-PCs in Deutschland arbeiten noch mit Windows 10. Es besteht dringender Handlungsbedarf - nicht erst im Oktober dieses Jahres. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192072&amp;amp;page=1&amp;amp;ts=1735824662&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/supportende-naht-forscher-warnt-vor-security-fiasko-durch-windows-10/177058,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 14:31:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192072.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192072-486583-486579_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Rund zwei Drittel aller Windows-PCs in Deutschland arbeiten noch mit Windows 10. Es besteht dringender Handlungsbedarf - nicht erst im Oktober dieses Jahres. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192072&amp;page=1&amp;ts=1735824662" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>97</slash:comments>
-        </item>
-        <item>
-            <title>Weltraumschrott: Ring aus Metall fällt in Kenia vom Himmel</title>
-            <link>https://www.golem.de/news/weltraumschrott-ring-aus-metall-faellt-in-kenia-vom-himmel-2501-192074.html</link>
-            <description>In der Nähe eines Dorfes in Kenia ist ein 500 Kilogramm schwerer Trennring einer Rakete eingeschlagen. (&lt;a href=&quot;https://www.golem.de/specials/weltraumschrott/&quot;&gt;Weltraumschrott&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/raumfahrt/&quot;&gt;Raumfahrt&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192074&amp;amp;page=1&amp;amp;ts=1735823342&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/weltraumschrott-ring-aus-metall-faellt-in-kenia-vom-himmel/177057,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 14:09:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192074.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192074-486585-486584_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">In der Nähe eines Dorfes in Kenia ist ein 500 Kilogramm schwerer Trennring einer Rakete eingeschlagen. (<a href="https://www.golem.de/specials/weltraumschrott/">Weltraumschrott</a>, <a href="https://www.golem.de/specials/raumfahrt/">Raumfahrt</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192074&amp;page=1&amp;ts=1735823342" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>59</slash:comments>
-        </item>
-        <item>
-            <title>Hybridkonsole: Bilder zeigen Chips der Nintendo Switch 2</title>
-            <link>https://www.golem.de/news/hybridkonsole-bilder-zeigen-chips-der-nintendo-switch-2-2501-192070.html</link>
-            <description>Ein Tegra-SoC von Nvidia und 12 GByte Arbeitsspeicher: Leaks von der Hauptplatine der Nintendo Switch 2 bestätigen ältere Gerüchte. (&lt;a href=&quot;https://www.golem.de/specials/nintendo-switch/&quot;&gt;Nintendo Switch&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/nintendo/&quot;&gt;Nintendo&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192070&amp;amp;page=1&amp;amp;ts=1735819621&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/games/hybridkonsole-bilder-zeigen-chips-der-nintendo-switch-2/177056,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 13:07:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192070.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192070-486563-486558_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ein Tegra-SoC von Nvidia und 12 GByte Arbeitsspeicher: Leaks von der Hauptplatine der Nintendo Switch 2 bestätigen ältere Gerüchte. (<a href="https://www.golem.de/specials/nintendo-switch/">Nintendo Switch</a>, <a href="https://www.golem.de/specials/nintendo/">Nintendo</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192070&amp;page=1&amp;ts=1735819621" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>83</slash:comments>
-        </item>
-        <item>
-            <title>Sicherheitslücke: Wie ein zwei Jahre alter Bug Bitlocker in Windows 11 umgeht</title>
-            <link>https://www.golem.de/news/sicherheitsluecke-wie-ein-zwei-jahre-alter-bug-bitlocker-in-windows-11-umgeht-2501-192071.html</link>
-            <description> Microsoft sieht Bitlocker als sichere Methode für das Verschlüsseln von Laufwerken an. Offenbar ist das wohl nicht ganz die Wahrheit. (&lt;a href=&quot;https://www.golem.de/specials/38c3/&quot;&gt;38C3&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192071&amp;amp;page=1&amp;amp;ts=1735818482&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/sicherheitsluecke-wie-ein-zwei-jahre-alter-bug-bitlocker-in-windows-11-umgeht/177055,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 12:48:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192071.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192071-486568-486564_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left"> Microsoft sieht Bitlocker als sichere Methode für das Verschlüsseln von Laufwerken an. Offenbar ist das wohl nicht ganz die Wahrheit. (<a href="https://www.golem.de/specials/38c3/">38C3</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192071&amp;page=1&amp;ts=1735818482" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>12</slash:comments>
-        </item>
-        <item>
-            <title>Anzeige: Acer Nitro Gaming-Monitor mit 50 Euro Rabatt zum Neujahr</title>
-            <link>https://www.golem.de/news/anzeige-acer-nitro-gaming-monitor-mit-50-euro-rabatt-zum-neujahr-2501-192069.html</link>
-            <description>Der Gaming-Monitor Nitro von Acer ermöglicht flüssige Bilder zum Jahresstart, ob für Gaming, kreative Projekte oder Filmabende. (&lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&quot;&gt;Technik/Hardware&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/display/&quot;&gt;Display&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192069&amp;amp;page=1&amp;amp;ts=1735818002&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <pubDate>Thu, 02 Jan 2025 12:40:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192069.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192069-486557-486553_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der Gaming-Monitor Nitro von Acer ermöglicht flüssige Bilder zum Jahresstart, ob für Gaming, kreative Projekte oder Filmabende. (<a href="https://www.golem.de/specials/technik-und-hardware/">Technik/Hardware</a>, <a href="https://www.golem.de/specials/display/">Display</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192069&amp;page=1&amp;ts=1735818002" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments />
-        </item>
-        <item>
-            <title>Vampire, Viren, Weltuntergang: Zehn tolle südkoreanische Science-Fiction-Filme</title>
-            <link>https://www.golem.de/news/vampire-viren-weltuntergang-zehn-tolle-suedkoreanische-science-fiction-filme-2501-191796.html</link>
-            <description>Kleines Budget, große Wirkung: Aus Südkorea kommen einige großartige Science-Fiction-Filme. Welche sich lohnen und wo man sie sofort streamen kann. Von Peter Osteried (&lt;a href=&quot;https://www.golem.de/specials/science-fiction/&quot;&gt;Science-Fiction&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/robots/&quot;&gt;Roboter&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191796&amp;amp;page=1&amp;amp;ts=1735817402&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/wissenschaft/vampire-viren-weltuntergang-zehn-tolle-suedkoreanische-science-fiction-filme/177054,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 12:30:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191796.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191796-484972-484967_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Kleines Budget, große Wirkung: Aus Südkorea kommen einige großartige Science-Fiction-Filme. Welche sich lohnen und wo man sie sofort streamen kann. Von Peter Osteried (<a href="https://www.golem.de/specials/science-fiction/">Science-Fiction</a>, <a href="https://www.golem.de/specials/robots/">Roboter</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191796&amp;page=1&amp;ts=1735817402" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>11</slash:comments>
-        </item>
-        <item>
-            <title>Für EU-Nutzer: Telegram blockiert Kanäle russischer Medien</title>
-            <link>https://www.golem.de/news/fuer-eu-nutzer-telegram-blockiert-kanaele-russischer-medien-2501-192066.html</link>
-            <description>Der Zugriff auf die Telegram-Kanäle der betroffenen russischen Medien ist auch deutschen Nutzern verwehrt - unter Verweis auf &quot;lokale Gesetze&quot;. (&lt;a href=&quot;https://www.golem.de/specials/telegram/&quot;&gt;Telegram&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/zensur/&quot;&gt;Zensur&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192066&amp;amp;page=1&amp;amp;ts=1735816082&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/fuer-eu-nutzer-telegram-blockiert-kanaele-russischer-medien/177053,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 12:08:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192066.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192066-486552-486548_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der Zugriff auf die Telegram-Kanäle der betroffenen russischen Medien ist auch deutschen Nutzern verwehrt - unter Verweis auf "lokale Gesetze". (<a href="https://www.golem.de/specials/telegram/">Telegram</a>, <a href="https://www.golem.de/specials/zensur/">Zensur</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192066&amp;page=1&amp;ts=1735816082" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>30</slash:comments>
-        </item>
-        <item>
-            <title>(g+) Entwicklertools verwalten: Mit SDKMAN die Übersicht behalten</title>
-            <link>https://www.golem.de/news/entwicklertools-verwalten-mit-sdkman-die-uebersicht-behalten-2501-190930.html</link>
-            <description>Moderne Entwickler nutzen eine Vielzahl an Werkzeugen und Programmen für die Programmierung. SDKMAN macht das Management dieser Tools kinderleicht. Von Marco Dahms (&lt;a href=&quot;https://www.golem.de/specials/softwareentwicklung/&quot;&gt;Softwareentwicklung&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/virtualisierung/&quot;&gt;Virtualisierung&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=190930&amp;amp;page=1&amp;amp;ts=1735815602&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/software-entwicklung/entwicklertools-verwalten-mit-sdkman-die-uebersicht-behalten/177052,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 12:00:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/190930.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/190930-479818-479813_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Moderne Entwickler nutzen eine Vielzahl an Werkzeugen und Programmen für die Programmierung. SDKMAN macht das Management dieser Tools kinderleicht. Von Marco Dahms (<a href="https://www.golem.de/specials/softwareentwicklung/">Softwareentwicklung</a>, <a href="https://www.golem.de/specials/virtualisierung/">Virtualisierung</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=190930&amp;page=1&amp;ts=1735815602" alt="" width="1" height="1" />]]></content:encoded>
+            <title>25 Jahre Deus Ex: Die großartigste Verschwörung der Spielegeschichte</title>
+            <link>https://www.golem.de/news/25-jahre-deus-ex-die-grossartigste-verschwoerung-der-spielegeschichte-2503-194038.html</link>
+            <description>Mehr als nur Action: Deus Ex überließ dem Spieler die Kontrolle. Aber funktioniert das Abenteuer auch 25 Jahre nach seiner Veröffentlichung? Ein Erfahrungsbericht von Olaf Bleich und Benedikt Plass-Fleßenkämper (&lt;a href=&quot;https://www.golem.de/specials/deus-ex/&quot;&gt;Deus Ex&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/rollenspiel/&quot;&gt;Rollenspiel&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194038&amp;amp;page=1&amp;amp;ts=1742112002&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/games/25-jahre-deus-ex-die-grossartigste-verschwoerung-der-spielegeschichte/178846,list.html</comments>
+            <pubDate>Sun, 16 Mar 2025 09:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194038.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194038-498186-498181_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mehr als nur Action: Deus Ex überließ dem Spieler die Kontrolle. Aber funktioniert das Abenteuer auch 25 Jahre nach seiner Veröffentlichung? Ein Erfahrungsbericht von Olaf Bleich und Benedikt Plass-Fleßenkämper (<a href="https://www.golem.de/specials/deus-ex/">Deus Ex</a>, <a href="https://www.golem.de/specials/rollenspiel/">Rollenspiel</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194038&amp;page=1&amp;ts=1742112002" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments>6</slash:comments>
         </item>
         <item>
-            <title>KI und Urheberrecht: OpenAI könnte Kontrolle auf Kreative verschieben</title>
-            <link>https://www.golem.de/news/ki-und-urheberrecht-openai-koennte-kontrolle-auf-kreative-verschieben-2501-192065.html</link>
-            <description>OpenAI wollte es Kreativen ermöglichen, ihre Werke leichter aus KI-Trainingsdaten zu entfernen. Das versprochene Tool lässt aber auf sich warten. (&lt;a href=&quot;https://www.golem.de/specials/openai/&quot;&gt;OpenAI&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/urheberrecht/&quot;&gt;Urheberrecht&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192065&amp;amp;page=1&amp;amp;ts=1735814701&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/ki-und-urheberrecht-openai-koennte-kontrolle-auf-kreative-verschieben/177051,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 11:45:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192065.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192065-486542-486541_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">OpenAI wollte es Kreativen ermöglichen, ihre Werke leichter aus KI-Trainingsdaten zu entfernen. Das versprochene Tool lässt aber auf sich warten. (<a href="https://www.golem.de/specials/openai/">OpenAI</a>, <a href="https://www.golem.de/specials/urheberrecht/">Urheberrecht</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192065&amp;page=1&amp;ts=1735814701" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>3</slash:comments>
-        </item>
-        <item>
-            <title>Game Science: Umsetzung von Black Myth Wukong scheitert an Xbox-Hardware</title>
-            <link>https://www.golem.de/news/game-science-umsetzung-von-black-myth-wukong-scheitert-an-xbox-hardware-2501-192062.html</link>
-            <description>Kein Exklusivdeal mit Playstation, sondern der Speicher der Xbox Series S sorgt bei der Portierung von Black Myth Wukong für Probleme. (&lt;a href=&quot;https://www.golem.de/specials/black-myth-wukong/&quot;&gt;Black Myth Wukong&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/sony/&quot;&gt;Sony&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192062&amp;amp;page=1&amp;amp;ts=1735810021&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/games/game-science-umsetzung-von-black-myth-wukong-scheitert-an-xbox-hardware/177050,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 10:27:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192062.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192062-486525-486520_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Kein Exklusivdeal mit Playstation, sondern der Speicher der Xbox Series S sorgt bei der Portierung von Black Myth Wukong für Probleme. (<a href="https://www.golem.de/specials/black-myth-wukong/">Black Myth Wukong</a>, <a href="https://www.golem.de/specials/sony/">Sony</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192062&amp;page=1&amp;ts=1735810021" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>93</slash:comments>
-        </item>
-        <item>
-            <title>Cyberangriff: Hacker wollen Daten von IT-Dienstleister Atos erbeutet haben</title>
-            <link>https://www.golem.de/news/cyberangriff-hacker-wollen-daten-von-it-dienstleister-atos-erbeutet-haben-2501-192063.html</link>
-            <description>Die Angreifer behaupten, im Besitz einer Firmendatenbank von Atos zu sein. Der IT-Dienstleister findet bisher keine Beweise für einen Angriff. (&lt;a href=&quot;https://www.golem.de/specials/cybercrime/&quot;&gt;Cybercrime&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/cyberwar/&quot;&gt;Cyberwar&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192063&amp;amp;page=1&amp;amp;ts=1735809602&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/cyberangriff-hacker-wollen-daten-von-it-dienstleister-atos-erbeutet-haben/177049,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 10:20:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192063.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192063-486530-486526_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Angreifer behaupten, im Besitz einer Firmendatenbank von Atos zu sein. Der IT-Dienstleister findet bisher keine Beweise für einen Angriff. (<a href="https://www.golem.de/specials/cybercrime/">Cybercrime</a>, <a href="https://www.golem.de/specials/cyberwar/">Cyberwar</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192063&amp;page=1&amp;ts=1735809602" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Anzeige: Microsoft Office - professionell nutzen</title>
+            <link>https://www.golem.de/news/anzeige-microsoft-office-professionell-nutzen-2503-193986.html</link>
+            <description>Kenntnisse in Microsoft Office sind heute unverzichtbar. Ein E-Learning-Paket vermittelt in über 14 Stunden alles zu Excel, Outlook, PowerPoint und Word, um Flexibilität und Effizienz im Arbeitsalltag zu erhöhen. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/outlook/&quot;&gt;Outlook&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=193986&amp;amp;page=1&amp;amp;ts=1742104802&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Sun, 16 Mar 2025 07:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/193986.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/193986-497847-497839_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Kenntnisse in Microsoft Office sind heute unverzichtbar. Ein E-Learning-Paket vermittelt in über 14 Stunden alles zu Excel, Outlook, PowerPoint und Word, um Flexibilität und Effizienz im Arbeitsalltag zu erhöhen. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/outlook/">Outlook</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=193986&amp;page=1&amp;ts=1742104802" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments />
         </item>
         <item>
-            <title>Elektroauto: Tesla tauscht heimlich Batterien im Cybertruck aus</title>
-            <link>https://www.golem.de/news/elektroauto-tesla-tauscht-heimlich-batterien-im-cybertruck-aus-2501-192064.html</link>
-            <description>Offenbar haben einige Cybertrucks eine fehlerhafte Batterie verbaut. Das berichten einige Besitzer des E-Autos von Tesla. (&lt;a href=&quot;https://www.golem.de/specials/cybertruck/&quot;&gt;Tesla Cybertruck&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/elektroauto/&quot;&gt;Elektroauto&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192064&amp;amp;page=1&amp;amp;ts=1735809302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/automobil/elektroauto-tesla-tauscht-heimlich-batterien-im-cybertruck-aus/177048,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 10:15:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192064.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192064-486536-486535_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Offenbar haben einige Cybertrucks eine fehlerhafte Batterie verbaut. Das berichten einige Besitzer des E-Autos von Tesla. (<a href="https://www.golem.de/specials/cybertruck/">Tesla Cybertruck</a>, <a href="https://www.golem.de/specials/elektroauto/">Elektroauto</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192064&amp;page=1&amp;ts=1735809302" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Anzeige: Cloud-Governance erfolgreich implementieren und steuern</title>
+            <link>https://www.golem.de/news/anzeige-cloud-governance-erfolgreich-implementieren-und-steuern-2503-194310.html</link>
+            <description>Eine strukturierte Cloud-Governance ist essenziell, um Sicherheit, Compliance und Ressourcenmanagement in der Cloud zu steuern. Ein Online-Workshop zeigt, wie IT-Teams Cloud-Strategien entwickeln und umsetzen. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/internet/&quot;&gt;Internet&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194310&amp;amp;page=1&amp;amp;ts=1742058002&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Sat, 15 Mar 2025 18:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194310.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194310-499756-499751_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Eine strukturierte Cloud-Governance ist essenziell, um Sicherheit, Compliance und Ressourcenmanagement in der Cloud zu steuern. Ein Online-Workshop zeigt, wie IT-Teams Cloud-Strategien entwickeln und umsetzen. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/internet/">Internet</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194310&amp;page=1&amp;ts=1742058002" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>GLSDB: US-Präzisionswaffe soll russische Störungen kontern</title>
+            <link>https://www.golem.de/news/glsdb-optimierte-us-praezisionswaffe-soll-russischen-stoerungen-kontern-2503-194341.html</link>
+            <description>Die Ukraine wird in Kürze eine verbesserte Version der Boden-Luft-Bombe erhalten, die wohl gegen GPS-Störversuche gehärtet ist (&lt;a href=&quot;https://www.golem.de/specials/militaer/&quot;&gt;Militär&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/politik-recht/&quot;&gt;Politik&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194341&amp;amp;page=1&amp;amp;ts=1742045821&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/glsdb-us-praezisionswaffe-soll-russische-stoerungen-kontern/178845,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 14:37:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194341.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194341-499932-499928_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Ukraine wird in Kürze eine verbesserte Version der Boden-Luft-Bombe erhalten, die wohl gegen GPS-Störversuche gehärtet ist (<a href="https://www.golem.de/specials/militaer/">Militär</a>, <a href="https://www.golem.de/specials/politik-recht/">Politik</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194341&amp;page=1&amp;ts=1742045821" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments>16</slash:comments>
         </item>
         <item>
-            <title>Klimawandel in Städten: Schwamm drunter</title>
-            <link>https://www.golem.de/news/klimawandel-in-staedten-schwamm-drunter-2501-191631.html</link>
-            <description>Städte leiden unter einem Paradoxon: Entweder es fehlt an Wasser oder es kommt zu viel vom Himmel. Ein neuartiges Wassermanagement soll das ändern: die Schwammstadt. Ein Bericht von Werner Pluta (&lt;a href=&quot;https://www.golem.de/specials/klimakrise/&quot;&gt;Klimakrise&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/wissenschaft/&quot;&gt;Wissenschaft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191631&amp;amp;page=1&amp;amp;ts=1735804801&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/wissenschaft/klimawandel-in-staedten-schwamm-drunter/177047,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 09:00:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191631.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191631-484170-484165_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Städte leiden unter einem Paradoxon: Entweder es fehlt an Wasser oder es kommt zu viel vom Himmel. Ein neuartiges Wassermanagement soll das ändern: die Schwammstadt. Ein Bericht von Werner Pluta (<a href="https://www.golem.de/specials/klimakrise/">Klimakrise</a>, <a href="https://www.golem.de/specials/wissenschaft/">Wissenschaft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191631&amp;page=1&amp;ts=1735804801" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>25</slash:comments>
+            <title>Kaufinteresse: Tesla ist in Deutschland so gut wie erledigt</title>
+            <link>https://www.golem.de/news/kaufinteresse-tesla-ist-in-deutschland-so-gut-wie-erledigt-2503-194339.html</link>
+            <description>Deutsche Verbraucher lehnen Tesla in einer Umfrage überwiegend ab. 94 Prozent würden den Kauf nicht in Betracht ziehen. (&lt;a href=&quot;https://www.golem.de/specials/tesla/&quot;&gt;Tesla&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/elektroauto/&quot;&gt;Elektroauto&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194339&amp;amp;page=1&amp;amp;ts=1742045222&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/kaufinteresse-tesla-ist-in-deutschland-so-gut-wie-erledigt/178844,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 14:27:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194339.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194339-499921-499917_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Deutsche Verbraucher lehnen Tesla in einer Umfrage überwiegend ab. 94 Prozent würden den Kauf nicht in Betracht ziehen. (<a href="https://www.golem.de/specials/tesla/">Tesla</a>, <a href="https://www.golem.de/specials/elektroauto/">Elektroauto</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194339&amp;page=1&amp;ts=1742045222" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>206</slash:comments>
         </item>
         <item>
-            <title>Weitere Attacke: Musk bezeichnet Steinmeier als &quot;antidemokratischen Tyrannen&quot;</title>
-            <link>https://www.golem.de/news/weitere-attacke-musk-bezeichnet-steinmeier-als-antidemokratischen-tyrannen-2501-192061.html</link>
-            <description>US-Milliardär Elon Musk äußert sich erneut zur deutschen Innenpolitik - und attackiert den Bundespräsidenten Frank-Walter Steinmeier. (&lt;a href=&quot;https://www.golem.de/specials/elon-musk/&quot;&gt;Elon Musk&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/politik-recht/&quot;&gt;Politik&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192061&amp;amp;page=1&amp;amp;ts=1735801741&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/politik-recht/weitere-attacke-musk-bezeichnet-steinmeier-als-antidemokratischen-tyrannen/177046,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 08:09:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192061.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192061-486519-486515_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">US-Milliardär Elon Musk äußert sich erneut zur deutschen Innenpolitik - und attackiert den Bundespräsidenten Frank-Walter Steinmeier. (<a href="https://www.golem.de/specials/elon-musk/">Elon Musk</a>, <a href="https://www.golem.de/specials/politik-recht/">Politik</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192061&amp;page=1&amp;ts=1735801741" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>98</slash:comments>
-        </item>
-        <item>
-            <title>Star Trek: Nach Section 31 könnten weitere Streaming-Filme folgen</title>
-            <link>https://www.golem.de/news/star-trek-nach-section-31-koennten-weitere-streaming-filme-folgen-2501-192060.html</link>
-            <description>Am 24. Januar startet mit Section 31 der erste Star-Trek-Film, der exklusiv fürs Streaming produziert worden ist. Könnten mehr kommen? (&lt;a href=&quot;https://www.golem.de/specials/star-trek/&quot;&gt;Star Trek&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/film/&quot;&gt;Film&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192060&amp;amp;page=1&amp;amp;ts=1735801142&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/audio-video/star-trek-nach-section-31-koennten-weitere-streaming-filme-folgen/177045,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 07:59:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192060.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192060-486514-486509_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Am 24. Januar startet mit Section 31 der erste Star-Trek-Film, der exklusiv fürs Streaming produziert worden ist. Könnten mehr kommen? (<a href="https://www.golem.de/specials/star-trek/">Star Trek</a>, <a href="https://www.golem.de/specials/film/">Film</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192060&amp;page=1&amp;ts=1735801142" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>5</slash:comments>
-        </item>
-        <item>
-            <title>Sicherheitsmaßnahme: Lösung von Doom-Captcha erfordert Spielefertigkeiten</title>
-            <link>https://www.golem.de/news/sicherheitsmassnahme-loesung-von-doom-captcha-erfordert-spielefertigkeiten-2501-192059.html</link>
-            <description>Vercel hat ein Captcha mit einer Minisequenz des Egoshooters Doom vorgestellt. Wer das Captcha lösen will, muss gewinnen. (&lt;a href=&quot;https://www.golem.de/specials/doom/&quot;&gt;Doom&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/id-software/&quot;&gt;id Software&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192059&amp;amp;page=1&amp;amp;ts=1735800302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/sicherheitsmassnahme-loesung-von-doom-captcha-erfordert-spielefertigkeiten/177044,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 07:45:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192059.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192059-486508-486504_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Vercel hat ein Captcha mit einer Minisequenz des Egoshooters Doom vorgestellt. Wer das Captcha lösen will, muss gewinnen. (<a href="https://www.golem.de/specials/doom/">Doom</a>, <a href="https://www.golem.de/specials/id-software/">id Software</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192059&amp;page=1&amp;ts=1735800302" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>17</slash:comments>
-        </item>
-        <item>
-            <title>Feuerwerk: Cybertruck explodiert vor Trump-Hotel</title>
-            <link>https://www.golem.de/news/feuerwerk-cybertruck-explodiert-vor-trump-hotel-2501-192058.html</link>
-            <description>Am Neujahrsmorgen ist die Ladung eines Tesla-Cybertrucks vor dem Trump International Hotel detoniert. Ein Mensch wurde getötet. (&lt;a href=&quot;https://www.golem.de/specials/cybertruck/&quot;&gt;Tesla Cybertruck&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/elektroauto/&quot;&gt;Elektroauto&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192058&amp;amp;page=1&amp;amp;ts=1735799101&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/automobil/feuerwerk-cybertruck-explodiert-vor-trump-hotel/177043,list.html</comments>
-            <pubDate>Thu, 02 Jan 2025 07:25:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192058.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192058-486503-486499_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Am Neujahrsmorgen ist die Ladung eines Tesla-Cybertrucks vor dem Trump International Hotel detoniert. Ein Mensch wurde getötet. (<a href="https://www.golem.de/specials/cybertruck/">Tesla Cybertruck</a>, <a href="https://www.golem.de/specials/elektroauto/">Elektroauto</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192058&amp;page=1&amp;ts=1735799101" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>106</slash:comments>
-        </item>
-        <item>
-            <title>Anzeige: Microsoft Teams für Kooperation und Projektmanagement</title>
-            <link>https://www.golem.de/news/anzeige-microsoft-teams-fuer-kooperation-und-projektmanagement-2501-191770.html</link>
-            <description>Microsoft Teams bietet vielfältige Optionen für Teamarbeit und Projektmanagement. Zwei Online-Workshops vermitteln, wie sich Teams gezielt für effiziente Zusammenarbeit und erfolgreiche Projektverwaltung nutzen lässt. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191770&amp;amp;page=1&amp;amp;ts=1735797602&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <pubDate>Thu, 02 Jan 2025 07:00:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191770.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191770-484825-484820_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsoft Teams bietet vielfältige Optionen für Teamarbeit und Projektmanagement. Zwei Online-Workshops vermitteln, wie sich Teams gezielt für effiziente Zusammenarbeit und erfolgreiche Projektverwaltung nutzen lässt. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191770&amp;page=1&amp;ts=1735797602" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Jugendschutz in Onlinespielen: Eltern sollen Roblox im Zweifel verbieten</title>
+            <link>https://www.golem.de/news/jugendschutz-in-onlinespielen-eltern-sollen-roblox-im-zweifel-verbieten-2503-194340.html</link>
+            <description>Laut Roblox-CEO David Baszucki können Schutzmaßnahmen keinen hundertprozentigen Schutz garantieren. Besorgte Eltern sollen ihre Kinder von dem Spiel fernhalten. (&lt;a href=&quot;https://www.golem.de/specials/jugendschutz/&quot;&gt;Jugendschutz&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/games/&quot;&gt;Spiele&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194340&amp;amp;page=1&amp;amp;ts=1742042642&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/games/jugendschutz-in-onlinespielen-eltern-sollen-roblox-im-zweifel-verbieten/178843,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 13:44:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194340.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194340-499927-499926_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Laut Roblox-CEO David Baszucki können Schutzmaßnahmen keinen hundertprozentigen Schutz garantieren. Besorgte Eltern sollen ihre Kinder von dem Spiel fernhalten. (<a href="https://www.golem.de/specials/jugendschutz/">Jugendschutz</a>, <a href="https://www.golem.de/specials/games/">Spiele</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194340&amp;page=1&amp;ts=1742042642" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments />
         </item>
         <item>
-            <title>Valve: Freunde und Familie spielen offenbar schon Half-Life 3</title>
-            <link>https://www.golem.de/news/valve-freunde-und-familie-spielen-offenbar-schon-half-life-3-2501-192057.html</link>
-            <description>Wie wäre es mit Half-Life 3 über die Feiertage? Es gibt offenbar schon Menschen, die als Gordon Freeman eine Vorabversion testen konnten. (&lt;a href=&quot;https://www.golem.de/specials/half-life-3/&quot;&gt;Half-Life 3&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/half-life/&quot;&gt;Half-Life&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192057&amp;amp;page=1&amp;amp;ts=1735733102&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/games/valve-freunde-und-familie-spielen-offenbar-schon-half-life-3/177042,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 13:05:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192057.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192057-486498-486493_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Wie wäre es mit Half-Life 3 über die Feiertage? Es gibt offenbar schon Menschen, die als Gordon Freeman eine Vorabversion testen konnten. (<a href="https://www.golem.de/specials/half-life-3/">Half-Life 3</a>, <a href="https://www.golem.de/specials/half-life/">Half-Life</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192057&amp;page=1&amp;ts=1735733102" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>53</slash:comments>
+            <title>Siri: KI-Krise bei Apple</title>
+            <link>https://www.golem.de/news/siri-ki-krise-bei-apple-2503-194338.html</link>
+            <description>Apple-Manager Robby Walker, der für Siri zuständig ist, gibt sich zerknirscht über die Verzögerungen der versprochenen KI-Funktionen. (&lt;a href=&quot;https://www.golem.de/specials/apple-intelligenve/&quot;&gt;Apple Intelligence&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/apple/&quot;&gt;Apple&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194338&amp;amp;page=1&amp;amp;ts=1742039821&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/siri-ki-krise-bei-apple/178842,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 12:57:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194338.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194338-499916-499912_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Apple-Manager Robby Walker, der für Siri zuständig ist, gibt sich zerknirscht über die Verzögerungen der versprochenen KI-Funktionen. (<a href="https://www.golem.de/specials/apple-intelligenve/">Apple Intelligence</a>, <a href="https://www.golem.de/specials/apple/">Apple</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194338&amp;page=1&amp;ts=1742039821" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>21</slash:comments>
         </item>
         <item>
-            <title>Apple: Leaker deutet Neupositionierung des iPhone SE an</title>
-            <link>https://www.golem.de/news/apple-leaker-deutet-neupositionierung-des-iphone-se-an-2501-192056.html</link>
-            <description>Apple hat mit dem Budget-Smartphone iPhone SE offenbar einiges vor: Es soll wohl stärker in das aktuelle Portfolio eingebunden werden. (&lt;a href=&quot;https://www.golem.de/specials/iphonese/&quot;&gt;iPhone SE&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/smartphone/&quot;&gt;Smartphone&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192056&amp;amp;page=1&amp;amp;ts=1735730522&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/handy/apple-leaker-deutet-neupositionierung-des-iphone-se-an/177041,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 12:22:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192056.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192056-486492-486488_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Apple hat mit dem Budget-Smartphone iPhone SE offenbar einiges vor: Es soll wohl stärker in das aktuelle Portfolio eingebunden werden. (<a href="https://www.golem.de/specials/iphonese/">iPhone SE</a>, <a href="https://www.golem.de/specials/smartphone/">Smartphone</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192056&amp;page=1&amp;ts=1735730522" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>14</slash:comments>
+            <title>Launch der Radeon RX 9070: Nachschub hat hohe Priorität für AMD</title>
+            <link>https://www.golem.de/news/launch-der-radeon-rx-9070-nachschub-hat-hohe-prioritaet-fuer-amd-2503-194337.html</link>
+            <description>AMD will so schnell wie möglich die Nachfrage nach mehr GPUs bedienen. Grafikkarten zum Herstellerpreis sollen dabei ebenso berücksichtig werden. (&lt;a href=&quot;https://www.golem.de/specials/grafikhardware/&quot;&gt;Grafikkarten&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/amd/&quot;&gt;AMD&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194337&amp;amp;page=1&amp;amp;ts=1742038021&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/launch-der-radeon-rx-9070-nachschub-hat-hohe-prioritaet-fuer-amd/178841,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 12:27:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194337.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194337-499911-499907_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">AMD will so schnell wie möglich die Nachfrage nach mehr GPUs bedienen. Grafikkarten zum Herstellerpreis sollen dabei ebenso berücksichtig werden. (<a href="https://www.golem.de/specials/grafikhardware/">Grafikkarten</a>, <a href="https://www.golem.de/specials/amd/">AMD</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194337&amp;page=1&amp;ts=1742038021" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>8</slash:comments>
         </item>
         <item>
-            <title>Nasdaq 100: Die Technik-Tops und -Flops im Jahr 2024</title>
-            <link>https://www.golem.de/news/nasdaq-100-die-technik-tops-und-flops-im-jahr-2024-2501-192055.html</link>
-            <description>Intel ist der große Verlierer im Nasdaq. Das Unternehmen mit dem stärksten Plus im Jahr 2024 dürfte dagegen kaum jemand kennen. (&lt;a href=&quot;https://www.golem.de/specials/nasdaq/&quot;&gt;Nasdaq&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/intel/&quot;&gt;Intel&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192055&amp;amp;page=1&amp;amp;ts=1735728302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/nasdaq-100-die-technik-tops-und-flops-im-jahr-2024/177040,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 11:45:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192055.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192055-486482-486477_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Intel ist der große Verlierer im Nasdaq. Das Unternehmen mit dem stärksten Plus im Jahr 2024 dürfte dagegen kaum jemand kennen. (<a href="https://www.golem.de/specials/nasdaq/">Nasdaq</a>, <a href="https://www.golem.de/specials/intel/">Intel</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192055&amp;page=1&amp;ts=1735728302" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>5</slash:comments>
+            <title>Sicherheit und Privatsphäre: Amazon will Cloudzugriff auf Sprachdaten</title>
+            <link>https://www.golem.de/news/sicherheit-und-privatsphaere-amazon-will-cloudzugriff-auf-sprachdaten-2503-194336.html</link>
+            <description>Eine wichtige Privacy-Einstellung wird mit dem kommenden Update entfernt. Als Begründung wird erweiterte KI-Funktionalität für Alexa genannt. (&lt;a href=&quot;https://www.golem.de/specials/alexa/&quot;&gt;Amazon Alexa&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/ki/&quot;&gt;KI&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194336&amp;amp;page=1&amp;amp;ts=1742035562&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/sicherheit-und-privatsphaere-amazon-will-cloudzugriff-auf-sprachdaten/178840,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 11:46:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194336.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194336-499906-499902_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Eine wichtige Privacy-Einstellung wird mit dem kommenden Update entfernt. Als Begründung wird erweiterte KI-Funktionalität für Alexa genannt. (<a href="https://www.golem.de/specials/alexa/">Amazon Alexa</a>, <a href="https://www.golem.de/specials/ki/">KI</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194336&amp;page=1&amp;ts=1742035562" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>9</slash:comments>
         </item>
         <item>
-            <title>Rockstar Games: Höher aufgelöster GTA-6-Trailer zeigt mehr Details</title>
-            <link>https://www.golem.de/news/rockstar-games-hoeher-aufgeloester-gta-6-trailer-zeigt-mehr-details-2501-192054.html</link>
-            <description>Feinheiten in Gesichtern und mehr: Rockstar Games hat eine neue Version des altbekannten GTA-6-Trailers veröffentlicht. (&lt;a href=&quot;https://www.golem.de/specials/gta-6/&quot;&gt;GTA 6&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/rockstar/&quot;&gt;Rockstar&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192054&amp;amp;page=1&amp;amp;ts=1735726621&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/games/rockstar-games-hoeher-aufgeloester-gta-6-trailer-zeigt-mehr-details/177039,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 11:17:01 +0100</pubDate>
-            <guid>https://www.golem.de/2501/192054.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/192054-486476-486471_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Feinheiten in Gesichtern und mehr: Rockstar Games hat eine neue Version des altbekannten GTA-6-Trailers veröffentlicht. (<a href="https://www.golem.de/specials/gta-6/">GTA 6</a>, <a href="https://www.golem.de/specials/rockstar/">Rockstar</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192054&amp;page=1&amp;ts=1735726621" alt="" width="1" height="1" />]]></content:encoded>
+            <title>Reboot kommt: Neuer Film mit den Starship Troopers</title>
+            <link>https://www.golem.de/news/reboot-kommt-neuer-film-mit-den-starship-troopers-2503-194332.html</link>
+            <description>Fast 30 Jahre nach Paul Verhoevens Originalfilm beginnen die Arbeiten an einem neuen Starship Troopers. (&lt;a href=&quot;https://www.golem.de/specials/science-fiction/&quot;&gt;Science-Fiction&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/sony/&quot;&gt;Sony&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194332&amp;amp;page=1&amp;amp;ts=1742031061&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/audio-video/reboot-kommt-neuer-film-mit-den-starship-troopers/178839,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 10:31:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194332.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194332-499879-499875_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Fast 30 Jahre nach Paul Verhoevens Originalfilm beginnen die Arbeiten an einem neuen Starship Troopers. (<a href="https://www.golem.de/specials/science-fiction/">Science-Fiction</a>, <a href="https://www.golem.de/specials/sony/">Sony</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194332&amp;page=1&amp;ts=1742031061" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>6</slash:comments>
+        </item>
+        <item>
+            <title>(g+) Klimaschutz: Was habe ich als Unternehmen von einer nachhaltigen Website?</title>
+            <link>https://www.golem.de/news/klimaschutz-was-habe-ich-als-unternehmen-von-einer-nachhaltigen-website-2503-194299.html</link>
+            <description>Nachhaltige Websites - das klingt für viele CTOs nach viel Aufwand, null Ertrag. Torsten Beyer widerspricht und erklärt, wie Firmen davon profitieren können. Ein Interview von Tim Schürmann (&lt;a href=&quot;https://www.golem.de/specials/greenit/&quot;&gt;GreenIT&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/barrierefreiheit/&quot;&gt;Barrierefreiheit&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194299&amp;amp;page=1&amp;amp;ts=1742029202&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/klimaschutz-was-habe-ich-als-unternehmen-von-einer-nachhaltigen-website/178837,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 10:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194299.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194299-499684-499679_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Nachhaltige Websites - das klingt für viele CTOs nach viel Aufwand, null Ertrag. Torsten Beyer widerspricht und erklärt, wie Firmen davon profitieren können. Ein Interview von Tim Schürmann (<a href="https://www.golem.de/specials/greenit/">GreenIT</a>, <a href="https://www.golem.de/specials/barrierefreiheit/">Barrierefreiheit</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194299&amp;page=1&amp;ts=1742029202" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>6</slash:comments>
+        </item>
+        <item>
+            <title>Ducky One X im Test: Tippen wie auf Wolke sieben</title>
+            <link>https://www.golem.de/news/ducky-one-x-im-test-tippen-wie-auf-wolke-sieben-2503-193930.html</link>
+            <description>Die Ducky One X ist eine der ersten Tastaturen mit induktiven Switches. Diese tippen sich exzellent, wenn wir Kompromisse eingehen. Ein Test von Oliver Nickel (&lt;a href=&quot;https://www.golem.de/specials/tastatur/&quot;&gt;Tastatur&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/test/&quot;&gt;Test&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=193930&amp;amp;page=1&amp;amp;ts=1742025602&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/ducky-one-x-im-test-tippen-wie-auf-wolke-sieben/178836,list.html</comments>
+            <pubDate>Sat, 15 Mar 2025 09:00:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/193930.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/193930-497863-497858_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Ducky One X ist eine der ersten Tastaturen mit induktiven Switches. Diese tippen sich exzellent, wenn wir Kompromisse eingehen. Ein Test von Oliver Nickel (<a href="https://www.golem.de/specials/tastatur/">Tastatur</a>, <a href="https://www.golem.de/specials/test/">Test</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=193930&amp;page=1&amp;ts=1742025602" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>32</slash:comments>
+        </item>
+        <item>
+            <title>Anzeige: KI-Grundlagen und strategische Chancen für Unternehmen</title>
+            <link>https://www.golem.de/news/anzeige-ki-grundlagen-und-strategische-chancen-fuer-unternehmen-2503-193981.html</link>
+            <description>Die zunehmende Bedeutung von KI erfordert fundiertes Wissen in Unternehmen. Ein Workshop vermittelt Führungskräften grundlegendes Verständnis von KI-Technologien sowie praxisnahe Einblicke in Chancen und Risiken. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/ki/&quot;&gt;KI&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=193981&amp;amp;page=1&amp;amp;ts=1742018401&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Sat, 15 Mar 2025 07:00:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/193981.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/193981-497824-497816_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die zunehmende Bedeutung von KI erfordert fundiertes Wissen in Unternehmen. Ein Workshop vermittelt Führungskräften grundlegendes Verständnis von KI-Technologien sowie praxisnahe Einblicke in Chancen und Risiken. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/ki/">KI</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=193981&amp;page=1&amp;ts=1742018401" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Finanzpaket: Cybersicherheit künftig von der Schuldenbremse ausgenommen</title>
+            <link>https://www.golem.de/news/finanzpaket-cybersicherheit-kuenftig-von-der-schuldenbremse-ausgenommen-2503-194331.html</link>
+            <description>Union, SPD und Grüne einigen sich auf Ausnahmen bei der Schuldenbremse - auch für die IT-Sicherheit, um Deutschlands Cyberschutz zu stärken. (&lt;a href=&quot;https://www.golem.de/specials/politik-recht/&quot;&gt;Politik&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/bsi/&quot;&gt;BSI&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194331&amp;amp;page=1&amp;amp;ts=1741978381&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/finanzpaket-cybersicherheit-kuenftig-von-der-schuldenbremse-ausgenommen/178835,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 19:53:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194331.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194331-499874-499870_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Union, SPD und Grüne einigen sich auf Ausnahmen bei der Schuldenbremse - auch für die IT-Sicherheit, um Deutschlands Cyberschutz zu stärken. (<a href="https://www.golem.de/specials/politik-recht/">Politik</a>, <a href="https://www.golem.de/specials/bsi/">BSI</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194331&amp;page=1&amp;ts=1741978381" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>13</slash:comments>
+        </item>
+        <item>
+            <title>Ifo und Randstad: Ein Drittel der Unternehmen will Homeoffice beschränken</title>
+            <link>https://www.golem.de/news/ifo-und-randstad-ein-drittel-der-unternehmen-will-homeoffice-beschraenken-2503-194330.html</link>
+            <description>Viele Manager fürchten Nachteile wie Kontrollverlust oder eine geringere Bindung an die Firma. 9 Prozent der Firmen wollen Homeoffice komplett beenden. (&lt;a href=&quot;https://www.golem.de/specials/return-to-office/&quot;&gt;Return to Office&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/wirtschaft/&quot;&gt;Wirtschaft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194330&amp;amp;page=1&amp;amp;ts=1741973041&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/ifo-und-randstad-ein-drittel-der-unternehmen-will-homeoffice-beschraenken/178834,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 18:24:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194330.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194330-499869-499865_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Viele Manager fürchten Nachteile wie Kontrollverlust oder eine geringere Bindung an die Firma. 9 Prozent der Firmen wollen Homeoffice komplett beenden. (<a href="https://www.golem.de/specials/return-to-office/">Return to Office</a>, <a href="https://www.golem.de/specials/wirtschaft/">Wirtschaft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194330&amp;page=1&amp;ts=1741973041" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>26</slash:comments>
+        </item>
+        <item>
+            <title>Klimaziele: 65 Prozent weniger CO2 bis 2030 ist realistisch</title>
+            <link>https://www.golem.de/news/klimaziele-65-prozent-weniger-co2-bis-2030-ist-realistisch-2503-194328.html</link>
+            <description>Nach aktuellem Stand sind Deutschlands Ziele für den CO2-Ausstoß bis 2030 realistisch. Schon jetzt werden sie übererfüllt, aber nicht in jedem Sektor. (&lt;a href=&quot;https://www.golem.de/specials/energiewende/&quot;&gt;Energiewende&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/greenit/&quot;&gt;GreenIT&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194328&amp;amp;page=1&amp;amp;ts=1741972381&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/klimaziele-65-prozent-weniger-co2-bis-2030-ist-realistisch/178833,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 18:13:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194328.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194328-499852-499848_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Nach aktuellem Stand sind Deutschlands Ziele für den CO2-Ausstoß bis 2030 realistisch. Schon jetzt werden sie übererfüllt, aber nicht in jedem Sektor. (<a href="https://www.golem.de/specials/energiewende/">Energiewende</a>, <a href="https://www.golem.de/specials/greenit/">GreenIT</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194328&amp;page=1&amp;ts=1741972381" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>15</slash:comments>
+        </item>
+        <item>
+            <title>Anzeige: 2 TByte große NVMe SSD von Corsair über 70 Euro reduziert</title>
+            <link>https://www.golem.de/news/anzeige-2-tbyte-grosse-nvme-ssd-von-corsair-ueber-70-euro-reduziert-2503-194329.html</link>
+            <description>Amazon bietet die Corsair MP600 PRO LPX stark vergünstigt an. Im befristeten Angebot kostet die NVMe SSD mit 2 TByte 32 Prozent weniger. (&lt;a href=&quot;https://www.golem.de/specials/solidstatedrive/&quot;&gt;Solid State Drive&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/speichermedien/&quot;&gt;Speichermedien&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194329&amp;amp;page=1&amp;amp;ts=1741971662&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 18:01:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194329.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194329-499860-499857_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Amazon bietet die Corsair MP600 PRO LPX stark vergünstigt an. Im befristeten Angebot kostet die NVMe SSD mit 2 TByte 32 Prozent weniger. (<a href="https://www.golem.de/specials/solidstatedrive/">Solid State Drive</a>, <a href="https://www.golem.de/specials/speichermedien/">Speichermedien</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194329&amp;page=1&amp;ts=1741971662" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Anzeige: Systemverwaltung effizient automatisieren mit Ansible</title>
+            <link>https://www.golem.de/news/anzeige-systemverwaltung-effizient-automatisieren-mit-ansible-2503-194308.html</link>
+            <description>Ansible revolutioniert die Automatisierung und Verwaltung von IT-Systemen. Ein dreitägiger Workshop zeigt, wie das Open-Source-Tool für effiziente Systemkonfigurationen und Orchestrierung genutzt wird. (&lt;a href=&quot;https://www.golem.de/specials/golemakademie/&quot;&gt;Golem Karrierewelt&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/serverapps/&quot;&gt;Server-Applikationen&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194308&amp;amp;page=1&amp;amp;ts=1741971601&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 18:00:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194308.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194308-499738-499733_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ansible revolutioniert die Automatisierung und Verwaltung von IT-Systemen. Ein dreitägiger Workshop zeigt, wie das Open-Source-Tool für effiziente Systemkonfigurationen und Orchestrierung genutzt wird. (<a href="https://www.golem.de/specials/golemakademie/">Golem Karrierewelt</a>, <a href="https://www.golem.de/specials/serverapps/">Server-Applikationen</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194308&amp;page=1&amp;ts=1741971601" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Anzeige: Williams letzter F1-WM-Rennwagen im Angebot</title>
+            <link>https://www.golem.de/news/anzeige-williams-letzter-f1-wm-rennwagen-im-angebot-2503-194326.html</link>
+            <description>Bei Amazon gibt es zum F1-Saisonauftakt den letzten WM-Gewinner-Rennwagen von Williams im befristeten Angebot. (&lt;a href=&quot;https://www.golem.de/specials/lego/&quot;&gt;Lego&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/spieletest/&quot;&gt;Spieletest&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194326&amp;amp;page=1&amp;amp;ts=1741967401&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 16:50:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194326.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194326-499847-499843_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Bei Amazon gibt es zum F1-Saisonauftakt den letzten WM-Gewinner-Rennwagen von Williams im befristeten Angebot. (<a href="https://www.golem.de/specials/lego/">Lego</a>, <a href="https://www.golem.de/specials/spieletest/">Spieletest</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194326&amp;page=1&amp;ts=1741967401" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>RCS: Ende-zu-Ende-Verschlüsselung zwischen iOS und Android</title>
+            <link>https://www.golem.de/news/rcs-ende-zu-ende-verschluesselung-zwischen-ios-und-android-2503-194325.html</link>
+            <description>Mit RCS Universal Profile 3.0 ist E2EE Teil des RCS-Standards. Ein wichtiger Schritt für die Sicherheit plattformübergreifender Nachrichten. (&lt;a href=&quot;https://www.golem.de/specials/e2ee/&quot;&gt;Ende-zu-Ende-Verschlüsselung&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/apple/&quot;&gt;Apple&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194325&amp;amp;page=1&amp;amp;ts=1741966682&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/rcs-ende-zu-ende-verschluesselung-zwischen-ios-und-android/178832,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 16:38:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194325.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194325-499842-499838_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mit RCS Universal Profile 3.0 ist E2EE Teil des RCS-Standards. Ein wichtiger Schritt für die Sicherheit plattformübergreifender Nachrichten. (<a href="https://www.golem.de/specials/e2ee/">Ende-zu-Ende-Verschlüsselung</a>, <a href="https://www.golem.de/specials/apple/">Apple</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194325&amp;page=1&amp;ts=1741966682" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>2</slash:comments>
+        </item>
+        <item>
+            <title>Anzeige: Vielseitiges Tastatur-Reinigungsset für nur 11,99 Euro</title>
+            <link>https://www.golem.de/news/anzeige-vielseitiges-tastatur-reinigungsset-fuer-nur-11-99-euro-2503-194324.html</link>
+            <description>Amazon hat ein Tastatur-Reinigungsset mit umfangreichem Zubehör im Angebot, mit dem man auch Kopfhörer, Ladecases und Displays pflegen kann. (&lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&quot;&gt;Technik/Hardware&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194324&amp;amp;page=1&amp;amp;ts=1741965902&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 16:25:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194324.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194324-499837-499833_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Amazon hat ein Tastatur-Reinigungsset mit umfangreichem Zubehör im Angebot, mit dem man auch Kopfhörer, Ladecases und Displays pflegen kann. (<a href="https://www.golem.de/specials/technik-und-hardware/">Technik/Hardware</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194324&amp;page=1&amp;ts=1741965902" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Chromecast mit Google TV: Update auf Android TV 14 hat Fehler</title>
+            <link>https://www.golem.de/news/chromecast-mit-google-tv-update-auf-android-tv-14-hat-fehler-2503-194323.html</link>
+            <description>Für Googles Chromecast mit Google TV wird derzeit das Update auf Android TV 14 verteilt. Es gibt allerdings viele Fehlerberichte. (&lt;a href=&quot;https://www.golem.de/specials/chromecast/&quot;&gt;Chromecast&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/google/&quot;&gt;Google&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194323&amp;amp;page=1&amp;amp;ts=1741964162&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/chromecast-mit-google-tv-update-auf-android-tv-14-hat-fehler/178831,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 15:56:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194323.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194323-499832-499828_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Für Googles Chromecast mit Google TV wird derzeit das Update auf Android TV 14 verteilt. Es gibt allerdings viele Fehlerberichte. (<a href="https://www.golem.de/specials/chromecast/">Chromecast</a>, <a href="https://www.golem.de/specials/google/">Google</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194323&amp;page=1&amp;ts=1741964162" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Raumfahrt: Axiom Space bringt Edge-Computing in den Orbit</title>
+            <link>https://www.golem.de/news/raumfahrt-axiom-space-bringt-edge-computing-in-den-orbit-2503-194311.html</link>
+            <description>Das US-Raumfahrtunternehmen Axiom will ein orbitales Datenzentrum zur ISS schicken. Dafür kooperiert es mit Red Hat. (&lt;a href=&quot;https://www.golem.de/specials/cloud-computing/&quot;&gt;Cloud Computing&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/speichermedien/&quot;&gt;Speichermedien&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194311&amp;amp;page=1&amp;amp;ts=1741962302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/raumfahrt-axiom-space-bringt-edge-computing-in-den-orbit/178830,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 15:25:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194311.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194311-499775-499774_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Das US-Raumfahrtunternehmen Axiom will ein orbitales Datenzentrum zur ISS schicken. Dafür kooperiert es mit Red Hat. (<a href="https://www.golem.de/specials/cloud-computing/">Cloud Computing</a>, <a href="https://www.golem.de/specials/speichermedien/">Speichermedien</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194311&amp;page=1&amp;ts=1741962302" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Anzeige: Saugroboter für das Smart Home für unter 100 Euro sichern</title>
+            <link>https://www.golem.de/news/anzeige-saugroboter-fuer-das-smart-home-fuer-unter-100-euro-sichern-2503-194322.html</link>
+            <description>Der Saugroboter von Lefant optimiert Navigation, Teppichreinigung und Ladeeffizienz und ist eine smarte Lösung für unter 100 Euro. (&lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&quot;&gt;Technik/Hardware&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/saugroboter/&quot;&gt;Saugroboter&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194322&amp;amp;page=1&amp;amp;ts=1741961581&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 15:13:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194322.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194322-499827-499823_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der Saugroboter von Lefant optimiert Navigation, Teppichreinigung und Ladeeffizienz und ist eine smarte Lösung für unter 100 Euro. (<a href="https://www.golem.de/specials/technik-und-hardware/">Technik/Hardware</a>, <a href="https://www.golem.de/specials/saugroboter/">Saugroboter</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194322&amp;page=1&amp;ts=1741961581" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>E-Fuels: Synthetischer Treibstoff aus Biogas hergestellt</title>
+            <link>https://www.golem.de/news/e-fuels-synthetischer-treibstoff-aus-biogas-hergestellt-2503-194321.html</link>
+            <description>42.000 Tonnen E-Fuels soll die Anlage im Süden Dänemarks jährlich produzieren, die ansonsten reinen Wasserstoff erzeugt. (&lt;a href=&quot;https://www.golem.de/specials/energiewende/&quot;&gt;Energiewende&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/umweltschutz/&quot;&gt;Umweltschutz&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194321&amp;amp;page=1&amp;amp;ts=1741961161&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/e-fuels-synthetischer-treibstoff-aus-biogas-hergestellt/178829,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 15:06:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194321.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194321-499743-499739_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">42.000 Tonnen E-Fuels soll die Anlage im Süden Dänemarks jährlich produzieren, die ansonsten reinen Wasserstoff erzeugt. (<a href="https://www.golem.de/specials/energiewende/">Energiewende</a>, <a href="https://www.golem.de/specials/umweltschutz/">Umweltschutz</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194321&amp;page=1&amp;ts=1741961161" alt="" width="1" height="1" />]]></content:encoded>
             <slash:comments>30</slash:comments>
         </item>
         <item>
-            <title>(g+) Unabhängigkeitserklärung: KI-Chatbots lokal ohne Cloudanbindung nutzen</title>
-            <link>https://www.golem.de/news/unabhaengigkeitserklaerung-ki-chatbots-lokal-ohne-cloudanbindung-nutzen-2501-190512.html</link>
-            <description>Immer mehr LLMs lassen sich auch auf Rechnern ohne Cloud-Anbindung nutzen, so dass dabei der Datenschutz nicht auf der Strecke bleibt. Eine Anleitung von Erik Bärwaldt (&lt;a href=&quot;https://www.golem.de/specials/chatbots/&quot;&gt;Chatbots&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/ki/&quot;&gt;KI&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=190512&amp;amp;page=1&amp;amp;ts=1735722002&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/security/unabhaengigkeitserklaerung-ki-chatbots-lokal-ohne-cloudanbindung-nutzen/177038,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 10:00:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/190512.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/190512-484676-484671_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Immer mehr LLMs lassen sich auch auf Rechnern ohne Cloud-Anbindung nutzen, so dass dabei der Datenschutz nicht auf der Strecke bleibt. Eine Anleitung von Erik Bärwaldt (<a href="https://www.golem.de/specials/chatbots/">Chatbots</a>, <a href="https://www.golem.de/specials/ki/">KI</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=190512&amp;page=1&amp;ts=1735722002" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>7</slash:comments>
+            <title>Anzeige: Bluetooth-FM-Transmitter bei Amazon für nur 16,99 Euro</title>
+            <link>https://www.golem.de/news/anzeige-bluetooth-fm-transmitter-bei-amazon-fuer-nur-16-99-euro-2503-194319.html</link>
+            <description>Amazon hat einen Bluetooth-FM-Transmitter von Mohard im Angebot, mit dem man Audiosignale vom Smartphone auf das Autoradio übertragen kann. (&lt;a href=&quot;https://www.golem.de/specials/bluetooth/&quot;&gt;Bluetooth&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/technik-und-hardware/&quot;&gt;Technik/Hardware&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194319&amp;amp;page=1&amp;amp;ts=1741960322&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 14:52:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194319.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194319-499817-499813_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Amazon hat einen Bluetooth-FM-Transmitter von Mohard im Angebot, mit dem man Audiosignale vom Smartphone auf das Autoradio übertragen kann. (<a href="https://www.golem.de/specials/bluetooth/">Bluetooth</a>, <a href="https://www.golem.de/specials/technik-und-hardware/">Technik/Hardware</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194319&amp;page=1&amp;ts=1741960322" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
         </item>
         <item>
-            <title>50 Jahre Dark Star: Das B-Movie, das die Basis für große Sci-Fi-Filme schuf</title>
-            <link>https://www.golem.de/news/dark-star-das-b-movie-das-die-basis-fuer-grosse-sci-fi-filme-schuf-2501-191758.html</link>
-            <description>Mit aus Küchengeräten gebastelten Weltraumanzügen und wenig Budget wurde Dark Star zum Kultfilm, der Science-Fiction von Star Wars bis Alien geprägt hat. Von Mathias Küfner (&lt;a href=&quot;https://www.golem.de/specials/science-fiction/&quot;&gt;Science-Fiction&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/star-wars/&quot;&gt;Star Wars&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=191758&amp;amp;page=1&amp;amp;ts=1735718402&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/audio-video/50-jahre-dark-star-das-b-movie-das-die-basis-fuer-grosse-sci-fi-filme-schuf/177037,list.html</comments>
-            <pubDate>Wed, 01 Jan 2025 09:00:02 +0100</pubDate>
-            <guid>https://www.golem.de/2501/191758.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2501/191758-484795-484790_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mit aus Küchengeräten gebastelten Weltraumanzügen und wenig Budget wurde Dark Star zum Kultfilm, der Science-Fiction von Star Wars bis Alien geprägt hat. Von Mathias Küfner (<a href="https://www.golem.de/specials/science-fiction/">Science-Fiction</a>, <a href="https://www.golem.de/specials/star-wars/">Star Wars</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=191758&amp;page=1&amp;ts=1735718402" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>43</slash:comments>
+            <title>Studie: Großteil der Arbeitnehmer macht nur noch &quot;Dienst nach Vorschrift&quot;</title>
+            <link>https://www.golem.de/news/studie-grossteil-der-arbeitnehmer-macht-nur-noch-dienst-nach-vorschrift-2503-194316.html</link>
+            <description>Die Arbeitsmoral in Deutschland erreicht einer Umfrage zufolge einen Tiefpunkt: 78 Prozent der Beschäftigten leisten in ihrem Job demnach nur das Nötigste. (&lt;a href=&quot;https://www.golem.de/specials/it-jobs/&quot;&gt;Arbeit&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/wirtschaft/&quot;&gt;Wirtschaft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194316&amp;amp;page=1&amp;amp;ts=1741960202&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/studie-grossteil-der-arbeitnehmer-macht-nur-noch-dienst-nach-vorschrift/178828,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 14:50:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194316.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194316-499801-499797_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Arbeitsmoral in Deutschland erreicht einer Umfrage zufolge einen Tiefpunkt: 78 Prozent der Beschäftigten leisten in ihrem Job demnach nur das Nötigste. (<a href="https://www.golem.de/specials/it-jobs/">Arbeit</a>, <a href="https://www.golem.de/specials/wirtschaft/">Wirtschaft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194316&amp;page=1&amp;ts=1741960202" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>112</slash:comments>
         </item>
         <item>
-            <title>Medizin: KI-gesteuerter Chirurgieroboter lernt aus OP-Videos</title>
-            <link>https://www.golem.de/news/medizin-ki-gesteuerter-chirurgieroboter-lernt-aus-op-videos-2412-192053.html</link>
-            <description>Forscher haben erfolgreich chirurgische Roboter mit OP-Videos trainiert. Bis es zum Einsatz am Menschen kommen kann, sind aber noch viele Hürden zu nehmen. (&lt;a href=&quot;https://www.golem.de/specials/medizin/&quot;&gt;Medizin&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/robots/&quot;&gt;Roboter&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192053&amp;amp;page=1&amp;amp;ts=1735651801&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/medizin-ki-gesteuerter-chirurgieroboter-lernt-aus-op-videos/177036,list.html</comments>
-            <pubDate>Tue, 31 Dec 2024 14:30:01 +0100</pubDate>
-            <guid>https://www.golem.de/2412/192053.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2412/192053-486470-486466_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Forscher haben erfolgreich chirurgische Roboter mit OP-Videos trainiert. Bis es zum Einsatz am Menschen kommen kann, sind aber noch viele Hürden zu nehmen. (<a href="https://www.golem.de/specials/medizin/">Medizin</a>, <a href="https://www.golem.de/specials/robots/">Roboter</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192053&amp;page=1&amp;ts=1735651801" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>22</slash:comments>
+            <title>Neue Bluetooth-Funktion: Google integriert Auracast ins Android-Betriebssystem</title>
+            <link>https://www.golem.de/news/neue-bluetooth-funktion-google-integriert-auracast-ins-android-betriebssystem-2503-194318.html</link>
+            <description>Mit Auracast können sich unbegrenzt viele Geräte mit einem Bluetooth-Stream verbinden. Das manuelle Koppeln entfällt. (&lt;a href=&quot;https://www.golem.de/specials/android16/&quot;&gt;Android 16&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/smartphone/&quot;&gt;Smartphone&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194318&amp;amp;page=1&amp;amp;ts=1741959302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/handy/neue-bluetooth-funktion-google-integriert-auracast-ins-android-betriebssystem/178827,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 14:35:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194318.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194318-499812-499808_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Mit Auracast können sich unbegrenzt viele Geräte mit einem Bluetooth-Stream verbinden. Das manuelle Koppeln entfällt. (<a href="https://www.golem.de/specials/android16/">Android 16</a>, <a href="https://www.golem.de/specials/smartphone/">Smartphone</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194318&amp;page=1&amp;ts=1741959302" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>3</slash:comments>
         </item>
         <item>
-            <title>CR450: China stellt Hochgeschwindigkeitszug mit 400 km/h vor</title>
-            <link>https://www.golem.de/news/cr450-china-stellt-hochgeschwindigkeitszug-mit-400-km-h-vor-2412-192052.html</link>
-            <description>China hat seinen CR450-Hochgeschwindigkeitszug enthüllt, der ab 2025 mit einer Geschwindigkeit von 400 Kilometern pro Stunde fahren soll. (&lt;a href=&quot;https://www.golem.de/specials/oepnv/&quot;&gt;ÖPNV&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/mobilitaet/&quot;&gt;Mobilität&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=192052&amp;amp;page=1&amp;amp;ts=1735649402&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
-            <comments>https://forum.golem.de/kommentare/sonstiges/cr450-china-stellt-hochgeschwindigkeitszug-mit-400-km-h-vor/177035,list.html</comments>
-            <pubDate>Tue, 31 Dec 2024 13:50:02 +0100</pubDate>
-            <guid>https://www.golem.de/2412/192052.html</guid>
-            <content:encoded><![CDATA[<img src="https://www.golem.de/2412/192052-486465-486464_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">China hat seinen CR450-Hochgeschwindigkeitszug enthüllt, der ab 2025 mit einer Geschwindigkeit von 400 Kilometern pro Stunde fahren soll. (<a href="https://www.golem.de/specials/oepnv/">ÖPNV</a>, <a href="https://www.golem.de/specials/mobilitaet/">Mobilität</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=192052&amp;page=1&amp;ts=1735649402" alt="" width="1" height="1" />]]></content:encoded>
-            <slash:comments>147</slash:comments>
+            <title>Anzeige: Samsung-Tablet bei Media Markt jetzt mit 80 Euro Rabatt</title>
+            <link>https://www.golem.de/news/anzeige-samsung-tablet-bei-media-markt-jetzt-mit-80-euro-rabatt-2503-194320.html</link>
+            <description>Aktuell sind Samsung-Produkte bei Media Markt besonders günstig. Darunter sind ein beliebtes Tablet sowie ein günstiges Galaxy Smartphone. (&lt;a href=&quot;https://www.golem.de/specials/galaxy-tab/&quot;&gt;Galaxy Tab&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/media-markt/&quot;&gt;Media Markt&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194320&amp;amp;page=1&amp;amp;ts=1741958941&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <pubDate>Fri, 14 Mar 2025 14:29:01 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194320.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194320-499822-499818_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Aktuell sind Samsung-Produkte bei Media Markt besonders günstig. Darunter sind ein beliebtes Tablet sowie ein günstiges Galaxy Smartphone. (<a href="https://www.golem.de/specials/galaxy-tab/">Galaxy Tab</a>, <a href="https://www.golem.de/specials/media-markt/">Media Markt</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194320&amp;page=1&amp;ts=1741958941" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>John Gruber: Apple-Experte bezeichnet KI-Siri als &quot;Vaporware&quot;</title>
+            <link>https://www.golem.de/news/john-gruber-apple-experte-bezeichnet-ki-siri-als-vaporware-2503-194317.html</link>
+            <description>John Gruber ist Apple normalerweise recht wohlgesonnen - angesichts der Verschiebung der neuen KI-Siri geht er das Unternehmen allerdings hart an. (&lt;a href=&quot;https://www.golem.de/specials/siri/&quot;&gt;Siri&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/apple/&quot;&gt;Apple&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194317&amp;amp;page=1&amp;amp;ts=1741958342&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/john-gruber-apple-experte-bezeichnet-ki-siri-als-vaporware/178826,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 14:19:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194317.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194317-499807-499802_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">John Gruber ist Apple normalerweise recht wohlgesonnen - angesichts der Verschiebung der neuen KI-Siri geht er das Unternehmen allerdings hart an. (<a href="https://www.golem.de/specials/siri/">Siri</a>, <a href="https://www.golem.de/specials/apple/">Apple</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194317&amp;page=1&amp;ts=1741958342" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>20</slash:comments>
+        </item>
+        <item>
+            <title>Winring0: Windows stuft beliebte Tools plötzlich als Bedrohung ein</title>
+            <link>https://www.golem.de/news/winring0-windows-stuft-beliebte-tools-ploetzlich-als-bedrohung-ein-2503-194314.html</link>
+            <description>Betroffen sind Steuerungs- und Monitoring-Tools wie Fan Control, MSI Afterburner und Open Hardware Monitor. Die Entwickler stehen vor einem Problem. (&lt;a href=&quot;https://www.golem.de/specials/tools/&quot;&gt;Tools&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/virus/&quot;&gt;Virus&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194314&amp;amp;page=1&amp;amp;ts=1741957322&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/opensource/winring0-windows-stuft-beliebte-tools-ploetzlich-als-bedrohung-ein/178825,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 14:02:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194314.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194314-499796-499792_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Betroffen sind Steuerungs- und Monitoring-Tools wie Fan Control, MSI Afterburner und Open Hardware Monitor. Die Entwickler stehen vor einem Problem. (<a href="https://www.golem.de/specials/tools/">Tools</a>, <a href="https://www.golem.de/specials/virus/">Virus</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194314&amp;page=1&amp;ts=1741957322" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>20</slash:comments>
+        </item>
+        <item>
+            <title>AI RAN: Verizon findet Nvidia-Chips für Mobilfunk zu teuer</title>
+            <link>https://www.golem.de/news/ai-ran-verizon-findet-nvidia-chips-fuer-mobilfunk-zu-teuer-2503-194315.html</link>
+            <description>Der Mobilfunkkonzern Verizon hält die Auslagerung von Workloads auf Server mit Nvidia-Chips für zu teuer. Huawei geht hier einen anderen Weg. (&lt;a href=&quot;https://www.golem.de/specials/verizon/&quot;&gt;Verizon&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/nvidia/&quot;&gt;Nvidia&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=194315&amp;amp;page=1&amp;amp;ts=1741956302&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/sonstiges/ai-ran-verizon-findet-nvidia-chips-fuer-mobilfunk-zu-teuer/178824,list.html</comments>
+            <pubDate>Fri, 14 Mar 2025 13:45:02 +0100</pubDate>
+            <guid>https://www.golem.de/2503/194315.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/2503/194315-499791-499787_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der Mobilfunkkonzern Verizon hält die Auslagerung von Workloads auf Server mit Nvidia-Chips für zu teuer. Huawei geht hier einen anderen Weg. (<a href="https://www.golem.de/specials/verizon/">Verizon</a>, <a href="https://www.golem.de/specials/nvidia/">Nvidia</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=194315&amp;page=1&amp;ts=1741956302" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>2</slash:comments>
         </item>
     </channel>
 </rss>

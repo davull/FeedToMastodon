@@ -1,4 +1,592 @@
-<?xml version='1.0' encoding='UTF-8'?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" version="2.0"><channel><atom:id>tag:blogger.com,1999:blog-7365737872932202828</atom:id><lastBuildDate>Tue, 24 Sep 2024 11:22:18 +0000</lastBuildDate><category>asp.net core</category><category>asp.net mvc</category><category>jqgrid</category><category>azure functions</category><category>jquery</category><category>http</category><category>asp.net core mvc</category><category>azure</category><category>httpclient</category><category>performance</category><category>ajax</category><category>asp.net</category><category>ndjson</category><category>push notifications</category><category>blazor</category><category>extensibility</category><category>microfrontends</category><category>web push</category><category>webassembly</category><category>webhooks</category><category>websocket</category><category>.net</category><category>devops</category><category>http2</category><category>iac</category><category>infrastructure as code</category><category>jquery ui</category><category>server-sent events</category><category>aes128gcm</category><category>antiforgerytoken</category><category>async-streaming</category><category>book</category><category>entity-framework</category><category>grid</category><category>helper</category><category>jquery validation</category><category>json</category><category>response compression</category><category>review</category><category>security</category><category>server push</category><category>server timing</category><category>sse</category><category>web components</category><category>aks</category><category>async-streams</category><category>asynchronous</category><category>azure cosmos db</category><category>changefeed</category><category>compression</category><category>cors</category><category>cosmos db</category><category>cosmosdb</category><category>crud</category><category>csp</category><category>encryption</category><category>eventsource</category><category>file upload</category><category>graphql</category><category>httpclientfactory</category><category>kubernetes</category><category>redis</category><category>transformation</category><category>treeview</category><category>wasi</category><category>wasm</category><category>web api</category><category>web push protocol</category><category>xml</category><category>xslt</category><category>yarp</category><category>.net 5</category><category>WebPI</category><category>ajaxcontroltoolkit</category><category>akamai</category><category>algorithms</category><category>api-documentation</category><category>authentication</category><category>authorization</category><category>azure container apps</category><category>azure databricks</category><category>azure storage</category><category>background processing</category><category>brotli</category><category>c#</category><category>change feed</category><category>clear site data</category><category>client hints</category><category>client ip</category><category>client-side validation</category><category>cloudflare</category><category>concurrent requests</category><category>conditional requests</category><category>configuration</category><category>container groups</category><category>container instances</category><category>containers</category><category>content security policy</category><category>continuous delivery</category><category>continuous deployment</category><category>continuous integration</category><category>continuous monitoring</category><category>continuous operations</category><category>continuous testing</category><category>cross-origin resource sharing</category><category>cryptography</category><category>dapr</category><category>diagnostics</category><category>docfx</category><category>documentation-generator</category><category>durable functions</category><category>error handling</category><category>expect-ct</category><category>export</category><category>fetch api</category><category>file icons</category><category>forwarded headers</category><category>github</category><category>head</category><category>healthchecks</category><category>hijacking</category><category>hsts</category><category>http headers</category><category>httphandler</category><category>https</category><category>iis</category><category>import</category><category>integration testing</category><category>isolated</category><category>isolated worker</category><category>javascriptmvc</category><category>jeditable</category><category>jquery ui progressbar</category><category>jqueryui dialog</category><category>json-rpc</category><category>lazy-loading</category><category>lib.web.mvc</category><category>middleware</category><category>mongodb</category><category>network error logging</category><category>ops</category><category>pem</category><category>post tunneling</category><category>proxy</category><category>pub-sub</category><category>push api</category><category>range requests</category><category>rate limiting</category><category>reporting api</category><category>reporting-api</category><category>requests limits</category><category>response buffering</category><category>response caching</category><category>rethinkdb</category><category>rpc</category><category>rsocket</category><category>runtime scaling</category><category>save-data</category><category>server-to-client</category><category>sidecar</category><category>signalr</category><category>slight</category><category>ssl acceleration</category><category>ssl offloading</category><category>static files</category><category>streams api</category><category>subgrid</category><category>subprotocol negotiation</category><category>sys.services.authenticationservice</category><category>target-based scaling</category><category>testcontainers</category><category>tinymce</category><category>toolkitscriptmanager</category><category>trailers</category><category>treegrid</category><category>xss</category><title>Yet another developer blog</title><description></description><link>http://www.tpeczek.com/</link><managingEditor>noreply@blogger.com (Tomasz Pęczek)</managingEditor><generator>Blogger</generator><openSearch:totalResults>140</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-3693878604342508492</guid><pubDate>Tue, 24 Sep 2024 08:57:00 +0000</pubDate><atom:updated>2024-09-24T10:57:26.186+02:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">asp.net core</category><category domain="http://www.blogger.com/atom/ns#">async-streaming</category><category domain="http://www.blogger.com/atom/ns#">blazor</category><category domain="http://www.blogger.com/atom/ns#">json</category><category domain="http://www.blogger.com/atom/ns#">ndjson</category><title>ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly</title><description>&lt;p&gt;I&#39;ve been exploring &lt;a href=&quot;https://www.tpeczek.com/p/working-with-asynchronous-streaming.html&quot;&gt;working with asynchronous streaming data sources over HTTP&lt;/a&gt; for quite some time on this blog. I&#39;ve been playing with async streamed JSON and NDJSON. I&#39;ve been streaming and receiving streams in ASP.NET Core and console applications. But there is one scenario I haven&#39;t touched yet - streaming from Blazor WebAssembly. Why? Simply it wasn&#39;t possible.&lt;/p&gt;
+<?xml version='1.0' encoding='UTF-8'?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" version="2.0"><channel><atom:id>tag:blogger.com,1999:blog-7365737872932202828</atom:id><lastBuildDate>Wed, 12 Feb 2025 00:26:11 +0000</lastBuildDate><category>asp.net core</category><category>asp.net mvc</category><category>jqgrid</category><category>azure functions</category><category>jquery</category><category>http</category><category>asp.net core mvc</category><category>azure</category><category>httpclient</category><category>performance</category><category>ajax</category><category>asp.net</category><category>ndjson</category><category>push notifications</category><category>blazor</category><category>extensibility</category><category>microfrontends</category><category>web push</category><category>webassembly</category><category>webhooks</category><category>websocket</category><category>.net</category><category>devops</category><category>http2</category><category>iac</category><category>infrastructure as code</category><category>jquery ui</category><category>server-sent events</category><category>aes128gcm</category><category>antiforgerytoken</category><category>async-streaming</category><category>book</category><category>entity-framework</category><category>grid</category><category>helper</category><category>jquery validation</category><category>json</category><category>response compression</category><category>review</category><category>security</category><category>server push</category><category>server timing</category><category>sse</category><category>web components</category><category>aks</category><category>async-streams</category><category>asynchronous</category><category>azure cosmos db</category><category>changefeed</category><category>compression</category><category>cors</category><category>cosmos db</category><category>cosmosdb</category><category>crud</category><category>csp</category><category>encryption</category><category>eventsource</category><category>file upload</category><category>graphql</category><category>httpclientfactory</category><category>isolated worker</category><category>kubernetes</category><category>redis</category><category>transformation</category><category>treeview</category><category>wasi</category><category>wasm</category><category>web api</category><category>web push protocol</category><category>xml</category><category>xslt</category><category>yarp</category><category>.net 5</category><category>WebPI</category><category>ajaxcontroltoolkit</category><category>akamai</category><category>algorithms</category><category>api-documentation</category><category>authentication</category><category>authorization</category><category>azure container apps</category><category>azure databricks</category><category>azure storage</category><category>background processing</category><category>brotli</category><category>c#</category><category>change feed</category><category>clear site data</category><category>client hints</category><category>client ip</category><category>client-side validation</category><category>cloudflare</category><category>concurrent requests</category><category>conditional requests</category><category>configuration</category><category>container groups</category><category>container instances</category><category>containers</category><category>content security policy</category><category>continuous delivery</category><category>continuous deployment</category><category>continuous integration</category><category>continuous monitoring</category><category>continuous operations</category><category>continuous testing</category><category>cross-origin resource sharing</category><category>cryptography</category><category>dapr</category><category>diagnostics</category><category>docfx</category><category>documentation-generator</category><category>dotnet</category><category>durable functions</category><category>error handling</category><category>expect-ct</category><category>export</category><category>fetch api</category><category>file icons</category><category>forwarded headers</category><category>github</category><category>head</category><category>healthchecks</category><category>hijacking</category><category>hsts</category><category>http headers</category><category>httphandler</category><category>https</category><category>iis</category><category>import</category><category>integration testing</category><category>isolated</category><category>javascriptmvc</category><category>jeditable</category><category>jquery ui progressbar</category><category>jqueryui dialog</category><category>json-rpc</category><category>lazy-loading</category><category>lib.web.mvc</category><category>middleware</category><category>mongodb</category><category>monitoring</category><category>neon</category><category>network error logging</category><category>ops</category><category>pem</category><category>post tunneling</category><category>proxy</category><category>pub-sub</category><category>push api</category><category>range requests</category><category>rate limiting</category><category>reporting api</category><category>reporting-api</category><category>requests limits</category><category>response buffering</category><category>response caching</category><category>rethinkdb</category><category>rpc</category><category>rsocket</category><category>runtime scaling</category><category>save-data</category><category>server-to-client</category><category>sidecar</category><category>signalr</category><category>slight</category><category>ssl acceleration</category><category>ssl offloading</category><category>static files</category><category>streams api</category><category>subgrid</category><category>subprotocol negotiation</category><category>sys.services.authenticationservice</category><category>target-based scaling</category><category>testcontainers</category><category>tinymce</category><category>toolkitscriptmanager</category><category>trailers</category><category>treegrid</category><category>xss</category><title>Yet another developer blog</title><description></description><link>http://www.tpeczek.com/</link><managingEditor>noreply@blogger.com (Tomasz Pęczek)</managingEditor><generator>Blogger</generator><openSearch:totalResults>142</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-1304634620752734117</guid><pubDate>Mon, 10 Feb 2025 21:26:00 +0000</pubDate><atom:updated>2025-02-11T15:01:41.343+01:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">azure</category><category domain="http://www.blogger.com/atom/ns#">dotnet</category><category domain="http://www.blogger.com/atom/ns#">neon</category><title>Exploring Neon as a Serverless Postgres Alternative for .NET Applications on Azure - Part 1 (Simple ASP.NET Core on App Service)</title><description>&lt;p&gt;&lt;a href=&quot; https://neon.tech/?refcode=44WD03UH&quot;&gt;Neon&lt;/a&gt;, a serverless Postgres platform, was recently brought to my attention. It comes with  the promise of some  interesting features like scale-to-zero, on-demand autoscaling, point-in-time restore and time travel with up to 30 days retention, instant read replicas, and probably the most unique, branching (which allows you to quickly branch your schema and data to create isolated development, test, or other purpose environments).&lt;/p&gt;
+&lt;p&gt;That&#39;s a lot of stuff to play with, but before I jumped in, I wanted to see how Neon integrated with my tech stack of choice - .NET, Azure, and GitHub. I decided to start with something simple - an ASP.NET Core application hosted on Azure App Service. Since I like to build things from the ground up, my first step was infrastructure.&lt;/p&gt;
+&lt;h2 id=&quot;deploying-the-infrastructure&quot;&gt;Deploying the Infrastructure&lt;/h2&gt;
+&lt;p&gt;Neon has three deployment options that might be of interest to me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a Neon project hosted in the AWS region&lt;/li&gt;
+&lt;li&gt;Create a Neon project hosted in the Azure region&lt;/li&gt;
+&lt;li&gt;Deploy a Neon organization as an &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/partner-solutions/neon?WT.mc_id=DT-MVP-5002979&quot;&gt;Azure Native ISV Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first two options are fully managed by Neon, you grab the connection details from the Neon console and start hacking. But I wanted to explore the third option because it provides the tightest integration from an Azure perspective (including SSO and unified billing), and that&#39;s what the organizations I work with are usually looking for.&lt;/p&gt;
+&lt;p&gt;As a strong IaC advocate, I also didn&#39;t want to deploy Neon through the Azure Portal or CLI, I wanted to use Bicep. Thanks to the native Azure integration, the Neon organization comes with its own resource type - &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/templates/neon.postgres/organizations?WT.mc_id=DT-MVP-5002979&quot;&gt;&lt;code&gt;Neon.Postgres/organizations&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource neonOrganization &#39;Neon.Postgres/organizations@2024-08-01-preview&#39; = {
+  name: &#39;neon-net-applications-on-azure&#39;
+  location: location
+  properties: {
+    companyDetails: { }
+    marketplaceDetails: {
+      subscriptionId: subscription().id
+      offerDetails: {
+        publisherId: &#39;neon1722366567200&#39;
+        offerId: &#39;neon_serverless_postgres_azure_prod&#39;
+        planId: &#39;neon_serverless_postgres_azure_prod_free&#39;
+        termUnit: &#39;P1M&#39;
+        termId: &#39;gmz7xq9ge3py&#39;
+      }
+    }
+    partnerOrganizationProperties: {
+      organizationName: &#39;net-applications-on-azure&#39;
+    }
+    userDetails: {
+      upn: &#39;userId@domainName&#39;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You may ask, how did I get the values for the properties? Well, they are not documented (yet, I&#39;m assuming) and I had to resort to reverse engineering (inspecting the template of the manually deployed resource).&lt;/p&gt;
+&lt;p&gt;The next step is to create a project. Everything in Neon (branches, databases, etc.) lives inside a project. Neon projects don&#39;t have an Azure resource representation, so I had to change the tool. I could create a project through the UI, but since I still wanted to have repeatability (something I could later reuse in a GitHub Actions workflow later), I decided to use Neon CLI. I still had to visit the UI (thanks to SSO I could just click on a link available on the resource &lt;em&gt;Overview&lt;/em&gt; blade) to get myself an &lt;a href=&quot;https://neon.tech/docs/manage/api-keys&quot;&gt;API key&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;export NEON_API_KEY=&amp;lt;neon_api_key&amp;gt;
+
+neon projects create \
+    --name simple-asp-net-core-on-app-service \
+    --region-id azure-westus3 \
+    --output json
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output includes connection details for the created database. I don&#39;t want to manage secrets manually if I don&#39;t have to, so I decided to quickly create a key vault and put them there.&lt;/p&gt;
+&lt;p&gt;The last missing elements of my intended infrastructure were a managed identity, a container registry, an app service plan, and an app service. Below is the final diagram.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0OssiHC2iwP7LDlAbIyfXMVgEDtI8tNU7naUum8-iif0pSnEpCQpObmaLRhGDyBo6mbo-PSm_cVY3B1tn_h-OgLWYAe4fqhr_RtRJrB6WNji1_vzY7cSAHfHXx6BAyidDe5WLbWJrQzLV2F2yzdNtd2dOYzrsYfHGczD4OSdS6xblKegjeHz8iFDZvEg/s1600/SIMPLE~1.PNG&quot; alt=&quot;Infrastructure for simple ASP.NET Core application on Azure App Service (managed identity, key vault, container registry, app service plan, and app service) and using Neon deployed as Azure Native ISV Service&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;seeding-the-database&quot;&gt;Seeding the Database&lt;/h2&gt;
+&lt;p&gt;With all the infrastructure in place, I could start building my ASP.NET Core application. I wanted something simple, something that just displayed data, as my goal here was to see if Neon could be a drop-in replacement for Posgres from a code perspective. But to display data, you have to have data. So I needed to seed the database. I decided to take the simplest approach I could think of - using the built-in seeding capabilities of the Entity Framework Core. I had two options to choose from: &lt;a href=&quot;https://learn.microsoft.com/en-us/ef/core/modeling/data-seeding?WT.mc_id=DT-MVP-5002979#use-seeding-method&quot;&gt;&lt;code&gt;UseSeeding&lt;/code&gt;/&lt;code&gt;UseAsyncSeeding&lt;/code&gt; method&lt;/a&gt; or &lt;a href=&quot;https://learn.microsoft.com/en-us/ef/core/modeling/data-seeding?WT.mc_id=DT-MVP-5002979#model-managed-data&quot;&gt;model managed data&lt;/a&gt;. I chose the latter and I quickly created a database context with two sets and a bunch of entities to add.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;public class StarWarsDbContext : DbContext
+{
+    public DbSet&amp;lt;Character&amp;gt; Characters { get; private set; }
+
+    public DbSet&amp;lt;Planet&amp;gt; Planets { get; private set; }
+
+    public StarWarsDbContext(DbContextOptions&amp;lt;StarWarsDbContext&amp;gt; options)
+    : base(options)
+    { }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity&amp;lt;Planet&amp;gt;(builder =&amp;gt;
+        {
+            builder.Property(x =&amp;gt; x.Name).IsRequired();
+            builder.HasData(
+                new Planet { Id = 1, Name = &quot;Tatooine&quot;, ... },
+                ...
+            );
+        });
+
+        modelBuilder.Entity&amp;lt;Character&amp;gt;(builder =&amp;gt;
+        {
+            builder.Property(x =&amp;gt; x.Name).IsRequired();
+            builder.HasData(
+                new Character { Id = 1, Name = &quot;Luke Skywalker&quot;, ... },
+                ...
+            );
+        });
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now I needed to register this database context as a service in my application. For the provider I used &lt;code&gt;Npgsql.EntityFrameworkCore.PostgreSQL&lt;/code&gt;in the spirit of the drop-in replacement approach. With the connection string in the key vault and a managed identity in place to authenticate against that key vault, I could use &lt;code&gt;DefaultAzureCredential&lt;/code&gt; and &lt;code&gt;SecretClient&lt;/code&gt; to configure the provider and restrict my application settings to the key vault URI (yes, I choose this option even in demos).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext&amp;lt;StarWarsDbContext&amp;gt;(options =&amp;gt;
+{
+    var keyVaultSecrettClient = new SecretClient(
+        new Uri(builder.Configuration[&quot;KEY_VAULT_URI&quot;]),
+        new DefaultAzureCredential()
+    );
+    options.UseNpgsql(keyVaultSecrettClient.GetSecret(&quot;neon-connection-string&quot;).Value.Value);
+});
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The last thing to do here was to trigger the model creation code. This only needs to happen once, and as this is a demo, it can be ugly. I used an old trick of getting the database context as part of the startup and calling &lt;code&gt;EnsureCreated&lt;/code&gt; (please don&#39;t do this in serious applications).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;...
+
+var app = builder.Build();
+
+using (var serviceScope = app.Services.GetRequiredService&amp;lt;IServiceScopeFactory&amp;gt;().CreateScope())
+{
+    var context = serviceScope.ServiceProvider.GetRequiredService&amp;lt;StarWarsDbContext&amp;gt;();
+    context.Database.EnsureCreated();
+}
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All the pieces are now in place. It&#39;s time to wrap things up.&lt;/p&gt;
+&lt;h2 id=&quot;completing-and-deploying-the-application&quot;&gt;Completing and Deploying the Application&lt;/h2&gt;
+&lt;p&gt;For the application to be complete, it needed some UI. Since I didn&#39;t have an idea for anything special, I did something I used to do a lot in the past - a jqGrid based table that was quickly set up with the help of my old project &lt;a href=&quot;https://github.com/tpeczek/Lib.AspNetCore.Mvc.JqGrid&quot;&gt;Lib.AspNetCore.Mvc.JqGrid&lt;/a&gt; (I&#39;ve basically copied some stuff from its &lt;a href=&quot;https://github.com/tpeczek/Demo.AspNetCore.JqGrid&quot;&gt;demo&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As you&#39;ve probably guessed from the infrastructure, my intention from the start was to deploy this application as a container. So my last step was to add a docker file, build, push, and voilà. I was able to navigate to the application, browse and sort the data.&lt;/p&gt;
+&lt;p&gt;Everything worked as expected and I consider my first experiment with Neon a success 😊.&lt;/p&gt;
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;They say to never publish part one if you don&#39;t have part two ready. I don&#39;t have part two ready, but I really think I&#39;ll write one, I just don&#39;t know when 😉. That&#39;s because Neon really got me interested.&lt;/p&gt;
+&lt;p&gt;In this post I wanted to check out the basics and set the stage for digging deeper. While writing it, I&#39;ve also created a &lt;a href=&quot;https://github.com/tpeczek/demo-neon-for-net-applications-on-azure&quot;&gt;repository&lt;/a&gt; where you can find ready-to-deploy infrastructure and application. I&#39;ve created GitHub Actions workflows for deploying a Neon organization, creating a Neon project, and deploying the solution itself. All you need to do to play with it is clone and provide credentials 🙂.&lt;/p&gt;</description><link>http://www.tpeczek.com/2025/02/exploring-neon-as-serverless-postgres.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0OssiHC2iwP7LDlAbIyfXMVgEDtI8tNU7naUum8-iif0pSnEpCQpObmaLRhGDyBo6mbo-PSm_cVY3B1tn_h-OgLWYAe4fqhr_RtRJrB6WNji1_vzY7cSAHfHXx6BAyidDe5WLbWJrQzLV2F2yzdNtd2dOYzrsYfHGczD4OSdS6xblKegjeHz8iFDZvEg/s72-c/SIMPLE~1.PNG" height="72" width="72"/><thr:total>0</thr:total></item><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-2520358221106669221</guid><pubDate>Tue, 26 Nov 2024 12:20:00 +0000</pubDate><atom:updated>2024-11-26T13:20:57.999+01:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">azure functions</category><category domain="http://www.blogger.com/atom/ns#">isolated worker</category><category domain="http://www.blogger.com/atom/ns#">monitoring</category><title>Monitoring C# Azure Functions in the Isolated Worker Model - Infrastructure &amp; Configuration Deep Dive</title><description>&lt;p&gt;Not so long ago my colleague reached out with a question &quot;Are there any known issues with &lt;code&gt;ITelemetryInitializer&lt;/code&gt; in Azure Functions?&quot;. This question started a discussion about the monitoring configuration for C# Azure Functions in the isolated worker model. At some point in that discussion I stated &quot;Alright, you&#39;ve motivated me, I&#39;ll make a sample&quot;. When I sat down to do that, I started wondering which scenario should I cover and my conclusion was that there are several things I should go through... So here I am.&lt;/p&gt;
+&lt;h2 id=&quot;setting-the-scene&quot;&gt;Setting the Scene&lt;/h2&gt;
+&lt;p&gt;Before I start describing how we can monitor an isolated worker model C# Azure Function, allow me to introduce you to the one we are going to use for this purpose. I want to start with as basic setup as possible. This is why the initial &lt;code&gt;Program.cs&lt;/code&gt; will contain only four lines.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;var host = new HostBuilder()
+    .ConfigureFunctionsWebApplication()
+    .Build();
+
+host.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;host.json&lt;/code&gt; will also be minimal.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-json&quot;&gt;{
+    &quot;version&quot;: &quot;2.0&quot;,
+    &quot;logging&quot;: {
+        &quot;logLevel&quot;: {
+            &quot;default&quot;: &quot;Information&quot;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For the function itself, I&#39;ve decided to go for the Fibonacci sequence implementation as it can easily generate a ton of logs.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;public class FibonacciSequence
+{
+    private readonly ILogger&amp;lt;FibonacciSequence&amp;gt; _logger;
+
+    public FibonacciSequence(ILogger&amp;lt;FibonacciSequence&amp;gt; logger)
+    {
+        _logger = logger;
+    }
+
+    [Function(nameof(FibonacciSequence))]
+    public async Task&amp;lt;HttpResponseData&amp;gt; Run(
+        [HttpTrigger(AuthorizationLevel.Anonymous, &quot;get&quot;, Route = &quot;fib/{index:int}&quot;)]
+        HttpRequestData request,
+        int index)
+    {
+        _logger.LogInformation(
+            $&quot;{nameof(FibonacciSequence)} function triggered for {{index}}.&quot;,
+            index
+        );
+
+        var response = request.CreateResponse(HttpStatusCode.OK);
+        response.Headers.Add(&quot;Content-Type&quot;, &quot;text/plain; charset=utf-8&quot;);
+
+        await response.WriteStringAsync(FibonacciSequenceRecursive(index).ToString());
+
+        return response;
+    }
+
+    private int FibonacciSequenceRecursive(int index)
+    {
+        int fibonacciNumber = 0;
+
+        _logger.LogInformation(&quot;Calculating Fibonacci sequence for {index}.&quot;, index);
+
+        if (index &amp;lt;= 0)
+        {
+            fibonacciNumber = 0;
+        }
+        else if (index &amp;lt;= 1)
+        {
+            fibonacciNumber = 1;
+        }
+        else
+        {
+            fibonacciNumber = 
+              FibonacciSequenceRecursive(index - 1)
+              + FibonacciSequenceRecursive(index - 2);
+        }
+
+        _logger.LogInformation(
+            &quot;Calculated Fibonacci sequence for {index}: {fibonacciNumber}.&quot;,
+            index,
+            fibonacciNumber
+        );
+
+        return fibonacciNumber;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a recursive implementation which in our case has the added benefit of being crashable on demand 😉.&lt;/p&gt;
+&lt;p&gt;Now we can start capturing the signals this function will produce after deployment.&lt;/p&gt;
+&lt;h2 id=&quot;simple-and-limited-option-for-specific-scenarios-file-system-logging&quot;&gt;Simple and Limited Option for Specific Scenarios - File System Logging&lt;/h2&gt;
+&lt;p&gt;What we can capture in a minimal deployment scenario is logs coming from our function. What do I understand by a minimal deployment scenario? The bare minimum that Azure Function requires is a storage account, app service plan, and function app. The function can push all its logs into that storage account. Is this something I would recommend for a production scenario? Certainly not. It&#39;s only logs (and in production you will want metrics) and works reasonably only for Azure Functions deployed on Windows (for production I would suggest Linux due to better cold start performance or lower pricing for dedicated plan). But it may be the right option for some development scenarios (when you want to run some work, download the logs and analyze them locally). So, how to achieve this? Let&#39;s start with some Bicep snippets for the required infrastructure. First, we need to deploy a storage account.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource storageAccount &#39;Microsoft.Storage/storageAccounts@2023-05-01&#39; = {
+  name: &#39;stwebjobs${uniqueString(resourceGroup().id)}&#39;
+  location: resourceGroup().location
+  sku: {
+    name: &#39;Standard_LRS&#39;
+  }
+  kind: &#39;Storage&#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We also need an app service plan. It must be a Windows one (the below snippet creates a &lt;em&gt;Windows Consumption Plan&lt;/em&gt;).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource appServicePlan &#39;Microsoft.Web/serverfarms@2024-04-01&#39; = {
+  name: &#39;plan-monitored-function&#39;
+  location: resourceGroup().location
+  sku: {
+    name: &#39;Y1&#39;
+    tier: &#39;Dynamic&#39;
+  }
+  properties: {
+    computeMode: &#39;Dynamic&#39;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the actual service doing the work, the function app.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  name: &#39;func-monitored-function&#39;
+  location: resourceGroup().location
+  kind: &#39;functionapp&#39;
+  properties: {
+    serverFarmId: appServicePlan.id
+    siteConfig: {
+      netFrameworkVersion: &#39;v8.0&#39;
+      appSettings: [
+        {
+          name: &#39;AzureWebJobsStorage&#39;
+          value: &#39;DefaultEndpointsProtocol=https;AccountName=${storageAccount.name};EndpointSuffix=${environment().suffixes.storage};AccountKey=${storageAccount.listKeys().keys[0].value}&#39;
+        }
+        {
+          name: &#39;WEBSITE_CONTENTAZUREFILECONNECTIONSTRING&#39;
+          value: &#39;DefaultEndpointsProtocol=https;AccountName=${storageAccount.name};EndpointSuffix=${environment().suffixes.storage};AccountKey=${storageAccount.listKeys().keys[0].value}&#39;
+        }
+        {
+          name: &#39;WEBSITE_CONTENTSHARE&#39;
+          value: &#39;func-monitored-function&#39;
+        }
+        {
+          name: &#39;FUNCTIONS_EXTENSION_VERSION&#39;
+          value: &#39;~4&#39;
+        }
+        {
+          name: &#39;FUNCTIONS_WORKER_RUNTIME&#39;
+          value: &#39;dotnet-isolated&#39;
+        }
+      ]
+    }
+    httpsOnly: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A couple of words about this function app. The &lt;code&gt;kind: &#39;functionapp&#39;&lt;/code&gt; indicates that this is a Windows function app that creates the requirement of setting &lt;code&gt;netFrameworkVersion&lt;/code&gt; to desired .NET version. To make this an isolated worker model function, the &lt;code&gt;FUNCTIONS_EXTENSION_VERSION&lt;/code&gt; is set to &lt;code&gt;~4&lt;/code&gt; and &lt;code&gt;FUNCTIONS_WORKER_RUNTIME&lt;/code&gt; to &lt;code&gt;dotnet-isolated&lt;/code&gt;. When it comes to all the settings referencing the storage account, your attention should go to &lt;code&gt;WEBSITE_CONTENTAZUREFILECONNECTIONSTRING&lt;/code&gt; and &lt;code&gt;WEBSITE_CONTENTSHARE&lt;/code&gt; - those indicate the file share that will be created for this function app in the storage account (this is where the logs will go).&lt;/p&gt;
+&lt;p&gt;After deployment, the resulting infrastructure should be as below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_iJvUHWJAAvLFHhOOkGzTO92CB2o3UF5qKHcXLy3BqaVgldC2EkjvgiLZAwhL-XGDx1Zgol4BZz6YH5cay4s3GyXbZteYGthJvN0oP0_IrX_HiIY5XYHNhNc3iEt6c-Q4fv5HeWae9c4mHlXdK3mfjWfxKJVq3FLPbsXmA2fprs9SpFqb94B2GR9yu_8/s1600/azure-functions-with-file-system-logging.png&quot; alt=&quot;Infrastructure for Azure Functions with file system logging (storage account, app service plan, and function app)&quot;&gt;&lt;/p&gt;
+&lt;p&gt;What remains is configuring the file system logging in the &lt;code&gt;host.json&lt;/code&gt; file of our function. The default behavior is to generate log files only when the function is being debugged using the Azure portal. We want them to be generated always.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-json&quot;&gt;{
+    &quot;version&quot;: &quot;2.0&quot;,
+    &quot;logging&quot;: {
+        &quot;fileLoggingMode&quot;: &quot;always&quot;,
+        &quot;logLevel&quot;: {
+            &quot;default&quot;: &quot;Information&quot;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When you deploy the code and execute some requests, you will be able to find the log files in the defined file share (the path is &lt;code&gt;/LogFiles/Application/Functions/Host/&lt;/code&gt;).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-txt&quot;&gt;2024-11-17T15:33:39.339 [Information] Executing &#39;Functions.FibonacciSequence&#39; ...
+2024-11-17T15:33:39.522 [Information] FibonacciSequence function triggered for 6.
+2024-11-17T15:33:39.526 [Information] Calculating Fibonacci sequence for 6.
+2024-11-17T15:33:39.526 [Information] Calculating Fibonacci sequence for 5.
+...
+2024-11-17T15:33:39.527 [Information] Calculated Fibonacci sequence for 5: 5.
+...
+2024-11-17T15:33:39.528 [Information] Calculated Fibonacci sequence for 4: 3.
+2024-11-17T15:33:39.528 [Information] Calculated Fibonacci sequence for 6: 8.
+2024-11-17T15:33:39.566 [Information] Executed &#39;Functions.FibonacciSequence&#39; ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;for-production-scenarios-entra-id-protected-application-insights&quot;&gt;For Production Scenarios - Entra ID Protected Application Insights&lt;/h2&gt;
+&lt;p&gt;As I said, I wouldn&#39;t use file system logging for production. Very often it&#39;s not even enough for development. This is why Application Insights are considered a default these days. But before we deploy one, we can use the fact that we no longer new Windows and change the deployment to be a Linux based one. First I&#39;m going to change the app service plan to a &lt;em&gt;Linux Consumption Plan&lt;/em&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource appServicePlan &#39;Microsoft.Web/serverfarms@2024-04-01&#39; = {
+  ...
+  kind: &#39;linux&#39;
+  properties: {
+    reserved: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With a different app service plan, the function app can be changed to a Linux one, which means changing the kind to &lt;code&gt;functionapp,linux&lt;/code&gt; and replacing &lt;code&gt;netFrameworkVersion&lt;/code&gt; with the corresponding &lt;code&gt;linuxFxVersion&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  ...
+  kind: &#39;functionapp,linux&#39;
+  properties: {
+    serverFarmId: appServicePlan.id
+    siteConfig: {
+      linuxFxVersion: &#39;DOTNET-ISOLATED|8.0&#39;
+      ...
+    }
+    httpsOnly: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There is also a good chance that you no longer need the file share (although the &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations?WT.mc_id=DT-MVP-5002979&quot;&gt;documentation&lt;/a&gt; itself is inconsistent whether it&#39;s needed when running Linux functions on the Elastic Premium plan) so the &lt;code&gt;WEBSITE_CONTENTAZUREFILECONNECTIONSTRING&lt;/code&gt; and &lt;code&gt;WEBSITE_CONTENTSHARE&lt;/code&gt; can simply be removed. No requirement for the file share creates one more improvement opportunity - we can drop credentials for the blob storage (&lt;code&gt;AzureWebJobsStorage&lt;/code&gt;) as this connection can use managed identity. I&#39;m going to use a user-assigned managed identity because I often prefer them and they usually cause more trouble to set up 😉. To do so, we need to create one and grant it the &lt;em&gt;Storage Blob Data Owner&lt;/em&gt; role for the storage account.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource managedIdentity &#39;Microsoft.ManagedIdentity/userAssignedIdentities@2023-01-31&#39; = {
+  name: &#39;id-monitored-function&#39;
+  location: resourceGroup().location
+}
+
+resource storageBlobDataOwnerRoleDefinition &#39;Microsoft.Authorization/roleDefinitions@2022-04-01&#39; existing = {
+  name: &#39;b7e6dc6d-f1e8-4753-8033-0f276bb0955b&#39; // Storage Blob Data Owner
+  scope: subscription()
+}
+
+resource storageBlobDataOwnerRoleAssignment &#39;Microsoft.Authorization/roleAssignments@2022-04-01&#39; = {
+  scope: storageAccount
+  name: guid(storageAccount.id, managedIdentity.id, storageBlobDataOwnerRoleDefinition.id)
+  properties: {
+    roleDefinitionId: storageBlobDataOwnerRoleDefinition.id
+    principalId: managedIdentity.properties.principalId
+    principalType: &#39;ServicePrincipal&#39;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The change to the function app is only about assigning the managed identity and replacing &lt;code&gt;AzureWebJobsStorage&lt;/code&gt; with &lt;code&gt;AzureWebJobsStorage__accountName&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  ...
+
+  ...
+  properties: {
+    ...
+    siteConfig: {
+      ...
+      appSettings: [
+        {
+          name: &#39;AzureWebJobsStorage__accountName&#39;
+          value: storageAccount.name
+        }
+        ...
+      ]
+    }
+    httpsOnly: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enough detouring (although it wasn&#39;t without a purpose 😜) - it&#39;s time to deploy Application Insights. As the classic Application Insights are retired, we are going to create a workspace-based instance.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource logAnalyticsWorkspace &#39;Microsoft.OperationalInsights/workspaces@2023-09-01&#39; = {
+  name: &#39;log-monitored-function&#39;
+  location: resourceGroup().location
+  properties: {
+    sku: { 
+      name: &#39;PerGB2018&#39; 
+    }
+  }
+}
+
+resource applicationInsights &#39;Microsoft.Insights/components@2020-02-02&#39; = {
+  name: &#39;appi-monitored-function&#39;
+  location: resourceGroup().location
+  kind: &#39;web&#39;
+  properties: {
+    Application_Type: &#39;web&#39;
+    WorkspaceResourceId: logAnalyticsWorkspace.id
+    DisableLocalAuth: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might have noticed that I&#39;ve set &lt;code&gt;DisableLocalAuth&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt;. This is a security improvement. It enforces authentication by &lt;em&gt;Entra ID&lt;/em&gt; for ingestion and as a result, makes &lt;code&gt;InstrumentationKey&lt;/code&gt; a resource identifier instead of a secret. This is nice and we can easily handle it because we already have managed identity in place (I told you it had a purpose 😊). All we need to do is grant the &lt;em&gt;Monitoring Metrics Publisher&lt;/em&gt; role to our managed identity.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource monitoringMetricsPublisherRoleDefinition &#39;Microsoft.Authorization/roleDefinitions@2022-04-01&#39; existing = {
+  name: &#39;3913510d-42f4-4e42-8a64-420c390055eb&#39; // Monitoring Metrics Publisher
+  scope: subscription()
+}
+
+resource monitoringMetricsPublisherRoleAssignment &#39;Microsoft.Authorization/roleAssignments@2022-04-01&#39; = {
+  scope: applicationInsights
+  name: guid(applicationInsights.id, managedIdentity.id, monitoringMetricsPublisherRoleDefinition.id)
+  properties: {
+    roleDefinitionId: monitoringMetricsPublisherRoleDefinition.id
+    principalId: managedIdentity.properties.principalId
+    principalType: &#39;ServicePrincipal&#39;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Adding two application settings definitions to our function app will tie the services together.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  ...
+  properties: {
+    ...
+    siteConfig: {
+      ...
+      appSettings: [
+        ...
+        {
+          name: &#39;APPLICATIONINSIGHTS_CONNECTION_STRING&#39;
+          value: applicationInsights.properties.ConnectionString
+        }
+        {
+          name: &#39;APPLICATIONINSIGHTS_AUTHENTICATION_STRING&#39;
+          value: &#39;ClientId=${managedIdentity.properties.clientId};Authorization=AAD&#39;
+        }
+        ...
+      ]
+    }
+    httpsOnly: true
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Are we done with the infrastructure? Not really. There is one more useful thing that is often forgotten - enabling storage logs. There are some important function app data in there so it would be nice to monitor it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource storageAccountBlobService &#39;Microsoft.Storage/storageAccounts/blobServices@2023-05-01&#39; existing = {
+  name: &#39;default&#39;
+  parent: storageAccount
+}
+
+resource storageAccountDiagnosticSettings &#39;Microsoft.Insights/diagnosticSettings@2021-05-01-preview&#39; = {
+  name: &#39;${storageAccount.name}-diagnostic&#39;
+  scope: storageAccountBlobService
+  properties: {
+    workspaceId: logAnalyticsWorkspace.id
+    logs: [
+      {
+        category: &#39;StorageWrite&#39;
+        enabled: true
+      }
+    ]
+    metrics: [
+      {
+        category: &#39;Transaction&#39;
+        enabled: true
+      }
+    ]
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we are done and our infrastructure should look like below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUJnh-IuO3BTDOM3EdRbr7P1C75n6JO5J8l3VZO9RnmrrVZlq3BzZUebxAqqQzpLWo-1xsNkoGknE_uY0S2zqD3SCtFRoib4yvj4EjrNFG_mnf1tgMz6NLeeysf8_0B5fW6DZNX-OIFW8vHsnC9f89BtvvGO1fh1sdNUcCy9EysgNoduTXzUWGVh2hJqg/s1600/azure-functions-with-application-insights.png&quot; alt=&quot;Infrastructure for Azure Functions with Application Insights (managed identity, application insights, log workspace, storage account, app service plan, and function app)&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Once we deploy our function and make some requests, thanks to the codeless monitoring by the host and relaying worker logs through the host, we can find the traces in Application Insights.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmRaqy2hBcCz2kyPjNXV4sQPV2IrscHKmKljpb0F6iPlLrIc45KCD4e4fcPtwbtWHkZ-MdOffH2i_UvsGh1K1Hb578DX9G7i408NUphAtfKp8RIBhhBl7aS9nL7L-dczdbOLZ9jJ_UZkHTtrwuJbIwDv3bI_PubEBAhNzaD2IBZp8amyT3jN-2qgxC7dM/s1600/relayed-worker-logs-in-application-insights.png&quot; alt=&quot;Relayed worker logs ingested through host codeless monitoring&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You may be asking what I mean by &lt;em&gt;&quot;relaying worker logs through the host&quot;&lt;/em&gt;? You probably remember that in the case of C# Azure Functions in the isolated worker model, we have two processes: functions host and isolated worker. Azure Functions wants to be helpful and by default, it sends the logs from the worker process to the functions host process, which then sends them to Application Insights.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSBk_xKsiHQHqiUD7gG9X6xUlgqQZBakg7-kfA_oEuVtQqOPiE0SQSxv1paT-8742lsxcUbFX3hDDx4sJ7ULkb_aOjlJXv62SrHsk1OxQrz8u510YSyW4LFOq_ueuK0-Qv0r_8ri5cThQMTYrtKtOJPP4AseVgBTwN_DpruSRMu6FkKM-0-Nie9KmLWT8/s1600/azure-functions-relaying-worker-logs-through-the-host.png&quot; alt=&quot;Azure Functions relaying worker logs through the host&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is nice, but may not be exactly what you want. You may want to split the logs so you can treat them separately (for example by configuring different default log levels for the host and the worker). To achieve that you must explicitly set up Application Insights integration in the worker code.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;var host = new HostBuilder()
+    .ConfigureFunctionsWebApplication()
+    .ConfigureServices(services =&amp;gt; {
+        services.AddApplicationInsightsTelemetryWorkerService();
+        services.ConfigureFunctionsApplicationInsights();
+    })
+    .Build();
+
+host.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The telemetry from the worker can now be controlled in the code, while from the host through the &lt;code&gt;host.json&lt;/code&gt;. But if you deploy this, you will find no telemetry from the worker in Application Insights. You can still see your logs in the &lt;em&gt;Log stream&lt;/em&gt;. You will also see a lot of those:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-txt&quot;&gt;Azure.Identity: Service request failed.
+Status: 400 (Bad Request)
+
+Content:
+{&quot;statusCode&quot;:400,&quot;message&quot;:&quot;Unable to load the proper Managed Identity.&quot;,&quot;correlationId&quot;:&quot;...&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&#39;s Application Insights SDK not being able to use the user-assigned managed identity. Azure Functions runtime uses the &lt;code&gt;APPLICATIONINSIGHTS_AUTHENTICATION_STRING&lt;/code&gt; setting to provide a user-assigned managed identity OAuth token to the Application Insights but none of that (at the time of writing this) happens when we set up the integration explicitly. That said, we can do it ourselves. The parser for the setting is available in the &lt;code&gt;Microsoft.Azure.WebJobs.Logging.ApplicationInsights&lt;/code&gt; so we can mimic the host implementation.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;using TokenCredentialOptions =
+    Microsoft.Azure.WebJobs.Logging.ApplicationInsights.TokenCredentialOptions;
+
+var host = new HostBuilder()
+    ...
+    .ConfigureServices(services =&amp;gt; {
+        services.Configure&amp;lt;TelemetryConfiguration&amp;gt;(config =&amp;gt;
+        {
+            string? authenticationString =
+                Environment.GetEnvironmentVariable(&quot;APPLICATIONINSIGHTS_AUTHENTICATION_STRING&quot;);
+
+            if (!String.IsNullOrEmpty(authenticationString))
+            {
+                var tokenCredentialOptions = TokenCredentialOptions.ParseAuthenticationString(
+                    authenticationString
+                );
+                config.SetAzureTokenCredential(
+                    new ManagedIdentityCredential(tokenCredentialOptions.ClientId)
+                );
+            }
+        });
+        services.AddApplicationInsightsTelemetryWorkerService();
+        services.ConfigureFunctionsApplicationInsights();
+    })
+    .Build();
+
+host.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The telemetry should now reach the Application Insights without a problem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPJ35FDPtaLob7hxRZMQfK4XoyYM_UlLmMvP0CnghyhZD8JaIsXBr3VfOAHGuKfzet7lAlvf-zkYTwrFWFYkC1q59wm_joRbYU2YFaW3IiqtWSz6hnexFKl-TcuH381lbMTCXr9aNh6jJpDoYi57Ud8_bflDw97swo57Z9hmwLd0WIfGWWO4_jEvMv56g/s1600/azure-functions-emitting-worker-logs-directly.png&quot; alt=&quot;Azure Functions emitting worker logs directly&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Be cautious. As Application Insights SDK now controls emitting the logs you must be aware of its &lt;em&gt;opinions&lt;/em&gt;. It so happens that it tries to optimize by default and adds a logging filter that sets the minimum log level to &lt;em&gt;Warning&lt;/em&gt;. You may want to get rid of that (be certain to make it after &lt;code&gt;ConfigureFunctionsApplicationInsights&lt;/code&gt;).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;...
+
+var host = new HostBuilder()
+    ...
+    .ConfigureServices(services =&amp;gt; {
+        ...
+        services.ConfigureFunctionsApplicationInsights();
+        services.Configure&amp;lt;LoggerFilterOptions&amp;gt;(options =&amp;gt;
+        {
+            LoggerFilterRule? sdkRule = options.Rules.FirstOrDefault(rule =&amp;gt;
+                rule.ProviderName == typeof(Microsoft.Extensions.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider).FullName
+            );
+
+            if (sdkRule is not null)
+            {
+                options.Rules.Remove(sdkRule);
+            }
+        });
+    })
+    .Build();
+
+host.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;modifying-application-map-in-application-insights&quot;&gt;Modifying Application Map in Application Insights&lt;/h2&gt;
+&lt;p&gt;The default application map is not impressive - it will simply show your function app by its resource name.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf40-tJWNi4AOhWfscHb-svDOL1SHw_GMhcIqYFhCirGiFzVfsNBKwerK6hPtR8doLysl-f2gVD9y5mVxSTGYSEZkEL7IE4kDCYYubxit6Hbr83MdIvFIYnkOhQ-EQ4G8M1A4VVfQGemR3ARVwYhu8egab9FTfOuqRbmEvpxiK2UwbjEPHEEZrNdMCvhM/s1600/application-insights-default-application-map.png&quot; alt=&quot;Default application map in Application Insights&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As function apps rarely exist in isolation, we often want to present them in a more meaningful way on the map by providing a cloud role. The simplest way to do this is through the &lt;code&gt;WEBSITE_CLOUD_ROLENAME&lt;/code&gt; setting.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  ...
+  properties: {
+    ...
+    siteConfig: {
+      ...
+      appSettings: [
+        ...
+        {
+          name: &#39;WEBSITE_CLOUD_ROLENAME&#39;
+          value: &#39;InstrumentedFunctions&#39;
+        }
+        ...
+      ]
+    }
+    ...
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will impact both the host and the work. With explicit Application Insights integration, we can separate the two (if there is such a need) and change the cloud role for the worker. This is done in the usual way, by registering an &lt;code&gt;ITelemetryInitializer&lt;/code&gt;. The only important detail is the place of the registration - it needs to be after &lt;code&gt;ConfigureFunctionsApplicationInsights&lt;/code&gt; as Azure Functions are adding their own initializers.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;public class IsolatedWorkerTelemetryInitializer : ITelemetryInitializer
+{
+    public void Initialize(ITelemetry telemetry)
+    {
+        telemetry.Context.Cloud.RoleName = &quot;InstrumentedFunctionsIsolatedWorker&quot;;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;...
+
+var host = new HostBuilder()
+    ...
+    .ConfigureServices(services =&amp;gt; {
+        ...
+        services.ConfigureFunctionsApplicationInsights();
+        services.AddSingleton&amp;lt;ITelemetryInitializer, IsolatedWorkerTelemetryInitializer&amp;gt;();
+        services.Configure&amp;lt;LoggerFilterOptions&amp;gt;(options =&amp;gt;
+        {
+            ...
+        });
+    })
+    .Build();
+
+host.Run();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting map will look as below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB432aidxf6s6XwxqLkvHarlR3pb2Sy2F3TcbbVnaqTxl6c7ULivUwyx-x9phyphenhypheneGaWNGPovbf-Rnf3hGG8fEh93gaK3JOnPL6D_GNZMI4Hw5tmqJXcIBYcwyD0tj9V6Ead56qJ5td0-_9l1Gkyn6xsFwPK_LnHSfG1VUKdCBfbX9WQVdWik5FvXP_4M0I/s1600/application-insights-modified-application-map.png&quot; alt=&quot;Modified application map in Application Insights&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;monitoring-for-scaling-decisions&quot;&gt;Monitoring for Scaling Decisions&lt;/h2&gt;
+&lt;p&gt;This is currently in preview, but you can enable emitting scale controller logs (for a chance to understand the scaling decisions). This is done with a single setting (&lt;code&gt;SCALE_CONTROLLER_LOGGING_ENABLED&lt;/code&gt;) that takes a value in the &lt;code&gt;:&lt;/code&gt; format. The possible values for destination are &lt;code&gt;Blob&lt;/code&gt; and &lt;code&gt;AppInsights&lt;/code&gt;, while the verbosity can be &lt;code&gt;None&lt;/code&gt;, &lt;code&gt;Verbose&lt;/code&gt;, and &lt;code&gt;Warning&lt;/code&gt;. The &lt;code&gt;Verbose&lt;/code&gt; seems to be the most useful one when you are looking for understanding as it&#39;s supposed to provide reason for changes in the worker count, and information about the triggers that impact those decisions.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bicep&quot;&gt;resource functionApp &#39;Microsoft.Web/sites@2024-04-01&#39; = {
+  ...
+  properties: {
+    ...
+    siteConfig: {
+      ...
+      appSettings: [
+        ...
+        {
+          name: &#39;SCALE_CONTROLLER_LOGGING_ENABLED&#39;
+          value: &#39;AppInsights:Verbose&#39;
+        }
+        ...
+      ]
+    }
+    ...
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;is-this-exhaustive-&quot;&gt;Is This Exhaustive?&lt;/h2&gt;
+&lt;p&gt;Certainly not 🙂. There are other things that you can fiddle with. You can have a very granular configuration of different log levels for different categories. You can fine-tune aggregation and sampling. When you are playing with all those settings, please remember that you&#39;re looking for the right balance between the gathered details and costs. My advice is not to configure monitoring for the worst-case scenario (when you need every detail) as that often isn&#39;t financially sustainable. Rather aim for a lower amount of information and change the settings to gather more if needed (a small hint - you can override &lt;code&gt;host.json&lt;/code&gt; settings through application settings without deployment).&lt;/p&gt;</description><link>http://www.tpeczek.com/2024/11/monitoring-c-azure-functions-in.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_iJvUHWJAAvLFHhOOkGzTO92CB2o3UF5qKHcXLy3BqaVgldC2EkjvgiLZAwhL-XGDx1Zgol4BZz6YH5cay4s3GyXbZteYGthJvN0oP0_IrX_HiIY5XYHNhNc3iEt6c-Q4fv5HeWae9c4mHlXdK3mfjWfxKJVq3FLPbsXmA2fprs9SpFqb94B2GR9yu_8/s72-c/azure-functions-with-file-system-logging.png" height="72" width="72"/><thr:total>0</thr:total></item><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-3693878604342508492</guid><pubDate>Tue, 24 Sep 2024 08:57:00 +0000</pubDate><atom:updated>2024-09-24T10:57:26.186+02:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">asp.net core</category><category domain="http://www.blogger.com/atom/ns#">async-streaming</category><category domain="http://www.blogger.com/atom/ns#">blazor</category><category domain="http://www.blogger.com/atom/ns#">json</category><category domain="http://www.blogger.com/atom/ns#">ndjson</category><title>ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly</title><description>&lt;p&gt;I&#39;ve been exploring &lt;a href=&quot;https://www.tpeczek.com/p/working-with-asynchronous-streaming.html&quot;&gt;working with asynchronous streaming data sources over HTTP&lt;/a&gt; for quite some time on this blog. I&#39;ve been playing with async streamed JSON and NDJSON. I&#39;ve been streaming and receiving streams in ASP.NET Core and console applications. But there is one scenario I haven&#39;t touched yet - streaming from Blazor WebAssembly. Why? Simply it wasn&#39;t possible.&lt;/p&gt;
 &lt;p&gt;Streaming objects from Blazor WebAssembly requires two things. First is the support for streaming upload in browsers Fetch API. The Fetch API did support streams for response bodies for quite some time (my first post using it is from 2019) but non-experimental support for streams as request bodies come to Chrome, Edge, and Safari in 2022 (and it is yet to come to Firefox as far as I can tell). Still, it&#39;s been available for two years and I haven&#39;t explored it yet? Well, I did, more than a year ago, with &lt;a href=&quot;https://github.com/tpeczek/Demo.Ndjson.AsyncStreams/pull/10&quot;&gt;NDJSON and pure Javascript&lt;/a&gt;, where I used &lt;a href=&quot;https://www.tpeczek.com/2021/05/receiving-json-objects-stream-ndjson-in.html&quot;&gt;the ASP.NET Core endpoint&lt;/a&gt; I created long ago. But here we are talking about Blazor WebAssembly, which brings us to the second requirement - the browser API needs to be surfaced in Blazor. This is &lt;a href=&quot;https://github.com/dotnet/runtime/issues/36634&quot;&gt;finally happening with .NET 9&lt;/a&gt; and now I can fully explore it.&lt;/p&gt;
 &lt;h2 id=&quot;async-streaming-ndjson-from-blazor-webassembly&quot;&gt;Async Streaming NDJSON From Blazor WebAssembly&lt;/h2&gt;
 &lt;p&gt;I&#39;ve decided to start with NDJSON because I already have my own building blocks for it (that mentioned ASP.NET Core endpoint, and &lt;code&gt;NdjsonAsyncEnumerableContent&lt;/code&gt; coming from one of my &lt;a href=&quot;https://github.com/tpeczek/Ndjson.AsyncStreams&quot;&gt;packages&lt;/a&gt;). If things wouldn&#39;t work I would be able to easily debug them. &lt;/p&gt;
@@ -4696,165 +5284,4 @@ public class CharactersController : Controller
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;coming-soon-to-a-nuget-feed-near-you&quot;&gt;Coming Soon to a NuGet Feed Near You&lt;/h2&gt;
-&lt;p&gt;The code is ready and I&#39;m going to push it out with the next release of &lt;a href=&quot;https://www.nuget.org/packages/Lib.AspNetCore.ServerSentEvents&quot;&gt;Lib.AspNetCore.ServerSentEvents&lt;/a&gt;. So, if you have been waiting for disconnect capabilities in the library they soon will be there. That said, it still leaves some decisions and implementation to consumers. By sharing parts of my thought process and some implementation details I wanted to make clear why it is like this.&lt;/p&gt;</description><link>http://www.tpeczek.com/2021/11/server-sent-events-and-aspnet-core.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1vDwX0KrD5WI3mvE_hc1Lk-CyXoQEj0hXby0twqX5W1bBvz6RRcRlEyXC9-ZjPH0Hogr7QZ7CgProw88xYtF9_p3nzMuSX6cyjXqZuXQdHODrJ3WTsHrYcCVDJptbp4WNuD5MIr96uVI/s72-c/SSE+Disconnect+Flow.png" height="72" width="72"/><thr:total>0</thr:total></item><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-2710431481309098636</guid><pubDate>Tue, 28 Sep 2021 12:32:00 +0000</pubDate><atom:updated>2021-09-28T14:32:27.394+02:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">azure functions</category><category domain="http://www.blogger.com/atom/ns#">durable functions</category><category domain="http://www.blogger.com/atom/ns#">error handling</category><title>Handling Transient Errors in Durable Functions</title><description>&lt;p&gt;One of the things which are certain in the case of non-trivial code running in production are errors. Sooner or later they will happen and they don&#39;t even have to result from bugs. Some resources might be down, there can be a network problem, hardware failure, and many other short-lived issues. This is why resiliency is a key aspect of every application. In this post, I want to focus on handling transient errors in a very specific context - Durable Functions.&lt;/p&gt;
-&lt;h2 id=&quot;a-word-of-caution-don-t-use-polly&quot;&gt;A Word of Caution - Don’t Use Polly&lt;/h2&gt;
-&lt;p&gt;The fact that Durable Functions provide their own mechanism for &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-error-handling?tabs=csharp#automatic-retry-on-failure&quot;&gt;automatic retry on failure&lt;/a&gt; should be a strong suggestion that it&#39;s the way it should be done. But we are creatures of habits and we often bring those habits from other types of applications to serverless ones. One of such habits is using Polly for retries. In the case of Durable Functions (or Azure Functions in general), this can have serious consequences. The time spent at awaits &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/azure-functions/functions-consumption-costs?tabs=portal#behaviors-affecting-execution-time&quot;&gt;is counted as execution time&lt;/a&gt;, this will include delays between retries. Yes, the rules are different &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-billing#awaiting-and-yielding-in-orchestrator-functions&quot;&gt;in orchestrator functions&lt;/a&gt; but you can&#39;t perform I/O operations there and those are the ones you will most likely want to retry. So, the built-in automatic retry is the way to go, but sometimes it might be tricky to achieve some scenarios.&lt;/p&gt;
-&lt;h2 id=&quot;built-in-automatic-retry&quot;&gt;Built-in Automatic Retry&lt;/h2&gt;
-&lt;p&gt;To discuss the built-in automatic retry in Durable functions I&#39;m going to use the below activity as an example.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayActivity))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayActivity([ActivityTrigger] IDurableActivityContext activityContext)
-{
-    HttpClient httpClient = _httpClientFactory.CreateClient();
-
-    return await httpClient.GetStringAsync(&quot;https://host/messageOfTheDay&quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Yes, I know that performing an HTTP request is probably not the best choice. In simple cases, it is better to use &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-http-features&quot;&gt;Durable Functions HTTP features&lt;/a&gt;. That said, &lt;code&gt;HttpClient&lt;/code&gt; allows me to easily show various scenarios.&lt;/p&gt;
-&lt;p&gt;In the above code, I&#39;m using &lt;code&gt;GetStringAsync&lt;/code&gt; which will throw an exception whenever an unsuccessful response is received. If this activity will be called via &lt;code&gt;CallActivityWithRetryAsync&lt;/code&gt;, Durable Functions will retry it according to a policy defined with &lt;code&gt;RetryOptions&lt;/code&gt;. The minimum which must be provided is the maximum number of attempts and the first retry interval. &lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayOrchestration))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayOrchestration([OrchestrationTrigger] IDurableOrchestrationContext orchestrationContext)
-{
-    string messageOfTheDay = await orchestrationContext.CallActivityWithRetryAsync&amp;lt;string&amp;gt;(
-        nameof(MessageOfTheDayActivity),
-        new RetryOptions(TimeSpan.FromSeconds(5), 3),
-        null);
-
-    return messageOfTheDay;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So this will retry all requests which have resulted in a response with an unsuccessful status code. Is this truly the correct behavior? I would say no. There are unsuccessful status codes that shouldn&#39;t be retried. A good example is &lt;em&gt;403 Forbidden&lt;/em&gt;. In the case of this status code, the service is telling us that we are not allowed to make the request. Can the policy be adjusted to not retry when this happens? Yes, but first we need to modify the activity so it throws an exception which propagates the information we need.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayActivity))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayActivity([ActivityTrigger] IDurableActivityContext activityContext)
-{
-    HttpClient httpClient = _httpClientFactory.CreateClient();
-
-    using HttpResponseMessage response = await httpClient.GetAsync(&quot;https://host/message-of-the-day&quot;);
-
-    if (!response.IsSuccessStatusCode)
-    {
-        throw new MessageOfTheDayApiException(response.StatusCode);
-    }
-
-    return await response.Content.ReadAsStringAsync();
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;There is a property on &lt;code&gt;RetryOptions&lt;/code&gt; which allows for providing a callback to determine whether an activity should be retried. The important thing to remember here is that exceptions are wrapped and to get the original one you need to look at the inner exception.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayOrchestration))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayOrchestration([OrchestrationTrigger] IDurableOrchestrationContext orchestrationContext)
-{
-    RetryOptions retryOptions = new RetryOptions(TimeSpan.FromSeconds(5), 3)
-    {
-        Handle = (Exception ex) =&amp;gt;
-        {
-            MessageOfTheDayApiException messageOfTheDayApiException = ex.InnerException as MessageOfTheDayApiException;
-
-            if (messageOfTheDayApiException != null &amp;amp;&amp;amp; messageOfTheDayApiException.StatusCode == HttpStatusCode.Forbidden)
-            {
-                return false;
-            }
-
-            return true;
-        }
-    };
-
-    string messageOfTheDay = await orchestrationContext.CallActivityWithRetryAsync&amp;lt;string&amp;gt;(
-        nameof(MessageOfTheDayActivity),
-        retryOptions,
-        null);
-
-    return messageOfTheDay;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Avoiding unnecessary retries is just one of the aspects of a mature retry policy. There are more sophisticated scenarios, which can&#39;t be handled by built-in automatic retry.&lt;/p&gt;
-&lt;h2 id=&quot;handling-more-sophisticated-cases&quot;&gt;Handling More Sophisticated Cases&lt;/h2&gt;
-&lt;p&gt;Another interesting HTTP response status code is &lt;em&gt;429 Too Many Requests&lt;/em&gt;. Receiving this status code means that you are being rate limited. You should wait and retry, but waiting is a little bit more tricky in this case. The information on how long to wait usually comes in form of the &lt;code&gt;Retry-After&lt;/code&gt; header value. So the waiting period can be different every time and is known only after execution. How can we deal with that? First, we need to make sure that our exception propagates not only the status code but also the extracted &lt;code&gt;Retry-After&lt;/code&gt; value (if it has been provided).&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayActivity))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayActivity([ActivityTrigger] IDurableActivityContext activityContext)
-{
-    HttpClient httpClient = _httpClientFactory.CreateClient();
-
-    using HttpResponseMessage response = await httpClient.GetAsync(&quot;https://host/message-of-the-day&quot;);
-
-    if (!response.IsSuccessStatusCode)
-    {
-        throw new MessageOfTheDayApiException(response.StatusCode, GetRetryAfter(response));
-    }
-
-    return await response.Content.ReadAsStringAsync();
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, having the necessary information, we can try to do something useful with it. Of course, we can&#39;t use it as a retry interval, so built-in capabilities will not help us. What we can do is exclude this scenario from automatic retry and use two Durable Functions concepts to handle it ourselves: timers and orchestrator capability to restart itself. Once we &quot;catch&quot; &lt;em&gt;429&lt;/em&gt;, we can create a timer to wait the needed period and after that use &lt;code&gt;IDurableOrchestrationContext.ContinueAsNew&lt;/code&gt; to restart the orchestration.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-cs&quot;&gt;[FunctionName(nameof(MessageOfTheDayOrchestration))]
-public async Task&amp;lt;string&amp;gt; MessageOfTheDayOrchestration([OrchestrationTrigger] IDurableOrchestrationContext orchestrationContext)
-{
-    string messageOfTheDay = String.Empty;
-
-    RetryOptions retryOptions = new RetryOptions(TimeSpan.FromSeconds(5), 3)
-    {
-        Handle = (Exception ex) =&amp;gt;
-        {
-            MessageOfTheDayApiException messageOfTheDayApiException = ex.InnerException as MessageOfTheDayApiException;
-
-            if (messageOfTheDayApiException != null &amp;amp;&amp;amp; (
-                messageOfTheDayApiException.StatusCode == HttpStatusCode.Forbidden ||
-                messageOfTheDayApiException.StatusCode == HttpStatusCode.TooManyRequests
-                ))
-            {
-                return false;
-            }
-
-            return true;
-        }
-    };
-
-    try
-    {
-        messageOfTheDay = await orchestrationContext.CallActivityWithRetryAsync&amp;lt;string&amp;gt;(
-            nameof(MessageOfTheDayActivity),
-            retryOptions,
-            null);
-    }
-    catch (Exception ex)
-    {
-        MessageOfTheDayApiException messageOfTheDayApiException = ex.InnerException as MessageOfTheDayApiException;
-
-        if (messageOfTheDayApiException != null &amp;amp;&amp;amp;
-            messageOfTheDayApiException.StatusCode == HttpStatusCode.TooManyRequests &amp;amp;&amp;amp;
-            messageOfTheDayApiException.RetryAfter.HasValue)
-        {
-            DateTime retryAt = orchestrationContext.CurrentUtcDateTime.Add(messageOfTheDayApiException.RetryAfter.Value);
-            await orchestrationContext.CreateTimer(retryAt, CancellationToken.None);
-
-            orchestrationContext.ContinueAsNew(null);
-        }
-    }
-
-    return messageOfTheDay;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This will allow for the proper handling of &lt;em&gt;429 Too Many Requests&lt;/em&gt;. This is also the way to build more complex failure handling - by leveraging Durable Functions specific mechanisms.&lt;/p&gt;
-&lt;h2 id=&quot;be-thoughtful&quot;&gt;Be Thoughtful&lt;/h2&gt;
-&lt;p&gt;Proper error handling requires consideration. You need to think about how you want to react to different situations so you don&#39;t end up with pointless retries, forever retries, or retry storms. You should also be using the right tools for the job, especially in Durable Functions which have very specific programming model and wrong patterns will cost you money or cause timeouts.&lt;/p&gt;</description><link>http://www.tpeczek.com/2021/09/handling-transient-errors-in-durable.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><thr:total>0</thr:total></item><item><guid isPermaLink="false">tag:blogger.com,1999:blog-7365737872932202828.post-3508716695365104414</guid><pubDate>Tue, 14 Sep 2021 12:43:00 +0000</pubDate><atom:updated>2021-09-14T14:43:25.048+02:00</atom:updated><category domain="http://www.blogger.com/atom/ns#">asp.net core</category><category domain="http://www.blogger.com/atom/ns#">compression</category><category domain="http://www.blogger.com/atom/ns#">websocket</category><title>WebSocket per-message compression in ASP.NET Core 6</title><description>&lt;p&gt;Back in 2017, I&#39;ve written about &lt;a href=&quot;https://www.tpeczek.com/2017/07/websocket-per-message-compression-in.html&quot;&gt;WebSocket per-message compression in ASP.NET Core&lt;/a&gt;. Back then the built-in support was deep in backlog with no foreseeable delivery, so I&#39;ve created my own hackey implementation. Luckily it&#39;s 2021 and the built-in support is about to come with &lt;a href=&quot;https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-6/#websocket-compression&quot;&gt;ASP.NET Core 6&lt;/a&gt;. I was very eager to archive my &lt;a href=&quot;https://github.com/tpeczek/Lib.AspNetCore.WebSocketsCompression&quot;&gt;repository&lt;/a&gt; so I&#39;ve decided to quickly take a look at what changes are needed to benefit from this new capability.&lt;/p&gt;
-&lt;h2 id=&quot;enabling-and-configuring-compression-extension-negotiation&quot;&gt;Enabling and Configuring Compression Extension Negotiation&lt;/h2&gt;
-&lt;p&gt;In order to allow compression extension negotiation between client and server, you need to use &lt;code&gt;AcceptWebSocketAsync&lt;/code&gt; overload which takes &lt;code&gt;WebSocketAcceptContext&lt;/code&gt; as parameter and set &lt;code&gt;DangerousEnableCompression&lt;/code&gt; to true.&lt;/p&gt;
-&lt;p&gt;Let&#39;s say you have a WebSocket implementation which supports &lt;a href=&quot;https://www.tpeczek.com/2017/06/websocket-subprotocol-negotiation-in.html&quot;&gt;subprotocol negotiation&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync(textSubProtocol?.SubProtocol);
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The version with compression negotiation enabled would look like below.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync(new WebSocketAcceptContext
-{
-    SubProtocol = textSubProtocol?.SubProtocol,
-    DangerousEnableCompression = true
-});
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You might be wondering why such a &quot;scary&quot; property name. It&#39;s not because things may fail. If the client doesn&#39;t support compressions (or doesn&#39;t support compression with specific parameters), the negotiated connection will have compression disabled. It&#39;s about security. Similarly to HTTPS, encrypted WebSocket connections are subject to &lt;em&gt;CRIME/BREACH&lt;/em&gt; attacks. If you are using encryption, you should be very cautious and not compress sensitive messages.&lt;/p&gt;
-&lt;p&gt;Regarding parameters, you can set &lt;em&gt;no context takeover&lt;/em&gt; and &lt;em&gt;max window bits&lt;/em&gt; through &lt;code&gt;DisableServerContextTakeover&lt;/code&gt; and &lt;code&gt;ServerMaxWindowBits&lt;/code&gt; properties of &lt;code&gt;WebSocketAcceptContext&lt;/code&gt;. The &lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-6.0#compression&quot;&gt;documentation&lt;/a&gt; states that they are advanced options that control how the compression works. I did high level description of them in my &lt;a href=&quot;https://www.tpeczek.com/2017/07/websocket-per-message-compression-in.html&quot;&gt;previous post&lt;/a&gt; and going deeper into details of sliding-window compression is beyond the scope of this post. So, without going to deep, I&#39;m going to say that they allow for tuning between memory overhead and compression ratio.&lt;/p&gt;
-&lt;h2 id=&quot;per-message-compression&quot;&gt;Per-Message Compression&lt;/h2&gt;
-&lt;p&gt;As we already know, using encryption and compression together is dangerous from security perspective. But what if only some specific messages are of sensitive nature? There is an option to disable compression for a specific message.&lt;/p&gt;
-&lt;p&gt;Most common used overload of &lt;code&gt;SendAsync&lt;/code&gt; is the one which takes &lt;em&gt;bool&lt;/em&gt; for &lt;code&gt;endOfMessage&lt;/code&gt; parameter.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;await _webSocket.SendAsync(messageSegment, messageType, true, cancellationToken);
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In order to be able to disable compression on per-message basis, you need to use overload which accepts &lt;code&gt;WebSocketMessageFlags&lt;/code&gt; instead.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;await _webSocket.SendAsync(messageSegment, messageType, WebSocketMessageFlags.EndOfMessage, cancellationToken);
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now you can disable compression for specific message by adding the &lt;code&gt;DisableCompression&lt;/code&gt; flag.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;await _webSocket.SendAsync(messageSegment, messageType, WebSocketMessageFlags.EndOfMessage | WebSocketMessageFlags.DisableCompression, cancellationToken);
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Of course this approach can be used anytime when you want to disable compression per-message, not only in security related scenarios.&lt;/p&gt;
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;WebSocket per-message compression in ASP.NET Core 6 is feature complete and I cannot be more happy to stop using my own implementation. If you want to play with it, I&#39;ve updated my &lt;a href=&quot;https://github.com/tpeczek/Demo.AspNetCore.WebSockets&quot;&gt;WebSocket demo&lt;/a&gt; to use it.&lt;/p&gt;</description><link>http://www.tpeczek.com/2021/09/websocket-per-message-compression-in.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><thr:total>0</thr:total></item></channel></rss>
+&lt;p&gt;The code is ready and I&#39;m going to push it out with the next release of &lt;a href=&quot;https://www.nuget.org/packages/Lib.AspNetCore.ServerSentEvents&quot;&gt;Lib.AspNetCore.ServerSentEvents&lt;/a&gt;. So, if you have been waiting for disconnect capabilities in the library they soon will be there. That said, it still leaves some decisions and implementation to consumers. By sharing parts of my thought process and some implementation details I wanted to make clear why it is like this.&lt;/p&gt;</description><link>http://www.tpeczek.com/2021/11/server-sent-events-and-aspnet-core.html</link><author>noreply@blogger.com (Tomasz Pęczek)</author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1vDwX0KrD5WI3mvE_hc1Lk-CyXoQEj0hXby0twqX5W1bBvz6RRcRlEyXC9-ZjPH0Hogr7QZ7CgProw88xYtF9_p3nzMuSX6cyjXqZuXQdHODrJ3WTsHrYcCVDJptbp4WNuD5MIr96uVI/s72-c/SSE+Disconnect+Flow.png" height="72" width="72"/><thr:total>0</thr:total></item></channel></rss>

@@ -1,5 +1,0 @@
-﻿Connect securely to your Azure resources
-
-Visual Studio 2022’s Connected Services features are being updated to help you start secure. In the past, for example with Azure Storage, we’d inject the entire connection string into your configuration. With this update, we’ve removed the secrets from the UX – and from what we save to configuration – altogether. This means your code ...
----
-https://devblogs.microsoft.com/visualstudio/connect-securely-to-your-azure-resources/

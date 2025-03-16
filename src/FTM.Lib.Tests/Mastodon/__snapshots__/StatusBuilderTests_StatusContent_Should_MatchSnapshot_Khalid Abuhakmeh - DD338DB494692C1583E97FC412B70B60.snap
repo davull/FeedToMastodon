@@ -1,5 +1,0 @@
-﻿Building a Persistent Counter with Alpine.Js
-
-If you read this blog, you likely know I predominantly work with .NET technologies and use web technologies such as HTML, CSS, and JavaScript. The web is an excellent space for new and exciting ways to solve age-old problems. I recently thought about the Blazor “Counter” example that ships with the Blazor Wasm template and how I’ve solved the same problem using Htmx. The issue with Htmx is that it still requires a b...
----
-https://khalidabuhakmeh.com/building-a-persistent-counter-with-alpinejs

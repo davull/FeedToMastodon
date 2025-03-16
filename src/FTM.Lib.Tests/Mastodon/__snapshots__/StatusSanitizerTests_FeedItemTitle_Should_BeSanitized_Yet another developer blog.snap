@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-1304634620752734117",
+    "raw": "Exploring Neon as a Serverless Postgres Alternative for .NET Applications on Azure - Part 1 (Simple ASP.NET Core on App Service)",
+    "sanitized": "Exploring Neon as a Serverless Postgres Alternative for .NET Applications on Azure - Part 1 (Simple ASP.NET Core on App Service)"
+  },
+  {
+    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-2520358221106669221",
+    "raw": "Monitoring C# Azure Functions in the Isolated Worker Model - Infrastructure & Configuration Deep Dive",
+    "sanitized": "Monitoring C# Azure Functions in the Isolated Worker Model - Infrastructure & Configuration Deep Dive"
+  },
+  {
     "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3693878604342508492",
     "raw": "ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly",
     "sanitized": "ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly"
@@ -113,15 +123,5 @@
     "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-4981240213044006715",
     "raw": "Server-Sent Events and ASP.NET Core - Disconnecting a Client",
     "sanitized": "Server-Sent Events and ASP.NET Core - Disconnecting a Client"
-  },
-  {
-    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-2710431481309098636",
-    "raw": "Handling Transient Errors in Durable Functions",
-    "sanitized": "Handling Transient Errors in Durable Functions"
-  },
-  {
-    "itemId": "tag:blogger.com,1999:blog-7365737872932202828.post-3508716695365104414",
-    "raw": "WebSocket per-message compression in ASP.NET Core 6",
-    "sanitized": "WebSocket per-message compression in ASP.NET Core 6"
   }
 ]

@@ -1,0 +1,5 @@
+﻿Setting application environment variables in IIS without restarts
+
+In this post I outline how IIS works, describe how to add environment variables to app pools, and show how to prevent automatic app pool recycling on changes
+---
+https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/

@@ -1,7 +1,0 @@
-﻿Update HTML Elements with Htmx Triggers and ASP.NET Core
-
-Let me start by saying that I love the combination of Htmx and ASP.NET Core, and it is a pairing that any .NET developer should consider, whether maintaining an existing application or building a new one. It’s very cool. I was recently talking about revisiting the
-hx-trigger and
-HX-Trigger header technique with ASP.NET Core on Mastodon with Illya Busigin, and they mentioned they use the same method to up...
----
-https://khalidabuhakmeh.com/update-html-elements-with-htmx-triggers-and-aspnet-core
