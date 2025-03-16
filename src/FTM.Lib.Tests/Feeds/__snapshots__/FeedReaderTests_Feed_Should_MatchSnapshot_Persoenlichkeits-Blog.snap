@@ -2,10 +2,20 @@
   "Id": "https://www.persoenlichkeits-blog.de/feed",
   "Website": "https://www.persoenlichkeits-blog.de/",
   "Title": "DER Persönlichkeits-Blog",
-  "LastUpdatedTime": "2024-04-14T15:46:00+00:00",
+  "LastUpdatedTime": "2025-03-12T16:13:05+00:00",
   "Description": "Mit über 1.000 Artikeln und 400 Podcasts  aus 18 Jahren.   -- --  Von Roland Kopp-Wichmann. Aber Vorsicht: Lesen kann Ihr Herz berühren, Ihre Augen öffnen und Ihr Leben beeinflussen.",
   "Language": "de",
   "Items": [
+    {
+      "FeedId": "https://www.persoenlichkeits-blog.de/feed",
+      "ItemId": "https://www.persoenlichkeits-blog.de/?p=120868",
+      "Title": "„Ich bin Mitte 40 und fühle mich wie in der Pubertät. Was ist los mit mir?“, sagte die Frau im Coaching.",
+      "PublishDate": "2025-03-12T16:13:05+00:00",
+      "Summary": "<p>Der Zeitpunkt Mitte-40 bringt für viele Frauen eine Phase tiefgreifender Veränderungen mit sich. Diese werden oft unterschätzt oder missverstanden. Von der Familie, vom Umfeld &#8211; und von den Frauen selbst. In diesem Fallbericht eines 3-h-Coachings geht es um Claudia F. 46 Jahre, die plötzlich mit intensiven emotionalen Schwankungen konfrontiert wird und sich fragt: &#8222;Was ist [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.persoenlichkeits-blog.de/article/120868/mitte-40\">&#8222;Ich bin Mitte 40 und fühle mich wie in der Pubertät. Was ist los mit mir?&#8220;, sagte die Frau im Coaching.</a> erschien zuerst auf <a href=\"https://www.persoenlichkeits-blog.de\">DER Persönlichkeits-Blog</a>.</p>\n",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://www.persoenlichkeits-blog.de/article/120868/mitte-40?utm_source=rss&utm_medium=rss&utm_campaign=mitte-40"
+    },
     {
       "FeedId": "https://www.persoenlichkeits-blog.de/feed",
       "ItemId": "https://www.persoenlichkeits-blog.de/?p=120731",
@@ -95,16 +105,6 @@
       "Content": null,
       "Language": "de",
       "Link": "https://www.persoenlichkeits-blog.de/article/110601/unzufriedenheit?utm_source=rss&utm_medium=rss&utm_campaign=unzufriedenheit"
-    },
-    {
-      "FeedId": "https://www.persoenlichkeits-blog.de/feed",
-      "ItemId": "https://www.persoenlichkeits-blog.de/?p=120568",
-      "Title": "„Bevor ich sterbe, wollte ich immer meinen Eltern verzeihen“, sagte der Mann im Coaching.",
-      "PublishDate": "2023-09-10T14:23:40+00:00",
-      "Summary": "<p>In dieser Fallgeschichte erfahren Sie: Warum Menschen im Alter ihr Leben überdenken. Welche Wunden selten heilen, auch wenn sie schon lange zurück liegen. Welche Folgen Schläge in der Kindheit haben. Ob man den Eltern alles verzeihen sollte. Was Sie tun können, wenn Verzeihen sich nicht richtig anfühlt. Durch welchen Satz Sie Frieden schaffen können. Welche [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.persoenlichkeits-blog.de/article/120568/bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching\">&#8222;Bevor ich sterbe, wollte ich immer meinen Eltern verzeihen&#8220;, sagte der Mann im Coaching.</a> erschien zuerst auf <a href=\"https://www.persoenlichkeits-blog.de\">DER Persönlichkeits-Blog</a>.</p>\n",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://www.persoenlichkeits-blog.de/article/120568/bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching?utm_source=rss&utm_medium=rss&utm_campaign=bevor-ich-sterbe-wollte-ich-immer-meinen-eltern-verzeihen-sagte-der-mann-im-coaching"
     }
   ]
 }
