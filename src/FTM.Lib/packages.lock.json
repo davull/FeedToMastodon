@@ -66,9 +66,9 @@
       },
       "Serilog": {
         "type": "Direct",
-        "requested": "[4.2.0, )",
-        "resolved": "4.2.0",
-        "contentHash": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA=="
+        "requested": "[4.3.0, )",
+        "resolved": "4.3.0",
+        "contentHash": "+cDryFR0GRhsGOnZSKwaDzRRl4MupvJ42FhCE4zhQRVanX0Jpg6WuCBk59OVhVDPmab1bB+nRykAnykYELA9qQ=="
       },
       "Serilog.Extensions.Logging": {
         "type": "Direct",
@@ -100,9 +100,9 @@
       },
       "SonarAnalyzer.CSharp": {
         "type": "Direct",
-        "requested": "[10.9.0.115408, )",
-        "resolved": "10.9.0.115408",
-        "contentHash": "cLvuPNhLWTnHtbTQzZh64xao0ZNsXKc8oZ0Q4agAmMjnqG7Q54mL8jw55rYnVytv+cXRw9ItRoUsggnvRsKJIA=="
+        "requested": "[10.10.0.116381, )",
+        "resolved": "10.10.0.116381",
+        "contentHash": "HkJuI8dBE64BF7ySlfN8t/lQ91E/pgiQPvOS51lIKKy3/IJiwHHqQ4dkI6gixDkKBDK7lImvvNa0ECH+I0PqmA=="
       },
       "System.Net.Http": {
         "type": "Direct",
