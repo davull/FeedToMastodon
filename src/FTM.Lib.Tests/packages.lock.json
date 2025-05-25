@@ -67,34 +67,13 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[1.8.7, )",
-        "resolved": "1.8.7",
-        "contentHash": "/XoEsirrEIoJIVj7nMT968jBWhvnq7DPBJ/3gkFJCT5+8gUQLpDUWL5A60Zdu0qD3kgRG7dfc5xaUAE8VthxiQ==",
+        "requested": "[1.8.8, )",
+        "resolved": "1.8.8",
+        "contentHash": "9765olunU90ZM6oJIFrHv2IFZAGTQoO3rxtnSH+XpQiHhcVBnwvsENz2CNNDz7xEm56chqEHoZKgffpJlReH0w==",
         "dependencies": {
-          "AnyOf": "0.4.0",
-          "GraphQL.NewtonsoftJson": "8.2.1",
-          "Handlebars.Net.Helpers": "2.5.0",
-          "Handlebars.Net.Helpers.Humanizer": "2.5.0",
-          "Handlebars.Net.Helpers.Json": "2.5.0",
-          "Handlebars.Net.Helpers.Random": "2.5.0",
-          "Handlebars.Net.Helpers.XPath": "2.5.0",
-          "Handlebars.Net.Helpers.Xeger": "2.5.0",
-          "Handlebars.Net.Helpers.Xslt": "2.4.6",
-          "JmesPath.Net": "1.0.330",
-          "JsonConverter.Abstractions": "0.7.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.34.0",
-          "MimeKitLite": "4.1.0.1",
-          "NJsonSchema.Extensions": "0.1.0",
-          "NSwag.Core": "13.16.1",
-          "Newtonsoft.Json": "13.0.3",
-          "ProtoBufJsonConverter": "0.9.0",
-          "Scriban.Signed": "5.5.0",
-          "SimMetrics.Net": "1.0.5",
           "System.Text.RegularExpressions": "4.3.1",
-          "TinyMapper.Signed": "4.0.0",
-          "WireMock.Net.Abstractions": "1.8.7",
-          "WireMock.Net.OpenApiParser": "1.8.7",
-          "WireMock.Org.Abstractions": "1.8.7"
+          "WireMock.Net.MimePart": "1.8.8",
+          "WireMock.Net.Minimal": "1.8.8"
         }
       },
       "AnyOf": {
@@ -1128,15 +1107,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "MimeKitLite": {
-        "type": "Transitive",
-        "resolved": "4.1.0.1",
-        "contentHash": "XJHU1/pY5c/y3aVZwp6ARF7ciIEeEamPJVvWGo1v10X6oC3FHyy5oFum9JWrIqCuzHoMrT8SdeMZ0iUzBGZMsw==",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encoding.CodePages": "7.0.0"
-        }
-      },
       "Namotion.Reflection": {
         "type": "Transitive",
         "resolved": "2.0.10",
@@ -1272,8 +1242,8 @@
       },
       "ProtoBufJsonConverter": {
         "type": "Transitive",
-        "resolved": "0.9.0",
-        "contentHash": "ekplqK0fKMvDqNxxgfCKcyFNdMGGhJeryv6aoD0QJu3gSDlfDiOl2CIVEYWut8hLeZjJxbkSLkbDmK0WlfPZLg==",
+        "resolved": "0.10.0",
+        "contentHash": "PgkuWrTq8TlvLzuw4VWJod4slWlOD+GXOf7nQ/QmkrHxFixb9MGneH3J/UelEInVW4ih+QC8BLdq8qAomik+kA==",
         "dependencies": {
           "MetadataReferenceService.Default": "0.0.1",
           "Microsoft.CodeAnalysis.CSharp": "4.8.0",
@@ -2085,11 +2055,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encoding.CodePages": {
-        "type": "Transitive",
-        "resolved": "7.0.0",
-        "contentHash": "LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ=="
-      },
       "System.Text.Encoding.Extensions": {
         "type": "Transitive",
         "resolved": "4.3.0",
@@ -2225,18 +2190,58 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.7",
-        "contentHash": "ptpDIbNQ0XFLeNwy33uJcczTxIT4CRiYUn6CfKfuOqB476ySRTR3Z1/aY/cxW8DVK+CybrfqaKY3KUWju4vqoA==",
+        "resolved": "1.8.8",
+        "contentHash": "VEPJobcyQScaIwD2Vbn8HMTlrQiMloLHSld83QYUAHlS/a92Ken7RWI/Hu7aq/Kkp7+1JddZLAOxhEowVOVjbg==",
         "dependencies": {
           "System.Net.Http": "4.3.4",
           "System.Security.Cryptography.X509Certificates": "4.3.0",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
+      "WireMock.Net.MimePart": {
+        "type": "Transitive",
+        "resolved": "1.8.8",
+        "contentHash": "VUvEhKdxNVN9yfa0U+HOAW1OJHS0lwXhWai4jwwMqadFdZJzZdN1piJYM3HiHuh5OnisWhjVNVqfgKQ2exJJWw==",
+        "dependencies": {
+          "Stef.Validation": "0.1.1",
+          "System.Text.RegularExpressions": "4.3.1",
+          "WireMock.Net.Shared": "1.8.8"
+        }
+      },
+      "WireMock.Net.Minimal": {
+        "type": "Transitive",
+        "resolved": "1.8.8",
+        "contentHash": "p4DRHbAqxXufiSaBwsuYwR+NYbYXFeQgiTh1kinY5UM7vwdLuQxj40/ZhwW+mPsZoQgTd6q+GXmf2j1YEJ8Qug==",
+        "dependencies": {
+          "AnyOf": "0.4.0",
+          "GraphQL.NewtonsoftJson": "8.2.1",
+          "Handlebars.Net.Helpers": "2.5.0",
+          "Handlebars.Net.Helpers.Humanizer": "2.5.0",
+          "Handlebars.Net.Helpers.Json": "2.5.0",
+          "Handlebars.Net.Helpers.Random": "2.5.0",
+          "Handlebars.Net.Helpers.XPath": "2.5.0",
+          "Handlebars.Net.Helpers.Xeger": "2.5.0",
+          "Handlebars.Net.Helpers.Xslt": "2.4.6",
+          "JmesPath.Net": "1.0.330",
+          "JsonConverter.Abstractions": "0.7.0",
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.34.0",
+          "NJsonSchema.Extensions": "0.1.0",
+          "NSwag.Core": "13.16.1",
+          "Newtonsoft.Json": "13.0.3",
+          "ProtoBufJsonConverter": "0.10.0",
+          "Scriban.Signed": "5.5.0",
+          "SimMetrics.Net": "1.0.5",
+          "System.Text.RegularExpressions": "4.3.1",
+          "TinyMapper.Signed": "4.0.0",
+          "WireMock.Net.OpenApiParser": "1.8.8",
+          "WireMock.Net.Shared": "1.8.8",
+          "WireMock.Org.Abstractions": "1.8.8"
+        }
+      },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "1.8.7",
-        "contentHash": "wHGkuqLVIPr/W6htjNP7hIBbxZ6qTKENuz7HQnMXXCOGY5PCynTf6xyQk9Rzm1m8csNlfAGoKKlHW6enAzjQcQ==",
+        "resolved": "1.8.8",
+        "contentHash": "8dwPiX7/qLTIrt1tk29pqGrBqaO5mWs7N9XoNMrV+7NJjZdwM3Z+V/Vr0l4knPJ6a/Us35fW1frCMI3ZOZEFIA==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "RamlToOpenApiConverter.SourceOnly": "0.8.0",
@@ -2245,14 +2250,26 @@
           "Stef.Validation": "0.1.1",
           "System.Text.Json": "8.0.5",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.8.7",
+          "WireMock.Net.Abstractions": "1.8.8",
           "YamlDotNet": "8.1.0"
+        }
+      },
+      "WireMock.Net.Shared": {
+        "type": "Transitive",
+        "resolved": "1.8.8",
+        "contentHash": "axopfb8eRCY8q8bJlbMjQwNEj3yirEfxn3fluq5TOTtmLlVnztkZNWAja6Xdv+5CDnad62ZVINuKp01D9duFnA==",
+        "dependencies": {
+          "AnyOf": "0.4.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Stef.Validation": "0.1.1",
+          "System.Text.RegularExpressions": "4.3.1",
+          "WireMock.Net.Abstractions": "1.8.8"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.7",
-        "contentHash": "e1r4ACAEfH9h8SpNnrED8tjy1h7qJeD8p4pmxHTYkCBdFdgO8LNDPLuJKlMsZcKWEiDlcoB4tkMzRTfXPLR8Kg==",
+        "resolved": "1.8.8",
+        "contentHash": "uNIwejAXbloADqyDuknT21NkGPSsJTbQpEgvdEfvgcBrqwKYwFWskODPBm2WqVb3fDr2hCfT4ELSlhxkqUPAZA==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1"
         }
