@@ -23,11 +23,11 @@
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.5.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging" Version="9.0.5" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.5" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageVersion Include="NUnit.Analyzers" Version="4.8.1" />
     <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
     <PackageVersion Include="Serilog" Version="4.3.0" />
-    <PackageVersion Include="Serilog.Extensions.Logging" Version="9.0.1" />
+    <PackageVersion Include="Serilog.Extensions.Logging" Version="9.0.2" />
     <PackageVersion Include="Serilog.Sinks.Console" Version="6.0.0" />
     <PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageVersion Include="Shouldly" Version="4.3.0" />
