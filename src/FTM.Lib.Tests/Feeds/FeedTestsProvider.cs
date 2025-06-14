@@ -225,7 +225,7 @@ public static class FeedTestsProvider
             ("wired.com", "https://www.wired.com/feed/rss"),
             ("gizmodo.com", "https://gizmodo.com/feed"),
             ("mashable.com", "https://mashable.com/feeds/rss/tech"),
-            ("digitaltrends.com", "https://www.digitaltrends.com/feed/"),
+            ("digitaltrends.com", "https://www.digitaltrends.com/rss/"),
             ("techradar.com", "https://www.techradar.com/rss"),
             ("businessinsider.de", "https://www.businessinsider.de/feed/businessinsider-alle-artikel"),
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
