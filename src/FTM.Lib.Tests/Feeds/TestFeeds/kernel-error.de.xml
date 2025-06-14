@@ -12,13 +12,13 @@
 	<atom:link href="https://www.kernel-error.de/feed/?format=feed&#038;amp%3Btype=rss" rel="self" type="application/rss+xml" />
 	<link>https://www.kernel-error.de</link>
 	<description>Datenhaufen zu IT und Elektronik.</description>
-	<lastBuildDate>Sat, 15 Mar 2025 07:23:01 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 15 Apr 2025 08:12:15 +0000</lastBuildDate>
 	<language>de</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7.2</generator>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
 
 <image>
 	<url>https://www.kernel-error.de/wp-content/uploads/2021/08/cropped-logo-1-32x32.png</url>
@@ -30,7 +30,7 @@
 	<item>
 		<title>S/MIME-Zertifikat per DNS veröffentlichen – SMIMEA</title>
 		<link>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/</link>
-					<comments>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/#respond</comments>
+					<comments>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/#comments</comments>
 		
 		<dc:creator><![CDATA[kernel-error]]></dc:creator>
 		<pubDate>Fri, 14 Mar 2025 19:23:07 +0000</pubDate>
@@ -91,9 +91,9 @@
 <pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">./smimea_generate_record.py
 Enter the email address: kernel-error@kernel-error.com
 Enter the path to the PEM certificate: mail.pem
-<img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Email 'kernel-error@kernel-error.com' matches the certificate!
+<img src="https://s.w.org/images/core/emoji/15.1.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Email 'kernel-error@kernel-error.com' matches the certificate!
 
-<img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> **Generated BIND9 DNS Record:**
+<img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> **Generated BIND9 DNS Record:**
 
 70e1c7d87e825b3aba45e2a478025ea0d91d298038436abde5a4c2d0._smimecert.kernel-error.com. 3600 IN SMIMEA 3 0 0 (
    30820714308204FCA003020102021073C13C478DA7B114B871F00737F1B0FB30
@@ -379,7 +379,7 @@ Certificate:
 
 
 
-<p>Pffff… Eigentlich wollte ich doch nur schnell schreiben, dass ich da zwei Python-Skripte zusammengebastelt habe – und am Ende ist es doch wieder so ein riesiges Ding geworden. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f605.png" alt="😅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Pffff… Eigentlich wollte ich doch nur schnell schreiben, dass ich da zwei Python-Skripte zusammengebastelt habe – und am Ende ist es doch wieder so ein riesiges Ding geworden. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f605.png" alt="😅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -391,7 +391,7 @@ Certificate:
 
 
 
-<p>Viel Spaß! <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Viel Spaß! <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -411,12 +411,12 @@ Certificate:
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>PDS OSIcom-Office Box: Retro-PC mit JUMPtec &#038; SUSE Linux</title>
+		<title>PDS OSIcom-Office Box: Retro-PC mit JUMPtec SBC &#038; SUSE Linux​</title>
 		<link>https://www.kernel-error.de/2025/02/28/pds-osicom-office-box-retro-pc-mit-jumptec-suse-linux/</link>
 					<comments>https://www.kernel-error.de/2025/02/28/pds-osicom-office-box-retro-pc-mit-jumptec-suse-linux/#respond</comments>
 		
@@ -484,7 +484,7 @@ Certificate:
 		
 			</item>
 		<item>
-		<title>DALLAS DS80C400: Ethernet-Mikrocontroller neu entdeckt</title>
+		<title>Dallas DS80C400: 8051-Ethernet-Mikrocontroller neu entdeckt​</title>
 		<link>https://www.kernel-error.de/2025/02/18/dallas-ds80c400-ethernet-mikrocontroller-neu-entdeckt/</link>
 					<comments>https://www.kernel-error.de/2025/02/18/dallas-ds80c400-ethernet-mikrocontroller-neu-entdeckt/#respond</comments>
 		
@@ -607,7 +607,7 @@ Certificate:
 
 
 
-<p>Noch ein Test mit <strong>115200 Baud</strong> und … <strong>ha, er bootet!</strong> <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Noch ein Test mit <strong>115200 Baud</strong> und … <strong>ha, er bootet!</strong> <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -630,7 +630,7 @@ Certificate:
 		
 			</item>
 		<item>
-		<title>Sicherheitslücken melden: Mein Umgang mit einem Vulnerability Report</title>
+		<title>Sicherheitslücken melden: Mein Umgang mit einem Vulnerability Report​</title>
 		<link>https://www.kernel-error.de/2025/02/17/sicherheitsluecken-melden-mein-umgang-mit-einem-vulnerability-report/</link>
 					<comments>https://www.kernel-error.de/2025/02/17/sicherheitsluecken-melden-mein-umgang-mit-einem-vulnerability-report/#comments</comments>
 		
@@ -868,7 +868,7 @@ Certificate:
 		
 			</item>
 		<item>
-		<title>Magenta SmartHome: Lösung für &#8222;Lüften&#8220;-Probleme auf Android</title>
+		<title>Magenta SmartHome Lüften: Lösung für Android-Probleme gefunden</title>
 		<link>https://www.kernel-error.de/2025/01/23/magenta-smarthome-loesung-fuer-lueften-probleme-auf-android/</link>
 					<comments>https://www.kernel-error.de/2025/01/23/magenta-smarthome-loesung-fuer-lueften-probleme-auf-android/#respond</comments>
 		
@@ -947,7 +947,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 
 
 
-<p>Vielleicht rettet diese Info ja jemanden vor unnötigem Aufwand <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Laut Support soll das Problem mit einem zukünftigen Update behoben werden.</p>
+<p>Vielleicht rettet diese Info ja jemanden vor unnötigem Aufwand <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Laut Support soll das Problem mit einem zukünftigen Update behoben werden.</p>
 
 
 
@@ -960,7 +960,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 		
 			</item>
 		<item>
-		<title>GeoGuessr im Cyber-Sicherheitskontext: Wie IP-Kameras zum Risiko werden können</title>
+		<title>IP-Kameras als Sicherheitsrisiko: GeoGuessr und Datenschutz im Fokus​</title>
 		<link>https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/</link>
 					<comments>https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/#comments</comments>
 		
@@ -1083,7 +1083,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 
 
 
-<p>Wenn du das also gerade liest, weil ich dich darauf hingewiesen habe, weißt du jetzt, warum <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Wenn du das also gerade liest, weil ich dich darauf hingewiesen habe, weißt du jetzt, warum <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -1100,7 +1100,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 		
 			</item>
 		<item>
-		<title>Milchkühlschrank selber bauen?: Warum Reparieren sich lohnt !</title>
+		<title>Milchkühlschrank: Mein DIY-Projekt mit Reparatur-Tipp</title>
 		<link>https://www.kernel-error.de/2024/12/30/milchkuehlschrank-selber-bauen-mein-diy-projekt-und-warum-reparieren-sich-lohnt/</link>
 					<comments>https://www.kernel-error.de/2024/12/30/milchkuehlschrank-selber-bauen-mein-diy-projekt-und-warum-reparieren-sich-lohnt/#comments</comments>
 		
@@ -1222,7 +1222,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 		
 			</item>
 		<item>
-		<title>Dual Boot mit Linux und Windows: BitLocker für die Systemplatte auf Passwort umstellen</title>
+		<title>BitLocker im Dual-Boot: Systemplatte auf Passwortschutz umstellen​</title>
 		<link>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/</link>
 					<comments>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/#respond</comments>
 		
@@ -1253,7 +1253,7 @@ Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kun
 
 
 
-<p>Nun fragt mich mein BitLocker bei jedem Start der Betriebssystemfestplatte nach dem BitLocker-Wiederherstellungsschlüssel, wenn ich vorher in meinem Linux war. Da zuckt so eine Erinnerung durch mein Hirn: Das gleiche hatte ich schon mal, am gleichen Rechner. Wie hatte ich das damals gelöst? Ich habe nichts darüber geschrieben, also ist es einfach weg. Diesen Fehler mache ich nicht noch mal. Also liest du gerade etwas darüber. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f604.png" alt="😄" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Nun fragt mich mein BitLocker bei jedem Start der Betriebssystemfestplatte nach dem BitLocker-Wiederherstellungsschlüssel, wenn ich vorher in meinem Linux war. Da zuckt so eine Erinnerung durch mein Hirn: Das gleiche hatte ich schon mal, am gleichen Rechner. Wie hatte ich das damals gelöst? Ich habe nichts darüber geschrieben, also ist es einfach weg. Diesen Fehler mache ich nicht noch mal. Also liest du gerade etwas darüber. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f604.png" alt="😄" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -1494,7 +1494,11 @@ Volume "C:" [System]
 
 
 
-<p>Fragen? Dann fragen <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Fragen? Dann fragen <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/feed/</wfw:commentRss>
@@ -1503,7 +1507,7 @@ Volume "C:" [System]
 		
 			</item>
 		<item>
-		<title>Lötdampfabsaugung aus Resten: DIY-Projekt für Bastler</title>
+		<title>Lötdampfabsaugung selber bauen: DIY-Projekt mit 3D-Druck und Restteilen​</title>
 		<link>https://www.kernel-error.de/2024/11/09/loetdampfabsaugung-aus-resten/</link>
 					<comments>https://www.kernel-error.de/2024/11/09/loetdampfabsaugung-aus-resten/#respond</comments>
 		
@@ -1570,7 +1574,7 @@ Volume "C:" [System]
 		
 			</item>
 		<item>
-		<title>VueScan: Die beste Scannersoftware für vielseitige und alte Scanner</title>
+		<title>VueScan: Beste Scannersoftware für alte und vielseitige Scanner​</title>
 		<link>https://www.kernel-error.de/2024/10/29/empfehlung-der-scannersoftware-vuescan/</link>
 					<comments>https://www.kernel-error.de/2024/10/29/empfehlung-der-scannersoftware-vuescan/#respond</comments>
 		
@@ -1611,7 +1615,7 @@ Volume "C:" [System]
 
 
 
-<p>Klar, mir war bereits aufgefallen, dass <a href="https://www.hamrick.com/">VueScan</a> sehr häufig und regelmäßig Updates erhält, aber dass der Entwickler so engagiert dahintersteht, beeindruckt mich wirklich. Das gibt mir ein gutes Gefühl. Die Software ist klasse, der Preis ist in Ordnung (ich habe die Professional-Version), und der Support sowie die Reaktionszeit sind erstklassig. Außerdem unterstützen sie gefühlt jeden Scanner auf diesem Planeten. Und ja, die Software gibt es natürlich auch für Windows und Mac. <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Klar, mir war bereits aufgefallen, dass <a href="https://www.hamrick.com/">VueScan</a> sehr häufig und regelmäßig Updates erhält, aber dass der Entwickler so engagiert dahintersteht, beeindruckt mich wirklich. Das gibt mir ein gutes Gefühl. Die Software ist klasse, der Preis ist in Ordnung (ich habe die Professional-Version), und der Support sowie die Reaktionszeit sind erstklassig. Außerdem unterstützen sie gefühlt jeden Scanner auf diesem Planeten. Und ja, die Software gibt es natürlich auch für Windows und Mac. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 

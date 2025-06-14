@@ -5,9 +5,188 @@
     <description>Khalid is a product designer, traveler, respected community member, and open source contributor.</description>
     <link>https://khalidabuhakmeh.com/</link>
     <atom:link href="https://khalidabuhakmeh.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Mar 2025 15:01:54 +0000</pubDate>
-    <lastBuildDate>Sun, 16 Mar 2025 15:01:54 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Jun 2025 15:01:19 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Jun 2025 15:01:19 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Server-Sent Events in ASP.NET Core and .NET 10</title>
+        <description>&lt;p&gt;Like many .NET developers, I’m starting to look at the features coming in .NET 10, C# 14, and specifically ASP.NET Core. To my surprise, ASP.NET Core Minimal APIs now support Server-Sent Events (SSE). For folks who don’t know what Server-Sent Events are, they are a unidirectional channel from the server to a client where a client can subscribe to events. SSE is handy for building live news feeds, stock ticker applications, or any system that has real-time information.&lt;/p&gt;
+
+&lt;p&gt;Inevitably, folks will ask, what’s the difference between SSE and SignalR? The difference is that SSE is lighter than WebSockets, and you can implement an SSE solution using the HTTP protocol. Whereas WebSockets, SignalR’s default operating mode, is a different protocol entirely. WebSockets are great, but the bidirectional communication between server and client adds additional costs that are typically unnecessary for the systems I mentioned previously.&lt;/p&gt;
+
+&lt;p&gt;In this post, I’ll show you how to implement a straightforward SSE example using ASP.NET Core Minimal APIs, a background service, and some basic JavaScript.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;the-anatomy-of-a-sse-endpoint&quot;&gt;The Anatomy of a SSE Endpoint&lt;/h2&gt;
+
+&lt;p&gt;Starting in .NET 10, you can now use the &lt;code&gt;TypedResults&lt;/code&gt; class to return a &lt;code&gt;ServerSentEventsResult&lt;/code&gt;, which takes an &lt;code&gt;IAsyncEnumerable&amp;lt;&amp;gt;&lt;/code&gt; instance and an event type.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSingleton&amp;lt;FoodService&amp;gt;();
+builder.Services.AddHostedService&amp;lt;FoodServiceWorker&amp;gt;();
+
+var app = builder.Build();
+app.UseDefaultFiles().UseStaticFiles();
+
+app.MapGet(&quot;/orders&quot;, (FoodService foods, CancellationToken token) =&amp;gt;
+    TypedResults.ServerSentEvents(
+        foods.GetCurrent(token),
+        eventType: &quot;order&quot;)
+);
+
+app.Run();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this example code, the &lt;code&gt;foods.GetCurrent&lt;/code&gt; method call returns an &lt;code&gt;IAsyncEnumerable&lt;/code&gt; of food-based emojis. The cancellation token allows the client to unsubscribe, stopping the enumeration and server-side computation.&lt;/p&gt;
+
+&lt;p&gt;That’s all you need; let’s see our &lt;code&gt;IAsyncEnumerable&lt;/code&gt; implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementing-an-iasyncenumerable-food-service&quot;&gt;Implementing an IAsyncEnumerable Food Service&lt;/h2&gt;
+
+&lt;p&gt;While implementing an &lt;code&gt;IAsyncEnumerable&lt;/code&gt; is straightforward, I wanted to write an implementation that synced all subscribers to a single source of truth. I accomplish this task in two classes: &lt;code&gt;FoodService&lt;/code&gt; and &lt;code&gt;FoodServiceWorker&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;FoodService&lt;/code&gt; implements an &lt;code&gt;INotifyPropertyChanged&lt;/code&gt; and allows all subscribers to sync to get a single food item’s &lt;code&gt;Current&lt;/code&gt; value.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class FoodService : INotifyPropertyChanged
+{
+    public FoodService()
+    {
+        Current = Foods[Random.Shared.Next(Foods.Length)];
+    }
+
+    public event PropertyChangedEventHandler? PropertyChanged;
+    private static readonly string[] Foods = [&quot;🍔&quot;, &quot;🍟&quot;, &quot;🥤&quot;, &quot;🍤&quot;, &quot;🍕&quot;, &quot;🌮&quot;, &quot;🥙&quot;];
+
+    private string Current
+    {
+        get;
+        set
+        {
+            field = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public async IAsyncEnumerable&amp;lt;string&amp;gt; GetCurrent(
+        [EnumeratorCancellation] CancellationToken ct)
+    {
+        while (ct is not { IsCancellationRequested: true })
+        {
+            yield return Current;
+            var tcs = new TaskCompletionSource();
+            PropertyChangedEventHandler handler = (_, _) =&amp;gt; tcs.SetResult();
+            PropertyChanged += handler;
+            try
+            {
+                await tcs.Task.WaitAsync(ct);
+            }
+            finally
+            {
+                PropertyChanged -= handler;
+            }
+        }
+    }
+
+    public void Set()
+    {
+        Current = Foods[Random.Shared.Next(Foods.Length)];
+    }
+
+    protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, I need a background service that updates the food choices at a timed interval.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;public class FoodServiceWorker(FoodService foodService)
+    : BackgroundService
+{
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            foodService.Set();
+            await Task.Delay(1000, stoppingToken);
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, let’s write the HTML subscribing to the SSE endpoint defined in my simple sample.&lt;/p&gt;
+
+&lt;h2 id=&quot;subscribing-to-sse-using-javascript&quot;&gt;Subscribing to SSE using JavaScript&lt;/h2&gt;
+
+&lt;p&gt;In a new &lt;code&gt;index.html&lt;/code&gt; file in &lt;code&gt;wwwroot&lt;/code&gt;, I’ll need to create a new EventSource object, listen for my &lt;code&gt;order&lt;/code&gt; events to come through, and handle them appropriately.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+    &amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;style&amp;gt;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+&amp;lt;/style&amp;gt;
+&amp;lt;body&amp;gt;
+
+&amp;lt;h1&amp;gt;Khalid&apos;s Fast-Food Fair&amp;lt;/h1&amp;gt;
+&amp;lt;ul id=&quot;orders&quot;&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;script&amp;gt;
+    const eventSource = new EventSource(&apos;/orders&apos;);
+    const angelsList = document.getElementById(&apos;orders&apos;);
+
+    eventSource.addEventListener(&apos;order&apos;, event =&amp;gt; {
+        const li = document.createElement(&apos;li&apos;);
+        li.textContent = event.data;
+        angelsList.appendChild(li);
+    });
+
+    eventSource.onerror = error =&amp;gt; {
+        console.error(&apos;EventSource failed:&apos;, error);
+        eventSource.close();
+    };
+&amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It’s that simple. When the browser loads the page, we’ll immediately subscribe to the SSE endpoint and start receiving food emojis. If you open two pages, you’ll see the emojis synced between the pages.&lt;/p&gt;
+
+&lt;p&gt;Try this quick sample, and let me know if you have any questions. Cheers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+        <link>https://khalidabuhakmeh.com/server-sent-events-in-aspnet-core-and-dotnet-10</link>
+        <guid isPermaLink="true">https://khalidabuhakmeh.com/server-sent-events-in-aspnet-core-and-dotnet-10</guid>
+        
+        <category>dotnet,</category>
+        
+        <category>aspnet</category>
+        
+        
+      </item>
     
       <item>
         <title>Generic C# Methods with Enum Constraints for .NET</title>
@@ -17989,147 +18168,6 @@ image.Draw().Save(&quot;result.png&quot;, ImageFormat.Png);
         <guid isPermaLink="true">https://khalidabuhakmeh.com/programming-svgs-with-csharp-dotnet</guid>
         
         <category>dotnet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Multiple File Drag and Drop Upload with ASP.NET Core</title>
-        <description>&lt;p&gt;I previously wrote about a few posts about file uploads with ASP.NET Core, but there’s always been a web component that provides a much more excellent experience. The multiple-file drag-and-drop component allows you to upload many files in one web request because nobody has time to upload files one at a time. Single file uploads are tedious and a waste of time when you have hundreds of files and a life to live.&lt;/p&gt;
-
-&lt;p&gt;This post will look at the steps required to allow users to upload multiple files using a drag-and-drop HTML element. You’ll likely be surprised by how simple this approach is. Let’s get started.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;the-input-file-html-element&quot;&gt;The Input File HTML Element&lt;/h2&gt;
-
-&lt;p&gt;All user-provided values in a web application depend on the &lt;code&gt;input&lt;/code&gt; HTML element. The &lt;code&gt;input&lt;/code&gt; tag has a &lt;code&gt;type&lt;/code&gt; attribute that has grown to have many choices. The one you’re interested in is the type of “file”, which allows you to send files to a remote server. Luckily for you, the HTML specification allows a file input to have multiple files selected and submitted with a form post. &lt;strong&gt;An HTML file input already supports multiple files and allows you to drag and drop files onto the input itself.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;So, you can stop reading now, right? Well, not quite. If you’ve seen the file input element styling, you know it’s a tiny target to drag files over and into it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_986/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/initial-file-upload-input.png 986w&quot; sizes=&quot;100vw&quot; alt=&quot;file upload input on HTML page&quot; loading=&quot;lazy&quot; width=&quot;986&quot; height=&quot;362&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Even when successfully dragged into the element, you’ll get a vague “3 files” display text. An unclear display text isn’t a great user experience. So you want something better right?&lt;/p&gt;
-
-&lt;h2 id=&quot;css-html-and-javascript-for-maximum-droppage&quot;&gt;CSS, HTML, and JavaScript For Maximum Droppage&lt;/h2&gt;
-
-&lt;p&gt;The first goal is to think about the user experience you want to provide with the component and take advantage of the inherent behavior of the input element. So, first, you’ll create a container and stretch the input element inside that parent, making it the topmost input and invisible.
-Think of the input element as a transparent sheet of glass on a priceless painting. The goal will be to create an input element similar to the following.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_1200/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 1200w&quot; sizes=&quot;100vw&quot; alt=&quot;final upgraded multiple file input element&quot; loading=&quot;lazy&quot; width=&quot;1226&quot; height=&quot;788&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m no CSS expert, so have mercy on my styling choices. But before we see some CSS, we need to structure the HTML form.&lt;/p&gt;
-
-&lt;p&gt;The following HTML uses ASP.NET Core Razor syntax, and I’m also using Bootstrap for some elements. Please feel free to adjust the example for your usage.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;files-container&quot;&amp;gt;
-    &amp;lt;form asp-page=&quot;Index&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&amp;gt;
-        &amp;lt;div class=&quot;upload&quot;&amp;gt;
-            &amp;lt;label asp-for=&quot;Uploads&quot;&amp;gt;&amp;lt;/label&amp;gt;
-            &amp;lt;input asp-for=&quot;Uploads&quot; 
-                   class=&quot;form-control&quot; 
-                   onchange=&quot;displayNames(this, &apos;names&apos;)&quot;/&amp;gt;
-            &amp;lt;ul id=&quot;names&quot; class=&quot;d-flex justify-content-start flex-wrap&quot;&amp;gt;&amp;lt;/ul&amp;gt;
-        &amp;lt;/div&amp;gt;
-        &amp;lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&amp;gt;Upload&amp;lt;/button&amp;gt;
-    &amp;lt;/form&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Our next step is to add some CSS to our input element. The most important part of the styling is the usage of &lt;code&gt;relative&lt;/code&gt; and &lt;code&gt;absolute&lt;/code&gt;. The values allow you to expand the size of the input element to its parent element. Additionally, setting the &lt;code&gt;opacity&lt;/code&gt; to &lt;code&gt;0&lt;/code&gt; of our input element means it still participates in the user experience but isn’t seen by the user.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;.upload {
-    position: relative;
-    display: block;
-    border: 1px solid black;
-    background-color: #ecedee;
-    padding: 3em;
-    margin: 1em auto;
-    border-radius: 4px;         
-}
-.upload label {
-    border-bottom:  1px solid #ccc;
-    padding: 1em;
-    text-align: center;
-    font-weight: bold;
-    font-size:  1.3em;
-}
-.upload:hover {
-    background-color: #86b7fe;
-}
-.upload input {
-    position: absolute;   
-    opacity: 0;       
-    top: 0;
-    left:  0;
-    width: 100%;
-    height: 100%;  
-    z-index: 1;      
-    padding: 0;                
-}
-#names li {
-    margin: 1em;
-}     
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You may have also noticed the &lt;code&gt;names&lt;/code&gt; element in our upload container. You’ll need to write some JavaScript to read the input files and update the contents with the file names.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
-function displayNames(input, target) {
-    const output = document.getElementById(target);
-    output.innerHTML = &apos;&apos;;
-    const files = input.files        
-    for (let i = 0; i &amp;lt; files.length; i++) {
-      let file = files.item(i)
-      let el = document.createElement(&apos;li&apos;);
-      el.innerText = file.name;
-      output.appendChild(el);
-    }        
-}
-&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As mentioned before, feel free to modify the behavior and styling of this user experience to meet your needs.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-aspnet-core-file-upload-endpoint&quot;&gt;The ASP.NET Core File Upload Endpoint&lt;/h2&gt;
-
-&lt;p&gt;Similar to what you might expect with a single file upload, we need a property to bind the user input. In this sample, I’m using Razor Pages, but this would work for MVC and potentially with future versions of Minimal API endpoints. You’ll need to add a collection of &lt;code&gt;IFormFile&lt;/code&gt; types, and ASP.NET Core model binding will handle it for you. &lt;strong&gt;Note, remember to set the &lt;code&gt;enctype&lt;/code&gt; on your form to &lt;code&gt;multipart/form-data&lt;/code&gt;, or you’ll get not files submitted.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-csharp&quot;&gt;using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace WebApplication2.Pages;
-
-public class IndexModel : PageModel
-{
-    private readonly ILogger&amp;lt;IndexModel&amp;gt; _logger;
-
-    [BindProperty, Display(Name = &quot;Choose or Drag Files Here&quot;)]
-    public List&amp;lt;IFormFile&amp;gt; Uploads { get; set; } = new();
-
-    public IndexModel(ILogger&amp;lt;IndexModel&amp;gt; logger)
-    {
-        _logger = logger;
-    }
-
-    public void OnGet()
-    {
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There you have it! A multiple-file upload component with just HTML, CSS, and some optional JavaScript. As a reminder, here’s what our final output looks like.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_800/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png&quot; srcset=&quot;https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_320/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 320w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_540/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 540w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_760/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 760w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_980/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 980w, https://res.cloudinary.com/abuhakmeh/image/fetch/c_limit,f_auto,q_auto,w_1200/https://khalidabuhakmeh.com/assets/images/posts/multiple-file-upload-aspnetcore/file-upload-final.png 1200w&quot; sizes=&quot;100vw&quot; alt=&quot;final upgraded multiple file input element&quot; loading=&quot;lazy&quot; width=&quot;1226&quot; height=&quot;788&quot; crossorigin=&quot;anonymous&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoyed this blog post and now have a working component to be used in your ASP.NET Core applications. Play around with the element, style it differently, and even refactor it into a reusable Razor component. As always, thank you for reading and sharing my posts.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-        <link>https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core</link>
-        <guid isPermaLink="true">https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core</guid>
-        
-        <category>aspnet</category>
         
         
       </item>

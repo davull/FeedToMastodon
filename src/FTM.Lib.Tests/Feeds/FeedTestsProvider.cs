@@ -62,12 +62,8 @@ public static class FeedTestsProvider
             "technikblog.ch.xml",
             "teslarati.com.xml",
             "thereformedprogrammer.net.xml",
-            "visualstudiomagazine.com.xml",
             "WDR 5 Zeitzeichen.xml",
-            "WindowsPro.xml",
-            "Yet another developer blog.xml",
-            "JLMelenchon-nitter.privacydev.net.xml",
-            "EUDelegationUA-nitter.privacydev.net.xml"
+            "WindowsPro.xml"
         };
 
         return GetFeedContentTestCases(rssFeeds);
@@ -161,7 +157,6 @@ public static class FeedTestsProvider
             { "nextmove", ["[…]"] },
             { "Elektroauto-News.net", ["\nDer Beitrag "] },
             { "Drive Tesla", ["[…]"] },
-            { "Visual Studio Blog", ["[…]"] },
             { "DER Persönlichkeits-Blog", ["[…]"] },
             { "Technikblog", ["\nDer Beitrag", "[…]"] },
             { "The Reformed Programmer", ["…"] },
@@ -204,7 +199,6 @@ public static class FeedTestsProvider
             ("WindowsPro", "http://feeds.feedburner.com/WindowsPro"),
             ("kernel-error.de", "https://www.kernel-error.de/kernel-error-blog?format=feed&amp;type=rss"),
             ("stadt-bremerhaven.de", "http://feeds2.feedburner.com/stadt-bremerhaven/dqXM"),
-            ("visualstudiomagazine.com", "https://visualstudiomagazine.com/rss-feeds/news.aspx"),
             ("stonewars.de", "https://stonewars.de/feed"),
             ("ploeh.dk", "https://blog.ploeh.dk/rss"),
             ("cleancoder.com", "https://blog.cleancoder.com/atom.xml"),
@@ -235,10 +229,7 @@ public static class FeedTestsProvider
             ("businessinsider.de", "https://www.businessinsider.de/feed/businessinsider-alle-artikel"),
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
-            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
-            ("JLMelenchon-nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss"),
-            ("EUDelegationUA-nitter.privacydev.net", "https://nitter.privacydev.net/EUDelegationUA/rss"),
-            ("Europarl_PT-nitter.privacydev.net", "https://nitter.privacydev.net/Europarl_PT/rss")
+            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed")
         };
 
         return feeds;

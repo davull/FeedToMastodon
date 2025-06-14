@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7.2</generator>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
 	<item>
 		<title>A detailed look at EF Core’s JSON Columns feature</title>
 		<link>https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/</link>
@@ -937,7 +937,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.thereformedprogrammer.net/how-to-update-a-nuget-library-once-the-author-isnt-available/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 			</item>
@@ -3298,7 +3298,7 @@ public void TestStubDefaultLocalizer()
 
 
 
-<p>These three manual steps are tedious and error prone. It enough to make me improve my unit test coverage <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+<p>These three manual steps are tedious and error prone. It enough to make me improve my unit test coverage <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
 
 
 

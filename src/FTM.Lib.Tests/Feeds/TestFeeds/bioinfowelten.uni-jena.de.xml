@@ -5,9 +5,6 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	
-	xmlns:georss="http://www.georss.org/georss"
-	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	>
 
 <channel>
@@ -21,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.14</generator>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
 
 <image>
-	<url>https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/10/cropped-favicon.png?fit=32%2C32</url>
+	<url>https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/10/cropped-favicon.png?fit=32%2C32</url>
 	<title>BioinfoWelten</title>
 	<link>http://bioinfowelten.uni-jena.de</link>
 	<width>32</width>
@@ -65,11 +62,12 @@
 
 
 
-<h4><strong>Das nötige Hintergrundwissen</strong></h4>
+<h4 class="wp-block-heading"><strong>Das nötige Hintergrundwissen</strong></h4>
 
 
 
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png"><img data-attachment-id="848" data-permalink="http://bioinfowelten.uni-jena.de/2016/05/18/omeomics-die-allumfassende-wissenschaft/omeomics/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=2744%2C1939" data-orig-size="2744,1939" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Vom Gen (Bauplan) zum Protein (Mashine)" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=300%2C212" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=1024%2C724" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=399%2C282" alt="" class="wp-image-848" width="399" height="282" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=1024%2C724 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=300%2C212 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=768%2C543 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?w=2000 2000w" sizes="(max-width: 399px) 100vw, 399px" data-recalc-dims="1" /></a><figcaption>Vom Gen zum Protein</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png"><img data-recalc-dims="1" fetchpriority="high" decoding="async" data-attachment-id="848" data-permalink="http://bioinfowelten.uni-jena.de/2016/05/18/omeomics-die-allumfassende-wissenschaft/omeomics/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=2744%2C1939" data-orig-size="2744,1939" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Vom Gen (Bauplan) zum Protein (Mashine)" data-image-description="" data-image-caption="&lt;p&gt;Vom Gen (Bauplan) zum Protein (Maschine)&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=300%2C212" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?fit=1024%2C724" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=399%2C282" alt="" class="wp-image-848" width="399" height="282" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=1024%2C724 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=300%2C212 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?resize=768%2C543 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/omeomics.png?w=2000 2000w" sizes="(max-width: 399px) 100vw, 399px" /></a><figcaption>Vom Gen zum Protein</figcaption></figure></div>
 
 
 
@@ -77,11 +75,11 @@
 
 
 
-<ul><li>DNA/RNA sind Kettenmoleküle aus Nukleotiden.</li><li>Diese Nukleotide stellen wir als die Zeichen A,C,G und T (in der DNA) bzw U (in der RNA) dar.</li><li>Proteine sind Kettenmoleküle aus Aminosäuren.</li><li>Es gibt 20 verschiedene Aminosäuren.</li><li>Jeweils 3 Nukleotide (zusammen als Codon bezeichnet) werden in eine Aminosäure übersetzt.</li><li>Das sind 4<sup>3</sup> = 64 mögliche Codons (und damit mehr als 20 verschiedene Aminosäuren).</li><li>Das heißt, es gibt für fast alle der Aminosäuren mehrere verschiedene Codierungen.</li></ul>
+<ul class="wp-block-list"><li>DNA/RNA sind Kettenmoleküle aus Nukleotiden.</li><li>Diese Nukleotide stellen wir als die Zeichen A,C,G und T (in der DNA) bzw U (in der RNA) dar.</li><li>Proteine sind Kettenmoleküle aus Aminosäuren.</li><li>Es gibt 20 verschiedene Aminosäuren.</li><li>Jeweils 3 Nukleotide (zusammen als Codon bezeichnet) werden in eine Aminosäure übersetzt.</li><li>Das sind 4<sup>3</sup> = 64 mögliche Codons (und damit mehr als 20 verschiedene Aminosäuren).</li><li>Das heißt, es gibt für fast alle der Aminosäuren mehrere verschiedene Codierungen.</li></ul>
 
 
 
-<h4><strong>Die Idee hinter mRNA als Impfstoff</strong></h4>
+<h4 class="wp-block-heading"><strong>Die Idee hinter mRNA als Impfstoff</strong></h4>
 
 
 
@@ -93,7 +91,7 @@
 
 
 
-<h4><strong>Ein kurzer Exkurs in die Immunabwehr</strong></h4>
+<h4 class="wp-block-heading"><strong>Ein kurzer Exkurs in die Immunabwehr</strong></h4>
 
 
 
@@ -109,11 +107,12 @@
 
 
 
-<h4><strong>Der </strong><strong>SARS-CoV-2 Impfstoff</strong></h4>
+<h4 class="wp-block-heading"><strong>Der </strong><strong>SARS-CoV-2 Impfstoff</strong></h4>
 
 
 
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg"><img data-attachment-id="1709" data-permalink="http://bioinfowelten.uni-jena.de/3d_medical_animation_coronavirus_structure/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=1920%2C1080" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="3D_medical_animation_coronavirus_structure" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=300%2C169" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=1024%2C576" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=386%2C217" alt="" class="wp-image-1709" width="386" height="217" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=1024%2C576 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=300%2C169 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=768%2C432 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=1536%2C864 1536w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?w=1920 1920w" sizes="(max-width: 386px) 100vw, 386px" data-recalc-dims="1" /></a><figcaption>SARS-CoV-2 ist gespickt mit Spike-Proteinen (rosa) die vom menschlichen Immunsystem als Antigene erkannt werden. SARS-CoV-2 nutzt diese Proteine, um an menschliche Zellen anzudocken und sein Erbgut ins Zellinnere zu entlassen. &nbsp;<a href="https://commons.wikimedia.org/wiki/File:3D_medical_animation_coronavirus_structure.jpg">(Creative Commons Attribution-Share Alike 4.0 International; by Manu5)</a></figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg"><img data-recalc-dims="1" decoding="async" data-attachment-id="1709" data-permalink="http://bioinfowelten.uni-jena.de/3d_medical_animation_coronavirus_structure/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=1920%2C1080" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="3D_medical_animation_coronavirus_structure" data-image-description="" data-image-caption="&lt;p&gt;Struktur eines Coronavirus: SARS-CoV-2 ist gespickt mit Spike-Proteinen (rosa) die vom menschlichen Immunsystem als Antigene erkannt werden. SARS-CoV-2 nutzt diese Proteine, um an menschliche Zellen anzudocken und sein Erbgut ins Zellinnere zu entlassen.  (Creative Commons Attribution-Share Alike 4.0 International; by Manu5)&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=300%2C169" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?fit=1024%2C576" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=386%2C217" alt="" class="wp-image-1709" width="386" height="217" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=1024%2C576 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=300%2C169 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=768%2C432 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?resize=1536%2C864 1536w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2020/12/3D_medical_animation_coronavirus_structure.jpg?w=1920 1920w" sizes="(max-width: 386px) 100vw, 386px" /></a><figcaption>SARS-CoV-2 ist gespickt mit Spike-Proteinen (rosa) die vom menschlichen Immunsystem als Antigene erkannt werden. SARS-CoV-2 nutzt diese Proteine, um an menschliche Zellen anzudocken und sein Erbgut ins Zellinnere zu entlassen. &nbsp;<a href="https://commons.wikimedia.org/wiki/File:3D_medical_animation_coronavirus_structure.jpg">(Creative Commons Attribution-Share Alike 4.0 International; by Manu5)</a></figcaption></figure></div>
 
 
 
@@ -121,7 +120,7 @@
 
 
 
-<h4><strong>Ein Blick in den genetischen Code des Impfstoffes</strong></h4>
+<h4 class="wp-block-heading"><strong>Ein Blick in den genetischen Code des Impfstoffes</strong></h4>
 
 
 
@@ -177,7 +176,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png"><img data-attachment-id="1714" data-permalink="http://bioinfowelten.uni-jena.de/signalpeptid/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=4226%2C954" data-orig-size="4226,954" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="signalpeptid" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=300%2C68" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=1024%2C231" loading="lazy" width="1024" height="231" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1024%2C231" alt="" class="wp-image-1714" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1024%2C231 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=300%2C68 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=768%2C173 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1536%2C347 1536w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=2048%2C462 2048w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?w=3000 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png"><img data-recalc-dims="1" decoding="async" width="1024" height="231" data-attachment-id="1714" data-permalink="http://bioinfowelten.uni-jena.de/signalpeptid/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=4226%2C954" data-orig-size="4226,954" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="signalpeptid" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=300%2C68" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?fit=1024%2C231" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1024%2C231" alt="" class="wp-image-1714" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1024%2C231 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=300%2C68 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=768%2C173 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=1536%2C347 1536w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?resize=2048%2C462 2048w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/signalpeptid.png?w=3000 3000w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
 
 
 
@@ -185,7 +184,7 @@
 
 
 
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png"><img data-attachment-id="851" data-permalink="http://bioinfowelten.uni-jena.de/2016/05/18/omeomics-die-allumfassende-wissenschaft/genetischer-code/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=1924%2C1903" data-orig-size="1924,1903" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="genetischer-Code" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=300%2C297" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=1024%2C1013" loading="lazy" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=381%2C377" alt="" class="wp-image-851" width="381" height="377" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=1024%2C1013 1024w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=300%2C297 300w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=768%2C760 768w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=50%2C50 50w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?w=1924 1924w" sizes="(max-width: 381px) 100vw, 381px" data-recalc-dims="1" /></a><figcaption>Genetischer Code: Jeweils drei Bausteine der RNA lassen sich in eine Aminosäure übersetzen.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="851" data-permalink="http://bioinfowelten.uni-jena.de/2016/05/18/omeomics-die-allumfassende-wissenschaft/genetischer-code/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=1924%2C1903" data-orig-size="1924,1903" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="genetischer-Code" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=300%2C297" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?fit=1024%2C1013" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=381%2C377" alt="" class="wp-image-851" width="381" height="377" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=1024%2C1013 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=300%2C297 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=768%2C760 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?resize=50%2C50 50w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/05/genetischer-Code.png?w=1924 1924w" sizes="auto, (max-width: 381px) 100vw, 381px" /></a><figcaption>Genetischer Code: Jeweils drei Bausteine der RNA lassen sich in eine Aminosäure übersetzen.</figcaption></figure></div>
 
 
 
@@ -201,7 +200,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png"><img data-attachment-id="1722" data-permalink="http://bioinfowelten.uni-jena.de/spike/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=2480%2C1054" data-orig-size="2480,1054" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="spike" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=300%2C128" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=1024%2C435" loading="lazy" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=452%2C191" alt="" class="wp-image-1722" width="452" height="191" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=1024%2C435 1024w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=300%2C128 300w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=768%2C326 768w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=1536%2C653 1536w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=2048%2C870 2048w" sizes="(max-width: 452px) 100vw, 452px" data-recalc-dims="1" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1722" data-permalink="http://bioinfowelten.uni-jena.de/spike/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=2480%2C1054" data-orig-size="2480,1054" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="spike" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=300%2C128" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?fit=1024%2C435" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=452%2C191" alt="" class="wp-image-1722" width="452" height="191" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=1024%2C435 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=300%2C128 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=768%2C326 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=1536%2C653 1536w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2021/01/spike.png?resize=2048%2C870 2048w" sizes="auto, (max-width: 452px) 100vw, 452px" /></a></figure></div>
 
 
 
@@ -221,7 +220,7 @@
 
 
 
-<h4><strong>Von der Buchstabenkette zum Impfstoff</strong></h4>
+<h4 class="wp-block-heading"><strong>Von der Buchstabenkette zum Impfstoff</strong></h4>
 
 
 
@@ -229,7 +228,7 @@
 
 
 
-<h4><strong>Warum der mRNA Impfstoff nicht eure DNA verändern wird</strong></h4>
+<h4 class="wp-block-heading"><strong>Warum der mRNA Impfstoff nicht eure DNA verändern wird</strong></h4>
 
 
 
@@ -263,7 +262,8 @@
 
 					<description><![CDATA[<p>Zu Hause, im Büro, unterwegs, früh, mittags, abends, Espresso, Cappuccino oder Americano &#160;&#8212; Kaffee könnte ich eigentlich immer und überall trinken. Und mit dieser Liebe zum Kaffee stehe ich gewiss nicht alleine da.&#160;Kaffee ist&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/10/24/eine-hommage-an-mein-liebstes-heissgetraenk/">Eine Hommage an mein liebstes Heißgetränk</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<figure class="wp-block-image"><img data-attachment-id="1694" data-permalink="http://bioinfowelten.uni-jena.de/2019/10/24/eine-hommage-an-mein-liebstes-heissgetraenk/coffee-4334647_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="coffee-4334647_1920" data-image-description="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=1024%2C683" loading="lazy" width="1024" height="683" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=1024%2C683" alt="" class="wp-image-1694" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?w=1920 1920w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><figcaption>(Photo: pixabay &#8212; sonerkose | Freie kommerzielle Nutzung)</figcaption></figure>
+										<content:encoded><![CDATA[<figure class="wp-block-image"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="1694" data-permalink="http://bioinfowelten.uni-jena.de/2019/10/24/eine-hommage-an-mein-liebstes-heissgetraenk/coffee-4334647_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="coffee-4334647_1920" data-image-description="" data-image-caption="&lt;p&gt;(Photo: pixabay &#8212; sonerkose | Freie kommerzielle Nutzung)&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?fit=1024%2C683" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=1024%2C683" alt="" class="wp-image-1694" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/10/coffee-4334647_1920.jpg?w=1920 1920w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption>(Photo: pixabay &#8212; sonerkose | Freie kommerzielle Nutzung)</figcaption></figure>
 
 
 
@@ -275,7 +275,7 @@
 
 
 
-<h2>Heiß und frisch am besten</h2>
+<h2 class="wp-block-heading">Heiß und frisch am besten</h2>
 
 
 
@@ -291,7 +291,7 @@
 
 
 
-<h2>Gut fürs Herz und die Gesundheit</h2>
+<h2 class="wp-block-heading">Gut fürs Herz und die Gesundheit</h2>
 
 
 
@@ -307,11 +307,12 @@
 
 
 
-<h2>Jungbrunnen</h2>
+<h2 class="wp-block-heading">Jungbrunnen</h2>
 
 
 
-<div class="wp-block-image"><figure class="alignright"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/cafe-569349_1920.jpg"><img data-attachment-id="365" data-permalink="http://bioinfowelten.uni-jena.de/2016/01/19/baeume-und-puzzlen-meine-promotion/fragmentierungsbaum/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=3059%2C2233" data-orig-size="3059,2233" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Fragmentierungsbaum" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=300%2C219" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=1024%2C747" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/cafe-569349_1920.jpg" alt="" class="wp-image-365" data-recalc-dims="1"/></a><figcaption>(Photo: pixabay &#8212; Free-Photos | Freie kommerzielle Nutzung)</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/cafe-569349_1920.jpg"><img data-recalc-dims="1" decoding="async" data-attachment-id="365" data-permalink="http://bioinfowelten.uni-jena.de/2016/01/19/baeume-und-puzzlen-meine-promotion/fragmentierungsbaum/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=3059%2C2233" data-orig-size="3059,2233" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Fragmentierungsbaum" data-image-description="" data-image-caption="&lt;p&gt;Ein Fragmentierungsbaum ist eine Art Diagramm, welches Schritt für Schritt den Zerfall des Moleküls in einzelne Fragmente veranschaulicht. Der Baum enthält NUR Summenformeln. Die Strukturformeln dienen nur der Veranschaulichung.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=300%2C219" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/01/Fragmentierungsbaum.png?fit=1024%2C747" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/cafe-569349_1920.jpg" alt="" class="wp-image-365"/></a><figcaption>(Photo: pixabay &#8212; Free-Photos | Freie kommerzielle Nutzung)</figcaption></figure></div>
 
 
 
@@ -319,7 +320,7 @@
 
 
 
-<h2>Wach und glücklich</h2>
+<h2 class="wp-block-heading">Wach und glücklich</h2>
 
 
 
@@ -327,7 +328,7 @@
 
 
 
-<div class="wp-block-image"><figure class="alignright"><a href="https://i2.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/breakfast-4234067_1920.jpg"><img src="https://i2.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/breakfast-4234067_1920.jpg" alt="" class="wp-image-368" data-recalc-dims="1"/></a><figcaption>(Photo: pixabay &#8212; palacioerick | Freie kommerzielle Nutzung)</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/breakfast-4234067_1920.jpg"><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/10/breakfast-4234067_1920.jpg" alt="" class="wp-image-368"/></a><figcaption>(Photo: pixabay &#8212; palacioerick | Freie kommerzielle Nutzung)</figcaption></figure></div>
 
 
 
@@ -339,7 +340,7 @@
 
 
 
-<h2><strong>Suchtgefahr</strong></h2>
+<h2 class="wp-block-heading"><strong>Suchtgefahr</strong></h2>
 
 
 
@@ -355,7 +356,7 @@
 
 
 
-<h2>Mein Fazit</h2>
+<h2 class="wp-block-heading">Mein Fazit</h2>
 
 
 
@@ -384,7 +385,7 @@
 
 					<description><![CDATA[<p>In einem meiner letzten Beiträge habe ich euch bereits erzählt, wie verschiedene Fortschritte in der Mikrobiologie einen völlig neuen Einblick in die Welt der Viren ermöglichen. Metagenomik und hochmoderne Sequenziertechnologien werden in vielen Forschungsbereichen&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/09/24/wie-die-metagenomik-einzug-in-krankenhaeuser-haelt/">Wie die Metagenomik Einzug in Krankenhäuser hält</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1686" data-permalink="http://bioinfowelten.uni-jena.de/2019/09/24/wie-die-metagenomik-einzug-in-krankenhaeuser-haelt/medic-563423_1920/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="medic-563423_1920" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=300%2C200" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=1024%2C683" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=356%2C236" alt="" class="wp-image-1686" width="356" height="236" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=1024%2C683 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=300%2C200 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=768%2C512 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?w=1920 1920w" sizes="(max-width: 356px) 100vw, 356px" data-recalc-dims="1" /></figure></div>
+										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1686" data-permalink="http://bioinfowelten.uni-jena.de/2019/09/24/wie-die-metagenomik-einzug-in-krankenhaeuser-haelt/medic-563423_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="medic-563423_1920" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?fit=1024%2C683" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=356%2C236" alt="" class="wp-image-1686" width="356" height="236" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/medic-563423_1920.jpg?w=1920 1920w" sizes="auto, (max-width: 356px) 100vw, 356px" /></figure></div>
 
 
 
@@ -392,7 +393,7 @@
 
 
 
-<h4>Eine Krankheit — 100 verschiedene Ursachen</h4>
+<h4 class="wp-block-heading">Eine Krankheit — 100 verschiedene Ursachen</h4>
 
 
 
@@ -400,11 +401,11 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg"><img data-attachment-id="1687" data-permalink="http://bioinfowelten.uni-jena.de/2019/09/24/wie-die-metagenomik-einzug-in-krankenhaeuser-haelt/mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_noro-mrt_t2_flair_t1km_ax_-_001/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=3159%2C1431" data-orig-size="3159,1431" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001" data-image-description="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=300%2C136" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=1024%2C464" loading="lazy" width="1024" height="464" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=1024%2C464" alt="" class="wp-image-1687" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=1024%2C464 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=300%2C136 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=768%2C348 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?w=3000 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><figcaption>MRT Aufnahme einer Hirnentzündung bei einem 6-jährigen mit Norovirus (CC BY-SA 3.0 by Hellerhoff)</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="464" data-attachment-id="1687" data-permalink="http://bioinfowelten.uni-jena.de/2019/09/24/wie-die-metagenomik-einzug-in-krankenhaeuser-haelt/mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_noro-mrt_t2_flair_t1km_ax_-_001/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=3159%2C1431" data-orig-size="3159,1431" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=300%2C136" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?fit=1024%2C464" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=1024%2C464" alt="" class="wp-image-1687" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=1024%2C464 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=300%2C136 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?resize=768%2C348 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/09/Mild_encephalitis_with_reversible_lesion_in_the_splenium_6jm_Noro-MRT_T2_FLAIR_T1KM_ax_-_001.jpg?w=3000 3000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a><figcaption>MRT Aufnahme einer Hirnentzündung bei einem 6-jährigen mit Norovirus (CC BY-SA 3.0 by Hellerhoff)</figcaption></figure></div>
 
 
 
-<h4>Diagnose von Infektionskrankheiten</h4>
+<h4 class="wp-block-heading">Diagnose von Infektionskrankheiten</h4>
 
 
 
@@ -420,7 +421,7 @@
 
 
 
-<h4>Klinik vs Forschung: Kosten und Know-How</h4>
+<h4 class="wp-block-heading">Klinik vs Forschung: Kosten und Know-How</h4>
 
 
 
@@ -436,7 +437,7 @@
 
 
 
-<h4>Nanoporen: Der Sequenzierer in der Hosentasche</h4>
+<h4 class="wp-block-heading">Nanoporen: Der Sequenzierer in der Hosentasche</h4>
 
 
 
@@ -465,7 +466,7 @@
 
 					<description><![CDATA[<p>Alan Turing gehört zweifelsohne zu den interessantesten Persönlichkeiten der Geschichte der Informatik. Er entwickelte das Konzept der Turing-Maschine, ein abstraktes Modell eines Computers, mit dem man testen kann, ob ein Problem überhaupt berechenbar (also&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/09/16/turing-mechanismen-wie-das-zebra-zu-seinen-streifen-kommt/">Turing-Mechanismen: Wie das Zebra zu seinen Streifen kommt</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><a href="https://i2.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Alan_Turing_Aged_16.jpg"><img loading="lazy" src="https://i2.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Alan_Turing_Aged_16.jpg?resize=376%2C511" alt="" class="wp-image-326" width="376" height="511" data-recalc-dims="1" /></a><figcaption>Passfoto von Alan Turing im Alter von 16 Jahren.<br>(Photo: Public Domain)</figcaption></figure></div>
+										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Alan_Turing_Aged_16.jpg"><img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/Alan_Turing_Aged_16.jpg?resize=376%2C511" alt="" class="wp-image-326" width="376" height="511"/></a><figcaption>Passfoto von Alan Turing im Alter von 16 Jahren.<br>(Photo: Public Domain)</figcaption></figure></div>
 
 
 
@@ -473,11 +474,11 @@
 
 
 
-<h2>Biologische Ästhetik</h2>
+<h2 class="wp-block-heading">Biologische Ästhetik</h2>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><a href="https://i1.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/giraffe-zebra.jpg"><img src="https://i1.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/giraffe-zebra.jpg" alt="" class="wp-image-329" data-recalc-dims="1"/></a><figcaption>(Photo: pixabay &#8212; spaway | freie kommerzielle Nutzung)</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/giraffe-zebra.jpg"><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/giraffe-zebra.jpg" alt="" class="wp-image-329"/></a><figcaption>(Photo: pixabay &#8212; spaway | freie kommerzielle Nutzung)</figcaption></figure></div>
 
 
 
@@ -485,7 +486,7 @@
 
 
 
-<h2>Wie erhält ein Haar seine Farbe?</h2>
+<h2 class="wp-block-heading">Wie erhält ein Haar seine Farbe?</h2>
 
 
 
@@ -497,11 +498,11 @@
 
 
 
-<h2>Wie kommt das Zebra zu seinen Streifen?</h2>
+<h2 class="wp-block-heading">Wie kommt das Zebra zu seinen Streifen?</h2>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/zebra-489276_1920.jpg"><img src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/zebra-489276_1920.jpg" alt="" class="wp-image-333" data-recalc-dims="1"/></a><figcaption>(Photo: pixabay &#8212; kowloon | Freie kommerzielle Nutzung)</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/zebra-489276_1920.jpg"><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/09/zebra-489276_1920.jpg" alt="" class="wp-image-333"/></a><figcaption>(Photo: pixabay &#8212; kowloon | Freie kommerzielle Nutzung)</figcaption></figure></div>
 
 
 
@@ -517,7 +518,7 @@
 
 
 
-<h2>Wozu eigentlich Streifen?</h2>
+<h2 class="wp-block-heading">Wozu eigentlich Streifen?</h2>
 
 
 
@@ -548,7 +549,7 @@
 
 
 
-<h4>Epigenetik &#8211; Die Metaebene der Genetik</h4>
+<h4 class="wp-block-heading">Epigenetik &#8211; Die Metaebene der Genetik</h4>
 
 
 
@@ -556,7 +557,8 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><img data-attachment-id="1671" data-permalink="http://bioinfowelten.uni-jena.de/genetics-156404/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=3390%2C3604" data-orig-size="3390,3604" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="genetics-156404" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=282%2C300" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=963%2C1024" loading="lazy" width="963" height="1024" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=963%2C1024" alt="" class="wp-image-1671" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=963%2C1024 963w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=282%2C300 282w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=768%2C816 768w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?w=2000 2000w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?w=3000 3000w" sizes="(max-width: 963px) 100vw, 963px" data-recalc-dims="1" /><figcaption>Von der DNA Sequenz bis zum Chromosom.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img data-recalc-dims="1" loading="lazy" decoding="async" width="963" height="1024" data-attachment-id="1671" data-permalink="http://bioinfowelten.uni-jena.de/genetics-156404/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=3390%2C3604" data-orig-size="3390,3604" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="genetics-156404" data-image-description="" data-image-caption="&lt;p&gt;Von der DNA Sequenz bis zum Chromosom.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=282%2C300" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?fit=963%2C1024" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=963%2C1024" alt="" class="wp-image-1671" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=963%2C1024 963w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=282%2C300 282w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?resize=768%2C816 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/genetics-156404.png?w=3000 3000w" sizes="auto, (max-width: 963px) 100vw, 963px" /><figcaption>Von der DNA Sequenz bis zum Chromosom.</figcaption></figure></div>
 
 
 
@@ -564,11 +566,12 @@
 
 
 
-<h4>Wir sind mehr als die Summe unserer Gene</h4>
+<h4 class="wp-block-heading">Wir sind mehr als die Summe unserer Gene</h4>
 
 
 
-<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1669" data-permalink="http://bioinfowelten.uni-jena.de/bees-1163028_1920/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="bees-1163028_1920" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=300%2C200" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=1024%2C683" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=310%2C206" alt="" class="wp-image-1669" width="310" height="206" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=1024%2C683 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=300%2C200 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=768%2C512 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?w=1920 1920w" sizes="(max-width: 310px) 100vw, 310px" data-recalc-dims="1" /><figcaption>Ob sich eine Biene zur Königin oder Arbeiterin entwickelt, wird epigenetisch über die Nahrung bestimmt.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1669" data-permalink="http://bioinfowelten.uni-jena.de/bees-1163028_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=1920%2C1280" data-orig-size="1920,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="bees-1163028_1920" data-image-description="" data-image-caption="&lt;p&gt;Ob sich eine Biene zur Königin oder Arbeiterin entwickelt, wird epigenetisch über die Nahrung bestimmt.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?fit=1024%2C683" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=310%2C206" alt="" class="wp-image-1669" width="310" height="206" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/bees-1163028_1920.jpg?w=1920 1920w" sizes="auto, (max-width: 310px) 100vw, 310px" /><figcaption>Ob sich eine Biene zur Königin oder Arbeiterin entwickelt, wird epigenetisch über die Nahrung bestimmt.</figcaption></figure></div>
 
 
 
@@ -580,7 +583,7 @@
 
 
 
-<h4>Der Einfluss des Klimas</h4>
+<h4 class="wp-block-heading">Der Einfluss des Klimas</h4>
 
 
 
@@ -592,11 +595,12 @@
 
 
 
-<h4>44 Wissenschaftler_innen schließen sich zusammen</h4>
+<h4 class="wp-block-heading">44 Wissenschaftler_innen schließen sich zusammen</h4>
 
 
 
-<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1672" data-permalink="http://bioinfowelten.uni-jena.de/strawberry-3501491_1920/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=1920%2C1318" data-orig-size="1920,1318" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;X-T10&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;200&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.004&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="strawberry-3501491_1920" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=300%2C206" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=1024%2C703" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=300%2C205" alt="" class="wp-image-1672" width="300" height="205" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=1024%2C703 1024w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=300%2C206 300w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=768%2C527 768w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?w=1920 1920w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><figcaption>Im EpiDiverse Projekt wird unter anderem die Epigenetik der Wald-Erdbeere untersucht.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1672" data-permalink="http://bioinfowelten.uni-jena.de/strawberry-3501491_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=1920%2C1318" data-orig-size="1920,1318" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;X-T10&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;200&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.004&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="strawberry-3501491_1920" data-image-description="" data-image-caption="&lt;p&gt;Im EpiDiverse Projekt wird unter anderem die Epigenetik der Wald-Erdbeere untersucht.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=300%2C206" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?fit=1024%2C703" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=300%2C205" alt="" class="wp-image-1672" width="300" height="205" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=1024%2C703 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=300%2C206 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?resize=768%2C527 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/08/strawberry-3501491_1920.jpg?w=1920 1920w" sizes="auto, (max-width: 300px) 100vw, 300px" /><figcaption>Im EpiDiverse Projekt wird unter anderem die Epigenetik der Wald-Erdbeere untersucht.</figcaption></figure></div>
 
 
 
@@ -634,7 +638,7 @@
 
 
 
-<h4>Nicht nur besonders, sondern auch besonders schwer einzuordnen</h4>
+<h4 class="wp-block-heading">Nicht nur besonders, sondern auch besonders schwer einzuordnen</h4>
 
 
 
@@ -642,11 +646,11 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/07/Haeckel_Chiroptera.jpg"><img src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/07/Haeckel_Chiroptera.jpg" alt="" class="wp-image-294" data-recalc-dims="1"/></a><figcaption>Bereits Ernst Haeckels erkannte die Schöhnheit der Fledertiere. (&#8222;Kunstformen der Natur&#8220;, 1904))</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/07/Haeckel_Chiroptera.jpg"><img data-recalc-dims="1" decoding="async" src="https://i0.wp.com/scienceblogs.de/bioinfowelten/files/2019/07/Haeckel_Chiroptera.jpg" alt="" class="wp-image-294"/></a><figcaption>Bereits Ernst Haeckels erkannte die Schöhnheit der Fledertiere. (&#8222;Kunstformen der Natur&#8220;, 1904))</figcaption></figure></div>
 
 
 
-<h4>Das hartnäckige Image des Blutsaugers</h4>
+<h4 class="wp-block-heading">Das hartnäckige Image des Blutsaugers</h4>
 
 
 
@@ -654,7 +658,7 @@
 
 
 
-<h4>Handflügel &#8212; eine einzigartige Erfindung</h4>
+<h4 class="wp-block-heading">Handflügel &#8212; eine einzigartige Erfindung</h4>
 
 
 
@@ -662,7 +666,7 @@
 
 
 
-<h4>&#8222;Blind wie eine Fledermaus&#8220;</h4>
+<h4 class="wp-block-heading">&#8222;Blind wie eine Fledermaus&#8220;</h4>
 
 
 
@@ -674,7 +678,7 @@
 
 
 
-<h4>Lang lebe das Fledertier</h4>
+<h4 class="wp-block-heading">Lang lebe das Fledertier</h4>
 
 
 
@@ -682,7 +686,7 @@
 
 
 
-<h4>Es gibt kein Entkommen</h4>
+<h4 class="wp-block-heading">Es gibt kein Entkommen</h4>
 
 
 
@@ -694,7 +698,7 @@
 
 
 
-<h4>Glück, Gesundheit und gleichgeschlechtliche Liebe</h4>
+<h4 class="wp-block-heading">Glück, Gesundheit und gleichgeschlechtliche Liebe</h4>
 
 
 
@@ -710,7 +714,7 @@
 
 
 
-<h4>Ein Quell der Viren</h4>
+<h4 class="wp-block-heading">Ein Quell der Viren</h4>
 
 
 
@@ -726,7 +730,9 @@
 
 
 
-<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="428" data-permalink="http://bioinfowelten.uni-jena.de/2016/02/16/bioinformatics-goes-viral/egyptian_fruit_bat_baby/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=800%2C534" data-orig-size="800,534" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;8&quot;,&quot;credit&quot;:&quot;Picasa&quot;,&quot;camera&quot;:&quot;Canon EOS REBEL T1i&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1312790320&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;55&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Nilflughund (Rousettus aegyptiacus)" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=300%2C200" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=800%2C534" loading="lazy" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=304%2C203" alt="" class="wp-image-428" width="304" height="203" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?w=800 800w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=300%2C200 300w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=768%2C513 768w" sizes="(max-width: 304px) 100vw, 304px" data-recalc-dims="1" /><figcaption>Der Nilflughund (Rousettus aegyptiacus) überträgt das Ebola-Virus, wird davon aber nicht (in Form von Krankheiten) beeinträchtigt.
+<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="428" data-permalink="http://bioinfowelten.uni-jena.de/2016/02/16/bioinformatics-goes-viral/egyptian_fruit_bat_baby/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=800%2C534" data-orig-size="800,534" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;8&quot;,&quot;credit&quot;:&quot;Picasa&quot;,&quot;camera&quot;:&quot;Canon EOS REBEL T1i&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1312790320&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;55&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Nilflughund (Rousettus aegyptiacus)" data-image-description="" data-image-caption="&lt;p&gt;Der Nilflughund (Rousettus aegyptiacus) überträgt das Ebola-Virus, wird davon aber nicht (in Form von Krankheiten) beeinträchtigt.&lt;br /&gt;
+(&#8222;Egyptian fruit bat baby&#8220; by Mickey Samuni-Blank &#8211; Own work. Licensed under CC BY-SA 3.0 via Commons)&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?fit=800%2C534" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=304%2C203" alt="" class="wp-image-428" width="304" height="203" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?w=800 800w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2016/02/Egyptian_fruit_bat_baby.jpeg?resize=768%2C513 768w" sizes="auto, (max-width: 304px) 100vw, 304px" /><figcaption>Der Nilflughund (Rousettus aegyptiacus) überträgt das Ebola-Virus, wird davon aber nicht (in Form von Krankheiten) beeinträchtigt.
 (&#8222;Egyptian fruit bat baby&#8220; by Mickey Samuni-Blank &#8211; Own work. Licensed under CC BY-SA 3.0 via Commons)</figcaption></figure></div>
 
 
@@ -758,7 +764,7 @@
 
 					<description><![CDATA[<p>Die menschliche Darmflora ist ein eigenes Ökosystem. Ein einziges Gramm Darminhalt beherbergt mehr Lebewesen als die Erde Menschen. Die Darmflora hat das Image der Bakterien gerettet. Dabei handelt es sich um mehr als einen&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/07/05/virale-mitbewohner-im-darm-mehr-als-durchfall-und-erbrechen/">Virale Mitbewohner im Darm: Mehr als Durchfall und Erbrechen</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1655" data-permalink="http://bioinfowelten.uni-jena.de/2019/07/05/virale-mitbewohner-im-darm-mehr-als-durchfall-und-erbrechen/darm/" data-orig-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=1280%2C1200" data-orig-size="1280,1200" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Darm" data-image-description="" data-medium-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=300%2C281" data-large-file="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=1024%2C960" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?resize=307%2C286" alt="" class="wp-image-1655" width="307" height="286" srcset="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?zoom=2&amp;resize=307%2C286 614w, https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?zoom=3&amp;resize=307%2C286 921w" sizes="(max-width: 307px) 100vw, 307px" data-recalc-dims="1" /></figure></div>
+										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1655" data-permalink="http://bioinfowelten.uni-jena.de/2019/07/05/virale-mitbewohner-im-darm-mehr-als-durchfall-und-erbrechen/darm/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=1280%2C1200" data-orig-size="1280,1200" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Darm" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=300%2C281" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?fit=1024%2C960" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/07/Darm.jpg?resize=307%2C286" alt="" class="wp-image-1655" width="307" height="286"/></figure></div>
 
 
 
@@ -770,7 +776,7 @@
 
 
 
-<h4>Darmviren: ein Imageproblem</h4>
+<h4 class="wp-block-heading">Darmviren: ein Imageproblem</h4>
 
 
 
@@ -778,7 +784,7 @@
 
 
 
-<h4>Exkurs: Metagenomik</h4>
+<h4 class="wp-block-heading">Exkurs: Metagenomik</h4>
 
 
 
@@ -790,7 +796,7 @@
 
 
 
-<h4>Zurück in den Darm</h4>
+<h4 class="wp-block-heading">Zurück in den Darm</h4>
 
 
 
@@ -798,7 +804,7 @@
 
 
 
-<h4>CrAssphage: Kein Computervirus, aber nach einer Software benannt</h4>
+<h4 class="wp-block-heading">CrAssphage: Kein Computervirus, aber nach einer Software benannt</h4>
 
 
 
@@ -810,7 +816,7 @@
 
 
 
-<h4>Alle gleich oder doch jeder einzigartig?</h4>
+<h4 class="wp-block-heading">Alle gleich oder doch jeder einzigartig?</h4>
 
 
 
@@ -822,7 +828,7 @@
 
 
 
-<h4>Vom Babydarm zum Erwachsenendarm: Stabilität über die Zeit</h4>
+<h4 class="wp-block-heading">Vom Babydarm zum Erwachsenendarm: Stabilität über die Zeit</h4>
 
 
 
@@ -838,7 +844,7 @@
 
 
 
-<h4>Bakterien vs Phagen</h4>
+<h4 class="wp-block-heading">Bakterien vs Phagen</h4>
 
 
 
@@ -846,7 +852,7 @@
 
 
 
-<h4>Warum sollte man ein mehrdimensionales Ökosystem untersuchen, indem man sich nur auf eine Dimension konzentriert?</h4>
+<h4 class="wp-block-heading">Warum sollte man ein mehrdimensionales Ökosystem untersuchen, indem man sich nur auf eine Dimension konzentriert?</h4>
 
 
 
@@ -879,7 +885,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 					<description><![CDATA[<p>Ich gehe davon aus, dass jeder von euch mindestens einen der Viren-Zombieklassiker, zum Beispiel &#8222;28 Days Later&#8220; oder &#8222;I Am Legend&#8220;, gesehen hat. Und egal wie Hollywood-like die Umsetzung dieser Filme sein mag, das&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/06/26/apokalypse-virus-hollywood-oder-realitaet/">Apokalypse-Virus: Hollywood oder Realität?</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1647" data-permalink="http://bioinfowelten.uni-jena.de/2019/06/26/apokalypse-virus-hollywood-oder-realitaet/walking-dead-1666584_1920/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=1920%2C1274" data-orig-size="1920,1274" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="walking-dead-1666584_1920" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=300%2C199" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=1024%2C679" loading="lazy" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?resize=350%2C196" alt="" class="wp-image-1647" width="350" height="196" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?zoom=2&amp;resize=350%2C196 700w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?zoom=3&amp;resize=350%2C196 1050w" sizes="(max-width: 350px) 100vw, 350px" data-recalc-dims="1" /></figure></div>
+										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1647" data-permalink="http://bioinfowelten.uni-jena.de/2019/06/26/apokalypse-virus-hollywood-oder-realitaet/walking-dead-1666584_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=1920%2C1274" data-orig-size="1920,1274" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="walking-dead-1666584_1920" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=300%2C199" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?fit=1024%2C679" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/walking-dead-1666584_1920.jpg?resize=350%2C196" alt="" class="wp-image-1647" width="350" height="196"/></figure></div>
 
 
 
@@ -891,7 +897,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Das Zeitalter der Epidemien</h4>
+<h4 class="wp-block-heading">Das Zeitalter der Epidemien</h4>
 
 
 
@@ -899,7 +905,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1649" data-permalink="http://bioinfowelten.uni-jena.de/2019/06/26/apokalypse-virus-hollywood-oder-realitaet/ebola-549471_1920/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1920%2C1440" data-orig-size="1920,1440" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ebola-549471_1920" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=300%2C225" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1024%2C768" loading="lazy" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1024%2C768" alt="" class="wp-image-1649" width="350" height="256" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?zoom=2&amp;resize=350%2C256 700w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?zoom=3&amp;resize=350%2C256 1050w" sizes="(max-width: 350px) 100vw, 350px" /></figure></div>
+<div class="wp-block-image"><figure class="alignright is-resized"><img loading="lazy" decoding="async" data-attachment-id="1649" data-permalink="http://bioinfowelten.uni-jena.de/2019/06/26/apokalypse-virus-hollywood-oder-realitaet/ebola-549471_1920/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1920%2C1440" data-orig-size="1920,1440" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ebola-549471_1920" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=300%2C225" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1024%2C768" src="https://i1.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/ebola-549471_1920.jpg?fit=1024%2C768" alt="" class="wp-image-1649" width="350" height="256"/></figure></div>
 
 
 
@@ -907,7 +913,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>&#8222;Next Level&#8220;-Epidemiologie</h4>
+<h4 class="wp-block-heading">&#8222;Next Level&#8220;-Epidemiologie</h4>
 
 
 
@@ -915,7 +921,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<ul><li>Welches Virus verursacht den Ausbruch? Ist das Virus neu oder ein wiederauftretendes bekanntes Virus?</li><li>Wie wird das Virus übertragen?</li><li>An welchem Ort hat der Ausbruch begonnen? Von welchem Wirt stammt das Virus?</li><li>Welche ökologischen Faktoren unterstützen seine Entstehung?</li><li>Wie viele Übertragungen von Tier auf Mensch hat es gegeben und zu welchem Zeitpunkt?</li><li>Wann begann der Ausbruch? Gab es vor dem ersten gemeldeten Fall einen Zeitraum der unentdeckten Übertragung?</li><li>Hängt der Ausbruch mit einem früheren Ausbruch zusammen?</li><li>Wie entwickelt sich das Virus weiter? Gibt es Hinweise auf eine lokale Anpassung der Viren?</li></ul>
+<ul class="wp-block-list"><li>Welches Virus verursacht den Ausbruch? Ist das Virus neu oder ein wiederauftretendes bekanntes Virus?</li><li>Wie wird das Virus übertragen?</li><li>An welchem Ort hat der Ausbruch begonnen? Von welchem Wirt stammt das Virus?</li><li>Welche ökologischen Faktoren unterstützen seine Entstehung?</li><li>Wie viele Übertragungen von Tier auf Mensch hat es gegeben und zu welchem Zeitpunkt?</li><li>Wann begann der Ausbruch? Gab es vor dem ersten gemeldeten Fall einen Zeitraum der unentdeckten Übertragung?</li><li>Hängt der Ausbruch mit einem früheren Ausbruch zusammen?</li><li>Wie entwickelt sich das Virus weiter? Gibt es Hinweise auf eine lokale Anpassung der Viren?</li></ul>
 
 
 
@@ -927,7 +933,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Den Ausbruch erkennen: Womit haben wir es eigentlich zu tun?</h4>
+<h4 class="wp-block-heading">Den Ausbruch erkennen: Womit haben wir es eigentlich zu tun?</h4>
 
 
 
@@ -935,7 +941,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Den Ursprung aufzeigen: Wie hat alles begonnen?</h4>
+<h4 class="wp-block-heading">Den Ursprung aufzeigen: Wie hat alles begonnen?</h4>
 
 
 
@@ -943,7 +949,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Die Übertragungsmuster aufklären: Wer infiziert wen?</h4>
+<h4 class="wp-block-heading">Die Übertragungsmuster aufklären: Wer infiziert wen?</h4>
 
 
 
@@ -951,7 +957,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Den Ausbruch kartieren: Wie breitet sich das Virus aus?</h4>
+<h4 class="wp-block-heading">Den Ausbruch kartieren: Wie breitet sich das Virus aus?</h4>
 
 
 
@@ -959,7 +965,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Das große Bild erfassen: Wie hängen verschiedene Ausbrüche zusammen?</h4>
+<h4 class="wp-block-heading">Das große Bild erfassen: Wie hängen verschiedene Ausbrüche zusammen?</h4>
 
 
 
@@ -967,7 +973,7 @@ Curr Opin Virol. 2019;37:52-57.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>&#8222;Big Data&#8220; und &#8222;Open Science&#8220;</h4>
+<h4 class="wp-block-heading">&#8222;Big Data&#8220; und &#8222;Open Science&#8220;</h4>
 
 
 
@@ -1014,7 +1020,7 @@ Nat Microbiol. 2019;4(1):10-19.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Die drei Zeitalter der Strukturchemie</h4>
+<h4 class="wp-block-heading">Die drei Zeitalter der Strukturchemie</h4>
 
 
 
@@ -1034,7 +1040,7 @@ Nat Microbiol. 2019;4(1):10-19.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Das &#8222;Abgrasen&#8220; des chemischen Universum</h4>
+<h4 class="wp-block-heading">Das &#8222;Abgrasen&#8220; des chemischen Universum</h4>
 
 
 
@@ -1042,7 +1048,7 @@ Nat Microbiol. 2019;4(1):10-19.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Einfluss gesellschaftlicher Ereignisse: Chemie in Zeiten der Weltkriege</h4>
+<h4 class="wp-block-heading">Einfluss gesellschaftlicher Ereignisse: Chemie in Zeiten der Weltkriege</h4>
 
 
 
@@ -1054,7 +1060,7 @@ Nat Microbiol. 2019;4(1):10-19.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Die Lieblinge der Chemiker</h4>
+<h4 class="wp-block-heading">Die Lieblinge der Chemiker</h4>
 
 
 
@@ -1062,7 +1068,7 @@ Nat Microbiol. 2019;4(1):10-19.</p><p>The post <a href="http://bioinfowelten.uni
 
 
 
-<h4>Wie geht&#8217;s weiter?</h4>
+<h4 class="wp-block-heading">Wie geht&#8217;s weiter?</h4>
 
 
 
@@ -1096,7 +1102,7 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 					<description><![CDATA[<p>Liebe Freunde der Bioinformatik, lange Zeit habe ich nichts von mir hören lassen. Das Problem: Zeitmangel! Wobei die mangelnde Zeit weniger das Schreiben an sich betrifft. Das fällt mir leicht und geht recht schnell.&#46;&#46;&#46;</p>
 <p>The post <a href="http://bioinfowelten.uni-jena.de/2019/06/14/auf-der-suche-nach-einem-wirkstoff-gegen-das-hepatitis-e-virus/">Auf der Suche nach einem Wirkstoff gegen das Hepatitis-E-Virus</a> first appeared on <a href="http://bioinfowelten.uni-jena.de">BioinfoWelten</a>.</p>]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1633" data-permalink="http://bioinfowelten.uni-jena.de/alarm-clock-art-background-1037993/" data-orig-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=5866%2C3916" data-orig-size="5866,3916" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="alarm-clock-art-background-1037993" data-image-description="" data-medium-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=300%2C200" data-large-file="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=1024%2C684" loading="lazy" src="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=299%2C200" alt="" class="wp-image-1633" width="299" height="200" srcset="https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=1024%2C684 1024w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=300%2C200 300w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=768%2C513 768w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?w=2000 2000w, https://i2.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?w=3000 3000w" sizes="(max-width: 299px) 100vw, 299px" data-recalc-dims="1" /></figure></div>
+										<content:encoded><![CDATA[<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1633" data-permalink="http://bioinfowelten.uni-jena.de/alarm-clock-art-background-1037993/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=5866%2C3916" data-orig-size="5866,3916" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="alarm-clock-art-background-1037993" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?fit=1024%2C684" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=299%2C200" alt="" class="wp-image-1633" width="299" height="200" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=1024%2C684 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?resize=768%2C513 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/alarm-clock-art-background-1037993.jpg?w=3000 3000w" sizes="auto, (max-width: 299px) 100vw, 299px" /></figure></div>
 
 
 
@@ -1112,7 +1118,7 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 
 
-<h4>Hepatitis:&nbsp;Entzündung der Leber</h4>
+<h4 class="wp-block-heading">Hepatitis:&nbsp;Entzündung der Leber</h4>
 
 
 
@@ -1124,11 +1130,11 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 
 
-<div class="wp-block-image"><figure class="alignright is-resized"><img data-attachment-id="1635" data-permalink="http://bioinfowelten.uni-jena.de/pills-2/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=5472%2C3648" data-orig-size="5472,3648" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pills" data-image-description="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=1024%2C683" loading="lazy" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=307%2C204" alt="" class="wp-image-1635" width="307" height="204" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?w=3000 3000w" sizes="(max-width: 307px) 100vw, 307px" data-recalc-dims="1" /></figure></div>
+<div class="wp-block-image"><figure class="alignright is-resized"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="1635" data-permalink="http://bioinfowelten.uni-jena.de/pills-2/" data-orig-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=5472%2C3648" data-orig-size="5472,3648" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pills" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?fit=1024%2C683" src="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=307%2C204" alt="" class="wp-image-1635" width="307" height="204" srcset="https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=1024%2C683 1024w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=300%2C200 300w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?resize=768%2C512 768w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?w=2000 2000w, https://i0.wp.com/bioinfowelten.uni-jena.de/wp-content/uploads/2019/06/pills.jpg?w=3000 3000w" sizes="auto, (max-width: 307px) 100vw, 307px" /></figure></div>
 
 
 
-<h4>Was können wir tun, um neue Medikamente, die ganz gezielt gegen das Hepatitis-E-Virus wirken, zu finden?</h4>
+<h4 class="wp-block-heading">Was können wir tun, um neue Medikamente, die ganz gezielt gegen das Hepatitis-E-Virus wirken, zu finden?</h4>
 
 
 
@@ -1136,7 +1142,7 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 
 
-<h4>Von Neuem und Altbekanntem</h4>
+<h4 class="wp-block-heading">Von Neuem und Altbekanntem</h4>
 
 
 
@@ -1152,7 +1158,7 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 
 
-<h4>Das Ziel ist der Weg</h4>
+<h4 class="wp-block-heading">Das Ziel ist der Weg</h4>
 
 
 
@@ -1168,7 +1174,7 @@ Proc Natl Acad Sci USA, pii: 201816039, 2019</p><p>The post <a href="http://bioi
 
 
 
-<h4>Impfen</h4>
+<h4 class="wp-block-heading">Impfen</h4>
 
 
 
