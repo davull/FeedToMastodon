@@ -20,7 +20,8 @@ public static class FeedTestsProvider
             "home-assistant.io.xml",
             "production-ready.de.xml",
             "wdr.de.xml",
-            "YouTube - Linus Tech Tips.xml"
+            "YouTube - Linus Tech Tips.xml",
+            "ich-roll-dann-mal-aus.xml"
         };
 
         return GetFeedContentTestCases(atomFeeds);
@@ -44,7 +45,6 @@ public static class FeedTestsProvider
             "heiseplus.xml",
             "howtoforge.com.xml",
             "hyper-v-server.de.xml",
-            "ich-roll-dann-mal-aus.xml",
             "kernel-error.de.xml",
             "khalidabuhakmeh.com.xml",
             "ksta.de.xml",
@@ -63,7 +63,8 @@ public static class FeedTestsProvider
             "teslarati.com.xml",
             "thereformedprogrammer.net.xml",
             "WDR 5 Zeitzeichen.xml",
-            "WindowsPro.xml"
+            "WindowsPro.xml",
+            "Yet another developer blog.xml"
         };
 
         return GetFeedContentTestCases(rssFeeds);

@@ -1,110 +1,110 @@
 ﻿{
-  "Id": "http://www.windowspro.de/rss.xml",
-  "Website": "http://www.windowspro.de/rss.xml",
+  "Id": "https://www.windowspro.de/rss.xml",
+  "Website": "https://www.windowspro.de/rss.xml",
   "Title": "WindowsPro | Windows, Virtualisierung und Cloud für Profis",
-  "LastUpdatedTime": "2024-11-13T18:27:49+00:00",
+  "LastUpdatedTime": "2025-06-13T16:58:59+00:00",
   "Description": "",
   "Language": "de",
   "Items": [
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5798 at http://www.windowspro.de",
-      "Title": "Microsoft erhöht Preise für Teams Phone und Power BI, vereinheitlicht Aufschlag für monatliche Zahlungsweise",
-      "PublishDate": "2024-11-13T18:27:49+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Microsoft 365\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/microsoft-365-teaser.jpg\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Microsoft gab einen Ausblick auf die Preis­gestaltung bei mehreren SaaS-Produkten im nächsten Jahr. Preiserhöhungen betreffen Power BI sowie Teams Phone und bewegen sich zwischen 25 und 40 Prozent. Außerdem kündigte das Unternehmen einen einheitlichen Aufschlag von 5 Prozent bei monat­licher Zahlungsweise für mehrere M365-Produkte an.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5908 at https://www.windowspro.de",
+      "Title": "Windows LAPS überwachen und Zugriff auf Passwörter nachverfolgen",
+      "PublishDate": "2025-06-13T16:58:59+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"LAPS Auditing\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/laps-auditing-eventlog.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Windows LAPS ist ein Security-Feature des Betriebs­systems, das lokale Admin-Passwörter vor Miss­brauch schützen soll. Dazu speichert es für jeden Rechner ein automatisch generiertes Kennwort im Active Directory. Wenn man nachverfolgen möchte, wer welche LAPS-Zugangsdaten aus dem AD aus­ge­lesen hat, muss man das Auditing aktivieren.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/news/microsoft-erhoeht-preise-fuer-teams-phone-power-bi-vereinheitlicht-aufschlag-fuer-monatliche?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/wolfgang-sommergut/windows-laps-ueberwachen-zugriff-passwoerter-nachverfolgen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "4956 at http://www.windowspro.de",
-      "Title": "Webinar: PowerShell mit der Automationsplattform von ScriptRunner effizient einsetzen",
-      "PublishDate": "2024-11-13T10:44:24+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"ScriptRunner-Teaser\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/scriptrunner-powershell-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />In vielen Unter­nehmen beschränkt sich der Ein­satz von PowerShell darauf, Probleme ad hoc mit einzelnen Befehlen oder mit schnellen Scripts zu lösen. Organi­sationen sollten über diese tak­tische Nutzung jedoch hinaus­­gehen. ScriptRunner bietet die Mittel, um PowerShell zu einer strate­gischen Komponente des IT-Managements zu machen.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5906 at https://www.windowspro.de",
+      "Title": "Künstliche Intelligenz in der IT-Sicherheit: KI-gestützte Security eröffnet neue Chancen für Partner und MSSPs",
+      "PublishDate": "2025-06-13T10:10:17+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"ADN Microsoft CSP Security Week 2025\" class=\"imgp_img b-lazy\" height=\"140\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" data-src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/csp-security-week-2025-teaser-2.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" />Künstliche Intelligenz spielt sowohl bei Cyber­­an­grif­fen als auch bei der Cyber­­ab­wehr eine immer grö­ßere Rolle. Partner, die markt­­führende KI-basie­rende Secu­rity-Lösungen ins Port­folio auf­neh­men, sichern sich für die komm­enden Jahre nach­­hal­tiges Wachs­tum. ADN und Microsoft infor­mieren über diese KI-Chancen in der CSP Security Week.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/scriptrunner/technisches-webinar-it-management-powershell-automatisieren-script?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/adn-distribution-gmbh/kuenstliche-intelligenz-it-sicherheit-ki-gestuetzte-security-eroeffnet-neue?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5796 at http://www.windowspro.de",
-      "Title": "Windows Server 2025 Essentials: Einschränkungen bei Hardware, RDS und Lizenzierung",
-      "PublishDate": "2024-11-12T21:00:25+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Windows Server 2025 Essentials\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/windows-server-2025-essentials-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Die Essentials Edition ist Microsofts Server für kleine Umgebungen. In der Vergangenheit besaß sie einige exklusive Features für diese Zielgruppe, mittlerweile ist sie technisch identisch mit der Standard Edition. Die wesentliche Frage besteht für Kunden nur noch darin, welche Einschränkungen sie durch die Lizenz in Kauf nehmen müssen.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5909 at https://www.windowspro.de",
+      "Title": "Unbound DNS Overrides in OPNsense per Script erzeugen",
+      "PublishDate": "2025-06-12T14:27:53+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"OPNsense Firewall\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/4466/thumbs/opnsense-logo.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Unbound DNS ist auf vielen OPNsense-Installationen im Einsatz. Es unter­stützt DNS Overrides, die be­stimm­te Host­namen unab­hängig vom öffent­lichen DNS gezielt auf abweichende IP-Adressen um­leiten. Wenn man eine größere Zahl von solchen Über­schrei­bungen defi­nieren muss, dann kann man dies per Script über ein API automa­tisieren.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/wolfgang-sommergut/windows-server-2025-essentials-einschraenkungen-bei-hardware-rds-lizenzierung?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/thomas-joos/unbound-dns-overrides-opnsense-script-erzeugen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5070 at http://www.windowspro.de",
-      "Title": "Grundlagen des Load Balancing: Scheduling, Persistenz, Timeout",
-      "PublishDate": "2024-11-12T19:41:55+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Load-Balancing\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/load-balancing-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Der Lastausgleich ist ein wesentlicher Bestandteil bei jeder Bereit­stellung von Anwendungen. Damit erreicht man hohe Verfüg­barkeit, Per­formance und Sicher­heit. Dieser Beitrag erklärt, welche Rolle dabei die Algorith­men für das Scheduling spielen und wie Persistenz und Timeouts eine gleich­mäßige Auslastung beein­flussen.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5905 at https://www.windowspro.de",
+      "Title": "Webinar: Volle Kontrolle über die Daten auf Smartphones und Tablets behalten",
+      "PublishDate": "2025-06-12T08:46:59+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"MDM globale Datenflüsse\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/442/thumbs/mdm-globale-datenfluesse.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Um gesetzlichen Anforderungen zu genügen und vertrauliche Daten zu schützen, müssen Unter­nehmen den Abfluss sensibler Informationen in Cloud-Dienste oder Drittstaaten verhindern. Dies lässt sich bei mobilen Geräten durch ein Mobile Device Management erreichen, wenn deren <a href=\"https://cortado.webinargeek.com/datensouveraenitaet?cst=windowspro\" rel=\"sponsored\" target=\"_blank\">Anbieter ent­sprechende Standards</a> einhalten.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/progress-software/grundlagen-des-load-balancing-scheduling-persistenz-timeout?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/cortado/webinar-volle-kontrolle-ueber-daten-smartphones-tablets-behalten?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5795 at http://www.windowspro.de",
-      "Title": "Broadcom positioniert VMware gegen Public Clouds, kündigt Advanced Services für VCF an",
-      "PublishDate": "2024-11-11T16:53:29+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"VMware Cloud Foundation\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/vcf-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Nach der Übernahme von VMware durch Broadcom standen vor allem die neuen Lizenz­bedin­gungen im Vordergrund. Der neue Eigentümer richtete VMware aber gleichzeitig auch auf eine neue Strategie aus, die ganz auf die Private Cloud setzt. Dazu bietet der Hersteller mit VCF eine integrierte Plattform, die er um zahlreiche Add-ons ergänzt.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5911 at https://www.windowspro.de",
+      "Title": "Microsoft gibt sichere Kennwortbereitstellung für den Edge-Browser frei",
+      "PublishDate": "2025-06-11T20:34:16+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Edge for Business\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/edge-for-business-logo.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Das neue Feature namens Secure Password Deployment erlaubt Unternehmen, den Benutzern Zugangs­daten für bestimmte Websites zur Verfügung zu stellen, ohne ihnen die Passwörter mitteilen zu müssen. Die Credentials werden dabei im M365 Admin Center hinterlegt und verschlüsselt in den Passwort-Manager von Edge for Business übertragen.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/wolfgang-sommergut/broadcom-positioniert-vmware-gegen-public-clouds-kuendigt-advanced-services-fuer?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/news/microsoft-gibt-sichere-kennwortbereitstellung-fuer-edge-browser-frei/05911.html?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5793 at http://www.windowspro.de",
-      "Title": "Microsoft Teams in virtuellen Desktops nativ nutzen",
-      "PublishDate": "2024-11-11T11:15:50+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Desktop as a Service (DaaS)\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/daas-vdi-cloud.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Web-Konferenzen, VoIP-Telefonie oder Videos stel­len traditionell eine Heraus­­forderung für Ter­minal­­dienste oder VDI dar. Her­steller ver­bes­sern daher das Benutzer­er­lebnis mit diver­sen Work­arounds, etwa mit einer Multimedia-Umleitung. Die oneclick Group AG führt Teams &amp; Co. dagegen nativ und mit hoher Qualität in virtuellen Desktops aus.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5238 at https://www.windowspro.de",
+      "Title": "Kemp LoadMaster gegen F5 BIG-IP: Funktionen und Lizenzierung im Vergleich",
+      "PublishDate": "2025-06-11T09:41:42+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Load-Balancing\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/load-balancing-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Die meisten modernen Load Balancer sind eigent­lich <em>Appli­cation Delivery Con­troller</em> (ADC), weil sie neben der Last­ver­teilung weitere Funk­tionen zur Beschleu­nigung und Ab­sicherung von Anwen­dun­gen bieten. Das <a href=\"https://kemptechnologies.com/de/campaigns/webinar-f5-abloesen?utm_medium=content-paid&amp;utm_source=windowspro&amp;utm_campaign=lm_dach_webinar_f5\" rel=\"sponsored\" target=\"_blank\">Webinar von Progress Software</a> zeigt, wie LoadMaster im Vergleich zu F5 BIG-IP abschneidet und wann sich ein Umstieg lohnt.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/oneclick-group-ag/microsoft-teams-virtuellen-desktops-nativ-nutzen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/sponsored/kemp/load-balancer-vergleich-kemp-loadmaster-versus-f5-big-ip?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5794 at http://www.windowspro.de",
-      "Title": "Microsoft veröffentlicht kostenloses eBook zu Windows Server 2025 Security",
-      "PublishDate": "2024-11-08T21:24:39+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Windows Server 2025 Security\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/windows-server-2025-security-ebook-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Eine ganze Reihe von Neuerungen in Windows Server 2025 dreht sich um einen besseren Schutz gegen Cyber-Bedrohungen. Das von Microsoft bereitgestellte <a href=\"https://techcommunity.microsoft.com/t5/security-compliance-and-identity/windows-server-2025-security-book/ba-p/4283981\">eBook</a> gibt einen Überblick über die gesamte Sicher­heits­archi­tektur des OS, so dass neben neuen Features auch bestehende Security-Mechanismen zu Sprache kommen.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5899 at https://www.windowspro.de",
+      "Title": "Windows-Anmeldung mit PIN aktivieren",
+      "PublishDate": "2025-06-10T08:46:03+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Windows-Anmeldung mit PIN\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/pin-anmeldung-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Die Eingabe einer PIN ist eine Methode zur Authenti­fizierung, die Microsoft unter <em>Windows Hello</em> subsumiert. Sie ver­einfacht die Anmeldung auf PCs, die keine bio­metrischen Ver­fahren unterstützen. In Domänen und Entra ID muss man diese Option erst aktivieren, in virtu­ellen Maschinen auf Hyper-V ist dieses Feature erheblich einge­schränkt.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/news/microsoft-veroeffentlicht-kostenloses-ebook-zu-windows-server-2025-security/05794.html?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/wolfgang-sommergut/windows-anmeldung-pin-aktivieren?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5685 at http://www.windowspro.de",
-      "Title": "Whitepaper: Mit NDR, SIEM und EPP gegen Ransomware vorbeugen und Angriffe frühzeitig erkennen",
-      "PublishDate": "2024-11-08T14:23:01+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Ransomware Teaser\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/22/thumbs/ndr-ransomware-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Ransomware ist derzeit die Malware mit dem wohl höchsten Schadens­potenzial. Ziel der Angriffe sind Unter­nehmen aller Größen und Branchen. Die Folgen für Organi­sationen, die sich darauf nicht vor­bereiten, können gravierend sein. Dazu bedarf es mehrerer Maß­nahmen und Tools, ein einzelnes Wunder­­mittel gibt es nicht.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5902 at https://www.windowspro.de",
+      "Title": "Verzeichnisbäume visualisieren und Dateien filtern mit PowerTree",
+      "PublishDate": "2025-06-05T16:34:34+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Baumdarstellung einer Verzeichnisstruktur\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/powertree-verzeichnisbaum-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />In PowerShell kann man zwar weiterhin den alten <em>Tree</em>-Befehl ausführen, aber das Modul <em>PowerTree</em> implementiert eine fort­geschrittene Version mit ver­schiedenen Sortier- und Filter­funktionen. Damit lassen sich etwa Speicher­fresser einfach identifizieren. PowerTree enthält zudem eine Funktion, mit der man auch die Registry baumförmig visualisieren kann.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/progress-software/whitepaper-gegen-ransomware-vorbeugen-angriffe-fruehzeitig-erkennen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/wolfgang-sommergut/verzeichnisbaeume-visualisieren-dateien-filtern-powertree?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5789 at http://www.windowspro.de",
-      "Title": "Anleitung: Free LoadMaster als Reverse Proxy konfigurieren",
-      "PublishDate": "2024-11-07T11:48:39+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Free LoadMaster\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/22/thumbs/loadmasterfree-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Ein Reverse Proxy dient als Stell­vertreter für Dienste wie IIS, Exchange oder RDS, indem er die An­fragen der Clients entgegen­nimmt und die Ant­worten der Backend-Server an diese zurück­liefert. Der kosten­lose <a href=\"https://kemptechnologies.com/free-vlm-download?utm_medium=content-paid&amp;utm_source=windowspro&amp;utm_campaign=lm_dach_ad_free_lm_sponsored_post\" rel=\"sponsored\" target=\"_blank\">Free LoadMaster</a> kann diese Auf­gabe erfüllen und bietet darüber hinaus die Funk­tionen eines leistungs­fähigen Load-Balancers.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5904 at https://www.windowspro.de",
+      "Title": "Webinar: Drucken ohne Print-Server und VPN",
+      "PublishDate": "2025-06-05T08:34:33+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Cloud-Printing\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/400/thumbs/cloud-printing-teaser_0.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Der Betrieb eines Print-Servers verursacht einigen Aufwand und Kosten. Dabei passt eine solche her­köm­mliche Drucker­bereitstellung für das Home-Office oder mobile Benutzer oft nicht mehr. Das <a href=\"https://thinprint-ezeep.webinargeek.com/drucken-ohne-server-vpn-ezeep?cst=windowspro\" rel=\"sponsored\" target=\"_blank\">Webinar von ThinPrint</a> zeigt, warum eine Hybrid-Cloud-Lösung zusammen mit einer kleinen Appliance flexibler und kosten­günstiger ist.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/progress-software/free-loadmaster-als-reverse-proxy-konfigurieren?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/thinprint/webinar-drucken-ohne-print-server-vpn?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     },
     {
-      "FeedId": "http://www.windowspro.de/rss.xml",
-      "ItemId": "5792 at http://www.windowspro.de",
-      "Title": "Microsoft gibt Windows Server 2025 frei: Essentials Edition bleibt, Pay-as-you-go kommt neu hinzu, Preise ziehen an",
-      "PublishDate": "2024-11-05T17:06:16+00:00",
-      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Windows Server 2025\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/windows-server-2025-teaser.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Windows Server 2025 ist seit 1. November allgemein verfügbar (GA). Das Betriebs­­system gibt es wie gewohnt in den Haupt­editionen Standard und Data­center, Essentials ist nur über OEMs erhältlich. Hinzu kommt eine neue Pay-as-you-Option, die ver­brauchs­abhängig über Azure abge­rechnet wird. Die Preise für die Lizenzen legen zwischen 10 und 20 Prozent zu.</p>\n</div></div></div>",
+      "FeedId": "https://www.windowspro.de/rss.xml",
+      "ItemId": "5907 at https://www.windowspro.de",
+      "Title": "Netzwerke scannen mit dem kostenlosen Angry IP Scanner",
+      "PublishDate": "2025-06-04T20:02:16+00:00",
+      "Summary": "<div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><p><img alt=\"Angry IP Scanner\" class=\"teaser\" height=\"140\" src=\"https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/angry-ip-scanner-logo.png\" style=\"float: left;margin:5px 15px 0 0;\" width=\"200\" />Unabhängig von großen Lösungen für das Netzwerk-Monitoring besteht immer ein Bedarf an leicht­gewichtigen Tools, die spontan alle Geräte in einem Netzwerk aufspüren können. Das populäre Open-Source-Programm <em>Angry IP Scanner</em> fällt in diese Kategorie, auch wenn es nur relativ wenige Daten zu den gefundenen Geräten liefert.</p>\n</div></div></div>",
       "Content": null,
       "Language": "de",
-      "Link": "http://www.windowspro.de/news/microsoft-gibt-windows-server-2025-frei-essentials-edition-bleibt-pay-you-go-kommt-neu-hinzu?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
+      "Link": "https://www.windowspro.de/tool/netzwerke-scannen-kostenlosen-angry-ip-scanner?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed"
     }
   ]
 }

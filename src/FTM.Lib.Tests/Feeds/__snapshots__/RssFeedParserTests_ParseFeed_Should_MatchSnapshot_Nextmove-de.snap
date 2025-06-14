@@ -2,10 +2,20 @@
   "Id": "https://nextmove.de/feed/",
   "Website": "https://nextmove.de",
   "Title": "nextmove",
-  "LastUpdatedTime": "2025-03-11T13:43:56+00:00",
+  "LastUpdatedTime": "2025-06-13T11:43:54+00:00",
   "Description": "Elektroautos testen, mieten, abonnieren oder kaufen",
   "Language": "de",
   "Items": [
+    {
+      "FeedId": "https://nextmove.de/feed/",
+      "ItemId": "https://nextmove.de/?p=30076",
+      "Title": "nextnews: VW-Konzern verdoppelt E-Auto-Anteil, China verkauft lieber PlugIn-Hybride, BMW mit 800km",
+      "PublishDate": "2025-06-13T16:00:04+00:00",
+      "Summary": "<p> In unserem aktuellen Blogartikel fassen wir die wichtigsten Entwicklungen der letzten Tage rund ums Thema E-Mobilität für dich zusammen. Egal [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://nextmove.de/nextnews-vw-konzern-verdoppelt-e-auto-anteil-china-verkauft-lieber-plugin-hybride-bmw-mit-800km/\">nextnews: VW-Konzern verdoppelt E-Auto-Anteil, China verkauft lieber PlugIn-Hybride, BMW mit 800km</a> appeared first on <a rel=\"nofollow\" href=\"https://nextmove.de\">nextmove</a>.</p>\n",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://nextmove.de/nextnews-vw-konzern-verdoppelt-e-auto-anteil-china-verkauft-lieber-plugin-hybride-bmw-mit-800km/"
+    },
     {
       "FeedId": "https://nextmove.de/feed/",
       "ItemId": "https://nextmove.de/?p=29938",
@@ -95,16 +105,6 @@
       "Content": null,
       "Language": "de",
       "Link": "https://nextmove.de/triff-stefan-auf-dem-e-cannonball/"
-    },
-    {
-      "FeedId": "https://nextmove.de/feed/",
-      "ItemId": "https://nextmove.de/?p=28977",
-      "Title": "29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen",
-      "PublishDate": "2024-09-05T13:08:28+00:00",
-      "Summary": "<p>Strategiewechsel bei BYD: Was steckt dahinter? BYD gehört zusammen mit Tesla zu den führenden Herstellern von Elektroautos weltweit. In Europa, [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://nextmove.de/29ct-ladetarif-serien-tesla-bidirektional-neue-byd-strategie-neue-id-buzz-versionen/\">29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen</a> appeared first on <a rel=\"nofollow\" href=\"https://nextmove.de\">nextmove</a>.</p>\n",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://nextmove.de/29ct-ladetarif-serien-tesla-bidirektional-neue-byd-strategie-neue-id-buzz-versionen/"
     }
   ]
 }

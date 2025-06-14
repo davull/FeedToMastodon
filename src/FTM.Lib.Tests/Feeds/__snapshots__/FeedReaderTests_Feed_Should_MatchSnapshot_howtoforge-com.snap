@@ -2,10 +2,70 @@
   "Id": "https://www.howtoforge.com/feed.rss",
   "Website": "https://www.howtoforge.com",
   "Title": "Howtoforge Linux Howtos und Tutorials",
-  "LastUpdatedTime": "2025-03-14T18:16:34+00:00",
+  "LastUpdatedTime": "2025-05-29T16:19:52+00:00",
   "Description": "Howtoforge Tutorials",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/",
+      "Title": "How to Install OpenEMR on Ubuntu 24.04 Server",
+      "PublishDate": "2025-05-29T16:19:52+00:00",
+      "Summary": "OpenEMR is an open-source health records and medical practice management solution. It is a fully integrated electronic health record and practice management, scheduling, electronic billing, and internationalization support.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/",
+      "Title": "How to Install Moodle LMS on Debian 12 Server",
+      "PublishDate": "2025-05-29T16:15:00+00:00",
+      "Summary": "Moodle is an open solution for the Learning Management System (LMS). It is a platform for educational purposes, from creating online courses, managing online schools, managing content, and offering collaborative learning.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/",
+      "Title": "How to Install GlassFish Application Server with Nginx Reverse Proxy on Debian 12",
+      "PublishDate": "2025-04-19T09:30:14+00:00",
+      "Summary": "GlassFish is a free and open-source implementation of the Java EE Platform developed by Eclipse. In this guide, you will install GlassFish Application Server on Debian 12 in a step-by-step process. You will also configure Nginx as a reverse proxy for your GlassFish installation.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/",
+      "Title": "How to Install WildFly Application Server with Nginx Reverse Proxy on Debian 12",
+      "PublishDate": "2025-03-31T13:46:06+00:00",
+      "Summary": "WildFly formerly JBoss is a free and open-source application server that helps you build and deploy Java web applications. In this guide, you will learn how to install WildFly or JBoss application runtime on a Debian 12 server.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/",
+      "Title": "How to Install Emby Media Server on Debian 12",
+      "PublishDate": "2025-03-24T13:28:37+00:00",
+      "Summary": "Emby is an open-source alternative to Plex Media Server. This guide will teach you how to install Emby Media Server on Debian 12. You will install Emby with Nginx as a reverse proxy and enable UFW. Let's get started.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/"
+    },
+    {
+      "FeedId": "https://www.howtoforge.com/feed.rss",
+      "ItemId": "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/",
+      "Title": "How to Install Actual Budgeting Software on Debian 12 Server",
+      "PublishDate": "2025-03-18T10:34:19+00:00",
+      "Summary": "Actual Budget is an open-source finance management software focused on privacy and built on top of &quot;Envelope Style Budgeting&quot;. In this tutorial, we'll show you how to install the Actual Budgeting System on the Debian 12 server.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/"
+    },
     {
       "FeedId": "https://www.howtoforge.com/feed.rss",
       "ItemId": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
@@ -45,66 +105,6 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.howtoforge.com/ispconfig-php-ubuntu/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/ispconfig-php-debian/",
-      "Title": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Debian 11 to 12",
-      "PublishDate": "2025-02-19T10:13:28+00:00",
-      "Summary": "In this guide we will take you through installing additional PHP versions (5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.1, 8.2, 8.3, and 8.4) on a Debian server with ISPConfig.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/ispconfig-php-debian/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/",
-      "Title": "How to Install Fast API with MongoDB on Ubuntu 24.04",
-      "PublishDate": "2025-02-15T13:01:09+00:00",
-      "Summary": "FastAPI is a web framework based on Python for creating API services. It's a modern, fast, high-performance framework supporting asynchronous operations. ",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/",
-      "Title": "How to Install Rancher on Debian 12 Server",
-      "PublishDate": "2025-02-11T21:24:37+00:00",
-      "Summary": "Rancher is an open-source container management platform designed to facilitate the deployment, management, and governance of Kubernetes clusters. In this tutorial, you'll learn how to install Rancher on a Debian 12 server.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/",
-      "Title": "How to Install Apache Couch DB on AlmaLinux 9",
-      "PublishDate": "2025-01-26T09:42:26+00:00",
-      "Summary": "Apache CouchDB is an open-source NoSQL and document-oriented database that supports multiple formats and protocols to store its data. Apache CouchDB allows you to use JSON to store data, and it also provides web UI for managing the CouchDB system and HTTP API that enables you to query data easily.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/",
-      "Title": "How to Install NodeBB with MongoDB and Nginx Proxy on AlmaLinux 9",
-      "PublishDate": "2025-01-25T09:03:20+00:00",
-      "Summary": "NodeBB is an open-source, Node.js-based forum software that provides a modern and responsive solution for online communities. This guide will provide step-by-step instructions for installing NodeBB on an Alma Linux 9 server.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/"
-    },
-    {
-      "FeedId": "https://www.howtoforge.com/feed.rss",
-      "ItemId": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/",
-      "Title": "How to Install Consul Server on AlmaLinux 9",
-      "PublishDate": "2025-01-19T18:35:58+00:00",
-      "Summary": "Consul is a modern platform for service discovery that allows you to register services via DNS and HTTP interface. It also offers a Service mesh feature that enables secure connections via TLS and provides authorization between services.",
-      "Content": null,
-      "Language": null,
-      "Link": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/"
     }
   ]
 }
