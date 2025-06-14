@@ -605,9 +605,19 @@
     "sanitized": "arc42-Starschnitt: Gradle. Die Schnipsel zusammensetzen"
   },
   {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/",
+    "raw": "Netflix-Architektur Blogserie – Teil 3: Netflix Open Source Services (OSS)",
+    "sanitized": "Netflix-Architektur Blogserie – Teil 3: Netflix Open Source Services (OSS)"
+  },
+  {
     "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/",
     "raw": "arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht",
     "sanitized": "arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht"
+  },
+  {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/",
+    "raw": "Netflix-Architektur Blogserie – Teil 2: Microservices",
+    "sanitized": "Netflix-Architektur Blogserie – Teil 2: Microservices"
   },
   {
     "itemId": "https://www.embarc.de/embarc-echo-juli-2015/",
@@ -618,6 +628,11 @@
     "itemId": "https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/",
     "raw": "Top-Tools für Architekturdokumentation",
     "sanitized": "Top-Tools für Architekturdokumentation"
+  },
+  {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/",
+    "raw": "Netflix-Architektur Blogserie – Teil 1: Die umgekehrte Architekturbewertung",
+    "sanitized": "Netflix-Architektur Blogserie – Teil 1: Die umgekehrte Architekturbewertung"
   },
   {
     "itemId": "https://www.embarc.de/embarc-echo-januar-2015/",

@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
     "raw": null,
     "sanitized": null
@@ -16,36 +46,6 @@
   },
   {
     "itemId": "https://www.howtoforge.com/ispconfig-php-ubuntu/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/ispconfig-php-debian/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/",
     "raw": null,
     "sanitized": null
   }

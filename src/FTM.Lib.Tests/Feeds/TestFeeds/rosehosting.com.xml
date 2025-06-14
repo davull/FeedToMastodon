@@ -12,13 +12,13 @@
 	<atom:link href="https://www.rosehosting.com/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.rosehosting.com/blog/</link>
 	<description>Premium Linux Tutorials Since 2001</description>
-	<lastBuildDate>Wed, 05 Feb 2025 11:35:26 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Apr 2025 12:11:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7.2</generator>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
 
 <image>
 	<url>https://www.rosehosting.com/blog/wp-content/uploads/2022/03/cropped-favicon-1-32x32.png</url>
@@ -28,192 +28,194 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>What is a Loopback Address and How Does it Work?</title>
-		<link>https://www.rosehosting.com/blog/what-is-a-loopback-address-and-how-does-it-work/</link>
-					<comments>https://www.rosehosting.com/blog/what-is-a-loopback-address-and-how-does-it-work/#respond</comments>
+		<title>How to Install Java 21 on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 05 Mar 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Networking and Domains]]></category>
-		<category><![CDATA[loopback address]]></category>
-		<category><![CDATA[what is]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49990</guid>
+		<pubDate>Wed, 28 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[java 21]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50362</guid>
 
-					<description><![CDATA[<p>You&#8217;ve very possibly heard in online tutorials or your IT friend mentioning &#8220;loopback address&#8221; when they&#8217;re solving network problems or ... </p>
-<p class="read-more-container"><a title="What is a Loopback Address and How Does it Work?" class="read-more button" href="https://www.rosehosting.com/blog/what-is-a-loopback-address-and-how-does-it-work/#more-49990" aria-label="Read more about What is a Loopback Address and How Does it Work?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/what-is-a-loopback-address-and-how-does-it-work/">What is a Loopback Address and How Does it Work?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>Java 21 is the Java platform&#8217;s Long-Term Support (LTS) release. As a high-level, object-oriented, class-based programming language used for developing ... </p>
+<p class="read-more-container"><a title="How to Install Java 21 on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/#more-50362" aria-label="Read more about How to Install Java 21 on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/">How to Install Java 21 on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/what-is-a-loopback-address-and-how-does-it-work/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>ERR_NAME_NOT_RESOLVED and How To Fix It?</title>
-		<link>https://www.rosehosting.com/blog/err_name_not_resolved-and-how-to-fix-it/</link>
-					<comments>https://www.rosehosting.com/blog/err_name_not_resolved-and-how-to-fix-it/#respond</comments>
+		<title>How to Install MariaDB on Debian 13</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 03 Mar 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Networking and Domains]]></category>
-		<category><![CDATA[error]]></category>
-		<category><![CDATA[how to]]></category>
-		<category><![CDATA[how to fix]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49974</guid>
-
-					<description><![CDATA[<p>You know how frustrating it can be if you&#8217;ve ever encountered the ERR_NAME_NOT_RESOLVED error while browsing. This error typically means ... </p>
-<p class="read-more-container"><a title="ERR_NAME_NOT_RESOLVED and How To Fix It?" class="read-more button" href="https://www.rosehosting.com/blog/err_name_not_resolved-and-how-to-fix-it/#more-49974" aria-label="Read more about ERR_NAME_NOT_RESOLVED and How To Fix It?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/err_name_not_resolved-and-how-to-fix-it/">ERR_NAME_NOT_RESOLVED and How To Fix It?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/err_name_not_resolved-and-how-to-fix-it/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Create and Use .htpasswd</title>
-		<link>https://www.rosehosting.com/blog/how-to-create-and-use-htpasswd/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-create-and-use-htpasswd/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 26 Feb 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[how to]]></category>
-		<category><![CDATA[how to create]]></category>
-		<category><![CDATA[htpasswd]]></category>
-		<category><![CDATA[security]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49968</guid>
-
-					<description><![CDATA[<p>A .htpasswd file typically creates and updates stored usernames and passwords for HTTP users using HTTP authentication. You must create ... </p>
-<p class="read-more-container"><a title="How to Create and Use .htpasswd" class="read-more button" href="https://www.rosehosting.com/blog/how-to-create-and-use-htpasswd/#more-49968" aria-label="Read more about How to Create and Use .htpasswd">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-create-and-use-htpasswd/">How to Create and Use .htpasswd</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-create-and-use-htpasswd/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>What is virtualization and how does it benefit your server?</title>
-		<link>https://www.rosehosting.com/blog/what-is-virtualization/</link>
-					<comments>https://www.rosehosting.com/blog/what-is-virtualization/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 24 Feb 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Web Servers]]></category>
-		<category><![CDATA[server]]></category>
-		<category><![CDATA[virtualization]]></category>
-		<category><![CDATA[what is]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49905</guid>
-
-					<description><![CDATA[<p>What is virtualization, and how does it benefit your server? In computing, virtualization divides physical computer resources into individual virtual ... </p>
-<p class="read-more-container"><a title="What is virtualization and how does it benefit your server?" class="read-more button" href="https://www.rosehosting.com/blog/what-is-virtualization/#more-49905" aria-label="Read more about What is virtualization and how does it benefit your server?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/what-is-virtualization/">What is virtualization and how does it benefit your server?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/what-is-virtualization/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Fix the &#8220;Error establishing a Redis connection&#8221; error?</title>
-		<link>https://www.rosehosting.com/blog/how-to-fix-the-error-establishing-a-redis-connection-error/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-fix-the-error-establishing-a-redis-connection-error/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 19 Feb 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Caching]]></category>
-		<category><![CDATA[Optimization]]></category>
-		<category><![CDATA[cache]]></category>
-		<category><![CDATA[error]]></category>
-		<category><![CDATA[how to fix]]></category>
-		<category><![CDATA[redis]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49951</guid>
-
-					<description><![CDATA[<p>In this tutorial, we will explain everything about the most known Redis error in WordPress, known as Error establishing a ... </p>
-<p class="read-more-container"><a title="How to Fix the &#8220;Error establishing a Redis connection&#8221; error?" class="read-more button" href="https://www.rosehosting.com/blog/how-to-fix-the-error-establishing-a-redis-connection-error/#more-49951" aria-label="Read more about How to Fix the &#8220;Error establishing a Redis connection&#8221; error?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-fix-the-error-establishing-a-redis-connection-error/">How to Fix the &#8220;Error establishing a Redis connection&#8221; error?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-fix-the-error-establishing-a-redis-connection-error/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Install MongoDB on Ubuntu 24.04</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-mongodb-on-ubuntu-24-04/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-mongodb-on-ubuntu-24-04/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 17 Feb 2025 18:30:00 +0000</pubDate>
+		<pubDate>Mon, 26 May 2025 17:30:00 +0000</pubDate>
 				<category><![CDATA[Databases]]></category>
-		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Debian]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[debian 13]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[mariadb]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50355</guid>
+
+					<description><![CDATA[<p>This tutorial will explain how to install MariaDB on Debian 13. MariaDB is an open-source RDBMS (Relational Database Management System) ... </p>
+<p class="read-more-container"><a title="How to Install MariaDB on Debian 13" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/#more-50355" aria-label="Read more about How to Install MariaDB on Debian 13">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/">How to Install MariaDB on Debian 13</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Enable HTTPS Protocol on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 21 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[how to enable]]></category>
+		<category><![CDATA[https protocol]]></category>
+		<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50351</guid>
+
+					<description><![CDATA[<p>This blog post teaches you how to enable HTTPS protocol on AlmaLinux 10. HTTPS is hypertext transfer protocol secure and ... </p>
+<p class="read-more-container"><a title="How to Enable HTTPS Protocol on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/#more-50351" aria-label="Read more about How to Enable HTTPS Protocol on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/">How to Enable HTTPS Protocol on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install PostgreSQL on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 19 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[Databases]]></category>
+		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50335</guid>
+
+					<description><![CDATA[<p>This blog post teaches you how to install PostgreSQL on AlmaLinux 10. PostgreSQL, or Postgres, is a free and open-source ... </p>
+<p class="read-more-container"><a title="How to Install PostgreSQL on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/#more-50335" aria-label="Read more about How to Install PostgreSQL on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/">How to Install PostgreSQL on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install MySQL on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 14 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[Databases]]></category>
+		<category><![CDATA[almalinux 10]]></category>
 		<category><![CDATA[database]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[mongodb]]></category>
-		<category><![CDATA[ubuntu]]></category>
-		<category><![CDATA[Ubuntu 24.04]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49837</guid>
+		<category><![CDATA[mysql]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50318</guid>
 
-					<description><![CDATA[<p>MongoDB is a NoSQL database that stores data in a flexible, document-oriented format. This makes it different from traditional relational ... </p>
-<p class="read-more-container"><a title="How to Install MongoDB on Ubuntu 24.04" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-ubuntu-24-04/#more-49837" aria-label="Read more about How to Install MongoDB on Ubuntu 24.04">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-ubuntu-24-04/">How to Install MongoDB on Ubuntu 24.04</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>MySQL is one of the world&#8217;s most popular and widely used relational database management systems (RDBMS). Developed in 1995 by ... </p>
+<p class="read-more-container"><a title="How to Install MySQL on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/#more-50318" aria-label="Read more about How to Install MySQL on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/">How to Install MySQL on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mongodb-on-ubuntu-24-04/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>What is the ERR_CONNECTION_RESET Error and how to fix it?</title>
-		<link>https://www.rosehosting.com/blog/fix-err_connection_reset-error/</link>
-					<comments>https://www.rosehosting.com/blog/fix-err_connection_reset-error/#respond</comments>
+		<title>How to Install Odoo 18 on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 12 Feb 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Guides]]></category>
-		<category><![CDATA[Web Servers]]></category>
-		<category><![CDATA[error]]></category>
-		<category><![CDATA[ERR_CONNECTION_RESET]]></category>
-		<category><![CDATA[how to fix]]></category>
-		<category><![CDATA[what is]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49901</guid>
+		<pubDate>Mon, 12 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[CMS, CRM, ERP]]></category>
+		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[odoo 18]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50311</guid>
 
-					<description><![CDATA[<p>In this tutorial, we are going to explain what the ERR_CONNECTION_RESET error is and how to fix it. This issue ... </p>
-<p class="read-more-container"><a title="What is the ERR_CONNECTION_RESET Error and how to fix it?" class="read-more button" href="https://www.rosehosting.com/blog/fix-err_connection_reset-error/#more-49901" aria-label="Read more about What is the ERR_CONNECTION_RESET Error and how to fix it?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/fix-err_connection_reset-error/">What is the ERR_CONNECTION_RESET Error and how to fix it?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>Odoo, which was previously called OpenERP, is a comprehensive suite of open-source business applications. It is a popular open-source enterprise ... </p>
+<p class="read-more-container"><a title="How to Install Odoo 18 on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/#more-50311" aria-label="Read more about How to Install Odoo 18 on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/">How to Install Odoo 18 on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/fix-err_connection_reset-error/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>What is an SPF Record?</title>
-		<link>https://www.rosehosting.com/blog/what-is-an-spf-record/</link>
-					<comments>https://www.rosehosting.com/blog/what-is-an-spf-record/#respond</comments>
+		<title>How to Install MariaDB on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 10 Feb 2025 18:30:00 +0000</pubDate>
-				<category><![CDATA[Email Servers]]></category>
-		<category><![CDATA[Networking and Domains]]></category>
-		<category><![CDATA[dns]]></category>
-		<category><![CDATA[spf]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=49811</guid>
+		<pubDate>Wed, 07 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[Databases]]></category>
+		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[mariadb]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50302</guid>
 
-					<description><![CDATA[<p>SPF or Sender Policy Framework is a DNS record that indicates mail exchanges in which hosts are authorized to send ... </p>
-<p class="read-more-container"><a title="What is an SPF Record?" class="read-more button" href="https://www.rosehosting.com/blog/what-is-an-spf-record/#more-49811" aria-label="Read more about What is an SPF Record?">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/what-is-an-spf-record/">What is an SPF Record?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>This tutorial will explain how to install MariaDB on AlmaLinux 10. MariaDB is an open-source relational database management system used ... </p>
+<p class="read-more-container"><a title="How to Install MariaDB on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/#more-50302" aria-label="Read more about How to Install MariaDB on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/">How to Install MariaDB on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/what-is-an-spf-record/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install Node.js on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 05 May 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[AlmaLinux]]></category>
+		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[node.js]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50258</guid>
+
+					<description><![CDATA[<p>This blog post will show you how to install Node.js on AlmaLinux 10 OS version—the latest version of AlmaLinux. NodeJS ... </p>
+<p class="read-more-container"><a title="How to Install Node.js on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/#more-50258" aria-label="Read more about How to Install Node.js on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/">How to Install Node.js on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

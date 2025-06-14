@@ -1218,6 +1218,16 @@
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/",
+      "Title": "Netflix-Architektur Blogserie – Teil 3: Netflix Open Source Services (OSS)",
+      "PublishDate": "2015-10-05T00:00:00+00:00",
+      "Summary": "In Teil 1 der umgekehrten Architekturbewertung gab es eine kurze Einführung, Teil 2 kümmerte sich um den Microservice-Ansatz von Netflix. Nun kommen wir zu einem Teil der Netflix-Architektur, der auch von Ihnen potentiell gut nutzbar ist, wenn Sie sich für eine ähnliche Architekturrichtung entscheiden: Die Open Source Services (kurz OSS) von Netflix. Sie bilden einen guten Teil dessen ab, was Netflix neben der eigenen Fachlichkeit an Services baut. Nicht alle Plattform-Services und andere technisch motivierten Services haben es in die Open Source Welt geschafft, aber es werden stetig mehr.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
       "ItemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/",
       "Title": "arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht",
       "PublishDate": "2015-09-08T08:22:17+00:00",
@@ -1225,6 +1235,16 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/",
+      "Title": "Netflix-Architektur Blogserie – Teil 2: Microservices",
+      "PublishDate": "2015-08-05T00:00:00+00:00",
+      "Summary": "In Teil 1 der umgekehrten Architekturbewertung gab es eine kurze Einführung, nun machen wir uns an die auffälligsten Elemente der Netflix-Architektur. Ein sehr zentrales Merkmal der Netflix-Architektur ist der Einsatz von Microservices. Der Trend ist praktisch mit Netflix großgeworden - Hier beleuchten wir wie Netflix die Idee von Microservices lebt und was das für Rückschlüsse auf die Qualitätsmerkmale und Ziele von Netflix erlaubt, bzw. mit welchen Herausforderungen und Kompromissen Netflix lebt.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/"
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
@@ -1245,6 +1265,16 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/",
+      "Title": "Netflix-Architektur Blogserie – Teil 1: Die umgekehrte Architekturbewertung",
+      "PublishDate": "2015-05-09T00:00:00+00:00",
+      "Summary": "Netflix - das größte Internet-Business in den USA - zeichnet sich zeitweise für ein Drittel des gesamten Downstream-Traffics des Webs verantwortlich. Über 2 Milliarden Stunden Filme und Serien sind für Mitglieder verfügbar (nicht in jedem Land, aber dennoch eine beeindruckende Zahl).\n Netflix is the king of online streaming, using more global bandwidth than cat videos and piracy combined.\n Die Erfolge der Video-on-Demand Plattform basieren nicht nur auf einer guten Geschäftsidee, sondern auch auf top-modernen und effizienten Technologien, Frameworks und Architekturansätzen.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/"
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",

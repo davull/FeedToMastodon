@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://nextmove.de/?p=30076",
+    "raw": "nextnews: VW-Konzern verdoppelt E-Auto-Anteil, China verkauft lieber PlugIn-Hybride, BMW mit 800km",
+    "sanitized": "nextnews: VW-Konzern verdoppelt E-Auto-Anteil, China verkauft lieber PlugIn-Hybride, BMW mit 800km"
+  },
+  {
     "itemId": "https://nextmove.de/?p=29938",
     "raw": "Voll elektrische Kühlfahrzeuge ab sofort bundesweit bei nextmove mietbar",
     "sanitized": "Voll elektrische Kühlfahrzeuge ab sofort bundesweit bei nextmove mietbar"
@@ -43,10 +48,5 @@
     "itemId": "https://nextmove.de/?p=28989",
     "raw": "Triff Stefan auf dem E-Cannonball",
     "sanitized": "Triff Stefan auf dem E-Cannonball"
-  },
-  {
-    "itemId": "https://nextmove.de/?p=28977",
-    "raw": "29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen",
-    "sanitized": "29ct-Ladetarif, Serien-Tesla bidirektional, neue BYD-Strategie, neue ID.Buzz-Versionen"
   }
 ]

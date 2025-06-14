@@ -1,51 +1,51 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2025/03/10/appeal-to-aithority",
+    "itemId": "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/03/03/reactive-monad",
+    "itemId": "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/24/easier-encapsulation-with-static-types",
+    "itemId": "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/17/in-defence-of-multiple-wip",
+    "itemId": "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/10/geographic-hulls",
+    "itemId": "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/03/modelling-data-relationships-with-c-types",
+    "itemId": "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/27/dependency-inversion-without-inversion-of-control",
+    "itemId": "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/20/modelling-data-relationships-with-f-types",
+    "itemId": "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/13/recawr-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/06/encapsulating-rod-cutting",
+    "itemId": "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
     "raw": null,
     "sanitized": null
   }

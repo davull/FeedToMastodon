@@ -1,0 +1,5 @@
+﻿Unbound DNS Overrides in OPNsense per Script erzeugen
+
+Unbound DNS ist auf vielen OPNsense-Installationen im Einsatz. Es unter­stützt DNS Overrides, die be­stimm­te Host­namen unab­hängig vom öffent­lichen DNS gezielt auf abweichende IP-Adressen um­leiten. Wenn man eine größere Zahl von solchen Über­schrei­bungen defi­nieren muss, dann kann man dies per Script über ein API automa­tisieren.
+---
+https://www.windowspro.de/thomas-joos/unbound-dns-overrides-opnsense-script-erzeugen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed

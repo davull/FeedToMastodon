@@ -1,5 +1,25 @@
 ﻿[
   {
+    "itemId": "https://www.persoenlichkeits-blog.de/?p=120977",
+    "raw": "Astrid Lindgren: Geschichten gegen die innere Schuld",
+    "sanitized": "Astrid Lindgren: Geschichten gegen die innere Schuld"
+  },
+  {
+    "itemId": "https://www.persoenlichkeits-blog.de/?p=120950",
+    "raw": "Robin Williams: „Ich mache Witze, damit du bleibst.“",
+    "sanitized": "Robin Williams: „Ich mache Witze, damit du bleibst.“"
+  },
+  {
+    "itemId": "https://www.persoenlichkeits-blog.de/?p=120936",
+    "raw": "Prinz Harry: Warum der Abschied von der Prinzenrolle schwerfällt",
+    "sanitized": "Prinz Harry: Warum der Abschied von der Prinzenrolle schwerfällt"
+  },
+  {
+    "itemId": "https://www.persoenlichkeits-blog.de/?p=120886",
+    "raw": "„Die Depression killt noch unsere Beziehung“. sagte der Mann im Coaching.",
+    "sanitized": "„Die Depression killt noch unsere Beziehung“. sagte der Mann im Coaching."
+  },
+  {
     "itemId": "https://www.persoenlichkeits-blog.de/?p=120868",
     "raw": "„Ich bin Mitte 40 und fühle mich wie in der Pubertät. Was ist los mit mir?“, sagte die Frau im Coaching.",
     "sanitized": "„Ich bin Mitte 40 und fühle mich wie in der Pubertät. Was ist los mit mir?“, sagte die Frau im Coaching."
@@ -28,25 +48,5 @@
     "itemId": "https://www.persoenlichkeits-blog.de/?p=120652",
     "raw": "Warum brauchen Menschen eigentlich Glaubenssysteme?",
     "sanitized": "Warum brauchen Menschen eigentlich Glaubenssysteme?"
-  },
-  {
-    "itemId": "https://www.persoenlichkeits-blog.de/?p=120637",
-    "raw": "Ein Coaching zur Entdeckung des Lebenssinns?",
-    "sanitized": "Ein Coaching zur Entdeckung des Lebenssinns?"
-  },
-  {
-    "itemId": "https://www.persoenlichkeits-blog.de/?p=120659",
-    "raw": "Warum ich als Coach auch manchmal einen Coach brauche.",
-    "sanitized": "Warum ich als Coach auch manchmal einen Coach brauche."
-  },
-  {
-    "itemId": "https://www.persoenlichkeits-blog.de/?p=120656",
-    "raw": "Warum ich im Coaching oft meiner Intuition traue.",
-    "sanitized": "Warum ich im Coaching oft meiner Intuition traue."
-  },
-  {
-    "itemId": "https://www.persoenlichkeits-blog.de/?p=110601",
-    "raw": "„Ich hab alles erreicht!“ schimpfte der Millionär im Coaching.",
-    "sanitized": "„Ich hab alles erreicht!“ schimpfte der Millionär im Coaching."
   }
 ]

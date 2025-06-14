@@ -1,77 +1,117 @@
 ﻿[
   {
-    "itemId": "http://heise.de/-10019714",
+    "itemId": "https://heise.de/-4708895",
     "raw": "Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach.",
     "sanitized": "Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach."
   },
   {
-    "itemId": "http://heise.de/-9975854",
+    "itemId": "https://heise.de/-4686366",
     "raw": "Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web.",
     "sanitized": "Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web."
   },
   {
-    "itemId": "http://heise.de/-9677415",
+    "itemId": "https://heise.de/-4568586",
     "raw": "Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache.",
     "sanitized": "Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache."
   },
   {
-    "itemId": "http://heise.de/-9337038",
+    "itemId": "https://heise.de/-4319875",
     "raw": "Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen.",
     "sanitized": "Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen."
   },
   {
-    "itemId": "http://heise.de/-7476614",
+    "itemId": "https://heise.de/-3688879",
     "raw": "Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen.",
     "sanitized": "Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen."
   },
   {
-    "itemId": "http://heise.de/-7142196",
+    "itemId": "https://heise.de/-3560470",
     "raw": "Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft.",
     "sanitized": "Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft."
   },
   {
-    "itemId": "http://heise.de/-6544800",
+    "itemId": "https://heise.de/-3360689",
     "raw": "Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend.",
     "sanitized": "Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend."
   },
   {
-    "itemId": "http://heise.de/-6442004",
+    "itemId": "https://heise.de/-3292352",
     "raw": "Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor.",
     "sanitized": "Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor."
   },
   {
-    "itemId": "http://heise.de/-6134113",
+    "itemId": "https://heise.de/-3136291",
     "raw": "Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort.",
     "sanitized": "Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort."
   },
   {
-    "itemId": "http://heise.de/-5070139",
+    "itemId": "https://heise.de/-3065931",
     "raw": "Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert.",
     "sanitized": "Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert."
   },
   {
-    "itemId": "http://heise.de/-4973753",
+    "itemId": "https://heise.de/-3010375",
     "raw": "Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird.",
     "sanitized": "Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird."
   },
   {
-    "itemId": "http://heise.de/-4871860",
+    "itemId": "https://heise.de/-2952617",
     "raw": "Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben.",
     "sanitized": "Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben."
   },
   {
-    "itemId": "http://heise.de/-4719737",
+    "itemId": "https://heise.de/-2893561",
     "raw": "Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert.",
     "sanitized": "Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert."
   },
   {
-    "itemId": "http://heise.de/-4676787",
+    "itemId": "https://heise.de/-2856837",
     "raw": "Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen.",
     "sanitized": "Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen."
   },
   {
-    "itemId": "http://heise.de/-4614509",
+    "itemId": "https://heise.de/-2808002",
     "raw": "Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind. ",
     "sanitized": "Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind."
+  },
+  {
+    "itemId": "https://heise.de/-2807708",
+    "raw": "In zweiten Blogbeitrag aus dem \"Themenblock Agile\" stellt die Webentwicklung von heise vor, was aus ihren agilen Ambitionen geworden ist und in was für einem System sie heute arbeiten.\n",
+    "sanitized": "In zweiten Blogbeitrag aus dem \"Themenblock Agile\" stellt die Webentwicklung von heise vor, was aus ihren agilen Ambitionen geworden ist und in was für einem System sie heute arbeiten."
+  },
+  {
+    "itemId": "https://heise.de/-2720960",
+    "raw": "Das Entwicklerteam von heise online berichtet von ihrer agilen Transition der Entwicklungsprozesse und wie dabei das \"heise-Scrum\" entstand.",
+    "sanitized": "Das Entwicklerteam von heise online berichtet von ihrer agilen Transition der Entwicklungsprozesse und wie dabei das \"heise-Scrum\" entstand."
+  },
+  {
+    "itemId": "https://heise.de/-2714063",
+    "raw": "jQuery war besonders zu seiner Anfangszeit ein hilfreiches und fast unumgängliches Tool für die Frontend-Entwicklung. Dadurch hat es auch den Weg tief in unseren Code gefunden. Doch wie wird man es wieder los?",
+    "sanitized": "jQuery war besonders zu seiner Anfangszeit ein hilfreiches und fast unumgängliches Tool für die Frontend-Entwicklung. Dadurch hat es auch den Weg tief in unseren Code gefunden. Doch wie wird man es wieder los?"
+  },
+  {
+    "itemId": "https://heise.de/-2685129",
+    "raw": "Die technischen Möglichkeiten im Web entwickeln sich schnell. Um auf dem aktuellen Stand zu bleiben, muss man sich ständig weiterbilden.",
+    "sanitized": "Die technischen Möglichkeiten im Web entwickeln sich schnell. Um auf dem aktuellen Stand zu bleiben, muss man sich ständig weiterbilden."
+  },
+  {
+    "itemId": "https://heise.de/-2632043",
+    "raw": "Ein derzeit noch experimentelles Feature, das Anwendern von Firefox, Safari und bald auch Chrome ermöglicht, einer Website mitzuteilen, dass sie weniger Bewegung auf der Seite bevorzugen.",
+    "sanitized": "Ein derzeit noch experimentelles Feature, das Anwendern von Firefox, Safari und bald auch Chrome ermöglicht, einer Website mitzuteilen, dass sie weniger Bewegung auf der Seite bevorzugen."
+  },
+  {
+    "itemId": "https://heise.de/-2586108",
+    "raw": "Die heise-Webentwicklung zeigt, wie man mit nativen CSS-Variablen Themes übersichtlich gestalten und dabei auch noch Code einsparen kann.",
+    "sanitized": "Die heise-Webentwicklung zeigt, wie man mit nativen CSS-Variablen Themes übersichtlich gestalten und dabei auch noch Code einsparen kann."
+  },
+  {
+    "itemId": "https://heise.de/-2509256",
+    "raw": "Ein Blick in den Quellcode von heise online fördert seit einiger Zeit kaum noch <img>-Tags zutage, sondern zumeist <a-img>. Was das ist und wieso wir das machen, wollen wir hier einmal erläutern.",
+    "sanitized": "Ein Blick in den Quellcode von heise online fördert seit einiger Zeit kaum noch -Tags zutage, sondern zumeist . Was das ist und wieso wir das machen, wollen wir hier einmal erläutern."
+  },
+  {
+    "itemId": "https://heise.de/-2509211",
+    "raw": "Das Web-Team hinter heise online startet ein Blog und hofft damit, den Usern einige interessante Einblicke in ihre Arbeit geben zu können.",
+    "sanitized": "Das Web-Team hinter heise online startet ein Blog und hofft damit, den Usern einige interessante Einblicke in ihre Arbeit geben zu können."
   }
 ]

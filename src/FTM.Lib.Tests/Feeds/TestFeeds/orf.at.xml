@@ -9,7 +9,7 @@
 <channel rdf:about="https://orf.at/">
    <title>news.ORF.at</title>
    <link>https://orf.at/</link>
-   <dc:date>2025-03-16T20:50:54+01:00</dc:date>
+   <dc:date>2025-06-14T10:40:28+02:00</dc:date>
       <description>Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.</description>
    <dc:publisher>ORF Österreichischer Rundfunk, Wien</dc:publisher>
    <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
@@ -24,329 +24,385 @@
 
    <items>
       <rdf:Seq>
-         <rdf:li rdf:resource="https://orf.at/stories/3387831/" />
+         <rdf:li rdf:resource="https://orf.at/stories/3396736/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387849/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396733/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387846/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396732/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387845/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396730/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387843/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396727/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387819/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396724/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387837/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396723/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387833/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396721/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387830/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396720/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387829/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396719/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387731/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396697/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387822/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396715/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387821/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396490/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387808/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396716/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387817/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396714/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387816/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396713/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387815/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396704/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387814/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396712/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387813/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396706/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387810/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396705/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387809/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396703/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387806/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396700/" />
 
-   <rdf:li rdf:resource="https://orf.at/stories/3387804/" />
+   <rdf:li rdf:resource="https://orf.at/stories/3396646/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3396693/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3396698/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3396652/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3396683/" />
 
 
       </rdf:Seq>
    </items>
 </channel>
-<item rdf:about="https://orf.at/stories/3387831/">
-   <title>USA schieben Hunderte Venezolaner ab</title>
-   <description>Die USA haben ungeachtet einer richterlichen Anordnung mehr als 200 mutmaßliche Mitglieder einer venezolanischen Drogenbande zur Inhaftierung nach El Salvador abgeschoben. US-Präsident Donald Trump hatte die Abschiebung unter Verweis auf ein Gesetz von 1798 angeordnet, ein Richter hatte den Vorstoß jedoch blockiert.</description>
-   <link>https://orf.at/stories/3387831/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T20:50:54+01:00</dc:date>
-
-   <orfon:usid>news:3387831</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387849/">
-   <title>Umfrage: Demokraten in den USA auf neuem Tiefpunkt</title>
+<item rdf:about="https://orf.at/stories/3396736/">
+   <title>Verletzte durch herabfallende Flugobjekte in Jordanien</title>
    
-   <link>https://orf.at/stories/3387849/</link>
+   <link>https://orf.at/stories/3396736/</link>
    <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T20:09:06+01:00</dc:date>
+   <dc:date>2025-06-14T10:40:28+02:00</dc:date>
 
-   <orfon:usid>news:3387849</orfon:usid>
+   <orfon:usid>news:3396736</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387846/">
-   <title>Die Gewinnzahlen von Lotto „6 aus 45“</title>
+<item rdf:about="https://orf.at/stories/3396733/">
+   <title>Selenskyj-Besuch: FPÖ kritisiert Dreierkoalition</title>
    
-   <link>https://orf.at/stories/3387846/</link>
-   <dc:subject>cLotto</dc:subject>
-   <dc:date>2025-03-16T19:31:19+01:00</dc:date>
-
-   <orfon:usid>news:3387846</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Sonstiges" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387845/">
-   <title>Medwedew droht mit Krieg gegen NATO</title>
-   
-   <link>https://orf.at/stories/3387845/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T19:29:02+01:00</dc:date>
-
-   <orfon:usid>news:3387845</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387843/">
-   <title>Ukraine auf dem Rückzug: Meinl-Reisinger zu Gast</title>
-   
-   <link>https://orf.at/stories/3387843/</link>
-   <dc:subject>Medien</dc:subject>
-   <dc:date>2025-03-16T19:15:35+01:00</dc:date>
-
-   <orfon:usid>news:3387843</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:MedienUndWerbung/Medien" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387819/">
-   <title>Pyrotechnik Ursache für Discobrand</title>
-   <description>Nach dem verheerenden Brand in einer Diskothek in Nordmazedonien in der Nacht auf Sonntag ist mittlerweile die Ursache bekannt. Das Feuer wurde von Pyrotechnik ausgelöst, konkret Fackeln, die Funken sprühten. Bei der Katastrophe starben während eines Konzerts 59 Menschen in dem stark überfüllten Club.</description>
-   <link>https://orf.at/stories/3387819/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T18:00:59+01:00</dc:date>
-
-   <orfon:usid>news:3387819</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:story" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387837/">
-   <title>Aussichtsturm in den Niederlanden eingestürzt</title>
-   
-   <link>https://orf.at/stories/3387837/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T17:56:50+01:00</dc:date>
-
-   <orfon:usid>news:3387837</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387833/">
-   <title>Kuba auch nach zwei Tagen weitgehend ohne Strom</title>
-   
-   <link>https://orf.at/stories/3387833/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T16:46:38+01:00</dc:date>
-
-   <orfon:usid>news:3387833</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387830/">
-   <title>Syrien-Konferenz: Österreich will 19,3 Millionen Euro geben</title>
-   
-   <link>https://orf.at/stories/3387830/</link>
+   <link>https://orf.at/stories/3396733/</link>
    <dc:subject>Inland</dc:subject>
-   <dc:date>2025-03-16T16:15:11+01:00</dc:date>
+   <dc:date>2025-06-14T10:29:52+02:00</dc:date>
 
-   <orfon:usid>news:3387830</orfon:usid>
+   <orfon:usid>news:3396733</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387829/">
-   <title>Hunderte Venezolaner von USA nach El Salvador abgeschoben</title>
+<item rdf:about="https://orf.at/stories/3396732/">
+   <title>Atomanlage Fordo: Schäden laut Iran überschaubar</title>
    
-   <link>https://orf.at/stories/3387829/</link>
+   <link>https://orf.at/stories/3396732/</link>
    <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T16:11:37+01:00</dc:date>
+   <dc:date>2025-06-14T10:15:27+02:00</dc:date>
 
-   <orfon:usid>news:3387829</orfon:usid>
+   <orfon:usid>news:3396732</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387731/">
-   <title>Große Wildtierzählung in Sri Lanka</title>
-   <description>Um Ernteschäden durch wilde Tiere zu begrenzen, ist in Sri Lanka am Samstag eine großangelegte Zählung der Affen, Riesenhörnchen und Pfauen über die Bühne gegangen. „Das Problem ist so schlimm geworden, dass die Leute ihre Farmen aufgeben“, so Vizeagrarminister Namal Karunaratne. „Die Zählung ist der erste Schritt, um die Population dieser Tiere in landwirtschaftlichen Gebieten zu verstehen und geeignete Kontrollmaßnahmen zu finden.“</description>
-   <link>https://orf.at/stories/3387731/</link>
+<item rdf:about="https://orf.at/stories/3396730/">
+   <title>US-Marines nahmen erstmals Zivilisten fest</title>
+   <description>Von der Trump-Regierung nach Los Angeles geschickte US-Marineinfanteristen haben am Freitag bei einem seltenen Einsatz im Inland einen Zivilisten festgenommen. Das bestätigte das US-Militär am Samstag nach Vorlage eines Reuters-Videos. Es war die erste bekannte Festnahme durch aktive US-Truppen bei den Protesten gegen Razzien der US-Einwanderungsbehörde ICE in der kalifornischen Großstadt.</description>
+   <link>https://orf.at/stories/3396730/</link>
    <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T16:03:03+01:00</dc:date>
+   <dc:date>2025-06-14T09:40:16+02:00</dc:date>
 
-   <orfon:usid>news:3387731</orfon:usid>
+   <orfon:usid>news:3396730</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:story" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387822/">
-   <title>Trump – Putin: US-Gesandter stellt baldiges Gespräch in Aussicht</title>
+<item rdf:about="https://orf.at/stories/3396727/">
+   <title>Tote bei Überschwemmungen im US-Bundesstaat Texas</title>
    
-   <link>https://orf.at/stories/3387822/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T15:43:20+01:00</dc:date>
+   <link>https://orf.at/stories/3396727/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-06-14T08:39:20+02:00</dc:date>
 
-   <orfon:usid>news:3387822</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:usid>news:3396727</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387821/">
-   <title>Bericht: Huthi-Anführer verlassen Sanaa nach US-Angriff</title>
+<item rdf:about="https://orf.at/stories/3396724/">
+   <title>Schönborn-Nachfolge: Wohl weiterer Vorschlag in Arbeit</title>
    
-   <link>https://orf.at/stories/3387821/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T14:41:57+01:00</dc:date>
+   <link>https://orf.at/stories/3396724/</link>
+   <dc:subject>Religion</dc:subject>
+   <dc:date>2025-06-14T08:13:09+02:00</dc:date>
 
-   <orfon:usid>news:3387821</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:usid>news:3396724</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Religion" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387808/">
-   <title>Badelt warnt vor „demografischer Bombe“</title>
-   <description>Österreich befindet sich in einer anhaltenden Rezession. Doch das von der Regierung geplante Volumen von 6,3 Mrd. Euro 2025 zur Budgetkonsolidierung überzeugt Fiskalratspräsident Christoph Badelt nicht zur Gänze. In der ORF-„Pressestunde“ am Sonntag warnte er vor der „demografischen Bombe“ hinsichtlich der alternden Gesellschaft, wenn in den nächsten Jahren nicht längerfristig geplant und gehandelt würde. Die größten Herausforderungen sieht Badelt in den Bereichen Pensionen, Pflege und Gesundheit.</description>
-   <link>https://orf.at/stories/3387808/</link>
+<item rdf:about="https://orf.at/stories/3396723/">
+   <title>Lehrerausbildung: Wenige spezialisieren sich auf Inklusion</title>
+   
+   <link>https://orf.at/stories/3396723/</link>
    <dc:subject>Inland</dc:subject>
-   <dc:date>2025-03-16T14:00:27+01:00</dc:date>
+   <dc:date>2025-06-14T08:11:10+02:00</dc:date>
 
-   <orfon:usid>news:3387808</orfon:usid>
+   <orfon:usid>news:3396723</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396721/">
+   <title>König Charles III. schlägt David Beckham zum Ritter</title>
+   
+   <link>https://orf.at/stories/3396721/</link>
+   <dc:subject>Leute</dc:subject>
+   <dc:date>2025-06-14T08:02:23+02:00</dc:date>
+
+   <orfon:usid>news:3396721</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/GesellschaftUndLeute" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396720/">
+   <title>„NYT“: Trump schwächt scharfen Migrationskurs ab</title>
+   
+   <link>https://orf.at/stories/3396720/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-14T07:42:21+02:00</dc:date>
+
+   <orfon:usid>news:3396720</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396719/">
+   <title>Amoktat in Graz: Regierung will Maßnahmen beschließen</title>
+   
+   <link>https://orf.at/stories/3396719/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2025-06-14T07:29:55+02:00</dc:date>
+
+   <orfon:usid>news:3396719</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396697/">
+   <title>Erneut gegenseitige Angriffe gemeldet</title>
+   <description>Aus Israel und dem Iran sind in der Nacht auf Samstag erneut gegenseitige Angriffe gemeldet worden. Das israelische Militär erklärte, die Luftstreitkräfte griffen weiterhin Ziele im Iran an – auf beiden Seiten wurden Tote gemeldet. In der iranischen Hauptstadt Teheran war in der Nacht Berichten zufolge wieder die Luftabwehr aktiv. Auch der Flughafen Mehrabad sei getroffen worden.</description>
+   <link>https://orf.at/stories/3396697/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-14T07:21:47+02:00</dc:date>
+
+   <orfon:usid>news:3396697</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:story" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387817/">
-   <title>Deutschland: Mann zündet Frau in Straßenbahn an</title>
-   
-   <link>https://orf.at/stories/3387817/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T13:45:36+01:00</dc:date>
-
-   <orfon:usid>news:3387817</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387816/">
-   <title>Schmuggel von 73 Tonnen Kokain nach Europa aufgeflogen</title>
-   
-   <link>https://orf.at/stories/3387816/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T13:22:19+01:00</dc:date>
-
-   <orfon:usid>news:3387816</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387815/">
-   <title>Russland: Über 370 Zivilisten aus Region Kursk weggebracht</title>
-   
-   <link>https://orf.at/stories/3387815/</link>
+<item rdf:about="https://orf.at/stories/3396715/">
+   <title>Iran feuerte Raketen, Israel traf Atomanlagen</title>
+   <description>Nach dem israelischen Großangriff am Freitag hat der Iran am Abend Raketen auf Israel abgefeuert. Israelische Medien meldeten mehr als 60 Verletzte. Israels Armee attackierte ihrerseits weitere Ziele im Iran, laut Teheran wurden fast 80 Menschen getötet. Zudem wurden nach Angaben der die Internationalen Atomenergiebehörde (IAEA) drei iranische Atomzentren getroffen. In Natans seien Teile einer Anlage zerstört worden.</description>
+   <link>https://orf.at/stories/3396715/</link>
    <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T13:06:35+01:00</dc:date>
+   <dc:date>2025-06-14T00:10:42+02:00</dc:date>
 
-   <orfon:usid>news:3387815</orfon:usid>
+   <orfon:usid>news:3396715</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387814/">
-   <title>VW-Familien dementieren Verkaufspläne für Aktien</title>
-   
-   <link>https://orf.at/stories/3387814/</link>
-   <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-03-16T13:04:04+01:00</dc:date>
-
-   <orfon:usid>news:3387814</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Unternehmensberichterstattung" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387813/">
-   <title>Burkina Fasos Regierung bestreitet Beteiligung an Massaker</title>
-   
-   <link>https://orf.at/stories/3387813/</link>
-   <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T13:01:03+01:00</dc:date>
-
-   <orfon:usid>news:3387813</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
-</item>
-
-<item rdf:about="https://orf.at/stories/3387810/">
-   <title>Griechenland zwischen Schnee und 31 Grad</title>
-   
-   <link>https://orf.at/stories/3387810/</link>
+<item rdf:about="https://orf.at/stories/3396490/">
+   <title>‚Ermutigender Fortschritt‘ bei Ozeankonferenz</title>
+   <description>In Nizza an der französischen Mittelmeer-Küste ist am Freitag die UNO-Ozeankonferenz zu Ende gegangen – mit einem „ermutigenden Fortschritt“, wie es seitens der NGO OceanCare heißt. Im Mittelpunkt stand vor allem eine mögliche Ratifizierung des Hochseeabkommens, das eine Ausweitung der Meeresschutzgebiete vorsieht. Schutz, der angesichts des Zustands der Weltmeere dringend notwendig ist.</description>
+   <link>https://orf.at/stories/3396490/</link>
    <dc:subject>Umwelt</dc:subject>
-   <dc:date>2025-03-16T12:13:20+01:00</dc:date>
+   <dc:date>2025-06-13T21:55:25+02:00</dc:date>
 
-   <orfon:usid>news:3387810</orfon:usid>
+   <orfon:usid>news:3396490</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
-   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387809/">
-   <title>Vucic nach Protesten in Serbien mehr und mehr unter Druck</title>
+<item rdf:about="https://orf.at/stories/3396716/">
+   <title>Marines kommen in Los Angeles zum Einsatz</title>
    
-   <link>https://orf.at/stories/3387809/</link>
+   <link>https://orf.at/stories/3396716/</link>
    <dc:subject>Ausland</dc:subject>
-   <dc:date>2025-03-16T11:46:07+01:00</dc:date>
+   <dc:date>2025-06-13T21:46:29+02:00</dc:date>
 
-   <orfon:usid>news:3387809</orfon:usid>
+   <orfon:usid>news:3396716</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387806/">
-   <title>Panama zeitweise ohne Strom und Trinkwasser</title>
+<item rdf:about="https://orf.at/stories/3396714/">
+   <title>Ägypten stoppt weitere Aktivisten auf Gaza-Protestmarsch</title>
    
-   <link>https://orf.at/stories/3387806/</link>
-   <dc:subject>Chronik</dc:subject>
-   <dc:date>2025-03-16T11:00:37+01:00</dc:date>
+   <link>https://orf.at/stories/3396714/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T21:33:24+02:00</dc:date>
 
-   <orfon:usid>news:3387806</orfon:usid>
+   <orfon:usid>news:3396714</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396713/">
+   <title>IAEA: Atomanlage in Natans teilweise zerstört</title>
+   
+   <link>https://orf.at/stories/3396713/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T21:03:05+02:00</dc:date>
+
+   <orfon:usid>news:3396713</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396704/">
+   <title>Iran feuert Raketen auf Israel ab</title>
+   <description>Der Iran hat Freitagabend Raketen auf Israel abgefeuert. In mehreren Landesteilen gab es Luftalarm, Medien meldeten mehr als 40 Verletzte. Israels Streitkräfte setzten ihre Angriffe unterdessen fort. Laut der israelischen Armee wurde dabei eine Atomanlage in der Stadt Isfahan „zerstört“. Nach iranischen Angaben starben bei den Angriffen 78 Menschen, darunter hochrangige Militärs.</description>
+   <link>https://orf.at/stories/3396704/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T20:44:36+02:00</dc:date>
+
+   <orfon:usid>news:3396704</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396712/">
+   <title>Israelische Armee meldet Raketenbeschuss aus Iran</title>
+   
+   <link>https://orf.at/stories/3396712/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T20:24:06+02:00</dc:date>
+
+   <orfon:usid>news:3396712</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396706/">
+   <title>Bericht: US-Militär verlegt Zerstörer Richtung Israel</title>
+   
+   <link>https://orf.at/stories/3396706/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T19:46:29+02:00</dc:date>
+
+   <orfon:usid>news:3396706</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396705/">
+   <title>Israel: Tötung von iranischer Führung „derzeit“ nicht geplant</title>
+   
+   <link>https://orf.at/stories/3396705/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T19:31:30+02:00</dc:date>
+
+   <orfon:usid>news:3396705</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396703/">
+   <title>Neue israelische Angriffe gegen Iran</title>
+   
+   <link>https://orf.at/stories/3396703/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T18:17:35+02:00</dc:date>
+
+   <orfon:usid>news:3396703</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396700/">
+   <title>Überlebender schilderte Air-India-Absturz</title>
+   
+   <link>https://orf.at/stories/3396700/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2025-06-13T17:40:56+02:00</dc:date>
+
+   <orfon:usid>news:3396700</orfon:usid>
    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 
-<item rdf:about="https://orf.at/stories/3387804/">
-   <title>Magna in Graz soll Aufträge aus China erhalten</title>
-   
-   <link>https://orf.at/stories/3387804/</link>
-   <dc:subject>Wirtschaft</dc:subject>
-   <dc:date>2025-03-16T10:44:01+01:00</dc:date>
+<item rdf:about="https://orf.at/stories/3396646/">
+   <title>Israels schwerer Schlag gegen Iran</title>
+   <description>Nach dem schweren israelischen Angriff auf den Iran – der in weiteren Wellen fortgesetzt wird – werden langsam Details bekannt. 200 Kampfflugzeuge und Mossad-Agenten mitten im Iran waren am nächtlichen Erstschlag beteiligt. Der militärisch äußerst komplexe Angriff hat den Iran schwer getroffen. Offen ist, ob Israel mit der faktischen Kriegserklärung an Teheran sein zentrales Ziel erreichen kann.</description>
+   <link>https://orf.at/stories/3396646/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T17:37:40+02:00</dc:date>
 
-   <orfon:usid>news:3387804</orfon:usid>
-   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft/Wirtschaftspolitik" />
+   <orfon:usid>news:3396646</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396693/">
+   <title>Die Ziele der israelischen Armee im Iran</title>
+   <description>Bei dem Überraschungsangriff auf den Iran hat Israel mehrere Atomanlagen attackiert, Nuklearwissenschaftler getötet sowie hochrangige Militärs. Israels Premier Benjamin Netanjahu sprach vom Start einer gezielten Militäroperation, die länger andauern werde. Der Iran wertete den Schlag als „Kriegserklärung“ durch Israel. Freitagabend meldete der Iran neue Angriffe.</description>
+   <link>https://orf.at/stories/3396693/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T17:37:39+02:00</dc:date>
+
+   <orfon:usid>news:3396693</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396698/">
+   <title>Dringlichkeitssitzung des UNO-Sicherheitsrats zu Iran</title>
+   
+   <link>https://orf.at/stories/3396698/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T17:10:47+02:00</dc:date>
+
+   <orfon:usid>news:3396698</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396652/">
+   <title>Pro und Kontra vor Höchstgericht</title>
+   <description>Gesunde Frauen dürfen ihre Eizellen in Österreich nicht für eine spätere Befruchtung einfrieren lassen. Mit der Frage, ob das Verbot des „Social Egg Freezing“ verfassungswidrig ist, beschäftigte sich am Freitag der Verfassungsgerichtshof (VfGH). Die Antragstellerin argumentiert mit dem Recht auf Achtung des Privat- und Familienlebens, die Regierung damit, dass niemand zu diesem Prozedere gedrängt werden soll. Mit einer Entscheidung vor dem Herbst ist nicht zu rechnen.</description>
+   <link>https://orf.at/stories/3396652/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2025-06-13T16:47:16+02:00</dc:date>
+
+   <orfon:usid>news:3396652</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3396683/">
+   <title>Russland übergab 1.200 Kriegstote an Ukraine</title>
+   
+   <link>https://orf.at/stories/3396683/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2025-06-13T15:35:32+02:00</dc:date>
+
+   <orfon:usid>news:3396683</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
 </item>
 

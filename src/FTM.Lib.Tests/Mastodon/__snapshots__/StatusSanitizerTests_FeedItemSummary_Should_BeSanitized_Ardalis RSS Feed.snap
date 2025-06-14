@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/genai-is-the-new-offshoring/",
+    "raw": "I originally posted this on LinkedIn / BlueSky but I've found that it's nearly impossible to find (searching for \"AI is the new offshoring…",
+    "sanitized": "I originally posted this on LinkedIn / BlueSky but I've found that it's nearly impossible to find (searching for \"AI is the new offshoring…"
+  },
+  {
+    "itemId": "https://ardalis.com/genai-coding-investment-risk-strategy/",
+    "raw": "Generative AI tools have greatly improved in their ability to generate large amounts of code, quickly, to support software development tasks…",
+    "sanitized": "Generative AI tools have greatly improved in their ability to generate large amounts of code, quickly, to support software development tasks…"
+  },
+  {
     "itemId": "https://ardalis.com/ardalis-specification-v9-release/",
     "raw": "A new major version of the Ardalis Specification library has been released. This library is used to create and compose specifications for…",
     "sanitized": "A new major version of the Ardalis Specification library has been released. This library is used to create and compose specifications for…"
@@ -36,16 +46,6 @@
   },
   {
     "itemId": "https://ardalis.com/navigation-properties-between-aggregates-modules/",
-    "raw": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…",
-    "sanitized": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…"
-  },
-  {
-    "itemId": "https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/",
-    "raw": "Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…",
-    "sanitized": "Writing maintainable code should be a goal in most software engineering projects. Although definitions and especially hard measurements of…"
-  },
-  {
-    "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
     "raw": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…",
     "sanitized": "One of the key challenges in developing a modular monolith is managing the communication between different modules, especially when it comes…"
   }

@@ -605,7 +605,17 @@
     "sanitized": null
   },
   {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/",
     "raw": null,
     "sanitized": null
   },
@@ -616,6 +626,11 @@
   },
   {
     "itemId": "https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/",
     "raw": null,
     "sanitized": null
   },

@@ -1,5 +1,60 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2025/06/11/release-20256",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/09/roadmap-2025h1",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/07/release-20255",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/24/community-day",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/02/release-20254",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha",
+    "raw": null,
+    "sanitized": null
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/26/state-of-the-open-home-2025-announcement",
+    "raw": null,
+    "sanitized": null
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
     "raw": null,
     "sanitized": null
@@ -41,61 +96,6 @@
   },
   {
     "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/16/community-survey-2024",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/04/release-202412",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/30/the-month-of-what-the-heck",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/18/event-wrapup-github-universe-24",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/15/roadmap-2024h2",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/06/release-202411",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/24/wake-word-collective",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/02/connect-zbt1-issue-and-replacement",
-    "raw": null,
-    "sanitized": null
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/02/release-202410",
     "raw": null,
     "sanitized": null
   }

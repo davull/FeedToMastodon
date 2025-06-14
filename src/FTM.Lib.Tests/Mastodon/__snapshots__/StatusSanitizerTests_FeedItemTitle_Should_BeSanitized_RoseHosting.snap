@@ -1,42 +1,42 @@
 ﻿[
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49990",
-    "raw": "What is a Loopback Address and How Does it Work?",
-    "sanitized": "What is a Loopback Address and How Does it Work?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50362",
+    "raw": "How to Install Java 21 on AlmaLinux 10",
+    "sanitized": "How to Install Java 21 on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49974",
-    "raw": "ERR_NAME_NOT_RESOLVED and How To Fix It?",
-    "sanitized": "ERR_NAME_NOT_RESOLVED and How To Fix It?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50355",
+    "raw": "How to Install MariaDB on Debian 13",
+    "sanitized": "How to Install MariaDB on Debian 13"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49968",
-    "raw": "How to Create and Use .htpasswd",
-    "sanitized": "How to Create and Use .htpasswd"
+    "itemId": "https://www.rosehosting.com/blog/?p=50351",
+    "raw": "How to Enable HTTPS Protocol on AlmaLinux 10",
+    "sanitized": "How to Enable HTTPS Protocol on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49905",
-    "raw": "What is virtualization and how does it benefit your server?",
-    "sanitized": "What is virtualization and how does it benefit your server?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50335",
+    "raw": "How to Install PostgreSQL on AlmaLinux 10",
+    "sanitized": "How to Install PostgreSQL on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49951",
-    "raw": "How to Fix the “Error establishing a Redis connection” error?",
-    "sanitized": "How to Fix the “Error establishing a Redis connection” error?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50318",
+    "raw": "How to Install MySQL on AlmaLinux 10",
+    "sanitized": "How to Install MySQL on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49837",
-    "raw": "How to Install MongoDB on Ubuntu 24.04",
-    "sanitized": "How to Install MongoDB on Ubuntu 24.04"
+    "itemId": "https://www.rosehosting.com/blog/?p=50311",
+    "raw": "How to Install Odoo 18 on AlmaLinux 10",
+    "sanitized": "How to Install Odoo 18 on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49901",
-    "raw": "What is the ERR_CONNECTION_RESET Error and how to fix it?",
-    "sanitized": "What is the ERR_CONNECTION_RESET Error and how to fix it?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50302",
+    "raw": "How to Install MariaDB on AlmaLinux 10",
+    "sanitized": "How to Install MariaDB on AlmaLinux 10"
   },
   {
-    "itemId": "https://www.rosehosting.com/blog/?p=49811",
-    "raw": "What is an SPF Record?",
-    "sanitized": "What is an SPF Record?"
+    "itemId": "https://www.rosehosting.com/blog/?p=50258",
+    "raw": "How to Install Node.js on AlmaLinux 10",
+    "sanitized": "How to Install Node.js on AlmaLinux 10"
   }
 ]

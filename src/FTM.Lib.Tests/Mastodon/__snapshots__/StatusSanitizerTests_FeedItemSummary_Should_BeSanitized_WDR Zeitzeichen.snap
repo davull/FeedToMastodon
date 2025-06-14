@@ -1,5 +1,460 @@
 ﻿[
   {
+    "itemId": "/wdr_zeitzeichen_20250614_7f6dbd7e.mp3",
+    "raw": "Am 14.6.1585 beginnt der Missionar Luis Froís mit Berichten über das ferne Japan. 440 Jahre später taucht der Portugiese wieder auf: im Videospiel Assassin's Creed. Von Veronika Bock ;Ulrich Biermann.",
+    "sanitized": "Am 14.6.1585 beginnt der Missionar Luis Froís mit Berichten über das ferne Japan. 440 Jahre später taucht der Portugiese wieder auf: im Videospiel Assassin's Creed. Von Veronika Bock ;Ulrich Biermann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250613_e261cd56.mp3",
+    "raw": "Martin Buber spricht unbequeme Dinge aus, eckt politisch und in Religionsfragen an. Und er streckt im Dialog eine Hand der Versöhnung aus. Am 13.6.1965 stirbt Buber. Von Marfa Heimbach.",
+    "sanitized": "Martin Buber spricht unbequeme Dinge aus, eckt politisch und in Religionsfragen an. Und er streckt im Dialog eine Hand der Versöhnung aus. Am 13.6.1965 stirbt Buber. Von Marfa Heimbach."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250612_4f05f9b8.mp3",
+    "raw": "Ein gegnerisches Foul macht ihn am 12.6.1930 zum Weltmeister. Erst dafür verspottet, wird Schmeling dann doch zum Jahrhundertboxer – und zum Propaganda-Liebling der Nazis. Von Burkhard Hupe.",
+    "sanitized": "Ein gegnerisches Foul macht ihn am 12.6.1930 zum Weltmeister. Erst dafür verspottet, wird Schmeling dann doch zum Jahrhundertboxer – und zum Propaganda-Liebling der Nazis. Von Burkhard Hupe."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250611_664bac03.mp3",
+    "raw": "Mit einer geschenkten Kamera stürzt sich Julia Margaret Cameron (geboren am 11.6.1815) in ein künstlerisches Abenteuer. Sie wird zur wichtigsten Fotopionierin des viktorianischen Zeitalters. Von Andrea Klasen.",
+    "sanitized": "Mit einer geschenkten Kamera stürzt sich Julia Margaret Cameron (geboren am 11.6.1815) in ein künstlerisches Abenteuer. Sie wird zur wichtigsten Fotopionierin des viktorianischen Zeitalters. Von Andrea Klasen."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250610_52d0bd31.mp3",
+    "raw": "Geboren wird Hattie McDaniel am 10.6.1895 - und zum Hollywood-Star. Als erste Person of Color holt sie einen Oscar - und wird wegen ihrer Hautfarbe doch immer wieder ausgegrenzt. Von Christiane Kopka.",
+    "sanitized": "Geboren wird Hattie McDaniel am 10.6.1895 - und zum Hollywood-Star. Als erste Person of Color holt sie einen Oscar - und wird wegen ihrer Hautfarbe doch immer wieder ausgegrenzt. Von Christiane Kopka."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250609_23f273f6.mp3",
+    "raw": "Monatelang feiern Europas Mächtige nach Napoleons Niederlage und verhandeln die Grenzen auf dem Kontinent neu. Erst als er zurückkehrt, einigt man sich eilig (am 9.6.1815). Von Herwig Katzer.",
+    "sanitized": "Monatelang feiern Europas Mächtige nach Napoleons Niederlage und verhandeln die Grenzen auf dem Kontinent neu. Erst als er zurückkehrt, einigt man sich eilig (am 9.6.1815). Von Herwig Katzer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250608_4a5cb3c4.mp3",
+    "raw": "Andrew Jackson (gestorben am 8.6.1845) war der 7. US-Präsident, von vielen als \"Old Hickory\" verehrt. Andere halten seine zwei Amtszeiten für katastrophal - und sehen Ähnlichkeiten zu Donald Trump... Von Irene Geuer.",
+    "sanitized": "Andrew Jackson (gestorben am 8.6.1845) war der 7. US-Präsident, von vielen als \"Old Hickory\" verehrt. Andere halten seine zwei Amtszeiten für katastrophal - und sehen Ähnlichkeiten zu Donald Trump... Von Irene Geuer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250607_bf9ffab9.mp3",
+    "raw": "12.000 Menschen, davon zwei Könige und viel Glanz, Gold und Gloria: Im Juni 1520 findet auf einem windigen Feld in Frankreich das wohl prächtigste Ritterturnier des Spätmittelalters statt. Von Ralph Erdenberger.",
+    "sanitized": "12.000 Menschen, davon zwei Könige und viel Glanz, Gold und Gloria: Im Juni 1520 findet auf einem windigen Feld in Frankreich das wohl prächtigste Ritterturnier des Spätmittelalters statt. Von Ralph Erdenberger."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250606_849a04a2.mp3",
+    "raw": "Die \"Buddenbrooks\" machen ihn berühmt, seine politischen Schriften heimatlos. In Jahrhundertbüchern verarbeitet Mann Leben und Zeitgeschichte - und wird dafür lange geächtet. Von Irene Dänzer-Vanotti.",
+    "sanitized": "Die \"Buddenbrooks\" machen ihn berühmt, seine politischen Schriften heimatlos. In Jahrhundertbüchern verarbeitet Mann Leben und Zeitgeschichte - und wird dafür lange geächtet. Von Irene Dänzer-Vanotti."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250605_0f6de9ef.mp3",
+    "raw": "30 bis 50 Prozent aller Kinder starben im Mittelalter vor dem Erwachsenwerden. Doch die These, Eltern hätten ihre Kinder generell vernachlässigt, ist inzwischen widerlegt. Von Maren Gottschalk.",
+    "sanitized": "30 bis 50 Prozent aller Kinder starben im Mittelalter vor dem Erwachsenwerden. Doch die These, Eltern hätten ihre Kinder generell vernachlässigt, ist inzwischen widerlegt. Von Maren Gottschalk."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250604_41a525c2.mp3",
+    "raw": "Der Vormarsch der Wehrmacht überrascht die britischen Truppen in Frankreich. Mit letzter Not können sie am 4.6.1940 aus dem eingeschlossenen Dünkirchen gerettet werden. Von Christoph Tiemann.",
+    "sanitized": "Der Vormarsch der Wehrmacht überrascht die britischen Truppen in Frankreich. Mit letzter Not können sie am 4.6.1940 aus dem eingeschlossenen Dünkirchen gerettet werden. Von Christoph Tiemann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250603_79771ef4.mp3",
+    "raw": "Paulette Goddard wird in den 1930er-Jahren als Filmpartnerin Charlie Chaplins weltberühmt. Zeitlebens versteht sie es, Glamour und Geist zu verbinden. Von Melahat Simsek.",
+    "sanitized": "Paulette Goddard wird in den 1930er-Jahren als Filmpartnerin Charlie Chaplins weltberühmt. Zeitlebens versteht sie es, Glamour und Geist zu verbinden. Von Melahat Simsek."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250602_7f6a756d.mp3",
+    "raw": "14 Tage lang plündern die Vandalen im Juni 455 Rom. Doch mit Vandalismus hat das kaum etwas zu tun - die Männer von Anführer Geiserich gehen methodisch und gesittet vor. Von Heiner Wember.",
+    "sanitized": "14 Tage lang plündern die Vandalen im Juni 455 Rom. Doch mit Vandalismus hat das kaum etwas zu tun - die Männer von Anführer Geiserich gehen methodisch und gesittet vor. Von Heiner Wember."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250601_1b7d4956.mp3",
+    "raw": "Es ist die große Sensation der Unterwasserarchäologie: Im Juni 2000 findet der Franzose Franck Goddio im Mittelmeer die Reste der antiken Stadt Thonis-Heraklion. Von Marfa Heimbach.",
+    "sanitized": "Es ist die große Sensation der Unterwasserarchäologie: Im Juni 2000 findet der Franzose Franck Goddio im Mittelmeer die Reste der antiken Stadt Thonis-Heraklion. Von Marfa Heimbach."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250531_174303ae.mp3",
+    "raw": "Clint Eastwood (am 31.5.1930 geboren) ist eine US-Filmikone: als Schauspieler verehrt, als Regisseur gefeiert – und ein Mann voller Widersprüche. Von Christian Kosfeld.",
+    "sanitized": "Clint Eastwood (am 31.5.1930 geboren) ist eine US-Filmikone: als Schauspieler verehrt, als Regisseur gefeiert – und ein Mann voller Widersprüche. Von Christian Kosfeld."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250530_a7a50dbf.mp3",
+    "raw": "Seine ersten Flugstunden sammelt Manfred von Richthofen ab de, 30.5.1915 als Luftbeobachter. Doch der Adlige will vor allem Ruhm und Orden. Und so wechselt er bald auf den Pilotensitz. Von Raoul Moerchen.",
+    "sanitized": "Seine ersten Flugstunden sammelt Manfred von Richthofen ab de, 30.5.1915 als Luftbeobachter. Doch der Adlige will vor allem Ruhm und Orden. Und so wechselt er bald auf den Pilotensitz. Von Raoul Moerchen."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250529_2154b4d8.mp3",
+    "raw": "Mehr Rebellion passt kaum in ein Leben: Louise Michel, geboren am 29.5.1830, war Lehrerin, Frauenrechtlerin, Soldatin, Schriftstellerin – eine unangepasste Persönlichkeit. Von Sabine Mann.",
+    "sanitized": "Mehr Rebellion passt kaum in ein Leben: Louise Michel, geboren am 29.5.1830, war Lehrerin, Frauenrechtlerin, Soldatin, Schriftstellerin – eine unangepasste Persönlichkeit. Von Sabine Mann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250528_f4ade533.mp3",
+    "raw": "Der Mythos \"Zauberer von Oz\": Das Buch von Lyman Frank Baum ist jetzt 125 Jahre alt (erschienen: 28.5.1900) - seine Motive sind feste Bestandteile der Popkultur. Von Christiane Kopka.",
+    "sanitized": "Der Mythos \"Zauberer von Oz\": Das Buch von Lyman Frank Baum ist jetzt 125 Jahre alt (erschienen: 28.5.1900) - seine Motive sind feste Bestandteile der Popkultur. Von Christiane Kopka."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250527_f3eecfcc.mp3",
+    "raw": "Es ist der erste Sieg asiatischer Truppen über eine europäische Großmacht: Japan versenkt am 27.5.1905 Russlands Flotte. Damit endet der Russisch-Japanische Krieg. Von Michael Struck-Schloen.",
+    "sanitized": "Es ist der erste Sieg asiatischer Truppen über eine europäische Großmacht: Japan versenkt am 27.5.1905 Russlands Flotte. Damit endet der Russisch-Japanische Krieg. Von Michael Struck-Schloen."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250526_25f4f9db.mp3",
+    "raw": "Die Eroberung des \"Wilden Westens\" durch weiße Siedler war oft keine Heldengeschichte, wie wir sie aus vielen Filmen kennen. Ein Gesetz zur Umsiedlung der Indianerstämme vom 28.5.1830 löste eine ethnische Säuberung aus. Von Almut Finck.",
+    "sanitized": "Die Eroberung des \"Wilden Westens\" durch weiße Siedler war oft keine Heldengeschichte, wie wir sie aus vielen Filmen kennen. Ein Gesetz zur Umsiedlung der Indianerstämme vom 28.5.1830 löste eine ethnische Säuberung aus. Von Almut Finck."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250525_ab9fc29d.mp3",
+    "raw": "Bis zu 90.000 Musikfans, Weltstars in der Eifel, Rock´n´Roll bei jedem Wetter: Das alles begründet den Kult um Deutschlands erstes großes Rockmusik-Festival. Von Amy Zayed.",
+    "sanitized": "Bis zu 90.000 Musikfans, Weltstars in der Eifel, Rock´n´Roll bei jedem Wetter: Das alles begründet den Kult um Deutschlands erstes großes Rockmusik-Festival. Von Amy Zayed."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250524_4c284de9.mp3",
+    "raw": "Florence Dixie, geboren am 24.5.1855, ist eine ungewöhnliche viktorianische Lady. Sie reitet durch Patagonien, schreibt Bestseller, kämpft für Tier- und Frauenrechte. Von Claudia Friedrich.",
+    "sanitized": "Florence Dixie, geboren am 24.5.1855, ist eine ungewöhnliche viktorianische Lady. Sie reitet durch Patagonien, schreibt Bestseller, kämpft für Tier- und Frauenrechte. Von Claudia Friedrich."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250523_edab4a8e.mp3",
+    "raw": "Miguel de Cervantes' \"Don Quijote\" (1605/1615) wird bei einer Wahl von 2002 zum \"besten Buch der Welt\" erklärt - und wirkt heute aktueller, als man denkt. Von Daniela Wakonigg.",
+    "sanitized": "Miguel de Cervantes' \"Don Quijote\" (1605/1615) wird bei einer Wahl von 2002 zum \"besten Buch der Welt\" erklärt - und wirkt heute aktueller, als man denkt. Von Daniela Wakonigg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250522_e12a5329.mp3",
+    "raw": "Im Jahr 1895 erwirbt Johann Weck das Patent zur luftdichten Lagerung von Lebensmitteln. Die werden praktisch unbegrenzt haltbar durch das nach ihm benannte Einwecken. Von Martina Meißner.",
+    "sanitized": "Im Jahr 1895 erwirbt Johann Weck das Patent zur luftdichten Lagerung von Lebensmitteln. Die werden praktisch unbegrenzt haltbar durch das nach ihm benannte Einwecken. Von Martina Meißner."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250521_927ce357.mp3",
+    "raw": "Der Gerichtssaal wird eigens für diesen Prozess gebaut: Am 21.5.1975 beginnt die Verhandlung gegen die RAF-Terroristen um Andreas Baader in Stuttgart-Stammheim. Von Christopher Heimer.",
+    "sanitized": "Der Gerichtssaal wird eigens für diesen Prozess gebaut: Am 21.5.1975 beginnt die Verhandlung gegen die RAF-Terroristen um Andreas Baader in Stuttgart-Stammheim. Von Christopher Heimer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250520_83bc69ed.mp3",
+    "raw": "Am 20.3.1980 gelingt es dem Kameramann Jürgen Hinzpeter unter Lebensgefahr, das Militärmassaker im südkoreanischen Gwangju zu dokumentieren. Dabei sollte die Welt davon nichts erfahren. Von Thomas Mau.",
+    "sanitized": "Am 20.3.1980 gelingt es dem Kameramann Jürgen Hinzpeter unter Lebensgefahr, das Militärmassaker im südkoreanischen Gwangju zu dokumentieren. Dabei sollte die Welt davon nichts erfahren. Von Thomas Mau."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250519_78cc4335.mp3",
+    "raw": "Als Nguyen Sinh Cung wird er am 19. Mai 1890 in einem nordvietnamesischen Dorf geboren. Als Ho Chi Minh, den Revolutionär und Freiheitskämpfer, kennt ihn bis heute die Welt. Von Andrea Kath.",
+    "sanitized": "Als Nguyen Sinh Cung wird er am 19. Mai 1890 in einem nordvietnamesischen Dorf geboren. Als Ho Chi Minh, den Revolutionär und Freiheitskämpfer, kennt ihn bis heute die Welt. Von Andrea Kath."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250518_0fd40ff5.mp3",
+    "raw": "Sie wird als Opernstar berühmt, komponiert aber lieber. Viardot vereint Musikstile Europas, ist politisch - und so modern, dass höhere Damen schon mal den Saal verlassen. Von Christoph Vratz.",
+    "sanitized": "Sie wird als Opernstar berühmt, komponiert aber lieber. Viardot vereint Musikstile Europas, ist politisch - und so modern, dass höhere Damen schon mal den Saal verlassen. Von Christoph Vratz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250517_f8c4bcea.mp3",
+    "raw": "Mit einem Papyrusfloß über den Atlantik - mit dieser abenteuerlichen Reise beweist Thor Heyerdahl, dass schon in der Antike hochseetaugliche Boote gebaut wurden - und lernt viel über die Verschmutzung der Meere. Von Andrea Kath.",
+    "sanitized": "Mit einem Papyrusfloß über den Atlantik - mit dieser abenteuerlichen Reise beweist Thor Heyerdahl, dass schon in der Antike hochseetaugliche Boote gebaut wurden - und lernt viel über die Verschmutzung der Meere. Von Andrea Kath."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250516_4f4760ff.mp3",
+    "raw": "Am 16. Mai 1770 heiratet die 14-jährige Marie Antoinette Frankreichs Thronfolger. Was als prachtvolles Bündnis zwischen Habsburg und Bourbon beginnt, endet auf dem Schafott. Von Edda Dammmüller.",
+    "sanitized": "Am 16. Mai 1770 heiratet die 14-jährige Marie Antoinette Frankreichs Thronfolger. Was als prachtvolles Bündnis zwischen Habsburg und Bourbon beginnt, endet auf dem Schafott. Von Edda Dammmüller."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250515_c5a280a1.mp3",
+    "raw": "Am 15.5.1940 beginnt die Fast-Food-Revolution. Der Erfolg kommt, als sie auf Fließbandproduktion ihrer Burger umstellen. Doch am Ende macht ihr eigener Laden pleite. Von Kay Bandermann.",
+    "sanitized": "Am 15.5.1940 beginnt die Fast-Food-Revolution. Der Erfolg kommt, als sie auf Fließbandproduktion ihrer Burger umstellen. Doch am Ende macht ihr eigener Laden pleite. Von Kay Bandermann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250514_fa7ab7af.mp3",
+    "raw": "Ebertin (geb. am 14.5.1880) wird mit ihren Horoskopen in der Weimarer Republik berühmt. Sie deutet die Sterne für Bulgariens König und Hitler - bis die Gestapo sie festnimmt. Von Heide Soltau.",
+    "sanitized": "Ebertin (geb. am 14.5.1880) wird mit ihren Horoskopen in der Weimarer Republik berühmt. Sie deutet die Sterne für Bulgariens König und Hitler - bis die Gestapo sie festnimmt. Von Heide Soltau."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250513_7dc08664.mp3",
+    "raw": "Heute ist die Berliner Charité Deutschlands berühmtestes Krankenhaus. Gegründet wurde sie 1710 als Quarantänehaus für Pestkranke, übrigens mit eigener Brauerei. Von Thomas Klug.",
+    "sanitized": "Heute ist die Berliner Charité Deutschlands berühmtestes Krankenhaus. Gegründet wurde sie 1710 als Quarantänehaus für Pestkranke, übrigens mit eigener Brauerei. Von Thomas Klug."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250512_7539e0df.mp3",
+    "raw": "In ihren Gedichten thematisiert sie Leiden und Hoffnung des jüdischen Volkes nach dem Holocaust: die Schriftstellerin Nelly Sachs. Am 12.5.1970 stirbt sie mit 78 Jahren. Von Monika Buschey.",
+    "sanitized": "In ihren Gedichten thematisiert sie Leiden und Hoffnung des jüdischen Volkes nach dem Holocaust: die Schriftstellerin Nelly Sachs. Am 12.5.1970 stirbt sie mit 78 Jahren. Von Monika Buschey."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250511_39018ffa.mp3",
+    "raw": "Am 11. Mai 1960 entführen israelische Agenten einen Deutschen aus Argentinien. Nicht irgend einen. Es ist der Nazi-Verbrecher Adolf Eichmann, einer der Hauptorganisatoren des Holocaust. Von Ulli Schäfer.",
+    "sanitized": "Am 11. Mai 1960 entführen israelische Agenten einen Deutschen aus Argentinien. Nicht irgend einen. Es ist der Nazi-Verbrecher Adolf Eichmann, einer der Hauptorganisatoren des Holocaust. Von Ulli Schäfer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250510_ede772b6.mp3",
+    "raw": "Mitten im Bauernkrieg 1525 bezieht Martin Luther Stellung - gegen die unterdrückten Bauern und für die herrschende Klasse. Ein Wendepunkt der Reformation. Von Tobias Sauer.",
+    "sanitized": "Mitten im Bauernkrieg 1525 bezieht Martin Luther Stellung - gegen die unterdrückten Bauern und für die herrschende Klasse. Ein Wendepunkt der Reformation. Von Tobias Sauer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250509_d527df31.mp3",
+    "raw": "Einer geht nach Hollywood, singt, wird berühmt: Eine nahezu gewöhnliche Geschichte - wäre der Star darin nicht ein sprechender Frosch. Von Ralph Erdenberger.",
+    "sanitized": "Einer geht nach Hollywood, singt, wird berühmt: Eine nahezu gewöhnliche Geschichte - wäre der Star darin nicht ein sprechender Frosch. Von Ralph Erdenberger."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250508_e8dbb6d6.mp3",
+    "raw": "Für viele Deutsche kommt die Kapitulation am 8.5.1945 als Katastrophe. 40 Jahre später deutet Richard von Weizsäcker sie zur Befreiung um und gibt damit der kollektiven Erinnerung eine neue Richtung. Von Almut Finck.",
+    "sanitized": "Für viele Deutsche kommt die Kapitulation am 8.5.1945 als Katastrophe. 40 Jahre später deutet Richard von Weizsäcker sie zur Befreiung um und gibt damit der kollektiven Erinnerung eine neue Richtung. Von Almut Finck."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250507_21d66c57.mp3",
+    "raw": "War er der echte \"van Helsing\"? Gerard van Swieten ist als Leibarzt Maria Theresias der ranghöchste Mediziner Österreichs. Bekannt wird er aber als Vampirjäger, der die Popkultur beeinflusst. Von Nik Berger.",
+    "sanitized": "War er der echte \"van Helsing\"? Gerard van Swieten ist als Leibarzt Maria Theresias der ranghöchste Mediziner Österreichs. Bekannt wird er aber als Vampirjäger, der die Popkultur beeinflusst. Von Nik Berger."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250506_9c5993c6.mp3",
+    "raw": "Satiriker, Geschichtenerzähler, das schwarze Schaf vom Niederrhein: Hanns Dieter Hüsch ist einer der größten komischen Künstler der Deutschen. Am 6.5.1925 wird er geboren. Von Fritz Schaefer.",
+    "sanitized": "Satiriker, Geschichtenerzähler, das schwarze Schaf vom Niederrhein: Hanns Dieter Hüsch ist einer der größten komischen Künstler der Deutschen. Am 6.5.1925 wird er geboren. Von Fritz Schaefer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250505_f978c6b8.mp3",
+    "raw": "13 Kräuter und geschicktes Marketing sind das Erfolgsrezept Maria Clementine Martins (geb. am 5.5.1775). Dabei erfindet die Klosterfrau ihren Melissengeist gar nicht selbst. Von Wolfgang Meyer.",
+    "sanitized": "13 Kräuter und geschicktes Marketing sind das Erfolgsrezept Maria Clementine Martins (geb. am 5.5.1775). Dabei erfindet die Klosterfrau ihren Melissengeist gar nicht selbst. Von Wolfgang Meyer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250504_f5bcca30.mp3",
+    "raw": "1630 im Sauerland: Als die neunjährige Christine Teipel behauptet, eine Hexe zu sein und dasselbe über andere sagt, brennen am Ende 58 Menschen auf dem Scheiterhaufen. Von Heiner Wember.",
+    "sanitized": "1630 im Sauerland: Als die neunjährige Christine Teipel behauptet, eine Hexe zu sein und dasselbe über andere sagt, brennen am Ende 58 Menschen auf dem Scheiterhaufen. Von Heiner Wember."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250503_dcdc6b2e.mp3",
+    "raw": "Kraftwerk. Eurythmics. Gianna Nanini. Viele Musikgrößen bauten auf seine unkonventionelle Kreativität und kamen in sein Bauernhof-Tonstudio in Wolperath: Konrad \"Conny\" Plank, geboren am 3.5.1940. Von Martina Meißner.",
+    "sanitized": "Kraftwerk. Eurythmics. Gianna Nanini. Viele Musikgrößen bauten auf seine unkonventionelle Kreativität und kamen in sein Bauernhof-Tonstudio in Wolperath: Konrad \"Conny\" Plank, geboren am 3.5.1940. Von Martina Meißner."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250502_6b0f5d2e.mp3",
+    "raw": "Als erster Deutscher will der 20-Jährige die Welt umradeln. Am 2.5.1895 bricht er zu der lebensgefährlichen Reise auf, ohne Geld. Er kehrt vermögend und berühmt zurück. Von Claudia Belemann.",
+    "sanitized": "Als erster Deutscher will der 20-Jährige die Welt umradeln. Am 2.5.1895 bricht er zu der lebensgefährlichen Reise auf, ohne Geld. Er kehrt vermögend und berühmt zurück. Von Claudia Belemann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250501_c74144d4.mp3",
+    "raw": "Lebensmittel sind in Kriegszeiten Mangelware. Ihre Rationierung gehört für die Nationalsozialisten zur Vorbereitung. Erst am 1.5.1950 werden die Lebensmittelkarten in den Westzonen abgeschafft. Von Thomas Klug.",
+    "sanitized": "Lebensmittel sind in Kriegszeiten Mangelware. Ihre Rationierung gehört für die Nationalsozialisten zur Vorbereitung. Erst am 1.5.1950 werden die Lebensmittelkarten in den Westzonen abgeschafft. Von Thomas Klug."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250430_3fb0efc2.mp3",
+    "raw": "Vom Sohn eines Söldners steigt Mahmud von Ghazni zu einem der mächtigsten Herrscher seiner Zeit und ersten Sultan der Geschichte auf. Am 30.4.1030 stirbt er - an einem Mückenstich. Von Wolfgang Meyer.",
+    "sanitized": "Vom Sohn eines Söldners steigt Mahmud von Ghazni zu einem der mächtigsten Herrscher seiner Zeit und ersten Sultan der Geschichte auf. Am 30.4.1030 stirbt er - an einem Mückenstich. Von Wolfgang Meyer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250429_a5c1e283.mp3",
+    "raw": "Vor 140 Jahren wird Egon Erwin Kisch in Prag geboren. Er ist bis heute einer der bekanntesten deutschsprachigen Journalisten und Reporter - sprachlich brillant und politisch engagiert. Von Hildburg Heider.",
+    "sanitized": "Vor 140 Jahren wird Egon Erwin Kisch in Prag geboren. Er ist bis heute einer der bekanntesten deutschsprachigen Journalisten und Reporter - sprachlich brillant und politisch engagiert. Von Hildburg Heider."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250428_59c1a0d3.mp3",
+    "raw": "Am 28.4.1905 wird in Frankreich der erste wissenschaftlich anerkannte Intelligenztest vorgestellt - ursprünglich entwickelt, um Kindern mit Lernschwächen zu helfen. Von Marko Rösseler.",
+    "sanitized": "Am 28.4.1905 wird in Frankreich der erste wissenschaftlich anerkannte Intelligenztest vorgestellt - ursprünglich entwickelt, um Kindern mit Lernschwächen zu helfen. Von Marko Rösseler."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250427_539572f0.mp3",
+    "raw": "In der armen Eifel sollen im 20. Jahrhundert neue Arbeitsplätze entstehen. Also lässt die preußische Regierung eine heute legendäre Rennstrecke bauen: den Nürburgring. Von Kay Bandermann.",
+    "sanitized": "In der armen Eifel sollen im 20. Jahrhundert neue Arbeitsplätze entstehen. Also lässt die preußische Regierung eine heute legendäre Rennstrecke bauen: den Nürburgring. Von Kay Bandermann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250426_0d5e49e8.mp3",
+    "raw": "Arm geboren, reich und mächtig geworden, vergessen gestorben: das unglaubliche Leben der Emma Hamilton, geboren am 26.4.1765. Die angebliche schönste Frau ihrer Zeit. Von Christiane Kopka.",
+    "sanitized": "Arm geboren, reich und mächtig geworden, vergessen gestorben: das unglaubliche Leben der Emma Hamilton, geboren am 26.4.1765. Die angebliche schönste Frau ihrer Zeit. Von Christiane Kopka."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250425_11e7be06.mp3",
+    "raw": "Kurz vor Kriegsende ist US-Soldaten und Rotarmisten der Kontakt verboten. Trotzdem reichen sie sich am 25.4.1945 die Hand. Doch das ikonische Foto der Szene ist gestellt. Von Markus Harmann ;Joachim Heinz.",
+    "sanitized": "Kurz vor Kriegsende ist US-Soldaten und Rotarmisten der Kontakt verboten. Trotzdem reichen sie sich am 25.4.1945 die Hand. Doch das ikonische Foto der Szene ist gestellt. Von Markus Harmann ;Joachim Heinz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250424_59205619.mp3",
+    "raw": "Sprengstoff, Tote, verbrannte Hoffnung: Ein RAF-Kommando überfällt am 24.4.1975 die deutsche Botschaft in Stockholm. Ziel: die inhaftierten Köpfe der Gruppe freipressen. Von Burkhard Hupe.",
+    "sanitized": "Sprengstoff, Tote, verbrannte Hoffnung: Ein RAF-Kommando überfällt am 24.4.1975 die deutsche Botschaft in Stockholm. Ziel: die inhaftierten Köpfe der Gruppe freipressen. Von Burkhard Hupe."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250423_06709064.mp3",
+    "raw": "Am 23.4.1445 heiratet Margarete von Anjou den englischen König Heinrich VI. - erst gefeiert, später wird sie zur Schurkin stilisiert. Sie inspiriert auch Game of Thrones. Von Maren Gottschalk.",
+    "sanitized": "Am 23.4.1445 heiratet Margarete von Anjou den englischen König Heinrich VI. - erst gefeiert, später wird sie zur Schurkin stilisiert. Sie inspiriert auch Game of Thrones. Von Maren Gottschalk."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250422_8174021f.mp3",
+    "raw": "Zum Übersetzen kommt Erika Fuchs zufällig - und leistet Wegweisendes für die deutsche Comic-Szene. Am 22.4.2005 stirbt die ehemalige Chefredakteurin der \"Micky Maus\". Von Christian Kosfeld.",
+    "sanitized": "Zum Übersetzen kommt Erika Fuchs zufällig - und leistet Wegweisendes für die deutsche Comic-Szene. Am 22.4.2005 stirbt die ehemalige Chefredakteurin der \"Micky Maus\". Von Christian Kosfeld."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250421_c87a4ff7.mp3",
+    "raw": "Er beschreibt die USA, kritisiert sie und bringt sie zum Lachen: Schriftsteller Mark Twain, der Schöpfer von Tom Sawyer und Huckleberry Finn. Von Veronika Bock.",
+    "sanitized": "Er beschreibt die USA, kritisiert sie und bringt sie zum Lachen: Schriftsteller Mark Twain, der Schöpfer von Tom Sawyer und Huckleberry Finn. Von Veronika Bock."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250420_af044b6a.mp3",
+    "raw": "20.4.2010: Im Golf von Mexiko explodiert die BP-Ölplattform Deepwater Horizon. 87 Tage strömt das Öl unkontrolliert ins Meer. Eine gigantische Katastrophe - und heute? Von Stephan Beuting.",
+    "sanitized": "20.4.2010: Im Golf von Mexiko explodiert die BP-Ölplattform Deepwater Horizon. 87 Tage strömt das Öl unkontrolliert ins Meer. Eine gigantische Katastrophe - und heute? Von Stephan Beuting."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250419_b00c9b1a.mp3",
+    "raw": "Wer am 19.4.1775 bei Lexington tatsächlich den ersten Schuss abgab, ist bis heute ungewiss. Fest steht: Es war der Startschuss zum Amerikanischen Unabhängigkeitskrieg. Von Murat Kayi.",
+    "sanitized": "Wer am 19.4.1775 bei Lexington tatsächlich den ersten Schuss abgab, ist bis heute ungewiss. Fest steht: Es war der Startschuss zum Amerikanischen Unabhängigkeitskrieg. Von Murat Kayi."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250418_5089ac96.mp3",
+    "raw": "Zu Beginn der Kolonie Deutsch-Südwestafrika heiraten Kolonisten auch einheimische Frauen. Der alltägliche Rassismus führt schließlich zu einem Eheverbot durch die Behörden. Von Tobias Sauer.",
+    "sanitized": "Zu Beginn der Kolonie Deutsch-Südwestafrika heiraten Kolonisten auch einheimische Frauen. Der alltägliche Rassismus führt schließlich zu einem Eheverbot durch die Behörden. Von Tobias Sauer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250417_36144020.mp3",
+    "raw": "Niederlande: Hannie Schaft und ihre Freundinnen verübten während des Zweiten Weltkriegs Attentate auf deutsche Besatzer. Am 17.4.1945 wurde Hannie Schaft hingerichtet. Von Heiner Wember.",
+    "sanitized": "Niederlande: Hannie Schaft und ihre Freundinnen verübten während des Zweiten Weltkriegs Attentate auf deutsche Besatzer. Am 17.4.1945 wurde Hannie Schaft hingerichtet. Von Heiner Wember."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250416_53b1cfce.mp3",
+    "raw": "Ein Heiler, ein Heuchler, ein Helfer? Felix Kersten (gestorben am 16.4.1960) linderte die Schmerzen von Holocaust-Organisator Heinrich Himmler - ob und wie viele Leben Kersten während der Massagen rettete, ist bis heute umstritten. Von Burkhard Hupe.",
+    "sanitized": "Ein Heiler, ein Heuchler, ein Helfer? Felix Kersten (gestorben am 16.4.1960) linderte die Schmerzen von Holocaust-Organisator Heinrich Himmler - ob und wie viele Leben Kersten während der Massagen rettete, ist bis heute umstritten. Von Burkhard Hupe."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250415_f644cb91.mp3",
+    "raw": "Als Tochter des Zirkusdirektors Carl Krone am 15.4.1915 geboren, wurde Frieda Krone schon als Kind ein Star in der Manege und später selbst Chefin des Circus Krone. Von Claudia Friedrich.",
+    "sanitized": "Als Tochter des Zirkusdirektors Carl Krone am 15.4.1915 geboren, wurde Frieda Krone schon als Kind ein Star in der Manege und später selbst Chefin des Circus Krone. Von Claudia Friedrich."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250414_73d361b5.mp3",
+    "raw": "Am 14.4.1910 startet die Odenwaldschule als reformpädagogisches Vorzeigeprojekt. Doch hinter der fortschrittlichen Fassade erleben Hunderte Schüler systematisch sexuelle Gewalt. Von Anja Arp.",
+    "sanitized": "Am 14.4.1910 startet die Odenwaldschule als reformpädagogisches Vorzeigeprojekt. Doch hinter der fortschrittlichen Fassade erleben Hunderte Schüler systematisch sexuelle Gewalt. Von Anja Arp."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250413_1f897ac0.mp3",
+    "raw": "Kaum ein Satz macht das Selbstverständnis absoluter Herrscher so deutlich wie dieser: L'État c'est moi. Der Staat bin ich. Gesagt hat ihn angeblich Ludwig XIV., am 13.4.1655.  Von Christoph Vormweg.",
+    "sanitized": "Kaum ein Satz macht das Selbstverständnis absoluter Herrscher so deutlich wie dieser: L'État c'est moi. Der Staat bin ich. Gesagt hat ihn angeblich Ludwig XIV., am 13.4.1655.  Von Christoph Vormweg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250412_8e37a5a0.mp3",
+    "raw": "Luis Trenker ist schon zu Lebzeiten eine Legende. In zahlreichen Filmen zeichnet das Multitalent ein idyllisches Bild seiner Südtiroler Bergheimat - das begeistert auch Hitler. Von Jonas Colsmann.",
+    "sanitized": "Luis Trenker ist schon zu Lebzeiten eine Legende. In zahlreichen Filmen zeichnet das Multitalent ein idyllisches Bild seiner Südtiroler Bergheimat - das begeistert auch Hitler. Von Jonas Colsmann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250411_9b2970c2.mp3",
+    "raw": "Anhand von nur sechs Fällen beschreibt James Parkinson (geb. am 11.4.1755) zum ersten Mal systematisch die Krankheit, die später nach ihm benannt wird: Morbus Parkinson. Von Steffi Tenhaven.",
+    "sanitized": "Anhand von nur sechs Fällen beschreibt James Parkinson (geb. am 11.4.1755) zum ersten Mal systematisch die Krankheit, die später nach ihm benannt wird: Morbus Parkinson. Von Steffi Tenhaven."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250410_500ff322.mp3",
+    "raw": "Im April 1545 gründen spanische Eroberer im bolivianischen Hochland die Siedlung Potosí. Dadurch erlangen sie Zugriff auf das größte Silbervorkommen der Welt. Von Thomas Pfaff.",
+    "sanitized": "Im April 1545 gründen spanische Eroberer im bolivianischen Hochland die Siedlung Potosí. Dadurch erlangen sie Zugriff auf das größte Silbervorkommen der Welt. Von Thomas Pfaff."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250409_9edb40f1.mp3",
+    "raw": "Der Ingenieur Heinz Nixdorf, am 9.4.1925 in Paderborn geboren, sorgt mit auf Halbleitern basierenden Kleinrechnern in der 1960er-Jahren für eine technische Revolution. Von Jana Magdanz.",
+    "sanitized": "Der Ingenieur Heinz Nixdorf, am 9.4.1925 in Paderborn geboren, sorgt mit auf Halbleitern basierenden Kleinrechnern in der 1960er-Jahren für eine technische Revolution. Von Jana Magdanz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250408_2da71570.mp3",
+    "raw": "Eine Frauenfigur ohne Arme, schlichter weißer Marmor: Im 19. Jahrhundert entdeckt ein Ziegenhirte die Statue, die bis heute ein Ideal antiker Schönheit verkörpert. Von Murat Kayi.",
+    "sanitized": "Eine Frauenfigur ohne Arme, schlichter weißer Marmor: Im 19. Jahrhundert entdeckt ein Ziegenhirte die Statue, die bis heute ein Ideal antiker Schönheit verkörpert. Von Murat Kayi."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250407_2975a37d.mp3",
+    "raw": "Sie rettet die Everglades im Süden Floridas: Die US-Journalistin Marjory Stoneman Douglas ist als Umweltaktivistin ihrer Zeit weit voraus. Doch sie hat mächtige Gegner. Von Andrea Klasen.",
+    "sanitized": "Sie rettet die Everglades im Süden Floridas: Die US-Journalistin Marjory Stoneman Douglas ist als Umweltaktivistin ihrer Zeit weit voraus. Doch sie hat mächtige Gegner. Von Andrea Klasen."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250406_3d9053c1.mp3",
+    "raw": "Gemeinsam mit seiner Frau Cécile kartiert Oskar Vogt das Gehirn und entdeckt unbekannte Hirnregionen: Grundsteine der modernen Neuroanatomie. Geboren am 6.4.1870 in Husum. Von Daniela Wakonigg.",
+    "sanitized": "Gemeinsam mit seiner Frau Cécile kartiert Oskar Vogt das Gehirn und entdeckt unbekannte Hirnregionen: Grundsteine der modernen Neuroanatomie. Geboren am 6.4.1870 in Husum. Von Daniela Wakonigg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250405_174c228a.mp3",
+    "raw": "Zehntausende Menschen reißt der Ausbruch des Vulkans Tambora Anfang April 1815 in den Tod. Das folgende Jahr geht nicht nur als \"Jahr ohne Sommer\" in die Geschichte ein. Von Ralph Erdenberger.",
+    "sanitized": "Zehntausende Menschen reißt der Ausbruch des Vulkans Tambora Anfang April 1815 in den Tod. Das folgende Jahr geht nicht nur als \"Jahr ohne Sommer\" in die Geschichte ein. Von Ralph Erdenberger."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250404_d7108e28.mp3",
+    "raw": "Ein Leben für die wilden Tiere: Der Tierfilmer Michael Grzimek verunglückt mit dem berühmten Flugzeug im Zebra-Look tödlich - noch vor der Oscarverleihung vom 4.4.1960. Von Marko Rösseler.",
+    "sanitized": "Ein Leben für die wilden Tiere: Der Tierfilmer Michael Grzimek verunglückt mit dem berühmten Flugzeug im Zebra-Look tödlich - noch vor der Oscarverleihung vom 4.4.1960. Von Marko Rösseler."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250403_34694df2.mp3",
+    "raw": "Briefzustellung als großes Abenteuer. Ziel: die schnellste Verbindung zwischen Atlantik- und Pazifikküste. Am 3.4.1860 startet die Postzustellung mit dem \"Pony-Express\". Von Martin Herzog.",
+    "sanitized": "Briefzustellung als großes Abenteuer. Ziel: die schnellste Verbindung zwischen Atlantik- und Pazifikküste. Am 3.4.1860 startet die Postzustellung mit dem \"Pony-Express\". Von Martin Herzog."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250402_2d1f6cb4.mp3",
+    "raw": "Am 2.4.1595 sticht eine niederländische Expedition in See, um das portugiesische Gewürzmonopol in Asien zu brechen. Kennt sie die Route durch die Informationen eines Spions? Von Veronika Bock ;Ulli Biermann.",
+    "sanitized": "Am 2.4.1595 sticht eine niederländische Expedition in See, um das portugiesische Gewürzmonopol in Asien zu brechen. Kennt sie die Route durch die Informationen eines Spions? Von Veronika Bock ;Ulli Biermann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250401_18c9b79d.mp3",
+    "raw": "Einhörner sind keine Fabelwesen, wie viele glauben - aber sie sind schon lange ausgestorben. Nur in einer Stadt am Rand des Münsterlands hatten Einhörner überlebt, bis zu einem schicksalhaften Tag im Jahr 1915... Von Thomas Pfaff.",
+    "sanitized": "Einhörner sind keine Fabelwesen, wie viele glauben - aber sie sind schon lange ausgestorben. Nur in einer Stadt am Rand des Münsterlands hatten Einhörner überlebt, bis zu einem schicksalhaften Tag im Jahr 1915... Von Thomas Pfaff."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250331_072ac626.mp3",
+    "raw": "Was soll ein Film zeigen dürfen? In den USA der 30er und 40er Jahre gilt eine strenge Zensur - sie folgt einem Code, der Hollywood enge Grenzen setzt. Von Christian Werthschulte.",
+    "sanitized": "Was soll ein Film zeigen dürfen? In den USA der 30er und 40er Jahre gilt eine strenge Zensur - sie folgt einem Code, der Hollywood enge Grenzen setzt. Von Christian Werthschulte."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250330_6123347d.mp3",
+    "raw": "Er war der \"Ur-Dandy\", der Erfinder einer eleganten, geistreichen, sehr britischen Lebensweise. Am 30.3.1840 starb George \"Beau\" Brummell - und sah sich selbst im Spiegel dabei zu... Von Jutta Duhm-Heitzmann.",
+    "sanitized": "Er war der \"Ur-Dandy\", der Erfinder einer eleganten, geistreichen, sehr britischen Lebensweise. Am 30.3.1840 starb George \"Beau\" Brummell - und sah sich selbst im Spiegel dabei zu... Von Jutta Duhm-Heitzmann."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250329_2c8656c3.mp3",
+    "raw": "Ein deutsch-britischer Manager fliegt 1955 nach Burma, um die Wirtschaft dort nach westlichen Standards auszurichten. Doch der Besuch in Asien ändert sein Leben und seinen Blick auf die Welt. Von Christiane Kopka.",
+    "sanitized": "Ein deutsch-britischer Manager fliegt 1955 nach Burma, um die Wirtschaft dort nach westlichen Standards auszurichten. Doch der Besuch in Asien ändert sein Leben und seinen Blick auf die Welt. Von Christiane Kopka."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250328_91789ed4.mp3",
+    "raw": "Er verbindet relgiöse Symbolik mit den Farben seiner Kindheit im jüdischen Stetl. Chagalls Bilder erzählen von Liebe, Verlust und Mystik. Er stirbt am 28. März 1985 in Südfrankreich. Von Andrea Klasen.",
+    "sanitized": "Er verbindet relgiöse Symbolik mit den Farben seiner Kindheit im jüdischen Stetl. Chagalls Bilder erzählen von Liebe, Verlust und Mystik. Er stirbt am 28. März 1985 in Südfrankreich. Von Andrea Klasen."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250327_40782a8a.mp3",
+    "raw": "Am 27. März 1955 finden in der DDR die ersten Jugendweihen statt. Neben Hochzeiten etabliert sich das Staatsritual als absoluter Höhepunkt im familiären Alltagsleben. Von Thomas Klug.",
+    "sanitized": "Am 27. März 1955 finden in der DDR die ersten Jugendweihen statt. Neben Hochzeiten etabliert sich das Staatsritual als absoluter Höhepunkt im familiären Alltagsleben. Von Thomas Klug."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250326_75d9f13e.mp3",
+    "raw": "George Smith, am 26.3.1840 in London geboren, bringt sich selbst die Keilschrift bei und entdeckt das Gilgamesch-Epos, die babylonische Version der Sintflutgeschichte. Von Wolfgang Meyer.",
+    "sanitized": "George Smith, am 26.3.1840 in London geboren, bringt sich selbst die Keilschrift bei und entdeckt das Gilgamesch-Epos, die babylonische Version der Sintflutgeschichte. Von Wolfgang Meyer."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250325_0e22e310.mp3",
+    "raw": "Das \"Gesetz zum Schutze der Republik\" soll die Weimarer Demokratie vor inneren Feinden schützen. Am 25.3.1930 wird es neu beschlossen, ist gegen die NSDAP aber letztlich erfolglos. Von Martina Meißner.",
+    "sanitized": "Das \"Gesetz zum Schutze der Republik\" soll die Weimarer Demokratie vor inneren Feinden schützen. Am 25.3.1930 wird es neu beschlossen, ist gegen die NSDAP aber letztlich erfolglos. Von Martina Meißner."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250324_2dc7b803.mp3",
+    "raw": "Zeitzeichen-Sonderfolge zum Germanwings-Absturz: Am 24.3.2015 sterben alle 150 Insassen des Flugzeugs. Der Co-Pilot habe die Maschine absichtlich zum Absturz gebracht, verkündet die Staatsanwaltschaft schon zwei Tage später. Von Nikolaus Steiner.",
+    "sanitized": "Zeitzeichen-Sonderfolge zum Germanwings-Absturz: Am 24.3.2015 sterben alle 150 Insassen des Flugzeugs. Der Co-Pilot habe die Maschine absichtlich zum Absturz gebracht, verkündet die Staatsanwaltschaft schon zwei Tage später. Von Nikolaus Steiner."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250324_0314733b.mp3",
+    "raw": "Jules Vernes Name steht wie kein zweiter für die Begeisterung für Entdeckungen und die Reise ins Unbekannte - weit über seinen Tod am 24.3.1905 hinaus. Von Daniela Wakonigg.",
+    "sanitized": "Jules Vernes Name steht wie kein zweiter für die Begeisterung für Entdeckungen und die Reise ins Unbekannte - weit über seinen Tod am 24.3.1905 hinaus. Von Daniela Wakonigg."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250323_a06f1e9a.mp3",
+    "raw": "Die Challenger-Expedition misst die tiefste bekannte Meeresstelle im Marianengraben. Ein Meilenstein in der Meeresforschung und eine bahnbrechende Entdeckung am 23.3.1875. Von Thomas Mau.",
+    "sanitized": "Die Challenger-Expedition misst die tiefste bekannte Meeresstelle im Marianengraben. Ein Meilenstein in der Meeresforschung und eine bahnbrechende Entdeckung am 23.3.1875. Von Thomas Mau."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250322_87ef3963.mp3",
+    "raw": "Im Jahr 1340 wird im Wiener Stadtrecht das Pfählen von Ehebrechenden erlaubt. Das soll abschrecken, aber auch die Institution der Ehe schützen. Von Maren Gottschalk.",
+    "sanitized": "Im Jahr 1340 wird im Wiener Stadtrecht das Pfählen von Ehebrechenden erlaubt. Das soll abschrecken, aber auch die Institution der Ehe schützen. Von Maren Gottschalk."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250321_364c7553.mp3",
+    "raw": "Johann Sebastian Bach droht zu erblinden, die Folge wäre der Ruin. Im März 1750 lässt er sich vom Augenarzt und Scharlatan John Taylor operieren: ein riskanter Entschluss! Von Christian Kosfeld.",
+    "sanitized": "Johann Sebastian Bach droht zu erblinden, die Folge wäre der Ruin. Im März 1750 lässt er sich vom Augenarzt und Scharlatan John Taylor operieren: ein riskanter Entschluss! Von Christian Kosfeld."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250320_0572fcaa.mp3",
+    "raw": "Er gilt als einer der besten Pianisten der Welt. Scheu, eigenwillig - ein Künstlerleben im Kalten Krieg. Am 20.03.1915 wird Sviatoslav Richter in der heutigen Ukraine geboren. Von Christoph Vratz.",
+    "sanitized": "Er gilt als einer der besten Pianisten der Welt. Scheu, eigenwillig - ein Künstlerleben im Kalten Krieg. Am 20.03.1915 wird Sviatoslav Richter in der heutigen Ukraine geboren. Von Christoph Vratz."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250319_b57e6adc.mp3",
+    "raw": "Am 19.3.1930 stirbt der britische Ex-Premier Arthur J. Balfour, Verfasser der \"Balfour-Deklaration\": sie befürwortet \"eine nationale Heimstätte für das jüdische Volk\". Von Almut Finck.",
+    "sanitized": "Am 19.3.1930 stirbt der britische Ex-Premier Arthur J. Balfour, Verfasser der \"Balfour-Deklaration\": sie befürwortet \"eine nationale Heimstätte für das jüdische Volk\". Von Almut Finck."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250318_9cae1f2a.mp3",
+    "raw": "Nicht in Berlin oder New York, sondern durch die deutsche Provinz fährt am 18.3.1895 der erste Bus mit Motor. Der Beginn einer Revolution, wenn auch nur für neun Monate. Von Burkhard Hupe.",
+    "sanitized": "Nicht in Berlin oder New York, sondern durch die deutsche Provinz fährt am 18.3.1895 der erste Bus mit Motor. Der Beginn einer Revolution, wenn auch nur für neun Monate. Von Burkhard Hupe."
+  },
+  {
+    "itemId": "/wdr_zeitzeichen_20250317_712bfac8.mp3",
+    "raw": "Um die Weisheiten Marc Aurels, römischer Kaiser und letzter Stoiker der Alten Welt, gibt es heute eine riesige Begeisterung aus allen Ecken. Starb er gelassen am 17.3.180? Von Stephan Beuting.",
+    "sanitized": "Um die Weisheiten Marc Aurels, römischer Kaiser und letzter Stoiker der Alten Welt, gibt es heute eine riesige Begeisterung aus allen Ecken. Starb er gelassen am 17.3.180? Von Stephan Beuting."
+  },
+  {
     "itemId": "/wdr_zeitzeichen_20250316_012ff010.mp3",
     "raw": "Um nicht heiraten zu müssen, wird Selma Lagerlöf Lehrerin. Ein Schulbuch über schwedische Geografie macht sie später weltberühmt: Nils Holgersson. Von Christoph Vormweg.",
     "sanitized": "Um nicht heiraten zu müssen, wird Selma Lagerlöf Lehrerin. Ein Schulbuch über schwedische Geografie macht sie später weltberühmt: Nils Holgersson. Von Christoph Vormweg."
@@ -2543,460 +2998,5 @@
     "itemId": "/wdr_zeitzeichen_20231025_ea0660ad.mp3",
     "raw": "Der französische Komponist Georges Bizet, geboren am 25.10.1838, schreibt seinen größten Erfolg kurz vor seinem Tod: Die Melodien der Oper \"Carmen\" sind Ohrwürmer. Von Sabine Mann.",
     "sanitized": "Der französische Komponist Georges Bizet, geboren am 25.10.1838, schreibt seinen größten Erfolg kurz vor seinem Tod: Die Melodien der Oper \"Carmen\" sind Ohrwürmer. Von Sabine Mann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231024_7a1b6331.mp3",
-    "raw": "Der Dreißigjährige Krieg verwüstete weite Teile Europas und brachte unendliches Leid. Erst mit dem Westfälischen Frieden von 1648 gelang es, einen Frieden auszuhandeln. Von Martina Meißner.",
-    "sanitized": "Der Dreißigjährige Krieg verwüstete weite Teile Europas und brachte unendliches Leid. Erst mit dem Westfälischen Frieden von 1648 gelang es, einen Frieden auszuhandeln. Von Martina Meißner."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231023_e4b88f2c.mp3",
-    "raw": "Als Chinas ehemalige First Lady Song Meiling mit 106 Jahren stirbt, ist sie eine prägende Gestalt des 20. Jahrhunderts - klug, einflussreich, geliebt und gehasst. Von Andrea Kath.",
-    "sanitized": "Als Chinas ehemalige First Lady Song Meiling mit 106 Jahren stirbt, ist sie eine prägende Gestalt des 20. Jahrhunderts - klug, einflussreich, geliebt und gehasst. Von Andrea Kath."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231022_eb00a4e8.mp3",
-    "raw": "Pablo Casals revolutioniert das Cellospiel und engagiert sich als Künstler gegen den Faschismus. Am 22.10.1973 stirbt der Spanier in San Juan de Puerto Rico. Von Michael Struck-Schloen.",
-    "sanitized": "Pablo Casals revolutioniert das Cellospiel und engagiert sich als Künstler gegen den Faschismus. Am 22.10.1973 stirbt der Spanier in San Juan de Puerto Rico. Von Michael Struck-Schloen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231021_a11c6ae8.mp3",
-    "raw": "\"Los von Berlin!\" So lautet die Parole der Separatisten, die am 21.10.1923 in Aachen die rot-weiß-grüne Fahne hissen und einen rheinischen Staat errichten wollen. Von Martin Herzog.",
-    "sanitized": "\"Los von Berlin!\" So lautet die Parole der Separatisten, die am 21.10.1923 in Aachen die rot-weiß-grüne Fahne hissen und einen rheinischen Staat errichten wollen. Von Martin Herzog."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231020_121453f0.mp3",
-    "raw": "Isaac Löwenstein ist ein gläubiger Jude, der seinen preußischen König verehrt. Am 20.10.1823 schreibt er bei Gütersloh den letzten Eintrag in sein Militär-Tagebuch. \n Von Heiner Wember.",
-    "sanitized": "Isaac Löwenstein ist ein gläubiger Jude, der seinen preußischen König verehrt. Am 20.10.1823 schreibt er bei Gütersloh den letzten Eintrag in sein Militär-Tagebuch. \n Von Heiner Wember."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231019_e98cbbd8.mp3",
-    "raw": "Heute sind Camille Claudels Skulpturen Millionen wert. Im 20. Jahrhundert hat der Kunstbetrieb die Bildhauerin in die Psychiatrie gebracht. Dort stirbt sie am 19.10.1943. Von Christiane Kopka.",
-    "sanitized": "Heute sind Camille Claudels Skulpturen Millionen wert. Im 20. Jahrhundert hat der Kunstbetrieb die Bildhauerin in die Psychiatrie gebracht. Dort stirbt sie am 19.10.1943. Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231018_4fcb8bf2.mp3",
-    "raw": "Sie gilt als Staatsfeindin: Die römische Adelige Agrippina, Mutter des späteren Kaisers Caligula, wird auf die Insel Ventotene verbannt. Dort stirbt sie am 18.10.33. Von Claudia Friedrich.",
-    "sanitized": "Sie gilt als Staatsfeindin: Die römische Adelige Agrippina, Mutter des späteren Kaisers Caligula, wird auf die Insel Ventotene verbannt. Dort stirbt sie am 18.10.33. Von Claudia Friedrich."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231017_aa72d402.mp3",
-    "raw": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinderkönnen dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp.",
-    "sanitized": "Die Schule Summerhill des Pädagogen A. S. Neill ist etwas Besonderes: Kinderkönnen dort machen, was sie wollen, so lange sie damit andere Menschen nicht stören. Von Doris Arp."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231016_c12d03e4.mp3",
-    "raw": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Nun geht die Zeit der Stahlmonster geht zu Ende. Von Martina Meißner.",
-    "sanitized": "Die größte fahrende Maschine der Welt geht am 16.10.1978 im Braunkohletagebau Hambach in Betrieb. Nun geht die Zeit der Stahlmonster geht zu Ende. Von Martina Meißner."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231015_2ac1dd7a.mp3",
-    "raw": "Im Oktober 1963 muss Konrad Adenauer als Bundeskanzler abtreten. Er tut das höchst ungern: Das Regierungsamt hat den inzwischen 87-Jährigen lebendig erhalten. Von Heiner Wember.",
-    "sanitized": "Im Oktober 1963 muss Konrad Adenauer als Bundeskanzler abtreten. Er tut das höchst ungern: Das Regierungsamt hat den inzwischen 87-Jährigen lebendig erhalten. Von Heiner Wember."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231014_1f4f5fa8.mp3",
-    "raw": "Ein Klassiker für die musikalische Ewigkeit hat am 14.10.1843 Premiere: Felix Mendelssohn Bartholdy hat Shakespeares \"Sommernachtstraum\" genial vertont. Von Christoph Vratz.",
-    "sanitized": "Ein Klassiker für die musikalische Ewigkeit hat am 14.10.1843 Premiere: Felix Mendelssohn Bartholdy hat Shakespeares \"Sommernachtstraum\" genial vertont. Von Christoph Vratz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231013_e871ff0c.mp3",
-    "raw": "Ihr erstes Konzert auf dem europäischen Festland spielt die Band \"Queen\" in Muffendorf bei Bonn. Dort steht am 13.10.1973 natürlich Sänger Freddie Mercury am Mikrofon. Von Joachim Heinz/Markus Harmann.",
-    "sanitized": "Ihr erstes Konzert auf dem europäischen Festland spielt die Band \"Queen\" in Muffendorf bei Bonn. Dort steht am 13.10.1973 natürlich Sänger Freddie Mercury am Mikrofon. Von Joachim Heinz/Markus Harmann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231012_6c59c454.mp3",
-    "raw": "Scharfsinnig, ironisch, subjektiv - Alfred Kerr zählt zu den bedeutendsten Theaterkritikern des 20. Jahrhunderts. Seine Texte sind literarische Kunstwerke. Von Monika Buschey.",
-    "sanitized": "Scharfsinnig, ironisch, subjektiv - Alfred Kerr zählt zu den bedeutendsten Theaterkritikern des 20. Jahrhunderts. Seine Texte sind literarische Kunstwerke. Von Monika Buschey."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231011_5c018591.mp3",
-    "raw": "Einsatz für Mitmenschen, Kampf für Frauenrechte, Verbindung von Judentum und Christentum: All diese Facetten waren Edith Stein wichtig. Sie wurde in Auschwitz getötet. Von Irene Dänzer-Vanotti.",
-    "sanitized": "Einsatz für Mitmenschen, Kampf für Frauenrechte, Verbindung von Judentum und Christentum: All diese Facetten waren Edith Stein wichtig. Sie wurde in Auschwitz getötet. Von Irene Dänzer-Vanotti."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231010_bcf59876.mp3",
-    "raw": "Eine wunderschöne Tänzerin, blitzgescheit: König Ludwig I. von Bayern war verschossen in Lola Montez. Nach ihrer verrückten Liebesgeschichte bettelt sie in einem Brief vom 10.10.1848 um Geld. Von Christoph Vormweg.",
-    "sanitized": "Eine wunderschöne Tänzerin, blitzgescheit: König Ludwig I. von Bayern war verschossen in Lola Montez. Nach ihrer verrückten Liebesgeschichte bettelt sie in einem Brief vom 10.10.1848 um Geld. Von Christoph Vormweg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231009_a4ea53b5.mp3",
-    "raw": "Der belgische Chansonnier Jacques Brel (gestorben am 9.10.1978) packte die ganz großen Dramen des Lebens in seine Texte und sang an gegen die Bigotterie der Spießer. Von Christiane Kopka.",
-    "sanitized": "Der belgische Chansonnier Jacques Brel (gestorben am 9.10.1978) packte die ganz großen Dramen des Lebens in seine Texte und sang an gegen die Bigotterie der Spießer. Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231008_3d9aba7f.mp3",
-    "raw": "Zufälle, die zu neuen Medikamenten führten. Fatale Irrtümer. Segensreiche Fortschritte. Die Geschichte der Medizin ist faszinierend: Karl Sudhoff hat sie erforscht. Von Jürgen Werth.",
-    "sanitized": "Zufälle, die zu neuen Medikamenten führten. Fatale Irrtümer. Segensreiche Fortschritte. Die Geschichte der Medizin ist faszinierend: Karl Sudhoff hat sie erforscht. Von Jürgen Werth."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231007_6dd85d3c.mp3",
-    "raw": "Am 7.10.1993 wird bekannt, dass Toni Morrison den Literaturnobelpreis erhält: eine Schwarze Schriftstellerin mit einer Sprache voller Musik. Von Andrea Klasen.",
-    "sanitized": "Am 7.10.1993 wird bekannt, dass Toni Morrison den Literaturnobelpreis erhält: eine Schwarze Schriftstellerin mit einer Sprache voller Musik. Von Andrea Klasen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231006_ab493526.mp3",
-    "raw": "Erstmals trat am 6.10.2008 ein Parlament zusammen, in dem mehr Frauen als Männer saßen - in Ruanda, wenige Jahre nach dem verheerenden Bürgerkrieg. Von Laura Mareen Janssen.",
-    "sanitized": "Erstmals trat am 6.10.2008 ein Parlament zusammen, in dem mehr Frauen als Männer saßen - in Ruanda, wenige Jahre nach dem verheerenden Bürgerkrieg. Von Laura Mareen Janssen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231005_629567fd.mp3",
-    "raw": "WDR Zeitzeichen - Jeden Tag ein Stück Geschichte. Von WDR.",
-    "sanitized": "WDR Zeitzeichen - Jeden Tag ein Stück Geschichte. Von WDR."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231005_9bb82536.mp3",
-    "raw": "Eleonore Prochaska, die als Soldat August Renz in den Befreiungskriegen kämpft und fällt, erliegt am 5.10.1813 ihren Verletzungen: Später wird daraus ein Mythos. Von Veronika Bock und Ulrich Biermann.",
-    "sanitized": "Eleonore Prochaska, die als Soldat August Renz in den Befreiungskriegen kämpft und fällt, erliegt am 5.10.1813 ihren Verletzungen: Später wird daraus ein Mythos. Von Veronika Bock und Ulrich Biermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231004_eb4928c8.mp3",
-    "raw": "Der berühmte Orient-Express fährt schon, als die Deutsche Bank am 4.10.1888 den Auftrag bekommt, die Bahnstrecke quer durchs Osmanische Reich weiterzubauen. Von Almut Finck.",
-    "sanitized": "Der berühmte Orient-Express fährt schon, als die Deutsche Bank am 4.10.1888 den Auftrag bekommt, die Bahnstrecke quer durchs Osmanische Reich weiterzubauen. Von Almut Finck."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231003_7d26147c.mp3",
-    "raw": "Amerikanische Truppen beeinflussen, DDR-Geflüchteten Vorwürfe machen. Gegründet am 3.10.1948, war der Deutschlandsender das Sprachrohr der SED für Gesamtdeutschland. Von Thomas Klug.",
-    "sanitized": "Amerikanische Truppen beeinflussen, DDR-Geflüchteten Vorwürfe machen. Gegründet am 3.10.1948, war der Deutschlandsender das Sprachrohr der SED für Gesamtdeutschland. Von Thomas Klug."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231002_9e0db465.mp3",
-    "raw": "Am 2. Oktober 1958 tritt der \"King\" im hessischen Friedberg seinen Militärdienst an. Der weltberühmte Film- und Fernsehstar und Plattenmillionär bleibt 18 Monate. Von Christian Kosfeld.",
-    "sanitized": "Am 2. Oktober 1958 tritt der \"King\" im hessischen Friedberg seinen Militärdienst an. Der weltberühmte Film- und Fernsehstar und Plattenmillionär bleibt 18 Monate. Von Christian Kosfeld."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20231001_afad2470.mp3",
-    "raw": "Georg Baselitz ist heute einer der erfolgreichsten deutschen Künstler. Seine erste Einzelausstellung ab dem 1.10.1963 wurde zun Skandal, die Staatsanwaltschaft schaltete sich ein. Von Thomas Mau.",
-    "sanitized": "Georg Baselitz ist heute einer der erfolgreichsten deutschen Künstler. Seine erste Einzelausstellung ab dem 1.10.1963 wurde zun Skandal, die Staatsanwaltschaft schaltete sich ein. Von Thomas Mau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230930_da05333b.mp3",
-    "raw": "Am 30.9.1933 hatte die \"Pfeffermühle\" den ersten Auftritt in Zürich. In Deutschland waren die Aufführungen von Erika Manns Kabarett lebensgefährlich geworden. Von Christiane Kopka.",
-    "sanitized": "Am 30.9.1933 hatte die \"Pfeffermühle\" den ersten Auftritt in Zürich. In Deutschland waren die Aufführungen von Erika Manns Kabarett lebensgefährlich geworden. Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230929_8e806ec2.mp3",
-    "raw": "Im September 1938 entscheidet sich in München das Schicksal der Tschechoslowakei. Das Münchener Abkommen war der gescheiterte Versuch, Hitler zu beschwichtigen. Von Almut Finck.",
-    "sanitized": "Im September 1938 entscheidet sich in München das Schicksal der Tschechoslowakei. Das Münchener Abkommen war der gescheiterte Versuch, Hitler zu beschwichtigen. Von Almut Finck."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230928_cc487865.mp3",
-    "raw": "Heute vor 2070 Jahren, am 28.9.48 v.Chr. wird der römische Politiker Gnaeus Pompeius Magnus ermordet. Sein Gegner Cäsar soll geweint haben, als er dessen abgeschlagenen Kopf in den Händen hält... Von Marfa Heimbach.",
-    "sanitized": "Heute vor 2070 Jahren, am 28.9.48 v.Chr. wird der römische Politiker Gnaeus Pompeius Magnus ermordet. Sein Gegner Cäsar soll geweint haben, als er dessen abgeschlagenen Kopf in den Händen hält... Von Marfa Heimbach."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230927_b49f4cfa.mp3",
-    "raw": "Der unerschrockene Satiriker Kurt Tucholsky wird bei einer Lesung vor rechten Schlägern gewarnt. Das Schreiben behält er immer auf seinem Schreibtisch... Von Thomas Pfaff.",
-    "sanitized": "Der unerschrockene Satiriker Kurt Tucholsky wird bei einer Lesung vor rechten Schlägern gewarnt. Das Schreiben behält er immer auf seinem Schreibtisch... Von Thomas Pfaff."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230926_91188309.mp3",
-    "raw": "\"Ich bin kein Held. Ich war nur zur richtigen Zeit am richtigen Ort\", sagt Stanislaw Petrow. An dem Ort, an dem sich entschied, ob es zu einem Atomkrieg kommt oder nicht.\n\n Von Daniela Wakonigg.",
-    "sanitized": "\"Ich bin kein Held. Ich war nur zur richtigen Zeit am richtigen Ort\", sagt Stanislaw Petrow. An dem Ort, an dem sich entschied, ob es zu einem Atomkrieg kommt oder nicht.\n\n Von Daniela Wakonigg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230925_45974190.mp3",
-    "raw": "Die provozierende und gewitzte Streitschrift des Franzosen Paul Lafargue wird 140 Jahre alt: Sind arbeitende Menschen dumm, weil sie sich ausbeuten lassen? Von Sabine Mann.",
-    "sanitized": "Die provozierende und gewitzte Streitschrift des Franzosen Paul Lafargue wird 140 Jahre alt: Sind arbeitende Menschen dumm, weil sie sich ausbeuten lassen? Von Sabine Mann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230924_945de38b.mp3",
-    "raw": "Der kleine Frank Mars ist kränklich, geht selten zur Schule - und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer.",
-    "sanitized": "Der kleine Frank Mars ist kränklich, geht selten zur Schule - und verbringt deshalb viel Zeit in der Küche seiner Mutter. Dort lernt er, wie gute Süßigkeiten gelingen: die Grundlage für ein Schokoriegel-Imperium. Von Wolfgang Meyer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230923_fb02babe.mp3",
-    "raw": "Pablo Neruda ist vor allem für seine Liebesgedichte bekannt. Chiles Nobelpreisträger stirbt am 23.9.1973. Ob er in Pinochets Auftrag ermordet wurde, ist ungeklärt. Von Maren Gottschalk.",
-    "sanitized": "Pablo Neruda ist vor allem für seine Liebesgedichte bekannt. Chiles Nobelpreisträger stirbt am 23.9.1973. Ob er in Pinochets Auftrag ermordet wurde, ist ungeklärt. Von Maren Gottschalk."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230922_efc4a5fc.mp3",
-    "raw": "Über 85 Millionen verkaufte Alben: Der Sänger Andrea Bocelli (geboren am 22.9.1958) ist zugleich Weltstar und \"Volks-Tenor\". Der Italiener verzaubert, eckt aber auch an. Von Christoph Vratz.",
-    "sanitized": "Über 85 Millionen verkaufte Alben: Der Sänger Andrea Bocelli (geboren am 22.9.1958) ist zugleich Weltstar und \"Volks-Tenor\". Der Italiener verzaubert, eckt aber auch an. Von Christoph Vratz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230921_9a405b21.mp3",
-    "raw": "Erna Scheffler, die am 21.9.1893 geboren wird, kämpft für die Gleichberechtigung der Frau. 1951 wird sie als erste Richterin an das Bundesverfassungsgericht berufen. Von Anja Arp.",
-    "sanitized": "Erna Scheffler, die am 21.9.1893 geboren wird, kämpft für die Gleichberechtigung der Frau. 1951 wird sie als erste Richterin an das Bundesverfassungsgericht berufen. Von Anja Arp."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230920_965cc6d3.mp3",
-    "raw": "\"Time in a Bottle\", \"Rapid Roy\", \"Photographs and Memories\": Jim Croce komponiert Songs für die Ewigkeit. Als er am 20.9.1973 stirbt, ist er gerade einmal 30 Jahre alt. Von Thomas Pfaff.",
-    "sanitized": "\"Time in a Bottle\", \"Rapid Roy\", \"Photographs and Memories\": Jim Croce komponiert Songs für die Ewigkeit. Als er am 20.9.1973 stirbt, ist er gerade einmal 30 Jahre alt. Von Thomas Pfaff."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230919_c0e0c5de.mp3",
-    "raw": "Für seine bissigen Restaurant-Kritiken wird er geliebt und gehasst: Der Journalist Wolfram Siebeck (geboren am 19.9.1928) will den Deutschen guten Geschmack vermitteln.  Von Claudia Belemann.",
-    "sanitized": "Für seine bissigen Restaurant-Kritiken wird er geliebt und gehasst: Der Journalist Wolfram Siebeck (geboren am 19.9.1928) will den Deutschen guten Geschmack vermitteln.  Von Claudia Belemann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230918_815ccea1.mp3",
-    "raw": "Heute vor 125 Jahren wird ein Örtchen im heutigen Sudan beinahe zum Auslöser eines großen Kriegs. Die Kolonialmächte England und Frankreich geraten aneinander. Von Marfa Heimbach.",
-    "sanitized": "Heute vor 125 Jahren wird ein Örtchen im heutigen Sudan beinahe zum Auslöser eines großen Kriegs. Die Kolonialmächte England und Frankreich geraten aneinander. Von Marfa Heimbach."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230917_d45651e6.mp3",
-    "raw": "Am 17.9.2013 ist \"GTA V\" erschienen, eines der erfolgreichsten Videospiele aller Zeiten. Spannend ist das Monument der Spielkultur längst nicht nur für \"Gamer\". Von Tobias Nowak.",
-    "sanitized": "Am 17.9.2013 ist \"GTA V\" erschienen, eines der erfolgreichsten Videospiele aller Zeiten. Spannend ist das Monument der Spielkultur längst nicht nur für \"Gamer\". Von Tobias Nowak."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230916_cf0f207d.mp3",
-    "raw": "Blasphemie, Kirchenkritik? Oder schreiend lustige Religionskritik? Heute vor 45 Jahren begannen die Dreharbeiten für den Monty Python-Film \"Life of Brian\" in Tunesien. Von Jana Fischer.",
-    "sanitized": "Blasphemie, Kirchenkritik? Oder schreiend lustige Religionskritik? Heute vor 45 Jahren begannen die Dreharbeiten für den Monty Python-Film \"Life of Brian\" in Tunesien. Von Jana Fischer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230915_64591b2f.mp3",
-    "raw": "\"Freiheit und Leben kann man uns nehmen, die Ehre nicht\". In der letzten freien Rede im Reichstag der Weimarer Republik sprach sich der SPD-Politiker Otto Wels (geb. am 15.9.1873) mutig gegen das Ermächtigungsgesetz der Nazis aus. Hitler antwortete höhnisch. Von Thomas Klug.",
-    "sanitized": "\"Freiheit und Leben kann man uns nehmen, die Ehre nicht\". In der letzten freien Rede im Reichstag der Weimarer Republik sprach sich der SPD-Politiker Otto Wels (geb. am 15.9.1873) mutig gegen das Ermächtigungsgesetz der Nazis aus. Hitler antwortete höhnisch. Von Thomas Klug."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230914_01aafa33.mp3",
-    "raw": "Ein deutscher Arzt der frühen Neuzeit, der es als Zauberer in die Harry-Potter-Bücher geschafft hat? Den gab es wirklich: Agrippa von Nettesheim. Von Marko Rösseler.",
-    "sanitized": "Ein deutscher Arzt der frühen Neuzeit, der es als Zauberer in die Harry-Potter-Bücher geschafft hat? Den gab es wirklich: Agrippa von Nettesheim. Von Marko Rösseler."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230913_f73a8525.mp3",
-    "raw": "Der \"Frankfurter Tomatenwurf\" am 13.9.1968 gilt als Initialzündung der neuen deutschen Frauenbewegung: Die Aktion zeigt einen Konflikt innerhalb der Linken. Von Daniela Wakonigg.",
-    "sanitized": "Der \"Frankfurter Tomatenwurf\" am 13.9.1968 gilt als Initialzündung der neuen deutschen Frauenbewegung: Die Aktion zeigt einen Konflikt innerhalb der Linken. Von Daniela Wakonigg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230912_93ebc463.mp3",
-    "raw": "Eine Weltkarriere mit unfassbaren Tiefen. Ob Tablettensucht oder Krankheiten - Johnny Cash steht immer wieder auf und hinterlässt unvergleichliche Musik. Von Uwe Schulz.",
-    "sanitized": "Eine Weltkarriere mit unfassbaren Tiefen. Ob Tablettensucht oder Krankheiten - Johnny Cash steht immer wieder auf und hinterlässt unvergleichliche Musik. Von Uwe Schulz."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230911_cdc25e00.mp3",
-    "raw": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende: Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock.",
-    "sanitized": "Am 11.9.1973 putscht in Chile Augusto Pinochet gegen die demokratisch gewählte Regierung von Salvador Allende: Hunderttausende Menschen werden inhaftiert und gefoltert. Von Veronika Bock."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230910_4053a42f.mp3",
-    "raw": "Heute wäre Rolf Bossi 100 Jahre alt geworden. Sein Vater fiel der NS-Willkürjustiz zum Opfer: wichtigstes Motiv für seinen Entschluss, selbst Strafverteidiger zu werden. Von Christoph Tiemann.",
-    "sanitized": "Heute wäre Rolf Bossi 100 Jahre alt geworden. Sein Vater fiel der NS-Willkürjustiz zum Opfer: wichtigstes Motiv für seinen Entschluss, selbst Strafverteidiger zu werden. Von Christoph Tiemann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230909_03aa03bf.mp3",
-    "raw": "Welche Realität steckt hinter den 'Märchen' aus Nora Hespers' Kindheit? Ihr Großvater Theo Hespers wurde am 9.9.1943 als Widerstandskämpfer von der Gestapo getötet. Von Christoph Vormweg.",
-    "sanitized": "Welche Realität steckt hinter den 'Märchen' aus Nora Hespers' Kindheit? Ihr Großvater Theo Hespers wurde am 9.9.1943 als Widerstandskämpfer von der Gestapo getötet. Von Christoph Vormweg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230908_a42a48f2.mp3",
-    "raw": "Leni Riefenstahl dreht im Nationalsozialismus Propagandafilme, sie ist Hitlers Lieblingsregisseurin. Nach dem Zweiten Weltkrieg arbeitet sie als Fotografin und stirbt am 8.9.2003. Von Andrea Klasen.",
-    "sanitized": "Leni Riefenstahl dreht im Nationalsozialismus Propagandafilme, sie ist Hitlers Lieblingsregisseurin. Nach dem Zweiten Weltkrieg arbeitet sie als Fotografin und stirbt am 8.9.2003. Von Andrea Klasen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230907_1998cce5.mp3",
-    "raw": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau.",
-    "sanitized": "Am 7.9.1888 wird das Frühchen Edith Eleanor McLean in einen Brutkasten gelegt und überlebt. Brutkästen können Babys helfen zu überleben, bringen aber auch ethische Fragen. Von Heide Soltau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230906_ad7966e4.mp3",
-    "raw": "Zwei ungleiche Frauen treffen sich, wahrscheinlich im September 1593: Die eine ist als Königin von England die mächtigste Frau der Welt, die andere eine irische Piratin. Von Monika Buschey.",
-    "sanitized": "Zwei ungleiche Frauen treffen sich, wahrscheinlich im September 1593: Die eine ist als Königin von England die mächtigste Frau der Welt, die andere eine irische Piratin. Von Monika Buschey."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230905_38d73000.mp3",
-    "raw": "Heute vor 45 Jahren (5.9.1978) begannen in Camp David dank US-Präsident Carter Friedensverhandlungen zwischen Israel und Ägypten: Schwierig und schließlich erfolgreich. Von Burkhard Hupe.",
-    "sanitized": "Heute vor 45 Jahren (5.9.1978) begannen in Camp David dank US-Präsident Carter Friedensverhandlungen zwischen Israel und Ägypten: Schwierig und schließlich erfolgreich. Von Burkhard Hupe."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230904_b19493df.mp3",
-    "raw": "Wissenschaft und Glaube - darin sieht der arabische Gelehrte al-Biruni (geboren am 4.9.973) keine Gegensätze. Für ihn ergänzen sich die beiden konträren Perspektiven. Von Wolfgang Burgmer.",
-    "sanitized": "Wissenschaft und Glaube - darin sieht der arabische Gelehrte al-Biruni (geboren am 4.9.973) keine Gegensätze. Für ihn ergänzen sich die beiden konträren Perspektiven. Von Wolfgang Burgmer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230903_37a96601.mp3",
-    "raw": "Im September 1928 entdeckt Alexander Fleming den Zufall als Helfer der Wissenschaft. In einer unsauberen Petrischale wuchs ein Pilz, der bald viele Leben retten sollte. Von Jürgen Werth.",
-    "sanitized": "Im September 1928 entdeckt Alexander Fleming den Zufall als Helfer der Wissenschaft. In einer unsauberen Petrischale wuchs ein Pilz, der bald viele Leben retten sollte. Von Jürgen Werth."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230902_e4897850.mp3",
-    "raw": "Lili'Uokalani (geb. am 2.9.1838) vertraute den Amerikanern. Die hatten den von ihr angenommenen christlichen Glauben nach Hawaii gebracht. Doch das sollte sie bereuen. Von Almut Finck.",
-    "sanitized": "Lili'Uokalani (geb. am 2.9.1838) vertraute den Amerikanern. Die hatten den von ihr angenommenen christlichen Glauben nach Hawaii gebracht. Doch das sollte sie bereuen. Von Almut Finck."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230901_2148cf95.mp3",
-    "raw": "Seit dem 1.9.1873 fahren die Cable Cars durch San Francisco: Für den Alltagsbetrieb nicht mehr rentabel, für Einheimische und Touristen aber unverzichtbar. Von Kay Bandermann.",
-    "sanitized": "Seit dem 1.9.1873 fahren die Cable Cars durch San Francisco: Für den Alltagsbetrieb nicht mehr rentabel, für Einheimische und Touristen aber unverzichtbar. Von Kay Bandermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230831_18dfc062.mp3",
-    "raw": "Im \"Haus Vaterland\" wird geklotzt statt gekleckert. Eröffnet am 31.08.1923 bietet Berlins Vergnügungstempel Platz zum tanzen, essen und in die Ferne schweifen - und das für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann.",
-    "sanitized": "Im \"Haus Vaterland\" wird geklotzt statt gekleckert. Eröffnet am 31.08.1923 bietet Berlins Vergnügungstempel Platz zum tanzen, essen und in die Ferne schweifen - und das für jeden Geldbeutel. Von Veronika Bock /Ulrich Biermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230830_8c04027c.mp3",
-    "raw": "Sie zwingen Sportlerinnen mit Schlägen zu Höchstleistungen, sie terrorisieren ein ganzes Land: Der am 30.8.1948 gegründete rumänische Geheimdienst Securitate entwickelt sich zu einem der brutalsten in Europa. Von Irene Dänzer-Vanotti.",
-    "sanitized": "Sie zwingen Sportlerinnen mit Schlägen zu Höchstleistungen, sie terrorisieren ein ganzes Land: Der am 30.8.1948 gegründete rumänische Geheimdienst Securitate entwickelt sich zu einem der brutalsten in Europa. Von Irene Dänzer-Vanotti."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230829_d97dc6c9.mp3",
-    "raw": "Jede Menge Gold und Silber übergeben die Inkas den Spaniern, damit sie ihren gekidnappten Herrscher Atahualpa freilassen. Vergeblich, wie sich am 29.08.1533 herausstellt. Von Marko Rösseler.",
-    "sanitized": "Jede Menge Gold und Silber übergeben die Inkas den Spaniern, damit sie ihren gekidnappten Herrscher Atahualpa freilassen. Vergeblich, wie sich am 29.08.1533 herausstellt. Von Marko Rösseler."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230828_0b9aba96.mp3",
-    "raw": "Am 28.8.1963 hält Martin Luther King in Washington seine visionäre Rede \"I have a dream\". Er fasst darin die Forderungen der US-Bürgerrechtsbewegung zusammen. Von Almut Finck.",
-    "sanitized": "Am 28.8.1963 hält Martin Luther King in Washington seine visionäre Rede \"I have a dream\". Er fasst darin die Forderungen der US-Bürgerrechtsbewegung zusammen. Von Almut Finck."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230827_987df61e.mp3",
-    "raw": "\"Wohin auch das Auge blicket, Moor und Heide nur ringsum\" - weltberühmte Zeilen der antifaschistischen Hymne. Erstmals gesungen von aufrechten KZ-Häftlingen. Von Christiane Kopka.",
-    "sanitized": "\"Wohin auch das Auge blicket, Moor und Heide nur ringsum\" - weltberühmte Zeilen der antifaschistischen Hymne. Erstmals gesungen von aufrechten KZ-Häftlingen. Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230826_08756170.mp3",
-    "raw": "Als Hertha Marks Ayrton am 26.8.1923 starb, war sie eine bekannte und geachtete Ingenieurin und Erfinderin. Außerdem kämpfte sie für Gleichberechtigung. Von Melahat Simsek.",
-    "sanitized": "Als Hertha Marks Ayrton am 26.8.1923 starb, war sie eine bekannte und geachtete Ingenieurin und Erfinderin. Außerdem kämpfte sie für Gleichberechtigung. Von Melahat Simsek."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230825_57640f1a.mp3",
-    "raw": "Der Großmeister der Spionageromane wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg.",
-    "sanitized": "Der Großmeister der Spionageromane wird 85: Frederick Forsyth schrieb mehr als 20 Bestseller, die in viele Sprachen übersetzt wurden. Bis heute sieht er sich auch als Journalist. Von Christoph Vormweg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230824_0399eb52.mp3",
-    "raw": "Im August 1953 sank die Kaffeesteuer in der BRD deutlich - es war das Ende des gefährlichen und lukrativen Kaffeeschmuggels im \"Wilden Westen\" der Eifel... Von Irene Geuer.",
-    "sanitized": "Im August 1953 sank die Kaffeesteuer in der BRD deutlich - es war das Ende des gefährlichen und lukrativen Kaffeeschmuggels im \"Wilden Westen\" der Eifel... Von Irene Geuer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230823_1d03e201.mp3",
-    "raw": "Am 23.8.1958 wurde die Gorch Fock ins Wasser gelassen. Ihr Image: lange tadellos! Heute steht sie auch für Todesfälle und Sanierungskosten von über 100 Millionen Euro. Von Wolfgang Meyer.",
-    "sanitized": "Am 23.8.1958 wurde die Gorch Fock ins Wasser gelassen. Ihr Image: lange tadellos! Heute steht sie auch für Todesfälle und Sanierungskosten von über 100 Millionen Euro. Von Wolfgang Meyer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230822_031e6043.mp3",
-    "raw": "Am 22.8.1903 beginnt in Crimmitschau einer der längsten Streiks in der Geschichte der Arbeiterbewegung: Er dauert fast 5 Monate, etwa 8.000 Beschäftigte beteiligen sich. Von Kay Bandermann.",
-    "sanitized": "Am 22.8.1903 beginnt in Crimmitschau einer der längsten Streiks in der Geschichte der Arbeiterbewegung: Er dauert fast 5 Monate, etwa 8.000 Beschäftigte beteiligen sich. Von Kay Bandermann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230821_7346a92d.mp3",
-    "raw": "Die Erziehung des kleines Rudolf: brutal und sadistisch. Der Tod des einzigen Sohns von Kaiserin \"Sissi\" ist bis heute Gegenstand von Romanen und Verschwörungsmythen. Von Daniela Wakonigg.",
-    "sanitized": "Die Erziehung des kleines Rudolf: brutal und sadistisch. Der Tod des einzigen Sohns von Kaiserin \"Sissi\" ist bis heute Gegenstand von Romanen und Verschwörungsmythen. Von Daniela Wakonigg."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230820_2a3d645b.mp3",
-    "raw": "Vor 130 Jahren, am 20.8.1893, wurde Lotte Cohn geboren. Sie war überzeugte Zionistin und plante als Architektin die ersten jüdischen Siedlungen in Palästina. Von Andrea Klasen.",
-    "sanitized": "Vor 130 Jahren, am 20.8.1893, wurde Lotte Cohn geboren. Sie war überzeugte Zionistin und plante als Architektin die ersten jüdischen Siedlungen in Palästina. Von Andrea Klasen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230819_dbf5cb6c.mp3",
-    "raw": "Sie waren frühe Kapitalisten, eine erste Mittelschicht: Im 13. Jahrhundert kommen Bürger in Florenz zu Geld - und sie fordern Macht... Von Michael Struck-Schloen.",
-    "sanitized": "Sie waren frühe Kapitalisten, eine erste Mittelschicht: Im 13. Jahrhundert kommen Bürger in Florenz zu Geld - und sie fordern Macht... Von Michael Struck-Schloen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230818_50b7a70a.mp3",
-    "raw": "Gut oder böse? Schwarz oder weiß? Oder gibt es etwas dazwischen? Die Psychologin Else Frenkel-Brunswik hat sie entdeckt, die Grautöne. Am 18.8.1908 wird sie in Lemberg geboren. Von Heide Soltau.",
-    "sanitized": "Gut oder böse? Schwarz oder weiß? Oder gibt es etwas dazwischen? Die Psychologin Else Frenkel-Brunswik hat sie entdeckt, die Grautöne. Am 18.8.1908 wird sie in Lemberg geboren. Von Heide Soltau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230817_8e999ec6.mp3",
-    "raw": "Vor 115 Jahren fand der erste Welt-Vegetarier-Kongress statt. Etwa 20 Frauen und Männer trafen sich in Dresden, um sich über fleischlose Ernährung auszutauschen. Von Steffi Tenhaven.",
-    "sanitized": "Vor 115 Jahren fand der erste Welt-Vegetarier-Kongress statt. Etwa 20 Frauen und Männer trafen sich in Dresden, um sich über fleischlose Ernährung auszutauschen. Von Steffi Tenhaven."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230816_8f1b251e.mp3",
-    "raw": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama war ein bespielloser Kriminalfall. Von Herwig Katzer.",
-    "sanitized": "Interviews durchs geöffnete Autofenster der Gangster. Eine überforderte Polizei. Drei Tote. Das Gladbecker Geiseldrama war ein bespielloser Kriminalfall. Von Herwig Katzer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230815_e44b6891.mp3",
-    "raw": "Am 15.8.1248 wurde der Grundstein für das höchste Gebäude der Welt gelegt. Dabei war den Kölner Baumeistern klar: Sie selbst würden den fertigen Dom nie sehen. Von Irene Geuer.",
-    "sanitized": "Am 15.8.1248 wurde der Grundstein für das höchste Gebäude der Welt gelegt. Dabei war den Kölner Baumeistern klar: Sie selbst würden den fertigen Dom nie sehen. Von Irene Geuer."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230814_df93c9c2.mp3",
-    "raw": "Die weltweit erste Fahrprüfung am 14.8.1893 sollte eine abenteuerlustige Bohème disziplinieren, die in der Pariser Innenstadt Autorennen veranstaltete. Von Kerstin Hilt.",
-    "sanitized": "Die weltweit erste Fahrprüfung am 14.8.1893 sollte eine abenteuerlustige Bohème disziplinieren, die in der Pariser Innenstadt Autorennen veranstaltete. Von Kerstin Hilt."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230813_0470aa90.mp3",
-    "raw": "Lucy Stone, am 13.8.1818 geboren, kämpfte in den USA gegen die Sklaverei und  für das Frauenwahlrecht. Nach der Hochzeit behielt sie ihren Geburtsnamen. Autorin: Edda Dammmüller Von Edda Dammmüller.",
-    "sanitized": "Lucy Stone, am 13.8.1818 geboren, kämpfte in den USA gegen die Sklaverei und  für das Frauenwahlrecht. Nach der Hochzeit behielt sie ihren Geburtsnamen. Autorin: Edda Dammmüller Von Edda Dammmüller."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230812_274b439b.mp3",
-    "raw": "Mit Mühe brachten US-Siedler 150 Menschen zusammen, um im Jahr 1833 offiziell eine Stadt gründen zu dürfen. Weniger Jahre später hatte Chicago 300.000 Einwohner. Von Thomas Mau.",
-    "sanitized": "Mit Mühe brachten US-Siedler 150 Menschen zusammen, um im Jahr 1833 offiziell eine Stadt gründen zu dürfen. Weniger Jahre später hatte Chicago 300.000 Einwohner. Von Thomas Mau."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230811_d9f4bbf3.mp3",
-    "raw": "Sie verabscheut Geld und Macht. Doch die Familie der Klara Favarone ist reich, also trägt sie unter der teuren Kleidung heimlich billige Hemden - bis sie von zu Hause flieht und sich einem religiösen Revoluzzer anschließt: Franz von Assisi. Autor: Hans Conrad Zander Von Conrad Zander.",
-    "sanitized": "Sie verabscheut Geld und Macht. Doch die Familie der Klara Favarone ist reich, also trägt sie unter der teuren Kleidung heimlich billige Hemden - bis sie von zu Hause flieht und sich einem religiösen Revoluzzer anschließt: Franz von Assisi. Autor: Hans Conrad Zander Von Conrad Zander."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230810_59456d6c.mp3",
-    "raw": "Schwedens König Gustav II. Adolf wollte den anderen europäischen Herrschern zeigen, was ein Kriegsschiff ist: Mehr Kanonen, höhere Aufbauten, viel Prunk. Es kam anders. Autor: Heiner Wember Von Heiner Wember.",
-    "sanitized": "Schwedens König Gustav II. Adolf wollte den anderen europäischen Herrschern zeigen, was ein Kriegsschiff ist: Mehr Kanonen, höhere Aufbauten, viel Prunk. Es kam anders. Autor: Heiner Wember Von Heiner Wember."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230809_d4f1c30a.mp3",
-    "raw": "Er ist nicht nach Jahrhunderten schief geworden, er war es. Fast von Anfang an: Vor 850 Jahren (am 11.7.1183) wurde der Grundstein für den Schiefen Turm von Pisa gelegt - offensichtlich nicht ganz korrekt... Autorin: Irene Dänzer-Vanotti Von Irene Dänzer-Vanotti.",
-    "sanitized": "Er ist nicht nach Jahrhunderten schief geworden, er war es. Fast von Anfang an: Vor 850 Jahren (am 11.7.1183) wurde der Grundstein für den Schiefen Turm von Pisa gelegt - offensichtlich nicht ganz korrekt... Autorin: Irene Dänzer-Vanotti Von Irene Dänzer-Vanotti."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230808_e98d0000.mp3",
-    "raw": "Der Überfall auf einen britischen Postzug vom 8.8.1963 hat längst Legendenstatus. Doch den Männern um Anführer Bruce Reynolds brachte die Tat kein Glück - trotz der Beute von 2,6 Millionen Pfund. Autorin: Martina Meißner Von Martina Meißner.",
-    "sanitized": "Der Überfall auf einen britischen Postzug vom 8.8.1963 hat längst Legendenstatus. Doch den Männern um Anführer Bruce Reynolds brachte die Tat kein Glück - trotz der Beute von 2,6 Millionen Pfund. Autorin: Martina Meißner Von Martina Meißner."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230807_3d348d59.mp3",
-    "raw": "Kein Kind wollte mit dem Jungen mit der schiefen, riesigen Nase spielen - also spielte Joachim Ringelnatz mit Wörtern. Und wurde mit seinen lustigen und tiefsinnigen Gedichten berühmt... Autorin: Andrea Klasen Von Andrea Klasen.",
-    "sanitized": "Kein Kind wollte mit dem Jungen mit der schiefen, riesigen Nase spielen - also spielte Joachim Ringelnatz mit Wörtern. Und wurde mit seinen lustigen und tiefsinnigen Gedichten berühmt... Autorin: Andrea Klasen Von Andrea Klasen."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230806_a4f0616c.mp3",
-    "raw": "Dieser Kanal war seit 2600 Jahren geplant, aber einfach zu schwer zu bauen. Die Erfindung des Dynamits brachte den Durchbruch für den Kanal von Korinth, dessen Wände 80 Meter in die Höhe ragen. Autorin: Claudia Friedrich Von Claudia Friedrich.",
-    "sanitized": "Dieser Kanal war seit 2600 Jahren geplant, aber einfach zu schwer zu bauen. Die Erfindung des Dynamits brachte den Durchbruch für den Kanal von Korinth, dessen Wände 80 Meter in die Höhe ragen. Autorin: Claudia Friedrich Von Claudia Friedrich."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230805_ca85b2b8.mp3",
-    "raw": "Carl Metz, geboren am 5.8.1818, war Schulabbrecher, Fabrikant für Spritzpumpen, engagierter Turner - und Pionier der Freiwilligen Feuerwehr in Deutschland. Autorin: Doris Arp Von Doris Arp.",
-    "sanitized": "Carl Metz, geboren am 5.8.1818, war Schulabbrecher, Fabrikant für Spritzpumpen, engagierter Turner - und Pionier der Freiwilligen Feuerwehr in Deutschland. Autorin: Doris Arp Von Doris Arp."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230804_67350b05.mp3",
-    "raw": "Es fing an mit einem Staatsbesuch des pakistanischen Außenministers am 4.8.1968 und einer Kiste mit 40 Mangos. Danach war ganz China im propagandistisch angefachten Mango-Fieber. Autorin: Andrea Kath Von Andrea Kath.",
-    "sanitized": "Es fing an mit einem Staatsbesuch des pakistanischen Außenministers am 4.8.1968 und einer Kiste mit 40 Mangos. Danach war ganz China im propagandistisch angefachten Mango-Fieber. Autorin: Andrea Kath Von Andrea Kath."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230803_3bcc5608.mp3",
-    "raw": "Er machte einen Kopfstand auf der Spitze des Empire State Building. Hängte sich an die Uhrzeiger eines Kirchturms: Arnim Dahl (gestorben vor 25 Jahren, am 3.8.1998) war der erfolgreichste deutsche Stuntman der Nachkriegszeit. Sein Lebensmotto: \"Lieber zehn Minuten Angst als einen Monat arbeiten.\" Autoren: Veronika Bock/Ulli Biermann Von Veronika, Biermann, Ulrich Bock.",
-    "sanitized": "Er machte einen Kopfstand auf der Spitze des Empire State Building. Hängte sich an die Uhrzeiger eines Kirchturms: Arnim Dahl (gestorben vor 25 Jahren, am 3.8.1998) war der erfolgreichste deutsche Stuntman der Nachkriegszeit. Sein Lebensmotto: \"Lieber zehn Minuten Angst als einen Monat arbeiten.\" Autoren: Veronika Bock/Ulli Biermann Von Veronika, Biermann, Ulrich Bock."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230802_2fee49f1.mp3",
-    "raw": "Die Frau, die am 02.08.1858 zur Welt kam, war mutig genug, einen Mann zu heiraten, dessen Spitzname \"König Gorilla\" lautete. Autor: Heiner Wember Von Heiner Wember.",
-    "sanitized": "Die Frau, die am 02.08.1858 zur Welt kam, war mutig genug, einen Mann zu heiraten, dessen Spitzname \"König Gorilla\" lautete. Autor: Heiner Wember Von Heiner Wember."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230801_2d15ce0b.mp3",
-    "raw": "Sie ist die berühmteste Frau des Wilden Westens - doch wer sie wirklich war, weiß keiner so genau. Calamity Jane hat nicht nur die ihre Taten selbst dabei mitgeholfen, den Mythos von sich als die große Revolverheldin zu erschaffen. Von Christiane Kopka.",
-    "sanitized": "Sie ist die berühmteste Frau des Wilden Westens - doch wer sie wirklich war, weiß keiner so genau. Calamity Jane hat nicht nur die ihre Taten selbst dabei mitgeholfen, den Mythos von sich als die große Revolverheldin zu erschaffen. Von Christiane Kopka."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230731_2550b6aa.mp3",
-    "raw": "Der niederländische Autor Cees Nooteboom wurde am 31.7.1933 geboren: Er kennt Deutschland gut, hat hier gelebt und gearbeitet. Autor: Thomas Combrink Von Thomas Combrink.",
-    "sanitized": "Der niederländische Autor Cees Nooteboom wurde am 31.7.1933 geboren: Er kennt Deutschland gut, hat hier gelebt und gearbeitet. Autor: Thomas Combrink Von Thomas Combrink."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230730_e01d98e2.mp3",
-    "raw": "Er flog als erster mit einem Luftschiff über den Nordpol, zusammen mit Roald Amundsen. Die zweite Expedition des Umberto Nobile löste eine Rettungsaktion mit weltweitem Medienecho aus. Autorin: Marfa Heimbach Von Marfa Heimbach.",
-    "sanitized": "Er flog als erster mit einem Luftschiff über den Nordpol, zusammen mit Roald Amundsen. Die zweite Expedition des Umberto Nobile löste eine Rettungsaktion mit weltweitem Medienecho aus. Autorin: Marfa Heimbach Von Marfa Heimbach."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230729_ca14d4f9.mp3",
-    "raw": "Am 29.7.1948 traten 16 querschnittgelähmte Männer und Frauen im Rollstuhl zum ersten Mal gegeneinander im sportlichen Wettkampf beim Bogenschießen gegeneinander an. Das hätte bis dahin niemand für möglich gehalten. An einer Querschnittslähmung starb man damals meist innerhalb weniger Jahre.  Von Andrea Kath.",
-    "sanitized": "Am 29.7.1948 traten 16 querschnittgelähmte Männer und Frauen im Rollstuhl zum ersten Mal gegeneinander im sportlichen Wettkampf beim Bogenschießen gegeneinander an. Das hätte bis dahin niemand für möglich gehalten. An einer Querschnittslähmung starb man damals meist innerhalb weniger Jahre.  Von Andrea Kath."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230728_1612065e.mp3",
-    "raw": "Am 28.7.1963 starb der Autobauer, der durch \"Isabella\" oder die \"Leukoplast-Bombe\" bekannt wurde. Da war die Firma insolvent - zuvor hatte sie die deutsche Automobillandschaft vier Jahrzehnte entscheidend mitgeprägt. Autorin: Ariane Hoffmann Von Ariane Hoffmann.",
-    "sanitized": "Am 28.7.1963 starb der Autobauer, der durch \"Isabella\" oder die \"Leukoplast-Bombe\" bekannt wurde. Da war die Firma insolvent - zuvor hatte sie die deutsche Automobillandschaft vier Jahrzehnte entscheidend mitgeprägt. Autorin: Ariane Hoffmann Von Ariane Hoffmann."
-  },
-  {
-    "itemId": "/wdr_zeitzeichen_20230727_9d0c2a3f.mp3",
-    "raw": "Elsa Sophia von Kamphoevener, die am 27.7.1963 starb, wurde für ihre warme Stimme und den schwärmenden Ton bekannt: Damit erzählte sie orientalische Märchen. Autorin: Jutta Duhm-Heitzmann Von Jutta Duhm-Heitzmann.",
-    "sanitized": "Elsa Sophia von Kamphoevener, die am 27.7.1963 starb, wurde für ihre warme Stimme und den schwärmenden Ton bekannt: Damit erzählte sie orientalische Märchen. Autorin: Jutta Duhm-Heitzmann Von Jutta Duhm-Heitzmann."
   }
 ]

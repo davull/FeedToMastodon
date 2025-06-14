@@ -1300,6 +1300,15 @@ In der letzten Folge der Serie hatte ich bereits Brettspiele als Beispiel für D
     </item>
     
     <item>
+      <title>Netflix-Architektur Blogserie – Teil 3: Netflix Open Source Services (OSS)</title>
+      <link>https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/netflix-architektur-blogserie-teil-3-netflix-open-source-services-oss/</guid>
+      <description>In Teil 1 der umgekehrten Architekturbewertung gab es eine kurze Einführung, Teil 2 kümmerte sich um den Microservice-Ansatz von Netflix. Nun kommen wir zu einem Teil der Netflix-Architektur, der auch von Ihnen potentiell gut nutzbar ist, wenn Sie sich für eine ähnliche Architekturrichtung entscheiden: Die Open Source Services (kurz OSS) von Netflix. Sie bilden einen guten Teil dessen ab, was Netflix neben der eigenen Fachlichkeit an Services baut. Nicht alle Plattform-Services und andere technisch motivierten Services haben es in die Open Source Welt geschafft, aber es werden stetig mehr.</description>
+    </item>
+    
+    <item>
       <title>arc42-Starschnitt: Gradle. Schnipsel Nr. 11: Laufzeitsicht</title>
       <link>https://www.embarc.de/arc42-starschnitt-gradle-schnipsel-nr-11-laufzeitsicht/</link>
       <pubDate>Tue, 08 Sep 2015 08:22:17 +0000</pubDate>
@@ -1309,6 +1318,15 @@ In der letzten Folge der Serie hatte ich bereits Brettspiele als Beispiel für D
 
 Und so heißt es wieder: Schere raus und losgeschnippelt &amp;hellip;
 Einen Zug überfallen auf dem WohnzimmertischAlle Jahre wieder im Sommer vergibt eine Jury den Preis &amp;ldquo;Spiel des Jahres&amp;rdquo;. In drei Kategorien nominiert sie Brettspiele und prämiert das aus ihrer Sicht jeweils preiswürdigste.</description>
+    </item>
+    
+    <item>
+      <title>Netflix-Architektur Blogserie – Teil 2: Microservices</title>
+      <link>https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/</link>
+      <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/netflix-architektur-blogserie-teil-2-microservices/</guid>
+      <description>In Teil 1 der umgekehrten Architekturbewertung gab es eine kurze Einführung, nun machen wir uns an die auffälligsten Elemente der Netflix-Architektur. Ein sehr zentrales Merkmal der Netflix-Architektur ist der Einsatz von Microservices. Der Trend ist praktisch mit Netflix großgeworden - Hier beleuchten wir wie Netflix die Idee von Microservices lebt und was das für Rückschlüsse auf die Qualitätsmerkmale und Ziele von Netflix erlaubt, bzw. mit welchen Herausforderungen und Kompromissen Netflix lebt.</description>
     </item>
     
     <item>
@@ -1329,6 +1347,17 @@ Momentaufnahmen von embarc — machen Sie sich ein Bild von uns und greifen Sie 
       <guid>https://www.embarc.de/top-tools-fuer-architekturdokumentation-je-fuenf-staerken-und-schwaechen/</guid>
       <description>Persönlich halte ich die Werkzeugfrage bei der Dokumentation von Softwarearchitektur für überbewertet. Regelmäßig wird viel Energie in die Tool-Auswahl verschwendet. Mitunter ist nicht einmal klar, für welche Zielgruppe(n) die Dokumentation überhaupt angefertigt werden soll. #fail
 Das ändert allerdings nichts daran, dass Sie Dokumentation mit Werkzeugen anfertigen. Die Toolfrage wird recht schnell relevant. Gerade wenn Sie nicht im Nachhinein dokumentieren wollen, sondern Ihre zentralen Lösungsansätze bereits früh anfangen festzuhalten (was wir empfehlen).</description>
+    </item>
+    
+    <item>
+      <title>Netflix-Architektur Blogserie – Teil 1: Die umgekehrte Architekturbewertung</title>
+      <link>https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/netflix-architektur-blogserie-teil-1-die-umgekehrte-architekturbewertung/</guid>
+      <description>Netflix - das größte Internet-Business in den USA - zeichnet sich zeitweise für ein Drittel des gesamten Downstream-Traffics des Webs verantwortlich. Über 2 Milliarden Stunden Filme und Serien sind für Mitglieder verfügbar (nicht in jedem Land, aber dennoch eine beeindruckende Zahl).
+ Netflix is the king of online streaming, using more global bandwidth than cat videos and piracy combined.
+ Die Erfolge der Video-on-Demand Plattform basieren nicht nur auf einer guten Geschäftsidee, sondern auch auf top-modernen und effizienten Technologien, Frameworks und Architekturansätzen.</description>
     </item>
     
     <item>

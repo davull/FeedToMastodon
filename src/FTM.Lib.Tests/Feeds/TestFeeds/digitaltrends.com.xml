@@ -1,627 +1,162 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
-
+<?xml version="1.0" encoding="UTF-8"?><rss version="0.92">
 <channel>
 	<title>Digital Trends</title>
-	<atom:link href="https://www.digitaltrends.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.digitaltrends.com</link>
+	<link>https://www.digitaltrends.com/</link>
 	<description>Tech Product Reviews, How To, Best Ofs, deals and Advice</description>
-	<lastBuildDate>Sun, 16 Mar 2025 18:06:59 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Jun 2025 23:31:56 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
 	<language>en-US</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	
-<image>
-	<url>https://www.digitaltrends.com/wp-content/uploads/2020/08/dt-site-icon.png?fit=32%2C32&#038;p=1</url>
-	<title>Digital Trends</title>
-	<link>https://www.digitaltrends.com</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-<site xmlns="com-wordpress:feed-additions:1">35334127</site>	<item>
-		<title>iPhone 17 Air might not serve a price shock, after all</title>
-		<link>https://www.digitaltrends.com/mobile/apple-iphone-17-air-price-rumor-display-battery-features/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 18:06:59 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[iPhone 17 Air]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885667</guid>
-
-					<description><![CDATA[The iPhone 17 Air will reportedly cost roughly the same as the “Plus” model it is replacing. It might serve unexpected display and battery life surprises, too.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885667</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Iphone-air-leaked-render.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>We just got our best look yet at the iPhone 17 Air</title>
-		<link>https://www.digitaltrends.com/mobile/we-just-got-our-best-look-yet-iphone-17-air/</link>
-		
-		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 16:42:20 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[iPhone]]></category>
-		<category><![CDATA[iPhone 17]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885697</guid>
-
-					<description><![CDATA[Newly-leaked dummy units give us an idea of the potential final dimensions for the entire iPhone 17 lineup.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885697</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/02/Apple-iPhone-16e-display4.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Wyrdsong isn&#8217;t completely dead, but it&#8217;s on life support</title>
-		<link>https://www.digitaltrends.com/gaming/wyrdsong-isnt-completely-dead-life-support/</link>
-		
-		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 16:07:50 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Bethesda]]></category>
-		<category><![CDATA[Obsidian]]></category>
-		<category><![CDATA[RPG]]></category>
-		<category><![CDATA[skyrim]]></category>
-		<category><![CDATA[Wyrdsong]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885692</guid>
-
-					<description><![CDATA[The RPG from Bethesda and Obsidian veterans has undergone major changes following studio layoffs, and it's future remains uncertain.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885692</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/08/Wyrdsong-observer.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>I&#8217;ve finally ditched my Kindle for this superior Amazon-free e-reader</title>
-		<link>https://www.digitaltrends.com/mobile/this-e-reader-has-finally-given-me-the-excuse-to-ditch-my-kindle/</link>
-		
-		<dc:creator><![CDATA[Mark Jansen]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 16:00:57 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Amazon Kindle]]></category>
-		<category><![CDATA[best e-reader]]></category>
-		<category><![CDATA[Kobo]]></category>
-		<category><![CDATA[Kobo Clara Colour]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3867369</guid>
-
-					<description><![CDATA[The Amazon Kindle has had its day — it's time to move on to pastures new. Here's why I'm leaving Amazon, and which e-reader made it happen.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3867369</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/02/clara-colour-with-kindle.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>You Asked: Clarity on quantum dots, and why monitors can&#8217;t match TVs</title>
-		<link>https://www.digitaltrends.com/home-theater/you-asked-clarity-on-quantum-dots-why-monitors-cant-match-tvs/</link>
-		
-		<dc:creator><![CDATA[Caleb Denison]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 14:45:05 +0000</pubDate>
-				<category><![CDATA[Audio / Video]]></category>
-		<category><![CDATA[Features]]></category>
-		<category><![CDATA[Dolby Vision]]></category>
-		<category><![CDATA[QD-OLED]]></category>
-		<category><![CDATA[Quantum Dots]]></category>
-		<category><![CDATA[RGB Tandem OLED]]></category>
-		<category><![CDATA[Samsung G6]]></category>
-		<category><![CDATA[You Asked]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3872643</guid>
-
-					<description><![CDATA[On today’s You Asked: Quantum dots and what they do, and why PC monitors aren’t as good as TVs.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3872643</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/You-Asked-Ep-83-On-Site_3444ea.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>HBO is bringing &#8216;True Detective&#8217; and &#8216;Hacks&#8217; to TNT and TBS</title>
-		<link>https://www.digitaltrends.com/movies/true-detective-hacks-tnt-tbs/</link>
-		
-		<dc:creator><![CDATA[Joe Allen]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 13:59:37 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[hacks]]></category>
-		<category><![CDATA[TBS]]></category>
-		<category><![CDATA[TNT]]></category>
-		<category><![CDATA[True Detective: Night Country]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885672</guid>
-
-					<description><![CDATA[This marks the first time that HBO has brought recently aired shows to a network, and it might not be the last experiment of this kind. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885672</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/02/Evangeline-Navarro-and-Liz-Danvers-look-at-each-other-in-True-Detective-Night-Country.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>How to watch 2025 Selection Sunday: Date, time, live stream</title>
-		<link>https://www.digitaltrends.com/movies/how-to-watch-2025-selection-sunday-date-time-live-stream/</link>
-		
-		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 13:15:29 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Streaming Guides]]></category>
-		<category><![CDATA[2025 NCAA Tournament]]></category>
-		<category><![CDATA[2025 Selection Sunday]]></category>
-		<category><![CDATA[men's college basketball]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885314</guid>
-
-					<description><![CDATA[The field for the NCAA Division I men's basketball tournament will be finalized tonight. Find out how to watch 2025 Selection Sunday. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885314</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/ncaa-march-madness.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>iPhone 17 Air might lead the way for port-less Apple smartphones</title>
-		<link>https://www.digitaltrends.com/mobile/apple-iphone-17-air-portless-idea-report/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:54:03 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[iPhone 17 Air]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885646</guid>
-
-					<description><![CDATA[Apple was reportedly planning a truly portless iPhone 17 Air. Those plans were ditched, but if the upcoming phone succeeds, Apple might go back to the idea.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885646</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/iPhone-17-leaked-render.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>NYT Mini Crossword today: puzzle answers for Sunday, March 16</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-mini-crossword-answers-march-16/</link>
-		
-		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:30:12 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Mini Crossword]]></category>
-		<category><![CDATA[New York Times]]></category>
-		<category><![CDATA[nyt games]]></category>
-		<category><![CDATA[NYT Mini crossword]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3547533</guid>
-
-					<description><![CDATA[The NYT Mini crossword might be a lot smaller than a normal crossword, but it isn't easy. If you're stuck with today's crossword, we've got answers for you.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3547533</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/NYT-Games-mini-crossword.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>NYT Strands today: hints, spangram and answers for Sunday, March 16</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-strands-answers-for-sunday-march-16/</link>
-		
-		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:30:09 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Guides]]></category>
-		<category><![CDATA[nyt games]]></category>
-		<category><![CDATA[puzzle games]]></category>
-		<category><![CDATA[strands]]></category>
-		<category><![CDATA[word games]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3555135</guid>
-
-					<description><![CDATA[Strands is a tricky take on the classic word search from NYT Games. If you're stuck and cannot solve today's puzzle, we've got help and hints for you here.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3555135</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/03/NYT-Strands.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>NYT Connections: hints and answers for Sunday, March 16</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-connections-today-answer-hints-march-16/</link>
-		
-		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:30:07 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[connections]]></category>
-		<category><![CDATA[New York Times]]></category>
-		<category><![CDATA[nyt games]]></category>
-		<category><![CDATA[puzzle game]]></category>
-		<category><![CDATA[word game]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3413808</guid>
-
-					<description><![CDATA[Connections is the new puzzle game from the New York Times, and it can be quite difficult. If you need a hand with solving today's puzzle, we're here to help.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3413808</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/NYT-Games-connections.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Wordle Today: Wordle answer and hints for March 16</title>
+	<!-- generator="WordPress/6.8.1" -->
+<site xmlns="com-wordpress:feed-additions:1">35334127</site>
+	<item>
+		<title>You can save thousands on our favorite 8K TV right now, but there aren&#8217;t many left</title>
+		<description><![CDATA[If you’ve ever wanted an 8K TV, now is the time. At the very top of our list of the best 8K TVs sits the Samsung QN900D 8K QLED. It’s an expensive TV, but right now we’re seeing both its 75-inch and 85-inch variations have a huge sale. The 75-inch version is $1,700 off, bringing [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/home-theater/samsung-qn900d-8k-tv-deal-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938932</post-id>	</item>
+	<item>
+		<title>This fragrance diffuser is one of my favorite smart home gadgets of 2025</title>
+		<description><![CDATA[We’re about halfway through 2025, and it’s a year that’s been filled with cool smart home products. From a robot vacuum with a robotic arm to a portable misting fan that’s perfect for the impending summer heat, I’ve had the pleasure of testing out dozens of truly unique products. Yet somehow, my favorite smart home [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/home/this-fragrance-diffuser-is-one-of-my-favorite-smart-home-gadgets-of-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938865</post-id>	</item>
+	<item>
+		<title>This compact HP Omen gaming PC is on sale at 39% off today</title>
+		<description><![CDATA[The HP Omen 16L is the brand's smallest gaming PC. This configuration with the Nvidia GeForce RTX 3050 is on sale today at 39% off.]]></description>
+		<link>https://www.digitaltrends.com/computing/hp-omen-16l-gaming-pc-deal-hp-june-2025-2/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938693</post-id>	</item>
+	<item>
+		<title>Get Sony headphones for the incredibly low price of just $38 for a short time</title>
+		<description><![CDATA[The Sony WH-CH520 are at a super low price of just $38 right now.]]></description>
+		<link>https://www.digitaltrends.com/home-theater/sony-wh-ch520-deal-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938332</post-id>	</item>
+	<item>
+		<title>This Alienware x16 R2 gaming laptop with RTX 4080 is $700 off today</title>
+		<description><![CDATA[The Alienware x16 R2 gaming laptop with the Nvidia GeForce RTX 4080 graphics card and 32GB of RAM is on sale from Dell with a $700 discount.]]></description>
+		<link>https://www.digitaltrends.com/computing/alienware-x16-r2-gaming-laptop-deal-dell-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938258</post-id>	</item>
+	<item>
+		<title>Our favorite budget ANC headphones just got even more affordable</title>
+		<description><![CDATA[Whether you’re wanting to start studying a language, determine if now is the right time to start that business, or just want to finish the chapter in whatever book your eReader is holding, silence is power. ANC, or Active Noise Cancelation, can help you get it. Even without music pumping into your ears the headphones [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/home-theater/1more-sonoflow-deal-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938850</post-id>	</item>
+	<item>
+		<title>FIFA Club World Cup 2025: What is it, and what new tech is it bringing?</title>
+		<description><![CDATA[There's a surprising amount of new tech featuring at the 2025 Club World Club.]]></description>
+		<link>https://www.digitaltrends.com/home-theater/fifa-club-world-cup-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938765</post-id>	</item>
+	<item>
+		<title>How to Train Your Dragon review: a thrilling, beautiful fantasy adventure</title>
+		<description><![CDATA[Director Dean DeBlois delivered a near-perfect live-action remake of How to Train Your Dragon.]]></description>
+		<link>https://www.digitaltrends.com/movies/how-to-train-your-dragon-review-a-thrilling-beautiful-fantasy-adventure/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3936893</post-id>	</item>
+	<item>
+		<title>I played Lumines Arise and now it&#8217;s my most anticipated game of the year with a bullet</title>
+		<description><![CDATA[After playing Lumines Arise at Summer Game Fest, we're convinced that the puzzle game could end up being one of 2025's finest.]]></description>
+		<link>https://www.digitaltrends.com/gaming/lumines-arise-summer-game-fest-preview/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938438</post-id>	</item>
+	<item>
+		<title>5 sci-fi movies on Netflix you need to watch in June 2025</title>
+		<description><![CDATA[Dune is one of the five sci-fi movies on Netflix to watch this month.]]></description>
+		<link>https://www.digitaltrends.com/movies/5-sci-fi-movies-netflix-you-need-to-watch-in-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3937945</post-id>	</item>
+	<item>
+		<title>NYT Mini Crossword today: puzzle answers for Friday, June 13</title>
+		<description><![CDATA[The NYT Mini crossword might be a lot smaller than a normal crossword, but it isn't easy. If you're stuck with today's crossword, we've got answers for you.]]></description>
+		<link>https://www.digitaltrends.com/gaming/nyt-mini-crossword-answers-june-13/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3547533</post-id>	</item>
+	<item>
+		<title>NYT Strands today: hints, spangram and answers for Friday, June 13</title>
+		<description><![CDATA[Strands is a tricky take on the classic word search from NYT Games. If you're stuck and cannot solve today's puzzle, we've got help and hints for you here.]]></description>
+		<link>https://www.digitaltrends.com/gaming/nyt-strands-answers-for-june-13/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3555135</post-id>	</item>
+	<item>
+		<title>NYT Connections: hints and answers for Friday, June 13</title>
+		<description><![CDATA[Connections is the new puzzle game from the New York Times, and it can be quite difficult. If you need a hand with solving today's puzzle, we're here to help.]]></description>
+		<link>https://www.digitaltrends.com/gaming/nyt-connections-today-answer-hints-june-13/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3413808</post-id>	</item>
+	<item>
+		<title>Wordle Today: Wordle answer and hints for June 13</title>
+		<description><![CDATA[Trying to solve the Wordle today? If you're stuck, we've got a few hints that will help you keep your Wordle streak alive.]]></description>
 		<link>https://www.digitaltrends.com/gaming/wordle-today-answer-hints/</link>
-		
-		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:30:05 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[nyt games]]></category>
-		<category><![CDATA[wordle]]></category>
-		<category><![CDATA[wordle answer]]></category>
-		<category><![CDATA[wordle help]]></category>
-		<category><![CDATA[wordle today]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3302133</guid>
-
-					<description><![CDATA[Trying to solve the Wordle today? If you're stuck, we've got a few hints that will help you keep your Wordle streak alive.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3302133</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2022/10/image_adobe_express.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>NYT Crossword: answers for Sunday, March 16</title>
-		<link>https://www.digitaltrends.com/gaming/nyt-crossword-answers-march-16/</link>
-		
-		<dc:creator><![CDATA[Sam Hill]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:30:00 +0000</pubDate>
-				<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[crossword puzzle]]></category>
-		<category><![CDATA[nyt games]]></category>
-		<category><![CDATA[puzzle games]]></category>
-		<category><![CDATA[word games]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3840307</guid>
-
-					<description><![CDATA[The New York Times crossword puzzle can be tough, even if it isn't the Sunday issue! If you're stuck, we're here to help you out with today's clues and answers.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3840307</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/06/nyt-crossword-logo.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>3 PBS shows you should watch in March 2025</title>
-		<link>https://www.digitaltrends.com/movies/three-pbs-shows-you-should-watch-in-march-2025/</link>
-		
-		<dc:creator><![CDATA[Blair Marnell]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 12:15:21 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Call the Midwife]]></category>
-		<category><![CDATA[march 2025 streaming]]></category>
-		<category><![CDATA[PBS]]></category>
-		<category><![CDATA[Wolf Hall: The Mirror and the Light]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885582</guid>
-
-					<description><![CDATA[Two returning British dramas and a Swedish murder mystery are among the 3 PBS shows that you should watch this March. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885582</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Call-the-Midwife-Season-14-TV-Hero-2.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Mobile-based free VR tool is helping people beat speech anxiety</title>
-		<link>https://www.digitaltrends.com/computing/virtual-reality-training-platform-cambridge-speech-anxiety-public-speaking/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sun, 16 Mar 2025 11:37:36 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[Virtual Reality]]></category>
-		<category><![CDATA[VR]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885616</guid>
-
-					<description><![CDATA[Virtual Reality was once considered a niche for video games, but over the years, it has found application in many areas. From and paving the way for immersive concerts to , the . The latest VR innovation comes from the University of Cambridge, and it aims to help people overcome speech anxiety and the fear [&#8230;]]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885616</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Wearing-VR-speech-training-kit.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>SpaceX will launch Tesla’s humanoid Optimus robot to Mars next year</title>
-		<link>https://www.digitaltrends.com/space/spacex-mars-starship-optimus-humanoid-robot-land-2026-elon-musk/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 20:04:50 +0000</pubDate>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Mars]]></category>
-		<category><![CDATA[Optimus]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[SpaceX]]></category>
-		<category><![CDATA[Starship]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885537</guid>
-
-					<description><![CDATA[SpaceX chief Elon Musk says the Starship rocket will put Tesla’s Optimus robot on Mars in 2026, followed by human landings that are likely to happen in 2029.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885537</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Tesla-Optimus-gen2.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Samsung’s upcoming Fan Edition tablets might test fans’ patience</title>
-		<link>https://www.digitaltrends.com/mobile/samsung-galaxy-tab-s10-fe-series-tablets-price-leak/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 17:17:18 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Samsung]]></category>
-		<category><![CDATA[Samsung Galaxy Tab S10 FE]]></category>
-		<category><![CDATA[Samsung Galaxy Tab S10 FE Plus]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885499</guid>
-
-					<description><![CDATA[Samsung’s upcoming Galaxy Tab S10 FE series tablets will reportedly hit buyers with a price hike, while serving one less camera and no iterative memory upgrade.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885499</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Samsung-galaxy-tab-s10-fe.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>3 underrated shows on Netflix you need to watch in March 2025</title>
-		<link>https://www.digitaltrends.com/movies/watch-underrated-shows-netflix-march-2025/</link>
-		
-		<dc:creator><![CDATA[Dan Girolamo]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 17:00:31 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[Streaming Guides]]></category>
-		<category><![CDATA[march 2025 streaming]]></category>
-		<category><![CDATA[Netflix]]></category>
-		<category><![CDATA[underrated shows]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3884940</guid>
-
-					<description><![CDATA[Here are three underrated shows on Netflix you need to watch in March, including a prison thriller, a teen sitcom, and a sports drama.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3884940</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/08/ballers-series.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Gemini is replacing Google Assistant. How will the shift affect you?</title>
-		<link>https://www.digitaltrends.com/mobile/google-assistant-replaced-by-gemini-device-support-features/</link>
-		
-		<dc:creator><![CDATA[Nadeem Sarwar]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 15:38:54 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[ai]]></category>
-		<category><![CDATA[Artificial intelligence]]></category>
-		<category><![CDATA[Gemini]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Google Assistant]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885473</guid>
-
-					<description><![CDATA[Google Assistant will ride into the sunset soon, and Gemini will replace it on all your devices. Here’s everything you need to know about how the shift happens.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885473</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Google-assistant-Gemini.jpeg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>&#8216;Percy Jackson and the Olympians&#8217; has been renewed for a third season ahead of the second season premiere</title>
-		<link>https://www.digitaltrends.com/movies/percy-jackson-reneweed-season-3/</link>
-		
-		<dc:creator><![CDATA[Joe Allen]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 15:07:17 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Disney]]></category>
-		<category><![CDATA[Percy Jackson and the Olympians]]></category>
-		<category><![CDATA[rick riordan]]></category>
-		<category><![CDATA[walter scobell]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885449</guid>
-
-					<description><![CDATA[The show's second season will premiere in December, almost exactly two years after the first season hit Disney+. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885449</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2023/12/Percy-wears-a-Camp-Half-Blood-shirt-in-Percy-Jackson-and-the-Olympians.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Kobo Clara BW review: It&#8217;s great, but I don&#8217;t know why it exists</title>
-		<link>https://www.digitaltrends.com/mobile/kobo-clara-bw-review/</link>
-		
-		<dc:creator><![CDATA[Mark Jansen]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 15:00:26 +0000</pubDate>
-				<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Reviews]]></category>
-		<category><![CDATA[best e-readers]]></category>
-		<category><![CDATA[Kobo]]></category>
-		<category><![CDATA[Kobo Clara BW]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3867323</guid>
-
-					<description><![CDATA[The Kobo Clara BW is an excellent black and white e-reader, and usually, it would be an easy recommendation. However, I can't recommend you buy it.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3867323</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/kobo-clara-bw-on-dryer.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Watch SpaceX launch a relief crew for &#8216;stuck&#8217; Starliner astronauts</title>
-		<link>https://www.digitaltrends.com/space/spacex-crew-10-launch/</link>
-		
-		<dc:creator><![CDATA[Georgina Torbet]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 14:53:11 +0000</pubDate>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Space]]></category>
-		<category><![CDATA[crew-10]]></category>
-		<category><![CDATA[space]]></category>
-		<category><![CDATA[SpaceX]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885459</guid>
-
-					<description><![CDATA[A new batch of astronauts are headed to the ISS, who will take over from the current crew including two people who found themselves on an unexpected 9-month stay in space.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885459</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/nasas-spacex-crew-10-mission-launches-from-kennedy-space-center_jpg.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>I tried Foto, the anti-Instagram, and it&#8217;s both wonderful and intimidating</title>
-		<link>https://www.digitaltrends.com/mobile/i-tried-foto-the-anti-instagram-and-its-both-wonderful-and-intimidating/</link>
-		
-		<dc:creator><![CDATA[Andy Boxall]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 14:00:30 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Foto]]></category>
-		<category><![CDATA[Instagram]]></category>
-		<category><![CDATA[OuttaFocus]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3884878</guid>
-
-					<description><![CDATA[After becoming disillusioned with Instagram, I tried new photo sharing app Foto. What I found was both wonderfully simple, but also quite intimidating. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3884878</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/DT-OuttaFocus-Foto-the-Anti-Instagram.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Jenna Ortega and Taylor Russell may star in Single White Female remake</title>
-		<link>https://www.digitaltrends.com/movies/jenna-ortega-and-taylor-russell-may-star-in-single-white-female-remake/</link>
-		
-		<dc:creator><![CDATA[Blair Marnell]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 13:45:40 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Jenna Ortega]]></category>
-		<category><![CDATA[Single White Female]]></category>
-		<category><![CDATA[Taylor Russell]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885436</guid>
-
-					<description><![CDATA[The 1992 erotic thriller Single White Female may be getting a remake starring two of Hollywood's rising stars, Jenna Ortega and Taylor Russell.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885436</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Jenna-Ortega-and-Taylor-Russell.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Michael Fassbender auditioned for James Bond, but recommended Daniel Craig for the part</title>
-		<link>https://www.digitaltrends.com/movies/michael-fassbender-james-bond-auditioned/</link>
-		
-		<dc:creator><![CDATA[Joe Allen]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 13:14:50 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Black Bag]]></category>
-		<category><![CDATA[Daniel Craig]]></category>
-		<category><![CDATA[Henry Cavill]]></category>
-		<category><![CDATA[James Bond]]></category>
-		<category><![CDATA[Michael Fassbender]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885446</guid>
-
-					<description><![CDATA[The actor said that he was never fully in the mix, but that he did audition to play the iconic character after Pierce Brosnan. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885446</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/12/Michael-Fassbender-Black-Bag.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>District 9 director will bring Starship Troopers back to the big screen</title>
-		<link>https://www.digitaltrends.com/movies/district-nine-director-will-bring-starship-troopers-back-to-the-big-screen/</link>
-		
-		<dc:creator><![CDATA[Blair Marnell]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 12:48:53 +0000</pubDate>
-				<category><![CDATA[Entertainment]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Neill Blomkamp]]></category>
-		<category><![CDATA[paul verhoeven]]></category>
-		<category><![CDATA[Starship Troopers]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885399</guid>
-
-					<description><![CDATA[Neill Blomkamp is going to reboot Starship Troopers with a new movie based on the original novel rather than the 1997 film.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885399</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/Starship-Troopers-Movie-Hero.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Expelled! will make you feel like a dumb teenager again</title>
-		<link>https://www.digitaltrends.com/gaming/expelled-hands-on-impressions-steam-deck/</link>
-		
-		<dc:creator><![CDATA[Giovanni Colantonio]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 12:20:29 +0000</pubDate>
-				<category><![CDATA[Features]]></category>
-		<category><![CDATA[Gaming]]></category>
-		<category><![CDATA[Expelled!]]></category>
-		<category><![CDATA[indie games]]></category>
-		<category><![CDATA[Inkle]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3877262</guid>
-
-					<description><![CDATA[If you ever got caught up in an elaborate lie in order to save your own skin growing up, Expelled! is the game for you.]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3877262</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/03/expelled-verity-posing.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>Report: Apple&#8217;s AI plans for Siri hit major roadblocks behind the scenes</title>
-		<link>https://www.digitaltrends.com/computing/apples-ai-plans-for-siri-hit-major-roadblocks-behind-the-scenes/</link>
-		
-		<dc:creator><![CDATA[Fionna Agomuoh]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 12:06:09 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[ai]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Siri]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885388</guid>
-
-					<description><![CDATA[A Bloomberg report indicates that Apple team leads are discussing the state of the Siri AI project internally and trying to reassure staff of its progress.  ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885388</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2024/11/Apple-Intelligence-Type-to-Siri-3.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>ChromeOS 134 preview teases accessibility features, quick insert improvements</title>
-		<link>https://www.digitaltrends.com/computing/chromeos-134-preview-teases-accessibility-features-quick-insert-improvements/</link>
-		
-		<dc:creator><![CDATA[Fionna Agomuoh]]></dc:creator>
-		<pubDate>Sat, 15 Mar 2025 06:32:19 +0000</pubDate>
-				<category><![CDATA[Computing]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Chromebook]]></category>
-		<category><![CDATA[ChromeOS 134]]></category>
-		<category><![CDATA[Software]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885353</guid>
-
-					<description><![CDATA[The chromeOS.dev team has shared notes on upcoming features for the ChromeOS 134 update, which is set to release on Monday. ]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885353</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2025/01/cx14-chromebook-01.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-		<item>
-		<title>This 43-inch Amazon Fire TV just dropped to it&#8217;s lowest price ever</title>
-		<link>https://www.digitaltrends.com/home-theater/amazon-43-inch-fire-tv-4-series-deal-amazon-march-2025/</link>
-		
-		<dc:creator><![CDATA[Michael Bizzaco]]></dc:creator>
-		<pubDate>Fri, 14 Mar 2025 22:31:59 +0000</pubDate>
-				<category><![CDATA[Audio / Video]]></category>
-		<category><![CDATA[Deals]]></category>
-		<category><![CDATA[Amazon 43-inch Fire TV 4-Series 4K LED]]></category>
-		<category><![CDATA[Amazon 43-inch Fire TV 4-Series 4K LED deals]]></category>
-		<category><![CDATA[TV Deals]]></category>
-		<category><![CDATA[TVs]]></category>
-		<guid isPermaLink="false">https://www.digitaltrends.com/?p=3885153</guid>
-
-					<description><![CDATA[Today is a good day to save big on a mid-sized TV. Order the Amazon 43-inch 4-Series Fire TV while it’s on sale for $210 (the original MSRP is $370).
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3885153</post-id><enclosure url="https://www.digitaltrends.com/wp-content/uploads/2023/08/Amazon-55-inch-Class-4-Series-4K-UHD-Smart-Fire-TV-e1691163492143.jpg?resize=440%2C292&#038;p=1" length="0" type="image/png" />
-	</item>
-	</channel>
+		<post-id xmlns="com-wordpress:feed-additions:1">3302133</post-id>	</item>
+	<item>
+		<title>NYT Crossword: answers for Friday, June 13</title>
+		<description><![CDATA[The New York Times crossword puzzle can be tough, even if it isn't the Sunday issue! If you're stuck, we're here to help you out with today's clues and answers.]]></description>
+		<link>https://www.digitaltrends.com/gaming/nyt-crossword-answers-june-13/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3840307</post-id>	</item>
+	<item>
+		<title>I played 9 games at Tribeca Fest. They all need to be on your radar</title>
+		<description><![CDATA[This year's Tribeca Fest highlighted nine show stopping indie games. We tried all of them and walked away with a bigger Steam wish list.]]></description>
+		<link>https://www.digitaltrends.com/gaming/tribeca-fest-2025-games-hands-on/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938273</post-id>	</item>
+	<item>
+		<title>Nothing Phone 3 is the firm&#8217;s biggest swing at Apple and Samsung yet</title>
+		<description><![CDATA[If the Phone 3 delivers on the promises, it might be the shot-in-the-arm the market desperately needs.]]></description>
+		<link>https://www.digitaltrends.com/mobile/nothing-phone-3-biggest-swing-yet/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938590</post-id>	</item>
+	<item>
+		<title>Android 16 put a digital bodyguard on my phone and you must enable it</title>
+		<description><![CDATA[Away from the splashy new design and a built-in desktop mode, Android 16 introduces two new safety features that will protect your phone like a vigilant knight.]]></description>
+		<link>https://www.digitaltrends.com/mobile/android-16-put-a-digital-bodyguard-on-my-phone-and-you-must-enable-it/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938540</post-id>	</item>
+	<item>
+		<title>3 underrated Netflix movies you should watch this weekend (June 13-15)</title>
+		<description><![CDATA[These Netflix movies are all well worth your time this weekend. ]]></description>
+		<link>https://www.digitaltrends.com/movies/3-underrated-netflix-movies-you-should-watch-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3937759</post-id>	</item>
+	<item>
+		<title>3 underrated Netflix shows you should watch this weekend (June 13-15)</title>
+		<description><![CDATA[These Netflix shows are a reminder of all the ways you can be entertained by the streaming service. ]]></description>
+		<link>https://www.digitaltrends.com/movies/3-underrated-netflix-shows-you-should-watch-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938126</post-id>	</item>
+	<item>
+		<title>Anker recalls a million power banks over fire risk — here’s what to do</title>
+		<description><![CDATA[Anker is recalling more than a million of its PowerCore 10000 power banks due to a risk of overheating that could lead to fire and burns. The tech company has received 19 reports of fires and explosions linked to the power bank, which contains lithium-ion batteries. Two of the reports relate to minor burn injuries [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/mobile/anker-recalls-a-million-power-banks-over-fire-risk-heres-what-to-do/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938497</post-id>	</item>
+	<item>
+		<title>3 great free movies to stream this weekend (June 13-15)</title>
+		<description><![CDATA[Interstellar is one of the three movies to stream for free this weekend. ]]></description>
+		<link>https://www.digitaltrends.com/movies/3-great-free-movies-to-stream-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938171</post-id>	</item>
+	<item>
+		<title>NASA’s red planet rover shares a cool close-up of Mars mud</title>
+		<description><![CDATA[NASA’s Curiosity rover has been tootling across the martian surface since 2012, its lofty quest to determine if Mars ever had environmental conditions suitable for microbial life. While it’s already shared strong evidence that the red planet once had the right conditions for such a scenario, Curiosity continues to learn more about Mars through science [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/space/nasas-red-planet-rover-shares-a-cool-close-up-of-mars-mud/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938472</post-id>	</item>
+	<item>
+		<title>3 underrated Amazon Prime Video movies you should watch this weekend (June 13-15)</title>
+		<description><![CDATA[These Amazon Prime Video movies are some of the most underrated titles on the streaming service. ]]></description>
+		<link>https://www.digitaltrends.com/movies/3-underrated-amazon-prime-video-movies-you-should-watch-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938064</post-id>	</item>
+	<item>
+		<title>3 underrated HBO Max movies you should watch this weekend (June 13-15)</title>
+		<description><![CDATA[Bullet Train is one of the three movies on HBO Max to watch this weekend.]]></description>
+		<link>https://www.digitaltrends.com/movies/3-underrated-hbo-max-movies-you-should-watch-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938134</post-id>	</item>
+	<item>
+		<title>3 new Game Pass games to play this weekend (June 13-15)</title>
+		<description><![CDATA[This Friday the 13 isn't a bad omen, but a great one for all the amazing new Game Pass games. I've rounded up the best ones to play this weekend.]]></description>
+		<link>https://www.digitaltrends.com/gaming/3-new-game-pass-games-to-play-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3936328</post-id>	</item>
+	<item>
+		<title>Fed up waiting for Fujifilm&#8217;s X100VI camera? Then check out the new X-E5</title>
+		<description><![CDATA[Fujifilm has just unveiled the X-E5, and it might just be the answer for those folks who are still waiting around for the X100VI. The Japanese camera maker released the X100VI in March 2024, at a time when its predecessor, the X100V, had gone viral and was pretty much impossible to buy new. While Fujifilm [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/photography/fed-up-waiting-for-the-x100vi-then-take-a-look-at-the-new-x-e5/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938457</post-id>	</item>
+	<item>
+		<title>3 PlayStation Plus games to play this weekend (June 13-15)</title>
+		<description><![CDATA[After all the excitement from the State of Play and other showcases, it's time to sit back and enjoy my personal picks for the PS Plus games you should play this weekend.]]></description>
+		<link>https://www.digitaltrends.com/gaming/3-playstation-plus-games-to-play-this-weekend-june-13-15/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3936366</post-id>	</item>
+	<item>
+		<title>At $120 off, the most comfortable noise-canceling headphones are now at a comfortable price</title>
+		<description><![CDATA[One of the best things about wearing noise-canceling headphones is the great deal of comfort they bring when in loud, chaotic environments. However, they need to really fit around your head to get that seal, which can lead to some comfort issues. If you’re the type that wants to float away into your music or [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/home-theater/sonos-ace-deal-amazon-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938067</post-id>	</item>
+	<item>
+		<title>Buy your dad an Amazon Fire TV Stick 4K, get it by Father&#8217;s Day, and save 40%</title>
+		<description><![CDATA[Not every Father’s Day gift has to be something new, big, and exciting. If your dad’s idea of the best TV ever is the one he already has, but you all know it could use a boost, then you should take a look at this great offer on the latest version of the Amazon Fire [&#8230;]]]></description>
+		<link>https://www.digitaltrends.com/home-theater/amazon-fire-tv-stick-4k-deal-june-2025/</link>
+		<post-id xmlns="com-wordpress:feed-additions:1">3938312</post-id>	</item>
+</channel>
 </rss>

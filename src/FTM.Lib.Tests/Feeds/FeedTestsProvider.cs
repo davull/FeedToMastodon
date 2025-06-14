@@ -20,7 +20,8 @@ public static class FeedTestsProvider
             "home-assistant.io.xml",
             "production-ready.de.xml",
             "wdr.de.xml",
-            "YouTube - Linus Tech Tips.xml"
+            "YouTube - Linus Tech Tips.xml",
+            "ich-roll-dann-mal-aus.xml"
         };
 
         return GetFeedContentTestCases(atomFeeds);
@@ -44,7 +45,6 @@ public static class FeedTestsProvider
             "heiseplus.xml",
             "howtoforge.com.xml",
             "hyper-v-server.de.xml",
-            "ich-roll-dann-mal-aus.xml",
             "kernel-error.de.xml",
             "khalidabuhakmeh.com.xml",
             "ksta.de.xml",
@@ -62,12 +62,9 @@ public static class FeedTestsProvider
             "technikblog.ch.xml",
             "teslarati.com.xml",
             "thereformedprogrammer.net.xml",
-            "visualstudiomagazine.com.xml",
             "WDR 5 Zeitzeichen.xml",
             "WindowsPro.xml",
-            "Yet another developer blog.xml",
-            "JLMelenchon-nitter.privacydev.net.xml",
-            "EUDelegationUA-nitter.privacydev.net.xml"
+            "Yet another developer blog.xml"
         };
 
         return GetFeedContentTestCases(rssFeeds);
@@ -161,7 +158,6 @@ public static class FeedTestsProvider
             { "nextmove", ["[…]"] },
             { "Elektroauto-News.net", ["\nDer Beitrag "] },
             { "Drive Tesla", ["[…]"] },
-            { "Visual Studio Blog", ["[…]"] },
             { "DER Persönlichkeits-Blog", ["[…]"] },
             { "Technikblog", ["\nDer Beitrag", "[…]"] },
             { "The Reformed Programmer", ["…"] },
@@ -204,7 +200,6 @@ public static class FeedTestsProvider
             ("WindowsPro", "http://feeds.feedburner.com/WindowsPro"),
             ("kernel-error.de", "https://www.kernel-error.de/kernel-error-blog?format=feed&amp;type=rss"),
             ("stadt-bremerhaven.de", "http://feeds2.feedburner.com/stadt-bremerhaven/dqXM"),
-            ("visualstudiomagazine.com", "https://visualstudiomagazine.com/rss-feeds/news.aspx"),
             ("stonewars.de", "https://stonewars.de/feed"),
             ("ploeh.dk", "https://blog.ploeh.dk/rss"),
             ("cleancoder.com", "https://blog.cleancoder.com/atom.xml"),
@@ -230,15 +225,12 @@ public static class FeedTestsProvider
             ("wired.com", "https://www.wired.com/feed/rss"),
             ("gizmodo.com", "https://gizmodo.com/feed"),
             ("mashable.com", "https://mashable.com/feeds/rss/tech"),
-            ("digitaltrends.com", "https://www.digitaltrends.com/feed/"),
+            ("digitaltrends.com", "https://www.digitaltrends.com/rss/"),
             ("techradar.com", "https://www.techradar.com/rss"),
             ("businessinsider.de", "https://www.businessinsider.de/feed/businessinsider-alle-artikel"),
             ("elektroauto-news.net", "https://www.elektroauto-news.net/feed"),
             ("WDR 5 Zeitzeichen", "https://www1.wdr.de/mediathek/audio/zeitzeichen/zeitzeichen-podcast-100.podcast"),
-            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed"),
-            ("JLMelenchon-nitter.privacydev.net", "https://nitter.privacydev.net/JLMelenchon/rss"),
-            ("EUDelegationUA-nitter.privacydev.net", "https://nitter.privacydev.net/EUDelegationUA/rss"),
-            ("Europarl_PT-nitter.privacydev.net", "https://nitter.privacydev.net/Europarl_PT/rss")
+            ("driveteslacanada.ca", "https://driveteslacanada.ca/feed")
         };
 
         return feeds;

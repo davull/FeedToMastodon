@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2025/03/10/appeal-to-aithority",
-    "raw": "Appeal to aithority",
-    "sanitized": "Appeal to aithority"
+    "itemId": "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators",
+    "raw": "Song recommendations from combinators",
+    "sanitized": "Song recommendations from combinators"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/03/03/reactive-monad",
-    "raw": "Reactive monad",
-    "sanitized": "Reactive monad"
+    "itemId": "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
+    "raw": "Testing races with a slow Decorator",
+    "sanitized": "Testing races with a slow Decorator"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/24/easier-encapsulation-with-static-types",
-    "raw": "Easier encapsulation with static types",
-    "sanitized": "Easier encapsulation with static types"
+    "itemId": "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
+    "raw": "Song recommendations as a Haskell Impureim Sandwich",
+    "sanitized": "Song recommendations as a Haskell Impureim Sandwich"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/17/in-defence-of-multiple-wip",
-    "raw": "In defence of multiple WiP",
-    "sanitized": "In defence of multiple WiP"
+    "itemId": "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
+    "raw": "Song recommendations as an F# Impureim Sandwich",
+    "sanitized": "Song recommendations as an F# Impureim Sandwich"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/10/geographic-hulls",
-    "raw": "Geographic hulls",
-    "sanitized": "Geographic hulls"
+    "itemId": "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
+    "raw": "Song recommendations proof-of-concept memory measurements",
+    "sanitized": "Song recommendations proof-of-concept memory measurements"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/02/03/modelling-data-relationships-with-c-types",
-    "raw": "Modelling data relationships with C# types",
-    "sanitized": "Modelling data relationships with C# types"
+    "itemId": "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
+    "raw": "Song recommendations as a C# Impureim Sandwich",
+    "sanitized": "Song recommendations as a C# Impureim Sandwich"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/27/dependency-inversion-without-inversion-of-control",
-    "raw": "Dependency inversion without inversion of control",
-    "sanitized": "Dependency inversion without inversion of control"
+    "itemId": "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
+    "raw": "Song recommendations as an Impureim Sandwich",
+    "sanitized": "Song recommendations as an Impureim Sandwich"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/20/modelling-data-relationships-with-f-types",
-    "raw": "Modelling data relationships with F# types",
-    "sanitized": "Modelling data relationships with F# types"
+    "itemId": "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
+    "raw": "Porting song recommendations to Haskell",
+    "sanitized": "Porting song recommendations to Haskell"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/13/recawr-sandwich",
-    "raw": "Recawr Sandwich",
-    "sanitized": "Recawr Sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
+    "raw": "Porting song recommendations to F#",
+    "sanitized": "Porting song recommendations to F#"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/01/06/encapsulating-rod-cutting",
-    "raw": "Encapsulating rod-cutting",
-    "sanitized": "Encapsulating rod-cutting"
+    "itemId": "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
+    "raw": "Characterising song recommendations",
+    "sanitized": "Characterising song recommendations"
   }
 ]
