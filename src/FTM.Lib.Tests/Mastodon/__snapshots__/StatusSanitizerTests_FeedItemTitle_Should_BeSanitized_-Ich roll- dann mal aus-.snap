@@ -1,77 +1,117 @@
 ﻿[
   {
-    "itemId": "http://heise.de/-10019714",
+    "itemId": "https://heise.de/-4708895",
     "raw": "In eigener Sache: Wir denken die Apps unserer Magazin-Marken neu",
     "sanitized": "In eigener Sache: Wir denken die Apps unserer Magazin-Marken neu"
   },
   {
-    "itemId": "http://heise.de/-9975854",
+    "itemId": "https://heise.de/-4686366",
     "raw": "CSS is awesome: 30 Jahre schönes Web",
     "sanitized": "CSS is awesome: 30 Jahre schönes Web"
   },
   {
-    "itemId": "http://heise.de/-9677415",
+    "itemId": "https://heise.de/-4568586",
     "raw": "Wie eine Zeile CSS den Cumulative Layout Shift bei 3700 URLs verbessert",
     "sanitized": "Wie eine Zeile CSS den Cumulative Layout Shift bei 3700 URLs verbessert"
   },
   {
-    "itemId": "http://heise.de/-9337038",
+    "itemId": "https://heise.de/-4319875",
     "raw": "Mastodon: Wie Heise einen föderierten Social-Media-Dienst integriert",
     "sanitized": "Mastodon: Wie Heise einen föderierten Social-Media-Dienst integriert"
   },
   {
-    "itemId": "http://heise.de/-7476614",
+    "itemId": "https://heise.de/-3688879",
     "raw": "ChatGPT und Copilot: AI-Code-Assistenten in der Webentwicklung",
     "sanitized": "ChatGPT und Copilot: AI-Code-Assistenten in der Webentwicklung"
   },
   {
-    "itemId": "http://heise.de/-7142196",
+    "itemId": "https://heise.de/-3560470",
     "raw": "Variable Fonts und wie man sie (nicht) einsetzen sollte",
     "sanitized": "Variable Fonts und wie man sie (nicht) einsetzen sollte"
   },
   {
-    "itemId": "http://heise.de/-6544800",
+    "itemId": "https://heise.de/-3360689",
     "raw": "Eine neue Architektur für heise online: Janus – Teil 2",
     "sanitized": "Eine neue Architektur für heise online: Janus – Teil 2"
   },
   {
-    "itemId": "http://heise.de/-6442004",
+    "itemId": "https://heise.de/-3292352",
     "raw": "Eine neue Architektur für heise online: Janus – Teil 1",
     "sanitized": "Eine neue Architektur für heise online: Janus – Teil 1"
   },
   {
-    "itemId": "http://heise.de/-6134113",
+    "itemId": "https://heise.de/-3136291",
     "raw": "Performance: Largest Contentful Paint für Web Vitals optimieren",
     "sanitized": "Performance: Largest Contentful Paint für Web Vitals optimieren"
   },
   {
-    "itemId": "http://heise.de/-5070139",
+    "itemId": "https://heise.de/-3065931",
     "raw": "Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung",
     "sanitized": "Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung"
   },
   {
-    "itemId": "http://heise.de/-4973753",
+    "itemId": "https://heise.de/-3010375",
     "raw": "heise online: Die Technik hinter den Kulissen",
     "sanitized": "heise online: Die Technik hinter den Kulissen"
   },
   {
-    "itemId": "http://heise.de/-4871860",
+    "itemId": "https://heise.de/-2952617",
     "raw": "Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren",
     "sanitized": "Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren"
   },
   {
-    "itemId": "http://heise.de/-4719737",
+    "itemId": "https://heise.de/-2893561",
     "raw": "Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert",
     "sanitized": "Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert"
   },
   {
-    "itemId": "http://heise.de/-4676787",
+    "itemId": "https://heise.de/-2856837",
     "raw": "akwa – unser hausinternes Frontend-Framework",
     "sanitized": "akwa – unser hausinternes Frontend-Framework"
   },
   {
-    "itemId": "http://heise.de/-4614509",
+    "itemId": "https://heise.de/-2808002",
     "raw": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3",
     "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3"
+  },
+  {
+    "itemId": "https://heise.de/-2807708",
+    "raw": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 2",
+    "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 2"
+  },
+  {
+    "itemId": "https://heise.de/-2720960",
+    "raw": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 1",
+    "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 1"
+  },
+  {
+    "itemId": "https://heise.de/-2714063",
+    "raw": "Technische Schulden: jQuery entfernen",
+    "sanitized": "Technische Schulden: jQuery entfernen"
+  },
+  {
+    "itemId": "https://heise.de/-2685129",
+    "raw": "Web-Development: Weiterbildung im Alltag",
+    "sanitized": "Web-Development: Weiterbildung im Alltag"
+  },
+  {
+    "itemId": "https://heise.de/-2632043",
+    "raw": "a11y: Reduced Motion",
+    "sanitized": "a11y: Reduced Motion"
+  },
+  {
+    "itemId": "https://heise.de/-2586108",
+    "raw": "Theming mit CSS Custom Properties",
+    "sanitized": "Theming mit CSS Custom Properties"
+  },
+  {
+    "itemId": "https://heise.de/-2509256",
+    "raw": "Lazy Loading Images mit Custom Elements",
+    "sanitized": "Lazy Loading Images mit Custom Elements"
+  },
+  {
+    "itemId": "https://heise.de/-2509211",
+    "raw": "Status 200 – OK?",
+    "sanitized": "Status 200 – OK?"
   }
 ]

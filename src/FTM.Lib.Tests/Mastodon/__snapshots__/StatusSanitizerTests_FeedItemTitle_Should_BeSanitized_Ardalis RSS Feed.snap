@@ -1,5 +1,15 @@
 ﻿[
   {
+    "itemId": "https://ardalis.com/genai-is-the-new-offshoring/",
+    "raw": "GenAI is the new Offshoring",
+    "sanitized": "GenAI is the new Offshoring"
+  },
+  {
+    "itemId": "https://ardalis.com/genai-coding-investment-risk-strategy/",
+    "raw": "Managing GenAI Coding Risk Like an Investment",
+    "sanitized": "Managing GenAI Coding Risk Like an Investment"
+  },
+  {
     "itemId": "https://ardalis.com/ardalis-specification-v9-release/",
     "raw": "Ardalis Specification v9 Released",
     "sanitized": "Ardalis Specification v9 Released"
@@ -38,15 +48,5 @@
     "itemId": "https://ardalis.com/navigation-properties-between-aggregates-modules/",
     "raw": "Modeling Navigation Properties Between Aggregates or Modules",
     "sanitized": "Modeling Navigation Properties Between Aggregates or Modules"
-  },
-  {
-    "itemId": "https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/",
-    "raw": "Comparing Unit Testable Code with Maintainable Code",
-    "sanitized": "Comparing Unit Testable Code with Maintainable Code"
-  },
-  {
-    "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
-    "raw": "Effectively Sharing Resources Between Modules in a Modular Monolith",
-    "sanitized": "Effectively Sharing Resources Between Modules in a Modular Monolith"
   }
 ]

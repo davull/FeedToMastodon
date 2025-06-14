@@ -1398,16 +1398,6 @@
     },
     {
       "FeedId": "https://www.heise.de/rss/heise-atom.xml",
-      "ItemId": "http://heise.de/-10438066",
-      "Title": "heise-Angebot: secIT digital 2025: Hilfreiche Fakten für Backup-Strategien und gegen Vishing",
-      "PublishDate": "2025-06-11T12:00:00+02:00",
-      "Summary": "Das redaktionelle Programm der IT-Security-Konferenz secIT digital ist online einsehbar. Tickets sind ab sofort buchbar. ",
-      "Content": "<p><a href=\"https://www.heise.de/news/secIT-digital-2025-Hilfreiche-Fakten-fuer-Backup-Strategien-und-gegen-Vishing-10438066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/8/7/2/3/5/2/55ee7019-7ba9-42ed-b002-936a22612531-f970c6c214c405d8.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Das redaktionelle Programm der IT-Security-Konferenz secIT digital ist online einsehbar. Tickets sind ab sofort buchbar. </p>",
-      "Language": null,
-      "Link": "https://www.heise.de/news/secIT-digital-2025-Hilfreiche-Fakten-fuer-Backup-Strategien-und-gegen-Vishing-10438066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-    },
-    {
-      "FeedId": "https://www.heise.de/rss/heise-atom.xml",
       "ItemId": "http://heise.de/-9741114",
       "Title": "heise+ | Urlaub mit dem Elektroauto: Was Sie beim Laden im Ausland beachten sollten",
       "PublishDate": "2025-06-11T12:00:00+02:00",
@@ -1415,6 +1405,16 @@
       "Content": "<p><a href=\"https://www.heise.de/ratgeber/Urlaub-mit-dem-Elektroauto-Was-Sie-beim-Laden-im-Ausland-beachten-sollten-9741114.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/6/0/2/2/1/4/Ladeanschluss-626834803bb9d0a1.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Auch mit dem Elektroauto ist die Fahrt ins Ausland kein Problem mehr. Vorausgesetzt, man plant im Voraus und bucht die richtigen Ladetarife.</p>",
       "Language": null,
       "Link": "https://www.heise.de/ratgeber/Urlaub-mit-dem-Elektroauto-Was-Sie-beim-Laden-im-Ausland-beachten-sollten-9741114.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus"
+    },
+    {
+      "FeedId": "https://www.heise.de/rss/heise-atom.xml",
+      "ItemId": "http://heise.de/-10438066",
+      "Title": "heise-Angebot: secIT digital 2025: Hilfreiche Fakten für Backup-Strategien und gegen Vishing",
+      "PublishDate": "2025-06-11T12:00:00+02:00",
+      "Summary": "Das redaktionelle Programm der IT-Security-Konferenz secIT digital ist online einsehbar. Tickets sind ab sofort buchbar. ",
+      "Content": "<p><a href=\"https://www.heise.de/news/secIT-digital-2025-Hilfreiche-Fakten-fuer-Backup-Strategien-und-gegen-Vishing-10438066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/8/7/2/3/5/2/55ee7019-7ba9-42ed-b002-936a22612531-f970c6c214c405d8.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Das redaktionelle Programm der IT-Security-Konferenz secIT digital ist online einsehbar. Tickets sind ab sofort buchbar. </p>",
+      "Language": null,
+      "Link": "https://www.heise.de/news/secIT-digital-2025-Hilfreiche-Fakten-fuer-Backup-Strategien-und-gegen-Vishing-10438066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
     },
     {
       "FeedId": "https://www.heise.de/rss/heise-atom.xml",

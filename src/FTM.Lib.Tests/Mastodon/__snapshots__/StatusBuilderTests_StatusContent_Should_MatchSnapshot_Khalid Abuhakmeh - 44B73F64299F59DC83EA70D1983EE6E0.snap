@@ -1,5 +1,0 @@
-﻿Vogen and Value Objects with C# and .NET
-
-When it comes to programming, correctness is the name of the game. Every developer aims to understand, model, and limit potential outliers when executing code because those unknown variables can lead to exceptions and critical failures. There are many techniques developers use, but I recently discovered a new library (at least to me) in the .NET community that aims to help developers constrain potential inputs using val...
----
-https://khalidabuhakmeh.com/vogen-and-value-objects-with-csharp-and-dotnet

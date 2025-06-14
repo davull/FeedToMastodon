@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/",
+    "raw": "How to Install OpenEMR on Ubuntu 24.04 Server",
+    "sanitized": "How to Install OpenEMR on Ubuntu 24.04 Server"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/",
+    "raw": "How to Install Moodle LMS on Debian 12 Server",
+    "sanitized": "How to Install Moodle LMS on Debian 12 Server"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/",
+    "raw": "How to Install GlassFish Application Server with Nginx Reverse Proxy on Debian 12",
+    "sanitized": "How to Install GlassFish Application Server with Nginx Reverse Proxy on Debian 12"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/",
+    "raw": "How to Install WildFly Application Server with Nginx Reverse Proxy on Debian 12",
+    "sanitized": "How to Install WildFly Application Server with Nginx Reverse Proxy on Debian 12"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/",
+    "raw": "How to Install Emby Media Server on Debian 12",
+    "sanitized": "How to Install Emby Media Server on Debian 12"
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/",
+    "raw": "How to Install Actual Budgeting Software on Debian 12 Server",
+    "sanitized": "How to Install Actual Budgeting Software on Debian 12 Server"
+  },
+  {
     "itemId": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
     "raw": "How to Install and Use Nessus Vulnerability Scanner on Ubuntu 24.04",
     "sanitized": "How to Install and Use Nessus Vulnerability Scanner on Ubuntu 24.04"
@@ -18,35 +48,5 @@
     "itemId": "https://www.howtoforge.com/ispconfig-php-ubuntu/",
     "raw": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Ubuntu 22.04 - 24.04",
     "sanitized": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Ubuntu 22.04 - 24.04"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/ispconfig-php-debian/",
-    "raw": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Debian 11 to 12",
-    "sanitized": "How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Debian 11 to 12"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-fast-api-with-mongodb-on-ubuntu-24-04/",
-    "raw": "How to Install Fast API with MongoDB on Ubuntu 24.04",
-    "sanitized": "How to Install Fast API with MongoDB on Ubuntu 24.04"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/tutorial/debian-rancher-docker-container-manager/",
-    "raw": "How to Install Rancher on Debian 12 Server",
-    "sanitized": "How to Install Rancher on Debian 12 Server"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-apache-couch-db-on-almalinux-9/",
-    "raw": "How to Install Apache Couch DB on AlmaLinux 9",
-    "sanitized": "How to Install Apache Couch DB on AlmaLinux 9"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-nodebb-on-almalinux-9/",
-    "raw": "How to Install NodeBB with MongoDB and Nginx Proxy on AlmaLinux 9",
-    "sanitized": "How to Install NodeBB with MongoDB and Nginx Proxy on AlmaLinux 9"
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-consul-server-on-almalinux-9/",
-    "raw": "How to Install Consul Server on AlmaLinux 9",
-    "sanitized": "How to Install Consul Server on AlmaLinux 9"
   }
 ]

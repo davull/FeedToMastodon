@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://khalidabuhakmeh.com/server-sent-events-in-aspnet-core-and-dotnet-10",
+    "raw": "Server-Sent Events in ASP.NET Core and .NET 10",
+    "sanitized": "Server-Sent Events in ASP.NET Core and .NET 10"
+  },
+  {
     "itemId": "https://khalidabuhakmeh.com/generic-csharp-methods-with-enum-constraints-for-dotnet",
     "raw": "Generic C# Methods with Enum Constraints for .NET",
     "sanitized": "Generic C# Methods with Enum Constraints for .NET"
@@ -493,10 +498,5 @@
     "itemId": "https://khalidabuhakmeh.com/programming-svgs-with-csharp-dotnet",
     "raw": "Programming SVGs with C#",
     "sanitized": "Programming SVGs with C#"
-  },
-  {
-    "itemId": "https://khalidabuhakmeh.com/multiple-file-drag-and-drop-upload-with-aspnet-core",
-    "raw": "Multiple File Drag and Drop Upload with ASP.NET Core",
-    "sanitized": "Multiple File Drag and Drop Upload with ASP.NET Core"
   }
 ]

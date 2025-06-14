@@ -1,5 +1,60 @@
 ﻿[
   {
+    "itemId": "https://www.home-assistant.io/blog/2025/06/11/release-20256",
+    "raw": "2025.6: Getting picky about Bluetooth",
+    "sanitized": "2025.6: Getting picky about Bluetooth"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems",
+    "raw": "Deprecating Core and Supervised installation methods, and 32-bit systems",
+    "sanitized": "Deprecating Core and Supervised installation methods, and 32-bit systems"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/09/roadmap-2025h1",
+    "raw": "Roadmap 2025: A Truly Smart Home through Collective Intelligence",
+    "sanitized": "Roadmap 2025: A Truly Smart Home through Collective Intelligence"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/05/07/release-20255",
+    "raw": "2025.5: Two Million Strong and Getting Better",
+    "sanitized": "2025.5: Two Million Strong and Getting Better"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant",
+    "raw": "Eve Joins Works With Home Assistant",
+    "sanitized": "Eve Joins Works With Home Assistant"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/24/community-day",
+    "raw": "Register today for Community Day 2025",
+    "sanitized": "Register today for Community Day 2025"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant",
+    "raw": "Reolink joins Works with Home Assistant",
+    "sanitized": "Reolink joins Works with Home Assistant"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap",
+    "raw": "2 million homes strong - State of the Open Home 2025",
+    "sanitized": "2 million homes strong - State of the Open Home 2025"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/04/02/release-20254",
+    "raw": "2025.4 Time to continue the dashboards!",
+    "sanitized": "2025.4 Time to continue the dashboards!"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha",
+    "raw": "Motionblinds joins Works with Home Assistant",
+    "sanitized": "Motionblinds joins Works with Home Assistant"
+  },
+  {
+    "itemId": "https://www.home-assistant.io/blog/2025/03/26/state-of-the-open-home-2025-announcement",
+    "raw": "Announcing State of the Open Home 2025",
+    "sanitized": "Announcing State of the Open Home 2025"
+  },
+  {
     "itemId": "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
     "raw": "Home Assistant officially Matters",
     "sanitized": "Home Assistant officially Matters"
@@ -43,60 +98,5 @@
     "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
     "raw": "The era of open voice assistants has arrived",
     "sanitized": "The era of open voice assistants has arrived"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home",
-    "raw": "Voice Chapter 8 - Assist in the home today",
-    "sanitized": "Voice Chapter 8 - Assist in the home today"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/16/community-survey-2024",
-    "raw": "Understanding Our Community: The 2024 Home Assistant Survey",
-    "sanitized": "Understanding Our Community: The 2024 Home Assistant Survey"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/04/release-202412",
-    "raw": "2024.12: Scene you in 2025! 🎄",
-    "sanitized": "2024.12: Scene you in 2025! 🎄"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/30/the-month-of-what-the-heck",
-    "raw": "The month of 'What the Heck?!' 2024",
-    "sanitized": "The month of 'What the Heck?!' 2024"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/27/home-assistant-yellow-gets-cm5-support",
-    "raw": "Home Assistant Yellow gets CM5 support in HAOS 14",
-    "sanitized": "Home Assistant Yellow gets CM5 support in HAOS 14"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/18/event-wrapup-github-universe-24",
-    "raw": "Event wrap-up - GitHub Universe '24",
-    "sanitized": "Event wrap-up - GitHub Universe '24"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/15/roadmap-2024h2",
-    "raw": "Roadmap 2024 Year-end Update: Full steam ahead!",
-    "sanitized": "Roadmap 2024 Year-end Update: Full steam ahead!"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/11/06/release-202411",
-    "raw": "2024.11: Slick dashboards and speedy cameras",
-    "sanitized": "2024.11: Slick dashboards and speedy cameras"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/24/wake-word-collective",
-    "raw": "Help us make voice better in under a minute",
-    "sanitized": "Help us make voice better in under a minute"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/02/connect-zbt1-issue-and-replacement",
-    "raw": "Home Assistant Connect ZBT-1 issue and replacement",
-    "sanitized": "Home Assistant Connect ZBT-1 issue and replacement"
-  },
-  {
-    "itemId": "https://www.home-assistant.io/blog/2024/10/02/release-202410",
-    "raw": "2024.10: Heading in the right direction",
-    "sanitized": "2024.10: Heading in the right direction"
   }
 ]

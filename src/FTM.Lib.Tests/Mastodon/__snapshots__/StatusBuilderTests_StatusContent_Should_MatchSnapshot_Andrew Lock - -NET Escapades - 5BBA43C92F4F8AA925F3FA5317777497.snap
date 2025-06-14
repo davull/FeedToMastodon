@@ -1,0 +1,5 @@
+﻿Converting a docker-compose file to .NET Aspire
+
+In this post I describe how I converted the deployment method of the mailing-list manager lismonk from a docker-compose.yml file to an Aspire app host project
+---
+https://andrewlock.net/converting-a-docker-compose-file-to-aspire/

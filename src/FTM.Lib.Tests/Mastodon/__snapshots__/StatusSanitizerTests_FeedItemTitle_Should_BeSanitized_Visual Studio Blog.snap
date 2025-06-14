@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252703",
-    "raw": "New, Simpler Solution File Format",
-    "sanitized": "New, Simpler Solution File Format"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253452",
+    "raw": "Next edit suggestions available in Visual Studio",
+    "sanitized": "Next edit suggestions available in Visual Studio"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252657",
-    "raw": "Make more sense of multithreaded debugging",
-    "sanitized": "Make more sense of multithreaded debugging"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253442",
+    "raw": "How to filter C++ Build Insights by project",
+    "sanitized": "How to filter C++ Build Insights by project"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252652",
-    "raw": "GPT-4o Copilot code completion model available now in Visual Studio public preview",
-    "sanitized": "GPT-4o Copilot code completion model available now in Visual Studio public preview"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253411",
+    "raw": "Cloud Academy: Unlock Your Azure Skills and Accelerate Your Career",
+    "sanitized": "Cloud Academy: Unlock Your Azure Skills and Accelerate Your Career"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252540",
-    "raw": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers",
-    "sanitized": "Unlock Free Access to Cloud Academy: A New Benefit for Visual Studio Subscribers"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253400",
+    "raw": "Extension Manager updates in Visual Studio",
+    "sanitized": "Extension Manager updates in Visual Studio"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252584",
-    "raw": "New Debugging and Profiling Features in Visual Studio (v17.13)",
-    "sanitized": "New Debugging and Profiling Features in Visual Studio (v17.13)"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253374",
+    "raw": "Improve the commands in your extensions",
+    "sanitized": "Improve the commands in your extensions"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252558",
-    "raw": "Great new productivity features in Visual Studio",
-    "sanitized": "Great new productivity features in Visual Studio"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253359",
+    "raw": "VisualStudio.Extensibility: Editor classification and updates to user prompt",
+    "sanitized": "VisualStudio.Extensibility: Editor classification and updates to user prompt"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252505",
-    "raw": "Catch issues before you commit to Git",
-    "sanitized": "Catch issues before you commit to Git"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253176",
+    "raw": "Connecting to Private NuGet Feeds Just Got Easier",
+    "sanitized": "Connecting to Private NuGet Feeds Just Got Easier"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252474",
-    "raw": "Claude 3.7 Now Available in GitHub Copilot for Visual Studio",
-    "sanitized": "Claude 3.7 Now Available in GitHub Copilot for Visual Studio"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253273",
+    "raw": "Faster .NET Upgrades Powered by GitHub Copilot",
+    "sanitized": "Faster .NET Upgrades Powered by GitHub Copilot"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252436",
-    "raw": "Leverage vision in Copilot Chat",
-    "sanitized": "Leverage vision in Copilot Chat"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253248",
+    "raw": "How to Watch Microsoft Build 2025 Online",
+    "sanitized": "How to Watch Microsoft Build 2025 Online"
   },
   {
-    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=252167",
-    "raw": "Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio",
-    "sanitized": "Unlocking More Power: Tool Calling in GitHub Copilot for Visual Studio"
+    "itemId": "https://devblogs.microsoft.com/visualstudio/?p=253199",
+    "raw": "Agent mode has arrived in preview for Visual Studio",
+    "sanitized": "Agent mode has arrived in preview for Visual Studio"
   }
 ]

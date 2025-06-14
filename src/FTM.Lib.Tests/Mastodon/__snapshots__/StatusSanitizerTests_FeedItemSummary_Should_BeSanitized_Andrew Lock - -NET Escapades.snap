@@ -1,5 +1,70 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/converting-an-xna-game-to-monogame/",
+    "raw": "In this post I describe how I took a Microsoft XNA 3.1 game from 15 years ago and converted it to use MonoGame on .NET 8 in just a few hours",
+    "sanitized": "In this post I describe how I took a Microsoft XNA 3.1 game from 15 years ago and converted it to use MonoGame on .NET 8 in just a few hours"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-your-first-sample-game-with-monogame/",
+    "raw": "In this post I provide an introduction to MonoGame, looking at it's history, the requirements for building with MonoGame, and finally a first sample app.",
+    "sanitized": "In this post I provide an introduction to MonoGame, looking at it's history, the requirements for building with MonoGame, and finally a first sample app."
+  },
+  {
+    "itemId": "https://andrewlock.net/converting-a-docker-compose-file-to-aspire/",
+    "raw": "In this post I describe how I converted the deployment method of the mailing-list manager lismonk from a docker-compose.yml file to an Aspire app host project",
+    "sanitized": "In this post I describe how I converted the deployment method of the mailing-list manager lismonk from a docker-compose.yml file to an Aspire app host project"
+  },
+  {
+    "itemId": "https://andrewlock.net/pushing-a-whole-stack-of-branches-with-a-single-git-command/",
+    "raw": "In this post I show how you can push push a whole stack of branches with a single command using a Git alias: git push-stack",
+    "sanitized": "In this post I show how you can push push a whole stack of branches with a single command using a Git alias: git push-stack"
+  },
+  {
+    "itemId": "https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/",
+    "raw": "In this post I use the new Microsoft's new .NET AI template to ingest the contents of a website and create a chatbot that can answer questions with citations",
+    "sanitized": "In this post I use the new Microsoft's new .NET AI template to ingest the contents of a website and create a chatbot that can answer questions with citations"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-the-new-ai-chat-template/",
+    "raw": "In this post I explore the new .NET AI Chat Web App template (currently in preview) and take a brief look at the implementation it provides",
+    "sanitized": "In this post I explore the new .NET AI Chat Web App template (currently in preview) and take a brief look at the implementation it provides"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-pooled-dependency-injection-lifetime/",
+    "raw": "In this post I investigate how to create a 'pooled' dependency injection scope that automatically pools services between multiple requests",
+    "sanitized": "In this post I investigate how to create a 'pooled' dependency injection scope that automatically pools services between multiple requests"
+  },
+  {
+    "itemId": "https://andrewlock.net/going-beyond-singleton-scoped-and-transient-lifetimes/",
+    "raw": "In this post I investigate some 'experimental' dependency injection scopes that provide additional features over Singleton, Scoped, and Transient",
+    "sanitized": "In this post I investigate some 'experimental' dependency injection scopes that provide additional features over Singleton, Scoped, and Transient"
+  },
+  {
+    "itemId": "https://andrewlock.net/netescapades-aspnetcore-securityheaders-1-0-0-released/",
+    "raw": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps.",
+    "sanitized": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps."
+  },
+  {
+    "itemId": "https://andrewlock.net/verifiying-tricky-git-rebases-with-range-diffs/",
+    "raw": "In this post I look at the git range-diff feature, show what it's for and how it works, explain the output format, and demonstrate it with a toy scenario",
+    "sanitized": "In this post I look at the git range-diff feature, show what it's for and how it works, explain the output format, and demonstrate it with a toy scenario"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-sbom-attestations-in-github-actions/",
+    "raw": "In this post I show how you can create attestations for SBOM documents that you have created for your application or Nuget package",
+    "sanitized": "In this post I show how you can create attestations for SBOM documents that you have created for your application or Nuget package"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-a-software-bill-of-materials-sbom-for-an-open-source-nuget-package/",
+    "raw": "In this post I discuss several tools you can use to create a software bill of materials (SBOM) for an application or a NuGet package",
+    "sanitized": "In this post I discuss several tools you can use to create a software bill of materials (SBOM) for an application or a NuGet package"
+  },
+  {
+    "itemId": "https://andrewlock.net/creating-provenance-attestations-for-nuget-packages-in-github-actions/",
+    "raw": "In this post I discuss software provenance, what attestations say about your software, how they work, and how to create an attestation for a NuGet package",
+    "sanitized": "In this post I discuss software provenance, what attestations say about your software, how they work, and how to create an attestation for a NuGet package"
+  },
+  {
     "itemId": "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
     "raw": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container",
     "sanitized": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container"
@@ -58,70 +123,5 @@
     "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
     "raw": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps",
     "sanitized": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps"
-  },
-  {
-    "itemId": "https://andrewlock.net/understanding-security-headers-part-3-cross-origin-embedder-policy/",
-    "raw": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs",
-    "sanitized": "In this post I discuss the Cross-Origin-Embedder-Policy, the requirements it places on your resources, and why it's required for some JavaScript APIs"
-  },
-  {
-    "itemId": "https://andrewlock.net/understanding-security-headers-part-2-cross-origin-resource-policy-preventing-hotlinking/",
-    "raw": "In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in <img> tags",
-    "sanitized": "In this post I describe how to use the Cross-Origin-Resource-Policy to block cross-origin requests that would normally be allowed, such as in  tags"
-  },
-  {
-    "itemId": "https://andrewlock.net/understanding-security-headers-part-1-cross-origin-opener-policy-preventing-attacks-from-popups/",
-    "raw": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy",
-    "sanitized": "In this post I describe the vulnerabilities in window.opener and window.open() and how to protect yourself with Cross-Origin-Opener-Policy"
-  },
-  {
-    "itemId": "https://andrewlock.net/recent-updates-for-netescapades-enumgenerators-interceptors/",
-    "raw": "In this post I describe the experimental interceptor support in NetEscapades.EnumGenerators that replaces ToString() calls with ToStringFast() automatically",
-    "sanitized": "In this post I describe the experimental interceptor support in NetEscapades.EnumGenerators that replaces ToString() calls with ToStringFast() automatically"
-  },
-  {
-    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-4-is-the-result-pattern-worth-it/",
-    "raw": "In this post I discuss some of the pros and cons around using the result pattern in .NET, and describe some of the arguments I've heard on either side",
-    "sanitized": "In this post I discuss some of the pros and cons around using the result pattern in .NET, and describe some of the arguments I've heard on either side"
-  },
-  {
-    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-3-adding-more-extensions/",
-    "raw": "In this post I show how to extend your LINQ-based result pattern code to handle more scenarios, such as Task<Result<T>> and collections of Result<T>",
-    "sanitized": "In this post I show how to extend your LINQ-based result pattern code to handle more scenarios, such as Task> and collections of Result"
-  },
-  {
-    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/",
-    "raw": "In this post I show how to clean up unreadable Switch()-based result pattern code using LINQ query syntax, giving both readability and safety",
-    "sanitized": "In this post I show how to clean up unreadable Switch()-based result pattern code using LINQ query syntax, giving both readability and safety"
-  },
-  {
-    "itemId": "https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/",
-    "raw": "In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution",
-    "sanitized": "In this post I discuss why you might want to use the result pattern, demonstrate it with a simple example and show a naïve, ugly, solution"
-  },
-  {
-    "itemId": "https://andrewlock.net/major-updates-to-netescapades-aspnetcore-security-headers/",
-    "raw": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps.",
-    "sanitized": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps."
-  },
-  {
-    "itemId": "https://andrewlock.net/fixing-max_path-issues-in-gitlab/",
-    "raw": "In this post I show how you can enable Git's long-path support in a GitLab job to override Window's MAX_PATH limitations which can cause git clone failures",
-    "sanitized": "In this post I show how you can enable Git's long-path support in a GitLab job to override Window's MAX_PATH limitations which can cause git clone failures"
-  },
-  {
-    "itemId": "https://andrewlock.net/preventing-breaking-changes-in-public-apis-with-publicapigenerator/",
-    "raw": "In this post I show how you can use the PublicApiGenerator project to document your public API and build a snapshot unit test to prevent breaking changes",
-    "sanitized": "In this post I show how you can use the PublicApiGenerator project to document your public API and build a snapshot unit test to prevent breaking changes"
-  },
-  {
-    "itemId": "https://andrewlock.net/working-with-tar-files-in-dotnet/",
-    "raw": "In this post I show how to create, extract, and list tar files using the built-in tar support introduced in .NET 7, and discuss some of the limitations",
-    "sanitized": "In this post I show how to create, extract, and list tar files using the built-in tar support introduced in .NET 7, and discuss some of the limitations"
-  },
-  {
-    "itemId": "https://andrewlock.net/using-azure-storage-queues-with-azure-functions-and-queuetrigger/",
-    "raw": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app",
-    "sanitized": "In this post I discuss using Azure Storage Queue as a message queue and how you can process Storage Queue messages using an Azure Functions app"
   }
 ]

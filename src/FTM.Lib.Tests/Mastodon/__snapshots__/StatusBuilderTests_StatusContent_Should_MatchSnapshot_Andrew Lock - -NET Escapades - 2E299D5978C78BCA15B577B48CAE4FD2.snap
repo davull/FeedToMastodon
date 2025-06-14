@@ -1,5 +1,0 @@
-﻿Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions
-
-In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised
----
-https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/

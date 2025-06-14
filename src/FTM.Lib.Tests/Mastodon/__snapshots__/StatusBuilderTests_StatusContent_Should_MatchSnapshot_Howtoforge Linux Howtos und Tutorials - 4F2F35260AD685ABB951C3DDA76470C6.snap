@@ -1,0 +1,5 @@
+﻿How to Install GlassFish Application Server with Nginx Reverse Proxy on Debian 12
+
+GlassFish is a free and open-source implementation of the Java EE Platform developed by Eclipse. In this guide, you will install GlassFish Application Server on Debian 12 in a step-by-step process. You will also configure Nginx as a reverse proxy for your GlassFish installation.
+---
+https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/

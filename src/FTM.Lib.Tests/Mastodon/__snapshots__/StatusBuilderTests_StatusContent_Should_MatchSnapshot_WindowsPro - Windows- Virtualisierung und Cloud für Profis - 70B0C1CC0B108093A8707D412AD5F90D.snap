@@ -1,0 +1,5 @@
+﻿Windows LAPS überwachen und Zugriff auf Passwörter nachverfolgen
+
+Windows LAPS ist ein Security-Feature des Betriebs­systems, das lokale Admin-Passwörter vor Miss­brauch schützen soll. Dazu speichert es für jeden Rechner ein automatisch generiertes Kennwort im Active Directory. Wenn man nachverfolgen möchte, wer welche LAPS-Zugangsdaten aus dem AD aus­ge­lesen hat, muss man das Auditing aktivieren.
+---
+https://www.windowspro.de/wolfgang-sommergut/windows-laps-ueberwachen-zugriff-passwoerter-nachverfolgen?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed

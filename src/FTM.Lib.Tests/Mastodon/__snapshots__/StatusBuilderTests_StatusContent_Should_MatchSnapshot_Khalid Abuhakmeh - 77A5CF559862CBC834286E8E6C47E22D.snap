@@ -1,0 +1,5 @@
+﻿Server-Sent Events in ASP.NET Core and .NET 10
+
+Like many .NET developers, I’m starting to look at the features coming in .NET 10, C# 14, and specifically ASP.NET Core. To my surprise, ASP.NET Core Minimal APIs now support Server-Sent Events (SSE). For folks who don’t know what Server-Sent Events are, they are a unidirectional channel from the server to a client where a client can subscribe to events. SSE is handy for building live news feeds, stock ticker appl...
+---
+https://khalidabuhakmeh.com/server-sent-events-in-aspnet-core-and-dotnet-10

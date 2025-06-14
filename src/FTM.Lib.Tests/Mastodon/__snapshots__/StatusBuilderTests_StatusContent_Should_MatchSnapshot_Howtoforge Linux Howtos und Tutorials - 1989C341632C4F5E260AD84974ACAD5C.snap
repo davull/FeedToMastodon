@@ -1,0 +1,5 @@
+﻿How to Install Emby Media Server on Debian 12
+
+Emby is an open-source alternative to Plex Media Server. This guide will teach you how to install Emby Media Server on Debian 12. You will install Emby with Nginx as a reverse proxy and enable UFW. Let's get started.
+---
+https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/

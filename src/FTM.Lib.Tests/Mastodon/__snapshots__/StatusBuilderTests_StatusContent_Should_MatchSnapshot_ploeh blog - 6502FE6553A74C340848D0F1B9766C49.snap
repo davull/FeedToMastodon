@@ -1,0 +1,8 @@
+﻿Song recommendations as a Haskell Impureim Sandwich
+
+A pure function on potentially massive data.
+    
+    
+        This article is part of a larger article series called Alternative ways to design with functional programming. As the title suggests, these articles discuss various ways to apply functional-programming principles to a particular problem. All the articles engage with the same problem. In short, the task is to calculate song recommendations for a us...
+---
+https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich/

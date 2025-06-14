@@ -1,77 +1,117 @@
 ﻿[
   {
-    "itemId": "http://heise.de/-10019714",
-    "raw": "<p><a href=\"https://www.heise.de/blog/In-eigener-Sache-Wir-denken-die-Apps-unserer-Magazin-Marken-neu-10019714.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/7/0/8/8/9/5/ct_apps-2bfbf2d6911ed555.png\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach.</p>",
+    "itemId": "https://heise.de/-4708895",
+    "raw": "<section><a href=\"https://www.heise.de/blog/In-eigener-Sache-Wir-denken-die-Apps-unserer-Magazin-Marken-neu-10019714.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/4/7/0/8/8/9/5/ct_apps-2bfbf2d6911ed555.png?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach.</p></section>",
     "sanitized": "Unsere Magazin-Apps haben kürzlich ihren zehnten Geburtstag gefeiert. Statt nur zu feiern, denken wir über ein tiefgreifendes Update nach."
   },
   {
-    "itemId": "http://heise.de/-9975854",
-    "raw": "<p><a href=\"https://www.heise.de/blog/CSS-is-awesome-30-Jahre-schoenes-Web-9975854.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/6/8/6/3/6/6/dreissig-cf2db72a762e1ed6.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web.</p>",
+    "itemId": "https://heise.de/-4686366",
+    "raw": "<section><a href=\"https://www.heise.de/blog/CSS-is-awesome-30-Jahre-schoenes-Web-9975854.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/4/6/8/6/3/6/6/dreissig-135e3766b2dc1fcc.jpeg?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web.</p></section>",
     "sanitized": "Vor dreißig Jahren veröffentlichte Håkon Wium Lie den ersten Vorschlag für CSS. Heute bestimmt die Styling-Sprache das Aussehen im Web."
   },
   {
-    "itemId": "http://heise.de/-9677415",
-    "raw": "<p><a href=\"https://www.heise.de/blog/Wie-eine-Zeile-CSS-den-Cumulative-Layout-Shift-bei-3700-URLs-verbessert-9677415.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/5/6/8/5/8/6/shutterstock_1026108619-eee31c52c1fdba6c.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache.</p>",
+    "itemId": "https://heise.de/-4568586",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Wie-eine-Zeile-CSS-den-Cumulative-Layout-Shift-bei-3700-URLs-verbessert-9677415.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/4/5/6/8/5/8/6/shutterstock_1026108619-eee31c52c1fdba6c.jpeg?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache.</p></section>",
     "sanitized": "Mit einer kleinen Anpassung im CSS reduzierten wir die Layout Shifts bei heise tipps+tricks drastisch. Eine Spurensuche enthüllte die Ursache."
   },
   {
-    "itemId": "http://heise.de/-9337038",
-    "raw": "<p><a href=\"https://www.heise.de/blog/Mastodon-Integration-eines-foederierten-Social-Media-Dienstes-9337038.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/4/3/1/9/8/7/5/shutterstock_2217118437-3952e0310a8260e8.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen.</p>",
+    "itemId": "https://heise.de/-4319875",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Mastodon-Integration-eines-foederierten-Social-Media-Dienstes-9337038.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/4/3/1/9/8/7/5/shutterstock_2217118437-3952e0310a8260e8.jpeg?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen.</p></section>",
     "sanitized": "Die Webentwicklung von heise online berichtet über die technischen Herausforderungen, Mastodon zu den Social Media Diensten hinzuzufügen."
   },
   {
-    "itemId": "http://heise.de/-7476614",
-    "raw": "<p><a href=\"https://www.heise.de/blog/ChatGPT-und-Copilot-AI-Code-Assistenten-in-der-Webentwicklung-7476614.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/3/6/8/8/8/7/9/shutterstock_1428208070-3607755083737b7e.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen.</p>",
+    "itemId": "https://heise.de/-3688879",
+    "raw": "<section><a href=\"https://www.heise.de/blog/ChatGPT-und-Copilot-AI-Code-Assistenten-in-der-Webentwicklung-7476614.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/3/6/8/8/8/7/9/shutterstock_1428208070-3607755083737b7e.jpeg?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen.</p></section>",
     "sanitized": "Nur Murks oder hilfreiche Tools? Die Webentwicklung von heise online hat die Assistenten an sich herangelassen und einmal geschaut, was sie taugen."
   },
   {
-    "itemId": "http://heise.de/-7142196",
-    "raw": "<p><a href=\"https://www.heise.de/blog/Variable-Fonts-und-wie-man-sie-nicht-einsetzen-sollte-7142196.html?wt_mc=rss.red.developer.blogwebdev.rdf.beitrag.beitrag\"><img src=\"https://www.heise.de/scale/geometry/450/q80//imgs/18/3/5/6/0/4/7/0/shutterstock_140369725.jpg-c6dc8bd05508c0e9.jpeg\" class=\"webfeedsFeaturedVisual\" alt=\"\" /></a></p><p>Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft.</p>",
+    "itemId": "https://heise.de/-3560470",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Variable-Fonts-und-wie-man-sie-nicht-einsetzen-sollte-7142196.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/3/5/6/0/4/7/0/shutterstock_140369725.jpg-c6dc8bd05508c0e9.jpeg?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft.</p></section>",
     "sanitized": "Vor kurzem hat heise online die Art der Schrifteneinbindung auf eine modernere Variante umgestellt. Das verlief leider nicht ganz so unbemerkt, wie erhofft."
   },
   {
-    "itemId": "http://heise.de/-6544800",
-    "raw": "<p>Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend.</p>",
-    "sanitized": "Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend."
+    "itemId": "https://heise.de/-3360689",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Eine-neue-Architektur-fuer-heise-online-Janus-Teil-2-6544800.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Eine neue Architektur für heise online: Janus – Teil 2</a><p>Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend.</p></section>",
+    "sanitized": "Eine neue Architektur für heise online: Janus – Teil 2Nachdem wir in Teil 1 der Serie die Änderungen unserer neuen Janus-Architektur im Backend beschrieben hatten, widmen wir uns nun den Neuerungen im Frontend."
   },
   {
-    "itemId": "http://heise.de/-6442004",
-    "raw": "<p>Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor.</p>",
-    "sanitized": "Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor."
+    "itemId": "https://heise.de/-3292352",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Eine-neue-Architektur-fuer-heise-online-Janus-Teil-1-6442004.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Eine neue Architektur für heise online: Janus – Teil 1</a><p>Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor.</p></section>",
+    "sanitized": "Eine neue Architektur für heise online: Janus – Teil 1Die Web-Entwicklung von heise online hat ihre Architektur auf ein eventbasiertes System umgestellt und stellt dieses vor."
   },
   {
-    "itemId": "http://heise.de/-6134113",
-    "raw": "<p>Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort.</p>",
-    "sanitized": "Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort."
+    "itemId": "https://heise.de/-3136291",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Performance-Largest-Contentful-Paint-fuer-Web-Vitals-optimieren-6134113.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Performance: Largest Contentful Paint für Web Vitals optimieren</a><p>Im vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort.</p></section>",
+    "sanitized": "Performance: Largest Contentful Paint für Web Vitals optimierenIm vergangenen Jahr hatten wir bereits über unsere Bemühungen zur Optimierung des Cumulative Layout Shift (CLS) berichtet. Heute setzen wir die Core-Web-Vitals-Optimierungen mit dem LCP fort."
   },
   {
-    "itemId": "http://heise.de/-5070139",
-    "raw": "<p>Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert.</p>",
-    "sanitized": "Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert."
+    "itemId": "https://heise.de/-3065931",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Debugging-Monitoring-und-Code-Qualitaet-Tools-in-der-Web-Entwicklung-5070139.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Debugging, Monitoring und Code-Qualität: Tools in der Web-Entwicklung</a><p>Auch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert.</p></section>",
+    "sanitized": "Debugging, Monitoring und Code-Qualität: Tools in der Web-EntwicklungAuch in der Web-Entwicklung von heise online geht nicht immer alles auf Anhieb glatt. Mit den Jahren haben sich diverse Tools zum Debugging, Monitoring und zum Steigern der Code-Qualität etabliert."
   },
   {
-    "itemId": "http://heise.de/-4973753",
-    "raw": "<p>Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird.</p>",
-    "sanitized": "Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird."
+    "itemId": "https://heise.de/-3010375",
+    "raw": "<section><a href=\"https://www.heise.de/blog/heise-online-Die-Technik-hinter-den-Kulissen-4973753.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">heise online: Die Technik hinter den Kulissen</a><p>Das Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird.</p></section>",
+    "sanitized": "heise online: Die Technik hinter den KulissenDas Developer-Team berichtet, wie die Architektur von heise online entstanden ist, und zeigt, wie heute eine Applikation bei uns entwickelt wird."
   },
   {
-    "itemId": "http://heise.de/-4871860",
-    "raw": "<p>Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben.</p>",
-    "sanitized": "Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben."
+    "itemId": "https://heise.de/-2952617",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Performance-Cumulative-Layout-Shift-CLS-fuer-Web-Vitals-optimieren-4871860.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Performance: Cumulative Layout Shift (CLS) für Web Vitals optimieren</a><p>Ruhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben.</p></section>",
+    "sanitized": "Performance: Cumulative Layout Shift (CLS) für Web Vitals optimierenRuhigerer Seitenaufbau: Wie wir bei heise online unseren CLS-Wert optimiert und damit eine dauerhafte Verbesserung der UX herbeigeführt haben."
   },
   {
-    "itemId": "http://heise.de/-4719737",
-    "raw": "<p>Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert.</p>",
-    "sanitized": "Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert."
+    "itemId": "https://heise.de/-2893561",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Web-Entwicklung-allein-zu-Haus-wie-die-Corona-Krise-unsere-Arbeit-veraendert-4719737.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändert</a><p>Unter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert.</p></section>",
+    "sanitized": "Web-Entwicklung allein zu Haus – wie die Corona-Krise unsere Arbeit verändertUnter normalen Umständen ist die Web-Entwicklung bei Heise eine Präsenzabteilung, durch die Corona-Krise hat sich das schlagartig geändert."
   },
   {
-    "itemId": "http://heise.de/-4676787",
-    "raw": "<p>Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen.</p>",
-    "sanitized": "Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen."
+    "itemId": "https://heise.de/-2856837",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Akwa-Unser-hausinternes-Frontend-Framework-4676787.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">akwa – unser hausinternes Frontend-Framework</a><p>Entweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen.</p></section>",
+    "sanitized": "akwa – unser hausinternes Frontend-FrameworkEntweder benutzt man ein (Frontend-)Framework oder man entwickelt ein eigenes. Wir haben uns für letzteres entschieden und möchten es nun einmal vorstellen."
   },
   {
-    "itemId": "http://heise.de/-4614509",
-    "raw": "<p>Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind. </p>",
-    "sanitized": "Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind."
+    "itemId": "https://heise.de/-2808002",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Die-Einfuehrung-agiler-Softwareentwicklung-und-von-Scrum-bei-Heise-Teil-3-4614509.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3</a><p>Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind. </p></section>",
+    "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 3Im dritten Teil zum Thema Agile soll es um die Events gehen, die im heise-System fest in den Ablauf eingebettet sind."
+  },
+  {
+    "itemId": "https://heise.de/-2807708",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Die-Einfuehrung-agiler-Softwareentwicklung-und-von-Scrum-bei-Heise-Teil-2-4614146.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 2</a><p>In zweiten Blogbeitrag aus dem &quot;Themenblock Agile&quot; stellt die Webentwicklung von heise vor, was aus ihren agilen Ambitionen geworden ist und in was für einem System sie heute arbeiten.\n</p></section>",
+    "sanitized": "Die Einführung agiler Softwareentwicklung und von Scrum bei Heise, Teil 2In zweiten Blogbeitrag aus dem \"Themenblock Agile\" stellt die Webentwicklung von heise vor, was aus ihren agilen Ambitionen geworden ist und in was für einem System sie heute arbeiten."
+  },
+  {
+    "itemId": "https://heise.de/-2720960",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Die-Einfuehrung-agiler-Softwareentwicklung-und-Scrum-bei-Heise-Teil-1-4480834.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\"><img src=\"https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/2/7/2/0/9/6/0/Unbenannt-f5ded7ee814f5e25.png?org_if_sml=1&amp;q=75&amp;width=450\"/></a><p>Das Entwicklerteam von heise online berichtet von ihrer agilen Transition der Entwicklungsprozesse und wie dabei das &quot;heise-Scrum&quot; entstand.</p></section>",
+    "sanitized": "Das Entwicklerteam von heise online berichtet von ihrer agilen Transition der Entwicklungsprozesse und wie dabei das \"heise-Scrum\" entstand."
+  },
+  {
+    "itemId": "https://heise.de/-2714063",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Technische-Schulden-jQuery-entfernen-4471469.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Technische Schulden: jQuery entfernen</a><p>jQuery war besonders zu seiner Anfangszeit ein hilfreiches und fast unumgängliches Tool für die Frontend-Entwicklung. Dadurch hat es auch den Weg tief in unseren Code gefunden. Doch wie wird man es wieder los?</p></section>",
+    "sanitized": "Technische Schulden: jQuery entfernenjQuery war besonders zu seiner Anfangszeit ein hilfreiches und fast unumgängliches Tool für die Frontend-Entwicklung. Dadurch hat es auch den Weg tief in unseren Code gefunden. Doch wie wird man es wieder los?"
+  },
+  {
+    "itemId": "https://heise.de/-2685129",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Web-Development-Weiterbildung-im-Alltag-4431487.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Web-Development: Weiterbildung im Alltag</a><p>Die technischen Möglichkeiten im Web entwickeln sich schnell. Um auf dem aktuellen Stand zu bleiben, muss man sich ständig weiterbilden.</p></section>",
+    "sanitized": "Web-Development: Weiterbildung im AlltagDie technischen Möglichkeiten im Web entwickeln sich schnell. Um auf dem aktuellen Stand zu bleiben, muss man sich ständig weiterbilden."
+  },
+  {
+    "itemId": "https://heise.de/-2632043",
+    "raw": "<section><a href=\"https://www.heise.de/blog/a11y-Reduced-Motion-4356171.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">a11y: Reduced Motion</a><p>Ein derzeit noch experimentelles Feature, das Anwendern von Firefox, Safari und bald auch Chrome ermöglicht, einer Website mitzuteilen, dass sie weniger Bewegung auf der Seite bevorzugen.</p></section>",
+    "sanitized": "a11y: Reduced MotionEin derzeit noch experimentelles Feature, das Anwendern von Firefox, Safari und bald auch Chrome ermöglicht, einer Website mitzuteilen, dass sie weniger Bewegung auf der Seite bevorzugen."
+  },
+  {
+    "itemId": "https://heise.de/-2586108",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Theming-mit-CSS-Custom-Properties-4286008.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Theming mit CSS Custom Properties</a><p>Die heise-Webentwicklung zeigt, wie man mit nativen CSS-Variablen Themes übersichtlich gestalten und dabei auch noch Code einsparen kann.</p></section>",
+    "sanitized": "Theming mit CSS Custom PropertiesDie heise-Webentwicklung zeigt, wie man mit nativen CSS-Variablen Themes übersichtlich gestalten und dabei auch noch Code einsparen kann."
+  },
+  {
+    "itemId": "https://heise.de/-2509256",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Lazy-Loading-Images-mit-Custom-Elements-4175606.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Lazy Loading Images mit Custom Elements</a><p>Ein Blick in den Quellcode von heise online fördert seit einiger Zeit kaum noch &lt;img&gt;-Tags zutage, sondern zumeist &lt;a-img&gt;. Was das ist und wieso wir das machen, wollen wir hier einmal erläutern.</p></section>",
+    "sanitized": "Lazy Loading Images mit Custom ElementsEin Blick in den Quellcode von heise online fördert seit einiger Zeit kaum noch <img>-Tags zutage, sondern zumeist <a-img>. Was das ist und wieso wir das machen, wollen wir hier einmal erläutern."
+  },
+  {
+    "itemId": "https://heise.de/-2509211",
+    "raw": "<section><a href=\"https://www.heise.de/blog/Status-200-OK-4175537.html?wt_mc=rss.red.ho.themen.%22ich+roll%27+dann+mal+aus%22.beitrag.beitrag\">Status 200 – OK?</a><p>Das Web-Team hinter heise online startet ein Blog und hofft damit, den Usern einige interessante Einblicke in ihre Arbeit geben zu können.</p></section>",
+    "sanitized": "Status 200 – OK?Das Web-Team hinter heise online startet ein Blog und hofft damit, den Usern einige interessante Einblicke in ihre Arbeit geben zu können."
   }
 ]

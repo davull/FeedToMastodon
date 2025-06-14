@@ -1,5 +1,0 @@
-﻿Disabling localized satellite assemblies during dotnet publish
-
-In this post I show how to reduce the size of the publish output for .NET apps by preventing the publishing of localization resources when they're not needed
----
-https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/

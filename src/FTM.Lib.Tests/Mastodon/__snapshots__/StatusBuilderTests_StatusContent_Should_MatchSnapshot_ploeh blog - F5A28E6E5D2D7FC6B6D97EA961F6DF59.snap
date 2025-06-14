@@ -1,0 +1,8 @@
+﻿Testing races with a slow Decorator
+
+Delaying database interactions for test purposes.
+    
+    
+        In chapter 12 in Code That Fits in Your Head, I cover a typical race condition and how to test for it. The book comes with a pedagogical explanation of the problem, including a diagram in the style of Designing Data-Intensive Applications. In short, the problem occurs when two or more clients are competing for the last remaining seats in a particular time sl...
+---
+https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator/
