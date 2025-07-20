@@ -28,7 +28,11 @@
     "SummarySeparators": [
       "\nZum Beitrag"
     ],
-    "Tags": [],
+    "Tags": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",
     "WorkerLoopDelay": "01:30:10"

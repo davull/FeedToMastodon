@@ -29,11 +29,12 @@ public static class FeedConfigurationReader
         var title = section.SectionName;
         var feedUri = ReadFeedUrl();
         var summarySeparator = ReadSummarySeparators();
+        var tags = ReadTags();
         var mastodonServer = ReadRequiredProperty("mastodon_server");
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
         var workerLoopDelay = ReadWorkerLoopDelay();
 
-        return new FeedConfiguration(title, feedUri, summarySeparator,
+        return new FeedConfiguration(title, feedUri, summarySeparator, tags,
             mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay);
 
         string ReadRequiredProperty(string key)
@@ -65,6 +66,16 @@ public static class FeedConfigurationReader
             return sep
                 .Split(FeedConfigurationIniParser.ConcatenateSeparator)
                 .Select(s => s.Replace("\\n", "\n"))
+                .ToArray();
+        }
+
+        string[] ReadTags()
+        {
+            var allTags = section.Keys["tags"] ?? string.Empty;
+            return allTags
+                .Split(FeedConfigurationIniParser.ConcatenateSeparator)
+                .SelectMany(t => t.Split(' ', StringSplitOptions.RemoveEmptyEntries))
+                .Where(s => !string.IsNullOrEmpty(s))
                 .ToArray();
         }
 
