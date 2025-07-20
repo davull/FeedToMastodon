@@ -75,8 +75,15 @@ public static class FeedConfigurationReader
             return allTags
                 .Split(FeedConfigurationIniParser.ConcatenateSeparator)
                 .SelectMany(t => t.Split(' ', StringSplitOptions.RemoveEmptyEntries))
+                .Select(SanitizeTag)
                 .Where(s => !string.IsNullOrEmpty(s))
                 .ToArray();
+        }
+
+        string SanitizeTag(string tag)
+        {
+            tag = tag.TrimStart('#');
+            return tag;
         }
 
         TimeSpan? ReadWorkerLoopDelay()
