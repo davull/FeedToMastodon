@@ -1,5 +1,5 @@
 ﻿Integrationstest in .NET mit Testcontainern
 
-In der Software-Entwicklung ist es essentiell, den geschriebenen Code ausreichend zu testen. Neben Unit-Tests, die einzelne Komponenten isoliert prüfen, betrachten Integrationstests das Zusammenspiel mehrerer Komponenten. Hat man nun aber externe Abhängigkeiten wie z.B. einen Datenbank oder einen Message Broker, wird das Testen komplexer. Damit die externen Systeme auch in den Integrations-Tests reproduzierbar und vo...
+In der Software-Entwicklung ist es essentiell, den geschriebenen Code ausreichend zu testen. Neben Unit-Tests, die einzelne Komponenten isoliert prüfen, betrachten Integrationstests das Zusammenspiel mehrerer Komponenten. Hat man nun aber externe Abhängigkeiten wie z.B. einen Datenbank oder einen Message Broker, wird das Testen komplexer. Damit die externen Systeme auch in den Integrations-Tests reproduzierbar und...
 ---
 https://www.production-ready.de/2024/04/27/integration-testing-with-testcontainers.html

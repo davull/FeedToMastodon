@@ -6,6 +6,6 @@ An attempt at measurement, and some results.
         This is an article in a larger series about functional programming design alternatives, and a direct continuation of the previous article. The question lingering after the Impureim Sandwich proof of concept is: What are the memory requirements of front-loading all users, songs, and scrobbles?
     
     
-        One can guess, as I've already ...
+        One can guess, as I've alrea...
 ---
 https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements/

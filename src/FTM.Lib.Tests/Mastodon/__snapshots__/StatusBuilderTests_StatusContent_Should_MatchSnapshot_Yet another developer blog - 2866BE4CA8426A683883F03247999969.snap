@@ -1,6 +1,5 @@
 ﻿ASP.NET Core 9 and IAsyncEnumerable - Async Streaming JSON and NDJSON From Blazor WebAssembly
 
-I've been exploring working with asynchronous streaming data sources over HTTP for quite some time on this blog. I've been playing with async streamed JSON and NDJSON. I've been streaming and receiving streams in ASP.NET Core and console applications. But there is one scenario I haven't touched yet - streaming from Blazor WebAssembly. Why? Simply it wasn't possible.
-S...
+I've been exploring working with asynchronous streaming data sources over HTTP for quite some time on this blog. I've been playing with async streamed JSON and NDJSON. I've been streaming and receiving streams in ASP.NET Core and console applications. But there is one scenario I haven't touched yet - streaming from Blazor WebAssembly. Why? Simply it wasn't possible...
 ---
 http://www.tpeczek.com/2024/09/aspnet-core-9-and-iasyncenumerable.html

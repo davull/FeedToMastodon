@@ -133,6 +133,17 @@ public static class FeedTestsProvider
             select new TestCaseData(item, separators).SetName(testName);
     }
 
+    public static IEnumerable<TestCaseData> FeedItemsWithTagsTestCases()
+    {
+        return from tuple in TestFeedsWithTags()
+            let feed = tuple.feed
+            let tags = tuple.tags
+            where tags.Length > 0
+            from item in feed.Items
+            let testName = GetTestName(feed, item)
+            select new TestCaseData(item, tags).SetName(testName);
+    }
+
     public static IEnumerable<FeedItem> TestFeedItems()
     {
         return from feed in TestFeeds()
@@ -169,6 +180,20 @@ public static class FeedTestsProvider
         return from feed in TestFeeds()
             let sep = separators.GetValueOrDefault(feed.Title!, [])
             select (feed, sep);
+    }
+
+    private static IEnumerable<(Feed feed, string[] tags)> TestFeedsWithTags()
+    {
+        var tagsPerFeed = new Dictionary<string, string[]>
+        {
+            { "Caschys Blog", ["caschy", "tech"] },
+            { "TESLARATI", ["tesla", "teslarati"] },
+            { "RoseHosting", ["hosting", "rose", "web"] }
+        };
+
+        return from feed in TestFeeds()
+            let tags = tagsPerFeed.GetValueOrDefault(feed.Title!, [])
+            select (feed, tags);
     }
 
     private static string GetTestName(Feed feed, FeedItem item)

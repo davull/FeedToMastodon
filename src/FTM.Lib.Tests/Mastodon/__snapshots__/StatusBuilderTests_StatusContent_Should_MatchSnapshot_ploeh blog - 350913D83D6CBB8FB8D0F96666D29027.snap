@@ -3,6 +3,6 @@
 Interleaving impure actions with pure functions. Not really functional programming.
     
     
-        This article is part of a larger article series about alternative ways to design with functional programming, particularly when faced with massive data loads. In the previous few articles, you saw functional architecture at its apparent limit. With sufficiently large data sizes, the Impureim Sandwich pattern starts to buck...
+        This article is part of a larger article series about alternative ways to design with functional programming, particularly when faced with massive data loads. In the previous few articles, you saw functional architecture at its apparent limit. With sufficiently large data sizes, the Impureim Sandwich pattern starts to b...
 ---
 https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators/

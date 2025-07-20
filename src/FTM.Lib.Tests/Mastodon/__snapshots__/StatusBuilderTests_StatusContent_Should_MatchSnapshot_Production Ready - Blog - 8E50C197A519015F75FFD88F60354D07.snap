@@ -1,5 +1,5 @@
 ﻿Architektur-Refactoring mit ArchUnitNET
 
-Neben den funktionalen Anforderungen an ein Software-Produkt, welche sich mittels Unit- und Integrationstests absichern lassen, existieren auch eine Reihe von nicht-funktionalen Anforderungen. Aspekte der Sicherheit oder der Performance einer Anwendung lassen sich durch End-to-End Tests abdecken. Um die Wartbarkeit und Erweiterbarkeit einer Software sicherzustellen, kann man neben statischer Code-Analyse auch automatisie...
+Neben den funktionalen Anforderungen an ein Software-Produkt, welche sich mittels Unit- und Integrationstests absichern lassen, existieren auch eine Reihe von nicht-funktionalen Anforderungen. Aspekte der Sicherheit oder der Performance einer Anwendung lassen sich durch End-to-End Tests abdecken. Um die Wartbarkeit und Erweiterbarkeit einer Software sicherzustellen, kann man neben statischer Code-Analyse auch automati...
 ---
 https://www.production-ready.de/2023/12/10/architecture-refactoring-with-archunitnet.html

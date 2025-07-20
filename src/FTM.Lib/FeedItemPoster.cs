@@ -34,7 +34,7 @@ public static class FeedItemPoster
     {
         return itemsToPost.Select(item =>
         {
-            var status = StatusBuilder.CreateStatus(item, context.Configuration.SummarySeparators);
+            var status = StatusBuilder.CreateStatus(item, [], context.Configuration.SummarySeparators);
             return (item, status);
         });
     }
