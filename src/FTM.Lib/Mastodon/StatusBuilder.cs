@@ -30,7 +30,7 @@ public static class StatusBuilder
 
         var summary = GetSummary(item, remainingLength, separators);
 
-        return StatusFormatter.GetStatus(title, summary, link);
+        return StatusFormatter.GetStatus(title, summary, "", link);
     }
 
     private static string GetTitle(FeedItem item, int maxLength)

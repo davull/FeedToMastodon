@@ -2,28 +2,37 @@
 
 public static class StatusFormatter
 {
-    public static string GetStatus(string title, string summary, Uri? link)
+    public static string GetStatus(string title, string summary, string tags, Uri? link)
     {
         // {0}: title
         // {1}: summary
-        // {2}: link
+        // {2}: tags
+        // {3}: link
 
+        var hasTags = !string.IsNullOrEmpty(tags);
+        var format = GetFormat(title, summary, hasTags);
+
+        return string.Format(format, title, summary, tags, link);
+    }
+
+    private static string GetFormat(string title, string summary, bool hasTags)
+    {
         const string formatWithSummary = """
                                          {0}
 
                                          {1}
                                          ---
-                                         {2}
+                                         {3}
                                          """;
         const string formatWoSummary = """
                                        {0}
                                        ---
-                                       {2}
+                                       {3}
                                        """;
         const string formatWoTitle = """
                                      {1}
                                      ---
-                                     {2}
+                                     {3}
                                      """;
 
         var compare = ContentComparer.Compare(title, summary);
@@ -37,6 +46,6 @@ public static class StatusFormatter
             _ => formatWithSummary
         };
 
-        return string.Format(format, title, summary, link);
+        return format;
     }
 }

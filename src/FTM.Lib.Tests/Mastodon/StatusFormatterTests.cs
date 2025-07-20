@@ -11,7 +11,7 @@ public class StatusFormatterTests : TestBase
     {
         var uri = string.IsNullOrEmpty(link) ? null : new Uri(link);
 
-        var status = StatusFormatter.GetStatus(title, summary, uri);
+        var status = StatusFormatter.GetStatus(title, summary, "", uri);
 
         status.MatchSnapshotWithTestName();
     }
