@@ -35,6 +35,7 @@ public static class StatusFormatter
                    {0}
 
                    {1}
+                   
                    {2}
                    ---
                    {3}
@@ -56,6 +57,7 @@ public static class StatusFormatter
         {
             return """
                    {0}
+                   
                    {2}
                    ---
                    {3}
@@ -75,6 +77,7 @@ public static class StatusFormatter
         {
             return """
                    {1}
+                   
                    {2}
                    ---
                    {3}
