@@ -274,4 +274,11 @@ public class StatusBuilderTests : TestBase
         const int maxLength = 500 - 23 - 4; // 23 for link and 4 for ---\n
         split[0].Length.ShouldBeLessThanOrEqualTo(maxLength);
     }
+
+    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithTagsTestCases))]
+    public void Status_WithTags_ShouldMatchSnapshot(FeedItem item, string[] tags)
+    {
+        var status = StatusBuilder.CreateStatus(item, tags, []).Status;
+        status.MatchSnapshotWithTestName();
+    }
 }
