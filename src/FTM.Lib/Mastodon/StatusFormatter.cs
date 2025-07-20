@@ -17,6 +17,18 @@ public static class StatusFormatter
 
     private static string GetFormat(string title, string summary, bool hasTags)
     {
+        if (hasTags)
+        {
+            return "";
+        }
+        else
+        {
+            return GetFormatWoTags(title, summary);
+        }
+    }
+
+    private static string GetFormatWoTags(string title, string summary)
+    {
         const string formatWithSummary = """
                                          {0}
 
@@ -37,15 +49,19 @@ public static class StatusFormatter
 
         var compare = ContentComparer.Compare(title, summary);
 
-        var format = compare switch
+        switch (compare)
         {
             // Title contains summary
-            ContentComparer.CompareResult.FirstContainsSecond => formatWoSummary,
+            case ContentComparer.CompareResult.FirstContainsSecond:
+                return formatWoSummary;
             // Summary contains title
-            ContentComparer.CompareResult.SecondContainsFirst => formatWoTitle,
-            _ => formatWithSummary
-        };
-
-        return format;
+            case ContentComparer.CompareResult.SecondContainsFirst:
+                return formatWoTitle;
+            case ContentComparer.CompareResult.Different:
+                return formatWithSummary;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(compare),
+                    compare, "Unexpected comparison result");
+        }
     }
 }
