@@ -5,6 +5,7 @@
     "SummarySeparators": [
       ""
     ],
+    "Tags": [],
     "MastodonServer": "https://mastodon.social",
     "MastodonAccessToken": "1234567890",
     "WorkerLoopDelay": null
@@ -16,6 +17,7 @@
       "[...]",
       "\nThePost"
     ],
+    "Tags": [],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz",
     "WorkerLoopDelay": null
@@ -25,6 +27,11 @@
     "FeedUri": "http://example.com/feed3",
     "SummarySeparators": [
       "\nZum Beitrag"
+    ],
+    "Tags": [
+      "tag1",
+      "tag2",
+      "tag3"
     ],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",

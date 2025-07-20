@@ -39,6 +39,7 @@ public record FeedConfiguration(
     string Title,
     Uri FeedUri,
     string[] SummarySeparators,
+    string[] Tags,
     string MastodonServer,
     string MastodonAccessToken,
     TimeSpan? WorkerLoopDelay);
