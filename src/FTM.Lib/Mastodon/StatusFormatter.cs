@@ -10,58 +10,81 @@ public static class StatusFormatter
         // {3}: link
 
         var hasTags = !string.IsNullOrEmpty(tags);
-        var format = GetFormat(title, summary, hasTags);
+
+        var compare = ContentComparer.Compare(title, summary);
+
+        var format = compare switch
+        {
+            // Title contains summary
+            ContentComparer.CompareResult.FirstContainsSecond => GetFormatWoSummary(hasTags),
+            // Summary contains title
+            ContentComparer.CompareResult.SecondContainsFirst => GetFormatWoTitle(hasTags),
+            // Title and summary are different
+            ContentComparer.CompareResult.Different => GetFormatWithSummary(hasTags),
+            _ => throw new ArgumentOutOfRangeException(nameof(compare), compare, "Unexpected comparison result")
+        };
 
         return string.Format(format, title, summary, tags, link);
     }
 
-    private static string GetFormat(string title, string summary, bool hasTags)
+    private static string GetFormatWithSummary(bool hasTags)
     {
         if (hasTags)
         {
-            return "";
+            return """
+                   {0}
+
+                   {1}
+                   {2}
+                   ---
+                   {3}
+                   """;
         }
-        else
-        {
-            return GetFormatWoTags(title, summary);
-        }
+
+        return """
+               {0}
+
+               {1}
+               ---
+               {3}
+               """;
     }
 
-    private static string GetFormatWoTags(string title, string summary)
+    private static string GetFormatWoSummary(bool hasTags)
     {
-        const string formatWithSummary = """
-                                         {0}
-
-                                         {1}
-                                         ---
-                                         {3}
-                                         """;
-        const string formatWoSummary = """
-                                       {0}
-                                       ---
-                                       {3}
-                                       """;
-        const string formatWoTitle = """
-                                     {1}
-                                     ---
-                                     {3}
-                                     """;
-
-        var compare = ContentComparer.Compare(title, summary);
-
-        switch (compare)
+        if (hasTags)
         {
-            // Title contains summary
-            case ContentComparer.CompareResult.FirstContainsSecond:
-                return formatWoSummary;
-            // Summary contains title
-            case ContentComparer.CompareResult.SecondContainsFirst:
-                return formatWoTitle;
-            case ContentComparer.CompareResult.Different:
-                return formatWithSummary;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(compare),
-                    compare, "Unexpected comparison result");
+            return """
+                   {0}
+                   {2}
+                   ---
+                   {3}
+                   """;
         }
+
+        return """
+               {0}
+               ---
+               {3}
+               """;
+    }
+
+    private static string GetFormatWoTitle(bool hasTags)
+    {
+        if (hasTags)
+        {
+            return """
+                   {1}
+                   {2}
+                   ---
+                   {3}
+                   """;
+        }
+
+        return """
+               {1}
+               ---
+               {3}
+               """;
     }
 }
