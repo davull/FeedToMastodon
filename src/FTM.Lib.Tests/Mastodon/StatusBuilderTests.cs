@@ -24,6 +24,20 @@ public class StatusBuilderTests : TestBase
     }
 
     [Test]
+    public void StatusContent_WithAllValues_ShouldMatchSnapshot()
+    {
+        var feedItem = Dummies.FeedItem(
+            title: "My post title",
+            summary: "My summary",
+            content: "My content",
+            link: "https://example.com/feed=123");
+
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], []).Status;
+
+        status.MatchSnapshot();
+    }
+
+    [Test]
     public void StatusContent_WoSummary_ShouldUseContent()
     {
         var feedItem = Dummies.FeedItem(
@@ -254,7 +268,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_ShouldNotExceedMaxLength(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, ["tag1", "tag2"], separators);
         var split = status.Status.Split("---");
 
         const int maxLength = 500 - 23 - 4; // 23 for link and 4 for ---\n

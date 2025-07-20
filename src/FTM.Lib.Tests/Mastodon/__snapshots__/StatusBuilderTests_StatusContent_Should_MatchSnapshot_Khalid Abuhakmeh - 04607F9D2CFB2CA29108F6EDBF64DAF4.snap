@@ -1,5 +1,5 @@
 ﻿Strongly-Typed Markdown for ASP.NET Core Content Apps
 
-Every development career has milestone moments. One we all likely share is building a custom content management system, or CMS, as developers like to refer to it. A common approach to melding metadata and content is utilizing the old reliable Markdown format, which fuses YAML frontmatter with a simple content format. While YAML is flexible, it can be less than ideal when wanting to use that embedded data ...
+Every development career has milestone moments. One we all likely share is building a custom content management system, or CMS, as developers like to refer to it. A common approach to melding metadata and content is utilizing the old reliable Markdown format, which fuses YAML frontmatter with a simple content format. While YAML is flexible, it can be less than ideal when wanting to use that embedded data...
 ---
 https://khalidabuhakmeh.com/strongly-typed-markdown-for-aspnet-core-content-apps

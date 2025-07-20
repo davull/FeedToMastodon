@@ -2,7 +2,7 @@
 
 public static class StatusBuilder
 {
-    private const int ReservedLength = 13;
+    private const int ReservedLength = 14;
     private const int MaxStatusLength = 500 - ReservedLength;
 
     private const string DefaultLanguage = "en-US";

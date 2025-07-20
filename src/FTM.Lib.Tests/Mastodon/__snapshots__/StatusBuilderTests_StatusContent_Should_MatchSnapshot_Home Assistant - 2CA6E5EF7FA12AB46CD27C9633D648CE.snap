@@ -1,5 +1,5 @@
 ﻿Deprecating Core and Supervised installation methods, and 32-bit systems
 
-We are today officially deprecating two installation methods and three legacy CPU architectures. We always strive to have Home Assistant run on almost anything, but sometimes we must make difficult decisions to keep the project moving forward. Though these changes will only affect a small percentage of Home Assistant users, we want to do everything in our power to make this easy for tho...
+We are today officially deprecating two installation methods and three legacy CPU architectures. We always strive to have Home Assistant run on almost anything, but sometimes we must make difficult decisions to keep the project moving forward. Though these changes will only affect a small percentage of Home Assistant users, we want to do everything in our power to make this easy for th...
 ---
 https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems/

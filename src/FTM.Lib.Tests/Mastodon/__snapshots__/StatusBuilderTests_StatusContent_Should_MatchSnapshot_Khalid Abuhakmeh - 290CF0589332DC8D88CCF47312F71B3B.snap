@@ -1,5 +1,5 @@
 ﻿Generic C# Methods with Enum Constraints for .NET
 
-Every couple of years, I tend to write the same variation of an enum helper that reads metadata from an enumeration using reflection. Almost any .NET developer with a few years of experience has done the same. The implementation uses Generics to work for any enum defined in my solution, as there is typically more than one described in a typical .NET solution. Historically, generics and enums didn’t work well ...
+Every couple of years, I tend to write the same variation of an enum helper that reads metadata from an enumeration using reflection. Almost any .NET developer with a few years of experience has done the same. The implementation uses Generics to work for any enum defined in my solution, as there is typically more than one described in a typical .NET solution. Historically, generics and enums didn’t work well...
 ---
 https://khalidabuhakmeh.com/generic-csharp-methods-with-enum-constraints-for-dotnet
