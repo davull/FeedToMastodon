@@ -1,5 +1,5 @@
 ﻿Monitoring C# Azure Functions in the Isolated Worker Model - Infrastructure & Configuration Deep Dive
 
-Not so long ago my colleague reached out with a question "Are there any known issues with ITelemetryInitializer in Azure Functions?". This question started a discussion about the monitoring configuration for C# Azure Functions in the isolated worker model. At some point in that discussion I stated "Alright, you've motivated me, I'll make a sample". When I sat ...
+Not so long ago my colleague reached out with a question "Are there any known issues with ITelemetryInitializer in Azure Functions?". This question started a discussion about the monitoring configuration for C# Azure Functions in the isolated worker model. At some point in that discussion I stated "Alright, you've motivated me, I'll make a sample". When I sa...
 ---
 http://www.tpeczek.com/2024/11/monitoring-c-azure-functions-in.html

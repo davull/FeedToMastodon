@@ -1,5 +1,5 @@
 ﻿ASP.NET Core and Chunking HTTP Cookies
 
-If you’ve spent time around web development or your grocery store’s baked goods aisle, you’ve probably dealt with cookies. Let’s discuss the web kind today. A cookie is a header key-value pair that is set on the server using the Set-Cookie key, and a value of <name>=<value>. Cookies persist on the client, where the client will send each cookie to the server on each subsequent request. It’s a simple way to persist state in...
+If you’ve spent time around web development or your grocery store’s baked goods aisle, you’ve probably dealt with cookies. Let’s discuss the web kind today. A cookie is a header key-value pair that is set on the server using the Set-Cookie key, and a value of <name>=<value>. Cookies persist on the client, where the client will send each cookie to the server on each subsequent request. It’s a simple way to persist state ...
 ---
 https://khalidabuhakmeh.com/aspnet-core-and-chunking-http-cookies

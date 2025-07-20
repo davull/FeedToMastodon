@@ -1,5 +1,5 @@
 ﻿Markdown oder AsciiDoc: Die Gretchenfrage für Docs-as-Code
 
-Was ist Docs-as-Code?Mit der Nutzung leichtgewichtiger Textformate können wir unsere Dokumentation direkt im Git-Repository erstellen und versionieren – ganz nah am Sourcecode. So lassen sich verschiedene Versionen problemlos vergleichen und bei Bedarf ältere Stände wiederherstellen. Der Einsatz verteilter Versionskontrollsysteme wie Git ermöglicht es uns, auch offline, etwa im Zug oder in einem Funklo...
+Was ist Docs-as-Code?Mit der Nutzung leichtgewichtiger Textformate können wir unsere Dokumentation direkt im Git-Repository erstellen und versionieren – ganz nah am Sourcecode. So lassen sich verschiedene Versionen problemlos vergleichen und bei Bedarf ältere Stände wiederherstellen. Der Einsatz verteilter Versionskontrollsysteme wie Git ermöglicht es uns, auch offline, etwa im Zug oder in einem Funk...
 ---
 https://www.embarc.de/markdown-vs-asciidoc/

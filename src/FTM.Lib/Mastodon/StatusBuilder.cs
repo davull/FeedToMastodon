@@ -2,15 +2,15 @@
 
 public static class StatusBuilder
 {
-    private const int ReservedLength = 11;
+    private const int ReservedLength = 13;
     private const int MaxStatusLength = 500 - ReservedLength;
 
     private const string DefaultLanguage = "en-US";
 
-    public static MastodonStatus CreateStatus(FeedItem feedItem, string[] separators,
+    public static MastodonStatus CreateStatus(FeedItem feedItem, string[] tags, string[] separators,
         MastodonStatusVisibility visibility = MastodonStatusVisibility.Public)
     {
-        var status = BuildStatusText(feedItem, separators);
+        var status = BuildStatusText(feedItem, tags, separators);
         var language = string.IsNullOrEmpty(feedItem.Language)
             ? DefaultLanguage
             : feedItem.Language;
@@ -18,19 +18,22 @@ public static class StatusBuilder
         return new MastodonStatus(status, language, visibility);
     }
 
-    private static string BuildStatusText(FeedItem item, string[] separators)
+    private static string BuildStatusText(FeedItem item, string[] tags, string[] separators)
     {
         var remainingLength = MaxStatusLength;
 
         var link = item.Link;
         remainingLength -= LinkLengthProvider.GetRelevantLength(link);
 
+        var tagsLine = GetTags(tags);
+        remainingLength -= tagsLine.Length;
+
         var title = GetTitle(item, remainingLength);
         remainingLength -= title.Length;
 
         var summary = GetSummary(item, remainingLength, separators);
 
-        return StatusFormatter.GetStatus(title, summary, "", link);
+        return StatusFormatter.GetStatus(title, summary, tagsLine, link);
     }
 
     private static string GetTitle(FeedItem item, int maxLength)
@@ -47,9 +50,8 @@ public static class StatusBuilder
             summary = StatusSanitizer.Sanitize(item.Content) ?? string.Empty;
         }
 
-        var summaryContainsSeparator = separators.Any(
-            sep => !string.IsNullOrEmpty(sep) &&
-                   summary.Contains(sep));
+        var summaryContainsSeparator = separators.Any(sep => !string.IsNullOrEmpty(sep) &&
+                                                             summary.Contains(sep));
         if (summaryContainsSeparator)
         {
             summary = summary.Split(separators, StringSplitOptions.None)[0] + "...";
@@ -57,6 +59,8 @@ public static class StatusBuilder
 
         return TrimIfNeeded(summary, maxLength);
     }
+
+    private static string GetTags(string[] tags) => string.Join(" ", tags.Select(tag => $"#{tag}"));
 
     private static string TrimIfNeeded(string text, int maxLength)
     {

@@ -1,5 +1,5 @@
 ﻿Exploring Neon as a Serverless Postgres Alternative for .NET Applications on Azure - Part 1 (Simple ASP.NET Core on App Service)
 
-Neon, a serverless Postgres platform, was recently brought to my attention. It comes with  the promise of some  interesting features like scale-to-zero, on-demand autoscaling, point-in-time restore and time travel with up to 30 days retention, instant read replicas, and probably the most unique, branching (which allows you to quickly...
+Neon, a serverless Postgres platform, was recently brought to my attention. It comes with  the promise of some  interesting features like scale-to-zero, on-demand autoscaling, point-in-time restore and time travel with up to 30 days retention, instant read replicas, and probably the most unique, branching (which allows you to quick...
 ---
 http://www.tpeczek.com/2025/02/exploring-neon-as-serverless-postgres.html

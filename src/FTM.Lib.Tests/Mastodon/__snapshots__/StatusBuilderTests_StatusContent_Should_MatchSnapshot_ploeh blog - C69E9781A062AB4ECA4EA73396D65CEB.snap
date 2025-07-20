@@ -6,6 +6,6 @@ A pure function on potentially massive data.
         This article is part of a larger article series titled Alternative ways to design with functional programming. In the previous article, you saw an example of applying the Impureim Sandwich pattern to the problem at hand: A song recommendation engine that sifts through much historical data.
     
     
-        As already covered in Song recommendations a...
+        As already covered in Song recommendations...
 ---
 https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich/
