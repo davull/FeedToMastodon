@@ -81,6 +81,17 @@ public class FeedConfigurationReaderTests : TestBase
         snapshot.MatchSnapshot();
     }
 
+    [Test]
+    public void ValidTags_Should_ReturnConfig()
+    {
+        var filePath = FilePath("valid-tags-feedconfig.ini");
+
+        var actual = FeedConfigurationReader.ReadConfiguration(filePath);
+
+        actual.ShouldNotBeNullOrEmpty();
+        actual.MatchSnapshot();
+    }
+
     private static string FilePath(string fileName) =>
         Path.Combine(PathHelper.GetCurrentFileDirectory(),
             "TestData", fileName);

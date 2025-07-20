@@ -1,0 +1,54 @@
+﻿[
+  {
+    "Title": "feed1",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparators": [
+      ""
+    ],
+    "Tags": [],
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890",
+    "WorkerLoopDelay": null
+  },
+  {
+    "Title": "feed2",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparators": [
+      ""
+    ],
+    "Tags": [
+      "tag1"
+    ],
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890",
+    "WorkerLoopDelay": null
+  },
+  {
+    "Title": "feed3",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparators": [
+      ""
+    ],
+    "Tags": [
+      "tag1",
+      "tag2"
+    ],
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890",
+    "WorkerLoopDelay": null
+  },
+  {
+    "Title": "feed4",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparators": [
+      ""
+    ],
+    "Tags": [
+      "#tag1",
+      "tag2"
+    ],
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890",
+    "WorkerLoopDelay": null
+  }
+]
