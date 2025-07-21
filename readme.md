@@ -45,6 +45,7 @@ The configuration of the individual feeds is done in a INI configuration file.
 [heise.de]
 feed_url = https://www.heise.de/rss/heise-atom.xml
 summary_separator = [...]
+tags = news technology
 mastodon_server = https://mastodon.social/
 mastodon_access_token = 1234567890
 worker_loop_delay = 00:30:00
@@ -54,6 +55,7 @@ worker_loop_delay = 00:30:00
 |-----------------------|------------------------------------------------------------------------|
 | feed_url              | URL of the feed, required                                              |
 | summary_separator     | Separator where the summary is cut off, see below, optional            |
+| tags                  | List of tags to add to each post, see below, optional                  |
 | mastodon_server       | URL of the Mastodon server, required                                   |
 | mastodon_access_token | Access token for the Mastodon account, required                        |
 | worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional |
@@ -80,6 +82,15 @@ To the post <a rel="nofollow" ...>http://news.com/123</a>
 you can configure the separator as `[…]`:
 ```
 Earlier today, we reported that ...
+```
+
+### tags
+
+Multiple `tags` can be added to each post, separated by space. On Mastodon, tags can contain
+alphanumeric characters and underscores, but cannot contain numbers only.
+
+```ini
+tags = news technology opensource
 ```
 
 ## Run Feed to Mastodon
