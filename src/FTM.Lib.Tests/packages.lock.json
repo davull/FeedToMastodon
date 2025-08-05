@@ -67,13 +67,13 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[1.8.17, )",
-        "resolved": "1.8.17",
-        "contentHash": "FZhsLZu5dCx2c3u++oWRikUJNnezsjSt1VAXtQtc0B5fnubciCkGk2I3qpxxEGyfsQnayA9F+msKVT004FdK3w==",
+        "requested": "[1.8.18, )",
+        "resolved": "1.8.18",
+        "contentHash": "pR3/T80YEXOYo3u2yNQXxp/5uP036H1LoMgzMozlxhtuomJMg9/srcQK6aa2dKfO56PytOgiOR1hbwOg9XnehA==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.MimePart": "1.8.17",
-          "WireMock.Net.Minimal": "1.8.17"
+          "WireMock.Net.MimePart": "1.8.18",
+          "WireMock.Net.Minimal": "1.8.18"
         }
       },
       "AnyOf": {
@@ -760,8 +760,8 @@
       },
       "Microsoft.Data.Sqlite.Core": {
         "type": "Transitive",
-        "resolved": "9.0.7",
-        "contentHash": "yjlU0Wu0tAexFPlo/bbkYFMWyEkVHqr5AONyh91YJ4KH+hys+eAzHQxd14aZwtQOgpJ5s9r3QL9+tVJww8w69Q==",
+        "resolved": "9.0.8",
+        "contentHash": "AQr1nLGi1riN7XA2c8uAKAr2fo7bvZ++VRnvKyh/rhsj2f4x0Nmgk2j8+Rw9RaJrzZMcv0Mu4nYNpAdSui/FHw==",
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.10"
         }
@@ -803,16 +803,16 @@
       },
       "Microsoft.Extensions.DependencyInjection": {
         "type": "Transitive",
-        "resolved": "9.0.7",
-        "contentHash": "i05AYA91vgq0as84ROVCyltD2gnxaba/f1Qw2rG7mUsS0gv8cPTr1Gm7jPQHq7JTr4MJoQUcanLVs16tIOUJaQ==",
+        "resolved": "9.0.8",
+        "contentHash": "JJjI2Fa+QtZcUyuNjbKn04OjIUX5IgFGFu/Xc+qvzh1rXdZHLcnqqVXhR4093bGirTwacRlHiVg1XYI9xum6QQ==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions": {
         "type": "Transitive",
-        "resolved": "9.0.7",
-        "contentHash": "iPK1FxbGFr2Xb+4Y+dTYI8Gupu9pOi8I3JPuPsrogUmEhe2hzZ9LpCmolMEBhVDo2ikcSr7G5zYiwaapHSQTew=="
+        "resolved": "9.0.8",
+        "contentHash": "xY3lTjj4+ZYmiKIkyWitddrp1uL5uYiweQjqo4BKBw01ZC4HhcfgLghDpPZcUlppgWAFqFy9SgkiYWOMx365pw=="
       },
       "Microsoft.Extensions.DependencyInjection.AutoActivation": {
         "type": "Transitive",
@@ -916,11 +916,11 @@
       },
       "Microsoft.Extensions.Options": {
         "type": "Transitive",
-        "resolved": "9.0.7",
-        "contentHash": "trJnF6cRWgR5uMmHpGoHmM1wOVFdIYlELlkO9zX+RfieK0321Y55zrcs4AaEymKup7dxgEN/uJU25CAcMNQRXw==",
+        "resolved": "9.0.8",
+        "contentHash": "OmTaQ0v4gxGQkehpwWIqPoEiwsPuG/u4HUsbOFoWGx4DKET2AXzopnFe/fE608FIhzc/kcg2p8JdyMRCCUzitQ==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
-          "Microsoft.Extensions.Primitives": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions": {
@@ -937,8 +937,8 @@
       },
       "Microsoft.Extensions.Primitives": {
         "type": "Transitive",
-        "resolved": "9.0.7",
-        "contentHash": "ti/zD9BuuO50IqlvhWQs9GHxkCmoph5BHjGiWKdg2t6Or8XoyAfRJiKag+uvd/fpASnNklfsB01WpZ4fhAe0VQ=="
+        "resolved": "9.0.8",
+        "contentHash": "tizSIOEsIgSNSSh+hKeUVPK7xmTIjR8s+mJWOu1KXV3htvNQiPMFRMO17OdI1y/4ZApdBVk49u/08QGC9yvLug=="
       },
       "Microsoft.Extensions.Resilience": {
         "type": "Transitive",
@@ -2190,8 +2190,8 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "Si5Y76a48fM/GwazAchpXZ4v7t1iQwCg0NrbHCDFeIDkOFqxLX+bb+bIJFt7sdSAPQz/Qv3kbxW1eZvmL+9j0g==",
+        "resolved": "1.8.18",
+        "contentHash": "gsM5rUChk48qVaAtQhcw/MeHiwKlybNT0LtkLB+WEbX0bC5+NaQMgea0DJhXu9CT95fWuL4Hmd9OhUMq0HTG8g==",
         "dependencies": {
           "System.Net.Http": "4.3.4",
           "System.Security.Cryptography.X509Certificates": "4.3.0",
@@ -2200,18 +2200,18 @@
       },
       "WireMock.Net.MimePart": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "1+/8qAXxXyz1Xo8rHtU4PONnRLXejfoqdC3myZQ+l5SWy52QSqqlq813Efpn+YJ0MojYaygBrNzqCG8Pj+s9mQ==",
+        "resolved": "1.8.18",
+        "contentHash": "5b+Rkm3D5BlbnBF1LzAkuYcUrQ/B/ImFqtWd9afpySauX1La9gpd9YFV3iR+sxQUl8sc30C+jdwrDw+9mFkePg==",
         "dependencies": {
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Shared": "1.8.17"
+          "WireMock.Net.Shared": "1.8.18"
         }
       },
       "WireMock.Net.Minimal": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "8DG9EScC+MII1k8Jgl9VDRVMwizSVigXnM8brR1wD4Faux4DzQVQMxwRns+n2BpWfojKinVwWh1jO+oeZ6V1rQ==",
+        "resolved": "1.8.18",
+        "contentHash": "YMo0yOD6jUrTWaH8vMW8NLEFGZmav3cqUA0ja4L1Mxj2CnFRRj+mfYkGhmrNxccbfGdIUbNE0ib3eVq/2OMVPQ==",
         "dependencies": {
           "AnyOf": "0.4.0",
           "GraphQL.NewtonsoftJson": "8.2.1",
@@ -2233,15 +2233,15 @@
           "SimMetrics.Net": "1.0.5",
           "System.Text.RegularExpressions": "4.3.1",
           "TinyMapper.Signed": "4.0.0",
-          "WireMock.Net.OpenApiParser": "1.8.17",
-          "WireMock.Net.Shared": "1.8.17",
-          "WireMock.Org.Abstractions": "1.8.17"
+          "WireMock.Net.OpenApiParser": "1.8.18",
+          "WireMock.Net.Shared": "1.8.18",
+          "WireMock.Org.Abstractions": "1.8.18"
         }
       },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "dH6y82NGvXni1IMNg28BzOAcG4cD74CRXnEOsBiVGyZRZKsFJikfTq5j1jT9PfnuMVkg6ZPWGChIk76d/cJz7Q==",
+        "resolved": "1.8.18",
+        "contentHash": "+6utdbdCCDbL5xaLu5l++7FtO5qLo2kYBNsNe2WM0lHNLgQSjLZ+2aaDmxMS07qB+9WY2lm/NUArL/nPHvHllg==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "RamlToOpenApiConverter.SourceOnly": "0.8.0",
@@ -2250,26 +2250,26 @@
           "Stef.Validation": "0.1.1",
           "System.Text.Json": "8.0.5",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.8.17",
+          "WireMock.Net.Abstractions": "1.8.18",
           "YamlDotNet": "8.1.0"
         }
       },
       "WireMock.Net.Shared": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "Bic3LqhiFQvtWE6tKT4ndPxdc9QbomqDutRzkbTsCIjhWaWlgBjJrG3i2cpgEtvhHK5E17P8tlEHFBQL5UnFCQ==",
+        "resolved": "1.8.18",
+        "contentHash": "k/Sqomk4nZBEv48i6Qi2FAZGuyFAW40GaEE2MgF8MEC4DJBg+rbO6ZjAPv0hqKFiyCyU6QKUMXTZkUNSNmK0Uw==",
         "dependencies": {
           "AnyOf": "0.4.0",
           "Newtonsoft.Json": "13.0.3",
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.8.17"
+          "WireMock.Net.Abstractions": "1.8.18"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.17",
-        "contentHash": "3W4R/MncH/3J3Bcy9NTRkwKdNj3XkxuUnol7tjOxVD3Fg0iaXbLqbihG7kEtL43q0jVfiYDusCsy/5OQjbPD7Q==",
+        "resolved": "1.8.18",
+        "contentHash": "y02krQ8FKx6dmrZ9IIOJQ+FISVj4Sq/ST2G8ALXb03AvaHQgOIo2XX+02AcLrTFn1PNmN1O+mQaVxNpixy3i2g==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1"
         }
@@ -2298,9 +2298,9 @@
         "dependencies": {
           "Dapper": "[2.1.66, )",
           "HtmlAgilityPack": "[1.12.2, )",
-          "Microsoft.Data.Sqlite": "[9.0.7, )",
+          "Microsoft.Data.Sqlite": "[9.0.8, )",
           "Microsoft.Extensions.Http.Resilience": "[9.7.0, )",
-          "Microsoft.Extensions.Logging": "[9.0.7, )",
+          "Microsoft.Extensions.Logging": "[9.0.8, )",
           "Serilog": "[4.3.0, )",
           "Serilog.Extensions.Logging": "[9.0.2, )",
           "Serilog.Sinks.Console": "[6.0.0, )",
@@ -2342,18 +2342,18 @@
       },
       "Microsoft.Data.Sqlite": {
         "type": "CentralTransitive",
-        "requested": "[9.0.7, )",
-        "resolved": "9.0.7",
-        "contentHash": "zPyE8rASXQALTOHI/flV1YzCErlnuDm9Wv7jxYhC1KkheWBMJRJ95Yl8ZqXPa/8R16DJ3IZn8KnOVcqs3bYBmA==",
+        "requested": "[9.0.8, )",
+        "resolved": "9.0.8",
+        "contentHash": "wzA4Lukgc0avl5UMnnJFHMdG1Pn5FUnq+fjDgdUqHgzv3z1+bs4wvuFRxet0atl4N6kfrUM/FhmkyUb4cy0g8g==",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "9.0.7",
+          "Microsoft.Data.Sqlite.Core": "9.0.8",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
           "SQLitePCLRaw.core": "2.1.10"
         }
       },
       "Microsoft.Extensions.Configuration": {
         "type": "CentralTransitive",
-        "requested": "[9.0.7, )",
+        "requested": "[9.0.8, )",
         "resolved": "9.0.7",
         "contentHash": "oxGR51+w5cXm5B9gU6XwpAB2sTiyPSmZm7hjvv0rzRnmL5o/KZzE103AuQj7sK26OBupjVzU/bZxDWvvU4nhEg==",
         "dependencies": {
@@ -2375,22 +2375,22 @@
       },
       "Microsoft.Extensions.Logging": {
         "type": "CentralTransitive",
-        "requested": "[9.0.7, )",
-        "resolved": "9.0.7",
-        "contentHash": "fdIeQpXYV8yxSWG03cCbU2Otdrq4NWuhnQLXokWLv3L9YcK055E7u8WFJvP+uuP4CFeCEoqZQL4yPcjuXhCZrg==",
+        "requested": "[9.0.8, )",
+        "resolved": "9.0.8",
+        "contentHash": "Z/7ze+0iheT7FJeZPqJKARYvyC2bmwu3whbm/48BJjdlGVvgDguoCqJIkI/67NkroTYobd5geai1WheNQvWrgA==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.7",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
-          "Microsoft.Extensions.Options": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8"
         }
       },
       "Microsoft.Extensions.Logging.Abstractions": {
         "type": "CentralTransitive",
-        "requested": "[9.0.7, )",
-        "resolved": "9.0.7",
-        "contentHash": "sMM6NEAdUTE/elJ2wqjOi0iBWqZmSyaTByLF9e8XHv6DRJFFnOe0N+s8Uc6C91E4SboQCfLswaBIZ+9ZXA98AA==",
+        "requested": "[9.0.8, )",
+        "resolved": "9.0.8",
+        "contentHash": "pYnAffJL7ARD/HCnnPvnFKSIHnTSmWz84WIlT9tPeQ4lHNiu0Az7N/8itihWvcF8sT+VVD5lq8V+ckMzu4SbOw==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         }
       },
       "Serilog": {
