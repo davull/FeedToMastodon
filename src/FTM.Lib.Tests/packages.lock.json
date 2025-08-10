@@ -14,18 +14,18 @@
       },
       "NUnit.Analyzers": {
         "type": "Direct",
-        "requested": "[4.9.2, )",
-        "resolved": "4.9.2",
-        "contentHash": "4OjmtBP57N7bZc36Ej1dlvshxbkXf4VSgNMWjYjN/TqXVGtUaT/GSXa+CCqK178gbrnTKJSLrKl2AYdh1fbcAg=="
+        "requested": "[4.10.0, )",
+        "resolved": "4.10.0",
+        "contentHash": "w0DLq/bYgjUOugReSDJEOC3E9gOtVw85AJhVQoMk06+Kas2HdJMX0ojMjt+FoN8+38FIKlAppNOuHacIBkXJTQ=="
       },
       "NUnit3TestAdapter": {
         "type": "Direct",
-        "requested": "[5.0.0, )",
-        "resolved": "5.0.0",
-        "contentHash": "sy4cLoUAdE6TDM4wNX5gmNCyhMev5wUz4cA6ZRf/aON9vf9t4xTVGLj/4huhDKcS4dFfmVVcgcP70yC7WC9kKg==",
+        "requested": "[5.1.0, )",
+        "resolved": "5.1.0",
+        "contentHash": "Q5jgS+WMzXPLKPBvVjXU0R8R75nCPNZPbDAzNxrFnHU9y9K6q+9xXJzgj0HAMr2+ib+2/R1gCYeN1F27rcrgFw==",
         "dependencies": {
-          "Microsoft.Testing.Extensions.VSTestBridge": "1.5.3",
-          "Microsoft.Testing.Platform.MSBuild": "1.5.3"
+          "Microsoft.Testing.Extensions.VSTestBridge": "1.7.3",
+          "Microsoft.Testing.Platform.MSBuild": "1.7.3"
         }
       },
       "Shouldly": {
@@ -67,13 +67,14 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[1.8.18, )",
-        "resolved": "1.8.18",
-        "contentHash": "pR3/T80YEXOYo3u2yNQXxp/5uP036H1LoMgzMozlxhtuomJMg9/srcQK6aa2dKfO56PytOgiOR1hbwOg9XnehA==",
+        "requested": "[1.9.0, )",
+        "resolved": "1.9.0",
+        "contentHash": "2xeyh+q0igsdYT4M4O0/OFvKIfnVWITk8KoDCG3tZxQ7yxkDV0kkqYEsVYSVMP0SSfVJHjZde7CVPq8KsDEE5w==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.MimePart": "1.8.18",
-          "WireMock.Net.Minimal": "1.8.18"
+          "WireMock.Net.GraphQL": "1.9.0",
+          "WireMock.Net.MimePart": "1.9.0",
+          "WireMock.Net.Minimal": "1.9.0"
         }
       },
       "AnyOf": {
@@ -718,8 +719,8 @@
       },
       "Microsoft.ApplicationInsights": {
         "type": "Transitive",
-        "resolved": "2.22.0",
-        "contentHash": "3AOM9bZtku7RQwHyMEY3tQMrHIgjcfRDa6YQpd/QG2LDGvMydSlL9Di+8LLMt7J2RDdfJ7/2jdYv6yHcMJAnNw==",
+        "resolved": "2.23.0",
+        "contentHash": "nWArUZTdU7iqZLycLKWe0TDms48KKGE6pONH2terYNa8REXiqixrMOkf1sk5DHGMaUTqONU2YkS4SAXBhLStgw==",
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "5.0.0"
         }
@@ -1040,45 +1041,50 @@
       },
       "Microsoft.Testing.Extensions.Telemetry": {
         "type": "Transitive",
-        "resolved": "1.5.3",
-        "contentHash": "U9pGd5DQuX1PfkrdFI+xH34JGgQ2nes5QAwIITTk+MQfLvRITqsZjJeHTjpGWh33D/0q1l7aA8/LQHR7UuCgLQ==",
+        "resolved": "1.7.3",
+        "contentHash": "udSTexALlmp01a6a4fNzzpcUyUZOUbVZRRdHotCcnM1pCl3G1wqRWJlD9B6vDaIw29tYBPv7iA+YbVvq61RonA==",
         "dependencies": {
-          "Microsoft.ApplicationInsights": "2.22.0",
-          "Microsoft.Testing.Platform": "1.5.3"
+          "Microsoft.ApplicationInsights": "2.23.0",
+          "Microsoft.Testing.Platform": "1.7.3"
         }
       },
       "Microsoft.Testing.Extensions.TrxReport.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.3",
-        "contentHash": "h34zKNpGyni66VH738mRHeXSnf3klSShUdavUWNhSfWICUUi5aXeI0LBvoX/ad93N0+9xBDU3Fyi6WfxrwKQGw==",
+        "resolved": "1.7.3",
+        "contentHash": "dDEETHbX5JQBMIFgBPkX/FmCU4DRQSG+k58QUtz7zTdnEZDafPKH6YHSMoHY3blDiZV/vcSol35Ux3WC7wU+9Q==",
         "dependencies": {
-          "Microsoft.Testing.Platform": "1.5.3"
+          "Microsoft.Testing.Platform": "1.7.3"
         }
       },
       "Microsoft.Testing.Extensions.VSTestBridge": {
         "type": "Transitive",
-        "resolved": "1.5.3",
-        "contentHash": "cJD67YfDT98wEWyazKVD/yPVW6+H1usXeuselCnRes7JZBTIYWtrCchcOzOahnmajT79eDKqt9sta7DXwTDU4Q==",
+        "resolved": "1.7.3",
+        "contentHash": "iLD8UlqQis9eVmgKxuqEUBm1Tzmsqj6xluj8xe6/scM+PQ84eDX2oqi0rra2N0JLli5LxloTb0iWYN5y4+kn1A==",
         "dependencies": {
-          "Microsoft.ApplicationInsights": "2.22.0",
-          "Microsoft.TestPlatform.ObjectModel": "17.12.0",
-          "Microsoft.Testing.Extensions.Telemetry": "1.5.3",
-          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.5.3",
-          "Microsoft.Testing.Platform": "1.5.3"
+          "Microsoft.TestPlatform.AdapterUtilities": "17.13.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.13.0",
+          "Microsoft.Testing.Extensions.Telemetry": "1.7.3",
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.7.3",
+          "Microsoft.Testing.Platform": "1.7.3"
         }
       },
       "Microsoft.Testing.Platform": {
         "type": "Transitive",
-        "resolved": "1.5.3",
-        "contentHash": "WqJydnJ99dEKtquR9HwINz104ehWJKTXbQQrydGatlLRw14bmsx0pa8+E6KUXMYXZAimN0swWlDmcJGjjW4TIg=="
+        "resolved": "1.7.3",
+        "contentHash": "cI6u+CPxv3+07cbSwJVKOfxFrecbjfZnid1fe8EMhyPY4qmsSNnm+hN+GIy8u4JIlrADfrskDiwnScjRzVzJNw=="
       },
       "Microsoft.Testing.Platform.MSBuild": {
         "type": "Transitive",
-        "resolved": "1.5.3",
-        "contentHash": "bOtpRMSPeT5YLQo+NNY8EtdNTphAUcmALjW4ABU7P0rb6yR2XAZau3TzNieLmR3lRuwudguWzzBhgcLRXwZh0A==",
+        "resolved": "1.7.3",
+        "contentHash": "tSIKXv7tLLYDjfodqLuTigsmOVcYj0CDC1rYeac5MTgHjbYV8IfmYh4FprBt/xE1zW8phkCYP766F9ayo560jA==",
         "dependencies": {
-          "Microsoft.Testing.Platform": "1.5.3"
+          "Microsoft.Testing.Platform": "1.7.3"
         }
+      },
+      "Microsoft.TestPlatform.AdapterUtilities": {
+        "type": "Transitive",
+        "resolved": "17.13.0",
+        "contentHash": "bFZ3uAhosdXjyXKURDQy37fPosCJQwedB5DG/SzsXL1QXsrfsIYty2kQMqCRRUqm8sBZBRHWRp4BT9SmpWXcKQ=="
       },
       "Microsoft.TestPlatform.ObjectModel": {
         "type": "Transitive",
@@ -2190,31 +2196,40 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "gsM5rUChk48qVaAtQhcw/MeHiwKlybNT0LtkLB+WEbX0bC5+NaQMgea0DJhXu9CT95fWuL4Hmd9OhUMq0HTG8g==",
+        "resolved": "1.9.0",
+        "contentHash": "nQBa/SRLoex74thNSJhV7rACSdB4f3bZyBTVSTlzfy/hu6/gHwsJFrkUftWCpp+U6oOaOjZuxsHU4D9jyrP7BQ==",
         "dependencies": {
           "System.Net.Http": "4.3.4",
           "System.Security.Cryptography.X509Certificates": "4.3.0",
           "System.Text.RegularExpressions": "4.3.1"
         }
       },
+      "WireMock.Net.GraphQL": {
+        "type": "Transitive",
+        "resolved": "1.9.0",
+        "contentHash": "mNaDUMVLVuSq0VgbuBe07pkacNispQItNVx38Fc9q/QlALFG7faM3icXlwp5RVQmsJzb2J+rUFH5lF+e3rgGEw==",
+        "dependencies": {
+          "GraphQL.NewtonsoftJson": "8.2.1",
+          "System.Text.RegularExpressions": "4.3.1",
+          "WireMock.Net.Shared": "1.9.0"
+        }
+      },
       "WireMock.Net.MimePart": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "5b+Rkm3D5BlbnBF1LzAkuYcUrQ/B/ImFqtWd9afpySauX1La9gpd9YFV3iR+sxQUl8sc30C+jdwrDw+9mFkePg==",
+        "resolved": "1.9.0",
+        "contentHash": "4gg0S3rTgoR3+QRxUZz50hyIp0gNWdamCSVaptchwINn6Cl4KxAGQen/u4oRP27Uup1xgi1rWC77K2yDFXRUWw==",
         "dependencies": {
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Shared": "1.8.18"
+          "WireMock.Net.Shared": "1.9.0"
         }
       },
       "WireMock.Net.Minimal": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "YMo0yOD6jUrTWaH8vMW8NLEFGZmav3cqUA0ja4L1Mxj2CnFRRj+mfYkGhmrNxccbfGdIUbNE0ib3eVq/2OMVPQ==",
+        "resolved": "1.9.0",
+        "contentHash": "d+7qyS9imYiTr1VnnAw9M30phcRdQTZiqAolGCpSDJKBJ7XD02EajcKBUAG/fLrEVXAJHGKz0uF6LcVbm99cTA==",
         "dependencies": {
           "AnyOf": "0.4.0",
-          "GraphQL.NewtonsoftJson": "8.2.1",
           "Handlebars.Net.Helpers": "2.5.2",
           "Handlebars.Net.Helpers.Humanizer": "2.5.2",
           "Handlebars.Net.Helpers.Json": "2.5.2",
@@ -2233,15 +2248,15 @@
           "SimMetrics.Net": "1.0.5",
           "System.Text.RegularExpressions": "4.3.1",
           "TinyMapper.Signed": "4.0.0",
-          "WireMock.Net.OpenApiParser": "1.8.18",
-          "WireMock.Net.Shared": "1.8.18",
-          "WireMock.Org.Abstractions": "1.8.18"
+          "WireMock.Net.OpenApiParser": "1.9.0",
+          "WireMock.Net.Shared": "1.9.0",
+          "WireMock.Org.Abstractions": "1.9.0"
         }
       },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "+6utdbdCCDbL5xaLu5l++7FtO5qLo2kYBNsNe2WM0lHNLgQSjLZ+2aaDmxMS07qB+9WY2lm/NUArL/nPHvHllg==",
+        "resolved": "1.9.0",
+        "contentHash": "kcTrVTe29NgQfbom2/PevGcC23clTyTq4wNkwiI7i/GeYPm/5NHu9yQZ2eLBCwpeTENnTOJUTK6eTogiwEifcw==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "RamlToOpenApiConverter.SourceOnly": "0.8.0",
@@ -2250,26 +2265,26 @@
           "Stef.Validation": "0.1.1",
           "System.Text.Json": "8.0.5",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.8.18",
+          "WireMock.Net.Abstractions": "1.9.0",
           "YamlDotNet": "8.1.0"
         }
       },
       "WireMock.Net.Shared": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "k/Sqomk4nZBEv48i6Qi2FAZGuyFAW40GaEE2MgF8MEC4DJBg+rbO6ZjAPv0hqKFiyCyU6QKUMXTZkUNSNmK0Uw==",
+        "resolved": "1.9.0",
+        "contentHash": "rC7D/o+ZRhoIKX5kRuVkgZeJiMB2obsROqzjHFDvsOpI8VuREgBajj8ec9KNzRYZzEOrOz0wtWpFnSq3IaVYCQ==",
         "dependencies": {
           "AnyOf": "0.4.0",
           "Newtonsoft.Json": "13.0.3",
           "Stef.Validation": "0.1.1",
           "System.Text.RegularExpressions": "4.3.1",
-          "WireMock.Net.Abstractions": "1.8.18"
+          "WireMock.Net.Abstractions": "1.9.0"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.8.18",
-        "contentHash": "y02krQ8FKx6dmrZ9IIOJQ+FISVj4Sq/ST2G8ALXb03AvaHQgOIo2XX+02AcLrTFn1PNmN1O+mQaVxNpixy3i2g==",
+        "resolved": "1.9.0",
+        "contentHash": "DRlQCICR6GsFEx7LK09Zojsu7k3i5Id4LudNwJswkblJxQ3Zjpd1gWsFXxLNKATAyuUk/GYcfIONcJ4DJ2ONfQ==",
         "dependencies": {
           "System.Text.RegularExpressions": "4.3.1"
         }
