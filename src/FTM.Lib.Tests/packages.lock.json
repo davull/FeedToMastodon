@@ -2316,7 +2316,7 @@
         "type": "Project",
         "dependencies": {
           "Dapper": "[2.1.66, )",
-          "HtmlAgilityPack": "[1.12.3, )",
+          "HtmlAgilityPack": "[1.12.4, )",
           "Microsoft.Data.Sqlite": "[9.0.9, )",
           "Microsoft.Extensions.Http.Resilience": "[9.9.0, )",
           "Microsoft.Extensions.Logging": "[9.0.9, )",
@@ -2349,9 +2349,9 @@
       },
       "HtmlAgilityPack": {
         "type": "CentralTransitive",
-        "requested": "[1.12.3, )",
-        "resolved": "1.12.3",
-        "contentHash": "NyckYLSQBI5fB9YH5XN94EGfidD5FgaKnfmGqApKQYBaf3fFmv9KGodl5kvUZg/QLz+/M4rE7vwUig25eA8PqQ=="
+        "requested": "[1.12.4, )",
+        "resolved": "1.12.4",
+        "contentHash": "ljqvBabvFwKoLniuoQKO8b5bJfJweKLs4fUNS/V5dsvpo0A8MlJqxxn9XVmP2DaskbUXty6IYaWAi1SArGIMeQ=="
       },
       "ini-parser-netstandard": {
         "type": "CentralTransitive",
