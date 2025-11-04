@@ -983,7 +983,7 @@
           "Microsoft.Extensions.Logging": "[9.0.10, )",
           "Serilog": "[4.3.0, )",
           "Serilog.Extensions.Logging": "[9.0.2, )",
-          "Serilog.Sinks.Console": "[6.0.0, )",
+          "Serilog.Sinks.Console": "[6.1.1, )",
           "Serilog.Sinks.File": "[7.0.0, )",
           "System.Net.Http": "[4.3.4, )",
           "System.Private.Uri": "[4.3.2, )",
@@ -1080,9 +1080,9 @@
       },
       "Serilog.Sinks.Console": {
         "type": "CentralTransitive",
-        "requested": "[6.0.0, )",
-        "resolved": "6.0.0",
-        "contentHash": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
+        "requested": "[6.1.1, )",
+        "resolved": "6.1.1",
+        "contentHash": "8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
         "dependencies": {
           "Serilog": "4.0.0"
         }
