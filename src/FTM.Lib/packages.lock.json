@@ -10,12 +10,12 @@
       },
       "dbup-sqlite": {
         "type": "Direct",
-        "requested": "[6.0.1, )",
-        "resolved": "6.0.1",
-        "contentHash": "NuwhSyfAg9g/RyJ1DqV4LyE644Of8rxu1NmH+TCZXyG2illYI0d+AKsMXP1Ks28nwfhHPlqPG3ZFbpWTip8uaQ==",
+        "requested": "[6.0.4, )",
+        "resolved": "6.0.4",
+        "contentHash": "eEUr/hCvQHzvPjCSqV6Ic5cZTFiKXLse2k9e5ji8KDgIBD12BCvDdq2E6+C8GbYCZ8GEqlF7uRxVcyvYfrebQg==",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "9.0.0",
-          "dbup-core": "6.0.4"
+          "Microsoft.Data.Sqlite.Core": "9.0.10",
+          "dbup-core": "6.0.15"
         }
       },
       "HtmlAgilityPack": {
@@ -158,8 +158,8 @@
       },
       "dbup-core": {
         "type": "Transitive",
-        "resolved": "6.0.4",
-        "contentHash": "+7btP67vLsBM1VBPMH8H3RHfSy715qlMkOV3JJFzErA4Mz+b6EzDS2KNd/rQyBpSWsuJI3d58GtU0nYZxoLBqA==",
+        "resolved": "6.0.15",
+        "contentHash": "w0eaoyVitzgBiHTILEnj23smrbrxZ1nLF7K8uOyG6rvrctRtC0NTuSYHoB/3aq+B9hi9E/DiW9pOtNto5V9P3g==",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         }
