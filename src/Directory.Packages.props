@@ -13,7 +13,7 @@
   <ItemGroup>
     <PackageVersion Include="coverlet.collector" Version="6.0.4" />
     <PackageVersion Include="Dapper" Version="2.1.66" />
-    <PackageVersion Include="dbup-sqlite" Version="6.0.1" />
+    <PackageVersion Include="dbup-sqlite" Version="6.0.4" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageVersion Include="ini-parser-netstandard" Version="2.5.3" />
     <PackageVersion Include="Microsoft.Data.Sqlite" Version="9.0.10" />
