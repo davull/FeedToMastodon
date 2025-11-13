@@ -1,5 +1,5 @@
 # Use sdk image to build app
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build-env
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0 AS build-env
 ARG TARGETARCH
 WORKDIR /app
 
@@ -10,7 +10,7 @@ RUN dotnet publish ./FTM.App/FTM.App.csproj \
   -a $TARGETARCH
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/runtime:9.0 AS runtime
+FROM mcr.microsoft.com/dotnet/runtime:10.0 AS runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "FTM.App.dll"]

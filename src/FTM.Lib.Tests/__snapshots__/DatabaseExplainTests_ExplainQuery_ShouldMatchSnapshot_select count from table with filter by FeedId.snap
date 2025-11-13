@@ -3,7 +3,7 @@
     {
       "id": 3,
       "parent": 0,
-      "notused": 0,
+      "notused": 55,
       "detail": "SEARCH ProcessedPosts USING COVERING INDEX IX_FeedId_ItemId (FeedId=?)"
     }
   ],

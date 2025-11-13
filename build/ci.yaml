@@ -106,9 +106,9 @@ steps:
 
   # Use dotnet
   - task: UseDotNet@2
-    displayName: Use dotnet 9.x
+    displayName: Use dotnet 10.x
     inputs:
-      version: 9.x
+      version: 10.x
 
   # Restore dotnet tools
   - task: DotNetCoreCLI@2
