@@ -12,13 +12,13 @@
 	<atom:link href="https://www.rosehosting.com/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.rosehosting.com/blog/</link>
 	<description>Premium Linux Tutorials Since 2001</description>
-	<lastBuildDate>Thu, 10 Apr 2025 12:11:35 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 07 Nov 2025 11:00:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
 
 <image>
 	<url>https://www.rosehosting.com/blog/wp-content/uploads/2022/03/cropped-favicon-1-32x32.png</url>
@@ -28,194 +28,199 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>How to Install Java 21 on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/#respond</comments>
+		<title>How to install Cloudpanel on Ubuntu 24.04</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-cloudpanel-on-ubuntu-24-04/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-cloudpanel-on-ubuntu-24-04/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 28 May 2025 17:30:00 +0000</pubDate>
-				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[almalinux 10]]></category>
+		<pubDate>Mon, 10 Nov 2025 18:30:00 +0000</pubDate>
+				<category><![CDATA[Control Panels]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[cloudpanel]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[java 21]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50362</guid>
+		<category><![CDATA[Ubuntu 24.04]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51121</guid>
 
-					<description><![CDATA[<p>Java 21 is the Java platform&#8217;s Long-Term Support (LTS) release. As a high-level, object-oriented, class-based programming language used for developing ... </p>
-<p class="read-more-container"><a title="How to Install Java 21 on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/#more-50362" aria-label="Read more about How to Install Java 21 on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/">How to Install Java 21 on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>In this tutorial, we are going to show you how to install CloudPanel on Ubuntu 24.04 OS. CloudPanel is a ... </p>
+<p class="read-more-container"><a title="How to install Cloudpanel on Ubuntu 24.04" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-cloudpanel-on-ubuntu-24-04/#more-51121" aria-label="Read more about How to install Cloudpanel on Ubuntu 24.04">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-cloudpanel-on-ubuntu-24-04/">How to install Cloudpanel on Ubuntu 24.04</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-java-21-on-almalinux-10/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-cloudpanel-on-ubuntu-24-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>How to Install MariaDB on Debian 13</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/#respond</comments>
+		<title>How to install Vaultwarden Password Manager on Debian 13</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-debian-13/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-debian-13/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 26 May 2025 17:30:00 +0000</pubDate>
+		<pubDate>Wed, 05 Nov 2025 18:30:00 +0000</pubDate>
+				<category><![CDATA[Debian]]></category>
+		<category><![CDATA[debian 13]]></category>
+		<category><![CDATA[how to install]]></category>
+		<category><![CDATA[password manager]]></category>
+		<category><![CDATA[vaultwarden]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51081</guid>
+
+					<description><![CDATA[<p>In this blog post, we will explain how to install Vaultwarden Password Manager on Debian 13 OS. Developers implemented Vaultwarden ... </p>
+<p class="read-more-container"><a title="How to install Vaultwarden Password Manager on Debian 13" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-debian-13/#more-51081" aria-label="Read more about How to install Vaultwarden Password Manager on Debian 13">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-debian-13/">How to install Vaultwarden Password Manager on Debian 13</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-debian-13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install MongoDB on Debian 13</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-mongodb-on-debian-13/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-mongodb-on-debian-13/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Mon, 03 Nov 2025 18:30:00 +0000</pubDate>
 				<category><![CDATA[Databases]]></category>
 		<category><![CDATA[Debian]]></category>
 		<category><![CDATA[database]]></category>
 		<category><![CDATA[debian 13]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[mariadb]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50355</guid>
+		<category><![CDATA[mongodb]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51021</guid>
 
-					<description><![CDATA[<p>This tutorial will explain how to install MariaDB on Debian 13. MariaDB is an open-source RDBMS (Relational Database Management System) ... </p>
-<p class="read-more-container"><a title="How to Install MariaDB on Debian 13" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/#more-50355" aria-label="Read more about How to Install MariaDB on Debian 13">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/">How to Install MariaDB on Debian 13</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>MongoDB is a document-based database management system that uses JSON (JavaScript Object Notation) to store its data. Its primary function ... </p>
+<p class="read-more-container"><a title="How to Install MongoDB on Debian 13" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-debian-13/#more-51021" aria-label="Read more about How to Install MongoDB on Debian 13">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-debian-13/">How to Install MongoDB on Debian 13</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mariadb-on-debian-13/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mongodb-on-debian-13/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>How to Enable HTTPS Protocol on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/#respond</comments>
+		<title>How to install Joomla on Debian 13</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-joomla-on-debian-13/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-joomla-on-debian-13/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 21 May 2025 17:30:00 +0000</pubDate>
-				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[how to enable]]></category>
-		<category><![CDATA[https protocol]]></category>
-		<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50351</guid>
-
-					<description><![CDATA[<p>This blog post teaches you how to enable HTTPS protocol on AlmaLinux 10. HTTPS is hypertext transfer protocol secure and ... </p>
-<p class="read-more-container"><a title="How to Enable HTTPS Protocol on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/#more-50351" aria-label="Read more about How to Enable HTTPS Protocol on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/">How to Enable HTTPS Protocol on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-enable-https-protocol-on-almalinux-10/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Install PostgreSQL on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 19 May 2025 17:30:00 +0000</pubDate>
-				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[Databases]]></category>
-		<category><![CDATA[almalinux 10]]></category>
+		<pubDate>Wed, 29 Oct 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[Debian]]></category>
+		<category><![CDATA[debian 13]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[PostgreSQL]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50335</guid>
+		<category><![CDATA[joomla]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50985</guid>
 
-					<description><![CDATA[<p>This blog post teaches you how to install PostgreSQL on AlmaLinux 10. PostgreSQL, or Postgres, is a free and open-source ... </p>
-<p class="read-more-container"><a title="How to Install PostgreSQL on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/#more-50335" aria-label="Read more about How to Install PostgreSQL on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/">How to Install PostgreSQL on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>In the tutorial, we will explain how to install Joomla on Debian 13 OS. Joomla is a free and open-source ... </p>
+<p class="read-more-container"><a title="How to install Joomla on Debian 13" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-joomla-on-debian-13/#more-50985" aria-label="Read more about How to install Joomla on Debian 13">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-joomla-on-debian-13/">How to install Joomla on Debian 13</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-postgresql-on-almalinux-10/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-joomla-on-debian-13/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>How to Install MySQL on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/#respond</comments>
+		<title>How to Install Vaultwarden Password Manager on Ubuntu 24.04</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-ubuntu-24-04/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-ubuntu-24-04/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 14 May 2025 17:30:00 +0000</pubDate>
-				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[Databases]]></category>
-		<category><![CDATA[almalinux 10]]></category>
-		<category><![CDATA[database]]></category>
+		<pubDate>Mon, 27 Oct 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Ubuntu]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[mysql]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50318</guid>
+		<category><![CDATA[password manager]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[Ubuntu 24.04]]></category>
+		<category><![CDATA[vaultwarden]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51025</guid>
 
-					<description><![CDATA[<p>MySQL is one of the world&#8217;s most popular and widely used relational database management systems (RDBMS). Developed in 1995 by ... </p>
-<p class="read-more-container"><a title="How to Install MySQL on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/#more-50318" aria-label="Read more about How to Install MySQL on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/">How to Install MySQL on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>Vaultwarden, a password manager application, is an unofficial Bitwarden server alternative written in Rust. Vaultwarden supports connections through the Bitwarden ... </p>
+<p class="read-more-container"><a title="How to Install Vaultwarden Password Manager on Ubuntu 24.04" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-ubuntu-24-04/#more-51025" aria-label="Read more about How to Install Vaultwarden Password Manager on Ubuntu 24.04">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-ubuntu-24-04/">How to Install Vaultwarden Password Manager on Ubuntu 24.04</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mysql-on-almalinux-10/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-ubuntu-24-04/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>How to Install Odoo 18 on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/#respond</comments>
+		<title>How to Install MongoDB on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-mongodb-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-mongodb-on-almalinux-10/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 12 May 2025 17:30:00 +0000</pubDate>
-				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[CMS, CRM, ERP]]></category>
-		<category><![CDATA[almalinux 10]]></category>
-		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[odoo 18]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50311</guid>
-
-					<description><![CDATA[<p>Odoo, which was previously called OpenERP, is a comprehensive suite of open-source business applications. It is a popular open-source enterprise ... </p>
-<p class="read-more-container"><a title="How to Install Odoo 18 on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/#more-50311" aria-label="Read more about How to Install Odoo 18 on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/">How to Install Odoo 18 on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-odoo-18-on-almalinux-10/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Install MariaDB on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/#respond</comments>
-		
-		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Wed, 07 May 2025 17:30:00 +0000</pubDate>
+		<pubDate>Wed, 22 Oct 2025 17:30:00 +0000</pubDate>
 				<category><![CDATA[AlmaLinux]]></category>
 		<category><![CDATA[Databases]]></category>
 		<category><![CDATA[almalinux 10]]></category>
 		<category><![CDATA[database]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[mariadb]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50302</guid>
+		<category><![CDATA[mongodb]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51038</guid>
 
-					<description><![CDATA[<p>This tutorial will explain how to install MariaDB on AlmaLinux 10. MariaDB is an open-source relational database management system used ... </p>
-<p class="read-more-container"><a title="How to Install MariaDB on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/#more-50302" aria-label="Read more about How to Install MariaDB on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/">How to Install MariaDB on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>MongoDB is a document-based database first developed by MongoDB Inc. in 2007. It is an example of a NoSQL database, ... </p>
+<p class="read-more-container"><a title="How to Install MongoDB on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-almalinux-10/#more-51038" aria-label="Read more about How to Install MongoDB on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-mongodb-on-almalinux-10/">How to Install MongoDB on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mariadb-on-almalinux-10/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-mongodb-on-almalinux-10/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>How to Install Node.js on AlmaLinux 10</title>
-		<link>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/</link>
-					<comments>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/#respond</comments>
+		<title>How to Install Vaultwarden Password Manager on AlmaLinux 10</title>
+		<link>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-almalinux-10/</link>
+					<comments>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-almalinux-10/#respond</comments>
 		
 		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
-		<pubDate>Mon, 05 May 2025 17:30:00 +0000</pubDate>
+		<pubDate>Mon, 20 Oct 2025 17:30:00 +0000</pubDate>
 				<category><![CDATA[AlmaLinux]]></category>
-		<category><![CDATA[almalinux 10]]></category>
+		<category><![CDATA[Open-source]]></category>
+		<category><![CDATA[almalinux]]></category>
 		<category><![CDATA[how to install]]></category>
-		<category><![CDATA[node.js]]></category>
-		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=50258</guid>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[password manager]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[vaultwarden]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51040</guid>
 
-					<description><![CDATA[<p>This blog post will show you how to install Node.js on AlmaLinux 10 OS version—the latest version of AlmaLinux. NodeJS ... </p>
-<p class="read-more-container"><a title="How to Install Node.js on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/#more-50258" aria-label="Read more about How to Install Node.js on AlmaLinux 10">Read More</a></p>
-<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/">How to Install Node.js on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+					<description><![CDATA[<p>Vaultwarden is a lightweight, fast, and cost-effective password management solution. Installing a password manager on AlmaLinux 10 is straightforward. As ... </p>
+<p class="read-more-container"><a title="How to Install Vaultwarden Password Manager on AlmaLinux 10" class="read-more button" href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-almalinux-10/#more-51040" aria-label="Read more about How to Install Vaultwarden Password Manager on AlmaLinux 10">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-almalinux-10/">How to Install Vaultwarden Password Manager on AlmaLinux 10</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-node-js-on-almalinux-10/feed/</wfw:commentRss>
+					<wfw:commentRss>https://www.rosehosting.com/blog/how-to-install-vaultwarden-password-manager-on-almalinux-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>431 Error: What Is It and How to Fix It?</title>
+		<link>https://www.rosehosting.com/blog/431-error-what-is-it-and-how-to-fix-it/</link>
+					<comments>https://www.rosehosting.com/blog/431-error-what-is-it-and-how-to-fix-it/#respond</comments>
+		
+		<dc:creator><![CDATA[Jeff Wilson]]></dc:creator>
+		<pubDate>Wed, 15 Oct 2025 17:30:00 +0000</pubDate>
+				<category><![CDATA[Tutorials]]></category>
+		<category><![CDATA[431 error]]></category>
+		<category><![CDATA[how to fix]]></category>
+		<category><![CDATA[HTTP]]></category>
+		<category><![CDATA[what is]]></category>
+		<guid isPermaLink="false">https://www.rosehosting.com/blog/?p=51018</guid>
+
+					<description><![CDATA[<p>Seeing a 431 Request Header Fields Too Large error message? Wondering what it means and how to fix it? This ... </p>
+<p class="read-more-container"><a title="431 Error: What Is It and How to Fix It?" class="read-more button" href="https://www.rosehosting.com/blog/431-error-what-is-it-and-how-to-fix-it/#more-51018" aria-label="Read more about 431 Error: What Is It and How to Fix It?">Read More</a></p>
+<p>The post <a href="https://www.rosehosting.com/blog/431-error-what-is-it-and-how-to-fix-it/">431 Error: What Is It and How to Fix It?</a> appeared first on <a href="https://www.rosehosting.com/blog">RoseHosting</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://www.rosehosting.com/blog/431-error-what-is-it-and-how-to-fix-it/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

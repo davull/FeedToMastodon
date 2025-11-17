@@ -6,7 +6,47 @@
     <description>Recent content in Blog on embarc</description>
     <generator>Hugo -- gohugo.io</generator>
     
-    <lastBuildDate>Sun, 05 Jan 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://www.embarc.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.embarc.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Im Gespräch mit Sven Woltmann zu Hexagonaler Architektur</title>
+      <link>https://www.embarc.de/interview-sven-woltmann-hexagonale-architektur/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/interview-sven-woltmann-hexagonale-architektur/</guid>
+      <description>&amp;nbsp;  Geschäftslogik ins Zentrum(Stefan Zörner) &amp;ldquo;Sven, viele kennen dich von Java-Konferenzen, aber nicht alle. Wer bist du – und was machst du?&amp;rdquo;
+Sven Woltmann: Ich bin in erster Linie Java-Programmierer – seit mittlerweile 30 Jahren, seit Java 1.0. Ich habe jede Java-Version miterlebt und alle Höhen und Tiefen, wobei ich sagen muss, dass es in den letzten Jahren eigentlich nur noch Höhen gibt.
+2018 habe ich HappyCoders gegründet: Dort veröffentliche ich regelmäßig Artikel, vor allem zu neuen Java-Features, und ich biete Trainings an – aktuell etwa zur Modernisierung auf Java 25.</description>
+    </item>
+    
+    <item>
+      <title>Im Gespräch mit Fin Labusch von Kids4IT</title>
+      <link>https://www.embarc.de/interview-fin-labusch-kids4it/</link>
+      <pubDate>Mon, 27 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/interview-fin-labusch-kids4it/</guid>
+      <description>Kids4IT – spielerisch Technik entdeckenKids4IT ist eine gemeinnützige Initiative aus dem Norden Deutschland, die Kinder und Jugendliche für Technik, Informatik und Robotik begeistert. In ihren Workshops lernen Kinder ab etwa acht Jahren, dass Computer und Roboter keine Zauberei sind – sondern Werkzeuge, mit denen man selbst kreativ werden kann. Sie bauen und programmieren eigene LEGO-Roboter, entwickeln Spiele mit der grafischen Programmiersprache Scratch oder komponieren elektronische Beats mit Sonic Pi.</description>
+    </item>
+    
+    <item>
+      <title>Im Gespräch mit Cosima Laube zu Softe Skills für harte Probleme</title>
+      <link>https://www.embarc.de/interview-cosima-laube-softe-skills/</link>
+      <pubDate>Thu, 23 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/interview-cosima-laube-softe-skills/</guid>
+      <description>&amp;nbsp;  Kim: Hallo Cosima, schön, dass du dir Zeit nimmst, uns einen kleinen Einblick in deinen Vortrag beim Architektur-Punsch zu geben. Du bist gleich eine der ersten Speakerinnen um 13 Uhr. Wer bist du, und was verbindet dich mit embarc?
+Cosima: Ich bin Cosima Laube. Früher war ich Softwareentwicklerin und Architektin und habe damals ein Seminar bei Stefan Zörner besucht. Seitdem bin ich mit embarc in Kontakt geblieben.</description>
+    </item>
+    
+    <item>
+      <title>Value Objects - das nächste große Ding in Java</title>
+      <link>https://www.embarc.de/java-value-objects/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/java-value-objects/</guid>
+      <description>Vortragsfolien zum Thema Download der Folien vom JUG Saxony Day am 26.09.2026
+Was sind Value ObjectsEiner der großen Pluspunkte von Java war und ist das statische, starke Typsystem. Es hilft, viele Fehler bereits zur Compilezeit zu entdecken und macht die Entwicklung robuster sowie effizienter. Allerdings integrieren sich die vor etwa 30 Jahren aus Performancegründen eingeführten primitiven Datentypen nicht gut mit modernen Ansätze wie Generics, Stream API oder Pattern Matching. Value Objects versprechen Abhilfe und werden die Vorteile beider Welten kombinieren.</description>
+    </item>
+    
     <item>
       <title>Markdown oder AsciiDoc: Die Gretchenfrage für Docs-as-Code</title>
       <link>https://www.embarc.de/markdown-vs-asciidoc/</link>
@@ -22,7 +62,7 @@
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/interview-anja-kammer-datensicherheit/</guid>
-      <description>&amp;nbsp;  (Stefan Zörner) &amp;ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&amp;quot;
+      <description>&amp;nbsp;  (Stefan Zörner) &amp;ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&amp;rdquo;
 Anja Kammer: Ich bin Senior Consultant bei INNOQ. Während meiner täglichen Projektarbeit arbeite ich trotzdem Hands-on am Code und auch an Infrastrukturarchitektur und Softwarearchitektur, meistens in der Cloud. Aber ich bin auch beratend tätig. Ich unterstütze Unternehmen, die in die Cloud wollen oder bestimmte Fallstricke vorhersehen möchten.
 Und ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektur-Themen.</description>
     </item>
@@ -33,7 +73,7 @@ Und ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektu
       <pubDate>Mon, 18 Nov 2024 10:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/interview-matthias-naab-plattformen/</guid>
-      <description>&amp;nbsp;  Falk: &amp;ldquo;Hallo Matthias, schön dass wir uns treffen. Stell Dich bitte kurz vor.&amp;quot;
+      <description>&amp;nbsp;  Falk: &amp;ldquo;Hallo Matthias, schön dass wir uns treffen. Stell Dich bitte kurz vor.&amp;rdquo;
 Matthias: Ich bin Matthias, einer der drei Gründer von Full Flamingo, einer kleinen Beratungsfirma. Wir konzentrieren uns auf Themen wie Digital Design, Softwarearchitektur und Big Picture Engineering. Unser Schwerpunkt liegt dabei darauf, das große Ganze von Softwaresystemen in Unternehmen zu betrachten und zu gestalten.
 Plattformen sind eines der Themen, mit denen ich mich intensiv beschäftige.</description>
     </item>
@@ -136,7 +176,7 @@ arc42 – Dokumentationsvorlage der HerzenEinblicke in Entwicklungsvorhaben und 
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/interview-sven-grasser-plattformen/</guid>
-      <description>&amp;nbsp;  (Stefan Zörner) &amp;ldquo;Hallo Sven! Schön, dass Du Zeit hast! Magst Du ein bisschen was zu Dir erzählen?&amp;quot;
+      <description>&amp;nbsp;  (Stefan Zörner) &amp;ldquo;Hallo Sven! Schön, dass Du Zeit hast! Magst Du ein bisschen was zu Dir erzählen?&amp;rdquo;
 Sven Grasser: Gern. Ich bin Sven und arbeite als Senior Softwarearchitekt bei der DATEV in Nürnberg. Bei DATEV bin ich schon seit über 27 Jahren beschäftigt und habe dort zu Beginn Datenverarbeitungskaufmann gelernt, mit so Sachen wie C++, COBOL und Assembler auf dem Mainframe &amp;hellip;
 (StefanZ) &amp;ldquo;Wow! Und was machst Du bei der DATEV jetzt?</description>
     </item>
@@ -353,7 +393,7 @@ Die Landscape der Cloud Native Computing Foundation, die verschiedene Produkte u
       <pubDate>Fri, 02 Dec 2022 06:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/interview-larysa-visengeriyeva-datamesh/</guid>
-      <description>&amp;nbsp;  (StefanZ) &amp;ldquo;Hallo Larysa, schön dass Du Zeit für ein Gespräch gefunden hast. Magst Du in zwei, drei Sätzen erzählen, wer Du bist und was Du so machst?&amp;quot;
+      <description>&amp;nbsp;  (StefanZ) &amp;ldquo;Hallo Larysa, schön dass Du Zeit für ein Gespräch gefunden hast. Magst Du in zwei, drei Sätzen erzählen, wer Du bist und was Du so machst?&amp;rdquo;
 Larysa: Gern. Ich bin Larysa und arbeite als Senior Consultant bei innoQ. Ich habe meine Schwerpunkte in den Bereichen Machine Learning, Betrieb von Machine Learning und auch in Datenarchitekturen, insbesondere Data Mesh. Da ist dann Domain Driven Design auch nicht so weit.</description>
     </item>
     
@@ -392,7 +432,7 @@ Allerdings stellt die Advanced-Prüfung sowohl inhaltlich als auch zeitlich eine
       <pubDate>Wed, 26 Oct 2022 03:45:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/fragen-an-peter-gafert/</guid>
-      <description>(Alex) &amp;ldquo;Hallo Peter. Ich freue mich, dass wir heute über deinen Vortrag am Architektur-Punsch quatschen. Vielleicht magst du dich mal kurz vorstellen.&amp;quot;
+      <description>(Alex) &amp;ldquo;Hallo Peter. Ich freue mich, dass wir heute über deinen Vortrag am Architektur-Punsch quatschen. Vielleicht magst du dich mal kurz vorstellen.&amp;rdquo;
 Peter: &amp;ldquo;Ich bin in Peter Gafert und arbeite seit mittlerweile elf Jahren als Principal Consultant bei TNG Technology Consulting in München und habe über die Zeit viele verschiedene Software-Projekte begleiten dürfen - und auch sehen dürfen, wie sich solche Projekte über die Zeit entwickeln und was es für Herausforderungen gibt.</description>
     </item>
     
@@ -403,7 +443,7 @@ Peter: &amp;ldquo;Ich bin in Peter Gafert und arbeite seit mittlerweile elf Jahr
       
       <guid>https://www.embarc.de/fragen-an-tobias-ahlers/</guid>
       <description>Tobias wird beim Architektur-Punsch am 15.12.2022 mit seinem Vortrag &amp;lsquo;Build Your Bild – eine &amp;ldquo;Diagrams as Code&amp;rdquo;-Fotosafari&amp;rsquo; dabei sein. Ich habe ihn im September beim Java Forum Nord in Hannover getoffen. Im folgenden Gespräch gibt er uns einige Einblicke in diese Thematik.
-(Falk) &amp;ldquo;Hallo Tobias, schön dass Du im Dezember dabei sein wirst. Stell Dich bitte kurz vor.&amp;quot;
+(Falk) &amp;ldquo;Hallo Tobias, schön dass Du im Dezember dabei sein wirst. Stell Dich bitte kurz vor.&amp;rdquo;
 Tobias: &amp;ldquo;Ich arbeite als Senior Developer bei der smartsteuer GmbH und bin vor allem im Bereich der Java-Entwicklung und der technischen Kommunikation aktiv.</description>
     </item>
     
@@ -444,10 +484,10 @@ Tobias: &amp;ldquo;Ich arbeite als Senior Developer bei der smartsteuer GmbH und
     
     <item>
       <title>Eine Einführung in docToolchain</title>
-      <link>https://www.embarc.de/doctoolchain/</link>
+      <link>https://www.embarc.de/docToolchain/</link>
       <pubDate>Thu, 01 Sep 2022 08:00:00 +0000</pubDate>
       
-      <guid>https://www.embarc.de/doctoolchain/</guid>
+      <guid>https://www.embarc.de/docToolchain/</guid>
       <description>Werkzeug für Docs-as-CodeDie Dokumentation Eurer Softwarearchitektur ist wichtig, wird aber mitunter vernachlässigt. Hier setzt &amp;ldquo;Documentation as Code&amp;rdquo; an - Entwickler bzw. mit-codende Architekten sollen (wieder) mehr Freude an dieser Tätigkeit haben und sie als weniger lästig ansehen. Eine aktuelle und damit bessere Dokumentation sind erklärtes Ziel. Bei diesem Ansatz wird Dokumenation wie Sourcecode behandelt:
  Erstellung der Inhalte in leichtgewichtigen Textformaten Ablage und Versionierung in Repos (Git, &amp;hellip;) nahe beim Quellcode Einsatz leichtgewichtiger Tools ohne Kontextwechsel Integration in die tagtäglich verwendeten Entwicklerwerkzeuge Einfache Automatisierung der Erstellung der Dokumentationsartefakte Inhalte aus vorhandenen Modellen über Generatoransätze integrieren kollaboratives Bearbeiten und Einbindung in Review-Prozesse  Um all diese Punkte umzusetzen, gibt es bereits verschiedene Tools sowie Erweiterungen in bestehende Buildmanagement-Werkzeuge.</description>
     </item>
@@ -508,7 +548,7 @@ Häufig stellt sich dann die Frage, was überhaupt und wie viel davon dokumentie
       <guid>https://www.embarc.de/was-geht-ab-in-meinem-cluster-fragen-an-matthias-haeussler/</guid>
       <description>Am 13.12.2021 findet wieder unser Architektur-Punsch statt. Mit dabei sein wird Matthias Haeussler. Wir haben über seinen Vortrag gesprochen und auch allgemein etwas über den Ist-Zustand und die Zukunft von Kubernetes philosophiert. Neben dem Videomitschnitt findet ihr nachfolgend eine Zusammenfassung der wichtigsten Aussagen.
  
-(Falk) &amp;ldquo;Hallo Matthias, stell Dich bitte kurz vor.&amp;quot;
+(Falk) &amp;ldquo;Hallo Matthias, stell Dich bitte kurz vor.&amp;rdquo;
 Matthias: &amp;ldquo;Ich bin seit 5 Jahren Cloud Native Consultant bei der Firma Novatec und begleite Kunden auf dem Weg zur modernen Softwareentwicklung mit dem Schwerpunkt: Einsatz von Cloud-Technologien und -Plattformen.</description>
     </item>
     
@@ -539,7 +579,7 @@ Sein bedeutendstes Werk, &amp;ldquo;Das Leben des Menschen&amp;rdquo; erschien 1
       
       <guid>https://www.embarc.de/softwaredokumentation-liebe-auf-den-zweiten-blick-fragen-an-stephan-pirnbaum/</guid>
       <description>Stephan Pirnbaum wird in Kürze bei unserem Architektur-Punsch am 13.12.2021 dabei sein und ich habe mit ihm über seinen Vortrag &amp;ldquo;Softwaredokumentation - Liebe auf den zweiten Blick&amp;rdquo; gesprochen. Im Folgenden erwartet Euch ein Videomitschnitt zu unserem Austausch. Alternativ könnt Ihr die wichtigsten Aussagen auch direkt in diesem Blog nachlesen.
- (Falk) &amp;ldquo;Hallo Stephan, stell Dich bitte kurz vor.&amp;quot;
+ (Falk) &amp;ldquo;Hallo Stephan, stell Dich bitte kurz vor.&amp;rdquo;
 Stephan: &amp;ldquo;Ich bin Consultant bei der BUSCHMAIS GbR, das ist ein Beratungsunternehmen aus Dresden.</description>
     </item>
     
@@ -549,11 +589,11 @@ Stephan: &amp;ldquo;Ich bin Consultant bei der BUSCHMAIS GbR, das ist ein Beratu
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/deutsch-techies-fragen-an-melanie-andrisek/</guid>
-      <description>(StefanZ) &amp;ldquo;Melanie, was machst Du so?&amp;quot;
+      <description>(StefanZ) &amp;ldquo;Melanie, was machst Du so?&amp;rdquo;
 Melanie: &amp;ldquo;Ich mache Bücher und Konferenzen beim dpunkt.verlag rund um IT. Gelernt habe ich Journalistin. Ganz genau bin ich eine Diplom-Journalistin (FH)&amp;rdquo;
-&amp;ldquo;Warum ist Deutsch wichtig für Techies?&amp;quot;
+&amp;ldquo;Warum ist Deutsch wichtig für Techies?&amp;rdquo;
 Melanie: “Weil Kommunikation wichtig ist. Und in vielen Unternehmen kommunizieren die Leute eben auf Deutsch. Dementsprechend wichtig ist es, sich klar, präzise und verständlich auszudrücken.”
-&amp;ldquo;An was für Stellen ist das interessant?&amp;quot;
+&amp;ldquo;An was für Stellen ist das interessant?&amp;rdquo;
 Melanie: “Die Frage ist eher: Wo nicht?</description>
     </item>
     
@@ -642,7 +682,7 @@ Der längste Tag des JahresAm längsten Tag des Jahres, im Jahr 2021 dem 21. Jun
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/eventual-consistency-fragen-an-susanne-braun/</guid>
-      <description>(StefanZ) &amp;ldquo;Susanne, was machst Du so?&amp;quot;
+      <description>(StefanZ) &amp;ldquo;Susanne, was machst Du so?&amp;rdquo;
 Susanne: &amp;ldquo;Ich bin aktuell am Fraunhofer IESE als &amp;lsquo;Expert Data-Intensive Systems Design&amp;rsquo; unterwegs. In diesem Umfeld forsche ich im Rahmen meiner PhD, verschiedener Forschungsprojekte, und betreue außerdem auch noch Kundenprojekte, die in diesem Themenkomplex angesiedelt sind. Im Moment ist bei mir der Forschungsanteil etwas höher, es gab aber auch schon Phasen, wo es umgekehrt war.
 Bevor ich bei der Fraunhofer Gesellschaft eingestiegen bin, war ich einige Jahre als Software Engineer und Managing Consultant bei Capgemini sd&amp;amp;m und Accso tätig.</description>
     </item>
@@ -683,7 +723,7 @@ Im April 2020 veröffentlichte der Chaos Computer Club (kurz CCC) seine Prüfste
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.embarc.de/architektur-ohne-tellerrand-saa2021/</guid>
-      <description>SAA 2021 - Call for Papers Die Software Architecture Alliance, kurz SAA, will eine moderne Konferenz für Software-Architektur sein. Sie findet von 06. - 07. Oktober 2021 online statt und stellt Praxisorientierung und Austausch in den Vordergrund. Ich gestalte diese Konferenz mit und gebe in diesem Blogpost einen kleinen Einblick in die Planung des Events. Anlass ist der Call for Papers, der diese Woche offiziell endet.
+      <description>SAA 2021 - Call for Papers  Die Software Architecture Alliance, kurz SAA, will eine moderne Konferenz für Software-Architektur sein. Sie findet von 06. - 07. Oktober 2021 online statt und stellt Praxisorientierung und Austausch in den Vordergrund. Ich gestalte diese Konferenz mit und gebe in diesem Blogpost einen kleinen Einblick in die Planung des Events. Anlass ist der Call for Papers, der diese Woche offiziell endet.
    Die inhaltliche IdeeSoftwarearchitektur ist ein spannendes Thema und sollte nicht isoliert einer Rolle zugeordnet werden, nicht als exakte Wissenschaft betrachtet werden, und auch nicht als theoretische, abstrakte Angelegenheit abgetan werden.</description>
     </item>
     
@@ -860,10 +900,10 @@ Die JobsucheAls ich Anfang des Jahres auf der Suche nach einer neuen Stelle die 
     
     <item>
       <title>Pragmatische Fitness Functions (Basta!)</title>
-      <link>https://www.embarc.de/pragmatische-fitness-functions/</link>
+      <link>https://www.embarc.de/pragmatische-Fitness-Functions/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.embarc.de/pragmatische-fitness-functions/</guid>
+      <guid>https://www.embarc.de/pragmatische-Fitness-Functions/</guid>
       <description>Die Adventszeit ist auch die Zeit, in der man vielleicht zurückschaut auf Vergangenes.. auf Dinge die helfen, Ideen für Zukunft zu bekommen.
 Daher verbirgt sicher hinter dem &amp;ldquo;Türchen #8&amp;rdquo; der Rückblick auf meinen Talk &amp;ldquo;Evolutionäre Architekturen und Fitness Functions - ein pragmatischer Zugang&amp;rdquo; von der Basta! Konferenz im letzten Jahr in Mainz. Mit der Aufgabe für den geneigten Leser, ähm Video-Schauer, vielleicht eine Idee daraus für den eigenen Bereich aufzuschnappen.</description>
     </item>
@@ -880,10 +920,10 @@ Daher verbirgt sicher hinter dem &amp;ldquo;Türchen #8&amp;rdquo; der Rückblic
     
     <item>
       <title>Nikolaus, Stiefel raus!</title>
-      <link>https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/</link>
+      <link>https://www.embarc.de/Mitarbeiterbeteiligung-Fragebogen/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/</guid>
+      <guid>https://www.embarc.de/Mitarbeiterbeteiligung-Fragebogen/</guid>
       <description>Ob nun am 6.12. der Krampus oder der Nikolaus zu Euch kommt, ist für unser Geschenk an Euch unerheblich! Heute gibt es den Fragebogen zur Ableitung Eurer Mitarbeiterbeteiligung von unserem Kooperationspartner Konrad Bechler.
  &amp;nbsp;  Mitarbeiter beteiligen? Und wie!Als ich im August 2019 zu embarc kam, diskutierte ich mit meinen Kollegen die Frage: wie können wir als embarc in einer GmbH ein Beteiligungsmodell kreieren, das abbildet, wie wir wirklich arbeiten und welches gleichzeitig in Österreich als auch in Deutschland funktioniert, da wir in beiden Ländern Mitarbeiter haben?</description>
     </item>
@@ -1510,8 +1550,7 @@ In Anlehnung an diese schöne Tradition (der bisher letzte Bravo Starschnitt ers
       <pubDate>Sat, 01 Aug 2009 15:25:13 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-11-tartan-architektur-muster-dokumentieren/</guid>
-      <description>Was macht ein Schotte mit einer Kerze vor dem Spiegel? Er feiert den 2. Advent! Zu den Dingen, die jeder sofort mit Schottland in Verbindung bringt, gehören neben der angeblichen Sparsamkeit natürlich die bunt gewebten Karos [1]. Fraser, MacLeod, Campbell &amp;hellip; – Jeder Clan hat seine eigenen Farben; Familien- oder Regimentszugehörigkeit wird durch das Tragen des gleichen Tartans signalisiert. Wer das Muster kennt, sieht sofort: Das ist ein MacDonald!
-&amp;nbsp;  Auch in der Softwareentwicklung sind Muster (neudeutsch Pattern) sehr verbreitet; wir finden sie auf vielen Ebenen.</description>
+      <description>Was macht ein Schotte mit einer Kerze vor dem Spiegel? Er feiert den 2. Advent! Zu den Dingen, die jeder sofort mit Schottland in Verbindung bringt, gehören neben der angeblichen Sparsamkeit natürlich die bunt gewebten Karos [1]. Fraser, MacLeod, Campbell ... – Jeder Clan hat seine eigenen Farben; Familien- oder Regimentszugehörigkeit wird durch das Tragen des gleichen Tartans signalisiert. Wer das Muster kennt, sieht sofort: Das ist ein MacDonald! &amp;nbsp;  Auch in der Softwareentwicklung sind Muster (neudeutsch Pattern) sehr verbreitet; wir finden sie auf vielen Ebenen.</description>
     </item>
     
     <item>
@@ -1538,8 +1577,7 @@ In Anlehnung an diese schöne Tradition (der bisher letzte Bravo Starschnitt ers
       <pubDate>Fri, 01 May 2009 14:11:35 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-8-fuer-die-ewigkeit-die-tonne-oder-etwas-dazwischen/</guid>
-      <description>Mein Vater hat unlängst die ursprünglich auf Zelluloid gebannten Kindheitserinnerungen seiner Sprösslinge („Stefan lernt laufen“ etc.) auf DVD gesichert. Vor ein paar Jahren hatte er bereits die original Super 8-Stummfilme mit einer Videokamera von einer Leinwand abgefilmt. Die VHS-Bänder dienten nun als Quelle für die DVD. Technologie veraltet; wer Dokumentiertes dauerhaft bewahren will, muss sich damit auseinander setzen, dass auch zukünftige Interessierte die Sachen verwenden können.
-&amp;nbsp;  Drohen Ihrer Architekturdokumentation ebenfalls technische Umwälzungen?</description>
+      <description>Mein Vater hat unlängst die ursprünglich auf Zelluloid gebannten Kindheitserinnerungen seiner Sprösslinge („Stefan lernt laufen“ etc.) auf DVD gesichert. Vor ein paar Jahren hatte er bereits die original Super 8-Stummfilme mit einer Videokamera von einer Leinwand abgefilmt. Die VHS-Bänder dienten nun als Quelle für die DVD. Technologie veraltet; wer Dokumentiertes dauerhaft bewahren will, muss sich damit auseinander setzen, dass auch zukünftige Interessierte die Sachen verwenden können. &amp;nbsp;  Drohen Ihrer Architekturdokumentation ebenfalls technische Umwälzungen?</description>
     </item>
     
     <item>
@@ -1548,8 +1586,7 @@ In Anlehnung an diese schöne Tradition (der bisher letzte Bravo Starschnitt ers
       <pubDate>Wed, 01 Apr 2009 09:05:47 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-7-historisch-gewachsen-entscheidungen-festhalten/</guid>
-      <description>1815 – Europa in Aufregung. Napoleon erlebt bei Waterloo ebendieses – er verliert seine letzte Schlacht. Mittlerweile haben Historiker reichlich Papier veröffentlicht, um die Gefechtsgeschehnisse zu dokumentieren und zu bewerten. Sie sind sich nicht in allen Punkten einig.
-Die Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle überliefert, nicht immer ist aber klar, welche Alternativen er zuvor gegeneinander abgewogen hat, und warum er sich für eine bestimmte Option entschied.</description>
+      <description>1815 – Europa in Aufregung. Napoleon erlebt bei Waterloo ebendieses – er verliert seine letzte Schlacht. Mittlerweile haben Historiker reichlich Papier veröffentlicht, um die Gefechtsgeschehnisse zu dokumentieren und zu bewerten. Sie sind sich nicht in allen Punkten einig. Die Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle überliefert, nicht immer ist aber klar, welche Alternativen er zuvor gegeneinander abgewogen hat, und warum er sich für eine bestimmte Option entschied.</description>
     </item>
     
     <item>
@@ -1558,7 +1595,7 @@ Die Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle ü
       <pubDate>Sun, 01 Mar 2009 08:46:49 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-6-von-software-messies-und-jar-file-schlampen/</guid>
-      <description>Manche Menschen können sich von nichts trennen. Sie müssen alles aufheben, es könnte ja noch gebraucht werden. Am Ende haben sie keinen Überblick mehr über die gehorteten Dinge und verlieren sich in ihnen. Die Fachwelt spricht von einer Desorganisationsproblematik, in schweren Fällen vom Vermüllungssyndrom. Umgangssprachlich bezeichnen wir solche Leute als „Messies“; sie haben „schwerwiegende Defizite in der Fähigkeit, die eigene Wohnung ordentlich zu halten und die Alltagsaufgaben zu organisieren“ [1].</description>
+      <description>Manche Menschen können sich von nichts trennen. Sie müssen alles aufheben, es könnte ja noch gebraucht werden. Am Ende haben sie keinen Überblick mehr über die gehorteten Dinge und verlieren sich in ihnen. Die Fachwelt spricht von einer Desorganisationsproblematik, in schweren Fällen vom Vermüllungssyndrom. Umgangssprachlich bezeichnen wir solche Leute als „Messies“; sie haben „schwerwiegende Defizite in der Fähigkeit, die eigene Wohnung ordentlich zu halten und die Alltagsaufgaben zu organisieren“ [1]. &amp;nbsp;  Zu den Alltagsaufgaben eines IT-Architekten gehört es, Abhängigkeiten seines Softwaresystems bewusst zu planen.</description>
     </item>
     
     <item>
@@ -1585,8 +1622,7 @@ Die Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle ü
       <pubDate>Mon, 01 Dec 2008 20:35:40 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-3-hat-mozart-modelliert/</guid>
-      <description>In der Musik werden Melodien als Noten in einem speziellen Liniensystem visualisiert. Es erlaubt die Angabe von Tonhöhen, -längen und vielem mehr und ist eine seit Jahrhunderten etablierte, grafische, domänenspezifischen Sprache. Komplexe musikalische Werke wie eine Sinfonie werden allerdings nicht einfach mit einer Folge von Noten beschrieben.
-Die in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen, finden auch hier Verwendung: Abstraktion, Zerlegung, Hierarchie. Beispiele hierfür sind kompakte Beschreibungen, die sich zur schnellen Einordnung des Werkes eignen (Abstraktion, z.</description>
+      <description>In der Musik werden Melodien als Noten in einem speziellen Liniensystem visualisiert. Es erlaubt die Angabe von Tonhöhen, -längen und vielem mehr und ist eine seit Jahrhunderten etablierte, grafische, domänenspezifischen Sprache. Komplexe musikalische Werke wie eine Sinfonie werden allerdings nicht einfach mit einer Folge von Noten beschrieben. Die in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen, finden auch hier Verwendung: Abstraktion, Zerlegung, Hierarchie. Beispiele hierfür sind kompakte Beschreibungen, die sich zur schnellen Einordnung des Werkes eignen (Abstraktion, z.</description>
     </item>
     
     <item>
@@ -1595,8 +1631,7 @@ Die in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen,
       <pubDate>Sat, 01 Nov 2008 19:49:15 +0000</pubDate>
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-2-systemkontext/</guid>
-      <description>&amp;nbsp;  Waren Sie schon mal im Krimitheater? Samstagabend, 20:00 Uhr: Auf der Bühne liegt eine Leiche, ein Mord ist geschehen. Der Detektiv beginnt seine Arbeit und untersucht auf der Jagd nach Verdächtigen als erstes das Umfeld des Opfers, den Kontext. Wer hatte ein Motiv? Mit wem hat das Opfer zuletzt gesprochen?
-&amp;nbsp;  Ihrer Softwarelösung wünsche ich natürlich nicht den baldigen IT-Tod – eine Umfeldanalyse ist aber auch hier von zentraler Bedeutung.</description>
+      <description>&amp;nbsp;  Waren Sie schon mal im Krimitheater? Samstagabend, 20:00 Uhr: Auf der Bühne liegt eine Leiche, ein Mord ist geschehen. Der Detektiv beginnt seine Arbeit und untersucht auf der Jagd nach Verdächtigen als erstes das Umfeld des Opfers, den Kontext. Wer hatte ein Motiv? Mit wem hat das Opfer zuletzt gesprochen? &amp;nbsp;  Ihrer Softwarelösung wünsche ich natürlich nicht den baldigen IT-Tod – eine Umfeldanalyse ist aber auch hier von zentraler Bedeutung.</description>
     </item>
     
     <item>
@@ -1606,6 +1641,15 @@ Die in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen,
       
       <guid>https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-1-voll-unagil/</guid>
       <description>Es ist Montag morgen, und ein neuer Mitarbeiter verstärkt das Projekt. Der Neue hat viele Fragen: „Was leistet das System überhaupt? Wie checke ich die Sourcen aus, und wie baue ich die Software? Was brauche ich für Tools? Aus welchen Bestandteilen besteht die Software? Wie arbeiten diese zusammen? Wenn ich neue Funktionalität hinzufügen soll – wie stelle ich das an? Hier ist doch schon was Ähnliches, kann ich das wiederverwenden? Wieso habt Ihr das denn so gemacht?</description>
+    </item>
+    
+    <item>
+      <title>Einführung in Groovy</title>
+      <link>https://www.embarc.de/groovy-einfuehrung/</link>
+      <pubDate>Thu, 08 Nov 2007 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.embarc.de/groovy-einfuehrung/</guid>
+      <description>Warum Groovy?Dynamische Skriptsprachen gibt es viele. Es existieren allein über 200 für die Java Virtual Machine. Im Jahre 2003 hat sich auch Groovy aufgemacht, einen Platz in diesem hart umkämpften Markt zu erobern. Was ist das Besondere an dieser noch recht jungen dynamic language und warum sollte man sich damit beschäftigen? Zwei Merkmale sind hier auf jeden Fall zu nennen und insbesondere die Kombination aus beiden macht Groovy im Moment so einzigartig:</description>
     </item>
     
   </channel>

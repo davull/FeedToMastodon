@@ -4,11 +4,67 @@
 	<title>Howtoforge Linux Howtos und Tutorials</title>
 	<link>https://www.howtoforge.com</link>
 	<description>Howtoforge Tutorials</description>
-	<pubDate>Thu, 29 May 2025 16:19:52 +0000</pubDate>
+	<pubDate>Mon, 03 Nov 2025 21:28:15 +0000</pubDate>
 	<webMaster>webmaster@howtoforge.com (Howtoforge Webmaster)</webMaster>
 	<atom:link href="https://www.howtoforge.com/feed.rss" rel="self" type="application/rss+xml" />
 	<generator>howtoforge</generator>
 	<ttl>60</ttl>
+	<item>
+		<title>How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Debian 11 to 12</title>
+		<link>https://www.howtoforge.com/ispconfig-php-debian/</link>
+		<category>debian</category>
+		<description><![CDATA[In this guide we will take you through installing additional PHP versions (5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.1, 8.2, 8.3, and 8.4) on a Debian server with ISPConfig.]]></description>
+		<pubDate>Mon, 03 Nov 2025 21:28:15 +0000</pubDate>
+		<guid>https://www.howtoforge.com/ispconfig-php-debian/</guid>
+	</item>
+	<item>
+		<title>How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Ubuntu 22.04 - 24.04</title>
+		<link>https://www.howtoforge.com/ispconfig-php-ubuntu/</link>
+		<category>debian</category>
+		<description><![CDATA[When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig.]]></description>
+		<pubDate>Mon, 03 Nov 2025 21:26:45 +0000</pubDate>
+		<guid>https://www.howtoforge.com/ispconfig-php-ubuntu/</guid>
+	</item>
+	<item>
+		<title>Update the ISPConfig Perfect Server from Debian 11 to Debian 12</title>
+		<link>https://www.howtoforge.com/update-the-ispconfig-perfect-server-from-debian-11-to-debian-12/</link>
+		<category>linux</category>
+		<description><![CDATA[This tutorial will take you through updating a server managed by ISPConfig from Debian 11 (bullseye) to Debian 12 (bookworm). This guide works for both single- and multiserver setups.]]></description>
+		<pubDate>Mon, 03 Nov 2025 21:24:10 +0000</pubDate>
+		<guid>https://www.howtoforge.com/update-the-ispconfig-perfect-server-from-debian-11-to-debian-12/</guid>
+	</item>
+	<item>
+		<title>How to Install CSF (Config Server Firewall) on Debian 12</title>
+		<link>https://www.howtoforge.com/how-to-install-csf-config-server-firewall-on-debian-12/</link>
+		<category>debian</category>
+		<description><![CDATA[CSF or Config Server Firewall is a Stateful Packet Inspection (SPI) firewall based on IPtables and Perl. it provides a daemon process that will monitor your services for failure authentication.]]></description>
+		<pubDate>Mon, 06 Oct 2025 10:58:33 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-csf-config-server-firewall-on-debian-12/</guid>
+	</item>
+	<item>
+		<title>How to Install Wiki.js on Debian 12</title>
+		<link>https://www.howtoforge.com/step-by-step-installing-wikijs-on-debian-12/</link>
+		<category>debian</category>
+		<description><![CDATA[Wiki.js is free and open-source wiki software based on Node.js, Git, and Markdown. In this article, we'll show you how to install Wiki.js on a Debian 12 system.]]></description>
+		<pubDate>Thu, 26 Jun 2025 20:04:24 +0000</pubDate>
+		<guid>https://www.howtoforge.com/step-by-step-installing-wikijs-on-debian-12/</guid>
+	</item>
+	<item>
+		<title>ISPConfig Perfect Multiserver setup on Ubuntu 24.04 and Debian 12</title>
+		<link>https://www.howtoforge.com/tutorial/ispconfig-multiserver-setup-debian-ubuntu/</link>
+		<category>debian</category>
+		<description><![CDATA[This tutorial will take you through installing your own ISPConfig 3 multiserver setup with dedicated servers for the panel, web, DNS, mail, and webmail using the new ISPConfig auto-installer. This tutorial is compatible with Debian 12 and Ubuntu 24.04.]]></description>
+		<pubDate>Thu, 19 Jun 2025 17:43:01 +0000</pubDate>
+		<guid>https://www.howtoforge.com/tutorial/ispconfig-multiserver-setup-debian-ubuntu/</guid>
+	</item>
+	<item>
+		<title>Securing your ISPConfig 3 managed mailserver with a valid Let's Encrypt SSL certificate</title>
+		<link>https://www.howtoforge.com/securing-your-ispconfig-3-managed-mailserver-with-a-valid-lets-encrypt-certificate/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[If you're running your own mailserver, it's best practice to connect to it securely with a SSL/TLS connection. You'll need a valid certificate for these secure connections. In this tutorial, we'll set up a Let's Encrypt certificate for our mailserver that renews automatically.]]></description>
+		<pubDate>Thu, 19 Jun 2025 17:18:54 +0000</pubDate>
+		<guid>https://www.howtoforge.com/securing-your-ispconfig-3-managed-mailserver-with-a-valid-lets-encrypt-certificate/</guid>
+	</item>
 	<item>
 		<title>How to Install OpenEMR on Ubuntu 24.04 Server</title>
 		<link>https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/</link>
@@ -32,62 +88,6 @@
 		<description><![CDATA[GlassFish is a free and open-source implementation of the Java EE Platform developed by Eclipse. In this guide, you will install GlassFish Application Server on Debian 12 in a step-by-step process. You will also configure Nginx as a reverse proxy for your GlassFish installation.]]></description>
 		<pubDate>Sat, 19 Apr 2025 09:30:14 +0000</pubDate>
 		<guid>https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/</guid>
-	</item>
-	<item>
-		<title>How to Install WildFly Application Server with Nginx Reverse Proxy on Debian 12</title>
-		<link>https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/</link>
-		<category>debian</category>
-		<description><![CDATA[WildFly formerly JBoss is a free and open-source application server that helps you build and deploy Java web applications. In this guide, you will learn how to install WildFly or JBoss application runtime on a Debian 12 server.]]></description>
-		<pubDate>Mon, 31 Mar 2025 13:46:06 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/</guid>
-	</item>
-	<item>
-		<title>How to Install Emby Media Server on Debian 12</title>
-		<link>https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/</link>
-		<category>debian</category>
-		<description><![CDATA[Emby is an open-source alternative to Plex Media Server. This guide will teach you how to install Emby Media Server on Debian 12. You will install Emby with Nginx as a reverse proxy and enable UFW. Let's get started.]]></description>
-		<pubDate>Mon, 24 Mar 2025 13:28:37 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/</guid>
-	</item>
-	<item>
-		<title>How to Install Actual Budgeting Software on Debian 12 Server</title>
-		<link>https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/</link>
-		<category>debian</category>
-		<description><![CDATA[Actual Budget is an open-source finance management software focused on privacy and built on top of &quot;Envelope Style Budgeting&quot;. In this tutorial, we'll show you how to install the Actual Budgeting System on the Debian 12 server.]]></description>
-		<pubDate>Tue, 18 Mar 2025 10:34:19 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/</guid>
-	</item>
-	<item>
-		<title>How to Install and Use Nessus Vulnerability Scanner on Ubuntu 24.04</title>
-		<link>https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/</link>
-		<category>ubuntu</category>
-		<description><![CDATA[Nessus is a network scanning tool and vulnerability scanner developed by Tenable. It is used for vulnerability assessments, penetration testing, and ethical hacking. In this guide, you'll learn how to install Nessus on Ubuntu 24.04 server.]]></description>
-		<pubDate>Fri, 14 Mar 2025 18:16:34 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/</guid>
-	</item>
-	<item>
-		<title>How to Install Apache Solr on an Ubuntu 24.04 Server</title>
-		<link>https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/</link>
-		<category>ubuntu</category>
-		<description><![CDATA[Apache Solr is an open-source search platform built on Apache Lucene, designed to create powerful application search and indexing capabilities. In this guide, you'll learn how to install Apache Solr on Ubuntu 24.04 server.]]></description>
-		<pubDate>Thu, 06 Mar 2025 20:46:15 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/</guid>
-	</item>
-	<item>
-		<title>How to Install ntopng on Debian 12</title>
-		<link>https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/</link>
-		<category>debian</category>
-		<description><![CDATA[Ntopng is an open-source network traffic monitoring tool for traffic analysis and real-time visualization. In this tutorial, you'll learn how to install the Ntopng Network Monitoring Tool on the Debian 12 server.]]></description>
-		<pubDate>Mon, 24 Feb 2025 13:44:11 +0000</pubDate>
-		<guid>https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/</guid>
-	</item>
-	<item>
-		<title>How to install PHP 5.6 and 7.0 - 8.4 with PHP-FPM and FastCGI mode for ISPConfig 3.2 with apt on Ubuntu 22.04 - 24.04</title>
-		<link>https://www.howtoforge.com/ispconfig-php-ubuntu/</link>
-		<category>debian</category>
-		<description><![CDATA[When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig.]]></description>
-		<pubDate>Wed, 19 Feb 2025 10:26:45 +0000</pubDate>
-		<guid>https://www.howtoforge.com/ispconfig-php-ubuntu/</guid>
 	</item>
 </channel>
 </rss>

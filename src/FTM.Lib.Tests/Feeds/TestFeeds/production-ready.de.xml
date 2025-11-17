@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.production-ready.de/feed/de.xml" rel="self" type="application/atom+xml" /><link href="https://www.production-ready.de/" rel="alternate" type="text/html" /><updated>2025-06-14T10:45:07+02:00</updated><id>https://www.production-ready.de/feed/de.xml</id><title type="html">Production Ready | Blog</title><subtitle>Ein persönlicher Dev-Blog</subtitle><author><name>David Ullrich</name></author><entry xml:lang="de"><title type="html">RSS Feed automatisch auf Mastodon veröffentlichen</title><link href="https://www.production-ready.de/2024/11/24/feed-to-mastodon.html" rel="alternate" type="text/html" title="RSS Feed automatisch auf Mastodon veröffentlichen" /><published>2024-11-24T18:00:00+01:00</published><updated>2024-11-24T18:00:00+01:00</updated><id>https://www.production-ready.de/2024/11/24/feed-to-mastodon</id><content type="html" xml:base="https://www.production-ready.de/2024/11/24/feed-to-mastodon.html"><![CDATA[<p>Viele Blogs und News-Webseite informieren über neue Artikel und Beiträge auch auf den vielen Social Media Plattformen wie Twitter, Facebook oder Threads. Leider ist Mastodon oft noch kein Ziel dieser Cross-Postings.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.production-ready.de/feed/de.xml" rel="self" type="application/atom+xml" /><link href="https://www.production-ready.de/" rel="alternate" type="text/html" /><updated>2025-10-25T09:56:41+02:00</updated><id>https://www.production-ready.de/feed/de.xml</id><title type="html">Production Ready | Blog</title><subtitle>Ein persönlicher Dev-Blog</subtitle><author><name>David Ullrich</name></author><entry xml:lang="de"><title type="html">Walk the Board: Effektives Arbeiten mit Task-Boards in Software-Projekten</title><link href="https://www.production-ready.de/2025/10/24/walk-the-board.html" rel="alternate" type="text/html" title="Walk the Board: Effektives Arbeiten mit Task-Boards in Software-Projekten" /><published>2025-10-24T22:15:00+02:00</published><updated>2025-10-24T22:15:00+02:00</updated><id>https://www.production-ready.de/2025/10/24/walk-the-board</id><content type="html" xml:base="https://www.production-ready.de/2025/10/24/walk-the-board.html"><![CDATA[<p>In Software-Projekten, die mit Tools wie <a href="https://www.atlassian.com/software/jira">Jira</a> oder <a href="https://azure.microsoft.com/en-us/products/devops/">Azure DevOps</a> verwaltet werden, ist es üblich, Aufgaben und User Stories auf einem <em>Board</em> zu visualisieren. Dieses Board hilft dem ganzen Team, den Stand der Arbeit zu verfolgen und eventuelle Engpässe im Workflow zu identifizieren. In täglichen Standup-Meetings wird aufgrund des Boards der Fortschritt der aktuellen Entwicklungs-Iteration besprochen.</p>
+
+<p>Wie man in einem agilen Projektumfeld mit einem solchen Task-Board arbeitet, um nicht nur <a href="https://mooncamp.com/blog/output-vs-outcome"><em>Output</em> sondern <em>Outcome</em></a> zu liefern und nicht in ein blosses Status-Reporting verfällt, zeige ich in diesem Blogbeitrag.</p>
+
+<!--more-->
+
+<p>Die meisten Software-Teams, die in Iterationen arbeiten, nutzen ein Task-Board in irgendeiner Form. Diese verfügen über mehrere Spalten, die den aktuellen Status einer Aufgabe repräsentieren. Im einfachsten Fall genügen drei Spalten <code class="language-plaintext highlighter-rouge">TODO</code>, <code class="language-plaintext highlighter-rouge">DOING</code> und <code class="language-plaintext highlighter-rouge">DONE</code>. Je nach Projekt-Setup können am Anfang noch weitere Spalten für die Design- und Refinement-Phasen stehen. Am anderen Ende können Spalten für das Testing oder die Abnahme durch den/die Product Owner oder andere Personen eingefügt werden. Zusätzlich hat man die Möglichkeit, jedem Item auf dem Board eine Person zuzuweisen, die gerade an der entsprechenden Aufgabe arbeitet.</p>
+
+<picture><source srcset="/generated/2025-10-24-walk-the-board/board-3-columns-400-07152d807.webp 400w, /generated/2025-10-24-walk-the-board/board-3-columns-600-07152d807.webp 600w, /generated/2025-10-24-walk-the-board/board-3-columns-800-07152d807.webp 800w, /generated/2025-10-24-walk-the-board/board-3-columns-1000-07152d807.webp 1000w" type="image/webp" /><source srcset="/generated/2025-10-24-walk-the-board/board-3-columns-400-ef3720b77.png 400w, /generated/2025-10-24-walk-the-board/board-3-columns-600-ef3720b77.png 600w, /generated/2025-10-24-walk-the-board/board-3-columns-800-ef3720b77.png 800w, /generated/2025-10-24-walk-the-board/board-3-columns-1000-ef3720b77.png 1000w" type="image/png" /><img src="/generated/2025-10-24-walk-the-board/board-3-columns-800-ef3720b77.png" alt="Task Board with 3 Columns" /></picture>
+
+<h2 id="shared-ownership">Shared Ownership</h2>
+
+<p>Das gesamte Team ist für die Erfüllung der Aufgaben zuständig. Daher werden User Stories (oder Bugs oder Issues) keiner einzelnen Person zugewiesen. Das Team committed sich zu Begin einer Iteration auf einen Arbeitsumfang, den es bewältigen will und kann. Sobald eine neue Aufgabe angegangen wird, wird diese auf konkrete zu erledigende Task heruntergebrochen. Auch während der Umsetzen können weitere Task hinzukommen, sobald sich herausstellt, das weitere Arbeiten notwendig sind. Diese Sub-Task werden nun von einzelnen Personen bearbeitet und diesen auch im Board zugeordnet. An einer Story können so durchaus mehrere Personen parallel arbeiten. So behält man den Überblick, welche Aufgaben wie viele Personen bindet.</p>
+
+<picture><source srcset="/generated/2025-10-24-walk-the-board/board-shared-400-1261ae3bb.webp 400w, /generated/2025-10-24-walk-the-board/board-shared-600-1261ae3bb.webp 600w, /generated/2025-10-24-walk-the-board/board-shared-800-1261ae3bb.webp 800w, /generated/2025-10-24-walk-the-board/board-shared-1000-1261ae3bb.webp 1000w" type="image/webp" /><source srcset="/generated/2025-10-24-walk-the-board/board-shared-400-e82f9f1e8.png 400w, /generated/2025-10-24-walk-the-board/board-shared-600-e82f9f1e8.png 600w, /generated/2025-10-24-walk-the-board/board-shared-800-e82f9f1e8.png 800w, /generated/2025-10-24-walk-the-board/board-shared-1000-e82f9f1e8.png 1000w" type="image/png" /><img src="/generated/2025-10-24-walk-the-board/board-shared-800-e82f9f1e8.png" alt="Shared Ownership Board" /></picture>
+
+<p>Damit ist jeder im Team für die Erfüllung der aktuell aktiven Aufgaben verantwortlich. Es gibt im gesamten Prozess keine “meine” und “deine” Stories. Ist man mit seinem aktuellen Task fertig, kann man sich einer anderen Story anschliessen. Erst, wenn kein weiteres parallels Arbeiten sinnvoll möglich ist, beginnt man mit der Umsetzung einer neuen Story.</p>
+
+<h2 id="priorisieren">Priorisieren</h2>
+
+<p>Wie entscheide ich, welchen Task ich als nächstes angehe? Durch die <em>Shared Ownership</em> für den gesamten Iterations-Umfang, habe ich keine “eigenen” Stories, die ich abzuarbeiten habe. Um nicht wahllos mit der nächsten Story zu beginnen, ist es wichtig, die aktuell auf dem Board stattfindenden Arbeiten zu priorisieren. Stories, die weiter rechts auf dem Board liegen, sind wichtiger als solche weiter links. Diese sind also immer von höherer Priorität. Befindet sich eine Story in der Spalte <code class="language-plaintext highlighter-rouge">TESTING</code>, nehme ich mir diese vor und teste sie. Anstatt einer Spalte <code class="language-plaintext highlighter-rouge">TESTING</code> kann man auch einfach einen Sub-Task aufs Board legen. Befindet sich eine Story in der Spalte <code class="language-plaintext highlighter-rouge">DOING</code>, arbeite ich an dieser Story mit. Erst wenn keine Stories mehr auf der rechten Seite des Boards übrig sind und kein paralleles Arbeiten an aktiven Stories möglich ist, wird mit der Arbeit an einer neuen Aufgabe begonnen.</p>
+
+<p>Im Kanban-Framework gibt es dafür das <a href="https://www.atlassian.com/agile/kanban/wip-limits">Work in Progress Limit</a>.</p>
+
+<p>Der Hintergrund dieses Vorgehens ist einfach: User Stories, die nicht fertig, also im Status <code class="language-plaintext highlighter-rouge">DONE</code> sind, haben für das Produkt keinen Mehrwert. Eine abgeschlossene Story ist wertvoller als fünf angefangene. Auch ein “fast fertig” ist kein “fertig”.</p>
+
+<blockquote>
+  <p>Stop Starting, Start Finishing</p>
+</blockquote>
+
+<h2 id="walk-the-board">Walk the Board</h2>
+
+<p>Oben haben wir gesehen, dass wir unser Task-Board von rechts nach links abarbeiten. Dies gilt auch für unsere täglichen Sync-Meetings mit dem/der Product Owner. Wir gehen das Board von rechts nach links durch, klären welche Arbeiten umgesetzt sind und abgenommen werden können. Hier genügt es, wenn eine Person über das Board führt. Es muss sich nicht jeder zu seinen aktuellen Tätigkeiten äussern. Es geht nicht darum, zu rechtfertigen, womit man den letzten Arbeitstag verbracht hat oder zu zeigen, wie weit man mit seiner “eigenen” Story gekommen ist. Treten Probleme auf, wird als Team diskutiert, wie man zu einer Lösung kommt.</p>
+
+<p>Mit diesem Vorgehen schafft man es, auch in stressigen Situationen den Fokus zu bewahren und für eine kontinuierliche Weiterentwicklung des Produktes zu sorgen.</p>]]></content><author><name>David</name></author><category term="board" /><category term="jira" /><category term="azure" /><category term="task" /><category term="agile" /><category term="scrum" /><category term="kanban" /><category term="project" /><category term="de" /><summary type="html"><![CDATA[In Software-Projekten, die mit Tools wie Jira oder Azure DevOps verwaltet werden, ist es üblich, Aufgaben und User Stories auf einem Board zu visualisieren. Dieses Board hilft dem ganzen Team, den Stand der Arbeit zu verfolgen und eventuelle Engpässe im Workflow zu identifizieren. In täglichen Standup-Meetings wird aufgrund des Boards der Fortschritt der aktuellen Entwicklungs-Iteration besprochen. Wie man in einem agilen Projektumfeld mit einem solchen Task-Board arbeitet, um nicht nur Output sondern Outcome zu liefern und nicht in ein blosses Status-Reporting verfällt, zeige ich in diesem Blogbeitrag.]]></summary></entry><entry xml:lang="de"><title type="html">RSS Feed automatisch auf Mastodon veröffentlichen</title><link href="https://www.production-ready.de/2024/11/24/feed-to-mastodon.html" rel="alternate" type="text/html" title="RSS Feed automatisch auf Mastodon veröffentlichen" /><published>2024-11-24T18:00:00+01:00</published><updated>2024-11-24T18:00:00+01:00</updated><id>https://www.production-ready.de/2024/11/24/feed-to-mastodon</id><content type="html" xml:base="https://www.production-ready.de/2024/11/24/feed-to-mastodon.html"><![CDATA[<p>Viele Blogs und News-Webseite informieren über neue Artikel und Beiträge auch auf den vielen Social Media Plattformen wie Twitter, Facebook oder Threads. Leider ist Mastodon oft noch kein Ziel dieser Cross-Postings.</p>
 
 <p>Da ich Mastodon selbst gerne als News-Quelle und Aggregator verschiedener Blogs nutze, habe ich eine Anwendung geschrieben, die RSS-Feeds automatisch im Fediverse veröffentlicht.</p>
 
@@ -24,19 +58,19 @@
 
 <p>Die Konfiguration der zu überwachenden Feeds erfolgt in einer <code class="language-plaintext highlighter-rouge">.ini</code>-Datei.</p>
 
-<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[heise.de]</span>
-<span class="py">feed_url</span> <span class="p">=</span> <span class="s">https://www.heise.de/rss/heise-atom.xml</span>
-<span class="py">summary_separator</span> <span class="p">=</span> <span class="s">[...]</span>
-<span class="py">mastodon_server</span> <span class="p">=</span> <span class="s">https://mastodon.social/</span>
-<span class="py">mastodon_access_token</span> <span class="p">=</span> <span class="s">AWWHkaIB_...</span>
-
-<span class="nn">[wired.com]</span>
-<span class="py">feed_url</span> <span class="p">=</span> <span class="s">https://www.wired.com/feed/rss</span>
-<span class="py">mastodon_server</span> <span class="p">=</span>  <span class="s">https://mastodon.social/</span>
-<span class="py">mastodon_access_token</span> <span class="p">=</span> <span class="s">ABC...</span>
-
-<span class="err">...</span>
-</code></pre></div></div>
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[heise.de]</span><span class="w">
+</span><span class="py">feed_url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">https://www.heise.de/rss/heise-atom.xml</span>
+<span class="py">summary_separator</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">[...]</span>
+<span class="py">mastodon_server</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">https://mastodon.social/</span>
+<span class="py">mastodon_access_token</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">AWWHkaIB_...</span>
+<span class="w">
+</span><span class="nn">[wired.com]</span><span class="w">
+</span><span class="py">feed_url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">https://www.wired.com/feed/rss</span>
+<span class="py">mastodon_server</span><span class="w"> </span><span class="p">=</span><span class="w">  </span><span class="s">https://mastodon.social/</span>
+<span class="py">mastodon_access_token</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">ABC...</span>
+<span class="w">
+</span><span class="na">...</span><span class="w">
+</span></code></pre></div></div>
 
 <p>Neben den URLs zum Feed und zum Mastodon-Server, auf dem der Ziel-Account registriert ist, ist ein Access-Token notwendig.</p>
 
@@ -2305,7 +2339,7 @@ PositiveInt 20
 
 <span class="n">Gen</span><span class="p">&lt;</span><span class="n">Point</span><span class="p">&gt;</span> <span class="n">generator</span> <span class="p">=</span> <span class="k">from</span> <span class="n">x</span> <span class="k">in</span> <span class="n">Arb</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="nf">PositiveInt</span><span class="p">().</span><span class="n">Generator</span>
                        <span class="k">from</span> <span class="n">y</span> <span class="k">in</span> <span class="n">Arb</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="nf">NegativeInt</span><span class="p">().</span><span class="n">Generator</span>
-                       <span class="k">select</span> <span class="k">new</span> <span class="nf">Point</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">Item</span><span class="p">,</span> <span class="n">y</span><span class="p">.</span><span class="n">Item</span><span class="p">);</span>
+                       <span class="n">select</span> <span class="k">new</span> <span class="nf">Point</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">Item</span><span class="p">,</span> <span class="n">y</span><span class="p">.</span><span class="n">Item</span><span class="p">);</span>
 </code></pre></div></div>
 
 <p>Über Eigenschaften des <code class="language-plaintext highlighter-rouge">Property</code>-Attributs lässt sich die Verteilung der Werte steuern.</p>
