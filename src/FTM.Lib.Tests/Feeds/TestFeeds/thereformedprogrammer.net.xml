@@ -12,13 +12,13 @@
 	<atom:link href="https://www.thereformedprogrammer.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.thereformedprogrammer.net</link>
 	<description>I am a freelance .NET Core back-end developer</description>
-	<lastBuildDate>Thu, 09 Jan 2025 08:47:52 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 17 Nov 2025 09:13:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
 	<item>
 		<title>A detailed look at EF Core’s JSON Columns feature</title>
 		<link>https://www.thereformedprogrammer.net/a-detailed-look-at-ef-cores-json-column-feature/</link>
@@ -627,7 +627,9 @@
 
 
 
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"><cite>NOTE: If you are still using .NET version below .NET 8, then the older versions of my libraries are still there for you.</cite></blockquote>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p></p>
+<cite>NOTE: If you are still using .NET version below .NET 8, then the older versions of my libraries are still there for you.</cite></blockquote>
 
 
 
@@ -745,6 +747,14 @@
 
 
 
+<p>Also, you should look for vulnerable NuGets and select a non-vulnerable versions instead. Vulnerable NuGet packages are .NET packages with security weaknesses that can be exploited by attackers. Most vulnerable NuGets are normally are accidental flaws. Visual Studio has a &#8220;show only vulnerable&#8221; item in the Process &gt; Manage NuGet Packages &#8211; the screenshot below shows how to find vulnerable NuGets.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/image-1.png"><img loading="lazy" decoding="async" width="772" height="237" src="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/image-1.png" alt="" class="wp-image-3007" srcset="https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/image-1.png 772w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/image-1-300x92.png 300w, https://www.thereformedprogrammer.net/wp-content/uploads/2024/05/image-1-768x236.png 768w" sizes="auto, (max-width: 772px) 100vw, 772px" /></a></figure>
+
+
+
 <h4 class="wp-block-heading">1d. Compile the changed code</h4>
 
 
@@ -757,7 +767,7 @@
 
 
 
-<p>WARNING: In my EfCore.TestSupport library I added a feature called EnsureClean which uses code that is not supported by Microsoft (see <a href="https://www.thereformedprogrammer.net/new-features-for-unit-testing-your-entity-framework-core-5-code/#3-unique-database-name-plus-call-the-ensureclean-method-only-works-on-sql-server">this section</a> about EnsureClean and why it might fail). If this occurs, I suggest you remove the SqlServer EnsureClean code and use the normal EnsureDeleted / EnsureCreated approach of creating an empty database for a test. (I like EnsureClean because it makes my database tests run quicker than EnsureDeleted / EnsureCreated).</p>
+<p>NOTE: In my EfCore.TestSupport library I added a feature called EnsureClean which was faster, but used code that is not supported by Microsoft. In NET 9 version I changes the EnsureClean to use EnsureDeleted / EnsureCreated. It slower but works ever time.</p>
 
 
 
@@ -883,7 +893,7 @@
 
 
 
-<p>I hope I’ll be able to still do programming for years, but with dementia you just don’t know. That’s why I created this article now while I’m doing well so that you‘re covered if I’m not around. The other reason for me to keep programming is that it helps me to counter dementia’s degrading of my brain – see the <em>ENDNOTE dementia and programming </em>after this conclusion.<em></em></p>
+<p>I hoped I’ll be able to still do programming for years, but when .NET 10 came out my dementia had taken my ability to do understand how to update my .NET apps. That’s why I created this article now while I’m doing well so that you‘re covered if I’m not around. The other reason for me to keep programming is that it helps me to counter dementia’s degrading of my brain – see the <em>ENDNOTE dementia and programming </em>after this conclusion.</p>
 
 
 
@@ -3298,7 +3308,7 @@ public void TestStubDefaultLocalizer()
 
 
 
-<p>These three manual steps are tedious and error prone. It enough to make me improve my unit test coverage <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+<p>These three manual steps are tedious and error prone. It enough to make me improve my unit test coverage <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
 
 
 

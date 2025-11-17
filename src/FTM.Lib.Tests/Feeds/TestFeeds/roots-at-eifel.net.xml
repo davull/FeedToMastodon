@@ -12,13 +12,13 @@
 	<atom:link href="https://www.roots-at-eifel.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.roots-at-eifel.net</link>
 	<description>Verein für freie Netzwerktechnologien</description>
-	<lastBuildDate>Wed, 21 Sep 2022 13:52:17 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Oct 2025 16:43:42 +0000</lastBuildDate>
 	<language>de</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
 
 <image>
 	<url>https://www.roots-at-eifel.net/wp-content/uploads/2022/03/favicon-150x150.png</url>
@@ -28,6 +28,163 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Privatsache Kommunikation? Wie die EU unsere Chats öffnen will</title>
+		<link>https://www.roots-at-eifel.net/privatsache-kommunikation-wie-die-eu-unsere-chats-oeffnen-will/</link>
+		
+		<dc:creator><![CDATA[Wilfried]]></dc:creator>
+		<pubDate>Tue, 07 Oct 2025 16:41:39 +0000</pubDate>
+				<category><![CDATA[Allgemein]]></category>
+		<category><![CDATA[Chatkontrolle]]></category>
+		<category><![CDATA[Überwachung]]></category>
+		<category><![CDATA[Verschlüsselung]]></category>
+		<guid isPermaLink="false">https://www.roots-at-eifel.net/?p=1780</guid>
+
+					<description><![CDATA[Die EU will mit der sogenannten Chatkontrolle Kinder besser vor Missbrauch schützen – doch der Preis wäre hoch: eine flächendeckende Überwachung privater Kommunikation.
+Was als Schutzmaßnahme beginnt, könnte zum gefährlichsten Eingriff in die digitale Freiheit seit Bestehen der EU werden.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1780" class="elementor elementor-1780" data-elementor-post-type="post">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-7fe034d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7fe034d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ca934d7" data-id="ca934d7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-33dbba4 elementor-widget elementor-widget-heading" data-id="33dbba4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Zwischen Schutz und Kontrolle</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7b15ac4 elementor-widget elementor-widget-text-editor" data-id="7b15ac4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Der Schutz von Kindern vor sexualisierter Gewalt ist unbestritten. Doch der geplante EU-Verordnungsentwurf zur <strong>Chatkontrolle</strong> – offiziell: <em>Verordnung zur Prävention und Bekämpfung sexuellen Missbrauchs von Kindern</em> – spaltet die Gesellschaft. Befürworter sehen darin ein Instrument zum Schutz von Minderjährigen, Kritiker warnen vor einem <strong>Überwachungsstaat durch die Hintertür</strong>.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-fea9d59 elementor-widget elementor-widget-heading" data-id="fea9d59" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Wie Chatkontrolle funktioniert</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f9717b7 elementor-widget elementor-widget-text-editor" data-id="f9717b7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Das Konzept beruht auf <strong>Client-Side Scanning (CSS)</strong>: Inhalte wie Nachrichten, Fotos oder Videos werden <strong>bereits auf dem Gerät der Nutzer und Nutzerinnen</strong> überprüft – noch bevor sie verschlüsselt oder versendet werden. Ziel ist es, verdächtige Darstellungen von Kindesmissbrauch oder Grooming-Versuche zu erkennen.</p><p>Doch damit wird <strong>Ende-zu-Ende-Verschlüsselung</strong> – das Rückgrat sicherer Kommunikation – ausgehöhlt. Jede Nachricht, jedes Bild könnte künftig vor dem Versand analysiert werden.</p><p>Technische Verfahren wie Hashing, Perceptual Hashing und KI-Erkennung sind dabei <strong>fehleranfällig, manipulierbar und kaum transparent prüfbar</strong>. Die Konsequenz: Millionen unschuldiger Nutzer und Nutzerinnen würden in ein digitales Raster fallen.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f733fb9 elementor-widget elementor-widget-heading" data-id="f733fb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Grundrechte in Gefahr</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-007fc45 elementor-widget elementor-widget-text-editor" data-id="007fc45" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Über 700 Wissenschaftler und Wissenschaftlerinnen warnen: Chatkontrolle verletzt das <strong>Recht auf Vertraulichkeit und Privatsphäre</strong> (Art. 7, 8 EU-Grundrechtecharta). Es handelt sich um eine <strong>anlasslose und flächendeckende Überwachung</strong>, die die gesamte Bevölkerung betrifft – nicht nur Verdächtige.</p><p>Die <strong>Gesellschaft für Freiheitsrechte (GFF)</strong> sieht darin eine massive Verletzung von Kommunikationsfreiheit und Meinungsfreiheit. Das Ergebnis: sogenannte <em>Chilling Effects</em> – Menschen vermeiden sensible Themen oder kritische Aussagen, weil sie sich überwacht fühlen.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-938e4c1 elementor-widget elementor-widget-heading" data-id="938e4c1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Technische Unsicherheit und Missbrauchsgefahr</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8c82e1c elementor-widget elementor-widget-text-editor" data-id="8c82e1c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Client-Side-Scanning-Systeme schaffen eine <strong>Überwachungsinfrastruktur auf jedem Gerät</strong>. Einmal installiert, kann ihr Zweck jederzeit erweitert werden – auf politische Kommunikation, Urheberrechtsverletzungen oder andere Inhalte.</p><p>Dazu kommt das Sicherheitsrisiko: Jede Hintertür, die für Behörden geschaffen wird, <strong>kann auch von Kriminellen genutzt werden</strong>. Die Folgen reichen von Datenlecks bis hin zur Unterwanderung von Messenger-Diensten, die bislang als sicher galten.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1e0d994 elementor-widget elementor-widget-heading" data-id="1e0d994" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Zweifel an Wirksamkeit und Verhältnismäßigkeit</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-362eaf6 elementor-widget elementor-widget-text-editor" data-id="362eaf6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Fachleute bezweifeln, dass Chatkontrolle tatsächlich den versprochenen Schutz bringt. Bekannte Missbrauchsbilder lassen sich zwar erkennen, neue oder verschlüsselte Inhalte bleiben aber unerkannt. Hinzu kommt die <strong>Gefahr von Fehlalarmen</strong>, wenn harmlose private Fotos oder Chats automatisch gemeldet werden – ein Albtraum für Betroffene. Auch die <strong>Kosten</strong> für Anbieter und Gesellschaft wären enorm, während die Wirksamkeit gering bleibt.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-30ffd23 elementor-widget elementor-widget-heading" data-id="30ffd23" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Weitere Kritikpunkte am EU-Entwurf</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6590558 elementor-widget elementor-widget-text-editor" data-id="6590558" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Neben der Inhaltsüberwachung enthält der aktuelle Entwurf weitere problematische Punkte:</p><ul><li><strong>Altersverifikation:</strong> Pflicht zur Identitätsprüfung bedroht Anonymität und Datenschutz.</li><li><strong>Netzsperren:</strong> Internetanbieter sollen Seiten blockieren – ein gefährlicher Präzedenzfall für Zensur.</li><li><strong>Pflichten für Cloud-Dienste:</strong> Auch private Cloud-Inhalte könnten gescannt werden.</li><li><strong>Rechtliche Unklarheiten:</strong> Freiwillige Filterung durch Anbieter schafft Grauzonen und Haftungsrisiken.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ea32e30 elementor-widget elementor-widget-heading" data-id="ea32e30" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Stimmen aus Wissenschaft, Zivilgesellschaft und Kinderschutz</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9604be7 elementor-widget elementor-widget-text-editor" data-id="9604be7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Die Warnungen sind eindeutig:</p><ul><li><p>Der <strong>Offene Brief von über 700 Wissenschaftler:innen</strong> nennt Chatkontrolle einen „Angriff auf die digitale Privatsphäre“.</p></li><li><p>Die <strong>GFF</strong> spricht von einem „Dammbruch“, der demokratische Prinzipien gefährdet.</p></li><li><p><strong>Netzpolitik.org</strong> bezeichnet die Verordnung als „gefährlichste Massenüberwachungsmaßnahme in der Geschichte der EU“.</p></li><li><p>Der <strong>Deutsche Kinderschutzbund (DKSB)</strong> betont dagegen, dass echter Kinderschutz <strong>nicht durch Überwachung, sondern durch Prävention, Aufklärung und soziale Arbeit</strong> erreicht wird.</p></li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c93c692 elementor-widget elementor-widget-heading" data-id="c93c692" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Fazit – Kinderschutz braucht Freiheit, nicht Kontrolle</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-df4f65a elementor-widget elementor-widget-text-editor" data-id="df4f65a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Kinderschutz ist unverhandelbar. Doch Chatkontrolle ist <strong>der falsche Weg</strong>. Sie schwächt Verschlüsselung, öffnet Missbrauch Tür und Tor und schafft eine Infrastruktur, die die Grundrechte aller Bürger und Bürgerinnen gefährdet. Was Kinder wirklich schützt, sind <strong>Prävention, Bildung, konsequente Strafverfolgung und Stärkung von Vertrauensstrukturen</strong> – nicht digitale Überwachung.</p><p>Europa sollte mit gutem Beispiel vorangehen: <strong>Freiheit und Sicherheit dürfen keine Gegensätze sein.</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bdf5a96 elementor-widget elementor-widget-heading" data-id="bdf5a96" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Freiheit braucht Aufmerksamkeit</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2afad19 elementor-widget elementor-widget-text-editor" data-id="2afad19" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Teile diesen Beitrag, sprich darüber – und setze dich für einen Kinderschutz ein, der unsere Grundrechte wahrt und nicht alle Menschen unter Generalverdacht stellt.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f50c16d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f50c16d" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://weact.campact.de/petitions/chatkontrolle-stoppen" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Jetzt bei Campact unterschreiben: Chatkontrolle stoppen!</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2cde4a0 elementor-widget elementor-widget-heading" data-id="2cde4a0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Quellen</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f7e3cc0 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f7e3cc0" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://csa-scientist-open-letter.org/FAQ_DE" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">FAQ zum Offenen Brief von 700 Wissenschaftler:innen – csa-scientist-open-letter.org</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://freiheitsrechte.org/themen/freiheit-im-digitalen/chatkontrolle" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Gesellschaft für Freiheitsrechte – freiheitsrechte.org</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://netzpolitik.org/2025/fragen-und-antworten-warum-ist-chatkontrolle-so-gefaehrlich-fuer-uns-alle/" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Netzpolitik.org – Warum Chatkontrolle so gefährlich ist</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://kinderschutzbund.de/wp-content/uploads/2023/02/OeA_Stellungnahme_DKSB_Joachim-Tuerk.pdf" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Deutscher Kinderschutzbund – Stellungnahme Joachim Türk (PDF)</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Spendenaktion von Netto &#8211; Wir sind dabei!</title>
 		<link>https://www.roots-at-eifel.net/spendenaktion-von-netto-wir-sind-dabei/</link>
 		
@@ -424,42 +581,6 @@
 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="546a8e3" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU1MiwidXJsIjoiaHR0cHM6XC9cL3d3dy5yb290cy1hdC1laWZlbC5uZXRcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjJcLzA0XC8yMDIyMDQtYmFkLW11ZW5zdGVyZWlmZWwtZWlmZWxiYWQtMDEuanBlZyIsInNsaWRlc2hvdyI6IjU0NmE4ZTMifQ%3D%3D" href='https://www.roots-at-eifel.net/wp-content/uploads/2022/04/202204-bad-muenstereifel-eifelbad-01.jpeg'><img loading="lazy" decoding="async" width="150" height="150" src="https://www.roots-at-eifel.net/wp-content/uploads/2022/04/202204-bad-muenstereifel-eifelbad-01-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="Freifunk - Reparaturarbeiten Eifelbad Bad Münstereifel" /></a>
 		</div>
 				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Freifunk-Netz in der Stadtbibliothek Euskirchen wieder aktiv</title>
-		<link>https://www.roots-at-eifel.net/freifunk-netz-in-der-stadtbibliothek-euskirchen-wieder-aktiv/</link>
-		
-		<dc:creator><![CDATA[Wilfried]]></dc:creator>
-		<pubDate>Mon, 25 Apr 2022 21:24:17 +0000</pubDate>
-				<category><![CDATA[Kurzmeldungen]]></category>
-		<category><![CDATA[Euskirchen]]></category>
-		<category><![CDATA[Freifunk]]></category>
-		<category><![CDATA[Stadtbibliothek]]></category>
-		<guid isPermaLink="false">https://www.roots-at-eifel.net/?p=1539</guid>
-
-					<description><![CDATA[Pünktlich zur Wiedereröffnung konnte Kevin, die zerstörten Komponenten der Freifunk-Installation von roots at eifel e. V.  in der Stadtbibliothek Euskirchen instandsetzen...]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1539" class="elementor elementor-1539" data-elementor-post-type="post">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-5ae657f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ae657f" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b440e09" data-id="b440e09" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-19a91e9 elementor-widget elementor-widget-text-editor" data-id="19a91e9" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Am 30. April 2022 wird die bei der Flutkatastrophe im vergangenem Jahr beschädigte Stadtbibliothek Euskirchen an ihrem Standort im Kulturhof wiedereröffnet. Pünktlich zur Eröffnung konnte Kevin, die zerstörten Komponenten der Freifunk-Installation von roots at eifel e. V.  in der Bibliothek gegen neue austauschen und das Freifunk-Netz wieder in Betrieb nehmen. Zudem steht mit einem Downstream von 250 Mbit/s und Upstream von 50 Mbit/s nun eine deutliche höhere Bandbreite für die Nutzer und Nutzerinnen zur Verfügung.</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-98d95cf elementor-widget elementor-widget-image" data-id="98d95cf" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="800" height="402" src="https://www.roots-at-eifel.net/wp-content/uploads/2022/04/freifunk-wieder-aktiv-stadtbibliothek-euskirchen-1024x515.jpg" class="attachment-large size-large wp-image-1541" alt="Freifunk Knoten-Karte - Stadtbibliothek Euskirchen" srcset="https://www.roots-at-eifel.net/wp-content/uploads/2022/04/freifunk-wieder-aktiv-stadtbibliothek-euskirchen-1024x515.jpg 1024w, https://www.roots-at-eifel.net/wp-content/uploads/2022/04/freifunk-wieder-aktiv-stadtbibliothek-euskirchen-300x151.jpg 300w, https://www.roots-at-eifel.net/wp-content/uploads/2022/04/freifunk-wieder-aktiv-stadtbibliothek-euskirchen-768x386.jpg 768w, https://www.roots-at-eifel.net/wp-content/uploads/2022/04/freifunk-wieder-aktiv-stadtbibliothek-euskirchen.jpg 1093w" sizes="(max-width: 800px) 100vw, 800px" />													</div>
 				</div>
 					</div>
 		</div>

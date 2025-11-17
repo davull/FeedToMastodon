@@ -6,104 +6,104 @@
     <language>de</language>
      <atom:link href="https://www.windowspro.de/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>Windows LAPS überwachen und Zugriff auf Passwörter nachverfolgen</title>
-    <link>https://www.windowspro.de/wolfgang-sommergut/windows-laps-ueberwachen-zugriff-passwoerter-nachverfolgen?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;LAPS Auditing&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/laps-auditing-eventlog.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Windows LAPS ist ein Security-Feature des Betriebs­systems, das lokale Admin-Passwörter vor Miss­brauch schützen soll. Dazu speichert es für jeden Rechner ein automatisch generiertes Kennwort im Active Directory. Wenn man nachverfolgen möchte, wer welche LAPS-Zugangsdaten aus dem AD aus­ge­lesen hat, muss man das Auditing aktivieren.&lt;/p&gt;
+    <title>Windows Sandbox automatisieren: Browser anpassen, Programme installieren</title>
+    <link>https://www.windowspro.de/wolfgang-sommergut/windows-sandbox-automatisieren-browser-anpassen-programme-installieren?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Windows Sandbox&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/sandbox-logo.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Die Windows Sandbox bietet eine abgeschottete Umgebung, aus der man kritische Anwendungen wie Online-Banking sicher ausführen oder unbekannte Programme ohne Risiko ausprobieren kann. Das Problem ist bloß, dass man dabei nur ein frisches Windows mit einem unkonfigurierten Edge bekommt. Die Umgebung lässt sich aber per Script einrichten.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 13 Jun 2025 16:58:59 +0000</pubDate>
+     <pubDate>Thu, 10 Jul 2025 19:43:24 +0000</pubDate>
  <dc:creator>Wolfgang Sommergut</dc:creator>
- <guid isPermaLink="false">5908 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/wolfgang-sommergut/windows-laps-ueberwachen-zugriff-passwoerter-nachverfolgen#comments</comments>
+ <guid isPermaLink="false">5924 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/wolfgang-sommergut/windows-sandbox-automatisieren-browser-anpassen-programme-installieren#comments</comments>
   </item>
   <item>
-    <title>Künstliche Intelligenz in der IT-Sicherheit: KI-gestützte Security eröffnet neue Chancen für Partner und MSSPs</title>
-    <link>https://www.windowspro.de/adn-distribution-gmbh/kuenstliche-intelligenz-it-sicherheit-ki-gestuetzte-security-eroeffnet-neue?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;ADN Microsoft CSP Security Week 2025&quot; class=&quot;imgp_img b-lazy&quot; height=&quot;140&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; data-src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/csp-security-week-2025-teaser-2.jpg&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; /&gt;Künstliche Intelligenz spielt sowohl bei Cyber­­an­grif­fen als auch bei der Cyber­­ab­wehr eine immer grö­ßere Rolle. Partner, die markt­­führende KI-basie­rende Secu­rity-Lösungen ins Port­folio auf­neh­men, sichern sich für die komm­enden Jahre nach­­hal­tiges Wachs­tum. ADN und Microsoft infor­mieren über diese KI-Chancen in der CSP Security Week.&lt;/p&gt;
+    <title>ACMP 6.8: Co-Management mit Intune, Treiber-Updates, erweiterte Linux-Unterstützung</title>
+    <link>https://www.windowspro.de/news/acmp-68-co-management-intune-treiber-updates-erweiterte-linux-unterstuetzung/05928.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Complete Aagon Windows Update Management&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/acmp-cawum-updates-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Die Aagon GmbH kündigte für die Client-Manage­ment-Lösung &lt;a href=&quot;https://www.aagon.com/&quot; rel=&quot;sponsored&quot; target=&quot;_blank&quot;&gt;ACMP 6.8&lt;/a&gt; mehrere interessante Neuer­ungen an. Dazu gehört der Ausbau des Intune-Connectors zu einem eigenen Modul, ein Treiber-Management für Geräte der großen OEMs in CAWUM, erweiterte Funktionen für den Unix-Agent und die Unterstützung für Azure DB.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 13 Jun 2025 10:10:17 +0000</pubDate>
- <dc:creator>Sponsored Content</dc:creator>
- <guid isPermaLink="false">5906 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/adn-distribution-gmbh/kuenstliche-intelligenz-it-sicherheit-ki-gestuetzte-security-eroeffnet-neue#comments</comments>
-  </item>
-  <item>
-    <title>Unbound DNS Overrides in OPNsense per Script erzeugen</title>
-    <link>https://www.windowspro.de/thomas-joos/unbound-dns-overrides-opnsense-script-erzeugen?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;OPNsense Firewall&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/4466/thumbs/opnsense-logo.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Unbound DNS ist auf vielen OPNsense-Installationen im Einsatz. Es unter­stützt DNS Overrides, die be­stimm­te Host­namen unab­hängig vom öffent­lichen DNS gezielt auf abweichende IP-Adressen um­leiten. Wenn man eine größere Zahl von solchen Über­schrei­bungen defi­nieren muss, dann kann man dies per Script über ein API automa­tisieren.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 12 Jun 2025 14:27:53 +0000</pubDate>
- <dc:creator>Thomas Joos</dc:creator>
- <guid isPermaLink="false">5909 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/thomas-joos/unbound-dns-overrides-opnsense-script-erzeugen#comments</comments>
-  </item>
-  <item>
-    <title>Webinar: Volle Kontrolle über die Daten auf Smartphones und Tablets behalten</title>
-    <link>https://www.windowspro.de/cortado/webinar-volle-kontrolle-ueber-daten-smartphones-tablets-behalten?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;MDM globale Datenflüsse&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/442/thumbs/mdm-globale-datenfluesse.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Um gesetzlichen Anforderungen zu genügen und vertrauliche Daten zu schützen, müssen Unter­nehmen den Abfluss sensibler Informationen in Cloud-Dienste oder Drittstaaten verhindern. Dies lässt sich bei mobilen Geräten durch ein Mobile Device Management erreichen, wenn deren &lt;a href=&quot;https://cortado.webinargeek.com/datensouveraenitaet?cst=windowspro&quot; rel=&quot;sponsored&quot; target=&quot;_blank&quot;&gt;Anbieter ent­sprechende Standards&lt;/a&gt; einhalten.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 12 Jun 2025 08:46:59 +0000</pubDate>
- <dc:creator>Cortado Mobile Solutions</dc:creator>
- <guid isPermaLink="false">5905 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/cortado/webinar-volle-kontrolle-ueber-daten-smartphones-tablets-behalten#comments</comments>
-  </item>
-  <item>
-    <title>Microsoft gibt sichere Kennwortbereitstellung für den Edge-Browser frei</title>
-    <link>https://www.windowspro.de/news/microsoft-gibt-sichere-kennwortbereitstellung-fuer-edge-browser-frei/05911.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Edge for Business&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/edge-for-business-logo.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Das neue Feature namens Secure Password Deployment erlaubt Unternehmen, den Benutzern Zugangs­daten für bestimmte Websites zur Verfügung zu stellen, ohne ihnen die Passwörter mitteilen zu müssen. Die Credentials werden dabei im M365 Admin Center hinterlegt und verschlüsselt in den Passwort-Manager von Edge for Business übertragen.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 11 Jun 2025 20:34:16 +0000</pubDate>
+     <pubDate>Tue, 08 Jul 2025 16:33:51 +0000</pubDate>
  <dc:creator>Wolfgang Sommergut</dc:creator>
- <guid isPermaLink="false">5911 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/news/microsoft-gibt-sichere-kennwortbereitstellung-fuer-edge-browser-frei/05911.html#comments</comments>
+ <guid isPermaLink="false">5928 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/news/acmp-68-co-management-intune-treiber-updates-erweiterte-linux-unterstuetzung/05928.html#comments</comments>
   </item>
   <item>
-    <title>Kemp LoadMaster gegen F5 BIG-IP: Funktionen und Lizenzierung im Vergleich</title>
-    <link>https://www.windowspro.de/sponsored/kemp/load-balancer-vergleich-kemp-loadmaster-versus-f5-big-ip?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Load-Balancing&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/10/thumbs/load-balancing-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Die meisten modernen Load Balancer sind eigent­lich &lt;em&gt;Appli­cation Delivery Con­troller&lt;/em&gt; (ADC), weil sie neben der Last­ver­teilung weitere Funk­tionen zur Beschleu­nigung und Ab­sicherung von Anwen­dun­gen bieten. Das &lt;a href=&quot;https://kemptechnologies.com/de/campaigns/webinar-f5-abloesen?utm_medium=content-paid&amp;amp;utm_source=windowspro&amp;amp;utm_campaign=lm_dach_webinar_f5&quot; rel=&quot;sponsored&quot; target=&quot;_blank&quot;&gt;Webinar von Progress Software&lt;/a&gt; zeigt, wie LoadMaster im Vergleich zu F5 BIG-IP abschneidet und wann sich ein Umstieg lohnt.&lt;/p&gt;
+    <title>Passwörter von Microsoft Authenticator nach KeePass migrieren</title>
+    <link>https://www.windowspro.de/wolfgang-sommergut/passwoerter-microsoft-authenticator-nach-keepass-migrieren?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;KeePass KeePassXC&quot; class=&quot;teaser&quot; height=&quot;141&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/keepass-keepassxc-logos.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Microsoft entfernt im Juli 2025 den &lt;a href=&quot;https://www.windowspro.de/news/microsoft-entfernt-password-manager-aus-authenticator-open-source-tools-als-alternative/05891&quot;&gt;Passwort-Manager inklusive Autofill-Funktion&lt;/a&gt; aus der Authenti­cator App. Wer sich danach nicht auf Edge als den einzigen Browser festlegen will, muss die ge­speicher­ten Credentials auf andere Tools migrieren. Dafür bietet sich der Import in eine KeePass-Datenbank an, die man mit verschiedenen Produkten nutzen kann.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 11 Jun 2025 09:41:42 +0000</pubDate>
- <dc:creator>Progress Software</dc:creator>
- <guid isPermaLink="false">5238 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/sponsored/kemp/load-balancer-vergleich-kemp-loadmaster-versus-f5-big-ip#comments</comments>
-  </item>
-  <item>
-    <title>Windows-Anmeldung mit PIN aktivieren</title>
-    <link>https://www.windowspro.de/wolfgang-sommergut/windows-anmeldung-pin-aktivieren?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Windows-Anmeldung mit PIN&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/pin-anmeldung-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Die Eingabe einer PIN ist eine Methode zur Authenti­fizierung, die Microsoft unter &lt;em&gt;Windows Hello&lt;/em&gt; subsumiert. Sie ver­einfacht die Anmeldung auf PCs, die keine bio­metrischen Ver­fahren unterstützen. In Domänen und Entra ID muss man diese Option erst aktivieren, in virtu­ellen Maschinen auf Hyper-V ist dieses Feature erheblich einge­schränkt.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 10 Jun 2025 08:46:03 +0000</pubDate>
+     <pubDate>Mon, 07 Jul 2025 08:50:11 +0000</pubDate>
  <dc:creator>Wolfgang Sommergut</dc:creator>
- <guid isPermaLink="false">5899 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/wolfgang-sommergut/windows-anmeldung-pin-aktivieren#comments</comments>
+ <guid isPermaLink="false">5925 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/wolfgang-sommergut/passwoerter-microsoft-authenticator-nach-keepass-migrieren#comments</comments>
   </item>
   <item>
-    <title>Verzeichnisbäume visualisieren und Dateien filtern mit PowerTree</title>
-    <link>https://www.windowspro.de/wolfgang-sommergut/verzeichnisbaeume-visualisieren-dateien-filtern-powertree?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Baumdarstellung einer Verzeichnisstruktur&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/powertree-verzeichnisbaum-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;In PowerShell kann man zwar weiterhin den alten &lt;em&gt;Tree&lt;/em&gt;-Befehl ausführen, aber das Modul &lt;em&gt;PowerTree&lt;/em&gt; implementiert eine fort­geschrittene Version mit ver­schiedenen Sortier- und Filter­funktionen. Damit lassen sich etwa Speicher­fresser einfach identifizieren. PowerTree enthält zudem eine Funktion, mit der man auch die Registry baumförmig visualisieren kann.&lt;/p&gt;
+    <title>Exchange SE und Skype for Business SE verfügbar, Preiserhöhungen um einen Monat verschoben</title>
+    <link>https://www.windowspro.de/news/exchange-se-skype-business-se-verfuegbar-preiserhoehungen-um-einen-monat-verschoben/05923.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Logo für Exchange&quot; class=&quot;teaser&quot; height=&quot;151&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/exchange-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Microsoft kündigte die Verfüg­barkeit von Exchange und Skype for Business über ein Abo-Modell an. Die Office-Server erhalten künftig neue Funk­tionen über zwei CUs pro Jahr, größere Releases mit eigenen Versions­nummern gibt es nicht mehr. Die ab Juli ange­kündigten Preis­er­höhungen für CALs und Office-Server kommen im August.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 05 Jun 2025 16:34:34 +0000</pubDate>
+     <pubDate>Wed, 02 Jul 2025 21:09:56 +0000</pubDate>
  <dc:creator>Wolfgang Sommergut</dc:creator>
- <guid isPermaLink="false">5902 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/wolfgang-sommergut/verzeichnisbaeume-visualisieren-dateien-filtern-powertree#comments</comments>
+ <guid isPermaLink="false">5923 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/news/exchange-se-skype-business-se-verfuegbar-preiserhoehungen-um-einen-monat-verschoben/05923.html#comments</comments>
   </item>
   <item>
-    <title>Webinar: Drucken ohne Print-Server und VPN</title>
-    <link>https://www.windowspro.de/thinprint/webinar-drucken-ohne-print-server-vpn?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Cloud-Printing&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/400/thumbs/cloud-printing-teaser_0.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Der Betrieb eines Print-Servers verursacht einigen Aufwand und Kosten. Dabei passt eine solche her­köm­mliche Drucker­bereitstellung für das Home-Office oder mobile Benutzer oft nicht mehr. Das &lt;a href=&quot;https://thinprint-ezeep.webinargeek.com/drucken-ohne-server-vpn-ezeep?cst=windowspro&quot; rel=&quot;sponsored&quot; target=&quot;_blank&quot;&gt;Webinar von ThinPrint&lt;/a&gt; zeigt, warum eine Hybrid-Cloud-Lösung zusammen mit einer kleinen Appliance flexibler und kosten­günstiger ist.&lt;/p&gt;
+    <title>SSH-Anmeldung mit dem Authentication Agent automatisieren</title>
+    <link>https://www.windowspro.de/wolfgang-sommergut/ssh-anmeldung-authentication-agent-automatisieren?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;OpenSSH&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/openssh-logo.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Wenn man sich regel­mäßig mit einem Host über SSH verbindet, dann möchte man nicht immer ein Pass­wort eingeben. Das gilt umso mehr, wenn man die SSH-Verbindung in einem Script aufbauen will. Die OpenSSH-Implemen­tierung unter Windows bietet diese Möglich­keit im Zusammen­spiel aus Public-Key-Authenti­fizierung und dem SSH-Agent.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 05 Jun 2025 08:34:33 +0000</pubDate>
- <dc:creator>ThinPrint GmbH</dc:creator>
- <guid isPermaLink="false">5904 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/thinprint/webinar-drucken-ohne-print-server-vpn#comments</comments>
-  </item>
-  <item>
-    <title>Netzwerke scannen mit dem kostenlosen Angry IP Scanner</title>
-    <link>https://www.windowspro.de/tool/netzwerke-scannen-kostenlosen-angry-ip-scanner?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Angry IP Scanner&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/angry-ip-scanner-logo.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Unabhängig von großen Lösungen für das Netzwerk-Monitoring besteht immer ein Bedarf an leicht­gewichtigen Tools, die spontan alle Geräte in einem Netzwerk aufspüren können. Das populäre Open-Source-Programm &lt;em&gt;Angry IP Scanner&lt;/em&gt; fällt in diese Kategorie, auch wenn es nur relativ wenige Daten zu den gefundenen Geräten liefert.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 04 Jun 2025 20:02:16 +0000</pubDate>
+     <pubDate>Tue, 01 Jul 2025 17:55:53 +0000</pubDate>
  <dc:creator>Wolfgang Sommergut</dc:creator>
- <guid isPermaLink="false">5907 at https://www.windowspro.de</guid>
- <comments>https://www.windowspro.de/tool/netzwerke-scannen-kostenlosen-angry-ip-scanner#comments</comments>
+ <guid isPermaLink="false">5918 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/wolfgang-sommergut/ssh-anmeldung-authentication-agent-automatisieren#comments</comments>
+  </item>
+  <item>
+    <title>Whitepaper: Was hat das Client-Management mit der NIS2-Richtlinie zu tun?</title>
+    <link>https://www.windowspro.de/aagon-gmbh/whitepaper-was-hat-client-management-nis2-richtlinie-zu-tun?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;NIS 2&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/20/thumbs/nis2-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Die NIS2-Richtlinie ver­pflichtet Organi­­sationen zur Imple­men­tierung umfas­­sender Sicher­­heits­­maß­nah­men. Viele IT-Verant­wortliche denken da­bei zuerst wohl an Identity and Access Mana­ge­­ment (IAM) oder Net­work Detection and Res­ponse (NDR). Aber ohne sys­tematische Ver­­wal­tung der End­geräte lässt sich NIS2 kaum umsetzen.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 01 Jul 2025 12:26:43 +0000</pubDate>
+ <dc:creator>Aagon GmbH</dc:creator>
+ <guid isPermaLink="false">5920 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/aagon-gmbh/whitepaper-was-hat-client-management-nis2-richtlinie-zu-tun#comments</comments>
+  </item>
+  <item>
+    <title>Neue Security Baseline für Windows Server 2025</title>
+    <link>https://www.windowspro.de/news/neue-security-baseline-fuer-windows-server-2025/05922.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Security Baseline Defender-Einstellungen&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/windows-11-2022-baseline-defender-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Microsoft möchte seine Empfehlungen zur Härtung des Betriebs­systems künftig in kürzeren Intervallen aktualisieren. Die Security Baselines erhalten daher ab sofort eine Versionsnummer, derzeit ist das die v2506. Das Update ändert insgesamt fünf Einstellungen, unter anderem zum Anmelden via RDP und zum Auditing von Berechtigungs­änderungen.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 30 Jun 2025 17:39:55 +0000</pubDate>
+ <dc:creator>Wolfgang Sommergut</dc:creator>
+ <guid isPermaLink="false">5922 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/news/neue-security-baseline-fuer-windows-server-2025/05922.html#comments</comments>
+  </item>
+  <item>
+    <title>Windows 11 25H2 für Insider verfügbar, Upgrade mittels Enablement Package</title>
+    <link>https://www.windowspro.de/news/windows-11-25h2-fuer-insider-verfuegbar-upgrade-mittels-enablement-package/05921.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Windows 11 25H2&quot; class=&quot;teaser&quot; height=&quot;137&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/windows-11-25h2-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Microsoft gab das nächste Release von Windows 11 als Insider Preview frei. Es beruht auf dem gleichen Kernel und Servicing-Branch wie 24H2, so dass die neuen Features über die monatlichen Updates ausgeliefert und schlussendlich nur freigeschaltet werden. Die Zahl der nennenswerten Neuerungen ist aber ohnehin überschaubar.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 30 Jun 2025 14:20:33 +0000</pubDate>
+ <dc:creator>Wolfgang Sommergut</dc:creator>
+ <guid isPermaLink="false">5921 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/news/windows-11-25h2-fuer-insider-verfuegbar-upgrade-mittels-enablement-package/05921.html#comments</comments>
+  </item>
+  <item>
+    <title>Testbericht: Mit ezeep Blue auf verschiedenen Endgeräten von überall drucken</title>
+    <link>https://www.windowspro.de/wolfgang-sommergut/testbericht-ezeep-blue-verschiedenen-endgeraeten-ueberall-drucken?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;ezeep Blue Einladung annehmen&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/ezeep-blue-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Wenn Mitarbeiter häufig von unter­wegs oder zu Hause arbeiten, dann ist die her­kömm­liche Bereit­­stellung von Druckern meist zu unflexibel. Das gilt auch für Unter­nehmen mit vielen Nieder­­lassungen. Die ThinPrint GmbH bietet mit ezeep Blue eine Lösung an, die Drucker in der Cloud ver­waltet und keine spezi­fischen Treiber auf den End­geräten benötigt.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 26 Jun 2025 06:36:26 +0000</pubDate>
+ <dc:creator>Wolfgang Sommergut</dc:creator>
+ <guid isPermaLink="false">5910 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/wolfgang-sommergut/testbericht-ezeep-blue-verschiedenen-endgeraeten-ueberall-drucken#comments</comments>
+  </item>
+  <item>
+    <title>VMware vSphere 9.0: Neues Setup, Hot Patching, Memory Tiering mit NVMe, vSAN-Replikation</title>
+    <link>https://www.windowspro.de/news/vmware-vsphere-90-neues-setup-hot-patching-memory-tiering-nvme-vsan-replikation/05919.html?utm_source=WindowsPro&amp;utm_medium=rss&amp;utm_campaign=Feed</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;img alt=&quot;VMware Cloud Foundation (VCF) 9.0&quot; class=&quot;teaser&quot; height=&quot;140&quot; src=&quot;https://www.windowspro.de/sites/windowspro.de/files/imagepicker/3/thumbs/vcf-90-teaser.png&quot; style=&quot;float: left;margin:5px 15px 0 0;&quot; width=&quot;200&quot; /&gt;Broadcom kündigte die Version 9.0 von VMware Cloud Foundation (VCF) sowie des darin ent­hal­tenen vSphere an. Das Upgrade erhöht die Inte­gration der Kompo­nenten und bringt mehrere fort­­ge­schrittene Features, welche die Leistungs­fähigkeit der Platt­form erhöhen. Diese sind aktuell jedoch nur über die Edition vSphere Foundation verfügbar.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 24 Jun 2025 20:50:58 +0000</pubDate>
+ <dc:creator>Wolfgang Sommergut</dc:creator>
+ <guid isPermaLink="false">5919 at https://www.windowspro.de</guid>
+ <comments>https://www.windowspro.de/news/vmware-vsphere-90-neues-setup-hot-patching-memory-tiering-nvme-vsan-replikation/05919.html#comments</comments>
   </item>
   </channel>
 </rss>

