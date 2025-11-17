@@ -1,0 +1,5 @@
+﻿Adding metadata to fallback endpoints in ASP.NET Core
+
+In this post I discuss fallback endpoints and show how adding metadata to MVC or Razor Page fallback endpoints has some quirks to be aware of
+---
+https://andrewlock.net/adding-metadata-to-fallback-endpoints-in-aspnetcore/

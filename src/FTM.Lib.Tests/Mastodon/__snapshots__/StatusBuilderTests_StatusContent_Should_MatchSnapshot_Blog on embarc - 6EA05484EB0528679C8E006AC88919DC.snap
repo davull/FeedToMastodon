@@ -1,0 +1,6 @@
+﻿Value Objects - das nächste große Ding in Java
+
+Vortragsfolien zum Thema Download der Folien vom JUG Saxony Day am 26.09.2026
+Was sind Value ObjectsEiner der großen Pluspunkte von Java war und ist das statische, starke Typsystem. Es hilft, viele Fehler bereits zur Compilezeit zu entdecken und macht die Entwicklung robuster sowie effizienter. Allerdings integrieren sich die vor etwa 30 Jahren aus Performancegründen eingeführten primitiven Datentypen nicht gut...
+---
+https://www.embarc.de/java-value-objects/

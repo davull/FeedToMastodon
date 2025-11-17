@@ -1,0 +1,5 @@
+﻿Update the ISPConfig Perfect Server from Debian 11 to Debian 12
+
+This tutorial will take you through updating a server managed by ISPConfig from Debian 11 (bullseye) to Debian 12 (bookworm). This guide works for both single- and multiserver setups.
+---
+https://www.howtoforge.com/update-the-ispconfig-perfect-server-from-debian-11-to-debian-12/

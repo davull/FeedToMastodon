@@ -2,279 +2,229 @@
   "Id": "https://orf.at/",
   "Website": "https://orf.at/",
   "Title": "news.ORF.at",
-  "LastUpdatedTime": "2025-06-14T10:40:28+02:00",
+  "LastUpdatedTime": "2025-11-17T22:04:52+01:00",
   "Description": "Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.",
   "Language": "de",
   "Items": [
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396736/",
-      "Title": "Verletzte durch herabfallende Flugobjekte in Jordanien",
-      "PublishDate": "2025-06-14T10:40:28+02:00",
+      "ItemId": "https://orf.at/stories/3411825/",
+      "Title": "Trump will Saudi-Arabien F-35-Kampfjets verkaufen",
+      "PublishDate": "2025-11-17T22:04:52+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396736/"
+      "Link": "https://orf.at/stories/3411825/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396733/",
-      "Title": "Selenskyj-Besuch: FPÖ kritisiert Dreierkoalition",
-      "PublishDate": "2025-06-14T10:29:52+02:00",
+      "ItemId": "https://orf.at/stories/3411824/",
+      "Title": "Kritik an verschärften Sicherheitsmaßnahmen auf COP30-Gelände",
+      "PublishDate": "2025-11-17T21:58:17+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396733/"
+      "Link": "https://orf.at/stories/3411824/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396732/",
-      "Title": "Atomanlage Fordo: Schäden laut Iran überschaubar",
-      "PublishDate": "2025-06-14T10:15:27+02:00",
+      "ItemId": "https://orf.at/stories/3411746/",
+      "Title": "Kälteeinbruch mit etwas Schnee und Frost",
+      "PublishDate": "2025-11-17T21:20:05+01:00",
+      "Summary": "Nass, kalt, unbeständig: Durchaus passend zur Jahreszeit kehren winterliche Bedingungen in Österreich ein. Während es am Montag vielerorts stark geregnet hat, sinkt die Schneefallgrenze in der Nacht auf Dienstag nördlich der Alpen bis in tiefe Lagen. Nennenswerte Schneemengen wird es allerdings nur auf den Bergen geben. Angezuckert könnten sich jedoch im Laufe der Woche laut ORF-Wetterredaktion auch einige Landeshauptstädte präsentieren.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3411746/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3411811/",
+      "Title": "Regierung verschärft Asylregeln drastisch",
+      "PublishDate": "2025-11-17T19:50:13+01:00",
+      "Summary": "Unter dem Druck der rechtspopulistischen Gegner hat Großbritanniens sozialdemokratische Regierung eine drastische Verschärfung der Asylregeln angekündigt. Die Regierung veröffentlichte das Reformpapier mit dem Titel „Restoring Order and Control“ (etwa: „Die Wiederherstellung von Ordnung und Kontrolle“) am Nachmittag vor der Vorstellung der Reform durch Innenministerin Shabana Mahmood im Parlament.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3411811/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3411818/",
+      "Title": "RBI-Analyst und Europarechtsexperte im Studio",
+      "PublishDate": "2025-11-17T19:43:28+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396732/"
+      "Link": "https://orf.at/stories/3411818/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396730/",
-      "Title": "US-Marines nahmen erstmals Zivilisten fest",
-      "PublishDate": "2025-06-14T09:40:16+02:00",
-      "Summary": "Von der Trump-Regierung nach Los Angeles geschickte US-Marineinfanteristen haben am Freitag bei einem seltenen Einsatz im Inland einen Zivilisten festgenommen. Das bestätigte das US-Militär am Samstag nach Vorlage eines Reuters-Videos. Es war die erste bekannte Festnahme durch aktive US-Truppen bei den Protesten gegen Razzien der US-Einwanderungsbehörde ICE in der kalifornischen Großstadt.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396730/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396727/",
-      "Title": "Tote bei Überschwemmungen im US-Bundesstaat Texas",
-      "PublishDate": "2025-06-14T08:39:20+02:00",
+      "ItemId": "https://orf.at/stories/3411817/",
+      "Title": "Brüssel gibt grünes Licht für Iveco-Übernahme durch Tata",
+      "PublishDate": "2025-11-17T19:31:51+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396727/"
+      "Link": "https://orf.at/stories/3411817/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396724/",
-      "Title": "Schönborn-Nachfolge: Wohl weiterer Vorschlag in Arbeit",
-      "PublishDate": "2025-06-14T08:13:09+02:00",
+      "ItemId": "https://orf.at/stories/3411814/",
+      "Title": "Russischer Angriff auf Donauhafen: LNG-Tanker getroffen",
+      "PublishDate": "2025-11-17T19:12:53+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396724/"
+      "Link": "https://orf.at/stories/3411814/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396723/",
-      "Title": "Lehrerausbildung: Wenige spezialisieren sich auf Inklusion",
-      "PublishDate": "2025-06-14T08:11:10+02:00",
+      "ItemId": "https://orf.at/stories/3411812/",
+      "Title": "Vergiftungen bei Istanbul-Urlaub: Auch Vater tot",
+      "PublishDate": "2025-11-17T18:24:53+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396723/"
+      "Link": "https://orf.at/stories/3411812/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396721/",
-      "Title": "König Charles III. schlägt David Beckham zum Ritter",
-      "PublishDate": "2025-06-14T08:02:23+02:00",
+      "ItemId": "https://orf.at/stories/3411743/",
+      "Title": "Risse in der MAGA-Bewegung",
+      "PublishDate": "2025-11-17T17:48:36+01:00",
+      "Summary": "Im Streit über die Akten zum Fall Jeffrey Epstein hat US-Präsident Donald Trump in der Nacht auf Montag eine Kehrtwende hingelegt: Nach langem Widerstand empfiehlt er den Republikanern nun doch, für die Veröffentlichung der Ermittlungsakten zum Fall des Sexualstraftäters zu stimmen. Zuvor gab es starken Druck aus der  eigenen Partei. Diese befindet sich derzeit auch in anderen brisanten Fragen im Richtungsstreit – etwa beim Umgang mit dem Rechtsextremisten, Antisemiten und Holocaust-Leugner Nick Fuentes.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3411743/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3411806/",
+      "Title": "Zwei bisher unbekannte Frühwerke von Bach präsentiert",
+      "PublishDate": "2025-11-17T17:25:49+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396721/"
+      "Link": "https://orf.at/stories/3411806/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396720/",
-      "Title": "„NYT“: Trump schwächt scharfen Migrationskurs ab",
-      "PublishDate": "2025-06-14T07:42:21+02:00",
+      "ItemId": "https://orf.at/stories/3411803/",
+      "Title": "Wieder Tote bei Zwischenfällen im Gazastreifen",
+      "PublishDate": "2025-11-17T16:37:28+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396720/"
+      "Link": "https://orf.at/stories/3411803/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396719/",
-      "Title": "Amoktat in Graz: Regierung will Maßnahmen beschließen",
-      "PublishDate": "2025-06-14T07:29:55+02:00",
+      "ItemId": "https://orf.at/stories/3411797/",
+      "Title": "Kessler-Zwillinge sind tot",
+      "PublishDate": "2025-11-17T16:28:13+01:00",
+      "Summary": "Ihr Leben war die Showbühne: Mehr als 60 Jahre sind Alice und Ellen Kessler im Scheinwerferlicht gestanden. Die Kessler-Zwillinge prägten nicht nur die deutschen Nachkriegsjahre, sie waren auch einer der erfolgreichsten deutschen Showexporte aller Zeiten. Am Montag wurden die beiden tot in München aufgefunden.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3411797/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3411798/",
+      "Title": "Kessler-Zwillinge sind tot",
+      "PublishDate": "2025-11-17T15:56:54+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396719/"
+      "Link": "https://orf.at/stories/3411798/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396697/",
-      "Title": "Erneut gegenseitige Angriffe gemeldet",
-      "PublishDate": "2025-06-14T07:21:47+02:00",
-      "Summary": "Aus Israel und dem Iran sind in der Nacht auf Samstag erneut gegenseitige Angriffe gemeldet worden. Das israelische Militär erklärte, die Luftstreitkräfte griffen weiterhin Ziele im Iran an – auf beiden Seiten wurden Tote gemeldet. In der iranischen Hauptstadt Teheran war in der Nacht Berichten zufolge wieder die Luftabwehr aktiv. Auch der Flughafen Mehrabad sei getroffen worden.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396697/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396715/",
-      "Title": "Iran feuerte Raketen, Israel traf Atomanlagen",
-      "PublishDate": "2025-06-14T00:10:42+02:00",
-      "Summary": "Nach dem israelischen Großangriff am Freitag hat der Iran am Abend Raketen auf Israel abgefeuert. Israelische Medien meldeten mehr als 60 Verletzte. Israels Armee attackierte ihrerseits weitere Ziele im Iran, laut Teheran wurden fast 80 Menschen getötet. Zudem wurden nach Angaben der die Internationalen Atomenergiebehörde (IAEA) drei iranische Atomzentren getroffen. In Natans seien Teile einer Anlage zerstört worden.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396715/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396490/",
-      "Title": "‚Ermutigender Fortschritt‘ bei Ozeankonferenz",
-      "PublishDate": "2025-06-13T21:55:25+02:00",
-      "Summary": "In Nizza an der französischen Mittelmeer-Küste ist am Freitag die UNO-Ozeankonferenz zu Ende gegangen – mit einem „ermutigenden Fortschritt“, wie es seitens der NGO OceanCare heißt. Im Mittelpunkt stand vor allem eine mögliche Ratifizierung des Hochseeabkommens, das eine Ausweitung der Meeresschutzgebiete vorsieht. Schutz, der angesichts des Zustands der Weltmeere dringend notwendig ist.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396490/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396716/",
-      "Title": "Marines kommen in Los Angeles zum Einsatz",
-      "PublishDate": "2025-06-13T21:46:29+02:00",
+      "ItemId": "https://orf.at/stories/3411796/",
+      "Title": "Gegen Wöginger-Diversion: WKStA führt Generalprävention an",
+      "PublishDate": "2025-11-17T15:40:19+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396716/"
+      "Link": "https://orf.at/stories/3411796/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396714/",
-      "Title": "Ägypten stoppt weitere Aktivisten auf Gaza-Protestmarsch",
-      "PublishDate": "2025-06-13T21:33:24+02:00",
+      "ItemId": "https://orf.at/stories/3411788/",
+      "Title": "Einsparungen bei Jugendcoaching sorgen für Aufregung",
+      "PublishDate": "2025-11-17T14:51:41+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396714/"
+      "Link": "https://orf.at/stories/3411788/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396713/",
-      "Title": "IAEA: Atomanlage in Natans teilweise zerstört",
-      "PublishDate": "2025-06-13T21:03:05+02:00",
+      "ItemId": "https://orf.at/stories/3411779/",
+      "Title": "Tiktoker hängten Gemälde von sich im Louvre auf",
+      "PublishDate": "2025-11-17T14:24:13+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396713/"
+      "Link": "https://orf.at/stories/3411779/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396704/",
-      "Title": "Iran feuert Raketen auf Israel ab",
-      "PublishDate": "2025-06-13T20:44:36+02:00",
-      "Summary": "Der Iran hat Freitagabend Raketen auf Israel abgefeuert. In mehreren Landesteilen gab es Luftalarm, Medien meldeten mehr als 40 Verletzte. Israels Streitkräfte setzten ihre Angriffe unterdessen fort. Laut der israelischen Armee wurde dabei eine Atomanlage in der Stadt Isfahan „zerstört“. Nach iranischen Angaben starben bei den Angriffen 78 Menschen, darunter hochrangige Militärs.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396704/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396712/",
-      "Title": "Israelische Armee meldet Raketenbeschuss aus Iran",
-      "PublishDate": "2025-06-13T20:24:06+02:00",
+      "ItemId": "https://orf.at/stories/3411784/",
+      "Title": "Dänemark: Cyberattacken auf Parteien vor Wahlen",
+      "PublishDate": "2025-11-17T14:17:19+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396712/"
+      "Link": "https://orf.at/stories/3411784/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396706/",
-      "Title": "Bericht: US-Militär verlegt Zerstörer Richtung Israel",
-      "PublishDate": "2025-06-13T19:46:29+02:00",
+      "ItemId": "https://orf.at/stories/3411783/",
+      "Title": "Heuer bereits mehr Verkehrstote als im gesamten Vorjahr",
+      "PublishDate": "2025-11-17T14:10:08+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396706/"
+      "Link": "https://orf.at/stories/3411783/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396705/",
-      "Title": "Israel: Tötung von iranischer Führung „derzeit“ nicht geplant",
-      "PublishDate": "2025-06-13T19:31:30+02:00",
+      "ItemId": "https://orf.at/stories/3411778/",
+      "Title": "COP30: NGOs fordern konkrete Fortschritte",
+      "PublishDate": "2025-11-17T13:53:23+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396705/"
+      "Link": "https://orf.at/stories/3411778/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396703/",
-      "Title": "Neue israelische Angriffe gegen Iran",
-      "PublishDate": "2025-06-13T18:17:35+02:00",
+      "ItemId": "https://orf.at/stories/3411745/",
+      "Title": "EZB spricht deutliche Warnung aus",
+      "PublishDate": "2025-11-17T13:34:14+01:00",
+      "Summary": "Nach zahlreichen Fachleuten und Bedenken der Bank of England warnt nun auch die Europäische Zentralbank (EZB) vor starken Kursverlusten an den Börsen, die seit Monaten vom KI-Hype befeuert werden. EZB-Vizepräsident Luis de Guindos betonte am Montag: Plötzliche Kursverluste könnten zu Insolvenzen von privaten Fonds und Verlusten für deren Anlegerinnen und Anleger führen.",
+      "Content": null,
+      "Language": "de",
+      "Link": "https://orf.at/stories/3411745/"
+    },
+    {
+      "FeedId": "https://orf.at/",
+      "ItemId": "https://orf.at/stories/3411773/",
+      "Title": "Tschechien: Präsident Pavel im Clinch mit Babis",
+      "PublishDate": "2025-11-17T13:32:15+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396703/"
+      "Link": "https://orf.at/stories/3411773/"
     },
     {
       "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396700/",
-      "Title": "Überlebender schilderte Air-India-Absturz",
-      "PublishDate": "2025-06-13T17:40:56+02:00",
+      "ItemId": "https://orf.at/stories/3411771/",
+      "Title": "GRAS beendet ÖH-Koalition mit VSStÖ an Uni Wien",
+      "PublishDate": "2025-11-17T13:26:12+01:00",
       "Summary": null,
       "Content": null,
       "Language": "de",
-      "Link": "https://orf.at/stories/3396700/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396646/",
-      "Title": "Israels schwerer Schlag gegen Iran",
-      "PublishDate": "2025-06-13T17:37:40+02:00",
-      "Summary": "Nach dem schweren israelischen Angriff auf den Iran – der in weiteren Wellen fortgesetzt wird – werden langsam Details bekannt. 200 Kampfflugzeuge und Mossad-Agenten mitten im Iran waren am nächtlichen Erstschlag beteiligt. Der militärisch äußerst komplexe Angriff hat den Iran schwer getroffen. Offen ist, ob Israel mit der faktischen Kriegserklärung an Teheran sein zentrales Ziel erreichen kann.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396646/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396693/",
-      "Title": "Die Ziele der israelischen Armee im Iran",
-      "PublishDate": "2025-06-13T17:37:39+02:00",
-      "Summary": "Bei dem Überraschungsangriff auf den Iran hat Israel mehrere Atomanlagen attackiert, Nuklearwissenschaftler getötet sowie hochrangige Militärs. Israels Premier Benjamin Netanjahu sprach vom Start einer gezielten Militäroperation, die länger andauern werde. Der Iran wertete den Schlag als „Kriegserklärung“ durch Israel. Freitagabend meldete der Iran neue Angriffe.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396693/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396698/",
-      "Title": "Dringlichkeitssitzung des UNO-Sicherheitsrats zu Iran",
-      "PublishDate": "2025-06-13T17:10:47+02:00",
-      "Summary": null,
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396698/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396652/",
-      "Title": "Pro und Kontra vor Höchstgericht",
-      "PublishDate": "2025-06-13T16:47:16+02:00",
-      "Summary": "Gesunde Frauen dürfen ihre Eizellen in Österreich nicht für eine spätere Befruchtung einfrieren lassen. Mit der Frage, ob das Verbot des „Social Egg Freezing“ verfassungswidrig ist, beschäftigte sich am Freitag der Verfassungsgerichtshof (VfGH). Die Antragstellerin argumentiert mit dem Recht auf Achtung des Privat- und Familienlebens, die Regierung damit, dass niemand zu diesem Prozedere gedrängt werden soll. Mit einer Entscheidung vor dem Herbst ist nicht zu rechnen.",
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396652/"
-    },
-    {
-      "FeedId": "https://orf.at/",
-      "ItemId": "https://orf.at/stories/3396683/",
-      "Title": "Russland übergab 1.200 Kriegstote an Ukraine",
-      "PublishDate": "2025-06-13T15:35:32+02:00",
-      "Summary": null,
-      "Content": null,
-      "Language": "de",
-      "Link": "https://orf.at/stories/3396683/"
+      "Link": "https://orf.at/stories/3411771/"
     }
   ]
 }

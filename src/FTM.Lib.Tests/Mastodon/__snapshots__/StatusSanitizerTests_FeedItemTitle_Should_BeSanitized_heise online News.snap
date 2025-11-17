@@ -1,752 +1,767 @@
 ﻿[
   {
-    "itemId": "http://heise.de/-10446682",
-    "raw": "Datenzugang für Forscher: Gericht hebt Verfügung gegen X auf",
-    "sanitized": "Datenzugang für Forscher: Gericht hebt Verfügung gegen X auf"
+    "itemId": "http://heise.de/-11082155",
+    "raw": " ITU: Netzbevölkerung wächst, digitale Kluften bleiben",
+    "sanitized": "ITU: Netzbevölkerung wächst, digitale Kluften bleiben"
   },
   {
-    "itemId": "http://heise.de/-10435066",
-    "raw": "heise-Angebot: iX-Workshop IT-Sicherheit: Angriffstechniken verstehen und erfolgreich abwehren",
-    "sanitized": "heise-Angebot: iX-Workshop IT-Sicherheit: Angriffstechniken verstehen und erfolgreich abwehren"
+    "itemId": "http://heise.de/-11081954",
+    "raw": "Top 10: Das beste Heizkörperthermostat im Test",
+    "sanitized": "Top 10: Das beste Heizkörperthermostat im Test"
   },
   {
-    "itemId": "http://heise.de/-10440080",
-    "raw": "Bericht: Emissionen und Energiebedarf von Digitalunternehmen steigen weiter",
-    "sanitized": "Bericht: Emissionen und Energiebedarf von Digitalunternehmen steigen weiter"
+    "itemId": "http://heise.de/-11082016",
+    "raw": "Forschungszentrum Jülich feiert Europas ersten Exaflops-Supercomputer",
+    "sanitized": "Forschungszentrum Jülich feiert Europas ersten Exaflops-Supercomputer"
   },
   {
-    "itemId": "http://heise.de/-10443745",
-    "raw": "Developer Snapshots: Kleinere News der Woche  ",
-    "sanitized": "Developer Snapshots: Kleinere News der Woche"
+    "itemId": "http://heise.de/-11082120",
+    "raw": "EUFrequenzberater: Oberes 6-GHz-Band sollte dem Mobilfunk gewidmet werden",
+    "sanitized": "EUFrequenzberater: Oberes 6-GHz-Band sollte dem Mobilfunk gewidmet werden"
   },
   {
-    "itemId": "http://heise.de/-10444253",
-    "raw": "Wie KI die Open-Source-Entwicklung verändert",
-    "sanitized": "Wie KI die Open-Source-Entwicklung verändert"
+    "itemId": "http://heise.de/-11082116",
+    "raw": "Deutsch-französischer Digitalgipfel: Kooperation für sichere Cloud",
+    "sanitized": "Deutsch-französischer Digitalgipfel: Kooperation für sichere Cloud"
   },
   {
-    "itemId": "http://heise.de/-10444027",
-    "raw": "MCP-Monitoring und -Optimierung mit neuem Dienst von New Relic",
-    "sanitized": "MCP-Monitoring und -Optimierung mit neuem Dienst von New Relic"
+    "itemId": "http://heise.de/-11082108",
+    "raw": "Luna Halle: DLR probt die Suche nach Wassereis im Mondboden",
+    "sanitized": "Luna Halle: DLR probt die Suche nach Wassereis im Mondboden"
   },
   {
-    "itemId": "http://heise.de/-10443099",
-    "raw": "Von ruhiger Natur und Großstadt-Trubel: Die Bilder der Woche 23 ",
-    "sanitized": "Von ruhiger Natur und Großstadt-Trubel: Die Bilder der Woche 23"
+    "itemId": "http://heise.de/-11082028",
+    "raw": "X Chat: Überarbeiteter Messenger mit Verschlüsselung",
+    "sanitized": "X Chat: Überarbeiteter Messenger mit Verschlüsselung"
   },
   {
-    "itemId": "http://heise.de/-10443481",
-    "raw": "Weg von Google Drive, Dropbox & Co.: Online-Services selbst hosten | c’t uplink",
-    "sanitized": "Weg von Google Drive, Dropbox & Co.: Online-Services selbst hosten | c’t uplink"
+    "itemId": "http://heise.de/-11039523",
+    "raw": "heise+ | Kali Linux 2025-3 mit GenAI und MCP zur einfachen Penteststeuerung im Test",
+    "sanitized": "heise+ | Kali Linux 2025-3 mit GenAI und MCP zur einfachen Penteststeuerung im Test"
   },
   {
-    "itemId": "http://heise.de/-10446574",
-    "raw": "Top 5: Das beste ferngesteuerte Boot im Test – bis zu 45 km/h mit RC-Speedboot",
-    "sanitized": "Top 5: Das beste ferngesteuerte Boot im Test – bis zu 45 km/h mit RC-Speedboot"
+    "itemId": "http://heise.de/-11081195",
+    "raw": "3D-Druck mit Holz",
+    "sanitized": "3D-Druck mit Holz"
   },
   {
-    "itemId": "http://heise.de/-10446656",
-    "raw": "Online-Dienst \"Mein Justizpostfach\": Offenbar massive Datenschutzlücken",
-    "sanitized": "Online-Dienst \"Mein Justizpostfach\": Offenbar massive Datenschutzlücken"
+    "itemId": "http://heise.de/-11081958",
+    "raw": "Finanzminister  fordert in Peking fairen Wettbewerb",
+    "sanitized": "Finanzminister  fordert in Peking fairen Wettbewerb"
   },
   {
-    "itemId": "http://heise.de/-10446628",
-    "raw": " Tesla unterschreibt Wasservertrag zu Recycling in Grünheide",
-    "sanitized": "Tesla unterschreibt Wasservertrag zu Recycling in Grünheide"
+    "itemId": "http://heise.de/-11081747",
+    "raw": "\"Marvel’s Deadpool VR\" ist ein schwer auszuhaltendes Feuerwerk für Meta Quest 3",
+    "sanitized": "\"Marvel’s Deadpool VR\" ist ein schwer auszuhaltendes Feuerwerk für Meta Quest 3"
   },
   {
-    "itemId": "http://heise.de/-10446624",
-    "raw": "Peer-to-Peer-WLAN auf Anordnung der EU: Apple integriert Wi-Fi Aware",
-    "sanitized": "Peer-to-Peer-WLAN auf Anordnung der EU: Apple integriert Wi-Fi Aware"
+    "itemId": "http://heise.de/-11081873",
+    "raw": "Datenschutz-Reform: EU-Staaten einigen sich auf schnellere DSGVO-Durchsetzung",
+    "sanitized": "Datenschutz-Reform: EU-Staaten einigen sich auf schnellere DSGVO-Durchsetzung"
   },
   {
-    "itemId": "http://heise.de/-10446586",
-    "raw": "EU-Kommission: Milliarden für Ausbau der Atomkraft notwendig",
-    "sanitized": "EU-Kommission: Milliarden für Ausbau der Atomkraft notwendig"
+    "itemId": "http://heise.de/-11081897",
+    "raw": "Motorola Razr 60 im Test: Klapphandy als Preis-Leistungs-Sieger",
+    "sanitized": "Motorola Razr 60 im Test: Klapphandy als Preis-Leistungs-Sieger"
   },
   {
-    "itemId": "http://heise.de/-10446492",
-    "raw": "Neue PC-Spiele im Juli 2025: \"Tony Hawk’s Pro Skater 3+4\"",
-    "sanitized": "Neue PC-Spiele im Juli 2025: \"Tony Hawk’s Pro Skater 3+4\""
+    "itemId": "http://heise.de/-11081728",
+    "raw": "Mit Android 17: Google ermöglicht einfache Installation alternativer App-Stores",
+    "sanitized": "Mit Android 17: Google ermöglicht einfache Installation alternativer App-Stores"
   },
   {
-    "itemId": "http://heise.de/-10444454",
-    "raw": "OpenAI und Mattel wollen KI-Spielzeug für Kinder auf den Markt bringen",
-    "sanitized": "OpenAI und Mattel wollen KI-Spielzeug für Kinder auf den Markt bringen"
+    "itemId": "http://heise.de/-11081809",
+    "raw": "Lufthansa Technik macht den Tisch im Flugzeug zum Touchscreen",
+    "sanitized": "Lufthansa Technik macht den Tisch im Flugzeug zum Touchscreen"
   },
   {
-    "itemId": "http://heise.de/-10446528",
-    "raw": "Venu X1: Garmins dünnste Sportuhr mit großem AMOLED-Display",
-    "sanitized": "Venu X1: Garmins dünnste Sportuhr mit großem AMOLED-Display"
+    "itemId": "http://heise.de/-11081606",
+    "raw": "Cyberangriffe erschüttern Börsen: Massive finanzielle Folgen",
+    "sanitized": "Cyberangriffe erschüttern Börsen: Massive finanzielle Folgen"
   },
   {
-    "itemId": "http://heise.de/-10444400",
-    "raw": "Ottocast Car TV Mate Pro Max im Test: Adapter für Streaming-Stick im Auto",
-    "sanitized": "Ottocast Car TV Mate Pro Max im Test: Adapter für Streaming-Stick im Auto"
+    "itemId": "http://heise.de/-10639671",
+    "raw": "heise+ | Vorsicht Kunde: IT-Chaos bei der Münchner Verkehrsgesellschaft",
+    "sanitized": "heise+ | Vorsicht Kunde: IT-Chaos bei der Münchner Verkehrsgesellschaft"
   },
   {
-    "itemId": "http://heise.de/-10443299",
-    "raw": "\"7 Days to Die\" 2.0: Der Sturm zieht herauf",
-    "sanitized": "\"7 Days to Die\" 2.0: Der Sturm zieht herauf"
+    "itemId": "http://heise.de/-11081075",
+    "raw": "KI-Update kompakt: KI-Cyberattacke, Firefox KI-Fenster, Prometheus, AI-Racing",
+    "sanitized": "KI-Update kompakt: KI-Cyberattacke, Firefox KI-Fenster, Prometheus, AI-Racing"
   },
   {
-    "itemId": "http://heise.de/-10444392",
-    "raw": "Android: Google erschwert die Entwicklung von Custom-ROMs",
-    "sanitized": "Android: Google erschwert die Entwicklung von Custom-ROMs"
+    "itemId": "http://heise.de/-11081532",
+    "raw": "Washington Post: Daten von rund 10.000 Menschen bei IT-Einbruch kopiert",
+    "sanitized": "Washington Post: Daten von rund 10.000 Menschen bei IT-Einbruch kopiert"
   },
   {
-    "itemId": "http://heise.de/-10444245",
-    "raw": "Kinderschutz: iOS 26 und Co. erweitern Funktionen für Eltern",
-    "sanitized": "Kinderschutz: iOS 26 und Co. erweitern Funktionen für Eltern"
+    "itemId": "http://heise.de/-11081462",
+    "raw": "LibrePods: \"Volle\" AirPods-Unterstützung für Android braucht Root",
+    "sanitized": "LibrePods: \"Volle\" AirPods-Unterstützung für Android braucht Root"
   },
   {
-    "itemId": "http://heise.de/-10445520",
-    "raw": "Cloud-Ausfall: Fehlerhaftes Update für API-Quoten laut Google die Ursache",
-    "sanitized": "Cloud-Ausfall: Fehlerhaftes Update für API-Quoten laut Google die Ursache"
+    "itemId": "http://heise.de/-11080715",
+    "raw": "Elektro-Roller Zero LS1: Günstiger Einstieg",
+    "sanitized": "Elektro-Roller Zero LS1: Günstiger Einstieg"
   },
   {
-    "itemId": "http://heise.de/-10444350",
-    "raw": "KI-Update kompakt: V-Jepa-2, Sicherheitslücke in KI-Agent, Hirnfäule, Nvidia",
-    "sanitized": "KI-Update kompakt: V-Jepa-2, Sicherheitslücke in KI-Agent, Hirnfäule, Nvidia"
+    "itemId": "http://heise.de/-11081502",
+    "raw": "Hohe DRAM- und Flash-Preise bremsen Verkäufe von Notebooks, Smartphones und PCs",
+    "sanitized": "Hohe DRAM- und Flash-Preise bremsen Verkäufe von Notebooks, Smartphones und PCs"
   },
   {
-    "itemId": "http://heise.de/-10445092",
-    "raw": "PCs: AMD, Intel und PC-Hersteller haben offenbar kein Interesse an PCIe 6.0",
-    "sanitized": "PCs: AMD, Intel und PC-Hersteller haben offenbar kein Interesse an PCIe 6.0"
+    "itemId": "http://heise.de/-11081570",
+    "raw": "Lidl-Mutter Schwarz-Gruppe baut KI-Rechenzentrum für 11 Milliarden Euro",
+    "sanitized": "Lidl-Mutter Schwarz-Gruppe baut KI-Rechenzentrum für 11 Milliarden Euro"
   },
   {
-    "itemId": "http://heise.de/-10444406",
-    "raw": "Abgasbetrug: VW entgeht nach Behördenpanne einem Millionen-Bußgeld",
-    "sanitized": "Abgasbetrug: VW entgeht nach Behördenpanne einem Millionen-Bußgeld"
+    "itemId": "http://heise.de/-11073198",
+    "raw": "heise-Angebot: iX-Workshop: Einführung in die SAP Business Technology Platform (BTP)",
+    "sanitized": "heise-Angebot: iX-Workshop: Einführung in die SAP Business Technology Platform (BTP)"
   },
   {
-    "itemId": "http://heise.de/-10443985",
-    "raw": "Elektroauto-Neuvorstellung Peugeot e-208 GTi: Nachfolger im Geiste",
-    "sanitized": "Elektroauto-Neuvorstellung Peugeot e-208 GTi: Nachfolger im Geiste"
+    "itemId": "http://heise.de/-11081439",
+    "raw": "Apple baut iPhone-Zeitplan um: Nicht mehr alles im September",
+    "sanitized": "Apple baut iPhone-Zeitplan um: Nicht mehr alles im September"
   },
   {
-    "itemId": "http://heise.de/-10444330",
-    "raw": "Phishing und Passwort-Klau: Bösartige Skripte im Mail-Anhang als Vektorgrafik",
-    "sanitized": "Phishing und Passwort-Klau: Bösartige Skripte im Mail-Anhang als Vektorgrafik"
+    "itemId": "http://heise.de/-10674767",
+    "raw": "heise+ | Anker Solix: Power Dock bündelt bis zu vier Balkonkraftwerke zum Multisystem",
+    "sanitized": "heise+ | Anker Solix: Power Dock bündelt bis zu vier Balkonkraftwerke zum Multisystem"
   },
   {
-    "itemId": "http://heise.de/-10444528",
-    "raw": "c't 3003: Eure Fragen zu Homeservern LIVE",
-    "sanitized": "c't 3003: Eure Fragen zu Homeservern LIVE"
+    "itemId": "http://heise.de/-11081472",
+    "raw": "Microsoft aktualisiert Windows 11 23H2 automatisch auf 25H2",
+    "sanitized": "Microsoft aktualisiert Windows 11 23H2 automatisch auf 25H2"
   },
   {
-    "itemId": "http://heise.de/-10443511",
-    "raw": "Liquid Glass in iOS 26: Apple erlaubt Reduktion der Durchsichtigkeit",
-    "sanitized": "Liquid Glass in iOS 26: Apple erlaubt Reduktion der Durchsichtigkeit"
+    "itemId": "http://heise.de/-11081005",
+    "raw": "XPipe 19: SSH-Manager unterstützt nun auch alte Unix-Systeme",
+    "sanitized": "XPipe 19: SSH-Manager unterstützt nun auch alte Unix-Systeme"
   },
   {
-    "itemId": "http://heise.de/-10435074",
-    "raw": "heise-Angebot: iX-Workshop: Nach dem Einbruch – Digital Forensics & Incident Response (DFIR)",
-    "sanitized": "heise-Angebot: iX-Workshop: Nach dem Einbruch – Digital Forensics & Incident Response (DFIR)"
+    "itemId": "http://heise.de/-11081227",
+    "raw": "Europol-Aktionstag gegen Radikalisierung auf Spieleplattformen",
+    "sanitized": "Europol-Aktionstag gegen Radikalisierung auf Spieleplattformen"
   },
   {
-    "itemId": "http://heise.de/-10444318",
-    "raw": "Cisco-KI löst, Mensch entscheidet – die Zukunft des Netzwerk-Troubleshooting?",
-    "sanitized": "Cisco-KI löst, Mensch entscheidet – die Zukunft des Netzwerk-Troubleshooting?"
+    "itemId": "http://heise.de/-11081219",
+    "raw": "ZDF: Abschaltung der SD-Kanäle steht bevor",
+    "sanitized": "ZDF: Abschaltung der SD-Kanäle steht bevor"
   },
   {
-    "itemId": "http://heise.de/-10444133",
-    "raw": "#TGIQF: Das Quiz rund um den Newsticker der Juniwoche",
-    "sanitized": "#TGIQF: Das Quiz rund um den Newsticker der Juniwoche"
+    "itemId": "http://heise.de/-11074848",
+    "raw": "heise-Angebot: Live-Webinar: Den Arbeitsalltag rechtssicher mit KI erleichtern",
+    "sanitized": "heise-Angebot: Live-Webinar: Den Arbeitsalltag rechtssicher mit KI erleichtern"
   },
   {
-    "itemId": "http://heise.de/-10435060",
-    "raw": "heise-Angebot: iX-Workshop: Hands-on Migration von VMware zu Proxmox",
-    "sanitized": "heise-Angebot: iX-Workshop: Hands-on Migration von VMware zu Proxmox"
+    "itemId": "http://heise.de/-11081293",
+    "raw": "Esa-Generaldirektor Aschbacher will ein Budget von 22 Milliarden Euro",
+    "sanitized": "Esa-Generaldirektor Aschbacher will ein Budget von 22 Milliarden Euro"
   },
   {
-    "itemId": "http://heise.de/-10443345",
-    "raw": "heise+ | heise+ Update vom 13. Juni 2025: Lesetipps zum Wochenende",
-    "sanitized": "heise+ | heise+ Update vom 13. Juni 2025: Lesetipps zum Wochenende"
+    "itemId": "http://heise.de/-11080801",
+    "raw": "Die Produktwerker: 300. Jubiläumsfolge – So hat sich Product Ownership verändert",
+    "sanitized": "Die Produktwerker: 300. Jubiläumsfolge – So hat sich Product Ownership verändert"
   },
   {
-    "itemId": "http://heise.de/-10442569",
-    "raw": "Neues Disk-Image-Format für macOS 15 und 26 legt den Turbo ein",
-    "sanitized": "Neues Disk-Image-Format für macOS 15 und 26 legt den Turbo ein"
+    "itemId": "http://heise.de/-11080950",
+    "raw": "Dank KI: Komplette Milchstraße inklusive ihrer 100 Milliarden Sterne simuliert",
+    "sanitized": "Dank KI: Komplette Milchstraße inklusive ihrer 100 Milliarden Sterne simuliert"
   },
   {
-    "itemId": "http://heise.de/-10443873",
-    "raw": "Biontechs Onkologie-Strategie: Nach Übernahme von Biotheus soll Curevac folgen",
-    "sanitized": "Biontechs Onkologie-Strategie: Nach Übernahme von Biotheus soll Curevac folgen"
+    "itemId": "http://heise.de/-11080987",
+    "raw": "Race Team der TU München sichert sich erneut Titel der Autonomous Racing League",
+    "sanitized": "Race Team der TU München sichert sich erneut Titel der Autonomous Racing League"
   },
   {
-    "itemId": "http://heise.de/-10443493",
-    "raw": "iOS 26: KI weiter nur für iPhone 15 Pro und neuer, auch andere Features fehlen",
-    "sanitized": "iOS 26: KI weiter nur für iPhone 15 Pro und neuer, auch andere Features fehlen"
+    "itemId": "http://heise.de/-11080489",
+    "raw": "Zweiter Mann hinter Tim Cook: Ex-COO Jeff Williams verabschiedet",
+    "sanitized": "Zweiter Mann hinter Tim Cook: Ex-COO Jeff Williams verabschiedet"
   },
   {
-    "itemId": "http://heise.de/-10443923",
-    "raw": "Neues Google-Tool: E-Mails einfach von Exchange Online zu Gmail migrieren",
-    "sanitized": "Neues Google-Tool: E-Mails einfach von Exchange Online zu Gmail migrieren"
+    "itemId": "http://heise.de/-11080815",
+    "raw": "ABS: Warum die Sicherheitstechnik bei E-Bikes kaum genutzt wird",
+    "sanitized": "ABS: Warum die Sicherheitstechnik bei E-Bikes kaum genutzt wird"
   },
   {
-    "itemId": "http://heise.de/-10443723",
-    "raw": "E-Mobilität: US-Präsident will Kaliforniens Verbrenner-Ausstieg verhindern",
-    "sanitized": "E-Mobilität: US-Präsident will Kaliforniens Verbrenner-Ausstieg verhindern"
+    "itemId": "http://heise.de/-11080739",
+    "raw": "Ubuntu: Linux-Distribution liefert 15 Jahre Support",
+    "sanitized": "Ubuntu: Linux-Distribution liefert 15 Jahre Support"
   },
   {
-    "itemId": "http://heise.de/-10443507",
-    "raw": "Hintertürpflicht für britische Lauscher: WhatsApp will Apple helfen",
-    "sanitized": "Hintertürpflicht für britische Lauscher: WhatsApp will Apple helfen"
+    "itemId": "http://heise.de/-11081039",
+    "raw": "Überfahrene Katze erregt Kritik an Waymo",
+    "sanitized": "Überfahrene Katze erregt Kritik an Waymo"
   },
   {
-    "itemId": "http://heise.de/-10441198",
-    "raw": "heise-Angebot: c't-Workshop: Microsoft 365 methodisch klug organisieren ",
-    "sanitized": "heise-Angebot: c't-Workshop: Microsoft 365 methodisch klug organisieren"
+    "itemId": "http://heise.de/-11081019",
+    "raw": "Tape-Backup: LTO-10 erhöht auf 40 TByte",
+    "sanitized": "Tape-Backup: LTO-10 erhöht auf 40 TByte"
   },
   {
-    "itemId": "http://heise.de/-10443815",
-    "raw": "Sicherheitslücken in GitLab: Angreifer können Accounts übernehmen",
-    "sanitized": "Sicherheitslücken in GitLab: Angreifer können Accounts übernehmen"
+    "itemId": "http://heise.de/-11080077",
+    "raw": "Dickes Schwergewicht: Legt Apple beim iPhone 18 Pro Max nochmal einen drauf?",
+    "sanitized": "Dickes Schwergewicht: Legt Apple beim iPhone 18 Pro Max nochmal einen drauf?"
   },
   {
-    "itemId": "http://heise.de/-10443541",
-    "raw": "SAS: Mit der Unreal Engine zur effizienteren Industrie",
-    "sanitized": "SAS: Mit der Unreal Engine zur effizienteren Industrie"
+    "itemId": "http://heise.de/-11076932",
+    "raw": "heise-Angebot: Last Call: MCP verstehen und KI-Agenten im Alltag nutzen – das c't-Webinar",
+    "sanitized": "heise-Angebot: Last Call: MCP verstehen und KI-Agenten im Alltag nutzen – das c't-Webinar"
   },
   {
-    "itemId": "http://heise.de/-10425423",
-    "raw": "visionOS-Support für Sonys Sense-Controller: Ja, aber...",
-    "sanitized": "visionOS-Support für Sonys Sense-Controller: Ja, aber..."
+    "itemId": "http://heise.de/-11080607",
+    "raw": "Mehrere Sicherheitslücken bedrohen Cisco Catalyst Center",
+    "sanitized": "Mehrere Sicherheitslücken bedrohen Cisco Catalyst Center"
   },
   {
-    "itemId": "http://heise.de/-10443719",
-    "raw": "HP Dimension: Googles 3D-Videokonferenzlösung Beam hat einen hohen Preis",
-    "sanitized": "HP Dimension: Googles 3D-Videokonferenzlösung Beam hat einen hohen Preis"
+    "itemId": "http://heise.de/-11080791",
+    "raw": "Bundestag gibt 4,47 Milliarden Euro fürs Digitalministerium in 2026 frei",
+    "sanitized": "Bundestag gibt 4,47 Milliarden Euro fürs Digitalministerium in 2026 frei"
   },
   {
-    "itemId": "http://heise.de/-10441375",
-    "raw": ".NET 10.0 Preview 5 bringt XAML-Vereinfachungen und Post-Quanten-Kryptographie",
-    "sanitized": ".NET 10.0 Preview 5 bringt XAML-Vereinfachungen und Post-Quanten-Kryptographie"
+    "itemId": "http://heise.de/-11080775",
+    "raw": "IOEMA: Deutschland soll wieder per Unterseekabel angeschlossen werden",
+    "sanitized": "IOEMA: Deutschland soll wieder per Unterseekabel angeschlossen werden"
   },
   {
-    "itemId": "http://heise.de/-10443685",
-    "raw": "Humanoide Roboterhände: Tesla verklagt Ex-Ingenieur wegen Geheimnisklau",
-    "sanitized": "Humanoide Roboterhände: Tesla verklagt Ex-Ingenieur wegen Geheimnisklau"
+    "itemId": "http://heise.de/-11080743",
+    "raw": "Samsung erhöht RAM-Preise um bis zu 60 Prozent",
+    "sanitized": "Samsung erhöht RAM-Preise um bis zu 60 Prozent"
   },
   {
-    "itemId": "http://heise.de/-10443085",
-    "raw": "Software Testing: Synthetische Testdaten",
-    "sanitized": "Software Testing: Synthetische Testdaten"
+    "itemId": "http://heise.de/-11080677",
+    "raw": "InkPoster: E-Ink-Bilderrahmen von PocketBook jetzt erhältlich",
+    "sanitized": "InkPoster: E-Ink-Bilderrahmen von PocketBook jetzt erhältlich"
   },
   {
-    "itemId": "http://heise.de/-10443131",
-    "raw": "Eclipse IDE 2025-06 verbessert das Schreiben und Debuggen von Java-Code",
-    "sanitized": "Eclipse IDE 2025-06 verbessert das Schreiben und Debuggen von Java-Code"
+    "itemId": "http://heise.de/-11080601",
+    "raw": "Thunderbird 145 bringt native Exchange-Unterstützung mit",
+    "sanitized": "Thunderbird 145 bringt native Exchange-Unterstützung mit"
   },
   {
-    "itemId": "http://heise.de/-10427084",
-    "raw": "Neu in .NET 9.0 [25]: Einstellungen für die Komprimierung mit ZLib und Brotli",
-    "sanitized": "Neu in .NET 9.0 [25]: Einstellungen für die Komprimierung mit ZLib und Brotli"
+    "itemId": "http://heise.de/-11080577",
+    "raw": "Gruppenchat der EU auf Signal: Geheimabsprachen auf normalem Messenger?",
+    "sanitized": "Gruppenchat der EU auf Signal: Geheimabsprachen auf normalem Messenger?"
   },
   {
-    "itemId": "http://heise.de/-10443465",
-    "raw": "Cisco-Switches: Mehr Sicherheit – auch wenn es noch keine Patches gibt",
-    "sanitized": "Cisco-Switches: Mehr Sicherheit – auch wenn es noch keine Patches gibt"
+    "itemId": "http://heise.de/-11080597",
+    "raw": "Deutsches Robotikunternehmen Kuka will nun insgesamt 560 Stellen streichen",
+    "sanitized": "Deutsches Robotikunternehmen Kuka will nun insgesamt 560 Stellen streichen"
   },
   {
-    "itemId": "http://heise.de/-10435026",
-    "raw": "heise-Angebot: iX-Workshop: PowerShell für Systemadministratoren - Effiziente Automatisierung",
-    "sanitized": "heise-Angebot: iX-Workshop: PowerShell für Systemadministratoren - Effiziente Automatisierung"
+    "itemId": "http://heise.de/-11079611",
+    "raw": "Digitale Souveränität: Nein! – Doch! – Oh! ",
+    "sanitized": "Digitale Souveränität: Nein! – Doch! – Oh!"
   },
   {
-    "itemId": "http://heise.de/-10443659",
-    "raw": "Meta investiert 14,3 Milliarden US-Dollar für 49 Prozent von Scale AI",
-    "sanitized": "Meta investiert 14,3 Milliarden US-Dollar für 49 Prozent von Scale AI"
+    "itemId": "http://heise.de/-11079348",
+    "raw": "Dynamisches Apple-Netzteil in mehr Regionen – wann kommt die EU-Version?",
+    "sanitized": "Dynamisches Apple-Netzteil in mehr Regionen – wann kommt die EU-Version?"
   },
   {
-    "itemId": "http://heise.de/-10442648",
-    "raw": "Kommentar: Das Ende des Internets, wie wir es kennen",
-    "sanitized": "Kommentar: Das Ende des Internets, wie wir es kennen"
-  },
-  {
-    "itemId": "http://heise.de/-10443399",
-    "raw": "Microsoft-Alternative: Öffentlicher Gesundheitsdienst setzt auf Open Source",
-    "sanitized": "Microsoft-Alternative: Öffentlicher Gesundheitsdienst setzt auf Open Source"
-  },
-  {
-    "itemId": "http://heise.de/-10443633",
-    "raw": "Deutscher Wetterdienst: Hitzetage sind nicht normal",
-    "sanitized": "Deutscher Wetterdienst: Hitzetage sind nicht normal"
-  },
-  {
-    "itemId": "http://heise.de/-10443627",
-    "raw": "Freitag: Cloud-Störungen bei Google und Cloudflare, Anker mit Powerbank-Rückruf",
-    "sanitized": "Freitag: Cloud-Störungen bei Google und Cloudflare, Anker mit Powerbank-Rückruf"
-  },
-  {
-    "itemId": "http://heise.de/-10440764",
-    "raw": "Auslegungssache 136: Bayerischer Datenschutz im Fokus",
-    "sanitized": "Auslegungssache 136: Bayerischer Datenschutz im Fokus"
-  },
-  {
-    "itemId": "http://heise.de/-10443611",
-    "raw": "Anker ruft über 1,1 Millionen Powerbanks zurück wegen Brandgefahr",
-    "sanitized": "Anker ruft über 1,1 Millionen Powerbanks zurück wegen Brandgefahr"
-  },
-  {
-    "itemId": "http://heise.de/-10443529",
-    "raw": "Massive Cloud-Ausfälle bei Google und Cloudflare legten US-Dienste lahm",
-    "sanitized": "Massive Cloud-Ausfälle bei Google und Cloudflare legten US-Dienste lahm"
-  },
-  {
-    "itemId": "http://heise.de/-10443305",
-    "raw": "Trotzdem beliebt: Waymo-Robotaxis sind teurer, kommen später als die Konkurrenz",
-    "sanitized": "Trotzdem beliebt: Waymo-Robotaxis sind teurer, kommen später als die Konkurrenz"
-  },
-  {
-    "itemId": "http://heise.de/-10443443",
-    "raw": "Umfrage: Ein Viertel der Studenten nutzt täglich KI  ",
-    "sanitized": "Umfrage: Ein Viertel der Studenten nutzt täglich KI"
-  },
-  {
-    "itemId": "http://heise.de/-10443161",
-    "raw": "Quantencomputer mit Fehlerkorrektur bis 2028: IBM mit ambitionierter Roadmap",
-    "sanitized": "Quantencomputer mit Fehlerkorrektur bis 2028: IBM mit ambitionierter Roadmap"
-  },
-  {
-    "itemId": "http://heise.de/-10442505",
-    "raw": "Instinct MI350X/MI355X: AMD opfert Compute- für KI-Rechenleistung",
-    "sanitized": "Instinct MI350X/MI355X: AMD opfert Compute- für KI-Rechenleistung"
-  },
-  {
-    "itemId": "http://heise.de/-10443157",
-    "raw": "\"Zombie Army VR\" ausprobiert: Mittelmaß in einem überlaufenen Genre",
-    "sanitized": "\"Zombie Army VR\" ausprobiert: Mittelmaß in einem überlaufenen Genre"
-  },
-  {
-    "itemId": "http://heise.de/-10443335",
-    "raw": "Mobile Klimaanlage ohne Abluftschlauch: Was leisten Verdunstungskühler ab 20 €?",
-    "sanitized": "Mobile Klimaanlage ohne Abluftschlauch: Was leisten Verdunstungskühler ab 20 €?"
-  },
-  {
-    "itemId": "http://heise.de/-10443411",
-    "raw": "Großes Update: CarPlay mit iOS 26 verspricht nützliche Neuerungen",
-    "sanitized": "Großes Update: CarPlay mit iOS 26 verspricht nützliche Neuerungen"
-  },
-  {
-    "itemId": "http://heise.de/-10443311",
-    "raw": "GINT XT: Bahn und Mobilfunker wollen Highspeed-Internet in den Zug bringen",
-    "sanitized": "GINT XT: Bahn und Mobilfunker wollen Highspeed-Internet in den Zug bringen"
-  },
-  {
-    "itemId": "http://heise.de/-10443231",
-    "raw": "Beschädigtes Unterseekabel vor Taiwan: Kapitän aus China verurteilt",
-    "sanitized": "Beschädigtes Unterseekabel vor Taiwan: Kapitän aus China verurteilt"
-  },
-  {
-    "itemId": "http://heise.de/-10443153",
-    "raw": "FreeBSD 14.3 mit großen Fortschritten beim WiFi-Stack",
-    "sanitized": "FreeBSD 14.3 mit großen Fortschritten beim WiFi-Stack"
-  },
-  {
-    "itemId": "http://heise.de/-10443057",
-    "raw": "Forscher warnen vor Engpässen bei Lithiumversorgung in Europa, China und den USA",
-    "sanitized": "Forscher warnen vor Engpässen bei Lithiumversorgung in Europa, China und den USA"
-  },
-  {
-    "itemId": "http://heise.de/-10443050",
-    "raw": "E-Auto: Ford beginnt in Köln mit Akkufertigung für E-Modelle Explorer und Capri",
-    "sanitized": "E-Auto: Ford beginnt in Köln mit Akkufertigung für E-Modelle Explorer und Capri"
-  },
-  {
-    "itemId": "http://heise.de/-10442812",
-    "raw": "KI-Agenten und No-Code-Pipelines: Databricks Agent Bricks und Lakeflow Designer",
-    "sanitized": "KI-Agenten und No-Code-Pipelines: Databricks Agent Bricks und Lakeflow Designer"
-  },
-  {
-    "itemId": "http://heise.de/-10442115",
-    "raw": "Krankenhausreform: Gesellschaft für Telemedizin warnt vor Versorgungslücken",
-    "sanitized": "Krankenhausreform: Gesellschaft für Telemedizin warnt vor Versorgungslücken"
-  },
-  {
-    "itemId": "http://heise.de/-10442832",
-    "raw": "Geekom Mini IT13 2025-Edition im Test: Mini-PC mit Intel i9, 2 TB SSD & USB-4",
-    "sanitized": "Geekom Mini IT13 2025-Edition im Test: Mini-PC mit Intel i9, 2 TB SSD & USB-4"
-  },
-  {
-    "itemId": "http://heise.de/-10442085",
-    "raw": "Einweg-Vapes:  EU-Verbot macht beliebten \"Gratis-Akkus für Maker\" den Garaus",
-    "sanitized": "Einweg-Vapes:  EU-Verbot macht beliebten \"Gratis-Akkus für Maker\" den Garaus"
-  },
-  {
-    "itemId": "http://heise.de/-10442605",
-    "raw": "Um KI-Arbeit zu finanzieren: Google verkleinert auch Teams für Suche und Werbung",
-    "sanitized": "Um KI-Arbeit zu finanzieren: Google verkleinert auch Teams für Suche und Werbung"
-  },
-  {
-    "itemId": "http://heise.de/-10442194",
-    "raw": "Palo Alto stopft hochriskante Lücken in PAN-OS und GlobalProtect",
-    "sanitized": "Palo Alto stopft hochriskante Lücken in PAN-OS und GlobalProtect"
-  },
-  {
-    "itemId": "http://heise.de/-10442421",
-    "raw": "Pixel 6a kann zu heiß werden: Google reduziert mit Update die Akkukapazität",
-    "sanitized": "Pixel 6a kann zu heiß werden: Google reduziert mit Update die Akkukapazität"
-  },
-  {
-    "itemId": "http://heise.de/-10441455",
-    "raw": "Sicherheitsupdates: Löchriger Schutz von Trend Micro gefährdet PCs",
-    "sanitized": "Sicherheitsupdates: Löchriger Schutz von Trend Micro gefährdet PCs"
-  },
-  {
-    "itemId": "http://heise.de/-10434753",
-    "raw": "heise-Angebot: iX-Workshop: Lokales Active Directory gegen Angriffe absichern ",
-    "sanitized": "heise-Angebot: iX-Workshop: Lokales Active Directory gegen Angriffe absichern"
-  },
-  {
-    "itemId": "http://heise.de/-10437898",
-    "raw": "Ab Herbst: Telefonie auf Mac und iPad, besserer Spam-Schutz für Nachrichten-App",
-    "sanitized": "Ab Herbst: Telefonie auf Mac und iPad, besserer Spam-Schutz für Nachrichten-App"
-  },
-  {
-    "itemId": "http://heise.de/-10441855",
-    "raw": "\"Igitt\": Test mit KI-generierten Zusammenfassungen auf Wikipedia gestoppt",
-    "sanitized": "\"Igitt\": Test mit KI-generierten Zusammenfassungen auf Wikipedia gestoppt"
-  },
-  {
-    "itemId": "http://heise.de/-10437918",
-    "raw": "\"Clear\": Durchsichtige Icons neben hellen und dunklen in iOS 26 – doch warum?",
-    "sanitized": "\"Clear\": Durchsichtige Icons neben hellen und dunklen in iOS 26 – doch warum?"
-  },
-  {
-    "itemId": "http://heise.de/-10442009",
-    "raw": "ESA-Sonde Solar Orbiter fotografiert erstmals solaren Südpol",
-    "sanitized": "ESA-Sonde Solar Orbiter fotografiert erstmals solaren Südpol"
-  },
-  {
-    "itemId": "http://heise.de/-10441859",
-    "raw": "Roundcube Webmail: Mehr als 10.000 verwundbare Instanzen in Deutschland",
-    "sanitized": "Roundcube Webmail: Mehr als 10.000 verwundbare Instanzen in Deutschland"
-  },
-  {
-    "itemId": "http://heise.de/-10441777",
-    "raw": "Disney und Universal klagen gegen Midjourney: Urheberrecht auf Figuren",
-    "sanitized": "Disney und Universal klagen gegen Midjourney: Urheberrecht auf Figuren"
-  },
-  {
-    "itemId": "http://heise.de/-10441439",
-    "raw": "Thunderbird: HTML-Mails können Zugangsdaten verraten, Update verfügbar",
-    "sanitized": "Thunderbird: HTML-Mails können Zugangsdaten verraten, Update verfügbar"
-  },
-  {
-    "itemId": "http://heise.de/-10439792",
-    "raw": "heise-Angebot: Gute Arbeit beginnt bei dir – Denkanstoß mit Marion King ",
-    "sanitized": "heise-Angebot: Gute Arbeit beginnt bei dir – Denkanstoß mit Marion King"
-  },
-  {
-    "itemId": "http://heise.de/-10441713",
-    "raw": "Fujifilm X-E5: Kompakte Systemkamera mit 40 Megapixeln und neuem 23-mm-Objektiv",
-    "sanitized": "Fujifilm X-E5: Kompakte Systemkamera mit 40 Megapixeln und neuem 23-mm-Objektiv"
-  },
-  {
-    "itemId": "http://heise.de/-10440119",
-    "raw": "software-architektur.tv: Architekturtheater mit Claude und Ralf ",
-    "sanitized": "software-architektur.tv: Architekturtheater mit Claude und Ralf"
-  },
-  {
-    "itemId": "http://heise.de/-10440967",
-    "raw": "Apple-Softwarechef: Kontextsensitive Siri war keine Vaporware",
-    "sanitized": "Apple-Softwarechef: Kontextsensitive Siri war keine Vaporware"
-  },
-  {
-    "itemId": "http://heise.de/-10441108",
-    "raw": "Fortinet: Angreifer können VPN-Verbindungen umleiten",
-    "sanitized": "Fortinet: Angreifer können VPN-Verbindungen umleiten"
-  },
-  {
-    "itemId": "http://heise.de/-10441423",
-    "raw": "Drohnenbekämpfung: KI-Feuerleitsystem für Gewehre vereinfacht Zielerfassung",
-    "sanitized": "Drohnenbekämpfung: KI-Feuerleitsystem für Gewehre vereinfacht Zielerfassung"
-  },
-  {
-    "itemId": "http://heise.de/-10441417",
-    "raw": "Studie: Zunehmende Motorhauben-Höhe gefährdet ungeschützte Verkehrsteilnehmer",
-    "sanitized": "Studie: Zunehmende Motorhauben-Höhe gefährdet ungeschützte Verkehrsteilnehmer"
-  },
-  {
-    "itemId": "http://heise.de/-10441295",
-    "raw": "Dia: Neuer KI-Browser der Arc-Macher geht in die Betaphase",
-    "sanitized": "Dia: Neuer KI-Browser der Arc-Macher geht in die Betaphase"
-  },
-  {
-    "itemId": "http://heise.de/-10441321",
-    "raw": "Digitale Zensur von Intimer Gesundheit: Frauenthemen unerwünscht",
-    "sanitized": "Digitale Zensur von Intimer Gesundheit: Frauenthemen unerwünscht"
-  },
-  {
-    "itemId": "http://heise.de/-10437914",
-    "raw": "Spieleprogramm: Was bezweckt Apple mit der Games-App für iOS, iPadOS und macOS?",
-    "sanitized": "Spieleprogramm: Was bezweckt Apple mit der Games-App für iOS, iPadOS und macOS?"
-  },
-  {
-    "itemId": "http://heise.de/-10441359",
-    "raw": "\"Dune Awakening\" angespielt: Wie ich lernte, die Wüste zu hassen",
-    "sanitized": "\"Dune Awakening\" angespielt: Wie ich lernte, die Wüste zu hassen"
-  },
-  {
-    "itemId": "http://heise.de/-10441277",
-    "raw": "Für etwa 122 Millionen Euro: Chinesische Firma kauft Beyerdynamic",
-    "sanitized": "Für etwa 122 Millionen Euro: Chinesische Firma kauft Beyerdynamic"
-  },
-  {
-    "itemId": "http://heise.de/-10439543",
-    "raw": "heise-Angebot: c't-Webinar:  Jira für Einsteiger – Projekte strukturiert organisieren",
-    "sanitized": "heise-Angebot: c't-Webinar:  Jira für Einsteiger – Projekte strukturiert organisieren"
-  },
-  {
-    "itemId": "http://heise.de/-10441317",
-    "raw": "CCC: Gesammelte Ausweisdaten von Übernachtungsdienstleister Numa gefunden",
-    "sanitized": "CCC: Gesammelte Ausweisdaten von Übernachtungsdienstleister Numa gefunden"
-  },
-  {
-    "itemId": "http://heise.de/-10441104",
-    "raw": "Meta veröffentlicht V-Jepa 2 – ein KI-Weltmodell",
-    "sanitized": "Meta veröffentlicht V-Jepa 2 – ein KI-Weltmodell"
-  },
-  {
-    "itemId": "http://heise.de/-10440481",
-    "raw": "Datenschutz: Tätigkeitsberichte verdeutlichen Sorgen um KI-Überwachungspraktiken",
-    "sanitized": "Datenschutz: Tätigkeitsberichte verdeutlichen Sorgen um KI-Überwachungspraktiken"
-  },
-  {
-    "itemId": "http://heise.de/-10441168",
-    "raw": "Amazon soll Werbung bei Prime Video verdoppelt haben",
-    "sanitized": "Amazon soll Werbung bei Prime Video verdoppelt haben"
-  },
-  {
-    "itemId": "http://heise.de/-10436190",
-    "raw": "256 GByte/s auch über Kabel: PCI Express 7.0 ist fertig",
-    "sanitized": "256 GByte/s auch über Kabel: PCI Express 7.0 ist fertig"
-  },
-  {
-    "itemId": "http://heise.de/-10441116",
-    "raw": "America's Got Talent: Boston Dynamics lässt Spot-Roboter tanzen, Panne inklusive",
-    "sanitized": "America's Got Talent: Boston Dynamics lässt Spot-Roboter tanzen, Panne inklusive"
-  },
-  {
-    "itemId": "http://heise.de/-10441092",
-    "raw": "Microsoft: Windows-11-24H2-Update durch Update außer der Reihe ersetzt",
-    "sanitized": "Microsoft: Windows-11-24H2-Update durch Update außer der Reihe ersetzt"
-  },
-  {
-    "itemId": "http://heise.de/-10435007",
+    "itemId": "http://heise.de/-11073190",
     "raw": "heise-Angebot: iX-Workshop: Microsoft 365 Copilot für IT-Administratoren",
     "sanitized": "heise-Angebot: iX-Workshop: Microsoft 365 Copilot für IT-Administratoren"
   },
   {
-    "itemId": "http://heise.de/-10441070",
-    "raw": "Rekrutierungsplattform: Wie sich Jugendliche durch Computerspiele radikalisieren",
-    "sanitized": "Rekrutierungsplattform: Wie sich Jugendliche durch Computerspiele radikalisieren"
+    "itemId": "http://heise.de/-11080543",
+    "raw": "Techbranche und BDI fordern vor Gipfel mehr Reformtempo",
+    "sanitized": "Techbranche und BDI fordern vor Gipfel mehr Reformtempo"
   },
   {
-    "itemId": "http://heise.de/-10441046",
-    "raw": "\"Unberechenbar und willkürlich\": Warum Apple sich immer mehr über die EU ärgert",
-    "sanitized": "\"Unberechenbar und willkürlich\": Warum Apple sich immer mehr über die EU ärgert"
+    "itemId": "http://heise.de/-11080515",
+    "raw": "Patentstreit: US-Jury verhängt 634 Millionen US-Dollar Strafe gegen Apple",
+    "sanitized": "Patentstreit: US-Jury verhängt 634 Millionen US-Dollar Strafe gegen Apple"
   },
   {
-    "itemId": "http://heise.de/-10441050",
-    "raw": "Donnerstag: Apotheken mit mehr Freiheiten, KI-Agenten mit Sicherheitslücken",
-    "sanitized": "Donnerstag: Apotheken mit mehr Freiheiten, KI-Agenten mit Sicherheitslücken"
+    "itemId": "http://heise.de/-10712472",
+    "raw": "Raspberry Pi als universeller Helfer im Netzwerk",
+    "sanitized": "Raspberry Pi als universeller Helfer im Netzwerk"
   },
   {
-    "itemId": "http://heise.de/-10441034",
-    "raw": "Kritische Sicherheitslücke in Microsoft 365 Copilot zeigt Risiko von KI-Agenten",
-    "sanitized": "Kritische Sicherheitslücke in Microsoft 365 Copilot zeigt Risiko von KI-Agenten"
+    "itemId": "http://heise.de/-11080493",
+    "raw": "Montag: Musk-Klage gegen Apple & OpenAI, Raumgleiter-Test ohne Zukunftsaussicht",
+    "sanitized": "Montag: Musk-Klage gegen Apple & OpenAI, Raumgleiter-Test ohne Zukunftsaussicht"
   },
   {
-    "itemId": "http://heise.de/-10441006",
-    "raw": "Größter Sandspeicher für Fernwärme steht in Finnland",
-    "sanitized": "Größter Sandspeicher für Fernwärme steht in Finnland"
+    "itemId": "http://heise.de/-11080475",
+    "raw": "Dream Chaser: Entwicklung des Raumgleiters geht trotz ungewisser Zukunft weiter",
+    "sanitized": "Dream Chaser: Entwicklung des Raumgleiters geht trotz ungewisser Zukunft weiter"
   },
   {
-    "itemId": "http://heise.de/-10440907",
-    "raw": "Versandapotheke scheitert mit Antrag gegen automatische Auswahl von Konkurrenten",
-    "sanitized": "Versandapotheke scheitert mit Antrag gegen automatische Auswahl von Konkurrenten"
+    "itemId": "http://heise.de/-11079555",
+    "raw": "Top 10: Die beste Sportuhr im Test – Garmin vor Huawei & Polar",
+    "sanitized": "Top 10: Die beste Sportuhr im Test – Garmin vor Huawei & Polar"
   },
   {
-    "itemId": "http://heise.de/-10440824",
-    "raw": "Die richtige Klimaanlage kaufen – Mobil, Split & Monoblock-Klimageräte ab 150 €",
-    "sanitized": "Die richtige Klimaanlage kaufen – Mobil, Split & Monoblock-Klimageräte ab 150 €"
+    "itemId": "http://heise.de/-11080412",
+    "raw": "Apple und OpenAI müssen sich der Klage Elon Musks stellen",
+    "sanitized": "Apple und OpenAI müssen sich der Klage Elon Musks stellen"
   },
   {
-    "itemId": "http://heise.de/-10440836",
-    "raw": "Überwachen statt Löschen: Innenminister wollen Missbrauchsbilder online lassen",
-    "sanitized": "Überwachen statt Löschen: Innenminister wollen Missbrauchsbilder online lassen"
+    "itemId": "http://heise.de/-11080369",
+    "raw": "Kritische Sicherheitslücke: Angreifer können DSL-Router von Asus übernehmen",
+    "sanitized": "Kritische Sicherheitslücke: Angreifer können DSL-Router von Asus übernehmen"
   },
   {
-    "itemId": "http://heise.de/-10440828",
-    "raw": "Europol: Datendiebstahl ist Big Business und eine erhebliche Bedrohung",
-    "sanitized": "Europol: Datendiebstahl ist Big Business und eine erhebliche Bedrohung"
+    "itemId": "http://heise.de/-11080384",
+    "raw": "SAP ist optimistisch bei EU-Wettbewerbsverfahren",
+    "sanitized": "SAP ist optimistisch bei EU-Wettbewerbsverfahren"
   },
   {
-    "itemId": "http://heise.de/-10440796",
-    "raw": "Südkoreanische Forscher bauen Elektromotor ohne Metall",
-    "sanitized": "Südkoreanische Forscher bauen Elektromotor ohne Metall"
+    "itemId": "http://heise.de/-11080097",
+    "raw": "Huawei erweitert Cloud-Kapazität in Europa und hat neue Speicher-Modelle",
+    "sanitized": "Huawei erweitert Cloud-Kapazität in Europa und hat neue Speicher-Modelle"
   },
   {
-    "itemId": "http://heise.de/-10440519",
-    "raw": "Die Produktwerker: Wenn Strukturen die Produktentwicklung behindern ",
-    "sanitized": "Die Produktwerker: Wenn Strukturen die Produktentwicklung behindern"
+    "itemId": "http://heise.de/-11080361",
+    "raw": "Sicherheitslücken: Attacken auf Dell Alienware Command Center möglich",
+    "sanitized": "Sicherheitslücken: Attacken auf Dell Alienware Command Center möglich"
   },
   {
-    "itemId": "http://heise.de/-10440774",
-    "raw": "Neues Fenstersystem: iPadOS 26 streicht offenbar beliebten Multitasking-Modus",
-    "sanitized": "Neues Fenstersystem: iPadOS 26 streicht offenbar beliebten Multitasking-Modus"
+    "itemId": "http://heise.de/-11080237",
+    "raw": "Günstiger Laptop Blackview Acebook 6 ab 270 Euro im Test",
+    "sanitized": "Günstiger Laptop Blackview Acebook 6 ab 270 Euro im Test"
   },
   {
-    "itemId": "http://heise.de/-10440734",
-    "raw": "Nvidias PC-Prozessor N1X im Geekbench",
-    "sanitized": "Nvidias PC-Prozessor N1X im Geekbench"
+    "itemId": "http://heise.de/-11080333",
+    "raw": "Angreifer steigen über Zero-Day-Lücke bei Logitech ein",
+    "sanitized": "Angreifer steigen über Zero-Day-Lücke bei Logitech ein"
   },
   {
-    "itemId": "http://heise.de/-10440714",
-    "raw": "RCS und Telefon: Apple räumt den Standard-Platz in der EU",
-    "sanitized": "RCS und Telefon: Apple räumt den Standard-Platz in der EU"
+    "itemId": "http://heise.de/-11080329",
+    "raw": "Sam Altman: ChatGPT macht weniger Gedankenstriche ",
+    "sanitized": "Sam Altman: ChatGPT macht weniger Gedankenstriche"
   },
   {
-    "itemId": "http://heise.de/-10440555",
-    "raw": "Liquid Glass überall: Erste Analyse von iOS 26 & Co.",
-    "sanitized": "Liquid Glass überall: Erste Analyse von iOS 26 & Co."
+    "itemId": "http://heise.de/-11080021",
+    "raw": "Arista und Palo Alto tun sich zusammen für Rechenzentrums-Sicherheit",
+    "sanitized": "Arista und Palo Alto tun sich zusammen für Rechenzentrums-Sicherheit"
   },
   {
-    "itemId": "http://heise.de/-10440341",
-    "raw": "Android 16: Google bohrt den Desktopmodus auf",
-    "sanitized": "Android 16: Google bohrt den Desktopmodus auf"
+    "itemId": "http://heise.de/-11080212",
+    "raw": "Autonome KI-Cyberattacke: Hat sie wirklich so stattgefunden?",
+    "sanitized": "Autonome KI-Cyberattacke: Hat sie wirklich so stattgefunden?"
   },
   {
-    "itemId": "http://heise.de/-10440283",
-    "raw": "Acer Iconia X12 im Test: Tablet mit OLED-Display für knapp über 300 Euro",
-    "sanitized": "Acer Iconia X12 im Test: Tablet mit OLED-Display für knapp über 300 Euro"
+    "itemId": "http://heise.de/-11080261",
+    "raw": "Apple-CEO Tim Cook könnte kommendes Jahr aufhören",
+    "sanitized": "Apple-CEO Tim Cook könnte kommendes Jahr aufhören"
   },
   {
-    "itemId": "http://heise.de/-10440447",
-    "raw": "TÜV-Umfrage: Großteil der Unternehmen glaubt an eigene IT-Sicherheit, BSI nicht",
-    "sanitized": "TÜV-Umfrage: Großteil der Unternehmen glaubt an eigene IT-Sicherheit, BSI nicht"
+    "itemId": "http://heise.de/-10966365",
+    "raw": "heise-Angebot: iX-Workshop Cyber Deception: Angreifer mit Honeypots gezielt in die Falle locken",
+    "sanitized": "heise-Angebot: iX-Workshop Cyber Deception: Angreifer mit Honeypots gezielt in die Falle locken"
   },
   {
-    "itemId": "http://heise.de/-10440393",
-    "raw": "Elektro-Kleinbus Kia PV5 Passenger: Kia gibt Preise bekannt ",
-    "sanitized": "Elektro-Kleinbus Kia PV5 Passenger: Kia gibt Preise bekannt"
+    "itemId": "http://heise.de/-11080231",
+    "raw": "Internetfreiheit im freien Fall: Deutschland verliert in globalem Vergleich",
+    "sanitized": "Internetfreiheit im freien Fall: Deutschland verliert in globalem Vergleich"
   },
   {
-    "itemId": "http://heise.de/-10440337",
-    "raw": "Cloud: Herkunftsland des Anbieters wird immer wichtiger",
-    "sanitized": "Cloud: Herkunftsland des Anbieters wird immer wichtiger"
+    "itemId": "http://heise.de/-11080063",
+    "raw": "Lange Datenträgerauswertung: Gerichte erkennen Verstoß gegen Grundrechte",
+    "sanitized": "Lange Datenträgerauswertung: Gerichte erkennen Verstoß gegen Grundrechte"
   },
   {
-    "itemId": "http://heise.de/-10438955",
-    "raw": "KI-Update: Meta- und Apple-KI-News, AR-Brille von Snap, EU-KI-Verordnung",
-    "sanitized": "KI-Update: Meta- und Apple-KI-News, AR-Brille von Snap, EU-KI-Verordnung"
+    "itemId": "http://heise.de/-11069429",
+    "raw": "Meta investierte 100 Milliarden Dollar ins Metaverse – Wo bleibt es?",
+    "sanitized": "Meta investierte 100 Milliarden Dollar ins Metaverse – Wo bleibt es?"
   },
   {
-    "itemId": "http://heise.de/-10440016",
-    "raw": "UEFI-BIOS-Lücken: SecureBoot-Umgehung und Firmware-Austausch möglich",
-    "sanitized": "UEFI-BIOS-Lücken: SecureBoot-Umgehung und Firmware-Austausch möglich"
+    "itemId": "http://heise.de/-11080073",
+    "raw": " Kinderhilfswerk: Entschieden gegen Social-Media-Verbot für Kinder",
+    "sanitized": "Kinderhilfswerk: Entschieden gegen Social-Media-Verbot für Kinder"
   },
   {
-    "itemId": "http://heise.de/-10440293",
-    "raw": "Live-Fußball: Wow erhöht Preis fürs Monatsabo deutlich",
-    "sanitized": "Live-Fußball: Wow erhöht Preis fürs Monatsabo deutlich"
+    "itemId": "http://heise.de/-11079853",
+    "raw": "Top 10: Balkonkraftwerk mit Speicher im Test – so günstig wie nie",
+    "sanitized": "Top 10: Balkonkraftwerk mit Speicher im Test – so günstig wie nie"
   },
   {
-    "itemId": "http://heise.de/-10393082",
-    "raw": "heise-Angebot: iX-Workshop: Microsoft Teams - Sicherheit und Effizienz in der Administration",
-    "sanitized": "heise-Angebot: iX-Workshop: Microsoft Teams - Sicherheit und Effizienz in der Administration"
+    "itemId": "http://heise.de/-11079939",
+    "raw": "Bundeskanzler Merz: \"Werden keine Komponenten aus China im 6G-Netz zulassen\"",
+    "sanitized": "Bundeskanzler Merz: \"Werden keine Komponenten aus China im 6G-Netz zulassen\""
   },
   {
-    "itemId": "http://heise.de/-10440251",
-    "raw": "Großbritannien: Medienaufsicht prüft mögliche Gesetzesverstöße bei 4chan",
-    "sanitized": "Großbritannien: Medienaufsicht prüft mögliche Gesetzesverstöße bei 4chan"
+    "itemId": "http://heise.de/-11079489",
+    "raw": "Amazfit Balance 2 im Test: Elegante Sportuhr überzeugt",
+    "sanitized": "Amazfit Balance 2 im Test: Elegante Sportuhr überzeugt"
   },
   {
-    "itemId": "http://heise.de/-10437814",
-    "raw": "Apple-Paper: Warum Reasoning-Modelle wohl nicht denken",
-    "sanitized": "Apple-Paper: Warum Reasoning-Modelle wohl nicht denken"
+    "itemId": "http://heise.de/-11079981",
+    "raw": "Cyberangriff: Bundestagspolizei warnt Fraktionen vor gefährlichen USB-Sticks",
+    "sanitized": "Cyberangriff: Bundestagspolizei warnt Fraktionen vor gefährlichen USB-Sticks"
   },
   {
-    "itemId": "http://heise.de/-10439878",
-    "raw": "Fiber-to-the-Room: Glasfaser bis in jedes einzelne Zimmer",
-    "sanitized": "Fiber-to-the-Room: Glasfaser bis in jedes einzelne Zimmer"
+    "itemId": "http://heise.de/-11079869",
+    "raw": "Smarte Brille \"Inmo Air 3\" ist ein vollwertiger Android-Computer auf der Nase",
+    "sanitized": "Smarte Brille \"Inmo Air 3\" ist ein vollwertiger Android-Computer auf der Nase"
   },
   {
-    "itemId": "http://heise.de/-10440187",
-    "raw": "Nvidia will sich in der europäischen KI-Welt verankern",
-    "sanitized": "Nvidia will sich in der europäischen KI-Welt verankern"
+    "itemId": "http://heise.de/-11078622",
+    "raw": "heise-Angebot: Minds Mastering Machines 2026: Jetzt noch Vortrag für die Konferenz einreichen",
+    "sanitized": "heise-Angebot: Minds Mastering Machines 2026: Jetzt noch Vortrag für die Konferenz einreichen"
   },
   {
-    "itemId": "http://heise.de/-10440100",
-    "raw": "US-Bundesstaaten klagen gegen 23andMe-Verkauf",
-    "sanitized": "US-Bundesstaaten klagen gegen 23andMe-Verkauf"
+    "itemId": "http://heise.de/-11079826",
+    "raw": "diVine: Twitter-Gründer bringt Kurzvideo-App Vine zurück und verbietet KI-Videos",
+    "sanitized": "diVine: Twitter-Gründer bringt Kurzvideo-App Vine zurück und verbietet KI-Videos"
   },
   {
-    "itemId": "http://heise.de/-10439736",
-    "raw": "Neue Funktionen für KI, Netzwerk und Java-Projekte mit Docker Desktop 4.2",
-    "sanitized": "Neue Funktionen für KI, Netzwerk und Java-Projekte mit Docker Desktop 4.2"
+    "itemId": "http://heise.de/-11079845",
+    "raw": "Bahnchefin stellt Fahrgäste auf zahlreiche ungeplante Baustellen ein",
+    "sanitized": "Bahnchefin stellt Fahrgäste auf zahlreiche ungeplante Baustellen ein"
   },
   {
-    "itemId": "http://heise.de/-10439980",
-    "raw": "Blaue Laserlichtmuster steuern weichen Roboterarm",
-    "sanitized": "Blaue Laserlichtmuster steuern weichen Roboterarm"
+    "itemId": "http://heise.de/-11079834",
+    "raw": "Microsoft 365 in Hessen: Grünes Licht ohne technische Untersuchung",
+    "sanitized": "Microsoft 365 in Hessen: Grünes Licht ohne technische Untersuchung"
   },
   {
-    "itemId": "http://heise.de/-9741114",
-    "raw": "heise+ | Urlaub mit dem Elektroauto: Was Sie beim Laden im Ausland beachten sollten",
-    "sanitized": "heise+ | Urlaub mit dem Elektroauto: Was Sie beim Laden im Ausland beachten sollten"
+    "itemId": "http://heise.de/-11079451",
+    "raw": "Wie der BGH mit einem 70er-Jahre-Gesetz die digitale Weiterbildung lahmlegt",
+    "sanitized": "Wie der BGH mit einem 70er-Jahre-Gesetz die digitale Weiterbildung lahmlegt"
   },
   {
-    "itemId": "http://heise.de/-10438066",
-    "raw": "heise-Angebot: secIT digital 2025: Hilfreiche Fakten für Backup-Strategien und gegen Vishing",
-    "sanitized": "heise-Angebot: secIT digital 2025: Hilfreiche Fakten für Backup-Strategien und gegen Vishing"
+    "itemId": "http://heise.de/-10966415",
+    "raw": "heise-Angebot: iX-Workshop: Deep Dive in die OpenAI API – KI in eigene Anwendungen integrieren",
+    "sanitized": "heise-Angebot: iX-Workshop: Deep Dive in die OpenAI API – KI in eigene Anwendungen integrieren"
   },
   {
-    "itemId": "http://heise.de/-10439133",
-    "raw": "macOS 26: Nativer Container-Support freut Developer – und nicht nur die",
-    "sanitized": "macOS 26: Nativer Container-Support freut Developer – und nicht nur die"
+    "itemId": "http://heise.de/-11077081",
+    "raw": "heise-Angebot: Embedded Testing Conference: Jetzt Vorträge einreichen",
+    "sanitized": "heise-Angebot: Embedded Testing Conference: Jetzt Vorträge einreichen"
   },
   {
-    "itemId": "http://heise.de/-10439962",
-    "raw": "Lobbyverband Acea verlangt Aufweichung der EU-Emissionsgrenzwerte auch für Lkw",
-    "sanitized": "Lobbyverband Acea verlangt Aufweichung der EU-Emissionsgrenzwerte auch für Lkw"
+    "itemId": "http://heise.de/-11079678",
+    "raw": "Passwort-Manager Bitwarden: Update stellt Biometrie-Log-in wieder her",
+    "sanitized": "Passwort-Manager Bitwarden: Update stellt Biometrie-Log-in wieder her"
   },
   {
-    "itemId": "http://heise.de/-10439804",
-    "raw": "Altman: ChatGPT ist mächtiger als jeder Mensch, der je lebte",
-    "sanitized": "Altman: ChatGPT ist mächtiger als jeder Mensch, der je lebte"
+    "itemId": "http://heise.de/-11078734",
+    "raw": "Softwarearchitekt: \"Ein gutes Framework sollte einfach zu verwenden sein\"",
+    "sanitized": "Softwarearchitekt: \"Ein gutes Framework sollte einfach zu verwenden sein\""
   },
   {
-    "itemId": "http://heise.de/-10439702",
-    "raw": "Social Media: Was den Pinguinen ihre Kiesel sind Menschen online süße Tierfotos",
-    "sanitized": "Social Media: Was den Pinguinen ihre Kiesel sind Menschen online süße Tierfotos"
+    "itemId": "http://heise.de/-11079750",
+    "raw": "Ärzte & Apotheker erleichtert: Frist für neue E-Heilberufsausweise verlängert",
+    "sanitized": "Ärzte & Apotheker erleichtert: Frist für neue E-Heilberufsausweise verlängert"
   },
   {
-    "itemId": "http://heise.de/-10439613",
-    "raw": "Android 16 ist fertig: Mit Live-Updates, aber ohne Material 3 Expressive",
-    "sanitized": "Android 16 ist fertig: Mit Live-Updates, aber ohne Material 3 Expressive"
+    "itemId": "http://heise.de/-11078459",
+    "raw": "Developer Snapshots: Kleinere News der Woche",
+    "sanitized": "Developer Snapshots: Kleinere News der Woche"
   },
   {
-    "itemId": "http://heise.de/-10439145",
-    "raw": "Endlich Fenster-Management: iPadOS 26 als neues Traum-Betriebssystem?",
-    "sanitized": "Endlich Fenster-Management: iPadOS 26 als neues Traum-Betriebssystem?"
+    "itemId": "http://heise.de/-11078790",
+    "raw": "Natürliche Schönheit und künstlerischer Blickwinkel – die Bilder der Woche 46",
+    "sanitized": "Natürliche Schönheit und künstlerischer Blickwinkel – die Bilder der Woche 46"
   },
   {
-    "itemId": "http://heise.de/-10438855",
-    "raw": "GUI-Frameworks für .NET – Teil 4: Webframeworks",
-    "sanitized": "GUI-Frameworks für .NET – Teil 4: Webframeworks"
+    "itemId": "http://heise.de/-11076058",
+    "raw": "Post Quantum Cryptography | c’t uplink",
+    "sanitized": "Post Quantum Cryptography | c’t uplink"
   },
   {
-    "itemId": "http://heise.de/-10439852",
-    "raw": "Elektroauto: Erste Fahreindrücke aus einem Vorserien-BMW iX3 50 xDrive",
-    "sanitized": "Elektroauto: Erste Fahreindrücke aus einem Vorserien-BMW iX3 50 xDrive"
+    "itemId": "http://heise.de/-11079633",
+    "raw": "Top 10: Das beste Handy-Ladegerät bis 65 Watt im Test",
+    "sanitized": "Top 10: Das beste Handy-Ladegerät bis 65 Watt im Test"
   },
   {
-    "itemId": "http://heise.de/-10439485",
-    "raw": "iOS 26: Nutzer witzeln über Vista-Look – und klagen über schlechte Lesbarkeit",
-    "sanitized": "iOS 26: Nutzer witzeln über Vista-Look – und klagen über schlechte Lesbarkeit"
+    "itemId": "http://heise.de/-11079565",
+    "raw": "E-Mobilität: Bundestag macht Weg frei für bidirektionales Laden",
+    "sanitized": "E-Mobilität: Bundestag macht Weg frei für bidirektionales Laden"
+  },
+  {
+    "itemId": "http://heise.de/-11079541",
+    "raw": "Galaxy XR im Einsatz, Muse-Pencil für die Vision Pro | TNBT-Podcast",
+    "sanitized": "Galaxy XR im Einsatz, Muse-Pencil für die Vision Pro | TNBT-Podcast"
+  },
+  {
+    "itemId": "http://heise.de/-11079240",
+    "raw": "Mozilla kündigt \"KI-Fenster\" für Firefox an ",
+    "sanitized": "Mozilla kündigt \"KI-Fenster\" für Firefox an"
+  },
+  {
+    "itemId": "http://heise.de/-11079469",
+    "raw": "PC-Speichermodul mit 128 GByte für Dual-Slot-Mainboards",
+    "sanitized": "PC-Speichermodul mit 128 GByte für Dual-Slot-Mainboards"
+  },
+  {
+    "itemId": "http://heise.de/-11079422",
+    "raw": "AMD nimmt Intel weitere x86-Marktanteile ab",
+    "sanitized": "AMD nimmt Intel weitere x86-Marktanteile ab"
+  },
+  {
+    "itemId": "http://heise.de/-11074437",
+    "raw": "Zubehör für Apple-User: Juice Packs für neue iPhones, dünne \"Wo ist?\"-Karte",
+    "sanitized": "Zubehör für Apple-User: Juice Packs für neue iPhones, dünne \"Wo ist?\"-Karte"
+  },
+  {
+    "itemId": "http://heise.de/-11078678",
+    "raw": "KubeCon: Fortschritte, aber auch mehr Arbeit bei Cloud-Native und Cybersecurity",
+    "sanitized": "KubeCon: Fortschritte, aber auch mehr Arbeit bei Cloud-Native und Cybersecurity"
+  },
+  {
+    "itemId": "http://heise.de/-11079384",
+    "raw": "Heizkörperthermostat Meross MTS150 im Test",
+    "sanitized": "Heizkörperthermostat Meross MTS150 im Test"
+  },
+  {
+    "itemId": "http://heise.de/-11079206",
+    "raw": "Nvidia DGX Spark: Ist das wirklich der KI-\"Supercomputer\"?",
+    "sanitized": "Nvidia DGX Spark: Ist das wirklich der KI-\"Supercomputer\"?"
+  },
+  {
+    "itemId": "http://heise.de/-11079022",
+    "raw": "Neue PC-Spiele im Dezember 2025: \"Terminator 2D: No Fate\"",
+    "sanitized": "Neue PC-Spiele im Dezember 2025: \"Terminator 2D: No Fate\""
+  },
+  {
+    "itemId": "http://heise.de/-11078346",
+    "raw": "KI-Update: GPT-5.1, Maschinen menschlich machen, Definierte KI, Anthropic-Invest",
+    "sanitized": "KI-Update: GPT-5.1, Maschinen menschlich machen, Definierte KI, Anthropic-Invest"
+  },
+  {
+    "itemId": "http://heise.de/-11079117",
+    "raw": "Nokia plant Schließung des Standorts München bis 2030",
+    "sanitized": "Nokia plant Schließung des Standorts München bis 2030"
+  },
+  {
+    "itemId": "http://heise.de/-11079113",
+    "raw": "Cybergang cl0p will Daten von Carglass, Fluke und NHS erbeutet haben",
+    "sanitized": "Cybergang cl0p will Daten von Carglass, Fluke und NHS erbeutet haben"
+  },
+  {
+    "itemId": "http://heise.de/-11079002",
+    "raw": "Kein Zusatzabo mehr: Major League Soccer bald Teil von Apple TV",
+    "sanitized": "Kein Zusatzabo mehr: Major League Soccer bald Teil von Apple TV"
+  },
+  {
+    "itemId": "http://heise.de/-10966405",
+    "raw": "heise-Angebot: iX-Workshop: AWS-Sicherheit - Angriffe erkennen und abwehren",
+    "sanitized": "heise-Angebot: iX-Workshop: AWS-Sicherheit - Angriffe erkennen und abwehren"
+  },
+  {
+    "itemId": "http://heise.de/-11076303",
+    "raw": "Für Vision Pro: Set mit PSVR2 Sense Controller und Ladestation im US-Handel",
+    "sanitized": "Für Vision Pro: Set mit PSVR2 Sense Controller und Ladestation im US-Handel"
+  },
+  {
+    "itemId": "http://heise.de/-11079074",
+    "raw": "Ozlo Sleepbuds im Test: Top-Schlafkopfhörer für Seitenschläfer",
+    "sanitized": "Ozlo Sleepbuds im Test: Top-Schlafkopfhörer für Seitenschläfer"
+  },
+  {
+    "itemId": "http://heise.de/-11079046",
+    "raw": "WhatsApp: Chats mit ersten anderen Messengern möglich",
+    "sanitized": "WhatsApp: Chats mit ersten anderen Messengern möglich"
+  },
+  {
+    "itemId": "http://heise.de/-11078930",
+    "raw": "#TGIQF: Das Quiz rund um Supercomputer",
+    "sanitized": "#TGIQF: Das Quiz rund um Supercomputer"
+  },
+  {
+    "itemId": "http://heise.de/-11077937",
+    "raw": "heise+ | heise+ Update vom 14. November 2025: Lesetipps zum Wochenende",
+    "sanitized": "heise+ | heise+ Update vom 14. November 2025: Lesetipps zum Wochenende"
+  },
+  {
+    "itemId": "http://heise.de/-11074782",
+    "raw": "Samsungs SmartThings bekommen mehr Siri",
+    "sanitized": "Samsungs SmartThings bekommen mehr Siri"
+  },
+  {
+    "itemId": "http://heise.de/-11078614",
+    "raw": "Konflikt zum Standardmodell der Kosmologie: Das Sonnensystem ist viel zu schnell",
+    "sanitized": "Konflikt zum Standardmodell der Kosmologie: Das Sonnensystem ist viel zu schnell"
+  },
+  {
+    "itemId": "http://heise.de/-11078720",
+    "raw": "Schuko-Stecker offiziell solartauglich: DIN für Balkonkraftwerke ist fertig",
+    "sanitized": "Schuko-Stecker offiziell solartauglich: DIN für Balkonkraftwerke ist fertig"
+  },
+  {
+    "itemId": "http://heise.de/-11078626",
+    "raw": "Autodesk 3ds Max: Präparierte JPG-Datei kann Schadcode auf Systeme schieben",
+    "sanitized": "Autodesk 3ds Max: Präparierte JPG-Datei kann Schadcode auf Systeme schieben"
+  },
+  {
+    "itemId": "http://heise.de/-11078686",
+    "raw": "Elektroautos von Mercedes: Plan für den Weg an die Spitze",
+    "sanitized": "Elektroautos von Mercedes: Plan für den Weg an die Spitze"
+  },
+  {
+    "itemId": "http://heise.de/-11077543",
+    "raw": "heise-Angebot: Jetzt schon buchen und sparen: Die heise security Tour 2026 – Wissen schützt!",
+    "sanitized": "heise-Angebot: Jetzt schon buchen und sparen: Die heise security Tour 2026 – Wissen schützt!"
+  },
+  {
+    "itemId": "http://heise.de/-11070843",
+    "raw": "Ausprobiert: Apples neues Dual-Band aus Strickgewebe an alter Vision Pro",
+    "sanitized": "Ausprobiert: Apples neues Dual-Band aus Strickgewebe an alter Vision Pro"
+  },
+  {
+    "itemId": "http://heise.de/-11078646",
+    "raw": "Anonymisierendes Linux: Tails 7.2 mit dezenter Versionspflege",
+    "sanitized": "Anonymisierendes Linux: Tails 7.2 mit dezenter Versionspflege"
+  },
+  {
+    "itemId": "http://heise.de/-11078638",
+    "raw": "Bastler installiert Minecraft-Server auf Smarthome-Lampe",
+    "sanitized": "Bastler installiert Minecraft-Server auf Smarthome-Lampe"
+  },
+  {
+    "itemId": "http://heise.de/-11078318",
+    "raw": "Spring Framework 7 bringt neues Konzept für Null Safety und setzt auf Java 25",
+    "sanitized": "Spring Framework 7 bringt neues Konzept für Null Safety und setzt auf Java 25"
+  },
+  {
+    "itemId": "http://heise.de/-11078079",
+    "raw": "Apple einigt sich mit WeChat, erlaubt Mini-Apps gegen Provision",
+    "sanitized": "Apple einigt sich mit WeChat, erlaubt Mini-Apps gegen Provision"
+  },
+  {
+    "itemId": "http://heise.de/-11078424",
+    "raw": "Idealo vs. Google: Suchmaschine zu 465 Millionen Euro Schadenersatz verurteilt",
+    "sanitized": "Idealo vs. Google: Suchmaschine zu 465 Millionen Euro Schadenersatz verurteilt"
+  },
+  {
+    "itemId": "http://heise.de/-11078354",
+    "raw": "Aus Softwarefehlern lernen – Teil 8: Rundungs- und Gleitkommafehler",
+    "sanitized": "Aus Softwarefehlern lernen – Teil 8: Rundungs- und Gleitkommafehler"
+  },
+  {
+    "itemId": "http://heise.de/-11078282",
+    "raw": "KI-Quellen sicher einbinden – JFrog kündigt MCP Registry an",
+    "sanitized": "KI-Quellen sicher einbinden – JFrog kündigt MCP Registry an"
+  },
+  {
+    "itemId": "http://heise.de/-11078439",
+    "raw": "Nexperia-Krise: Neue Warnung vor Produktionsstopps, ungewöhnliche Gegenmaßnahmen",
+    "sanitized": "Nexperia-Krise: Neue Warnung vor Produktionsstopps, ungewöhnliche Gegenmaßnahmen"
+  },
+  {
+    "itemId": "http://heise.de/-10966411",
+    "raw": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
+    "sanitized": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren"
+  },
+  {
+    "itemId": "http://heise.de/-11078404",
+    "raw": "Belkin ruft Produkte wegen Brandgefahr zurück",
+    "sanitized": "Belkin ruft Produkte wegen Brandgefahr zurück"
+  },
+  {
+    "itemId": "http://heise.de/-11078362",
+    "raw": "Sicherheitslücken gefährden IBM AIX und QRadar SIEM",
+    "sanitized": "Sicherheitslücken gefährden IBM AIX und QRadar SIEM"
+  },
+  {
+    "itemId": "http://heise.de/-11078332",
+    "raw": "Google: KI-Agent Sima 2 spielt \"Minecraft\" und \"Satisfactory\"",
+    "sanitized": "Google: KI-Agent Sima 2 spielt \"Minecraft\" und \"Satisfactory\""
+  },
+  {
+    "itemId": "http://heise.de/-11078396",
+    "raw": "Bundestag ermöglicht Online-Verfahren an Gerichten",
+    "sanitized": "Bundestag ermöglicht Online-Verfahren an Gerichten"
+  },
+  {
+    "itemId": "http://heise.de/-11077553",
+    "raw": "Kommentar zum AWS-Fail: Hinter dem Sündenbock DNS steht Hyperscaler-Inkompetenz",
+    "sanitized": "Kommentar zum AWS-Fail: Hinter dem Sündenbock DNS steht Hyperscaler-Inkompetenz"
+  },
+  {
+    "itemId": "http://heise.de/-11078310",
+    "raw": "Fortinet: Neuer Exploit missbraucht Zero-Day-Lücke in Firewalls",
+    "sanitized": "Fortinet: Neuer Exploit missbraucht Zero-Day-Lücke in Firewalls"
+  },
+  {
+    "itemId": "http://heise.de/-11078302",
+    "raw": "Keine Maut für Elektro-Lkw: Befreiung verlängert",
+    "sanitized": "Keine Maut für Elektro-Lkw: Befreiung verlängert"
+  },
+  {
+    "itemId": "http://heise.de/-11078306",
+    "raw": "China holt gestrandete Raumfahrer aus dem All zurück",
+    "sanitized": "China holt gestrandete Raumfahrer aus dem All zurück"
+  },
+  {
+    "itemId": "http://heise.de/-11076557",
+    "raw": "heise-Angebot: c't-Workshop: IT-Sicherheitsstrategien für kleine und mittlere Unternehmen",
+    "sanitized": "heise-Angebot: c't-Workshop: IT-Sicherheitsstrategien für kleine und mittlere Unternehmen"
+  },
+  {
+    "itemId": "http://heise.de/-11078249",
+    "raw": "Für Kontakt zu Weltraumsonden: NASA-Riesenantenne seit Monaten ausgefallen",
+    "sanitized": "Für Kontakt zu Weltraumsonden: NASA-Riesenantenne seit Monaten ausgefallen"
+  },
+  {
+    "itemId": "http://heise.de/-10793469",
+    "raw": "Sprengstoff im Nacken: \"Lohn der Angst\" und \"Sorcerer\" im Heimkinotest",
+    "sanitized": "Sprengstoff im Nacken: \"Lohn der Angst\" und \"Sorcerer\" im Heimkinotest"
+  },
+  {
+    "itemId": "http://heise.de/-11078253",
+    "raw": "Wikipedia-Gründer widerspricht Musk: Keine linke Übernahme",
+    "sanitized": "Wikipedia-Gründer widerspricht Musk: Keine linke Übernahme"
+  },
+  {
+    "itemId": "http://heise.de/-11078217",
+    "raw": "Ubisoft: Geschäftszahlen verzögert, Aktienhandel ausgesetzt",
+    "sanitized": "Ubisoft: Geschäftszahlen verzögert, Aktienhandel ausgesetzt"
+  },
+  {
+    "itemId": "http://heise.de/-11078209",
+    "raw": "Freitag: Blue Origin mit aufrechter Landung, Leo ist Amazons Satelliten-Internet",
+    "sanitized": "Freitag: Blue Origin mit aufrechter Landung, Leo ist Amazons Satelliten-Internet"
+  },
+  {
+    "itemId": "http://heise.de/-11078213",
+    "raw": "Netflix bringt \"Red Dead Redemption\" aufs Handy",
+    "sanitized": "Netflix bringt \"Red Dead Redemption\" aufs Handy"
+  },
+  {
+    "itemId": "http://heise.de/-11077912",
+    "raw": "Auslegungssache 147: Ein Bus durch den Regel-Dschungel",
+    "sanitized": "Auslegungssache 147: Ein Bus durch den Regel-Dschungel"
+  },
+  {
+    "itemId": "http://heise.de/-11078197",
+    "raw": "Amazon benennt sein Satelliten-Internet Project Kuiper um in Amazon Leo",
+    "sanitized": "Amazon benennt sein Satelliten-Internet Project Kuiper um in Amazon Leo"
+  },
+  {
+    "itemId": "http://heise.de/-11078175",
+    "raw": "Schwerlast-Booster: Blue Origin schafft Rücklandung",
+    "sanitized": "Schwerlast-Booster: Blue Origin schafft Rücklandung"
+  },
+  {
+    "itemId": "http://heise.de/-11078131",
+    "raw": "BGH: Mobilfunker darf Kundendaten der Schufa geben",
+    "sanitized": "BGH: Mobilfunker darf Kundendaten der Schufa geben"
+  },
+  {
+    "itemId": "http://heise.de/-11077979",
+    "raw": "Top 10: Das beste Tablet im Test – Apple vor Samsung und Lenovo",
+    "sanitized": "Top 10: Das beste Tablet im Test – Apple vor Samsung und Lenovo"
+  },
+  {
+    "itemId": "http://heise.de/-11077973",
+    "raw": "Viele EU-Staaten wollen USA Zugriff auf biometrische Polizeidaten erlauben",
+    "sanitized": "Viele EU-Staaten wollen USA Zugriff auf biometrische Polizeidaten erlauben"
+  },
+  {
+    "itemId": "http://heise.de/-11078001",
+    "raw": "Temu, Shein und Co: Zollfreigrenze soll schon 2026 fallen",
+    "sanitized": "Temu, Shein und Co: Zollfreigrenze soll schon 2026 fallen"
+  },
+  {
+    "itemId": "http://heise.de/-11078007",
+    "raw": "Terahertz-Scanner für autonome Autos blickt durch Nebel",
+    "sanitized": "Terahertz-Scanner für autonome Autos blickt durch Nebel"
   }
 ]

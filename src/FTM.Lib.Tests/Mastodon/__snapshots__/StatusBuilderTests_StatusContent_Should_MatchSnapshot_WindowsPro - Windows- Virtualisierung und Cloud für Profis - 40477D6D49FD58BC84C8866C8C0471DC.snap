@@ -1,0 +1,5 @@
+﻿SSH-Anmeldung mit dem Authentication Agent automatisieren
+
+Wenn man sich regel­mäßig mit einem Host über SSH verbindet, dann möchte man nicht immer ein Pass­wort eingeben. Das gilt umso mehr, wenn man die SSH-Verbindung in einem Script aufbauen will. Die OpenSSH-Implemen­tierung unter Windows bietet diese Möglich­keit im Zusammen­spiel aus Public-Key-Authenti­fizierung und dem SSH-Agent.
+---
+https://www.windowspro.de/wolfgang-sommergut/ssh-anmeldung-authentication-agent-automatisieren?utm_source=WindowsPro&utm_medium=rss&utm_campaign=Feed

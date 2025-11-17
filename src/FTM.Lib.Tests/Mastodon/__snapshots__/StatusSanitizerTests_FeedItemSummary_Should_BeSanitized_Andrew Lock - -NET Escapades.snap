@@ -1,5 +1,100 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-9-easier-reflection-with-unsafeaccessortype/",
+    "raw": "In this post I show how to work with [UnsafeAccessor] to do 'easier' reflection and how to use .NET 10's [UnsafeAccessorType] with types you can't reference",
+    "sanitized": "In this post I show how to work with [UnsafeAccessor] to do 'easier' reflection and how to use .NET 10's [UnsafeAccessorType] with types you can't reference"
+  },
+  {
+    "itemId": "https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/",
+    "raw": "In this post I discuss request smuggling, the recent vulnerability in ASP.NET Core with a severity score of 9.9, and how attackers could exploit it",
+    "sanitized": "In this post I discuss request smuggling, the recent vulnerability in ASP.NET Core with a severity score of 9.9, and how attackers could exploit it"
+  },
+  {
+    "itemId": "https://andrewlock.net/adding-metadata-to-fallback-endpoints-in-aspnetcore/",
+    "raw": "In this post I discuss fallback endpoints and show how adding metadata to MVC or Razor Page fallback endpoints has some quirks to be aware of",
+    "sanitized": "In this post I discuss fallback endpoints and show how adding metadata to MVC or Razor Page fallback endpoints has some quirks to be aware of"
+  },
+  {
+    "itemId": "https://andrewlock.net/easily-publishing-nuget-packages-from-github-actions-with-trusted-publishing/",
+    "raw": "In this post I describe how you can use nuget.org's new Trusted Publishing feature to publish NuGet packages from a GitHub Actions workflow",
+    "sanitized": "In this post I describe how you can use nuget.org's new Trusted Publishing feature to publish NuGet packages from a GitHub Actions workflow"
+  },
+  {
+    "itemId": "https://andrewlock.net/sleep-pc-a-dotnet-tool-to-make-windows-sleep-after-a-timeout/",
+    "raw": "In this post I describe a small native AOT .NET tool that I built to force a Windows PC to go to sleep after a timer expires",
+    "sanitized": "In this post I describe a small native AOT .NET tool that I built to force a Windows PC to go to sleep after a timer expires"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-8-supporting-platform-specific-dotnet-tools-on-old-sdks/",
+    "raw": "In this post I look at the advantages, trade-offs, and implications of the new platform-specific .NET tool feature added in .NET 10, and how to support old SDKs",
+    "sanitized": "In this post I look at the advantages, trade-offs, and implications of the new platform-specific .NET tool feature added in .NET 10, and how to support old SDKs"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-7-packaging-self-contained-and-native-aot-dotnet-tools-for-nuget/",
+    "raw": "In this post we look at the new support for platform-specific .NET tools, so that you can pack your tools as self-contained or Native AOT packages",
+    "sanitized": "In this post we look at the new support for platform-specific .NET tools, so that you can pack your tools as self-contained or Native AOT packages"
+  },
+  {
+    "itemId": "https://andrewlock.net/using-and-authoring-dotnet-tools/",
+    "raw": "In this post I describe some of the complexities around authoring .NET tools, specifically around supporting multiple .NET runtimes and testing in CI",
+    "sanitized": "In this post I describe some of the complexities around authoring .NET tools, specifically around supporting multiple .NET runtimes and testing in CI"
+  },
+  {
+    "itemId": "https://andrewlock.net/fixing-an-old-dotnet-core-native-library-loading-issue-on-alpine/",
+    "raw": "In this post I walk through the process of solving a native library loading issue on alpine with an old .NET runtime, showing the steps we took and the solution",
+    "sanitized": "In this post I walk through the process of solving a native library loading issue on alpine with an old .NET runtime, showing the steps we took and the solution"
+  },
+  {
+    "itemId": "https://andrewlock.net/converting-an-xunit-project-to-tunit/",
+    "raw": "In this post I discuss the new TUnit testing framework, why I ported one of my libraries to use it instead of xUnit and related issues I had to deal with",
+    "sanitized": "In this post I discuss the new TUnit testing framework, why I ported one of my libraries to use it instead of xUnit and related issues I had to deal with"
+  },
+  {
+    "itemId": "https://andrewlock.net/running-dotnet-in-the-browser-without-blazor/",
+    "raw": "In this post I show how to run .NET in your browser without using Blazor, and instead rely on lower-level abstractions provided by [JSImport] and [JSExport]",
+    "sanitized": "In this post I show how to run .NET in your browser without using Blazor, and instead rely on lower-level abstractions provided by [JSImport] and [JSExport]"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-6-passkey-support-for-aspnetcore-identity/",
+    "raw": "In this post I look at the passkey support added to ASP.NET Core Identity and the Blazor Web App template, explore how it works, and look at the implementation",
+    "sanitized": "In this post I look at the passkey support added to ASP.NET Core Identity and the Blazor Web App template, explore how it works, and look at the implementation"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-5-running-one-off-dotnet-tools-with-dnx/",
+    "raw": "In this post I show the new dnx command for running .NET tools without installing them and look at exactly how it works.",
+    "sanitized": "In this post I show the new dnx command for running .NET tools without installing them and look at exactly how it works."
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-4-solving-the-source-generator-marker-attribute-problem-in-dotnet-10/",
+    "raw": "In this post I discuss a new source generator API, AddEmbeddedAttributeDefinition(), added in .NET 10, which makes it easier to embed generated attributes",
+    "sanitized": "In this post I discuss a new source generator API, AddEmbeddedAttributeDefinition(), added in .NET 10, which makes it easier to embed generated attributes"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-3-csharp-14-extensions-members/",
+    "raw": "In this post I look at the C#14 extension members feature. I show how to convert extension methods to the new syntax and how to add new types of extension.",
+    "sanitized": "In this post I look at the C#14 extension members feature. I show how to convert extension methods to the new syntax and how to add new types of extension."
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-2-behind-the-scenes-of-dotnet-run-app.cs/",
+    "raw": "In this post I looks at how the new single-file .NET run experience is implemented inside the .NET SDK, focusing on how the virtual-project file is built",
+    "sanitized": "In this post I looks at how the new single-file .NET run experience is implemented inside the .NET SDK, focusing on how the virtual-project file is built"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/",
+    "raw": "In this post I discuss the new single-file .NET run experience, in which you can run a C# file directly, without needing a csproj project file",
+    "sanitized": "In this post I discuss the new single-file .NET run experience, in which you can run a C# file directly, without needing a csproj project file"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-stacked-branches-in-git-part-2/",
+    "raw": "In this post looking at stacked branches I describe how to handle scenarios such as merging one of your stacked branches and handling changes to main",
+    "sanitized": "In this post looking at stacked branches I describe how to handle scenarios such as merging one of your stacked branches and handling changes to main"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-stacked-branches-in-git-part-1/",
+    "raw": "In this post I describe why I like to use stacked branches and stacked PRs for larger features, and how I handle making changes to commits in the stack",
+    "sanitized": "In this post I describe why I like to use stacked branches and stacked PRs for larger features, and how I handle making changes to commits in the stack"
+  },
+  {
     "itemId": "https://andrewlock.net/converting-an-xna-game-to-monogame/",
     "raw": "In this post I describe how I took a Microsoft XNA 3.1 game from 15 years ago and converted it to use MonoGame on .NET 8 in just a few hours",
     "sanitized": "In this post I describe how I took a Microsoft XNA 3.1 game from 15 years ago and converted it to use MonoGame on .NET 8 in just a few hours"
@@ -28,100 +123,5 @@
     "itemId": "https://andrewlock.net/exploring-the-new-ai-chat-template/",
     "raw": "In this post I explore the new .NET AI Chat Web App template (currently in preview) and take a brief look at the implementation it provides",
     "sanitized": "In this post I explore the new .NET AI Chat Web App template (currently in preview) and take a brief look at the implementation it provides"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-pooled-dependency-injection-lifetime/",
-    "raw": "In this post I investigate how to create a 'pooled' dependency injection scope that automatically pools services between multiple requests",
-    "sanitized": "In this post I investigate how to create a 'pooled' dependency injection scope that automatically pools services between multiple requests"
-  },
-  {
-    "itemId": "https://andrewlock.net/going-beyond-singleton-scoped-and-transient-lifetimes/",
-    "raw": "In this post I investigate some 'experimental' dependency injection scopes that provide additional features over Singleton, Scoped, and Transient",
-    "sanitized": "In this post I investigate some 'experimental' dependency injection scopes that provide additional features over Singleton, Scoped, and Transient"
-  },
-  {
-    "itemId": "https://andrewlock.net/netescapades-aspnetcore-securityheaders-1-0-0-released/",
-    "raw": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps.",
-    "sanitized": "In this post I describe the recent major changes to NetEscapades.AspNetCore.SecurityHeaders, a NuGet package for adding security headers to your apps."
-  },
-  {
-    "itemId": "https://andrewlock.net/verifiying-tricky-git-rebases-with-range-diffs/",
-    "raw": "In this post I look at the git range-diff feature, show what it's for and how it works, explain the output format, and demonstrate it with a toy scenario",
-    "sanitized": "In this post I look at the git range-diff feature, show what it's for and how it works, explain the output format, and demonstrate it with a toy scenario"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-sbom-attestations-in-github-actions/",
-    "raw": "In this post I show how you can create attestations for SBOM documents that you have created for your application or Nuget package",
-    "sanitized": "In this post I show how you can create attestations for SBOM documents that you have created for your application or Nuget package"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-software-bill-of-materials-sbom-for-an-open-source-nuget-package/",
-    "raw": "In this post I discuss several tools you can use to create a software bill of materials (SBOM) for an application or a NuGet package",
-    "sanitized": "In this post I discuss several tools you can use to create a software bill of materials (SBOM) for an application or a NuGet package"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-provenance-attestations-for-nuget-packages-in-github-actions/",
-    "raw": "In this post I discuss software provenance, what attestations say about your software, how they work, and how to create an attestation for a NuGet package",
-    "sanitized": "In this post I discuss software provenance, what attestations say about your software, how they work, and how to create an attestation for a NuGet package"
-  },
-  {
-    "itemId": "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
-    "raw": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container",
-    "sanitized": "In this post I describe how to run an ASP.NET Core app inside IIS in a Windows Docker container"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/",
-    "raw": "In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised",
-    "sanitized": "In this post I describe a Roslyn Analyzer I created to detect code that can result in infinite loops if a ThreadAbortException is raised"
-  },
-  {
-    "itemId": "https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/",
-    "raw": "In this post I show how to reduce the size of the publish output for .NET apps by preventing the publishing of localization resources when they're not needed",
-    "sanitized": "In this post I show how to reduce the size of the publish output for .NET apps by preventing the publishing of localization resources when they're not needed"
-  },
-  {
-    "itemId": "https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/",
-    "raw": "In this post I outline how IIS works, describe how to add environment variables to app pools, and show how to prevent automatic app pool recycling on changes",
-    "sanitized": "In this post I outline how IIS works, describe how to add environment variables to app pools, and show how to prevent automatic app pool recycling on changes"
-  },
-  {
-    "itemId": "https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/",
-    "raw": "In this post I describe how the Trusted Types Content-Security-Policy feature can protect you against cross-site-scripting attacks.",
-    "sanitized": "In this post I describe how the Trusted Types Content-Security-Policy feature can protect you against cross-site-scripting attacks."
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-14-supporting-multiple-sdk-versions-in-a-source-generator/",
-    "raw": "In this post I show how I updated my NetEscapades.EnumGenerators projects to support multi-targeting two different .NET SDK versions",
-    "sanitized": "In this post I show how I updated my NetEscapades.EnumGenerators projects to support multi-targeting two different .NET SDK versions"
-  },
-  {
-    "itemId": "https://andrewlock.net/supporting-multiple-sdk-versions-in-analyzers-and-source-generators/",
-    "raw": "In this post I describe why source generators might need to work with multiple versions of the .NET SDK and how NuGet packages support this in .NET 6",
-    "sanitized": "In this post I describe why source generators might need to work with multiple versions of the .NET SDK and how NuGet packages support this in .NET 6"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/",
-    "raw": "In this post I describe how to read MSBuild settings from inside a source generator, and how to use this to allow user configuration of your generator",
-    "sanitized": "In this post I describe how to read MSBuild settings from inside a source generator, and how to use this to allow user configuration of your generator"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-12-reading-compilation-options-and-csharp-version-in-source-generators/",
-    "raw": "In this post I show how to read details of a target project from a source generator, such as assembly name, the current configuration, or the c# version",
-    "sanitized": "In this post I show how to read details of a target project from a source generator, such as assembly name, the current configuration, or the c# version"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/",
-    "raw": "In this post I show how interceptors work, and how you can implement an interceptor using a source generator and the GetInterceptableLocation API",
-    "sanitized": "In this post I show how interceptors work, and how you can implement an interceptor using a source generator and the GetInterceptableLocation API"
-  },
-  {
-    "itemId": "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
-    "raw": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image",
-    "sanitized": "In this post I describe how I build LaTeX projects on a Windows machine by using Docker and the blang/latex image"
-  },
-  {
-    "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
-    "raw": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps",
-    "sanitized": "In this post I show how you can use the YamlDotNet source generator to do strongly-typed serialization and deserialization, even in Native AOT apps"
   }
 ]

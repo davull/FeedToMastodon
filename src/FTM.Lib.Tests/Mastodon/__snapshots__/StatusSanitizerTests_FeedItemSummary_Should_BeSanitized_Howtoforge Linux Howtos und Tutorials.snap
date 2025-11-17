@@ -1,5 +1,40 @@
 ﻿[
   {
+    "itemId": "https://www.howtoforge.com/ispconfig-php-debian/",
+    "raw": "In this guide we will take you through installing additional PHP versions (5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.1, 8.2, 8.3, and 8.4) on a Debian server with ISPConfig.",
+    "sanitized": "In this guide we will take you through installing additional PHP versions (5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.1, 8.2, 8.3, and 8.4) on a Debian server with ISPConfig."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/ispconfig-php-ubuntu/",
+    "raw": "When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig.",
+    "sanitized": "When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/update-the-ispconfig-perfect-server-from-debian-11-to-debian-12/",
+    "raw": "This tutorial will take you through updating a server managed by ISPConfig from Debian 11 (bullseye) to Debian 12 (bookworm). This guide works for both single- and multiserver setups.",
+    "sanitized": "This tutorial will take you through updating a server managed by ISPConfig from Debian 11 (bullseye) to Debian 12 (bookworm). This guide works for both single- and multiserver setups."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/how-to-install-csf-config-server-firewall-on-debian-12/",
+    "raw": "CSF or Config Server Firewall is a Stateful Packet Inspection (SPI) firewall based on IPtables and Perl. it provides a daemon process that will monitor your services for failure authentication.",
+    "sanitized": "CSF or Config Server Firewall is a Stateful Packet Inspection (SPI) firewall based on IPtables and Perl. it provides a daemon process that will monitor your services for failure authentication."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/step-by-step-installing-wikijs-on-debian-12/",
+    "raw": "Wiki.js is free and open-source wiki software based on Node.js, Git, and Markdown. In this article, we'll show you how to install Wiki.js on a Debian 12 system.",
+    "sanitized": "Wiki.js is free and open-source wiki software based on Node.js, Git, and Markdown. In this article, we'll show you how to install Wiki.js on a Debian 12 system."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/tutorial/ispconfig-multiserver-setup-debian-ubuntu/",
+    "raw": "This tutorial will take you through installing your own ISPConfig 3 multiserver setup with dedicated servers for the panel, web, DNS, mail, and webmail using the new ISPConfig auto-installer. This tutorial is compatible with Debian 12 and Ubuntu 24.04.",
+    "sanitized": "This tutorial will take you through installing your own ISPConfig 3 multiserver setup with dedicated servers for the panel, web, DNS, mail, and webmail using the new ISPConfig auto-installer. This tutorial is compatible with Debian 12 and Ubuntu 24.04."
+  },
+  {
+    "itemId": "https://www.howtoforge.com/securing-your-ispconfig-3-managed-mailserver-with-a-valid-lets-encrypt-certificate/",
+    "raw": "If you're running your own mailserver, it's best practice to connect to it securely with a SSL/TLS connection. You'll need a valid certificate for these secure connections. In this tutorial, we'll set up a Let's Encrypt certificate for our mailserver that renews automatically.",
+    "sanitized": "If you're running your own mailserver, it's best practice to connect to it securely with a SSL/TLS connection. You'll need a valid certificate for these secure connections. In this tutorial, we'll set up a Let's Encrypt certificate for our mailserver that renews automatically."
+  },
+  {
     "itemId": "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/",
     "raw": "OpenEMR is an open-source health records and medical practice management solution. It is a fully integrated electronic health record and practice management, scheduling, electronic billing, and internationalization support.",
     "sanitized": "OpenEMR is an open-source health records and medical practice management solution. It is a fully integrated electronic health record and practice management, scheduling, electronic billing, and internationalization support."
@@ -13,40 +48,5 @@
     "itemId": "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/",
     "raw": "GlassFish is a free and open-source implementation of the Java EE Platform developed by Eclipse. In this guide, you will install GlassFish Application Server on Debian 12 in a step-by-step process. You will also configure Nginx as a reverse proxy for your GlassFish installation.",
     "sanitized": "GlassFish is a free and open-source implementation of the Java EE Platform developed by Eclipse. In this guide, you will install GlassFish Application Server on Debian 12 in a step-by-step process. You will also configure Nginx as a reverse proxy for your GlassFish installation."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/",
-    "raw": "WildFly formerly JBoss is a free and open-source application server that helps you build and deploy Java web applications. In this guide, you will learn how to install WildFly or JBoss application runtime on a Debian 12 server.",
-    "sanitized": "WildFly formerly JBoss is a free and open-source application server that helps you build and deploy Java web applications. In this guide, you will learn how to install WildFly or JBoss application runtime on a Debian 12 server."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/",
-    "raw": "Emby is an open-source alternative to Plex Media Server. This guide will teach you how to install Emby Media Server on Debian 12. You will install Emby with Nginx as a reverse proxy and enable UFW. Let's get started.",
-    "sanitized": "Emby is an open-source alternative to Plex Media Server. This guide will teach you how to install Emby Media Server on Debian 12. You will install Emby with Nginx as a reverse proxy and enable UFW. Let's get started."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/",
-    "raw": "Actual Budget is an open-source finance management software focused on privacy and built on top of &quot;Envelope Style Budgeting&quot;. In this tutorial, we'll show you how to install the Actual Budgeting System on the Debian 12 server.",
-    "sanitized": "Actual Budget is an open-source finance management software focused on privacy and built on top of \"Envelope Style Budgeting\". In this tutorial, we'll show you how to install the Actual Budgeting System on the Debian 12 server."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
-    "raw": "Nessus is a network scanning tool and vulnerability scanner developed by Tenable. It is used for vulnerability assessments, penetration testing, and ethical hacking. In this guide, you'll learn how to install Nessus on Ubuntu 24.04 server.",
-    "sanitized": "Nessus is a network scanning tool and vulnerability scanner developed by Tenable. It is used for vulnerability assessments, penetration testing, and ethical hacking. In this guide, you'll learn how to install Nessus on Ubuntu 24.04 server."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/",
-    "raw": "Apache Solr is an open-source search platform built on Apache Lucene, designed to create powerful application search and indexing capabilities. In this guide, you'll learn how to install Apache Solr on Ubuntu 24.04 server.",
-    "sanitized": "Apache Solr is an open-source search platform built on Apache Lucene, designed to create powerful application search and indexing capabilities. In this guide, you'll learn how to install Apache Solr on Ubuntu 24.04 server."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/",
-    "raw": "Ntopng is an open-source network traffic monitoring tool for traffic analysis and real-time visualization. In this tutorial, you'll learn how to install the Ntopng Network Monitoring Tool on the Debian 12 server.",
-    "sanitized": "Ntopng is an open-source network traffic monitoring tool for traffic analysis and real-time visualization. In this tutorial, you'll learn how to install the Ntopng Network Monitoring Tool on the Debian 12 server."
-  },
-  {
-    "itemId": "https://www.howtoforge.com/ispconfig-php-ubuntu/",
-    "raw": "When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig.",
-    "sanitized": "When using ISPConfig, by default, you only have the main PHP version for your distribution. This guide will show you how to install additional PHP versions (5.6, 7.0 -  7.4, 8.1 - 8.4) on an Ubuntu server with ISPConfig."
   }
 ]

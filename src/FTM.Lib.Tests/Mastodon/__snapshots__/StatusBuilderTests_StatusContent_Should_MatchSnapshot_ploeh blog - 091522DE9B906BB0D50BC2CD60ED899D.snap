@@ -1,0 +1,11 @@
+﻿100% coverage is not that trivial
+
+Dispelling a myth I helped propagate.
+    
+    
+        Most people who have been around automated testing for a few years understand that code coverage is a useless target measure. Unfortunately, through a game of Chinese whispers, this message often degenerates to the simpler, but incorrect, notion that code coverage is useless.
+    
+    
+        As I've already covered in that article, code coverage may be useful for oth...
+---
+https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial/

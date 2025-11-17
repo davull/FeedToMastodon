@@ -1,0 +1,5 @@
+﻿IP-Kameras: Risiken, Portfreigaben (RTSP/HTTP) & Checks
+
+Moin, ich mag noch einmal etwas zu IP-Überwachungskameras schreiben. Ihr erinnert euch vielleicht an meinen letzten Beitrag zu diesem Thema KLICK. Dort habe ich mich speziell auf den RTSP-Port bezogen und auch https://www.shodan.io/ als Beispiel genannt. Shodan scannt unaufhörlich IPv4-Adressen (bei IPv6 wäre ein flächendeckender Scan kaum praktikabel) und stellt seine Ergebnisse öffentlich zur Verfügu...
+---
+https://www.kernel-error.de/2025/10/30/ip-kameras-risiken-portfreigaben-rtsp-http-checks/

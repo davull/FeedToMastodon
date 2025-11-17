@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://www.production-ready.de/2025/10/24/walk-the-board",
+    "raw": "Walk the Board: Effektives Arbeiten mit Task-Boards in Software-Projekten",
+    "sanitized": "Walk the Board: Effektives Arbeiten mit Task-Boards in Software-Projekten"
+  },
+  {
     "itemId": "https://www.production-ready.de/2024/11/24/feed-to-mastodon",
     "raw": "RSS Feed automatisch auf Mastodon veröffentlichen",
     "sanitized": "RSS Feed automatisch auf Mastodon veröffentlichen"

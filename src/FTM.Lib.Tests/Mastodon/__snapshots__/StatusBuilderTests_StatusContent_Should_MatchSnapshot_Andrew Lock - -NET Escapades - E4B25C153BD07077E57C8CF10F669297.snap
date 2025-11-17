@@ -1,0 +1,5 @@
+﻿Publishing NuGet packages from GitHub actions the easy way with Trusted Publishing
+
+In this post I describe how you can use nuget.org's new Trusted Publishing feature to publish NuGet packages from a GitHub Actions workflow
+---
+https://andrewlock.net/easily-publishing-nuget-packages-from-github-actions-with-trusted-publishing/

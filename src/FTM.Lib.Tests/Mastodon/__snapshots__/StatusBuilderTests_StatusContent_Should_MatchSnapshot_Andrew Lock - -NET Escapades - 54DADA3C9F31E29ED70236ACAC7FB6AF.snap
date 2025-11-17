@@ -1,0 +1,5 @@
+﻿Understanding the worst .NET vulnerability ever: request smuggling and CVE-2025-55315
+
+In this post I discuss request smuggling, the recent vulnerability in ASP.NET Core with a severity score of 9.9, and how attackers could exploit it
+---
+https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/

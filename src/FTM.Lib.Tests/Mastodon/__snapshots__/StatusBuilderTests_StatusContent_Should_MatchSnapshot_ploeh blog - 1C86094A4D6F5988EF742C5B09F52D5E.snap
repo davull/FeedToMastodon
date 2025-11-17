@@ -1,0 +1,11 @@
+﻿Empirical software prototyping
+
+How do you add tests to a proof-of-concept? Should you?
+    
+    
+        This is the second article in a small series on empirical test-after development. I'll try to answer an occasionally-asked question: Should one use test-driven development (TDD) for prototyping?
+    
+    
+        There are variations on this question, but it tends to come up when discussing TDD. Some software thought leaders proclaim that you should alwa...
+---
+https://blog.ploeh.dk/2025/11/17/empirical-software-prototyping/

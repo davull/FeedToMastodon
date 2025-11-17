@@ -2,10 +2,50 @@
   "Id": "https://www.embarc.de/blog/index.xml",
   "Website": "https://www.embarc.de/blog/",
   "Title": "Blog on embarc",
-  "LastUpdatedTime": "2025-01-05T10:00:00+00:00",
+  "LastUpdatedTime": "2025-11-07T00:00:00+00:00",
   "Description": "Recent content in Blog on embarc",
   "Language": null,
   "Items": [
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/interview-sven-woltmann-hexagonale-architektur/",
+      "Title": "Im Gespräch mit Sven Woltmann zu Hexagonaler Architektur",
+      "PublishDate": "2025-11-07T00:00:00+00:00",
+      "Summary": "&nbsp;  Geschäftslogik ins Zentrum(Stefan Zörner) &ldquo;Sven, viele kennen dich von Java-Konferenzen, aber nicht alle. Wer bist du – und was machst du?&rdquo;\nSven Woltmann: Ich bin in erster Linie Java-Programmierer – seit mittlerweile 30 Jahren, seit Java 1.0. Ich habe jede Java-Version miterlebt und alle Höhen und Tiefen, wobei ich sagen muss, dass es in den letzten Jahren eigentlich nur noch Höhen gibt.\n2018 habe ich HappyCoders gegründet: Dort veröffentliche ich regelmäßig Artikel, vor allem zu neuen Java-Features, und ich biete Trainings an – aktuell etwa zur Modernisierung auf Java 25.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/interview-sven-woltmann-hexagonale-architektur/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/interview-fin-labusch-kids4it/",
+      "Title": "Im Gespräch mit Fin Labusch von Kids4IT",
+      "PublishDate": "2025-10-27T14:00:00+00:00",
+      "Summary": "Kids4IT – spielerisch Technik entdeckenKids4IT ist eine gemeinnützige Initiative aus dem Norden Deutschland, die Kinder und Jugendliche für Technik, Informatik und Robotik begeistert. In ihren Workshops lernen Kinder ab etwa acht Jahren, dass Computer und Roboter keine Zauberei sind – sondern Werkzeuge, mit denen man selbst kreativ werden kann. Sie bauen und programmieren eigene LEGO-Roboter, entwickeln Spiele mit der grafischen Programmiersprache Scratch oder komponieren elektronische Beats mit Sonic Pi.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/interview-fin-labusch-kids4it/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/interview-cosima-laube-softe-skills/",
+      "Title": "Im Gespräch mit Cosima Laube zu Softe Skills für harte Probleme",
+      "PublishDate": "2025-10-23T10:00:00+00:00",
+      "Summary": "&nbsp;  Kim: Hallo Cosima, schön, dass du dir Zeit nimmst, uns einen kleinen Einblick in deinen Vortrag beim Architektur-Punsch zu geben. Du bist gleich eine der ersten Speakerinnen um 13 Uhr. Wer bist du, und was verbindet dich mit embarc?\nCosima: Ich bin Cosima Laube. Früher war ich Softwareentwicklerin und Architektin und habe damals ein Seminar bei Stefan Zörner besucht. Seitdem bin ich mit embarc in Kontakt geblieben.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/interview-cosima-laube-softe-skills/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/java-value-objects/",
+      "Title": "Value Objects - das nächste große Ding in Java",
+      "PublishDate": "2025-09-25T10:00:00+00:00",
+      "Summary": "Vortragsfolien zum Thema Download der Folien vom JUG Saxony Day am 26.09.2026\nWas sind Value ObjectsEiner der großen Pluspunkte von Java war und ist das statische, starke Typsystem. Es hilft, viele Fehler bereits zur Compilezeit zu entdecken und macht die Entwicklung robuster sowie effizienter. Allerdings integrieren sich die vor etwa 30 Jahren aus Performancegründen eingeführten primitiven Datentypen nicht gut mit modernen Ansätze wie Generics, Stream API oder Pattern Matching. Value Objects versprechen Abhilfe und werden die Vorteile beider Welten kombinieren.",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/java-value-objects/"
+    },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
       "ItemId": "https://www.embarc.de/markdown-vs-asciidoc/",
@@ -21,7 +61,7 @@
       "ItemId": "https://www.embarc.de/interview-anja-kammer-datensicherheit/",
       "Title": "Im Gespräch mit Anja Kammer zu Datensicherheit in der Produktentwicklung",
       "PublishDate": "2024-12-05T00:00:00+00:00",
-      "Summary": "&nbsp;  (Stefan Zörner) &ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&quot;\nAnja Kammer: Ich bin Senior Consultant bei INNOQ. Während meiner täglichen Projektarbeit arbeite ich trotzdem Hands-on am Code und auch an Infrastrukturarchitektur und Softwarearchitektur, meistens in der Cloud. Aber ich bin auch beratend tätig. Ich unterstütze Unternehmen, die in die Cloud wollen oder bestimmte Fallstricke vorhersehen möchten.\nUnd ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektur-Themen.",
+      "Summary": "&nbsp;  (Stefan Zörner) &ldquo;Hallo Anja! Schön, dass du Zeit hast! Magst du ein bisschen was zu dir erzählen?&rdquo;\nAnja Kammer: Ich bin Senior Consultant bei INNOQ. Während meiner täglichen Projektarbeit arbeite ich trotzdem Hands-on am Code und auch an Infrastrukturarchitektur und Softwarearchitektur, meistens in der Cloud. Aber ich bin auch beratend tätig. Ich unterstütze Unternehmen, die in die Cloud wollen oder bestimmte Fallstricke vorhersehen möchten.\nUnd ansonsten führe ich Trainings durch, auch zu Cloud-Themen und zu Architektur-Themen.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/interview-anja-kammer-datensicherheit/"
@@ -31,7 +71,7 @@
       "ItemId": "https://www.embarc.de/interview-matthias-naab-plattformen/",
       "Title": "Im Gespräch mit Matthias Naab zu Plattformen",
       "PublishDate": "2024-11-18T10:00:00+00:00",
-      "Summary": "&nbsp;  Falk: &ldquo;Hallo Matthias, schön dass wir uns treffen. Stell Dich bitte kurz vor.&quot;\nMatthias: Ich bin Matthias, einer der drei Gründer von Full Flamingo, einer kleinen Beratungsfirma. Wir konzentrieren uns auf Themen wie Digital Design, Softwarearchitektur und Big Picture Engineering. Unser Schwerpunkt liegt dabei darauf, das große Ganze von Softwaresystemen in Unternehmen zu betrachten und zu gestalten.\nPlattformen sind eines der Themen, mit denen ich mich intensiv beschäftige.",
+      "Summary": "&nbsp;  Falk: &ldquo;Hallo Matthias, schön dass wir uns treffen. Stell Dich bitte kurz vor.&rdquo;\nMatthias: Ich bin Matthias, einer der drei Gründer von Full Flamingo, einer kleinen Beratungsfirma. Wir konzentrieren uns auf Themen wie Digital Design, Softwarearchitektur und Big Picture Engineering. Unser Schwerpunkt liegt dabei darauf, das große Ganze von Softwaresystemen in Unternehmen zu betrachten und zu gestalten.\nPlattformen sind eines der Themen, mit denen ich mich intensiv beschäftige.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/interview-matthias-naab-plattformen/"
@@ -111,7 +151,7 @@
       "ItemId": "https://www.embarc.de/interview-sven-grasser-plattformen/",
       "Title": "Im Gespräch mit Sven Grasser zu Plattformen",
       "PublishDate": "2023-11-29T00:00:00+00:00",
-      "Summary": "&nbsp;  (Stefan Zörner) &ldquo;Hallo Sven! Schön, dass Du Zeit hast! Magst Du ein bisschen was zu Dir erzählen?&quot;\nSven Grasser: Gern. Ich bin Sven und arbeite als Senior Softwarearchitekt bei der DATEV in Nürnberg. Bei DATEV bin ich schon seit über 27 Jahren beschäftigt und habe dort zu Beginn Datenverarbeitungskaufmann gelernt, mit so Sachen wie C++, COBOL und Assembler auf dem Mainframe &hellip;\n(StefanZ) &ldquo;Wow! Und was machst Du bei der DATEV jetzt?",
+      "Summary": "&nbsp;  (Stefan Zörner) &ldquo;Hallo Sven! Schön, dass Du Zeit hast! Magst Du ein bisschen was zu Dir erzählen?&rdquo;\nSven Grasser: Gern. Ich bin Sven und arbeite als Senior Softwarearchitekt bei der DATEV in Nürnberg. Bei DATEV bin ich schon seit über 27 Jahren beschäftigt und habe dort zu Beginn Datenverarbeitungskaufmann gelernt, mit so Sachen wie C++, COBOL und Assembler auf dem Mainframe &hellip;\n(StefanZ) &ldquo;Wow! Und was machst Du bei der DATEV jetzt?",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/interview-sven-grasser-plattformen/"
@@ -301,7 +341,7 @@
       "ItemId": "https://www.embarc.de/interview-larysa-visengeriyeva-datamesh/",
       "Title": "Im Gespräch mit Dr. Larysa Visengeriyeva zu \"Data Mesh\"",
       "PublishDate": "2022-12-02T06:00:00+00:00",
-      "Summary": "&nbsp;  (StefanZ) &ldquo;Hallo Larysa, schön dass Du Zeit für ein Gespräch gefunden hast. Magst Du in zwei, drei Sätzen erzählen, wer Du bist und was Du so machst?&quot;\nLarysa: Gern. Ich bin Larysa und arbeite als Senior Consultant bei innoQ. Ich habe meine Schwerpunkte in den Bereichen Machine Learning, Betrieb von Machine Learning und auch in Datenarchitekturen, insbesondere Data Mesh. Da ist dann Domain Driven Design auch nicht so weit.",
+      "Summary": "&nbsp;  (StefanZ) &ldquo;Hallo Larysa, schön dass Du Zeit für ein Gespräch gefunden hast. Magst Du in zwei, drei Sätzen erzählen, wer Du bist und was Du so machst?&rdquo;\nLarysa: Gern. Ich bin Larysa und arbeite als Senior Consultant bei innoQ. Ich habe meine Schwerpunkte in den Bereichen Machine Learning, Betrieb von Machine Learning und auch in Datenarchitekturen, insbesondere Data Mesh. Da ist dann Domain Driven Design auch nicht so weit.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/interview-larysa-visengeriyeva-datamesh/"
@@ -341,7 +381,7 @@
       "ItemId": "https://www.embarc.de/fragen-an-peter-gafert/",
       "Title": "Im Gespräch mit Peter Gafert zu ArchUnit und seinem Vortrag \"Gemeinsam gegen den Ball-of-Mud\"",
       "PublishDate": "2022-10-26T03:45:00+00:00",
-      "Summary": "(Alex) &ldquo;Hallo Peter. Ich freue mich, dass wir heute über deinen Vortrag am Architektur-Punsch quatschen. Vielleicht magst du dich mal kurz vorstellen.&quot;\nPeter: &ldquo;Ich bin in Peter Gafert und arbeite seit mittlerweile elf Jahren als Principal Consultant bei TNG Technology Consulting in München und habe über die Zeit viele verschiedene Software-Projekte begleiten dürfen - und auch sehen dürfen, wie sich solche Projekte über die Zeit entwickeln und was es für Herausforderungen gibt.",
+      "Summary": "(Alex) &ldquo;Hallo Peter. Ich freue mich, dass wir heute über deinen Vortrag am Architektur-Punsch quatschen. Vielleicht magst du dich mal kurz vorstellen.&rdquo;\nPeter: &ldquo;Ich bin in Peter Gafert und arbeite seit mittlerweile elf Jahren als Principal Consultant bei TNG Technology Consulting in München und habe über die Zeit viele verschiedene Software-Projekte begleiten dürfen - und auch sehen dürfen, wie sich solche Projekte über die Zeit entwickeln und was es für Herausforderungen gibt.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/fragen-an-peter-gafert/"
@@ -351,7 +391,7 @@
       "ItemId": "https://www.embarc.de/fragen-an-tobias-ahlers/",
       "Title": "Im Gespräch mit Tobias Ahlers zu Diagrams-as-Code",
       "PublishDate": "2022-10-18T08:10:00+00:00",
-      "Summary": "Tobias wird beim Architektur-Punsch am 15.12.2022 mit seinem Vortrag &lsquo;Build Your Bild – eine &ldquo;Diagrams as Code&rdquo;-Fotosafari&rsquo; dabei sein. Ich habe ihn im September beim Java Forum Nord in Hannover getoffen. Im folgenden Gespräch gibt er uns einige Einblicke in diese Thematik.\n(Falk) &ldquo;Hallo Tobias, schön dass Du im Dezember dabei sein wirst. Stell Dich bitte kurz vor.&quot;\nTobias: &ldquo;Ich arbeite als Senior Developer bei der smartsteuer GmbH und bin vor allem im Bereich der Java-Entwicklung und der technischen Kommunikation aktiv.",
+      "Summary": "Tobias wird beim Architektur-Punsch am 15.12.2022 mit seinem Vortrag &lsquo;Build Your Bild – eine &ldquo;Diagrams as Code&rdquo;-Fotosafari&rsquo; dabei sein. Ich habe ihn im September beim Java Forum Nord in Hannover getoffen. Im folgenden Gespräch gibt er uns einige Einblicke in diese Thematik.\n(Falk) &ldquo;Hallo Tobias, schön dass Du im Dezember dabei sein wirst. Stell Dich bitte kurz vor.&rdquo;\nTobias: &ldquo;Ich arbeite als Senior Developer bei der smartsteuer GmbH und bin vor allem im Bereich der Java-Entwicklung und der technischen Kommunikation aktiv.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/fragen-an-tobias-ahlers/"
@@ -388,13 +428,13 @@
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
-      "ItemId": "https://www.embarc.de/doctoolchain/",
+      "ItemId": "https://www.embarc.de/docToolchain/",
       "Title": "Eine Einführung in docToolchain",
       "PublishDate": "2022-09-01T08:00:00+00:00",
       "Summary": "Werkzeug für Docs-as-CodeDie Dokumentation Eurer Softwarearchitektur ist wichtig, wird aber mitunter vernachlässigt. Hier setzt &ldquo;Documentation as Code&rdquo; an - Entwickler bzw. mit-codende Architekten sollen (wieder) mehr Freude an dieser Tätigkeit haben und sie als weniger lästig ansehen. Eine aktuelle und damit bessere Dokumentation sind erklärtes Ziel. Bei diesem Ansatz wird Dokumenation wie Sourcecode behandelt:\n Erstellung der Inhalte in leichtgewichtigen Textformaten Ablage und Versionierung in Repos (Git, &hellip;) nahe beim Quellcode Einsatz leichtgewichtiger Tools ohne Kontextwechsel Integration in die tagtäglich verwendeten Entwicklerwerkzeuge Einfache Automatisierung der Erstellung der Dokumentationsartefakte Inhalte aus vorhandenen Modellen über Generatoransätze integrieren kollaboratives Bearbeiten und Einbindung in Review-Prozesse  Um all diese Punkte umzusetzen, gibt es bereits verschiedene Tools sowie Erweiterungen in bestehende Buildmanagement-Werkzeuge.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.embarc.de/doctoolchain/"
+      "Link": "https://www.embarc.de/docToolchain/"
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
@@ -441,7 +481,7 @@
       "ItemId": "https://www.embarc.de/was-geht-ab-in-meinem-cluster-fragen-an-matthias-haeussler/",
       "Title": "Was geht ab in meinem Cluster? Im Gespräch mit Matthias Haeussler",
       "PublishDate": "2021-12-01T08:00:00+00:00",
-      "Summary": "Am 13.12.2021 findet wieder unser Architektur-Punsch statt. Mit dabei sein wird Matthias Haeussler. Wir haben über seinen Vortrag gesprochen und auch allgemein etwas über den Ist-Zustand und die Zukunft von Kubernetes philosophiert. Neben dem Videomitschnitt findet ihr nachfolgend eine Zusammenfassung der wichtigsten Aussagen.\n \n(Falk) &ldquo;Hallo Matthias, stell Dich bitte kurz vor.&quot;\nMatthias: &ldquo;Ich bin seit 5 Jahren Cloud Native Consultant bei der Firma Novatec und begleite Kunden auf dem Weg zur modernen Softwareentwicklung mit dem Schwerpunkt: Einsatz von Cloud-Technologien und -Plattformen.",
+      "Summary": "Am 13.12.2021 findet wieder unser Architektur-Punsch statt. Mit dabei sein wird Matthias Haeussler. Wir haben über seinen Vortrag gesprochen und auch allgemein etwas über den Ist-Zustand und die Zukunft von Kubernetes philosophiert. Neben dem Videomitschnitt findet ihr nachfolgend eine Zusammenfassung der wichtigsten Aussagen.\n \n(Falk) &ldquo;Hallo Matthias, stell Dich bitte kurz vor.&rdquo;\nMatthias: &ldquo;Ich bin seit 5 Jahren Cloud Native Consultant bei der Firma Novatec und begleite Kunden auf dem Weg zur modernen Softwareentwicklung mit dem Schwerpunkt: Einsatz von Cloud-Technologien und -Plattformen.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/was-geht-ab-in-meinem-cluster-fragen-an-matthias-haeussler/"
@@ -471,7 +511,7 @@
       "ItemId": "https://www.embarc.de/softwaredokumentation-liebe-auf-den-zweiten-blick-fragen-an-stephan-pirnbaum/",
       "Title": "Softwaredokumentation - Liebe auf den zweiten Blick. Im Gespräch mit Stephan Pirnbaum",
       "PublishDate": "2021-11-16T08:00:00+00:00",
-      "Summary": "Stephan Pirnbaum wird in Kürze bei unserem Architektur-Punsch am 13.12.2021 dabei sein und ich habe mit ihm über seinen Vortrag &ldquo;Softwaredokumentation - Liebe auf den zweiten Blick&rdquo; gesprochen. Im Folgenden erwartet Euch ein Videomitschnitt zu unserem Austausch. Alternativ könnt Ihr die wichtigsten Aussagen auch direkt in diesem Blog nachlesen.\n (Falk) &ldquo;Hallo Stephan, stell Dich bitte kurz vor.&quot;\nStephan: &ldquo;Ich bin Consultant bei der BUSCHMAIS GbR, das ist ein Beratungsunternehmen aus Dresden.",
+      "Summary": "Stephan Pirnbaum wird in Kürze bei unserem Architektur-Punsch am 13.12.2021 dabei sein und ich habe mit ihm über seinen Vortrag &ldquo;Softwaredokumentation - Liebe auf den zweiten Blick&rdquo; gesprochen. Im Folgenden erwartet Euch ein Videomitschnitt zu unserem Austausch. Alternativ könnt Ihr die wichtigsten Aussagen auch direkt in diesem Blog nachlesen.\n (Falk) &ldquo;Hallo Stephan, stell Dich bitte kurz vor.&rdquo;\nStephan: &ldquo;Ich bin Consultant bei der BUSCHMAIS GbR, das ist ein Beratungsunternehmen aus Dresden.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/softwaredokumentation-liebe-auf-den-zweiten-blick-fragen-an-stephan-pirnbaum/"
@@ -481,7 +521,7 @@
       "ItemId": "https://www.embarc.de/deutsch-techies-fragen-an-melanie-andrisek/",
       "Title": "Deutsch für Techies. Im Gespräch mit Melanie Andrisek",
       "PublishDate": "2021-10-21T00:00:00+00:00",
-      "Summary": "(StefanZ) &ldquo;Melanie, was machst Du so?&quot;\nMelanie: &ldquo;Ich mache Bücher und Konferenzen beim dpunkt.verlag rund um IT. Gelernt habe ich Journalistin. Ganz genau bin ich eine Diplom-Journalistin (FH)&rdquo;\n&ldquo;Warum ist Deutsch wichtig für Techies?&quot;\nMelanie: “Weil Kommunikation wichtig ist. Und in vielen Unternehmen kommunizieren die Leute eben auf Deutsch. Dementsprechend wichtig ist es, sich klar, präzise und verständlich auszudrücken.”\n&ldquo;An was für Stellen ist das interessant?&quot;\nMelanie: “Die Frage ist eher: Wo nicht?",
+      "Summary": "(StefanZ) &ldquo;Melanie, was machst Du so?&rdquo;\nMelanie: &ldquo;Ich mache Bücher und Konferenzen beim dpunkt.verlag rund um IT. Gelernt habe ich Journalistin. Ganz genau bin ich eine Diplom-Journalistin (FH)&rdquo;\n&ldquo;Warum ist Deutsch wichtig für Techies?&rdquo;\nMelanie: “Weil Kommunikation wichtig ist. Und in vielen Unternehmen kommunizieren die Leute eben auf Deutsch. Dementsprechend wichtig ist es, sich klar, präzise und verständlich auszudrücken.”\n&ldquo;An was für Stellen ist das interessant?&rdquo;\nMelanie: “Die Frage ist eher: Wo nicht?",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/deutsch-techies-fragen-an-melanie-andrisek/"
@@ -571,7 +611,7 @@
       "ItemId": "https://www.embarc.de/eventual-consistency-fragen-an-susanne-braun/",
       "Title": "Eventual Consistency. Sieben Fragen an Susanne Braun",
       "PublishDate": "2021-06-02T00:00:00+00:00",
-      "Summary": "(StefanZ) &ldquo;Susanne, was machst Du so?&quot;\nSusanne: &ldquo;Ich bin aktuell am Fraunhofer IESE als &lsquo;Expert Data-Intensive Systems Design&rsquo; unterwegs. In diesem Umfeld forsche ich im Rahmen meiner PhD, verschiedener Forschungsprojekte, und betreue außerdem auch noch Kundenprojekte, die in diesem Themenkomplex angesiedelt sind. Im Moment ist bei mir der Forschungsanteil etwas höher, es gab aber auch schon Phasen, wo es umgekehrt war.\nBevor ich bei der Fraunhofer Gesellschaft eingestiegen bin, war ich einige Jahre als Software Engineer und Managing Consultant bei Capgemini sd&amp;m und Accso tätig.",
+      "Summary": "(StefanZ) &ldquo;Susanne, was machst Du so?&rdquo;\nSusanne: &ldquo;Ich bin aktuell am Fraunhofer IESE als &lsquo;Expert Data-Intensive Systems Design&rsquo; unterwegs. In diesem Umfeld forsche ich im Rahmen meiner PhD, verschiedener Forschungsprojekte, und betreue außerdem auch noch Kundenprojekte, die in diesem Themenkomplex angesiedelt sind. Im Moment ist bei mir der Forschungsanteil etwas höher, es gab aber auch schon Phasen, wo es umgekehrt war.\nBevor ich bei der Fraunhofer Gesellschaft eingestiegen bin, war ich einige Jahre als Software Engineer und Managing Consultant bei Capgemini sd&amp;m und Accso tätig.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/eventual-consistency-fragen-an-susanne-braun/"
@@ -611,7 +651,7 @@
       "ItemId": "https://www.embarc.de/architektur-ohne-tellerrand-saa2021/",
       "Title": "Architektur ohne Tellerrand - die SAA Konferenz",
       "PublishDate": "2021-05-06T00:00:00+00:00",
-      "Summary": "SAA 2021 - Call for Papers Die Software Architecture Alliance, kurz SAA, will eine moderne Konferenz für Software-Architektur sein. Sie findet von 06. - 07. Oktober 2021 online statt und stellt Praxisorientierung und Austausch in den Vordergrund. Ich gestalte diese Konferenz mit und gebe in diesem Blogpost einen kleinen Einblick in die Planung des Events. Anlass ist der Call for Papers, der diese Woche offiziell endet.\n   Die inhaltliche IdeeSoftwarearchitektur ist ein spannendes Thema und sollte nicht isoliert einer Rolle zugeordnet werden, nicht als exakte Wissenschaft betrachtet werden, und auch nicht als theoretische, abstrakte Angelegenheit abgetan werden.",
+      "Summary": "SAA 2021 - Call for Papers  Die Software Architecture Alliance, kurz SAA, will eine moderne Konferenz für Software-Architektur sein. Sie findet von 06. - 07. Oktober 2021 online statt und stellt Praxisorientierung und Austausch in den Vordergrund. Ich gestalte diese Konferenz mit und gebe in diesem Blogpost einen kleinen Einblick in die Planung des Events. Anlass ist der Call for Papers, der diese Woche offiziell endet.\n   Die inhaltliche IdeeSoftwarearchitektur ist ein spannendes Thema und sollte nicht isoliert einer Rolle zugeordnet werden, nicht als exakte Wissenschaft betrachtet werden, und auch nicht als theoretische, abstrakte Angelegenheit abgetan werden.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/architektur-ohne-tellerrand-saa2021/"
@@ -788,13 +828,13 @@
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
-      "ItemId": "https://www.embarc.de/pragmatische-fitness-functions/",
+      "ItemId": "https://www.embarc.de/pragmatische-Fitness-Functions/",
       "Title": "Pragmatische Fitness Functions (Basta!)",
       "PublishDate": "2020-12-08T00:00:00+00:00",
       "Summary": "Die Adventszeit ist auch die Zeit, in der man vielleicht zurückschaut auf Vergangenes.. auf Dinge die helfen, Ideen für Zukunft zu bekommen.\nDaher verbirgt sicher hinter dem &ldquo;Türchen #8&rdquo; der Rückblick auf meinen Talk &ldquo;Evolutionäre Architekturen und Fitness Functions - ein pragmatischer Zugang&rdquo; von der Basta! Konferenz im letzten Jahr in Mainz. Mit der Aufgabe für den geneigten Leser, ähm Video-Schauer, vielleicht eine Idee daraus für den eigenen Bereich aufzuschnappen.",
       "Content": null,
       "Language": null,
-      "Link": "https://www.embarc.de/pragmatische-fitness-functions/"
+      "Link": "https://www.embarc.de/pragmatische-Fitness-Functions/"
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
@@ -808,13 +848,13 @@
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
-      "ItemId": "https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/",
+      "ItemId": "https://www.embarc.de/Mitarbeiterbeteiligung-Fragebogen/",
       "Title": "Nikolaus, Stiefel raus!",
       "PublishDate": "2020-12-06T00:00:00+00:00",
       "Summary": "Ob nun am 6.12. der Krampus oder der Nikolaus zu Euch kommt, ist für unser Geschenk an Euch unerheblich! Heute gibt es den Fragebogen zur Ableitung Eurer Mitarbeiterbeteiligung von unserem Kooperationspartner Konrad Bechler.\n &nbsp;  Mitarbeiter beteiligen? Und wie!Als ich im August 2019 zu embarc kam, diskutierte ich mit meinen Kollegen die Frage: wie können wir als embarc in einer GmbH ein Beteiligungsmodell kreieren, das abbildet, wie wir wirklich arbeiten und welches gleichzeitig in Österreich als auch in Deutschland funktioniert, da wir in beiden Ländern Mitarbeiter haben?",
       "Content": null,
       "Language": null,
-      "Link": "https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/"
+      "Link": "https://www.embarc.de/Mitarbeiterbeteiligung-Fragebogen/"
     },
     {
       "FeedId": "https://www.embarc.de/blog/index.xml",
@@ -1411,7 +1451,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-11-tartan-architektur-muster-dokumentieren/",
       "Title": "Tartan-Architektur – Muster dokumentieren",
       "PublishDate": "2009-08-01T15:25:13+00:00",
-      "Summary": "Was macht ein Schotte mit einer Kerze vor dem Spiegel? Er feiert den 2. Advent! Zu den Dingen, die jeder sofort mit Schottland in Verbindung bringt, gehören neben der angeblichen Sparsamkeit natürlich die bunt gewebten Karos [1]. Fraser, MacLeod, Campbell &hellip; – Jeder Clan hat seine eigenen Farben; Familien- oder Regimentszugehörigkeit wird durch das Tragen des gleichen Tartans signalisiert. Wer das Muster kennt, sieht sofort: Das ist ein MacDonald!\n&nbsp;  Auch in der Softwareentwicklung sind Muster (neudeutsch Pattern) sehr verbreitet; wir finden sie auf vielen Ebenen.",
+      "Summary": "Was macht ein Schotte mit einer Kerze vor dem Spiegel? Er feiert den 2. Advent! Zu den Dingen, die jeder sofort mit Schottland in Verbindung bringt, gehören neben der angeblichen Sparsamkeit natürlich die bunt gewebten Karos [1]. Fraser, MacLeod, Campbell ... – Jeder Clan hat seine eigenen Farben; Familien- oder Regimentszugehörigkeit wird durch das Tragen des gleichen Tartans signalisiert. Wer das Muster kennt, sieht sofort: Das ist ein MacDonald! &nbsp;  Auch in der Softwareentwicklung sind Muster (neudeutsch Pattern) sehr verbreitet; wir finden sie auf vielen Ebenen.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-11-tartan-architektur-muster-dokumentieren/"
@@ -1441,7 +1481,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-8-fuer-die-ewigkeit-die-tonne-oder-etwas-dazwischen/",
       "Title": "Für die Ewigkeit? Die Tonne? Oder etwas dazwischen?",
       "PublishDate": "2009-05-01T14:11:35+00:00",
-      "Summary": "Mein Vater hat unlängst die ursprünglich auf Zelluloid gebannten Kindheitserinnerungen seiner Sprösslinge („Stefan lernt laufen“ etc.) auf DVD gesichert. Vor ein paar Jahren hatte er bereits die original Super 8-Stummfilme mit einer Videokamera von einer Leinwand abgefilmt. Die VHS-Bänder dienten nun als Quelle für die DVD. Technologie veraltet; wer Dokumentiertes dauerhaft bewahren will, muss sich damit auseinander setzen, dass auch zukünftige Interessierte die Sachen verwenden können.\n&nbsp;  Drohen Ihrer Architekturdokumentation ebenfalls technische Umwälzungen?",
+      "Summary": "Mein Vater hat unlängst die ursprünglich auf Zelluloid gebannten Kindheitserinnerungen seiner Sprösslinge („Stefan lernt laufen“ etc.) auf DVD gesichert. Vor ein paar Jahren hatte er bereits die original Super 8-Stummfilme mit einer Videokamera von einer Leinwand abgefilmt. Die VHS-Bänder dienten nun als Quelle für die DVD. Technologie veraltet; wer Dokumentiertes dauerhaft bewahren will, muss sich damit auseinander setzen, dass auch zukünftige Interessierte die Sachen verwenden können. &nbsp;  Drohen Ihrer Architekturdokumentation ebenfalls technische Umwälzungen?",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-8-fuer-die-ewigkeit-die-tonne-oder-etwas-dazwischen/"
@@ -1451,7 +1491,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-7-historisch-gewachsen-entscheidungen-festhalten/",
       "Title": "Historisch gewachsen? - Entscheidungen festhalten",
       "PublishDate": "2009-04-01T09:05:47+00:00",
-      "Summary": "1815 – Europa in Aufregung. Napoleon erlebt bei Waterloo ebendieses – er verliert seine letzte Schlacht. Mittlerweile haben Historiker reichlich Papier veröffentlicht, um die Gefechtsgeschehnisse zu dokumentieren und zu bewerten. Sie sind sich nicht in allen Punkten einig.\nDie Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle überliefert, nicht immer ist aber klar, welche Alternativen er zuvor gegeneinander abgewogen hat, und warum er sich für eine bestimmte Option entschied.",
+      "Summary": "1815 – Europa in Aufregung. Napoleon erlebt bei Waterloo ebendieses – er verliert seine letzte Schlacht. Mittlerweile haben Historiker reichlich Papier veröffentlicht, um die Gefechtsgeschehnisse zu dokumentieren und zu bewerten. Sie sind sich nicht in allen Punkten einig. Die Entscheidungen des Kaisers der Franzosen sind zwar in Form seiner Befehle überliefert, nicht immer ist aber klar, welche Alternativen er zuvor gegeneinander abgewogen hat, und warum er sich für eine bestimmte Option entschied.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-7-historisch-gewachsen-entscheidungen-festhalten/"
@@ -1461,7 +1501,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-6-von-software-messies-und-jar-file-schlampen/",
       "Title": "Von Software-Messies und Jar-File-Schlampen",
       "PublishDate": "2009-03-01T08:46:49+00:00",
-      "Summary": "Manche Menschen können sich von nichts trennen. Sie müssen alles aufheben, es könnte ja noch gebraucht werden. Am Ende haben sie keinen Überblick mehr über die gehorteten Dinge und verlieren sich in ihnen. Die Fachwelt spricht von einer Desorganisationsproblematik, in schweren Fällen vom Vermüllungssyndrom. Umgangssprachlich bezeichnen wir solche Leute als „Messies“; sie haben „schwerwiegende Defizite in der Fähigkeit, die eigene Wohnung ordentlich zu halten und die Alltagsaufgaben zu organisieren“ [1].",
+      "Summary": "Manche Menschen können sich von nichts trennen. Sie müssen alles aufheben, es könnte ja noch gebraucht werden. Am Ende haben sie keinen Überblick mehr über die gehorteten Dinge und verlieren sich in ihnen. Die Fachwelt spricht von einer Desorganisationsproblematik, in schweren Fällen vom Vermüllungssyndrom. Umgangssprachlich bezeichnen wir solche Leute als „Messies“; sie haben „schwerwiegende Defizite in der Fähigkeit, die eigene Wohnung ordentlich zu halten und die Alltagsaufgaben zu organisieren“ [1]. &nbsp;  Zu den Alltagsaufgaben eines IT-Architekten gehört es, Abhängigkeiten seines Softwaresystems bewusst zu planen.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-6-von-software-messies-und-jar-file-schlampen/"
@@ -1491,7 +1531,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-3-hat-mozart-modelliert/",
       "Title": "Hat Mozart modelliert?",
       "PublishDate": "2008-12-01T20:35:40+00:00",
-      "Summary": "In der Musik werden Melodien als Noten in einem speziellen Liniensystem visualisiert. Es erlaubt die Angabe von Tonhöhen, -längen und vielem mehr und ist eine seit Jahrhunderten etablierte, grafische, domänenspezifischen Sprache. Komplexe musikalische Werke wie eine Sinfonie werden allerdings nicht einfach mit einer Folge von Noten beschrieben.\nDie in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen, finden auch hier Verwendung: Abstraktion, Zerlegung, Hierarchie. Beispiele hierfür sind kompakte Beschreibungen, die sich zur schnellen Einordnung des Werkes eignen (Abstraktion, z.",
+      "Summary": "In der Musik werden Melodien als Noten in einem speziellen Liniensystem visualisiert. Es erlaubt die Angabe von Tonhöhen, -längen und vielem mehr und ist eine seit Jahrhunderten etablierte, grafische, domänenspezifischen Sprache. Komplexe musikalische Werke wie eine Sinfonie werden allerdings nicht einfach mit einer Folge von Noten beschrieben. Die in der Softwareentwicklung bewährten Mittel, um mit Komplexität umzugehen, finden auch hier Verwendung: Abstraktion, Zerlegung, Hierarchie. Beispiele hierfür sind kompakte Beschreibungen, die sich zur schnellen Einordnung des Werkes eignen (Abstraktion, z.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-3-hat-mozart-modelliert/"
@@ -1501,7 +1541,7 @@
       "ItemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-2-systemkontext/",
       "Title": "Kombiniere -- der Systemkontext",
       "PublishDate": "2008-11-01T19:49:15+00:00",
-      "Summary": "&nbsp;  Waren Sie schon mal im Krimitheater? Samstagabend, 20:00 Uhr: Auf der Bühne liegt eine Leiche, ein Mord ist geschehen. Der Detektiv beginnt seine Arbeit und untersucht auf der Jagd nach Verdächtigen als erstes das Umfeld des Opfers, den Kontext. Wer hatte ein Motiv? Mit wem hat das Opfer zuletzt gesprochen?\n&nbsp;  Ihrer Softwarelösung wünsche ich natürlich nicht den baldigen IT-Tod – eine Umfeldanalyse ist aber auch hier von zentraler Bedeutung.",
+      "Summary": "&nbsp;  Waren Sie schon mal im Krimitheater? Samstagabend, 20:00 Uhr: Auf der Bühne liegt eine Leiche, ein Mord ist geschehen. Der Detektiv beginnt seine Arbeit und untersucht auf der Jagd nach Verdächtigen als erstes das Umfeld des Opfers, den Kontext. Wer hatte ein Motiv? Mit wem hat das Opfer zuletzt gesprochen? &nbsp;  Ihrer Softwarelösung wünsche ich natürlich nicht den baldigen IT-Tod – eine Umfeldanalyse ist aber auch hier von zentraler Bedeutung.",
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-2-systemkontext/"
@@ -1515,6 +1555,16 @@
       "Content": null,
       "Language": null,
       "Link": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-1-voll-unagil/"
+    },
+    {
+      "FeedId": "https://www.embarc.de/blog/index.xml",
+      "ItemId": "https://www.embarc.de/groovy-einfuehrung/",
+      "Title": "Einführung in Groovy",
+      "PublishDate": "2007-11-08T08:00:00+00:00",
+      "Summary": "Warum Groovy?Dynamische Skriptsprachen gibt es viele. Es existieren allein über 200 für die Java Virtual Machine. Im Jahre 2003 hat sich auch Groovy aufgemacht, einen Platz in diesem hart umkämpften Markt zu erobern. Was ist das Besondere an dieser noch recht jungen dynamic language und warum sollte man sich damit beschäftigen? Zwei Merkmale sind hier auf jeden Fall zu nennen und insbesondere die Kombination aus beiden macht Groovy im Moment so einzigartig:",
+      "Content": null,
+      "Language": null,
+      "Link": "https://www.embarc.de/groovy-einfuehrung/"
     }
   ]
 }
