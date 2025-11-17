@@ -1,0 +1,32 @@
+﻿{
+  "FeedTitle": "Steve Talks Code",
+  "FeedId": "https://stevetalkscode.co.uk/feed/",
+  "ItemIds": [
+    "https://stevetalkscode.co.uk/c-sharp-9-record-factories",
+    "https://stevetalkscode.co.uk/configuration-bridging-part-1",
+    "https://stevetalkscode.co.uk/configuration-bridging-part-2",
+    "https://stevetalkscode.co.uk/configuration-bridging-part-3",
+    "https://stevetalkscode.co.uk/configuration-bridging-part-4",
+    "https://stevetalkscode.co.uk/debug-source-generators-with-vs2019-1610",
+    "https://stevetalkscode.co.uk/disposables-in-di-part-1",
+    "https://stevetalkscode.co.uk/disposables-in-di-part-2",
+    "https://stevetalkscode.co.uk/disposables-in-di-part-3",
+    "https://stevetalkscode.co.uk/install-octopus-with-domain-account",
+    "https://stevetalkscode.co.uk/istartup-gotcha",
+    "https://stevetalkscode.co.uk/jetbrains-di-webinar",
+    "https://stevetalkscode.co.uk/merge-to-monorepo-1",
+    "https://stevetalkscode.co.uk/merge-to-monorepo-2",
+    "https://stevetalkscode.co.uk/middleware-styles",
+    "https://stevetalkscode.co.uk/named-dependencies-part-1",
+    "https://stevetalkscode.co.uk/named-dependencies-part-2",
+    "https://stevetalkscode.co.uk/null-injection",
+    "https://stevetalkscode.co.uk/openapireference-commands",
+    "https://stevetalkscode.co.uk/regex-source-generator",
+    "https://stevetalkscode.co.uk/separating-aspnetcore-startup",
+    "https://stevetalkscode.co.uk/simplifying-di-with-functions",
+    "https://stevetalkscode.co.uk/sourcegeneratorattacks",
+    "https://stevetalkscode.co.uk/speccyimageloader",
+    "https://stevetalkscode.co.uk/stronglytypedheaders-part1",
+    "https://stevetalkscode.co.uk/using-iconfigureoptions"
+  ]
+}

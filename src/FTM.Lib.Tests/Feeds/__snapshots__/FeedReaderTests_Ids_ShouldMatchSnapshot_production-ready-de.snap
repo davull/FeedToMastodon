@@ -1,0 +1,21 @@
+﻿{
+  "FeedTitle": "Production Ready | Blog",
+  "FeedId": "https://www.production-ready.de/feed/de.xml",
+  "ItemIds": [
+    "https://www.production-ready.de/2023/04/15/mailgraph-docker-container",
+    "https://www.production-ready.de/2023/04/20/aks-kubernetes-update",
+    "https://www.production-ready.de/2023/04/29/analyse-terraform-files-with-tfsec",
+    "https://www.production-ready.de/2023/05/06/devcontainer-with-vscode",
+    "https://www.production-ready.de/2023/06/10/property-based-testing-in-csharp",
+    "https://www.production-ready.de/2023/07/02/dnscontrol",
+    "https://www.production-ready.de/2023/08/20/docker-scale-to-zero-with-traefik-sablier",
+    "https://www.production-ready.de/2023/09/14/test-setup-with-dummy-factories",
+    "https://www.production-ready.de/2023/09/28/refactor-to-purity",
+    "https://www.production-ready.de/2023/11/11/kuma-azure-web-app-containers",
+    "https://www.production-ready.de/2023/12/10/architecture-refactoring-with-archunitnet",
+    "https://www.production-ready.de/2023/12/28/lightweight-architecture-documentation-adr",
+    "https://www.production-ready.de/2024/04/27/integration-testing-with-testcontainers",
+    "https://www.production-ready.de/2024/05/10/integration-testing-with-docker",
+    "https://www.production-ready.de/2024/11/24/feed-to-mastodon"
+  ]
+}

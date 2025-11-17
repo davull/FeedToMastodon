@@ -1,0 +1,16 @@
+﻿{
+  "FeedTitle": "Ardalis RSS Feed",
+  "FeedId": "https://ardalis.com",
+  "ItemIds": [
+    "https://ardalis.com/2024-year-in-review/",
+    "https://ardalis.com/ardalis-specification-v9-release/",
+    "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
+    "https://ardalis.com/from-microservices-to-modular-monoliths/",
+    "https://ardalis.com/genai-coding-investment-risk-strategy/",
+    "https://ardalis.com/genai-is-the-new-offshoring/",
+    "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
+    "https://ardalis.com/navigation-properties-between-aggregates-modules/",
+    "https://ardalis.com/when-qa-keeps-finding-bugs/",
+    "https://ardalis.com/you-should-blog/"
+  ]
+}

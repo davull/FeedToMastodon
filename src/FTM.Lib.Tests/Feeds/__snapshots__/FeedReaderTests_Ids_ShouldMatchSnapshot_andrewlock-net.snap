@@ -1,0 +1,31 @@
+﻿{
+  "FeedTitle": "Andrew Lock | .NET Escapades",
+  "FeedId": "https://andrewlock.net/rss/",
+  "ItemIds": [
+    "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
+    "https://andrewlock.net/converting-a-docker-compose-file-to-aspire/",
+    "https://andrewlock.net/converting-an-xna-game-to-monogame/",
+    "https://andrewlock.net/creating-a-pooled-dependency-injection-lifetime/",
+    "https://andrewlock.net/creating-a-software-bill-of-materials-sbom-for-an-open-source-nuget-package/",
+    "https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/",
+    "https://andrewlock.net/creating-a-source-generator-part-12-reading-compilation-options-and-csharp-version-in-source-generators/",
+    "https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/",
+    "https://andrewlock.net/creating-a-source-generator-part-14-supporting-multiple-sdk-versions-in-a-source-generator/",
+    "https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/",
+    "https://andrewlock.net/creating-provenance-attestations-for-nuget-packages-in-github-actions/",
+    "https://andrewlock.net/creating-sbom-attestations-in-github-actions/",
+    "https://andrewlock.net/creating-your-first-sample-game-with-monogame/",
+    "https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/",
+    "https://andrewlock.net/exploring-the-new-ai-chat-template/",
+    "https://andrewlock.net/going-beyond-singleton-scoped-and-transient-lifetimes/",
+    "https://andrewlock.net/netescapades-aspnetcore-securityheaders-1-0-0-released/",
+    "https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/",
+    "https://andrewlock.net/pushing-a-whole-stack-of-branches-with-a-single-git-command/",
+    "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
+    "https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/",
+    "https://andrewlock.net/supporting-multiple-sdk-versions-in-analyzers-and-source-generators/",
+    "https://andrewlock.net/using-the-new-ai-template-to-create-a-chatbot-about-a-website/",
+    "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
+    "https://andrewlock.net/verifiying-tricky-git-rebases-with-range-diffs/"
+  ]
+}

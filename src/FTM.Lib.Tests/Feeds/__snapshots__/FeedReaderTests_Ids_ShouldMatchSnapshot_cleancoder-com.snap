@@ -1,0 +1,26 @@
+﻿{
+  "FeedTitle": "The Clean Code Blog",
+  "FeedId": "http://blog.cleancoder.com/",
+  "ItemIds": [
+    "http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory",
+    "http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs",
+    "http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation",
+    "http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope",
+    "http://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure",
+    "http://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure",
+    "http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign",
+    "http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation",
+    "http://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct",
+    "http://blog.cleancoder.com/uncle-bob/2020/09/30/loopy",
+    "http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance",
+    "http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing",
+    "http://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch",
+    "http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes",
+    "http://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes",
+    "http://blog.cleancoder.com/uncle-bob/2021/09/25/roots",
+    "http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication",
+    "http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar",
+    "http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes",
+    "http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure"
+  ]
+}

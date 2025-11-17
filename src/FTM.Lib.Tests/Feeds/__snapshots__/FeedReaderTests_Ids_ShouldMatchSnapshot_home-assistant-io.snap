@@ -1,0 +1,26 @@
+﻿{
+  "FeedTitle": "Home Assistant",
+  "FeedId": "https://www.home-assistant.io/",
+  "ItemIds": [
+    "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
+    "https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup",
+    "https://www.home-assistant.io/blog/2025/01/03/release-20251",
+    "https://www.home-assistant.io/blog/2025/02/05/release-20252",
+    "https://www.home-assistant.io/blog/2025/02/13/voice-chapter-9-speech-to-phrase",
+    "https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha",
+    "https://www.home-assistant.io/blog/2025/03/05/music-assistants-next-big-hit",
+    "https://www.home-assistant.io/blog/2025/03/05/release-20253",
+    "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
+    "https://www.home-assistant.io/blog/2025/03/26/state-of-the-open-home-2025-announcement",
+    "https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha",
+    "https://www.home-assistant.io/blog/2025/04/02/release-20254",
+    "https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap",
+    "https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant",
+    "https://www.home-assistant.io/blog/2025/04/24/community-day",
+    "https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant",
+    "https://www.home-assistant.io/blog/2025/05/07/release-20255",
+    "https://www.home-assistant.io/blog/2025/05/09/roadmap-2025h1",
+    "https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems",
+    "https://www.home-assistant.io/blog/2025/06/11/release-20256"
+  ]
+}
