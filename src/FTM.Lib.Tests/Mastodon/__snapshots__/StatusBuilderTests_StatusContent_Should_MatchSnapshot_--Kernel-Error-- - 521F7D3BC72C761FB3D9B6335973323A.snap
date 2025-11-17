@@ -1,0 +1,5 @@
+﻿GPT in Rspamd aktivieren: so nutze ich das LLM-Signal im Score
+
+Setup: FreeBSD 14.3, Rspamd 3.12.1, Postfix + Dovecot. Ich lasse bei kniffligen Mails zusätzlich ein LLM draufschauen. Wichtig: GPT ist bei mir nur ein weiterer Sensor im ganz normalen Rspamd-Scoring — keine Allzweckwaffe und kein „hartes Urteil“. Voraussetzungen OpenAI API Key erstellen: Melde dich auf der Developer-Plattform an, öffne die Seite API Keys und klicke […]
+---
+https://www.kernel-error.de/2025/09/30/gpt-in-rspamd-aktivieren/

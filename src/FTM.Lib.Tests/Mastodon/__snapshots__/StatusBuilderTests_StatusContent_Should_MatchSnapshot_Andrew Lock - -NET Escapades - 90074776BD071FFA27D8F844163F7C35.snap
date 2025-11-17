@@ -1,0 +1,5 @@
+﻿Easier reflection with [UnsafeAccessorType] in .NET 10: Exploring the .NET 10 preview - Part 9
+
+In this post I show how to work with [UnsafeAccessor] to do 'easier' reflection and how to use .NET 10's [UnsafeAccessorType] with types you can't reference
+---
+https://andrewlock.net/exploring-dotnet-10-preview-features-9-easier-reflection-with-unsafeaccessortype/

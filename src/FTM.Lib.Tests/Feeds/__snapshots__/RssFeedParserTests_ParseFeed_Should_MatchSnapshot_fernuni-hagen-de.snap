@@ -2,109 +2,109 @@
   "Id": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
   "Website": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
   "Title": "FernUniversität in Hagen - Aktuelles",
-  "LastUpdatedTime": "2025-06-13T14:58:40+02:00",
+  "LastUpdatedTime": "2025-11-17T14:15:27+01:00",
   "Description": "Aktuelles",
   "Language": "de",
   "Items": [
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/admit-mit-generativer-ki-und-llms-lehren.shtml",
-      "Title": "Europäisches Verbundprojekt: FernUniversität kooperiert mit EADTU",
-      "PublishDate": "2025-06-13T00:00:00+02:00",
-      "Summary": "Erste Ergebnisse einer Umfrage zu generativer KI und großen Sprachmodellen in der Lehre (ADMIT) liegen vor. Für die nächste Befragungsrunde im Juni werden noch Lehrende gesucht.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-fernuni-im-wandel.shtml",
+      "Title": "DIES ACADEMICUS 2025: FernUniversität im Wandel",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Der DIES ACADEMICUS der FernUniversität stand in diesem Jahr im Zeichen des institutionellen Wandels, der Vorstellung des neuen Rektorats sowie zahlreicher Ehrungen.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/admit-mit-generativer-ki-und-llms-lehren.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-fernuni-im-wandel.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/neues-modul-bildungswissenschaft.shtml",
-      "Title": "Neues Modul zur Weiterbildungsforschung im Master Bildungswissenschaft",
-      "PublishDate": "2025-06-13T00:00:00+02:00",
-      "Summary": "Praktisches Wissen für Berufe in der Weiterbildung und seltene Einblicke in die Weiterbildungsforschung: Das neue Angebot geht zum Wintersemester 2025/2026 an den Start. ",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/enervie-preise-fuer-nachhaltige-spitzenforschung.shtml",
+      "Title": "ENERVIE-Preise für nachhaltige Spitzenforschung",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Beim DIES ACADEMICUS der FernUniversität in Hagen wurden drei herausragende Arbeiten ausgezeichnet – von der Rohstoffbeschaffung bis zur Energieflexibilität.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/neues-modul-bildungswissenschaft.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/enervie-preise-fuer-nachhaltige-spitzenforschung.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-politischer-salon-50-jahre-fernuni.shtml",
-      "Title": "Von der Fernseh- zur Daten-Uni: Die FernUniversität feiert politisch und persönlich",
-      "PublishDate": "2025-06-13T00:00:00+02:00",
-      "Summary": "Es war ein ganz besonderer Politischer Salon zum 50. Geburtstag der FernUniversität: mit Bekenntnissen, Erinnerungen und Ausblicken – und vor allem vielen Gratulant:innen.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-forschungspreis.shtml",
+      "Title": "Forschungspreise für Prof. Delio Mugnolo und Dr. Anna Lang",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Der Mathematiker Prof. Dr. Delio Mugnolo wird in der Kategorie Forschungsprojekt ausgezeichnet. In der Kategorie Nachwuchs gewinnt die Psychologin Dr. Anna Lang.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-politischer-salon-50-jahre-fernuni.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-forschungspreis.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-jugenduni-wissenschaft-ist-ueberall.shtml",
-      "Title": "Schulklasse erkundet Videostudio",
-      "PublishDate": "2025-12-06T00:00:00+01:00",
-      "Summary": "Bei einer Veranstaltung aus der Reihe „JugendUni“ lernten 27 Hagener Schülerinnen und Schüler Videos als Format der Wissensvermittlung kennen.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/am-immersive-technologien-sozialpsychologie.shtml",
+      "Title": "Immersive Technologien für die Sozialpsychologie",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Bei einem internationalen Treffen ergründeten Expert:innen, das Potenzial von virtueller Immersion für die Sozialpsychologie – und die Möglichkeiten zur engeren Zusammenarbeit.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-jugenduni-wissenschaft-ist-ueberall.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/am-immersive-technologien-sozialpsychologie.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/von-colombo-nach-hagen.shtml",
-      "Title": "Von Colombo nach Hagen – und zurück mit einem Koffer voller Eindrücke",
-      "PublishDate": "2025-12-06T00:00:00+01:00",
-      "Summary": "Nach 18 Monaten heißt es Abschied nehmen: Gastwissenschaftlerin Dr. Wathsala Athukorala aus Sri Lanka verlässt die Universitätsbibliothek der FernUni mit vielen neuen Erfahrungen.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-vergabe-lehrpreis.shtml",
+      "Title": "Lehrpreis würdigt akademische Professionalität und didaktische Kreativität",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Beim DIES ACADEMICUS 2025 der FernUniversität in Hagen wurde erneut der Lehrpreis in Kooperation mit der Gesellschaft der Freunde der FernUniversität verliehen. ",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/von-colombo-nach-hagen.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-vergabe-lehrpreis.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/goldene-wiwi-eule-2023-und-2024-verliehen.shtml",
-      "Title": "Goldene WiWi-Eule 2023 und 2024 verliehen",
-      "PublishDate": "2025-11-06T00:00:00+01:00",
-      "Summary": "Studierende haben gewählt: Diese sechs Lieblingsmodule überzeugen durch Praxisnähe, starke Lehre und echte Aha-Momente. Jetzt haben die Gewinner:innen ihre Preise erhalten.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-sonderpreis.shtml",
+      "Title": "Neuer Preis für besonderes Engagement",
+      "PublishDate": "2025-11-17T00:00:00+01:00",
+      "Summary": "Mit ihm möchte Rektor Prof. Stürmer Beschäftigte würdigen, die durch außergewöhnlichen Einsatz hervorstechen. Er wurde erstmals beim DIES ACADEMICUS 2025 verliehen. ",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/goldene-wiwi-eule-2023-und-2024-verliehen.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/dies-academicus-sonderpreis.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/hannah-ruschemeier-in-junge-akademie-aufgenommen.shtml",
-      "Title": "Hannah Ruschemeier in Junge Akademie aufgenommen",
-      "PublishDate": "2025-10-06T00:00:00+02:00",
-      "Summary": "Engagement für KI-Regulierung und interdisziplinären Austausch: FernUni-Professorin Hannah Ruschemeier will zeigen, wie digitale Forschung Gesellschaft mitgestalten kann.",
+      "ItemId": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/aktuelles-termine/aktuelles/NextLevelLernenNews.shtml",
+      "Title": "CATALPA bringt Wissenschaft auf die Bühne",
+      "PublishDate": "2025-11-14T00:00:00+01:00",
+      "Summary": "Beim ersten Science Slam von CATALPA und der FernUni begeisterten Natalia Reich-Stiebert, Daiana Rinja, Florence Lehnert und Bernhard Schubach über 70 Gäste im Lutz Theater Hagen.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/hannah-ruschemeier-in-junge-akademie-aufgenommen.shtml"
+      "Link": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/aktuelles-termine/aktuelles/NextLevelLernenNews.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-integrierter-bachelor-rewi.shtml",
-      "Title": "Juristisches Staatsexamen: Ein Studium, viele Möglichkeiten",
-      "PublishDate": "2025-10-06T00:00:00+02:00",
-      "Summary": "Entscheidungsfreiheit ohne Mehraufwand: Wer an der FernUniversität auf ein Staatsexamen hinarbeitet, erhält ab einem gewissen Punkt automatisch den juristischen Bachelorabschluss.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/gerichte-als-buehne-der-energiewende.shtml",
+      "Title": "Gerichte als Bühne der Energiewende",
+      "PublishDate": "2025-11-13T00:00:00+01:00",
+      "Summary": "Eine internationale Tagung der FernUniversität in Hagen beleuchtete strategische Klagen in Klima- und Energiefragen – mit Akteur:innen aus Japan, Frankreich und Deutschland.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/am-integrierter-bachelor-rewi.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/gerichte-als-buehne-der-energiewende.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/coesfeld-unternehmen-hoersaal.shtml",
-      "Title": "Technologie trifft Psychologie",
-      "PublishDate": "2025-10-06T00:00:00+02:00",
-      "Summary": "Rektor Prof. Stefan Stürmer war in der Reihe „Unternehmen Hörsaal“ am Campus Coesfeld zu Gast. Wissenschaft und Praxis kommen hier zusammen und tauschen sich aus. ",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/zukunftskonferenz-nrw.shtml",
+      "Title": "Zukunftskonferenz NRW",
+      "PublishDate": "2025-11-13T00:00:00+01:00",
+      "Summary": "Bei der ersten Zukunftskonferenz NRW sitzen Landespolitik und Wissenschaft an einem Tisch. Mit dabei sind auch Wissenschaftler der FernUniversität.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/coesfeld-unternehmen-hoersaal.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/zukunftskonferenz-nrw.shtml"
     },
     {
       "FeedId": "https://www.fernuni-hagen.de/universitaet/aktuelles/index.shtml",
-      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/habilitation-renate-reiter.shtml",
-      "Title": "Sozialpolitik im deutsch-französischen Vergleich",
-      "PublishDate": "2025-05-06T00:00:00+02:00",
-      "Summary": "„Unser Sozialstaat verändert sich“, sagt PD Dr. Renate Reiter. Im Mai hat sie die Venia Legendi für das Fach Politikwissenschaft erhalten.",
+      "ItemId": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/metaverse-meets-health-forschungssymposium.shtml",
+      "Title": "Digitale Gesundheit: FernUniversität bringt Wissenschaft und Praxis zusammen",
+      "PublishDate": "2025-12-11T00:00:00+01:00",
+      "Summary": "Wie helfen immersive Technologien in der Gesundheitsversorgung? Ein Symposium an der FernUniversität zeigte Chancen und Herausforderungen digitaler Gesundheit auf.",
       "Content": null,
       "Language": "de",
-      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/06/habilitation-renate-reiter.shtml"
+      "Link": "https://www.fernuni-hagen.de/universitaet/aktuelles/2025/11/metaverse-meets-health-forschungssymposium.shtml"
     }
   ]
 }

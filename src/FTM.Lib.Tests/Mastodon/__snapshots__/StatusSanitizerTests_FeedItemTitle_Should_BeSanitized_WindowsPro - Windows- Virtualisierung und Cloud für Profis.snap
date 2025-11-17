@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "5908 at https://www.windowspro.de",
-    "raw": "Windows LAPS überwachen und Zugriff auf Passwörter nachverfolgen",
-    "sanitized": "Windows LAPS überwachen und Zugriff auf Passwörter nachverfolgen"
+    "itemId": "5924 at https://www.windowspro.de",
+    "raw": "Windows Sandbox automatisieren: Browser anpassen, Programme installieren",
+    "sanitized": "Windows Sandbox automatisieren: Browser anpassen, Programme installieren"
   },
   {
-    "itemId": "5906 at https://www.windowspro.de",
-    "raw": "Künstliche Intelligenz in der IT-Sicherheit: KI-gestützte Security eröffnet neue Chancen für Partner und MSSPs",
-    "sanitized": "Künstliche Intelligenz in der IT-Sicherheit: KI-gestützte Security eröffnet neue Chancen für Partner und MSSPs"
+    "itemId": "5928 at https://www.windowspro.de",
+    "raw": "ACMP 6.8: Co-Management mit Intune, Treiber-Updates, erweiterte Linux-Unterstützung",
+    "sanitized": "ACMP 6.8: Co-Management mit Intune, Treiber-Updates, erweiterte Linux-Unterstützung"
   },
   {
-    "itemId": "5909 at https://www.windowspro.de",
-    "raw": "Unbound DNS Overrides in OPNsense per Script erzeugen",
-    "sanitized": "Unbound DNS Overrides in OPNsense per Script erzeugen"
+    "itemId": "5925 at https://www.windowspro.de",
+    "raw": "Passwörter von Microsoft Authenticator nach KeePass migrieren",
+    "sanitized": "Passwörter von Microsoft Authenticator nach KeePass migrieren"
   },
   {
-    "itemId": "5905 at https://www.windowspro.de",
-    "raw": "Webinar: Volle Kontrolle über die Daten auf Smartphones und Tablets behalten",
-    "sanitized": "Webinar: Volle Kontrolle über die Daten auf Smartphones und Tablets behalten"
+    "itemId": "5923 at https://www.windowspro.de",
+    "raw": "Exchange SE und Skype for Business SE verfügbar, Preiserhöhungen um einen Monat verschoben",
+    "sanitized": "Exchange SE und Skype for Business SE verfügbar, Preiserhöhungen um einen Monat verschoben"
   },
   {
-    "itemId": "5911 at https://www.windowspro.de",
-    "raw": "Microsoft gibt sichere Kennwortbereitstellung für den Edge-Browser frei",
-    "sanitized": "Microsoft gibt sichere Kennwortbereitstellung für den Edge-Browser frei"
+    "itemId": "5918 at https://www.windowspro.de",
+    "raw": "SSH-Anmeldung mit dem Authentication Agent automatisieren",
+    "sanitized": "SSH-Anmeldung mit dem Authentication Agent automatisieren"
   },
   {
-    "itemId": "5238 at https://www.windowspro.de",
-    "raw": "Kemp LoadMaster gegen F5 BIG-IP: Funktionen und Lizenzierung im Vergleich",
-    "sanitized": "Kemp LoadMaster gegen F5 BIG-IP: Funktionen und Lizenzierung im Vergleich"
+    "itemId": "5920 at https://www.windowspro.de",
+    "raw": "Whitepaper: Was hat das Client-Management mit der NIS2-Richtlinie zu tun?",
+    "sanitized": "Whitepaper: Was hat das Client-Management mit der NIS2-Richtlinie zu tun?"
   },
   {
-    "itemId": "5899 at https://www.windowspro.de",
-    "raw": "Windows-Anmeldung mit PIN aktivieren",
-    "sanitized": "Windows-Anmeldung mit PIN aktivieren"
+    "itemId": "5922 at https://www.windowspro.de",
+    "raw": "Neue Security Baseline für Windows Server 2025",
+    "sanitized": "Neue Security Baseline für Windows Server 2025"
   },
   {
-    "itemId": "5902 at https://www.windowspro.de",
-    "raw": "Verzeichnisbäume visualisieren und Dateien filtern mit PowerTree",
-    "sanitized": "Verzeichnisbäume visualisieren und Dateien filtern mit PowerTree"
+    "itemId": "5921 at https://www.windowspro.de",
+    "raw": "Windows 11 25H2 für Insider verfügbar, Upgrade mittels Enablement Package",
+    "sanitized": "Windows 11 25H2 für Insider verfügbar, Upgrade mittels Enablement Package"
   },
   {
-    "itemId": "5904 at https://www.windowspro.de",
-    "raw": "Webinar: Drucken ohne Print-Server und VPN",
-    "sanitized": "Webinar: Drucken ohne Print-Server und VPN"
+    "itemId": "5910 at https://www.windowspro.de",
+    "raw": "Testbericht: Mit ezeep Blue auf verschiedenen Endgeräten von überall drucken",
+    "sanitized": "Testbericht: Mit ezeep Blue auf verschiedenen Endgeräten von überall drucken"
   },
   {
-    "itemId": "5907 at https://www.windowspro.de",
-    "raw": "Netzwerke scannen mit dem kostenlosen Angry IP Scanner",
-    "sanitized": "Netzwerke scannen mit dem kostenlosen Angry IP Scanner"
+    "itemId": "5919 at https://www.windowspro.de",
+    "raw": "VMware vSphere 9.0: Neues Setup, Hot Patching, Memory Tiering mit NVMe, vSAN-Replikation",
+    "sanitized": "VMware vSphere 9.0: Neues Setup, Hot Patching, Memory Tiering mit NVMe, vSAN-Replikation"
   }
 ]

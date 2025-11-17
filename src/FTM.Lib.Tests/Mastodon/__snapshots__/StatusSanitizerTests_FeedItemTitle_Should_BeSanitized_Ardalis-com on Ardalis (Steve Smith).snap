@@ -1,0 +1,252 @@
+﻿[
+  {
+    "itemId": "https://ardalis.com/the-ardalis-cli/",
+    "raw": "The Ardalis Cli",
+    "sanitized": "The Ardalis Cli"
+  },
+  {
+    "itemId": "https://ardalis.com/use-timespan-or-specify-units-in-duration-properties-and-parameters/",
+    "raw": "Use TimeSpan Or Specify Units In Duration Properties And Parameters",
+    "sanitized": "Use TimeSpan Or Specify Units In Duration Properties And Parameters"
+  },
+  {
+    "itemId": "https://ardalis.com/ardalis-fall-2025-speaking-tour/",
+    "raw": "Ardalis Fall 2025 Speaking Tour",
+    "sanitized": "Ardalis Fall 2025 Speaking Tour"
+  },
+  {
+    "itemId": "https://ardalis.com/combine-mp4-files-ffmpeg-windows/",
+    "raw": "How to Combine MP4 Files on Windows Using FFmpeg",
+    "sanitized": "How to Combine MP4 Files on Windows Using FFmpeg"
+  },
+  {
+    "itemId": "https://ardalis.com/install-nerd-fonts-terminal-icons-pwsh-7-win-11/",
+    "raw": "How to Install Nerd Fonts and Icons in PowerShell 7 on Windows 11",
+    "sanitized": "How to Install Nerd Fonts and Icons in PowerShell 7 on Windows 11"
+  },
+  {
+    "itemId": "https://ardalis.com/genai-is-the-new-offshoring/",
+    "raw": "GenAI is the new Offshoring",
+    "sanitized": "GenAI is the new Offshoring"
+  },
+  {
+    "itemId": "https://ardalis.com/genai-coding-investment-risk-strategy/",
+    "raw": "Managing GenAI Coding Risk Like an Investment",
+    "sanitized": "Managing GenAI Coding Risk Like an Investment"
+  },
+  {
+    "itemId": "https://ardalis.com/ardalis-specification-v9-release/",
+    "raw": "Ardalis Specification v9 Released",
+    "sanitized": "Ardalis Specification v9 Released"
+  },
+  {
+    "itemId": "https://ardalis.com/2024-year-in-review/",
+    "raw": "2024 Year In Review",
+    "sanitized": "2024 Year In Review"
+  },
+  {
+    "itemId": "https://ardalis.com/when-qa-keeps-finding-bugs/",
+    "raw": "When QA Keeps Finding Bugs",
+    "sanitized": "When QA Keeps Finding Bugs"
+  },
+  {
+    "itemId": "https://ardalis.com/avoid-using-csharp-events-in-aspnetcore-apps/",
+    "raw": "Avoid Using C# Events in ASP.NET Core Applications",
+    "sanitized": "Avoid Using C# Events in ASP.NET Core Applications"
+  },
+  {
+    "itemId": "https://ardalis.com/interfaces-describe-what-implementations-describe-how/",
+    "raw": "Interfaces Describe What - Implementations Describe How",
+    "sanitized": "Interfaces Describe What - Implementations Describe How"
+  },
+  {
+    "itemId": "https://ardalis.com/you-should-blog/",
+    "raw": "You Should Blog",
+    "sanitized": "You Should Blog"
+  },
+  {
+    "itemId": "https://ardalis.com/from-microservices-to-modular-monoliths/",
+    "raw": "From Microservices to Modular Monoliths",
+    "sanitized": "From Microservices to Modular Monoliths"
+  },
+  {
+    "itemId": "https://ardalis.com/navigation-properties-between-aggregates-modules/",
+    "raw": "Modeling Navigation Properties Between Aggregates or Modules",
+    "sanitized": "Modeling Navigation Properties Between Aggregates or Modules"
+  },
+  {
+    "itemId": "https://ardalis.com/comparing-unit-testable-code-with-maintainable-code/",
+    "raw": "Comparing Unit Testable Code with Maintainable Code",
+    "sanitized": "Comparing Unit Testable Code with Maintainable Code"
+  },
+  {
+    "itemId": "https://ardalis.com/effectively-sharing-resources-between-modules-modular-monolith/",
+    "raw": "Effectively Sharing Resources Between Modules in a Modular Monolith",
+    "sanitized": "Effectively Sharing Resources Between Modules in a Modular Monolith"
+  },
+  {
+    "itemId": "https://ardalis.com/clean-architecture-sucks/",
+    "raw": "Clean Architecture Sucks",
+    "sanitized": "Clean Architecture Sucks"
+  },
+  {
+    "itemId": "https://ardalis.com/technology-edges-bleeding-leading-rusting/",
+    "raw": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting",
+    "sanitized": "Navigating the Edges of Technology in Software Development: Bleeding, Leading, Dull, and Rusting"
+  },
+  {
+    "itemId": "https://ardalis.com/stop-debugging-start-running-visual-studio/",
+    "raw": "Stop Debugging and Start Running in Visual Studio",
+    "sanitized": "Stop Debugging and Start Running in Visual Studio"
+  },
+  {
+    "itemId": "https://ardalis.com/5-rules-dtos/",
+    "raw": "5 Rules for DTOs",
+    "sanitized": "5 Rules for DTOs"
+  },
+  {
+    "itemId": "https://ardalis.com/active-local-nuget-server/",
+    "raw": "An Active Local NuGet Server",
+    "sanitized": "An Active Local NuGet Server"
+  },
+  {
+    "itemId": "https://ardalis.com/introducing-modular-monoliths-goldilocks-architecture/",
+    "raw": "Introducing Modular Monoliths: The Goldilocks Architecture",
+    "sanitized": "Introducing Modular Monoliths: The Goldilocks Architecture"
+  },
+  {
+    "itemId": "https://ardalis.com/hello-mongodb-getting-started-mongo-dotnet/",
+    "raw": "Hello, MongoDB - Getting Started with Mongo and dotnet 8",
+    "sanitized": "Hello, MongoDB - Getting Started with Mongo and dotnet 8"
+  },
+  {
+    "itemId": "https://ardalis.com/hello-redis-getting-started-with-redis-dotnet/",
+    "raw": "Hello, Redis - Getting Started with Redis and dotnet 8",
+    "sanitized": "Hello, Redis - Getting Started with Redis and dotnet 8"
+  },
+  {
+    "itemId": "https://ardalis.com/http-file-not-sending-auth-header/",
+    "raw": "Solved! Visual Studio.http File Not Sending Authorization Header",
+    "sanitized": "Solved! Visual Studio.http File Not Sending Authorization Header"
+  },
+  {
+    "itemId": "https://ardalis.com/log-request-headers-middleware/",
+    "raw": "Log Request Headers Middleware for ASP.NET Core",
+    "sanitized": "Log Request Headers Middleware for ASP.NET Core"
+  },
+  {
+    "itemId": "https://ardalis.com/2023-year-in-review/",
+    "raw": "2023 Year in Review",
+    "sanitized": "2023 Year in Review"
+  },
+  {
+    "itemId": "https://ardalis.com/scaling-your-software-team-develop-vs-hiring/",
+    "raw": "Scaling Your Software Team: Development vs. Hiring",
+    "sanitized": "Scaling Your Software Team: Development vs. Hiring"
+  },
+  {
+    "itemId": "https://ardalis.com/how-to-embed-youtube-video-in-github-readme-markdown/",
+    "raw": "How to Embed a YouTube Video in GitHub ReadMe Markdown",
+    "sanitized": "How to Embed a YouTube Video in GitHub ReadMe Markdown"
+  },
+  {
+    "itemId": "https://ardalis.com/new-course-refactoring-solid-csharp-code/",
+    "raw": "New Course - Refactoring to SOLID C# Code",
+    "sanitized": "New Course - Refactoring to SOLID C# Code"
+  },
+  {
+    "itemId": "https://ardalis.com/entity-framework-core-understanding-migrations-snapshots-synchronization/",
+    "raw": "Understanding Migrations, Snapshots, and Synchronization in Entity Framework Core",
+    "sanitized": "Understanding Migrations, Snapshots, and Synchronization in Entity Framework Core"
+  },
+  {
+    "itemId": "https://ardalis.com/process-bloat-silent-killer-developer-productivity/",
+    "raw": "Process Bloat: The Silent Killer of Developer Productivity",
+    "sanitized": "Process Bloat: The Silent Killer of Developer Productivity"
+  },
+  {
+    "itemId": "https://ardalis.com/principles-lean-software-development/",
+    "raw": "Principles of Lean Software Development",
+    "sanitized": "Principles of Lean Software Development"
+  },
+  {
+    "itemId": "https://ardalis.com/introduction-to-masstransit-csharp-guide/",
+    "raw": "Introduction to MassTransit: A Guide to Streamlined Messaging in C#",
+    "sanitized": "Introduction to MassTransit: A Guide to Streamlined Messaging in C#"
+  },
+  {
+    "itemId": "https://ardalis.com/trunk-based-development-vs-long-lived-feature-branches/",
+    "raw": "Trunk-Based Development vs. Long-Lived Feature Branches: Which One is Right for Your Software Team?",
+    "sanitized": "Trunk-Based Development vs. Long-Lived Feature Branches: Which One is Right for Your Software Team?"
+  },
+  {
+    "itemId": "https://ardalis.com/building-resilient-email-method-dotnet-retry-outbox-pattern/",
+    "raw": "Building a Resilient Email Sending Method in.NET with SmtpClient, Retry Support, and the Outbox Pattern",
+    "sanitized": "Building a Resilient Email Sending Method in.NET with SmtpClient, Retry Support, and the Outbox Pattern"
+  },
+  {
+    "itemId": "https://ardalis.com/aspnetcore-clean-architecture-template-version-8/",
+    "raw": "ASP.NET Core Clean Architecture Template v8 Released",
+    "sanitized": "ASP.NET Core Clean Architecture Template v8 Released"
+  },
+  {
+    "itemId": "https://ardalis.com/mastering-unit-tests-dotnet-best-practices-naming-conventions/",
+    "raw": "Mastering Unit Tests in.NET: Best Practices and Naming Conventions",
+    "sanitized": "Mastering Unit Tests in.NET: Best Practices and Naming Conventions"
+  },
+  {
+    "itemId": "https://ardalis.com/managing-up-developers-guide-career-advancement/",
+    "raw": "Mastering the Art of Managing Up: A Developer's Guide to Career Advancement",
+    "sanitized": "Mastering the Art of Managing Up: A Developer's Guide to Career Advancement"
+  },
+  {
+    "itemId": "https://ardalis.com/porting-moq-nsubstitute/",
+    "raw": "Porting Moq to NSubstitute",
+    "sanitized": "Porting Moq to NSubstitute"
+  },
+  {
+    "itemId": "https://ardalis.com/latest-dotnet-roadmap/",
+    "raw": "What's the latest.NET roadmap?",
+    "sanitized": "What's the latest.NET roadmap?"
+  },
+  {
+    "itemId": "https://ardalis.com/when-and-how-to-use-blazor-components/",
+    "raw": "When and How to Use Blazor Components",
+    "sanitized": "When and How to Use Blazor Components"
+  },
+  {
+    "itemId": "https://ardalis.com/avoid-dbcontext-iqueryable-proliferation/",
+    "raw": "Avoid Proliferating DbContext or IQueryable in.NET Apps",
+    "sanitized": "Avoid Proliferating DbContext or IQueryable in.NET Apps"
+  },
+  {
+    "itemId": "https://ardalis.com/top-free-tools-dotnet-webapi-load-testing-benchmarking/",
+    "raw": "Top Free Tools for.NET Web API Load Testing and Benchmarking",
+    "sanitized": "Top Free Tools for.NET Web API Load Testing and Benchmarking"
+  },
+  {
+    "itemId": "https://ardalis.com/2022-year-in-review/",
+    "raw": "2022 Year in Review",
+    "sanitized": "2022 Year in Review"
+  },
+  {
+    "itemId": "https://ardalis.com/chrome-browser-tabs-to-links/",
+    "raw": "Chrome Browser Tabs to Links",
+    "sanitized": "Chrome Browser Tabs to Links"
+  },
+  {
+    "itemId": "https://ardalis.com/monitor-sites-with-uptime-robot-or-your-own-process/",
+    "raw": "Monitor Sites with Uptime Robot or Your Own Process",
+    "sanitized": "Monitor Sites with Uptime Robot or Your Own Process"
+  },
+  {
+    "itemId": "https://ardalis.com/delete-bin-obj-folders-recursively/",
+    "raw": "Delete dotnet bin and obj folders recursively",
+    "sanitized": "Delete dotnet bin and obj folders recursively"
+  },
+  {
+    "itemId": "https://ardalis.com/add-all-projects-to-solution/",
+    "raw": "Add All Projects to Solution with dotnet CLI",
+    "sanitized": "Add All Projects to Solution with dotnet CLI"
+  }
+]

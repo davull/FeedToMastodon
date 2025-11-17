@@ -1,102 +1,102 @@
 ﻿[
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/06/11/release-20256",
-    "raw": "2025.6: Getting picky about Bluetooth",
-    "sanitized": "2025.6: Getting picky about Bluetooth"
+    "itemId": "https://www.home-assistant.io/blog/2025/11/05/release-202511",
+    "raw": "2025.11: Pick, automate, and a slice of pie 🥧",
+    "sanitized": "2025.11: Pick, automate, and a slice of pie 🥧"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems",
-    "raw": "Deprecating Core and Supervised installation methods, and 32-bit systems",
-    "sanitized": "Deprecating Core and Supervised installation methods, and 32-bit systems"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/29/eltako-joins-wwha",
+    "raw": "ELTAKO joins Works with Home Assistant",
+    "sanitized": "ELTAKO joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/05/09/roadmap-2025h1",
-    "raw": "Roadmap 2025: A Truly Smart Home through Collective Intelligence",
-    "sanitized": "Roadmap 2025: A Truly Smart Home through Collective Intelligence"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/22/voice-chapter-11",
+    "raw": "Voice Chapter 11: multilingual assistants are here",
+    "sanitized": "Voice Chapter 11: multilingual assistants are here"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/05/07/release-20255",
-    "raw": "2025.5: Two Million Strong and Getting Better",
-    "sanitized": "2025.5: Two Million Strong and Getting Better"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/15/yellow-end-of-life",
+    "raw": "Ending production of Home Assistant Yellow",
+    "sanitized": "Ending production of Home Assistant Yellow"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant",
-    "raw": "Eve Joins Works With Home Assistant",
-    "sanitized": "Eve Joins Works With Home Assistant"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/13/portable-z-wave-with-wifi-and-poe",
+    "raw": "Connect ZWA-2 anywhere: Use Z-Wave over Wi-Fi or PoE",
+    "sanitized": "Connect ZWA-2 anywhere: Use Z-Wave over Wi-Fi or PoE"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/04/24/community-day",
-    "raw": "Register today for Community Day 2025",
-    "sanitized": "Register today for Community Day 2025"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/07/konnected-joins-works-with-home-assistant",
+    "raw": "Konnected joins Works with Home Assistant",
+    "sanitized": "Konnected joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant",
-    "raw": "Reolink joins Works with Home Assistant",
-    "sanitized": "Reolink joins Works with Home Assistant"
+    "itemId": "https://www.home-assistant.io/blog/2025/10/01/release-202510",
+    "raw": "2025.10: Undo, redo, and draw me too",
+    "sanitized": "2025.10: Undo, redo, and draw me too"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap",
-    "raw": "2 million homes strong - State of the Open Home 2025",
-    "sanitized": "2 million homes strong - State of the Open Home 2025"
+    "itemId": "https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12",
+    "raw": "Happy 12th Birthday, Home Assistant!",
+    "sanitized": "Happy 12th Birthday, Home Assistant!"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/04/02/release-20254",
-    "raw": "2025.4 Time to continue the dashboards!",
-    "sanitized": "2025.4 Time to continue the dashboards!"
+    "itemId": "https://www.home-assistant.io/blog/2025/09/11/ai-in-home-assistant",
+    "raw": "Building the AI-powered local smart home",
+    "sanitized": "Building the AI-powered local smart home"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha",
-    "raw": "Motionblinds joins Works with Home Assistant",
-    "sanitized": "Motionblinds joins Works with Home Assistant"
+    "itemId": "https://www.home-assistant.io/blog/2025/09/03/release-20259",
+    "raw": "2025.9: Features for tiles and automations for miles",
+    "sanitized": "2025.9: Features for tiles and automations for miles"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/03/26/state-of-the-open-home-2025-announcement",
-    "raw": "Announcing State of the Open Home 2025",
-    "sanitized": "Announcing State of the Open Home 2025"
+    "itemId": "https://www.home-assistant.io/blog/2025/09/02/frient-joins-works-with-home-assistant",
+    "raw": "Frient joins Works with Home Assistant",
+    "sanitized": "Frient joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/03/10/matter-certification",
-    "raw": "Home Assistant officially Matters",
-    "sanitized": "Home Assistant officially Matters"
+    "itemId": "https://www.home-assistant.io/blog/2025/08/21/airgradient-joins-works-with-home-assistant",
+    "raw": "AirGradient joins Works with Home Assistant",
+    "sanitized": "AirGradient joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/03/05/release-20253",
-    "raw": "2025.3: View those headers!",
-    "sanitized": "2025.3: View those headers!"
+    "itemId": "https://www.home-assistant.io/blog/2025/08/13/home-assistant-connect-zwa-2",
+    "raw": "Z-Wave reborn - Home Assistant Connect ZWA-2",
+    "sanitized": "Z-Wave reborn - Home Assistant Connect ZWA-2"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/03/05/music-assistants-next-big-hit",
-    "raw": "Music Assistant's next big hit",
-    "sanitized": "Music Assistant's next big hit"
+    "itemId": "https://www.home-assistant.io/blog/2025/08/06/release-20258",
+    "raw": "2025.8: The summer of AI ☀️",
+    "sanitized": "2025.8: The summer of AI ☀️"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha",
-    "raw": "Apollo joins the Works With Home Assistant Program",
-    "sanitized": "Apollo joins the Works With Home Assistant Program"
+    "itemId": "https://www.home-assistant.io/blog/2025/07/29/shelly-joins-works-with-home-assistant",
+    "raw": "Shelly joins Works with Home Assistant",
+    "sanitized": "Shelly joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/02/13/voice-chapter-9-speech-to-phrase",
-    "raw": "Speech-to-Phrase brings voice home - Voice chapter 9",
-    "sanitized": "Speech-to-Phrase brings voice home - Voice chapter 9"
+    "itemId": "https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android",
+    "raw": "Companion app for Android: It’s been a while",
+    "sanitized": "Companion app for Android: It’s been a while"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/02/05/release-20252",
-    "raw": "2025.2: Iterating on backups",
-    "sanitized": "2025.2: Iterating on backups"
+    "itemId": "https://www.home-assistant.io/blog/2025/07/15/zooz-joins-works-with-home-assistant",
+    "raw": "Zooz joins Works with Home Assistant",
+    "sanitized": "Zooz joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup",
-    "raw": "3…2…1… Backup",
-    "sanitized": "3…2…1… Backup"
+    "itemId": "https://www.home-assistant.io/blog/2025/07/03/nuki-joins-works-with-home-assistant",
+    "raw": "Nuki joins Works with Home Assistant",
+    "sanitized": "Nuki joins Works with Home Assistant"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2025/01/03/release-20251",
-    "raw": "2025.1: Backing Up into 2025!",
-    "sanitized": "2025.1: Backing Up into 2025!"
+    "itemId": "https://www.home-assistant.io/blog/2025/07/02/release-20257",
+    "raw": "2025.7: That's the question",
+    "sanitized": "2025.7: That's the question"
   },
   {
-    "itemId": "https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice",
-    "raw": "The era of open voice assistants has arrived",
-    "sanitized": "The era of open voice assistants has arrived"
+    "itemId": "https://www.home-assistant.io/blog/2025/06/26/switchbot-joins-works-with-home-assistant",
+    "raw": "SwitchBot joins Works with Home Assistant",
+    "sanitized": "SwitchBot joins Works with Home Assistant"
   }
 ]

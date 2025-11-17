@@ -1,52 +1,52 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators",
-    "raw": "Song recommendations from combinators",
-    "sanitized": "Song recommendations from combinators"
+    "itemId": "https://blog.ploeh.dk/2025/11/17/empirical-software-prototyping",
+    "raw": "Empirical software prototyping",
+    "sanitized": "Empirical software prototyping"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
-    "raw": "Testing races with a slow Decorator",
-    "sanitized": "Testing races with a slow Decorator"
+    "itemId": "https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial",
+    "raw": "100% coverage is not that trivial",
+    "sanitized": "100% coverage is not that trivial"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
-    "raw": "Song recommendations as a Haskell Impureim Sandwich",
-    "sanitized": "Song recommendations as a Haskell Impureim Sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/11/03/empirical-characterization-testing",
+    "raw": "Empirical Characterization Testing",
+    "sanitized": "Empirical Characterization Testing"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
-    "raw": "Song recommendations as an F# Impureim Sandwich",
-    "sanitized": "Song recommendations as an F# Impureim Sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/10/27/empirical-test-after-development",
+    "raw": "Empirical test-after development",
+    "sanitized": "Empirical test-after development"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
-    "raw": "Song recommendations proof-of-concept memory measurements",
-    "sanitized": "Song recommendations proof-of-concept memory measurements"
+    "itemId": "https://blog.ploeh.dk/2025/10/20/epistemology-of-software",
+    "raw": "Epistemology of software",
+    "sanitized": "Epistemology of software"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
-    "raw": "Song recommendations as a C# Impureim Sandwich",
-    "sanitized": "Song recommendations as a C# Impureim Sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/10/15/result-isomorphism",
+    "raw": "Result isomorphism",
+    "sanitized": "Result isomorphism"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
-    "raw": "Song recommendations as an Impureim Sandwich",
-    "sanitized": "Song recommendations as an Impureim Sandwich"
+    "itemId": "https://blog.ploeh.dk/2025/10/06/shift-left-on-x",
+    "raw": "Shift left on x",
+    "sanitized": "Shift left on x"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
-    "raw": "Porting song recommendations to Haskell",
-    "sanitized": "Porting song recommendations to Haskell"
+    "itemId": "https://blog.ploeh.dk/2025/09/29/composing-pure-haskell-assertions",
+    "raw": "Composing pure Haskell assertions",
+    "sanitized": "Composing pure Haskell assertions"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
-    "raw": "Porting song recommendations to F#",
-    "sanitized": "Porting song recommendations to F#"
+    "itemId": "https://blog.ploeh.dk/2025/09/22/its-striking-so-quickly-the-industry-forgets-that-lines-of-code-isnt-a-measure-of-productivity",
+    "raw": "It's striking so quickly the industry forgets that lines of code isn't a measure of productivity",
+    "sanitized": "It's striking so quickly the industry forgets that lines of code isn't a measure of productivity"
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
-    "raw": "Characterising song recommendations",
-    "sanitized": "Characterising song recommendations"
+    "itemId": "https://blog.ploeh.dk/2025/09/15/greyscale-box-test-driven-development",
+    "raw": "Greyscale-box test-driven development",
+    "sanitized": "Greyscale-box test-driven development"
   }
 ]

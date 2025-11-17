@@ -3,11 +3,6 @@
   "FeedId": "http://technikblog.ch/feed/",
   "ItemIds": [
     "http://tchor/?p=32844",
-    "http://tchor/?p=34476",
-    "http://tchor/?p=34514",
-    "http://tchor/?p=34517",
-    "http://tchor/?p=34529",
-    "http://tchor/?p=34534",
     "http://tchor/?p=34543",
     "http://tchor/?p=34625",
     "http://tchor/?p=34653",
@@ -98,8 +93,13 @@
     "https://technikblog.ch/?p=37210",
     "https://technikblog.ch/?p=37212",
     "https://technikblog.ch/?p=37228",
-    "https://technikblog.ch/?p=37237",
     "https://technikblog.ch/?p=37252",
-    "https://technikblog.ch/?p=37288"
+    "https://technikblog.ch/?p=37288",
+    "https://technikblog.ch/?p=37331",
+    "https://technikblog.ch/?p=37342",
+    "https://technikblog.ch/?p=37388",
+    "https://technikblog.ch/?p=37402",
+    "https://technikblog.ch/?p=37479",
+    "https://technikblog.ch/?p=37482"
   ]
 }

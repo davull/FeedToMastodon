@@ -1,52 +1,52 @@
 ﻿[
   {
+    "itemId": "https://www.kernel-error.de/?p=3461",
+    "raw": "Vielleicht erinnert ihr euch an meine Aussage, dass man jedem Gerät, das man mit dem Internet verbindet, mindestens so viel Vertrauen entgegenbringen sollte wie seiner Haustür. In den letzten Wochen durfte ich das wieder mehrfach sehr anschaulich erklären – direkt anhand realer Beispiele in der IT von Unternehmen oder im privaten Umfeld. Versteht mich nicht [&#8230;]",
+    "sanitized": "Vielleicht erinnert ihr euch an meine Aussage, dass man jedem Gerät, das man mit dem Internet verbindet, mindestens so viel Vertrauen entgegenbringen sollte wie seiner Haustür. In den letzten Wochen durfte ich das wieder mehrfach sehr anschaulich erklären – direkt anhand realer Beispiele in der IT von Unternehmen oder im privaten Umfeld. Versteht mich nicht […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3457",
+    "raw": "Ich habe grade eine E-Mail von unserem Vorsitzenden des Ortsausschusses Todenfeld &#8211; Rheinbach in meinem Postfach. Er leitet eine Warnung bezüglich einer Sichtung einer Großkatze weiter. Öhm, also&#8230; Großkatze? Ich bin mal gespannt 😀",
+    "sanitized": "Ich habe grade eine E-Mail von unserem Vorsitzenden des Ortsausschusses Todenfeld – Rheinbach in meinem Postfach. Er leitet eine Warnung bezüglich einer Sichtung einer Großkatze weiter. Öhm, also… Großkatze? Ich bin mal gespannt 😀"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3451",
+    "raw": "Wir leben in Deutschland ja ein bisschen im „Anzeige-ist-raus“-Land. Das merken auch Security-Researcher und ethische Hacker. Solange man Eigentümer:innen/Betreiber:innen nur auf frei und offen erreichbare Probleme hinweist, ist die Welt halbwegs in Ordnung. Sobald man aber beginnt, Schutzmechanismen zu überwinden oder Anwendungen zu übervorteilen, wird’s schnell juristisch dünn. Genau deshalb melde ich in der Regel [&#8230;]",
+    "sanitized": "Wir leben in Deutschland ja ein bisschen im „Anzeige-ist-raus“-Land. Das merken auch Security-Researcher und ethische Hacker. Solange man Eigentümer:innen/Betreiber:innen nur auf frei und offen erreichbare Probleme hinweist, ist die Welt halbwegs in Ordnung. Sobald man aber beginnt, Schutzmechanismen zu überwinden oder Anwendungen zu übervorteilen, wird’s schnell juristisch dünn. Genau deshalb melde ich in der Regel […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3422",
+    "raw": "Moin, ich mag noch einmal etwas zu IP-Überwachungskameras schreiben. Ihr erinnert euch vielleicht an meinen letzten Beitrag zu diesem Thema KLICK. Dort habe ich mich speziell auf den RTSP-Port bezogen und auch https://www.shodan.io/ als Beispiel genannt. Shodan scannt unaufhörlich IPv4-Adressen (bei IPv6 wäre ein flächendeckender Scan kaum praktikabel) und stellt seine Ergebnisse öffentlich zur Verfügung. [&#8230;]",
+    "sanitized": "Moin, ich mag noch einmal etwas zu IP-Überwachungskameras schreiben. Ihr erinnert euch vielleicht an meinen letzten Beitrag zu diesem Thema KLICK. Dort habe ich mich speziell auf den RTSP-Port bezogen und auch https://www.shodan.io/ als Beispiel genannt. Shodan scannt unaufhörlich IPv4-Adressen (bei IPv6 wäre ein flächendeckender Scan kaum praktikabel) und stellt seine Ergebnisse öffentlich zur Verfügung. […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3383",
+    "raw": "Setup: FreeBSD 14.3, Rspamd 3.12.1, Postfix + Dovecot. Ich lasse bei kniffligen Mails zusätzlich ein LLM draufschauen. Wichtig: GPT ist bei mir nur ein weiterer Sensor im ganz normalen Rspamd-Scoring — keine Allzweckwaffe und kein „hartes Urteil“. Voraussetzungen OpenAI API Key erstellen: Melde dich auf der Developer-Plattform an, öffne die Seite API Keys und klicke [&#8230;]",
+    "sanitized": "Setup: FreeBSD 14.3, Rspamd 3.12.1, Postfix + Dovecot. Ich lasse bei kniffligen Mails zusätzlich ein LLM draufschauen. Wichtig: GPT ist bei mir nur ein weiterer Sensor im ganz normalen Rspamd-Scoring — keine Allzweckwaffe und kein „hartes Urteil“. Voraussetzungen OpenAI API Key erstellen: Melde dich auf der Developer-Plattform an, öffne die Seite API Keys und klicke […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3376",
+    "raw": "Weiter geht es mit einer Lötstation. Wie immer: Das ist ein Werkzeug, das ich selbst einsetze. Es bedeutet nicht, dass es das Beste der Welt ist oder dass man damit sofort eine professionelle SMD-Reparaturwerkstatt eröffnen sollte. Ende des letzten Jahres war ich auf der Suche nach einer kompakten Lötstation, die eine ordentliche Wattleistung hat und [&#8230;]",
+    "sanitized": "Weiter geht es mit einer Lötstation. Wie immer: Das ist ein Werkzeug, das ich selbst einsetze. Es bedeutet nicht, dass es das Beste der Welt ist oder dass man damit sofort eine professionelle SMD-Reparaturwerkstatt eröffnen sollte. Ende des letzten Jahres war ich auf der Suche nach einer kompakten Lötstation, die eine ordentliche Wattleistung hat und […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3364",
+    "raw": "Ich selbst habe kein Problem mit Spinnen – das ist aber beim Rest meiner Familie nicht immer gegeben. Wie auch immer: Ich bilde mir ein, die meisten Spinnenarten, die hier in NRW so im Garten vorkommen, schon mal irgendwann gesehen zu haben. In den letzten Wochen finde ich aber immer mal wieder ein paar – [&#8230;]",
+    "sanitized": "Ich selbst habe kein Problem mit Spinnen – das ist aber beim Rest meiner Familie nicht immer gegeben. Wie auch immer: Ich bilde mir ein, die meisten Spinnenarten, die hier in NRW so im Garten vorkommen, schon mal irgendwann gesehen zu haben. In den letzten Wochen finde ich aber immer mal wieder ein paar – […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3353",
+    "raw": "An mir flog gerade die Information vorbei, dass die Volksverschlüsselung zum 31.01.2026 eingestellt wird. Ich habe mir dort vor ein paar Jahren mal ein S/MIME-Zertifikat für meine E-Mails geholt. Mir hat der Ansatz gefallen, dass man sich mit seinem neuen Personalausweis und dessen Online-Funktion dort legitimieren kann und im Anschluss sein Zertifikat bekommt. Für mich [&#8230;]",
+    "sanitized": "An mir flog gerade die Information vorbei, dass die Volksverschlüsselung zum 31.01.2026 eingestellt wird. Ich habe mir dort vor ein paar Jahren mal ein S/MIME-Zertifikat für meine E-Mails geholt. Mir hat der Ansatz gefallen, dass man sich mit seinem neuen Personalausweis und dessen Online-Funktion dort legitimieren kann und im Anschluss sein Zertifikat bekommt. Für mich […]"
+  },
+  {
+    "itemId": "https://www.kernel-error.de/?p=3344",
+    "raw": "Das hier ist zugleich der Auftakt einer kleinen Beitragsserie unter dem Titel „Was hast du in deiner Elektronikwerkstatt?“. Vor allem nach dem Beitrag zur FritzBox wurde diese Frage mehrfach an mich herangetragen. Um gleich Klarheit zu schaffen: Von einer „Elektronikwerkstatt“ kann bei mir keine Rede sein. Was du hier siehst, ist meine kleine „Healing-Bench“ – [&#8230;]",
+    "sanitized": "Das hier ist zugleich der Auftakt einer kleinen Beitragsserie unter dem Titel „Was hast du in deiner Elektronikwerkstatt?“. Vor allem nach dem Beitrag zur FritzBox wurde diese Frage mehrfach an mich herangetragen. Um gleich Klarheit zu schaffen: Von einer „Elektronikwerkstatt“ kann bei mir keine Rede sein. Was du hier siehst, ist meine kleine „Healing-Bench“ – […]"
+  },
+  {
     "itemId": "https://www.kernel-error.de/?p=3219",
     "raw": "Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem [&#8230;]",
     "sanitized": "Mal wieder soweit: Mein aktuelles S/MIME-Zertifikat zum Signieren von E-Mails läuft aus. Also habe ich mir ein neues besorgt. Da GlobalSign keine Class-2-Zertifikate mehr für Privatpersonen anbietet, musste ich die CA wechseln. Durch Zufall bin ich auf SSLplus gestoßen – die haben echt gute Angebote für alle möglichen Zertifikate. Aber darum soll es in diesem […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3180",
-    "raw": "Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von PDS (Programm und Datenservice) gearbeitet. Dazu habe ich schon mal etwas geschrieben. Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen [&#8230;]",
-    "sanitized": "Vor etwas über 20 Jahren habe ich unter anderem mit OSIcom-office Boxen von PDS (Programm und Datenservice) gearbeitet. Dazu habe ich schon mal etwas geschrieben. Zufällig bin ich dann in einem Onlineshop auf genau so eine OSIcom Box gestoßen, die dort zum Verkauf angeboten wurde. Der Preis lag deutlich über dem, was ich aus nostalgischen […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3144",
-    "raw": "Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten. Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für [&#8230;]",
-    "sanitized": "Vor ziemlich genau 20 Jahren habe ich in einem Unternehmen gearbeitet, in dem Teile einer eigens entwickelten Lösung eine Zeit lang auf einem DALLAS DS80C400 basierten. Der DALLAS DS80C400 ist ein hochintegrierter, netzwerkfähiger Mikrocontroller, der auf der Architektur des klassischen 8051 basiert. Entwickelt wurde er von Dallas Semiconductor (später Maxim Integrated) und war besonders für […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3133",
-    "raw": "Vor Kurzem habe ich einen Vulnerability Report erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt. Der Report lautet wie folgt: Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.comHello Team,I have identified a security issue in your system [&#8230;]",
-    "sanitized": "Vor Kurzem habe ich einen Vulnerability Report erhalten. Ich freue mich natürlich immer über solche Hinweise – sie helfen mir, zu wachsen und mein Setup zu verbessern, bevor jemand eine Schwachstelle tatsächlich ausnutzt. Der Report lautet wie folgt: Subject: Vulnerability Report: Vulnerable System Detected at openpgpkey.kernel-error.comHello Team,I have identified a security issue in your system […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3124",
-    "raw": "Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist &#8222;Lüften&#8220;. Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein [&#8230;]",
-    "sanitized": "Seit inzwischen knapp 10 Jahren nutze ich das Magenta SmartHome-System. Eine der wirklich praktischen Funktionen ist „Lüften“. Sobald ein Tür- oder Fensterkontakt signalisiert, dass er geöffnet ist, wird ein Signal an die Heizungsventile gesendet, damit diese schließen. Gerade mit Kindern im Haushalt ist das eine tolle Funktion, denn so heize ich nicht versehentlich durch ein […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3109",
-    "raw": "Die meisten von euch werden das Spiel GeoGuessr kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt. Eine etwas abgewandelte Version begegnet mir immer [&#8230;]",
-    "sanitized": "Die meisten von euch werden das Spiel GeoGuessr kennen. Man bekommt ein Google-Street-View-Bild gezeigt, kann sich vielleicht noch ein paar Meter hin- und herbewegen und muss dann auf einer Weltkarte einen Marker setzen, wo man meint, dass dieses Bild aufgenommen wurde. Wer dem Punkt am nächsten kommt, gewinnt. Eine etwas abgewandelte Version begegnet mir immer […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=3040",
-    "raw": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf [&#8230;]",
-    "sanitized": "Heute möchte ich euch eine kleine Geschichte zu meinem Milchkühlschrank erzählen. Ob das spannend wird? Na, da bin ich mir noch nicht so sicher. In meiner Küche steht so ein Kaffeevollautomat – einfach wegen lecker Kaffee und so. Dieser ist, bei angeschlossener Milch, auch in der Lage, die gängigen Milchkaffeegetränke (nennt man das so?) auf […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2755",
-    "raw": "Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker. Warum erzähle ich das? [&#8230;]",
-    "sanitized": "Die Feiertage sind da, und ich hatte tatsächlich etwas Zeit zum Zocken. Früher hatte ich dafür einen eigenen Rechner, heute reicht ein Dual Boot. Gearbeitet wird unter Linux, gezockt unter Windows. Dafür habe ich mein Windows auf einer gesonderten SSD installiert. Natürlich ist diese ebenfalls verschlüsselt, in diesem Fall mit BitLocker. Warum erzähle ich das? […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2702",
-    "raw": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen [&#8230;]",
-    "sanitized": "Heute mal etwas ganz Einfaches… Beim Löten entstehen Dämpfe, die man besser nicht durch den „Lungenfilter“ aus der Luft ziehen sollte. Hier kommen Lötdampfabsaugung ins Spiel. Es gibt kleine, einfache Modelle für etwa 50 €, die wie ein kleiner Tischventilator in der Nähe stehen, die Dämpfe absaugen und meist durch einen Aktivkohlefilter leiten. Allerdings stehen […]"
-  },
-  {
-    "itemId": "https://www.kernel-error.de/?p=2688",
-    "raw": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen [&#8230;]",
-    "sanitized": "Einen guten Dokumentenscanner zu finden, der auch noch bezahlbar ist, kann schnell zu einer Herausforderung werden. Viele ältere Geräte verlieren nach kurzer Zeit den Support für das nächste Betriebssystem und funktionieren dann nicht mehr. Wenn der Scanner zusätzlich unter Linux reibungslos laufen soll, wird es noch spannender. Vor vielen Jahren konnte ich mir günstig einen […]"
   }
 ]

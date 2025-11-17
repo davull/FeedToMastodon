@@ -1,5 +1,100 @@
 ﻿[
   {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-9-easier-reflection-with-unsafeaccessortype/",
+    "raw": "Easier reflection with [UnsafeAccessorType] in .NET 10: Exploring the .NET 10 preview - Part 9",
+    "sanitized": "Easier reflection with [UnsafeAccessorType] in .NET 10: Exploring the .NET 10 preview - Part 9"
+  },
+  {
+    "itemId": "https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/",
+    "raw": "Understanding the worst .NET vulnerability ever: request smuggling and CVE-2025-55315",
+    "sanitized": "Understanding the worst .NET vulnerability ever: request smuggling and CVE-2025-55315"
+  },
+  {
+    "itemId": "https://andrewlock.net/adding-metadata-to-fallback-endpoints-in-aspnetcore/",
+    "raw": "Adding metadata to fallback endpoints in ASP.NET Core",
+    "sanitized": "Adding metadata to fallback endpoints in ASP.NET Core"
+  },
+  {
+    "itemId": "https://andrewlock.net/easily-publishing-nuget-packages-from-github-actions-with-trusted-publishing/",
+    "raw": "Publishing NuGet packages from GitHub actions the easy way with Trusted Publishing",
+    "sanitized": "Publishing NuGet packages from GitHub actions the easy way with Trusted Publishing"
+  },
+  {
+    "itemId": "https://andrewlock.net/sleep-pc-a-dotnet-tool-to-make-windows-sleep-after-a-timeout/",
+    "raw": "sleep-pc: a .NET Native AOT tool to make Windows sleep after a timeout",
+    "sanitized": "sleep-pc: a .NET Native AOT tool to make Windows sleep after a timeout"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-8-supporting-platform-specific-dotnet-tools-on-old-sdks/",
+    "raw": "Supporting platform-specific .NET tools on old .NET SDKs: Exploring the .NET 10 preview - Part 8",
+    "sanitized": "Supporting platform-specific .NET tools on old .NET SDKs: Exploring the .NET 10 preview - Part 8"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-7-packaging-self-contained-and-native-aot-dotnet-tools-for-nuget/",
+    "raw": "Packaging self-contained and native AOT .NET tools for NuGet: Exploring the .NET 10 preview - Part 7",
+    "sanitized": "Packaging self-contained and native AOT .NET tools for NuGet: Exploring the .NET 10 preview - Part 7"
+  },
+  {
+    "itemId": "https://andrewlock.net/using-and-authoring-dotnet-tools/",
+    "raw": "Using and authoring .NET tools",
+    "sanitized": "Using and authoring .NET tools"
+  },
+  {
+    "itemId": "https://andrewlock.net/fixing-an-old-dotnet-core-native-library-loading-issue-on-alpine/",
+    "raw": "Fixing an old .NET Core native library loading issue on Alpine",
+    "sanitized": "Fixing an old .NET Core native library loading issue on Alpine"
+  },
+  {
+    "itemId": "https://andrewlock.net/converting-an-xunit-project-to-tunit/",
+    "raw": "Converting an xUnit test project to TUnit",
+    "sanitized": "Converting an xUnit test project to TUnit"
+  },
+  {
+    "itemId": "https://andrewlock.net/running-dotnet-in-the-browser-without-blazor/",
+    "raw": "Running .NET in the browser without Blazor",
+    "sanitized": "Running .NET in the browser without Blazor"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-6-passkey-support-for-aspnetcore-identity/",
+    "raw": "Passkey support for ASP.NET Core identity: Exploring the .NET 10 preview - Part 6",
+    "sanitized": "Passkey support for ASP.NET Core identity: Exploring the .NET 10 preview - Part 6"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-5-running-one-off-dotnet-tools-with-dnx/",
+    "raw": "Running one-off .NET tools with dnx: Exploring the .NET 10 preview - Part 5",
+    "sanitized": "Running one-off .NET tools with dnx: Exploring the .NET 10 preview - Part 5"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-4-solving-the-source-generator-marker-attribute-problem-in-dotnet-10/",
+    "raw": "Solving the source generator 'marker attribute' problem in .NET 10: Exploring the .NET 10 preview - Part 4",
+    "sanitized": "Solving the source generator 'marker attribute' problem in .NET 10: Exploring the .NET 10 preview - Part 4"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-3-csharp-14-extensions-members/",
+    "raw": "C# 14 extension members; AKA extension everything: Exploring the .NET 10 preview - Part 3",
+    "sanitized": "C# 14 extension members; AKA extension everything: Exploring the .NET 10 preview - Part 3"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-2-behind-the-scenes-of-dotnet-run-app.cs/",
+    "raw": "Behind the scenes of dotnet run app.cs: Exploring the .NET 10 preview - Part 2",
+    "sanitized": "Behind the scenes of dotnet run app.cs: Exploring the .NET 10 preview - Part 2"
+  },
+  {
+    "itemId": "https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/",
+    "raw": "Exploring the features of dotnet run app.cs: Exploring the .NET 10 preview - Part 1",
+    "sanitized": "Exploring the features of dotnet run app.cs: Exploring the .NET 10 preview - Part 1"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-stacked-branches-in-git-part-2/",
+    "raw": "Working with stacked branches in git (Part 2)",
+    "sanitized": "Working with stacked branches in git (Part 2)"
+  },
+  {
+    "itemId": "https://andrewlock.net/working-with-stacked-branches-in-git-part-1/",
+    "raw": "Working with stacked branches in git (Part 1)",
+    "sanitized": "Working with stacked branches in git (Part 1)"
+  },
+  {
     "itemId": "https://andrewlock.net/converting-an-xna-game-to-monogame/",
     "raw": "Converting a Microsoft XNA 3.1 game to MonoGame",
     "sanitized": "Converting a Microsoft XNA 3.1 game to MonoGame"
@@ -28,100 +123,5 @@
     "itemId": "https://andrewlock.net/exploring-the-new-ai-chat-template/",
     "raw": "Exploring the new AI chat template",
     "sanitized": "Exploring the new AI chat template"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-pooled-dependency-injection-lifetime/",
-    "raw": "Creating a 'pooled' dependency injection lifetime",
-    "sanitized": "Creating a 'pooled' dependency injection lifetime"
-  },
-  {
-    "itemId": "https://andrewlock.net/going-beyond-singleton-scoped-and-transient-lifetimes/",
-    "raw": "Going beyond singleton, scoped, and transient lifetimes—tenant, pooled, and drifter",
-    "sanitized": "Going beyond singleton, scoped, and transient lifetimes—tenant, pooled, and drifter"
-  },
-  {
-    "itemId": "https://andrewlock.net/netescapades-aspnetcore-securityheaders-1-0-0-released/",
-    "raw": "NetEscapades.​AspNetCore.​SecurityHeaders 1.0.0 has been released",
-    "sanitized": "NetEscapades.​AspNetCore.​SecurityHeaders 1.0.0 has been released"
-  },
-  {
-    "itemId": "https://andrewlock.net/verifiying-tricky-git-rebases-with-range-diffs/",
-    "raw": "Verifying tricky git rebases with git range-diff",
-    "sanitized": "Verifying tricky git rebases with git range-diff"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-sbom-attestations-in-github-actions/",
-    "raw": "Creating SBOM attestations in GitHub Actions",
-    "sanitized": "Creating SBOM attestations in GitHub Actions"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-software-bill-of-materials-sbom-for-an-open-source-nuget-package/",
-    "raw": "Creating a software bill of materials (SBOM) for an open-source NuGet package",
-    "sanitized": "Creating a software bill of materials (SBOM) for an open-source NuGet package"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-provenance-attestations-for-nuget-packages-in-github-actions/",
-    "raw": "Creating provenance attestations for NuGet packages in GitHub Actions",
-    "sanitized": "Creating provenance attestations for NuGet packages in GitHub Actions"
-  },
-  {
-    "itemId": "https://andrewlock.net/running-an-aspnetcore-app-behind-iis-in-a-windows-container/",
-    "raw": "Running an ASP.NET Core app inside IIS in a Windows container",
-    "sanitized": "Running an ASP.NET Core app inside IIS in a Windows container"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-an-analyzer-to-detect-infinite-loops-caused-by-threadabortexception/",
-    "raw": "Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions",
-    "sanitized": "Creating an analyzer to detect infinite loops caused by ThreadAbortExceptions"
-  },
-  {
-    "itemId": "https://andrewlock.net/disabling-localized-satellite-assemblies-during-dotnet-publish/",
-    "raw": "Disabling localized satellite assemblies during dotnet publish",
-    "sanitized": "Disabling localized satellite assemblies during dotnet publish"
-  },
-  {
-    "itemId": "https://andrewlock.net/setting-environment-variables-in-iis-and-avoiding-app-pool-restarts/",
-    "raw": "Setting application environment variables in IIS without restarts",
-    "sanitized": "Setting application environment variables in IIS without restarts"
-  },
-  {
-    "itemId": "https://andrewlock.net/preventing-client-side-cross-site-scripting-vulnerabilities-with-trusted-types/",
-    "raw": "Preventing client-side cross-site-scripting vulnerabilities with Trusted Types",
-    "sanitized": "Preventing client-side cross-site-scripting vulnerabilities with Trusted Types"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-14-supporting-multiple-sdk-versions-in-a-source-generator/",
-    "raw": "Supporting multiple .NET SDK versions in a source generator: Creating a source generator - Part 14",
-    "sanitized": "Supporting multiple .NET SDK versions in a source generator: Creating a source generator - Part 14"
-  },
-  {
-    "itemId": "https://andrewlock.net/supporting-multiple-sdk-versions-in-analyzers-and-source-generators/",
-    "raw": "Supporting multiple .NET SDK versions in analyzers and source generators",
-    "sanitized": "Supporting multiple .NET SDK versions in analyzers and source generators"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/",
-    "raw": "Accessing MSBuild properties and user configuration from source generators: Creating a source generator - Part 13",
-    "sanitized": "Accessing MSBuild properties and user configuration from source generators: Creating a source generator - Part 13"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-12-reading-compilation-options-and-csharp-version-in-source-generators/",
-    "raw": "Reading compilation options and the C# version in source generators: Creating a source generator - Part 12",
-    "sanitized": "Reading compilation options and the C# version in source generators: Creating a source generator - Part 12"
-  },
-  {
-    "itemId": "https://andrewlock.net/creating-a-source-generator-part-11-implementing-an-interceptor-with-a-source-generator/",
-    "raw": "Implementing an interceptor with a source generator: Creating a source generator - Part 11",
-    "sanitized": "Implementing an interceptor with a source generator: Creating a source generator - Part 11"
-  },
-  {
-    "itemId": "https://andrewlock.net/building-latex-projects-on-windows-easily-with-docker/",
-    "raw": "Building LaTeX projects on Windows easily with Docker",
-    "sanitized": "Building LaTeX projects on Windows easily with Docker"
-  },
-  {
-    "itemId": "https://andrewlock.net/using-the-yamldotnet-source-generator-for-native-aot/",
-    "raw": "Using the YamlDotNet source generator for Native AOT",
-    "sanitized": "Using the YamlDotNet source generator for Native AOT"
   }
 ]

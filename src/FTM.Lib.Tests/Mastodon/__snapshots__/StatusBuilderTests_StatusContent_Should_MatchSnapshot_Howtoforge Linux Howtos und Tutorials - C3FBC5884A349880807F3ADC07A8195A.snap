@@ -1,0 +1,5 @@
+﻿How to Install CSF (Config Server Firewall) on Debian 12
+
+CSF or Config Server Firewall is a Stateful Packet Inspection (SPI) firewall based on IPtables and Perl. it provides a daemon process that will monitor your services for failure authentication.
+---
+https://www.howtoforge.com/how-to-install-csf-config-server-firewall-on-debian-12/

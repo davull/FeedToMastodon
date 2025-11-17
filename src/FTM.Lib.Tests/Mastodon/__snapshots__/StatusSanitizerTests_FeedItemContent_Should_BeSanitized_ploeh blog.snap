@@ -1,51 +1,51 @@
 ﻿[
   {
-    "itemId": "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators",
+    "itemId": "https://blog.ploeh.dk/2025/11/17/empirical-software-prototyping",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
+    "itemId": "https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/11/03/empirical-characterization-testing",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/10/27/empirical-test-after-development",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
+    "itemId": "https://blog.ploeh.dk/2025/10/20/epistemology-of-software",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/10/15/result-isomorphism",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
+    "itemId": "https://blog.ploeh.dk/2025/10/06/shift-left-on-x",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
+    "itemId": "https://blog.ploeh.dk/2025/09/29/composing-pure-haskell-assertions",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
+    "itemId": "https://blog.ploeh.dk/2025/09/22/its-striking-so-quickly-the-industry-forgets-that-lines-of-code-isnt-a-measure-of-productivity",
     "raw": null,
     "sanitized": null
   },
   {
-    "itemId": "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
+    "itemId": "https://blog.ploeh.dk/2025/09/15/greyscale-box-test-driven-development",
     "raw": null,
     "sanitized": null
   }

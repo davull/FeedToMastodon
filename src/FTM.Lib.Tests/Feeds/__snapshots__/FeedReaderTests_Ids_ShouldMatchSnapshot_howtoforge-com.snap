@@ -2,15 +2,15 @@
   "FeedTitle": "Howtoforge Linux Howtos und Tutorials",
   "FeedId": "https://www.howtoforge.com/feed.rss",
   "ItemIds": [
-    "https://www.howtoforge.com/how-to-install-actual-budgeting-software-on-debian-12-server/",
-    "https://www.howtoforge.com/how-to-install-and-use-nessus-vulnerability-scanner-on-ubuntu-24-04/",
-    "https://www.howtoforge.com/how-to-install-apache-solr-on-ubuntu-24-04-server/",
-    "https://www.howtoforge.com/how-to-install-emby-media-server-on-debian-12/",
+    "https://www.howtoforge.com/how-to-install-csf-config-server-firewall-on-debian-12/",
     "https://www.howtoforge.com/how-to-install-glassfish-application-server-with-nginx-reverse-proxy-on-debian-12/",
-    "https://www.howtoforge.com/how-to-install-ntopng-on-debian-12/",
     "https://www.howtoforge.com/how-to-install-openemr-on-ubuntu-24-04-server/",
-    "https://www.howtoforge.com/how-to-install-wildfly-application-server-with-nginx-reverse-proxy-on-debian-12/",
+    "https://www.howtoforge.com/ispconfig-php-debian/",
     "https://www.howtoforge.com/ispconfig-php-ubuntu/",
-    "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/"
+    "https://www.howtoforge.com/securing-your-ispconfig-3-managed-mailserver-with-a-valid-lets-encrypt-certificate/",
+    "https://www.howtoforge.com/step-by-step-installing-wikijs-on-debian-12/",
+    "https://www.howtoforge.com/tutorial/debian-moodle-e-learning-platform/",
+    "https://www.howtoforge.com/tutorial/ispconfig-multiserver-setup-debian-ubuntu/",
+    "https://www.howtoforge.com/update-the-ispconfig-perfect-server-from-debian-11-to-debian-12/"
   ]
 }

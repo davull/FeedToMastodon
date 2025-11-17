@@ -1,5 +1,25 @@
 ﻿[
   {
+    "itemId": "https://www.embarc.de/interview-sven-woltmann-hexagonale-architektur/",
+    "raw": "Im Gespräch mit Sven Woltmann zu Hexagonaler Architektur",
+    "sanitized": "Im Gespräch mit Sven Woltmann zu Hexagonaler Architektur"
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-fin-labusch-kids4it/",
+    "raw": "Im Gespräch mit Fin Labusch von Kids4IT",
+    "sanitized": "Im Gespräch mit Fin Labusch von Kids4IT"
+  },
+  {
+    "itemId": "https://www.embarc.de/interview-cosima-laube-softe-skills/",
+    "raw": "Im Gespräch mit Cosima Laube zu Softe Skills für harte Probleme",
+    "sanitized": "Im Gespräch mit Cosima Laube zu Softe Skills für harte Probleme"
+  },
+  {
+    "itemId": "https://www.embarc.de/java-value-objects/",
+    "raw": "Value Objects - das nächste große Ding in Java",
+    "sanitized": "Value Objects - das nächste große Ding in Java"
+  },
+  {
     "itemId": "https://www.embarc.de/markdown-vs-asciidoc/",
     "raw": "Markdown oder AsciiDoc: Die Gretchenfrage für Docs-as-Code",
     "sanitized": "Markdown oder AsciiDoc: Die Gretchenfrage für Docs-as-Code"
@@ -190,7 +210,7 @@
     "sanitized": "Aufbrechen mit embarc"
   },
   {
-    "itemId": "https://www.embarc.de/doctoolchain/",
+    "itemId": "https://www.embarc.de/docToolchain/",
     "raw": "Eine Einführung in docToolchain",
     "sanitized": "Eine Einführung in docToolchain"
   },
@@ -390,7 +410,7 @@
     "sanitized": "Frontend-Architektur für Unternehmensanwendungen / Spicker #9"
   },
   {
-    "itemId": "https://www.embarc.de/pragmatische-fitness-functions/",
+    "itemId": "https://www.embarc.de/pragmatische-Fitness-Functions/",
     "raw": "Pragmatische Fitness Functions (Basta!)",
     "sanitized": "Pragmatische Fitness Functions (Basta!)"
   },
@@ -400,7 +420,7 @@
     "sanitized": "Mikado Methode"
   },
   {
-    "itemId": "https://www.embarc.de/mitarbeiterbeteiligung-fragebogen/",
+    "itemId": "https://www.embarc.de/Mitarbeiterbeteiligung-Fragebogen/",
     "raw": "Nikolaus, Stiefel raus!",
     "sanitized": "Nikolaus, Stiefel raus!"
   },
@@ -753,5 +773,10 @@
     "itemId": "https://www.embarc.de/kolumne-architekturen-dokumentieren-folge-1-voll-unagil/",
     "raw": "Architekturen dokumentieren: Voll unagil?",
     "sanitized": "Architekturen dokumentieren: Voll unagil?"
+  },
+  {
+    "itemId": "https://www.embarc.de/groovy-einfuehrung/",
+    "raw": "Einführung in Groovy",
+    "sanitized": "Einführung in Groovy"
   }
 ]

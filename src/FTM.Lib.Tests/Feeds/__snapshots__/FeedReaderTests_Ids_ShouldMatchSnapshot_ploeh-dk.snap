@@ -2,15 +2,15 @@
   "FeedTitle": "ploeh blog",
   "FeedId": "https://blog.ploeh.dk",
   "ItemIds": [
-    "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
-    "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
-    "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
-    "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
-    "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
-    "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
-    "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
-    "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
-    "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
-    "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators"
+    "https://blog.ploeh.dk/2025/09/15/greyscale-box-test-driven-development",
+    "https://blog.ploeh.dk/2025/09/22/its-striking-so-quickly-the-industry-forgets-that-lines-of-code-isnt-a-measure-of-productivity",
+    "https://blog.ploeh.dk/2025/09/29/composing-pure-haskell-assertions",
+    "https://blog.ploeh.dk/2025/10/06/shift-left-on-x",
+    "https://blog.ploeh.dk/2025/10/15/result-isomorphism",
+    "https://blog.ploeh.dk/2025/10/20/epistemology-of-software",
+    "https://blog.ploeh.dk/2025/10/27/empirical-test-after-development",
+    "https://blog.ploeh.dk/2025/11/03/empirical-characterization-testing",
+    "https://blog.ploeh.dk/2025/11/10/100-coverage-is-not-that-trivial",
+    "https://blog.ploeh.dk/2025/11/17/empirical-software-prototyping"
   ]
 }

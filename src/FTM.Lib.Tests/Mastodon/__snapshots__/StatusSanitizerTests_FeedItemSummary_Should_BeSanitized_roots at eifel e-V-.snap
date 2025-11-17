@@ -1,5 +1,10 @@
 ﻿[
   {
+    "itemId": "https://www.roots-at-eifel.net/?p=1780",
+    "raw": "Die EU will mit der sogenannten Chatkontrolle Kinder besser vor Missbrauch schützen – doch der Preis wäre hoch: eine flächendeckende Überwachung privater Kommunikation.\nWas als Schutzmaßnahme beginnt, könnte zum gefährlichsten Eingriff in die digitale Freiheit seit Bestehen der EU werden.",
+    "sanitized": "Die EU will mit der sogenannten Chatkontrolle Kinder besser vor Missbrauch schützen – doch der Preis wäre hoch: eine flächendeckende Überwachung privater Kommunikation.\nWas als Schutzmaßnahme beginnt, könnte zum gefährlichsten Eingriff in die digitale Freiheit seit Bestehen der EU werden."
+  },
+  {
     "itemId": "https://www.roots-at-eifel.net/?p=1715",
     "raw": "Wir haben es geschafft und sind als Spendenpartner bei „Bring dich ein für deinen Verein“ dabei. Dies ist uns nur gelungen, weil ihr euch so zahlreich für den roots at eifel e. V. eingebracht und für uns votiert habt. ",
     "sanitized": "Wir haben es geschafft und sind als Spendenpartner bei „Bring dich ein für deinen Verein“ dabei. Dies ist uns nur gelungen, weil ihr euch so zahlreich für den roots at eifel e. V. eingebracht und für uns votiert habt."
@@ -43,10 +48,5 @@
     "itemId": "https://www.roots-at-eifel.net/?p=1547",
     "raw": "Nachdem die Flutschäden an der Freifunk-Installation am Eifelbad in Bad Münstereifel Ende März instandgesetzt wurden, haben Thomas und Kevin heute die Verkabelung durch den Mast geführt...",
     "sanitized": "Nachdem die Flutschäden an der Freifunk-Installation am Eifelbad in Bad Münstereifel Ende März instandgesetzt wurden, haben Thomas und Kevin heute die Verkabelung durch den Mast geführt..."
-  },
-  {
-    "itemId": "https://www.roots-at-eifel.net/?p=1539",
-    "raw": "Pünktlich zur Wiedereröffnung konnte Kevin, die zerstörten Komponenten der Freifunk-Installation von roots at eifel e. V.  in der Stadtbibliothek Euskirchen instandsetzen...",
-    "sanitized": "Pünktlich zur Wiedereröffnung konnte Kevin, die zerstörten Komponenten der Freifunk-Installation von roots at eifel e. V.  in der Stadtbibliothek Euskirchen instandsetzen..."
   }
 ]

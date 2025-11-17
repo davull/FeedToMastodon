@@ -1,5 +1,35 @@
 ﻿[
   {
+    "itemId": "https://technikblog.ch/?p=37479",
+    "raw": "Top 10 Strava-Erweiterungen: Mehr aus deinen Aktivitäten herausholen",
+    "sanitized": "Top 10 Strava-Erweiterungen: Mehr aus deinen Aktivitäten herausholen"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37482",
+    "raw": "Auto-Abo im Test: Ich war 6 Monate mit dem VW ID. Buzz von Clyde unterwegs",
+    "sanitized": "Auto-Abo im Test: Ich war 6 Monate mit dem VW ID. Buzz von Clyde unterwegs"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37388",
+    "raw": "Meine Solaranlage im Faktencheck: Amortisationszeit und Einsparungen analysiert",
+    "sanitized": "Meine Solaranlage im Faktencheck: Amortisationszeit und Einsparungen analysiert"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37402",
+    "raw": "Virtuelle Trainingsassistenten im Selbsttest: Meine Top-6 im Vergleich",
+    "sanitized": "Virtuelle Trainingsassistenten im Selbsttest: Meine Top-6 im Vergleich"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37342",
+    "raw": "Langstrecke Elektroauto – Eine Reise nach Kroatien mit dem ID. Buzz",
+    "sanitized": "Langstrecke Elektroauto – Eine Reise nach Kroatien mit dem ID. Buzz"
+  },
+  {
+    "itemId": "https://technikblog.ch/?p=37331",
+    "raw": "Apple Watch Pulsmessung zu ungenau – Polar Verity Sense hilft",
+    "sanitized": "Apple Watch Pulsmessung zu ungenau – Polar Verity Sense hilft"
+  },
+  {
     "itemId": "https://technikblog.ch/?p=37288",
     "raw": "Das neue Shelly 3EM-63T Gen3 im Test",
     "sanitized": "Das neue Shelly 3EM-63T Gen3 im Test"
@@ -18,11 +48,6 @@
     "itemId": "https://technikblog.ch/?p=37228",
     "raw": "Smart Meter in der Schweiz: Was ist damit möglich und was nicht?",
     "sanitized": "Smart Meter in der Schweiz: Was ist damit möglich und was nicht?"
-  },
-  {
-    "itemId": "https://technikblog.ch/?p=37237",
-    "raw": "VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können",
-    "sanitized": "VortiPower VP20: Kickstarter Projekt will Tesla bidirektional (V2L) entladen können"
   },
   {
     "itemId": "https://technikblog.ch/?p=37210",
@@ -468,30 +493,5 @@
     "itemId": "http://tchor/?p=34543",
     "raw": "Dachbox fürs Elektroauto im Test: Thule Motion XT L",
     "sanitized": "Dachbox fürs Elektroauto im Test: Thule Motion XT L"
-  },
-  {
-    "itemId": "http://tchor/?p=34534",
-    "raw": "Photovoltaik-Anlage mit Speicher  in einem EFH: Rückblick 2021",
-    "sanitized": "Photovoltaik-Anlage mit Speicher  in einem EFH: Rückblick 2021"
-  },
-  {
-    "itemId": "http://tchor/?p=34529",
-    "raw": "Elektromobilität in der Schweiz 2021: Zulassungszahlen zeigen den Trend",
-    "sanitized": "Elektromobilität in der Schweiz 2021: Zulassungszahlen zeigen den Trend"
-  },
-  {
-    "itemId": "http://tchor/?p=34517",
-    "raw": "Volkswagen bietet 2022 bidirektionales Laden und Plug & Charge an",
-    "sanitized": "Volkswagen bietet 2022 bidirektionales Laden und Plug & Charge an"
-  },
-  {
-    "itemId": "http://tchor/?p=34514",
-    "raw": "Apple TV und HomePod Mini versteht nun auch Schweizer…",
-    "sanitized": "Apple TV und HomePod Mini versteht nun auch Schweizer…"
-  },
-  {
-    "itemId": "http://tchor/?p=34476",
-    "raw": "Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad",
-    "sanitized": "Škoda Enyaq iV80x im Test: Das Elektro-Familienauto mit Allrad"
   }
 ]

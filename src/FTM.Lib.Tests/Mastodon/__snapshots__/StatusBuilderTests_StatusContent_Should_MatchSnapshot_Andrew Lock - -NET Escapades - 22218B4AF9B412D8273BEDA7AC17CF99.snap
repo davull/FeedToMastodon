@@ -1,0 +1,5 @@
+﻿sleep-pc: a .NET Native AOT tool to make Windows sleep after a timeout
+
+In this post I describe a small native AOT .NET tool that I built to force a Windows PC to go to sleep after a timer expires
+---
+https://andrewlock.net/sleep-pc-a-dotnet-tool-to-make-windows-sleep-after-a-timeout/
