@@ -40,6 +40,23 @@ public class FeedReaderTests : TestBase
             item.Link.ShouldNotBeNull();
         }
     }
+    
+    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.ValidRssContentTestCases))]
+    public void Ids_ShouldMatchSnapshot(string content)
+    {
+        var feed = FeedReader.Read(content);
+        
+        var snapshot = new
+        {
+            FeedTitle = feed.Title,
+            FeedId = feed.Id,
+            ItemIds = feed.Items
+                .Select(i => i.ItemId)
+                .Order()
+                .ToList()
+        };
+        snapshot.MatchSnapshotWithTestName();
+    }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.ValidRssContentTestCases))]
     public void Feed_Should_MatchSnapshot(string content)

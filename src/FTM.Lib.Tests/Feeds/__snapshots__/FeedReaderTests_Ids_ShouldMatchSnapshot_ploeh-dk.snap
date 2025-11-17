@@ -1,0 +1,16 @@
+﻿{
+  "FeedTitle": "ploeh blog",
+  "FeedId": "https://blog.ploeh.dk",
+  "ItemIds": [
+    "https://blog.ploeh.dk/2025/04/10/characterising-song-recommendations",
+    "https://blog.ploeh.dk/2025/04/14/porting-song-recommendations-to-f",
+    "https://blog.ploeh.dk/2025/04/21/porting-song-recommendations-to-haskell",
+    "https://blog.ploeh.dk/2025/04/28/song-recommendations-as-an-impureim-sandwich",
+    "https://blog.ploeh.dk/2025/05/05/song-recommendations-as-a-c-impureim-sandwich",
+    "https://blog.ploeh.dk/2025/05/12/song-recommendations-proof-of-concept-memory-measurements",
+    "https://blog.ploeh.dk/2025/05/19/song-recommendations-as-an-f-impureim-sandwich",
+    "https://blog.ploeh.dk/2025/05/26/song-recommendations-as-a-haskell-impureim-sandwich",
+    "https://blog.ploeh.dk/2025/06/02/testing-races-with-a-slow-decorator",
+    "https://blog.ploeh.dk/2025/06/09/song-recommendations-from-combinators"
+  ]
+}
