@@ -17,6 +17,9 @@
     "Method": "POST",
     "HttpVersion": "1.1",
     "Headers": {
+      "User-Agent": [
+        "FeedToMastodonBot/1.0"
+      ],
       "Authorization": [
         "Bearer some-mastodon-token"
       ],

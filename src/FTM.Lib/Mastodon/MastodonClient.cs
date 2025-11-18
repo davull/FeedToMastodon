@@ -10,6 +10,8 @@ namespace FTM.Lib.Mastodon;
 
 public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
 {
+    private const string UserAgent = "FeedToMastodonBot/1.0";
+
     public async Task<string> PostStatus(MastodonStatus status, WorkerContext context,
         CancellationToken cancellationToken)
     {
@@ -28,6 +30,7 @@ public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
             { Content = GetStatusContent(status) };
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", mastodonAccessToken);
         request.Headers.Add("Idempotency-Key", CreateIdempotencyKey(status));
+        request.Headers.UserAgent.ParseAdd(UserAgent);
 
         return request;
     }

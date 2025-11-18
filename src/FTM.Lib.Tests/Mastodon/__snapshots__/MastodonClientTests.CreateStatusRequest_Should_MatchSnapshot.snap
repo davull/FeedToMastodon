@@ -27,6 +27,12 @@
       "Value": [
         "mShrrMpToofC64Ezxd5RPKLKpUck/omVyYvYiNs1CY0="
       ]
+    },
+    {
+      "Key": "User-Agent",
+      "Value": [
+        "FeedToMastodonBot/1.0"
+      ]
     }
   ],
   "Properties": {},
