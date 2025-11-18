@@ -73,6 +73,30 @@ public class MastodonClientIntegrationTests : TestBase
         exception.RateLimit.ShouldBeNull();
     }
 
+    [Test]
+    public async Task PostStatus_Should_MatchSnapshot()
+    {
+        SetupServer(200, "PostStatusSuccessResponse.json");
+
+        _ = await PostStatus();
+
+        var log = _server.LogEntries.Single();
+        var snapshot = new
+        {
+            log.RequestMessage,
+            log.ResponseMessage
+        };
+        snapshot.MatchSnapshot(o => o
+            .ExcludeField("RequestMessage.Url")
+            .ExcludeField("RequestMessage.AbsoluteUrl")
+            .ExcludeField("RequestMessage.DateTime")
+            .ExcludeField("RequestMessage.Headers.Host")
+            .ExcludeField("RequestMessage.BodyData.Encoding")
+            .ExcludeField("RequestMessage.Port")
+            .ExcludeField("RequestMessage.Origin")
+            .ExcludeField("ResponseMessage.BodyData.BodyAsFile"));
+    }
+
     private void SetupServer(int statusCode, string responseFileName,
         int remaining = 299, bool rateLimitHeaders = true)
     {
