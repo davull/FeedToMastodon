@@ -94,7 +94,7 @@ public class MastodonClientIntegrationTests : TestBase
             .ExcludeField("RequestMessage.BodyData.Encoding")
             .ExcludeField("RequestMessage.Port")
             .ExcludeField("RequestMessage.Origin")
-            .ExcludeField("ResponseMessage.BodyData.BodyAsFile"));
+            .ExcludeField("ResponseMessage.BodyData"));
     }
 
     private void SetupServer(int statusCode, string responseFileName,
