@@ -15,12 +15,14 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], []).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My summary");
         status.ShouldNotContain("My content");
         status.ShouldContain("https://example.com/feed=123");
+        status.ShouldContain("#tag1");
+        status.ShouldContain("#tag2");
     }
 
     [Test]
@@ -282,10 +284,23 @@ public class StatusBuilderTests : TestBase
         status.MatchSnapshotWithTestName();
     }
 
+    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
+    public void Status_Should_NotExceedMaxLength(FeedItem item, string[] separators)
+    {
+        item = item with
+        {
+            // l=23, exactly the lenght that mastodon reserves for links
+            Link = new Uri("https://example.com/abc")
+        };
+
+        var status = StatusBuilder.CreateStatus(item, [], separators);
+        status.Status.Length.ShouldBeLessThanOrEqualTo(500);
+    }
+
     [Test]
     public void Status_WithManyTags_ShouldNotExceedMaxLength()
     {
-        var feedItem = Dummies.FeedItem();
+        var feedItem = Dummies.FeedItem(link: "https://example.com/abc");
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
         var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
@@ -300,40 +315,6 @@ public class StatusBuilderTests : TestBase
 
         var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
         status.MatchSnapshot();
-    }
-
-    [TestCaseSource(nameof(GetTagsTestCases))]
-    public void GetTags_Should_RespectMaxLength(string[] tags, int maxLength, string expected)
-    {
-        var actual = StatusBuilder.GetTags(tags, maxLength);
-        actual.ShouldBe(expected);
-    }
-
-    private static IEnumerable<TestCaseData> GetTagsTestCases()
-    {
-        yield return new TestCaseData(Array.Empty<string>(), 50, "")
-            .SetName("No tags");
-
-        yield return new TestCaseData(new[] { "Tag001" }, 50, "#Tag001")
-            .SetName("Single tag within limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002", "Tag003" }, 50,
-            "#Tag001 #Tag002 #Tag003").SetName("Multiple tags within limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 15, "#Tag001 #Tag002")
-            .SetName("Multiple tags exactly at limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 14, "#Tag001")
-            .SetName("Multiple tags just under limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 16, "#Tag001 #Tag002")
-            .SetName("Multiple tags just over limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002", "Tag003", "Tag004" }, 20,
-            "#Tag001 #Tag002").SetName("Multiple tags way over limit");
-
-        yield return new TestCaseData(new[] { "VeryLongTagName001", "Tag002" }, 15, "")
-            .SetName("Single tag exceeds limit");
     }
 
     [TestCaseSource(nameof(MaxStatusLengthTestCases))]
