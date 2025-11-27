@@ -335,4 +335,69 @@ public class StatusBuilderTests : TestBase
         yield return new TestCaseData(new[] { "VeryLongTagName001", "Tag002" }, 15, "")
             .SetName("Single tag exceeds limit");
     }
+
+    [TestCaseSource(nameof(MaxStatusLengthTestCases))]
+    public void Status_ShouldNotExceedMaxLenght(string title, string summary,
+        string content, string link, string[] tags)
+    {
+        var feedItem = Dummies.FeedItem(title: title, summary: summary, content: content, link: link);
+        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+
+        status.Length.ShouldBeLessThanOrEqualTo(500);
+    }
+
+    private static IEnumerable<TestCaseData> MaxStatusLengthTestCases()
+    {
+        string[] titles =
+        [
+            "",
+            "Short title",
+            "Medium long title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Very long title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        ];
+
+        string[] summaries =
+        [
+            "",
+            "Short summary.",
+            "Medium long summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Very long summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ];
+
+        string[] contents =
+        [
+            "",
+            "Short content.",
+            "Medium long content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Very long content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ];
+
+        string[] links =
+        [
+            "",
+            "https://example.com/abc" // l=23, exactly the lenght that mastodon reserves for links
+        ];
+
+        string[][] tagsList =
+        [
+            [],
+            ["tag1", "tag2", "tag3"],
+            [
+                "verylongtagname001", "verylongtagname002", "verylongtagname003",
+                "verylongtagname004", "verylongtagname005"
+            ]
+        ];
+
+        var q = from title in titles
+            from summary in summaries
+            from content in contents
+            from link in links
+            from tags in tagsList
+            select (title, summary, content, link, tags);
+        foreach (var (title, summary, content, link, tags) in q)
+        {
+            yield return new TestCaseData(title, summary, content, link, tags).SetName(
+                $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
+        }
+    }
 }
