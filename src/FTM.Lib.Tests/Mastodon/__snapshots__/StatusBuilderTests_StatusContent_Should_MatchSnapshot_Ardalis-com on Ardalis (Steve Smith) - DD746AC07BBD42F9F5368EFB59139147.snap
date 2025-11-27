@@ -1,6 +1,6 @@
 ﻿Use TimeSpan Or Specify Units In Duration Properties And Parameters
 
 A special case of primitive obsession is the use of an int value to describe a span of time. You see this all the time in various APIs, and it’s a frequent source of bugs and confusion. Developers are forced to either guess or try to find the documentation that describes what units int timeout or int delay actually uses.
-Having a retry delay of 1 millisecond instead of 1 second, for example...
+Having a retry delay of 1 millisecond instead of 1 second, for exampl...
 ---
 https://ardalis.com/use-timespan-or-specify-units-in-duration-properties-and-parameters/

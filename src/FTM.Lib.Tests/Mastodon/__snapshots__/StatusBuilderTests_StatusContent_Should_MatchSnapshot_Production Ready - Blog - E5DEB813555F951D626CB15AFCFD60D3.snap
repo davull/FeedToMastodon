@@ -1,5 +1,5 @@
 ﻿Leichtgewichtige Architekturdokumentation mit ADRs
 
-Erreicht eine Software-Anwendung eine gewisse Größe, ist eine Dokumentation der einzelnen Komponenten und deren Zusammenspiel sinnvoll. Auch das Festhalten von Architektur-Entscheidungen ist wichtig, um auch Monate oder Jahre später noch nachvollziehen zu können, warum eine bestimmte Lösung gewählt wurde. Zukünftige Kolleg:innen und euer zukünftiges Ich werden es euch danken. Eine leichtgewichtige Methode, ...
+Erreicht eine Software-Anwendung eine gewisse Größe, ist eine Dokumentation der einzelnen Komponenten und deren Zusammenspiel sinnvoll. Auch das Festhalten von Architektur-Entscheidungen ist wichtig, um auch Monate oder Jahre später noch nachvollziehen zu können, warum eine bestimmte Lösung gewählt wurde. Zukünftige Kolleg:innen und euer zukünftiges Ich werden es euch danken. Eine leichtgewichtige Methode,...
 ---
 https://www.production-ready.de/2023/12/28/lightweight-architecture-documentation-adr.html

@@ -4,37 +4,53 @@ public static class StatusTextProvider
 {
     private const int MaxStatusLength = 500;
 
-    public static string GetText(string title, string summary, string[] tags, Uri? link)
+    private const string Ellipsis = "...";
+
+    private static readonly int TwoNewLinesLength = "\r\n\r\n".Length;
+
+    public static string GetText(string title, string summary, string[] tags,
+        Uri? link, int maxLength = MaxStatusLength)
     {
         var hasTitle = !string.IsNullOrEmpty(title);
         var hasSummary = !string.IsNullOrEmpty(summary);
         var hasTags = tags.Length > 0;
         var hasContent = hasTitle || hasSummary || hasTags;
+        var hasLink = link != null;
 
-        var remainingLength = MaxStatusLength;
+        var remainingLength = maxLength;
         remainingLength -= LinkLengthProvider.GetRelevantLength(link);
 
-        var tagsLine = GetTags(tags, remainingLength);
-        remainingLength -= tagsLine.Length;
-
-        if (hasContent)
+        if (hasContent && hasLink)
         {
             remainingLength -= "\r\n---\r\n".Length;
         }
 
-        if (hasTitle && remainingLength > 4)
+        var tagsLine = GetTags(tags, remainingLength);
+        remainingLength -= tagsLine.Length;
+
+        var remainingLengthRequiredForTitle = TwoNewLinesLength + Ellipsis.Length + 4;
+        if (hasTitle && remainingLength >= remainingLengthRequiredForTitle)
         {
-            remainingLength -= "\r\n\r\n".Length;
+            remainingLength -= TwoNewLinesLength;
 
             title = TrimIfNeeded(title, remainingLength);
             remainingLength -= title.Length;
         }
-
-        if (hasSummary && remainingLength > 4)
+        else
         {
-            remainingLength -= "\r\n\r\n".Length;
+            title = string.Empty;
+        }
+
+        var remainingLengthRequiredForSummary = Ellipsis.Length + Ellipsis.Length + 4;
+        if (hasSummary && remainingLength >= remainingLengthRequiredForSummary)
+        {
+            remainingLength -= TwoNewLinesLength;
 
             summary = TrimIfNeeded(summary, remainingLength);
+        }
+        else
+        {
+            summary = string.Empty;
         }
 
         return StatusFormatter.GetStatus(title, summary, tagsLine, link);
@@ -68,9 +84,7 @@ public static class StatusTextProvider
 
     private static string TrimIfNeeded(string text, int maxLength)
     {
-        const string ellipsis = "...";
-
-        if (maxLength < ellipsis.Length)
+        if (maxLength < Ellipsis.Length)
         {
             return string.Empty;
         }
@@ -80,7 +94,7 @@ public static class StatusTextProvider
             return text;
         }
 
-        var l = maxLength - ellipsis.Length;
-        return text[..l] + ellipsis;
+        var l = maxLength - Ellipsis.Length;
+        return text[..l] + Ellipsis;
     }
 }

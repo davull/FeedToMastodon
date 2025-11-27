@@ -6,6 +6,6 @@ A few techniques for situations where TDD is impractical.
         In Epistemology of software I described how test-driven development (TDD) is a scientific approach to software development. By running tests, we conduct falsifiable experiments to gather empirical evidence that corroborate our hypothesis about the software we're developing.
     
     
-        TDD is, in my experience, the most effective way to deliver...
+        TDD is, in my experience, the most effective way to delive...
 ---
 https://blog.ploeh.dk/2025/10/27/empirical-test-after-development/

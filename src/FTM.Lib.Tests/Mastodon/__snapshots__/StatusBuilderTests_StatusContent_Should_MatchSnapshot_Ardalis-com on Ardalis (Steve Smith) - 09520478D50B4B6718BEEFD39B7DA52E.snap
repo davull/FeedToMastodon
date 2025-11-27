@@ -1,6 +1,6 @@
 ﻿The Ardalis Cli
 
 Back in the .NET 10 Preview days, Andrew Lock wrote about running one-off dotnet tools with DNX. I decided to riff on that to create what was initially just a business card, but then I enhanced it with some additional functionality, making a full-blown Ardalis CLI tool, which mostly just gets you access to content from me in your terminal.
-You can find the source for my ardalis command line interface as well as its listing on NuGet. You shou...
+You can find the source for my ardalis command line interface as well as its listing on NuGet. You sho...
 ---
 https://ardalis.com/the-ardalis-cli/
