@@ -305,7 +305,7 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem(link: "https://example.com/abc");
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
         status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -315,7 +315,7 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem();
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
         status.MatchSnapshot();
     }
 
