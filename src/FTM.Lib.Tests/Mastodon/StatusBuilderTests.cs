@@ -355,8 +355,7 @@ public class StatusBuilderTests : TestBase
 
         string[] links =
         [
-            // TODO: add tests for empty link
-            //"",
+            "",
             "https://example.com/abc" // l=23, exactly the lenght that mastodon reserves for links
         ];
 
