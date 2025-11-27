@@ -5,17 +5,19 @@ public static class StatusBuilder
     private const string DefaultLanguage = "en-US";
 
     public static MastodonStatus CreateStatus(FeedItem feedItem, string[] tags, string[] separators,
-        MastodonStatusVisibility visibility = MastodonStatusVisibility.Public)
+        int maxStatusLength)
     {
         var text = BuildStatusText(feedItem, tags, separators);
+        var status = BuildStatusText(feedItem, tags, separators, maxStatusLength);
         var language = string.IsNullOrEmpty(feedItem.Language)
             ? DefaultLanguage
             : feedItem.Language;
 
         return new MastodonStatus(text, language, visibility);
+        return new MastodonStatus(status, language, MastodonStatusVisibility.Public);
     }
 
-    private static string BuildStatusText(FeedItem item, string[] tags, string[] separators)
+    private static string BuildStatusText(FeedItem item, string[] tags, string[] separators, int maxStatusLength)
     {
         var link = item.Link;
         var title = GetTitle(item);
