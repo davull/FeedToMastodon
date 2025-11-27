@@ -12,8 +12,14 @@ public class StatusFormatterTests : TestBase
         var uri = string.IsNullOrEmpty(link) ? null : new Uri(link);
 
         var status = StatusFormatter.GetStatus(title, summary, tags, uri);
-
         status.MatchSnapshotWithTestName();
+    }
+
+    [Test]
+    public void GetStatus_WithNothing_ShouldReturnEmptyString()
+    {
+        var status = StatusFormatter.GetStatus("", "", "", null);
+        status.ShouldBeEmpty();
     }
 
     private static IEnumerable<TestCaseData> TestCases()
@@ -56,6 +62,9 @@ public class StatusFormatterTests : TestBase
 
         yield return new TestCaseData("", "", "", "https://example.com")
             .SetName("OnlyLink");
+
+        yield return new TestCaseData("", "", "#tag1 #tag2", null)
+            .SetName("OnlyTags");
 
         yield return new TestCaseData("", "", "#tag1 #tag2", "https://example.com")
             .SetName("OnlyLinkAndTags");
