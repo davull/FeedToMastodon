@@ -73,5 +73,11 @@ public class StatusFormatterTests : TestBase
         yield return new TestCaseData(
                 "Title contains Summary", "Summary", "#tag1 #tag2 #tag3", "https://example.com")
             .SetName("WithTagAndTitleContainsSummary");
+
+        yield return new TestCaseData("", "", "", "https://example.com")
+            .SetName("OnlyLink");
+
+        yield return new TestCaseData("", "", "#tag1 #tag2", "https://example.com")
+            .SetName("OnlyLinkAndTags");
     }
 }
