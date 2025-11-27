@@ -281,4 +281,24 @@ public class StatusBuilderTests : TestBase
         var status = StatusBuilder.CreateStatus(item, tags, []).Status;
         status.MatchSnapshotWithTestName();
     }
+
+    [Test]
+    public void Status_WithManyTags_ShouldNotExceedMaxLength()
+    {
+        var feedItem = Dummies.FeedItem();
+        var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
+
+        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        status.Length.ShouldBeLessThanOrEqualTo(500);
+    }
+    
+    [Test]
+    public void Status_WithManyTags_ShouldMatchSnapshot()
+    {
+        var feedItem = Dummies.FeedItem();
+        var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
+
+        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        status.MatchSnapshot();
+    }
 }
