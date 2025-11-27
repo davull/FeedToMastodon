@@ -4,6 +4,8 @@ public static class StatusFormatter
 {
     public static string GetStatus(string title, string summary, string tags, Uri? link)
     {
+        // TODO: Handle empty link
+        
         // {0}: title
         // {1}: summary
         // {2}: tags
@@ -13,19 +15,16 @@ public static class StatusFormatter
         var hasTitle = !string.IsNullOrEmpty(title);
         var hasSummary = !string.IsNullOrEmpty(summary);
 
-        var compare = ContentComparer.Compare(title, summary);
-
-        var format = (hasTitle, hasSummary, compare) switch
+        var format = (hasTitle, hasSummary) switch
         {
             // No title and no summary
-            (false, false, _) => GetFormatWoLinkAndSummary(hasTags),
-            // Title contains summary
-            (_, _, ContentComparer.CompareResult.FirstContainsSecond) => GetFormatWoSummary(hasTags),
-            // Summary contains title
-            (_, _, ContentComparer.CompareResult.SecondContainsFirst) => GetFormatWoTitle(hasTags),
-            // Title and summary are different
-            (_, _, ContentComparer.CompareResult.Different) => GetFormatWithSummary(hasTags),
-            _ => throw new ArgumentOutOfRangeException(nameof(compare), compare, "Unexpected comparison result")
+            (false, false) => GetFormatWoLinkAndSummary(hasTags),
+            // Title only
+            (true, false) => GetFormatWoSummary(hasTags),
+            // Summary only
+            (false, true) => GetFormatWoTitle(hasTags),
+            // Title and summary
+            (true, true) => GetFormatWithSummary(hasTags)
         };
 
         return string.Format(format, title, summary, tags, link);
