@@ -33,6 +33,9 @@ public class StatusFormatterTests : TestBase
         yield return new TestCaseData("", "Summary", "", "https://example.com")
             .SetName("WithNoTitleAndSummaryAndLink");
 
+        yield return new TestCaseData("", "Summary", "", null)
+            .SetName("SummaryOnly");
+
         yield return new TestCaseData("Title", "Summary", "#tag1 #tag2 #tag3", "https://example.com")
             .SetName("WithTitleAndSummaryAndLinkAndTags");
 
@@ -47,6 +50,9 @@ public class StatusFormatterTests : TestBase
 
         yield return new TestCaseData("", "Summary", "#tag1 #tag2 #tag3", "https://example.com")
             .SetName("WithTagAndNoTitleAndSummaryAndLink");
+
+        yield return new TestCaseData("", "Summary", "#tag1 #tag2 #tag3", null)
+            .SetName("SummaryAndTagsOnly");
 
         yield return new TestCaseData("", "", "", "https://example.com")
             .SetName("OnlyLink");
