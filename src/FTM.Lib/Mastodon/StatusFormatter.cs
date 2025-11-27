@@ -10,17 +10,21 @@ public static class StatusFormatter
         // {3}: link
 
         var hasTags = !string.IsNullOrEmpty(tags);
+        var hasTitle = !string.IsNullOrEmpty(title);
+        var hasSummary = !string.IsNullOrEmpty(summary);
 
         var compare = ContentComparer.Compare(title, summary);
 
-        var format = compare switch
+        var format = (hasTitle, hasSummary, compare) switch
         {
+            // No title and no summary
+            (false, false, _) => GetFormatWoLinkAndSummary(hasTags),
             // Title contains summary
-            ContentComparer.CompareResult.FirstContainsSecond => GetFormatWoSummary(hasTags),
+            (_, _, ContentComparer.CompareResult.FirstContainsSecond) => GetFormatWoSummary(hasTags),
             // Summary contains title
-            ContentComparer.CompareResult.SecondContainsFirst => GetFormatWoTitle(hasTags),
+            (_, _, ContentComparer.CompareResult.SecondContainsFirst) => GetFormatWoTitle(hasTags),
             // Title and summary are different
-            ContentComparer.CompareResult.Different => GetFormatWithSummary(hasTags),
+            (_, _, ContentComparer.CompareResult.Different) => GetFormatWithSummary(hasTags),
             _ => throw new ArgumentOutOfRangeException(nameof(compare), compare, "Unexpected comparison result")
         };
 
@@ -35,7 +39,7 @@ public static class StatusFormatter
                    {0}
 
                    {1}
-                   
+
                    {2}
                    ---
                    {3}
@@ -57,7 +61,7 @@ public static class StatusFormatter
         {
             return """
                    {0}
-                   
+
                    {2}
                    ---
                    {3}
@@ -77,7 +81,7 @@ public static class StatusFormatter
         {
             return """
                    {1}
-                   
+
                    {2}
                    ---
                    {3}
@@ -87,6 +91,22 @@ public static class StatusFormatter
         return """
                {1}
                ---
+               {3}
+               """;
+    }
+
+    private static string GetFormatWoLinkAndSummary(bool hasTags)
+    {
+        if (hasTags)
+        {
+            return """
+                   {2}
+                   ---
+                   {3}
+                   """;
+        }
+
+        return """
                {3}
                """;
     }
