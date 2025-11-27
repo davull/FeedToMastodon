@@ -6,6 +6,6 @@ Azure Functions Extensibility - Overview
 Azure Functions Extensibility - Triggers
 
 In this post, I want to dive into how extensions implement support for the Azure Functions scaling model.
-The Azure Functions scaling model (as one can expect) has evolved over the years. The first model is incremental scaling...
+The Azure Functions scaling model (as one can expect) has evolved over the years. The first model is incremental scalin...
 ---
 http://www.tpeczek.com/2024/02/azure-functions-extensibility-runtime.html

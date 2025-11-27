@@ -2,47 +2,42 @@
 
 public static class StatusBuilder
 {
-    private const int ReservedLength = 14;
-    private const int MaxStatusLength = 500 - ReservedLength;
-
     private const string DefaultLanguage = "en-US";
 
     public static MastodonStatus CreateStatus(FeedItem feedItem, string[] tags, string[] separators,
         MastodonStatusVisibility visibility = MastodonStatusVisibility.Public)
     {
-        var status = BuildStatusText(feedItem, tags, separators);
+        var text = BuildStatusText(feedItem, tags, separators);
         var language = string.IsNullOrEmpty(feedItem.Language)
             ? DefaultLanguage
             : feedItem.Language;
 
-        return new MastodonStatus(status, language, visibility);
+        return new MastodonStatus(text, language, visibility);
     }
 
     private static string BuildStatusText(FeedItem item, string[] tags, string[] separators)
     {
-        var remainingLength = MaxStatusLength;
-
         var link = item.Link;
-        remainingLength -= LinkLengthProvider.GetRelevantLength(link);
+        var title = GetTitle(item);
+        var summary = GetSummary(item, separators);
 
-        var tagsLine = GetTags(tags, remainingLength);
-        remainingLength -= tagsLine.Length;
+        var compare = ContentComparer.Compare(title, summary);
+        if (compare == ContentComparer.CompareResult.SecondContainsFirst)
+        {
+            title = string.Empty;
+        }
+        else if (compare == ContentComparer.CompareResult.FirstContainsSecond)
+        {
+            summary = string.Empty;
+        }
 
-        var title = GetTitle(item, remainingLength);
-        remainingLength -= title.Length;
-
-        var summary = GetSummary(item, remainingLength, separators);
-
-        return StatusFormatter.GetStatus(title, summary, tagsLine, link);
+        return StatusTextProvider.GetText(title, summary, tags, link);
     }
 
-    private static string GetTitle(FeedItem item, int maxLength)
-    {
-        var title = StatusSanitizer.Sanitize(item.Title) ?? string.Empty;
-        return TrimIfNeeded(title, maxLength);
-    }
+    private static string GetTitle(FeedItem item)
+        => StatusSanitizer.Sanitize(item.Title) ?? string.Empty;
 
-    private static string GetSummary(FeedItem item, int maxLength, string[] separators)
+    private static string GetSummary(FeedItem item, string[] separators)
     {
         var summary = StatusSanitizer.Sanitize(item.Summary) ?? string.Empty;
         if (string.IsNullOrEmpty(summary))
@@ -57,50 +52,6 @@ public static class StatusBuilder
             summary = summary.Split(separators, StringSplitOptions.None)[0] + "...";
         }
 
-        return TrimIfNeeded(summary, maxLength);
-    }
-
-    internal static string GetTags(string[] tags, int maxLength)
-    {
-        var effectiveTags = GetEffectiveTags();
-        return string.Join(" ", effectiveTags.Select(tag => $"#{tag}"));
-
-        IEnumerable<string> GetEffectiveTags()
-        {
-            var currentLength = 0;
-
-            for (var i = 0; i < tags.Length; i++)
-            {
-                var tag = tags[i];
-
-                // +1 for '#' and +1 for space
-                var tagLength = tag.Length + (i == 0 ? 1 : 2);
-                currentLength += tagLength;
-                if (currentLength > maxLength)
-                {
-                    break;
-                }
-
-                yield return tag;
-            }
-        }
-    }
-
-    private static string TrimIfNeeded(string text, int maxLength)
-    {
-        const string ellipsis = "...";
-
-        if (maxLength < ellipsis.Length)
-        {
-            return string.Empty;
-        }
-
-        if (text.Length <= maxLength)
-        {
-            return text;
-        }
-
-        var l = maxLength - ellipsis.Length;
-        return text[..l] + ellipsis;
+        return summary;
     }
 }

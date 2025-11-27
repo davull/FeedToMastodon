@@ -2,6 +2,6 @@
 
 I was recently looking at the Duende Software codebase, and I kept seeing the same suggestion offered by the IDE tooling whenever I encountered a ConcurrentDictionary: “Closure can be eliminated: method has overload to avoid closure creation.”
 
-While the suggestion appears in the tooling, there isn’t a quick fix action to apply the change. It left me scratching my head because there wasn’t an immedi...
+While the suggestion appears in the tooling, there isn’t a quick fix action to apply the change. It left me scratching my head because there wasn’t an immed...
 ---
 https://khalidabuhakmeh.com/the-curious-case-of-dotnet-concurrentdictionary-and-closures

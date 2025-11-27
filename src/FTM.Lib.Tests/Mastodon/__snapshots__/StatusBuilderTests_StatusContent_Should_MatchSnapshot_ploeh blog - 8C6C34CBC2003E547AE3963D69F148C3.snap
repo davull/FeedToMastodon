@@ -3,6 +3,6 @@
 Gathering empirical evidence while adding tests to legacy code.
     
     
-        This article is part of a short series on empirical test-after techniques. Sometimes, test-driven development (TDD) is impractical. This often happens when faced with legacy code. Although there's a dearth of hard data, I guess that most code in the world falls into this category. Other software thought leaders seem to suggest the same notion...
+        This article is part of a short series on empirical test-after techniques. Sometimes, test-driven development (TDD) is impractical. This often happens when faced with legacy code. Although there's a dearth of hard data, I guess that most code in the world falls into this category. Other software thought leaders seem to suggest the same notio...
 ---
 https://blog.ploeh.dk/2025/11/03/empirical-characterization-testing/

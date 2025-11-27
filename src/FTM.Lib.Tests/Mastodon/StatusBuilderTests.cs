@@ -15,12 +15,14 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], []).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My summary");
         status.ShouldNotContain("My content");
         status.ShouldContain("https://example.com/feed=123");
+        status.ShouldContain("#tag1");
+        status.ShouldContain("#tag2");
     }
 
     [Test]
@@ -282,10 +284,23 @@ public class StatusBuilderTests : TestBase
         status.MatchSnapshotWithTestName();
     }
 
+    [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
+    public void Status_Should_NotExceedMaxLength(FeedItem item, string[] separators)
+    {
+        item = item with
+        {
+            // l=23, exactly the lenght that mastodon reserves for links
+            Link = new Uri("https://example.com/abc")
+        };
+
+        var status = StatusBuilder.CreateStatus(item, [], separators);
+        status.Status.Length.ShouldBeLessThanOrEqualTo(500);
+    }
+
     [Test]
     public void Status_WithManyTags_ShouldNotExceedMaxLength()
     {
-        var feedItem = Dummies.FeedItem();
+        var feedItem = Dummies.FeedItem(link: "https://example.com/abc");
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
         var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
@@ -302,37 +317,68 @@ public class StatusBuilderTests : TestBase
         status.MatchSnapshot();
     }
 
-    [TestCaseSource(nameof(GetTagsTestCases))]
-    public void GetTags_Should_RespectMaxLength(string[] tags, int maxLength, string expected)
+    [TestCaseSource(nameof(MaxStatusLengthTestCases))]
+    public void Status_ShouldNotExceedMaxLenght(string title, string summary,
+        string content, string link, string[] tags)
     {
-        var actual = StatusBuilder.GetTags(tags, maxLength);
-        actual.ShouldBe(expected);
+        var feedItem = Dummies.FeedItem(title: title, summary: summary, content: content, link: link);
+        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+
+        status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
-    private static IEnumerable<TestCaseData> GetTagsTestCases()
+    private static IEnumerable<TestCaseData> MaxStatusLengthTestCases()
     {
-        yield return new TestCaseData(Array.Empty<string>(), 50, "")
-            .SetName("No tags");
+        string[] titles =
+        [
+            "",
+            "Short title",
+            "Medium long title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Very long title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        ];
 
-        yield return new TestCaseData(new[] { "Tag001" }, 50, "#Tag001")
-            .SetName("Single tag within limit");
+        string[] summaries =
+        [
+            "",
+            "Short summary.",
+            "Medium long summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Very long summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ];
 
-        yield return new TestCaseData(new[] { "Tag001", "Tag002", "Tag003" }, 50,
-            "#Tag001 #Tag002 #Tag003").SetName("Multiple tags within limit");
+        string[] contents =
+        [
+            "",
+            "Short content.",
+            "Medium long content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Very long content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ];
 
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 15, "#Tag001 #Tag002")
-            .SetName("Multiple tags exactly at limit");
+        string[] links =
+        [
+            "",
+            "https://example.com/abc" // l=23, exactly the lenght that mastodon reserves for links
+        ];
 
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 14, "#Tag001")
-            .SetName("Multiple tags just under limit");
+        string[][] tagsList =
+        [
+            [],
+            ["tag1", "tag2", "tag3"],
+            [
+                "verylongtagname001", "verylongtagname002", "verylongtagname003",
+                "verylongtagname004", "verylongtagname005"
+            ]
+        ];
 
-        yield return new TestCaseData(new[] { "Tag001", "Tag002" }, 16, "#Tag001 #Tag002")
-            .SetName("Multiple tags just over limit");
-
-        yield return new TestCaseData(new[] { "Tag001", "Tag002", "Tag003", "Tag004" }, 20,
-            "#Tag001 #Tag002").SetName("Multiple tags way over limit");
-
-        yield return new TestCaseData(new[] { "VeryLongTagName001", "Tag002" }, 15, "")
-            .SetName("Single tag exceeds limit");
+        var q = from title in titles
+            from summary in summaries
+            from content in contents
+            from link in links
+            from tags in tagsList
+            select (title, summary, content, link, tags);
+        foreach (var (title, summary, content, link, tags) in q)
+        {
+            yield return new TestCaseData(title, summary, content, link, tags).SetName(
+                $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
+        }
     }
 }

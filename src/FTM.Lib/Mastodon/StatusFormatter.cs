@@ -12,102 +12,100 @@ public static class StatusFormatter
         var hasTags = !string.IsNullOrEmpty(tags);
         var hasTitle = !string.IsNullOrEmpty(title);
         var hasSummary = !string.IsNullOrEmpty(summary);
+        var hasLink = link != null;
 
-        var compare = ContentComparer.Compare(title, summary);
-
-        var format = (hasTitle, hasSummary, compare) switch
+        var format = (hasTitle, hasSummary, hasTags, hasLink) switch
         {
-            // No title and no summary
-            (false, false, _) => GetFormatWoLinkAndSummary(hasTags),
-            // Title contains summary
-            (_, _, ContentComparer.CompareResult.FirstContainsSecond) => GetFormatWoSummary(hasTags),
-            // Summary contains title
-            (_, _, ContentComparer.CompareResult.SecondContainsFirst) => GetFormatWoTitle(hasTags),
-            // Title and summary are different
-            (_, _, ContentComparer.CompareResult.Different) => GetFormatWithSummary(hasTags),
-            _ => throw new ArgumentOutOfRangeException(nameof(compare), compare, "Unexpected comparison result")
+            // No title, no summary, no tags, no link
+            (false, false, false, false) => "",
+            // No title, no summary, no tags
+            (false, false, false, true) => "{3}",
+            // No title, no summary, no link
+            (false, false, true, false) => "{2}",
+            // No title, no summary
+            (false, false, true, true) => """
+                                          {2}
+                                          ---
+                                          {3}
+                                          """,
+            // Title only
+            (true, false, false, false) => "{0}",
+            // Title and link only
+            (true, false, false, true) => """
+                                          {0}
+                                          ---
+                                          {3}
+                                          """,
+            // Title and tags
+            (true, false, true, false) => """
+                                          {0}
+
+                                          {2}
+                                          """,
+            // Title, tags and link
+            (true, false, true, true) => """
+                                         {0}
+
+                                         {2}
+                                         ---
+                                         {3}
+                                         """,
+            // Summary only
+            (false, true, false, false) => "{1}",
+            // Summary and link only
+            (false, true, false, true) => """
+                                          {1}
+                                          ---
+                                          {3}
+                                          """,
+            // Summary and tags
+            (false, true, true, false) => """
+                                          {1}
+
+                                          {2}
+                                          """,
+            // Summary, tags and link
+            (false, true, true, true) => """
+                                         {1}
+
+                                         {2}
+                                         ---
+                                         {3}
+                                         """,
+            // Title and summary
+            (true, true, false, false) => """
+                                          {0}
+
+                                          {1}
+                                          """,
+            // Title, summary and link
+            (true, true, false, true) => """
+                                         {0}
+
+                                         {1}
+                                         ---
+                                         {3}
+                                         """,
+            // Title, summary, tags
+            (true, true, true, false) => """
+                                         {0}
+
+                                         {1}
+
+                                         {2}
+                                         """,
+            // Title, summary, tags, link
+            (true, true, true, true) => """
+                                        {0}
+
+                                        {1}
+
+                                        {2}
+                                        ---
+                                        {3}
+                                        """
         };
 
         return string.Format(format, title, summary, tags, link);
-    }
-
-    private static string GetFormatWithSummary(bool hasTags)
-    {
-        if (hasTags)
-        {
-            return """
-                   {0}
-
-                   {1}
-
-                   {2}
-                   ---
-                   {3}
-                   """;
-        }
-
-        return """
-               {0}
-
-               {1}
-               ---
-               {3}
-               """;
-    }
-
-    private static string GetFormatWoSummary(bool hasTags)
-    {
-        if (hasTags)
-        {
-            return """
-                   {0}
-
-                   {2}
-                   ---
-                   {3}
-                   """;
-        }
-
-        return """
-               {0}
-               ---
-               {3}
-               """;
-    }
-
-    private static string GetFormatWoTitle(bool hasTags)
-    {
-        if (hasTags)
-        {
-            return """
-                   {1}
-
-                   {2}
-                   ---
-                   {3}
-                   """;
-        }
-
-        return """
-               {1}
-               ---
-               {3}
-               """;
-    }
-
-    private static string GetFormatWoLinkAndSummary(bool hasTags)
-    {
-        if (hasTags)
-        {
-            return """
-                   {2}
-                   ---
-                   {3}
-                   """;
-        }
-
-        return """
-               {3}
-               """;
     }
 }
