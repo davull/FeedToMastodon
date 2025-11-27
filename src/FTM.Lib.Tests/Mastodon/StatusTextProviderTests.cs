@@ -45,10 +45,11 @@ public class StatusTextProviderTests : TestBase
             title: "This is a sample title for testing purposes.",
             summary: "This is a sample summary that provides additional context to the title.",
             tags: ["SampleTag", "Testing"],
-            link: new Uri("https://example.com/sample-article"));
+            link: new Uri("https://example.com/sample-article"),
+            maxLength: 500);
         actual.MatchSnapshot();
     }
-    
+
     [Test]
     public void GetText_WoLink_ShouldMatchSnapshot()
     {
@@ -60,7 +61,7 @@ public class StatusTextProviderTests : TestBase
             maxLength: 50);
         actual.MatchSnapshot();
     }
-    
+
     [TestCaseSource(nameof(GetEdgesTestCases))]
     public void GetText_EdgeCases_ShouldNotExceedLimit(string title, string summary, string[] tags)
     {
@@ -89,10 +90,10 @@ public class StatusTextProviderTests : TestBase
 
         yield return new TestCaseData("", "Test summary", new[] { "tag01", "tag02" })
             .SetName("w/o title, not enough space remaining after tags");
-        
+
         yield return new TestCaseData("", "Test summary", new[] { "tag12345" })
             .SetName("w/o title, minimum space for summary");
-        
+
         yield return new TestCaseData("Test title abc", "Test summary", Array.Empty<string>())
             .SetName("w/o tags, not enough space remaining after title");
     }

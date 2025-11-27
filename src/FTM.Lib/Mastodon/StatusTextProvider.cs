@@ -2,14 +2,11 @@
 
 public static class StatusTextProvider
 {
-    private const int MaxStatusLength = 500;
-
     private const string Ellipsis = "...";
 
     private static readonly int TwoNewLinesLength = "\r\n\r\n".Length;
 
-    public static string GetText(string title, string summary, string[] tags,
-        Uri? link, int maxLength = MaxStatusLength)
+    public static string GetText(string title, string summary, string[] tags, Uri? link, int maxLength)
     {
         var hasTitle = !string.IsNullOrEmpty(title);
         var hasSummary = !string.IsNullOrEmpty(summary);

@@ -295,7 +295,7 @@ public class StatusBuilderTests : TestBase
             Link = new Uri("https://example.com/abc")
         };
 
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, 500);
         status.Status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -321,12 +321,12 @@ public class StatusBuilderTests : TestBase
 
     [TestCaseSource(nameof(MaxStatusLengthTestCases))]
     public void Status_ShouldNotExceedMaxLenght(string title, string summary,
-        string content, string link, string[] tags)
+        string content, string link, string[] tags, int maxStatusLength)
     {
         var feedItem = Dummies.FeedItem(title: title, summary: summary, content: content, link: link);
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], maxStatusLength).Status;
 
-        status.Length.ShouldBeLessThanOrEqualTo(500);
+        status.Length.ShouldBeLessThanOrEqualTo(maxStatusLength);
     }
 
     private static IEnumerable<TestCaseData> MaxStatusLengthTestCases()
@@ -371,15 +371,18 @@ public class StatusBuilderTests : TestBase
             ]
         ];
 
+        int[] maxStatusLengths = [50, MaxStatusLength, 5_000];
+
         var q = from title in titles
             from summary in summaries
             from content in contents
             from link in links
             from tags in tagsList
-            select (title, summary, content, link, tags);
-        foreach (var (title, summary, content, link, tags) in q)
+            from maxStatusLength in maxStatusLengths
+            select (title, summary, content, link, tags, maxStatusLength);
+        foreach (var (title, summary, content, link, tags, maxStatusLength) in q)
         {
-            yield return new TestCaseData(title, summary, content, link, tags).SetName(
+            yield return new TestCaseData(title, summary, content, link, tags, maxStatusLength).SetName(
                 $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
         }
     }

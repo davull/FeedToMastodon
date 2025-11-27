@@ -7,14 +7,12 @@ public static class StatusBuilder
     public static MastodonStatus CreateStatus(FeedItem feedItem, string[] tags, string[] separators,
         int maxStatusLength)
     {
-        var text = BuildStatusText(feedItem, tags, separators);
-        var status = BuildStatusText(feedItem, tags, separators, maxStatusLength);
+        var text = BuildStatusText(feedItem, tags, separators, maxStatusLength);
         var language = string.IsNullOrEmpty(feedItem.Language)
             ? DefaultLanguage
             : feedItem.Language;
 
-        return new MastodonStatus(text, language, visibility);
-        return new MastodonStatus(status, language, MastodonStatusVisibility.Public);
+        return new MastodonStatus(text, language, MastodonStatusVisibility.Public);
     }
 
     private static string BuildStatusText(FeedItem item, string[] tags, string[] separators, int maxStatusLength)
@@ -33,7 +31,7 @@ public static class StatusBuilder
             summary = string.Empty;
         }
 
-        return StatusTextProvider.GetText(title, summary, tags, link);
+        return StatusTextProvider.GetText(title, summary, tags, link, maxStatusLength);
     }
 
     private static string GetTitle(FeedItem item)
