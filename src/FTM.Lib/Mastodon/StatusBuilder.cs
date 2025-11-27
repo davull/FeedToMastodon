@@ -25,7 +25,7 @@ public static class StatusBuilder
         var link = item.Link;
         remainingLength -= LinkLengthProvider.GetRelevantLength(link);
 
-        var tagsLine = GetTags(tags);
+        var tagsLine = GetTags(tags, remainingLength);
         remainingLength -= tagsLine.Length;
 
         var title = GetTitle(item, remainingLength);
@@ -60,7 +60,31 @@ public static class StatusBuilder
         return TrimIfNeeded(summary, maxLength);
     }
 
-    private static string GetTags(string[] tags) => string.Join(" ", tags.Select(tag => $"#{tag}"));
+    internal static string GetTags(string[] tags, int maxLength)
+    {
+        var effectiveTags = GetEffectiveTags();
+        return string.Join(" ", effectiveTags.Select(tag => $"#{tag}"));
+
+        IEnumerable<string> GetEffectiveTags()
+        {
+            var currentLength = 0;
+
+            for (var i = 0; i < tags.Length; i++)
+            {
+                var tag = tags[i];
+
+                // +1 for '#' and +1 for space
+                var tagLength = tag.Length + (i == 0 ? 1 : 2);
+                currentLength += tagLength;
+                if (currentLength > maxLength)
+                {
+                    break;
+                }
+
+                yield return tag;
+            }
+        }
+    }
 
     private static string TrimIfNeeded(string text, int maxLength)
     {
