@@ -33,9 +33,11 @@ public static class FeedConfigurationReader
         var mastodonServer = ReadRequiredProperty("mastodon_server");
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
         var workerLoopDelay = ReadWorkerLoopDelay();
+        var maxStatusLength = 500;
 
         return new FeedConfiguration(title, feedUri, summarySeparator, tags,
-            mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay);
+            mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay,
+            maxStatusLength);
 
         string ReadRequiredProperty(string key)
         {

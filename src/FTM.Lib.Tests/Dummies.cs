@@ -50,14 +50,15 @@ public static class Dummies
         string[]? tags = null,
         string mastodonServer = "https://social.colormixed.de",
         string mastodonAccessToken = "abc",
-        TimeSpan? workerLoopDelay = null)
+        TimeSpan? workerLoopDelay = null,
+        int maxStatusLength = 500)
     {
         summarySeparators ??= [];
         tags ??= [];
         feedUri ??= new Uri("https://example.com/feed.xml");
 
         return new FeedConfiguration(title, feedUri, summarySeparators,
-            tags, mastodonServer, mastodonAccessToken, workerLoopDelay);
+            tags, mastodonServer, mastodonAccessToken, workerLoopDelay, maxStatusLength);
     }
 
     public static FeedIdItemId FeedIdItemId(string? feedId = null, string? itemId = null)
