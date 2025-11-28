@@ -102,7 +102,7 @@ public static class FeedConfigurationReader
             var rawMaxStatusLength = section.Keys["max_status_length"] ?? string.Empty;
             var length = int.TryParse(rawMaxStatusLength, out var l) ? l : 500;
 
-            if (length <= 0)
+            if (length < 100)
             {
                 length = 500;
             }
