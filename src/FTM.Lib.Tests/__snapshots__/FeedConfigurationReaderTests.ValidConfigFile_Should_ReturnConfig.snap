@@ -38,6 +38,18 @@
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",
     "WorkerLoopDelay": "01:30:10",
-    "MaxStatusLength": 500
+    "MaxStatusLength": 100
+  },
+  {
+    "Title": "feed4",
+    "FeedUri": "http://example.com/feed1",
+    "SummarySeparators": [
+      ""
+    ],
+    "Tags": [],
+    "MastodonServer": "https://mastodon.social",
+    "MastodonAccessToken": "1234567890",
+    "WorkerLoopDelay": null,
+    "MaxStatusLength": 6000
   }
 ]

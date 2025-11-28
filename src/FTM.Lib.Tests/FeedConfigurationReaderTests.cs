@@ -92,6 +92,19 @@ public class FeedConfigurationReaderTests : TestBase
         actual.MatchSnapshot();
     }
 
+    [Test]
+    public void InvalidMaxStatusLength_Should_ReturnDefault()
+    {
+        var filePath = FilePath("invalid-max-status-length.ini");
+
+        var actual = FeedConfigurationReader.ReadConfiguration(filePath);
+
+        foreach (var config in actual)
+        {
+            config.MaxStatusLength.ShouldBe(500);
+        }
+    }
+
     private static string FilePath(string fileName) =>
         Path.Combine(PathHelper.GetCurrentFileDirectory(),
             "TestData", fileName);
