@@ -42,7 +42,8 @@ public record FeedConfiguration(
     string[] Tags,
     string MastodonServer,
     string MastodonAccessToken,
-    TimeSpan? WorkerLoopDelay);
+    TimeSpan? WorkerLoopDelay,
+    int MaxStatusLength);
 
 [DebuggerDisplay("{FeedTitle}: {Count}")]
 public record PostsPerFeed(

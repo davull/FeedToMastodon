@@ -2,7 +2,7 @@
 
 `Feed to Mastodon` allows you to automatically posts news feed items to an Mastodon account.
 It supports RSS, Atom and RDF feeds. You can configure multiple feeds, each with its own target
-Mastodon account.
+Mastodon account. It also supports GoToSocial as the Status-API is compatible to Mastodon.
 
 For more informations, see this [Blog post](https://production-ready.de/2024/11/24/feed-to-mastodon-en.html)
 ([German version](https://production-ready.de/2024/11/24/feed-to-mastodon.html)).
@@ -49,16 +49,21 @@ tags = news technology
 mastodon_server = https://mastodon.social/
 mastodon_access_token = 1234567890
 worker_loop_delay = 00:30:00
+max_status_length = 500
 ```
 
-| Parameter             | Description                                                            |
-|-----------------------|------------------------------------------------------------------------|
-| feed_url              | URL of the feed, required                                              |
-| summary_separator     | Separator where the summary is cut off, see below, optional            |
-| tags                  | List of tags to add to each post, see below, optional                  |
-| mastodon_server       | URL of the Mastodon server, required                                   |
-| mastodon_access_token | Access token for the Mastodon account, required                        |
-| worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional |
+| Parameter             | Description                                                                    |
+|-----------------------|--------------------------------------------------------------------------------|
+| feed_url              | URL of the feed, required                                                      |
+| summary_separator     | Separator where the summary is cut off, see below, optional                    |
+| tags                  | List of tags to add to each post, see below, optional                          |
+| mastodon_server       | URL of the Mastodon server, required                                           |
+| mastodon_access_token | Access token for the Mastodon account, required                                |
+| worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional         |
+| max_status_length     | Maximum length of the Mastodon post, optional, default is 500, minimum is 100  |
+
+`max_status_length`: The default maximum length of a Mastodon post is 500 characters. You can set a different value
+if your instance offers a different maximum length.
 
 The locations of the configuration file and the sqlite database are set via environment variables.
 
@@ -157,6 +162,7 @@ summary_separator = [...]
 mastodon_server = https://mastodon.social/
 mastodon_access_token = AWWHkaIB_...
 worker_loop_delay = 00:10:00
+max_status_length = 500
 
 [wired.com]
 feed_url = https://www.wired.com/feed/rss

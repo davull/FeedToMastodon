@@ -33,9 +33,11 @@ public static class FeedConfigurationReader
         var mastodonServer = ReadRequiredProperty("mastodon_server");
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
         var workerLoopDelay = ReadWorkerLoopDelay();
+        var maxStatusLength = ReadMaxStatusLength();
 
         return new FeedConfiguration(title, feedUri, summarySeparator, tags,
-            mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay);
+            mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay,
+            maxStatusLength);
 
         string ReadRequiredProperty(string key)
         {
@@ -93,6 +95,19 @@ public static class FeedConfigurationReader
             return TimeSpan.TryParse(rawWorkerLoopDelay, CultureInfo.InvariantCulture, out var delay)
                 ? delay
                 : null;
+        }
+
+        int ReadMaxStatusLength()
+        {
+            var rawMaxStatusLength = section.Keys["max_status_length"] ?? string.Empty;
+            var length = int.TryParse(rawMaxStatusLength, out var l) ? l : 500;
+
+            if (length < 100)
+            {
+                length = 500;
+            }
+
+            return length;
         }
     }
 }
