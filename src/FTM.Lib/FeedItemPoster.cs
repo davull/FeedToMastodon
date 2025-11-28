@@ -34,8 +34,7 @@ public static class FeedItemPoster
     {
         return itemsToPost.Select(item =>
         {
-            // TODO: Move to configuration
-            var defaultMaxStatusLength = 500;
+            const int defaultMaxStatusLength = 500;
 
             var status = StatusBuilder.CreateStatus(item,
                 context.Configuration.Tags,
