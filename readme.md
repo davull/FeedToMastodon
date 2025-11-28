@@ -2,7 +2,7 @@
 
 `Feed to Mastodon` allows you to automatically posts news feed items to an Mastodon account.
 It supports RSS, Atom and RDF feeds. You can configure multiple feeds, each with its own target
-Mastodon account.
+Mastodon account. It also supports GoToSocial as the Status-API is compatible to Mastodon.
 
 For more informations, see this [Blog post](https://production-ready.de/2024/11/24/feed-to-mastodon-en.html)
 ([German version](https://production-ready.de/2024/11/24/feed-to-mastodon.html)).
