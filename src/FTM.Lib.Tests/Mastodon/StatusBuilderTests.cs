@@ -6,6 +6,8 @@ namespace FTM.Lib.Tests.Mastodon;
 
 public class StatusBuilderTests : TestBase
 {
+    private const int MaxStatusLength = 500;
+
     [Test]
     public void StatusContent_WithAllValues_ShouldUseSummary()
     {
@@ -15,7 +17,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My summary");
@@ -34,7 +36,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength).Status;
 
         status.MatchSnapshot();
     }
@@ -48,7 +50,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength).Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My content");
@@ -64,7 +66,7 @@ public class StatusBuilderTests : TestBase
             content: "",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -84,7 +86,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, [], [separator]).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -106,7 +108,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, [], [separator]).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -128,7 +130,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         string[] separators = ["[...]", "[---]"];
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -150,7 +152,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         string[] separators = ["[...]", "[---]"];
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -174,7 +176,7 @@ public class StatusBuilderTests : TestBase
             content: "",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
 
         const string expected = """
                                 My post title
@@ -189,14 +191,14 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void StatusContent_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
         status.Status.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void Status_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
 
         var indexes = new[]
         {
@@ -219,7 +221,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_Should_HaveContentAndLink(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
 
         var split = status.Status.Split("---");
 
@@ -230,7 +232,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_Should_HaveLanguage(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
         status.Language.ShouldNotBeNullOrWhiteSpace();
     }
 
@@ -256,8 +258,8 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithSeparatorTestCases))]
     public void Status_ShouldBeSplitAtSeparator(FeedItem item, string[] separators)
     {
-        var statusWithSeparator = StatusBuilder.CreateStatus(item, [], separators);
-        var statusWoSeparator = StatusBuilder.CreateStatus(item, [], []);
+        var statusWithSeparator = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
+        var statusWoSeparator = StatusBuilder.CreateStatus(item, [], [], MaxStatusLength);
 
         var snapshot = new
         {
@@ -270,7 +272,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_ShouldNotExceedMaxLength(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, ["tag1", "tag2"], separators);
+        var status = StatusBuilder.CreateStatus(item, ["tag1", "tag2"], separators, MaxStatusLength);
         var split = status.Status.Split("---");
 
         const int maxLength = 500 - 23 - 4; // 23 for link and 4 for ---\n
@@ -280,7 +282,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithTagsTestCases))]
     public void Status_WithTags_ShouldMatchSnapshot(FeedItem item, string[] tags)
     {
-        var status = StatusBuilder.CreateStatus(item, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(item, tags, [], MaxStatusLength).Status;
         status.MatchSnapshotWithTestName();
     }
 
@@ -293,7 +295,7 @@ public class StatusBuilderTests : TestBase
             Link = new Uri("https://example.com/abc")
         };
 
-        var status = StatusBuilder.CreateStatus(item, [], separators);
+        var status = StatusBuilder.CreateStatus(item, [], separators, 500);
         status.Status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -303,7 +305,7 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem(link: "https://example.com/abc");
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
         status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -313,18 +315,18 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem();
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
         status.MatchSnapshot();
     }
 
     [TestCaseSource(nameof(MaxStatusLengthTestCases))]
     public void Status_ShouldNotExceedMaxLenght(string title, string summary,
-        string content, string link, string[] tags)
+        string content, string link, string[] tags, int maxStatusLength)
     {
         var feedItem = Dummies.FeedItem(title: title, summary: summary, content: content, link: link);
-        var status = StatusBuilder.CreateStatus(feedItem, tags, []).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], maxStatusLength).Status;
 
-        status.Length.ShouldBeLessThanOrEqualTo(500);
+        status.Length.ShouldBeLessThanOrEqualTo(maxStatusLength);
     }
 
     private static IEnumerable<TestCaseData> MaxStatusLengthTestCases()
@@ -369,15 +371,18 @@ public class StatusBuilderTests : TestBase
             ]
         ];
 
+        int[] maxStatusLengths = [50, MaxStatusLength, 5_000];
+
         var q = from title in titles
             from summary in summaries
             from content in contents
             from link in links
             from tags in tagsList
-            select (title, summary, content, link, tags);
-        foreach (var (title, summary, content, link, tags) in q)
+            from maxStatusLength in maxStatusLengths
+            select (title, summary, content, link, tags, maxStatusLength);
+        foreach (var (title, summary, content, link, tags, maxStatusLength) in q)
         {
-            yield return new TestCaseData(title, summary, content, link, tags).SetName(
+            yield return new TestCaseData(title, summary, content, link, tags, maxStatusLength).SetName(
                 $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
         }
     }
