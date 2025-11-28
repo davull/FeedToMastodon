@@ -8,7 +8,8 @@
     "Tags": [],
     "MastodonServer": "https://mastodon.social",
     "MastodonAccessToken": "1234567890",
-    "WorkerLoopDelay": null
+    "WorkerLoopDelay": null,
+    "MaxStatusLength": 500
   },
   {
     "Title": "feed2",
@@ -20,7 +21,8 @@
     "Tags": [],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz",
-    "WorkerLoopDelay": null
+    "WorkerLoopDelay": null,
+    "MaxStatusLength": 500
   },
   {
     "Title": "feed3",
@@ -35,6 +37,7 @@
     ],
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",
-    "WorkerLoopDelay": "01:30:10"
+    "WorkerLoopDelay": "01:30:10",
+    "MaxStatusLength": 500
   }
 ]
