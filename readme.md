@@ -62,9 +62,6 @@ max_status_length = 500
 | worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional         |
 | max_status_length     | Maximum length of the Mastodon post, optional, default is 500, minimum is 100  |
 
-`max_status_length`: The default maximum length of a Mastodon post is 500 characters. You can set a different value
-if your instance offers a different maximum length.
-
 The locations of the configuration file and the sqlite database are set via environment variables.
 
 | Environment Variable | Description                                         |
@@ -98,6 +95,16 @@ alphanumeric characters and underscores, but cannot contain numbers only.
 tags = news technology opensource
 ```
 
+### max_status_length
+
+The default maximum length of a Mastodon post is 500 characters. You can set a different value
+if your instance offers a different maximum length.
+
+```ini
+max_status_length = 500
+```
+
+
 ## Run Feed to Mastodon
 
 `Feed to Mastodon` is available as a Docker image at [Docker Hub](https://hub.docker.com/r/davidullrich/feed-to-mastodon).
@@ -105,7 +112,7 @@ tags = news technology opensource
 ### First run
 
 To prevent that your Mastodon account is flooded with old feed items, the first run of
-`Feed to Mastodon` will be recognized an mark all feed items as already posted. After that
+`Feed to Mastodon` will be recognized and mark all feed items as already posted. After that
 all new feed items will be posted to Mastodon.
 
 ### 1. Create a Mastodon account and get an access token
