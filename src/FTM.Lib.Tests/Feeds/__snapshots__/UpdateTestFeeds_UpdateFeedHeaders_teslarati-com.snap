@@ -1,9 +1,9 @@
-﻿Age                           : 9094
-Connection                    : keep-alive
-ETag                          : "865131750739af069eeca74220c5909a"
-Link                          : <https://www.teslarati.com/wp-json/>; rel="https://api.w.org/"
-Server                        : nginx/1.20.0
+﻿ETag                          : "c72e8274493cd0de6d6247cf30036be8"
+Link                          : <https://www.teslarati.com/wp-json/>; rel="https://api.w.org/", <https://www.teslarati.com/>; rel="canonical"
+Referrer-Policy               : no-referrer-when-downgrade
+Server                        : Apache/2.4.62, (Amazon Linux), OpenSSL/3.0.8
+Strict-Transport-Security     : max-age=31536000; includeSubDomains
 Transfer-Encoding             : chunked
-X-Amz-Cf-Pop                  : FRA56-P6
-X-Cache                       : Hit from cloudfront
-X-Powered-By                  : PHP/8.0.18
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : SAMEORIGIN
+X-Powered-By                  : PHP/8.3.10

@@ -1,9 +1,9 @@
 ﻿Alt-Svc                       : h3=":443"
 cf-cache-status               : DYNAMIC
 Connection                    : keep-alive
-ETag                          : "2988b3ce897e86efde3f41a343af3680"
+ETag                          : "8351ef554e082a9b54d3a2721fb9d4b9"
 Link                          : <https://gizmodo.com/>; rel="canonical"
-NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Referrer-Policy               : no-referrer-when-downgrade
 Server                        : cloudflare
 Strict-Transport-Security     : max-age=31536000; includeSubDomains; preload

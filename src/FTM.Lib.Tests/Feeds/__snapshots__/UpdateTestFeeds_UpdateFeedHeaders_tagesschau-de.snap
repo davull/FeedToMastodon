@@ -1,4 +1,4 @@
-﻿Cache-Control                 : max-age=18
+﻿Cache-Control                 : max-age=28
 Connection                    : keep-alive, Transfer-Encoding
 Strict-Transport-Security     : max-age=15768000 ; includeSubDomains ; preload
 Transfer-Encoding             : chunked

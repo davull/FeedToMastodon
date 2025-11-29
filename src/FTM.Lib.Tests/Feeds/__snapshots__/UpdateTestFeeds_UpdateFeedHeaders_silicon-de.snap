@@ -1,5 +1,9 @@
-﻿Accept-Ranges                 : bytes
-Age                           : 2286
-Connection                    : close
+﻿Access-Control-Allow-Origin   : *
+cf-cache-status               : DYNAMIC
+Connection                    : keep-alive
+ETag                          : "fe17dea92b425037a8e68ed4d66ff3e6"
 Link                          : <https://www.silicon.de/>; rel="canonical"
-X-Storage                     : Base
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server                        : cloudflare
+Transfer-Encoding             : chunked
+X-NGINX-Cache                 : HIT DE | shttpGETwww.silicon.de/feed

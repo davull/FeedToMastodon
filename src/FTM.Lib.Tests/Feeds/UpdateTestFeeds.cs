@@ -35,13 +35,13 @@ public class UpdateTestFeeds : TestBase
         {
             string[] ignoredHeaders =
             [
-                "Date", "x-cloud-trace-context", "Via", "X-Amz-Cf-Id", "Report-To", "Server-Timing",
+                "Age", "Date", "x-cloud-trace-context", "Via", "X-Amz-Cf-Id", "Report-To", "Server-Timing",
                 "reporting-endpoints", "Content-Security-Policy", "CF-RAY", "permissions-policy", "Set-Cookie",
                 "X-XSS-Protection", "x-nf-request-id", "Content-Security-Policy-Report-Only",
                 "cross-origin-embedder-policy-report-only", "cross-origin-opener-policy-report-only",
                 "cross-origin-resource-policy", "X-Fastly-Request-ID", "X-Served-By", "X-Timer", "X-Varnish",
                 "x-svr-id", "x-rq", "x-ftr-backend-server", "x-ftr-request-id", "xkey", "X-GitHub-Request-Id",
-                "x-generated-by", "x-ftr-balancer", "x-total-count", "x-ftr-cache-status"
+                "x-generated-by", "x-ftr-balancer", "x-total-count", "x-ftr-cache-status", "X-Vercel-Id"
             ];
             return !ignoredHeaders.Contains(header.Key, StringComparer.OrdinalIgnoreCase);
         }

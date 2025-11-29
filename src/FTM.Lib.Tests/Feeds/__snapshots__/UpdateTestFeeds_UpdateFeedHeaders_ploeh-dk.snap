@@ -1,11 +1,10 @@
 ﻿Accept-Ranges                 : bytes
 Access-Control-Allow-Origin   : *
-Age                           : 0
 Cache-Control                 : max-age=600
 Connection                    : keep-alive
-ETag                          : "678536f1-6ce91"
+ETag                          : "692476f7-387e1"
 Server                        : GitHub.com
 Vary                          : Accept-Encoding
 X-Cache                       : HIT
-X-Cache-Hits                  : 0
+X-Cache-Hits                  : 1
 x-proxy-cache                 : MISS

@@ -1,13 +1,13 @@
 ﻿Access-Control-Allow-Origin   : *
-Age                           : 1543
 Alt-Svc                       : h3=":443"
 Cache-Control                 : public, must-revalidate, max-age=0
-CF-Cache-Status               : HIT
+cf-cache-status               : REVALIDATED
 Connection                    : keep-alive
-ETag                          : W/"2abc352e684327515a6a141753df1016"
+ETag                          : W/"163a108464e000ce47cfbb43555d40d4"
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Referrer-Policy               : no-referrer-when-downgrade
 Server                        : cloudflare
 Transfer-Encoding             : chunked
-Vary                          : Accept-Encoding
+Vary                          : accept-encoding
 X-Content-Type-Options        : nosniff
 X-Frame-Options               : SAMEORIGIN

@@ -1,5 +1,5 @@
-﻿Accept-Ranges                 : none
+﻿Accept-Ranges                 : bytes
 Access-Control-Allow-Origin   : *
 Connection                    : close
-ETag                          : "2f2060-3e7d-62bf7e52b4a80"
+ETag                          : "45f0-644b6ec6efbbe"
 Server                        : Apache

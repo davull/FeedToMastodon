@@ -1,4 +1,4 @@
-﻿Cache-Control                 : max-age=95
+﻿Cache-Control                 : max-age=30
 Connection                    : keep-alive, Transfer-Encoding
 Server                        : Apache
 Strict-Transport-Security     : max-age=31536000

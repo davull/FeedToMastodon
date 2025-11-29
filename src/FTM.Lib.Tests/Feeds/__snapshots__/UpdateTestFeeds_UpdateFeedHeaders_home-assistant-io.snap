@@ -1,11 +1,11 @@
 ﻿Alt-Svc                       : h3=":443"
 Cache-Control                 : public, must-revalidate, max-age=0, s-maxage=3600
-cache-status                  : "Netlify Edge"; fwd=stale
-CF-Cache-Status               : REVALIDATED
+cache-status                  : "Netlify Edge"; hit
+cf-cache-status               : HIT
 Connection                    : keep-alive
-ETag                          : W/"73e1d99beaca517cda6f5fc49bf6f4ca-ssl-df"
+ETag                          : W/"3b3914eb5fc5a90ae6e6bcf64a71f0ef-ssl-df"
 feature-policy                : geolocation 'none'; midi 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; payment 'none'
-NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Referrer-Policy               : no-referrer-when-downgrade
 Server                        : cloudflare
 Strict-Transport-Security     : max-age=31536000

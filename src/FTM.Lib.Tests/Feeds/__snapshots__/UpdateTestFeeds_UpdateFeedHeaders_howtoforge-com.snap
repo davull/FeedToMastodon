@@ -1,10 +1,9 @@
-﻿Age                           : 2449
-Alt-Svc                       : h3=":443"
+﻿Alt-Svc                       : h3=":443"
 Cache-Control                 : max-age=3600, private
-CF-Cache-Status               : HIT
+cf-cache-status               : HIT
 Connection                    : keep-alive
 display                       : staticcontent_sol
-NEL                           : {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Pragma                        : no-cache
 response                      : 200
 Server                        : cloudflare

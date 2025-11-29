@@ -1,6 +1,6 @@
-﻿Cache-Control                 : max-age=3600
-Connection                    : keep-alive
-Link                          : <https://www.elektroauto-news.net/wp-json/>; rel="https://api.w.org/"
-Server                        : nginx
+﻿Cache-Control                 : public
+Server                        : Vercel
+Strict-Transport-Security     : max-age=63072000
 Transfer-Encoding             : chunked
-Vary                          : Accept-Encoding
+X-Matched-Path                : /feed
+X-Vercel-Cache                : HIT

@@ -1,13 +1,13 @@
-﻿Alt-Svc                       : h3=":443"
+﻿Alt-Svc                       : h3=":443", http="jjyvff6eh3kp7ydfkamm27cldhsee2cl6wzfa5lfjyrfyribgeaesgqd.onion:80"
 Connection                    : keep-alive
-ETag                          : "8c00e5c46d7f19e98b3f7c4bae5e2f92"
+ETag                          : "9a6befd652764d2ff75f02651aca939d"
 Link                          : <https://www.kernel-error.de/wp-json/>; rel="https://api.w.org/"
-Public-Key-Pins               : max-age=5184000; pin-sha256="FvSWI7sOdfrkzRxWK/IK5duDA69xAYVu0mLiV5zgO8s="; pin-sha256="8FF6krBfhQeVfjrTvSEhwmHHE+u4P0UW9gUB0O+Kl6U="
+Onion-Location                : http://jjyvff6eh3kp7ydfkamm27cldhsee2cl6wzfa5lfjyrfyribgeaesgqd.onion/feed/?format=feed&amp%3Btype=rss
 Referrer-Policy               : no-referrer
 Server                        : He, is, dead, Jim!
 Strict-Transport-Security     : max-age=63072000; includeSubDomains; preload
 Transfer-Encoding             : chunked
 Vary                          : Accept-Encoding
-X-Cache                       : EXPIRED
+X-Cache                       : HIT
 X-Content-Type-Options        : nosniff
 X-Frame-Options               : SAMEORIGIN
