@@ -1,0 +1,6 @@
+﻿Cache-Control                 : public
+Server                        : Vercel
+Strict-Transport-Security     : max-age=63072000
+Transfer-Encoding             : chunked
+X-Matched-Path                : /feed
+X-Vercel-Cache                : HIT

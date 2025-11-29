@@ -1,0 +1,8 @@
+﻿Connection                    : keep-alive
+min-id                        : DAABCgABGhgqKSv__-kKAAIaFsW8rtshAQgAAwAAAAIAAA
+Onion-Location                : http://nitter.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/JLMelenchon/rss
+Server                        : nginx
+Strict-Transport-Security     : max-age=63072000; includeSubDomains; preload
+X-Cache                       : HIT
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : DENY

@@ -1,0 +1,12 @@
+﻿Alt-Svc                       : h3=":443"
+cf-cache-status               : DYNAMIC
+cf-edge-cache                 : cache,platform=wordpress
+Connection                    : keep-alive
+ETag                          : W/"052f0ab1d4b44cfb8de0e9bb135a68b7"
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server                        : cloudflare
+Strict-Transport-Security     : max-age=63072000; includeSubDomains; preload
+Transfer-Encoding             : chunked
+Vary                          : accept-encoding
+x-cacheable                   : YES
+x-varnish-cache               : MISS

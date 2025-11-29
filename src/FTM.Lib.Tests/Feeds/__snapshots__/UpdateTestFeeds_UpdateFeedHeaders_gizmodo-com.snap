@@ -1,0 +1,15 @@
+﻿Alt-Svc                       : h3=":443"
+cf-cache-status               : DYNAMIC
+Connection                    : keep-alive
+ETag                          : "8351ef554e082a9b54d3a2721fb9d4b9"
+Link                          : <https://gizmodo.com/>; rel="canonical"
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Referrer-Policy               : no-referrer-when-downgrade
+Server                        : cloudflare
+Strict-Transport-Security     : max-age=31536000; includeSubDomains; preload
+Transfer-Encoding             : chunked
+X-Cache                       : HIT
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : SAMEORIGIN
+x-no-cache                    : 0
+x-remove-qs                   : 0

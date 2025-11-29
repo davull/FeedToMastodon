@@ -1,0 +1,10 @@
+﻿Accept-Ranges                 : bytes
+Access-Control-Allow-Origin   : *
+Cache-Control                 : public, max-age=300
+Connection                    : keep-alive
+Cross-Origin-Opener-Policy    : same-origin
+Server                        : nginx
+Strict-Transport-Security     : max-age=15768000
+Vary                          : Accept-Encoding
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : DENY

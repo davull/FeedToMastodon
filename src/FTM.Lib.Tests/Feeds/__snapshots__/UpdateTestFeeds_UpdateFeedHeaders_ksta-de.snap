@@ -1,0 +1,5 @@
+﻿Alt-Svc                       : h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+Cache-Control                 : public, max-age=60
+Server                        : Google, Frontend
+X-CDN-Cache-Id                : FRA
+X-CDN-Cache-Status            : stale

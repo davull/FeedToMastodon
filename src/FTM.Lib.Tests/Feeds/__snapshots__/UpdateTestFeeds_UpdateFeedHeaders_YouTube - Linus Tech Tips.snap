@@ -1,0 +1,7 @@
+﻿Accept-Ranges                 : none
+Alt-Svc                       : h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+Cache-Control                 : public, max-age=900
+Server                        : YouTube, RSS, Feeds, server
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+X-Frame-Options               : SAMEORIGIN

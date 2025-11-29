@@ -1,0 +1,16 @@
+﻿Accept-Ranges                 : bytes
+Cache-Control                 : must-revalidate, max-age=60
+Connection                    : keep-alive
+ETag                          : "18b6027a63ba56da3de503c3f95d13d970395e60"
+Host-Header                   : a9130478a60e5f9135f765b23f26593b
+Link                          : <https://www.digitaltrends.com/>; rel="canonical"
+Server                        : nginx
+Strict-Transport-Security     : max-age=31536000
+Surrogate-Key                 : 
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding, X-User-Region, X-Logged-In
+X-Cache                       : STALE
+X-Frame-Options               : SAMEORIGIN
+X-hacker                      : If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.
+X-Logged-In                   : 0
+X-UA-Compatible               : IE=edge

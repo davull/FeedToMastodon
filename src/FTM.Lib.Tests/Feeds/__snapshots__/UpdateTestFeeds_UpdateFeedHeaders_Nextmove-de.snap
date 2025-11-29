@@ -1,0 +1,7 @@
+﻿Link                          : <https://nextmove.de/wp-json/>; rel="https://api.w.org/"
+Server                        : Apache/2.4.38, (Debian)
+Strict-Transport-Security     : max-age=0
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+X-Content-Type-Options        : nosniff
+X-UA-Compatible               : IE=edge

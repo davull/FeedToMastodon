@@ -1,0 +1,7 @@
+﻿Connection                    : Keep-Alive
+ETag                          : "43b8ab9b826060fc81e5108b0367a7a7"
+Keep-Alive                    : timeout=5, max=100
+Link                          : <https://driveteslacanada.ca/wp-json/>; rel="https://api.w.org/", <https://driveteslacanada.ca/>; rel="canonical"
+Server                        : LiteSpeed
+Transfer-Encoding             : chunked
+Vary                          : accept, content-type, User-Agent

@@ -1,0 +1,12 @@
+﻿Accept-Ranges                 : bytes
+Cache-Control                 : no-store
+Connection                    : keep-alive
+Cross-Origin-Opener-Policy    : same-origin
+Server                        : nginx
+Strict-Transport-Security     : max-age=15768000
+Vary                          : Accept-Encoding, X-Export-Format, X-Export-Agent, X-Export-IAP
+X-Cache-Date                  : Sat, 29 Nov 2025 05:49:35 GMT
+X-Cache-Status                : EXPIRED
+X-Content-Type-Options        : nosniff
+X-Frame-Options               : DENY
+X-Hacc-Refreshed              : 

@@ -1,0 +1,15 @@
+﻿Accept-Ranges                 : bytes
+Access-Control-Allow-Origin   : https://secure.rosehosting.com
+Cache-Control                 : public, max-age=2592000
+Cache-Tag                     : blog
+Connection                    : keep-alive
+ETag                          : W/"203efe7c45ed6dca240187cb2bcc84fa"
+Link                          : <https://www.rosehosting.com/blog/wp-json/>; rel="https://api.w.org/", <https://www.rosehosting.com/blog/>; rel="canonical"
+Server                        : nginx
+Surrogate-Control             : public, max-age=2592000
+Vary                          : Accept-Encoding, Accept-Encoding
+X-Cache                       : HIT
+X-Cache-Hits                  : 30953
+X-Cacheable                   : YES:Forced
+X-Frame-Options               : SAMEORIGIN
+X-UA-Compatible               : IE=edge

@@ -1,0 +1,10 @@
+﻿Connection                    : Upgrade
+ETag                          : "f1e707a6b0181921dc12717f3b21dc06"
+Link                          : <https://nextcloud.com/wp-json/>; rel="https://api.w.org/", <https://nextcloud.com/>; rel="canonical"
+Referrer-Policy               : same-origin
+Server                        : Apache
+Strict-Transport-Security     : max-age=63072000; includeSubDomains; preload
+Transfer-Encoding             : chunked
+Upgrade                       : h2
+Vary                          : Accept-Encoding
+X-Content-Type-Options        : nosniff

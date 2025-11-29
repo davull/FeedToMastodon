@@ -1,0 +1,11 @@
+﻿Access-Control-Allow-Origin   : *
+Alt-Svc                       : h3=":443"
+Cache-Control                 : public, must-revalidate, max-age=0
+cf-cache-status               : DYNAMIC
+Connection                    : keep-alive
+ETag                          : "4e9b20823e14dd248feecee03f0c0148"
+Nel                           : {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Referrer-Policy               : strict-origin-when-cross-origin
+Server                        : cloudflare
+Vary                          : accept-encoding
+X-Content-Type-Options        : nosniff
