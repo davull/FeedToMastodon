@@ -34,10 +34,11 @@ public static class FeedConfigurationReader
         var mastodonAccessToken = ReadRequiredProperty("mastodon_access_token");
         var workerLoopDelay = ReadWorkerLoopDelay();
         var maxStatusLength = ReadMaxStatusLength();
+        var defaultLanguage = section.Keys["default_language"] ?? "en-US";
 
         return new FeedConfiguration(title, feedUri, summarySeparator, tags,
             mastodonServer.TrimEnd('/'), mastodonAccessToken, workerLoopDelay,
-            maxStatusLength);
+            maxStatusLength, defaultLanguage);
 
         string ReadRequiredProperty(string key)
         {

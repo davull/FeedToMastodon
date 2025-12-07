@@ -51,14 +51,15 @@ public static class Dummies
         string mastodonServer = "https://social.colormixed.de",
         string mastodonAccessToken = "abc",
         TimeSpan? workerLoopDelay = null,
-        int maxStatusLength = 500)
+        int maxStatusLength = 500,
+        string defaultLanguage = "en-US")
     {
         summarySeparators ??= [];
         tags ??= [];
         feedUri ??= new Uri("https://example.com/feed.xml");
 
-        return new FeedConfiguration(title, feedUri, summarySeparators,
-            tags, mastodonServer, mastodonAccessToken, workerLoopDelay, maxStatusLength);
+        return new FeedConfiguration(title, feedUri, summarySeparators, tags, mastodonServer,
+            mastodonAccessToken, workerLoopDelay, maxStatusLength, defaultLanguage);
     }
 
     public static FeedIdItemId FeedIdItemId(string? feedId = null, string? itemId = null)
