@@ -9,7 +9,8 @@
     "MastodonServer": "https://mastodon.social",
     "MastodonAccessToken": "1234567890",
     "WorkerLoopDelay": null,
-    "MaxStatusLength": 500
+    "MaxStatusLength": 500,
+    "DefaultLanguage": "de-DE"
   },
   {
     "Title": "feed2",
@@ -22,7 +23,8 @@
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz",
     "WorkerLoopDelay": null,
-    "MaxStatusLength": 500
+    "MaxStatusLength": 500,
+    "DefaultLanguage": "en"
   },
   {
     "Title": "feed3",
@@ -38,7 +40,8 @@
     "MastodonServer": "https://test.social",
     "MastodonAccessToken": "12345",
     "WorkerLoopDelay": "01:30:10",
-    "MaxStatusLength": 100
+    "MaxStatusLength": 100,
+    "DefaultLanguage": "en-US"
   },
   {
     "Title": "feed4",
@@ -50,6 +53,7 @@
     "MastodonServer": "https://mastodon.social",
     "MastodonAccessToken": "1234567890",
     "WorkerLoopDelay": null,
-    "MaxStatusLength": 6000
+    "MaxStatusLength": 6000,
+    "DefaultLanguage": "en-US"
   }
 ]

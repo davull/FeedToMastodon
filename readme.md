@@ -50,6 +50,7 @@ mastodon_server = https://mastodon.social/
 mastodon_access_token = 1234567890
 worker_loop_delay = 00:30:00
 max_status_length = 500
+default_language = en-US
 ```
 
 | Parameter             | Description                                                                    |
@@ -61,6 +62,7 @@ max_status_length = 500
 | mastodon_access_token | Access token for the Mastodon account, required                                |
 | worker_loop_delay     | Delay between feed checks, format `hh:mm:ss` or `d.hh:mm:ss`, optional         |
 | max_status_length     | Maximum length of the Mastodon post, optional, default is 500, minimum is 100  |
+| default_language      | Default post language, used if the feed has no language information, optional  |
 
 The locations of the configuration file and the sqlite database are set via environment variables.
 
@@ -69,7 +71,7 @@ The locations of the configuration file and the sqlite database are set via envi
 | FTM_CONFIG_FILE_NAME | Absolute or relative path to the configuration file |
 | FTM_DATABASE_NAME    | Absolute or relative path to the sqlite database    |
 
-### summary_separator
+#### summary_separator
 
 The `summary_separator` can be used to cut off the summary of the feed item at a certain point.
 Some feeds stop there items with a elipis `...` or with a link to the original article. You can
@@ -86,7 +88,7 @@ you can configure the separator as `[…]`:
 Earlier today, we reported that ...
 ```
 
-### tags
+#### tags
 
 Multiple `tags` can be added to each post, separated by space. On Mastodon, tags can contain
 alphanumeric characters and underscores, but cannot contain numbers only.
@@ -95,13 +97,22 @@ alphanumeric characters and underscores, but cannot contain numbers only.
 tags = news technology opensource
 ```
 
-### max_status_length
+#### max_status_length
 
 The default maximum length of a Mastodon post is 500 characters. You can set a different value
 if your instance offers a different maximum length.
 
 ```ini
 max_status_length = 500
+```
+
+#### default_language
+
+The default language used for the mastodon post if the feed has no language information.
+If not set, the default value `en-US` is used.
+
+```ini
+default_language = en-US
 ```
 
 

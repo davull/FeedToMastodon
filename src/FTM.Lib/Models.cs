@@ -43,7 +43,8 @@ public record FeedConfiguration(
     string MastodonServer,
     string MastodonAccessToken,
     TimeSpan? WorkerLoopDelay,
-    int MaxStatusLength);
+    int MaxStatusLength,
+    string DefaultLanguage);
 
 [DebuggerDisplay("{FeedTitle}: {Count}")]
 public record PostsPerFeed(

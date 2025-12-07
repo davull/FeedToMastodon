@@ -17,7 +17,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength, "en-US").Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My summary");
@@ -36,7 +36,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, ["tag1", "tag2"], [], MaxStatusLength, "en-US").Status;
 
         status.MatchSnapshot();
     }
@@ -50,7 +50,7 @@ public class StatusBuilderTests : TestBase
             content: "My content",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength, "en-US").Status;
 
         status.ShouldContain("My post title");
         status.ShouldContain("My content");
@@ -66,7 +66,7 @@ public class StatusBuilderTests : TestBase
             content: "",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -86,7 +86,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -108,7 +108,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         const string separator = "[...]";
-        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], [separator], MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -130,7 +130,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         string[] separators = ["[...]", "[---]"];
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -152,7 +152,7 @@ public class StatusBuilderTests : TestBase
             link: "https://example.com/feed=123");
 
         string[] separators = ["[...]", "[---]"];
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -176,7 +176,7 @@ public class StatusBuilderTests : TestBase
             content: "",
             link: "https://example.com/feed=123");
 
-        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, [], separators, MaxStatusLength, "en-US").Status;
 
         const string expected = """
                                 My post title
@@ -191,14 +191,14 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void StatusContent_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength, "en-US");
         status.Status.MatchSnapshotWithTestName();
     }
 
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.LessFeedItemsTestCases))]
     public void Status_Should_MatchSnapshot(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength, "en-US");
 
         var indexes = new[]
         {
@@ -221,7 +221,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_Should_HaveContentAndLink(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength, "en-US");
 
         var split = status.Status.Split("---");
 
@@ -232,7 +232,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_Should_HaveLanguage(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
+        var status = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength, "en-US");
         status.Language.ShouldNotBeNullOrWhiteSpace();
     }
 
@@ -258,8 +258,8 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithSeparatorTestCases))]
     public void Status_ShouldBeSplitAtSeparator(FeedItem item, string[] separators)
     {
-        var statusWithSeparator = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength);
-        var statusWoSeparator = StatusBuilder.CreateStatus(item, [], [], MaxStatusLength);
+        var statusWithSeparator = StatusBuilder.CreateStatus(item, [], separators, MaxStatusLength, "en-US");
+        var statusWoSeparator = StatusBuilder.CreateStatus(item, [], [], MaxStatusLength, "en-US");
 
         var snapshot = new
         {
@@ -272,7 +272,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsTestCases))]
     public void Status_ShouldNotExceedMaxLength(FeedItem item, string[] separators)
     {
-        var status = StatusBuilder.CreateStatus(item, ["tag1", "tag2"], separators, MaxStatusLength);
+        var status = StatusBuilder.CreateStatus(item, ["tag1", "tag2"], separators, MaxStatusLength, "en-US");
         var split = status.Status.Split("---");
 
         const int maxLength = 500 - 23 - 4; // 23 for link and 4 for ---\n
@@ -282,7 +282,7 @@ public class StatusBuilderTests : TestBase
     [TestCaseSource(typeof(FeedTestsProvider), nameof(FeedTestsProvider.FeedItemsWithTagsTestCases))]
     public void Status_WithTags_ShouldMatchSnapshot(FeedItem item, string[] tags)
     {
-        var status = StatusBuilder.CreateStatus(item, tags, [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(item, tags, [], MaxStatusLength, "en-US").Status;
         status.MatchSnapshotWithTestName();
     }
 
@@ -295,7 +295,7 @@ public class StatusBuilderTests : TestBase
             Link = new Uri("https://example.com/abc")
         };
 
-        var status = StatusBuilder.CreateStatus(item, [], separators, 500);
+        var status = StatusBuilder.CreateStatus(item, [], separators, 500, "en-US");
         status.Status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -305,7 +305,7 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem(link: "https://example.com/abc");
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength, "en-US").Status;
         status.Length.ShouldBeLessThanOrEqualTo(500);
     }
 
@@ -315,7 +315,7 @@ public class StatusBuilderTests : TestBase
         var feedItem = Dummies.FeedItem();
         var tags = Enumerable.Range(1, 100).Select(i => $"tag{i:000}").ToArray();
 
-        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], MaxStatusLength, "en-US").Status;
         status.MatchSnapshot();
     }
 
@@ -324,7 +324,7 @@ public class StatusBuilderTests : TestBase
         string content, string link, string[] tags, int maxStatusLength)
     {
         var feedItem = Dummies.FeedItem(title: title, summary: summary, content: content, link: link);
-        var status = StatusBuilder.CreateStatus(feedItem, tags, [], maxStatusLength).Status;
+        var status = StatusBuilder.CreateStatus(feedItem, tags, [], maxStatusLength, "en-US").Status;
 
         status.Length.ShouldBeLessThanOrEqualTo(maxStatusLength);
     }
@@ -385,5 +385,17 @@ public class StatusBuilderTests : TestBase
             yield return new TestCaseData(title, summary, content, link, tags, maxStatusLength).SetName(
                 $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
         }
+    }
+
+    [TestCase(null, "en-US", "en-US")]
+    [TestCase("", "en-US", "en-US")]
+    [TestCase("", "de-DE", "de-DE")]
+    [TestCase("de-DE", "en-US", "de-DE")]
+    public void Status_ShouldUseCorrectLanguage(string? feedLanguage, string defaultLanguage, string expectedLanguage)
+    {
+        var feedItem = Dummies.FeedItem(language: feedLanguage);
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength, defaultLanguage);
+
+        status.Language.ShouldBe(expectedLanguage);
     }
 }

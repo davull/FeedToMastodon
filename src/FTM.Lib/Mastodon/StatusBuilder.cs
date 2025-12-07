@@ -2,14 +2,12 @@
 
 public static class StatusBuilder
 {
-    private const string DefaultLanguage = "en-US";
-
     public static MastodonStatus CreateStatus(FeedItem feedItem, string[] tags, string[] separators,
-        int maxStatusLength)
+        int maxStatusLength, string defaultLanguage)
     {
         var text = BuildStatusText(feedItem, tags, separators, maxStatusLength);
         var language = string.IsNullOrEmpty(feedItem.Language)
-            ? DefaultLanguage
+            ? defaultLanguage
             : feedItem.Language;
 
         return new MastodonStatus(text, language, MastodonStatusVisibility.Public);

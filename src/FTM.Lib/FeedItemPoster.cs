@@ -37,7 +37,8 @@ public static class FeedItemPoster
             var status = StatusBuilder.CreateStatus(item,
                 context.Configuration.Tags,
                 context.Configuration.SummarySeparators,
-                context.Configuration.MaxStatusLength);
+                context.Configuration.MaxStatusLength,
+                context.Configuration.DefaultLanguage);
             return (item, status);
         });
     }
