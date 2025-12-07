@@ -34,10 +34,13 @@ public static class FeedItemPoster
     {
         return itemsToPost.Select(item =>
         {
+            var defaultLanguage = "en-US";
+
             var status = StatusBuilder.CreateStatus(item,
                 context.Configuration.Tags,
                 context.Configuration.SummarySeparators,
-                context.Configuration.MaxStatusLength);
+                context.Configuration.MaxStatusLength,
+                defaultLanguage);
             return (item, status);
         });
     }
