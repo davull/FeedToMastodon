@@ -10,7 +10,7 @@
     "MastodonAccessToken": "1234567890",
     "WorkerLoopDelay": null,
     "MaxStatusLength": 500,
-    "DefaultLanguage": "en-US"
+    "DefaultLanguage": "de-DE"
   },
   {
     "Title": "feed2",
@@ -24,7 +24,7 @@
     "MastodonAccessToken": "abcdefghijklmnopqrstuvwxyz",
     "WorkerLoopDelay": null,
     "MaxStatusLength": 500,
-    "DefaultLanguage": "en-US"
+    "DefaultLanguage": "en"
   },
   {
     "Title": "feed3",
