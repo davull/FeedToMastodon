@@ -386,4 +386,16 @@ public class StatusBuilderTests : TestBase
                 $"Title length: {title.Length}, Summary length: {summary.Length}, Content length: {content.Length}");
         }
     }
+
+    [TestCase(null, "en-US", "en-US")]
+    [TestCase("", "en-US", "en-US")]
+    [TestCase("", "de-DE", "de-DE")]
+    [TestCase("de-DE", "en-US", "de-DE")]
+    public void Status_ShouldUseCorrectLanguage(string? feedLanguage, string defaultLanguage, string expectedLanguage)
+    {
+        var feedItem = Dummies.FeedItem(language: feedLanguage);
+        var status = StatusBuilder.CreateStatus(feedItem, [], [], MaxStatusLength, defaultLanguage);
+
+        status.Language.ShouldBe(expectedLanguage);
+    }
 }

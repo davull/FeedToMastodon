@@ -17,7 +17,7 @@ public static class Dummies
 
     public static FeedItem FeedItem(string? feedId = null, string? itemId = null,
         string title = "Dummy Title", string? summary = "Dummy Summary",
-        string? content = "Dummy Content", string language = "en-US",
+        string? content = "Dummy Content", string? language = "en-US",
         string? link = "https://example.com")
     {
         feedId ??= GuidString();
