@@ -33,6 +33,6 @@
     <PackageVersion Include="Shouldly" Version="4.3.0" />
     <PackageVersion Include="Snapshooter.NUnit" Version="1.0.1" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.16.1.129956" />
-    <PackageVersion Include="WireMock.Net" Version="1.18.0" />
+    <PackageVersion Include="WireMock.Net" Version="1.19.0" />
   </ItemGroup>
 </Project>
