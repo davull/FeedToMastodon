@@ -25,6 +25,17 @@
             "automerge": true,
             "autoApprove": false,
             "minimumReleaseAge": "3 days"
+        },
+        {
+            "description": "Microsoft.* packages",
+            "matchManagers": [
+                "nuget"
+            ],
+            "matchPackageNames": [
+                "/^Microsoft\\./",
+                "/^System\\./"
+            ],
+            "minimumReleaseAge": null
         }
     ],
     "labels": [
