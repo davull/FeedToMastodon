@@ -6,9 +6,6 @@
     ],
     "packageRules": [
         {
-            "matchPackagePatterns": [
-                "*"
-            ],
             "matchUpdateTypes": [
                 "minor",
                 "patch",
@@ -18,17 +15,16 @@
             "automerge": true,
             "autoApprove": false,
             "groupName": "all non-major dependencies",
-            "groupSlug": "all-minor-patch"
+            "groupSlug": "all-minor-patch",
+            "minimumReleaseAge": "3 days"
         },
         {
-            "matchPackagePatterns": [
-                "*"
-            ],
             "matchUpdateTypes": [
                 "major"
             ],
             "automerge": true,
-            "autoApprove": false
+            "autoApprove": false,
+            "minimumReleaseAge": "3 days"
         }
     ],
     "labels": [
