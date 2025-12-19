@@ -16,7 +16,7 @@
                 "digest"
             ],
             "automerge": true,
-            "autoApprove": true,
+            "autoApprove": false,
             "groupName": "all non-major dependencies",
             "groupSlug": "all-minor-patch"
         },
