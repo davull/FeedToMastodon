@@ -20,11 +20,10 @@
       },
       "NUnit3TestAdapter": {
         "type": "Direct",
-        "requested": "[6.0.0, )",
-        "resolved": "6.0.0",
-        "contentHash": "b04OV4wps6C5nDq1JZBGJjN8XimfN8P/06EqhssG+YuPAsH8TwIpAc8tnJtovdgsm7Wppt7aRzCUYOpuYSYzzg==",
+        "requested": "[6.0.1, )",
+        "resolved": "6.0.1",
+        "contentHash": "Fo++epLBWvuk7sOXbfglSGGI5+asxMr5v+cBxlEqd64YISeZiQO6W+QEkN3Ld6r0pGGuXWozzauLFqE4jPimUA==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyModel": "10.0.0",
           "Microsoft.Testing.Extensions.VSTestBridge": "2.0.2",
           "Microsoft.Testing.Platform.MSBuild": "2.0.2"
         }
@@ -41,12 +40,12 @@
       },
       "Snapshooter.NUnit": {
         "type": "Direct",
-        "requested": "[1.0.1, )",
-        "resolved": "1.0.1",
-        "contentHash": "wgs9TOdKV9pKD565bYE3oZSNA918zUuP32TtsghN6tQLs2TyjeBByNnrCxfqucjsYZCuW+WN1bvUv4/DkM8Cyw==",
+        "requested": "[1.1.0, )",
+        "resolved": "1.1.0",
+        "contentHash": "MInAkALqydc4stnUG0C81iD/unzfZWYgVGJMSHwsPXLtfiKehWT1G8omyDZm8NPS6abmpBRhTsyB16/9u+pwGQ==",
         "dependencies": {
           "NUnit": "4.0.1",
-          "Snapshooter": "1.0.1"
+          "Snapshooter": "1.1.0"
         }
       },
       "SonarAnalyzer.CSharp": {
@@ -792,11 +791,6 @@
           "Microsoft.Extensions.Hosting.Abstractions": "10.0.1"
         }
       },
-      "Microsoft.Extensions.DependencyModel": {
-        "type": "Transitive",
-        "resolved": "10.0.0",
-        "contentHash": "RFYJR7APio/BiqdQunRq6DB+nDB6nc2qhHr77mlvZ0q0BT8PubMXN7XicmfzCbrDE/dzhBnUKBRXLTcqUiZDGg=="
-      },
       "Microsoft.Extensions.Diagnostics": {
         "type": "Transitive",
         "resolved": "10.0.1",
@@ -1191,8 +1185,8 @@
       },
       "Snapshooter": {
         "type": "Transitive",
-        "resolved": "1.0.1",
-        "contentHash": "Nwto0wB33ZMQ6AuqKLG+55e86fID1XYq/wwZ2zqJBCImy7SOv5AaykCHXCX7/O4faMIWpRkMU3b13If7OxJOJg==",
+        "resolved": "1.1.0",
+        "contentHash": "OgWIxSN+tuiaX7Cb8flpTbENpUF9n8V03v+0pqj1A22jo9LhsquCZqe8Ut8xkfLnxSF7agq6gdxhZq5dXF05GA==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         }
