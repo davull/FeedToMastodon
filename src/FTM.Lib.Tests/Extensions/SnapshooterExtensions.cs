@@ -10,7 +10,7 @@ internal static class SnapshooterExtensions
         var test = TestContext.CurrentContext.Test;
         var name = SanitizeFileName($"{test.DisplayName}_{test.MethodName}_{test.Name}");
 
-        currentResult.MatchSnapshot(name, matchOptions);
+        currentResult.MatchSnapshot(name, matchOptions!);
     }
 
     private static string SanitizeFileName(string name)
