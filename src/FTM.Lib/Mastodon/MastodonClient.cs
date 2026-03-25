@@ -126,7 +126,7 @@ public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
             var limit = int.Parse(response.Headers.GetValues(headerLimit).First());
             var remaining = int.Parse(response.Headers.GetValues(headerRemaining).First());
             var reset = DateTime.Parse(response.Headers.GetValues(headerReset).First(),
-                CultureInfo.InvariantCulture);
+                CultureInfo.InvariantCulture, DateTimeStyles.RoundtripKind);
 
             return new RateLimit(limit, remaining, reset);
         }

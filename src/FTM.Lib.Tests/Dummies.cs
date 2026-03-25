@@ -94,7 +94,7 @@ public static class Dummies
         int remaining = 0,
         DateTime? reset = null)
     {
-        reset ??= new DateTime(2024, 11, 2, 1, 0, 0, DateTimeKind.Utc);
+        reset ??= new DateTime(2024, 11, 2, 0, 0, 0, DateTimeKind.Utc);
         return new RateLimit(limit, remaining, reset.Value);
     }
 }
