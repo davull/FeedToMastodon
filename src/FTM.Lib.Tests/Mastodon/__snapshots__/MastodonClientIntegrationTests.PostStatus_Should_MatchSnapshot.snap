@@ -1,6 +1,6 @@
 ﻿{
   "RequestMessage": {
-    "ClientIP": "::1",
+    "ClientIP": "127.0.0.1",
     "ProxyUrl": null,
     "Path": "/api/v1/statuses",
     "AbsolutePath": "/api/v1/statuses",
@@ -85,6 +85,8 @@
     "BodyOriginal": null,
     "BodyDestination": null,
     "FaultType": "NONE",
-    "FaultPercentage": null
+    "FaultPercentage": null,
+    "DateTime": "0001-01-01T00:00:00",
+    "Method": null
   }
 }
