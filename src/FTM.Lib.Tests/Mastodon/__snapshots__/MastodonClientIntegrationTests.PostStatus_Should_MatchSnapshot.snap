@@ -85,6 +85,8 @@
     "BodyOriginal": null,
     "BodyDestination": null,
     "FaultType": "NONE",
-    "FaultPercentage": null
+    "FaultPercentage": null,
+    "DateTime": "0001-01-01T00:00:00",
+    "Method": null
   }
 }
