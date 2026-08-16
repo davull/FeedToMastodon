@@ -39,6 +39,18 @@ public class FeedHttpClientTests : TestBase
         result.Content.ShouldNotBeNull();
     }
 
+    [Test]
+    public async Task ReadString_FromTheReformedProgrammer_Should_ReturnNonEmptyString()
+    {
+        var uri = new Uri("https://www.thereformedprogrammer.net/feed/");
+
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(uri, httpClient, etag: null, CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+
     [Theory]
     [TestCase("", false)]
     [TestCase(null, false)]
