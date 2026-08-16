@@ -15,6 +15,17 @@ public class FeedHttpClientTests : TestBase
         result.Content.ShouldNotBeNull();
     }
 
+    [TestCase("https://www.teslarati.com/feed/")]
+    [TestCase("https://production-ready.de/feed/de.xml")]
+    public async Task ReadString_WithHttpClientFromHttpClientProvider_Should_ReturnNonEmptyString(string uri)
+    {
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+
     [Theory]
     [TestCase("", false)]
     [TestCase(null, false)]
