@@ -25,9 +25,7 @@ public static class HttpClientProvider
             .AddRetry(options)
             .Build();
 
-#pragma warning disable EXTEXP0001
         var resilienceHandler = new ResilienceHandler(retryPipeline)
-#pragma warning restore EXTEXP0001
         {
             InnerHandler = new SocketsHttpHandler
             {
