@@ -25,6 +25,18 @@ public class FeedHttpClientTests : TestBase
         result.ContentHasChanged.ShouldBeTrue();
         result.Content.ShouldNotBeNull();
     }
+    
+    [TestCase("https://www.teslarati.com/feed/")]
+    [TestCase("https://production-ready.de/feed/de.xml")]
+    public async Task ReadString_WithExpiredEtag_Should_ReturnNonEmptyString(string uri)
+    {
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient,
+            etag: "\"expiredetag\"", CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
 
     [Theory]
     [TestCase("", false)]

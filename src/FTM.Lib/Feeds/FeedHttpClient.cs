@@ -8,7 +8,6 @@ public static class FeedHttpClient
     public record ReadStringResult(bool ContentHasChanged, string Content, string? ETag);
 
     private const string ETagHeader = "ETag";
-    private const string IfNoneMatchHeader = "If-None-Match";
 
     public static async Task<ReadStringResult> ReadString(
         Uri url, HttpClient httpClient, string? etag, CancellationToken cancellationToken)
@@ -40,18 +39,14 @@ public static class FeedHttpClient
                 : null;
         }
     }
-    
+
     private static HttpRequestMessage CreateRequest(Uri url, string? etag)
     {
-        return new HttpRequestMessage
-        {
-            Method = HttpMethod.Get,
-            RequestUri = url,
-            Headers = { { IfNoneMatchHeader, etag } }
-        };
+        var request = new HttpRequestMessage(HttpMethod.Get, url);
+        request.Headers.IfNoneMatch.TryParseAdd(etag);
+        
+        return request;
     }
-
-
 
     internal static bool IsValidETag(string? etag)
         => EntityTagHeaderValue.TryParse(etag, out _);
