@@ -18,7 +18,7 @@ public static class FeedHttpClient
             etag = null;
         }
 
-        using var request = CreateRequest();
+        using var request = CreateRequest(url, etag);
         using var response = await httpClient.SendAsync(request, cancellationToken);
 
         var newEtag = GetETag(response.Headers);
@@ -33,22 +33,22 @@ public static class FeedHttpClient
         var content = await response.Content.ReadAsStringAsync(cancellationToken);
         return new ReadStringResult(true, content, newEtag);
 
-        HttpRequestMessage CreateRequest()
-        {
-            return new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = url,
-                Headers = { { IfNoneMatchHeader, etag } }
-            };
-        }
-
         string? GetETag(HttpHeaders headers)
         {
             return headers.TryGetValues(ETagHeader, out var values)
                 ? values.FirstOrDefault()
                 : null;
         }
+    }
+    
+    private static HttpRequestMessage CreateRequest(Uri url, string? etag)
+    {
+        return new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = url,
+            Headers = { { IfNoneMatchHeader, etag } }
+        };
     }
 
     internal static bool IsValidETag(string? etag)
