@@ -74,6 +74,19 @@ public class MastodonClientIntegrationTests : TestBase
     }
 
     [Test]
+    public async Task PostStatus_Should_SetUserAgentHeader()
+    {
+        SetupServer(200, "PostStatusSuccessResponse.json");
+
+        _ = await PostStatus();
+
+        var headers = _server.LogEntries.Single().RequestMessage!.Headers!;
+
+        headers.ShouldContainKey("User-Agent");
+        headers["User-Agent"].Single().ShouldNotBeNullOrWhiteSpace();
+    }
+
+    [Test]
     public async Task PostStatus_Should_MatchSnapshot()
     {
         SetupServer(200, "PostStatusSuccessResponse.json");

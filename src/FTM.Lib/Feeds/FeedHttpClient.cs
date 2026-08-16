@@ -44,7 +44,6 @@ public static class FeedHttpClient
     {
         var request = new HttpRequestMessage(HttpMethod.Get, url);
         request.Headers.IfNoneMatch.TryParseAdd(etag);
-        request.Headers.UserAgent.ParseAdd(HttpClientProvider.UserAgent);
 
         return request;
     }

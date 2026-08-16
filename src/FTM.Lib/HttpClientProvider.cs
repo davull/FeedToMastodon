@@ -7,8 +7,8 @@ namespace FTM.Lib;
 
 public static class HttpClientProvider
 {
-    public const string UserAgent = "FeedToMastodonBot/1.0";
-    
+    private const string UserAgent = "FeedToMastodonBot/1.0";
+
     public static HttpClient CreateHttpClient(TimeSpan? delay = null)
     {
         delay ??= Config.HttpClientRetryDelay;
@@ -34,7 +34,10 @@ public static class HttpClientProvider
                 PooledConnectionLifetime = TimeSpan.FromMinutes(2)
             }
         };
-        return new HttpClient(resilienceHandler);
+
+        var httpClient = new HttpClient(resilienceHandler);
+        httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(UserAgent);
+        return httpClient;
     }
 
     private static ValueTask<bool> ShouldHandle(RetryPredicateArguments<HttpResponseMessage> arg)

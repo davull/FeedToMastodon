@@ -28,7 +28,6 @@ public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
             { Content = GetStatusContent(status) };
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", mastodonAccessToken);
         request.Headers.Add("Idempotency-Key", CreateIdempotencyKey(status));
-        request.Headers.UserAgent.ParseAdd(HttpClientProvider.UserAgent);
 
         return request;
     }
