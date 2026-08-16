@@ -7,6 +7,8 @@ namespace FTM.Lib;
 
 public static class HttpClientProvider
 {
+    public const string UserAgent = "FeedToMastodonBot/1.0";
+    
     public static HttpClient CreateHttpClient(TimeSpan? delay = null)
     {
         delay ??= Config.HttpClientRetryDelay;
