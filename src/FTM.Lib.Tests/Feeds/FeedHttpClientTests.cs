@@ -35,6 +35,7 @@ public class FeedHttpClientTests : TestBase
     [TestCase("RSS-d740e7ca1c01c664422af73be1695061", false)]
     [TestCase("\"abcd", false)]
     [TestCase("abcd\"", false)]
+    [TestCase("\"abcd\"", true)]
     public void IsValidETag_Should_ReturnExpected(string? etag, bool expected)
     {
         var actual = FeedHttpClient.IsValidETag(etag);

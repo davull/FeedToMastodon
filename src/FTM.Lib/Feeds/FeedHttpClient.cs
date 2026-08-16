@@ -51,18 +51,8 @@ public static class FeedHttpClient
         };
     }
 
+
+
     internal static bool IsValidETag(string? etag)
-    {
-        if (string.IsNullOrEmpty(etag))
-        {
-            return false;
-        }
-
-        if ((etag.StartsWith('"') || etag.StartsWith("W/\"")) && etag.EndsWith('"'))
-        {
-            return true;
-        }
-
-        return false;
-    }
+        => EntityTagHeaderValue.TryParse(etag, out _);
 }
