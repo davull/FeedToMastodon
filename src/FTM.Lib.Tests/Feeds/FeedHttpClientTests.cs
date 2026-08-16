@@ -8,8 +8,32 @@ public class FeedHttpClientTests : TestBase
     [TestCase("https://production-ready.de/feed/de.xml")]
     public async Task ReadString_Should_ReturnNonEmptyString(string uri)
     {
-        using var httpClient = new HttpClient();
+        using var httpClient = HttpClientProvider.CreateHttpClient();
         var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+
+    [TestCase("https://www.teslarati.com/feed/")]
+    [TestCase("https://production-ready.de/feed/de.xml")]
+    public async Task ReadString_WithExpiredEtag_Should_ReturnNonEmptyString(string uri)
+    {
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient,
+            etag: "\"expiredetag\"", CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+
+    [Test]
+    public async Task ReadString_FromDigitaltrendsCom_Should_ReturnNonEmptyString()
+    {
+        var uri = new Uri("https://www.digitaltrends.com/rss/");
+
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(uri, httpClient, etag: null, CancellationToken.None);
 
         result.ContentHasChanged.ShouldBeTrue();
         result.Content.ShouldNotBeNull();
@@ -22,8 +46,10 @@ public class FeedHttpClientTests : TestBase
     [TestCase("\"d2a66f246020651404343d58a8394819-ssl\"", true)]
     [TestCase("\"63c9aecc-2b77a\"", true)]
     [TestCase("RSS-d740e7ca1c01c664422af73be1695061", false)]
+    [TestCase("abcd", false)]
     [TestCase("\"abcd", false)]
     [TestCase("abcd\"", false)]
+    [TestCase("\"abcd\"", true)]
     public void IsValidETag_Should_ReturnExpected(string? etag, bool expected)
     {
         var actual = FeedHttpClient.IsValidETag(etag);

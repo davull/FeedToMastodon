@@ -40,7 +40,7 @@ public static class Dummies
         {
             Configuration = configuration,
             Logger = NullLogger.Instance,
-            HttpClient = new HttpClient()
+            HttpClient = HttpClientProvider.CreateHttpClient()
         };
     }
 

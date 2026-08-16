@@ -227,7 +227,7 @@ public static class FeedTestsProvider
             ("devblogs.microsoft.com", "https://devblogs.microsoft.com/visualstudio/feed/"),
             ("thereformedprogrammer.net", "https://www.thereformedprogrammer.net/feed/"),
             ("dkriesel.com", "https://www.dkriesel.com/feed.php"),
-            ("khalidabuhakmeh.com", "https://khalidabuhakmeh.com/feed.xml"),
+            ("khalidabuhakmeh.com", "https://khalidabuhakmeh.com/rss.xml"),
             ("home-assistant.io", "https://www.home-assistant.io/atom.xml"),
             ("andrewlock.net", "https://andrewlock.net/rss/"),
             ("stevetalkscode.co.uk", "https://stevetalkscode.co.uk/feed/index.rss"),

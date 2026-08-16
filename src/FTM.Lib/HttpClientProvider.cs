@@ -7,6 +7,8 @@ namespace FTM.Lib;
 
 public static class HttpClientProvider
 {
+    private const string UserAgent = "FeedToMastodonBot/1.0";
+
     public static HttpClient CreateHttpClient(TimeSpan? delay = null)
     {
         delay ??= Config.HttpClientRetryDelay;
@@ -25,16 +27,17 @@ public static class HttpClientProvider
             .AddRetry(options)
             .Build();
 
-#pragma warning disable EXTEXP0001
         var resilienceHandler = new ResilienceHandler(retryPipeline)
-#pragma warning restore EXTEXP0001
         {
             InnerHandler = new SocketsHttpHandler
             {
                 PooledConnectionLifetime = TimeSpan.FromMinutes(2)
             }
         };
-        return new HttpClient(resilienceHandler);
+
+        var httpClient = new HttpClient(resilienceHandler);
+        httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(UserAgent);
+        return httpClient;
     }
 
     private static ValueTask<bool> ShouldHandle(RetryPredicateArguments<HttpResponseMessage> arg)

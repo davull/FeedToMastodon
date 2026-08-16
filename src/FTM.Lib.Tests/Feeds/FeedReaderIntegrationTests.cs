@@ -36,7 +36,7 @@ public class FeedReaderIntegrationTests : TestBase
     {
         var uri = $"{_server.Url}/feed.xml";
 
-        using var httpClient = new HttpClient();
+        using var httpClient = HttpClientProvider.CreateHttpClient();
         var result = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, etag, CancellationToken.None);
 
         result.feed.ShouldNotBeNull();
@@ -48,7 +48,7 @@ public class FeedReaderIntegrationTests : TestBase
     {
         var uri = $"{_server.Url}/feed.xml";
 
-        using var httpClient = new HttpClient();
+        using var httpClient = HttpClientProvider.CreateHttpClient();
         var result = await FeedReader.ReadIfChanged(new Uri(uri), httpClient, ETag, CancellationToken.None);
 
         result.feed.ShouldBeNull();

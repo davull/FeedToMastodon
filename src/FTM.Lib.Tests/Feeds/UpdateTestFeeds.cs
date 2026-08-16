@@ -60,7 +60,7 @@ public class UpdateTestFeeds : TestBase
 
     private static async Task<string> ReadFeed(string url)
     {
-        using var client = new HttpClient();
+        using var client = HttpClientProvider.CreateHttpClient();
         using var response = await client.GetAsync(url);
         response.EnsureSuccessStatusCode();
 
@@ -69,7 +69,7 @@ public class UpdateTestFeeds : TestBase
 
     private static async Task<HttpResponseMessage> ReadHttpMessage(string url)
     {
-        using var client = new HttpClient();
+        using var client = HttpClientProvider.CreateHttpClient();
         var response = await client.GetAsync(url);
         response.EnsureSuccessStatusCode();
 
