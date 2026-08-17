@@ -4,11 +4,21 @@ namespace FTM.Lib.Tests.Feeds;
 
 public class FeedHttpClientTests : TestBase
 {
-    [TestCase("https://www.teslarati.com/feed/")]
-    [TestCase("https://production-ready.de/feed/de.xml")]
-    [TestCase("https://www.digitaltrends.com/rss/")]
+    [Explicit]
     [TestCase("https://www.thereformedprogrammer.net/feed/")]
     [TestCase("https://driveteslacanada.ca/feed")]
+    [TestCase("https://www.digitaltrends.com/rss/")]
+    public async Task ReadString_FromPickyBlogs_Should_ReturnNonEmptyString(string uri)
+    {
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+    
+    [TestCase("https://www.teslarati.com/feed/")]
+    [TestCase("https://production-ready.de/feed/de.xml")]
     public async Task ReadString_Should_ReturnNonEmptyString(string uri)
     {
         using var httpClient = HttpClientProvider.CreateHttpClient();
@@ -30,7 +40,6 @@ public class FeedHttpClientTests : TestBase
         result.Content.ShouldNotBeNull();
     }
 
-    [Theory]
     [TestCase("", false)]
     [TestCase(null, false)]
     [TestCase("W/\"9443658e7a59be38c14d4d3e1553a623\"", true)]
