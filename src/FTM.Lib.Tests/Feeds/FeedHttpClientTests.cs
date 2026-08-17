@@ -4,6 +4,19 @@ namespace FTM.Lib.Tests.Feeds;
 
 public class FeedHttpClientTests : TestBase
 {
+    [Explicit]
+    [TestCase("https://www.thereformedprogrammer.net/feed/")]
+    [TestCase("https://driveteslacanada.ca/feed")]
+    [TestCase("https://www.digitaltrends.com/rss/")]
+    public async Task ReadString_FromPickyBlogs_Should_ReturnNonEmptyString(string uri)
+    {
+        using var httpClient = HttpClientProvider.CreateHttpClient();
+        var result = await FeedHttpClient.ReadString(new Uri(uri), httpClient, etag: null, CancellationToken.None);
+
+        result.ContentHasChanged.ShouldBeTrue();
+        result.Content.ShouldNotBeNull();
+    }
+    
     [TestCase("https://www.teslarati.com/feed/")]
     [TestCase("https://production-ready.de/feed/de.xml")]
     public async Task ReadString_Should_ReturnNonEmptyString(string uri)
@@ -27,19 +40,6 @@ public class FeedHttpClientTests : TestBase
         result.Content.ShouldNotBeNull();
     }
 
-    [Test]
-    public async Task ReadString_FromDigitaltrendsCom_Should_ReturnNonEmptyString()
-    {
-        var uri = new Uri("https://www.digitaltrends.com/rss/");
-
-        using var httpClient = HttpClientProvider.CreateHttpClient();
-        var result = await FeedHttpClient.ReadString(uri, httpClient, etag: null, CancellationToken.None);
-
-        result.ContentHasChanged.ShouldBeTrue();
-        result.Content.ShouldNotBeNull();
-    }
-
-    [Theory]
     [TestCase("", false)]
     [TestCase(null, false)]
     [TestCase("W/\"9443658e7a59be38c14d4d3e1553a623\"", true)]

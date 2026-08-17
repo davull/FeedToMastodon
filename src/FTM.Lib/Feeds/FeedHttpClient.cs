@@ -44,6 +44,8 @@ public static class FeedHttpClient
     {
         var request = new HttpRequestMessage(HttpMethod.Get, url);
         request.Headers.IfNoneMatch.TryParseAdd(etag);
+        request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
+        request.Headers.ConnectionClose = true;
 
         return request;
     }
