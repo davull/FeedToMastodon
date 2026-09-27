@@ -40,9 +40,15 @@
     "BodyData": {
       "BodyAsString": "status=This+is+a+test+status&language=en-US&visibility=public",
       "BodyAsFormUrlEncoded": {
-        "status": "This is a test status",
-        "language": "en-US",
-        "visibility": "public"
+        "status": [
+          "This is a test status"
+        ],
+        "language": [
+          "en-US"
+        ],
+        "visibility": [
+          "public"
+        ]
       },
       "BodyAsJson": null,
       "BodyAsBytes": "c3RhdHVzPVRoaXMraXMrYSt0ZXN0K3N0YXR1cyZsYW5ndWFnZT1lbi1VUyZ2aXNpYmlsaXR5PXB1YmxpYw==",
