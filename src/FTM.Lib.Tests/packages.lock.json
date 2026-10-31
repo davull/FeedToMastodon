@@ -32,11 +32,11 @@
       },
       "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
         "type": "Direct",
-        "requested": "[1.19.1, )",
-        "resolved": "1.19.1",
-        "contentHash": "vsYYOBf/KxNubnuoja8pjJ9LG0zCC9HAYPay+R6N5ZKZMbhNdKWbaq6JZqJqTvK+55rudiqErJySekf9ql8okA==",
+        "requested": "[1.20.1, )",
+        "resolved": "1.20.1",
+        "contentHash": "IlO8F0Y01ki0N5hJaeFJ5j3MVYJdbyNpDF9g7goU8wA3o8r/+ir9WJNnmte7QlUzM3iSV/aIuev1fqwF1CZOqg==",
         "dependencies": {
-          "OpenTelemetry": "1.19.1"
+          "OpenTelemetry": "1.20.1"
         }
       },
       "Shouldly": {
@@ -67,16 +67,16 @@
       },
       "WireMock.Net": {
         "type": "Direct",
-        "requested": "[2.19.0, )",
-        "resolved": "2.19.0",
-        "contentHash": "gRRkenH4Qjil5UVwRwvSK2o5SCC9lNmMMVjjO/s0+LX7WveuUthUa5HVBvJlSHRb/R4xEf+JPeuuiKE8pyzq7A==",
+        "requested": "[2.20.0, )",
+        "resolved": "2.20.0",
+        "contentHash": "rpiL8l4bGfYHAhm+eafJX5FMpPkdCdvpXxScnoPW5oRTUCM1Xo/k3k8kuJbmxlDXxlVEUgUN8rk6n56Tc5zDeg==",
         "dependencies": {
-          "WireMock.Net.GraphQL": "2.19.0",
-          "WireMock.Net.Matchers.SystemTextJsonPath": "2.19.0",
-          "WireMock.Net.MimePart": "2.19.0",
-          "WireMock.Net.Minimal": "2.19.0",
-          "WireMock.Net.OpenTelemetry": "2.19.0",
-          "WireMock.Net.ProtoBuf": "2.19.0"
+          "WireMock.Net.GraphQL": "2.20.0",
+          "WireMock.Net.Matchers.SystemTextJsonPath": "2.20.0",
+          "WireMock.Net.MimePart": "2.20.0",
+          "WireMock.Net.Minimal": "2.20.0",
+          "WireMock.Net.OpenTelemetry": "2.20.0",
+          "WireMock.Net.ProtoBuf": "2.20.0"
         }
       },
       "AnyOf": {
@@ -680,8 +680,8 @@
       },
       "Json.More.Net": {
         "type": "Transitive",
-        "resolved": "3.0.1",
-        "contentHash": "fRctF2J2SILYG6wqP21drmeEODmCVkVQ/b3MndDu2fT1swfySyUgq7ePCk+aENGlDcIm05fyfjh9vcuqDEfv3w=="
+        "resolved": "2.2.0",
+        "contentHash": "fiyEZJNgiCzDa7/N9bZ+CnM5qnawyJ54+CkHNZ2svwxWBWNNFzydJ7RlroqMdOjokGBiLcKIxdajNvOklzlYqQ=="
       },
       "JsonConverter.Abstractions": {
         "type": "Transitive",
@@ -709,10 +709,10 @@
       },
       "JsonPath.Net": {
         "type": "Transitive",
-        "resolved": "3.0.2",
-        "contentHash": "Cmt2mvPYOLljjqSfM1xUYZYTPf8MPbwv2XpCpPxxq9u23/CGrz/fljgd1fJUNujd3+E1adNOyF1TLwppbyQwxg==",
+        "resolved": "2.2.0",
+        "contentHash": "oARgzvSWx8Xp7Y3oxapPDmB+gIGw31aqY0YS2xA0HfydYJMvWW6e0KeJIfPeCmqiOqKcOOXSwAYF/3yE+VhCOg==",
         "dependencies": {
-          "Json.More.Net": "3.0.1"
+          "Json.More.Net": "2.2.0"
         }
       },
       "MetadataReferenceService.Abstractions": {
@@ -801,8 +801,8 @@
       },
       "Microsoft.Data.Sqlite.Core": {
         "type": "Transitive",
-        "resolved": "10.0.13",
-        "contentHash": "Gge8XsSCOwcbkbdmt2UDAe6kIv9Q0vA6yb3wsTStjjexaMFLTWfc/1gH4kbhJ+zWiXRTRA4lG2sOQNVfir204w==",
+        "resolved": "10.0.14",
+        "contentHash": "1p9rO3Q2X/L/9YrYog3vaDzi8u+WZfJCOkDYoHqmofqYP0DLPLPyZcS2Rnh/79JXAodgbs1AgsaNwLpIvC3Xew==",
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.13"
         }
@@ -854,16 +854,16 @@
       },
       "Microsoft.Extensions.DependencyInjection": {
         "type": "Transitive",
-        "resolved": "10.0.13",
-        "contentHash": "4tnWU9vrU/A8NwYe9Z6wvieZ0EBb/uM82LAT+edNhdepOBWREZ7M7mzb941EIDPJaeOFdbVrDd5+7s9e89U6bQ==",
+        "resolved": "10.0.14",
+        "contentHash": "2LzcuVjemeXR+WdY9wGIr8iGb7fYsDAit+IScxXX2XJnX0b++mWcE/WO6fEGIqhdMfSQM2ZS5JGMHYZix7YXZg==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.14"
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions": {
         "type": "Transitive",
-        "resolved": "10.0.13",
-        "contentHash": "G2GrGWNAPZBsii2F6AU8n+JT2tC1/I0Ml/e9ZyNCgPjf3hZqronP7o0X91aAynCmVeae8KkSIUNXXeXCNRmdVQ=="
+        "resolved": "10.0.14",
+        "contentHash": "QtpQzuSZVyTPCuHW058yCs9Nj0394uUkNyFHS813nOmK9UgUdBdaprJ5PPsBgsQIpxADTsTkbaMMonykem6qdw=="
       },
       "Microsoft.Extensions.DependencyInjection.AutoActivation": {
         "type": "Transitive",
@@ -969,11 +969,11 @@
       },
       "Microsoft.Extensions.Options": {
         "type": "Transitive",
-        "resolved": "10.0.13",
-        "contentHash": "tmMJgdrE4uhf1JcNs9CV9moAHW+hmDuvgMiPpnQxarKaUxqI2eN33sYK5S4l9Uw+rG9PJvlm4qPxMhvolTDTaQ==",
+        "resolved": "10.0.14",
+        "contentHash": "EeN/33S418m9oWEaZY4N5T+BNxtOqNTIFoFbIgBKwylh4OJPKIWFAzbIhpTdNbwUs26MhkmbLCAbdY+YCJ1dIQ==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13",
-          "Microsoft.Extensions.Primitives": "10.0.13"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.14",
+          "Microsoft.Extensions.Primitives": "10.0.14"
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions": {
@@ -990,8 +990,8 @@
       },
       "Microsoft.Extensions.Primitives": {
         "type": "Transitive",
-        "resolved": "10.0.13",
-        "contentHash": "ZjTwxzhiw2TMEzIbUDkMF0dfDB2I4NQgIfKD0ELu9/5Mk+SRGdKZcD0/lvBrRCAPo6KN2r0BW86MRancoyJkoA=="
+        "resolved": "10.0.14",
+        "contentHash": "1bbZqqCJTPba3inTADExbp/9PsGVyvGOX3zr6tFr7ySCgVkX9Lpw7BV0TizktNItd3SsbUu1sQfSAYm1GZMoNw=="
       },
       "Microsoft.Extensions.Resilience": {
         "type": "Transitive",
@@ -1186,27 +1186,27 @@
       },
       "OpenTelemetry": {
         "type": "Transitive",
-        "resolved": "1.19.1",
-        "contentHash": "6ywhc3upf+dq8EsOohj7I7zS3l4yX9vfbtFkvyEC8xIUY4Z9iDIOVuke356eCAzIZaWtmwmmyl2UXYCp5n7I3Q==",
+        "resolved": "1.20.1",
+        "contentHash": "+XDw3fYbiv1a40aFnDJSQleeuUJciXuhoIA19XmcGhT47Hy/xZRqk8NCjHUDKrg72Ixjthicecp8ygBDNeH/Jw==",
         "dependencies": {
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "10.0.0",
           "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.0",
           "Microsoft.Extensions.Logging.Configuration": "10.0.0",
-          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.19.1"
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.20.1"
         }
       },
       "OpenTelemetry.Api": {
         "type": "Transitive",
-        "resolved": "1.19.1",
-        "contentHash": "9JKIH+xrV0HNTFjQC8zrx9gZpDOMEljN5Htg/U0VE2IvO3N+7bKALCCsGy5tp09marX5dd8UkrgQFoLaulIBRw=="
+        "resolved": "1.20.1",
+        "contentHash": "QO9hlwadOdJGR4vDpJyDnl9B62v7epIBSTIHUA4C+bCtrRaB4TWmYSnu3QVOIe7caH8dt7NaHRei6zebESJJyw=="
       },
       "OpenTelemetry.Api.ProviderBuilderExtensions": {
         "type": "Transitive",
-        "resolved": "1.19.1",
-        "contentHash": "HtGe72B/IhzKqdU0a3fNE5osax/Cegwxd+p4u6lOFy20nsgmeaFuP2NRyFs1WvrOv/bpkII3IvvBkKoZXG8BLg==",
+        "resolved": "1.20.1",
+        "contentHash": "eDzDY/jTBqRytkYECmVKF7ZP5sKmCIqv1SSnA5BSWltIIvc3931TOMRyCW1qCGNIgmtldtJhISnsmFNxOCfauQ==",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
-          "OpenTelemetry.Api": "1.19.1"
+          "OpenTelemetry.Api": "1.20.1"
         }
       },
       "OpenTelemetry.Extensions.Hosting": {
@@ -1377,40 +1377,40 @@
       },
       "WireMock.Net.Abstractions": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "I3vhSVi7SVPKU6U/N0w7Brzr9YA+TenygZDfg0521GeMUUIbZkhm4ffJOonnCQgIrKVJDF3J6lKpcB1txW3QAA=="
+        "resolved": "2.20.0",
+        "contentHash": "ujGb8NzK0NSJ15Te5aUquLfFq/wsMGrlea6QreioCqcrY8VPvY6yJobfethfy1nnINfIK6guWQies7/9XMiQuQ=="
       },
       "WireMock.Net.GraphQL": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "h0pwcwL5og7FvSIDumzWGfSo68ozQtMw68KppZ3JRsVUNrxVP/I1YjDhCgIowqq3VNTuMl7ZVygb592a6PMAWA==",
+        "resolved": "2.20.0",
+        "contentHash": "IgWX2hxaIe2y1NXnsm4lgQi4/W51C7L5VYjz7XcR/ZtnWyhxYdLsjpOevE7ndPMpmve9r2zQCGRvphy0Ml9G6Q==",
         "dependencies": {
           "GraphQL.NewtonsoftJson": "8.5.0",
-          "WireMock.Net.Shared": "2.19.0"
+          "WireMock.Net.Shared": "2.20.0"
         }
       },
       "WireMock.Net.Matchers.SystemTextJsonPath": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "I070XTu89wNVOkTePSgSaI9LQdgBgUDbVXPvi90jMzcs9osLIaAKhZE8FiIgfOFXJA35NqNMVgH9whu4+MWhmQ==",
+        "resolved": "2.20.0",
+        "contentHash": "WTvUjq5vvZAA57qX/UFMn+OGXCYV6GKy6ZbiJHCHpea6mrBSw5aCAYsG7PnjPx4hZiMNi5R8cCsE4uMrsfB8eg==",
         "dependencies": {
-          "JsonPath.Net": "3.0.2",
-          "WireMock.Net.Shared": "2.19.0"
+          "JsonPath.Net": "2.2.0",
+          "WireMock.Net.Shared": "2.20.0"
         }
       },
       "WireMock.Net.MimePart": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "UftWbnGzzFCo/nWKkaTsXCA1BJEMQiMlqR32vdQpEqVEYJcnDHHXWBjY5GtwBjN7oMoDH+y9ofrmGWDije/hsw==",
+        "resolved": "2.20.0",
+        "contentHash": "ncquseX7i93rLY6JT4TgBafKs/MZlOvdsoqN/xlkRNJvy5zXNpRvlStStwfZR+FMhcmF2dn7uoJMI3oqD0fU2A==",
         "dependencies": {
           "Stef.Validation": "0.3.0",
-          "WireMock.Net.Shared": "2.19.0"
+          "WireMock.Net.Shared": "2.20.0"
         }
       },
       "WireMock.Net.Minimal": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "glWQv2nZjcCkYeXdl1EjvDZ/ipYlLwYFpFV8JBrhvc2WE779L8cS3ciicD4/fuUVMza0zFBe8zYxgWH1+rZg3w==",
+        "resolved": "2.20.0",
+        "contentHash": "6KHfx3M4wkOeAvCHpk6r0FzvanV8gKm/tuGLtreKo9KRrKQod000oWH1lVbNiYg3KrRgJNbhLQfjbmV2CuiqCA==",
         "dependencies": {
           "JmesPath.Net": "1.1.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.34.0",
@@ -1419,48 +1419,48 @@
           "Scriban.Signed": "7.2.5",
           "SimMetrics.Net": "1.0.5",
           "TinyMapper.Signed": "4.0.0",
-          "WireMock.Net.OpenApiParser": "2.19.0",
-          "WireMock.Net.Shared": "2.19.0",
-          "WireMock.Org.Abstractions": "2.19.0"
+          "WireMock.Net.OpenApiParser": "2.20.0",
+          "WireMock.Net.Shared": "2.20.0",
+          "WireMock.Org.Abstractions": "2.20.0"
         }
       },
       "WireMock.Net.OpenApiParser": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "jmbw7aLPkjv4kOJPR05vEyTOir4U9CEmHTgeoSapO13OwqbFwPikcKuuXPGMtcZYUZsygOrPDGTsoldqdeREfw==",
+        "resolved": "2.20.0",
+        "contentHash": "v0pJ7KO9NxMnKq9KdG1xd1VArlEVHfrUA5Nqs4d4UZorVLitkuI2np/SzbOugQ/yitlxVj8pidlRO0zLEHkxPQ==",
         "dependencies": {
           "Newtonsoft.Json": "13.0.4",
           "RamlToOpenApiConverter.SourceOnly": "0.50.0",
           "RandomDataGenerator.Net": "1.0.19.1",
           "SharpYaml": "2.1.5",
           "Stef.Validation": "0.3.0",
-          "WireMock.Net.Abstractions": "2.19.0"
+          "WireMock.Net.Abstractions": "2.20.0"
         }
       },
       "WireMock.Net.OpenTelemetry": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "mNf87hQlbhsxhhdXjjnZ0/Ea0H1XE9YV5z8yewh9zO4YmGXpLPyNPk39z8JO+z0mV2kh6SpghL43U0tpBOxqVA==",
+        "resolved": "2.20.0",
+        "contentHash": "oUINFOPHadQLwl/BkO2KXnpFyfqXSSR7f+Jml7dz/BL+eOHirD7n1xkrnKP1/lLTFLlamtRPxaJatfi6KqZ/7g==",
         "dependencies": {
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.15.3",
           "OpenTelemetry.Extensions.Hosting": "1.15.3",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.15.2",
-          "WireMock.Net.Shared": "2.19.0"
+          "WireMock.Net.Shared": "2.20.0"
         }
       },
       "WireMock.Net.ProtoBuf": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "8vATxNJ07FYnVENF7wRCC6zwNCvABDSjyM3UsLyc8Z2Qve1cvoLrEO9XYK5CQdvPWChZjB5nRXfk/E8RS+eDmA==",
+        "resolved": "2.20.0",
+        "contentHash": "amQAg8dXb6AwMY4w07qYsN/f0qIappKbAOk9TRP9SsfV0V6BPXrZsbu7GvQvOeXX14KwPZ54TJf57+zq9pEYcA==",
         "dependencies": {
           "ProtoBufJsonConverter": "0.11.0",
-          "WireMock.Net.Shared": "2.19.0"
+          "WireMock.Net.Shared": "2.20.0"
         }
       },
       "WireMock.Net.Shared": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "ZIAA8XUUcnTd8p4AU3drLUCUgMi7QYKfExWxP+7/5W7IaIIvDcEzuBrNMNsnpJUufPlhXPtOEDeMgps0Z98UOQ==",
+        "resolved": "2.20.0",
+        "contentHash": "PxjMnC18IhbRi5n7hjka368nWcnK3sVRziKJ1OV/NZLF5JipA3fmtVuPCoSrNhjo4GIq34RhEW39kh3yrjHNRg==",
         "dependencies": {
           "AnyOf": "0.5.0.1",
           "Handlebars.Net.Helpers": "2.5.5",
@@ -1475,13 +1475,13 @@
           "Microsoft.AspNetCore.Http": "2.3.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "Stef.Validation": "0.3.0",
-          "WireMock.Net.Abstractions": "2.19.0"
+          "WireMock.Net.Abstractions": "2.20.0"
         }
       },
       "WireMock.Org.Abstractions": {
         "type": "Transitive",
-        "resolved": "2.19.0",
-        "contentHash": "am86+b/S2JXWMhZvv0E4dELfGdn9QdyZlpFLoNhHvgTUfmqALWA+uS9G13pZJUjElOsCOJfTMzT36O5AkXw5PA=="
+        "resolved": "2.20.0",
+        "contentHash": "fNA2D2jmj7NKqrEQ0aBBUYV0/zwddB0qZ9LmpXccB/kUyB2Pj4iSMDnevtHvFIX61PzJ3WgEJ4SgfHoI5EhTaQ=="
       },
       "XPath2": {
         "type": "Transitive",
@@ -1502,9 +1502,9 @@
         "dependencies": {
           "Dapper": "[2.1.89, )",
           "HtmlAgilityPack": "[1.13.1, )",
-          "Microsoft.Data.Sqlite": "[10.0.13, )",
+          "Microsoft.Data.Sqlite": "[10.0.14, )",
           "Microsoft.Extensions.Http.Resilience": "[10.11.0, )",
-          "Microsoft.Extensions.Logging": "[10.0.13, )",
+          "Microsoft.Extensions.Logging": "[10.0.14, )",
           "SQLitePCLRaw.bundle_e_sqlite3": "[3.0.5, )",
           "Serilog": "[4.4.0, )",
           "Serilog.Extensions.Logging": "[10.0.0, )",
@@ -1544,18 +1544,18 @@
       },
       "Microsoft.Data.Sqlite": {
         "type": "CentralTransitive",
-        "requested": "[10.0.13, )",
-        "resolved": "10.0.13",
-        "contentHash": "w37nz3WFmDtRfXxWEwIXX2OgqDRiwhD1JGbFwfpFCF8GkCrV/yO6Y2JF5058J2RGoI2sCcdn02wrk0yEcekWcw==",
+        "requested": "[10.0.14, )",
+        "resolved": "10.0.14",
+        "contentHash": "muyroan6rKrf0omZL8UF7Kw5uOGp/yBg1L/XWvkFN3WhKaNtK2IWqRZw93nIwVqjhTVDO0l4CEGhHIh+mb+sKg==",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "10.0.13",
+          "Microsoft.Data.Sqlite.Core": "10.0.14",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.13",
           "SQLitePCLRaw.core": "2.1.13"
         }
       },
       "Microsoft.Extensions.Configuration": {
         "type": "CentralTransitive",
-        "requested": "[10.0.13, )",
+        "requested": "[10.0.14, )",
         "resolved": "10.0.13",
         "contentHash": "inhujYI/nikhmLxYI6ZEcaCgZ28ipJsKMPPxxr2XWf3vM0Q2P+E9R3hDHABZOLBxzD3gjpgcbSH/+hd2+gvI2A==",
         "dependencies": {
@@ -1576,22 +1576,22 @@
       },
       "Microsoft.Extensions.Logging": {
         "type": "CentralTransitive",
-        "requested": "[10.0.13, )",
-        "resolved": "10.0.13",
-        "contentHash": "fqbiPy4nUp4H2XHKAVQXKN2y3T2h4cFIx1DAAgE6iY9OHkN/OA1cKFi+geJKRWGuX6pS5SFbsjIPWHJqrxE0eg==",
+        "requested": "[10.0.14, )",
+        "resolved": "10.0.14",
+        "contentHash": "O2fXL6JmtkFwkigxS8fPTQpLXxGDjgZco5D+h88s++Cl0bDCs023PVkpNoifciJ+f30I82jnp8tpwF0wCLdFtA==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "10.0.13",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.13",
-          "Microsoft.Extensions.Options": "10.0.13"
+          "Microsoft.Extensions.DependencyInjection": "10.0.14",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.14",
+          "Microsoft.Extensions.Options": "10.0.14"
         }
       },
       "Microsoft.Extensions.Logging.Abstractions": {
         "type": "CentralTransitive",
-        "requested": "[10.0.13, )",
-        "resolved": "10.0.13",
-        "contentHash": "aSZEhEig4fvNiw2zs8Z6NyDlniKtq6YjcF3DyHuqTEHcZ2VKA/6itMPZ+dW+yWABWExlDcQwwdbqX1Rcb7W8WQ==",
+        "requested": "[10.0.14, )",
+        "resolved": "10.0.14",
+        "contentHash": "SwcbEBtkECq3D2oywvHkm46fyrX9Dd2JPWphDnHUc2+cUWR1Mdo41atAjh/9iZjgQxuvbKfZKXqostT/LZfefA==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.14"
         }
       },
       "Serilog": {
