@@ -88,7 +88,7 @@ public class FeedItemPosterTests
             return Task.CompletedTask;
         }
 
-        Task<string> PostStatus(MastodonStatus status, WorkerContext _, CancellationToken __)
+        static Task<string> PostStatus(MastodonStatus status, WorkerContext _, CancellationToken __)
             => Task.FromResult(postStatusId);
     }
 }
