@@ -194,7 +194,10 @@ steps:
     displayName: Create buildx environment
     inputs:
       script: |
-        docker buildx create --use --driver-opt network=host
+        set -euo pipefail
+        ls -l /var/run/docker.sock
+        docker info
+        docker buildx create --name ftm-$(Build.BuildId) --use --driver-opt network=host
         docker buildx inspect --bootstrap
 
   - ${{ if eq(variables.PushDockerImage, 'false') }}:
@@ -248,5 +251,4 @@ steps:
     displayName: Cleanup docker environment
     inputs:
       script: |
-        docker buildx stop
-        docker buildx rm --all-inactive --force
+        docker buildx rm --force ftm-$(Build.BuildId) || true
