@@ -59,7 +59,7 @@ public class MastodonClient(ILogger<MastodonClient> logger) : IMastodonClient
 
         return new FormUrlEncodedContent(fields);
 
-        string Map(MastodonStatusVisibility visibility)
+        static string Map(MastodonStatusVisibility visibility)
         {
             return visibility switch
             {

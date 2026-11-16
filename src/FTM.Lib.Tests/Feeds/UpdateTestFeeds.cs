@@ -31,7 +31,7 @@ public class UpdateTestFeeds : TestBase
         var snapshot = CreateSnapshot(relevantHeaders);
         snapshot.MatchSnapshotWithTestName();
 
-        bool Filter(KeyValuePair<string, IEnumerable<string>> header)
+        static bool Filter(KeyValuePair<string, IEnumerable<string>> header)
         {
             string[] ignoredHeaders =
             [
@@ -46,7 +46,7 @@ public class UpdateTestFeeds : TestBase
             return !ignoredHeaders.Contains(header.Key, StringComparer.OrdinalIgnoreCase);
         }
 
-        string CreateSnapshot(IEnumerable<KeyValuePair<string, IEnumerable<string>>> headers)
+        static string CreateSnapshot(IEnumerable<KeyValuePair<string, IEnumerable<string>>> headers)
         {
             var sb = new StringBuilder();
             foreach (var (key, value) in headers)

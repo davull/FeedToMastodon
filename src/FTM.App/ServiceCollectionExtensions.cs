@@ -24,7 +24,7 @@ public static class ServiceCollectionExtensions
             services.AddSingleton<IHostedService, FeedBackgroundWorker>(_ => worker);
         }
 
-        IConfiguration GetAppConfiguration()
+        static IConfiguration GetAppConfiguration()
         {
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: true)
@@ -70,7 +70,7 @@ public static class ServiceCollectionExtensions
             }
         }
 
-        IMastodonClient CreateMastodonClient(ILoggerFactory lf)
+        static IMastodonClient CreateMastodonClient(ILoggerFactory lf)
         {
             return Config.UseMastodonTestClient
                 ? new MastodonTestClient()

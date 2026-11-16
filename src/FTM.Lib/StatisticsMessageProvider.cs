@@ -37,7 +37,7 @@ public static class StatisticsMessageProvider
                 {summary}
                 """;
 
-        string FormatRow(PostsPerFeed posts)
+        static string FormatRow(PostsPerFeed posts)
         {
             const int max = Width - 9;
 

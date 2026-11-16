@@ -83,7 +83,7 @@ public static class FeedConfigurationReader
                 .ToArray();
         }
 
-        string SanitizeTag(string tag)
+        static string SanitizeTag(string tag)
         {
             tag = tag.TrimStart('#');
             return tag;

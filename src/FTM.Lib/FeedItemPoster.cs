@@ -87,7 +87,7 @@ public static class FeedItemPoster
                 ItemAlreadyProcessed(item) is false)
             .ToList();
 
-        bool ItemHasRequitedContent(FeedItem item)
+        static bool ItemHasRequitedContent(FeedItem item)
         {
             if (item.Link is null)
             {

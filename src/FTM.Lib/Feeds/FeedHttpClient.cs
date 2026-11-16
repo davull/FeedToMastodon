@@ -32,7 +32,7 @@ public static class FeedHttpClient
         var content = await response.Content.ReadAsStringAsync(cancellationToken);
         return new ReadStringResult(true, content, newEtag);
 
-        string? GetETag(HttpHeaders headers)
+        static string? GetETag(HttpHeaders headers)
         {
             return headers.TryGetValues(ETagHeader, out var values)
                 ? values.FirstOrDefault()
