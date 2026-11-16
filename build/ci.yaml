@@ -14,7 +14,7 @@ parameters:
 
 variables:
   - name: BuildContainerImage
-    value: davidullrich/azurepipelineagent:node-22
+    value: davidullrich/azurepipelineagent:node-24
   - name: Projects
     value: "src/*/*.csproj"
   - name: TestProjects
