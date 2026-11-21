@@ -4,7 +4,7 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="coverlet.collector" Version="10.1.0" />
+    <PackageVersion Include="coverlet.collector" Version="10.1.1" />
     <PackageVersion Include="Dapper" Version="2.1.89" />
     <PackageVersion Include="dbup-sqlite" Version="6.0.4" />
     <PackageVersion Include="HtmlAgilityPack" Version="1.13.1" />
